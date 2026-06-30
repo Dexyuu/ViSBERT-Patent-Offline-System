@@ -1,0 +1,34 @@
+{
+  "title": "Systems and methods for signaling of downsampling filters for chroma from luma intra prediction mode",
+  "abstract": "The various implementations described herein include methods and systems for decoding video. In one aspect, a method includes receiving a video stream having a sequence of frames. The sequence of frames includes one or more key frames. Each key frame has a respective downsampling filter type. The method includes, in accordance with a determination that a current frame corresponds to a first key frame, retrieving, from the video stream, a syntax element associated with a first downsampling filter type associated with the first key frame. The method includes a luma block of the current frame and a predefined set of frames immediately after the current frame using the first downsampling filter type to obtain downsampled frames. The method includes predicting a chroma block of the current frame based on the downsampled frames.",
+  "claims": "1. A method for video decoding, performed at a computing system having one or more processors and memory, the method comprising: receiving a video stream having a sequence of frames, the sequence of frames including one or more key frames, and each key frame having a respective downsampling filter type; in accordance with a determination that a current frame corresponds to a first key frame of the one or more key frames, wherein the one or more key frames are associated with N downsampling filter types, N being an integer; retrieving, from the video stream, a syntax element associated with a first downsampling filter type associated with the first key frame, wherein the syntax element has a fixed length coding corresponding to M bits, M being an integer and satisfying a relationship N≤2 M ; downsampling a luma block of the current frame and a predefined set of frames immediately after the current frame using the first downsampling filter type to obtain downsampled frames; and predicting a chroma block of the current frame based on the downsampled frames.",
+  "patent_id": "US12382028-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/11",
+      "H04N 19/117",
+      "H04N 19/136",
+      "H04N 19/159",
+      "H04N 19/172",
+      "H04N 19/176",
+      "H04N 19/186",
+      "H04N 19/593",
+      "H04N 19/70",
+      "H04N 19/80"
+    ],
+    "all": [
+      "H04N 19/11",
+      "H04N 19/117",
+      "H04N 19/136",
+      "H04N 19/159",
+      "H04N 19/172",
+      "H04N 19/176",
+      "H04N 19/186",
+      "H04N 19/593",
+      "H04N 19/70",
+      "H04N 19/80"
+    ],
+    "source": "converted"
+  }
+}

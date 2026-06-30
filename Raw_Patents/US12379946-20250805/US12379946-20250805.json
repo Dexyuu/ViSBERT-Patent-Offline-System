@@ -1,0 +1,26 @@
+{
+  "title": "Integration of fragment modules in user interfaces",
+  "abstract": "Methods and systems are presented for providing a framework to integrate independent fragment modules into an integrated user interface. The fragment modules can be simultaneously rendered on a user interface page or sequentially rendered across multiple user interface pages. The fragment modules are configured to interact with a user via the user interface. The interactions with the user may trigger an event. When an event associated with a fragment module occurs, the fragment module is configured to broadcast the event. An orchestrator is configured to monitor events associated with different fragment modules. The orchestrator may include an event handler for performing one or more action in response to an event. The action may include configuring another fragment module to modify a presentation and/or perform a transaction based on the event.",
+  "claims": "1. A system, comprising: a non-transitory memory; and one or more hardware processors coupled with the non-transitory memory and configured to read instructions from the non-transitory memory to cause the system to perform operations comprising: receiving, from a user device, a request for accessing a user interface page associated with a user account with a service provider; selecting, from a plurality of fragment modules available for implementing the user interface page, a subset of fragment modules for a user of the user device, wherein each fragment module in the subset of fragment modules is a standalone application that is independent from other fragment modules in the subset of fragment modules; generating the user interface page based on rendering the subset of fragment modules, wherein each fragment module in the subset of fragment modules, when rendered, is configured to present a corresponding interface within a corresponding portion of the user interface page and to interact with the user of the user device via the corresponding interface; detecting an event associated with a first fragment module from the subset of fragment modules, the event corresponding to a user interaction with a first interface of the first fragment module; and in response to detecting the event, causing a modification of a second interface of a second fragment module rendered on the user interface.",
+  "patent_id": "US12379946-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/451",
+      "G06F 3/0482",
+      "G06F 3/04842",
+      "G06F 8/36",
+      "G06F 16/958",
+      "G06F 2203/04803"
+    ],
+    "all": [
+      "G06F 9/451",
+      "G06F 3/0482",
+      "G06F 3/04842",
+      "G06F 8/36",
+      "G06F 16/958",
+      "G06F 2203/04803"
+    ],
+    "source": "converted"
+  }
+}

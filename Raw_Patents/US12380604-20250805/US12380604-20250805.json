@@ -1,0 +1,16 @@
+{
+  "title": "Point cloud data transmission device, point cloud data transmission method, point cloud data reception device, and point cloud data reception method",
+  "abstract": "A point cloud data transmission method according to an embodiment may comprise the steps of: encoding point cloud data; and transmitting the point cloud data. A point cloud data reception method according to an embodiment may comprise the steps of: receiving point cloud data; and decoding the point cloud data.",
+  "claims": "1. A method of encoding point cloud data, the method comprising: encoding geometry data of point cloud data, wherein the geometry data is encoded based on inter prediction, wherein motion compensation is applied to a reference frame for the inter prediction, wherein points for the reference frame are determined based on a threshold; encoding attribute data of the point cloud data; and transmitting a bitstream including the point cloud data, wherein the bitstream includes parameter information to determine the points for the inter prediction.",
+  "patent_id": "US12380604-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 9/001"
+    ],
+    "all": [
+      "G06T 9/001"
+    ],
+    "source": "converted"
+  }
+}

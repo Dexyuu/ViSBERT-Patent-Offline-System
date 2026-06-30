@@ -1,0 +1,20 @@
+{
+  "title": "Connection modification based on traffic pattern",
+  "abstract": "Connection modification based on traffic pattern is described. In accordance with the described techniques, a traffic pattern of memory operations across a set of connections between at least one device and at least one memory is monitored. The traffic pattern is then compared to a threshold traffic pattern condition, such as an amount of data traffic in different directions across the connections. A traffic direction of at least one connection of the set of connections is modified based on the traffic pattern corresponding to the threshold traffic pattern condition.",
+  "claims": "1. A system comprising: at least one processor; and computer-executable instructions that are executable by the at least one processor to: monitor a traffic pattern for memory operations across a set of connections between at least one device and at least one memory by monitoring a respective traffic size of the memory operations for a time period in each of two directions and calculating a respective traffic usage for the time period in each of the two directions based on the respective traffic size; compare the respective traffic usage in each of the two directions to a threshold traffic pattern condition that indicates a threshold amount of traffic for the time period in each of the two directions; and modify a traffic direction of at least one connection of the set of connections based on the respective traffic usage in the traffic direction corresponding to the threshold traffic pattern condition.",
+  "patent_id": "US12379845-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0611",
+      "G06F 3/0653",
+      "G06F 3/0673"
+    ],
+    "all": [
+      "G06F 3/0611",
+      "G06F 3/0653",
+      "G06F 3/0673"
+    ],
+    "source": "converted"
+  }
+}

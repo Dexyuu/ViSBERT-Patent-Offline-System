@@ -1,0 +1,26 @@
+{
+  "title": "Transform-based image coding method and device therefor",
+  "abstract": "An image decoding method according to the present document comprises a step for performing inverse first-order transform and inverse non-separable transform on a residual sample. The inverse non-separable transform is performed on the basis of a transform index indicating a predetermined transform kernel matrix, the inverse first-order transform is performed on the basis of a multiple transform selection (MTS) index indicating MTS for a horizontal transform kernel and a vertical transform kernel, and a syntax element bin string for the transform index is derived on the basis of first context information when a tree type for a split structure of a target block is not a single tree type and is derived on the basis of second context information when the tree type is the single tree type.",
+  "claims": "1. An image decoding apparatus, comprising: a memory; and at least one processor connected to the memory, the at least one processor configured to: receive a bitstream comprising residual information, derive transform coefficients for a target block based on the residual information, derive modified transform coefficients based on an inverse non-separable transform of the transform coefficients, derive residual samples for the target block based on an inverse primary transform of the modified transform coefficients, and generate a reconstructed picture based on the residual samples for the target block, wherein the inverse non-separable transform is performed based on a transform index indicating a predetermined transform kernel matrix, wherein the inverse primary transform is performed based on a multiple transform selection (MTS) index indicating a horizontal transform kernel and a vertical transform kernel, and wherein a syntax element for the transform index is context-decoded based on a context increment, wherein based on a tree type of a partition structure of the target block being not a single tree type, a first bin among a bin string of the syntax element for the transform index is derived based on a first context increment, and wherein based on the tree type being the single tree type, the first bin is derived based on a second context increment.",
+  "patent_id": "US12382042-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/12",
+      "H04N 19/132",
+      "H04N 19/159",
+      "H04N 19/61",
+      "H04N 19/70",
+      "H04N 19/96"
+    ],
+    "all": [
+      "H04N 19/12",
+      "H04N 19/132",
+      "H04N 19/159",
+      "H04N 19/61",
+      "H04N 19/70",
+      "H04N 19/96"
+    ],
+    "source": "converted"
+  }
+}

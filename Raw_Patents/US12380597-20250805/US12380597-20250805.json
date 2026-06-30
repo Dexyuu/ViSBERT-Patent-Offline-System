@@ -1,0 +1,32 @@
+{
+  "title": "Target tracking method for panorama video, readable storage medium and computer equipment",
+  "abstract": "The present application is applicable to the field of video processing. Provided are a target tracking method for a panoramic video, a readable storage medium, and a computer device. The method comprises: using a tracker to track and detect a target to be tracked to obtain a predicted tracking position of said target in the next panoramic video frame, calculating the reliability of the predicted tracking position, and using an occlusion detector to calculate an occlusion score of the predicted tracking position; determining whether the reliability of the predicated tracking position is greater than a preset reliability threshold value, and determining whether the occlusion score of the predicted tracking position is greater than a preset occlusion score threshold value; and using a corresponding tracking strategy according to the reliability and the occlusion score. By means of the present application, whether a tracking failure is caused by the loss of a target or occlusion can be determined, such that a corresponding tracking recovery strategy can be used, and tracking can be automatically recovered when tracking fails, thereby achieving the effect of performing tracking continuously for a long time. In addition, the method of the present invention has a low operation complexity and a good real-time performance.",
+  "claims": "1. A target tracking method for panoramic video comprising: S 101 : performing target detection on a current panoramic video frame where a target for tracking needs to be determined to acquire a target to be tracked; S 102 : initializing a tracker and an occlusion detector, taking a bounding box of the target to be tracked as a target tracking box of the tracker, and taking a category of the target to be tracked as a tracking target category of the tracker; S 103 : tracking and detecting the target to be tracked by the tracker to obtain a predicted tracking position of the target to be tracked in the next panoramic video frame, calculating a confidence of the predicted tracking position, and calculating an occlusion score of the predicted tracking position by the occlusion detector; and S 104 : determining whether the confidence of the predicted tracking position is greater than a preset confidence threshold, and determining whether the occlusion score of the predicted tracking position is greater than a preset occlusion score threshold, in response to the confidence of the predicted tracking position is less than the preset confidence threshold, and the occlusion score of the predicted tracking position is greater than the preset occlusion score threshold, detecting the category of the target and target detection boxes in the next panoramic video frame, re-determining a predicted tracking box according to the category of the target, the target detection boxes and tracking information in the tracker, and replacing the target tracking box of the tracker with the predicted tracking box to perform tracking through the predicted tracking box; in response to the confidence of the predicted tracking position less than the preset confidence threshold, and the occlusion score of the predicted tracking position less than the preset occlusion score threshold, detecting the category of the target and target detection boxes in the next panoramic video frame, re-determining a predicted tracking box according to the category of the target, the target detection boxes and tracking information in the tracker, and taking the position and size of the predicted tracking box as the initialization position and size for the restart of the tracker to restart the tracker, wherein the detecting the category of the target and target detection boxes in the next panoramic video frame, re-determining the predicted tracking box according to the category of the target, the target detection boxes and tracking in the tracker, and replacing the target tracking box of the tracker with the predicted tracking box to perform tracking through the predicted tracking box comprises: S 1041 : performing target detection on the next panoramic video frame, detecting the target detection boxes and the category of the target, screening the target detection boxes according to screening conditions, and taking the target detection boxes meeting the screening conditions as first candidate target boxes, wherein the screening conditions comprise: the category of the target detected being consistent with the tracking target category in the tracker; the size difference between the detected target detection box and the target tracking box of the tracker being within a preset size threshold range; and Euclidean distance difference between the detected target detection box and the target tracking box of the tracker being within a preset Euclidean threshold range; S 1042 : respectively calculating the response graph and the confidence of the first candidate target boxes by an initialized relevant filter of the tracker, and calculating occlusion scores of the first candidate target boxes by the occlusion detector, and screening out the first candidate target boxes of which the confidence is greater than the preset confidence threshold and the occlusion score is less than the preset occlusion score threshold as second candidate target boxes; and S 1043 : among the second candidate target boxes, selecting the second candidate target box with the largest response value in the response graph and with no occlusion as the predicted tracking box, replacing the target tracking box of the tracker with the predicted tracking box, and performing tracking through the predicted tracking box.",
+  "patent_id": "US12380597-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/74",
+      "G06T 7/60",
+      "G06V 10/225",
+      "G06V 10/267",
+      "G06V 10/56",
+      "G06V 20/41",
+      "G06T 2207/10016",
+      "G06T 2207/10024",
+      "G06V 2201/07"
+    ],
+    "all": [
+      "G06T 7/74",
+      "G06T 7/60",
+      "G06V 10/225",
+      "G06V 10/267",
+      "G06V 10/56",
+      "G06V 20/41",
+      "G06T 2207/10016",
+      "G06T 2207/10024",
+      "G06V 2201/07"
+    ],
+    "source": "converted"
+  }
+}

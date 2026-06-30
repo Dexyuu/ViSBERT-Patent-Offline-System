@@ -1,0 +1,28 @@
+{
+  "title": "Determining IP addresses that are associated with physical locations with new occupants and providing advertisements tailored to new movers to one or more of those IP addresses",
+  "abstract": "Methods related to determining and utilizing one or more attributes to associate with an IP addresses. Attributes are determined based on request data provided with requests from an IP address and one or more available secondary information sources. Attributes may include physical locations and/or category designations for the IP address. One or more attributes may be assigned a likelihood value indicative of likelihood that the attribute is associated with the IP address. Some implementations are directed to utilizing the attributes and likelihood values to identify likely fraudulent information provided with requests. Some implementations are directed to utilizing the attributes and likelihood values to provide advertisements in response to requests from IP addresses.",
+  "claims": "1. A method implemented by one or more processors, the method comprising: identifying a plurality of home sales physical locations based on the home sales physical locations being reflected in home sales data, the home sales physical locations each including a corresponding particular street addresses and a corresponding ZIP code; accessing at least one electronic database that includes unique request identifiers each assigned to a corresponding physical location, wherein the electronic database further includes, for each of a plurality of the unique request identifiers, at least one corresponding additional attribute that is assigned to the unique request identifier and that is determined based on one or more past electronic requests from the unique request identifier; selecting a set of the unique request identifiers of the electronic database, the selecting comprising selecting the set of the unique request identifiers based on: comparing the home sales physical locations to the corresponding unique request identifier physical locations assigned to the unique request identifiers of the set, and the corresponding additional attributes that are assigned to the unique request identifiers of the set satisfying at least one criterion; subsequent to selecting the set of the unique request identifiers: receiving an electronic request from a given unique request identifier; selecting, based on determining that the given unique request identifier of the electronic request belongs to the set of the unique request identifiers, content that is tailored to movers; transmitting, over one or more networks and in response to the IP request activity, the content for electronically providing to the given unique request identifier; determining whether the content electronically provided to the given unique request identifier is selected via user interface input at a computing device associated with the given unique request identifier; and in response to determining that the content electronically provided to the given unique request identifier is selected via the user interface input at the computing device: selecting the corresponding unique request identifier physical location for targeting with one or more additional communications, wherein the one or more additional communications comprise a non-electronic snail mail communication.",
+  "patent_id": "US12380470-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0261",
+      "G06Q 30/0241",
+      "H04L 61/106",
+      "H04L 61/5084",
+      "H04L 61/5007",
+      "H04L 2101/668",
+      "H04L 2101/69"
+    ],
+    "all": [
+      "G06Q 30/0261",
+      "G06Q 30/0241",
+      "H04L 61/106",
+      "H04L 61/5084",
+      "H04L 61/5007",
+      "H04L 2101/668",
+      "H04L 2101/69"
+    ],
+    "source": "converted"
+  }
+}

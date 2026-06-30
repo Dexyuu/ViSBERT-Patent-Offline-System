@@ -1,0 +1,22 @@
+{
+  "title": "Collaborative robot",
+  "abstract": "A robot comprises at least one articulate arm having members including a base, an end effector and a plurality of links, wherein each link is movably connected to two others of said members by respective joints, at least one sensor for detecting an external force acting on any one of the members, and a controller for controlling movements of the joints, so as to move the end effector along a pre-programmed path. In case of the sensor detecting an external force, the controller is adapted to adopt a first release strategy for escaping from the external force, to evaluate whether the first strategy is successful, and if not, to adopt a second release strategy.",
+  "claims": "1. A robot, comprising: at least one articulate arm having members, the members comprising a base, an end effector, and a plurality of links, wherein each of the plurality of links is movably connected to two other members by respective joints; at least one sensor configured to detect an external force acting on any one of the members; and a controller configured to control movements of the respective joints so as to move the end effector along a pre-programmed path; wherein, in response to the sensor detecting the external force, the controller is configured to: adopt a first release strategy for escaping from the external force, evaluate whether the first strategy is successful; adopt a second release strategy when the first strategy is unsuccessful; and prohibit the robot arm from assuming a singular pose that corresponds to the plurality of links being arranged in a straight line, wherein in the first or second release strategy the controller is further configured to select one of the respective joints and to control the one of the respective joints to rotate based on an external torque affecting the respective joints.",
+  "patent_id": "US12377539-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B25J 9/1638",
+      "B25J 9/1602",
+      "B25J 9/1664",
+      "B25J 13/085"
+    ],
+    "all": [
+      "B25J 9/1638",
+      "B25J 9/1602",
+      "B25J 9/1664",
+      "B25J 13/085"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "User equipment and base station participating in a system information acquisition procedure",
+  "abstract": "The present disclosure relates to a user equipment comprising a receiver receiving a minimum-system-information message from a first radio base station. System information for the first radio cell that can be acquired by the UE is carried within the minimum-SI message and one or more additional-SI messages. The minimum-SI message includes system information for accessing the first radio cell and at least one system information index, each of which is associated with one of the additional-SI messages. The SI message index comprises a value tag and an area pointer, the latter pointing to one area already defined. Processing circuitry determines whether the UE had already acquired before the additional-SI message associated with the same value tag and the same area. If the determination is positive, the processing circuitry determines that system information included in said additional-SI message acquired before is applicable to the first radio cell.",
+  "claims": "1. A user equipment, comprising: a receiver, which, in operation, receives a minimum-system-information message from a first radio base station controlling a first radio cell of a mobile communication system, wherein system information for the first radio cell that can be acquired by the user equipment is carried within the minimum-system-information message, and receives one or more additional-system-information messages, the minimum-system-information message including system information for accessing the first radio cell and including at least one system information index, each system information index being associated with one of the additional-system-information messages, wherein the system information index comprises a value tag and an area pointer, the area pointer pointing to an area, and processing circuitry, which, in operation, if the additional-system-information message stored in the user equipment is associated with the same value tag and the same area as indicated by the system information index received in the minimum-system-information message, determines that system information included in the stored additional-system-information message is applicable to the first radio cell, wherein the minimum-system-information message comprises at least one system information index per additional-system information message.",
+  "patent_id": "US12382378-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 48/16",
+      "H04W 36/32",
+      "H04W 48/10",
+      "H04W 60/04",
+      "H04W 74/0833",
+      "H04W 36/326"
+    ],
+    "all": [
+      "H04W 48/16",
+      "H04W 36/32",
+      "H04W 48/10",
+      "H04W 60/04",
+      "H04W 74/0833",
+      "H04W 36/326"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Power transforming apparatus and air conditioner including the same",
+  "abstract": "The present disclosure discloses a power transforming apparatus capable of reducing a stress of a converter switch during a PFC operation, an operation method thereof, and an air conditioner including the same. To this end, the power transforming apparatus according to the present disclosure may determine the number of converters for performing the PFC operation based on a magnitude of input power and a speed of the motor. Furthermore, the PFC operation may be performed using only one converter when determining a low-load in order to improve efficiency. In addition, a target converter channel may be selected using a random function or determined to be changed using a previous operation history without specifying a target converter channel in advance at an initial stage of the PFC operation so as not to add a stress to any one converter switch.",
+  "claims": "1. A power transforming apparatus for driving an inverter to drive a motor, the power transforming apparatus comprising: a rectifier configured to rectify an input AC voltage; a power factor improving unit configured to perform a power factor correction (PFC) operation that improves power factor on a rectified voltage output from the rectifier, the power factor improving unit comprising a plurality of converter channels; a DC link capacitor configured to store an output voltage of the power factor improving unit; a current sensor disposed between the rectifier and the power factor improving unit; and a controller configured to (i) based on an input power and a speed of the motor calculated using an input current that is sensed by the current sensor while the inverter is driven, determine a number of converter channels to perform the PFC operation among the plurality of converter channels, (ii) determine target converter channels to perform the PFC operation among the plurality of converter channels, and (iii) determine a switching time, based on at least one converter channel being in operation, wherein the controller is further configured to (i) store a switching history of a converter channel that has previously performed the PFC operation, and (ii) based on the stored switching history, determine a switching driving sequence of the target converter channels to perform the PFC operation after excluding a switching time of the converter channel that has been operated immediately before from an initial driving sequence.",
+  "patent_id": "US12381479-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02M 1/4225",
+      "F24F 11/88",
+      "H02M 1/0009",
+      "H02P 27/08",
+      "H02M 7/06"
+    ],
+    "all": [
+      "H02M 1/4225",
+      "F24F 11/88",
+      "H02M 1/0009",
+      "H02P 27/08",
+      "H02M 7/06"
+    ],
+    "source": "converted"
+  }
+}

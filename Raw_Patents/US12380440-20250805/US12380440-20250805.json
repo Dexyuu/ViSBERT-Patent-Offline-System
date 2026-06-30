@@ -1,0 +1,22 @@
+{
+  "title": "Updating digital assets transactions in isolated devices",
+  "abstract": "Described herein are methods and devices for updating digital assets transactions in an isolated device, comprising the isolated device (1) receiving limited length string(s) indicating a value of digital assets transferred from one or more other devices to an account associated with the isolated device in one or more transactions each recorded in a blockchain with a respective identifier computed based on input value(s) of the respective transaction which corresponds to output value(s) of previous transaction(s) which the isolated device is informed of and are stored in a predefined order in a depository allocated for the isolated device in the other device(s), (2) inferring the respective identifier of each transaction according to the output value(s) of the previous transaction(s) identified based on the transferred value according to the predefined order and, (3) updating the isolated device with a digital assets balance of the associated account according to the transaction(s).",
+  "claims": "1. A method of updating received digital assets transactions in an isolated device, comprising: using at least one processor of an isolated device, wherein said isolated device having at least one limited capacity interface which is the only input interface of said isolated device and is selected from a group consisting of a keyboard, a touchscreen, and computer punched cards, thereby preventing network connectivity to said isolated device, for: receiving at least one limited length string via the at least one limited capacity interface of the isolated device, said at least one limited length string indicating a value of digital assets transferred in at least one transaction from at least one other device to an account associated with the isolated device, the at least one transaction is recorded in a blockchain maintained by a plurality of networked computing nodes with a respective identifier of the at least one transaction, which is computed based on at least one input value of digital assets included in the at least one transaction, wherein the at least one input value corresponds to a respective output value of at least one previous transaction stored in a predefined order in a depository allocated for the isolated device in the at least one other device, the isolated device is informed of each previous transaction stored in the depository; re-creating the respective identifier of the at least one transaction by inferring the respective identifier, by: identifying, based on the transferred value indicated by the at least one limited length string, and based on the predefined order, which of the at least one previous transaction was used to create the at least one transaction, determining, according to the identified at least one previous transaction, a content of the at least one transaction, and computing the respective identifier based on said determined content; and updating the isolated device with a balance of digital assets of the associated account according to the at least one transaction including the re-created respective identifier.",
+  "patent_id": "US12380440-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/3827",
+      "G06Q 20/02",
+      "G06Q 20/0655",
+      "G06Q 20/223"
+    ],
+    "all": [
+      "G06Q 20/3827",
+      "G06Q 20/02",
+      "G06Q 20/0655",
+      "G06Q 20/223"
+    ],
+    "source": "converted"
+  }
+}

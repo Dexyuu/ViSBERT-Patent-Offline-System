@@ -1,0 +1,28 @@
+{
+  "title": "Cross-link interference mitigation for full-duplex random access",
+  "abstract": "Various aspects of the present disclosure generally relate to wireless communication. In some aspects, a first user equipment (UE) may receive information indicating a reference signal resource associated with detecting cross-link interference associated with transmitting a random access channel (RACH) message on full duplex resources. The first UE may transmit a RACH message on a selected RACH occasion, wherein the selected RACH occasion is selected based at least in part on whether a reference signal transmitted by a neighbor UE of the first UE has been detected in association with the selected RACH occasion. Numerous other aspects are described.",
+  "claims": "1. A method of wireless communication performed by a first user equipment (UE), comprising: receiving, from a network node, remaining minimum system information indicating: an association, between a time and frequency resource and a spatial configuration, associated with a reference signal resource associated with detecting cross-link interference associated with transmitting a random access channel (RACH) message on full duplex resources, and a full-duplex RACH occasion corresponding to the association; transmitting the RACH message on the full-duplex RACH occasion in a frequency division multiplex (FDM) mode when the first UE does not detect a reference signal, associated with a synchronization signal block or a channel state information reference signal beam, on the reference signal resource that overlaps in time with the full-duplex RACH occasion; and transmitting the RACH message on a second RACH occasion in the FDM mode, different from the full-duplex RACH occasion, when the first UE detects the reference signal that overlaps in time with the full-duplex RACH occasion.",
+  "patent_id": "US12382513-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 74/0858",
+      "H04B 7/0626",
+      "H04L 5/0051",
+      "H04L 5/1461",
+      "H04W 72/53",
+      "H04W 72/56",
+      "H04W 74/002"
+    ],
+    "all": [
+      "H04W 74/0858",
+      "H04B 7/0626",
+      "H04L 5/0051",
+      "H04L 5/1461",
+      "H04W 72/53",
+      "H04W 72/56",
+      "H04W 74/002"
+    ],
+    "source": "converted"
+  }
+}

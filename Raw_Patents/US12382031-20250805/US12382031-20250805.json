@@ -1,0 +1,24 @@
+{
+  "title": "Filtering method and apparatus, and device",
+  "abstract": "A filtering method and apparatus, and a device are provided. The filtering method includes: when it is determined to enable Wiener filtering for an adaptive leveling filter unit of a current picture, deriving the adaptive leveling filter unit from a current Largest Coding Unit (LCU) of the current picture; obtaining reference pixels of the adaptive leveling filter unit and filter coefficients of a Wiener filter; and according to the reference pixels and the filter coefficients of the Wiener filter, performing the Wiener filtering based on sample pixels of the adaptive leveling filter unit; where the Wiener filter is a centrosymmetric filter with a shape of a 7*7 cross plus a 5*5 square, and values of the reference pixels are derived from pixel values of a reconstructed picture before the Wiener filtering.",
+  "claims": "1. A filtering method, performed by an encoding device or a decoding device, the filtering method comprises: determining to enable Wiener filtering for an adaptive leveling filter unit of a current picture, deriving the adaptive leveling filter unit from a current Largest Coding Unit (LCU) of the current picture; obtaining reference pixels of the adaptive leveling filter unit and filter coefficients of a Wiener filter; and according to the reference pixels and the filter coefficients of the Wiener filter, performing the Wiener filtering based on sample pixels of the adaptive leveling filter unit; wherein the Wiener filter is a centrosymmetric filter with a shape of a 7*7 cross plus a 5*5 square, and values of the reference pixels are derived from pixel values of a reconstructed picture before the Wiener filtering; wherein according to the reference pixels and the filter coefficients of the Wiener filter, performing the Wiener filtering based on the sample pixels of the adaptive leveling filter unit, comprises: if a sample used in an adaptive leveling filtering process is a sample in the adaptive leveling filter unit, using the sample used in the adaptive leveling filtering process for filtering; if a sample used in the adaptive leveling filtering process is not a sample in the adaptive leveling filter unit, in the case where the sample used in the adaptive leveling filtering process is outside a boundary of a picture, or outside a patch boundary and a value of a cross patch boundary filter flag is ‘0’, if the sample is a first sample point in an upper left corner, a lower left corner, an upper right corner or a lower right corner outside of the adaptive leveling filter unit, using a sample nearest to the sample in the adaptive leveling filter unit to replace the sample for filtering; in the case where the sample used in the adaptive leveling filtering process is not outside a boundary of the picture, conditions that the sample is outside a patch boundary and the value of the cross patch boundary filter flag is ‘0’ are not satisfied, and the sample is outside an upper boundary or outside a lower boundary of the adaptive leveling filter unit, if the sample is a first sample point in an upper left corner, a lower left corner, an upper right corner or a lower right corner outside of the adaptive leveling filter unit, using a sample nearest to the sample in the adaptive leveling filter unit to replace the sample for filtering; in the case where the sample used in the adaptive leveling filtering process is not outside a boundary of the picture, conditions that the sample is outside a patch boundary and the value of the cross patch boundary filter flag is ‘0’ are not satisfied, and the sample is not outside an upper boundary of the adaptive leveling filter unit or outside a lower boundary of the adaptive leveling filter unit, using the sample for filtering.",
+  "patent_id": "US12382031-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/117",
+      "H04N 19/105",
+      "H04N 19/119",
+      "H04N 19/167",
+      "H04N 19/182"
+    ],
+    "all": [
+      "H04N 19/117",
+      "H04N 19/105",
+      "H04N 19/119",
+      "H04N 19/167",
+      "H04N 19/182"
+    ],
+    "source": "converted"
+  }
+}

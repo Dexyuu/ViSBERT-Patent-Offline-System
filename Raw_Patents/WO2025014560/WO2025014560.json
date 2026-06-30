@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2025014560",
+  "application_id_fs": "WO2025014560",
+  "title": "Multicast random access channel communications",
+  "abstract": "Various aspects of the present disclosure generally relate to wireless communication. In some aspects, a network node may transmit, to a plurality of user equipments (UEs), a multicast Message 4. The network node may identify a group radio network identifier associated with the plurality of UEs. Numerous other aspects are described.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1. An apparatus for wireless communication at a user equipment (UE), comprising: one or more memories; and one or more processors, coupled to the one or more memories, configured to cause the UE to: receive a multicast random access channel (RACH) message; and receive a group radio network identifier associated with a plurality of UEs. 2. The apparatus of claim 1, wherein the multicast RACH message is a multicast Message 4 received from a network node. 3. The apparatus of claim 1, wherein the one or more processors, to receive the multicast RACH message, are configured to cause the UE to: receive, from a network node, a medium access control message that includes an indication of the multicast RACH message. 4. The apparatus of claim 1, wherein the one or more processors are configured to cause the UE to: transmit, to a network node, an indication that the UE is configured to support communicating the multicast RACH message. 5. The apparatus of claim 4, wherein the one or more processors, to transmit the indication that the UE is configured to support communicating the multicast Message 4, are configured to cause the UE to: transmit, to the network node, a RACH message indicating that the UE is configured to support communicating the multicast RACH message. 6. The apparatus of claim 1, wherein the one or more processors are configured to cause the UE to: receive, from a network node, an indication that the network node is configured to support communicating the multicast RACH message. 7. The apparatus of claim 6, wherein the one or more processors, to receive the indication that the network node is configured to support communicating the multicast Message 4, are configured to cause the UE to: \n\n receive, from the network node, a system information block indicating that the network node is configured to support communicating the multicast RACH message. 8. The apparatus of claim 7, wherein the system information block is a system information block 2 (SIB2). 9. The apparatus of claim 1, wherein the one or more processors are configured to cause the UE to: receive, from a network node, an indication that hybrid automatic repeat request (HARQ) transmissions are implicit. 10. The apparatus of claim 9, wherein the indication that the HARQ transmissions are implicit indicates that the UE is not to send a narrowband physical uplink shared channel format 2 message in accordance with an acknowledgement. 11. The apparatus of claim 9, wherein the indication that the HARQ transmissions are implicit indicates that a medium access control contention resolution timer is to expire, and a random access channel procedure is to be restarted, in accordance with a negative acknowledgement. 12. The apparatus of claim 1, wherein the one or more processors are configured to cause the UE to: receive, from a network node, an indication of a hybrid automatic repeat request (HARQ) resource to be used for HARQ transmissions. 13. The apparatus of claim 12, wherein the one or more processors, to receive the indication of the HARQ resource, are configured to cause the UE to: receive, from the network node, a medium access control protocol data unit that includes the indication of the HARQ resource. 14. The apparatus of claim 1, wherein the one or more processors are configured to cause the UE to: receive, from a network node, a negative acknowledgement resource to be used by the UE in accordance with the UE being able to decode a narrowband physical downlink control channel and not being able to decode a narrowband physical downlink shared channel. 15. The apparatus of claim 1, wherein the multicast RACH message and the group radio network identifier are received from a network node, and the network node is a non-terrestrial network node. 16. An apparatus for wireless communication at a network node, comprising: one or more memories; and one or more processors, coupled to the one or more memories, configured to cause the network node to: transmit, to a plurality of user equipments (UEs), a multicast random access channel (RACH) message; and identify a group radio network identifier associated with the plurality of UEs. 17. The apparatus of claim 16, wherein the multicast RACH message is a multicast Message 4. 18. An apparatus for wireless communication at a user equipment (UE), comprising: one or more memories; and one or more processors, coupled to the one or more memories, configured to cause the UE to: obtain capability information associated with receiving multicast group radio resource control (RRC) messages; and receive a multicast group RRC message that includes an indication of an RRC early data complete for control plane early data transfer. 19. The apparatus of claim 18, wherein the multicast group RRC message is transmitted to a plurality of UEs that includes the UE. 20. The apparatus of claim 18, wherein the one or more processors are configured to cause the UE to: transmit, to a network node, an indication that the UE supports communicating the multicast group RRC message.",
+  "classifications": {
+    "ipc": [
+      "H04L 47/00",
+      "H04L 47/70",
+      "H04L 47/80",
+      "H04L 47/806",
+      "H04L 12/00",
+      "H04L 12/02",
+      "H04L 12/16",
+      "H04L 12/18",
+      "H04L 12/189",
+      "H04W 74/00",
+      "H04W 74/002",
+      "H04W 74/006",
+      "H04W 74/08",
+      "H04W 74/0833",
+      "H04W 76/00",
+      "H04W 76/40"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 47/00",
+      "H04L 47/70",
+      "H04L 47/80",
+      "H04L 47/806",
+      "H04L 12/00",
+      "H04L 12/02",
+      "H04L 12/16",
+      "H04L 12/18",
+      "H04L 12/189",
+      "H04W 74/00",
+      "H04W 74/002",
+      "H04W 74/006",
+      "H04W 74/08",
+      "H04W 74/0833",
+      "H04W 76/00",
+      "H04W 76/40"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025014560"
+}

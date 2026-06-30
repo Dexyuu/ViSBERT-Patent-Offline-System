@@ -1,0 +1,24 @@
+{
+  "title": "Eye gaze as a proxy of attention for video streaming services",
+  "abstract": "A method uses the eye gaze of a user, as a proxy of their attention, and leverages it to provide a more natural experience in a multi-view, i.e. multi-party and multi-perspective, video streaming service. The method takes advantage of increasingly powerful inexpensive cameras and related software to provide commodity eye-tracking. The method also leverages collected data on user interactions and uses machine learning techniques to customize its response to individual usage patterns. A system is specified for implementing the described method on a streaming architecture.",
+  "claims": "1. A method for live and real-time media streaming, comprising: a multi-view application presenting a user with multiple windows, or icons, on a screen on a user device that represents multiple participants or perspectives; capturing a user's eye-gaze with at least one camera facing the user when the user, while operating said user device, gazes at a focus window; using said user's eye-gaze as a focus of attention of the user to identify a specific window or windows that are the focus of user attention; and based on said user's eye-gaze as a focus of attention dynamically determining and setting for a particular window or icon at any given point in time, both a fraction of a total size of said screen, and a selected resolution for, said particular window or icon as a function of a focus value of said particular window or icon, a fraction of screen resolution associated with a main window, and a maximum allocatable bandwidth available; wherein when a main window comprises x % of the screen and the main window maximum resolution requires y % of the maximum allocatable bandwidth; wherein a total screen allocation for all other windows of the screen is no more than 100-x %; and wherein bandwidth demand for all other windows of the screen is more than 100-y % of a maximum allocated bandwidth.",
+  "patent_id": "US12382133-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/44218",
+      "H04N 21/2187",
+      "H04N 21/4223",
+      "H04N 21/4312",
+      "H04N 21/4438"
+    ],
+    "all": [
+      "H04N 21/44218",
+      "H04N 21/2187",
+      "H04N 21/4223",
+      "H04N 21/4312",
+      "H04N 21/4438"
+    ],
+    "source": "converted"
+  }
+}

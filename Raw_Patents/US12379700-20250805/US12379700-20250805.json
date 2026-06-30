@@ -1,0 +1,20 @@
+{
+  "title": "Remote management of active containers",
+  "abstract": "A system for remote access to active shipping containers may gather information and analytics on containers during transit, and allow automated and manual configuration changes to be transmitted, from remote users, to the container during transit. A remote access device capable of long range communication over cellular or satellite networks may be coupled with a control system of the active shipping container, in order to send information from the control system to a remote server, and to receive and provide configuration changes to the control system. The remote access device may also include sensors, or may be coupled with a plurality of sensors that may be placed in an around the container to provide additional and more detailed sources of sensor data. Sensor and status data from containers may trigger automatic configuration changes or notifications, and may also be aggregated to provide high level analytics related to transit lanes.",
+  "claims": "1. A system comprising: (a) a container comprising: (1) a cargo area, (2) a plurality of active features comprising a climate control system and a door lock, and (3) a control system operable to configure the plurality of active features, wherein the control system is configured with a plurality of modes comprising an initial conditioning mode and a subsequent transit mode, wherein the initial conditioning mode and the subsequent transit mode each define settings for the climate control system and a corresponding setting for the door lock, wherein the settings for the climate control system and the door lock which correspond to the initial conditioning mode are different from the settings for the climate control system and the door lock which correspond to the subsequent transit mode; (b) a remote access device configured to communicate over a data network, wherein the remote access device is communicatively coupled with the control system; and (c) a remote access server in communication with the remote access device over the data network; wherein the remote access device is configured to: (i) receive a set of control system data from the control system, the set of control system data describing the performance of at least one active feature from the plurality of active features; (ii) provide the set of control system data to the remote access server; (iii) receive a configuration change from the remote access server, the configuration change associated with the settings for the climate control system and the door lock; and (iv) cause the control system to configure the operation of the settings for the climate control system and the door lock based on the configuration change; wherein the remote access server is configured to: (I) receive a set of position data produced by the position sensor; (II) map the set of control system data to the set of position data to produce a mapped dataset that describes a transit lane traveled by the container; (III) aggregate the mapped dataset with a plurality of mapped datasets to produce a plurality of lane datasets, wherein each lane dataset describes at least a portion of a transit lane, the plurality of lane datasets including the transit lane traveled by the container; (IV) compare the mapped dataset relative to the plurality of lane datasets; (V) identify a future adverse transit event based on the comparing, wherein the future adverse transit event exceeds at least one of: (A) a predetermined delay in the position data of the container, (B) a predetermined deviance from a planned route of the container, or (C) a predetermined deviance from a storage temperature of the container; and (VI) determine the configuration change to avoid the future adverse transit event.",
+  "patent_id": "US12379700-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05B 19/042",
+      "G06Q 10/083",
+      "G05B 2219/2614"
+    ],
+    "all": [
+      "G05B 19/042",
+      "G06Q 10/083",
+      "G05B 2219/2614"
+    ],
+    "source": "converted"
+  }
+}

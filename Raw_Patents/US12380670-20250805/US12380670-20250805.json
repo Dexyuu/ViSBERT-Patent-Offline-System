@@ -1,0 +1,32 @@
+{
+  "title": "Identifying and remediating oil spills",
+  "abstract": "Systems and methods for quantifying and remediating an oil spill in a body of water can include obtaining a synthetic aperture radar image of the body of water and/or a multispectral image of the body of water. One or more features representing a physical feature of a surface of the body of water can be extracted from the image(s). The extracted features can be processed using a machine learning model trained with labeled image data representing instances of oil on the surface of the body of water to associate oil appearances code with portions of the surface of the water body based on the extracted features. Based on the processing, areas of the body of water associated with each oil appearance code as well as locations and volumes of oil in the body of water can be determined.",
+  "claims": "1. A method for identifying an oil spill in a body of water, the method comprising: (a) obtaining an image of the body of water from a satellite for a first time period and a second time period, wherein obtaining the image of the body of water from the satellite comprises obtaining a synthetic aperture radar image and a multispectral image; (b) determining one or more features to extract from the image, the features representing a physical feature of a surface of the body of water for each of the first time period and the second time period; (c) extracting the one or more features from the image to form a first feature vector for the first time period and a second feature vector for the second time period; (d) processing the first feature vector and the second feature vector using a machine learning model, the machine learning model being trained with labeled image data representing instances of oil on the surface of the body of water, the labeled image data associating oil appearances code with portions of the surface of the water body based on the respective instances of the oil spill in the first and second vectors; (e) determining, based on the processing, areas of the body of water associated with each oil appearance code; (f) determining, based on the areas of the body of water associated with each oil appearance code, locations and volumes of oil in the body of water, wherein the locations and volumes of oil are determined based on comparing a first output of the machine learning model based on features from the synthetic aperture radar image to a second output of the machine learning model based on features from the multispectral image; and (h) storing, in a data store based on the comparing, data representing the locations and volumes of oil in the body of water in association with the image.",
+  "patent_id": "US12380670-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/62",
+      "G01S 13/9021",
+      "G06T 7/62",
+      "G06T 7/73",
+      "G06V 10/774",
+      "G06V 20/13",
+      "G06V 20/194",
+      "G06T 2207/10036",
+      "G06T 2207/30181"
+    ],
+    "all": [
+      "G06V 10/62",
+      "G01S 13/9021",
+      "G06T 7/62",
+      "G06T 7/73",
+      "G06V 10/774",
+      "G06V 20/13",
+      "G06V 20/194",
+      "G06T 2207/10036",
+      "G06T 2207/30181"
+    ],
+    "source": "converted"
+  }
+}

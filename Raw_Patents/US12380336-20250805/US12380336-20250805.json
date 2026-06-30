@@ -1,0 +1,22 @@
+{
+  "title": "Road traffic incident detection method, system and device based on small sample learning",
+  "abstract": "Provided are a road traffic incident detection method, system and device based on small sample learning. According to the invention, traffic flow data and incident data are utilized to construct non-incident samples by a case contrast study method, traffic flow feature indexes are extracted to construct incident and non-incident sample feature sets, then sample division and pairing are performed on the feature sets to obtain training and test sample pair sets, a traffic incident detection model is constructed by adopting a twin network architecture in small sample learning, and the model is trained and tested by a sample pair mode. The invention is conductive to accurately detecting accidental traffic incidents, and providing supports for avoiding secondary accidents and improving the traffic safety level.",
+  "claims": "1. A road traffic incident detection method based on small sample learning, comprising the following steps: S 1 : collecting traffic incident samples, and extracting non-incident samples by a case contrast study method to obtain original data; S 2 : calculating traffic flow data according to the original data, extracting traffic flow space-time state features to obtain an incident sample feature set and a non-incident sample feature set, and respectively dividing the incident sample feature set and the non-incident sample feature set into a training set and a test set to obtain a training sample set and a test sample set; S 3 : pairing samples in the training sample set to obtain sample pairs, and assigning a label to each sample pair to obtain a training sample pair set; specifically, pairing each sample in the training sample set with all other samples in the training sample set except the sample to obtain several sample pairs; when two samples in the sample pair both belong to the incident samples or the non-incident samples, assigning a positive label; and when two samples in the sample pair respectively belong to the incident sample and the non-incident sample, assigning a negative label; S 4 : constructing a traffic incident detection model by adopting a twin network architecture in small sample learning, and training the traffic incident detection model by utilizing the training sample pair set; S 5 : pairing samples in the test sample set to obtain a test sample pair set, and evaluating a performance of the trained traffic incident detection model by using the test sample pair set; specifically, respectively pairing the samples in the test sample set with the samples in the training sample set one by one to obtain the test sample pair set; and inputting test sample pairs into the trained traffic detection model, outputting a distance between two samples by the model, and for a minimum distance output after pairing a certain sample in the test sample set with all samples in the training sample set, classifying the test sample into the same category as the paired sample of the minimum distance, and then evaluating the performance of the traffic incident detection model; and S 6 : detecting traffic incidents by utilizing the trained traffic incident detection model.",
+  "patent_id": "US12380336-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 3/09",
+      "G06N 3/0442",
+      "G06N 3/045",
+      "G08G 1/0133"
+    ],
+    "all": [
+      "G06N 3/09",
+      "G06N 3/0442",
+      "G06N 3/045",
+      "G08G 1/0133"
+    ],
+    "source": "converted"
+  }
+}

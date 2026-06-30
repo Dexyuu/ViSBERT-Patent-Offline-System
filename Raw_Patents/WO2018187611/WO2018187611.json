@@ -1,0 +1,36 @@
+{
+  "application_id": "WO2018187611",
+  "application_id_fs": "WO2018187611",
+  "title": "Solid modeler that provides spatial gradients of 3d cad models of solid objects",
+  "abstract": "This disclosure provides a method for providing spatial gradients of 3D CAD models of solid objects with respect to various parameters used in defining the solid object. A modeler is designed and implemented to provide spatial gradients of solid objects (when represented on a computer as 3D CAD models) with respect to the various parameters that define the objects. Although primarily based on finite difference operations, several additional steps are performed to ensure that the gradients computed are correct and valid for a general class of solid objects and the parameters that define the objects. No commercially available 3D CAD tool provides such ability for a general class of solid objects.",
+  "claims": "Claims CLAIMS: 1. A method of improving reliability in designing an arbitrarily shaped object based on three-dimensional (3D) solid modeling of the object, the method comprising: obtaining a nominal model of the object; computing a surface mesh of the object; recording characteristics of a plurality of mesh nodes, including parametric coordinates and originating surfaces of each mesh node, and whether a particular mesh node lies on a surface boundary; obtaining a perturbed model of the object with at least one parameter of the object changed with respect to the nominal model; using the perturbed model, computing spatial positions of the plurality of mesh nodes by repeatedly querying corresponding spline surfaces of the perturbed model to obtain updated parametric coordinates of the plurality of mesh nodes; computing gradients at the plurality of mesh nodes by computing a vector at each mesh node that represents the difference between the previously recorded parametric coordinates of that mesh node and the updated parametric coordinates of that mesh node; reporting the computed gradients for the plurality of mesh nodes; detecting if any of the reported computed gradients is significantly smaller than the rest of the computed gradients, indicating a spurious movement of the corresponding mesh node; and removing the computed gradients indicating spurious movement of certain mesh nodes among the plurality of mesh nodes to improve reliability of further design optimization of the object. 2. The method of claim 1, wherein the further design optimization of the object uses an adjoint-based optimization. 3. The method of claim 1, wherein the perturbed model is created using a 3D modeling kernel. 4. The method of claim 3, wherein 3D modeling kernel is ACIS. \n\n The method of claim 1, wherein the step of obtaining the perturbed model does not include importing the surface mesh of the nominal model. The method of claim 1, wherein the step of recording characteristics include: recording connectivity information for each of the plurality of mesh nodes with its neighboring mesh nodes. The method of claim 6, wherein a data structure specifically designed to hold information about a mesh is used to record characteristics of the plurality of mesh nodes. The method of claim 1, wherein the step of computing gradients include: for a mesh node that lies at a boundary or corner of two or more spline surfaces of the perturbed model: computing a separate gradient value corresponding to each spline surface of which the mesh node is a part of; and, using the mean of the computed separate gradient values as the gradient of the mesh node at the boundary or corner. The method of claim 1, wherein a computed gradient being an order of magnitude smaller than a majority of the other computed gradients indicates a spurious movement of the corresponding mesh node. The method of claim 1, wherein a user provides the at least one parameter that is different between the nominal model and the perturbed model. The method of claim 1, wherein a user is notified if the perturbed model has different topology compared to the nominal model. The method of claim 11, wherein the different topology includes difference is number of edges or surfaces of the object. The method of claim 1, wherein the arbitrarily shaped object is fabricated based on the optimized design with improved reliability. \n\n The method of claim 13, wherein the fabricated object has improved aerodynamic properties.",
+  "classifications": {
+    "ipc": [
+      "G06T 17/00",
+      "G06T 17/20",
+      "G06F 30/00",
+      "G06F 30/20",
+      "G06F 30/23",
+      "G06T 15/00",
+      "G06T 15/04",
+      "G06T 15/50",
+      "G06T 19/00",
+      "G06T 19/20"
+    ],
+    "cpc": [],
+    "all": [
+      "G06T 17/00",
+      "G06T 17/20",
+      "G06F 30/00",
+      "G06F 30/20",
+      "G06F 30/23",
+      "G06T 15/00",
+      "G06T 15/04",
+      "G06T 15/50",
+      "G06T 19/00",
+      "G06T 19/20"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018187611"
+}

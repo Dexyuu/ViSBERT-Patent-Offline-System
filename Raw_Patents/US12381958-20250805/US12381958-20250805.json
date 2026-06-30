@@ -1,0 +1,32 @@
+{
+  "title": "Methods and systems for implementing a regionally contiguous proxy service",
+  "abstract": "System and method for efficiently implementing scalable, highly efficient decentralized proxy services through proxy infrastructures situated in different geo-locations. In one aspect, the systems and methods enable users from any geographical location to send requests to the geographically closest proxy infrastructure. One exemplary method described allows proxy infrastructures to gather, classify, and store metadata of exit nodes in its internal database. In another aspect, systems and methods described herein enable proxy infrastructures to select metadata of exit nodes from its internal database and forward requests from a user device to respective proxy servers or proxy supernodes to which the selected exit nodes are connected.",
+  "claims": "1. A system for storing a plurality of exit node metadata and identifying at least one suitable exit node metadata satisfying a user-defined preference comprising: at least one processor; a memory coupled to the at least one processor; a proxy infrastructure geographically closest to a user device configured to: request the plurality of exit node metadata from a central management unit; classify the plurality of exit node metadata according to multiple attributes; store the plurality of exit node metadata in a database; check a user request to identify the user-defined preference; identify at least one suitable exit node metadata satisfying the user-defined preference; communicate the user request and the at least one suitable exit node metadata to a proxy supernode.",
+  "patent_id": "US12381958-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 67/289",
+      "H04L 43/0852",
+      "H04L 61/4511",
+      "H04L 67/01",
+      "H04L 67/2895",
+      "H04L 67/52",
+      "H04L 67/561",
+      "H04L 67/02",
+      "H04L 67/306"
+    ],
+    "all": [
+      "H04L 67/289",
+      "H04L 43/0852",
+      "H04L 61/4511",
+      "H04L 67/01",
+      "H04L 67/2895",
+      "H04L 67/52",
+      "H04L 67/561",
+      "H04L 67/02",
+      "H04L 67/306"
+    ],
+    "source": "converted"
+  }
+}

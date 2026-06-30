@@ -1,0 +1,37 @@
+{
+  "application_id": "WO2018236529",
+  "application_id_fs": null,
+  "title": "SYSTEMS AND METHODS FOR CUSTOM CARD CUSTOMIZATION",
+  "abstract": "Systems and methods for contact card customization. More specifically, the systems and methods herein leverage authentication protocols and the branded indicators for message identification (BIMI) protocol to allow organizations to display customized contact card information in their sent messages. As such, the systems and methods provide customizable, dynamic, and secure contact cards that can distinguish between an individual and an organization unlike previously utilized contact card systems and methods.",
+  "claims": "Claims 1. A method for displaying contact cards for a sender, the method comprising: receiving a message from the sender; receiving authentication metadata with an authentication of the sender; generating a contact key based on the authentication metadata; retrieving extended contact card data based on the contact key; generating a contact card based on the extended contact card data; and displaying the contact card. 2. The method of claim 1, further comprising: searching for basic contact card data for the sender in a recipient's store; collecting the basic contact card data for the sender; and generating the contact card further based on the basic contact card data. 3. The method of claim 1, further comprising: searching for basic contact card data for the sender; and determining that the basic contact card data for the sender is not available, wherein constructing the contact key based on the authentication metadata is performed in response to the determination that the basic contact card data for the sender is not available, and wherein the sender is an organization. 4. The method of claim 1, further comprising: receiving a cursor hover input over the sender of the message, wherein displaying the contact card is performed in response to receiving the cursor hover input over the sender of the message. 5. The method of claim 1, wherein generating the contact card based on the extended contact card data comprises: including at least one of the following: a name, an address, a website, promotions, a telephone number, or extensibility points in the contact card. 6. The method of claim 1, further comprising: wherein the authentication metadata includes a verified domain name, determining that the message is stamped with a selector, wherein generating the contact key based on the authentication metadata comprises generating the contact key based on the verified domain name, a sender address, and the selector. 7. The method of claim 1, wherein receiving the extended contact card data \n\n based on the contact key comprises: searching a profile store based on the contact key; locating a profile within the profile store based on matching the contact key to a retrieval key indexed to the profile; and collecting information from within the matching profile based on the contact key. 8. A profile store system for contact card customization, the system comprising: at least one processor; and a memory for storing and encoding computer executable instructions that, when executed by the at least one processor is operative to: receive sets of contact card information from different organizations associated with different domain names, wherein each set of contact card information is associated with a selector; create a retrieval key for each set of the contact card information based on the associated domain name to form a group of retrieval keys; receive from a first email recipient a first collection request, wherein the first collection request includes a first authentication metadata generated key; match the first authentication metadata generated key to a first retrieval key in the group of retrieval keys; and provide to the first email recipient a first set of contact information associated with the first retrieval key that matches the first authentication metadata generated key. 9. The system of claim 8, wherein different sets of contact card information can be received from the same organization. 10. The system of claim 8, wherein each set of contact card information is associated with the selector and a set of sender addresses, and wherein create the retrieval key for each set of the contact card information is further based on based on the selector and the set of sender addresses associated with the set of contact card information, and wherein the first authentication metadata generated key includes a verified domain name, a sender address, and a determined selector.",
+  "classifications": {
+    "ipc": [
+      "H04L 29/08",
+      "B42D 15/02",
+      "B41J 13/12",
+      "G06F 1/16",
+      "G06Q 10/02",
+      "G06Q 10/10",
+      "G06Q 20/34",
+      "G06Q 20/38",
+      "G06Q 20/40",
+      "G07F 7/08",
+      "G07F 7/10"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 29/08",
+      "B42D 15/02",
+      "B41J 13/12",
+      "G06F 1/16",
+      "G06Q 10/02",
+      "G06Q 10/10",
+      "G06Q 20/34",
+      "G06Q 20/38",
+      "G06Q 20/40",
+      "G07F 7/08",
+      "G07F 7/10"
+    ],
+    "source": "csv"
+  }
+}

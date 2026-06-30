@@ -1,0 +1,22 @@
+{
+  "title": "Secure EVPN with MKA over BGP",
+  "abstract": "Techniques described herein provide procedures for reducing MACsec Key Agreement (MKA)-related traffic and improving resource allocation for MKA protocol through an EVPN environment. Techniques include leveraging Border Gateway Protocol (BGP) signaling for MKA between Provider Edge (PE) routers instead of between Customer Edge (CE) routers, which mitigates both hardware restrictions and scalability challenges with a new Xaas enablement. A new BGP-EVPN route type is defined that can communicate a set of MKA information along with an address destination associated with a provider edge device to establish a BGP MKA session and enable MACsec encryption/decryption at the provider edge device.",
+  "claims": "9. A system, comprising: a first provider edge device of a plurality of provider edge devices of an Ethernet Virtual Private Network (EVPN) instance, comprising: a processor in communication with a memory and including instructions executable by the processor to: send a Border Gateway Protocol (BGP) MACsec Key Agreement (MKA) discovery message to one or more remaining provider edge devices of the plurality of provider edge devices, the BGP MKA discovery message including MKA information; advertise, using the MKA information, a Security Association Key to the one or more remaining provider edge devices of the plurality of provider edge devices; and encrypt or decrypt, using the Security Association Key, a content message received at the first provider edge device.",
+  "patent_id": "US12381718-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/0825",
+      "H04L 9/3242",
+      "H04L 12/4641",
+      "H04L 45/02"
+    ],
+    "all": [
+      "H04L 9/0825",
+      "H04L 9/3242",
+      "H04L 12/4641",
+      "H04L 45/02"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "application_id": "WO2017034840",
+  "application_id_fs": "WO2017034840",
+  "title": "Secure unmanned vehicle operation and monitoring",
+  "abstract": "Systems and methods for unmanned vehicle security and monitoring are provided herein. An exemplary system includes a control station and an unmanned vehicle. The system may further include a redundant sensor and control system used for monitoring and controlling the unmanned vehicle. In various embodiments, the redundant sensor and control system may override the control station and take over control of the unmanned vehicle when at least one operational condition of the unmanned vehicle exceeds an approved parameter.",
+  "claims": "Claims Claims  What is claimed: 1. A system for unmanned vehicle monitoring and oversight, the system comprising: a control station; an unmanned vehicle in communication with the control station via a network; and a redundant sensor and control system physically attached to the unmanned vehicle that is operable to communicate with a third party, the redundant sensor and control system being independent of any other control system of the unmanned vehicle. 2. The system of claim 1, wherein the redundant sensor and control system monitors environmental data around the unmanned vehicle, the environmental data including at least satellite positioning data. 3. The system of claim 2, wherein the redundant sensor and control system analyzes, using a processor and memory, the environmental data and approved operational data, the approved operational data including at least one condition for approved operation of the unmanned vehicle. \n\n The system of claim 3, wherein the approved operational data is stored before launch of the unmanned vehicle in memory of the redundant sensor and control system, the approved operational data including at least one of a no entry zone, an operator generated condition, and other operational data from a third-party service. The system of claim 3, wherein the approved operational data is dynamically updated in memory of the redundant sensor and control system by real-time communication, the approved operational data including at least one of a no entry zone, an operator generated condition, and other operational data from a third-party service. The system of claim 3, wherein the redundant sensor and control system, using a processor and memory, initiates autopilot control of the unmanned vehicle when the environmental data violates at least one of the conditions for approved operation of the unmanned vehicle, the autopilot control superseding operation of the unmanned vehicle by the control station. 7. The system of claim 6, wherein the autopilot control initiates activation of a kill switch for operation of the unmanned vehicle, the kill switch being an emergency command resulting in the unmanned vehicle returning to a launch or other safe landing location under approved conditions. 8. The system of claim 1, wherein the unmanned vehicle is at least one of an unmanned aerial vehicle (UAV), an unmanned ground vehicle (UGV), an unmanned surface vehicle (USV), and an unmanned underwater vehicle (UUV). 9. The system of claim 1, wherein the redundant sensor and control system is communicably coupled, via a network, with a third party service that is a government regulatory entity providing real-time communication, the third party service providing at least one condition of the approved operational data. 10. The system of claim 9, wherein the government regulatory entity is the Federal Aviation Administration (FA A). 11. The system of claim 1, wherein the redundant sensor and control system is communicably coupled, via a network, with a third party service that is a private \n\n sector subscription entity providing real-time communication of at least one condition of the approved operational data. 12. A method for unmanned vehicle monitoring, the method comprising: receiving, by a redundant sensor and control system, at least one approved operating parameter regarding operation of an unmanned vehicle, the redundant sensor and control system being independent of any other control system of the unmanned vehicle; and overriding, by the redundant sensor and control system, control by a vehicle control station of the unmanned vehicle, based on the at least one approved operating parameter. 13. The method of claim 12, further comprising monitoring, by the redundant sensor and control system, environmental data around the unmanned vehicle, the environmental data including at least satellite positioning data. 14. The method of claim 13, further comprising analyzing, using a processor and memory, the environmental data and approved operational data, the approved operational data including at least conditions for approved operation of the unmanned vehicle. 15. The method of claim 12, further comprising storing the approved operational data before launch of the unmanned vehicle in the memory of the redundant sensor and control system, the approved operational data including at least one of a no entry zone, an operator generated condition, and an operating condition from a third-party service. 16. The method of claim 12, further comprising dynamically updating the approved operational data, the approved operational data including at least one of a no entry zone, an operator generated condition, and an operating condition from a third-party service. 17. The method of claim 13, wherein the overriding comprises initiating autopilot control of the unmanned vehicle when the environmental data violates at least one of the conditions for approved operation of the unmanned vehicle, the autopilot control superseding operation of the unmanned vehicle by the control station. 18. The method of claim 13, wherein the overriding further comprises initiating a kill switch for operation of the unmanned vehicle when the environmental data \n\n violates at least one of the conditions for approved operation of the unmanned vehicle, the kill switch being an emergency command resulting in the unmanned vehicle returning to a launch location or other safe location under approved conditions. 19. A system for unmanned vehicle monitoring and oversight, the system comprising: a control station; an unmanned vehicle communicably coupled, using a network, with the control station; and a redundant sensor and control system physically attached to the unmanned vehicle, the redundant sensor and control system being independent of any other sensor system of the unmanned vehicle and monitoring environmental data around the unmanned vehicle, the environmental data including at least satellite positioning data. The system of claim 19, wherein the redundant sensor and control system analyzes, using a processor and memory, the environmental data and approved operational data, the approved operational data including at least conditions for approved operation of the unmanned vehicle, the conditions for approved operation of the unmanned vehicle including at least one of a no entry zone, an operator generated condition, and a third-party regulation; and wherein the redundant sensor and control system, using a processor and memory, initiates autopilot control of the unmanned vehicle when the \n\n environmental data violates the conditions for approved operation of the unmanned vehicle, the autopilot control superseding operation of the unmanned vehicle by the control station, and initiating activation of a kill switch for operation of the unmanned vehicle, the kill switch being an emergency command resulting in the unmanned vehicle returning to a launch location under approved conditions.",
+  "classifications": {
+    "ipc": [
+      "G08G 5/00",
+      "G08G 5/50",
+      "G08G 5/55",
+      "G05D 1/00",
+      "G05D 1/0011",
+      "G05D 1/0022",
+      "G05D 1/0055",
+      "G05D 1/0077",
+      "G05D 1/10",
+      "G05D 1/101",
+      "G05D 1/106",
+      "G08G 5/30",
+      "G08G 5/34",
+      "G08G 5/57",
+      "G08G 5/58",
+      "G08G 5/59",
+      "G08G 5/70",
+      "G08G 5/76"
+    ],
+    "cpc": [],
+    "all": [
+      "G08G 5/00",
+      "G08G 5/50",
+      "G08G 5/55",
+      "G05D 1/00",
+      "G05D 1/0011",
+      "G05D 1/0022",
+      "G05D 1/0055",
+      "G05D 1/0077",
+      "G05D 1/10",
+      "G05D 1/101",
+      "G05D 1/106",
+      "G08G 5/30",
+      "G08G 5/34",
+      "G08G 5/57",
+      "G08G 5/58",
+      "G08G 5/59",
+      "G08G 5/70",
+      "G08G 5/76"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017034840"
+}

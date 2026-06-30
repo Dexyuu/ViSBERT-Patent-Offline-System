@@ -1,0 +1,34 @@
+{
+  "application_id": "WO2017171987",
+  "application_id_fs": "WO2017171987",
+  "title": "System, apparatus and method for performing secure memory training and management in a trusted environment",
+  "abstract": "In one embodiment, a system includes: a processor; a security processor to execute in a trusted executed environment (TEE), the security processor to execute memory reference code (MRC) stored in a secure storage of the TEE to train a memory coupled to the processor; and the memory coupled to the processor. Other embodiments are described and claimed.",
+  "claims": "Claims What is claimed is: 1. A processor comprising: at least one core to execute instructions; and a security engine coupled to the at least one core to execute transparently to an operating system (OS) to execute on the at least one core, the security engine including a memory reference code (MRC) module to perform training for a memory coupled to the processor transparently to the OS while the at least one core is to perform a workload orthogonal to the training. 2. The processor of claim 1, wherein the security engine is to execute in a trusted execution environment. 3. The processor of claim 1, wherein the MRC module is to execute MRC code stored in an internal memory of the security engine. 4. The processor of claim 1, wherein the MRC module is to perform the training responsive to a hot plug insert of the memory. 5. The processor of claim 4, further comprising a basic input/output system (BIOS) to execute on the at least one core, the BIOS detect the hot plug insert and communicate the detection to a platform driver, the platform driver to issue a request to the security engine to initiate the training for the memory. 6. The processor of claim 5, wherein the MRC module is to alert the platform driver regarding a result of the training. 7. The processor of claim 5, wherein the MRC module is to cause the BIOS to update a memory controller with configuration information of the hot plug memory. 8. The processor of claim 3, wherein the MRC code is to be dynamically updated from a remote source via an out-of-band channel. 9. The processor of claim 8, wherein the MRC module, responsive to execution of updated MRC code, is to cause update to at least one configuration parameter of the memory, to reduce an exploit scenario. 10. A method comprising: receiving, in a trusted execution environment (TEE) of a processor of a computing system, a request to perform training of a memory of the computing system; performing the training of the memory via the TEE, responsive to training code stored in an internal memory of the TEE; and reporting a result of the training to a driver that executes on at least one core of the processor, wherein the at least one core is to execute at least one workload during the training. 11. The method of claim 10, further comprising receiving the request to perform the training from the driver, the driver to receive an indication of a hot plug event from a basic input/output system. 12. The method of claim 10, further comprising receiving update information from an external entity and updating the training code based on the update information. 13. The method of claim 12, wherein the update information includes updated configuration parameter information to mitigate an exploit scenario. 14. The method of claim 13, wherein the update information is based on crowd-sourced data. 15. The method of claim 12, wherein the update information includes refresh rate information. 16. A computer-readable storage medium including computer-readable instructions, when executed, to implement a method as claimed in any one of claims 10 to 15. 17. A system comprising: a processor; a security processor to execute in a trusted executed environment (TEE), the security processor to execute memory reference code (MRC) stored in a secure storage of the TEE to train a memory coupled to the processor, wherein the security processor is to execute the MRC transparently to a basic input/output system (BIOS); and the memory coupled to the processor. 18. The system of claim 17, wherein the processor further comprises at least one core, the at least one core to execute an orthogonal workload while the security processor is to execute the MRC. 19. The system of claim 17, wherein the security processor is to train the memory responsive to a hot plug insert of the memory. 20. The system of claim 17, further comprising a network interface to communicate with a remote administrator, the security processor to communicate with the remote administrator via an out-of-band channel, wherein the security processor is to receive one or more MRC patch updates via the out-of-band channel and store the one or more MRC patch updates in the secure storage. 21. The system of claim 20, wherein the security processor is, responsive to a next request to train the memory, to execute the MRC having the one or more MRC patch updates. 22. The system of claim 17, wherein the security processor is further to execute malware detection code, the system further comprising a network interface to communicate with a malware remediation agent, the security processor to communicate with the malware remediation agent via an out-of-band channel, wherein the security processor is to receive one or more malware detection code patch updates via the out-of-band channel and store the one or more malware detection code patch updates in the secure storage. 23. A processor comprising: security means for executing transparently to an operating system (OS) that is to execute on a core means, the security means including a memory reference code (MRC) means for performing training for a memory coupled to the processor transparently to the OS while the core means is to perform a workload orthogonal to the training. 24. The processor of claim 23, wherein the security means is to execute in a trusted execution environment. 25. The processor of claim 23, wherein the MRC means is to execute MRC code stored in an internal memory of the security means.",
+  "classifications": {
+    "ipc": [
+      "G06F 21/00",
+      "G06F 21/70",
+      "G06F 21/71",
+      "G06F 21/74",
+      "G06F 9/00",
+      "G06F 9/06",
+      "G06F 9/44",
+      "G06F 9/445",
+      "G06F 9/455"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 21/00",
+      "G06F 21/70",
+      "G06F 21/71",
+      "G06F 21/74",
+      "G06F 9/00",
+      "G06F 9/06",
+      "G06F 9/44",
+      "G06F 9/445",
+      "G06F 9/455"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017171987"
+}

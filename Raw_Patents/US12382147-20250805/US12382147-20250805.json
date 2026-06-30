@@ -1,0 +1,30 @@
+{
+  "title": "Encoding input for machine learning",
+  "abstract": "A method and system for providing synchronized input feedback, comprising receiving an input event, encoding the input event in an output stream wherein the encoding of the input event is synchronized to a specific event and reproducing the output stream through an output device whereby the encoded input event in the reproduced output stream is imperceptible to the user.",
+  "claims": "1. A method for providing synchronized input feedback: a) encoding one or more input events in an output stream, wherein: the output stream includes a video stream; one or more of the one or more input events are encoded as a watermark in an alpha channel over the video stream; the encoding of the one or more input events is synchronized to one or more subsequent specific events occurring within a software environment; the one or more input events include a control input that precedes one or more of the one or more subsequent specific events; the encoding of the one or more input events is synchronized to the one or more subsequent specific events occurring on a remote device over a network; and the one or more input events are encoded synchronously with the video stream or an audio stream having the one or more subsequent specific events occurring therein; and b) storing the output stream or reproducing the output stream through an output device, wherein: the one or more encoded input events in the output stream is imperceptible to a user when reproduced through the output device; and the one or more encoded input events in the reproduced output stream are decodable for use by one or more neural networks.",
+  "patent_id": "US12382147-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/8358",
+      "A63F 13/245",
+      "G06F 16/68",
+      "G06F 16/78",
+      "G06F 18/214",
+      "G06N 3/08",
+      "G06V 10/776",
+      "H04N 21/242"
+    ],
+    "all": [
+      "H04N 21/8358",
+      "A63F 13/245",
+      "G06F 16/68",
+      "G06F 16/78",
+      "G06F 18/214",
+      "G06N 3/08",
+      "G06V 10/776",
+      "H04N 21/242"
+    ],
+    "source": "converted"
+  }
+}

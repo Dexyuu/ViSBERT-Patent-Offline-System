@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2019046002",
+  "application_id_fs": "WO2019046002",
+  "title": "Multi-line data prefetching using dynamic prefetch depth",
+  "abstract": "A system for prefetching data for a processor includes a processor core, a memory configured to store information for use by the processor core, a cache memory configured to fetch and store information from the memory, and a prefetch circuit. The prefetch circuit may be configured to issue a multi-group prefetch request to retrieve information from the memory to store in the cache memory using a predicted address. The multi-group prefetch request may include a depth value indicative of a number of fetch groups to retrieve. The prefetch circuit may also be configured to generate an accuracy value based on a cache hit rate of prefetched information over a particular time interval, and to modify the depth value based on the accuracy value.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1. A system, comprising: a processor core; a memory configured to store information for use by the processor core; a cache memory configured to fetch and store information from the memory; and a prefetch circuit configured to: issue a multi-group prefetch request to retrieve information from the memory to store in the cache memory using a predicted address, wherein the multi-group prefetch request includes a depth value indicative of a number of fetch groups to retrieve; generate an accuracy value based on a cache hit rate of prefetched information over a particular time interval; and modify the depth value based on the accuracy value. 2. The system of claim 1, wherein to modify the depth value, the prefetch circuit is further configured to: increase the depth value in response to a determination that the accuracy value satisfies an upper threshold value; and decrease the depth value in response to a determination that the accuracy value satisfies a lower threshold value. 3. The system of claim 2, wherein to increase the depth value, the prefetch circuit is further configured to maintain a current depth value in response to a determination that the current depth value is equal to a maximum allowed depth value. 4. The system of claim 2, wherein to decrease the depth value, the prefetch circuit is further configured to suspend issuing prefetch requests for at least a next time interval in response to a determination that a current depth value is equal to a minimum allowed depth value. 5. The system of claim 1, wherein to generate the accuracy value, the prefetch circuit is further configured to: \n\n track, over the particular time interval, a first value indicative of an amount of information stored, in response to one or more prefetch requests, in the cache memory; and track, over the particular time interval, a second value indicative of a number of cache hits of cache lines that include information that is stored in the cache memory in response to at least one prefetch request. 6. The system of claim 5, wherein the prefetch circuit is further configured to determine the accuracy value based on the first value, the second value, and a weighted running average of the amount of information stored, in response to one or more prefetch requests. 7. The system of claim 1, wherein to issue the multi-group prefetch request, the prefetch circuit is further configured to issue a number of single-group prefetch requests, wherein the number of single-group prefetch requests is based on the depth value. 8. A method, comprising: issuing, by a prefetch circuit, a multi-group prefetch request to retrieve information from a memory to store in a cache memory using a predicted address, wherein the multi-group prefetch request includes a depth value corresponding to a number of fetch groups to retrieve; generating an accuracy value based on a cache hit rate of prefetched information over a particular time interval; and modifying the depth value based on the accuracy value. 9. The method of claim 8, further comprising: increasing the depth value in response to determining that the accuracy value satisfies an upper threshold; and decreasing the depth value in response to determining that the accuracy value satisfies a lower threshold. 10. The method of claim 9, further comprising maintaining a current depth value in response to determining that the current depth value is equal to a maximum allowed depth value. 11. The method of claim 9, further comprising suspending issuing prefetch requests for at least a next time interval in response to determining that a current depth value is equal to a minimum allowed depth value. 12. The method of claim 8, further comprising: tracking, over the particular time interval, a first value indicative of an amount of information stored, in response to one or more prefetch requests, in the cache memory; and tracking, over the particular time interval, a second value indicative of a number of cache hits of cache lines that include information that is stored in the cache memory in response to at least one prefetch request. 13. The method of claim 12, further comprising determining the accuracy value based on the first value, the second value, and a weighted running average of the amount of information stored, in response to one or more prefetch requests. 14. An apparatus, comprising: a prefetch generator configured to: generate a multi-group prefetch request that includes a predicted address and a depth value indicative of a number of fetch groups to be retrieved from a memory and stored in a cache; using the predicted address, issue a single-group prefetch request corresponding to the multi-group prefetch request; and issue another single-group prefetch request corresponding to the multi- group prefetch request in response to a determination that the number of fetch groups to be retrieved has yet to be fetched; an accuracy monitor configured to generate an accuracy value based on a cache hit rate of prefetched information over a particular time interval; and \n\n a depth adjustor configured to modify the depth value based on the accuracy value. 15. The apparatus of claim 14, wherein to modify the depth value, the depth adjustor is further configured to: increase the depth value in response to a determination that the accuracy value satisfies an upper threshold; and decrease the depth value in response to a determination that the accuracy value satisfies a lower threshold. 16. The apparatus of claim 15, wherein to increase the depth value, the depth adjustor is further configured to maintain a current depth value in response to a determination that the current depth value is equal to a maximum allowed depth value. 17. The apparatus of claim 15, wherein to decrease the depth value, the depth adjustor is further configured to suspend issuing prefetch requests for at least a next time interval in response to a determination that a current depth value is equal to a minimum allowed depth value. 18. The apparatus of claim 14, wherein to generate the accuracy value, the accuracy monitor is further configured to: track, over the particular time interval, a first value indicative of an amount of information stored, in response to one or more prefetch requests, in the cache memory; and track, over the particular time interval, a second value indicative of a number of cache hits of cache lines that include information that is stored in the cache memory in response to at least one prefetch request. 19. The apparatus of claim 18, wherein the accuracy monitor is further configured to determine the accuracy value based the first value, the second value, and a weighted running average of the amount of information stored, in response to one or more prefetch requests. 20. The apparatus of claim 14, wherein to issue the another single-group prefetch request corresponding to the multi-group prefetch request, the prefetch generator is configured to increment a value of the predicted address by an amount based on a size of a cache line.",
+  "classifications": {
+    "ipc": [
+      "G06F 12/00",
+      "G06F 12/02",
+      "G06F 12/08",
+      "G06F 12/0802",
+      "G06F 12/0806",
+      "G06F 12/0862",
+      "G06F 12/0844",
+      "G06F 12/0855",
+      "G06F 2212/00",
+      "G06F 2212/10",
+      "G06F 2212/1016",
+      "G06F 2212/60",
+      "G06F 2212/602",
+      "G06F 2212/6026"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 12/00",
+      "G06F 12/02",
+      "G06F 12/08",
+      "G06F 12/0802",
+      "G06F 12/0806",
+      "G06F 12/0862",
+      "G06F 12/0844",
+      "G06F 12/0855",
+      "G06F 2212/00",
+      "G06F 2212/10",
+      "G06F 2212/1016",
+      "G06F 2212/60",
+      "G06F 2212/602",
+      "G06F 2212/6026"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019046002"
+}

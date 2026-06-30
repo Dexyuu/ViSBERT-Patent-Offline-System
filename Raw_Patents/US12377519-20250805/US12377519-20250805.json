@@ -1,0 +1,22 @@
+{
+  "title": "Substrate processing apparatus and substrate processing method",
+  "abstract": "A substrate processing apparatus includes a rotary table configured to move each of multiple substrate chucks to, in sequence, a carry-in position where a carry-in of a substrate is performed, a processing position where thinning of the substrate is performed, and a carry-out position where a carry-out of the substrate is performed; a tilt angle adjusting device configured to adjust a tilt angle of the substrate chuck with respect to the rotary table at the processing position; and a tilt angle controller configured to control the tilt angle adjusting device based on a measurement result of a plate thickness measuring device. The plate thickness measuring device measures a plate thickness of the substrate at the carry-out position.",
+  "claims": "1. A substrate processing apparatus, comprising: a rotary table configured to move each of multiple substrate chucks to, in sequence, a carry-in position where a carry-in of a substrate is performed, a processing position where thinning of the substrate is performed, and a carry-out position where a carry-out of the substrate is performed; two connectors, connecting the substrate chuck and the rotary table, configured to linearly move to adjust a tilt angle of the substrate chuck with respect to the rotary table at the processing position; a spindle shaft including a flange at an end thereof, wherein a whetstone is attached to the flange in a replaceable manner, and the whetstone is configured to thin the substrate at the processing position; a laser displacement sensor provided at the carry-out position and configured to measure, at multiple points of the substrate in a diametrical direction thereof, a plate thickness of the substrate thinned by the whetstone; and a controller and a storage including a program, wherein the storage and the program are configured, with the controller, to control the substrate processing apparatus, wherein the controller is configured to: control the laser displacement sensor to measure the plate thickness of the substrate, which has been thinned by the whetstone, at the carry-out position; after measuring the plate thickness of the substrate and before thinning another substrate, control the two connectors to adjust the substrate chuck that holds said another substrate based on a plate thickness measurement result of the substrate; and control the spindle shaft to thin said another substrate while said another substrate is held by the substrate chuck tilted at the adjusted angle.",
+  "patent_id": "US12377519-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B24B 49/04",
+      "B24B 7/226",
+      "B24B 41/06",
+      "B24B 53/017"
+    ],
+    "all": [
+      "B24B 49/04",
+      "B24B 7/226",
+      "B24B 41/06",
+      "B24B 53/017"
+    ],
+    "source": "converted"
+  }
+}

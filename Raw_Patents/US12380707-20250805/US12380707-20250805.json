@@ -1,0 +1,22 @@
+{
+  "title": "Image processing apparatus, image processing method, and non-transitory recording medium",
+  "abstract": "An image processing apparatus includes a long-exposure distance image generator, a short-exposure distance image generator, a resolution reducer, a detector, an estimator, and an image processor. The estimator estimates a moving distance of a specific object from a moving amount of the specific object in a pixel region in which saturation has occurred within a long-exposure distance image whose resolution has been reduced. When a difference between the estimated moving distance of the specific object and an actual moving distance of a first vehicle is within a predetermined threshold range, with regard to the pixel region in which the saturation has occurred in the long-exposure distance image, the image processor generates a distance image using distance data of the pixel region in which the saturation has occurred.",
+  "claims": "1. An image processing apparatus comprising: a long-exposure distance image generator configured to calculate a parallax between a first long-exposure image derived from a first long-exposure camera and a second long-exposure image derived from a second long-exposure camera to generate a long-exposure distance image, the first long-exposure camera and the second long-exposure camera being disposed at a predetermined distance from each other and each configured to capture an image at long exposure; a short-exposure distance image generator configured to calculate a parallax between a first short-exposure image derived from a first short-exposure camera and a second short-exposure image derived from a second short-exposure camera to generate a short-exposure distance image, the first short-exposure camera and the second short-exposure camera being disposed at a predetermined distance from each other and each configured to capture an image at short exposure; a resolution reducer configured to reduce resolution of the long-exposure distance image and the short-exposure distance image by reducing, in the long-exposure distance image and the short-exposure distance image, number of pixels in pixel regions in which a surrounding area is captured that comprises an illuminating body of a second vehicle located in front of a first vehicle to which the image processing apparatus is to be applied; a detector configured to perform a detection of a pixel region in which saturation has occurred among the pixel regions of the long-exposure distance image whose resolution has been reduced; an estimator configured to estimate, based on a result of the detection performed by the detector, a moving distance of a specific object from a moving amount of the specific object in the pixel region in which the saturation has occurred within the long-exposure distance image whose resolution has been reduced; and an image processor configured to, when a difference between the moving distance of the specific object that has been estimated and an actual moving distance of the first vehicle is within a predetermined threshold range, with regard to the pixel region in which the saturation has occurred in the long-exposure distance image, generate a distance image using distance data of the pixel region in which the saturation has occurred.",
+  "patent_id": "US12380707-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 20/584",
+      "G06T 3/40",
+      "G06T 7/20",
+      "G06V 10/761"
+    ],
+    "all": [
+      "G06V 20/584",
+      "G06T 3/40",
+      "G06T 7/20",
+      "G06V 10/761"
+    ],
+    "source": "converted"
+  }
+}

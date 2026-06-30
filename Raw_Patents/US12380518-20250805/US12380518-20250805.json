@@ -1,0 +1,22 @@
+{
+  "title": "Slot based allocation for fueling",
+  "abstract": "In one aspect, data characterizing fueling station user's location relative to a fueling station, a time slot of availability of a fuel dispenser at the fueling station, and a configuration of the fuel dispenser for fuel dispensing operations can be received. An arrival time of the fueling station user at the fueling station can be determined based on the location data. A selection prompt characterizing the fuel dispenser configuration data can be determined, and the selection prompt can include a field for specifying an operating parameter of the fuel dispenser. Selection data characterizing the operating parameter can be determined in response to an input of the operating parameter into the field. A fueling station allocation can be determined based on the arrival time, the time slot data, and the selection data. The fueling station allocation can be provided. Related apparatus, systems, methods, techniques, and articles are also described.",
+  "claims": "1. A method comprising: receiving data characterizing a location of a fueling station user relative to at least one fueling station, a time slot of availability of at least one fuel dispenser at the at least one fueling station during which the at least one fuel dispenser is available to dispense fuel to the fueling station user, and a configuration of the at least one fuel dispenser for fuel dispensing operations; determining a first view of a graphical user interface (GUI), the first view including a map view of a plurality of selectable fueling stations arranged relative to the location of the fueling station user and including the at least one fueling station; providing the first view of the GUI on a client device of the fueling station user; receiving first selection data characterizing a selection of the at least one fueling station selected via the first view of the GUI; determining an arrival time of the fueling station user at the selected at least one fueling station based on the received location data and first selection data, the arrival time characterizing a time at which the fueling station user is estimated to arrive at the selected at least one fueling station; determining a second view of the GUI, the second view including a selection of time slots corresponding to the arrival time of the fueling station user at the selected at least one fueling station; providing the second view of the GUI on the client device of the fueling station user; receiving second selection data characterizing a time slot corresponding to the arrival time of the fueling station user at the selected at least one fueling station, the time slot selected via the second view of the GUI; determining a selection prompt that characterizes the received fuel dispenser configuration data, the selection prompt including a field for specifying an operating parameter of the at least one fuel dispenser; providing the selection prompt in the second view of the GUI on the client device of the fueling station user; receiving third selection data characterizing the operating parameter of the at least one fuel dispenser in response to an input of the operating parameter of the at least one fuel dispenser provided to the field of the selection prompt; determining an updated second view of the GUI based on the third selection data, the updated second view including an indication of a confirmed time slot corresponding to the selected time slot, a duration of the confirmed time slot, and an indication of a reserved fuel dispenser, the updated second view of the GUI determined based on the determined arrival time, the selected time slot, and the selected operating parameter; providing the updated second view of the GUI on the client device of the fueling station user; locking the reserved fuel dispenser at a start time of the confirmed time slot; receiving data characterizing an authorization to dispense fuel from the reserved fuel dispenser, the authorization indicating that the fueling station user has arrived at the reserved fuel dispenser; and enabling the reserved fuel dispenser to dispense fuel to the fueling station user based on the received authorization data.",
+  "patent_id": "US12380518-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 50/06",
+      "G01C 21/3679",
+      "G06Q 10/02",
+      "G08G 1/0968"
+    ],
+    "all": [
+      "G06Q 50/06",
+      "G01C 21/3679",
+      "G06Q 10/02",
+      "G08G 1/0968"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Electroluminescent display device",
+  "abstract": "An electroluminescent display device includes a display panel including a plurality of pixels each having a light emitting element and a driving thin film transistor for controlling a driving current flowing through the light emitting element and connected to a data line and a gate line, a panel driver connected to the data line and the gate line, and a timing controller configured to control an operation of the panel driver such that the operation is divided into an emission period in which the light emitting element emits light and a non-emission period in which light emission is stopped and to perform control such that a data voltage is input through the data line during the non-emission period and light emitting elements to which the data voltage is applied simultaneously emit light during the emission period.",
+  "claims": "1. An electroluminescent display device comprising: a display panel including a plurality of pixels each having a light emitting element, a driving thin film transistor for controlling a driving current flowing through the light emitting element, a first capacitor connected to a first node to be charged and discharged based on a data voltage applied to a data line, a second capacitor connected to a second node and a source node of the driving thin film transistor, and a control circuit; a panel driver connected to the data line and a gate line; a timing controller configured to: divide an operation cycle into an emission period in which the light emitting element emits light and a non-emission period in which light emission is stopped, and provide a data voltage through the data line during the non-emission period for sequentially controlling light emitting elements, wherein the control circuit is configured to concurrently couple the data voltage to the driving thin film transistor and emit light from the light emitting elements during the emission period, wherein the control circuit comprises a buffer transistor to store the data voltage before the emission period and discharge the data voltage stored in the first capacitor using the buffer transistor based on a low voltage of the data line, when the emission period ends.",
+  "patent_id": "US12380860-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/3291",
+      "G09G 3/3266",
+      "G09G 2300/0852",
+      "G09G 2310/0278",
+      "G09G 2310/08",
+      "G09G 2320/0233"
+    ],
+    "all": [
+      "G09G 3/3291",
+      "G09G 3/3266",
+      "G09G 2300/0852",
+      "G09G 2310/0278",
+      "G09G 2310/08",
+      "G09G 2320/0233"
+    ],
+    "source": "converted"
+  }
+}

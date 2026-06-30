@@ -1,0 +1,18 @@
+{
+  "title": "Method for identifying faults in a drive",
+  "abstract": "Disclosed is a method for identifying faults in a drive. A normalized spectrum is determined, which is dependent on a speed. Peak values in the spectrum are identified. A first peak value is identified at a first frequency and a second peak value is identified at a second frequency. A pattern is identified based on the first frequency and the second frequency.",
+  "claims": "1. A method for recognizing faults in a drive with different types of bearings, the method comprising: storing a plurality of fault patterns with at least one fault associated with the plurality of fault patterns: operating the drive with a bearing at a rotary speed in at least one operating state; recording actual values with a sensor; receiving the actual values with an analysis apparatus; forming a spectrum from the actual values with the analysis apparatus; establishing a normalized spectrum from the spectrum depending upon the rotary speed; recognizing a first peak value at a first frequency of the normalized spectrum when an amplitude of the first peak value exceeds a first minimum value; recognizing a second peak value at a second frequency of the normalized spectrum when an amplitude of the second peak value exceeds a second minimum value, wherein the second peak value has lateral peak values in side bands; recognizing a pattern of main maxima based on the first frequency and the second frequency and related to the frequencies and/or the amplitudes of the first and second peak values, wherein the frequencies are multiples of one another; recognizing a side band pattern dependent upon lateral peak values in the side bands; recognizing, with the analysis apparatus, at least one fault based on the recognized main maxima pattern, the recognized side lobe pattern and the plurality of stored fault patterns, and also using data stored as asset information including a bearing type and application detail in a database, wherein a fault pattern is recognized even if the fault pattern becomes displaced in a frequency domain; and taking at least one measure related to the drive when the at least one fault is recognized.",
+  "patent_id": "US12379283-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01M 13/045",
+      "G01M 13/028"
+    ],
+    "all": [
+      "G01M 13/045",
+      "G01M 13/028"
+    ],
+    "source": "converted"
+  }
+}

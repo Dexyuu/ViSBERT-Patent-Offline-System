@@ -1,0 +1,21 @@
+{
+  "application_id": "WO2016132106",
+  "application_id_fs": null,
+  "title": "Satellite image processing",
+  "abstract": "To generate a representation of changes in forest coverage for a large number of geographic locations, it is proposed to make use of radar backscatter data from synthetic aperture radar (SAR) apparatus. Backscatter data from shorter wavelength radar bands such as C-Band can be processed to provide a representation of changes in forest coverage to a given degree of certainty providing the data is suitably prepared.",
+  "claims": "Claims 1. A method for processing radar backscatter data from forested terrain, the method comprising: obtaining a plurality of time-separated rasters of radar backscatter data from a remote sensing platform; masking said rasters to exclude confounding variables; filtering said rasters to reduce the effect of radar backscatter; comparing the pixel values of the data in respective rasters, where any given pixel corresponds to substantially the same geographic location; for each geographic location, determining whether the difference in pixel values between rasters exceeds a predetermined threshold value; and generating a representation of changes in forest coverage for each geographic location in accordance with the outcome of said determination. 2. The method of claim 1, wherein the remote sensing platform is a satellite. 3. The method of claim 1 or claim 2, wherein the remote sensing platform includes synthetic aperture radar, SAR, equipment . 4. The method of claim 3, wherein the radar backscatter data is generated using the SAR equipment and wherein the SAR equipment is sensitive to radar in the C-band. 5. The method of any one of the preceding claims, further comprising : \n\n estimating the intensity of disturbance using the magnitude of the change between radar scenes or other ancillary data. 6. The method of claim 5, wherein the intensity of disturbance is categorized into at least two classes. 7. The method of any one of the preceding claims, further comprising : estimating a level of confidence associated with the detected change predicted to have occurred at a particular date . 8. The method of claim 7, wherein the estimated level of confidence is categorized into at least two classes. 9. The method of claim 7, wherein the estimated level of confidence is evaluated on a continuous scale. 10. The method of any one of the preceding claims, wherein the radar backscatter data corresponds to at least one polarisation band selected from: like-polarised bands and cross-polarised bands. 11. The method of claim 10, wherein the radar backscatter data comprises a like-polarised data stack corresponding to a like-polarised band and a cross-polarised data stack corresponding to a cross-polarised band, and wherein the operation of filtering radar backscatter rasters includes: determining whether respective pixels in the cross- polarised data stack have backscatter characteristics consistent with the presence of a body of water; and masking said pixels from the radar backscatter rasters. 12. An apparatus for processing radar backscatter data, the apparatus comprising a processor which is operable to execute the method of any one of the preceding claims.",
+  "classifications": {
+    "ipc": [
+      "G01S 7/41",
+      "G01S 13/90",
+      "G06K 9/00"
+    ],
+    "cpc": [],
+    "all": [
+      "G01S 7/41",
+      "G01S 13/90",
+      "G06K 9/00"
+    ],
+    "source": "csv"
+  }
+}

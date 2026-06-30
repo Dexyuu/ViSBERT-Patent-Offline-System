@@ -1,0 +1,24 @@
+{
+  "title": "Identifying and partitioning legitimate GNSS satellite signals from illegitimate GNSS satellite signals using a contrario method",
+  "abstract": "Provided are systems, methods, and devices for identifying correct satellite signals to improve the accuracy of a satellite navigation system. In some embodiments, identifying correct satellite signals may include receiving a plurality of satellite signals; demodulating the satellite signals to extract a first plurality of parameters; determining a first subset of parameters from the first plurality of parameters, wherein the first subset of parameters is based on a first geographic location; determining a second subset of parameters from a second plurality of parameters outside the first subset, the second plurality of parameters comprising one or more parameters of the first plurality of parameters outside the first subset, wherein the second subset of parameters is based on a second geographic location; and identifying an exemplary subset from the first subset and the second subset, wherein the exemplary subset comprises parameters corresponding to correct satellite signals.",
+  "claims": "1. A method of identifying correct satellite signals to improve the accuracy of a satellite navigation system comprising: receiving a plurality of satellite signals; demodulating the plurality of satellite signals to extract a plurality of parameters; determining one or more first subsets of parameters from the plurality of parameters corresponding to the plurality of satellite signals; identifying one or more inlier parameters from one or more parameters of the plurality of parameters outside the first subset; and identifying a second subset from the one or more first subsets based on a plurality of scores for the one or more first subsets and the one or more inlier parameters, wherein the second subset comprises parameters corresponding to correct satellite signals.",
+  "patent_id": "US12379507-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 19/215",
+      "G01S 19/07",
+      "G01S 19/08",
+      "G01S 19/22",
+      "G01S 19/243"
+    ],
+    "all": [
+      "G01S 19/215",
+      "G01S 19/07",
+      "G01S 19/08",
+      "G01S 19/22",
+      "G01S 19/243"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Modeling and simulating material microstructures",
+  "abstract": "Embodiments generate computer based models, e.g., computer aided design (CAD) models, of materials. One such embodiment selects at least one section of a model representing a unit of a material. In turn, at least one physical or chemical property of the model is estimated based upon a proposed modification to the selected at least one section of the model and a proposed modification to a remainder of the model representing the unit of material. This selecting and estimating is iterated until the estimated at least one physical or chemical property conforms to a user specification of the at least one physical or chemical property. In this way, such an embodiment creates a model of a subject material that conforms to user specified physical and chemical properties.",
+  "claims": "1. A computer implemented method of generating a computer-based model of a material, the method comprising, by a processor: selecting a closed volume sub-section of a computer-based model representing a unit of a material; estimating at least one physical property of the computer-based model based upon a proposed modification to the selected closed volume sub-section of the computer-based model and a proposed modification to a remainder of the computer-based model representing the unit of material, wherein the estimating includes: updating the computer-based model in accordance with the proposed modification to the selected closed volume sub-section and the proposed modification to the remainder of the computer-based model by: filling the selected closed volume sub-section of the computer-based model with beads representing material of the closed volume sub-section; and filling the remainder of the computer-based model representing the unit of material with beads representing material of the remainder; and estimating the at least one physical property by computing the at least one physical property using the updated computer-based model; and iterating the selecting and estimating until the estimated at least one physical property conforms to a user specification of the at least one physical property.",
+  "patent_id": "US12380260-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 30/25",
+      "G06F 2111/10"
+    ],
+    "all": [
+      "G06F 30/25",
+      "G06F 2111/10"
+    ],
+    "source": "converted"
+  }
+}

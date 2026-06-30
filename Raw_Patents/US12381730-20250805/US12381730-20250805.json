@@ -1,0 +1,26 @@
+{
+  "title": "Dynamic and verifiable searchable encryption method and system based on updatable encryption and blockchain",
+  "abstract": "A dynamic and verifiable searchable encryption method based on updatable encryption and blockchain and a system thereof are provided. The method is suitable for the real scene where the data user and the data owner are not the same party. The method adopts the updatable technology to update the secret key in the searchable encryption, and the security of the key update could achieve Chosen Ciphertext Security (CCA) and Ciphertext Integrity (CTXT) security. In addition, the method is used to judge whether the cloud server is âtrustworthyâ by verifying the search results publicly based on the blockchain. Therefore, the verifiable dynamic searchable encryption method based on updatable encryption and blockchain has been greatly improved in terms of practicability and security.",
+  "claims": "1. A dynamic and verifiable searchable encryption method based on updatable encryption and blockchain, comprising: a data owner encrypting and uploading documents to a cloud server, and generating a message authentication code for each of the documents, wherein the message authentication code is uploaded to the cloud server and a blockchain; the data owner obtaining a keyword w, an identifier of each of the documents and a corresponding operation of a data during a process of update, wherein the identifier of the each of the documents comprises the keyword w; the data owner confirming whether the keyword w to be updated is initialized, wherein if the keyword w has not been initialized, a global counter of the keyword w is initialized to 0 and incremented by 1 and if the keyword w has been initialized, the global counter of the keyword w is directly incremented by 1; the data owner encrypting the keyword w to generate a first encryption result E 1 , encrypting the corresponding operation of the data and the identifier of the each of the document to generate a second encryption result E 2 , and sending the E 1 and the E 2 to the blockchain; while a data user searching for the keyword w, the data owner querying a quantity of the keyword w stored on the cloud server, encrypting the quantity of the keyword w and sending the quantity of the keyword w to the data user; the data user generating a list and sending the list to the blockchain, wherein the list comprises a data to be searched, and the keyword w corresponds to an entry, wherein the entry is stored in the blockchain; the blockchain finding the second encryption result E 2 and a value of the message authentication code according to values in the list, calculating an exclusive OR (XOR) value of the message authentication code and sending the second encryption result E 2 to the data user; the data user decrypting the second encryption result E 2 in order to obtain decrypted values of the identifiers of the documents containing the keyword w and sending the decrypted values of the identifiers of the documents to the cloud server; the cloud server returning the documents to the data user according to the identifiers, and at the same time sending the message authentication codes of the documents to the blockchain, and the blockchain calculating the XOR value again, comparing the two XOR values, in order to verify a correctness of the documents returned by the cloud server.",
+  "patent_id": "US12381730-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/32",
+      "H04L 9/065",
+      "H04L 9/0891",
+      "H04L 9/3242",
+      "H04L 9/50",
+      "H04L 63/0428"
+    ],
+    "all": [
+      "H04L 9/32",
+      "H04L 9/065",
+      "H04L 9/0891",
+      "H04L 9/3242",
+      "H04L 9/50",
+      "H04L 63/0428"
+    ],
+    "source": "converted"
+  }
+}

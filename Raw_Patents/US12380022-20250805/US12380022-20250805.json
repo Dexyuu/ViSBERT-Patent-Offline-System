@@ -1,0 +1,20 @@
+{
+  "title": "Memory system",
+  "abstract": "According to one embodiment, a controller, in a case where a first difference between a first number of times of erase and a second number is equal to or smaller than a second threshold, executes a copy operation in a first mode, the second number of times of erase is larger than the first number of times of erase. In a case where the first difference is larger than the second difference, the controller executes the copy operation in a second mode. A ratio of a copy amount to a cumulative data write amount in a first mode is smaller than a ratio of the copy amount to the cumulative data write amount in the second mode. The cumulative data write amount is an amount of data written to the nonvolatile memory based on write commands.",
+  "claims": "1. A memory system connectable to a host, comprising: a nonvolatile memory that includes a plurality of blocks, each of which is a unit of a data erase operation; and a controller that is electrically connected to the nonvolatile memory, wherein at least a part of the plurality of blocks is able to store valid data, the controller is configured to: execute a copy operation of copying valid data stored in a first block among blocks that store valid data to a second block which does not store valid data and has a larger number of times of erase than the first block; compare a first threshold value with a first difference between a first number of times of erase and a second number of times of erase among numbers of times of erase of the plurality of respective blocks, the second number of times of erase being larger than the first number of times of erase; in a case where the first difference is larger than the first threshold value, compare the first difference with a second threshold value which is larger than the first threshold value; in a case where the first difference is equal to or smaller than the second threshold value, execute the copy operation in a first mode; and in a case where the first difference is larger than the second threshold value, execute the copy operation in a second mode, a ratio of a copy amount to a cumulative data write amount in the first mode is smaller than a ratio of the copy amount to the cumulative data write amount in the second mode, the cumulative data write amount is an amount of data written to the nonvolatile memory based on one or more write commands received from the host, and the copy amount is an amount of data copied to the nonvolatile memory by the copy operation.",
+  "patent_id": "US12380022-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 12/0246",
+      "G06F 2212/7201",
+      "G06F 2212/7211"
+    ],
+    "all": [
+      "G06F 12/0246",
+      "G06F 2212/7201",
+      "G06F 2212/7211"
+    ],
+    "source": "converted"
+  }
+}

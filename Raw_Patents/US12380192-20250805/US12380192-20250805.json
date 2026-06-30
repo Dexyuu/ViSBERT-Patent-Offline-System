@@ -1,0 +1,20 @@
+{
+  "title": "Biometric authentication method capable of securely managing template pieces of biometric information with encryption",
+  "abstract": "Disclosed is a biometric authentication method capable of securely managing template pieces of biometric information with encryption. The Template for Registration of biometric information of this invention is divided into template pieces for management, but it is periodically encrypted with periodically changed encryption algorithm to enhance security. It presents a method of reassembling the template pieces into the original template to performing the authentication process.",
+  "claims": "1. A biometric authentication method using user's biometric information, the method comprises a registration process and an authentication process, wherein the registration process comprises: acquiring, by a terminal, biometric information of the user by using a biometric information input unit, generating a Template for Registration, which is characteristic data of the biometric information, dividing the Template for Registration into a set of template pieces by using a preset division algorithm, and generating a Non-identification Key as an identification code for the set of template pieces; generating, by the terminal, User Registration Information including User Identification Information which the user inputs, the set of template pieces, and the Non-identification Key, and providing the User Registration Information to a registration server in order to request user registration; and after receiving the User Registration Information, converting, by an authentication management server, the set of template pieces included in the User Registration Information into Encryption-registration Information by encrypting the set of template pieces with an encryption key according to a preset encryption algorithm, wherein the encryption algorithm is periodically changed, and storing the converted User Registration Information together with the encryption key in a data storage unit; wherein the authentication process comprises: requesting, by the terminal, authentication of a requester to the authentication management server by providing a Template for Authentication along with the Non-identification Key, wherein the Template for Authentication is acquired from the requester; extracting, by the authentication management server, Encryption-registration Information mapped to the authentication-requested Non-identification Key from the data storage unit, decoding the extracted Encryption-registration Information with a set of template pieces by using an encryption key mapped to the authentication-requested Non-identification Key, and reassembling the decoded set of template pieces into the Template for Registration according to a preset reassembly algorithm; and authenticating the requester, by the authentication management server, by comparing the Template for Authentication with the Template for Registration reassembled, and discarding the Template for Authentication and the Template for Registration reassembled.",
+  "patent_id": "US12380192-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/32",
+      "G06F 21/62",
+      "G06F 2221/2117"
+    ],
+    "all": [
+      "G06F 21/32",
+      "G06F 21/62",
+      "G06F 2221/2117"
+    ],
+    "source": "converted"
+  }
+}

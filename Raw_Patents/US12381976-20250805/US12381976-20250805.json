@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for providing context data associated with a communications session to the called device",
+  "abstract": "Systems and methods for providing called devices with sets of context data associated with communication sessions are disclosed. In one implementation, a method for generating context data associated with a communications session may include receiving, from a calling device at a first subsystem, a request to establish a communications session. The request may include a first identifier associated with the calling device. The method may further include receiving, at a second subsystem, activities data associated with the calling device that transmitted the request to establish the communications session. The activities data may include a second identifier associated with the calling device and may be indicative of device activities of the calling device. In addition, the method includes determining, using the first identifier and the second identifier, that the received activities data is associated with the calling device that transmitted the request to establish the communications session, generating context data associated with the communications session based on the received activities data, generating visual content based on the generated context data, and establishing the communications session in response to receiving, from a user of the called device, an input command to accept the request.",
+  "claims": "1. A computer-implemented method for establishing a communications session, the method comprising: receiving, from a calling device at a first subsystem, a request to establish the communications session, wherein the request includes a first identifier associated with the calling device, the first identifier being used to identify the calling device by its communications system; receiving, at a second subsystem separate from the first subsystem, and separately from the request, activities data associated with the calling device that transmitted the request to establish the communications session, wherein the activities data: (i) includes a second identifier associated with the calling device, the second identifier being different form the first identifier, and (ii) is indicative of device activities of the calling device and is indicative of data generated based on visual content that was being displayed on the calling device when an input command to transmit the request to establish the communications session was received; determining, using the first identifier and the second identifier, that the received activities data is associated with the calling device that transmitted the request to establish the communications session; and establishing the communications session in response to receiving, from a user of the calling device, the input command to accept the request.",
+  "patent_id": "US12381976-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04M 3/42068",
+      "H04L 67/535",
+      "H04M 3/5191"
+    ],
+    "all": [
+      "H04M 3/42068",
+      "H04L 67/535",
+      "H04M 3/5191"
+    ],
+    "source": "converted"
+  }
+}

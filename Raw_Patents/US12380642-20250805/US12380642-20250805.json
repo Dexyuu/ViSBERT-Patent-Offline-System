@@ -1,0 +1,18 @@
+{
+  "title": "Techniques for providing proprietary solid modeling to an open-source infrastructure modeling platform",
+  "abstract": "In example embodiments, a proprietary implementation of solid modeling is provided at run-time as a binary to an open-source infrastructure modeling platform. The binary includes functionality of a solid modeling module that manipulates and uses BReps that represent geometry of elements of an infrastructure model. When an application that utilizes the open-source infrastructure modeling platform requires solid modeling, it may have a backend module call an exposed function of a DLL that returns a pointer to the binary. The backend module uses the pointer to create a session, which may be divided into a number of individual partitions that each correspond to one of its individual threads. BReps may be assigned to individual partitions. When a thread requires BReps to be manipulated and/or used, the corresponding partition may be used to acquire the needed BReps, perform the solid modeling operations, and either return results or an error.",
+  "claims": "1. A method for solid modeling within an open-source infrastructure modeling platform, comprising: calling, by a backend module of the open-source infrastructure modeling platform executing on a client device or one or more cloud computing devices, a function of a dynamically loaded module (DLL) to obtain a pointer to an implementation of a solid modeling module built from a private repository that implements functionality to manipulate and use boundary representation bodies (BReps) that represent geometry of elements of an infrastructure model; utilizing, by the backend module, the pointer to initialize the solid modeling module, wherein initialization includes creating a session of the solid modeling module, the session is divided into a number of individual partitions, and BReps are each assigned to one of the individual partitions; utilizing, by the backend module, an interface of the solid modeling module to request one or more partitions of the session of the solid modeling module to perform solid modeling operations on one or more BReps assigned to the respective partitions and return results; and receiving the results produced by the partitions and causing a frontend module of the open-source infrastructure modeling platform to update a display to a user.",
+  "patent_id": "US12380642-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 17/00",
+      "G06F 9/44521"
+    ],
+    "all": [
+      "G06T 17/00",
+      "G06F 9/44521"
+    ],
+    "source": "converted"
+  }
+}

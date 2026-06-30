@@ -1,0 +1,22 @@
+{
+  "title": "Execution engine integration framework for byzantine fault tolerant (BFT) state machine replication (SMR) systems",
+  "abstract": "The present invention, in various embodiments, provides a novel execution engine integration framework for a BFT SMR system. With this framework, execution engines for services can be integrated into the BFT SMR system in a generic manner, thereby avoiding the need to implement a custom request handling code for each individual service/execution engine.",
+  "claims": "1. A method comprising: receiving, by an execution engine proxy running on a replica of a state machine replication (SMR) system, a client request directed to a service implemented by the SMR system; and interacting, by the execution engine proxy using a standard communication interface, with an execution engine for the service in order to execute the client request via the execution engine, wherein the standard communication interface comprises a set of generic application programming interfaces (APIs) or message types that are independent of the service or to the execution engine.",
+  "patent_id": "US12379944-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/449",
+      "G06F 9/541",
+      "G06F 9/547",
+      "G06F 2209/547"
+    ],
+    "all": [
+      "G06F 9/449",
+      "G06F 9/541",
+      "G06F 9/547",
+      "G06F 2209/547"
+    ],
+    "source": "converted"
+  }
+}

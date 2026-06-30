@@ -1,0 +1,20 @@
+{
+  "title": "System and method for facilitating data communication",
+  "abstract": "According to various embodiments, a system for facilitating a data communication is provided. The system may comprise a human interface device; and a receiver device couplable to a host device and communicatively connectable to the human interface device. The human interface device is configured to generate input data for a user input on the human interface device, generate control information associated with the input data, and transmit the input data and the control information to the receiver device. The control information indicates whether an acknowledgement of receipt of the input data is required. The receiver device is configured to receive the input data and the control information from the human interface device and transmit the input data to the host device, and the receiver device is further configured to transmit an acknowledgement packet to the human interface device when the control information received from the human interface device indicates that an acknowledgement of receipt of the input data is required, and perform a background task when the control information received from the human interface device indicates that an acknowledgement of receipt of the input data is not required.",
+  "claims": "1. A system for facilitating a data communication, the system comprising: a human interface device; a receiver device couplable to a host device and communicatively connectable to the human interface device, wherein the human interface device is configured to generate input data for a user input on the human interface device, generate control information associated with the input data, and transmit the input data and the control information to the receiver device at a predetermined time interval, wherein the control information indicates whether an acknowledgement of receipt of the input data is required, wherein the receiver device is configured to receive the input data and the control information from the human interface device and transmit the input data to the host device, and the receiver device is further configured to transmit an acknowledgement packet to the human interface device when the control information received from the human interface device indicates that an acknowledgement of receipt of the input data is required, and perform a background task when the control information received from the human interface device indicates that an acknowledgement of receipt of the input data is not required, wherein first to N-th predetermined time intervals are combined as a combined predetermined time interval, wherein at the first to (N-1)-th predetermined time intervals, first to (N-1)-th control information associated with first to (N-1)-th input data indicate that an acknowledgement of receipt of the first to (N-1)-th input data is not required from the receiver, and wherein at the N-th predetermined time interval, the receiver device is configured to transmit an acknowledgement packet to the human interface device when N-th control information associated with N-th input data indicates that an acknowledgement of receipt of the N-th input data is required, and perform a background task when the N-th control information received from the human interface device indicates that an acknowledgement of receipt of the N-th input data is not required.",
+  "patent_id": "US12380045-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 13/382",
+      "G06F 13/4282",
+      "G06F 2213/0042"
+    ],
+    "all": [
+      "G06F 13/382",
+      "G06F 13/4282",
+      "G06F 2213/0042"
+    ],
+    "source": "converted"
+  }
+}

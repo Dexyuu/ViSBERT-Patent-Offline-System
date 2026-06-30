@@ -1,0 +1,18 @@
+{
+  "title": "Service management method and apparatus for passive optical network, optical line terminal and medium",
+  "abstract": "A service management method and apparatus for a passive optical network, an optical line terminal and a medium are disclosed. The method may include, maintaining communication with the OLT; acquiring optical network unit management control interface (OMCI) frame data transferred via the OLT; acquiring service information of the ONU according to the OMCI frame data; and performing the service management to the passive optical fiber network according to a network connection status between the OLT and the OMCI VNF, and service information of the ONU.",
+  "claims": "1. A method for service management of a passive optical fiber network comprising an optical line terminal (OLT), an optical network unit (ONU) and an optical network unit management control interface for realizing a virtualization network function (OMCI VNF), the method comprising, maintaining communication with the OLT; acquiring optical network unit management control interface (OMCI) frame data transferred via the OLT; acquiring service information of the ONU according to the OMCI frame data; and performing the service management to the passive optical fiber network according to a network connection status between the OLT and the OMCI VNF, and service information of the ONU; wherein, performing the service management to the passive optical fiber network according to a network connection status between the OLT and the OMCI VNF and service information of the ONU, comprises, performing a synchronization of the service information of the ONU with the OMCI VNF, according to the service information of the ONU, in response to a recovery of network status from disconnected status to connected status, between the OLT and the OMCI VNF.",
+  "patent_id": "US12382202-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04Q 11/0062",
+      "H04Q 2011/0083"
+    ],
+    "all": [
+      "H04Q 11/0062",
+      "H04Q 2011/0083"
+    ],
+    "source": "converted"
+  }
+}

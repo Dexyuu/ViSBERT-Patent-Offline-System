@@ -1,0 +1,20 @@
+{
+  "title": "Wireless terminal and method for authenticating interface access of wireless terminal in Uboot mode",
+  "abstract": "The present disclosure provides a wireless terminal and a method for authenticating interface access of a wireless terminal in a Uboot mode. The method includes: in response to an authentication request for interface access, authentication request key information carried by the authentication request is acquired; the authentication request key information is validated according to preset key validation information; when validation succeeds, interface access authority of a wireless terminal is acquired; and when the validation fails, key query information is outputted. The key query information and the key validation information are acquired according to the same plaintext key. Since an authentication step is required when the interface access authority of the wireless terminal is acquired, a security arrangement for the interface access of the wireless terminal is added, such that malicious access to an interface of a wireless terminal is prevented.",
+  "claims": "1. A method for authenticating interface access of a wireless terminal in a Uboot mode, used for acquiring interface access authority of a wireless terminal and comprising: in response to an authentication request for interface access, acquiring authentication request key information carried by the authentication request; validating the authentication request key information according to preset key validation information; when a validation of the authentication request key information succeeds, acquiring interface access authority of a wireless terminal; and when the validation of the authentication request key information fails, outputting key query information, wherein the key query information and the key validation information are acquired according to a same plaintext key, acquiring the plaintext key according to the outputted key query information by means of a second encryption algorithm, taking the plaintext key as the authentication request key information to acquire the interface access authority of the wireless terminal.",
+  "patent_id": "US12381725-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/088",
+      "H04L 9/3239",
+      "H04W 12/04"
+    ],
+    "all": [
+      "H04L 9/088",
+      "H04L 9/3239",
+      "H04W 12/04"
+    ],
+    "source": "converted"
+  }
+}

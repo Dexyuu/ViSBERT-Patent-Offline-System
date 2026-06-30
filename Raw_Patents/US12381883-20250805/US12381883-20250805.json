@@ -1,0 +1,24 @@
+{
+  "title": "Hierarchical based decryption for improved content security",
+  "abstract": "Aspects of the disclosure relate to hierarchical based decryption. A computing platform may receive, from a first user, a request to encrypt a file. The computing platform may generate, for the file, a symmetric key. The computing platform may encrypt, using the symmetric key, the file. The computing platform may receive, from a second user, a request to decrypt the encrypted file. The computing platform may identify a classification of the encrypted file, which may be one of: personal, proprietary, or company related. Based on identifying a proprietary classification, the computing platform may obtain an employee hierarchy corresponding to the first user, compare the second user to the employee hierarchy, and based on identifying that the first user is included in the employee hierarchy: decrypt, using the symmetric key, the encrypted file, and grant the second user access to the file.",
+  "claims": "1. A computing platform comprising: at least one processor; a communication interface communicatively coupled to the at least one processor; and memory storing computer-readable instructions that, when executed by the processor, cause the computing platform to: receive, from a first user device of a first user, a request to encrypt a file; generate, for the file, a symmetric key; encrypt, using the symmetric key, the file to produce an encrypted file; receive, from a second user device of a second user, a request to decrypt the encrypted file; identify a classification of the encrypted file; based on identifying a first classification: obtain, using a first application programming interface (API) call to an employee hub, an employee hierarchy corresponding to the first user, wherein the employee hub comprises a computer system storing employee information including the employee hierarchy, compare the second user to the employee hierarchy, and based on identifying that the second user is included in the employee hierarchy: decrypt, using the symmetric key, the encrypted file, and grant access, to the second user, to the file; and based on identifying a second classification: obtain, using a second API call to the employee hub, personnel information indicating one or more employees within an authorized department of a company corresponding to the second classification, wherein the authorized department is automatically identified based on contents of the file, wherein a subset of the authorized department is further identified based on the contents of the file, and wherein the personnel information indicates the subset of the authorized department, compare the second user to the personnel information, based on identifying that the second user is included in the personnel information: decrypt, using the symmetric key, the encrypted file, and grant access, by the second user, to the file.",
+  "patent_id": "US12381883-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/105",
+      "H04L 9/083",
+      "H04L 9/08",
+      "H04L 63/0428",
+      "H04L 67/306"
+    ],
+    "all": [
+      "H04L 63/105",
+      "H04L 9/083",
+      "H04L 9/08",
+      "H04L 63/0428",
+      "H04L 67/306"
+    ],
+    "source": "converted"
+  }
+}

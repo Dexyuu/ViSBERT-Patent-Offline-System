@@ -1,0 +1,16 @@
+{
+  "title": "Systems and methods for semantic separation of multiple intentions in text data using reinforcement learning",
+  "abstract": "A device identifies, in multi-context text data, unrelated text and coreference text, and extracts coreference clusters, coreference sentences, and coreference sentiments based on the coreference text. The device extracts unrelated sentences from the unrelated text, and assigns tenses to the coreference sentences and the unrelated sentences. The device extracts phrases and entities from the coreference sentences and unrelated sentences, and assigns tense flags that exclude present tense sentences. The device selects past tense phrases and future tense phrases, and combines the past tense phrases and the future tense phrases to generate phrases. The device identifies invalid phrases in the phrases, and identifies similarities between the coreference sentences and the invalid phrases. The device processes the coreference text, the coreference tenses, the coreference sentiments, and the similarities, with a reinforcement learning model, to generate final context text.",
+  "claims": "1. A method, comprising: receiving, by a device, multi-context text data; identifying, by the device and in the multi-context text data, unrelated text not referring to a same reference entity and coreference text referring to a same reference entity; extracting, by the device and based on the coreference text, coreference clusters, coreference sentences, coreference start positions, coreference end positions, and coreference sentiments; extracting, by the device, unrelated sentences from the unrelated text; assigning, by the device, tenses to the coreference sentences and the unrelated sentences to generate coreference tenses and unrelated tenses; extracting, by the device, phrases and entities from the coreference sentences and unrelated sentences to generate coreference phrases, coreference entities, unrelated phrases, and unrelated entities; assigning, by the device, tense flags that exclude present tense sentences from the coreference sentences and the unrelated sentences; selecting, by the device, a set of past tense phrases and a set of future tense phrases, from the coreference phrases and the unrelated phrases, based on the coreference tenses, the unrelated tenses, and the tense flags; combining, by the device, the set of past tense phrases and the set of future tense phrases to generate a set of phrases; identifying, by the device, invalid phrases in the set of phrases based on relevancy to context; identifying, by the device, similarities between the coreference sentences and the invalid phrases; processing, by the device, the coreference text, the coreference tenses, the coreference sentiments, and the similarities, with a reinforcement learning model, to generate final context text; and performing, by the device, one or more actions based on the final context text.",
+  "patent_id": "US12380278-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 40/30"
+    ],
+    "all": [
+      "G06F 40/30"
+    ],
+    "source": "converted"
+  }
+}

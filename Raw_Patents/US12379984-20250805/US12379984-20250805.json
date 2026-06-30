@@ -1,0 +1,22 @@
+{
+  "title": "Remaining useful life determination for power electronic devices",
+  "abstract": "Systems, methods, and other embodiments described herein relate to predicting anomalous operation of a device and an associated remaining useful life (RUL) estimation. In one embodiment, a method includes acquiring usage information about the operation of an electronic device. The method includes determining whether the usage information indicates the presence of an anomaly in the operation of the electronic device according to an anomaly model. The method includes, responsive to detecting the anomaly, determining a remaining useful life (RUL) for the electronic device according to a RUL model. The method includes providing the RUL estimate.",
+  "claims": "1. A correlation system for monitoring health of an electronic device, comprising: one or more processors; a memory communicably coupled to the one or more processors and storing instructions that, when executed by the one or more processors, cause the one or more processors to: acquire usage information about operation of the electronic device; determine whether the usage information indicates a presence of an anomaly in the operation of the electronic device according to an anomaly model; responsive to detecting the anomaly, determine a remaining useful life (RUL) for the electronic device according to a RUL model that implements a self-organizing map (SOM) and interacting multiple models (IMMs) that are extended Kalman filters, the SOM determines a state of health (SOH) for the usage information and the IMMs predict future values of the SOH at future time points according to the usage information; and provide the RUL including mitigating failure of the electronic device according to the RUL by adapting operation of the electronic device that is a vehicle to limit one or more of a charging rate, and an advanced driving assistance system (ADAS), including adjusting operating parameters of the electronic device that restrict behaviors of the vehicle.",
+  "patent_id": "US12379984-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/0751",
+      "G06F 11/008",
+      "G06F 11/0721",
+      "G06N 20/00"
+    ],
+    "all": [
+      "G06F 11/0751",
+      "G06F 11/008",
+      "G06F 11/0721",
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

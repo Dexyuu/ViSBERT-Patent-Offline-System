@@ -1,0 +1,16 @@
+{
+  "title": "Providing contextualized large language model recommendations",
+  "abstract": "This disclosure describes systems that identify one or more models (e.g., large language models and/or virtual assistants) permitted to access content items stored for user accounts within a content management system. The disclosed systems can determine a model available to a user account within the content management system from among the one or more models. For example, the disclosed systems can determine one or more relationships between the user accounts within the content management system, large language models utilized by the user accounts, virtual assistants utilized by the user accounts, and content items accessed by the user accounts. The disclosed systems can determine the model for the user account according to the one or more relationships. The disclosed systems can provide a notification corresponding to the model via a user interface of a client device associated with the user account.",
+  "claims": "1. A computer-implemented method comprising: identifying one or more large language models permitted to access content items stored for user accounts within a content management system; determining, for a user account within the content management system, a large language model available to the user account from among the one or more large language models permitted to access the content items stored for the user accounts within the content management system by determining, utilizing a knowledge graph of the content management system relationships between the user accounts, wherein the knowledge graph comprises: nodes representing the user accounts and the one or more large language models; and edges representing relationships between the user accounts and the one or more large language models; and based on determining the large language model available to the user account, providing a notification corresponding to the large language model for display on a client device of the user account.",
+  "patent_id": "US12380315-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 3/042"
+    ],
+    "all": [
+      "G06N 3/042"
+    ],
+    "source": "converted"
+  }
+}

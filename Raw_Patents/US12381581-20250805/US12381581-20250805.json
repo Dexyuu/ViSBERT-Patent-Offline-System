@@ -1,0 +1,18 @@
+{
+  "title": "Using erasure coding on partial code block communication interruption",
+  "abstract": "A system and method for recovering from communication interruptions by a periodic blockage. This is achieved by selecting an inner code block rate that supports a Packet Error Ratio (PER) equal to or greater than a target PER during the blockage. An expected number of erasures is estimated and an outer code block rate capable of correcting an erasure ratio is chosen. The input is encoded using the outer code block rate to form an outer code block. One or more inner code blocks are formed by encoding segments of the outer code block using the inner code block rate. These inner code blocks are then transmitted. The count of inner code blocks is greater than 1, and the PER is a ratio of the expected number of erasures to the count of inner code blocks.",
+  "claims": "1. A method for recovering from communication interruptions by a periodic blockage, the method comprising: selecting an inner code block rate supporting a Packet Error Ratio (PER) greater than or equal to a target PER during the periodic blockage; estimating an expected number of erasures based on a count of the inner code blocks in an outer code block, a count of periodic blockages expected in a transmitting duration of the inner code blocks, and the target PER; choosing an outer code block rate capable of correcting an erasure ratio of the expected number of erasures to the count of the inner code blocks; encoding an input using the outer code block rate to form an outer code block; forming inner code blocks by individually encoding segments of the outer code block using the inner code block rate; and transmitting the inner code blocks, wherein a count of inner code blocks is greater than 1, and the PER is a ratio of the expected number of erasures to the count of inner code blocks.",
+  "patent_id": "US12381581-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03M 13/373",
+      "H03M 13/1154"
+    ],
+    "all": [
+      "H03M 13/373",
+      "H03M 13/1154"
+    ],
+    "source": "converted"
+  }
+}

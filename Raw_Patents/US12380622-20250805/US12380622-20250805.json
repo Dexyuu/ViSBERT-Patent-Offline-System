@@ -1,0 +1,36 @@
+{
+  "title": "Robust facial animation from video using neural networks",
+  "abstract": "Implementations described herein relate to methods, systems, and computer-readable media to generate animations for a 3D avatar from input video captured at a client device. A camera may capture video of a face while a trained face detection model and a trained regression model output a set of FACS weights, head poses, and facial landmarks to be translated into the animations of the 3D avatar. Additionally, a higher level-of-detail may be intelligently selected based upon user preferences and/or computing conditions at the client device.",
+  "claims": "1. A computer-implemented method, comprising: identifying, using a fully convolutional network, a set of bounding box candidates from an initial portion of a video, wherein each bounding box candidate includes a face; refining, using a convolutional neural network, the set of bounding box candidates into a bounding box; obtaining a first set of facial data based on the bounding box and the initial portion of the video using an output convolutional neural network; generating a first animation frame of an animation of a three-dimensional (3D) avatar based on the first set of the facial data, wherein a face of the 3D avatar in the first animation frame is arranged based on the first set of the facial data; and for each additional portion of the video subsequent to the first portion of the video, detecting whether the bounding box, applied to the additional portion, includes the face; if it is detected that the bounding box includes the face, obtaining an additional set of facial data based on the bounding box and the additional portion using the output convolutional neural network, and without using the fully convolutional network and the convolutional neural network to process the additional portion; and generating an additional animation frame of the animation of the 3D avatar using the additional set of facial data.",
+  "patent_id": "US12380622-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 13/40",
+      "G06T 7/73",
+      "G06V 10/24",
+      "G06V 10/774",
+      "G06V 10/82",
+      "G06V 40/161",
+      "G06V 40/171",
+      "G06V 40/174",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30201"
+    ],
+    "all": [
+      "G06T 13/40",
+      "G06T 7/73",
+      "G06V 10/24",
+      "G06V 10/774",
+      "G06V 10/82",
+      "G06V 40/161",
+      "G06V 40/171",
+      "G06V 40/174",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30201"
+    ],
+    "source": "converted"
+  }
+}

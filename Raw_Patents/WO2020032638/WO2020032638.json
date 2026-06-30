@@ -1,0 +1,23 @@
+{
+  "application_id": "WO2020032638",
+  "application_id_fs": null,
+  "title": "Method for performing access control and device supporting the same",
+  "abstract": "Provided are a method of access control and a device supporting the method. According to one embodiment of the present invention, the method includes: detecting a failure of connection on a wireless back haul link; leaving connected state; selecting a parameter related to the failure; and performing connection establishment based on the parameter.",
+  "claims": "Claims ( 15 ) A method performed by a wireless device in a wireless communication system, the method comprising: detecting a failure of connection on a wireless back haul link; leaving connected state; selecting a parameter related to the failure; and performing connection establishment based on the parameter. The method of claim 1, wherein the parameter is a cause value for the connection establishment. The method of claim 1, wherein the detecting the failure of the connection comprises: performing a radio resource control (RRC) re-establishment procedure; and detecting that the RRC re-establishment procedure fails. The method of claim 3, wherein the parameter informs that the RRC re-establishment procedure fails. The method of claim 1, wherein the parameter is an access category. The method of claim 5, further comprising: performing access barring check based on the access category; and. determining that an access by the node is allowed as a result of the access barring check. The method of claim 1, wherein the node is integrated access and backhaul (IAB) node. The method of claim 1, wherein the node is configured to operate both as a user equipment and as a base station. The method of claim 1, further comprising: transmitting a RRC connection complete message including information on type of the failure, wherein the type of the failure is at least one of radio link failure, handover failure, beam failure, backhaul link failure, access barring, reception of reject message, network congestion or radio congestion. The method of claim 1, wherein the node communicates with at least one of a mobile terminal, a network or autonomous vehicles other than the wireless device. A wireless device in a wireless communication system, the wireless device comprising: a memory; a transceiver; and a processor, operably coupled to the memory and the transceiver, and configured to: detect a failure of connection on a wireless back haul link; leave connected state; select a parameter related to the failure; and perform connection establishment based on the parameter. The wireless device of claim 11, wherein the parameter is a cause value for the connection establishment. The wireless device of claim 11, wherein the processor is configured to: performing a radio resource control (RRC) re-establishment procedure; and detecting that the RRC re-establishment procedure fails. The node of claim 13, wherein the parameter informs that the RRC re-establishment procedure fails. The node of claim 1, wherein the parameter is an access category for an access barring check.",
+  "classifications": {
+    "ipc": [
+      "H04W 48/02",
+      "H04W 48/08",
+      "H04W 76/18",
+      "H04W 76/27"
+    ],
+    "cpc": [],
+    "all": [
+      "H04W 48/02",
+      "H04W 48/08",
+      "H04W 76/18",
+      "H04W 76/27"
+    ],
+    "source": "csv"
+  }
+}

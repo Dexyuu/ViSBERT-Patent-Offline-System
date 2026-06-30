@@ -1,0 +1,32 @@
+{
+  "title": "Method and apparatus for rectifying weak memory ordering problem",
+  "abstract": "This application relates to the field of computer technologies, and discloses methods and apparatuses, for example, for rectifying a weak memory ordering problem. An example method includes: determining a read/write instruction set in to-be-repaired code; classifying instructions in the read/write instruction set to determine a target instruction; and inserting a memory barrier instruction between a previous read/write instruction of the target instruction and the target instruction. The read/write instruction set includes a read instruction and/or a write instruction in the to-be-repaired code, and an instruction in the read/write instruction set is used for memory access.",
+  "claims": "1. A method, wherein the method comprises: determining a read/write instruction set in to-be-repaired code, wherein the read/write instruction set comprises a read instruction or a write instruction in the to-be-repaired code, and wherein an instruction in the read/write instruction set is used for memory access; classifying instructions in the read/write instruction set to determine a target instruction; and inserting a memory barrier instruction between a previous read/write instruction of the target instruction and the target instruction.",
+  "patent_id": "US12379928-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/30192",
+      "G06F 8/458",
+      "G06F 9/3004",
+      "G06F 9/30087",
+      "G06F 9/38",
+      "G06F 9/3834",
+      "G06F 9/3856",
+      "G06F 8/41",
+      "G06F 9/3851"
+    ],
+    "all": [
+      "G06F 9/30192",
+      "G06F 8/458",
+      "G06F 9/3004",
+      "G06F 9/30087",
+      "G06F 9/38",
+      "G06F 9/3834",
+      "G06F 9/3856",
+      "G06F 8/41",
+      "G06F 9/3851"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Charging device",
+  "abstract": "A charging device includes: a plurality of legs including respective upper and lower arms having respective switching elements, the upper and lower arms being connected to a battery and a negative pole of a DC charger, respectively; a motor having three phases with a neutral point connected to a positive pole of the DC charger; a driver that drives the switching elements with respective PWM signals; and a controller that monitors a current from the legs to the battery, and instructs the driver to apply duty ratios of the PWM signals so that a fluctuation width of the monitored current is reduced. Further, the controller monitors the measurement result of the sensor at a period other than 1/N of a period of a carrier of the PWM signals, where N is a number of the plurality of legs used for charging the battery.",
+  "claims": "1. A charging device comprising: a plurality of legs including respective upper arms and lower arms, the upper arms including respective switching elements, the lower arms including respective switching elements, each of the upper arms and each of the lower arms in each of the legs being connected in series, the upper arms being connected to a battery mounted on a vehicle, and the lower arm being connected to a negative pole of a DC charger; a motor having three phases including respective coils, the coils being connected to respective middle points between the upper arms and the lower arms, and a neutral point of the motor being connected to a positive pole of the DC charger; a driver that drives the switching elements with respective PWM signals; and a controller that monitors a measurement result of a sensor for measuring a current from the plurality of legs to the battery, and instructs the driver to apply duty ratios of the PWM signals so that a fluctuation width of the monitored current is reduced based on the fluctuation width of the monitored current, wherein the controller monitors the measurement result of the sensor at a period other than 1/N of a period of a carrier of the PWM signals, where N is a number of the plurality of legs used for charging the battery.",
+  "patent_id": "US12381410-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02J 7/00712",
+      "B60L 53/60",
+      "H02P 27/08",
+      "B60L 53/20",
+      "B60L 53/24"
+    ],
+    "all": [
+      "H02J 7/00712",
+      "B60L 53/60",
+      "H02P 27/08",
+      "B60L 53/20",
+      "B60L 53/24"
+    ],
+    "source": "converted"
+  }
+}

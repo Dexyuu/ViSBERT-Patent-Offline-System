@@ -1,0 +1,28 @@
+{
+  "title": "Server-to-device secure data exchange transactions",
+  "abstract": "Various embodiments described herein relate to systems, methods, and non-transitory computer-readable media structured to perform server-to-device secure data exchange using a device access token. In an embodiment, a smart device receives, from a requestor entity provided to the smart device, an account data provisioning request for an account. Based on the account data provisioning request, an account identifier for the account is determined. In some arrangements, the account identifier comprises or is associated with a device access token. Based on the device access token, a data element associated with the account is determined. In some embodiments, the data element is accessible to the requestor entity only if it is not access-restricted based on the device access token. Based on the data element, an executable graphic rendering instruction is generated. The executable graphic rendering instruction is executed, which includes generating and displaying, on a user interface of the smart device, a dynamic account status indicator relating to the account.",
+  "claims": "1. A method comprising: receiving, by a first smart device via a first software application executing on the first smart device, a request to enroll a second smart device in a server-to-device secure data exchange ecosystem that allows multiple applications and/or smart devices to transact with a computing system of a service provider indirectly via the second smart device, wherein the second smart device is locally paired to the first smart device; receiving, by the first smart device, a selection of a financial account held by the service provider; responsive to receiving the selection of the financial account, generating, by the first smart device, a device access token based on (i) a device identifier corresponding to the second smart device, (ii) a financial account identifier corresponding to the financial account, and (iii) a user identifier corresponding to a user of the second smart device; providing, by the first smart device, the device access token to the second smart device; retrievably storing, by the second smart device, in a secure storage element of the second smart device, the device access token in association with an identifier of the first smart device; receiving, the second smart device, a transaction request from a second software application executing on the second smart device; based on the transaction request, (i) establishing, by the second smart device, a secure authorized session between the second smart device and the computing system of the service provider, and (ii) accessing, by the second smart device, the previously stored device access token; transmitting, by the second smart device, to the computing system, via the secure authorized session, the device access token and the transaction request, wherein the transaction request causes the computing system to: (i) parse the device identifier corresponding to the second smart device from the device access token, and (ii) generate an electronic message based on the device identifier corresponding to the second smart device; receiving, by the second smart device, from the computing system, via the secure authorized session, the electronic message responsive to the transaction request; and providing, by the second smart device, to the second software application, a response to the transaction request based on the electronic message.",
+  "patent_id": "US12380437-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/38215",
+      "G06F 21/44",
+      "G06Q 20/36",
+      "G06Q 20/401",
+      "G06Q 20/382",
+      "G06Q 20/409",
+      "H04L 67/133"
+    ],
+    "all": [
+      "G06Q 20/38215",
+      "G06F 21/44",
+      "G06Q 20/36",
+      "G06Q 20/401",
+      "G06Q 20/382",
+      "G06Q 20/409",
+      "H04L 67/133"
+    ],
+    "source": "converted"
+  }
+}

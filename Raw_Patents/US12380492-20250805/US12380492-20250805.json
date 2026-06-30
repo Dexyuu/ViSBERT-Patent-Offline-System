@@ -1,0 +1,28 @@
+{
+  "title": "Tool for generating a virtual store that emulates a physical store",
+  "abstract": "An apparatus to create a virtual layout of a virtual store to emulate a physical layout of a physical store includes a memory and a processor. The processor receives a physical position and orientation associated with a physical rack located in the physical store. In response, the processor places a virtual rack at a virtual position and orientation on the virtual layout, to represent the physical position and orientation of the physical rack on the physical layout. The processor receives virtual items associated with physical items located on physical shelves of the physical rack. In response, the processor places the virtual items on virtual shelves of the virtual rack, the virtual shelves representing the physical shelves of the physical rack. The processor assigns a rack camera, which captures video that includes the physical rack, to the virtual rack and stores the virtual layout in the memory.",
+  "claims": "1. An apparatus comprising: a hardware processor configured to: receive information associated with a first set of objects, the first set of objects determined by an algorithm to have been selected by a first person during a physical shopping session in a physical store, based at least in part upon a set of inputs received from sensors located within the physical store, wherein the information is associated with an algorithmic shopping cart; receive information regarding at least one object associated with the shopping session that is determined separate from the algorithm, wherein the information is associated with a virtual shopping cart that is determined separate from the algorithm; determine that a discrepancy exists between the at least one object determined separate from the algorithm and at least one of the first set of objects determined by the algorithm; determine which of the virtual shopping cart or the algorithmic shopping cart comprises an error based at least in part upon a type of the discrepancy; attach first metadata to the at least one object determined separate from the algorithm, the first metadata associated with the discrepancy, the first metadata comprising information explaining the discrepancy; and use the first metadata to train the algorithm.",
+  "patent_id": "US12380492-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0643",
+      "G06F 9/451",
+      "G09G 5/14",
+      "H04N 7/18",
+      "G06F 3/04845",
+      "G06F 3/0485",
+      "G09G 2354/00"
+    ],
+    "all": [
+      "G06Q 30/0643",
+      "G06F 9/451",
+      "G09G 5/14",
+      "H04N 7/18",
+      "G06F 3/04845",
+      "G06F 3/0485",
+      "G09G 2354/00"
+    ],
+    "source": "converted"
+  }
+}

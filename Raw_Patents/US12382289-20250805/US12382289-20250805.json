@@ -1,0 +1,20 @@
+{
+  "title": "Additional security ranging for BLE using co-located Wi-Fi devices",
+  "abstract": "Techniques are disclosed to leverage co-located radios such as BLE and Wi-Fi radios to increase the security of BLE ranging and localization. In one aspect, a transmitting BLE device may use a co-located Wi-Fi radio to transmit signals to interfere with an intruding device's interception of BLE RTT packets. The obfuscating Wi-Fi transmission may overlap a BLE RTT packet in the time domain with or without overlapping in the frequency domain. In one aspect, the co-located Wi-Fi radio may transmit pre-determined signature Wi-Fi signals concurrently with the BLE RTT packets to a receiver with co-located BLE and Wi-Fi radios. The receiver may detect a change in the pre-determined relationship between the two types of communication to reveal an intrusion attempt. In one aspect, a co-located Wi-Fi radio may capture parts of BLE RTT packets concurrently with a BLE radio transmitting or receiving BLE RTT packets to detect an intrusion attempt.",
+  "claims": "1. A method of ranging operations by a plurality of devices, the method comprising: operating a first device to transmit or receive a ranging signal, the first device being designed to communicate using a first communication protocol; configuring, by the first device, a second device co-located with the first device to operate in a receive mode or a transmit mode when the first device transmits the ranging signal or to operate in a receive mode when the first device receives the ranging signal, the second device being designed to communicate using a second communication protocol different from the first communication protocol; receiving, by the first device from the second device that is configured to operate in the receive mode, measurements of phase distortions of an interfering signal received by the second device when the first device transmits or receives the ranging signal; and determining, by the first device based on the measurements of the interfering signal, whether the interfering signal comprises manipulations of the ranging signal by an intruding device.",
+  "patent_id": "US12382289-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 12/121",
+      "H04B 17/336",
+      "H04W 24/10"
+    ],
+    "all": [
+      "H04W 12/121",
+      "H04B 17/336",
+      "H04W 24/10"
+    ],
+    "source": "converted"
+  }
+}

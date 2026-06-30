@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2017112526",
+  "application_id_fs": "WO2017112526",
+  "title": "Code execution request routing",
+  "abstract": "A system for providing low-latency compute capacity is provided. The system may be configured to route incoming code execution requests based on user indications to use specific containers running on a plurality of virtual machine instances. The system may be configured to process a code execution request, identity, based on the user indication that a specific container previously used to handle a request of similar type is to be used for handling the code execution request, and cause the code execution request to be handled using the specific container.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1 , A system for providing low-latency computational capacity, the system comprising: an external database service configured to store a plurality of key-value pairs; a virtual compute system comprising one or more hardware computing devices executing specific computer-executable instructions, the virtual compute system in communication with the external database service and configured to at least: maintain a plurality of virtual machine instances on one or more physical computing devices, wherein the plurality of virtual machine instances comprises: a warming pool comprising virtual machine instances having one or more software components loaded thereon and waiting to be assigned to a user; and an active pool comprising virtual machine instances currently assigned to one or more users; process a first request to execute a first program code associated with a first user on the virtual compute system, the first request including an identity of the first user, and one or more first execution parameters to be used for executing the first program code; execute the first program code in a first container created on a first virtual machine instance in the active pool using the one or more first execution parameters, the execution of the program code causing one or more key-value pairs of the plurality of key -value pairs to be retrieved from the external database service and stored locally within the first container; process a second request to execute the first program code on the virtual compute system, the second request including the identity of the first user, one or more second execution parameters to be used for executing the first program code, and a user indication that the second request is to be handled using the first container previously used for handling the first request; and based on the user indication that the second request is to be handled using the first container, execute the first program code in the first container using the one or more second execution parameters, the execution of the first program code \n\n accessing the one or more key-value pairs locally stored within the first container such that a latency associated with the execution of the first program code based on the one or more second execution parameters is reduced. 2. The system of Claim 1, wherein the virtual compute system is configured to identify the first container by calculating a hash value associated with the user indication and performing a lookup of the calculated hash value in a mapping table maintained by the virtual compute system, the mapping table mapping one or more hash values to specific containers running on the plurality of virtual machine instances. 3. The system of Claim 1, wherein the execution of the first program code using the one or more second execution parameters omits at least one retrieval of data from the external database sendee based on the one or more key-value pairs locally stored within the first container. 4. The system of Claim 1, wherein the virtual compute system is further configured to keep the first container running even after the execution of the first program code using the one or more second execution parameters has been completed such that subsequent requests providing indications to use the first container can be handled using the first container. 5. A system comprising: a virtual compute system comprising one or more hardware computing devices executing specific computer- executable instructions and configured to at least: maintain a plurality of virtual machine instances on one or more physical computing devices; process a first request to execute a first program code on the virtual compute system, the first request including user account information, one or more parameters to be used for executing the first program code, and a user indication that the first program code is to be executed based on one or more computing resources modified by a prior execution of the first program code; based on the user indication that the first program code is to be executed based on one or more computing resources modified by a prior execution of the first program code, identify a first container on a first virtual machine instance of \n\n the plurality of virtual machine instances that is associated with the one or more computing resources modified by a prior execution of the first program code; and cause the first program code to be executed in the first container based on the one or more computing resources associated with the first container. 6. The system of Claim 5, wherein the virtual compute system is configured to maintain a mapping table that maps one or more values associated with incoming code execution requests to specific containers running on the plurality of virtual machine instances. 7. The system of Claim 5, wherein the one or more computing resources associated with the first container comprise local storage within the first container storing data retrieved, in connection with the prior execution of the first program code, from an external service that is in communication with the virtual compute system. 8. The system of Claim 5, wherein the virtual compute system is further configured to: determine that the one or more computing resources associated with the first container contains cached data associated with the prior execution of the first program code; and cause the cached data to be presented to the execution of the first program code in the first container, wherein the execution of the first program code omits at least one computing operation based on the cached data, thereby achieving a reduced latency. 9. The system of Claim 5, wherein the first virtual machine instance has one or more instance- specific computing resources that are accessible by one or more containers running on the first virtual machine instance. 10. The system of Claim 5, wherein the user indication specifies a parameter that causes the virtual compute system to route the first request to a container of a user's choice. 1 1. The system of Claim 5, wherein the virtual compute system is configured to route incoming code execution requests including the same user indication to the same container. 12. The system of Claim 5, wherein the virtual compute system is further configured to automatically execute a shutdown program code associated with the first container when the first container is shut down. 13. A computer-implemented method comprising: as implemented by one or more computing devices configured with specific executable instructions, maintaining a plurality of virtual machine instances on one or more physical computing devices; processing a first request to execute a first program code on the virtual compute system, the first request including user account information, one or more parameters to be used for executing the first program code, and a user indication that the first program code is to be executed based on one or more computing resources modified by a prior execution of the first program code; based on the user indication that the first program code is to be executed based on one or more computing resources modified by a prior execution of the first program code, identifying a first container on a first virtual machine instance of the plurality of virtual machine instances that is associated with the one or more computing resources modified by a prior execution of the first program code; and causing the first program code to be executed in the first container based on the one or more computing resources associated with the first container. 14. The method of Claim 13, further comprising maintaining a mapping table that maps one or more values associated with the incoming code execution requests to specific containers running on the plurality of virtual machine instances. 15. The method of Claim 13, wherein the one or more computing resources associated with the first container comprise local storage within the first container storing data retrieved, in connection with the prior execution of the first program code, from an external service that is in communication with the virtual compute system.",
+  "classifications": {
+    "ipc": [
+      "G06F 9/00",
+      "G06F 9/06",
+      "G06F 9/46",
+      "G06F 9/50",
+      "G06F 9/5005",
+      "G06F 9/5027",
+      "G06F 9/5055",
+      "G06F 9/44",
+      "G06F 9/455",
+      "G06F 9/5033",
+      "G06F 2009/4557",
+      "G06F 2209/00",
+      "G06F 2209/50",
+      "G06F 2209/5011",
+      "G06F 2209/5013",
+      "G06F 9/5061",
+      "G06F 9/5077"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 9/00",
+      "G06F 9/06",
+      "G06F 9/46",
+      "G06F 9/50",
+      "G06F 9/5005",
+      "G06F 9/5027",
+      "G06F 9/5055",
+      "G06F 9/44",
+      "G06F 9/455",
+      "G06F 9/5033",
+      "G06F 2009/4557",
+      "G06F 2209/00",
+      "G06F 2209/50",
+      "G06F 2209/5011",
+      "G06F 2209/5013",
+      "G06F 9/5061",
+      "G06F 9/5077"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017112526"
+}

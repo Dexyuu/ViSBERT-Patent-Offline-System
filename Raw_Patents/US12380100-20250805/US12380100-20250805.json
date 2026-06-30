@@ -1,0 +1,22 @@
+{
+  "title": "Evaluating an interpretation for a search query",
+  "abstract": "A method for evaluating an interpretation for a search query is disclosed. The method includes receiving, by one or more processing circuits, a training dataset. The method includes training a first model utilizing the training dataset. The first model is trained to evaluate whether a human interpretation for a search query is correct. The method includes receiving a search query and a human interpretation for the search query. The method includes determining an initial evaluation of whether the human interpretation for the search query is correct utilizing the first model. The method includes generating a second model utilizing the initial evaluation from the first model, temporal features relating to the search query, and cluster features relating to the search query, and determining a final evaluation of whether the human interpretation for the search query is correct utilizing the second model.",
+  "claims": "1. A method for evaluating an accuracy of a human interpretation for a search query, the method comprising: receiving, by one or more processing circuits, a training dataset, the training dataset comprising a plurality of past search queries, a human interpretation for each of the plurality of search queries, and a human-evaluated label for each of the plurality of past search queries of whether the human interpretation was correct; training, by the one or more processing circuits, a first machine-learned model utilizing the training dataset, wherein the first machine-learned model is trained to evaluate whether a human interpretation for a search query is correct; receiving, by the one or more processing circuits, a search query, the search query comprising one or more words input via a user interface to request desired information, and a human interpretation for the search query, the human interpretation comprising one or more words defining an interpretation of the desired information; determining, by the one or more processing circuits, an initial evaluation of whether the human interpretation for the search query is correct utilizing the first machine-learned model; generating, by the one or more processing circuits, a second machine-learned model utilizing the initial evaluation from the first machine-learned model, temporal features relating to the search query, and cluster features relating to the search query by: receiving cluster data for the search queries from a cluster generation circuit; and training the second machine-learned model using the cluster data; and determining, by the one or more processing circuits, a final evaluation of whether the human interpretation for the search query is correct utilizing the second machine-learned model.",
+  "patent_id": "US12380100-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/24542",
+      "G06F 16/243",
+      "G06F 16/285",
+      "G06N 20/00"
+    ],
+    "all": [
+      "G06F 16/24542",
+      "G06F 16/243",
+      "G06F 16/285",
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

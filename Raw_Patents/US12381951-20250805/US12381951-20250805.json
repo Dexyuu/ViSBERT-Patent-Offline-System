@@ -1,0 +1,28 @@
+{
+  "title": "Intelligent edge computing platform with machine learning capability",
+  "abstract": "An edge computing platform with machine learning capability is provided between a local network with a plurality of sensors and a remote network. A machine learning model is created and trained in the remote network using aggregated sensor data and deployed to the edge platform. Before being deployed, the model is edge-converted (âedge-ifiedâ) to run optimally with the constrained resources of the edge device and with the same or better level of accuracy. The âedge-ifiedâ model is adapted to operate on continuous streams of sensor data in real-time and produce inferences. The inferences can be used to determine actions to take in the local network without communication to the remote network. A closed-loop arrangement between the edge platform and remote network provides for periodically evaluating and iteratively updating the edge-based model.",
+  "claims": "1. A method comprising: providing an edge platform connected to a local network between a plurality of sensors and a remote network; using an edge converter creating an edge-converted machine learning model; providing the edge-converted machine learning model on the edge platform; receiving a continuous stream of first sensor data from a first sensor of the plurality of sensors at the edge platform; at the edge platform without first transmitting the continuous stream of first sensor data to the remote network for processing: executing the edge-converted machine learning model at least partially in a complex event processing engine to operate on the continuous stream of first sensor data in real-time to produce a stream of first inferences about a first network device of a plurality of network devices, the stream of first inferences comprising a stream of a plurality of inferences; and determining based on the stream of first inferences whether to take an action without first communicating the stream of first inferences to the remote network, wherein the action includes altering operation parameters of one or more devices associated with the edge platform.",
+  "patent_id": "US12381951-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 67/12",
+      "G06F 18/2148",
+      "G06F 18/251",
+      "G06N 5/04",
+      "G06N 20/00",
+      "G16Y 40/20",
+      "H04L 67/34"
+    ],
+    "all": [
+      "H04L 67/12",
+      "G06F 18/2148",
+      "G06F 18/251",
+      "G06N 5/04",
+      "G06N 20/00",
+      "G16Y 40/20",
+      "H04L 67/34"
+    ],
+    "source": "converted"
+  }
+}

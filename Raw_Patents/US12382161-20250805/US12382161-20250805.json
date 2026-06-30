@@ -1,0 +1,16 @@
+{
+  "title": "Configuration method and apparatus",
+  "abstract": "The present disclosure relates to a configuration method and apparatus. An image processing device obtains an access configuration file from an image obtaining device, obtains a serializer configuration file and a deserializer configuration file based on the access configuration file, sends the serializer configuration file to the image obtaining device, and the serializer configuration file is used to configure a serializer that is in the image obtaining device, so as to enable the image obtaining device to convert an obtained parallel electrical signal into a serial electrical signal for transmission, and configures a deserializer that is in the image processing device by using the deserializer configuration file, to process a serial electrical signal that is from the image obtaining device, so as to obtain a parallel electrical signal that can be displayed on an image signal processing ISP chip.",
+  "claims": "15. A vehicle comprising an image processing device and an image obtaining device, wherein the image processing device is configured to: obtain an access configuration file from the image obtaining device based on detecting that the image obtaining device accesses the image processing device; obtain a serializer configuration file and a deserializer configuration file based on the access configuration file; send a first configuration instruction to the image obtaining device, wherein the first configuration instruction comprises the serializer configuration file, and the serializer configuration file is used to configure a serializer that is in the image obtaining device, so as to enable the image obtaining device to convert an obtained parallel electrical signal into a serial electrical signal for transmission; and configure a deserializer that is in the image processing device by using the deserializer configuration file, to process a serial electrical signal that is from the image obtaining device, so as to obtain a parallel electrical signal that can be displayed on an image signal processing (ISP) chip.",
+  "patent_id": "US12382161-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 23/617"
+    ],
+    "all": [
+      "H04N 23/617"
+    ],
+    "source": "converted"
+  }
+}

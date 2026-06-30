@@ -1,0 +1,16 @@
+{
+  "title": "Image management method and apparatus",
+  "abstract": "An image management method includes: receiving information about a signer and information about a target image that are sent by a first terminal device, where the signer is an object designated to sign the target image; obtaining a signature file based on the information about the signer and the information about the target image; and if a first digest that is of the target image and is returned by a container platform matches a second digest obtained based on the signature file, indicating the container platform to allow use of the target image to start a container.",
+  "claims": "1. A method comprising: receiving, from a first terminal device, first information about a signer and second information about a target image, wherein the signer is designated to sign the target image; obtaining a signature file based on the first information and the second information; and instructing, when a first digest that is of the target image and is from a container platform matches a second digest that is based on the signature file, the container platform to allow use of the target image to start a container.",
+  "patent_id": "US12381739-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/3247"
+    ],
+    "all": [
+      "H04L 9/3247"
+    ],
+    "source": "converted"
+  }
+}

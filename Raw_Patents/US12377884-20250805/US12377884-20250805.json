@@ -1,0 +1,20 @@
+{
+  "title": "Remote assistance management for reducing the load of operators by remote assistance prediction and categorization",
+  "abstract": "A remote assistance management system is in communication with autonomous traveling vehicles for letting an operator provide remote assistance in response to an assistance request from a vehicle. The system predicts an occurrence of an assistance request in future based on operation states of the vehicles, and categorize a cause of an assistance request predicted to occur into a first category cause that lasts for a long time and a second category cause that lasts only for a short time. The system receives an assistance request from the vehicles. In response to acquiring a first assistance request of which the cause is the first category cause from a first vehicle, the system transmits a first command signal for the first vehicle that is decided by an operator to the first vehicle, and applies the first command signal to another vehicle from which the first assistance request is predicted to occur.",
+  "claims": "1. A remote assistance management system in communication with a plurality of autonomous traveling vehicles for letting an operator provide remote assistance in response to an assistance request from an autonomous traveling vehicle, the system comprising: at least one memory storing at least one program; and at least one processor coupled with the at least one memory, wherein the at least one program is configured to cause the at least one processor to execute: predicting an occurrence of an assistance request in future based on operation states of the plurality of autonomous traveling vehicles; categorizing a cause of an assistance request predicted to occur into a first category cause and a second category cause, wherein the first category cause includes causes that are common to other autonomous vehicles, and the second category cause includes causes that are dependent upon an individual autonomous traveling vehicle; receiving an assistance request from the plurality of autonomous traveling vehicles; in response to acquiring a first assistance request of which the cause is the first category cause from a first vehicle, executing a remote assistance operation for the first vehicle from the operator, converting the remote assistance operation for the first vehicle into a first command signal, transmitting the first command signal to the first vehicle at a first time, and at a second time later than the first time, automatically transmitting the first command signal to another autonomous traveling vehicle from which the first assistance request is predicted to occur; and in response to acquiring a second assistance request of which the cause is the second category cause from a second vehicle, executing a second remote assistance operation from the operator, converting the second remote assistance operation into a second command signal, and transmitting the second command signal only to the second vehicle among the plurality of autonomous vehicles.",
+  "patent_id": "US12377884-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 60/0053",
+      "B60W 2556/40",
+      "B60W 2556/45"
+    ],
+    "all": [
+      "B60W 60/0053",
+      "B60W 2556/40",
+      "B60W 2556/45"
+    ],
+    "source": "converted"
+  }
+}

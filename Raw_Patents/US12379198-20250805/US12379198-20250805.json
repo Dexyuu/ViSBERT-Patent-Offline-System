@@ -1,0 +1,20 @@
+{
+  "title": "Circuit for biasing an external resistive sensor",
+  "abstract": "According to an embodiment, a circuit includes a core and low-frequency recovery circuits. The core circuit is configured to bias a resistive sensor used to measure a fly height of a hard disk drive. The core circuit is additionally configured to amplify a high-frequency component of a sensing signal of the resistive sensor, the sensing signal indicating the fly height. The low-frequency recovery circuit is configured to amplify the sensing signal's low-frequency component.",
+  "claims": "15. A circuit comprising: a core circuit comprising: a pair of amplifiers, a current biasing digital-to-analog converter, a first pair of transistors having control terminals coupled to the current biasing digital-to-analog converter, a second pair of transistors having control terminals coupled to a respective one of the pair of amplifiers, the second pair of transistors set such that a current flowing through each is constant and equal to an expected current, a resistive sensor coupled to the first pair of transistors and biased in accordance with the expected current, and a first pair of resistors coupled to the second pair of transistors; a first low-frequency recovery circuit comprising: a first common resistor, a third pair of transistors, wherein a first set of terminals of the third pair of transistors is coupled to terminals of the first common resistor, and wherein a control terminal of each of the third pair of transistors is coupled to a respective one of the pair of amplifiers and a respective control terminal of an associated transistor of the second pair of transistors, and a second pair of resistors coupled to the third pair of transistors; and a second low-frequency recovery circuit comprising: a second common resistor, a fourth pair of transistors, wherein a first set of terminals is coupled to terminals of the second common resistor, and a second set of terminals of the fourth pair of transistors is coupled to the second pair of resistors, and a voltage offset digital-to-analog converter coupled to control terminals of the fourth pair of transistors.",
+  "patent_id": "US12379198-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01B 7/14",
+      "G11B 27/36",
+      "H03F 3/16"
+    ],
+    "all": [
+      "G01B 7/14",
+      "G11B 27/36",
+      "H03F 3/16"
+    ],
+    "source": "converted"
+  }
+}

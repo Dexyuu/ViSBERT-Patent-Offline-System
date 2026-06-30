@@ -1,0 +1,24 @@
+{
+  "title": "Data transmission method and apparatus",
+  "abstract": "A vehicle terminal determines a data format of detection information, where the detection information is associated with a map element. The vehicle terminal sends the detection information to a first network device based on the determined data format. The vehicle terminal receives map element change information sent by the first network device or a second network device, to update an electronic map. The first network device and the second network device each may be a cloud server or a road side unit.",
+  "claims": "1. A method, comprising: determining, by a vehicle terminal, a data format of detection information detected by the vehicle terminal, wherein the detection information is associated with a map element of a map; sending, by the vehicle terminal, the detection information to a first network device; and receiving, by the vehicle terminal in response to sending the detection information, map element change information from the first network device or a second network device, wherein the map element change information indicates whether the map element of the map has changed; wherein the data format of the detection information is determined based on a map element type corresponding to the detection information; and wherein determining the data format of the detection information comprises distinguishing between whether the map element type corresponding to the detection information corresponds to a first map element type and whether the map element type corresponding to the detection information corresponds to a second map element type; wherein the first map element type corresponds to first, second and third data formats; and wherein the second map element corresponds to a fourth data format.",
+  "patent_id": "US12380138-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/29",
+      "G08G 1/0967",
+      "G08G 1/0969",
+      "H04L 67/10",
+      "H04L 67/12"
+    ],
+    "all": [
+      "G06F 16/29",
+      "G08G 1/0967",
+      "G08G 1/0969",
+      "H04L 67/10",
+      "H04L 67/12"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Vehicle mass measurement for automated braking",
+  "abstract": "From a set of point data, a set of scattered rays is constructed. From the set of scattered rays, a set of ray slopes is computed. The set of ray slopes is mapped to a corresponding set of trigonometric functions. Using an optimization method, a parameter of the set of trigonometric functions is selected. Using an inverse of the set trigonometric functions, a vehicle mass corresponding to the set of point data is computed. Based on the vehicle mass, a threshold braking distance of a collision avoidance system of the vehicle is adjusted, the threshold braking distance comprising a distance from an object predicted to collide with the vehicle. By braking the vehicle at least the threshold braking distance from the object, a predicted collision between the vehicle and the object is avoided.",
+  "claims": "1. A computer-implemented method comprising: predicting a collision between a vehicle and an object; constructing, from a set of point data, a set of scattered rays, the set of scattered rays including a scattered ray; computing, from the set of scattered rays, a set of ray slopes, a ray slope in the set of ray slopes comprising a slope of the scattered ray; mapping the set of ray slopes to a set of trigonometric functions; computing, from an inverse of the set of trigonometric function applied to the slope of the scattered ray drawn to a point, a vehicle mass corresponding to the point, the point having an x coordinate denoting an acceleration value of the vehicle and a y coordinate denoting a force value of the vehicle; adjusting, based on the vehicle mass, a threshold braking distance of a collision avoidance system of the vehicle, the threshold braking distance comprising a distance from the object predicted to collide with the vehicle; and causing a braking action of the vehicle at least the threshold braking distance from the object.",
+  "patent_id": "US12377806-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60R 21/01336",
+      "B60R 21/0134",
+      "B60T 7/22",
+      "B60R 2021/01211",
+      "B60T 2250/02"
+    ],
+    "all": [
+      "B60R 21/01336",
+      "B60R 21/0134",
+      "B60T 7/22",
+      "B60R 2021/01211",
+      "B60T 2250/02"
+    ],
+    "source": "converted"
+  }
+}

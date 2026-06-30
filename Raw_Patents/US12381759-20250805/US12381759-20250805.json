@@ -1,0 +1,20 @@
+{
+  "title": "Methods and system for forwarding packets through a virtual private network",
+  "abstract": "The present invention discloses methods and systems for forward packets received from a SSID at a wireless access point to a VPN. The SSID and VPN are associated. The VPN is created according to a VPN profile. When the VPN is established, the SSID is enabled. When the VPN is not established, the SSID is disabled.",
+  "claims": "1. A method of establishing a Virtual Private Network (VPN), comprising: (a) creating a Service Set Identifier (SSID); (b) creating at least one VPN profile, wherein the at least one VPN profile comprises: information of a Wide Area Network (WAN) interface, wherein the WAN interface is either an Ethernet interface or a cellular modem; (c) establishing a VPN according to the VPN profile; (d) associating the SSID with the VPN profile; (e) when the VPN is established: (i) enabling the SSID; (ii) forwarding packets sent to the SSID through the VPN; (iii) storing the packets sent to the SSID in a first queue and forwarding the packets stored in the first queue to a second queue; wherein the second queue is for storing packets to be sent by the VPN; and (f) when the VPN is not established, disabling the SSID.",
+  "patent_id": "US12381759-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 12/4641",
+      "H04L 12/4633",
+      "H04L 12/6418"
+    ],
+    "all": [
+      "H04L 12/4641",
+      "H04L 12/4633",
+      "H04L 12/6418"
+    ],
+    "source": "converted"
+  }
+}

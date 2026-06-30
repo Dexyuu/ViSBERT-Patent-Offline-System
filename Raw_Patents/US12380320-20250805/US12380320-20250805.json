@@ -1,0 +1,22 @@
+{
+  "title": "Resilient neural network",
+  "abstract": "The present invention discloses a spiking neural network for classifying input signals. The spiking neural network comprises a plurality of spiking neurons, and a plurality of synaptic elements interconnecting the spiking neurons to form the network. Each synaptic element is adapted to receive a synaptic input signal and apply a weight to the synaptic input signal to generate a synaptic output signal, the synaptic elements being configurable to adjust the weight applied by each synaptic element. Furthermore, each of the spiking neurons is adapted to receive one or more of the synaptic output signals from one or more of the synaptic elements, and generate a spatio-temporal spike train output signal in response to the received one or more synaptic output signals. The spiking neural network is partitioned into multiple sub-networks, wherein each sub-network comprises a sub-set of the spiking neurons connected to receive synaptic output signals from a sub-set of the synaptic elements. The sub-network is adapted to generate a sub-network output pattern signal in response to a sub-network input pattern signal applied to the sub-network. Furthermore, each sub-network forms part of one or multiple cores in an array of cores, each core consisting of a programmable network of spiking neurons implemented in hardware or a combination of hardware and software. Communication between cores in the core array is arranged through a programmable interconnect structure.",
+  "claims": "1. A spiking neural network for classifying input signals, comprising a plurality of spiking neurons implemented in hardware or a combination of hardware and software, and a plurality of synaptic elements interconnecting the spiking neurons to form the network, wherein each synaptic element is adapted to receive a synaptic input signal and apply a weight to the synaptic input signal to generate a synaptic output signal, the synaptic elements being configurable to adjust the weight applied by each synaptic element, wherein each of the spiking neurons is adapted to receive one or more of the synaptic output signals from one or more of the synaptic elements, and generate a spatio-temporal spike train output signal in response to the received one or more synaptic output signals, wherein the weights of the synaptic elements are bounded by bound values, wherein the bound values are stochastic values; wherein the weight of a synaptic element connected into a spiking neuron i is bounded by bounding the synaptic drive Γ i of the spiking neuron i in the spiking neural network, wherein the synaptic drive Γ i of one of the spiking neuron i is a time-dependent function describing a total transfer function of all synaptic elements that are connected into the neuron; and wherein the variance of each of the synaptic drives Γ i ; lies below a predetermined value such that the synaptic drive Γ i , of each of the neuron i in the spiking neural network is bound around an equilibrium point Γ i of the synaptic drive Γ i , where noise effects are minimal.",
+  "patent_id": "US12380320-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 3/049",
+      "G06N 3/045",
+      "G06N 3/063",
+      "G06N 3/08"
+    ],
+    "all": [
+      "G06N 3/049",
+      "G06N 3/045",
+      "G06N 3/063",
+      "G06N 3/08"
+    ],
+    "source": "converted"
+  }
+}

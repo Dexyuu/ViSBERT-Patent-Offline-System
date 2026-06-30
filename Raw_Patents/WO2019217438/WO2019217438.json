@@ -1,0 +1,33 @@
+{
+  "application_id": "WO2019217438",
+  "application_id_fs": null,
+  "title": "Temperature control for additive manufacturing",
+  "abstract": "An additive manufacturing apparatus includes a platform, a dispenser to dispense successive layers of feed material on the platform, a heater configured to heat feed material on spatially and intensity controllable basis on the platform, an energy source to emit a beam of energy to impinge a topmost layer of the feed material to generate a melt pool from the feed material, a thermal imager having a field of view of a build region of the platform and configured to generate a thermal image of the topmost layer of the feed material in the build region, a high- speed camera configured to monitor a region where the energy beam impinges the topmost layer of the feed material, and a controller.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1. An additive manufacturing apparatus, comprising: a platform; a dispenser to dispense successive layers of feed material on the platform; a heater configured to heat feed material on spatially and intensity controllable basis on the platform; an energy source to emit a beam of energy to impinge a topmost layer of the feed material to generate a melt pool from the feed material; a thermal imager having a field of view of a build region of the platform and configured to generate a thermal image of the topmost layer of the feed material in the build region, a high-speed camera configured to monitor a region where the energy beam impinges the topmost layer of the feed material; and a controller configured to store a desired temperature map; determine an amount of power for the heater to apply to each of a plurality of regions of the layer of feed material, including determining an expected thermal map based on the thermal image and a model of heat transfer that accounts for heat conduction to or from adjacent regions, comparing the expected thermal map to the desired temperature map to generate an error signal, and feeding the error signal into a feedback system to determine the amount of power for the heater to apply, determine a dimension of the melt pool from an image from the high-speed camera, and use the dimension of the melt pool as training data for a machine learning algorithm in the model or in the feedback system. 2. The apparatus of claim 1, wherein the heat source comprises an array of lamps to deliver energy to the first region, and the controller is configured to selectively operate each lamp of the array of lamps based on the measured temperatures. 3. The apparatus of claim 1, wherein the heat source comprises a light source to generate a light beam that is scanned across the topmost layer of feed material. 4. The apparatus of claim 1, wherein the energy source comprises a laser. 5. The apparatus of claim 1, wherein energy beam is maintained at a substantially constant power across the layer of feed material. 6. The apparatus of claim 1, wherein the thermal imager comprises an infrared image capture system configured to measure temperatures across an entire width and an entire length of the topmost layer of feed material. 7. The apparatus of claim 1, wherein the high-speed camera is configured to measure temperatures of feed material in the melt pool, and the controller is configured to determine the dimension of the melt pool based on the measured temperatures of feed material relative to a threshold temperature. 8. The apparatus of claim 1, wherein the sensor system comprises a spectrophotometer to detect wavelengths emitted by feed material in a third region of the topmost layer based on the detected wavelengths, and the controller is configured to determine cooling rates of feed material in the third region based on the detected wavelengths and operate the heat source or the energy source based on the determined cooling rates. 9. The apparatus of claim 1, wherein the controller is configured to use the dimension of the melt pool as the training data for the machine learning algorithm in the model. 10. The apparatus of claim 1, wherein the controller is configured to use the dimension of the melt pool as the training data for the machine learning algorithm in the feedback system. 11. The apparatus of claim 1, wherein the machine learning algorithm comprises a neural network. 12. A method of controlling additive manufacturing, comprising: dispensing a plurality of successive layers of feed material on a platform; heating the feed material on spatially and intensity controllable basis on the platform; impinging a topmost layer of the feed material with an energy beam to generate a melt pool from the feed material; determining an amount of power to apply to each of a plurality of regions of the layer of feed material, including determining an expected thermal map based on a thermal image of the topmost layer of the feed material and a model of heat transfer that accounts for heat conduction to or from adjacent regions, comparing the expected thermal map to the desired temperature map to generate an error signal, and feeding the error signal into a feedback system to determine the amount of power for the heater to apply; determining a dimension of the melt pool from an image from a high-speed camera, and using the dimension of the melt pool as training data for a machine learning algorithm in the model or in the feedback system. 13. The method of claim 12, comprising maintaining the energy beam at a substantially constant power across the layer of feed material. 14. The method of claim 12, comprising using the dimension of the melt pool as the training data for the machine learning algorithm in the model. 15. The method of claim 12, wherein the controller is configured to use the dimension of the melt pool as the training data for the machine learning algorithm in the feedback system. 16. The method of claim 12, wherein the machine learning algorithm comprises a neural network.",
+  "classifications": {
+    "ipc": [
+      "B29C 64/393",
+      "B29C 64/245",
+      "B29C 64/205",
+      "B29C 64/295",
+      "B29C 64/264",
+      "B29C 64/141",
+      "B33Y 50/02",
+      "B33Y 30/00",
+      "B33Y 10/00"
+    ],
+    "cpc": [],
+    "all": [
+      "B29C 64/393",
+      "B29C 64/245",
+      "B29C 64/205",
+      "B29C 64/295",
+      "B29C 64/264",
+      "B29C 64/141",
+      "B33Y 50/02",
+      "B33Y 30/00",
+      "B33Y 10/00"
+    ],
+    "source": "csv"
+  }
+}

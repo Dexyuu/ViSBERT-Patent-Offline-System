@@ -1,0 +1,32 @@
+{
+  "title": "Misfire detection apparatus and misfire detection method for multi-cylinder engine",
+  "abstract": "A misfire detection apparatus for multi-cylinder engine is configured to detect a misfiring state in which any of a plurality of cylinders in an engine is misfiring, the engine including: the plurality of cylinders, and a catalyst device configured to purify exhaust gas from the plurality of cylinders. The apparatus includes: a rotation sensor configured to detect a rotational speed of the engine, and an electronic control unit including a processor and a memory coupled to the processor and configured to control operation of the engine. The processor detects the misfiring state of the engine based on the rotational speed of the engine detected by the rotation sensor.",
+  "claims": "1. A misfire detection apparatus for a multi-cylinder engine, configured to detect a misfiring state in which any of a plurality of cylinders in the engine is misfiring, the engine including: the plurality of cylinders, and a catalyst device configured to purify exhaust gas from the plurality of cylinders, comprising: a rotation sensor configured to detect a rotational speed of the engine; and an electronic control unit including a processor and a memory coupled to the processor and configured to control operation of the engine, wherein the engine is a four-stroke V-type two-cylinder engine that makes two rotations per cycle, and includes injectors respectively configured to supply fuel to each of the plurality of cylinders, wherein the processor: determines whether cranking of the engine has ended; when it is determined that the cranking has ended, determines whether the rotational speed of the engine decreases; when it is determined that the rotational speed does not decrease, determines that a startup period in which the rotational speed increases after the cranking ends is in progress and determines whether the rotational speed of the engine instantaneously increases twice for every two rotations of the engine based on change characteristics of the rotational speed detected by the rotation sensor and detects the misfiring state of the engine based on a determination result in the startup period; estimates one of the plurality of cylinders in which the rotational speed instantaneously increases as a normal cylinder in which normal combustion is performed, and estimates the other of the plurality of cylinders as a misfiring cylinder, when the misfiring state of the engine is detected based on the rotational speed detected by the rotation sensor; controls operations of the injectors to stop fuel supply to the normal cylinder; and controls operations of the injectors to restart fuel supply to the normal cylinder and to stop fuel supply to the misfiring cylinder, when operation of the engine continues after stopping fuel supply to the normal cylinder.",
+  "patent_id": "US12378926-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "F02D 41/1497",
+      "F02B 75/02",
+      "F02B 75/22",
+      "F02D 41/0002",
+      "F02D 41/1446",
+      "F02D 41/38",
+      "F02B 2075/027",
+      "F02B 2075/1808",
+      "F02D 2200/101"
+    ],
+    "all": [
+      "F02D 41/1497",
+      "F02B 75/02",
+      "F02B 75/22",
+      "F02D 41/0002",
+      "F02D 41/1446",
+      "F02D 41/38",
+      "F02B 2075/027",
+      "F02B 2075/1808",
+      "F02D 2200/101"
+    ],
+    "source": "converted"
+  }
+}

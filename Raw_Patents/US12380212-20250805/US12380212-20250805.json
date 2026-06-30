@@ -1,0 +1,18 @@
+{
+  "title": "Return address validation watchdog to discover ROP chains in exploits engineering cloud delivered security services (CDSS)",
+  "abstract": "The present application discloses a method, system, and computer system for detecting Return Oriented Programming (ROP) exploits. The method includes (i) intercepting, by one or more processors, a memory attribute change function for a sample; (ii) determining if a return address is associated with a shellcode address, and (iii) in response to determining that the return address is associated with the shellcode address, determining that the sample is an ROP exploit.",
+  "claims": "1. A system for detecting Return Oriented Programming (ROP) exploits, comprising: one or more processors configured to: intercept a memory attribute change function for a sample; determine whether a memory attribute is changed to be executable; in response to determining that the memory attribute is changed to be executable, determine if a return address is associated with a shellcode address; and in response to determining that the return address is associated with the shellcode address, determine that the sample is an ROP exploit; and a memory coupled to the one or more processors and configured to provide the one or more processors with instructions.",
+  "patent_id": "US12380212-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/566",
+      "G06F 21/53"
+    ],
+    "all": [
+      "G06F 21/566",
+      "G06F 21/53"
+    ],
+    "source": "converted"
+  }
+}

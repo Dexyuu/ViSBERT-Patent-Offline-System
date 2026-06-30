@@ -1,0 +1,18 @@
+{
+  "title": "Salvage metal cutting robot",
+  "abstract": "A robotic cutting device includes a cutting tool responsive to a mobile actuator adapted to apply a cutting force in a 3-dimensional (3D) space, and scanning logic configured to identify a cutting path denoted on an article for cutting. Using the cutting path, a mobile actuator is responsive to positioning logic for disposing the cutting tool along the cutting path for performing a prescribed cut on the article. The mobile actuator is a robotic arm responsive to an independent coordinate frame based on a position and orientation of a mobility vehicle supporting the mobile actuator. The mobility vehicle is typically a tracked or all-terrain capable chassis adapted to be disposed adjacent to the article such that the article is within range of the actuator. The mobility vehicle transports the robotic cutting device adjacent to the article to be cut, such that the cutting path is within reach.",
+  "claims": "1. A method for automated dismantling of irregularly shaped salvage components, comprising: identifying a cutting path on a surface of a salvage article; traversing the cutting path in a non-contacting manner with the surface based on optical recognition of the surface for generating a set of points defining the cutting path, the cutting path traversing a plurality of planes; passing a cutting tool along a curve defined by the set of points; determining a cutting trajectory based on the curve and on a cutting speed determined from material properties for penetration the salvage article, the cutting tool responsive to an actuator driven based on the curve; determining a successive position of the cutting tool based on extrapolation of a subset of previous points of the set of points passed by the cutting tool; and advancing the cutting tool within a range of the salvage article based on avoiding revisiting a previously explored direction, extrapolation based on advancing along an extrapolated chunk by a constrained distance based on a distance to an edge.",
+  "patent_id": "US12377565-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B26D 3/10",
+      "B25J 11/00"
+    ],
+    "all": [
+      "B26D 3/10",
+      "B25J 11/00"
+    ],
+    "source": "converted"
+  }
+}

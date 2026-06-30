@@ -1,0 +1,30 @@
+{
+  "title": "Sounding reference signal triggering for enhanced carrier aggregation",
+  "abstract": "Methods, systems, and devices for wireless communication are described. A method at a user equipment (UE) includes receiving signaling that indicates a carrier aggregation (CA) configuration (having carriers configured for UL and downlink (DL) data transmissions) and an auxiliary uplink (UL) configuration (having carriers configured for UL reference signal transmissions). The method also includes receiving a resource assignment on a DL carrier of the CA configuration, and transmitting an aperiodic sounding reference signal (A-SRS) using the one or more carriers of the auxiliary UL configuration based at least in part on the received resource assignment. Another method is performed by a UE having a CA configuration and an A-SRS configuration, including receiving a resource assignment on a DL carrier in the CA configuration, detecting a trigger for transmitting an A-SRS, determining UL resources of the A-SRS configuration for transmitting the A-SRS, and transmitting the A-SRS on the determined UL resources.",
+  "claims": "1. A user equipment (UE), comprising: one or more memories that store processor-executable code; and one or more processors coupled with the one or more memories and configured to, in association with executing the code, cause the UE to: receive a resource assignment on a downlink (DL) component carrier (CC) in a carrier aggregation (CA) configuration, the resource assignment associated with one or more uplink (UL) CCs in the CA configuration used for UL data transmissions and including an aperiodic sounding reference signal (A-SRS) trigger; and transmit A-SRS transmissions via the one or more UL CCs in accordance with the A-SRS trigger, wherein the transmission of the A-SRS transmissions is prioritized over one or more UL transmissions that collide with the A-SRS transmissions in accordance with a prioritization hierarchy for UL transmissions.",
+  "patent_id": "US12382487-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/566",
+      "H04L 5/001",
+      "H04L 5/0048",
+      "H04L 5/0051",
+      "H04W 52/325",
+      "H04W 72/0453",
+      "H04W 72/1268",
+      "H04W 72/23"
+    ],
+    "all": [
+      "H04W 72/566",
+      "H04L 5/001",
+      "H04L 5/0048",
+      "H04L 5/0051",
+      "H04W 52/325",
+      "H04W 72/0453",
+      "H04W 72/1268",
+      "H04W 72/23"
+    ],
+    "source": "converted"
+  }
+}

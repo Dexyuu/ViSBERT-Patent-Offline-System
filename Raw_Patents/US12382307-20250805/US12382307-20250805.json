@@ -1,0 +1,20 @@
+{
+  "title": "Methods and arrangements to relay packets",
+  "abstract": "Logic may enable client devices or access points to relay medium access control (MAC) frames through a Wireless Fidelity (Wi-Fi) Direct network such as a network of Peer-to-Peer (P2P) connections to extend the wireless range of the devices or access points beyond the transmission range of the individual devices or access points. Logic may extend the range of IEEE 802.11 devices, such as IEEE 802.11ah devices, by allowing a station in the middle of two stations to serve as a relay station using the Wi-Fi Direct technology. Logic may enable relaying to avoid a full mesh technology such as is defined in IEEE 802.11s, since the full mesh technology may contain too many features that are not required for a simple or a static network configuration of such embodiments.",
+  "claims": "1. An apparatus comprising: a memory; and a processor coupled with the memory to: cause wireless transmission of a management frame to a source station, wherein the management frame comprises information to describe a connection between a relay station and an access point, wherein the apparatus is included in the relay station, and wherein the management frame is a beacon frame or a probe response frame, wherein the information comprises fields comprising a data rate, a link budget, and an indication of a traffic load between the relay station and the access point; decode a request to associate with the relay station from the source station; after association with the source station, decode a first medium access control (MAC) Service Data Unit (MSDU) received from the source station, the first MSDU comprising an address for the access point as a destination address, wherein the relay station is associated with the access point; and generate a relay frame comprising the first MSDU for transmission, wherein the relay frame comprises the MAC address for the access point as a receiver address (RA), the MAC address for the relay station as a transmitter address (TA), the address for the access point as the destination address (DA), and the address for the source station as a source address (SA); and cause transmission of the relay frame to the access point.",
+  "patent_id": "US12382307-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 16/26",
+      "H04W 88/04",
+      "H04W 84/12"
+    ],
+    "all": [
+      "H04W 16/26",
+      "H04W 88/04",
+      "H04W 84/12"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Kitchen display systems and methods",
+  "abstract": "A system and method include determining, by a point of sale (POS) device, that new data is available at the POS device, in response to determining that new data is available, sending the new data to a cloud server, in response to determining that the new data is successfully transmitted to the cloud server, generating a synchronization request indicating availability of new data at the cloud server, identifying one or more kitchen display systems (KDS) to send the synchronization request to, and sending the synchronization request to each of the identified KDS. Each identified KDS retrieves the new data from the cloud server in response to receiving the synchronization request, and at least one of the KDS performs an action based on the new data in response to retrieving the new data. Each KDS follows a similar procedure when new data for the POS device is available at the KDS.",
+  "claims": "1. A system comprising: a point of sale device comprising: a display; a communication interface to receive information; one or more first servers; and one or more first clients, the one or more first servers and the one or more first clients each associated with one or more memories having computer-readable instructions stored thereon that when executed by at least one of one or more processors cause the at least one of the one or more processors to: determine that new order data is available at the point of sale device; in response to determining that the new order data is available, send the new order data to a cloud server; in response to determining that the new order data is successfully transmitted to the cloud server, generate a synchronization request indicating availability of the new order data at the cloud server; identify one or more kitchen display systems to send the synchronization request to; and send the synchronization request to each of the identified one or more kitchen display systems; wherein each of the kitchen display systems receives the synchronization request; wherein each of the kitchen display systems that receive the synchronization request retrieves the new order data from the cloud server in response to receiving the synchronization request; and wherein at least one of the kitchen display systems performs an action based on the new order data in response to retrieving the new order data.",
+  "patent_id": "US12380773-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G07G 1/14",
+      "G06F 16/27"
+    ],
+    "all": [
+      "G07G 1/14",
+      "G06F 16/27"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Electric power control apparatus, fuel cell system, vehicle, and recording medium",
+  "abstract": "An electric power control apparatus is for a fuel cell system including an impedance measurement unit that measures an impedance of the fuel cell based on a current and a voltage measured when alternating-current electric power is superimposed on output electric power of the fuel cell. A processor of the electric power control apparatus: estimates a remaining capacity of the electric power storage device after execution of a process of measuring the impedance; performs charging and discharging of the electric power storage device before start of the process of measuring the impedance, to make the estimated remaining capacity fall within a predetermined range from a lower limit value to an upper limit value; and controls electric power generation of the fuel cell to make a generated current of the fuel cell constant, during the execution of the process of measuring the impedance.",
+  "claims": "1. An electric power control apparatus for a fuel cell system provided with a fuel cell, an electric power storage device, and a drive motor, the fuel cell system comprising an impedance measurement unit configured to measure an impedance of the fuel cell based on a current and a voltage measured when alternating-current electric power is superimposed on output electric power of the fuel cell, the electric power control apparatus comprising: one or more processors; and one or more memories communicably coupled to the one or more processors, wherein the one or more processors are configured to execute processing comprising estimating, in advance, a remaining capacity of the electric power storage device after execution of a process of measuring the impedance, performing charging and discharging of the electric power storage device before start of the process of measuring the impedance, to make the estimated remaining capacity fall within a predetermined range from a lower limit value to an upper limit value, and controlling electric power generation of the fuel cell to make a generated current of the fuel cell constant, during the execution of the process of measuring the impedance, and wherein the one or more processors are configured to estimate, in advance, electric power consumption by the drive motor and expected generated electric power of the fuel cell in a period in which the process of measuring the impedance is executed, and estimate the remaining capacity of the electric power storage device after the execution of the process of measuring the impedance, based on the electric power consumption and the expected generated electric power that have been estimated.",
+  "patent_id": "US12377756-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60L 58/40",
+      "B60L 15/20",
+      "B60L 50/75",
+      "G01R 31/007",
+      "G01R 31/388",
+      "G01R 31/389",
+      "H01M 8/04544",
+      "H01M 8/04574",
+      "H01M 8/04634",
+      "H01M 8/04925",
+      "H01M 16/006",
+      "H02J 7/0048",
+      "H02J 7/00712",
+      "H01M 2220/20",
+      "H01M 2250/20",
+      "H01M 2250/402"
+    ],
+    "all": [
+      "B60L 58/40",
+      "B60L 15/20",
+      "B60L 50/75",
+      "G01R 31/007",
+      "G01R 31/388",
+      "G01R 31/389",
+      "H01M 8/04544",
+      "H01M 8/04574",
+      "H01M 8/04634",
+      "H01M 8/04925",
+      "H01M 16/006",
+      "H02J 7/0048",
+      "H02J 7/00712",
+      "H01M 2220/20",
+      "H01M 2250/20",
+      "H01M 2250/402"
+    ],
+    "source": "converted"
+  }
+}

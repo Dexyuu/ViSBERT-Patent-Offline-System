@@ -1,0 +1,32 @@
+{
+  "title": "Sensor calibration for autonomous systems and applications",
+  "abstract": "In various examples, sensor configuration for autonomous or semi-autonomous systems and applications is described. Systems and methods are disclosed that may use image feature correspondences between camera images along with an assumption that image features are locally planar to determine parameters for calibrating an image sensor with a LiDAR sensor and/or another image sensor. In some examples, an optimization problem is constructed that attempts to minimize a geometric loss function, where the geometric loss function encodes the notion that corresponding image features are views of a same point on a locally planar surface (e.g., a surfel or mesh) that is constructed from LiDAR data generated using a LiDAR sensor. In some examples, performing such processes to determine the calibration parameters may remove structure estimation from the optimization problem.",
+  "claims": "1. A method comprising: generating, based at least on LiDAR data obtained using a LiDAR sensor of a machine, a point cloud; determining, based at least on image data obtained using an image sensor of the machine, that a first point of a first image tracks to a second point of a second image; determining that the first point of the first image and a third point of the second image correspond to a fourth point of the point cloud; and determining, based at least on the second point of the second image and the third point of the second image, one or more values of one or more parameters for calibrating the image sensor with respect to the LiDAR sensor.",
+  "patent_id": "US12380601-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/80",
+      "G01S 17/86",
+      "G01S 17/89",
+      "G01S 17/931",
+      "H04N 17/002",
+      "G06T 2207/10028",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30244"
+    ],
+    "all": [
+      "G06T 7/80",
+      "G01S 17/86",
+      "G01S 17/89",
+      "G01S 17/931",
+      "H04N 17/002",
+      "G06T 2207/10028",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30244"
+    ],
+    "source": "converted"
+  }
+}

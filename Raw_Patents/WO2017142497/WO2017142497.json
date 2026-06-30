@@ -1,0 +1,25 @@
+{
+  "application_id": "WO2017142497",
+  "application_id_fs": null,
+  "title": "Adaptive sensor fault compensation method for process control devices",
+  "abstract": "This invention is related to a method allowing the system to stay balanced until the error is removed when the process value perception is interrupted in two point or proportional control systems such as thermostat, hygrostat, flow rate, speed control.(100)",
+  "claims": "Claims 1 - A method ( 1 00) planned for the fault compensation of the sensor in electronic process control devices such as thermostat, hygrostat used in market storages, heating/cooling and ventilation systems which is characterized by the steps of, - controlling the measurement value of the sensor in normal operational cycle of the device ( 101 ), - continuing normal process if the measurement value is in the desired value and/or between the desired values ( 102), - estimating an outlet value/interval according to the sensor value measured in the normal process ( 103), - recording the estimated outlet value/interval ( 104), - creating warning when the measurement value isn't normal, which means an error occurs in the sensor ( 105). - reading of outlet value/interval recorded in step 104 ( 106) and -using the outlet value/interval in order to sustain the process before fault (108). 2. A method like claims 1 which is characterized with the act that ( 100), a sensor test is realized in a part determined in the normal operational cycle after resetting when the electronic process device is opened and measurement values are control led. 3. A method like claims 1 or 2 which is characterized with the act that control operations are made continuously ( 1 00). 4. A method ( 100) like any claims above which is characterized with the act that in case the measurement value is in and/or between a value or a value interval deemed normal, the measured value is deemed to be correct and the device continues normal operational cycle (102). 5. A method ( 100) like any claims above which is characterized with the act that in order to control the process an outlet value/interval is estimated using the data from the sensor ( 103) and wh i le the mentioned outlet value/interval is controlled accord ing to the value, mentioned outlet va lues/i ntervals are recorded in a memory. 6. A method like claims 5 which is characterized with the act that ( 100), if the values in the memory and outlet value/interval are the same, it isn't recorded in the nonvolatile storage. 7. A method ( 100) like any claims above which is characterized with the act that after the electronic process device is opened, sensor test is realized in a determined part in normal operational cycle and in case there is an error in measurement values, error compensation process is started and sensor fault warning is produced ( 105). 8. A method ( 100) l ike any claims above which is characterized with the act that when there is no error, which means the sensor is functioning, estimated outlet value/interval is read from permanent memory ( 106) and in order to keep the device working with pre-fault values, outlet value/interval is used ( 107) and process is kept in the desired value. 9. A method ( 100) like any claims above which is characterized with the act that when sensor fault is removed, the dev ice continues normal functioning, which means the process control outlet value is the same w hen sensor is faulty as it was before the fault. 10. A method ( 1 00) l ike any claims above which is characterized with the act that outlet value/interval used can be numerical, analogue or on-off duration data",
+  "classifications": {
+    "ipc": [
+      "G01D 3/02",
+      "G05D 23/19",
+      "G05B 9/02",
+      "G05B 23/02",
+      "G05D 22/02"
+    ],
+    "cpc": [],
+    "all": [
+      "G01D 3/02",
+      "G05D 23/19",
+      "G05B 9/02",
+      "G05B 23/02",
+      "G05D 22/02"
+    ],
+    "source": "csv"
+  }
+}

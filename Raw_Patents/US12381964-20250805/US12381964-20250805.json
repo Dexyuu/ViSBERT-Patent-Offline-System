@@ -1,0 +1,26 @@
+{
+  "title": "Interworking service for the restful internet of things",
+  "abstract": "An interworking service entity receives server registration requests including indications of service layer protocols used by each server, maintains a repository of server information, and uses the repository for interworking requests of devices to servers of different protocols based on a server type provided in discovery requests. Other matching information may include, for example, server security protocol, supported services, service territory, availability, capacity, or loading, as device information or preferences, such a supported service, supported interface type, or a supported device type.",
+  "claims": "1. A first entity for a service providing service capabilities to applications through a set of Application Programming Interfaces (APIs), the first entity comprising circuitry configured to: receive, from a second entity, the second entity being hosted by an IoT device, a first message comprising information regarding the second entity which is to be shared with an IoT server and being sent in a first protocol; add, to a repository of device information, the information regarding the second entity, the information regarding the second entity being derived from the information of the first message received from the second entity; select, based on a repository of server information, the repository of device information, and a policy, a third entity, wherein the third entity is compatible with the second entity and is IoT server-hosted; send, to the third entity selected according to the policy, a second message, the second message being sent in a second protocol and requesting registration at the third entity of the second entity; and receive, from the third entity, a response to the second message, the response being sent in the second protocol and indicating whether the second entity has been registered at the third entity.",
+  "patent_id": "US12381964-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 69/321",
+      "H04L 41/0894",
+      "H04L 41/22",
+      "H04L 67/12",
+      "H04L 67/51",
+      "H04L 69/08"
+    ],
+    "all": [
+      "H04L 69/321",
+      "H04L 41/0894",
+      "H04L 41/22",
+      "H04L 67/12",
+      "H04L 67/51",
+      "H04L 69/08"
+    ],
+    "source": "converted"
+  }
+}

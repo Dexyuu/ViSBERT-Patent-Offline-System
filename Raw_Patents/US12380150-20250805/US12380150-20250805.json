@@ -1,0 +1,18 @@
+{
+  "title": "Secure AI-based sharing and transmission of data",
+  "abstract": "Implementations provide a secure and flexible encoding technique that enables data set owners to share data without losing interoperability or breaking data constraints. A device may receive a request to encode an input that includes a plurality of data portions. A device may identify protected data types within the data portions, transform raw text corresponding to a protected data type based on a seed and a base set to encoded text, and include the encoded text in an output. The seed and/or base set can be selected by a requester. The output configuration can be defined as different from the configuration of the input. The encoded text retains a format of the raw text so the encoded text does not violate existing data constraints. The device may also ensure a minimum level of fidelity in the encoded text.",
+  "claims": "1. A method performed by an encoder, the method comprising: receiving a request to encode an input that includes a plurality of data portions, the request including an indication of a seed as a runtime parameter, wherein a type of the indication of the seed is not determined by the encoder: for each data portion in the plurality of data portions, generating an encoded data portion in an output by: providing the data portion to a classifier configured to classify raw text in the portion as corresponding to a protected data type, the raw text having a format, in response to the classifier determining the data portion includes the raw text that corresponds to the protected data type: transforming the raw text using a seed and a base set to generate transformed text, the transformed text having a same format as the format of the raw text, and generating the encoded data portion corresponding to the data portion, the encoded data portion including the transformed text, and in response to determining the data portion does not include the raw text that corresponds to the protected data type, generating the encoded data portion corresponding to the data portion, the encoded data portion including the raw text; and providing the output to a requester of the request.",
+  "patent_id": "US12380150-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/355",
+      "G06F 21/6209"
+    ],
+    "all": [
+      "G06F 16/355",
+      "G06F 21/6209"
+    ],
+    "source": "converted"
+  }
+}

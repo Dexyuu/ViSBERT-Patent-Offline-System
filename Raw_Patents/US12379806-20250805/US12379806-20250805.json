@@ -1,0 +1,22 @@
+{
+  "title": "Sensor controller, electronic device, and position detection method",
+  "abstract": "Provided is a sensor controller connected to a capacitive touch sensor. The sensor controller includes a scan execution circuit which, in operation, repeatedly performs a first scan and a second scan on the capacitive touch sensor in a time-division manner, a first calculation circuit which, in operation, calculates a first pen position from a first detection signal acquired through the first scan performed by the scan execution circuit, a second calculation circuit which, in operation, calculates a touch position and a second pen position from a second detection signal acquired through the second scan performed by the scan execution circuit, and an output processing circuit which, in operation, outputs a pen position that differs depending on a result of a comparison process in which the first pen position calculated by the first calculation circuit is compared with the second pen position calculated by the second calculation circuit.",
+  "claims": "1. A sensor controller connected to a capacitive touch sensor, the sensor controller comprising: a scan execution circuit which, in operation, repeatedly performs a first scan and a second scan on the capacitive touch sensor in a time-division manner, the first scan detecting an active pen that transmits a signal, the second scan detecting a passive pointer that does not transmit the signal; a first calculation circuit which, in operation, calculates a first pen position from a first detection signal acquired through the first scan performed by the scan execution circuit, the first pen position being a position indicated by the active pen; a second calculation circuit which, in operation, calculates a touch position and a second pen position from a second detection signal acquired through the second scan performed by the scan execution circuit, the touch position being a position indicated by the passive pointer, the second pen position being a position indicated by the active pen; an output processing circuit which, in operation, outputs a pen position that differs depending on a result of a comparison process in which the first pen position calculated by the first calculation circuit is compared with the second pen position calculated by the second calculation circuit, wherein the output processing circuit, in operation, validates the first pen position when the first pen position matches the second pen position within a particular range, and invalidates the first pen position when the first pen position does not match the second pen position within the particular range; and a mode control circuit which, in operation, switches between a plurality of detection modes including a first mode in which the pen position is output without the comparison process and a second mode in which the comparison process is performed and the pen position is output, wherein the mode control circuit, in operation, starts the second mode in response to detection of a pen-down operation using the active pen.",
+  "patent_id": "US12379806-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/04166",
+      "G06F 3/04186",
+      "G06F 3/0441",
+      "G06F 3/0442"
+    ],
+    "all": [
+      "G06F 3/04166",
+      "G06F 3/04186",
+      "G06F 3/0441",
+      "G06F 3/0442"
+    ],
+    "source": "converted"
+  }
+}

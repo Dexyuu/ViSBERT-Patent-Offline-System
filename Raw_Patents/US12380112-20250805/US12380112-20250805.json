@@ -1,0 +1,28 @@
+{
+  "title": "World knowledge triggers",
+  "abstract": "Methods, systems, and apparatus, for associating actions with events that are determined independent of the action type of the action. A system receives, from a user device, identification of an action to be taken, the action being one of a plurality of action types, and an identification of a first event that is determined independent of the action type and for which the occurrence of the first event may be determined by the system. They system associates the action and the first event with instructions for determining if the first event has occurred, and then determines whether the first event has occurred. In response to determining that the first event has occurred, the system causes the action to occur.",
+  "claims": "1. A computing system, the system comprising: one or more processors; and one or more non-transitory computer-readable media that collectively store instructions that, when executed by the one or more processors, cause the computing system to perform operations, the operations comprising: receiving an input; processing the input to determine a user defined action, wherein the user defined action is associated with a first action of a plurality of different actions; processing the input to determine a user defined trigger event, wherein the user defined trigger event is associated with a first event; processing the user defined action and the user defined trigger event with an action trigger processing system, wherein the action trigger processing system periodically searches a knowledge base, via a search engine, to determine whether the first event has occurred; receiving instructions from the action trigger processing system to perform the action in response to the action trigger processing system determining the first event has occurred; and performing the action identified by the user defined action.",
+  "patent_id": "US12380112-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/24565",
+      "G06F 16/248",
+      "G06F 16/9535",
+      "G06F 16/9537",
+      "G06Q 10/109",
+      "H04W 4/029",
+      "G06F 3/04842"
+    ],
+    "all": [
+      "G06F 16/24565",
+      "G06F 16/248",
+      "G06F 16/9535",
+      "G06F 16/9537",
+      "G06Q 10/109",
+      "H04W 4/029",
+      "G06F 3/04842"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "application_id": "WO2018183606",
+  "application_id_fs": null,
+  "title": "Modular object-oriented digital sub-system architecture with primary sequence control and synchronization",
+  "abstract": "The present disclosure relates to digital signal processing architectures, and more particularly to a modular object-oriented digital system architecture ideally suited for radar, sonar and other general purpose instrumentation which includes the ability to self-discover modular system components, self-build internal firmware and software based on the modular components, sequence signal timing across the modules and synchronize signal paths through multiple system modules.",
+  "claims": "Claims What is claimed is: 1. A modular digital signal processing system comprising: at least one operational sub-module comprising a processing device, a modular expansion bus for receiving at least one operational card, an external communication port and a synchronization interface; a primary sequence control module comprising a processing device and a synchronization interface in communication with said synchronization interface of said at least one operational sub-module, said primary sequence control module including at least one clock synthesizer providing a clock signal to said at least one operational card; and a software application running on said primary sequence control module operative for generating a synchronization signal based on said clock signal, and providing said synchronization signal to said at least one operation submodule to control the timing of operation of said at least one operational card. 2. The modular digital system of claim 1 wherein said at least one operational card is selected from the group consisting of: an arbitrary waveform generator, a digital receiver and pulse pair processor, an N-channel analog to digital converter, an N-channel digital to analog converter, an input/output processor, a power device, and a PCIe bus. 3. The modular digital system of claim 1, wherein the at least one operational card is an arbitrary waveform generator and said software application is further operative for synchronizing a starting phase and time of a generated waveform. 4. The modular digital system of claim 1, wherein the at least one operational card is a digital receiver and pulse pair processor and said software application is further operative for synchronizing digitization of a received signal and phase. 5. The modular digital system of claim 3, further comprising a second operational card comprising a digital receiver and pulse pair processor and said software application is further operative for synchronizing digitization of a received signal and phase. 6. The modular digital system of claim 1 wherein each module includes a commonly shared object-oriented firmware architecture. 7. The modular digital system of claim 1 further comprising a control interface. 8. A modular digital radar signal processing system comprising: an operational sub-module comprising a processing device, a modular expansion bus receiving an arbitrary waveform generator (AWG) card and a digital receiver and pulse pair processor card (Receiver), said operational submodule further comprising an external communication port and a synchronization interface; a primary sequence control module comprising a processing device and a synchronization interface in communication with said synchronization interface of said operational sub-module, said primary sequence control module including at clock synthesizers providing clock signals to said AWG card and said Receiver card; and a software application running on said primary sequence control module operative for generating a synchronization signal based on said clock signal, and providing said synchronization signal to said operational submodule to control the timing of operation of said AWG card and said Receiver Card.",
+  "classifications": {
+    "ipc": [
+      "G06F 3/00",
+      "G01S 7/00",
+      "G01S 7/02",
+      "G01S 13/00"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 3/00",
+      "G01S 7/00",
+      "G01S 7/02",
+      "G01S 13/00"
+    ],
+    "source": "csv"
+  }
+}

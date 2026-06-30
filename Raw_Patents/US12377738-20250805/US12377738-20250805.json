@@ -1,0 +1,42 @@
+{
+  "title": "Precision charging control of an untethered vehicle with a modular vehicle charging surface",
+  "abstract": "Methods and systems for precision charging control of a vehicle include at least a wireless charging antenna carried by a vehicle and in electrical communication with a vehicle propulsion system. A plurality of wireless charging antennae is associated with a charging surface and is in communication with at least a control system and a power source. An authentication connection is established between the vehicle wireless charging antenna and the control system which uses a timestamping technique. The wireless charging antenna carried by the vehicle is paired with one or more of the plurality of wireless charging antennae associated with the charging surface by triggering a dynamic seek operation or establishing a connection based on a timestamped location point. Transfer of a quantity of electrical energy between the first wireless charging antenna and the one of the plurality of second wireless charging antennae is adaptively controlled.",
+  "claims": "1. A method of precision charging control of a vehicle, the method comprising: providing a plurality of first wireless charging antennae carried by the vehicle, wherein at least a first portion of the plurality of first wireless charging antennae is positioned on the vehicle in a different location from at least a second portion of the plurality of first wireless charging antennae, and wherein the first portion of the plurality of first wireless charging antennae is positioned a closer vertical distance to a charging surface than the second portion of the plurality of first wireless antennae, the plurality of first wireless charging antennae in communication with a vehicle propulsion system; providing a plurality of second wireless charging antennae associated with the charging surface, the plurality of second wireless charging antennae being in communication with at least a control system and a power source; establishing an authentication connection between at least one of the plurality of first wireless charging antennae and the control system, wherein the authentication connection uses a timestamping process whereby a position of the vehicle on the charging surface is associated with a point in time to provide a timestamped location point; while the vehicle is positioned on the charging surface, pairing the at least one of the plurality of first wireless charging antennae with one of the plurality of second wireless charging antennae by at least one of: triggering, by the at least one of the plurality of first wireless charging antennae or the one of the plurality of second wireless charging antennae at, or associated with, a first location of the charging surface, a dynamic seek operation between the at least one of the plurality of first wireless charging antennae and the one of the plurality of second wireless charging antennae at, or associated with, the first location of the charging surface, wherein the dynamic seek operation uses one or more signals communicated between one or more vehicle sensors in communication with the plurality of first wireless charging antennae and one or more sensors associated with the charging surface and in communication with the one of the plurality of second wireless charging antennae; or establishing a connection between the at least one of the plurality of first wireless charging antennae with the one of the plurality of second wireless charging antennae when the vehicle is positioned at the timestamped location point; transferring a quantity of electrical energy between the first portion or second portion of the plurality of first wireless charging antennae and the one of the plurality of second wireless charging antennae at the timestamped location point when the first portion or second portion of the first wireless charging antennae is positioned proximate to the first location of the charging surface corresponding to the one of the plurality of second wireless charging antennae; and adaptively controlling the transfer of the quantity of electrical energy between the one of the plurality of second wireless charging antennae and at least one of the first portion or second portion of the plurality of first wireless charging antennae by: sensing a relative vehicle proximity to an object using at least one sensor carried on the vehicle, the object being positioned outside of a location between the plurality of first wireless charging antennae and the plurality of second wireless charging antennae; and switching, in response to sensing the object, the quantity of electrical energy to be transferred from the second portion of the plurality of first wireless charging antennae to the first portion of the plurality of first wireless charging antennae, the first portion being positioned the closer vertical distance to the charging surface, thereby prioritizing transferring the quantity of electrical energy to the first portion of the plurality of first wireless charging antennae which is positioned the closer vertical distance to the charging surface, to thereby lessen electricity flux exposure unintentionally generated or radiated during the transfer of the quantity of electrical energy.",
+  "patent_id": "US12377738-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60L 53/126",
+      "B60L 5/005",
+      "B60L 50/53",
+      "B60L 53/12",
+      "B60L 53/122",
+      "B60L 53/124",
+      "B60L 53/66",
+      "H02J 50/005",
+      "H02J 50/10",
+      "H02J 50/402",
+      "H02J 50/60",
+      "H02J 50/70",
+      "H02J 50/80",
+      "H02J 50/90"
+    ],
+    "all": [
+      "B60L 53/126",
+      "B60L 5/005",
+      "B60L 50/53",
+      "B60L 53/12",
+      "B60L 53/122",
+      "B60L 53/124",
+      "B60L 53/66",
+      "H02J 50/005",
+      "H02J 50/10",
+      "H02J 50/402",
+      "H02J 50/60",
+      "H02J 50/70",
+      "H02J 50/80",
+      "H02J 50/90"
+    ],
+    "source": "converted"
+  }
+}

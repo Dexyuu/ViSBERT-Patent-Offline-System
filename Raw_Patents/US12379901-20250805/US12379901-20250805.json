@@ -1,0 +1,18 @@
+{
+  "title": "Application framework for strongly-typed programming languages",
+  "abstract": "The present disclosure is directed to methods, non-transitory computer readable storage medium, and systems. The disclosure includes a method to implement a strongly-typed software application operable in a computing environment in an application development framework, the method including: retrieving components from a database, wherein the components include: logic code configured to perform a task, input/output (I/O) code configured to provide input from a source to the logic code, and feature code configured to produce one or more functions; and automatically generating a configuration file, wherein the configuration file is in a strongly-typed programming language, and wherein the configuration file is configured to register the components into an executable software application.",
+  "claims": "1. A method to implement a strongly-typed software application operable in a computing environment in an application development framework, the method comprising: retrieving components from a database, wherein the components comprise: logic code configured to perform a task, input/output (I/O) code configured to provide input from a source to the logic code, and feature code configured to produce one or more functions; automatically generating a configuration file, wherein the configuration file is in a strongly-typed programming language, and wherein the configuration file is configured to register the components into an executable software application; automatically generating a unique prefix for a name of the task in the configuration file based on meta-data of the task; compiling the registered components, wherein the compiling comprises verifying that the registered components do not use an operator with inconsistent expressions; deploying the executable software application and the configuration file in a deployable unit to a computing environment of a user; and implementing the executable software application in the computing environment of the user.",
+  "patent_id": "US12379901-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 8/30",
+      "G06F 9/44505"
+    ],
+    "all": [
+      "G06F 8/30",
+      "G06F 9/44505"
+    ],
+    "source": "converted"
+  }
+}

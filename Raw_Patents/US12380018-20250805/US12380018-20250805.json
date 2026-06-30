@@ -1,0 +1,24 @@
+{
+  "title": "Method for host access to network device-managed memory pool",
+  "abstract": "In accordance with an embodiment, a communication method includes: receiving, by a first host, a memory access address sent by a network device, wherein the memory access address points to a memory unit in a first memory pool, the network device is connected to the first host, the network device is configured to switch and forward a service of the first host, and the network device is further configured to manage the first memory pool; and in response to memory of the first host satisfying a preset condition, accessing, by the first host, the memory unit based on the memory access address.",
+  "claims": "1. A communication method, comprising: satisfying, by a memory of a first host, a preset condition; in response to the memory of the first host satisfying the preset condition, sending, by the first host, a request message to a network device, wherein the request message is configured to request memory in a first memory pool; receiving, by the first host, a memory access address sent by the network device, wherein the memory access address points to a memory unit in the first memory pool, the network device is connected to the first host, the network device is configured to switch and forward a service of the first host, and the network device is further configured to manage the first memory pool; accessing, by the first host, the memory unit based on the memory access address; no longer needing, by the first host, to use the memory unit; and in response to no longer needing, by the first host, to use the memory unit, sending, by the first host, a notification message to the network device, wherein the notification message comprises the memory access address to enable the network device to release the memory unit.",
+  "patent_id": "US12380018-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 12/023",
+      "G06F 13/4282",
+      "G06F 15/17331",
+      "G06F 2212/251",
+      "G06F 2213/0026"
+    ],
+    "all": [
+      "G06F 12/023",
+      "G06F 13/4282",
+      "G06F 15/17331",
+      "G06F 2212/251",
+      "G06F 2213/0026"
+    ],
+    "source": "converted"
+  }
+}

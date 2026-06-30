@@ -1,0 +1,20 @@
+{
+  "title": "Method to adapt audio processing based on user attention sensing and system therefor",
+  "abstract": "A method may include capturing an image at a camera included at an information handling system, the camera coupled to a vision system. A position of a user relative to a display device may be determined based on analysis of the image by the vision system. The method may further include adjusting properties of an audio signal provided to a speaker based on the position of the user.",
+  "claims": "1. An information handling system comprising: a display device; a first speaker; a time of flight proximity sensor including an infrared light source to provide an infrared light, the time of flight proximity sensor to: determine a distance from the display device to the user based on the infrared light source; and provide information including the distance, wherein the information is based on the infrared light source; a low power camera to capture an infrared light image based on the infrared light provided from the infrared light source, wherein the low power camera operates when the information handling system is in a sleep state; a vision system coupled to the low power camera, the vision system to determine a gaze direction of a user based on the infrared light image from the low power camera; a sensor hub coupled to the vison system and to the time of flight sensor; a software service to: receive the infrared light image from the low power camera; receive the information from the time of flight proximity sensor; determine a position of the user relative to the display device based on analysis of the infrared light image by the vision system and based on the distance from the time of flight proximity sensor; determine a movement in the gaze direction of the user; adjust properties of a first audio signal provided to the first speaker based on the position of the user; detect movement of the user from being positioned in front of a first side of the display device to being positioned in front of a second side of the display device based on the information from the time of flight proximity sensor; and adjust properties of the first audio signal based on the information, wherein the adjustment of the properties of the first audio signal includes the software service to modify a relative balance of the first audio signal based on the detected movement of the user from being positioned in front of the first side of the display device to being positioned in front of the second side of the display device and based on the determined movement in the gaze direction of the user.",
+  "patent_id": "US12382237-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04S 7/303",
+      "G06T 7/70",
+      "G06T 2207/30201"
+    ],
+    "all": [
+      "H04S 7/303",
+      "G06T 7/70",
+      "G06T 2207/30201"
+    ],
+    "source": "converted"
+  }
+}

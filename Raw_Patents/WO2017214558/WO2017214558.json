@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2017214558",
+  "application_id_fs": "WO2017214558",
+  "title": "Autonomous agricultural system user interface interlock",
+  "abstract": "A control system (20) for an autonomous agricultural system (10) includes a display configured to display at least one control function associated with at least one operation. The display is configured to output a first signal indicative of a first input. The control system (20) includes a controller (24) comprising a processor (26) and a memory (28). The controller (24) is communicatively coupled to the display and configured to receive the first signal indicative of the first input and to send a second signal to the display indicative of instructions to display a second control in an unlocked state. The display is configured to output a third signal to the controller (24) indicative of the second input. The controller (24) is configured to receive the third signal and to output a fourth signal indicative of instructions to control the at least one operation of the autonomous agricultural system (10).",
+  "claims": "Claims CLAIMS: 1. A control system (20) for an autonomous agricultural system (10), comprising: a touchscreen display (34) configured to display at least one control function associated with at least one operation of the autonomous agricultural system (10), wherein the touchscreen display (34) is configured to receive a first input indicative of actuation of a first control and to output a first signal indicative of the first input; and a controller (24) comprising a processor (26) and a memory (28), wherein the controller (24) is communicatively coupled to the touchscreen display (34) and configured to send a second signal to the touchscreen display (34) indicative of instructions to display a second control of the at least one control function in an unlocked state upon receipt of the first signal; wherein the touchscreen display (34) is configured to receive a second input indicative of actuation of the second control while the second control is in the unlocked state and to output a third signal to the controller (24) indicative of the second input, and the controller (24) is configured to receive the third signal and to output a fourth signal indicative of instructions to control the at least one operation of the autonomous agricultural system (10) based on the second input. 2. The control system (20) of claim 1, wherein the first input comprises a multipoint depression, a depression of a threshold pressure, a gesture, a depression of a threshold duration, or any combination thereof, of the first control. 3. The control system (20) of any of claims 1-2, wherein the second control comprises a slide bar (91). 4. The control system (20) of any of claims 1-3, wherein the controller (24) is configured to send a fifth signal to the touchscreen display (34) indicative of instructions to display a login prompt a period of time after any input is received by the \n\n touchscreen display (34), wherein at least one control function is disabled during display of the login prompt until the login information is entered. 5. The control system (20) of any of claims 1-4, wherein the first input comprises the second input in a locked state. 6. The control system (20) of any of claims 1-5, wherein the controller (24) is configured to output a sixth signal indicative of instructions to transition the second control to a locked state a period of time after the first input or the second input is received. 7. The control system (20) of claim 6, wherein the controller (24) is configured to send an seventh signal to the touchscreen (34) indicative of instructions to display a change in a color, font, or both of the second control, text associated with the second control, or any combination thereof upon the second control transitioning from the locked state to the unlocked state. 8. The control system (20) of any of claims 1-7, wherein the at least one control function comprises a plurality of control functions, and wherein the controller (24) is configured to send the second signal to the touchscreen display (34) indicative of instructions to display the plurality of control functions in an unlocked state upon receipt of the first signal; 9. The control system (20) of any of claims 1-8, wherein the at least one operation comprises control of a three-point hitch (3PH) of an implement of the autonomous agricultural system (10), control of a power take off (PTO) of a vehicle of the autonomous agricultural system (10), control of an electric hydraulic remote (EHV) of the implement, or any combination thereof. 10. A method, comprising: receiving a first signal indicative of a first input from a touchscreen display (34) associated with unlocking a manual control of an autonomous agricultural system (10); sending a second signal to the touchscreen display (34) indicative of instructions to display the manual control in an unlocked state; receiving a third signal indicative of a second input from the manual control; and outputting a fourth signal to control the autonomous agricultural system (10) based on the second input. 11. The method of claim 10, comprising sending the third signal to the touchscreen (34) upon depression of the first input for a threshold duration. 12. The method of any of claims 10-11, comprising sending the third signal to the touchscreen (34) upon a gesture of the first input. 13. The method of any of claims 10-12, comprising sending signals to display a login prompt a period of time after any input is received by the touchscreen display (34), wherein at least one control function is disabled during display of the login prompt until login information is entered. 14. The method of any of claims 10-13, comprising outputting a fifth signal to the touchscreen display (34) indicative of instructions to display a pause control upon receipt of at least the first signal and to pause the at least one operation upon receiving a sixth signal indicative of actuation of the pause control. 15. The method of any of claims 10-14, comprising receiving a seventh signal indicative of a selection of an agricultural field and to determine a path through the agricultural field, and wherein the at least one operation comprises controlling the \n\n autonomous agricultural system (10) such that the autonomous agricultural system (10) moves along the path.",
+  "classifications": {
+    "ipc": [
+      "G06F 3/00",
+      "G06F 3/01",
+      "G06F 3/048",
+      "G06F 3/0487",
+      "G06F 3/0488",
+      "A01B 69/00",
+      "A01B 69/007",
+      "A01B 69/008",
+      "G05D 1/00",
+      "G05D 1/0011",
+      "G05D 1/0016",
+      "G05D 1/02",
+      "G05D 1/021",
+      "G05D 1/0276",
+      "G05D 1/0278",
+      "G06F 3/0484"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 3/00",
+      "G06F 3/01",
+      "G06F 3/048",
+      "G06F 3/0487",
+      "G06F 3/0488",
+      "A01B 69/00",
+      "A01B 69/007",
+      "A01B 69/008",
+      "G05D 1/00",
+      "G05D 1/0011",
+      "G05D 1/0016",
+      "G05D 1/02",
+      "G05D 1/021",
+      "G05D 1/0276",
+      "G05D 1/0278",
+      "G06F 3/0484"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017214558"
+}

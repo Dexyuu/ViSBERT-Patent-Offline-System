@@ -1,0 +1,18 @@
+{
+  "title": "User equipment and method performed by the same in wireless communication system",
+  "abstract": "A user equipment (UE) and a method performed by the same in a wireless communication system are provided. The method includes receiving a downlink (DL) signal including a physical downlink control channel (PDCCH) and/or a physical downlink shared channel (PDSCH); and/or transmitting an uplink (UL) signal including a physical uplink control channel (PUCCH) and/or a physical uplink shared channel (PUSCH), where the UE monitors the PDCCH when the UE is in active time of a discontinuous reception (DRX) mode. The method can reduce the power consumption of the UE.",
+  "claims": "1. A method performed by a user equipment (UE) in a wireless communication system, the method comprising: monitoring a physical downlink control channel (PDCCH) based on the UE being in an active time of a discontinuous reception (DRX) mode; in case that downlink control information (DCI) on the PDCCH is not detected, starting a downlink (DL) round-trip time (RTT) timer for a predetermined hybrid automatic repeat request (HARQ) process, in a first predetermined time; receiving, from a base station, the DCI while the DL RTT timer is running; receiving, from the base station, a physical downlink shared channel (PDSCH) scheduled by the DCI; generating HARQ-acknowledgement (HARQ-ACK) information corresponding to the PDSCH; and transmitting the HARQ-ACK information on a physical uplink control channel (PUCCH) or a physical uplink shared channel (PUSCH).",
+  "patent_id": "US12382540-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/28",
+      "H04L 1/1812"
+    ],
+    "all": [
+      "H04W 76/28",
+      "H04L 1/1812"
+    ],
+    "source": "converted"
+  }
+}

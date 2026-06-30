@@ -1,0 +1,18 @@
+{
+  "title": "Dialog analysis using voice energy level",
+  "abstract": "A computer-implemented method for analyzing whether a phone call is answered by a human agent. The computer-implemented method receives phone call audio data of the phone call and separates the phone call audio data into caller stream data and agent stream data that each includes a plurality of frames and calculates decibel level for each frame. In response to measuring alternating groups of frames in the caller stream data and agent stream data that exceed a dialog decibel threshold, the computer-implemented method further identifies a dialog in the phone call audio data. In response to measuring decibel levels that exceed the dialog decibel threshold in corresponding frames in both the caller stream data and agent stream data, the computer-implemented method further identifies talkover in the phone call audio data. Furthermore, in response to identifying the dialog and if a level of talkover in the phone call audio data does not exceed a talkover threshold, the computer-implemented method determines the call is answered by the human agent.",
+  "claims": "1. A computer-implemented method for analyzing whether a phone call is answered by an agent, the method comprising, executed using one or more computing devices: receiving phone call audio data that represents the phone call; separating the phone call audio data into caller stream data and agent stream data that each includes a plurality of frames; measuring a decibel level for each frame; in response to measuring an increase in decibel levels in the agent stream data to a decibel level that exceeds a ringback energy threshold and that has a transition duration that is less than a ringback transition threshold time, identifying a ringback in the phone call audio data; in response to measuring alternating groups of frames in the agent stream data and in the caller stream data that exceed a dialog decibel threshold, identifying a first key event comprising a dialog in the phone call audio data; in response to measuring decibel levels that exceed the dialog decibel threshold in corresponding frames in both the caller stream data and agent stream data, identifying a second key event comprising talkover in the phone call audio data; in response to identifying the dialog and if a level of talkover in the phone call audio data does not exceed a talkover threshold, identifying a third key event specifying that the call was answered by the agent; digitally storing, in a set of predicted phone call service data, a record that represents results of one or more of the first key event, second key event, and/or third key event, the record comprising a start value and an end value that delineate the one or more of the first key event, second key event, and/or third key event.",
+  "patent_id": "US12381973-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04M 3/2218",
+      "H04M 3/42221"
+    ],
+    "all": [
+      "H04M 3/2218",
+      "H04M 3/42221"
+    ],
+    "source": "converted"
+  }
+}

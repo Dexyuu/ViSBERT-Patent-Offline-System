@@ -1,0 +1,36 @@
+{
+  "application_id": "WO2018017669",
+  "application_id_fs": "WO2018017669",
+  "title": "Occupant detection and classification system",
+  "abstract": "A system for detecting an occupant in a vehicle seat that includes a sensing electrode located in a seat bottom of a vehicle seat. The system also includes a shield electrode located in the vehicle seat below the sensing electrode. A sensing circuit is operatively coupled to the sensing electrode and the shield electrode. A controller is operatively coupled to the sensing circuit, wherein the controller operates to configure the sensing circuit to apply current to the shield and sensing electrodes. The controller is configured to detect the presence of an object in the seat by comparing a measure of the quadrature component of the sensing current to a threshold wherein the measure is adjusted by an offset value that varies based on a value of a non-volatile counter.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1. A system for classifying an occupant of a vehicle seat comprising: a sensing electrode located in in the seat; a sensing circuit configured to provide a current to the sensing electrode; wherein the sensing circuit is configured to measure a quadrature component of the current provided to the sensing electrode; a controller that is configured to detect and classify the occupant by comparing a measure of the quadrature component of the current provided to the sensing electrode to a threshold; and wherein the measure is adjusted by an offset value that varies based on a value of a non-volatile counter. 2. The system of claim 1, wherein the value of the counter is based on the number of times that an occupant is detected to be sitting in the vehicle seat. 3. The system of claim 2, wherein the value of the counter is incremented upward if the controller determines that the seat is occupied and the vehicle key is tumed to the ON position. 4. The system of claim 2, wherein the counter is incremented upward if the controller determines that a belted child seat is located in the seat and the vehicle key is tumed to the ON position. 5. The system of claim 2, wherein the counter is incremented upward if the controller determines that seat classification changes from unoccupied to occupied while the vehicle key is in the ON position. 6. The system of claim 2, wherein the counter is incremented upward if the controller determines that the seat classification changes from unoccupied to a belted child seat while the vehicle key is in the ON position. 7. A system for detecting an occupant in a vehicle seat, comprising: a sensing electrode located in a seat bottom of a vehicle seat; a shield electrode located in the vehicle seat below the sensing electrode; a sensing circuit operatively coupled to the sensing electrode and the shield electrode; a controller operatively coupled to the sensing circuit, wherein the controller operates to configure the sensing circuit to apply a shield current to the shield electrode and a sensing current to the sensing electrode; and wherein the controller is configured to detect the presence of an object in the seat by detecting a measure of the force applied to the seat by the object based on the impedance between the sensing electrode and the shield electrode; wherein the controller is configured to detect the presence of an object in the seat by comparing a measure of the quadrature component of the sensing current to a threshold wherein the measure is adjusted by an offset value that varies based on a value of a nonvolatile counter. 8. The system of claim 7, wherein the offset value has a maximum value that is based on an expected operating life of the system. 9. The system of claim 8, wherein the offset value is the product of the maximum value and a ratio of the counter to value representing the proj ected operating life of the system. 10. The system of claim 9, wherein the value of the counter increases in increments and is based on the number of times that an occupant is detected to be sitting in the vehicle seat. 11. The system of claim 10, wherein the value of the counter increments upward if the seat is occupied and the vehicle key is turned to the ON position. 12. The system of claim 10, wherein the value of the counter increments upward if the controller determines that a belted child seat is located in the vehicle seat and the vehicle key is turned to the ON position. 13. The system of claim 10, wherein the value of the counter increments upward if the controller determines that seat classification changes from unoccupied to occupied while the vehicle key in in the ON position. 14. The system of claim 10, wherein the value of the counter increments upward if the controller determines that the seat classification changes from unoccupied to a belted child seat while the vehicle key is in the ON position. 15. A method of detecting an occupant in a vehicle seat comprising the steps of: providing a sensing electrode located in in the seat; providing a current to the sensing electrode; measuring a quadrature components of the current provided to the sensing electrode; detecting and classifying the occupant in the seat by comparing a measure of the quadrature component of the current provided to the sensing electrode to a threshold; and wherein the measure is adjusted by an offset value that varies based on a value of a non-volatile counter. 16. The method of claim 15, further comprising the step of increasing the value of the counter based on the number of times that an occupant is detected to be sitting in the vehicle seat. 17. The method of claim 15, further comprising the step of increasing the value of the counter when the controller determines that the seat is occupied and the vehicle key is turned to the ON position. 18. The method of claim 15, further comprising the step of increasing the value of the counter when the controller determines that a belted child seat is located in the vehicle seat and the vehicle key is turned to the ON position. 19. The method of claim 15, further comprising the step of increasing the value of the counter when the controller determines that seat classification changes from unoccupied to occupied while the vehicle key in in the ON position. 20. The method of claim 15, further comprising the step of increasing the value of the counter when the controller determines that the seat classification changes from unoccupied to a belted child seat while the vehicle key is in the ON position.",
+  "classifications": {
+    "ipc": [
+      "B60N 2/00",
+      "B60N 2/002",
+      "B60N 2/0021",
+      "B60N 2/0024",
+      "B60N 2/0025",
+      "B60N 2210/00",
+      "B60N 2210/10",
+      "B60N 2210/12",
+      "G01V 3/00",
+      "G01V 3/08"
+    ],
+    "cpc": [],
+    "all": [
+      "B60N 2/00",
+      "B60N 2/002",
+      "B60N 2/0021",
+      "B60N 2/0024",
+      "B60N 2/0025",
+      "B60N 2210/00",
+      "B60N 2210/10",
+      "B60N 2210/12",
+      "G01V 3/00",
+      "G01V 3/08"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018017669"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Techniques for reporting correlation metrics for machine learning reproducibility",
+  "abstract": "Methods, systems, and devices for wireless communication are described. A machine learning server may generate a low-dimensional parameter set representing training data for the machine learning server, the training data being associated with one or more communication environments or one or more channel environments, or a combination thereof. The machine learning server may receive, from one or more devices within a communication environment or within a channel environment, or both, a low-dimensional parameter set representing testing data associated with the communication environment or the channel environment, or both. The machine learning server may generate a reproducibility metric according to a correlation between the parameter set representing the training data and the parameter set representing the testing data. The machine learning server may transmit a message indicating the reproducibility metric to the one or more devices, and the one or more devices may perform communication procedures based on the reproducibility metric.",
+  "claims": "1. An apparatus for wireless communications at a machine learning server, comprising: a processor; memory coupled with the processor; and instructions stored in the memory and executable by the processor to cause the apparatus to: generate a first set of parameters representing training data, the training data corresponding to one or more communication environments or one or more channel environments, or a combination thereof, wherein the first set of parameters has a reduced dimensionality with respect to a dimensionality of the training data; receive, from one or more devices, one or more messages indicating a second set of parameters representing testing data, the testing data corresponding to a communication environment or a channel environment, or both, wherein the second set of parameters has a reduced dimensionality with respect to a dimensionality of the testing data; and transmit, to the one or more devices, a message indicating a reproducibility metric for the communication environment or the channel environment, or both, the reproducibility metric being based at least in part on a correlation between the first set of parameters and the second set of parameters.",
+  "patent_id": "US12381789-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 41/16",
+      "H04W 24/10"
+    ],
+    "all": [
+      "H04L 41/16",
+      "H04W 24/10"
+    ],
+    "source": "converted"
+  }
+}

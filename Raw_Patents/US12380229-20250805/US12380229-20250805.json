@@ -1,0 +1,16 @@
+{
+  "title": "Resource access security for multiple software contexts",
+  "abstract": "In described examples, a processor system includes a mailbox, a hardware security functional block (HSFB, also called a trusted agent herein), a processor, and a processor firewall. The HSFB includes a database configured to store at least one software context access rule. The processor executes multiple software contexts. The HSFB approves or denies an access request received from a debugging tool, via the mailbox, in response to the database and a software context identification (ID) included in the access request. The HSFB sends a message to the processor firewall indicating whether the access request is approved. The processor firewall determines whether to pass instructions to the processor for execution with respect to the identified software context in response to the message.",
+  "claims": "1. A system, comprising: a processor configured to execute in one software context, of multiple available software contexts, at a time, each of the multiple available software contexts having a respective software context identification (ID) among multiple software context IDs, each of which is different; a hardware security functional block (HSFB) including a memory configured to store multiple software context authorization rulesets for the multiple available software contexts, respectively, each of the software context authorization rulesets including a corresponding one of the multiple software context IDs, wherein the HSFB is configured to indicate a current software context ID and associated current software context in which the processor is currently executing; a processor firewall coupled to the HSFB; and a bus firewall coupled to the processor and the HSFB; wherein the HSFB is configured to receive, from a debugging tool, a resource access request including a specified software context identification (ID) identifying a specified software context, among the multiple available software contexts, and to determine whether to approve the resource access request based on the current software context ID and the specified software context ID, the HSFB configured to send a message to the processor firewall indicating whether the resource access request is approved; wherein the processor firewall is configured to receive, from the debugging tool, an instruction for execution by the processor with respect to the specified software context, and to determine, in response to the message, whether to pass the instruction to the processor for execution; and wherein the processor is configured to switch from the current software context to a switched-to software context, among the multiple available software contexts, and in response to initiation of the context switch, the bus firewall is configured to block communication from the processor to a bus during the context switch.",
+  "patent_id": "US12380229-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/604"
+    ],
+    "all": [
+      "G06F 21/604"
+    ],
+    "source": "converted"
+  }
+}

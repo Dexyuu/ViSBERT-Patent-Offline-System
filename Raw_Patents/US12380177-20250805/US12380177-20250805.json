@@ -1,0 +1,28 @@
+{
+  "title": "Root cause analysis using granger causality",
+  "abstract": "Techniques regarding root cause analyses based on time series data are provided. For example, one or more embodiments described herein can comprise a system, which can comprise a memory that can store computer executable components. The system can also comprise a processor, operably coupled to the memory, and that can execute the computer executable components stored in the memory. The computer executable components can comprise maintenance component that can detect a cause of failure for a mechanical system by employing a greedy hill climbing process to perform a polynomial number of conditional independence tests to determine a Granger causality between variables from time series data of the mechanical system given a conditioning set.",
+  "claims": "1. A system, comprising: a memory that stores computer executable components; and a processor that executes at least one the computer executable components that: monitors, by the processor, via one or more sensors, execution of a process by a mechanical system, wherein the monitoring comprises collecting process data of the process measured by the one or more sensors; during the execution of the process by the mechanical system: detects, by the processor, based on the process data, a failure in the process, and determine, by the processor, a root cause of the failure based on application of a conditional independence test to the process data, wherein the determination is based on similarity between a first variable in a first time series data extracted from the process data and a second variable in second time series data extracted from the process data, wherein the similarity between the first variable and the second variable is a function of similarity conditioning between the second variable and a third variable in a third time series data, and wherein the root cause initiated onset of a degradation of the mechanical system's operations that led to the failure; and presents, by the processor, via a display device, information comprising the root cause of the failure to facilitate repair of the mechanical system.",
+  "patent_id": "US12380177-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 17/16",
+      "G01M 99/005",
+      "G05B 23/0281",
+      "G06F 11/079",
+      "G06F 17/18",
+      "G06N 20/00",
+      "H04L 41/0631"
+    ],
+    "all": [
+      "G06F 17/16",
+      "G01M 99/005",
+      "G05B 23/0281",
+      "G06F 11/079",
+      "G06F 17/18",
+      "G06N 20/00",
+      "H04L 41/0631"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Priority based arbitration",
+  "abstract": "Methods of arbitrating between requestors and a shared resource wherein for each processing cycle a plurality of select signals are generated and then used by decision nodes in a binary decision tree to select a requestor. The select signals are generated using valid bits and priority bits. Each valid bit corresponds to one of the requestors and indicates whether, in the processing cycle, the requestor is requesting access to the shared resource. Each priority bit corresponds one of the requestors and indicates whether, in the processing cycle, the requestor has priority. Corresponding valid bit and priority bits are combined in an AND logic element to generate a valid_and_priority bit for each requestor. Pair-wise OR-reduction is then performed on both the valid bits and the valid_and_priority bits to generate additional valid bits and valid_and_priority bits for sets of requestors and these are then used to generate the select signal.",
+  "claims": "1. A method of selecting, in an arbiter, a payload to forward to a shared resource, the arbiter configured to arbitrate between a plurality of ordered requestors and the shared resource in a computing system and the method comprising: receiving payload data from one or more of the plurality of ordered requestors; and selecting payload data, from the received payload data, to output to the shared resource using a plurality of select signals, wherein selecting payload data, from the received payload data, to output to the shared resource using the plurality of select signals comprises: receiving select signals corresponding to decision nodes in a first layer of a binary decision tree; using the select signals corresponding to decision nodes in the first layer of the binary decision tree, setting bits in the payload data corresponding to non-selected requestors to zero; for each subsequent layer in the binary decision tree receiving select signals corresponding to decision nodes in a subsequent layer in the binary decision tree and based on the select signals corresponding to the decision nodes in the subsequent layer of the binary decision tree, setting bits in the payload data corresponding to non-selected requestors to zero; and reducing the payload data in an OR-reduction logic element.",
+  "patent_id": "US12380040-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 13/1605",
+      "G06F 9/5005",
+      "G06F 13/18"
+    ],
+    "all": [
+      "G06F 13/1605",
+      "G06F 9/5005",
+      "G06F 13/18"
+    ],
+    "source": "converted"
+  }
+}

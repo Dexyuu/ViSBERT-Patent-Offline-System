@@ -1,0 +1,24 @@
+{
+  "title": "Method for assisting the landing of an aircraft on a landing runway",
+  "abstract": "The present invention relates to a method for assisting the landing of an aircraft on a landing runway, the method comprising:",
+  "claims": "1. A method for assisting a landing of an aircraft on a landing runway, the landing runway having a longitudinal axis equidistant from a longitudinal edges of the landing runway, called a runway axis, the landing runway comprising a set of characteristic elements, the characteristic elements being distributed over the landing runway in at least two longitudinal rows and at least one transverse row, the longitudinal rows being substantially parallel to the runway axis, with two of the longitudinal rows each being arranged along a distinct longitudinal edge of the landing runway, with the or each transverse row being substantially perpendicular to the runway axis, a last transverse row in a direction of landing the aircraft on the landing runway being called a runway threshold, the method being implemented by a landing assistance device comprising a radar and a calculator, the radar having a longitudinal detection axis, called the radar axis, the method comprising: detecting, by the radar characteristic elements of the landing runway, each detection being associated to coordinates, determining an angular offset between the radar axis and the runway axis as a function of the coordinates of the characteristic elements detected, and determining, as a function of the angular offset determined and the coordinates of the characteristic elements detected: a distance of an orthogonal projection onto the runway axis of a horizontal projection of the radar, called an axial offset, the horizontal projection of the radar being the orthogonal projection of a position of the radar in a horizontal plane of the landing runway, and the distance of the orthogonal projection onto a line passing through the runway threshold of the horizontal projection of the radar, called the distance to the runway threshold, wherein the method further comprises a step of determining a horizontal velocity of the aircraft in relation to the runway axis expressed in two components as a function of values over time of the determined angular offset and a Cartesian coordinates of the detections corrected for said angular offset, wherein the step of determining the horizontal velocity of the aircraft comprises: determining a first point cloud representing an actual positions of the detections at a first instant, corrected by the value of the angular offset determined, determining a second point cloud representing the actual positions of the detections at a second instant, corrected by the value of the angular offset determined, with the second instant being later than the first instant for test values of the components of a horizontal speed of the aircraft, determining third point clouds representing theoretical positions of the detections at the second instant as a function of the first point cloud, and calculating the distance between the first point cloud and each third point cloud, with the components of the horizontal velocity being obtained as a function of a minimum distance calculated and a time difference between the first instant and the second instant.",
+  "patent_id": "US12380807-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G08G 5/54",
+      "B64D 45/08",
+      "G01S 13/89",
+      "G01S 13/933",
+      "G08G 5/21"
+    ],
+    "all": [
+      "G08G 5/54",
+      "B64D 45/08",
+      "G01S 13/89",
+      "G01S 13/933",
+      "G08G 5/21"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "System and method for digital payments using blockchain with merchant keys",
+  "abstract": "Systems and methods for fault tolerant digital payments are disclosed. The system comprises a computing system that can automatically determine if payments should be processed using a digital payment processing system, or using a blockchain. When the system detects that communication with the digital payment processing system has been interrupted, the system may facilitate transactions through the blockchain. In particular, the system can retrieve private keys for addresses on the blockchain and facilitate customer payments through the blockchain.",
+  "claims": "1. A computer implemented method for enabling digital transactions when communication between a point-of-sale system and a digital payment processing system is unavailable, the method comprising the steps of: retrieving, at a computing system in communication with the point-of-sale system, a copy of a blockchain by downloading the copy of the blockchain from a communications network and storing the copy of the blockchain in memory of the computing system; receiving, at the computing system, downloaded data including a set of digital account identifiers, a set of blockchain addresses residing on the blockchain, and a set of private keys, and storing the set of digital account identifiers, the set of blockchain addresses residing on the blockchain, and the set of private keys in a database of the computing system; receiving transaction data from the point-of-sale system, the transaction data including a digital account identifier; sending a message to the digital payment processing system using the computing system, and determining, upon failing to receive a response from the digital payment processing system, that communication between the point-of-sale system and the digital payment processing system is unavailable; retrieving from the database of the computing system, in response to detecting that communication between the point-of-sale system and the digital payment processing system is unavailable, a blockchain address associated with the digital account identifier and a private key corresponding to the blockchain address; and using the private key to perform a transaction between the retrieved blockchain address and another blockchain address on the copy of the blockchain stored in memory on the computing system.",
+  "patent_id": "US12380445-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/389",
+      "G06Q 20/202",
+      "G06Q 20/3829",
+      "G06Q 20/4015"
+    ],
+    "all": [
+      "G06Q 20/389",
+      "G06Q 20/202",
+      "G06Q 20/3829",
+      "G06Q 20/4015"
+    ],
+    "source": "converted"
+  }
+}

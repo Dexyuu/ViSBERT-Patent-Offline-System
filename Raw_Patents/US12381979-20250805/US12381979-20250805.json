@@ -1,0 +1,20 @@
+{
+  "title": "Method and apparatus for processing requests from voice bots",
+  "abstract": "Methods and systems are described for handling calls involving digital agents. Digital agents or assistants (e.g., bots) may initiate service calls on behalf of their user or handle full conversations with a service agent on behalf of their user. As described herein, if the system determines that the call is being handled by a digital agent, the call may transition to a non-voice service that can communicate with the digital agent. Communicating via a data channel such as a web service may save bandwidth and other resources. If the reason for the call cannot be resolved based on digital agent communication, the call may transition back to a voice call with human participants. Information collected from the digital agent may be provided to a human service representative if and when the session transitions back to a voice channel.",
+  "claims": "1. A method comprising: receiving, from a computing device and via a voice channel, a first message indicative of a call; sending, to the computing device and via the voice channel, a second message configured to be processed by a digital agent; receiving, from the computing device and via the voice channel, a response to the second message indicating that the digital agent is communicating in the call; and establishing, based on the response, communication of the call via a data channel.",
+  "patent_id": "US12381979-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04M 3/51",
+      "H04M 3/2218",
+      "H04M 3/42059"
+    ],
+    "all": [
+      "H04M 3/51",
+      "H04M 3/2218",
+      "H04M 3/42059"
+    ],
+    "source": "converted"
+  }
+}

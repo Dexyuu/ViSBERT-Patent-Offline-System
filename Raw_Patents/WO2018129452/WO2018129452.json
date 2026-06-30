@@ -1,0 +1,19 @@
+{
+  "application_id": "WO2018129452",
+  "application_id_fs": null,
+  "title": "Verification, validation, and applications support for analog-to-digital converter systems",
+  "abstract": "A microcontroller includes an analog-to-digital (ADC) controller circuit, an ADC converter circuit, and a multiplexer configured to multiplex output of the ADC converter circuit and a data source to the ADC controller circuit.",
+  "claims": "Claims 1. An analog-to-digital (ADC) converter, comprising: an ADC controller circuit; an ADC converter circuit; and a multiplexer configured to multiplex output of the ADC converter circuit and a first data source to the ADC controller circuit. 2. The ADC of Claim 1, wherein the multiplexer is further configured to further multiplex output of a second data source with the output of the ADC converter circuit and the first data source. 3. The ADC of any of Claims 1-2, wherein the first data source includes emulated data. 4. The ADC of any of Claims 1-3, wherein the multiplexer is configured to select output of the first data source to the ADC controller circuit when the ADC converter is in a debug mode. 5. The ADC of Claim 4, wherein in the debug mode the multiplexer may be configured to output data emulating response of the ADC converter circuit. 6. The ADC of any of Claims 1-5, wherein the multiplexer is configured to select output of the ADC converter circuit to the ADC controller circuit when the ADC converter is in a conversion mode. 7. The ADC of Claim 6, wherein the multiplexer is configured to select output of the ADC converter circuit to the ADC controller circuit when the ADC converter is in a conversion mode. 8. The ADC of any of Claims 1-7, wherein the first data source is a memory including data emulating operation of the ADC converter. 9. The ADC of any of Claims 1-7, wherein the first data source is an input for receiving externally emulated data emulating operation of the ADC converter. 10. The ADC of any of Claim 1-9, further comprising an input to receive a determination of which of the ADC converter circuit and the first data source are to be routed to the ADC controller circuit. 11. A microcontroller, comprising any of the ADCs of Claims 1-10. 12. A method, comprising the operation of any of the ADCs of Claims 1-10.",
+  "classifications": {
+    "ipc": [
+      "H03M 1/10",
+      "H03M 1/12"
+    ],
+    "cpc": [],
+    "all": [
+      "H03M 1/10",
+      "H03M 1/12"
+    ],
+    "source": "csv"
+  }
+}

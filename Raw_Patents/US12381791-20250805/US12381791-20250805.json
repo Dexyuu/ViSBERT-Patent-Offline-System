@@ -1,0 +1,18 @@
+{
+  "title": "Separation of network function and its realization",
+  "abstract": "A network node modifies an association between the 3GPP defined Network Functions (NFs) and one or more cloud-native services thereby changing how those NFs are realized by the cloud-native services. To accomplish this, the node (200) âdecouplesâ the NFs from the cloud-native services such that the NFs are unaware of the underlying cloud-native services that realize them and orchestrates the cloud-native services executing in the cloud that will realize those NFs. Additionally, the node automatically deploys, upgrades, scales, and heals the cloud-native services, as well as exposes the NFs and their interfaces, thereby facilitating the management of fault, configuration, accounting, performance, and security (FCAPS).",
+  "claims": "1. A method, implemented by a Network Function (NF) manager node in a communications network, for managing cloud-native services associated with a Radio Access Network (RAN), the method comprising: receiving a service notification for a NF, implemented by one or more cloud-native services; modifying an association between the NF and the one or more cloud-native services based on the service notification, wherein modifying the association between the NF and the one or more cloud-native services comprises the NF manager node: determining a NF topology for the NF responsive to receiving the service notification; generating an NF topology change report based on the determined NF topology; and sending the NF topology change report to a cloud-native service manager to trigger updating the one or more cloud-native services based on the NF topology change report; and managing the one or more cloud-native services responsive to the modifying; and wherein when a new NF instance has been added to the NF topology, the method further comprises, for each of the one or more cloud-native services comprising the NF: analyzing a cloud-native services topology; analyzing runtime analytics data for the RAN; analyzing runtime analytics data for the communications network; and creating a new cloud-native service instance or re-using an existing cloud native service instance, based on the analyses of the cloud-native services topology, the runtime analytics data for the RAN, and the runtime analytics data for the communications network.",
+  "patent_id": "US12381791-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 41/5054",
+      "H04L 41/122"
+    ],
+    "all": [
+      "H04L 41/5054",
+      "H04L 41/122"
+    ],
+    "source": "converted"
+  }
+}

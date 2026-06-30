@@ -1,0 +1,30 @@
+{
+  "application_id": "WO2017054986",
+  "application_id_fs": "WO2017054986",
+  "title": "Cellular telecommunications network",
+  "abstract": "The invention relates to a method in a cellular communications network, and apparatus for performing said method, the method comprising the steps of: analysing block error rate data to determine a number of block error rate events, the block error rate data relating to a connection between a User Equipment, UE, and a first base station in a cellular communications network and the block error rate event being an instance of the block error rate exceeding a first threshold value; determining whether the number of block error rate events in a predetermined time period exceeds a second threshold value; and, if so, performing a physical cell identifier conflict resolution operation",
+  "claims": "Claims 1 . A method in a cellular communications network, the method comprising the steps of: analysing block error rate data to determine a number of block error rate events, the block error rate data relating to a connection between a User Equipment, UE, and a first base station in a cellular communications network and the block error rate event being an instance of the block error rate exceeding a first threshold value; determining whether the number of block error rate events in a predetermined time period exceeds a second threshold value; and, if so, performing a physical cell identifier conflict resolution operation. 2. A method as claimed in Claim 1 , further comprising the step of: receiving signal quality data relating to a quality of signals received at the UE, wherein the block error rate event is an instance of the block error rate exceeding the first threshold value when the quality of signals received at the UE is above a third threshold value. 3. A method as claimed in either Claim 1 or Claim 2, further comprising the step of: analysing the block error rate data to determine a periodicity of block error rate events. 4. A method as claimed in Claim 3, further comprising the step of: monitoring the data rate between the UE and the first base station; and analysing the block error rate data and the data rate data to determine the periodicity of block error rate events. 5. A method as claimed in any one of the preceding claims, wherein the block error rate data relates to a plurality of connections between a plurality of UEs and the first base station; the signal quality data relates to the quality of signals received by a plurality of UEs; and/or the data rate data relates to the data rate between a plurality of UEs and the first base station. 6. A method as claimed in any one of the preceding claims, wherein the cellular communications network includes a second base station, and the first and second base station are periodically synchronised. 7. A non-transitory computer-readable storage medium storing a computer program or suite of computer programs which upon execution by a computer system performs the method of any one of the preceding claims. 8. Apparatus in a cellular communications network comprising a processor adapted to analyse block error rate data to determine a number of block error rate events, the block error rate data relating to the block error rate between a User Equipment, UE, and a first base station in the cellular communications network and the block error rate event being an instance of the block error rate exceeding a first threshold value; determine whether the number of block error rate events in a predetermined time period exceeds a second threshold value; and, if so, initiate a physical cell identifier conflict resolution operation. 9. Apparatus as claimed in Claim 8, further comprising a receiver, wherein the receiver is adapted to receive signal quality data relating to a quality of signals between the UE and the first base station, wherein the block error rate event is an instance of the block error rate exceeding the first threshold value when the quality of signals received at the UE is above a third threshold value. 10. Apparatus as claimed in either Claim 8 or Claim 9, wherein the processor is further adapted to analyse the block error rate data to determine a periodicity of block error rate events. 1 1 . Apparatus as claimed in Claim 10, wherein the processor is further adapted to monitor the data rate between the first base station and the UE, and is further adapted to analyse the block error rate data and the data rate data to determine the periodicity of block error rate events. 12. Apparatus as claimed in any one of Claims 8 to 1 1 , wherein the block error rate data relates to a plurality of connections between a plurality of UEs and the first base station; the signal quality data relates to the quality of signals received by a plurality of UEs; and/or the data rate data relates to the data rate between a plurality of UEs and the first base station. 13. Apparatus as claimed in any one of Claims 8 to 12, being one of the first base station, another base station in the cellular communications network, the UE, or a remote node. 14. A cellular communications network including the apparatus of any one of Claims 8 to 13.",
+  "classifications": {
+    "ipc": [
+      "H04W 24/00",
+      "H04W 24/02",
+      "H04L 43/00",
+      "H04L 43/08",
+      "H04L 43/0823",
+      "H04L 43/16",
+      "H04W 24/04"
+    ],
+    "cpc": [],
+    "all": [
+      "H04W 24/00",
+      "H04W 24/02",
+      "H04L 43/00",
+      "H04L 43/08",
+      "H04L 43/0823",
+      "H04L 43/16",
+      "H04W 24/04"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017054986"
+}

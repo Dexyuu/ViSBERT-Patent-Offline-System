@@ -1,0 +1,30 @@
+{
+  "title": "Signaling presence of chroma component in video bitstream",
+  "abstract": "Aspects of the disclosure provide a method and an apparatus including processing circuitry for video decoding. The processing circuitry decodes, from a coded video bitstream, a first syntax element indicating whether a first component in the coded video bitstream is coded based on a second component in the coded video bitstream. The processing circuitry determines whether to decode one or more second syntax elements for a chroma related coding tool based on the first syntax element. The chroma related coding tool is a luma mapping with chroma scaling coding tool or a cross-component adaptive loop filter. The one or more second syntax elements are decoded when the first syntax element indicates that the first component is coded based on the second component. The one or more second syntax elements are not decoded when the first syntax element indicates that the first component is not coded based on the second component.",
+  "claims": "1. A method for video encoding, the method comprising: generating a first syntax element indicating whether a chroma component is present in a coded video bitstream or a monochrome sampling is used in the coded video bitstream; determining whether to encode a second syntax element for a cross-component adaptive loop filter (CC-ALF) when the chroma component is present in the coded video bitstream; and encoding the second syntax element for the CC-ALF based on the chroma component being present, wherein the second syntax element for the CC-ALF is not encoded based on the monochrome sampling being used in the coded video bitstream.",
+  "patent_id": "US12382074-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/44",
+      "H04N 19/117",
+      "H04N 19/186",
+      "H04N 19/189",
+      "H04N 19/30",
+      "H04N 19/46",
+      "H04N 19/70",
+      "H04N 19/82"
+    ],
+    "all": [
+      "H04N 19/44",
+      "H04N 19/117",
+      "H04N 19/186",
+      "H04N 19/189",
+      "H04N 19/30",
+      "H04N 19/46",
+      "H04N 19/70",
+      "H04N 19/82"
+    ],
+    "source": "converted"
+  }
+}

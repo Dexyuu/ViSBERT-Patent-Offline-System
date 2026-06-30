@@ -1,0 +1,16 @@
+{
+  "title": "Apparatus and method for managing in-memory container storage",
+  "abstract": "Disclosed herein are an apparatus and method for managing in-memory container storage. The apparatus includes one or more processors, executable memory for storing at least one program executed by the one or more processors, and a container file system for storing a container, which provides application virtualization. Here, the container file system includes a merged access layer, a container layer, and an image layer, and the at least one program provides an application with link information of files in the container layer and the image layer, thereby allowing the application to access the files.",
+  "claims": "1. An apparatus for managing in-memory container storage, comprising: one or more processors operating at least one operating system (OS); executable memory for storing at least one program executed by the one or more processors; and a container file system for storing a container, which provides application virtualization, wherein the container is operated on a kernel of the at least one operating system (OS); wherein the container file system includes a merged access layer, a container layer, and an image layer the container file system provides an integrated storage where a block storage device, non-volatile memory express (NVMe) and Solid-State Drive (SSD) using a network interface are combined in a unifying file-system, wherein the merged access layer, the container layer, and the image layer are composed of a single directory, wherein container images from the merged access layer are mounted into the single directory from the container layer and the image layer, wherein the container layer provides the container images thereby allowing an application to access the container images with read and write access rights, wherein the image layer provides the container images being shared with either the merged access layer or the container layer, thereby allowing the application to access the container images in the image layer with read-only access rights, and wherein the merged access layer provides link information of all the container images in container layer and the image layer.",
+  "patent_id": "US12380063-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/122"
+    ],
+    "all": [
+      "G06F 16/122"
+    ],
+    "source": "converted"
+  }
+}

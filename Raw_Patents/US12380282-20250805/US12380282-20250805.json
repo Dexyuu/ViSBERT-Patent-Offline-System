@@ -1,0 +1,18 @@
+{
+  "title": "Natural language processing applications using large language models",
+  "abstract": "Approaches presented herein can provide for the performance of specific types of tasks using a large model, without a need to retrain the model. Custom endpoints can be trained for specific types of tasks, as may be indicated by the specification of one or more guidance mechanisms. A guidance mechanism can be added to or used along with a request to guide the model in performing a type of task with respect to a string of text. An endpoint receiving such a request can perform any marshalling needed to get the request in a format required by the model, and can add the guidance mechanisms to the request by, for example, prepending one or more text strings (or text prefixes) to a text-formatted request. A model receiving this string can process the text according to the guidance mechanisms. Such an approach can allow for a variety of tasks to be performed by a single model.",
+  "claims": "1. A method, comprising: determining, based at least on a request received at an endpoint of a plurality of endpoints of a system of two or more communicatively coupled computing devices, a natural language text string associated with the request; determining, based at least on the natural language text string and a task associated with the endpoint, one or more guidance mechanisms associated with the request; processing, using a large language model and based at least on the one or more guidance mechanisms, the natural language text string to generate a text result corresponding to the request, wherein the large language model was not trained to perform at least a subset of one or more tasks associated with at least one endpoint of the plurality of endpoints; and generating, using the endpoint, a response to the request, the response including at least the text result.",
+  "patent_id": "US12380282-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 40/40",
+      "G06F 40/284"
+    ],
+    "all": [
+      "G06F 40/40",
+      "G06F 40/284"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Floor plan generation for device visualization and use",
+  "abstract": "Systems and methods for floor plan generation for device visualization and use are disclosed. For example, image data may be utilized to segment a building from non-building elements in an image, and the outline of the building may be utilized to generate a floor plan of the building. A user interface may be generated to present the floor plan and allow for placement of representations of walls, doors, windows, and electronic devices within the floor plan. Placement of these elements may be performed in response to input from a user and/or may be performed automatically utilizing naming indicators, device-affinity data, historical usage data, signal-strength data, etc. Once placed, the device representations may be utilized to operate the devices and display related information, such as alerts.",
+  "claims": "1. A system comprising: one or more processors; and non-transitory computer-readable media storing instructions that, when executed by the one or more processors, cause the one or more processors to perform operations comprising: generating first data representing a floor plan of a building, the floor plan including exterior wall representations and interior wall representations that demarcate rooms of the building; causing display of the floor plan on a user device along with functionality for receiving user input in association with the rooms of the building; receiving user input data representing a naming indicator of a room of the rooms; generating second data indicating prior user commands to operate devices associated with account data; parsing, based at least in part on the second data, the account data such that a subset of the devices associated with the account data are identified as being associated with the naming indicator; and causing display of device representations of the subset of the devices within a portion of the floor plan corresponding to the room, a positioning of the device representations displayed in the floor plan corresponding to a physical positioning of the subset of the devices in a physical room.",
+  "patent_id": "US12380257-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 30/13",
+      "G06F 3/04817",
+      "G06F 30/18",
+      "G06T 15/205",
+      "G06T 17/10",
+      "H04W 16/20",
+      "G10L 15/18",
+      "G10L 15/22",
+      "G10L 2015/223"
+    ],
+    "all": [
+      "G06F 30/13",
+      "G06F 3/04817",
+      "G06F 30/18",
+      "G06T 15/205",
+      "G06T 17/10",
+      "H04W 16/20",
+      "G10L 15/18",
+      "G10L 15/22",
+      "G10L 2015/223"
+    ],
+    "source": "converted"
+  }
+}

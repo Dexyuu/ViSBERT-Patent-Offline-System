@@ -1,0 +1,40 @@
+{
+  "application_id": "WO2017066011",
+  "application_id_fs": "WO2017066011",
+  "title": "Self biasing driver circuit for voltage boosting",
+  "abstract": "A driver circuit for voltage boosting comprises a plurality of circuit cells, each configured to amplify voltage applied thereto; and a plurality of inter-cell switching circuits, arranged to controllably concatenate the cells in series such that, for any pair of adjacent cells, voltage amplified by one cell of the pair is applied, via a respective inter-cell switching circuit, to another cell of the pair. At least one of the inter-cell switching circuits comprises a transistor and a capacitor connected in parallel to each other such that a source-gate voltage of the transistor equals a voltage drop on the capacitor at all times.",
+  "claims": "Claims 1. A driver circuit for voltage boosting, the driver circuit comprising: a plurality of circuit cells, each configured to amplify voltage applied thereto; and a plurality of inter-cell switching circuits, arranged to controllably concatenate the cells in series such that, for any pair of adjacent cells, voltage amplified by one cell of the pair is applied, via a respective inter-cell switching circuit, to another cell of the pair; wherein at least one of said inter-cell switching circuits comprises a transistor and a capacitor connected in parallel to each other such that a source-gate voltage of the transistor equals a voltage drop on the capacitor at all times. 2. The driver circuit according to claim 1, wherein each circuit cell comprises an intra-cell switch for controllably charging the circuit cell by electrical charge prior to the application of the voltage. 3. The driver circuit according to any of claims 1 and 2, wherein voltage across capacitors of the inter-cell switching circuits increases along the series. 4. The driver circuit according to any of claims 1-3, wherein the at least one inter-cell switching circuit comprises a first switch configured to controllably discharge the capacitor and a second switch configured to controllably charge the capacitor. 5. The driver circuit according to claim 4, wherein a first terminal of the capacitor is connected to a voltage supply terminal of the one cell of the pair via the first switch and to a reference point via the second switch, and wherein an input voltage terminal of the one cell of the pair is connected to a second terminal of the capacitor. 6. The driver circuit according to any of claims 1-5, wherein at least one of the circuit cells comprises an intra-cell capacitor, and wherein at least one of the capacitor of the at least one inter-cell switching circuit and the intra-cell capacitor of the at least one circuit cell is in a well selected from the group consisting of an n-well and a p-well. 7. A switching circuit for a voltage boost driver, comprising: a transistor; a capacitor connected between a gate terminal and a source terminal of the transistor; and an arrangement of switches for connecting the source terminal to a reference line at a reference potential and the gate terminal to a supply line at supplying a voltage relative to the reference potential. 8. A method of boosting voltage supplied by a voltage source via a voltage supply terminal, the method comprising: \n\n transmitting synchronized control signals to: (i) a plurality of circuit cells, for connecting and disconnecting the cells to the voltage supply terminal, and (ii) a plurality of inter-cell switching circuits, for connecting and disconnecting the cells from each other; wherein each circuit cell is configured to amplify voltage applied thereto; wherein for any pair of adjacent cells, voltage amplified by one cell of the pair is applied, via at least one of the inter-cell switching circuits, to another cell of the pair; and wherein at least one of the inter-cell switching circuits comprises a transistor and a capacitor connected in parallel to each other such that a source-gate voltage of the transistor equals a voltage drop on the capacitor at all times. 9. The method according to claim 8, wherein each circuit cell comprises an intra-cell switch for controllably charging the circuit cell by electrical charge prior to the application of the voltage. 10. The method according to any of claims 8 and 9, wherein the at least one inter-cell switching circuit comprises a first switch configured to controllably discharge the capacitor and a second switch configured to controllably charge the capacitor. 11. The method according to claim 10, wherein a first terminal of the capacitor is connected to a voltage supply terminal of the one cell of the pair via the first switch and to a reference point via the second switch, and wherein an input voltage terminal of the one cell of the pair is connected to a second terminal of the capacitor. 12. The method according to any of claims 8-11, wherein voltage across capacitors of the inter-cell switching circuits increases along the series. 13. The method according to any of claims 8-12, wherein the method is used to boost a supply voltage to a voltage which is at least a minimum voltage required for operating an appliance system. 14. The driver circuit according to any of claims 1-6, wherein the driver circuit is part of a voltage boosting system, and wherein the driver circuit further comprises a controller for transmitting synchronized control signals to the cells for connecting and disconnecting the cells to a voltage supply terminal, and to the inter-cell switching circuits for connecting and disconnecting the cells from each other. 15. The driver circuit according to claim 14, wherein the voltage boosting system is part of a system selected from the group consisting of an electrostatic pen system for a touch screen, a memory system, a laser pointer system, and a flash lamp in a camera.",
+  "classifications": {
+    "ipc": [
+      "G05F 3/00",
+      "G05F 3/02",
+      "G11C 5/00",
+      "G11C 11/00",
+      "G11C 5/14",
+      "G11C 5/145",
+      "G11C 5/146",
+      "H02M 3/00",
+      "H02M 3/02",
+      "H02M 3/04",
+      "H02M 3/06",
+      "H02M 3/07"
+    ],
+    "cpc": [],
+    "all": [
+      "G05F 3/00",
+      "G05F 3/02",
+      "G11C 5/00",
+      "G11C 11/00",
+      "G11C 5/14",
+      "G11C 5/145",
+      "G11C 5/146",
+      "H02M 3/00",
+      "H02M 3/02",
+      "H02M 3/04",
+      "H02M 3/06",
+      "H02M 3/07"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017066011"
+}

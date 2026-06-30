@@ -1,0 +1,20 @@
+{
+  "title": "Storage device and memory system",
+  "abstract": "A storage device includes: a non-volatile memory; a parameter storage unit that stores a plurality of parameters for setting different operating conditions in the non-volatile memory; an access pattern analysis unit that analyzes an access pattern indicating a tendency to access the non-volatile memory by a command from a host device; a parameter selection unit that selects an optimal parameter from among the plurality of parameters based on the access pattern analyzed by the access pattern analysis unit; and an access control unit that accesses the non-volatile memory in a state where the optimal parameter is set in the non-volatile memory.",
+  "claims": "1. A storage device comprising: a non-volatile memory; and a memory controller configured to: store a plurality of parameters for setting different operating conditions in the non-volatile memory; analyze an access pattern indicating a tendency to access the non-volatile memory by a command from a host device; select an optimal parameter from among the plurality of parameters based on the access pattern analyzed; access the non-volatile memory in a state where the optimal parameter is set in the non-volatile memory; and present the optimal parameter to the host device, wherein when the host device instructs a change to the optimal parameter in response to a presentation by the memory controller, the memory controller accesses the non-volatile memory in a state where the optimal parameter is set in the non-volatile memory, and wherein the memory controller transmits information to the host device, the information including the optimal parameter in a response to a read command, a write command, a synchronized cache command, or an UNMAP command conforming to a universal flash storage (UFS) standard.",
+  "patent_id": "US12379847-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0611",
+      "G06F 3/0659",
+      "G06F 3/0679"
+    ],
+    "all": [
+      "G06F 3/0611",
+      "G06F 3/0659",
+      "G06F 3/0679"
+    ],
+    "source": "converted"
+  }
+}

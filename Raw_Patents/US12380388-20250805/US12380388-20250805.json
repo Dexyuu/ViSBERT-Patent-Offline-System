@@ -1,0 +1,30 @@
+{
+  "title": "System and method for risk based control of a process performed by production equipment",
+  "abstract": "A control system and control method for controlling a process performed by production equipment. The control system has a first interface configured to obtain, from a data provisioning module, production control data for operating the production equipment wherein the production control data relates to operating instructions configured to control the production equipment to automatically process a plurality of physical items and their respective components. It further includes a risk evaluator module configured to determine for each item a total risk value based on partial risk values associated with the respective components, and further configured to detect a change in the determined total risk values. It further includes a control unit configured to: initiate, via a second interface, execution of the operating instructions for manufacturing a particular item having the lowest total risk value during a first operating time interval; initiate termination of the execution of the operating instructions for processing the particular item if the change in the determined total risk values results in an alternative item having the lowest total risk value; and initiate, via the second interface, execution of the operating instructions for processing the alternative item during a second operating time interval.",
+  "claims": "1. A computer-implemented process control method performed by a control system to control production equipment, the method comprising: receiving process control data from a data provisioning module; automatically controlling the production equipment to process a plurality of physical items and their respective components based on operating instructions represented in the process control data; processing a set of physical items, during a first operating time interval, based on the process control data; determining a total risk value for each physical item of the set of physical items based on partial risk values associated with respective components; initiating execution of the operating instructions for processing the particular item having the lowest total risk value of the determined total risk values during a first operating time interval defined based on the particular item; detecting a change in the determined total risk values in response to a particular change of at least one risk value of the determined total risk values; detecting that the change in the determined total risk values results in an alternative item having the lowest total risk value; in response to the detection that the change in the determined total risk values results in the alternative item having the lowest total risk value, initiating termination of the execution of the operating instructions for processing the particular item; and further in response to the detection that the change in the determined total risk values results in the alternative item having the lowest total risk value, initiating execution of the operating instructions for processing the alternative item during a second operating time interval.",
+  "patent_id": "US12380388-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/0635",
+      "G05B 19/4183",
+      "G05B 19/41875",
+      "G05B 2219/31461",
+      "G06Q 50/04",
+      "G06Q 50/184",
+      "Y02P 90/02",
+      "Y02P 90/30"
+    ],
+    "all": [
+      "G06Q 10/0635",
+      "G05B 19/4183",
+      "G05B 19/41875",
+      "G05B 2219/31461",
+      "G06Q 50/04",
+      "G06Q 50/184",
+      "Y02P 90/02",
+      "Y02P 90/30"
+    ],
+    "source": "converted"
+  }
+}

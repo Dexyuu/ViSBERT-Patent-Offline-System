@@ -1,0 +1,28 @@
+{
+  "title": "Video generation method, apparatus, device, and storage medium",
+  "abstract": "Disclosed in the embodiments of the present disclosure are a video generation method, an apparatus, a device, and a storage medium. Grayscale processing is performed on a to-be-processed video, to obtain a grayscale video; region segmentation is performed on video frames in the grayscale video, to obtain a plurality of image regions; a coloring order is determined for the plurality of image regions; and coloring is performed sequentially on the plurality of image regions according to the coloring order, to obtain a target video.",
+  "claims": "1. A video generation method, comprising: performing grayscale processing on a to-be-processed video, to obtain a grayscale video; performing region segmentation on video frames in the grayscale video, to obtain a plurality of image regions; determining a coloring order for the plurality of image regions; and performing coloring sequentially on the plurality of image regions according to the coloring order, to obtain a target video, wherein the performing coloring sequentially on the plurality of image regions according to the coloring order comprises: coloring, for each image region, according to a set manner, wherein the set manner comprises a coloring direction and a coloring speed.",
+  "patent_id": "US12380926-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G11B 27/031",
+      "G06V 10/26",
+      "G06V 20/41",
+      "G06V 20/46",
+      "G06V 20/49",
+      "G06V 40/20",
+      "H04N 9/64"
+    ],
+    "all": [
+      "G11B 27/031",
+      "G06V 10/26",
+      "G06V 20/41",
+      "G06V 20/46",
+      "G06V 20/49",
+      "G06V 40/20",
+      "H04N 9/64"
+    ],
+    "source": "converted"
+  }
+}

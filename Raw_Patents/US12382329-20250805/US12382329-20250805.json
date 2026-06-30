@@ -1,0 +1,20 @@
+{
+  "title": "Measurement processing method and terminal",
+  "abstract": "Embodiments of this disclosure provide a measurement processing method and a terminal. The method includes: adjusting a measurement state of a measurement, and processing at least one of a counter or a timer that are related to the measurement, where the measurement includes a measurement of at least one of RLM or BFD, and the processing includes: resetting, continuing to run, or stopping.",
+  "claims": "1. A measurement processing method performed by a terminal, comprising: adjusting a measurement state of a measurement, wherein the measurement comprises a measurement of radio link monitoring (RLM), and during the measurement of the RLM, a counter that is related to the measurement runs; and after adjusting the measurement state of the measurement, then processing the counter, wherein the processing comprises: resetting, continuing to run, or stopping, wherein the adjusting a measurement state of the measurement comprises making an adjustment between any two of the following measurement states: a first measurement state, a second measurement state, and a third measurement state, wherein the first measurement state is measurement relaxation, the second measurement state is normal measurement, and the third measurement state is measurement enhancement, wherein the counter that is related to the measurement comprise: a counter that is used for determining the RLF.",
+  "patent_id": "US12382329-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 24/10",
+      "H04B 7/0695",
+      "H04W 24/08"
+    ],
+    "all": [
+      "H04W 24/10",
+      "H04B 7/0695",
+      "H04W 24/08"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Reflexive response-based video authentication method and system",
+  "abstract": "A remote signal-based method and system of performing an authentication of video of a person in order to authorize access to a secured resource. The system and method are configured to cause a visual and/or audio pattern to be displayed in a remote computing device while collecting image data from the same device. The image data is evaluated to determine whether the appropriate response from the person is present. If the response is present, the system determines the image is authentic and can verify an identity of the person, and can further be configured to automatically grant the person access to one or more services, features, or information for which he or she is authorized.",
+  "claims": "1. A computer-implemented method of verifying an authenticity of video in order to protect user resources, the method comprising: receiving, at a cloud-based authentication system and from a first computing device, a request to access a secured resource of a first user; accessing, in response to the request, a first visual pattern from a pattern repository of the authentication system, the first visual pattern being associated with a first reflexive response pattern that should be elicited on a person's face when the person views a rendering of the first visual pattern on a display; transmitting, from the authentication system and in response to the request, a first control signal and a second control signal to the first computing device, the first control signal including the first visual pattern and the second control signal including an audio pattern; obtaining, at the authentication system: first image data captured by a camera of the first computing device while presentation of the first visual pattern via the first computing device was to have occurred, the first image data including a video recording of a face of a person, and a first response from the first user after playback of the audio pattern via the first computing device was to have occurred, the first response including a description of the directionality of the audio pattern; determining, at the authentication system, that: the first image data includes a second reflexive response pattern that is sufficiently similar to the first reflexive response pattern so as to be classified as a match, and the first response is correct; verifying, in response to the patterns matching and the first response being correct, an authenticity of the video; and thereby granting the first user access to the secured resource for which the first user is authorized.",
+  "patent_id": "US12380190-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/32",
+      "G06V 40/197",
+      "G06V 40/40"
+    ],
+    "all": [
+      "G06F 21/32",
+      "G06V 40/197",
+      "G06V 40/40"
+    ],
+    "source": "converted"
+  }
+}

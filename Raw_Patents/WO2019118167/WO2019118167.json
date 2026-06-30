@@ -1,0 +1,38 @@
+{
+  "application_id": "WO2019118167",
+  "application_id_fs": "WO2019118167",
+  "title": "Methods and systems azimuthal locking for drilling operations",
+  "abstract": "Methods and systems for controlling drilling operations are provided. The methods and systems include conveying a drilling tool into a bore and operating the drilling tool to drill in a direction, creating, with an azimuthal sensing device, a first signal at a first time and a second signal at a second time, wherein each of the first signal and the second signal are indicative of the direction of the drilling tool, and each of the first signal and the second signal are affected by at least one of an unknown but substantially constant offset error or an unknown but substantially constant scale factor error, comparing the first signal with the second signal, and adjusting the drilling direction based on the comparison of the first signal with the second signal.",
+  "claims": "Claims CLAIMS  What is claimed is: 1. A method for controlling a drilling operation, the method comprising: conveying a drilling tool (50) into a bore and operating the drilling tool to drill in a direction; creating, with an azimuthal sensing device (212), a first signal at a first time and a second signal at a second time, wherein each of the first signal and the second signal are indicative of the direction of the drilling tool, and each of the first signal and the second signal are affected by at least one of an unknown but substantially constant offset error or an unknown but substantially constant scale factor error; comparing the first signal with the second signal; and adjusting the drilling direction based on the comparison of the first signal with the second signal. 2. The method of claim 1, further comprising holding an inclination of the drilling direction substantially constant. 3. The method of any preceding claim, further comprising preprocessing data obtained from the azimuthal sensing device prior to generating the first signal, preferably, wherein the preprocessing comprises applying at least one of a filter, a sliding average filter, an infinite impulse filter, a finite impulse response filter, and an observer. 4. The method of any preceding claim, further comprising continuously obtaining and storing information from the azimuthal sensing device. 5. The method of any preceding claim, wherein the adjustment to the drilling direction comprises at least one of applying a force using a drilling direction adjustment element (214) against a borehole wall and changing a direction a disintegrating device (204) is pointing. 6. The method of any preceding claim, wherein comparing the first signal with the second signal includes detecting a deviation based on at least one of (i) a difference between a peak-to-peak amplitude (404, 406) of the first signal and the second signal, (ii) when the second signal has at least one of a percent difference and an absolute difference from the first signal that exceeds a predetermined threshold percent difference or threshold absolute difference, and (iii) a difference between a mean value of the first signal and the second signal. 7. The method of any preceding claim, wherein the azimuthal sensing device comprises a magnetometer generating a magnetic field signal (500) and an accelerometer \n\n generating an acceleration signal (502), wherein the adjustment to the drilling direction is based on a delta time between the magnetic field signal and the acceleration signal. 8. The method of any preceding claim, further comprising determining the direction of drilling relative to a compass direction, wherein the adjustment of the drilling direction is based on the determined direction, preferably, wherein the direction of drilling relative to the compass direction is at least one of downlinked from the surface or transmitted from a survey-capable tool inside at least one of a downhole system and a bottomhole assembly (202). 9. The method of any preceding claim, wherein a direction of adjustment of the drilling direction is determined automatically by analyzing a response of the second signal to a steering input. 10. The method of any preceding claim, wherein the adjustment of the drilling direction comprises: steering in a first direction for a limited amount of time using a drilling direction adjustment element; monitoring a change of the second signal; and adjusting the first direction in relation to the observed change using the drilling direction adjustment element. 11. A system for controlling a drilling operation, the system comprising: a drilling tool (204) arranged to perform the drilling operation, the drilling operation having a direction; a controller (210) configured to receive an instruction to activate an azimuthal lock operation; an azimuthal sensing device (212) in communication with the controller, the azimuthal sensing device configured to create a first signal at a first time and a second signal at a second time, the first and second signals indicative of the direction of the drilling tool, the first and second signals affected by at least one of an unknown but substantially constant offset error and an unknown but substantially constant scale factor error; and a drilling direction adjustment element (214) operably connected to and controllable by the controller; wherein the controller is configured to compare the first signal with the second signal and control an adjustment to the drilling direction based on the comparison of the first signal with the second signal. 12. The system of claim 11, wherein the azimuthal sensing device comprises a magnetometer. 13. The system of any of claims 11-12, wherein the controller performs a preprocessing of the data obtained from the azimuthal sensing device prior to generating the first signal, preferably, wherein the preprocessing comprises applying at least one of a filter, a sliding average filter, an infinite impulse filter, a finite impulse response filter, and an observer. 14. The system of any of claims 11-13, wherein the adjustment of the drilling direction comprises at least one of applying a force using a drilling direction adjustment element against a borehole wall and changing a direction the drilling tool is pointing. 15. The system of any of claims 11-14, wherein the azimuthal sensing device comprises a magnetometer generating a magnetic field signal and an accelerometer generating an acceleration signal, wherein the drilling direction adjustment action is based on a delta time between the magnetic field signal and the acceleration signal.",
+  "classifications": {
+    "ipc": [
+      "E21B 47/00",
+      "E21B 47/09",
+      "E21B 44/00",
+      "E21B 47/02",
+      "E21B 47/024",
+      "E21B 47/26",
+      "E21B 7/00",
+      "E21B 7/04",
+      "E21B 7/06",
+      "E21B 7/068",
+      "E21B 7/10"
+    ],
+    "cpc": [],
+    "all": [
+      "E21B 47/00",
+      "E21B 47/09",
+      "E21B 44/00",
+      "E21B 47/02",
+      "E21B 47/024",
+      "E21B 47/26",
+      "E21B 7/00",
+      "E21B 7/04",
+      "E21B 7/06",
+      "E21B 7/068",
+      "E21B 7/10"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019118167"
+}

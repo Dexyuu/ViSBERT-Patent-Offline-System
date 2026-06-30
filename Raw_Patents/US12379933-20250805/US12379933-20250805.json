@@ -1,0 +1,22 @@
+{
+  "title": "Ultra pipelined accelerator for machine learning inference",
+  "abstract": "A method of pipelining inference of a neural network, which includes an i-th layer (i being an integer greater than zero), an (i+1)-th layer, and an (i+2)-th layer, includes processing a first set of i-th values of the i-th layer to generate (i+1)-th values for the (i+1)-th layer, determining a quantity of the (i+1)-th values as being sufficient for processing, and in response to the determining, processing the (i+1)-th values to generate an output value for the (i+2)-th layer while concurrently processing a second set of i-th values of the i-th layer.",
+  "claims": "1. A method of pipelining inference of a neural network comprising a plurality of layers comprising an i-th layer (i being an integer greater than zero), an (i+1)-th layer, and an (i+2)-th layer, the method comprising: processing, by a controller, a first set of i-th values of the i-th layer via an i-th composite filter to generate (i+1)-th values for the (i+1)-th layer; determining, by the controller, a quantity of the (i+1)-th values as being sufficient for processing by an (i+1)-th filter associated with the (i+1)-th layer, based on generating the (i+1)-th values to correspond to each unit being operated on by the (i+1)-th filter, the i-th composite filter comprising a first i-th filter and a second i-th filter, and generating more than one (i+1)-th value per clock cycle based on the second i-th filter being offset from the first i-th filter on the i-th layer; and in response to the determining, processing, by the controller, the (i+1)-th values via the (i+1)-th filter to generate an output value for the (i+2)-th layer while concurrently processing a second set of i-th values of the i-th layer via the i-th composite filter.",
+  "patent_id": "US12379933-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/3867",
+      "G06F 17/16",
+      "G06N 3/02",
+      "G06T 1/20"
+    ],
+    "all": [
+      "G06F 9/3867",
+      "G06F 17/16",
+      "G06N 3/02",
+      "G06T 1/20"
+    ],
+    "source": "converted"
+  }
+}

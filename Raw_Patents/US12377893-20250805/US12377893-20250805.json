@@ -1,0 +1,42 @@
+{
+  "title": "Train autonomous control system and method based on train-to-train communication",
+  "abstract": "The present invention relates to a train autonomous control system and method based on train-to-train communication. The control system includes an automatic train supervision system ATS, an object controller OC, a train-mounted subsystem CC, a tag reader subsystem, a query transponder, and a data communication system DCS, the automatic train supervision system ATS is connected to the train-mounted subsystem CC, and the train-mounted subsystems CC of adjacent trains are in communication connection with each other, and the control system further includes a railside resource manager WRC, and the railside resource manager WRC is respectively connected to the automatic train supervision system ATS, the train-mounted subsystem CC, the object controller OC, the tag reader subsystem, and the query transponder. Compared with the prior art, the present invention has the advantages of reducing a transmission link of data information over a network, improving operation efficiency of the system, and the like.",
+  "claims": "1. A train autonomous control system based on train-to-train communication, comprising an automatic train supervision system ATS, an object controller OC, a train-mounted subsystem CC, a tag reader subsystem, a query transponder, and a data communication system DCS, wherein the automatic train supervision system ATS is connected to the train-mounted subsystem CC, and the train-mounted subsystems CC of adjacent trains are in communication connection with each other, and the control system further comprises a railside resource manager WRC, and the railside resource manager WRC is respectively connected to the automatic train supervision system ATS, the train-mounted subsystem CC, the object controller OC, the tag reader subsystem, and the query transponder; and the train-mounted subsystem CC plans an operation path according to a received operation task plan, and applies to the railside resource manager WRC for required railside resources, after obtaining the resources allocated by the WRC, the train-mounted subsystem CC autonomously controls a train to operate, and after the train-mounted subsystem CC no longer needs the resources, the train-mounted subsystem CC actively initiates an application for releasing the resources; and the train obtains position and operation range information of an adjacent train by directly communicating with the adjacent train, and actively calculates a movement authorization required for the operation, wherein the train-mounted subsystem CC is connected to the railside resource manager WRC by a wireless network interface ITF 2 ; and the train-mounted subsystem CC sends position information of the train to the railside resource manager WRC, and sends railside resource application and releasing information to the railside resource manager WRC according to an operation plan, the railside resource manager WRC sends train sequence information, resource allocation and recovery information, and line device state information to the train-mounted subsystem CC, and the railside resource manager WRC can further send position information of a fault train to the adjacent train.",
+  "patent_id": "US12377893-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B61L 27/04",
+      "B61L 15/0027",
+      "B61L 15/0062",
+      "B61L 27/20",
+      "B61L 27/30",
+      "B61L 27/70",
+      "B61L 99/002",
+      "H04W 4/42",
+      "H04W 4/44",
+      "B61L 23/14",
+      "B61L 23/30",
+      "B61L 25/025",
+      "B61L 2027/204",
+      "B61L 2205/00"
+    ],
+    "all": [
+      "B61L 27/04",
+      "B61L 15/0027",
+      "B61L 15/0062",
+      "B61L 27/20",
+      "B61L 27/30",
+      "B61L 27/70",
+      "B61L 99/002",
+      "H04W 4/42",
+      "H04W 4/44",
+      "B61L 23/14",
+      "B61L 23/30",
+      "B61L 25/025",
+      "B61L 2027/204",
+      "B61L 2205/00"
+    ],
+    "source": "converted"
+  }
+}

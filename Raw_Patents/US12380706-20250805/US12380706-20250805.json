@@ -1,0 +1,30 @@
+{
+  "title": "System for detecting obstacle state and an operation method thereof",
+  "abstract": "The invention provides a system for detecting obstacle state and an operating method thereof, comprising an image capturing module, a semantic segmentation module, a feature extraction module, an object detection module, and a distance table calibration module. The invention is delivered a semantic segmentation information to a model for processing self-learning, and selected an output of an original image size, for a carrier of an attention mechanism.",
+  "claims": "1. A system for detecting obstacle state, comprising: an image capturing module, capturing an image at a fixed frequency, an image comprises a road information; a semantic segmentation module, calculating an image and outputting a probability classification map of the road information based on a feature data; a feature extraction module, extracting the feature data of the road information, and outputting an image information, and a probability distribution map; an object detection module, training the object detection module by using the image, the feature data, the image information, and the road information; and a distance table calibration module, using a distance measurement algorithm method to calculate and store a distance value for each pixel in the image, and directly querying a distance table for a distance value of each pixel in the image.",
+  "patent_id": "US12380706-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 20/58",
+      "G06T 7/50",
+      "G06V 10/26",
+      "G06V 10/40",
+      "G06V 10/764",
+      "G06V 10/7715",
+      "G06V 10/774",
+      "G06T 2207/30261"
+    ],
+    "all": [
+      "G06V 20/58",
+      "G06T 7/50",
+      "G06V 10/26",
+      "G06V 10/40",
+      "G06V 10/764",
+      "G06V 10/7715",
+      "G06V 10/774",
+      "G06T 2207/30261"
+    ],
+    "source": "converted"
+  }
+}

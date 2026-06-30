@@ -1,0 +1,40 @@
+{
+  "title": "Multi-item product recognition for checkouts",
+  "abstract": "Multiple images of a designated area are taken. The designated area comprises multiple items that are to be identified from the images. Depth information and Red, Green, Blue (RGB) data from each image is processed to create a point cloud for each image of the designated area. The point clouds are patched together or synchronized into a single point cloud for the designated area. Known background pixels associated with backgrounds for each image are removed from the single point cloud. The depth information and RGB data for the single point cloud is clustered together and bounding boxes are placed around each item in the single point cloud. At least the RGB data for each bounding box is provided to a machine-learning model (MLM) and the MLM returns an item code for the corresponding item. The item codes are fed to a transaction manager for a transaction associated with a customer.",
+  "claims": "1. A method, comprising: obtaining multiple different images of a scene for a designated area; extracting depth information and red, green, blue (RGB) data from each of the multiple different images; assembling a point cloud for each of the multiple different images using the depth information and the RGB data; synchronizing the point cloud for each of the multiple different images into a single point cloud; removing known background pixels from the single point cloud creating a modified single point cloud; clustering the depth information and the RGB data in the modified single point cloud into items present in the scene creating a clustered single point cloud, each cluster associated with a unique item present in the scene; identifying item codes for each item by processing at least the RGB data for a corresponding item from the clustered single point cloud by using each cluster from the clustered single point cloud and associating image patches from the multiple different images and identifying the item codes for each group of associated image patches from at least the RGB data when corresponding ones of the multiple different images had portions of a given item visible; wherein identifying further includes receiving a confidence value for each item code and requesting that a transaction manager flag a transaction for an audit when more than a predefined number of the item codes are associated with corresponding confidence values that fall below a threshold value; and providing the item codes for the transaction associated with a customer.",
+  "patent_id": "US12380478-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0623",
+      "G06K 7/1413",
+      "G06T 7/194",
+      "G06T 7/55",
+      "G06T 7/90",
+      "G06V 10/762",
+      "H04N 23/90",
+      "G06T 2207/10024",
+      "G06T 2207/10028",
+      "G06T 2207/20081",
+      "G06T 2207/20221",
+      "G06T 2207/30232",
+      "G06T 2207/30242"
+    ],
+    "all": [
+      "G06Q 30/0623",
+      "G06K 7/1413",
+      "G06T 7/194",
+      "G06T 7/55",
+      "G06T 7/90",
+      "G06V 10/762",
+      "H04N 23/90",
+      "G06T 2207/10024",
+      "G06T 2207/10028",
+      "G06T 2207/20081",
+      "G06T 2207/20221",
+      "G06T 2207/30232",
+      "G06T 2207/30242"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "User triggered virtual machine cloning for recovery/availability/scaling",
+  "abstract": "Generally disclosed herein is an approach for cloning virtual machines during live migration where one or more new copies of a virtual machine can be created while the original virtual machine continues to run. The new copies can preserve a processing state, memory state, and local storage state. The new copies can also be distinguished from each other and the original by including different attributes for each copy.",
+  "claims": "1. A method for creating one or more copies of a virtual machine during live migration, comprising: monitoring, with one or more processors, a data traffic usage, an amount of memory in a memory cache, and a rate of memory copy of the virtual machine; determining, with the one or more processors, based on the monitored data traffic usage, a time period when the data traffic usage is below one or more data traffic usage thresholds to enable copying of the virtual machine during live migration; determining, with the one or more processors, based on the monitored amount of memory in the memory cache and the monitored rate of memory copy, an impact of the live migration on the copying of the virtual machine, wherein determining the impact of the live migration comprises determining at least one of a length of brown out or black out time and determining the time period further comprises determining a time period when the length of the brown out or black out time is below an upper bound; determining, with the one or more processors, based on the monitored data traffic usage and the determined impact of the live migration, an amount of copies that can be created of the virtual machine; and initiating or scheduling, with the one or more processors, creation of the determined amount of copies of a running instance of the virtual machine at the determined time period.",
+  "patent_id": "US12380003-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/1484",
+      "G06F 9/45558",
+      "G06F 11/203",
+      "G06F 2009/4557",
+      "G06F 2009/45583",
+      "G06F 2009/45595"
+    ],
+    "all": [
+      "G06F 11/1484",
+      "G06F 9/45558",
+      "G06F 11/203",
+      "G06F 2009/4557",
+      "G06F 2009/45583",
+      "G06F 2009/45595"
+    ],
+    "source": "converted"
+  }
+}

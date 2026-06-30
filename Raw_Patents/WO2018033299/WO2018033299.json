@@ -1,0 +1,35 @@
+{
+  "application_id": "WO2018033299",
+  "application_id_fs": null,
+  "title": "Method, apparatus and system for estimating the mass of a stockpile",
+  "abstract": "The invention resides in a method or system configured to estimate the mass of material in a stockpile. The surface profile of the stockpile is obtained and a plurality of layers are defined in the stockpile. Each layer extends parallel to the surface profile. Density characteristics of the stockpile material are obtained, from database records or measurement tests. The volume of each layer is estimated. The density of each layer is estimated, according to the density characteristics of the stockpile material. Using the volume of each layer and the density of each layer the mass of the stockpile is calculated.",
+  "claims": "Claims 1. A method of estimating the mass of material in a stockpile, the method including: obtaining a surface profile of said stockpile; defining a plurality of layers in the stockpile, wherein each layer extends parallel to the surface profile, and estimating the volume of each layer; obtaining density characteristics of the stockpile material; estimating the density of each layer according to the density characteristics of the stockpile material; and calculating, using the estimated volume and estimated density of each layer, the mass of the stockpile. 2. The method of claim 1, wherein each layer extends parallel to the surface profile and has a boundary, configured equidistant, in a vertical direction, from the surface profile. 3. The method of claim 1 or 2, wherein each layer has a constant depth and/or applies an even pressure or force vertically downwards upon material below. 4. The method of any of claims 1 to 3, wherein the gradient of density change of a layer, in a vertical direction, is substantially linear. 5. The method of any of claims 1 to 3, wherein the gradient of density change of a layer, in a vertical direction, is non-linear. 6. The method of any preceding claim, wherein at least three layers are defined in the stockpile. 7. The method of any preceding claim, wherein the vertical depth of each layer is between 10mm and 2000mm. 8. The method of any preceding claim, wherein obtaining density characteristics of the stockpile material includes retrieving a representative sample from the stockpile and measuring the density of the representative sample under simulated loads. 9. The method of any of claims 1 to 8, wherein obtaining density characteristics of the stockpile material includes retrieving a sample from each load of material delivered to the stockpile, measuring the density of each representative sample under simulated loads and using statistical analysis of the characteristics of each representative sample to estimate the density characteristics of the stockpile. 10. The method of claim 8 or 9, wherein obtaining density characteristics includes using a compaction test and/or obtaining density characteristics from a database. 11. A system for estimating the mass of material in a stockpile, the system including: apparatus operable to obtaining a surface profile of said stockpile; and a controller, configured to define a plurality of layers in the stockpile, wherein each layer extends parallel to the surface profile, and estimate the volume of each layer; obtain density characteristics of the stockpile material; estimate the density of each layer, according to the density characteristics of the stockpile material; and calculate, using the estimated volume and density of each layer, the mass of the stockpile. 12. A computer readable storage medium storing one or more programs, said programs having instructions, which when executed by an electronic device or system, perform a method according to any of claims 1 to 10.",
+  "classifications": {
+    "ipc": [
+      "G06Q 10/08",
+      "G06Q 50/02",
+      "G01B 11/24",
+      "G06T 7/60",
+      "G06T 7/62",
+      "G01G 9/00",
+      "G01N 9/00",
+      "G01F 22/00",
+      "G06Q 50/28",
+      "G06Q 99/00"
+    ],
+    "cpc": [],
+    "all": [
+      "G06Q 10/08",
+      "G06Q 50/02",
+      "G01B 11/24",
+      "G06T 7/60",
+      "G06T 7/62",
+      "G01G 9/00",
+      "G01N 9/00",
+      "G01F 22/00",
+      "G06Q 50/28",
+      "G06Q 99/00"
+    ],
+    "source": "csv"
+  }
+}

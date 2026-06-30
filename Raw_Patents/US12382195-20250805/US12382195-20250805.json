@@ -1,0 +1,18 @@
+{
+  "title": "Image pickup apparatus and image processing method",
+  "abstract": "A pixel region includes: pixels each including a plurality of photoelectric conversion devices; a light-shielding region; and an effective region. A reading circuit reads, from a first row of the pixel region, a pixel signal obtained by adding signals of the plurality of photoelectric conversion devices, and reads, from a second row of the pixel region, a plurality of signals including phase difference information. A horizontal streak correction circuit performs one of a first offset correction based on a signal read from the light-shielding region and a second offset correction based on a predetermined value on a pixel signal obtained from a second row of the effective region. An image processing circuit processes image data according to a parameter. The horizontal streak correction circuit selects the first offset correction or the second offset correction according to the parameter.",
+  "claims": "1. An image pickup apparatus comprising: a pixel region in which a plurality of pixels each including one microlens and a plurality of photoelectric conversion devices are two-dimensionally arranged in a unit of row, the pixel region comprising a light-shielding region having a plurality of light-shielded rows, and an effective region having a plurality of rows to which light reaches; a reading circuit configured to read, from each pixel in a first row of each of the light-shielding region and the effective region, a pixel signal obtained by adding all signals of the plurality of photoelectric conversion devices, and to read, from each pixel in a second row of each of the light-shielding region and the effective region, a plurality of signals including phase difference information; a horizontal streak correction circuit configured to perform one of a first offset correction and a second offset correction on a pixel signal obtained from the plurality of signals read from the second row of the effective region, the first offset correction being based on the pixel signal read from the first row of the light-shielding region and the plurality of signals read from the second row of the light-shielding region, the second offset correction being based on a value determined in advance; and an image processing circuit configured to perform image processing on image data according to a parameter, the image data being configured based on the pixel signal subjected to the first offset correction or the second offset correction and the pixel signal read from the first row of the effective region, wherein the horizontal streak correction circuit selects which of the first offset correction and the second offset correction to perform, according to the parameter.",
+  "patent_id": "US12382195-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 25/628",
+      "H04N 17/002"
+    ],
+    "all": [
+      "H04N 25/628",
+      "H04N 17/002"
+    ],
+    "source": "converted"
+  }
+}

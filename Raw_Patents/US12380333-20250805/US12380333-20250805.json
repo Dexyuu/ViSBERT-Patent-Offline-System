@@ -1,0 +1,18 @@
+{
+  "title": "Method of constructing network model for deep learning, device, and storage medium",
+  "abstract": "A method and apparatus of constructing a network model for deep learning, a device, and a storage medium, which relate to artificial intelligence, and in particular to a field of deep learning. The method of constructing the network model for deep learning includes: determining an execution mode for executing codes, based on a mode parameter; executing the codes by using a first component, which is executable in a first execution mode, through a syntax element in the codes, in response to determining that the execution mode is the first execution mode; and executing the codes by using a second component, which is executable in a second execution mode, through the syntax element, in response to determining that the execution mode is the second execution mode; wherein the first component and the second component have the same component interface, and the syntax element corresponds to the component interface.",
+  "claims": "1. A method of constructing a network model for deep learning, comprising: determining an execution mode for executing codes used in constructing the network model, based on a mode parameter; executing a first syntax element in the codes by using a first component, which is available in a first execution mode, in response to determining that the execution mode is the first execution mode; and executing the first syntax element in the codes by using a second component, which is available in a second execution mode, in response to determining that the execution mode is the second execution mode, without converting the codes; wherein when the codes include a second syntax element for enabling the second execution mode, the mode parameter is updated to enable the second execution mode in response to executing the second syntax element, and when the codes include a third syntax element for disabling the second execution mode, the mode parameter is updated to enable the first execution mode in response to executing the third syntax element, wherein the first component and the second component have the same component interface, and the first syntax element corresponds to the component interface, and wherein the first execution mode comprises a dynamic graph mode, and the second execution mode comprises a static graph mode.",
+  "patent_id": "US12380333-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 3/084",
+      "G06N 3/045"
+    ],
+    "all": [
+      "G06N 3/084",
+      "G06N 3/045"
+    ],
+    "source": "converted"
+  }
+}

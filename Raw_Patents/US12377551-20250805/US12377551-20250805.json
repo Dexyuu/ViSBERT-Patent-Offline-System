@@ -1,0 +1,32 @@
+{
+  "title": "Method and system for veneer sheet portion stacking and unstacking",
+  "abstract": "A method and system for stacking and unstacking of veneer includes using one or more veneer analysis systems to collect dimensions and quality data associated with the veneer being used to create a stack of veneer. In addition, location data for the veneer in the stack of veneer is recorded. The dimensions data, the quality data, and the location data for all the veneer in a stack of veneer is then combined into a stack of veneer profile data. The stack of veneer profile data is then correlated to the stack of veneer and stored in a database. Consequently, the location, quality, and dimensions data of the veneer making up the stack of veneer is known so that an accurate determination can be made of the volume, surface area and quality of veneer in the stack. In another example, 3D laser profiling is used to identify a veneer sheet portion that is at the top of a stack of veneer sheet portions so that the veneer sheet portion at the top of the stack can be identified and removed from the stack during unstacking.",
+  "claims": "1. A veneer stacking system comprising: one or more imaging systems, the one or more imaging systems capturing one or more images of individual veneer portions and generating dimensions data for each individual veneer portion; a veneer data collection and storage system, the veneer data collection and storage system receiving the dimensions data for each individual veneer portion, the veneer data collection and storage system correlating the dimensions data for each individual veneer portion with that individual veneer portion and storing the dimensions data for each individual veneer portion; a robot control system, the robot control system receiving the dimensions data for each individual veneer portion, the robot control system generating robot control signal data representing robot control signals based, at least in part, on the dimensions data for each individual veneer portion; at least one veneer stacking robot, the at least one veneer stacking robot receiving the robot control signals and, in response to the robot control signals, placing each individual veneer portion onto a stack of individual veneer portions, wherein, as each individual veneer portion is moved onto the stack of individual veneer portions, location data indicating the location and orientation of each individual veneer portion is collected by the veneer data collection and storage system, the veneer data collection and storage system then correlating and storing the dimensions data and the location data for each individual veneer portion moved onto the stack of individual veneer portions, further wherein, when the stack of individual veneer portions is completed, the veneer data collection and storage system collecting the dimensions data and the location data for each individual veneer portion moved onto the stack of individual veneer portions to generate stack profile data for the stack of individual veneer portions, the stack profile data including data indicating the dimensions data and the location data for each individual veneer portion included in the stack of individual veneer portions; and a stack identifier mechanism, the stack identifier mechanism being assigned to the stack of individual veneer portions associating the stack profile data for the stack of individual veneer portions with the stack of individual veneer portions.",
+  "patent_id": "US12377551-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B25J 9/1697",
+      "B07C 5/10",
+      "B65G 60/00",
+      "G06T 1/0014",
+      "G06T 7/62",
+      "G06T 7/66",
+      "B07C 2501/0063",
+      "B65G 2201/0217",
+      "B65G 2201/022"
+    ],
+    "all": [
+      "B25J 9/1697",
+      "B07C 5/10",
+      "B65G 60/00",
+      "G06T 1/0014",
+      "G06T 7/62",
+      "G06T 7/66",
+      "B07C 2501/0063",
+      "B65G 2201/0217",
+      "B65G 2201/022"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Method for reducing computational loading while generating content and host",
+  "abstract": "The embodiments of the disclosure provide a method for reducing computational loading while generating a content and a host. The method includes: obtaining a texture map and a plurality of object texture coordinates, wherein the object texture coordinates correspond to at least one virtual object in the texture map; obtaining a first mesh map corresponding to the texture map; determining a first mesh segment and a second mesh segment within the first mesh map based on the object texture coordinates, wherein the first mesh segment does not correspond to the object texture coordinates, and the second mesh segment corresponds to the object texture coordinates; modifying the first mesh map into a second mesh map via reducing a first segment area of the first mesh segment; and generating a visual content via performing an asynchronous time warp operation on the texture map based on the second mesh map.",
+  "claims": "1. A method for reducing computational loading while generating a content, applied to a host, the method comprising: obtaining, by the host, a texture map and a plurality of object texture coordinates, wherein the plurality of object texture coordinates correspond to at least one virtual object in the texture map; obtaining, by the host, a first mesh map corresponding to the texture map; determining, by the host, a first mesh segment and a second mesh segment within the first mesh map based on the plurality of object texture coordinates, wherein the first mesh segment does not correspond to the plurality of object texture coordinates, and the second mesh segment corresponds to the plurality of object texture coordinates; modifying, by the host, the first mesh map into a second mesh map via reducing a first segment area of the first mesh segment; and generating, by the host, a visual content via performing an asynchronous time warp operation on the texture map based on the second mesh map.",
+  "patent_id": "US12380650-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 17/205",
+      "G06T 15/04",
+      "G06T 19/00",
+      "G06T 2219/2021"
+    ],
+    "all": [
+      "G06T 17/205",
+      "G06T 15/04",
+      "G06T 19/00",
+      "G06T 2219/2021"
+    ],
+    "source": "converted"
+  }
+}

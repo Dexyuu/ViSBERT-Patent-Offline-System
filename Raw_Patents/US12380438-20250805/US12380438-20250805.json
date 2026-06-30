@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for verifying cryptographically secured communications between users using non-transferable tokens",
+  "abstract": "Systems and methods for verifying digitally secured communications between users are disclosed herein. A first user identifier for a first user may be received. A first blockchain address for the first user based on the first user identifier may be determined. A first non-transferable token corresponding to the first user may be generated. A request for a communication may be received. A target address and a target user identifier may be extracted. Whether the communication metadata matches the token metadata may be determined. A validation status for the communication may be determined.",
+  "claims": "1. A system for verifying digitally secured communications between users using information stored within non-transferable non-fungible tokens, the system comprising: one or more processors; and one or more non-transitory, computer-readable media comprising instructions that, when executed by the one or more processors, cause operations comprising: receiving a first user identifier for a first user; determining, based on the first user identifier, a first blockchain address for the first user comprising an address for a cryptography-based storage application controlled by the first user; generating a non-transferable token corresponding to the cryptography-based storage application to validate the address and the first user, wherein generating the non-transferable token comprises: generating a non-fungible token comprising token metadata comprising the first user identifier and the first blockchain address; based on the first blockchain address, assigning the first user as an owner of the non-fungible token; generating a transfer function for transferring the non-fungible token from an origin address and to a destination address; modifying the transfer function to include a condition that causes an error code to be generated responsive to determining that the origin address differs from a predefined invalid address to prevent the non-fungible token from being transferred out of the address for the cryptography-based storage application; receiving, from a second user, a request for a communication comprising communication metadata; extracting, from the communication metadata, a target address and a target user identifier for the communication; responsive to determining that the target address and the target user identifier match the first blockchain address and the first user identifier corresponding to the non-transferable token: determining a validation status for the communication indicating the target address controls the non-transferable token and is verified to receive the communication; authorize, based on the validation status, the communication; and based on the communication being authorized, transmit the communication to the first blockchain address.",
+  "patent_id": "US12380438-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/38215",
+      "G06Q 20/401",
+      "G06Q 2220/00"
+    ],
+    "all": [
+      "G06Q 20/38215",
+      "G06Q 20/401",
+      "G06Q 2220/00"
+    ],
+    "source": "converted"
+  }
+}

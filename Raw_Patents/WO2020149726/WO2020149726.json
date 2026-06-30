@@ -1,0 +1,23 @@
+{
+  "application_id": "WO2020149726",
+  "application_id_fs": null,
+  "title": "Intelligent volume control",
+  "abstract": "An electronic device includes: a memory storing instructions; and at least one processor configured to execute the instructions stored in the memory to control the at least one processor to: identify a location of the electronic device; obtain an image and a sound signal corresponding to the location; identify, using a trained neural network, a scene where the electronic device is present, based on the image, the sound signal, and the location; and provide settings of the electronic device based on the identified scene.",
+  "claims": "Claims ( 15 ) An electronic device comprising: a memory storing instructions; and at least one processor configured to execute the instructions stored in the memory to: identify a location of the electronic device; obtain an image and a sound signal corresponding to the location; identify, using a trained neural network, a scene where the electronic device is present, based on the image, the sound signal, and the location; and provide settings of the electronic device based on the identified scene. The electronic device of claim 1, wherein the neural network is trained using images and sound signals collected by the electronic device. The electronic device of claim 1, wherein the identified scene corresponds to a probability that the electronic device is present in the scene. The electronic device of claim 3, wherein the probability of the identified scene exceeds a threshold. The electronic device of claim 3, wherein the probability of the identified scene is highest among other probabilities of scenes. The electronic device of claim 1, wherein the at least one processor is further configured to execute the instructions to identify at least one scene type corresponding to the image, and wherein the scene is identified from the at least one scene type based on the sound signal. The electronic device of claim 6, wherein the at least one processor is further configured to execute the instructions to calculate a probability that the electronic device is present in the at least one scene type based on a distance between the location of the electronic device and a location of the at least one scene type. The electronic device of claim 1, wherein the scene is identified based on noise level of the sound signal. The electronic device of claim 1, wherein the scene is identified based on speech recognition on the sound signal. The electronic device of claim 1, wherein the provided settings of the electronic device are settings which were applied to the electronic device at the same scene. The electronic device of claim 1, wherein the settings comprise muting the electronic device and unmuting the electronic device. The electronic device of claim 1, wherein the image is recognized using a first neural network, the sound signal is recognized using a second neural network, and the scene is identified using a third neural network. The electronic device of claim 1, wherein the image is captured around the location, and the sound signal is recorded by the electronic device around the location. A method comprising: identifying a location of an electronic device; obtaining an image and a sound signal corresponding to the location; identifying, using a trained neural network, a scene where the electronic device is present, based on the image, the sound signal, and the location; and providing settings of the electronic device based on the identified scene. A computer program product comprising a computer-readable recording medium having recorded thereon a program executable by a computer for performing the method of claim 14.",
+  "classifications": {
+    "ipc": [
+      "G06F 3/16",
+      "G06K 9/20",
+      "G06N 3/08",
+      "H04R 1/20"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 3/16",
+      "G06K 9/20",
+      "G06N 3/08",
+      "H04R 1/20"
+    ],
+    "source": "csv"
+  }
+}

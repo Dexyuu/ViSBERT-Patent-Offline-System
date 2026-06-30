@@ -1,0 +1,18 @@
+{
+  "title": "Ground reference generator for power converter",
+  "abstract": "A ground reference circuit to generate a ground reference for a voltage reference circuit includes a resistor coupled in series with a transistor via a current mirror. The resistor is coupled between a ground reference terminal of the voltage reference circuit and a ground terminal of a power converter. The transistor control terminal is configured to receive a pulse width modulation (PWM) control signal having a duty cycle similar to a switching element duty cycle of the power converter. The current mirror circuit is coupled between a current terminal of the transistor and the ground reference terminal. A controller configured to control the switching element duty cycle may include the ground reference circuit, along with the voltage reference circuit, and a PWM circuit configured to determine the switching element duty cycle based on a comparison between a reference voltage provided by the voltage reference circuit and the converter output voltage.",
+  "claims": "1. A ground reference circuit, comprising: a resistor having first and second resistor terminals, the first resistor terminal coupled to a reference terminal, and the second resistor terminal coupled to a ground terminal; a first transistor having first and second terminals and a control terminal, the second terminal of the first transistor coupled to the ground terminal, and the control terminal of the first transistor coupled to a first control signal terminal; a second transistor having first and second terminals and a control terminal, the first terminal of the second transistor coupled to the first terminal of the first transistor, and the control terminal of the second transistor coupled to a second control signal terminal; a third transistor having first and second terminals and a control terminal, the first terminal of the third transistor coupled to both the control terminal of the third transistor and the second terminal of the second transistor, and the second terminal of the third transistor coupled to the reference terminal; and a fourth transistor having first and second terminals and a control terminal, the first terminal of the fourth transistor coupled to a power supply terminal, the second terminal of the fourth transistor coupled to the reference terminal, and the control terminal of the fourth transistor coupled to the control terminal of the third transistor.",
+  "patent_id": "US12381485-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02M 3/158",
+      "H02M 1/088"
+    ],
+    "all": [
+      "H02M 3/158",
+      "H02M 1/088"
+    ],
+    "source": "converted"
+  }
+}

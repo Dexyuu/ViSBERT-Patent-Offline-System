@@ -1,0 +1,30 @@
+{
+  "title": "Method for transmitting and receiving downlink signal between terminal and base station in wireless communication system supporting unlicensed band, and device supporting same",
+  "abstract": "The present invention provides a method for transmitting and receiving a downlink signal between a terminal and a base station in a wireless communication system supporting an unlicensed band, and a device supporting the method. As a specific example, the present invention includes a method for: transmitting and receiving a physical downlink control channel (PDCCH) signal in an unlicensed band so that a base station and a terminal transmit and receive system information associated with a particular synchronization signal/physical broadcast channel (SS/PBCH) block; and, based on the PDCCH signal, transmitting and receiving a PDSCH signal including the system information.",
+  "claims": "1. A method of receiving a downlink signal by a user equipment in a wireless communication system supporting an unlicensed band, the method comprising: receiving information related to a synchronization signal/physical broadcast channel (SS/PBCH) block index for which transmission of a SS/PBCH block is configured in the unlicensed band; configuring a plurality of candidate SS/PBCH block resource regions for receiving the SS/PBCH block in the unlicensed band, wherein the plurality of candidate SS/PBCH block resource regions are determined based on the SS/PBCH block index, wherein a first candidate SS/PBCH block resource region among the plurality of candidate SS/PBCH block resource regions has an initial symbol at symbol index n=2, and a duration of the first candidate SS/PBCH block resource region is 4 symbols, and wherein a second candidate SS/PBCH block resource region among the plurality of candidate SS/PBCH block resource regions has an initial symbol at symbol index n=9, and a duration of the second candidate SS/PBCH block resource region is 4 symbols; receiving information in a physical downlink control channel (PDCCH) for scheduling a physical downlink shared channel (PDSCH) based on at least one control resource set (CORESET) in the unlicensed band, wherein the information informs a resource allocation for the PDSCH; and receiving the PDSCH based on the information, wherein the PDSCH includes remaining minimum system information (RMSI), wherein the user equipment assumes that resource blocks and symbols of a candidate SS/PBCH block resource region are not available for the PDSCH based on the resource allocation for the PDSCH overlapping with the resource blocks and the symbols of the candidate SS/PBCH block resource region, wherein a first CORESET for the PDCCH among the at least one CORESET has an initial symbol at symbol index n=0, and a duration of the first CORESET is 2 symbols, and wherein a second CORESET for the PDCCH among the at least one CORESET has an initial symbol at symbol index n=7, and a duration of the second CORESET is 2 symbols.",
+  "patent_id": "US12382462-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/23",
+      "H04B 7/0408",
+      "H04B 7/0695",
+      "H04L 5/0094",
+      "H04W 16/28",
+      "H04W 56/001",
+      "H04W 72/0446",
+      "H04W 72/30"
+    ],
+    "all": [
+      "H04W 72/23",
+      "H04B 7/0408",
+      "H04B 7/0695",
+      "H04L 5/0094",
+      "H04W 16/28",
+      "H04W 56/001",
+      "H04W 72/0446",
+      "H04W 72/30"
+    ],
+    "source": "converted"
+  }
+}

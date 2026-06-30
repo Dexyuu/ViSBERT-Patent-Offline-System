@@ -1,0 +1,24 @@
+{
+  "title": "Model based dynamic positional correction for digital lithography tools",
+  "abstract": "The present disclosure generally relates to photolithography systems, and methods for correcting positional errors in photolithography systems. When a photolithography system is first started, the system enters a stabilization period. During the stabilization period, positional readings and data, such as temperature, pressure, and humidity data, are collected as the system prints or exposes a substrate. A model is created based on the collected data and the positional readings. The model is then used to estimate errors in subsequent stabilization periods, and the estimated errors are dynamically corrected during the subsequent stabilization periods.",
+  "claims": "1. A photolithography system, comprising: one or more stages configured to support one or more substrates or one or more calibration plates; a plurality of temperature sensors disposed near components of the one or more stages, the plurality of temperature sensors configured to collect temperature data corresponding to a thermal capacitance, a thermal mass, or a thermal transmission property; a plurality of pressure sensors disposed near the one or more stages, the plurality of pressure sensors configured to collect pressure data; a plurality of humidity sensors disposed near the one or more stages, the plurality of humidity sensors configured to collect humidity data; and a processing unit disposed over the one or more stages, the processing unit comprising a plurality of image projection apparatuses having a plurality of spatial light modulators configured to print the one or more substrates or the one or more calibration plates, wherein the photolithography system is configured to: enter a stabilization period; print one or more first substrates during the stabilization period; and dynamically correct estimated errors during the stabilization period while simultaneously printing the one or more first substrates using a model based on a position of the image projection apparatuses created during one or more previous stabilization periods, the model relates positional errors to multiple sensor readings by the temperature sensor to determine the transient response of each component by the thermal capacitance, the thermal mass, or the thermal transmission property.",
+  "patent_id": "US12379671-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G03F 7/7065",
+      "G03F 7/705",
+      "G03F 7/70516",
+      "G03F 7/70625",
+      "G03F 7/70633"
+    ],
+    "all": [
+      "G03F 7/7065",
+      "G03F 7/705",
+      "G03F 7/70516",
+      "G03F 7/70625",
+      "G03F 7/70633"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Dynamic approach procedure system",
+  "abstract": "A method and apparatus dynamically update customized integrated terminal approach procedure interfaces based on changing real-time events associated with aircraft and airports. A dynamic approach procedures application extracts and analyzes terminal approach data, aircraft data, airport data and real-time weather data to automatically generate an integrated terminal approach interface. The integrated terminal approach interface presents dynamic digital approach information, the interface including a map interface and a procedure side bar displaying route-related procedures data to assist pilots with selecting a route into the destination airport. As conditions change, displayed terminal approach data within the map and procedure side bar is updated and route recommendations are refined, to assist a user in selecting destination airports, routes, and relevant approach procedures.",
+  "claims": "1. A system for generating a terminal procedure interface, the system comprising: a plurality of data sources providing aircraft data associated with a selected aircraft, airport data associated with at least one airport, approach plate data associated with the at least one airport, and real-time weather data associated with a set of possible routes between a selected departure airport of the at least one airport and a selected destination airport of the at least one airport; a computing device comprising a processor and a computer-readable medium storing instructions that are operative upon execution by the processor to cause the processor to: provide, via a user interface device, terminal procedures data associated with a selected route to the destination airport within a terminal procedure bar, wherein the terminal procedures data comprises approach plate data associated with the selected destination airport that comprises landing procedures for the selected destination airport and is customized for the selected aircraft, the selected destination airport, and the real-time weather data associated with the selected destination airport; access weather thresholds for a pilot associated with the selected aircraft; based on a real-time evaluation, while the selected aircraft is in route along the selected route to the destination airport, of the approach plate data associated with the selected destination airport, the aircraft data, the real-time weather data, the airport data associated with the selected destination airport, and the weather thresholds for the pilot, automatically adjust one or more parameters of the landing procedures for the selected destination airport within the terminal procedures data; and automatically present the adjusted landing procedures within the terminal procedure bar.",
+  "patent_id": "US12380808-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G08G 5/54",
+      "G06F 3/0482",
+      "G06F 3/0484",
+      "G06T 11/00",
+      "G08G 5/32",
+      "G08G 5/50",
+      "G08G 5/55",
+      "G06T 2200/24"
+    ],
+    "all": [
+      "G08G 5/54",
+      "G06F 3/0482",
+      "G06F 3/0484",
+      "G06T 11/00",
+      "G08G 5/32",
+      "G08G 5/50",
+      "G08G 5/55",
+      "G06T 2200/24"
+    ],
+    "source": "converted"
+  }
+}

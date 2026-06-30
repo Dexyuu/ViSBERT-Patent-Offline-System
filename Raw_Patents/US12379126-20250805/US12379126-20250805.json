@@ -1,0 +1,20 @@
+{
+  "title": "Q-learning based model-free control method for indoor thermal environment of aged care building",
+  "abstract": "The present disclosure provides a Q-learning based model-free control method for an indoor thermal environment of an aged care building and belongs to the technical field of building environment control. According to the present disclosure, the monitored indoor temperatures of individual users and the heart rate and systolic pressure data of the aged are used as input data to a constructed Q-learning model, thus outputting a running control policy for a heating, ventilation and air conditioning system in the corresponding building. As a result, the control efficiency of the indoor temperature and the energy efficiency of the heating, ventilation and air conditioning system are improved. Compared with a traditional control model, the reinforced learning method based on the Q-learning theory can realize more accurate prediction on the cardiovascular health risk of the aged and can create a dynamic indoor thermal environment more suitable for the physical health of the aged.",
+  "claims": "1. A Q-learning based model-free control method for an indoor thermal environment of an aged care building, comprising the following steps: S1: determining related influencing factors for the indoor thermal environment and influencing factors for cardiovascular health of an aged, the related influencing factors for the indoor thermal environment comprising a controlling variable and a controlled variable for a thermal environment in a room and the influencing factors for the cardiovascular health of the aged comprising a systolic pressure and a heart rate, wherein the aged refers to a population aged 65 years old or above; and preprocessing collected data as training sample data; S2: constructing a building indoor thermal environment control model and setting an indoor temperature between 18° C. and 24° C.; S3: constructing a Q-learning model, specifying a state variable and an action variable of control and a constraint and a reward and punishment mechanism of a state and action value function, and training the Q-learning model with the training sample data to obtain a trained Q-learning model; and S4: importing data to be processed to the trained Q-learning model as learning samples and obtaining an optimal control running policy by iterative updating and repeated training.",
+  "patent_id": "US12379126-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "F24F 11/63",
+      "F24F 11/49",
+      "G16H 40/20"
+    ],
+    "all": [
+      "F24F 11/63",
+      "F24F 11/49",
+      "G16H 40/20"
+    ],
+    "source": "converted"
+  }
+}

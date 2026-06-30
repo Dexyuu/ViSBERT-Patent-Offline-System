@@ -1,0 +1,20 @@
+{
+  "title": "Cache-efficient top-k aggregation over high cardinality large datasets",
+  "abstract": "A data processing system implements a cache-conscious aggregation framework for cache-efficient top-k aggregation over high cardinality large datasets. The framework leverages skew in the distribution of data in the datasets to minimize data movements within the local caches of the cores of the multicore processors of the data processing system. The framework performs representative sampling on the dataset and utilizes these samples to identify candidate groups in the dataset for the top-k results. The system performs exact aggregations for the candidate groups and performs hashing and pruning on the non-candidate groups in the dataset to identify top-k results included in the non-candidate groups without having to calculate the exact aggregations for the non-candidate groups.",
+  "claims": "1. A data processing system comprising: a multicore processor; and a machine-readable storage medium storing executable instructions that, when executed, cause the multicore processor alone or in combination with other processors to perform operations of: receiving a query to perform a top-k aggregation query on a dataset comprising a plurality of tuples to obtain top-k results, the top-k results comprising an aggregated measure value Y and a grouping key X, the grouping key X determining whether a respective tuple of the plurality of tuples is included in a particular group of tuples, and k representing a limit on a number of results included in the top-k results; sampling a representative subset of the dataset to generate a set of samples; analyzing the set of samples to determine candidate groups and non-candidate groups, the candidate groups being predicted to be included in the top-k results, and the non-candidate groups being predicted to not be included in the top-k results; creating a first cache resident data structure for storing the candidate groups and a second cache resident data structure for storing the non-candidate groups in a cache of each core of the multicore processor; storing the candidate groups in the first cache resident data structure and the non-candidate groups in the second cache resident data structure; determining exact aggregate values for the candidate groups in the first cache resident data structure for each core of the multicore processor; partitioning the non-candidate groups in the second cache resident data structure of each core of multicore processor into a plurality of partitions; determining statistics for each partition of the plurality of partitions for each core of the multicore processor by aggregating values associated with tuples associated with each partition; merging the exact aggregate values for the candidate groups each core of the multicore processor to generate merged exact aggregate values for the candidate groups; merging the statistics for the plurality of partitions of each core of the multicore processor to create merged statistics for partitions including the non-candidate groups; pruning at least a portion of the plurality of partitions based on the merged statistics; reranking unpruned partitions from the plurality of partitions to generate reranked unpruned partitions; and determining the top-k results from among the candidate groups and the reranked unpruned partitions.",
+  "patent_id": "US12380098-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/244",
+      "G06F 16/24552",
+      "G06F 16/24554"
+    ],
+    "all": [
+      "G06F 16/244",
+      "G06F 16/24552",
+      "G06F 16/24554"
+    ],
+    "source": "converted"
+  }
+}

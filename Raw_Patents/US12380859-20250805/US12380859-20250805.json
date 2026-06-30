@@ -1,0 +1,28 @@
+{
+  "title": "Gate driver, display device including the same, and driving method of display device",
+  "abstract": "The present specification discloses a gate driver, a display device including the same, and a method of driving the display device. When a gate-on voltage of a Jthclock signal differs from a gate-on voltage of the first clock signal, the gate driver applies a compensation gate-on voltage that is a gate-on voltage at a changed voltage level to a gate-on voltage node. The display device includes a sensing unit for sensing a clock signal, and a compensation unit for applying the compensation gate-on voltage to the gate driver from the sensed clock signal. According to the present specification, a gate-source voltage of a transistor disposed on an output unit may be maintained at a previous voltage. In addition, it is possible to prevent driving failures caused by a load received by the clock signal supplied to a stage disposed relatively far away.",
+  "claims": "1. A gate driver comprising: a plurality of stages cascade-connected to each other through a carry signal line, wherein the plurality of stages includes: a first stage configured to receive a first clock signal and a start signal, and output a first gate signal and a first carry signal; a J th stage configured to receive a J th clock signal and a J−1 th carry signal, and output a J th gate signal and a J th carry signal, wherein J is a positive integer that is greater than or equal to 2 and less than or equal to N; and an N th stage configured to receive an N th clock signal and an N−1 th carry signal, and output an N th gate signal and an N th carry signal, wherein N is a natural number that is greater than or equal to 2, and wherein each of the first stage, the J th stage, and the N th stage includes: a clock node to which the first clock signal, the J th clock signal, or the N th clock signal is input; a gate-on voltage node to which a gate-on voltage is applied; and a gate-off voltage node to which a gate-off voltage is applied, wherein each of the first clock signal and the J th clock signal swings between a gate-on voltage and a gate-off voltage, and wherein, when the gate-on voltage of the J th clock signal differs from the gate-on voltage of the first clock signal, a compensation gate-on voltage at a changed voltage level is applied to the gate-on voltage node of the J th stage.",
+  "patent_id": "US12380859-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/3266",
+      "G09G 2300/0452",
+      "G09G 2300/0819",
+      "G09G 2300/0842",
+      "G09G 2310/0286",
+      "G09G 2310/08",
+      "G09G 2320/0233"
+    ],
+    "all": [
+      "G09G 3/3266",
+      "G09G 2300/0452",
+      "G09G 2300/0819",
+      "G09G 2300/0842",
+      "G09G 2310/0286",
+      "G09G 2310/08",
+      "G09G 2320/0233"
+    ],
+    "source": "converted"
+  }
+}

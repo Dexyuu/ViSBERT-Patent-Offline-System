@@ -1,0 +1,26 @@
+{
+  "title": "Secure networking engine for a secure networking system",
+  "abstract": "Methods, systems, and computer storage media for providing a local protocol server associated with a secure networking engine that provides client-side forwarding in a secure networking system. The local protocol server (e.g., local TCP/UDP server)âon a client deviceâoperates based on client-side forwarding operations that include: IP assignment, operating system (OS) routing, destination network address translation, and original destination retrieval to support accessing a network resource (e.g., socket connection) on the client device and support communications between client applications on the client device and the local protocol server on the same client device. In this way, the local protocol server supports communications of a diverse set of data traffic or network traffic (e.g., different types of cross-platform communications), where the diverse set of network traffic is initially communicated from a client application and processed for network security operations at the local protocol sever of within the same client device.",
+  "claims": "1. A computerized system comprising: one or more computer processors; and computer memory storing computer-useable instructions that, when used by the one or more computer processors, cause the one or more computer processors to perform operations comprising: access, at a destination network address translator on a client device, an Internet Protocol (IP) packet from a packet interceptor device, the IP packet is associated with both a client application on the client device and an assigned IP address of the packet interceptor device; using a Destination Network Address Translation (DNAT) operation associated with client-side protocol server communication and port translation, translate a destination network address of the IP packet to a client-side forwarding IP address and port of a local protocol server on the client device; and communicate the translated IP packet comprising the client-side forwarding IP address and port to an operating system routing mechanism, the client-side forwarding IP address and port cause the operating system routing mechanism to forward data associated with the translated IP packet to the local protocol server.",
+  "patent_id": "US12381847-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/0236",
+      "H04L 45/74",
+      "H04L 61/2503",
+      "H04L 61/5007",
+      "H04L 63/0263",
+      "H04L 69/16"
+    ],
+    "all": [
+      "H04L 63/0236",
+      "H04L 45/74",
+      "H04L 61/2503",
+      "H04L 61/5007",
+      "H04L 63/0263",
+      "H04L 69/16"
+    ],
+    "source": "converted"
+  }
+}

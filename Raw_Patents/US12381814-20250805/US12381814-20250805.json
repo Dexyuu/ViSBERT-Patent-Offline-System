@@ -1,0 +1,22 @@
+{
+  "title": "Information centric network distributed path selection",
+  "abstract": "System and techniques for information centric network (ICN) distributed path selection are described herein. An ICN node transmits a probes message to other ICN nodes. The ICN node receives a response to the probe message and derives a path strength metric from the response. Later, when a discovery packet is received by the ICN node, the path strength metric is added to the discovery packet.",
+  "claims": "1. An Information Centric Network (ICN) node for ICN distributed path selection, the ICN node comprising: a set of network interfaces; and processing circuitry configured to: transmit, via the set of network interfaces, a probe message to other ICN nodes, wherein the probe message is a broadcast to one or more one-hop neighbor ICN nodes, and wherein the probe message identifies itself as a probe message to measure a link characteristic for a one-hop link between the ICN node and one other ICN node in the one or more one-hop neighbor ICN nodes; receive, via the set of network interfaces, a response to the probe message; derive a path strength metric from the response; receive, via the set of network interfaces, a discovery packet, wherein the discovery packet is an ICN interest packet with a name or flag that indicates that the ICN interest packet is the discovery packet, wherein the discovery packet is an ICN request to locate a compute resource, wherein a node with the compute resource terminates transmission of the discovery packet and provides a discovery data packet in response to the discovery packet to indicate that the node has the compute resource, and wherein the discovery data packet is routed back to a generator of the discovery via packet pending interest table (PIT) entries of intervening nodes; and add the path strength metric to the discovery packet to be included in a discovery data packet sent from the node that has the compute resource in response to the discovery packet.",
+  "patent_id": "US12381814-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 45/26",
+      "H04L 43/12",
+      "H04L 45/24",
+      "H04L 45/44"
+    ],
+    "all": [
+      "H04L 45/26",
+      "H04L 43/12",
+      "H04L 45/24",
+      "H04L 45/44"
+    ],
+    "source": "converted"
+  }
+}

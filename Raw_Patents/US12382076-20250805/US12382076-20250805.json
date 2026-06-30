@@ -1,0 +1,24 @@
+{
+  "title": "Video frame codec architectures",
+  "abstract": "Techniques and apparatuses are described for video frame codec architectures. A frame decompressor decompresses compressed frames to produce decompressed frames. A frame decompressor controller arbitrates shared access to the frame decompressor. Multiple cores of an SoC request to receive a decompressed frame from the frame decompressor via the frame decompressor controller. The frame decompressor controller can implement a request queue and can order the servicing of requests based on priority of the requests or requesting cores. The frame decompressor controller can also establish a time-sharing protocol for access by the multiple cores. In some implementations, a video decoder is logically integrated with the frame decompressor and stores portions of a decompressed frame in a video buffer, and a display controller retrieves the portions for display using a synchronization mechanism. In analogous manners, a frame compressor controller can arbitrate shared access to a frame compressor for the multiple cores.",
+  "claims": "1. An electronic device comprising: a frame compressor configured to individually compress at a frame-level multiple uncompressed frames to produce multiple compressed frames, the multiple uncompressed frames respectively corresponding to multiple decoded frames; a frame compressor controller coupled to the frame compressor and configured to arbitrate access to the frame compressor for multiple cores; a first core of the multiple cores coupled to the frame compressor controller, the first core configured to obtain via the frame compressor controller a compressed frame of the multiple compressed frames produced at the frame-level by the frame compressor; and a second core of the multiple cores coupled to the frame compressor controller, the second core configured to obtain via the frame compressor controller another compressed frame of the multiple compressed frames produced at the frame-level by the frame compressor.",
+  "patent_id": "US12382076-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/44",
+      "H04N 19/172",
+      "H04N 19/20",
+      "H04N 19/42",
+      "H04N 19/40"
+    ],
+    "all": [
+      "H04N 19/44",
+      "H04N 19/172",
+      "H04N 19/20",
+      "H04N 19/42",
+      "H04N 19/40"
+    ],
+    "source": "converted"
+  }
+}

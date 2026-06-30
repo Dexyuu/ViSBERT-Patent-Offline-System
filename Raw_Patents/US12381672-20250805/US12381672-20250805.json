@@ -1,0 +1,20 @@
+{
+  "title": "Resource unit combination indication method and communications apparatus",
+  "abstract": "This application provides a resource unit combination indication method and a communications apparatus. The method includes: determining a physical layer protocol data unit PPDU, where the PPDU includes a signal field, the signal field includes a resource unit allocation subfield and a combination indication corresponding to the resource unit allocation subfield, the resource unit allocation subfield indicates a plurality of resource units, and the combination indication indicates combination information of the plurality of resource units; and sending the PPDU. The method provided in this application can support one or more users in transmitting data by using a plurality of contiguous or discontiguous RUs, and indicate a combination status of the plurality of RUs to the user.",
+  "claims": "1. An apparatus, comprising: a memory storage comprising instructions; and one or more processors in communication with the memory storage, wherein the instructions are executable by the one or more processors to cause the apparatus to: determine a physical layer protocol data unit (PPDU); and send the PPDU; and wherein: the PPDU comprises a signal field, and the signal field comprises a resource unit allocation subfield and at least one user field, the resource unit allocation subfield indicates a size and a location of one or more frequency resource units, a sequence of the at least one user field corresponds to a sequence of the one or more frequency resource units, the one or more frequency resource units comprise one or more multi-resource units (multi-RUs), a first user field in the at least one user field indicates station information of a first station (STA) and corresponds to one multi-RU being allocated to the first STA, the first user field is the only user field among the at least one user field indicating the station information of the first STA, the multi-RU is among the one or more multi-RUs comprised in the one or more frequency resource units indicated by the resource unit allocation subfield, each multi-RU is combined from at least two resource units (RUs), and the resource unit allocation subfield comprises 9 bits.",
+  "patent_id": "US12381672-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/0044",
+      "H04L 5/0094",
+      "H04W 80/02"
+    ],
+    "all": [
+      "H04L 5/0044",
+      "H04L 5/0094",
+      "H04W 80/02"
+    ],
+    "source": "converted"
+  }
+}

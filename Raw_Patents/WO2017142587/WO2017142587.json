@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2017142587",
+  "application_id_fs": "WO2017142587",
+  "title": "Systems and methods for real-time parameter estimation of a rechargeable battery",
+  "abstract": "A battery system includes a battery that couples to an electrical system. The battery system also includes a battery control module that electrically couples to the battery. The battery control module monitors at least one monitored parameter of the battery, and the battery control module recursively calculates at least one calculated parameter of the battery based on at least an equivalent circuit model, the at least one monitored parameter, and a Kalman filter.",
+  "claims": "Claims CLAIMS: 1. A battery system, comprising: a battery configured to couple to an electrical system; and a battery control module configured to electrically couple to the battery, wherein the battery control module is configured to: monitor at least one monitored parameter of the battery; and recursively calculate at least one calculated parameter of the battery based on at least an equivalent circuit model, the at least one monitored parameter, and a Kalman filter. 2. The battery system of claim I, wherein die battery control module is configured to calculate a state of charge of the battery based on the at least one calculated parameter of the battery. 3. The battery system of claim 1 , wherein the at least one monitored parameter of the battery comprises terminal voltage, current, temperature, or any combination thereof. 4. The battery system of claim 1, wherein the equivalent circuit model comprises a 1-RC equivalent circuit model of the battery. 5. The battery system of claim I, wherein the at least one calculated parameter of the battery comprises an open circuit voltage of the battery, a current path resistance of the battery, a charge transfer resistance of the battery, an RC time constant of the battery, or any combination thereof. 6. The battery system of claim 5, wherein the battery control module is configured to determine a state of charge of the battery based on at least the open circuit voltage of the battery and a look-up table that relates the open circuit voltage of the battery to the state of charge of the battery. 7. The battery system of claim 5, wherein the open circuit voltage of the battery is a time-variant parameter of the battery, and wherein the current path resistance of the battery, the charge transfer resistance of the battery, and the RC time constant of the battery are each time-invariant parameters of the battery. 8. The battery system of claim I, wherein the Kalman filter includes a process noise matrix to differentiate time-variant parameters from a time-invariant parameter when recursively calculating the at least one calculated parameter of the battery. 9. The battery system of claim 1 , wherein the at least one calculated parameter is stored in a ring buffer, and the battery control module determines convergence of the at least one calculated parameter based on previous values of the at least one calculated parameter stored in chronologically earlier positions of the ring buffer. 10. The battery system of claim 1, wherein the battery control module uses a scaling factor on the at least one monitored parameter of the battery to enable recursive calculation of the at least one calculated parameter of the battery on a fixed-point microprocessor. 11. The battery system of claim 1, wherein the battery control module is configured to test convergence of the at least one calculated parameter of the battery. 12. A method to determine real-time parameters of a rechargeable battery configured to couple to an electrical system, comprising: monitoring at least one monitored parameter of the rechargeable battery during operation of the battery with a battery control module via one or more sensors coupled to the rechargeable battery; and \n\n recursively calculating at least one real-time parameter of the rechargeable battery via tibe battery control module based on at least an equivalent circuit model, the at least one monitored parameter, and a Kalman filter. 13. The method of claim 12, comprising: determining a state of charge of the rechargeable battery via the battery control module based on a comparison between the at least one real-time parameter and a lookup table. 14. The method of claim 13, wherein the at leas* one real-time parameter comprises an open circuit voltage of the rechargeable battery, a current path resistance of the rechargeable battery, a charge transfer resistance of the rechargeable battery, an RC time constant of the rechargeable battery, or any combination (hereof. 15. The method of claim 12, comprising: recursively calculating a mean and a variance of the at least one real-time parameter; determining convergence of the at least one real-time parameter by applying the mean and the variance of the at least one real-time parameter to a smoothness and flatness test; saving the at least one real-time parameter determined to converge to a memory as a function of a temperature of the rechargeable battery. 16. The method of claim IS, wherein saving the at least one real-time parameter comprises saving the at least one real-time parameters within a ring buffer. 17. The method of claim 15, comprising recursively calculating the at least one real-time parameter of the rechargeable battery via the battery control module based on at least a process noise matrix. 18. An energy storage component for use in a vehicle, comprising: a housing; a first terminal and a second terminal; a rechargeable battery disposed in die housing and configured to couple to die first terminal and the second terminal; a battery control module configured to monitor at least one monitored parameter of the energy storage component, and to recursively calculate at least one calculated parameter of the energy storage component based on at least an equivalent circuit model, the at least one monitored parameter, and a Kalman filter, 19. The energy storage component of claim 18, wherein the at least one monitored parameter comprises terminal voltage, current, temperature, or any combination thereof. 20. The energy storage component of claim 18, wherein me equivalent circuit model comprises a 1-RC equivalent circuit model. 21. The energy storage component of claim 18, wherein the battery control module is configured to determine a state of charge of the energy storage component based at least in part on the at least one calculated parameter of the energy storage component. 22. The energy storage component of claim 18, wherein the battery control module is configured to calculate at least one time-variant parameter of the energy storage component and at least one time-invariant parameter of the energy storage component as the at least one calculated parameter. 23. The energy storage component of claim 22, wherein the battery control module is configured to determine convergence of the at least one time-invariant parameter of the energy storage component. 24. The energy storage component of claim 22, wherein the at least one time- variant parameter comprises an open circuit voltage of the energy storage component, and the at least one time-invariant parameter comprises a current path resistance of the energy storage component, a charge transfer resistance of the energy storage component, an RC time constant of the energy storage component, or any combination thereof.",
+  "classifications": {
+    "ipc": [
+      "H01M 10/00",
+      "H01M 10/05",
+      "H01M 10/052",
+      "H01M 10/0525",
+      "G01R 31/00",
+      "G01R 31/36",
+      "G01R 31/367",
+      "G01R 31/382",
+      "G01R 31/389",
+      "H01M 10/42",
+      "H01M 10/48",
+      "H01M 2220/00",
+      "H01M 2220/20"
+    ],
+    "cpc": [],
+    "all": [
+      "H01M 10/00",
+      "H01M 10/05",
+      "H01M 10/052",
+      "H01M 10/0525",
+      "G01R 31/00",
+      "G01R 31/36",
+      "G01R 31/367",
+      "G01R 31/382",
+      "G01R 31/389",
+      "H01M 10/42",
+      "H01M 10/48",
+      "H01M 2220/00",
+      "H01M 2220/20"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017142587"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Mitigating shadow fading and interference",
+  "abstract": "Technologies directed to rate adaption based on both the average signal-to-noise ratio (SNR) and standard deviation are described. One method includes determining an average SNR value and a standard deviation value for a first set of RSSI samples. The method determines whether the average SNR value satisfies a first threshold criterion corresponding to a minimum SNR required with a first modulation scheme and a second threshold criterion corresponding to a standard deviation threshold. The method causes a transmitter to use the first modulation scheme for a subsequent packet, responsive to the average SNR value satisfying the first threshold criterion or the standard deviation value satisfying the second threshold criterion. The method causes the transmitter to use the second modulation scheme for the subsequent packet, responsive to the average SNR value not satisfying the first threshold criterion and the standard deviation value not satisfying the second threshold criterion.",
+  "claims": "1. A method comprising: obtaining Receive Signal Strength Indicator (RSSI) samples associated with one or more packets transmitted by a transmitter to a receiver using a first modulation scheme; determining a signal-to-noise ratio (SNR) value associated with the RSSI samples and a standard deviation value associated with the RSSI samples; determining whether the SNR value satisfies a first threshold criterion corresponding to a minimum SNR required with a second modulation scheme at the standard deviation value to meet a target Packet Error Rate (PER); and based on the determining that the SNR value satisfies the first threshold criterion, causing the transmitter to use the second modulation scheme for a subsequent transmission.",
+  "patent_id": "US12381646-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04J 11/0036",
+      "H04L 5/0007"
+    ],
+    "all": [
+      "H04J 11/0036",
+      "H04L 5/0007"
+    ],
+    "source": "converted"
+  }
+}

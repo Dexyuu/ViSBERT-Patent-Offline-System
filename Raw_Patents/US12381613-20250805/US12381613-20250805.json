@@ -1,0 +1,20 @@
+{
+  "title": "Beam failure detection using multiple sets of reference signals",
+  "abstract": "Apparatuses, methods, and systems are disclosed for location-based beam failure detection (BFD) and recovery. One apparatus includes a transceiver that receives a configuration from a RAN for multiple sets of BFD reference signal (RS), multiple beam failure instance (BFI) counters, and an association of at least one BFD RS set and a corresponding BFI counter to one of a plurality of groups. The processor measures a signal strength on the BFD RS for each group and compares the measured signal strength with a BFD RS threshold value. The processor increments a BFI counter associated with a particular group if the measured signal strength is below a BFD RS threshold value and initiates random-access procedure if the BFI counter reaches a maximum value of beam failure for each group.",
+  "claims": "1. A method at a User Equipment (“UE”), the method comprising receiving a configuration from a radio access network (“RAN”) for multiple sets of beam failure detection reference signals (“BFD RS”), multiple Beam Failure Instance (“BFI”) counters, and an association of at least one BFD RS set and a corresponding BFI counter to one of a plurality of groups; measuring a signal strength on the BFD RS for each group; comparing the measured signal strength with a BFD RS threshold value; incrementing the BFI counter associated with a particular group by one if the measured signal strength is below the BFD RS threshold value; and initiating a random-access procedure by medium access control (“MAC”) layer in response to the BFI counter reaching a maximum value of beam failure counter for each group.",
+  "patent_id": "US12381613-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 7/06964",
+      "H04B 7/0695",
+      "H04B 7/088"
+    ],
+    "all": [
+      "H04B 7/06964",
+      "H04B 7/0695",
+      "H04B 7/088"
+    ],
+    "source": "converted"
+  }
+}

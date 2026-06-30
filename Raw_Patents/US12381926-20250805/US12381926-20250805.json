@@ -1,0 +1,34 @@
+{
+  "title": "Transmission method, reception method, transmission apparatus, and reception apparatus",
+  "abstract": "A transmission method includes: generating a frame for transfer which stores one or more first internet protocol (IP) packets storing content, and one or more second IP packets each including reference clock information which indicates a time for a playback of the content; and transmitting the generated frame through broadcasting. In the generating, header compression is performed on the one or more first IP packets and the header compression is not performed on the one or more second IP packets.",
+  "claims": "1. A transmission method comprising: coding video content; configuring one or more transfer units that each include the coded video content; and transmitting the one or more transfer units as a transmission signal, the transmission signal including first control information, second control information, and the one or more transfer units, wherein the first control information includes information used for the second control information, and the second control information is provided for each of the one or more transfer units, wherein in at least one transfer unit among the one or more transfer units, the second control information of the transfer unit contains clock information used for reproduction of the video content, wherein the information indicating that the clock information is contained within a header of the transfer unit is stored in the first control information, and wherein the clock information is transmitted cyclically, wherein when the information indicates that the clock information is not contained within the header of the transfer unit, the second control information of the transfer unit does not contain the clock information and an amount of data corresponding to the clock information is compressed.",
+  "patent_id": "US12381926-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 65/611",
+      "H04B 7/18526",
+      "H04L 65/70",
+      "H04L 69/22",
+      "H04N 21/236",
+      "H04N 21/242",
+      "H04N 21/4305",
+      "H04N 21/434",
+      "H04N 21/6193",
+      "H04N 21/64322"
+    ],
+    "all": [
+      "H04L 65/611",
+      "H04B 7/18526",
+      "H04L 65/70",
+      "H04L 69/22",
+      "H04N 21/236",
+      "H04N 21/242",
+      "H04N 21/4305",
+      "H04N 21/434",
+      "H04N 21/6193",
+      "H04N 21/64322"
+    ],
+    "source": "converted"
+  }
+}

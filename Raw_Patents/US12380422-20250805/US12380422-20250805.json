@@ -1,0 +1,24 @@
+{
+  "title": "Methods and systems for contactless transmission of transactional information",
+  "abstract": "Embodiments described herein disclose a mobile device system for displaying contactless payment options to a user of a mobile device. A location of the device may be detected. The location may be transmitted to a payment services provider, and information indicating that the location corresponds to a merchant having contactless payment options may be received. In response, graphical depictions of payment options associated with a plurality of payment sources are displayed on a touch-sensitive display of the mobile device. A selection of one of the graphical depictions is received, and in response, one or more transceivers of the mobile device, such as one or more NFC transceivers, may be activated. The activation may cause the transceivers to transmit a personal account number to a point-of-sale terminal. Thus, the user is presented with contactless payment options based on a geographical location, and may be presented with a suggested payment source.",
+  "claims": "1. A method, comprising: monitoring, by one or more hardware processors at least in part via electronic signals from a user device of a user, a geographical position of the user device, wherein the electronic signals contain Global Positioning System (GPS) information, cellular communication information, Wi-Fi information, or Bluetooth information; locating, by the one or more hardware processors, one or more business entities that are within a specified physical proximity from the geographical position of the user device; determining, by the one or more hardware processors, one or more first payment options supported by the one or more business entities; determining, by the one or more hardware processors, one or more second payment options associated with the user device; causing, by the one or more hardware processors, a display, via a user interface of the user device, of one or more third payment options that match both a subset of the one or more first payment options and a subset of the one or more second payment options; generating, by the one or more hardware processors based on a determination that a particular one of the one or more third payment options has been selected by the user, a machine-readable code that comprises payment information corresponding to the particular one of the one or more third payment options that is usable to complete a transaction with the one or more business entities; causing, by the one or more hardware processors, a display of the machine-readable code via the user interface of the user device; determining, by the one or more hardware processors based on the monitoring and after the one or more third payment options have been displayed via the user interface, that the one or more business entities are no longer within the specified physical proximity of the geographical position of the user device; and causing, by the one or more hardware processors and based on the determining that the one or more business entities are no longer within the specified physical proximity of the geographical position of the user device, the user interface to automatically remove the display of the one or more third payment options or the machine-readable code.",
+  "patent_id": "US12380422-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/3224",
+      "G06K 7/0004",
+      "G06K 19/06206",
+      "G06Q 20/3278",
+      "G06Q 20/40145"
+    ],
+    "all": [
+      "G06Q 20/3224",
+      "G06K 7/0004",
+      "G06K 19/06206",
+      "G06Q 20/3278",
+      "G06Q 20/40145"
+    ],
+    "source": "converted"
+  }
+}

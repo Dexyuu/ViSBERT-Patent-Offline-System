@@ -1,0 +1,28 @@
+{
+  "title": "Electronic display pixel grouping to mitigate motion blur",
+  "abstract": "Electronic devices, displays, and methods are provided for performing pixel grouping to enable efficient display operation at higher frame rates and lower image resolutions without sacrificing significant image quality. An electronic display may include a number of rows of display pixels and driving circuitry. The driving circuitry may receive a frame of image data and drive a set of adjacent groups of rows of equal number using the frame of image data. Adjacent groups of rows may respectively include two or more adjacent rows.",
+  "claims": "13. An electronic display comprising: a plurality of rows of display pixels; and driving circuitry configured to receive a first frame of image data and drive a first set of adjacent groups of rows using the first frame of image data, wherein each group of the adjacent groups of rows has an equal number of rows comprising two or more adjacent rows at a time, wherein the driving circuitry is configured to: receive successive frames of image data that have a fractional row resolution of the electronic display or the fractional row resolution plus one or more odd remainders; and cause the electronic display to display the successive frames of image data in groups of rows corresponding to the fractional row resolution that switch from frame to frame; and wherein the driving circuitry is configured to: receive successive frames of image data having a full row resolution of the electronic display at a first frame rate before receiving the successive frames of data having the fractional row resolution of the electronic display or the fractional row resolution plus one or more odd remainders.",
+  "patent_id": "US12380835-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/32",
+      "G09G 3/3208",
+      "G09G 3/3611",
+      "G09G 2300/06",
+      "G09G 2310/08",
+      "G09G 2320/0261",
+      "G09G 2340/0435"
+    ],
+    "all": [
+      "G09G 3/32",
+      "G09G 3/3208",
+      "G09G 3/3611",
+      "G09G 2300/06",
+      "G09G 2310/08",
+      "G09G 2320/0261",
+      "G09G 2340/0435"
+    ],
+    "source": "converted"
+  }
+}

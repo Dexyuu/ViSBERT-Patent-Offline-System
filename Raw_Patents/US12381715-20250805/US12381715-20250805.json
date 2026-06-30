@@ -1,0 +1,20 @@
+{
+  "title": "Enablement and disablement of end-to-end efficient encryption with security chaining",
+  "abstract": "Enabling End-to-End Efficient Encryption (E2EEE) with security chaining in an Information Handling System (IHS) network includes: a data source IHS writing metadata containing a key slot, in a trailer of a data block and sending an out-of-band signal to use the key slot; an IHS security chaining logic regenerates the signal to each next IHS E2EEE data connection segment interface; and an encryption configuration state machine of each interface setting a use slot and an active slot to the key slot, in response to the signal. Disabling E2EEE with security chaining includes: the data source IHS sending an out-of-band signal to not use a key slot; the IHS security chaining logic regenerating the signal to each next interface; and the state machine of each interface changing the state machine state to not use a key slot and to not set an active key slot, in response to the signal.",
+  "claims": "1. A method for managing end-to-end efficient encryption with security chaining in an information handling system network, the method comprising: selectively enabling the end-to-end efficient encryption with the security chaining in an information handling system network by: writing, by a data source information handling system, metadata containing a key slot, in a trailer of a data block; sending, by the data source information handling system, an out-of-band signal to use the key slot; regenerating, by an information handling system security chaining logic component, the out-of-band signal to use the key slot to each next information handling system end-to-end efficient encryption data connection segment interface; setting, in an encryption configuration state machine of each data connection segment interface, and in response to the out-of-band signal to use the key slot, a use slot to the key slot and an active slot to the key slot; selectively disabling the end-to-end efficient encryption with the security chaining in the information handling system network by: sending, by the data source information handling system, an out-of-band signal to not use the key slot in the trailer of the data block, wherein the data block is encrypted; regenerating, by the information handling system security chaining logic component, the out-of-band signal to not use the key slot to the each next information handling system data connection segment interface; and changing, in the encryption configuration state machine of the each data connection segment interface, and in response to the out-of-band signal to not use the key slot, the encryption configuration state machine state to not use the key slot and to not set the active slot to the key slot, wherein encryption and/or decryption no longer applies to data input and output and the data block is unencrypted.",
+  "patent_id": "US12381715-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/0825",
+      "H04L 9/0822",
+      "H04L 9/0891"
+    ],
+    "all": [
+      "H04L 9/0825",
+      "H04L 9/0822",
+      "H04L 9/0891"
+    ],
+    "source": "converted"
+  }
+}

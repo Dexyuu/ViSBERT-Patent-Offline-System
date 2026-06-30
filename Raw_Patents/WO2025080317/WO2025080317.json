@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2025080317",
+  "application_id_fs": "WO2025080317",
+  "title": "Multiple command format interpretation for ssd",
+  "abstract": "In addition to transmitting over the ASIC-NAND bus the legacy long command format, a data storage device will be able to use also a compressed/improved command format. The alternate command's format is hidden from most parts of the NAND. The NAND can have a layer that will translate compressed / non standard commands to the legacy (standard) format for use by the rest of the NAND device's logic, as currently implemented. According to selected command format, the Low Level Flow Sequencer (LLFS) sequence generator and the flash interface module (FIM) will know which format to use in order to encode the command's content for transmission to the NAND by the FIM / ASIC / controller. The command is then executed on the NAND side according to the selected command scheme. Changes will be applied in the device controller on the ASIC side â to encode the command, and on the NAND side - to decode the command according to the selected format. The controller on the ASIC side decides on the desired format and is responsible to sync any format change with the NAND before sending a command in a different format than currently agreed between the controller and the NAND.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1. A data storage device, comprising: a memory device; and a controller coupled to the memory device, wherein the memory device is configured to: detect that a command received from the controller is a compressed command; decompress the compressed command; and execute the decompressed command. 2. The data storage device of claim 1, wherein the decompressing comprises expanding the decompressed command into an original command size. 3. The data storage device of claim 1 , wherein the decompressed command indicates that data may be written to or read from multiple planes and multiple pages of the memory device. 4. The data storage device of claim 3, wherein the compressed command includes a single copy of an address to be written to, with a possibility to add indication about a data length that follows. 5. The data storage device of claim 4, wherein the decompressed command indicates that the data is to be written to multiple pages. 6. The data storage device of claim 1, wherein the executing comprises writing data across multiple planes and pages of a triple level cell (TLC) memory portion of the memory device. 7. The data storage device of claim 1, wherein the memory device is configured to detect whether a command received from the controller is a traditional command or a compressed command. 8. The data storage device of claim 7, wherein the controller is configured to create the compressed command and wherein the compressed command utilizes less bytes than a same command prior to compressing. 9. The data storage device of claim 1, wherein the decompressed command indicates that information for execution of the decompressed command has previously been sent to the memory device. 10. The data storage device of claim 1, wherein the memory device is configured to switch between a first data rate and a second data rate that is different than the first data rate, wherein the switching occurs when receiving a command. 11. The data storage device of claim 10, wherein the data rate switching occurs less times when receiving a compressed command in comparison to receiving a same command that has not been compressed. 12. The data storage device of claim 1, wherein the memory device is configured to detect a signal that the command is to be executed in a different mode than a default mode. 13. The data storage device of claim 1, wherein the memory device is configured to detect a signal that another and/or different operation is to be executed after the received command. 14. The data storage device of claim 1, wherein the memory device is configured to support default versions of commands and different formats of commands. 15. The data storage device of claim 1, wherein the memory device is configured to receive a signal format change from the controller. 16. The data storage device of claim 15, wherein the signal format change is performed using a command or hardware signaling. 17. The data storage device of claim 1, wherein the memory device is configured to: select a specific version of a command format; or enable/disable specific improvements; or change format on the fly. 18. A data storage device, comprising: a memory device; and a controller coupled to the memory device, \n\n wherein the memory device is configured to: detect that a command received from the controller is a compressed command; retrieve information for the compressed command from a location in the memory device; and execute the compressed command based upon the retrieved information. 19. The data storage device of claim 18, wherein the retrieved information is data sent in a previous command. 20. The data storage device of claim 18, wherein the retrieved information is used for performing an operation upon receipt of the compressed command (e.g. address to operate on). 21. The data storage device of claim 18, wherein the compressed command includes an indication that the command is a compressed command, and wherein the detecting comprises detecting the indication. 22. The data storage device of claim 18, wherein the memory device is configured to switch between processing compressed commands and commands that have not been compressed. 23. The data storage device of claim 18, wherein the memory device is configured to perform a sense operation prior to the detecting. 24. A data storage device, comprising: means to store data, wherein the means to store data is configured to: detect whether a received command is a compressed command or a noncompressed command; and execute the detected command; and a controller coupled to the means to store data, wherein the controller is configured to: send compressed commands and non-compressed commands to the means to store data. 25. The data storage device of claim 24, wherein the controller comprises a command pattern detector and a command generator. 26. The data storage device of claim 24, wherein the means to store data comprises a mode detection mechanism and a command interpreter.",
+  "classifications": {
+    "ipc": [
+      "G06F 3/00",
+      "G06F 3/06",
+      "G06F 3/0601",
+      "G06F 3/0628",
+      "G06F 3/0655",
+      "G06F 3/0659",
+      "G06F 3/0602",
+      "G06F 3/061",
+      "G06F 3/0629",
+      "G06F 3/0634",
+      "G06F 3/0658",
+      "G06F 3/0661",
+      "G06F 3/0604",
+      "G06F 3/0668",
+      "G06F 3/0671",
+      "G06F 3/0673",
+      "G06F 3/0679"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 3/00",
+      "G06F 3/06",
+      "G06F 3/0601",
+      "G06F 3/0628",
+      "G06F 3/0655",
+      "G06F 3/0659",
+      "G06F 3/0602",
+      "G06F 3/061",
+      "G06F 3/0629",
+      "G06F 3/0634",
+      "G06F 3/0658",
+      "G06F 3/0661",
+      "G06F 3/0604",
+      "G06F 3/0668",
+      "G06F 3/0671",
+      "G06F 3/0673",
+      "G06F 3/0679"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025080317"
+}

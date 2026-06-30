@@ -1,0 +1,22 @@
+{
+  "title": "Methods for generating videos, and related systems and servers",
+  "abstract": "There is provided a computer-implemented method of generating a personalized video for a user, which is edited from an original video, e.g. using information collected about other users' preferences regarding the original video, to generate an Edit Decision List (EDL) defining the edits for the original video, and providing video output including the original video edited by the EDL. Related computer-implemented methods, systems, servers, user terminals and computer program products are provided.",
+  "claims": "1. A computer-implemented method of providing a personalized video, the method including the steps of: (i) receiving one or more video files; (ii) converting the one or more video files into a compressed format structure; (iii) storing the compressed format structure on a first server; (iv) receiving a request from a user of a user terminal to provide in a web browser executing on the user terminal, or in a video player executing on the user terminal, a personalized video play corresponding to a personalized video defined by the compressed format structure and a personalized electronic edit decision list; (v) accessing a profile of the user of the user terminal; (vi) accessing a record corresponding to the compressed format structure, the record including a record of respective portions of the compressed format structure corresponding to respective portions of video that have been selected by respective other users; (vii) accessing profiles of the respective other users, and identifying which respective other users' profiles most closely match the profile of the user; (viii) identifying portions of the compressed format structure corresponding to the respective portions of video which have been selected by the respective other users whose profiles most closely match the profile of the user; (ix) generating a personalized electronic edit decision list which generates from the compressed format structure a personalized video which provides respective portions of the one or more videos which have been selected by the respective other users whose profiles most closely match the profile of the user, and storing the personalized electronic edit decision list e.g. on the first server or on a second server, or on the user terminal; (x) sending or providing to the web browser code executable in the web browser, or to the video player code executable in the video player, to provide the personalized video play corresponding to the personalized video defined by the compressed format structure stored on the first server and the personalized electronic edit decision list e.g. stored on the first server or on the second server, or on the user terminal, and (xi) responding to requests from the code when executing in the web browser or in the video player, to provide content corresponding to the compressed format structure stored on the first server, in accordance with the personalized electronic edit decision list, e.g. stored on the first server or on the second server, or on the user terminal, to the web browser or to the video player, to provide the personalized video play.",
+  "patent_id": "US12382136-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/4668",
+      "H04N 21/26258",
+      "H04N 21/4532",
+      "H04N 21/4826"
+    ],
+    "all": [
+      "H04N 21/4668",
+      "H04N 21/26258",
+      "H04N 21/4532",
+      "H04N 21/4826"
+    ],
+    "source": "converted"
+  }
+}

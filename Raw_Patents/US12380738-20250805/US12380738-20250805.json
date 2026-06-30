@@ -1,0 +1,24 @@
+{
+  "title": "System to determine compact representation of data",
+  "abstract": "During enrollment to a biometric identification system an image of at least a portion of a user is acquired and processed to determine a compact representation (CR). The CR may be stored for later comparison to identify the user, to train embedding models, and so forth. The image is not stored. A machine learning system that comprises a variational autoencoder is trained to produce the CR with a loss function that includes a distortion loss, an embedding distance loss, and in some implementations a bitrate loss. The trained encoder is used to determine the CR from an input image, while the decoder is not stored. The CR contains sufficient information to be used as training data for embedding models, instead of acquired images. Training may be more computationally efficient using the CR. Recognition comparisons may be more efficiently performed using the CR, compared to query images.",
+  "claims": "1. A method comprising: accessing training input data comprising image data; training an encoder module to produce a compact representation of the image data using the training input data and a loss function comprising: a bitrate loss, a distortion loss, and an embedding loss; and storing weight data associated with training the encoder module.",
+  "patent_id": "US12380738-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 40/50",
+      "G06F 18/214",
+      "G06F 18/22",
+      "G06T 9/00",
+      "G06V 40/11"
+    ],
+    "all": [
+      "G06V 40/50",
+      "G06F 18/214",
+      "G06F 18/22",
+      "G06T 9/00",
+      "G06V 40/11"
+    ],
+    "source": "converted"
+  }
+}

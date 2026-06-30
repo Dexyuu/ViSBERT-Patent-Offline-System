@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2016176161",
+  "application_id_fs": "WO2016176161",
+  "title": "Providing pipeline for unified service and client interface",
+  "abstract": "A pipeline for a unified service and client is provided. An application such as a productivity application constructs a pipeline based on a shared code base with another productivity application. The pipeline facilitates a communication between a client application and an interface of the productivity application. A received client request, by the pipeline, is processed to construct a serialized request. The serialized request is transmitted to the interface of the productivity application. An initial response to the serialized request is received and processed to construct a standardized response. Subsequently, the standardized response is transmitted to the client application.",
+  "claims": "Claims 1. A computing device for providing a pipeline for a unified service and client interface, the computing device comprising: a networking device; a memory configured to store instructions associated with a productivity application; one or more processors coupled to the memory and the networking device, the one or more processors executing the productivity application in conjunction with the instructions stored in the memory, wherein the productivity application includes: a construction module configured to: construct the pipeline based on a shared code base, wherein the pipeline facilitates a communication between a client application and an interface of the productivity application; the pipeline configured to: receive, by the networking device, a client request from the client application; process the client request to construct a serialized request and transmit the serialized request to the interface of the productivity application; receive an initial response to the serialized request from the interface of the productivity application; process the initial response to construct a standardized response; and transmit, by the networking device, the standardized response to the client application. 2. The computing device of claim 1, wherein the construction module is further configured to: provide the pipeline to another productivity application to allow the other productivity application to facilitate a communication between another client application and the other productivity application, wherein the other productivity application includes the shared code base. 3. The computing device of claim 1, wherein the construction module is further configured to: automate a construction of the pipeline by generating instructions associated with the pipeline with a service object structure. 4. The computing device of claim 1, wherein the pipeline is further configured to: remove platform specific instructions within the client request through a serialization scheme to construct the serialized request from the client request. 5. The computing device of claim 1, wherein the pipeline is further configured to: process the initial response with a shared standard to generate the standardized response. 6. The computing device of claim 1, wherein the pipeline is further configured to: receive the client request that includes a batch of one or more commands; and prepare the batch of the one or more commands for asynchronous executions while constructing the serialized request from the batch of the one or more commands. 7. The computing device of claim 1, wherein the pipeline is further configured to: apply a convention to one or more of: an address of a local source and an address of an external source identified in the client request to remove a platform specific address from one or more of: the address of the local source and the address of the external source. 8. A method executed on a computing device for providing a pipeline for a unified service and client interface, the method comprising: constructing the pipeline based on a shared code base, wherein the pipeline facilitates a communication between a client application and an interface of a productivity application and instructions associated with the pipeline are generated with a service object structure during an execution of the productivity application; receiving a client request from the client application; \n\n processing the client request to construct a serialized request and transmit the serialized request to the interface of the productivity application; receiving an initial response to the serialized request from the interface of the productivity application; processing the initial response to construct a standardized response; and transmitting the standardized response to the client application. 9. The method of claim 8, further comprising: processing the client request to identify one or more asynchronous instructions. 10. A computer-readable memory device with instructions stored thereon for providing a pipeline for a unified service and client interface, the instructions comprising: constructing the pipeline based on a shared code base, wherein the pipeline facilitates a communication between a client application and an interface of a productivity application and instructions associated the pipeline are generated with a service object structure during an execution of the productivity application; receiving a client request from the client application; processing the client request to construct a serialized request and transmit the serialized request to the interface of the productivity application; receiving an initial response to the serialized request from the interface of the productivity application; processing the initial response to construct a standardized response; and transmitting the standardized response to the client application.",
+  "classifications": {
+    "ipc": [
+      "G06F 9/00",
+      "G06F 9/06",
+      "G06F 9/46",
+      "G06F 9/54",
+      "G06F 9/541",
+      "G06T 11/00",
+      "G06T 11/20",
+      "G06T 11/206",
+      "H04L 67/00",
+      "H04L 67/50",
+      "H04L 67/60",
+      "G06F 2209/00",
+      "G06F 2209/54",
+      "G06F 2209/541",
+      "H04L 65/00",
+      "H04L 65/40"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 9/00",
+      "G06F 9/06",
+      "G06F 9/46",
+      "G06F 9/54",
+      "G06F 9/541",
+      "G06T 11/00",
+      "G06T 11/20",
+      "G06T 11/206",
+      "H04L 67/00",
+      "H04L 67/50",
+      "H04L 67/60",
+      "G06F 2209/00",
+      "G06F 2209/54",
+      "G06F 2209/541",
+      "H04L 65/00",
+      "H04L 65/40"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2016176161"
+}

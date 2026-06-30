@@ -1,0 +1,24 @@
+{
+  "title": "Systems and methods for improved and expanded autonomous vehicle operation",
+  "abstract": "A computer-implemented method for relaxing queries on a queried connection graph can include obtaining, by a computing system including one or more computing devices, a connected graph. The computer-implemented method can include evaluating, by the computing system, a first set of connected components of the connected graph with respect to a first query set. The first query set can include one or more query criteria. The query criteria can include one or more attributes associated with operating an autonomous vehicle. The computer-implemented method can include determining, by the computing system, one or more relaxed query sets based at least in part on the first query set. The computer-implemented method can include evaluating, by the computing system, a second set of connected components of the connected graph with respect to the one or more relaxed query sets, the connected graph being associated with autonomous vehicle operation within a geographic area.",
+  "claims": "1. A computer-implemented method for relaxing queries on a queried connection graph, the method comprising: obtaining, by a computing system comprising one or more computing devices, a connected graph representing a lane map comprising navigable road segments within a geographic area; evaluating, by the computing system, a first set of connected components of the connected graph with respect to a first query set, the first query set comprising one or more query criteria, the one or more query criteria comprising one or more operational constraints associated with operating an autonomous vehicle within the geographic area; determining, by the computing system, one or more relaxed query sets based at least in part on the first query set, the one or more relaxed query sets allows for an increased number of values satisfying the one or more relaxed query sets compared to respective query criteria of the first query set by modifying at least one operational constraint, the one or more relaxed query sets including a count of connected nodes in the connected graph representing available route segments; evaluating, by the computing system, a second set of connected components of the connected graph with respect to the one or more relaxed query sets based on the count of connected nodes in the connected graph to identify an expanded set of available route segments, the connected graph being associated with autonomous vehicle operation within the geographic area; generating, by the computing system, an optimized navigation route for the autonomous vehicle based on the expanded set of available route segments identified from the second set of connected components; and causing, by the computing system, the autonomous vehicle to initiate navigation of the optimized navigation route within the geographic area by controlling one or more vehicle systems of the autonomous vehicle based on the second set of connected components.",
+  "patent_id": "US12377870-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 60/001",
+      "G06F 16/9035",
+      "G06F 16/9038",
+      "G06V 20/588",
+      "B60W 2552/53"
+    ],
+    "all": [
+      "B60W 60/001",
+      "G06F 16/9035",
+      "G06F 16/9038",
+      "G06V 20/588",
+      "B60W 2552/53"
+    ],
+    "source": "converted"
+  }
+}

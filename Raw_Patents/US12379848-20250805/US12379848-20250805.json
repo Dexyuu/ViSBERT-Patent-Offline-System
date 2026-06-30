@@ -1,0 +1,22 @@
+{
+  "title": "Method and device with memory processing control",
+  "abstract": "A memory power control command may be received from a host and may include either a first power control command or a second power control command. The first power control command may correspond to the host not using a memory device, and the second power control command may correspond to the host using the memory device. It may be determined whether to activate a memory processor based on the memory power control command and on memory processor activation information. When the memory processor is activated based on the determining, an operation of the memory processor may be started based on the first power control command or ended based on the second power control command. When the memory processor is inactivated based on the determining, it may be determined whether to activate or inactivate the memory based on the memory power control command.",
+  "claims": "1. A method comprising: receiving, from a host, a memory power control command controlling power to a memory of a memory device, the memory power control command comprising either a first power control command or a second power control command, wherein the first power control command corresponds to the host not using a-the memory device, and wherein the second power control command corresponds to the host using the memory device; determining whether to activate a memory processor of the memory device based on the memory power control command and a memory processor activation information, where the memory processor activation information indicates whether to activate or inactivate the memory processor; wherein when the memory processor activation information indicates to activate the memory processor, determining whether starting an operation of the memory processor based on the first power control command or and whether ending the operation of the memory processor based on the second power control command; and wherein when the memory processor activation information indicates to inactivate the memory processor, determining whether to activate or inactivate the memory based on the memory power control command where the memory is inactivated in response to the first power control command and the memory is activated in response to the second power control command.",
+  "patent_id": "US12379848-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0613",
+      "G06F 3/0625",
+      "G06F 3/0653",
+      "G06F 3/0673"
+    ],
+    "all": [
+      "G06F 3/0613",
+      "G06F 3/0625",
+      "G06F 3/0653",
+      "G06F 3/0673"
+    ],
+    "source": "converted"
+  }
+}

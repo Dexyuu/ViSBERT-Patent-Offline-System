@@ -1,0 +1,29 @@
+{
+  "application_id": "WO2020053088",
+  "application_id_fs": null,
+  "title": "Agv having dynamic safety zone",
+  "abstract": "There is provided an automatically guided vehicle (AGV), which is configured to detect if a payload mass differs significantly from a preset payload mass towed and/or carried by the vehicle, and if a payload mass different from the preset payload is detected, the control system of the vehicle is automatically updated to adjust either: i) the speed of the vehicle based on preset safety brake distance information associated with the detected different payload mass; or ii) increase the safety zone or switch to a safer safety zone in order to avoid collision with any obstacles.",
+  "claims": "Claims 1. An automatically guided vehicle (AGV) comprising: â¢ drive wheels; â¢ a robot body mounted on said drive wheels; â¢ a scanner or sensor for the detection of any obstacles inside a safety zone of the path pursued by the vehicle; â¢ a control system receiving information from the scanner or sensor with respect to obstacles, said control system configured to dynamically set safety brake distances for the vehicle based on payload mass, by the vehicle; characterized in that the vehicle is configured to detect if a payload mass has changed, and if a payload mass change is detected, the control system is automatically updated to adjust: - the speed of the vehicle based on preset safety brake distance information associated with the detected different payload mass; and/or - the safety zone or switch to a safer safety zone in order to avoid collision with any obstacles. 2. The automatically guided vehicle of claim 1 , wherein the control system includes multiple sub-control systems. 3. The automatically guided vehicle of claim 1 or 2, wherein a cart attaching mechanism is mounted on said robot body for coupling a cart to said vehicle. 4. The automatically guided vehicle of any one of the claims 1 to 3, wherein the preset safety brake distance or size of the safety zone is provided as a user input or a protocol stored in the control system. 5. The automatically guided vehicle of any one of the claims 1 to 3, wherein the preset safety brake distance or size of the safety zone is based on calculating the payload through a measured acceleration and/or deceleration procedure. 6. The automatically guided vehicle of claim 5, wherein the acceleration and / or deceleration is determined by the control system through the following steps \n\n â¢ accelerate the vehicle to drive with a known predetermined motor torque and from a motor/wheel encoder input calculate the acceleration of the vehicle; and / or â¢ apply a predetermined period of braking or free running to calculate the deceleration. 7. The automatically guided vehicle of any one of the claims 1 to 6, wherein a proximity sensor is mounted on the robot body for detecting if a cart is towed by the vehicle or if additional payload has been loaded onto the vehicle. 8. The automatically guided vehicle of claim 7, wherein the detection with the proximity sensor is based on light, capacitance, inductance or mechanical movement. 9. The automatically guided vehicle of any one of the claims 1 to 8, wherein payload mass towed and/or carried by the vehicle is detected with a mass sensor that determines the mass of the payload. 10. The automatically guided vehicle of claim 9, wherein the mass sensor is an instrument for weighing, such as a load cell, scale or balance.",
+  "classifications": {
+    "ipc": [
+      "G05D 1/02",
+      "B60T 7/00",
+      "B60T 8/18",
+      "B60T 8/17",
+      "B60T 8/00",
+      "B60T 7/22",
+      "B60T 17/22"
+    ],
+    "cpc": [],
+    "all": [
+      "G05D 1/02",
+      "B60T 7/00",
+      "B60T 8/18",
+      "B60T 8/17",
+      "B60T 8/00",
+      "B60T 7/22",
+      "B60T 17/22"
+    ],
+    "source": "csv"
+  }
+}

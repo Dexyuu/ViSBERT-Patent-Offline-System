@@ -1,0 +1,18 @@
+{
+  "title": "Malware detection and mitigation system and method therefor",
+  "abstract": "In some embodiments, a malware detection system includes an attack channel removal unit, a feature extraction unit coupled to the attack channel removal unit, and a graphical encoding unit coupled to the feature extraction unit and a malware detection unit. In some embodiments, based upon graphically-encoded component-based features and monotonic features extracted from attack-channel-free software output by the attack channel removal unit, the malware detection unit detects malware in software input into the malware detection system. In some embodiments, the monotonic features extracted from the attack-channel free software and the graphically-encoded component-based features are combined to generate a combination monotonic-component based feature vector. In some embodiments, the combination monotonic-component based feature vector is used to detect malware using the malware detection system.",
+  "claims": "1. A computer-implemented method, comprising: removing attack channels from software to generate attack-channel-free software, the attack-channel-free software including byte reset software; extracting component-based features from the attack-channel free software, the component-based features being specific to independent components of the byte reset software, the byte reset software being software with unmapped bytes reset, the reset unmapped bytes in the byte reset software being configured to reduce adversarial attacks; extracting monotonic features from the attack-channel free software, the monotonic features being features in the byte reset software; graphically encoding the component-based features to generate graphically-encoded component-based features, wherein the component-based features are graphically encoded using a graph attention network; and using the graphically-encoded component-based features and the monotonic features to detect malware in a malware detection system.",
+  "patent_id": "US12380208-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/562",
+      "G06F 2221/033"
+    ],
+    "all": [
+      "G06F 21/562",
+      "G06F 2221/033"
+    ],
+    "source": "converted"
+  }
+}

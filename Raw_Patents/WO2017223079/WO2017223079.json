@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2017223079",
+  "application_id_fs": "WO2017223079",
+  "title": "Nonlinear signal comparison and high-resolution measurement of seismic or acoustic wave dispersion",
+  "abstract": "The present disclosure relates generally to signal comparison in seismic/acoustic imaging and data processing. In particular, this disclosure relates to a new nonlinear signal comparison (NLSC) approach which obtains a uniform resolution across a frequency band. The overall resolution in NLSC can be controlled over the frequency band by an adjustable parameter.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1. A method for comparing seismic and acoustic signals for dispersion analyses, comprising: assigning a first time series waveform di(t) for a wave propagating through a material at a first receiver; assigning a second time series waveform d x (t) for the wave at a second receiver located at a distance x from the first receiver, wherein the first and second time series waveforms relate to pressure, particle displacement, or velocity; calculating a non-linear signal comparison measurement S NL (co, V p tJ using collected data and the equation: wherein T is a selected length of time for a window of interest, ir &Î 1 ' is a variance-normalized seismic waveform for dj(t) filtered around frequency Ï and is equal to 5 < 5 '*'\"\"\"' wherein oi is variance or an energy-related measure of the collected data , â . x Î³ â ' is a variance-normalized seismic waveform for d x (t) filtered around frequency Ï and is equal to *- aÂ¾ wherein V p h is phase velocity equal to x divided by t and wherein Ï Ï is variance or an energy- related measure of the collected data, and Ï is an overall continuous nonnegative parameter for controlling overall resolution; calculating a background measurement Î Î for the non-linear signal comparison measurement SNL(O), V p h) using the equation: wherein Io is a modified Bessel function of zero-th order, and \n\n calculating a normalized and scaled non-linear signal comparison measurement S NL sc((o, V p h, a) using the equation: S NLSC ( Ï - V ph - a ) ' Ï wherein Ï is chosen from zero to infinity, and wherein S NL sc((o, V p h;a) measures sensitivity to a time shift and velocity and provides signal comparison information for the wave at the first and second receivers. 2. The method of claim 1 , further comprising the step of using the signal comparison information to analyze properties, characteristics, or structures of the material. 3. The method of claim 1, wherein the first receiver and the second receiver are part of a set of multiple receivers and the steps of the method are repeated to provide signal comparison information for the wave at additional receivers. 4. The method of claim 1 , further comprising the step of using the signal comparison information in borehole acoustic logging. 5. The method of claim 1 , wherein the signal comparison information is used in seismic imaging and migration, wherein the first time series waveform is assigned as a downgoing forward propagated wavefield, and wherein the second time series waveform is assigned as a backward extrapolated receiver wavefield. 6. The method of claim 1 , wherein the signal comparison information is used in seismic waveform inverstion, wherein the first time series waveform is assigned as a modeled waveform, and wherein the second time series waveform is assigned as an actually recorded wavefield. 7. The method of claim 1 , wherein Ï is chosen to be in the range of 0.001 to 10.",
+  "classifications": {
+    "ipc": [
+      "G01V 20/00",
+      "G01V 1/00",
+      "G01V 1/40",
+      "G01V 1/44",
+      "G01V 1/48",
+      "G01V 1/50",
+      "G01V 1/28",
+      "G01V 1/30",
+      "G01V 2200/00",
+      "G01V 2200/10",
+      "G01V 2200/14",
+      "G01V 2210/00",
+      "G01V 2210/60",
+      "G01V 2210/61",
+      "G01V 2210/614",
+      "G01V 2210/616"
+    ],
+    "cpc": [],
+    "all": [
+      "G01V 20/00",
+      "G01V 1/00",
+      "G01V 1/40",
+      "G01V 1/44",
+      "G01V 1/48",
+      "G01V 1/50",
+      "G01V 1/28",
+      "G01V 1/30",
+      "G01V 2200/00",
+      "G01V 2200/10",
+      "G01V 2200/14",
+      "G01V 2210/00",
+      "G01V 2210/60",
+      "G01V 2210/61",
+      "G01V 2210/614",
+      "G01V 2210/616"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017223079"
+}

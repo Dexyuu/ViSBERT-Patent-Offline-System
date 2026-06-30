@@ -1,0 +1,30 @@
+{
+  "title": "Multiple chemical programs for an array of chemical reactors with a single array of reactants",
+  "abstract": "A method for executing multiple chemical programs in parallel in an array of chemical reactors using a single array of substance containers may be provided. The method includes receiving a plurality of chemical programs, building a plurality of records comprising each a chemical program. Thereby, each record includes a key and a data field, wherein the key is indicative of the reactants required for the respective chemical reaction, and wherein the data field includes the chemical program. The method further includes creating an ordered data structure of the data records based on the keys, selecting a next record from the ordered data structure, assigning the selected next record to selected ones of the array of chemical reactors, repeating the steps of selecting and assigning until, as a maximum, each chemical reactor has a defined record assigned to it, and executing the chemical programs according to their defined records in parallel.",
+  "claims": "1. A method for executing a plurality of chemical experiments for synthesis of a new molecule in parallel in an array of chemical reactors using a single array of substance containers, the method comprising: receiving information which defines chemical reactions and associated reactants from the single array of substance containers for each of the plurality of chemical experiments for synthesis of the new molecule; building a record for each of the plurality of chemical experiments based on the received information, wherein each record comprises a key and a data field, wherein the key is a string of sorted characters indicative of reactants required for respective chemical reactions, and wherein the data field comprises a recipe for synthesizing the new molecule; sorting the records into a set of groups, wherein the records in each group of the set of groups are ordered in a sequence, wherein each subsequent record in the sequence comprises a combination of reactants of an immediately preceding record and at least one additional reactant to minimize washing, cleaning and refilling the array of chemical reactors between each chemical reaction; assigning each group of the set of groups to at least one chemical reactor of the array of chemical reactors; and executing each chemical experiment of the plurality of chemical experiments for synthesis of the new molecule based on the sorted records, wherein each chemical experiment is sequentially performed according to the sequence of each group in the assigned chemical reactor.",
+  "patent_id": "US12380968-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16C 20/10",
+      "B01J 19/0033",
+      "B01J 19/0046",
+      "B01J 2219/00038",
+      "B01J 2219/00229",
+      "B01J 2219/00585",
+      "B01J 2219/00695",
+      "G05B 19/4099"
+    ],
+    "all": [
+      "G16C 20/10",
+      "B01J 19/0033",
+      "B01J 19/0046",
+      "B01J 2219/00038",
+      "B01J 2219/00229",
+      "B01J 2219/00585",
+      "B01J 2219/00695",
+      "G05B 19/4099"
+    ],
+    "source": "converted"
+  }
+}

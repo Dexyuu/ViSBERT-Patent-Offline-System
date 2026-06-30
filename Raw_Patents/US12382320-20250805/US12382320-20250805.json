@@ -1,0 +1,18 @@
+{
+  "title": "End-to-end public land mobile network performance analysis",
+  "abstract": "End-to-end public land mobile network (PLMN) performance analysis is performed by collecting a plurality of communication detail records from a public land mobile network, the plurality of communication detail records including a plurality of terminal-node records, a plurality of node-core records, and a plurality of core-core records, each communication detail record including information representing at least a time, a requesting element, and a responding element, and aligning, from among the plurality of communication detail records, consecutive communication detail records to form one or more end-to-end sessions, wherein each end-to-end session includes at least one terminal-node record, at least one node-core record, and at least one core-core record.",
+  "claims": "1. A non-transitory computer-readable medium including instructions executable by a computer to cause the computer to perform operations comprising: collecting a plurality of communication detail records from a public land mobile network, the plurality of communication detail records including a plurality of terminal-node records, a plurality of node-core records, and a plurality of core-core records, each communication detail record including information representing at least a time, a requesting element, and a responding element; aligning, from among the plurality of communication detail records, consecutive communication detail records to form one or more end-to-end sessions, wherein each end-to-end session includes at least one terminal-node record, at least one node-core record, and at least one core-core record; counting, with respect to each element among requesting elements and responding elements represented in the plurality of communication detail records, a number of end-to-end sessions among the one or more end-to-end sessions including the respective element and an error indication associated with any communications within the end-to-end session, such that the number of ended-to-end sessions for a given element is increased by one for each end-to-end session that includes the given element and the error indication; and identifying, based on the individual counted numbers of end-to-end sessions of each element and the error indication, a responsible element among the requesting elements and the responding elements.",
+  "patent_id": "US12382320-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 24/08",
+      "H04L 41/0631"
+    ],
+    "all": [
+      "H04W 24/08",
+      "H04L 41/0631"
+    ],
+    "source": "converted"
+  }
+}

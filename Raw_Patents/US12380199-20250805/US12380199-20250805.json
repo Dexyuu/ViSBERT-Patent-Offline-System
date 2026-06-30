@@ -1,0 +1,26 @@
+{
+  "title": "Executing services across multiple trusted domains for data analysis",
+  "abstract": "Computing systems of a multi-tenant trusted domain collect metadata describing data stored in data sources of a set of tenant trusted domains. The computing systems of the multi-tenant trusted domain use the metadata to process natural language questions based on data stored in data sources of a tenant trusted domain. The computing systems of the multi-tenant trusted domain identify a set of data sources of the tenant trusted domain that are relevant for processing the natural language question and generate an execution plan for answering the natural language question. The computing systems of the multi-tenant trusted domain send the execution plan to one or more computing systems of the tenant trusted domain. The computing systems of the tenant trusted domain execute the execution plan and send the result of executing the execution plan to a client device that sent the natural language question.",
+  "claims": "1. A computer-implemented method comprising: collecting by one or more computing systems of a multi-tenant trusted domain, metadata describing data stored in data sources of a set of tenant trusted domains, the collecting comprising, for each tenant trusted domain: sending a request to perform data crawling to a computing system of the tenant trusted domain, and receiving by the one or more computing systems of the multi-tenant trusted domain, metadata describing data stored in one or more data sources of the tenant trusted domain; receiving by the one or more computing systems of the multi-tenant trusted domain, a natural language question for processing using data stored in data sources of a tenant trusted domain; identifying by the one or more computing systems of the multi-tenant trusted domain, a set of data sources of the tenant trusted domain that are relevant for processing the natural language question; generating by the one or more computing systems of the multi-tenant trusted domain, an execution plan for answering the natural language question, the execution plan generated based on the collected metadata; and sending by the one or more computing systems of the multi-tenant trusted domain, the execution plan to the one or more computing systems of the tenant trusted domain, wherein the one or more computing systems of the tenant trusted domain execute the execution plan and send a result of executing the execution plan to a client device that sent the natural language question.",
+  "patent_id": "US12380199-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/44",
+      "G06F 16/313",
+      "G06F 16/3329",
+      "G06F 16/3335",
+      "G06F 16/951",
+      "G06F 40/20"
+    ],
+    "all": [
+      "G06F 21/44",
+      "G06F 16/313",
+      "G06F 16/3329",
+      "G06F 16/3335",
+      "G06F 16/951",
+      "G06F 40/20"
+    ],
+    "source": "converted"
+  }
+}

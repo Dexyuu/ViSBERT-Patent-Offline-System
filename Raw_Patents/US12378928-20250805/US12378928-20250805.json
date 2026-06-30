@@ -1,0 +1,30 @@
+{
+  "title": "Engine control device, engine control system, and engine control program",
+  "abstract": "An engine control device includes: an injection command unit for outputting a fuel injection amount command value; a first calculation unit for outputting a fuel injection amount obtained by FB calculation based on an engine speed deviation to the injection command unit as a basic fuel injection amount; and a second calculation unit for outputting a fuel injection amount obtained by FF calculation based on an engine load at present of an engine to the injection command unit as a FF fuel injection amount. The fuel injection amount command value switches from a fuel injection amount calculated based on the basic fuel injection amount by the injection command unit to a fuel injection amount calculated based on a value obtained by adding the FF fuel injection amount to the basic fuel injection amount, if it is determined that a load application state has occurred in which the engine load before a prescribed time, which is not greater than a prescribed value, increases by not less than a variation threshold.",
+  "claims": "1. An engine control device, comprising: an injection command unit for outputting a fuel injection amount command value indicating a fuel injection amount supplied to an engine; a first calculation unit for outputting a fuel injection amount obtained by feedback calculation based on an engine speed deviation which is a deviation between an actual engine speed and a target engine speed of the engine to the injection command unit as a basic fuel injection amount; a second calculation unit for outputting a fuel injection amount obtained by feedforward calculation based on an engine load at present of the engine to the injection command unit as a feedforward fuel injection amount; and a first determination unit for determining whether a load application state has occurred in which the engine load before a prescribed time, which is not greater than a prescribed value, increases by not less than a variation threshold, wherein the engine control device is configured to switch from a normal control mode where the injection command unit outputs, as the fuel injection amount command value, a first fuel injection amount calculated based on the basic fuel injection amount to a load application control mode where the injection command unit outputs, as the fuel injection amount command value, a second fuel injection amount calculated based on a value obtained by adding the feedforward fuel injection amount to the basic fuel injection amount, if the first determination unit determines that the load application state has occurred.",
+  "patent_id": "US12378928-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "F02D 41/401",
+      "F02D 41/0097",
+      "F02D 41/1401",
+      "F02D 29/06",
+      "F02D 2041/1409",
+      "F02D 2041/141",
+      "F02D 2200/1002",
+      "F02D 2200/101"
+    ],
+    "all": [
+      "F02D 41/401",
+      "F02D 41/0097",
+      "F02D 41/1401",
+      "F02D 29/06",
+      "F02D 2041/1409",
+      "F02D 2041/141",
+      "F02D 2200/1002",
+      "F02D 2200/101"
+    ],
+    "source": "converted"
+  }
+}

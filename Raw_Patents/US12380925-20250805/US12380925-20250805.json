@@ -1,0 +1,20 @@
+{
+  "title": "Auto trimming for augmented reality content in messaging systems",
+  "abstract": "The subject technology receives frames of a source media content. The subject technology detects from the frames of the source media content, a first gesture indicating a cut point at a particular frame of the source media content, the cut point associated with a trimming operation to be performed on the source media content. The subject technology selects a starting frame and an ending frame from the frames based at least in part on the cut point at the particular frame. The subject technology performs the trimming operation based on the starting frame and the ending frame. The subject technology generates a second media content using the third set of frames. The subject technology provides for display at least a portion of the third set of frames of the second media content.",
+  "claims": "1. A method, comprising: receiving, by one or more hardware processors, frames of a source media content, the frames of the source media content being ordered in a temporal sequence corresponding to a period of time; detecting, by the one or more hardware processors, from the frames of the source media content, a first gesture at a particular frame of the source media content; setting, by the one or more hardware processors, a cut point to a different frame at a threshold amount of frames before the particular frame indicating a start of the first gesture, a particular set of frames after the cut point being discarded as part of a trimming operation; selecting, by the one or more hardware processors, a starting frame and an ending frame from the frames based at least in part on the cut point, the ending frame corresponding to a second particular frame before the cut point at the different frame, the ending frame including a representation of a user and hands of the user; performing, by the one or more hardware processors, the trimming operation based on the starting frame and the ending frame, the trimming operation discarding a second set of frames subsequent to the ending frame and retaining a third set of frames prior to the second set of frames; generating, by the one or more hardware processors, a second media content using the third set of frames; and providing for display, by the one or more hardware processors, at least a portion of the third set of frames of the second media content.",
+  "patent_id": "US12380925-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G11B 27/031",
+      "G06T 19/006",
+      "G06V 40/28"
+    ],
+    "all": [
+      "G11B 27/031",
+      "G06T 19/006",
+      "G06V 40/28"
+    ],
+    "source": "converted"
+  }
+}

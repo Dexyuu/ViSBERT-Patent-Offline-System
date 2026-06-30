@@ -1,0 +1,18 @@
+{
+  "title": "Speech recognition device for dentistry and method using the same",
+  "abstract": "A speech recognition device for dentistry includes a processor, and a memory storing one or more instructions. The instructions are executed by the processor to obtain a sound containing noise and speech generated during a dental treatment, perform a noise cancelling on the sound, and run a speech-to-text (STT) model trained using a self-supervised learning method. The STT model executes extracting a feature from each of the sound with the noise cancelling and from the sound without the noise cancelling, obtaining an encoding vector by assigning a weight to each of the features and processing the features, and obtaining a script for the speech by decoding the encoding vector. Further, the self-supervised learning method includes a fine-tuning process in which sounds containing noises and speeches that are generated during the dental treatment and a script for each of the speeches are used as a training data.",
+  "claims": "1. A speech recognition device for dentistry, comprising: a processor; and a memory that stores one or more instructions that, when executed by the processor, cause the processor to perform operations including: obtaining a sound containing noise and speech generated during a dental treatment, performing a noise cancelling process on the obtained sound so that the sound with the noise cancelling process and the sound without the noise cancelling process are generated, and running a speech-to-text (STT) model trained using a self-supervised learning method, wherein the STT model executes a process of extracting a feature from the sound with the noise cancelling process and a feature from the sound without the noise cancelling process, a process of obtaining an encoding vector by assigning a predetermined weight to each of the extracted features and processing the features, and a process of obtaining a script for the speech by decoding the obtained encoding vector, wherein the self-supervised learning method includes a fine-tuning process and, in the fine-tuning process, a plurality of sounds containing noises and speeches that are generated during the dental treatment and a script for each of a plurality of speeches are used as a training data, in a pre-training process for an encoding part included in the STT model, the noise cancelling process is performed on a sound containing speech and noise that serves as an input data for training so that the sound with the noise cancelling process and the sound without the noise cancelling process are generated, a feature is extracted from the sound serving as the input data for training on which the noise cancelling process is not performed and a feature is extracted from the sound serving as the input data for training on which the noise cancelling process is performed, an encoding vector for training is obtained by assigning a predetermined weight to each of the feature extracted from the sound serving as the input data for training on which the noise cancelling process is not performed and the feature extracted from the sound serving as the input data for training on which the noise cancelling process is performed, and processing the features, and a training is performed such that a difference between the encoding vector for training and a feature vector is minimized, wherein the feature vector is converted from an extracted feature for label data for training.",
+  "patent_id": "US12380891-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 15/26",
+      "G10L 15/063"
+    ],
+    "all": [
+      "G10L 15/26",
+      "G10L 15/063"
+    ],
+    "source": "converted"
+  }
+}

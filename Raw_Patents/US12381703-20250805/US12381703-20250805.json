@@ -1,0 +1,18 @@
+{
+  "title": "Full duplex communication techniques",
+  "abstract": "Full-duplex communication techniques are described. Some aspects may utilize full-duplex-slot formats, such as may be provided in addition to or in the alternative to uplink, downlink, and flexible slot formats. A full-duplex slot implemented in accordance with a full-duplex-slot format provides a slot in which the frequency band may be used for both uplink and downlink transmissions. Downlink and/or uplink transmissions of a full-duplex slot may occur in overlapping frequency bands or in adjacent frequency bands. A first wireless device may transmit slot signaling comprising one or more full-duplex-slot-indicator parameters. A second wireless device may base one or more full-duplex slot configuration determinations on a full-duplex-slot configuration. The second wireless device may apply one or more full-duplex-slot-indicator-parameter rules with respect to full-duplex-slot-indicator parameters for determining a full-duplex-slot format. Other aspects and features are also claimed and described.",
+  "claims": "1. A method of wireless communication by a wireless communication device, comprising: communicating full-duplex-slot signaling designating use of a full-duplex-slot format, wherein each symbol communicated using the full-duplex-slot format is configurable to contain a downlink only symbol, an uplink only symbol, or a full-duplex symbol, wherein the full-duplex-slot signaling indicates that another slot format is being overridden with the full-duplex-slot format; communicating one or more full-duplex-slot parameters indicating a respective symbol to be communicated according to the full-duplex-slot format as downlink only, uplink only, or full-duplex; and communicating, using the full-duplex-slot format, one or more symbols as downlink only symbols, uplink only symbols, or full-duplex symbols in accordance with the one or more full-duplex-slot parameters.",
+  "patent_id": "US12381703-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/14",
+      "H04W 72/0446"
+    ],
+    "all": [
+      "H04L 5/14",
+      "H04W 72/0446"
+    ],
+    "source": "converted"
+  }
+}

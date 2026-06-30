@@ -1,0 +1,20 @@
+{
+  "title": "Polymorphic dynamic firewall",
+  "abstract": "A method, computer system, and a computer program product is provided for establishing a dynamically adaptive network firewall. A firewall model is established that identifies resources that can be used and a plurality of nodes that connect to one another to form a network. A set of external rules and policies are provided to each resource. The firewall implemented using the firewall model upon receiving of incoming data and upon traffic flow. The firewall expands or contracts the network by adding or removing resources according to work that needs to be performed. The work includes both tasks to be completed and efforts that has to be taken by the firewall to ensure security by preventing unauthorized access into the network.",
+  "claims": "1. A method for constructing a dynamically adaptive network firewall, comprising: identifying a plurality of nodes and resources connected to one another in a network having a network firewall, through which a data traffic flows; creating a logical entity of firewall resources and services with a surface area; establishing a firewall model for providing traffic flow using said logical entity having one or more Internet Protocol addresses or domain name systems and preventing unauthorized access to resources, wherein said firewall model directs said data traffic flow by establishing reference pointers to a set of external rules and rules lists; using said firewall model, to instantiating resources as needed according to resource capability for handing one or more task completion and/or for providing network security for said network firewall, wherein said firewall grows or contracts according to characteristics of data traffic flow and includes one or more resources provided geographically through one or more cloud providers; implementing said firewall network using said firewall model using said instantiated resources and dynamically using said model upon receiving data traffic, to expands or contracts said network by said firewall model by adding or removing resources according to work relating to handling said one or more task completion and work related to providing network security so unauthorized access to said network is prevented; continuously monitoring said network using said firewall model so that unauthorized access to said network is prevented and determining any vulnerabilities to said firewall through said monitoring to modify said firewall and said network as needed.",
+  "patent_id": "US12381849-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/0263",
+      "H04L 63/1425",
+      "H04L 63/1433"
+    ],
+    "all": [
+      "H04L 63/0263",
+      "H04L 63/1425",
+      "H04L 63/1433"
+    ],
+    "source": "converted"
+  }
+}

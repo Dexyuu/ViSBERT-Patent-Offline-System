@@ -1,0 +1,20 @@
+{
+  "title": "Control method, semiconductor memory, and electronic device",
+  "abstract": "An impedance control strategy for a Data Mask Pin (DM pin) in a preset test mode is provided, so that the impedance of the DM pin in the preset test mode may be defined. In addition, the relation between a control signal configured to control whether to enable the DM pin in a Double Data Rate 5 SDRAM (DDR5) and a control signal configured to control whether the DM pin is a test object in a Package Output Driver Test Mode (PODTM) is specified. The impedance of the DM pin may be tested in the preset test mode.",
+  "claims": "1. A control method, applied to a semiconductor memory, the semiconductor memory comprising a Data Mask (DM) pin, wherein the DM pin is used for receiving an input mask signal, the input mask signal is a signal for controlling writing data into the semiconductor memory, and the method comprises: in response to that the semiconductor memory is in a preset test mode, when a fourth Operand (OP) in a first Model Register (MR) indicates to enable the DM pin, controlling an impedance of the DM pin to be a first impedance parameter or a second impedance parameter according to a third OP in a third MR, wherein the third OP indicates whether the DM pin is to be tested in the preset test mode; or when the fourth OP in the first MR indicates not to enable the DM pin, controlling the impedance of the DM pin to be in a high impedance state.",
+  "patent_id": "US12380961-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G11C 29/46",
+      "G11C 29/1201",
+      "G11C 29/38"
+    ],
+    "all": [
+      "G11C 29/46",
+      "G11C 29/1201",
+      "G11C 29/38"
+    ],
+    "source": "converted"
+  }
+}

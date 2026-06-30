@@ -1,0 +1,26 @@
+{
+  "title": "Semiconductor memory device and operation method thereof",
+  "abstract": "A semiconductor memory device, includes, a cell array including a plurality of memory banks, a command decoder configured to decode a read/write command, a read command, and a write command that are input from outside of the semiconductor memory device, an address decoder receiving a read address and a write address, an input receiver configured to transmit write data input through a write data pad to a global input/output driver of a memory bank corresponding to the write address, and an output driver configured to transmit read data output from an input/output sense amplifier of a memory bank corresponding to the read address to a read data pad, wherein the write data is input via the write data pad in a single data rate method and transmitted to the global input/output driver without deserialization processing, and the read data is transmitted from the input/output sense amplifier to the read data pad without serialization processing. In some embodiments, the semiconductor memory device is electrically and physically coupled to a central processing unit by hybrid copper bonding.",
+  "claims": "1. A semiconductor memory device comprising: a cell array comprising a plurality of memory banks; a command decoder configured to decode a read/write command, a read command, and a write command that are input from outside of the semiconductor memory device; an address decoder receiving a read address and a write address; an input receiver configured to transmit write data input through a write data pad to a global input/output driver of a first memory bank corresponding to the write address; and an output driver configured to transmit read data output from an input/output sense amplifier of a second memory bank corresponding to the read address to a read data pad, wherein the write data is input via the write data pad in a single data rate method and transmitted to the global input/output driver without deserialization processing, and the read data is transmitted from the input/output sense amplifier to the read data pad without serialization processing, wherein the read data pad or the write data pad is electrically connected to a central processing unit by hybrid copper bonding, wherein a first number of read data pads or a second number of write data pads corresponds to a cache line size of the central processing unit, and wherein the read data pads comprise the read data pad and the write data pads comprise the write data pad.",
+  "patent_id": "US12380935-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G11C 7/1096",
+      "G11C 5/06",
+      "G11C 7/1039",
+      "G11C 7/1093",
+      "G11C 5/025",
+      "G11C 7/1075"
+    ],
+    "all": [
+      "G11C 7/1096",
+      "G11C 5/06",
+      "G11C 7/1039",
+      "G11C 7/1093",
+      "G11C 5/025",
+      "G11C 7/1075"
+    ],
+    "source": "converted"
+  }
+}

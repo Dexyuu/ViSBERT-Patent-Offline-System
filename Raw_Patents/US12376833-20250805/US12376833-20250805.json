@@ -1,0 +1,24 @@
+{
+  "title": "Methods and systems for random noise supression and filtering of acoustic clutter via autoregressive moving average filter",
+  "abstract": "Systems and methods for suppressing random noise, acoustic clutter, and/or reverberation clutter in ultrasound images are disclosed. An autoregressive moving average (ARMA) filtering technique that includes generating a predictive error filter and estimating noise in ultrasound channel data is disclosed. Time-space and frequency-space ARMA filtering techniques are disclosed. An ultrasound imaging system capable of implementing the ARMA filtering techniques is disclosed.",
+  "claims": "1. A method comprising: transmitting ultrasound waves with a transducer array of an ultrasound system; receiving echo information with the transducer array, the echo information responsive to the ultrasound waves; acquiring ultrasound channel data at a signal processor, the ultrasound channel data comprising radio frequency (RF) signals based on the echo information; generating a predictive error filter with an autoregressive moving average model based at least in part, on the ultrasound channel data with the signal processor, wherein generating the predictive error filter includes solving an eigenvalue problem comprising a correlation matrix of a noisy sequence times a predictive error matrix equal to a variance of noise times the predictive error matrix; estimating, with the predictive error filter, noise in the ultrasound channel data, wherein estimating the noise comprises; applying the predictive error filter to the ultrasound channel data to estimate a colored noise sequence; and estimating an additive noise sequence using the estimated colored noise sequence, and wherein the additive noise sequence includes off-axis clutter; subtracting the noise from the ultrasound channel data to obtain clean channel data with the signal processor, wherein generating the predictive error filter, estimating the additive noise sequence, and subtracting noise from the ultrasound channel data are performed in a time-space domain; iteratively performing the generating, the estimating, and the subtracting based, at least in part, on the clean channel data, wherein a number of iterations of the generating, the estimating, and the subtracting is automatically determined by the signal processor based on a desired level of contrast or a signal-to-noise ratio; generating image data for display based, at least in part, on the clean channel data; and displaying an image based on the image data.",
+  "patent_id": "US12376833-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 8/5269",
+      "G01S 7/52046",
+      "G01S 7/52077",
+      "G01S 15/8915",
+      "A61B 8/0883"
+    ],
+    "all": [
+      "A61B 8/5269",
+      "G01S 7/52046",
+      "G01S 7/52077",
+      "G01S 15/8915",
+      "A61B 8/0883"
+    ],
+    "source": "converted"
+  }
+}

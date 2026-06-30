@@ -1,0 +1,16 @@
+{
+  "title": "Wheel state obtaining system and wheel state obtaining method",
+  "abstract": "A wheel state obtaining system configured to obtain a wheel state that is a state of at least one of a plurality of wheels of a vehicle includes: a wheel speed detection device configured to detect a wheel speed of each of the plurality of wheels; a traveling state detection device configured to detect a traveling state of the vehicle; and a controller. When the traveling state of the vehicle detected by the traveling state detection device is a predetermined set state, the controller obtains a wheel speed difference of two of the plurality of wheels based on the wheel speeds of the plurality of wheels detected by the wheel speed detection device. The controller determines whether at least one of the two wheels is in an abnormal state based on the wheel speed difference.",
+  "claims": "1. A wheel state obtaining system configured to obtain a fastened condition of at least one of a plurality of wheels of a vehicle, comprising: a wheel speed detection device configured to detect a wheel speed of each of the plurality of wheels; a traveling state detection device configured to detect a traveling state of the vehicle; and a controller, wherein the vehicle includes two wheel pairs each of which is constituted by two of four or more wheels that are the plurality of wheels, wherein, when the traveling state of the vehicle detected by the traveling state detection device is a predetermined set state, the controller obtains the wheel speed difference of the two wheels of one of the two wheel pairs and the wheel speed difference of the two wheels of the other of the two wheel pairs based on the wheel speeds of the plurality of wheels detected by the wheel speed detection device, wherein the controller obtains a ratio between the wheel speed differences for the two wheel pairs and determines, based on the obtained ratio, the presence or absence of looseness of the fastened condition of at least one of the four or more wheels, and wherein, when the presence of looseness of the fastened condition of at least one of the four or more wheels is determined, the controller notifies the presence of looseness of the fastened condition to an occupant of the vehicle via a display of the vehicle.",
+  "patent_id": "US12380744-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G07C 5/02"
+    ],
+    "all": [
+      "G07C 5/02"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Synchronously programming multiple memory devices",
+  "abstract": "An example computer-implemented method for synchronously programming multiple memory modules includes sending one or more instructions to each of the memory modules to perform a first data operation associated with a computer software update. In response to determining that each of the memory modules have received the first instructions to perform the first data operation, time is spent waiting for the first data operation to be completed at each of the memory modules. One or more instructions are also sent to each of the memory modules to perform a second data operation associated with the computer software update. In response to determining that each of the memory modules have received the second instructions to perform the second data operation, time is spent waiting for the second data operation to be completed at each of the memory modules. Furthermore, the data is validated across the memory modules.",
+  "claims": "1. A computer-implemented method for synchronously programming multiple memory modules, each of the multiple memory modules including a connector, a sub-controller, and a memory coupled to the sub-controller, the computer-implemented method comprising: sending one or more first instructions via a baseboard management controller to perform a first data operation associated with a computer software update, the one or more first instructions being sent to the connector of each of the multiple memory modules coupled to a multiplexer and received by the corresponding sub-controller, wherein each of the multiple memory modules are selected by the multiplexer by an output from a controller coupled to the baseboard management controller; in response to determining that each of the multiple memory modules has received the first instructions to perform the first data operation, performing the first instructions via the corresponding sub-controller, and determining that the first data operation is completed at each of the multiple memory modules; sending one or more second instructions via the baseboard management controller to perform a second data operation associated with the computer software update after determining the first data operation is completed at each of the multiple memory modules, the one or more second instructions being sent to the connector of each of the multiple memory modules selected by the output of the controller; in response to determining that each of the multiple memory modules has received the second instructions to perform the second data operation, performing the second instructions via the corresponding sub-controller, and determining that the second data operation is completed at each of the multiple memory modules; and validating data across the multiple memory modules via the baseboard management controller after determining the second data operation is completed.",
+  "patent_id": "US12379846-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0611",
+      "G06F 3/064",
+      "G06F 3/0659",
+      "G06F 3/0679"
+    ],
+    "all": [
+      "G06F 3/0611",
+      "G06F 3/064",
+      "G06F 3/0659",
+      "G06F 3/0679"
+    ],
+    "source": "converted"
+  }
+}

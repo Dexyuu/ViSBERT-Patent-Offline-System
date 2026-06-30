@@ -1,0 +1,20 @@
+{
+  "title": "Memory-aware pre-fetching and cache bypassing systems and methods",
+  "abstract": "Systems, apparatuses, and methods for memory management are described. For example, these may include a first memory level including memory pages in a memory array, a second memory level including a cache, a pre-fetch buffer, or both, and a memory controller that determines state information associated with a memory page in the memory array targeted by a memory access request. The state information may include a first parameter indicative of a current activation state of the memory page and a second parameter indicative of statistical likelihood (e.g., confidence) that a subsequent memory access request will target the memory page. The memory controller may disable storage of data associated with the memory page in the second memory level when the first parameter associated with the memory page indicates that the memory page is activated and the second parameter associated with the memory page is greater than or equal to a threshold.",
+  "claims": "1. A computing system comprising: a processor configured to generate a first request targeting a first memory cell; a memory bus coupled to the processor; a memory array comprising a plurality of memory pages, wherein a first memory page of the plurality of memory pages comprises a first plurality of memory cells, and the first plurality of memory cells comprises the first memory cell; and a memory controller coupled to the memory bus and the memory array, wherein the memory controller is configured to: determine a first parameter associated with a probability of the processor to generate a number of successive requests targeting the first plurality of memory cells; and disable caching or pre-fetching the first plurality of memory cells in response to the first request based on the first parameter being equal to or above a threshold, and wherein the processor is configured to generate a second request targeting a second memory cell of a second plurality of memory cells after generating the first request, wherein a second memory page of the plurality of memory pages comprises the second plurality of memory cells, and wherein the memory controller is configured to: determine a second parameter associated with a probability of the processor to generate a number of successive requests targeting the second memory page; enable caching or pre-fetching the second plurality of memory cells in response to the second request based on the first parameter being greater than the second parameter; and disable caching or pre-fetching the second plurality of memory cells in response to the second request based on the second parameter being greater than the first parameter.",
+  "patent_id": "US12380032-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 12/0888",
+      "G06F 12/0862",
+      "G06F 12/0897"
+    ],
+    "all": [
+      "G06F 12/0888",
+      "G06F 12/0862",
+      "G06F 12/0897"
+    ],
+    "source": "converted"
+  }
+}

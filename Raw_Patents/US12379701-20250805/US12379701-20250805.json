@@ -1,0 +1,28 @@
+{
+  "title": "Method for transmitting data between a central control apparatus and a plurality of decentralized devices, and corresponding means",
+  "abstract": "More efficient data transmission of safety-relevant data is achieved by a method for transmitting data between the central control apparatus and a plurality of decentralized devices, which includes generating, in the central control apparatus, a data telegram for the broadcast or multicast transmission of data to a plurality of devices, unidirectionally transmitting the data telegram from the central control apparatus to at least one decentralized device, monitoring the transmission duration of the transmission of the data telegram from the central control apparatus to the at least one decentralized device, and triggering a predetermined safety reaction if the transmission duration exceeds a predefined value. Further, a control and data transmission system designed to carry out the method, and means belonging to such a system.",
+  "claims": "1. A method for transmitting data between a central control apparatus and a plurality of decentralized devices, having the following steps: generating, in the central control apparatus, a data telegram for the multicast transmission of data to a group of the of devices that are located in a defined spatial region, the data telegram comprising identification information that identifies the defined spatial region; unidirectionally transmitting the data telegram from the central control apparatus to at least one of the decentralized devices of the group, wherein the at least one of the decentralized devices of the group is designed to recognize whether it is currently located in the spatial region identified by the identification information, and wherein the data telegram is transmitted wirelessly from the central control apparatus to the at least one of the decentralized devices of the group; monitoring the transmission duration of the transmission of the data telegram from the central control apparatus to the at least one of the decentralized devices of the group, wherein the monitoring step is performed with synchronized timers or wherein the monitoring step is performed by the step of establishing a data connection configured for bidirectional communication between the central control apparatus and the at least one of the decentralized devices of the group, the data telegram being transmitted unidirectionally from the central control apparatus to the at least one of the decentralized devices of the group via this data connection; and triggering a predetermined safety reaction if the transmission duration exceeds a predetermined value.",
+  "patent_id": "US12379701-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05B 19/0425",
+      "H04L 12/403",
+      "H04L 43/0847",
+      "H04L 43/0858",
+      "H04L 43/106",
+      "H04L 43/16",
+      "G05B 2219/50393"
+    ],
+    "all": [
+      "G05B 19/0425",
+      "H04L 12/403",
+      "H04L 43/0847",
+      "H04L 43/0858",
+      "H04L 43/106",
+      "H04L 43/16",
+      "G05B 2219/50393"
+    ],
+    "source": "converted"
+  }
+}

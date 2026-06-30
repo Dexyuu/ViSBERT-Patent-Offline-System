@@ -1,0 +1,24 @@
+{
+  "title": "Detection of container incidents using machine learning techniques",
+  "abstract": "Methods, apparatus, and processor-readable storage media for detecting container incidents using machine learning techniques are provided herein. An example method includes generating first and second representations of a telemetry dataset associated with a software container in an edge computing environment, the telemetry dataset including values for a set of parameters for each of a plurality of timestamps; providing the first representation to a predictive model to obtain a predicted remaining lifetime of the software container; providing the second representation of the telemetry dataset to a first machine learning model to obtain a predicted behavior of the software container; determining, using a second machine learning model, whether the predicted behavior of the software container corresponds to a pattern of behavior that is associated with previous container incidents; and triggering an automated action for the software container in response to determining that the predicted behavior corresponds to the pattern of behavior.",
+  "claims": "1. A computer-implemented method comprising: generating a first representation and a second representation of a telemetry dataset associated with a software container in an edge computing environment, wherein the telemetry dataset comprises values for a set of parameters for each of a plurality of timestamps, wherein the first representation comprises a state transition graph and the second representation corresponds to a sequence of digital image frames, wherein generating a given digital image frame in the sequence comprises converting the values captured for the set of parameters over a particular time period into pixels; providing the first representation of the telemetry dataset to a predictive model to obtain a predicted remaining lifetime of the software container; providing the second representation of the telemetry dataset to a first machine learning model to obtain a predicted behavior of the software container, wherein the predicted behavior of the software container is based at least in part on the predicted remaining lifetime of the software container; determining, using a second machine learning model, whether the predicted behavior of the software container corresponds to at least one pattern of behavior that is associated with at least one previous container incident; and triggering at least one automated action for the software container in response to determining that the predicted behavior of the software container corresponds to the at least one pattern of behavior; wherein the method is performed by at least one processing device comprising a processor coupled to a memory.",
+  "patent_id": "US12380327-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 3/08",
+      "G06F 18/217",
+      "G06F 18/241",
+      "G06N 3/044",
+      "G06N 3/045"
+    ],
+    "all": [
+      "G06N 3/08",
+      "G06F 18/217",
+      "G06F 18/241",
+      "G06N 3/044",
+      "G06N 3/045"
+    ],
+    "source": "converted"
+  }
+}

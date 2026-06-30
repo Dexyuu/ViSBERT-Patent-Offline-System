@@ -1,0 +1,38 @@
+{
+  "title": "Radio-frequency signal processing systems and methods",
+  "abstract": "The present disclosure provides radio-frequency (RF) systems that can detect the presence of RF signals received by the system, as well as determine characteristics such as the operating frequency of RF signals, the type of RF source that transmitted each RF signal, and/or the location of each RF source with high precision and sensitivity while using low cost, scalable electronics that are versatile enough for deployment in a variety of environments. Such systems can employ a network of RF sensors that can coordinate in response to communication with a computer to perform any such detection and/or determination using trained models executed onboard the RF sensors and/or the computer. RF signals may have unique characteristics when received at one or more RF sensors that may be detected using trained models described herein, even in high noise or non-line of sight (LOS) environments and with low cost, low resolution RF receiver hardware.",
+  "claims": "1. A radio-frequency (RF) sensor, comprising: an RF antenna; and a processor operatively coupled to memory and configured to: receive RF radiation via the RF antenna; input, to a trained model, data indicative of characteristics of an RF signal among the RF radiation; and based on an output from the trained model, determine at least one of: a frequency of the RF signal; a modulation type of the RF signal; a power level of the RF signal; a time period of reception of the RF signal at the RF sensor; a signal-to-noise ratio (SNR) of the RF sensor; an RF signal type of the RF signal; an association of the RF signal with a type of RF source; a deviation of the RF signal over time; a deviation in operating condition of an RF source of the RF signal; and/or that the RF signal is a new RF signal that is not associated with an operating environment in which the RF sensor received the RF signal, wherein the processor is configured to, based on the output of the trained model, determine the deviation of the RF signal over time, and the deviation is in power level and/or SNR.",
+  "patent_id": "US12381639-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 17/102",
+      "G01S 5/02213",
+      "H04B 7/15",
+      "H04B 17/13",
+      "H04B 17/18",
+      "H04B 17/3911",
+      "H04B 17/3913",
+      "H04W 4/38",
+      "G06F 18/214",
+      "H04B 1/0003",
+      "H04B 17/27",
+      "H04L 27/0002"
+    ],
+    "all": [
+      "H04B 17/102",
+      "G01S 5/02213",
+      "H04B 7/15",
+      "H04B 17/13",
+      "H04B 17/18",
+      "H04B 17/3911",
+      "H04B 17/3913",
+      "H04W 4/38",
+      "G06F 18/214",
+      "H04B 1/0003",
+      "H04B 17/27",
+      "H04L 27/0002"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Deep association for sensor fusion",
+  "abstract": "This document describes systems and techniques related to deep association for sensor fusion. For example, a model trained using deep machine learning techniques, may be used to generate an association score matrix that includes probabilities that tracks from different types of sensors are related to the same objects. This model may be trained using a convolutional recurrent neural network and include constraints not included in other training techniques. Focal loss can be used during training to compensate for imbalanced data samples and address difficult cases, and data expansion techniques can be used to increase the multi-sensor data space. Simple thresholding techniques can be applied to the association score matrix to generate an assignment matrix that indicates whether tracks from one sensor and tracks from another sensor match. In this manner, the track association process may be more accurate than current sensor fusion techniques, and vehicle safety may be increased.",
+  "claims": "1. A method comprising: determining, using first sensor data obtained by a first sensor of a vehicle, a first plurality of tracks, each track of the first plurality of tracks related to a different first object of a first plurality of objects; determining, using second sensor data obtained by a second sensor of the vehicle, a second plurality of tracks, each track of the second plurality of tracks related to a different second object of a second plurality of objects; generating, based on the first plurality of tracks and the second plurality of tracks, an association score matrix indicative of a probability that each first object in the first plurality of objects and each second object in the second plurality of objects are a same object; applying a threshold to each element of the association score matrix; generating, based on applying the threshold to the association score matrix, an assignment matrix that is indicative of each first object from the first plurality of objects being associated with a second object from the second plurality of objects; outputting, based on the assignment matrix and to an automotive system of the vehicle, information identifying that first objects from the first plurality of objects and second objects from the second plurality of objects, respectively, are same objects, and by the automotive system, based on the output information, navigating an environment of the vehicle, wherein generating the association score matrix comprises employing a model trained to extract abstract features from each track of the first plurality of tracks and each track of the second plurality of tracks, the model including an encoder, based on a convolutional neural network, and a decoder, based on a memory-based neural network, and wherein the model is trained with two constraints: a first constraint being that one track from the first plurality of tracks can be associated with only one track from the second plurality of tracks; and a second constraint being that one track from the second plurality of tracks can be associated with only one track from the first plurality of tracks.",
+  "patent_id": "US12380684-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/806",
+      "G01S 13/865",
+      "G01S 13/867",
+      "G01S 13/931",
+      "G01S 17/86",
+      "G01S 17/931",
+      "G06V 20/56"
+    ],
+    "all": [
+      "G06V 10/806",
+      "G01S 13/865",
+      "G01S 13/867",
+      "G01S 13/931",
+      "G01S 17/86",
+      "G01S 17/931",
+      "G06V 20/56"
+    ],
+    "source": "converted"
+  }
+}

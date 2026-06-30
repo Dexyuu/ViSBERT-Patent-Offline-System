@@ -1,0 +1,42 @@
+{
+  "title": "System and method for detecting handwriting problems",
+  "abstract": "A system for detecting handwriting problems may include a handwriting instrument including a body extending longitudinally between a first end and a second end, the first end having a writing tip which is able to write on a support, the handwriting instrument further including at least one motion sensor configured to acquire data on the handwriting of the user when a user is using the handwriting instrument, and one calculating unit communicating with the motion sensor and configured to analyze the data by an artificial intelligence trained to detect whether the user has handwriting problems.",
+  "claims": "1. A system for detecting handwriting problems comprising: a handwriting instrument including a body extending longitudinally between a first end and a second end, the first end having a writing tip which is able to write on a support; a detection device distinct from the handwriting instrument, the detection device comprising a body configured to be mounted on the second end of the handwriting instrument and a protuberant tip extending from the body of the detection device and configured to be inserted in the body of the handwriting instrument; wherein the detection device comprises: two motion sensors configured to acquire data on handwriting of a user when the user is using the handwriting instrument, said two motion sensors being three-axis accelerometers, or one three-axis accelerometer and one three-axis gyroscope; and-one calculating unit communicating with the two motion sensors and configured to analyze the data by an artificial intelligence trained to detect whether the user has handwriting problems; wherein a first motion sensor of the two motion sensors is provided on the protuberant tip of the detection device that is configured to be inserted in the body of the handwriting instrument and a second motion sensor of the two motion sensors is provided in the body of the detection device; wherein the artificial intelligence is at least one neural network configured to be trained by segmentation and classification of strokes to determine timestamps of the strokes on the support based upon motion signals sensed by the two motion sensors.",
+  "patent_id": "US12379790-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/03545",
+      "A61B 5/0015",
+      "A61B 5/1124",
+      "A61B 5/1126",
+      "A61B 5/6887",
+      "A61B 5/7264",
+      "A61B 5/7267",
+      "G06F 3/0346",
+      "G06F 18/214",
+      "G06V 30/228",
+      "G06V 30/347",
+      "G06V 30/373",
+      "A61B 2562/0219",
+      "G06F 3/04883"
+    ],
+    "all": [
+      "G06F 3/03545",
+      "A61B 5/0015",
+      "A61B 5/1124",
+      "A61B 5/1126",
+      "A61B 5/6887",
+      "A61B 5/7264",
+      "A61B 5/7267",
+      "G06F 3/0346",
+      "G06F 18/214",
+      "G06V 30/228",
+      "G06V 30/347",
+      "G06V 30/373",
+      "A61B 2562/0219",
+      "G06F 3/04883"
+    ],
+    "source": "converted"
+  }
+}

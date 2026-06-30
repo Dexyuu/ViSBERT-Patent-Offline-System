@@ -1,0 +1,22 @@
+{
+  "title": "Application degradation root causing and rerouting using time series clustering",
+  "abstract": "In one embodiment, a device forms clusters of network paths via which traffic for an online application is conveyed by applying clustering to time series of quality of experience metrics for the online application. The device calculates, for a particular cluster of network paths among the clusters of network paths, correlation metrics between path features of those network paths of that cluster. The device selects, based on the correlation metrics, a particular path feature from among the path features as a root cause of poor quality of experience metrics for the online application along the network paths of the particular cluster of network paths. The device provides, to a user interface, an indication of the particular path feature as being the root cause of poor quality of experience metrics for the online application.",
+  "claims": "1. A method comprising: forming, by a device, clusters of network paths via which traffic for an online application is conveyed by applying clustering to time series of quality of experience metrics for the online application; providing, by the device and to a user interface, the clusters of network paths as one or more time series plots, each comprising an indication of a commonality among the clusters of network paths; merging, by the device, two or more of the clusters of network paths into a particular cluster of network paths based on an instruction to do so from the user interface; calculating, by the device and for the particular cluster of network paths among the clusters of network paths, correlation metrics between path features of those network paths of the particular cluster of network paths, wherein the path features comprise a plurality of time series features including at least one of: a processor utilization over time, a memory utilization over time, a traffic load over time, or a queue length over time; selecting, by the device and based on the correlation metrics, a particular path feature from among the path features as a root cause of poor quality of experience metrics for the online application along the network paths of the particular cluster of network paths, wherein the particular path feature is a non-time series feature comprising a site, a service provider, or a type of tunnel transport; and providing, by the device and to a user interface, an indication of the particular path feature as being the root cause of poor quality of experience metrics for the online application.",
+  "patent_id": "US12381774-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 41/065",
+      "H04L 41/16",
+      "H04L 41/5067",
+      "H04L 45/46"
+    ],
+    "all": [
+      "H04L 41/065",
+      "H04L 41/16",
+      "H04L 41/5067",
+      "H04L 45/46"
+    ],
+    "source": "converted"
+  }
+}

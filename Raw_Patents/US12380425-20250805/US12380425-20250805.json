@@ -1,0 +1,18 @@
+{
+  "title": "Increasing accuracy of RFID-tag transactions",
+  "abstract": "This disclosure describes systems for enabling a just-walk-out (JWO) facility in which users may enter the facility, physically pick one or more items, and walk out of the facility to rent, purchase, or otherwise acquire the items without needing to perform a manual checkout for the items. In some instances, a tag, such as an RFID tag, may attach to each item in the facility, which may include an exit system that includes RFID readers for detecting when a tag exits the facility. The exit system may also include one or more additional sensors to help identify which of multiple checkout lanes the tag and item exited through for ensuring that the item is associated with the proper user account and/or the appropriate payment instrument is charged.",
+  "claims": "1. A method comprising: generating first reader data using one or more first reader antennas positioned proximate to a first zone of a first checkout lane in a facility, the first checkout lane also proximate to a first sensor to detect a user passing from the first zone of the first checkout lane to a second zone of the first checkout lane, wherein the first sensor comprises a beam-break sensor configured to generate first sensor data indicating that the user passes from the first zone of the first checkout lane to the second zone of the first checkout lane; causing a first physical gate located proximate to the first checkout lane to transition from a closed position to an open position at a different time than causing a second physical gate proximate to a second checkout lane to transition from the closed position to the open position, the first physical gate and the second physical gate configured to toggle between the closed position and the open position; generating second reader data using one or more second reader antennas positioned proximate to the second zone of the first checkout lane; analyzing the first reader data and the second reader data to determine a first time associated with a tag transitioning from the first zone of the first checkout lane to the second zone of the first checkout lane, wherein the tag is attached to an item; determining, based at least in part on the first sensor data from the first sensor, that the user passed from the first zone of the first checkout lane to the second zone of the first checkout lane at a second time that is within a threshold amount of time of the first time; and charging, at least partly in response to determining that the user has passed from the first zone of the first checkout lane to the second zone of the first checkout lane at the second time that is within the threshold amount of time of the first time, a payment instrument associated with the first checkout lane for the item.",
+  "patent_id": "US12380425-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/3278",
+      "G06K 7/10366"
+    ],
+    "all": [
+      "G06Q 20/3278",
+      "G06K 7/10366"
+    ],
+    "source": "converted"
+  }
+}

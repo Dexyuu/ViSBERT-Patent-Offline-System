@@ -1,0 +1,20 @@
+{
+  "title": "Cloud-based creation of a customer-specific symmetric key activation database",
+  "abstract": "The disclosed embodiments are related to securely updating a semiconductor device and in particular to a key management system. In one embodiment, a method is disclosed comprising receiving a request for an activation code database from a remote computing device, the request including at least one parameter; retrieving at least one pair based on the at least one parameter, the pair including a unique ID (UID) and secret key; generating an activation code for the UID; and returning the activation code to the remote computing device.",
+  "claims": "1. A device, comprising: a processor; and a storage medium for tangibly storing thereon program logic for execution by the processor, the stored program logic configured to cause the processor to: establish a connection with a computing device associated with a manufacturer of semiconductor devices; receive a plurality of pairs from the computing device associated with the manufacturer, wherein each of the plurality of pairs comprises a unique identifier and a secret key, and wherein the plurality of pairs correspond to a plurality of semiconductor devices manufactured by the manufacturer; and receive, from a customer computing system associated with a customer of the manufacturer, a customer identifier and customer authentication key associated with the customer of the manufacturer, wherein the plurality of pairs received from the computing device are associated with the customer identifier.",
+  "patent_id": "US12381735-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/3242",
+      "H04L 9/0861",
+      "H04L 9/3215"
+    ],
+    "all": [
+      "H04L 9/3242",
+      "H04L 9/0861",
+      "H04L 9/3215"
+    ],
+    "source": "converted"
+  }
+}

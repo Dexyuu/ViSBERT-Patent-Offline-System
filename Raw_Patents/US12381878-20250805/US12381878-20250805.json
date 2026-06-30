@@ -1,0 +1,24 @@
+{
+  "title": "Architecture for selective use of private paths between cloud services",
+  "abstract": "Systems and methods are provided for allowing function-initiated traffic of an on-demand code execution system within a cloud provider network to be routed to a private path such based on opt-in settings. An opt-in request may be received indicating a desire of a function invoker to use a private path. Subsequent to the opt-in request, a function invocation request may be received to send communication to a service within the cloud provider network and external to the on-demand code execution system. Subsequent to the function invocation request, a virtual execution environment may be configured to execute the function with mapping of a network-based service to an IP address of a private endpoint. The function is then executed with its traffic sent to the private endpoint.",
+  "claims": "1. A system comprising: a cloud provider network in communication with a public internet; an on-demand code execution service comprising a first set of one or more computing devices within a virtual private cloud of the cloud provider network, wherein the on-demand code execution service is configured to provide on-demand execution of function code; a plurality of network-based services comprising a second set of one or more computing devices configured to provide computing services via both the cloud provider network and the public internet; and an endpoint manager configured to provide an opt-in option for a private path to the plurality of network-based services via private internet protocol (IP) addresses not accessible via the public internet, wherein the endpoint manager comprises a third set of one or more computing devices configured to: receive, from a function invoker, a first request to opt-in to the private path for communications from functions invoked by the function invoker on the on-demand code execution service; receive, from the function invoker, a second request to invoke a function; determine, based on the first request to opt-in to the private path, that all communications initiated by the invoked function to a network-based service of the plurality of network-based services are to remain within the cloud provider network until the communications reach the network-based service via the private IP addresses; and configure the on-demand code execution service to: execute code associated with the invoked function within a virtual execution environment of the on-demand code execution service; and route a communication, initiated by the invoked function executing in the virtual execution environment and destined for the network-based service, to a virtual private cloud endpoint associated with the on-demand code execution service, wherein the virtual private cloud endpoint is configured to route the communication to the network-based service only via the private IP addresses such that the communication does not travel over the public internet.",
+  "patent_id": "US12381878-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/10",
+      "H04L 61/4511",
+      "H04L 63/101",
+      "H04L 63/108",
+      "H04L 63/126"
+    ],
+    "all": [
+      "H04L 63/10",
+      "H04L 61/4511",
+      "H04L 63/101",
+      "H04L 63/108",
+      "H04L 63/126"
+    ],
+    "source": "converted"
+  }
+}

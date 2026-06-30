@@ -1,0 +1,22 @@
+{
+  "title": "Systems and methods for providing health care search recommendations",
+  "abstract": "Disclosed embodiments include computer-implemented methods and systems that can efficiently generate highly relevant recommended search terms to clinicians. A hybrid collaborative filtering model recommends search terms for a specific patient to the clinician. The model draws on information from patients' clinical encounters and the searches that were performed during the clinical encounters. To generate recommendations, the model uses search terms which are (1) frequently co-occurring with the ICD codes recorded for the patient and (2) highly relevant to the most recent search terms. One variation of the model uses only the most recent ICD codes assigned to the patient. Another variation uses all ICD codes. Comprehensive experiments of embodiments of the methods and systems have demonstrate high levels of performance.",
+  "claims": "1. A computer-implemented method for providing search term recommendations in connection with a current encounter for a subject, the method implemented by one or more processors, comprising: receiving previous search term information associated with search terms searched during one or more previous encounters for the subject; receiving previous ICD code information associated with one or more previous encounters for the subject; accessing a co-occurrence information source based on the previous search term information and the previous ICD code information, wherein the co-occurrence information source includes co-occurrence information associated with each of a plurality of reference search terms and a plurality of reference ICD codes; learning search term information and ICD code information by creating a co-occurrence matrix A to numerically represent each search term and each ICD code; generating, for each reference search term in the co-occurrence information source, a search term component score based on the previous search term information and the co-occurrence information; generating, for each reference search term in the co-occurrence information source, an encounter component score based on the previous ICD code information and the co-occurrence information; generating, for each reference search term in the co-occurrence information source, a recommendation score based on the search term component score and the encounter component score; and generating a set of one or more recommended search terms based upon the recommendation scores.",
+  "patent_id": "US12380139-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/3322",
+      "G06F 16/3334",
+      "G06F 16/337",
+      "G16H 10/60"
+    ],
+    "all": [
+      "G06F 16/3322",
+      "G06F 16/3334",
+      "G06F 16/337",
+      "G16H 10/60"
+    ],
+    "source": "converted"
+  }
+}

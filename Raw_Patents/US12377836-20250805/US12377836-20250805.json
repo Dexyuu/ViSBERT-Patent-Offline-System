@@ -1,0 +1,34 @@
+{
+  "title": "Method and apparatus for providing route guidance",
+  "abstract": "A route guidance apparatus includes: a reservation information communications unit to receive reservation information which includes at least one of a parking-reserved space of the parking lot, a vehicle type, a vehicle number, and a parking time; a reserved vehicle recognition unit to recognize a vehicle number of a reserved vehicle and determine whether the reserved vehicle enters or exits the parking lot; a traffic flow determination unit that divides an area of each floor of the parking lot into a plurality of unit areas and calculates density within the parking lot based on the number of vehicles within each divided unit area; and a parking route generation unit and an exit route generation unit that respectively generate an optimal parking route and an optimal exit route based on the calculated density; and a route guidance unit to provide the user with the generated optimal parking and exit routes.",
+  "claims": "1. A route guidance apparatus comprising: at least one memory storing computer-executable instructions; and at least one processor configured to execute the computer-executable instructions to: receive, from a communication device of a parking lot, reservation information comprising at least one of a parking-reserved space of the parking lot reserved by a user, a vehicle type, a vehicle number, or a parking time and transmit the reservation information to a communication terminal of the user; recognize a vehicle number of a reserved vehicle by using a camera at an entrance of the parking lot and determine whether the reserved vehicle enters the parking lot or exits the parking lot; divide each floor of the parking lot into a plurality of unit areas of a predetermined size; determine real-time density of each of the plurality of unit areas based on a number of vehicles within the unit area; generate an optimal parking route comprising a maximum number of a unit area whose density is determined to be low based on the calculated density; generate an optimal exit route comprising a maximum number of a unit area whose density is determined to be low based on the calculated density; provide the user with the optimal parking route when the reserved vehicle parks, and provide the user with the optimal exit route when the reserved vehicle exits; and control a speed and a steering angle of the reserved vehicle based on the optimal parking route or the optimal exit route so that the reserved vehicle moves to the parking-reserved space or exits up to the entrance of the parking lot when the reserved vehicle is an autonomous vehicle.",
+  "patent_id": "US12377836-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 30/06",
+      "B60W 60/001",
+      "G01C 21/3685",
+      "G06Q 10/02",
+      "G07C 9/00182",
+      "G08G 1/141",
+      "G08G 1/146",
+      "B60W 2710/20",
+      "B60W 2720/10",
+      "G06Q 2240/00"
+    ],
+    "all": [
+      "B60W 30/06",
+      "B60W 60/001",
+      "G01C 21/3685",
+      "G06Q 10/02",
+      "G07C 9/00182",
+      "G08G 1/141",
+      "G08G 1/146",
+      "B60W 2710/20",
+      "B60W 2720/10",
+      "G06Q 2240/00"
+    ],
+    "source": "converted"
+  }
+}

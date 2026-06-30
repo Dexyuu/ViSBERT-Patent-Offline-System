@@ -1,0 +1,21 @@
+{
+  "application_id": "WO2020021287",
+  "application_id_fs": null,
+  "title": "A mobile device liveness detection system",
+  "abstract": "A device (1) has a processor (4), a memory (5) a motion sensor (7), a front facing camera (3) and a user interface provided by a touch screen (2). In response to a requirement for user liveness detection, the processor (4) instructs the user to deploy the device in a facial image capture orientation in order to frame and capture a facial image (selfie) of the user. To confirm user liveness the CPU responds to the facial image capture to issues instructions that the device be moved from the facial image capture mode to a document capture mode. An identification document is framed in the touch screen by the user and an image of the document captured. Liveness is confirmed by the processor poling the motion sensor output signal during movement of the device from the facial image capture mode to the document capture mode. If the device motion sensor output meets predetermined movement parameters user liveness is confirmed. If the motion sensor does not meet the parameters user liveness is denied.",
+  "claims": "Claims ( 2 ) A mobile device liveness detection system having; a processor; a memory; a front facing visual display unit and control panel; at least a front facing camera; and a motion sensor said device responsive to a control action to run executable code stored in said  memory on said processor; said processor responsive to said code to switch said front facing camera to an on condition; said processor acting to present instructions to the user to frame an image of their face in the visual display unit using the front facing camera in a face capture orientation,  said processor responsive to the facial image being framed according to predetermined parameters to capture the facial image; said processor responsive to capturing the facial image to present instructions to the user to move the device and hence the field of view of the front facing camera to a document capture orientation, different from the face capture orientation, where an identity document is framed for capture by the front facing camera; characterised in that the executable code is responsive to the motion sensor sensing the movement of the device from the face capture orientation to the identity document orientation to verify liveness detection. A package of machine readable code stored in memory for communication to a device having a processor; a memory; a front facing visual display unit and control panel; at least a front facing camera; and a motion sensor, for installation in said device in executable form to implement the system of claim 1 on said device.",
+  "classifications": {
+    "ipc": [
+      "G06K 9/00",
+      "G06K 9/22",
+      "G06K 9/32"
+    ],
+    "cpc": [],
+    "all": [
+      "G06K 9/00",
+      "G06K 9/22",
+      "G06K 9/32"
+    ],
+    "source": "csv"
+  }
+}

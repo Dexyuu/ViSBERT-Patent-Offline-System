@@ -1,0 +1,26 @@
+{
+  "title": "Method and apparatus for stabilizing image display",
+  "abstract": "A HUD system includes a master configured to generate a height change signal for a HUD image and transmit the height change signal; a slave configured to receive the height change signal from the master and adjust a height of the HUD image according to the height change signal; and a connection device configured to connect the master to the slave, wherein the slave drives a motor configured to adjust the height of the HUD image when the slave receives the height change signal, and responds to the master through reflection of a stopped state during movement or a movement amount excess state of the motor to notify the master of a malfunction of the motor when driving of the motor is completed, and the master requests the slave to reset a position of the motor in response to the response of the slave.",
+  "claims": "1. A HUD system comprising: a master configured to generate a backlight turn-on or turn-off signal for generating a HUD image and transmitting the turn-on or turn-off signal; a slave configured to receive the turn-on or turn-off signal from the master and provide the backlight by driving an LED according to the turn-on or turn-off signal; and a connection device configured to connect the master to the slave, wherein: the slave is configured to drive the LED when receiving a request to turn on or turn off the backlight, and respond to the master through reflection of a turn-on or turn-off state of the LED to notify the master of the backlight state, wherein the request to turn on or turn off the backlight from the master is repeatedly performed a preset number of times, the master is configured to confirm the backlight state, and request the slave to turn on or turn off when the backlight state does not match the backlight turn-on or turn-off signal, the slave is configured to respond to the master through reflection of whether or not an LED driver fails to notify the master of a state of the LED driver when a mismatch between the backlight state and the backlight turn-on or turn-off signal exceeds the preset number of times, and the master is configured to record a failure and notifies a driver that the slave needs to be replaced when the failure of the LED driver is confirmed.",
+  "patent_id": "US12380819-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/002",
+      "G09G 3/3406",
+      "G09G 2330/12",
+      "G09G 2340/0471",
+      "G09G 2370/22",
+      "G09G 2380/10"
+    ],
+    "all": [
+      "G09G 3/002",
+      "G09G 3/3406",
+      "G09G 2330/12",
+      "G09G 2340/0471",
+      "G09G 2370/22",
+      "G09G 2380/10"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "System and method for augmented reality based indoor navigation",
+  "abstract": "The embodiments herein provide a method and system for an augmented reality based indoor navigation. The system creates an augmented reality (AR) based fingerprinting to perform the dynamic routing. A floor wise plan of the building is uploaded. The floor plan is converted to a floor plan graph. Then cloud anchors are created and placed across the floor. An anchor is a fixed position and orientation in the real world as recognized by any Augmented Reality (AR) device. Each time an anchor is placed, its position information is fingerprinted on the floorplan graph and that fingerprinting is saved in the database. When user scans for nearest QR code to identify their current position, the user location is identified and the planogram details, fingerprinting and pre-processed floorplan matrix are obtained from database. When user selects his destination, dynamic routing is performed to obtain shortest/optimized path viewed through augmented reality fingerprinting.",
+  "claims": "1. A processor-implemented method comprising: receiving, via an input/output interface, a floor plan for each of the one or more floors of a predefined building, wherein the floor plan is a scale diagram of each of the one or more floors of the predefined building; converting, via one or more hardware processors, the floor plan into a floor plan graph, wherein a pixel mapping is obtained by thresholding the floor plan graph; placing, via the one or more hardware processors, a plurality of cloud anchors across the floor, wherein a position information of each of the plurality of cloud anchors is fingerprinted on the floor plan graph; determining, via the one or more hardware processors, a logical sequence of the plurality of cloud anchors using a Prim's technique; converting, via the one or more hardware processors, the floor plan graph into a square matrix, wherein each of the plurality of cloud anchors of the square matrix are connected to a nearest cloud anchor; mapping, via the one or more hardware processors, the logical sequence of the plurality of cloud anchors to the pixel mapping to create an augmented reality (AR) fingerprint; and performing, via the one or more hardware processors, a dynamic routing to obtain an optimized path to a destination from a current location of a user based on the created AR fingerprint.",
+  "patent_id": "US12380614-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 11/206",
+      "G01C 21/206",
+      "G06K 7/1417",
+      "G06T 7/73",
+      "G06T 2207/30204"
+    ],
+    "all": [
+      "G06T 11/206",
+      "G01C 21/206",
+      "G06K 7/1417",
+      "G06T 7/73",
+      "G06T 2207/30204"
+    ],
+    "source": "converted"
+  }
+}

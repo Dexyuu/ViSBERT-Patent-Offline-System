@@ -1,0 +1,18 @@
+{
+  "title": "Processing unit, method and computer program for multiplication",
+  "abstract": "A processing unit for multiplying a first value by a first multiplicand, or for multiplying the first value by, in each instance, a second and third multiplicand. The processing unit receives the multiplicands in a logarithmic number format, so that the multiplicands are each present in the form of at least one exponent at a specifiable base. The processing unit includes a first register, in which either two exponents of the first multiplicand or the exponent of the second and the exponent of the third multiplicand are stored. A set configuration bit indicates whether either the two exponents of the first multiplicand or the exponent of the second and the exponent of the third multiplicand are stored in the first register. The processing unit includes at least two bitshift operators. A method and a computer program for multiplying the value by the multiplicand are also described.",
+  "claims": "1. A processing unit configured to multiply a first value by at least one multiplicand, the processing unit comprising: a first register, in which may be stored either: (i) two exponents of a first logarithmic number format of a first multiplicand, or (ii) an exponent of a second logarithmic number format of each of a second multiplicand and third a multiplicand, the processing unit being configured to set a configuration bit which indicates whether either: (i) the two exponents of the first multiplicand or (ii) the exponent of the second and the exponent of the third multiplicand, are stored in the first register; a first bitshift operator and a second bitshift operator, the first bitshift operator being configured to shift the first value by a number of places, which corresponds to a value of a first exponent of the stored exponents of the first register, and the second bitshift operator being configured to shift the first value by a second number of places, which corresponds to a value of a second exponent of the stored exponents of the first register; an adder configured to add up a result of the first bitshift operator and a result of the second bitshift operator; wherein the processing unit is configured to output a result of the adder if the configuration bit indicates that the two exponents of the first multiplicand is stored in the first register; and wherein the processing unit is configured to output the result of the second bitshift operator and the result of the first bitshift operator if the configuration bit indicates that the exponents of the second and third multiplicands are stored in the first register.",
+  "patent_id": "US12379897-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 7/4833",
+      "G06F 7/4876"
+    ],
+    "all": [
+      "G06F 7/4833",
+      "G06F 7/4876"
+    ],
+    "source": "converted"
+  }
+}

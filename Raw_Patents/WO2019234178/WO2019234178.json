@@ -1,0 +1,33 @@
+{
+  "application_id": "WO2019234178",
+  "application_id_fs": null,
+  "title": "An allergen warning system and method",
+  "abstract": "A system and method are provided for warning of an exposure of a second individual to an allergen by transfer from a first individual. Movements of the individuals are tracked so that allergen types and levels to which the individuals have been exposed can be obtained. Using knowledge of user sensitivity information to different allergens, it is determined if the first individual has been exposed to allergen types and levels which pose a risk to the second individual by transfer from the first individual to the second individual. Thus, action can be taken when there is a determined risk of allergen transfer between individuals.",
+  "claims": "Claims CLAIMS: 1. A system (10) for warning of an exposure of a second individual to an allergen to which the second individual is sensitive by transfer from a first individual, comprising: a first user device (12) for the first individual and a second user device (14) for the second individual, each user device comprising a tracking system (18) for tracking the movement of the respective individual; a database (24) which stores user sensitivity information to different allergens; and a controller (20, 28) which is adapted to: determine allergen types and levels to which the individuals have been exposed based on their movements; and determine if the first individual has been exposed to allergen types and levels which pose a risk to the second individual by allergen transfer from the first individual to the second individual. 2. A system as claimed in claim 1, wherein the controller comprises a user device controller (20) for determining the allergen types and levels to which the associated user has been exposed based on their movements, wherein the user device controller (20) comprises an input for receiving geographical allergen information which relates to allergen types and levels from a remote source (22) or from a database (24) which is part of the user device. 3. A system as claimed in claim 1 or 2, wherein each user device comprises a pollution sensor (26). 4. A system as claimed in any one of claims 1 to 3, wherein each user device is further adapted to provide a warning when the respective user has been exposed to allergen types and levels which pose a risk to that user. 5. A system as claimed in any one of claims 1 to 4, wherein the controller (24,28) is adapted to provide a control signal (34) for controlling an air treatment device (36) in response to a determined risk. 6. A system as claimed in any one of claims 1 to 5, wherein the controller (24, 28) is adapted to provide a warning signal for warning the first and/or second users of the posed risk. 7. A system as claimed in any one of claims 1 to 6, wherein the user devices are adapted to communicate with each other thereby together to implement the controller. 8. A system as claimed in any one of claims 1 to 6, wherein the controller comprises a system controller (28) which is part of a central system which is separate to the user devices (12, 14, 16), wherein the user devices are adapted to communicate with the system controller (28). 9. A system as claimed in claim 8, wherein the system controller (28) is for positioning in a shared habitation or working space of the users. 10. A system as claimed in any one of claims 1 to 9, comprising a plurality of more than two user devices (12, 14, 16), wherein the controller (28) is adapted to obtain the allergen types and levels and the user sensitivity information from all users, and thereby determine if any individual has been exposed to allergen types and levels which pose a risk to any other individual by allergen transfer between them. 11. A method for warning of an exposure of an allergen to a second individual, and to which allergen the second individual is sensitive, by transfer from a first individual, comprising: (50) tracking the movement of the the first and second individuals; (52) determining allergen types and levels to which the individuals have been exposed based on their movements; and (54) based on the allergen types and levels to which the individuals have been exposed and user sensitivity information to different allergens relating to the first and second users, determining if the first individual has been exposed to allergen types and levels which \n\n pose a risk to the second individual by allergen transfer from the first individual to the second individual. 12. A method as claimed in claim 11, wherein the movement tracking and determination of allergen types and levels are implemented by user-carried user devices (12, 14, 16). 13. A method as claimed in claim 11 or 12, wherein the determination of a posed risk is performed either by communication between the user devices (12, 14, 16) or by a central system controller (28), which is for example positioned in a shared habitation or working space of the users, and which is separate to the user devices and with which the user devices communicate. 14. A method as claimed in any one of claims 11 to 13, further comprising controlling an air treatment device in response to a determined risk and/or providing a warning signal for warning the first and/or second users of the posed risk. 15. A computer program comprising computer program code means which is adapted, when said program is run on a computer, to implement the method of any one of claims 11 to 14.",
+  "classifications": {
+    "ipc": [
+      "A61B 5/00",
+      "A61B 5/11",
+      "G01N 33/00",
+      "G16H 10/65",
+      "G16H 50/30",
+      "G08B 21/24",
+      "H04W 4/02",
+      "H04W 4/90",
+      "G01N 1/02"
+    ],
+    "cpc": [],
+    "all": [
+      "A61B 5/00",
+      "A61B 5/11",
+      "G01N 33/00",
+      "G16H 10/65",
+      "G16H 50/30",
+      "G08B 21/24",
+      "H04W 4/02",
+      "H04W 4/90",
+      "G01N 1/02"
+    ],
+    "source": "csv"
+  }
+}

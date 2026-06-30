@@ -1,0 +1,24 @@
+{
+  "title": "Luma mapping with chroma scaling for gradual decoding refresh",
+  "abstract": "A method, apparatus, and computer program product provide for management of luma mapping with chroma scaling (LMCS) processes for Gradual Decoding Refresh (GDR) pictures. In the context of a method, the method accesses a picture to be decoded and determines whether the picture is within a GDR period. The method can also prevent a LMCS decoding process from being applied to the picture within the GDR period. Another method can determine whether a virtual boundary is within a current coding tree unit of a picture with a GDR period and if so, prevent a chroma residual scaling decoding process associated with LMCS from being applied to one or more coding units within a clean area. Another method can pad a neighboring pixel area from one or more reconstructed pixels in a clean area for a chroma residual scaling decoding process associated with LMCS.",
+  "claims": "1. An apparatus comprising: at least one processor; and at least one memory storing instructions that, when executed with the at least one processor, cause the apparatus to: access a picture to be decoded; determine whether the picture is within a gradual decoding refresh period; and based on determining that the picture is within the gradual decoding refresh period: prevent a chroma residual scaling from occurring to prevent a process of a luma mapping with chroma scaling process from being applied to the picture, wherein based on the determining, a syntax flag is set to a value indicating that a decoding process for chroma residual scaling associated with luma mapping with chroma scaling will not occur.",
+  "patent_id": "US12382072-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/44",
+      "H04N 19/172",
+      "H04N 19/186",
+      "H04N 19/30",
+      "H04N 19/46"
+    ],
+    "all": [
+      "H04N 19/44",
+      "H04N 19/172",
+      "H04N 19/186",
+      "H04N 19/30",
+      "H04N 19/46"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Dishwasher and method for detecting camera failure by dishwasher",
+  "abstract": "According to an implementation of the present disclosure, the dishwasher includes a case forming an outer appearance of the dishwasher and defining an opening at a front side of the case; a door configured to open and close the opening; a tub configured to receive washing water; a sump disposed at a bottom surface of the tub and configured to collect and spray the washing water; a rack disposed inside the sump and configured to accommodate a dish; a dish recognition camera configured to capture an upper portion of the rack and disposed at at least one of an inner surface of the door or an inner surface of the tub; and a controller configured to control operation of the dishwasher and the dish recognition camera.",
+  "claims": "1. A dishwasher, comprising: a case forming an outer appearance of the dishwasher and defining an opening at a front side of the case; a door configured to open and close the opening; a tub configured to provide a treating chamber; a rack disposed inside the tub and configured to accommodate a dish; a dish recognition camera configured to capture an upper portion of the rack, the dish recognition camera being covered by a panel and disposed at at least one of (i) an inner surface of the door or (ii) an inner surface of the tub; and a controller configured to control operation of the dishwasher and the dish recognition camera, wherein the controller is configured to: obtain a first dish image and a second dish image captured at different time points by the dish recognition camera according to a preset operation, process the obtained first dish image and the second dish image, and based on a result of processing the obtained images, determine a lens damage state of the dish recognition camera or a panel contamination state, wherein the first dish image and the second dish image are obtained by capturing the same area, and wherein the controller is configured to compare the first dish image and the second dish image to (i) classify a pixel having no change in color value or edge between the first dish image and the second dish image as a static pixel, (ii) classify an area of a plurality of adjacent static pixels as a contamination area and (iii) determine the lens damage state of the dish recognition camera or the panel contamination state based on the contamination area.",
+  "patent_id": "US12376727-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A47L 15/4295",
+      "A47L 15/0063",
+      "A47L 15/428",
+      "A47L 2401/30",
+      "A47L 2401/34"
+    ],
+    "all": [
+      "A47L 15/4295",
+      "A47L 15/0063",
+      "A47L 15/428",
+      "A47L 2401/30",
+      "A47L 2401/34"
+    ],
+    "source": "converted"
+  }
+}

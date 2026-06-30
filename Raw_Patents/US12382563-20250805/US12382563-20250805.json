@@ -1,0 +1,26 @@
+{
+  "title": "Solid-state lighting with imperceptible flicker",
+  "abstract": "A light-emitting diode (LED) luminaire comprising two types of LEDs, a switching circuit, a signal generating circuit, and an LED driving circuit is used to replace a conventional luminaire with a severe temporal light artifact. The switching circuit and the LED driving circuit are configured to reduce a low-frequency ripple associated with AC mains. The signal generating circuit is configured to produce two sets of modulation signals with a phase difference of 180 degrees between the two sets of modulation signals, which are then embedded in the LED driving current to drive the two types of LEDs, resulting in imperceptible flicker at a temporal modulation frequency as a result of color mixing of the two types of LEDs and persistence of vision, thereby drastically reducing eyestrain, visual discomfort, etc.",
+  "claims": "1. A light-emitting diode (LED) luminaire, comprising: one or more LED arrays comprising a first type of LEDs and a second type of LEDs; at least one full-wave rectifier configured to couple to alternate-current (AC) mains and convert a line voltage from the AC mains into a first direct-current (DC) voltage; a switching circuit comprising a control device, a diode rectifier circuit, and a first electronic switch controlled by the control device and configured to modulate the first DC voltage into a variable DC voltage at a switching frequency; a signal generating circuit comprising a phase shifter circuit and configured to produce a first set of signal and a second set of signal both at a predetermined temporal modulation frequency; and an LED driving circuit comprising two sets of drivers each comprising a low-pass filter circuit, the two sets of drivers configured to produce two sets of driving current, in response to the first set of signal and the second set of signal, to drive the one or more LED arrays, wherein: the phase shifter circuit is configured to shift a first phase of the first set of signal into a second phase of the second set of signal; the switching circuit is configured to convert the first DC voltage into a second DC voltage and to operate the two sets of drivers; the two sets of drivers are further configured to respectively produce a third DC voltage and a fourth DC voltage each with a lower electric potential than the second DC voltage; the low-pass filter circuit is configured to remove high frequency components higher than the predetermined temporal modulation frequency in either of the third DC voltage or the fourth DC voltage, resulting in an illumination from the first type of LEDs and the second type of LEDs with less visual discomfort to luminaire users; and the two sets of drivers respectively comprise a second electronic switch and a third electronic switch respectively configured to modulate the two sets of driving current, in response to the first set of signal and the second set of signal, to drive the one or more LED arrays.",
+  "patent_id": "US12382563-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H05B 45/59",
+      "H05B 45/24",
+      "H05B 45/305",
+      "H05B 45/31",
+      "H05B 45/39",
+      "H05B 45/392"
+    ],
+    "all": [
+      "H05B 45/59",
+      "H05B 45/24",
+      "H05B 45/305",
+      "H05B 45/31",
+      "H05B 45/39",
+      "H05B 45/392"
+    ],
+    "source": "converted"
+  }
+}

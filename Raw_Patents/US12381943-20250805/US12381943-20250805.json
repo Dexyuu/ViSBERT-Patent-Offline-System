@@ -1,0 +1,20 @@
+{
+  "title": "Web service system and method",
+  "abstract": "A system for providing a web service on a network of addressable nodes, said web service comprising a plurality of discrete, individually-addressable microservices, said system comprising: (a) at least one load balancer configured for routing a request from a node for a microservice to one of a plurality of virtual addresses, each virtual address corresponding to a unique microservice, and (b) one or more physical nodes associated with each virtual address, each physical node comprising one or more microservices, each microservice comprising a microservice-specific module for executing a particular function, said microservice-specific module linked to an interface for communicating over said network, each microservice being one of a plurality of individually-addressable microservices constituting a web service.",
+  "claims": "1. A method comprising: receiving, by a load balancer and from a computing device, a request comprising a network address of an addressable discrete service that provides application functions, wherein a plurality of different instances of the addressable discrete service are available on a corresponding plurality of different nodes having network addresses different from the network address of the addressable discrete service; and causing, by the load balancer, based on the request, and using the network address of the addressable discrete service, execution of an instance of the addressable discrete service, of the plurality of different instances, at a node of the plurality of different nodes.",
+  "patent_id": "US12381943-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 67/1008",
+      "H04L 67/1001",
+      "H04L 67/568"
+    ],
+    "all": [
+      "H04L 67/1008",
+      "H04L 67/1001",
+      "H04L 67/568"
+    ],
+    "source": "converted"
+  }
+}

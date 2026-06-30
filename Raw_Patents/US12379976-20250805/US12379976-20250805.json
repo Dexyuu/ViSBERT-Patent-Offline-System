@@ -1,0 +1,20 @@
+{
+  "title": "Runtime dependency configuration utility",
+  "abstract": "A method is presented for executing an application having multiple mutually-exclusive possible dependencies associated with an interface. First, a repository of implementations is scanned using a configuration utility to identify a subset of the implementations tagged for usability with the configuration utility. The configuration utility identifies keys within each of the subset of implementations, and filters the implementations by these configuration keys. The configuration utility scans configurations for a match with any of the identified configuration keys, and selects one implementation from among the subset of the implementations for dependency injection based on matching of configurations with the identified configuration keys. The configuration utility then injects a dependency using the selected implementation, and initializes configurations specific to the injected dependency.",
+  "claims": "1. A method of executing an application having multiple possible, mutually-exclusive injectable dependencies associated with an interface, each injectable dependency comprising computer-implementable and -executable instructions, the method comprising: scanning a repository of implementations to identify a subset of the implementations tagged for usability with a configuration utility, each implementation consisting of dependency-specific software configured to apply the interface to at least one respective injectable dependency; identifying configuration keys within each of the subset of implementations using the configuration utility, and filtering the implementations by the configuration keys; scanning configurations for a match with any of the identified configuration keys, after scanning the repository of implementations and identifying the configuration keys, the configurations comprising a file or set of files specifying application settings including identifications of dependencies for injection at execution of the application; selecting one respective implementation from among the subset of the implementations for dependency injection based on matching of the configurations with the identified configuration keys after scanning the configurations for the match with any of the identified configuration keys; injecting a dependency using the selected implementation; initializing configurations specific to the injected dependency; and running the application, thereby implementing a component or components of the associated dependency using the selected implementation according to the associated configurations when the application is run.",
+  "patent_id": "US12379976-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/541",
+      "G06F 8/36",
+      "G06F 9/44521"
+    ],
+    "all": [
+      "G06F 9/541",
+      "G06F 8/36",
+      "G06F 9/44521"
+    ],
+    "source": "converted"
+  }
+}

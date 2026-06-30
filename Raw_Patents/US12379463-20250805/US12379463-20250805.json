@@ -1,0 +1,22 @@
+{
+  "title": "Radar device and control method",
+  "abstract": "The disclosure relates to a radar device and a control method. Specifically, according to the disclosure, a radar device comprises a transmitter controlling to transmit a frequency-modulated transmission signal, a receiver receiving a reception signal which is the transmitted transmission signal reflected by an object, an angle estimator estimating a first angle for a position of the object, with respect to a host vehicle, during one frame, based on a result obtained by performing fast Fourier transform (FFT) on the reception signal and estimating a second angle which is a virtual angle for the position of the object during a plurality of frames, and a controller calibrating the first angle by comparing the estimated first angle and the estimated second angle.",
+  "claims": "1. A radar device, comprising: a transmitter controlling to transmit a frequency-modulated transmission signal; a receiver receiving a reception signal which is the transmitted transmission signal reflected by an object; an angle estimator estimating a first angle for a position of the object, with respect to a host vehicle, during one frame, based on a result obtained by performing fast Fourier transform (FFT) on the reception signal and estimating a second angle which is a virtual angle for the position of the object based on the results obtained by performing FFT on the reception signals during a plurality of frames; and a controller calibrating the first angle by comparing the estimated first angle and the estimated second angle, wherein the frame is defined as a time period from a transmission of the transmission signal to a retransmission of the transmission signal after analyzing the reception signal reflected by the object, and wherein the number of the frames for estimating the second angle is differently set according to at least one of a driving velocity, a driving course and a driving place of the host vehicle.",
+  "patent_id": "US12379463-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 7/356",
+      "G01S 7/4091",
+      "G01S 13/32",
+      "G01S 13/931"
+    ],
+    "all": [
+      "G01S 7/356",
+      "G01S 7/4091",
+      "G01S 13/32",
+      "G01S 13/931"
+    ],
+    "source": "converted"
+  }
+}

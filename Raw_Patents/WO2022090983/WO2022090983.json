@@ -1,0 +1,35 @@
+{
+  "application_id": "WO2022090983",
+  "application_id_fs": null,
+  "title": "Methods and apparatus for cognitive robotic additive manufacturing system based on the directed energy deposition (ded) technology",
+  "abstract": "The present disclosure describes a new method and platform for adaptive and controlled material deposition based on directed energy deposition (DED) technology that facilitates development of modern metallic components at a lower cost and waste rate, while increasing the quality, precision and user-friendliness. The platform transforms robotic Direct Energy Deposition (DED) into a user-friendly process, by integrating intelligent software mechanisms into hardware and sensorial systems, including non-destructive tests, to better plan the manufacturing process, predict and dynamically resolve problems on the go. The disclosure delineates a system that implements a data driven DED approach configured to dynamically plan trajectories, collecting real-time information from on-site sensors or from processed database and updated digital-twin simulations. All this behavior may be set by the user either manually or fully automatic, or in a combination of these two, with the goal to shorten the material and product development time.",
+  "claims": "Claims 1. Intelligent Robotic Additive-Manufacturing System (100) based on Direct Energy Deposition for adaptive and controlled material deposition of a product (503), comprising a CAD station (101), consisting of a 3D vectorial CAD package configured to perform advanced graphic design, path planning and model preparation for material deposition of a product (503); a modelling station (102), configured to perform finite- element process simulation of the deposition of a product (503), evaluating and verifying residual stresses, distortions and microstructures; a 3D printing station (104), configured to execute the robotic simulated product (503), comprising at least a laser metal deposition system (302); a wire arc additive manufacturing system (303); and a tool-changing system (304); and a production control station (103), configured to monitor and control the material deposition and execution of the product (503) on the 3D printing station (104). 2. System according with claim 1, wherein the CAD station (101) comprises a design-and-produce framework configured to output the design of a product (503), ensuring the fulfilment of project planning, standards and qualifications. 3. System according with claim 1, wherein the finite-element simulation of the modelling station (102) comprises initial process parameters definition, being adapted accordingly with sensor (109) readings and autonomous design of experiment procedures. 4. System according with claim 3, wherein the initial process parameters definition further comprises material definition and characteristics, defined by the sensorial system (109) or in the production control system (103). 5. System according with claim 1, wherein the production control station (103) , prior to the material deposition of the product (503), further monitors and controls the slicing of the tasks to execute on the deposition, generates the production instructions, and performs system and production simulation. 6. System according with claim 1, wherein the laser metal deposition system (302) comprises at least a robot-manipulator (401); a tool-changer (402); a building platform equipped with induction heating apparatus for preheating the deposition substrate (108); a laser power-source and powder-feeder (403); and a cladding head (404). 7. System according with claim 1, wherein the wire arc additive manufacturing system (303) comprises at least a robot-manipulator (107) comprising a deposition tool; a power source and welding torch (501); a conveyor (106); a building platform equipped with induction heating apparatus for preheating the deposition substrate (108); and a powder-feeder (502). 8. System according with claim 1, wherein the tool-changing system (304) comprise deposition-heads, deposition tools and 3D Camera for workpiece reconstruction and product production deviation detection. 9. System according with claim 7, wherein the powder-feeder (502) comprises a at least two-alloy system container (200) characterized by a tunable blending of materials (203) composed at least by powder hopper 1 (201) and powder hopper 2 (202). 10. System according with claim 1, characterized by the CAD station (101), modelling station (102), production control station (103) and 3D printing station (104) being connected to a local or remote data network (112), allowing the exchange of data and information between said stations. 11. System according with claim 1, wherein the robot manipulator (107) is mounted on a conveyer (106) and the production control station (103) simultaneously controls the movements of each said robot manipulator independently, each conveyer (106) or any setting in between. 11. System according with claim 1, wherein the CAD station (101), further comprises a system, that performs a set of fully automated experiments based on which, the process parameters are obtained for the given material, such as deposited bead geometry, heat dissipation and microstructure; and a designated software, that compiles the data in form of parameters and variables for automatic CAD slicing and toolpath planning. 12. System according with claim 1, wherein the production control station (103) further comprises an virtual reality device, augmented reality device or mixed reality device that displays the toolpath in real-time, providing the capacity to the user for start / pause / stop, \n\ncorrections, redefining the toolpath and controlling the process parameters, in real-time; and an artificial intelligence engine, providing automatic suggestions for the user based on the detected deviations from the nominal geometrical dimensions using the information from the modelling station (102) or other quantified values based on the sensorial system (109) such as, chemical composition, temperature and residual stresses. 13. Method of operating the system described in claims 1 to 11, wherein said system acts as interface between each step, translating the results of each step to be used in the next or previous steps, towards establishing the interoperability in the system tasks.",
+  "classifications": {
+    "ipc": [
+      "B22F 10/25",
+      "B22F 10/80",
+      "B22F 10/85",
+      "B22F 12/00",
+      "B22F 12/82",
+      "B22F 12/90",
+      "B33Y 30/00",
+      "B33Y 50/00",
+      "B33Y 50/02",
+      "G05B 19/4099"
+    ],
+    "cpc": [],
+    "all": [
+      "B22F 10/25",
+      "B22F 10/80",
+      "B22F 10/85",
+      "B22F 12/00",
+      "B22F 12/82",
+      "B22F 12/90",
+      "B33Y 30/00",
+      "B33Y 50/00",
+      "B33Y 50/02",
+      "G05B 19/4099"
+    ],
+    "source": "csv"
+  }
+}

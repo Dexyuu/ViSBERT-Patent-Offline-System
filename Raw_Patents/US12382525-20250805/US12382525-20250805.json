@@ -1,0 +1,22 @@
+{
+  "title": "Simultaneous data paths for QOS control of service data traffic",
+  "abstract": "A service is utilized by a wireless communication device (10). For this service, the wireless communication device (10) simultaneously maintains a first data path (21) and a second data path (22) to a wireless communication network. The first data path (21) has a first QoS level, and the second data path (22) has a second QoS level that is different from the first QoS level. The wireless communication device (10) selects one of the first data path (21) and the second data path (22) for transmitting content of the service while the other of the first data path (21) and the second data path (22) is maintained in an inactive state.",
+  "claims": "14. A method of controlling data traffic in a wireless communication network, the method comprising: for a service utilized by a group of wireless communication devices and for each wireless communication device of the group, a node of the wireless communication network authorizing establishment of a corresponding first data path and a corresponding second data path to the wireless communication network, the first data paths having a first QoS level and the second data paths having a second QoS level that is different from the first QoS level, the node configuring QoS rules for the first data paths and the second data paths, one or both of the authorizing of establishment of the first data paths and the second data paths and the configuring of the QoS rules being based on a policy allowing that one of the wireless communication devices transmits content of the service on the corresponding second data path while simultaneously the corresponding first data path is maintained in an inactive state and the other wireless communication devices transmit content of the service on the corresponding first data path while the corresponding second data path is maintained in an inactive state, the transmitted content on the first data path having a higher video quality than that of the transmitted content on the first data path, a selection of video data of the one wireless communication device being performed by a production center for compilation of a program, the selection by the production center being indicated by a control signal sent to the wireless device, the control signal being received as a service layer command of a group service session; and the production center providing service information to a policy controller in response to a second UE joining the group service session, the service information identifying a group service type and the group service session.",
+  "patent_id": "US12382525-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/15",
+      "H04L 45/22",
+      "H04L 45/302",
+      "H04W 28/0268"
+    ],
+    "all": [
+      "H04W 76/15",
+      "H04L 45/22",
+      "H04L 45/302",
+      "H04W 28/0268"
+    ],
+    "source": "converted"
+  }
+}

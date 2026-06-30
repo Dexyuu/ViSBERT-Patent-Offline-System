@@ -1,0 +1,24 @@
+{
+  "title": "Authentication based on physically unclonable functions",
+  "abstract": "A method and system for authenticating a device is provided. A noisy response is received from a physically unclonable function for a challenge. An error code is generated for correcting the noisy first response. An expected response is generated from the noisy first response and the error code. The expected response and corresponding first helper data is store. The helper data includes the first challenge and the error code. The helper data is provided to a device in response to an authentication request from the device, the first device including the physically unclonable function.",
+  "claims": "1. A method of authenticating a device, the method comprising: sending, by a device, an authentication request to a server; receiving, by the device in response to sending the authentication request, helper data from the server, the helper data comprising a challenge for a physically unclonable function located on the device and an obfuscated stable bitmap of a noisy response corresponding to the challenge; generating the noisy first response from the physically unclonable function using the first challenge; generating a device response from the noisy first response and the obfuscated stable bitmap; sending the device response to the server; and receiving an authentication response from the server.",
+  "patent_id": "US12381747-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/3278",
+      "G06F 21/44",
+      "H04L 9/0643",
+      "H04L 9/0866",
+      "H04L 9/0869"
+    ],
+    "all": [
+      "H04L 9/3278",
+      "G06F 21/44",
+      "H04L 9/0643",
+      "H04L 9/0866",
+      "H04L 9/0869"
+    ],
+    "source": "converted"
+  }
+}

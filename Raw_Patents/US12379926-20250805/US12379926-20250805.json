@@ -1,0 +1,24 @@
+{
+  "title": "Image processing apparatus with multibank registers for storing source, destination, and setting information for operational circuits",
+  "abstract": "An image processing apparatus includes a central processing unit (CPU), an image processor, multiple bus masters, and a memory, all interconnected through a system bus. The image processor includes a control circuit executing a program stored in an embedded program memory that allows the CPU to write data. The image processor also includes operational circuits that perform specific operations on input data and produce operation results. The results are temporarily stored in internal memories. The apparatus includes registers that hold various information, input sources, output destinations, and setting information for each operational circuit. A selection circuit selects, based on the information of the registers, the memory, or the internal memories, as an input source of image data for each operational circuit and the memory, or one of the internal memories, as the output destination for the operation results.",
+  "claims": "1. An image processing apparatus comprising: a central processing unit (CPU) connected to a system bus; an image processor connected to the system bus; a plurality of bus masters connected to the system bus; and a memory connected to the system bus and accessed by the CPU, the plurality of bus masters, and the image processor via the system bus, wherein the image processor includes: a control circuit with a built-in program memory to which the CPU can write data, the control circuit controlling the image processor by executing a program stored in the program memory; a plurality of operational circuits, each of which performs a type of operation according to setting information on input data and outputs an operation result; a plurality of internal memories that temporarily store operation results of the plurality of operational circuits; a plurality of registers that hold (i) first information specifying, for each one of the plurality of operational circuits, an input source of data to be processed, (ii) second information specifying, for each one of the plurality of operational circuits, an output destination for data of an operation result, and (iii) the setting information for each one of the plurality of operational circuits in a case when the control circuit writes the first information, the second information, and the setting information to the plurality of registers; and a selection circuit that (a) selects, according to the first information held in the registers, image data from either the memory connected to the system bus or the plurality of internal memories as input data for each one of the plurality of operational circuits, and (b) selects, according to the second information held in the registers, either the memory connected to the system bus or one of the plurality of internal memories as an output destination for an operation result of each one of the plurality of operational circuits, wherein the control circuit executes a program stored in the program memory and, for each time each one of the plurality of operational circuits has executed processing of image data of a single predetermined processing unit, writes (i) the first information, (ii) the second information, and (iii) the setting information to the plurality of registers, wherein each of the plurality of registers comprises two banks, each of which holds the first information, the second information, and the setting information, and, while the plurality of operational circuits are executing processing of image data of the single predetermined processing unit according to the first information, which is used for the processing of the image data of the single predetermined processing unit, the second information, which is used for the processing of the image data of the single predetermined processing unit, and the setting information, which is used for the processing of the image data of the single predetermined processing unit held in one of the two banks, the control circuit writes the first information, which is used for a processing of the image data of a next predetermined processing unit, the second information, which is used for the processing of the image data of the next predetermined processing unit, and the setting information, which is used for the processing of the image data of the next predetermined processing unit for the processing of the image data of the next predetermined processing unit in the other of the two banks.",
+  "patent_id": "US12379926-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/30101",
+      "G06F 9/34",
+      "G06F 9/3824",
+      "G06F 9/3877",
+      "G06T 1/20"
+    ],
+    "all": [
+      "G06F 9/30101",
+      "G06F 9/34",
+      "G06F 9/3824",
+      "G06F 9/3877",
+      "G06T 1/20"
+    ],
+    "source": "converted"
+  }
+}

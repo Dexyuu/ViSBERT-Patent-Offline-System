@@ -1,0 +1,22 @@
+{
+  "title": "Conditional signaling of video coding syntax elements",
+  "abstract": "Systems, methods and apparatus for video processing are described. The video processing may include video encoding, video decoding, or video transcoding. One example method of video processing includes performing a conversion between a video including one or more pictures and a bitstream of the video according to a format rule. The format rule specifies that a first syntax element that indicates whether motion vector difference for a particular reference picture list (RPL) is indicated is conditionally included in the bitstream based on (i) whether a second syntax element indicating whether an RPL information is included in a picture header and/or (ii) a number of reference pictures in the particular RPL in case that the RPL information is present in the picture header.",
+  "claims": "13. An apparatus for processing video data comprising a processor and a non-transitory memory with instructions thereon, wherein the instructions upon execution by the processor, cause the processor to: perform a conversion between a video comprising one or more pictures and a bitstream of the video according to a format rule, and wherein the format rule specifies that a first syntax element that indicates a number of weights signaled for entries in a particular reference picture list (RPL) is conditionally included in a weighted prediction parameters syntax structure indicating a table of weighted prediction parameters of the bitstream based on (i) a second syntax element included in a picture parameter set indicating an applicability of explicit weighted prediction (WP) to B slices referring to picture parameter set information, (ii) a third syntax element indicating whether WP information is included in a picture header, and (iii) a fourth syntax element indicating a number of reference pictures in the particular RPL.",
+  "patent_id": "US12382103-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/70",
+      "H04N 19/105",
+      "H04N 19/174",
+      "H04N 19/46"
+    ],
+    "all": [
+      "H04N 19/70",
+      "H04N 19/105",
+      "H04N 19/174",
+      "H04N 19/46"
+    ],
+    "source": "converted"
+  }
+}

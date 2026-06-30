@@ -1,0 +1,20 @@
+{
+  "title": "Secure television distribution over heterogeneous networks",
+  "abstract": "A method and system method of providing new content as part of a first broadcast signal being transmitted as a second broadcast signal includes receiving a first broadcast signal that is broadcast from a first transmitter, extracting and storing a portion of the data content from the received first broadcast signal. The method further includes receiving a marker stream that identifies a splice point in the first broadcast signal while providing media content from the received first broadcast signal as part of a second broadcast signal. In response to the identification of the splice point in the first broadcast signal, providing the extracted data content in place of the media content received as part of the second broadcast signal until a determination to end providing the extracted data content is made. The method further includes resuming providing media content from the first broadcast signal when the determination is made.",
+  "claims": "1. A method of providing a new content as part of a first broadcast signal that is to be transmitted as a second broadcast signal, comprising: receiving, at a first point in time, a first broadcast signal that is broadcast from a first transmitter, the first broadcast signal containing displayable media content and data content that is non-displayable as part of the first broadcast signal, the data content being encapsulated in at least one multicast internet protocol (IP) stream; extracting at least a portion of the data content from the at least one encapsulated multicast IP stream of the received first broadcast signal; storing the extracted data content; providing the displayable media content received at the first point in time as part of a second broadcast signal; receiving a marker stream, the marker stream identifying a splice point in the first broadcast signal where the extracted data content is retrieved to replace displayable media content in the first broadcast signal received at a second point in time after the first point in time, the splice point being determined using a signature of at least one identified packet of the displayable media content received at the second point in time where the stored data content is inserted; in response to the identification of the splice point in the first broadcast signal, providing the extracted data content in place of the displayable media content received at the second point in time as part of the second broadcast signal until a determination is made of at least one of an exhaustion of stored data content has occurred, a second splice point is identified, a predetermined event has occurred, and a predetermined time period has elapsed; resuming providing displayable media content in the first broadcast signal received at a third point in time after the second point in time as part of the second broadcast signal when the determination is made.",
+  "patent_id": "US12382113-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/23424",
+      "H04N 21/2353",
+      "H04N 21/44209"
+    ],
+    "all": [
+      "H04N 21/23424",
+      "H04N 21/2353",
+      "H04N 21/44209"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "System and method for multi-level signal cyclic loop image representations for measurements and machine learning",
+  "abstract": "A system includes an input to receive a digital waveform signal, a memory, and one or more processors configured to execute code to cause the one or more processors to: generate a horizontal ramp sweep signal based on the digital waveform signal; receive a selection input to identify a segment of the digital waveform signal; gate the horizontal ramp sweep signal and the digital waveform signal based on the selection input to produce cyclic loop image data for the segment of the digital waveform; store the cyclic loop image data in the memory; and provide the cyclic loop image data as one or more inputs into a machine learning system. A method of waveform classification using a cyclic loop image includes receiving an input waveform, receiving a selection of a segment of the input waveform, transforming the segment of the input waveform into cyclic loop image data, the transforming comprising generating a horizontal ramp sweep signal based on edge transitions in the input waveform, and storing the cyclic loop image data in a memory; and sending the cyclic loop image data to a machine learning system to determine an attribute of the input waveform.",
+  "claims": "1. A system, comprising: an input to receive a digital waveform signal; a memory; and one or more processors configured to execute code to cause the one or more processors to: generate a horizontal ramp sweep signal based on the digital waveform signal; receive a selection input to identify a segment of the digital waveform signal; gate the horizontal ramp sweep signal and the digital waveform signal based on the selection input to produce cyclic loop image data for the segment of the digital waveform; store the cyclic loop image data in the memory; and provide the cyclic loop image data as one or more inputs into a machine learning system.",
+  "patent_id": "US12379414-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01R 31/31908",
+      "G01R 13/0272",
+      "G01R 31/31708",
+      "G01R 31/31905",
+      "G06F 18/20",
+      "G06N 20/00",
+      "G06F 2218/16"
+    ],
+    "all": [
+      "G01R 31/31908",
+      "G01R 13/0272",
+      "G01R 31/31708",
+      "G01R 31/31905",
+      "G06F 18/20",
+      "G06N 20/00",
+      "G06F 2218/16"
+    ],
+    "source": "converted"
+  }
+}

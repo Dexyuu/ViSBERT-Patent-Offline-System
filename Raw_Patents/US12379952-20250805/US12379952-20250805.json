@@ -1,0 +1,20 @@
+{
+  "title": "High throughput ingress datapath for a virtual machine",
+  "abstract": "Some embodiments provide a method of forwarding data messages to a machine that executes on a host computer and has an associated virtual network interface controller (VNIC) also executing on the host computer. The method retrieves data messages from a queue associated with the VNIC and stores these data messages in a first set of buffer data stores associated with the VNIC. When the first buffer set reaches a threshold congestion level, the method stores data messages subsequently retrieved from the VNIC queue in a second set of buffer data stores associated with the VNIC. In some embodiments, a set of one or more processes executing on the machine retrieves the data messages stored in the buffer sets for processing by these processes or other processes.",
+  "claims": "1. A method of forwarding data messages to a machine executing on a host computer, the machine having an associated virtual network interface controller (VNIC), the method comprising: storing, in a first set of buffer data stores associated with the VNIC, a first plurality of data messages retrieved from a queue of the VNIC associated with the machine; and after the first set of buffer data stores reaches a threshold congestion level, storing, in a second set of buffer data stores associated with the VNIC, a second plurality of data messages retrieved from the VNIC queue, wherein: a set of one or more processes executing on the machine retrieves the data messages from the first and second sets of buffer data stores; and when the first plurality of data messages is stored in the first set of buffer data stores, the buffer data stores of the first set are designated as active buffer data stores and the buffer data stores of the second set are designated as standby buffer data stores, and when the second plurality of data messages is stored in the second set of buffer data stores, the buffer data stores of the second set are designated as active buffer data stores and the buffer data stores of the first set are designated as standby buffer data stores.",
+  "patent_id": "US12379952-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/45558",
+      "G06F 2009/45583",
+      "G06F 2009/45595"
+    ],
+    "all": [
+      "G06F 9/45558",
+      "G06F 2009/45583",
+      "G06F 2009/45595"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Synchronous cross-region replication for a multi-writer database",
+  "abstract": "A database table may be synchronously replicated across regions of a provider network. When a write request to an item of the table is received at one region, a local version of the item may be obtained as well as any additional versions of the item corresponding to inflight writes that target the item from a multi-region replication append-only log. An updated version of the item is then generated based on the local version of the item and the additional versions, which is appended to the multi-region replication append-only log. A conditional write is performed to update the local version of the item with the updated version of the item. If successful, a response indicates that the write request was successful.",
+  "claims": "1. A system, comprising: a plurality of computing devices, respectively implementing a processor; and at least one memory, that implement a database service of a provider network, wherein the database service is configured to: receive a write request for an item of a table from a client; determine that the table is replicated across a plurality of regions of the provider network, wherein the write request is received at a first region of the plurality of regions, wherein the table is writeable via requests received at individual ones of the plurality of regions; dispatch the write request to a cross-region synchronous request handling node of the database service assigned the item of the table; wherein the cross-region synchronous request handling node is configured to: read a current local version of the item from a storage node of the database service; read a multi-region replication append-only log to obtain one or more additional versions of the item corresponding to one or more inflight writes that target the item, wherein the one or more inflight writes were received at different ones of the plurality of regions; generate an updated version of the item according to respective timestamps for the one or more additional versions of the item and the current local version of the item; append the updated version of the item to the multi-region replication append-only log along with a timestamp determined for the write request; send a request to perform a conditional write to store the updated version of the item in the table in the storage node at the first region according to the timestamp determined for the write request; and after receipt of an indication that the conditional write to the store the updated version of the item succeeded at the storage node, return a response acknowledging the write request as successful.",
+  "patent_id": "US12380129-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/27",
+      "G06F 16/252",
+      "H04L 67/1097"
+    ],
+    "all": [
+      "G06F 16/27",
+      "G06F 16/252",
+      "H04L 67/1097"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Method and apparatus for collecting and reporting cell measurement information in mobile communication system",
+  "abstract": "The disclosure relates to a method and apparatus for collecting and reporting cell measurement information in a mobile communication system. According to an embodiment, the method, performed by a user equipment (UE), of reporting cell measurement information in a mobile communication system includes: transmitting UE capability information about whether to support a minimization of drive test (MDT) operation to a first base station of a first mobile communication system; receiving MDT configuration information from at least one base station of the first base station or a second base station of a second mobile communication system which is different from the first mobile communication system; collecting MDT measurement information based on the MDT configuration information; and transmitting the MDT measurement information to the at least one base station of the first base station or the second base station, wherein the first base station and the second base station support dual connectivity.",
+  "claims": "1. A method performed by a user equipment (UE) in a wireless communication system, the method comprising: receiving, from a base station, logged minimization of drive test (MDT) configuration information including a logging duration and an event for triggering a logging of measurement information; starting a timer with a timer value set to the logging duration; while the timer is running, in case that the event for triggering the logging is configured to an out-of-service area (OOS) and the UE is in any cell selection state, initiating the logging of the measurement information, based on the logged MDT configuration information, wherein the measurement information is logged only one time in the logging duration which is greater than 0, and wherein the UE is in a radio resource control (RRC) inactive mode; and transmitting, to the base station, information related to the measurement information.",
+  "patent_id": "US12382318-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 24/08",
+      "H04W 8/24",
+      "H04W 24/02",
+      "H04W 24/10",
+      "H04W 76/15",
+      "H04W 36/00698"
+    ],
+    "all": [
+      "H04W 24/08",
+      "H04W 8/24",
+      "H04W 24/02",
+      "H04W 24/10",
+      "H04W 76/15",
+      "H04W 36/00698"
+    ],
+    "source": "converted"
+  }
+}

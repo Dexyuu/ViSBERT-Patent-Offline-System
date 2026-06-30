@@ -1,0 +1,16 @@
+{
+  "title": "Restricted operations due to attachment of compute instances owned by different tenancies",
+  "abstract": "Techniques are disclosed for restricting operations between two attached two compute instances. An infrastructure and a generalized method is described for attaching two or more cloud resources (e.g., two compute instances) in spite of the compute resources being provisioned by two different services from different cloud tenancies, and then modifying the allowed operations that can be performed due to the attachment.",
+  "claims": "1. A method, comprising: receiving, by a dominant control plane associated with a dominant compute instance of a first service, a request to perform an operation at a passive compute instance of a second service, wherein there is an attachment between the dominant compute instance and the passive compute instance, the attachment causes the dominant control plane to have control of the passive compute instance, and the attachment causes the request to be directed to the dominant control plane instead of a passive control plane associated with the passive compute instance; performing a first authorization including: identifying, by the dominant control plane, a first set of allowed operations associated with a root compartment of a customer tenancy; and determining, by the dominant control plane, that the first set of allowed operations associated with the root compartment of the customer tenancy indicate that the operation at the passive compute instance is authorized; determining, by the dominant control plane, that the operation is restricted and requires dual authorization based upon a stored list of allowed customer operations associated with the attachment; performing a second authorization including: identifying, by the dominant control plane, a second set of allowed operations associated with a first owner compartment of a dominant tenancy associated with the dominant control plane; and determining, by the dominant control plane, that the second set of allowed operations indicate that the operation at the passive compute instance is not authorized and thereby the dual authorization is failed; and in response to determining that the operation at the passive compute instance is not authorized based on the second set of allowed operations and thereby the dual authorization is failed, denying, by the dominant control plane, the request to perform the operation at the passive compute instance.",
+  "patent_id": "US12381879-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/10"
+    ],
+    "all": [
+      "H04L 63/10"
+    ],
+    "source": "converted"
+  }
+}

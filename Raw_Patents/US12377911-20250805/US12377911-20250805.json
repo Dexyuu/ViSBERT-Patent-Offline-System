@@ -1,0 +1,36 @@
+{
+  "title": "One-side brake control system and control method of distributing torques between front and rear wheels to perform one-side brake",
+  "abstract": "A one-side brake control system and method perform distribution of torques between front and rear wheels. The one-side brake control system includes a target steering angle input unit to which a target steering angle of a driver or a controller of an autonomous vehicle is input when a steering system fails, an integrated Electronic Control Unit (ECU) configured to calculate a target moment of the vehicle according to the target steering angle input through the target steering angle input unit and calculate brake torques of a one-side front wheel and a one-side rear wheel of the vehicle based on the target moment, and a braking ECU configured to control one or more braking actuators of the one-side front wheel and the one-side rear wheel of the vehicle according to the brake torque of the front wheel and the rear wheel transmitted from the integrated ECU to perform one-side brake.",
+  "claims": "1. A one-side brake control system comprising: one or more processors; and memory configured to store instructions that, when executed by the one or more processors, cause the one or more processors to perform operations that include: receiving a target steering angle of the vehicle when a steering system configured to steer a vehicle fails; calculating a target moment of the vehicle based on the target steering angle and calculating brake torques of a one-side front wheel and a one-side rear wheel of the vehicle based on the target moment of the vehicle to distribute the brake torques between the one-side front wheel and the one-side rear wheel when the steering system fails; and controlling one or more braking actuators of the one-side front wheel and the one-side rear wheel of the vehicle to perform one-side brake according to the calculated brake torques of the one-side front wheel and the one-side rear wheel.",
+  "patent_id": "US12377911-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B62D 9/005",
+      "B60T 7/12",
+      "B60T 8/171",
+      "B60T 8/172",
+      "B60T 8/246",
+      "B60T 8/26",
+      "B60T 17/22",
+      "B60T 2220/00",
+      "B60T 2260/02",
+      "B60T 2270/10",
+      "B60T 2270/88"
+    ],
+    "all": [
+      "B62D 9/005",
+      "B60T 7/12",
+      "B60T 8/171",
+      "B60T 8/172",
+      "B60T 8/246",
+      "B60T 8/26",
+      "B60T 17/22",
+      "B60T 2220/00",
+      "B60T 2260/02",
+      "B60T 2270/10",
+      "B60T 2270/88"
+    ],
+    "source": "converted"
+  }
+}

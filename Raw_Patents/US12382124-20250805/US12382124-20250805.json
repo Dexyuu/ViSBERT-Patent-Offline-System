@@ -1,0 +1,46 @@
+{
+  "title": "Receiving method, receiving device, and transmission and reception system",
+  "abstract": "A receiving method of receiving a first data unit in which data making up an encoded stream is stored and the first data unit stores a plurality of second data units. The receiving method includes: receiving the first data unit, first time information indicating a presentation time of the first data unit, second time information indicating, together with the first time information, a presentation time or a decoding time of each of the plurality of second data units, and identification information; calculating the presentation time or the decoding time of each of the plurality of second data units using the first time information and the second time information; and correcting the presentation time or the decoding time of each of the plurality of second data units based on the identification information.",
+  "claims": "2. A receiving apparatus comprising: a receiver device that, in operation, receives first time information, second time information, and control information, the first time information indicating a start time of a time period, the second time information indicating, based on the start time, presentation times of respective data units in the time period, the control information indicating a time at which a leap second will occur and an offset value; and a processor that, in operation, (i) derives the presentation time of each of the data units based on the first time information and the second time information, and (ii) for each of the data units, determines whether the calculated presentation time of the data unit indicates the time at which the leap second will occur or later, and corrects the calculated presentation time of the data unit by applying the offset value when the calculated presentation time of the data unit indicates the time at which the leap second will occur or later, wherein the data units include (i) a first data unit having a first presentation time to which the offset value is not applied in the deriving, the first presentation time being a time before the occurrence of the leap second, and (ii) a second data unit having a second presentation time to which the offset value is applied in the deriving, the second presentation time being a time after the occurrence of the leap second.",
+  "patent_id": "US12382124-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/4305",
+      "H04N 21/2343",
+      "H04N 21/2365",
+      "H04N 21/2381",
+      "H04N 21/2389",
+      "H04N 21/242",
+      "H04N 21/43",
+      "H04N 21/4302",
+      "H04N 21/4307",
+      "H04N 21/43072",
+      "H04N 21/4347",
+      "H04N 21/633",
+      "H04N 21/8451",
+      "H04N 21/8547",
+      "H04N 21/6332",
+      "H04N 21/83"
+    ],
+    "all": [
+      "H04N 21/4305",
+      "H04N 21/2343",
+      "H04N 21/2365",
+      "H04N 21/2381",
+      "H04N 21/2389",
+      "H04N 21/242",
+      "H04N 21/43",
+      "H04N 21/4302",
+      "H04N 21/4307",
+      "H04N 21/43072",
+      "H04N 21/4347",
+      "H04N 21/633",
+      "H04N 21/8451",
+      "H04N 21/8547",
+      "H04N 21/6332",
+      "H04N 21/83"
+    ],
+    "source": "converted"
+  }
+}

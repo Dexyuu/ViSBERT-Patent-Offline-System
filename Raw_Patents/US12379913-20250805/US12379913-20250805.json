@@ -1,0 +1,20 @@
+{
+  "title": "Deployment of container images with separate add-ons",
+  "abstract": "A container image is deployed, at runtime, on a node within a computing environment. The deploying includes downloading, at runtime, container image content from multiple sites. The downloading includes obtaining a core image of the container image from one or more image registries and updating a local image store with the core image, and obtaining one or more add-ons of the container image from one or more add-on registries and updating a local add-on store with the one or more add-ons. The deployed container image is executed on the node.",
+  "claims": "1. A computer-implemented method of facilitating processing within a computing environment, the computer-implemented method comprising: deploying, at runtime, a container image on a node within the computing environment, the deploying comprising downloading, at runtime, container image content from multiple sites, the downloading comprising: obtaining a core image of the container image from one or more image registries and updating a local image store with the core image; and obtaining one or more add-ons of the container image from one or more add-on registries and updating a local add-on store with the one or more add-ons, wherein the container image is managed by a container runtime, the container runtime communicating with an agent on the node using a container runtime interface, the container runtime interface including a definition of an image message type that includes an add-on field to specify the one or more add-ons; and executing the container image on the node.",
+  "patent_id": "US12379913-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 8/63",
+      "G06F 8/65",
+      "G06F 9/44526"
+    ],
+    "all": [
+      "G06F 8/63",
+      "G06F 8/65",
+      "G06F 9/44526"
+    ],
+    "source": "converted"
+  }
+}

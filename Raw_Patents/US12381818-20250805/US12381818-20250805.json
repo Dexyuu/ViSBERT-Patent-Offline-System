@@ -1,0 +1,36 @@
+{
+  "title": "Data routing in communications systems",
+  "abstract": "A method, a system, and a computer program product for data routing in communications systems. A data packet is received and source of the data packet is determined. based on the source of the data packet, a forwarding route for transmission of the data packet is determined. The forwarding route includes at least one of the following: a known content route and a default content route. The data packet is transmitted based on the determined forwarding route.",
+  "claims": "1. A computer-implemented method, comprising: receiving a data packet; determining, using at least a portion of data contained in the received data packet and identifying a predetermined network address translation (NAT) range of addresses corresponding to the portion of data contained in the received data packet, an internet protocol (IP) address for forwarding the received data packet; determining, based on the determined IP address for the data packet, a forwarding route for transmission of the data packet, wherein the forwarding route includes at least one of the following: a known content route associated with one or more peering content providers and a default content route associated with one or more non-peering content providers; and transmitting the data packet based on the determined forwarding route.",
+  "patent_id": "US12381818-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 45/72",
+      "H04L 12/4633",
+      "H04L 45/74",
+      "H04L 61/256",
+      "H04L 69/22",
+      "H04W 8/082",
+      "H04W 40/32",
+      "H04L 45/50",
+      "H04L 61/2514",
+      "H04L 61/2592",
+      "H04L 2212/00"
+    ],
+    "all": [
+      "H04L 45/72",
+      "H04L 12/4633",
+      "H04L 45/74",
+      "H04L 61/256",
+      "H04L 69/22",
+      "H04W 8/082",
+      "H04W 40/32",
+      "H04L 45/50",
+      "H04L 61/2514",
+      "H04L 61/2592",
+      "H04L 2212/00"
+    ],
+    "source": "converted"
+  }
+}

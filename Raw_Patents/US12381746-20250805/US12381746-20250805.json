@@ -1,0 +1,26 @@
+{
+  "title": "Provisioning system for cloud-connected printers",
+  "abstract": "A method, in a provisioning server, of provisioning a printer, includes: receiving a provisioning request from the printer, the provisioning request containing (i) a printer identifier, and (ii) an account identifier associated with the printer; obtaining, from a digital certificate issuer, a unique string; sending the unique string to the printer; receiving from the printer, in response to sending the unique string, a certificate signing request containing (i) the printer identifier, (ii) the account identifier, and (iii) an authentication token including the unique string signed with a private key of the printer; validating the certificate signing request; passing the validated certificate signing request to the digital certificate issuer; receiving, from the digital certificate issuer, a digital certificate encoding the printer identifier and the account identifier; and providing the digital certificate to the printer for storage.",
+  "claims": "1. A method to provision a device, the method comprising: receiving a provisioning request from the device, the provisioning request containing (i) a device identifier, and (ii) an account identifier associated with the device; obtaining, from a digital certificate issuer, a unique string; sending the unique string to the device; receiving from the device, in response to sending the unique string, a certificate signing request containing (i) the device identifier, (ii) the account identifier, and (iii) an authentication token including the unique string signed with a private key of the device; validating the certificate signing request; passing the validated certificate signing request to the digital certificate issuer; receiving, from the digital certificate issuer, a digital certificate encoding the device identifier and the account identifier; and providing the digital certificate to the device for storage.",
+  "patent_id": "US12381746-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/3268",
+      "G06F 3/1224",
+      "G06F 3/1238",
+      "G06F 21/608",
+      "H04L 9/3265",
+      "H04N 1/00244"
+    ],
+    "all": [
+      "H04L 9/3268",
+      "G06F 3/1224",
+      "G06F 3/1238",
+      "G06F 21/608",
+      "H04L 9/3265",
+      "H04N 1/00244"
+    ],
+    "source": "converted"
+  }
+}

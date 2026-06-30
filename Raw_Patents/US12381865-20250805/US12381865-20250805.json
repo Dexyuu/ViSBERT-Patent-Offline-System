@@ -1,0 +1,20 @@
+{
+  "title": "Communication system, adapter for a terminal and method for securely transmitting time-critical data within the communication system",
+  "abstract": "A method for securely transmitting time-critical data within a communication system that includes local networks each having a switch and a plurality of terminals, a controller that controls functions of switches and terminals, and having a control network assigned to the controller and separate from the local networks, where communication within the local networks is implicitly authorized based on an assignment of respective terminals to the same local network, each terminal is assigned a zero trust adapter that captures status information, transfers the status information via the control network to the controller for evaluation and authenticates the terminal to the controller to communication partners, and where the controller determines a trust index for each of the terminals based on the status information and applies rules dependent on the trust index for configuration or permissible communication relationships of the terminals.",
+  "claims": "1. A method for securely transmitting time-critical data within a communication system comprising a plurality of local networks which each comprises at least one switch and a plurality of terminals, a control unit which controls functions of a plurality of switches and terminals, and a control network which is assigned to the control unit and separate from the plurality of local networks, the method comprising: authorizing implicitly communication within the plurality of local networks based on an assignment of respective terminals to the same local network; assigning a zero trust adapter to each terminal which captures status information pertaining to a terminal, forwards the status information via the control network to the control unit for evaluation and authenticates the terminal to at least one of the control unit and communication partners; and determining, by the control unit, a trust score for each of the plurality of terminals based on the status information and applying rules for at least one of configuration and permissible communication relationships of the plurality of terminals, said rules being dependent on the trust score.",
+  "patent_id": "US12381865-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/08",
+      "H04L 63/0281",
+      "H04L 63/20"
+    ],
+    "all": [
+      "H04L 63/08",
+      "H04L 63/0281",
+      "H04L 63/20"
+    ],
+    "source": "converted"
+  }
+}

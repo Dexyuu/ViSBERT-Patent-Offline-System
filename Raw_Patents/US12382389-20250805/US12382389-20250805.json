@@ -1,0 +1,52 @@
+{
+  "title": "Systems and methods for processing and transmitting sensor data",
+  "abstract": "Systems and methods for processing, transmitting and displaying data received from an analyte sensor, such as a glucose sensor, are provided. The data can be displayed on a hand-held display device having a display such as a key fob device including a user interface, such as an LCD and one or more buttons allows a user to view data, and a physical connector, such as USB port.",
+  "claims": "1. A method for transmitting data between an analyte sensor communication device associated with an analyte sensor and a display communication device configured to provide user access to analyte values and/or information derived from the analyte values, comprising: establishing a communication channel between the analyte sensor communication device and the display communication device; transmitting, from the analyte sensor communication device, analyte sensor measurement values periodically to the display communication device; determining, at the display communication device, a range of missing analyte sensor measurement values; receiving, with the analyte sensor communication device, a request from the display communication device for the range of missing analyte sensor measurement values; transmitting, from the analyte sensor communication device, the range of missing analyte sensor measurement values to the display communication device in response to the request; displaying, with the display communication device, the range of missing analyte values in response to receiving the same; establishing a close-range communication channel between the display communication device and a smart watch; and transmitting, from the display communication device and via the close-range communication channel, the range of missing analyte sensor measurement values directly to the smart watch, wherein transmitting the range of missing analyte sensor measurement values comprises transmitting a data set of analyte sensor measurements corresponding to a pre-determined time interval that includes the range of missing analyte sensor measurement values.",
+  "patent_id": "US12382389-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 52/0219",
+      "A61B 5/0004",
+      "A61B 5/0015",
+      "A61B 5/0026",
+      "A61B 5/14532",
+      "G16H 40/63",
+      "G16H 40/67",
+      "G16Z 99/00",
+      "H04W 12/06",
+      "H04W 52/0209",
+      "H04W 76/10",
+      "H04W 76/14",
+      "H04W 76/25",
+      "H04L 67/12",
+      "H04L 67/62",
+      "H04W 4/80",
+      "H04W 84/18",
+      "Y02A 90/10",
+      "Y02D 30/70"
+    ],
+    "all": [
+      "H04W 52/0219",
+      "A61B 5/0004",
+      "A61B 5/0015",
+      "A61B 5/0026",
+      "A61B 5/14532",
+      "G16H 40/63",
+      "G16H 40/67",
+      "G16Z 99/00",
+      "H04W 12/06",
+      "H04W 52/0209",
+      "H04W 76/10",
+      "H04W 76/14",
+      "H04W 76/25",
+      "H04L 67/12",
+      "H04L 67/62",
+      "H04W 4/80",
+      "H04W 84/18",
+      "Y02A 90/10",
+      "Y02D 30/70"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Method for viewing simulation signals of digital products and simulation system",
+  "abstract": "The present invention discloses a method for viewing simulation signals of digital products and a simulation system, the method includes: when performing FPGA simulation on digital products, reading out all external port status data of digital products in real time and recording, meanwhile reading out all internal status data of digital products once every interval time and recording; after completing the simulation, when needing a back trace to check the data of digital products in a certain clock cycle, reading out the internal status data of digital products stored at the last time point before this clock cycle and the external port status data at said time point in the recorded simulation data; and taking the read-out data as an initial status data of the FPGA, then reading out all internal status data of digital products clock by clock until running to the clock cycle that needs to be viewed.",
+  "claims": "1. A method for viewing simulation signals of digital products, comprising: when performing FPGA simulation on said digital products, reading out all external port status data of said digital products in real time by adopting a dynamic probe detection method and recording the external port status data being read out in real time as simulation data, and reading out all internal status data of said digital products once every interval time by adopting a static probe detection method and recording the internal status data being read out once every interval time as part of the simulation data; after completing the FPGA simulation, when needing a back trace to check the data of digital products in a certain clock cycle, reading out the internal status data of digital products recorded at a last time point before this clock cycle and the external port status data at said time point in the recorded simulation data; and loading said digital products into a FPGA, setting the external port status data and the internal status data recorded at said time point as an initial status data of digital products, starting said FPGA to run and read out all internal status data of digital products clock by clock until running to a clock cycle that needs to be viewed; wherein when the external port status data and the internal status data of digital products are recorded, a serial number of the clock cycle is taken as a timestamp to store the external port status data and the internal status data of digital products as ordered structured data.",
+  "patent_id": "US12380263-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 30/343",
+      "G06F 30/3308",
+      "G06F 30/3323",
+      "G06F 9/455",
+      "G06F 11/07",
+      "G06F 30/331",
+      "G06F 30/34",
+      "G06F 30/367",
+      "G06F 30/398"
+    ],
+    "all": [
+      "G06F 30/343",
+      "G06F 30/3308",
+      "G06F 30/3323",
+      "G06F 9/455",
+      "G06F 11/07",
+      "G06F 30/331",
+      "G06F 30/34",
+      "G06F 30/367",
+      "G06F 30/398"
+    ],
+    "source": "converted"
+  }
+}

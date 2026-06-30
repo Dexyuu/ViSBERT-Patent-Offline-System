@@ -1,0 +1,28 @@
+{
+  "title": "Method, system, and apparatus for a segmented polarization-adjusted convolutional (PAC) code",
+  "abstract": "A codeword is generated based on a segmentation transform and a Polarization-Adjusted Convolutional (PAC) code that includes an outer convolutional code and a polar code, and based on separate encoding of respective different segments of convolutionally encoded input bits according to the polar code. Each segment of the respective segments includes multiple bits of the convolutionally encoded input bits for which the separate encoding of the segment is independent of the separate encoding of other segments. Separate decoding may be applied to segments of such a codeword to decode convolutionally encoded input bits corresponding to the separately encoded segments of the convolutionally encoded input bits.",
+  "claims": "1. A method comprising: generating, by a Polarization-Adjusted Convolutional (PAC) code encoder, an N-bit codeword of length N bits, wherein N is an integer greater than one, wherein the generating comprises generating the N-bit codeword based on a segmentation transform and a PAC code, the PAC code comprising an outer convolutional code and an N-bit polar code of length N bits, the generating comprising separately encoding respective different segments of convolutionally encoded input bits according to the polar code to generate respective sub-codewords of length less than N bits that together comprise the N-bit codeword, each segment of the respective different segments comprising non-consecutive convolutionally encoded input bits for which the separate encoding of the segment is independent of the separate encoding of other segments; applying to the N-bit codeword, by a post-encoding processing module, separate rate matching for each of the respective different segments; transmitting, by a transmitter, the codeword after the rate matching.",
+  "patent_id": "US12381578-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03M 13/2933",
+      "H03M 13/13",
+      "H03M 13/2792",
+      "H04L 1/0042",
+      "H04L 1/0047",
+      "H04L 1/0059",
+      "H04L 1/0071"
+    ],
+    "all": [
+      "H03M 13/2933",
+      "H03M 13/13",
+      "H03M 13/2792",
+      "H04L 1/0042",
+      "H04L 1/0047",
+      "H04L 1/0059",
+      "H04L 1/0071"
+    ],
+    "source": "converted"
+  }
+}

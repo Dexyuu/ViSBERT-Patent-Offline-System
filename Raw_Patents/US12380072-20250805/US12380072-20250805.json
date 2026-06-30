@@ -1,0 +1,20 @@
+{
+  "title": "Method and system for performing a compaction/merge job using a merge based tile architecture",
+  "abstract": "A hardware-based compaction accelerator may comprise two or more decoders, a merge iterator, a compaction module, and an encoder. Each of the decoders converts a sorted string table (SST) files into a corresponding key-value (KV) format data stream. The merge iterator receives a KV format data stream from each of the decoders, and combines the KV format data streams into a single KV format data stream. The compaction module receives the composite KV format data stream and produces a compacted data stream. The compacted data stream contains less data that is in the composite KV format data stream. The encoder converts the composite KV format data stream back into one or more output SST files. The compaction accelerator may be configured to perform only a subset of the processing available from the decoders, merge iterator, compaction module, and encoder, and may be configured through the Internet using a cloud-based processor.",
+  "claims": "1. A compaction accelerator, comprising: a direct memory access (DMA) controller configured to access one or more sorted string table (SST) files in a database system; two or more merge tiles, which operate independent of the database system, that receive the one or more SST files from the DMA controller, each merge tile comprising merge tile components of: two or more decoders, each of which converts one of the one or more SST files into a corresponding key-value (KV) format data stream, wherein the key-value (KV) format comprises an ordered set of key-value pairs; a merge iterator that receives the KV format data stream from each of the two or more decoders, and combines the KV format data streams into a single KV format data stream; at least one arbiter that generates one or more timing signals associated with each of the KV format data streams, the one or more timing signals configured to coordinate transfer of KV format data streams through the two or more merge tiles; at least one multiplexer for selectively routing a data path through the two or more merge tiles; at least one of the merge tile components is configured to be formatted by metadata information that accompanies the one or more SST files, the metadata information provided to the merge tile by an external resource that addresses the merge tile through an address associated with the merge tile; at least one merge integrator that receives the single KV format data stream from each of the two or more merge tiles and produces a composite KV format data stream therefrom; and the two or more merge tiles and the at least one merge integrator are implemented, at least partially, as hardware components.",
+  "patent_id": "US12380072-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/215",
+      "G06F 16/217",
+      "G06F 16/2282"
+    ],
+    "all": [
+      "G06F 16/215",
+      "G06F 16/217",
+      "G06F 16/2282"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Biological data obtaining device, biological data obtaining system, vehicle provided with biological data obtaining device, and method of obtaining biological data",
+  "abstract": "A biological data obtaining device includes a storage unit, a first generation unit, and a second generation unit. The storage unit is configured to store time-series data in which first to Nthdistance-based fluctuation data are arranged. The first to Nthdistance-based fluctuation data are obtained based on reflected waves which are reflected from a living body at different times, wherein nthdistance-based fluctuation data indicates changes in signal strength with respect to distance. The first generation unit is configured to generate time-based fluctuation data by performing strength obtaining process. The strength obtaining process includes obtaining one corresponding strength information, wherein the one corresponding strength information is a signal strength based on reflected waves from a predetermined detection part of the living body. The second generation unit is configured to generate biological data of the detection part of the living body based on the time-based fluctuation data.",
+  "claims": "1. A biological data obtaining device, comprising: a storage unit configured to store time-series data in which first to N th distance-based fluctuation data are arranged in time series order, the first to N th distance-based fluctuation data being obtained based on reflected waves which are reflected from a living body at different times arranged in time series order, wherein the reflected waves are wide band radio waves or ultra wide band radio waves, n th distance-based fluctuation data of the first to N th distance-based fluctuation data indicating a relationship between distance and signal strength, wherein N is a natural number of 2 or more, and wherein n is a natural number of 1 to N; a first generation unit configured to generate time-based fluctuation data in which a plurality of corresponding strength information are arranged in time series by performing strength obtaining process on the first to N th distance-based fluctuation data, wherein the strength obtaining process includes obtaining one corresponding strength information of the plurality of corresponding strength information, the one corresponding strength information being a signal strength included in the n th distance-based fluctuation data and based on reflected waves from a predetermined detection part of the living body; a second generation unit configured to generate biological data of the detection part of the living body based on the time-based fluctuation data, the biological data being pulsation data relating to pulsation of the living body; and a correction unit configured to obtain corrected time-series data by performing correction process on the first to N th distance-based fluctuation data, wherein the correction process includes correcting distance components of the n th distance-based fluctuation data so that a distance component corresponding to the detection part of the living body in the n th distance-based fluctuation data approaches an arbitrary reference value, wherein the first generation unit is configured to obtain signal strengths at the arbitrary reference value from the corrected time-series data as the plurality of corresponding strength information, when performing the strength obtaining process.",
+  "patent_id": "US12376753-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 5/0245",
+      "A61B 5/02405",
+      "A61B 5/0507",
+      "G06K 7/10306",
+      "H04B 17/318"
+    ],
+    "all": [
+      "A61B 5/0245",
+      "A61B 5/02405",
+      "A61B 5/0507",
+      "G06K 7/10306",
+      "H04B 17/318"
+    ],
+    "source": "converted"
+  }
+}

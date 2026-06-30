@@ -1,0 +1,38 @@
+{
+  "application_id": "WO2017191368",
+  "application_id_fs": "WO2017191368",
+  "title": "Smart power supply",
+  "abstract": "The invention relates to a control device (102) for selectively controlling power supply from a power source (208) via at least one of a first output and a second output. The control device (102) comprising at least one processor and at least one memory storing at least one portion of computer program code, wherein the processor being configured to cause the control device (102) at least to obtain an indication of at least the following parameters: charge level of the power source (208), power need from the first output, power need from the second output; and selectively adjust the power supply via the first output and via the second output from the power source (208) in dependence of the said parameters. The invention also relates to a power supply arrangement comprising a control device.",
+  "claims": "Claims 1 . A control device for selectively controlling power supply from a power source via at least one of a first output of the control device and a second output of the control device, wherein the control device comprising: - at least one processor, and - at least one memory storing at least one portion of computer program code, wherein the processor being configured to cause the control device at least to perform: - obtain an indication of at least the following parameters: charge level of the power source, power need from the first output, power need from the second output, and - selectively adjust the power supply via the first output of the control device and via the second output of the control device from the power source in dependence of the said parameters. 2. The control device according to claim 1 , wherein the power supply is selectively adjusted in order to supply power via the first output and via the second output substantially equally long time. 3. A power supply arrangement comprising a control device according to any of claims 1 or 2, arranged to selectively adjust the power supply from the power source to a first device via the first output of the control device and to a second device via the second output of the control device. 4. The power supply arrangement according to claim 3, wherein the second device comprises a battery to supply power to the second device together with the power source. 5. The power supply arrangement according to claim 4, wherein the control device is further configured to obtain an indication of charge level of the battery of the second device and capacity of the battery of the second device. 6. The power supply arrangement according to claim 5, wherein the control device is configured to selectively adjust the power supply from the power source based on: - charge level of the power source at a point of time t n , - charge level of the battery of the second device at a point of time t n , - power need of the first device over a period of time At, and - power need of the second device over the said period of time At, wherein At=t n+ i-t n , n=0,1 ,2..., the charge level of the power source at the point of time t n+ i is the power supplied from the power source over the said period of time At subtracted from the charge level of the power source at a point of time t n , and the charge level of the battery of the second device at the point of time t n+ i is the power supplied from the battery of the second device over the said period of time At subtracted from the charge level of the battery of the second device at a point of time t n . 7. The power supply arrangement according to any of claims 3 to 6, wherein the first device comprises an accessory device and the second device comprises a mobile communication device. 8. The power supply arrangement according to claim 7, wherein the mobile communication device is one of the following: mobile phone, radiophone, tablet computer, smartwatch, portable game console, portable radio. 9. The power supply arrangement according to any of claims 7 or 8, wherein the accessory device of the mobile communication device is one of the following: headset, microphone, earphone, speaker, inductive loop, speaker microphone. 10. The power supply arrangement according to any of claims 3 to 9, wherein the control device is integrated to the first device. 1 1 . The power supply arrangement according to any of claims 3 to 9, wherein the control device is integrated to the power source. 12. The power supply arrangement according to any of claims 3 to 9, wherein the control device and the power source are integrated to the first device. 13. The power supply arrangement according to any claims 3 to 12, wherein the control device is further configured to control a transfer of data and control signals between the first device and the second device. 14. The power supply arrangement according to any of claims 3 to 13, wherein the power source is rechargeable. 15. A control device for selectively controlling power supply from a power source via at least one of a first output of the control device and a second output of the control device, the control device comprising - means for selectively supplying power via at least one of the first output of the control device and the second output of the control device, said means arranged to: - obtain an indication of at least the following parameters: available charge level of the power source, power need from the first output, power need from the second output, and - selectively adjust the power supply via the first output of the control device and via the second output of the control device from the power source in dependence of the said parameters.",
+  "classifications": {
+    "ipc": [
+      "H02J 7/00",
+      "H02J 7/0013",
+      "H02J 7/0014",
+      "H02J 7/0019",
+      "H02J 7/0024",
+      "H02J 7/34",
+      "H02J 7/342",
+      "H02J 9/00",
+      "H02J 9/04",
+      "H02J 9/06",
+      "H02J 9/061"
+    ],
+    "cpc": [],
+    "all": [
+      "H02J 7/00",
+      "H02J 7/0013",
+      "H02J 7/0014",
+      "H02J 7/0019",
+      "H02J 7/0024",
+      "H02J 7/34",
+      "H02J 7/342",
+      "H02J 9/00",
+      "H02J 9/04",
+      "H02J 9/06",
+      "H02J 9/061"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017191368"
+}

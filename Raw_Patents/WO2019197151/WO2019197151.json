@@ -1,0 +1,23 @@
+{
+  "application_id": "WO2019197151",
+  "application_id_fs": null,
+  "title": "Remote controlling method of a multiple screen display system",
+  "abstract": "The present invention relates to a method enabling remotely controlling a multiple screen display system formed to display source files on a plurality of display devices. In particular, the invention relates to a method in which display device settings are controlled by using virtual reality equipment together with sensors and control members provided on each display device in a multiple screen display system and capable of communicating with the virtual reality equipment.",
+  "claims": "Claims ( 6 ) A remote controlling method executed in a multiple screen display system comprising a plurality of display devices having a serial transmission line in between, connected to each other by a serial video transmission line transmitting an image or video signal to an adjacent device, a device sensor adapted for data communication, provided on each display device, at least one control unit controlling operation of the display devices, and a virtual reality equipment having - \tan equipment sensor communicating with a device sensor, - \ta screen adapted for reflecting images thereon, and - \ta processor adapted for communicating with the control unit, the method comprising the steps of - \tthe virtual reality equipment establishing wireless communication with the control unit and the device sensors provided on the display devices, - \tidentifying a related display device by means of the data coming from the device sensors provided on each one of the display devices, - \tcreating a settings menu by a command sent to the control unit of the identified display device and reflecting the created settings menu on the screen of the virtual reality equipment, - \tselecting the settings of the display device through the settings menu by means of the virtual reality equipment processor, and - \tactivating the selections in the related display device by transmitting the selections to the control unit. A remote controlling method according to claim 1, characterized by the device sensors and the equipment sensor being optical sensors. A remote controlling method according to any one of the preceding claims, characterized by enabling an image being played by the display devices to continue being played by a command of the control unit during reflecting the settings menu on the virtual reality equipment screen. A remote controlling method according to any one of the preceding claims, characterized by realizing the selecting of processor controls by a virtual reality equipment controller. A remote controlling method according to any one of the preceding claims, characterized by enabling: making selection settings through the processor and the equipment sensor communicating with a plurality of device sensors enabling screen settings of a plurality of display devices to be adjusted simultaneously, and applying the settings to the selected display devices by transmitting the selections to the control unit. A remote controlling method according to any one of the preceding claims, characterized by the virtual reality equipment being a virtual reality headset.",
+  "classifications": {
+    "ipc": [
+      "G06F 3/14",
+      "G09G 5/00",
+      "H04N 21/485",
+      "H04N 9/31"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 3/14",
+      "G09G 5/00",
+      "H04N 21/485",
+      "H04N 9/31"
+    ],
+    "source": "csv"
+  }
+}

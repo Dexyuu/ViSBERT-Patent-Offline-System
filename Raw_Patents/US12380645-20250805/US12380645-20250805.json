@@ -1,0 +1,40 @@
+{
+  "title": "Automated spatial indexing of images based on floorplan features",
+  "abstract": "A spatial indexing system receives a sequence of images depicting an environment, such as a floor of a construction site, and performs a spatial indexing process to automatically identify the spatial locations at which each of the images were captured. The spatial indexing system also generates an immersive model of the environment and provides a visualization interface that allows a user to view each of the images at its corresponding location within the model.",
+  "claims": "1. A method comprising: generating a first estimate of a camera path of an environment by specifying, for an image in a sequence of images received from an image capture system, a position of the image; scaling the first estimate of the camera path by aligning portions of the first estimate of a camera path segment with a floorplan of the environment based on physical features in the floorplan; and automatically generating an immersive model of the environment based on the scaled first estimate of the camera path and received sequence of images, the immersive model including 1) a display of a 2d map of the environment, 2) a set of selectable icons each corresponding to an image of the sequence of images, each icon displayed at a location within the 2d map corresponding to a location within the environment at which the corresponding image was captured, and 3) an image corresponding to a selected icon displayed simultaneously with the 2d map but in a different interface portion than the 2d map.",
+  "patent_id": "US12380645-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 17/05",
+      "G06F 16/51",
+      "G06T 7/30",
+      "G06T 7/579",
+      "G06T 7/73",
+      "G06T 7/75",
+      "G06T 19/003",
+      "H04N 13/204",
+      "G06T 2207/20076",
+      "G06T 2207/20081",
+      "G06T 2207/30241",
+      "G06T 2207/30244",
+      "G06T 2210/04"
+    ],
+    "all": [
+      "G06T 17/05",
+      "G06F 16/51",
+      "G06T 7/30",
+      "G06T 7/579",
+      "G06T 7/73",
+      "G06T 7/75",
+      "G06T 19/003",
+      "H04N 13/204",
+      "G06T 2207/20076",
+      "G06T 2207/20081",
+      "G06T 2207/30241",
+      "G06T 2207/30244",
+      "G06T 2210/04"
+    ],
+    "source": "converted"
+  }
+}

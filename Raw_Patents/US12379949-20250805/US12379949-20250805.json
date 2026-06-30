@@ -1,0 +1,28 @@
+{
+  "title": "Method for electronic device virtualization and management",
+  "abstract": "A method for electronic device virtualization and management includes transmitting a signal to a server from a client. The signal is initiated by a user of a user interface of the client. The user interface of the client presents at least two devices to the user, which the user may interact with. The signal may include a power cycling instruction directed to at least one of the devices. When the server receives a communication back from the at least one device, it may send the information to the client, where the user interface may be updated in response to the communication. The devices may be controlled with other instructions, such as scheduling instructions, firmware update instructions, and configuration backup instructions. If a power device is virtualized, it may be controlled on a port-by-port basis.",
+  "claims": "1. A client device comprising: a memory; a processor configured to: transmit, to a patroller device over a network connection, a first message, the network connection provided by a proxy device proxying communications between: (1) a server device belonging to a cloud network, (2) the client device, and (3) the a patroller device the patroller device connected to and disposed at a customer-site local area network (LAN), the first message comprising information commanding the patroller device to perform a scan across the customer-site LAN to detect any number of customer-site LAN connected devices; receive, from the patroller device, a second message the second message comprising scan information associated with detected customer-site LAN connected devices, the scan information indicating a respective network address of each of the detected customer-site LAN connected devices; and generate a display signal comprising information for displaying, by a display associated with the client device, a virtualization environment displaying the detected customer-site LAN connected devices, the virtualization environment further displaying, for each power device within the detected customer-site LAN connected device, a port status indicator, the displayed port status indicator comprising functionality enabling power cycling of each port of each power device.",
+  "patent_id": "US12379949-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/455",
+      "G06F 9/44505",
+      "G06F 9/45558",
+      "H04L 67/10",
+      "H04W 4/60",
+      "G06F 2009/45595",
+      "H04L 12/4641"
+    ],
+    "all": [
+      "G06F 9/455",
+      "G06F 9/44505",
+      "G06F 9/45558",
+      "H04L 67/10",
+      "H04W 4/60",
+      "G06F 2009/45595",
+      "H04L 12/4641"
+    ],
+    "source": "converted"
+  }
+}

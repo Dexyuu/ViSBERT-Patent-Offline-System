@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2019113172",
+  "application_id_fs": "WO2019113172",
+  "title": "External control of an autonomous vehicle",
+  "abstract": "Remote controlling of a vehicle, such as an autonomous vehicle, may sometimes be more efficient and/or reliable. Such control, however, may require processes for ensuring safety of surrounding persons and objects. Aspects of this disclosure include using onboard sensors to detect objects in an environment and alter remote commands according to such objects, e.g. by reducing a maximum permitted velocity of the vehicle as a function of distance to detected objects. In some examples described herein, such remote controlling may be performed by using objects in the environment as control objects, with movements of the control objects resulting in movement of the vehicle.",
+  "claims": "Claims What we claim is: 1. A vehicle comprising: one or more sensors configured to sense objects in an environment of the vehicle; one or more drive systems configured to cause the vehicle to move in the environment; a control system configured to: receive, from a source external to the vehicle, one or more control commands comprising a command for the vehicle to proceed in a direction; receive sensor data from the one or more sensors, the sensor data comprising information about an object in the environment; determine a safety region proximate the vehicle; determine, from the sensor data, a distance of the object from the vehicle; based at least in part on the safety region and the distance, determine a speed for the vehicle; and control the one or more drive systems to move the autonomous vehicle in the direction at the speed. 2. The autonomous vehicle of claim 1, wherein the safety region is a first safety region extending a first distance in the direction of travel relative to the vehicle and the control system is further configured to: determine a second safety region extending a second distance in the direction of travel relative to the vehicle, wherein the second distance is greater than the first distance, and wherein the control system determines the speed for the vehicle to be zero when the distance indicates that the object is in the first safety region. 3. The autonomous vehicle of claim 2, wherein the one or more control commands include a commanded speed, and wherein the control system determines the speed for the vehicle to be a non-zero speed that is less than the commanded speed when the distance indicates that the object is in the second safety region. 4. The vehicle of claim 2 or claim 3, wherein the speed is determined as at least one of a linear function or exponential function of the commanded speed, based on the distance, when the distance is less than or equal to the second distance. 5. The autonomous vehicle of claim 2 or claim 3, wherein the first safety region has a first width in a lateral direction and the second region has a second width in the lateral direction. 6. The autonomous vehicle of claim 5, wherein the control commands further comprise a command for the vehicle to change the direction, and wherein the control system is further configured to alter at least one of the first width or the second width in response to the control command for the vehicle to change the direction. 7. The autonomous vehicle of any one of claim 1 through claim 6, wherein: the source is a person located in the environment, the control system is further configured to determine a control region proximate the vehicle, \n\n the one or more control commands comprise commands configured to control the one or more drive systems to move the autonomous vehicle to position the autonomous vehicle at a predetermined location relative to the person. 8. The autonomous vehicle of claim 7, wherein: the control region extends a second distance from an end of the autonomous vehicle opposite the direction; and the speed for the vehicle is determined based at least in part on a position of the person in the control region and the speed is anon-zero speed when the person is located in the control region. 9. A method of controlling a vehicle comprising: receiving, from a source external to the vehicle, a control command for the vehicle to proceed in a direction; determining a region proximate the vehicle; determining, from sensor data, a location of an object relative to the autonomous vehicle; based at least in part on the location, determining a speed for the vehicle; and controlling the vehicle to move in the direction at the speed. 10. The method of claim 9, wherein: the region proximate the vehicle comprises a safety zone extending a distance in the direction, the determining the location of the object comprises determining that the object is located in the safety zone, and \n\n the determining the speed comprises determining that the speed is zero at least in part in response to determining that the object is located in the safety zone. 11. The method of claim 9, wherein: the region proximate the vehicle comprises a first safety zone extending a first distance in the direction and a second safety zone extending from the first distance to a second distance in the direction, the determining the location of the object comprises determining that the object is located in the second safety zone, and the determining the speed comprises determining the speed as a non-zero speed less than a commanded speed at least in part in response to determining that the object is located in the second safety zone. 12. The method of any one of claim 9 through claim 11, wherein the source comprises at least one of: a person, the method further comprising: determining, from sensor data, a location of the person relative to the autonomous vehicle, wherein the source comprises the person and the control command is based at least in part on the location of the person; or a remote controller, the method further comprising: authenticating the remote controller at the vehicle, the authenticating comprising at least one of: establishing a connection with the remote controller; syncing the remote controller with the vehicle; or \n\n recognizing the remote controller using at least one of pattern recognition or code recognition. 13. A non-transitory computer-readable medium storing instructions that, when executed, cause one or more processors to perform operations comprising: receiving, from a source external to the vehicle, a control command for the vehicle to proceed in a direction at a commanded speed; determining a region proximate the vehicle; determining, from sensor data, a location of an object relative to the autonomous vehicle; based at least in part on the location, determining a speed for the vehicle; and controlling the vehicle to move in the direction at the speed. 14. The non-transitory computer-readable medium of claim 13, wherein: the region proximate the vehicle comprises a safety zone extending a distance in the direction, the determining the location of the object comprises determining that the object is located in the safety zone, and the determining the speed comprises determining that the speed is zero at least in part in response to determining that the object is located in the safety zone. 15. The non-transitory computer-readable medium of claim 13, wherein: the region proximate the vehicle comprises a first safety zone extending a first distance in the direction and a second safety zone extending from the first distance to a second distance in the direction, \n\n the determining the location of the object comprises determining that the object is located in the second safety zone, and the determining the speed comprises determining the speed as a non-zero speed less than the commanded speed at least in part in response to determining that the object is located in the second safety zone.",
+  "classifications": {
+    "ipc": [
+      "G05D 1/00",
+      "G05D 1/02",
+      "G05D 1/021",
+      "G05D 1/0212",
+      "G05D 1/0223",
+      "G05D 1/0011",
+      "B60W 30/00",
+      "B60W 30/08",
+      "B60W 30/09",
+      "G05D 1/0214",
+      "G05D 1/0231",
+      "G05D 1/0238",
+      "G05D 1/024",
+      "G05D 1/0276",
+      "B60W 2520/00",
+      "B60W 2520/10",
+      "B60W 2554/00"
+    ],
+    "cpc": [],
+    "all": [
+      "G05D 1/00",
+      "G05D 1/02",
+      "G05D 1/021",
+      "G05D 1/0212",
+      "G05D 1/0223",
+      "G05D 1/0011",
+      "B60W 30/00",
+      "B60W 30/08",
+      "B60W 30/09",
+      "G05D 1/0214",
+      "G05D 1/0231",
+      "G05D 1/0238",
+      "G05D 1/024",
+      "G05D 1/0276",
+      "B60W 2520/00",
+      "B60W 2520/10",
+      "B60W 2554/00"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019113172"
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Method and user equipment for receiving access technology utilization control information",
+  "abstract": "According to one embodiment of this specification, there is provided an operation method of user equipment (UE). The method may comprise: transmitting an attach request message; and receiving a response message. If the response message is an attach accept message and if the attach accept includes radio access technology (RAT) utilization control information, the RAT utilization control information may be for current PLMN and its equivalent PLMN. The method may further comprise: if the response message is an attach reject message, if the attach reject message includes the RAT utilization control information and if the attach reject message is successfully integrity checked, storing the RAT utilization control information together with a PLMN identity of a current PLMN in a list of PLMNs with associated RAT restrictions.",
+  "claims": "1. An operation method of user equipment (UE), comprising transmitting a request message; receiving a response message, wherein if the response message is an accept message and if the accept message includes access technology utilization control information, the access technology utilization control information is for a current public land mobile network (PLMN) and its equivalent PLMN; and if the response message is a reject message, if the reject message includes the access technology utilization control information and if the reject message is successfully integrity checked, storing the access technology utilization control information together with a PLMN identity of a current PLMN in a list of PLMNs with associated access technology restrictions.",
+  "patent_id": "US12382419-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 60/04",
+      "H04W 8/183",
+      "H04W 12/106",
+      "H04W 72/20",
+      "H04W 84/042"
+    ],
+    "all": [
+      "H04W 60/04",
+      "H04W 8/183",
+      "H04W 12/106",
+      "H04W 72/20",
+      "H04W 84/042"
+    ],
+    "source": "converted"
+  }
+}

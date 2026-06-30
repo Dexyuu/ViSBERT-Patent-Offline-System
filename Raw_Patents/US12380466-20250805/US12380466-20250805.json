@@ -1,0 +1,18 @@
+{
+  "title": "Techniques for managing a digital asset repository",
+  "abstract": "A technique that can be implemented by the digital asset repository, and includes the steps of (1) receiving, from a first application executing on the first computing device, a request to access information associated with a second application managed by the digital asset repository, wherein the request: (i) is transmitted in response to a selection of a user interface that is displayed by the first application and that relates to the second application, and (ii) includes a set of parameters that is provided by a remote server and that specifies at least one utilization requirement pertaining to the second application; (2) receiving, from the second application, an indication that activity associated with the second application has been performed; (3) determining, based on the indication, that the at least one utilization requirement is satisfied; and (4) providing the set of parameters to a metrics manager executing on a second computing device.",
+  "claims": "1. A method, comprising: by a digital asset repository executing on a first computing device: receiving, from a first application executing on the first computing device, a request to access information associated with a second application managed by the digital asset repository, wherein the request: is transmitted in response to a selection of a user interface that is displayed by the first application and that relates to the second application, and includes a set of parameters that is provided by a remote server and that specifies at least one utilization requirement pertaining to the second application; receiving, from the second application, an indication that activity associated with the second application has been performed; determining, based on the indication, that the at least one utilization requirement is satisfied; and providing the set of parameters to a metrics manager executing on a second computing device; and by the metrics manager executing on the second computing device: receiving the set of parameters from the digital asset repository; validating at least a first portion of the set of parameters; and transmitting, based on validating at least the first portion of the set of parameters, at least a second portion of the set of parameters to the remote server that indicates an advertisement attribution should be recognized.",
+  "patent_id": "US12380466-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0243",
+      "H04L 63/0428"
+    ],
+    "all": [
+      "G06Q 30/0243",
+      "H04L 63/0428"
+    ],
+    "source": "converted"
+  }
+}

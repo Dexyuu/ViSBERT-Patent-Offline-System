@@ -1,0 +1,32 @@
+{
+  "application_id": "WO2016126316",
+  "application_id_fs": "WO2016126316",
+  "title": "Autonomous guidance system",
+  "abstract": "An autonomous guidance system (110) that operates a vehicle (10) in an autonomous mode includes a camera module (22), a radar module (30), and a controller (120). The camera module (22) outputs an image signal (116) indicative of an image of an object (16) in an area (18) about a vehicle (10). The radar module (30) outputs a reflection signal (112) indicative of a reflected signal (114) reflected by the object (16). The controller (120) generates a map (122) of the area (18) based on a vehicle-location (126) of the vehicle (10), the image signal (116), and the reflection signal (112), wherein the controller (120) classifies the object (16) as small when a magnitude of the reflection signal (112) associated with the object (16) is less than a signal-threshold.",
+  "claims": "Claims WE CLAIM: 1. An autonomous guidance system (110) that operates a vehicle (10) in an autonomous mode, said system (110) comprising: a camera module (22) that outputs an image signal (116) indicative of an image of an object (16) in an area (18) about a vehicle (10); a radar module (30) that outputs a reflection signal (112) indicative of a reflected signal (114) reflected by the object (16); and a controller (120) that generates a map (122) of the area (18) based on a vehicle-location (126) of the vehicle (10), the image signal (116), and the reflection signal (112), wherein the controller (120) classifies the object (16) as small when a magnitude of the reflection signal (112) associated with the object (16) is less than a signal- threshold. 2. The system (110) in accordance with claim 1, wherein the controller (120) classifies the object (16) as verified if the object (16) is classified as small and the object (16) is detected a plurality of occasions that the vehicle (10) passes through the area (18). 3. The system (110) in accordance with claim 2, wherein the controller (120) adds the object (16) to the map (122) after the object (16) is classified as verified. 4. The system (110) in accordance with claim 1, wherein the controller (120) determines a size of the object (16) based on the image signal (116) and the reflection signal (112), and classifies the object (16) as verified if the object (16) is classified as small and a confidence level assigned to the object (16) is greater than a confidence-threshold, wherein the confidence-threshold is based on the magnitude of the reflection signal (112) and a number of occasions that the object (16) is detected. 5. The system (110) in accordance with claim 4, wherein the controller (120) adds the object (16) to the map (122) after the object (16) is classified as verified.",
+  "classifications": {
+    "ipc": [
+      "G05D 1/00",
+      "G05D 1/02",
+      "G05D 1/021",
+      "G05D 1/0231",
+      "G05D 1/0246",
+      "G05D 1/0257",
+      "G05D 1/0268",
+      "G05D 1/0274"
+    ],
+    "cpc": [],
+    "all": [
+      "G05D 1/00",
+      "G05D 1/02",
+      "G05D 1/021",
+      "G05D 1/0231",
+      "G05D 1/0246",
+      "G05D 1/0257",
+      "G05D 1/0268",
+      "G05D 1/0274"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2016126316"
+}

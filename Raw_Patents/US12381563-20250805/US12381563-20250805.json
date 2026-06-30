@@ -1,0 +1,22 @@
+{
+  "title": "Digital phase-locked loop and related merged duty cycle calibration scheme for frequency synthesizers",
+  "abstract": "The techniques described herein relate to duty cycle error calibration. An example apparatus includes a multi-modulus divider (MMD) circuit configured to receive a first digital code corresponding to a first time delay and included in a first plurality of digital codes associated with a first range of time delays, divide a clock signal by a divisor to generate a divided clock signal, and delay the divided clock signal by the first time delay to generate a delayed clock signal. The apparatus may further include a digitally controlled delay line (DCDL) circuit configured to receive a second digital code corresponding to a second time delay and included in a second plurality of digital codes associated with a second range of time delays, and delay the delayed clock signal by the second time delay to generate a feedback clock signal to reduce a difference between the feedback and a reference clock signal.",
+  "claims": "1. An apparatus for duty cycle error calibration, comprising: a multi-modulus divider (MMD) circuit with an output, the MMD circuit configured to: receive a first digital code corresponding to a first time delay, the first digital code included in a first plurality of digital codes associated with a first range of time delays; divide a clock signal by a divisor to generate a divided clock signal; and delay the divided clock signal by the first time delay to generate a delayed clock signal; and a digitally controlled delay line (DCDL) circuit with an input coupled to the output, the DCDL circuit configured to: receive a second digital code corresponding to a second time delay, the second digital code included in a second plurality of digital codes associated with a second range of time delays; and delay the delayed clock signal by the second time delay to generate a feedback clock signal, the feedback clock signal to cause a reduction of a difference between a reference clock signal and the feedback clock signal.",
+  "patent_id": "US12381563-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03L 7/0812",
+      "H03K 3/033",
+      "H03K 5/00006",
+      "H04B 1/16"
+    ],
+    "all": [
+      "H03L 7/0812",
+      "H03K 3/033",
+      "H03K 5/00006",
+      "H04B 1/16"
+    ],
+    "source": "converted"
+  }
+}

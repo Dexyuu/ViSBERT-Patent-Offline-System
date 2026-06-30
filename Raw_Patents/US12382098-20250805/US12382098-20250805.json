@@ -1,0 +1,26 @@
+{
+  "title": "Method and apparatus of encoding/decoding image data based on tree structure-based block division",
+  "abstract": "Disclosed are methods and apparatuses for image data encoding/decoding. A method of decoding an image includes receiving a bitstream in which the image is encoded; obtaining index information for specifying a block division type of a current block in the image; and determining the block division type of the current block from a candidate group pre-defined in the decoding apparatus. The candidate group includes a plurality of candidate division types, including at least one of a non-division, a first quad-division, a second quad-division, a binary-division or a triple-division. The method also includes dividing the current block into a plurality of sub-blocks; and decoding each of the sub-blocks with reference to syntax information obtained from the bitstream.",
+  "claims": "1. An image decoding method performed by an image decoding apparatus, the image decoding method comprising: obtaining a flag specifying whether image resizing is enabled, wherein the flag having a first value specifies that the image resizing is enabled and the flag having a second value specifies that the image resizing is not enabled; obtaining at least one offset for the image resizing based on the flag; deriving a variable for the image resizing based on the at least one offset; and decoding a current image based on the image resizing, wherein the image resizing is performed by scaling a reference image of the current image based on the variable for the image resizing, and wherein, based on the flag having the second value, the at least one offset for the image resizing is not obtained.",
+  "patent_id": "US12382098-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/597",
+      "G06T 3/16",
+      "H04N 13/139",
+      "H04N 13/161",
+      "H04N 19/70",
+      "H04N 2013/0085"
+    ],
+    "all": [
+      "H04N 19/597",
+      "G06T 3/16",
+      "H04N 13/139",
+      "H04N 13/161",
+      "H04N 19/70",
+      "H04N 2013/0085"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "application_id": "WO2018089716",
+  "application_id_fs": "WO2018089716",
+  "title": "Remotely-controlled device control system, device and method",
+  "abstract": "A system, device, and method for controlling a remotely-controlled device are disclosed. The remotely-controlled device control system could include one or more remotely-controlled devices; a controller comprised of a data collection module, at least one active module, at least one module description file (MDF), a robot description file (RDF) for each remotely-controlled device, and a processing unit (PU); at least one data source, and a marketplace. The PU may be configured to receive at least one active module; receive, for each received active module, input data of its associated MDF provided by the data collection module; generate, for each received active module, output data as a function of to the input data received by the processing unit, and provide the output data to a destination system.",
+  "claims": "Claims CLAIMS What is claimed is: 1 . A system for controlling a remotely-controlled device, comprising: a marketplace having at least one available module and at least one available module description file (MDF); a plurality of input data sources; at least one remotely-controlled device; a description file for each remotely-controlled device or fleet of remotely-controlled devices; at least one active module received from the marketplace as at least one available module; at least one active MDF received from the marketplace as at least one available MDF, where each active MDF is associated with one active module and includes identification data representative of: input data required by its associated active module; a source identification of at least one input data source of the plurality of input data sources for the input data required by its associated active module, and data types and formats for the output data that will be created by its associated active module; a data collection module configured to: receive, from each MDF, the identification of the data sources required by its associated active module; , receive, for each MDF, input data from each identified data source, and \n\n provide, for each MDF, the input data to a processing unit; and the processing unit comprised of at least one processor coupled to a non-transitory processor-readable medium storing processor-executable code corresponding to at least one active module and configured to: receive at least one active module, receive, for each received active module, the input data of its associated MDF provided by the data collection module, generate, for each received active module, output data as a function of the input data received by the processing unit, and provide the output data to a destination system. 2. A device for controlling a remotely-controlled device, comprising: a processing unit comprised of at least one processor coupled to a non-transitory processor-readable medium storing processor-executable code corresponding to at least one active modules and configured to: receive at least one active module, receive, for each one active module, input data of active module description file (MDF) associated with the active module that is provided by a data collection module, generate, for each one active module, output data as a function of the input data received by the processing unit, and provide the output data to a destination system. 3. A method for controlling a remotely-controlled device, comprising: \n\n receiving, by a processing unit comprised of at least one processor coupled to a non- transitory processor-readable medium storing processor-executable code corresponding to at least one active modules, at least one active module, receiving, for each one active module, input data of active module description file (MDF) associated with the active module that is provided by a data collection module, generating, for each one active module, output data as a function of the input data received by the processing unit, and providing the output data to a destination system.",
+  "classifications": {
+    "ipc": [
+      "G06Q 50/00",
+      "G06Q 50/40",
+      "G06Q 30/00",
+      "G06Q 30/02",
+      "G06Q 30/0201",
+      "G06Q 10/00",
+      "G06Q 10/08",
+      "G06Q 10/083",
+      "G06Q 10/0833"
+    ],
+    "cpc": [],
+    "all": [
+      "G06Q 50/00",
+      "G06Q 50/40",
+      "G06Q 30/00",
+      "G06Q 30/02",
+      "G06Q 30/0201",
+      "G06Q 10/00",
+      "G06Q 10/08",
+      "G06Q 10/083",
+      "G06Q 10/0833"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018089716"
+}

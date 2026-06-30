@@ -1,0 +1,16 @@
+{
+  "title": "Method for detecting the load mass of commercial vehicle",
+  "abstract": "A method for detecting the load mass of a commercial vehicle includes the following steps. Step S1, data preprocessing: including data analysis, cleaning, noise processing and other operations for original terminal data of the vehicle. Step S2, identification and analysis of working conditions: further analyzing the working conditions according to the preprocessed data. Step S3, data screening: determining whether data with the working conditions analyzed belong to test data or training data; proceeding to step S5 if the data belong to test data, or proceeding to step S4 if the data belong to training data. Step S4, model construction and combination: constructing a plurality of different basic models through the training data in the step S2, and finally combining the models through training and screening.",
+  "claims": "1. A method for detecting the load mass of a commercial vehicle, comprising the following steps: step S 1 , data preprocessing, comprising data analysis, cleaning, noise processing for original terminal data of the vehicle; step S 2 , identification and analysis of working conditions: further analyzing the working conditions according to the preprocessed data; step S 3 , data screening: determining that data with the working conditions analyzed belong to test data or training data, proceeding to step S 5 if the data belong to test data, and proceeding to step S 4 if the data belong to training data; step S 4 , model construction and combination: constructing a plurality of different basic models through the training data in the step S 3 , and finally combining the models through training and screening, wherein the step S 4 comprises the following steps: step S 41 , model construction: constructing a plurality of different basic models through the training data in the step S 3 ; step S 42 , model training: training a selected basic regression model based on a prepared model training sample set, optimizing and selecting model parameters to generate a plurality of basic vehicle mass prediction models, and then carrying out performance evaluation on trained vehicle mass prediction models by testing the sample set for load evaluation models; step S 43 , model screening, determining whether the obtained models meet combination requirements, if so, proceeding to S 44 , and if not, repeating the step S 42 ; and step S 44 , model combination, combining the obtained plurality of better models; and step S 5 , model service deployment: in response to that a model has been trained, deploying the trained model to a cloud server, constructing a Docker image by using a model generated through training and model service-oriented codes, and pushing the Docker image to a Docker image repository of the Internet of Vehicles, and using the test data to perform detection of the load mass of a commercial vehicle through the deployed model.",
+  "patent_id": "US12380365-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 20/00"
+    ],
+    "all": [
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

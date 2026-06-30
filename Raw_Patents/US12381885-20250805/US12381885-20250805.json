@@ -1,0 +1,26 @@
+{
+  "title": "Time-only based authentication factors",
+  "abstract": "A multi-factor authentication request of a user is received. For example, the multi-factor authentication request may include a valid username/password and a valid fingerprint scan. A first authentication factor of the multi-factor authentication request is an access authentication factor (e.g., the valid username/password) and a second authentication factor (e.g., the valid fingerprint scan) of the multi-factor authentication request is one of: a time-only authentication factor; a multi-session authentication factor; and a location-only authentication factor. The user is authenticated based on the first authentication factor and the second authentication factor. Access is granted to one or more resources according to one or more rules associated with the first authentication factor and second authentication factor.",
+  "claims": "1. A system comprising: a microprocessor; and a computer readable medium, coupled with the microprocessor and comprising microprocessor readable and executable instructions that, when executed by the microprocessor, cause the microprocessor to: receive a multi-factor authentication request of a user to access a selected resource, wherein a first authentication factor of the multi-factor authentication request is an access authentication factor and wherein a second authentication factor of the multi-factor authentication request is one of: a time-only authentication factor, wherein a timestamp associated with receiving the multi-factor authentication request to access the selected resource determines which authentication factor of a plurality of possible authentication factors are used as the time-only authentication factor, wherein the plurality of possible authentication factors comprise a valid SMS code, a valid fingerprint scan, a valid voiceprint, and a valid iris scan, wherein the time-only authentication factor at a first timestamp associated with recieving the multi-factor to authentication request to access selected resource is a first one of the plurality of possible authentication factors, wherein the time-only authentication factor at a second timestamp associated with receiving the multi-factor authentication request to access the selected resource is a second one of the plurality of possible authentication factors, the first and second ones of the plurality of possible authentication factors being different; and a spatial location-only authentication factor, wherein a spatial location associated with the user when the multi-factor authentication request to access the selected resource is received determines which authentication factor of the plurality of possible authentication factors are used as the spatial location-only authentication factor, wherein the spatial location-only authentication factor at a first spatial location associated with the user is the first one of plurality of possible authentication factors, wherein the spatial location-only authentication factor at a second spatial location associated with the user is the second one of the plurality of possible authentication factors; authenticate the user based on the first authentication factor and the second authentication factor; and grant access to one or more resources according to one or more rules associated with the first authentication factor and second authentication factor.",
+  "patent_id": "US12381885-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/108",
+      "H04L 63/0853",
+      "H04L 63/105",
+      "H04L 63/107",
+      "H04L 63/20",
+      "H04L 2463/082"
+    ],
+    "all": [
+      "H04L 63/108",
+      "H04L 63/0853",
+      "H04L 63/105",
+      "H04L 63/107",
+      "H04L 63/20",
+      "H04L 2463/082"
+    ],
+    "source": "converted"
+  }
+}

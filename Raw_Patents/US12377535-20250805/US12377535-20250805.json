@@ -1,0 +1,26 @@
+{
+  "title": "Robot control apparatus, robot control method, and program",
+  "abstract": "A system and method generate an overhead camera-based encompassing box that encompasses an object to be gripped included in an image captured by an overhead camera mounted on a robot and a hand camera-based encompassing box that encompasses the object to be gripped included in an image captured by a hand camera mounted on the robot. Moreover, a relative position of a target gripping position of the object to be gripped with respect to the overhead camera-based encompassing box in the image captured by the overhead camera is calculated, the target gripping position with respect to the hand camera-based encompassing box in the image captured by the hand camera is calculated on the basis of the calculated relative position, and the calculated position is set as a corrected target gripping position of the object to be gripped included in the image captured by the hand camera.",
+  "claims": "13. A robot control method executed in a robot control apparatus that includes a first camera mounted on a robot, a second camera mounted on a hand of the robot, and circuitry including a CPU, the robot control method comprising: capturing a first image by the first camera: capturing a second image by the second camera; acquiring, by the circuitry, information about an object to be gripped by the hand and target gripping positions, the target gripping positions being specified by a user in the first image as contact points between the hand and the object at which the hand is controlled to grip the object; generating, by the circuitry, a first camera-based encompassing box that encompasses the object in the first image, and a second camera-based encompassing box that encompasses the object in the second image; calculating, by the circuitry, first relative positions of the target gripping positions with respect to the first camera-based encompassing box in the first image; calculating, by the circuitry, second relative positions of the target gripping positions with respect to the second camera-based encompassing box in the second image, based on the first relative positions that were calculated with respect to the first camera-based encompassing box in the first image; setting, by the circuitry, the second relative positions of the target gripping positions as corrected target gripping positions in the second image; and generating, by the circuitry, control information for causing the hand of the robot to grip the object at the corrected target gripping positions in the second image.",
+  "patent_id": "US12377535-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B25J 9/1612",
+      "B25J 9/1697",
+      "G06T 7/11",
+      "G06T 7/80",
+      "G06T 2207/10028",
+      "G06T 2207/10032"
+    ],
+    "all": [
+      "B25J 9/1612",
+      "B25J 9/1697",
+      "G06T 7/11",
+      "G06T 7/80",
+      "G06T 2207/10028",
+      "G06T 2207/10032"
+    ],
+    "source": "converted"
+  }
+}

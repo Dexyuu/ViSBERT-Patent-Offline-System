@@ -1,0 +1,18 @@
+{
+  "title": "System and method for a secure unidirectional network interface",
+  "abstract": "A secure network interface system includes a secure domain interface, a processing system, a network function device, and a network interface. The processing system is configured to send and receive information within secure systems, transmit configuration data for the network interface, compile data from the secure systems into a plurality of data packets, and transmit the plurality of data packets to the network function device without being physically capable of receiving data packets from the network function device, thus providing a demonstration of security partitioning. The network function device receives the configuration data, configures the network interface using the configuration data, and provides discrete feedback to the processing system regarding a configuration status. The network interface sends the plurality of data packets to one or more external unsecure systems and to limits a communication protocol type received from one or more external unsecure systems.",
+  "claims": "1. A secure network interface system, comprising: a secure network domain, comprising: one or more secure systems; a secure domain interface; and a processing system, operably connected to the secure domain interface; an unsecure network domain, comprising: a network function device, operably connected to the processing system; and a network interface, operably connected to the network function device; wherein the processing system is configured to: send and receive information with the one or more secure systems residing in the secure network domain through the secure domain interface; program the network function device with a device firmware; transmit a set of configuration data for the network interface; aggregate data from the one or more secure systems by compiling the information into a plurality of data packets; and transmit the plurality of data packets to the network function device; wherein the network function device is a dedicated hardware device configured to: receive the set of configuration data for the network interface from the processing system; configure the network interface using the set of configuration data for the network interface; and provide discrete feedback to the processing system regarding a configuration status of the network function device and the network interface, wherein the only discrete feedback able to be transferred from one or more external unsecure systems to the processing system within the secure network domain are one or more logic signals transferred through the network function device that are pre-defined by the secure network domain; wherein the network interface is configured to: send the plurality of data packets to one or more external unsecure systems; and receive one or more permitted communication protocol types from one or more external unsecure systems.",
+  "patent_id": "US12381861-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/0485",
+      "H04L 63/205"
+    ],
+    "all": [
+      "H04L 63/0485",
+      "H04L 63/205"
+    ],
+    "source": "converted"
+  }
+}

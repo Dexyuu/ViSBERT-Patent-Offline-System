@@ -1,0 +1,22 @@
+{
+  "title": "Network-ready storage products with cryptography based access control",
+  "abstract": "A storage product manufactured as a computer component and configured to have: a secure memory region to store cryptographic keys; a network interface; a local storage device having a storage capacity accessible via the network interface; and a host interface to be connected to a local host system. The local host system can control access, made via the network interface, to the storage capacity without receiving a portion of storage access messages received in the network interface. The storage product includes an access controller configured to determine whether a message, received in the network interface from the computer network or in the host interface from the local host system, has a valid verification code according to the cryptographic keys; and if not, the message can be rejected, deleted, discarded, or ignored without further processing.",
+  "claims": "1. An apparatus, comprising: a storage product connectable to a local host system that is not part of the storage product, the storage product comprising: a secure memory region configured to store cryptographic keys; a network interface connectable to a computer network that is not part of the storage product; a local storage device having a storage capacity accessible via the network interface; and a host interface connectable to the local host system to control access, made via the network interface over the computer network, to the storage capacity; wherein the storage product includes an access controller configured to: determine whether a message, received in the network interface from the computer network or in the host interface from the local host system, has a valid verification code according to the cryptographic keys; and prevent further processing of the message in the storage product in response to a determination that the message has no valid verification code; wherein the storage product includes a memory device enclosed in an integrated circuit package; and the memory device includes the secure memory region, the access controller, and a cryptographic engine configured to operate on the cryptographic keys to validate verification codes; wherein the memory device is configured to provide a random-access memory to buffer first messages received in the network interface from the computer network or second messages received in the host interface from the local host system; and wherein the memory device is configured in the network interface to buffer first messages; and the storage product is configured to select a first portion of the first messages and provide the first portion of the first messages to the local host system via the host interface to allow the local host system to perform access control.",
+  "patent_id": "US12379867-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0655",
+      "G06F 3/0604",
+      "G06F 3/0679",
+      "H04L 9/088"
+    ],
+    "all": [
+      "G06F 3/0655",
+      "G06F 3/0604",
+      "G06F 3/0679",
+      "H04L 9/088"
+    ],
+    "source": "converted"
+  }
+}

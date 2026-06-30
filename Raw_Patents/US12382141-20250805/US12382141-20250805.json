@@ -1,0 +1,16 @@
+{
+  "title": "Caller identification for a destination wireless user equipment",
+  "abstract": "Various embodiments disclosed herein provide for a caller identification (ID) method and system that can provide caller ID information to display on devices other than the wireless equipment device that is receiving the phone call. This can include televisions and other streaming devices associated with the user receiving the phone call. The mobile wireless network associated with the user's wireless user equipment can determine whether the user has an additional device on which caller ID is to be displayed, and then identify a media server associated with the additional device. Once identified, the mobile wireless network can provide the media server with the caller ID information so that it can be displayed on the television or other streaming device.",
+  "claims": "1. A method, comprising: receiving, by a media server that provides service to a subscriber destination device associated with a subscriber of wireless user equipment from a computing device configured to receive a notification of an incoming call to the wireless user equipment, a session initiation protocol (SIP) notify message that includes subscriber information; transmitting, by the media server based on the SIP notify message, an acknowledgment comprising an SIP OK message to the computing device that causes the incoming call to proceed; and concurrent with transmitting the acknowledgment comprising the SIP OK message to the computing device that causes the incoming call to proceed, sending, by the media server based on the SIP notify message, caller identification information to the subscriber destination device.",
+  "patent_id": "US12382141-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/478"
+    ],
+    "all": [
+      "H04N 21/478"
+    ],
+    "source": "converted"
+  }
+}

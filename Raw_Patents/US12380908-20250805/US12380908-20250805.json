@@ -1,0 +1,26 @@
+{
+  "title": "Dynamic noise and speech removal",
+  "abstract": "Online audio and video conference applications can utilize a noise removal module to eliminate unwanted audio from a participant's speech. A noise removal module can rely on differentiating between human speech versus other audio to filter out noise. However, in some conference environments, participant and non-participant human speech can be present. Artificial intelligence models can be trained to detect both noise and non-participant audio, based on a variety of factors. The models can label captured audio and various noise removal modules can filter noise based on the output of the models.",
+  "claims": "1. A method comprising: receiving an input audio from an audio capturing device, the input audio comprising speech from a participant of an online conference; determining a type of audio playback device of the online conference; and routing the received input audio to a first or second noise removal module, based on the determined type of the audio playback device, wherein: the first noise removal module is configured to remove noise, the first noise removal module including a first artificial intelligence model trained to detect noise portions of the input audio; and the second noise removal module is configured to remove noise and background speech, the second noise removal module including a second artificial intelligence model trained to detect noise portions of the input audio and background speech portions of the input audio.",
+  "patent_id": "US12380908-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 21/0232",
+      "G06F 3/165",
+      "G10L 21/034",
+      "G10L 25/30",
+      "G10L 25/51",
+      "H04L 65/80"
+    ],
+    "all": [
+      "G10L 21/0232",
+      "G06F 3/165",
+      "G10L 21/034",
+      "G10L 25/30",
+      "G10L 25/51",
+      "H04L 65/80"
+    ],
+    "source": "converted"
+  }
+}

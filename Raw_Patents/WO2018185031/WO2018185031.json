@@ -1,0 +1,29 @@
+{
+  "application_id": "WO2018185031",
+  "application_id_fs": null,
+  "title": "Radar sensor system for breathing monitoring and corresponding method",
+  "abstract": "A method for breathing monitoring using a radar sensor system (1), the radar sensor system (1) comprising a transmitter (2), a receiver (3) and processing device (5). In order to provide reliable and efficient means for breathing monitoring, the method comprises: the transmitter (2) simultaneously irradiating a chest region (21) and an abdominal region (22) of a person (20) with radar radiation (10) having a carrier frequency; the receiver (3) generating a receiver signal from reflected radiation (11, 12) from the chest region and the abdominal region; the processing device (5) generating an in-phase signal and a quadrature signal based on the receiver signal, and determining, from the in-phase signal and the quadrature signal, information characterizing a chest motion and an abdominal motion, at least relative to each other.",
+  "claims": "Claims Claims 1 . A method for breathing monitoring using a radar sensor system (1 ), the radar sensor system (1 ) comprising a transmitter (2), a receiver (3) and processing device (5), the method comprising: the transmitter (2) simultaneously irradiating a chest region (21 ) and an abdominal region (22) of a person (20) with radar radiation (10) having a carrier frequency; the receiver (3) generating a receiver signal from reflected radiation (1 1 , 12) from the chest region and the abdominal region; the processing device (5) generating an in-phase signal and a quadrature signal based on the receiver signal, and determining, from the in-phase signal and the quadrature signal, information characterizing a chest motion and an abdominal motion, at least relative to each other. 2. The method of claim 1 , wherein the transmitter (2) and the receiver (3) use the same antenna (4). 3. The method of claim 1 or 2, wherein the information represents a phase lag between the chest motion and the abdominal motion. 4. The method of any of the preceding claims, wherein generating the in-phase signal comprises at least partially removing the carrier frequency from the receiver signal. 5. The method of any of the preceding claims, wherein the processing device (5) generates l-Q plane data by relating the in-phase signal to the quadrature signal and determines the phase lag by comparing the l-Q plane data with reference data. 6. The method of any of the preceding claims, wherein the processing device (5) uses an average chest distance from the radar sensor system and an average abdomen distance from the radar sensor system (1 ), individual power amplitudes received from the chest (21 ) and abdomen region (22) and chest and abdomen displacement amplitudes to determine the information representing the phase lag. 7. The method of any of the preceding claims, wherein the carrier frequency is less than 3.5 GHz, preferably less than 3 GHz, more preferably less than 2.5 GHz. 8. The method of any of the preceding claims, wherein the processing device (5) determines a time-dependent chest displacement and a time-dependent abdominal displacement from the in-phase signal and the quadrature signal. 9. The method of any of the preceding claims, wherein, the processing device (5) relates the time-dependent chest displacement to the time-dependent abdominal displacement to generate data corresponding to a Lissajous figure and determines the phase lag from the Lissajous figure. 10. The method of any of the preceding claims, wherein the radar sensor system (1 ) and the person (20) are positioned so that one of the average chest distance and average abdomen distance is equal to (2n + l) ^ and the other is equal to (2m + 2) ^ where Î» is the wavelength corresponding to the carrier frequency and where m, n are integers 1 1 . The method of any of the preceding claims, wherein the processing device (5) relates the in-phase signal to the quadrature signal, optionally after normalizing each signal and removing a constant offset, to generate l-Q plane data corresponding to a Lissajous figure and determines the phase lag from dimensions of the Lissajous figure. 12. The method of any of the preceding claims, wherein the information representing the phase lag is determined from a cross-correlation function of the in-phase signal and the quadrature signal. 13. The method of any of the preceding claims, wherein the phase lag is determined from the position of at least two points of the cross-correlation function, each of which is an extremum or a zero point. 14. A radar sensor system (1 ) for breathing monitoring, comprising: a transmitter (2) for simultaneously irradiating a chest region (21 ) and an abdominal region (22) of a person (20) with radar radiation having a carrier frequency; a receiver (3) for generating a receiver signal from reflected radiation from the chest region (21 ) and the abdominal region (22); a processing device (5) adapted for generating an in-phase signal and a quadrature signal based on the receiver signal, and determining, from the in- phase signal and the quadrature signal, information characterizing a chest motion and an abdominal motion, at least relative to each other.",
+  "classifications": {
+    "ipc": [
+      "G01S 7/35",
+      "G01S 13/88",
+      "G01S 7/40",
+      "A61B 5/0205",
+      "A61B 5/05",
+      "A61B 5/08",
+      "A61B 5/113"
+    ],
+    "cpc": [],
+    "all": [
+      "G01S 7/35",
+      "G01S 13/88",
+      "G01S 7/40",
+      "A61B 5/0205",
+      "A61B 5/05",
+      "A61B 5/08",
+      "A61B 5/113"
+    ],
+    "source": "csv"
+  }
+}

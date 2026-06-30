@@ -1,0 +1,32 @@
+{
+  "title": "Interdependence between adaptive resolution of motion vector difference and signaling/derivation of motion vector-related parameters",
+  "abstract": "An example method of video decoding includes receiving a video bitstream that includes a plurality of encoded blocks including a current block. The example includes determining that the current block is inter-coded using a prediction block and a motion vector (MV). When an adaptive motion vector difference (AMVD) resolution mode is active for the current block, a reference motion vector (RMV) index is determined for a dynamic reference list (DRL), where the RMV index for the DRL has a first range when the AMVD resolution mode is active. When the AMVD resolution mode is inactive for the current block, the RMV index for the DRL is extracted from the video bitstream, where the RMV index for the DRL has a second range, greater than the first range.",
+  "claims": "1. A method of video decoding, the method comprising; receiving a video bitstream comprising a plurality of encoded blocks including a current block; determining that the current block is inter-coded using a prediction block and a motion vector (MV); when an adaptive motion vector difference (AMVD) resolution mode is active for the current block, determining a reference motion vector (RMV) index for a dynamic reference list (DRL), wherein the RMV index for the DRL has a first range when the AMVD resolution mode is active; when the AMVD resolution mode is inactive for the current block, extracting the RMV index for the DRL from the video bitstream, wherein the RMV index for the DRL has a second range, greater than the first range, when the AMVD resolution mode is inactive; identifying an RMV from the DRL based on the RMV index; deriving the MV based on the RMV and a motion vector difference (MVD); and reconstructing the current block based at least on the MV and the prediction block.",
+  "patent_id": "US12382057-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/137",
+      "H04N 19/105",
+      "H04N 19/139",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/46",
+      "H04N 19/52",
+      "H04N 19/59",
+      "H04N 19/70"
+    ],
+    "all": [
+      "H04N 19/137",
+      "H04N 19/105",
+      "H04N 19/139",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/46",
+      "H04N 19/52",
+      "H04N 19/59",
+      "H04N 19/70"
+    ],
+    "source": "converted"
+  }
+}

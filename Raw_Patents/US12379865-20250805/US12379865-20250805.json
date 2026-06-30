@@ -1,0 +1,24 @@
+{
+  "title": "Mechanisms for grouping nodes",
+  "abstract": "Techniques are disclosed relating to upgrade groups. A node of a computer system may access metadata assigned to the node during deployment of the node. The node may be one of a plurality of nodes associated with a service that is implemented by the computer system. The node may perform an operation on the metadata to derive a group identifier for the node and the group identifier may indicate the node's membership in one of a set of groups of nodes managed by the service. The node may then store the group identifier in a location accessible to the service.",
+  "claims": "1. A method, comprising: accessing, by a software node executing on a computer system, metadata assigned to the software node during deployment of the software node, wherein the software node is one of a plurality of software nodes associated with a service, and wherein the metadata describes a set of operational properties of the software node; performing, by the software node, an operation on the metadata to derive, from at least a portion of the metadata, a group identifier for the software node, wherein the metadata does not specify the group identifier of the software node, and wherein the group identifier indicates the software node's membership in a particular group of a plurality of groups that group ones of the plurality of software nodes associated with the service; and storing, by the software node, the group identifier in a location accessible to the service, wherein the storing of the group identifier permits the software node to be operated on when a particular operation is performed on the particular group.",
+  "patent_id": "US12379865-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/065",
+      "G06F 3/0604",
+      "G06F 3/0629",
+      "G06F 3/067",
+      "G06F 16/27"
+    ],
+    "all": [
+      "G06F 3/065",
+      "G06F 3/0604",
+      "G06F 3/0629",
+      "G06F 3/067",
+      "G06F 16/27"
+    ],
+    "source": "converted"
+  }
+}

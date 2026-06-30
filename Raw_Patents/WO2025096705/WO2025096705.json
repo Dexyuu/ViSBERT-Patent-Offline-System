@@ -1,0 +1,38 @@
+{
+  "application_id": "WO2025096705",
+  "application_id_fs": "WO2025096705",
+  "title": "Systems and methods for built-in self-test of sfq circuits using side-channel leakage information",
+  "abstract": "Disclosed is a built-in self-test (BIST) methodology of SFQ circuits focused on a novel readout of test signals by using side-channel leakage information. The side-channel leakage can exhibit the dependence of internal data (logical '1' and '0') on the power consumption. By measuring the variations in the power supply of an SFQ circuit at room temperature, the information about internal test signal states can be extracted. As a case study, a rapid SFQ (RSFQ) 4-to-2 priority encoder circuit is considered. The location of faults, which are artificially inserted in circuit-level simulations, is identified by applying the disclosed methodology. The BIST design is compared with a conventional shift register-based readout circuitry. The BIST design can provide 79% lower static power consumption and 65% lower layout area.",
+  "claims": "Claims CLAIMS What is claimed is: 1. A method for testing superconducting digital circuits, comprising: measuring side-channel leakage of the circuit via at least one superconducting output driver circuit communicatively connected to receive a test signal from the circuit; monitoring variation in power dissipation or electromagnetic emanations at a temperature N; and identifying correct and incorrect operation based on the variation in power dissipation or electromagnetic emanations. 2. The method of claim 1, wherein temperature N is room temperature. 3. The method of claim 1, wherein temperature N is in the range of 50 K to 70 K. 4. The method of claim 1, wherein the variation in power dissipation or electromagnetic emanations carries information related to input signals of the circuit. 5. The method of claim 1, further comprising identifying a total number of circuit outputs in a high state. 6. The method of claim 5, where the total number of circuit outputs in a high state comprises a Hamming weight. 7. The method of claim 1, wherein the method comprises a built-in self-test where no output pins for the signals are measured. 8. A system for testing superconducting digital circuits, comprising: \n\n at least one SFQ-to-DC converter communicatively connected to receive a test signal from the circuit; and a computing system communicatively connected to the at least one superconducting output driver circuit, comprising a processor and a non-transitory computer-readable medium with instructions stored thereon, which when executed by the processor, perform steps comprising: measuring side-channel leakage of the circuit; monitoring variation in power dissipation or electromagnetic emanations at a temperature N; and identifying correct and incorrect operation based on the variation in power dissipation or electromagnetic emanations. 9. The system of claim 8, wherein the at least one superconducting output driver circuit is communicatively connected to the circuit via at least one SFQ splitter. 10. The system of claim 8, wherein an output terminal of the at least one superconducting output driver circuit is floating. 11. The system of claim 8, further comprising first and second power delivery networks. 12. The system of claim 11, wherein the first power delivery network comprises a main bias voltage for powering the circuit and the at least one SFQ splitter. 13. The system of claim 11, wherein the second power delivery network comprises a test bias voltage for powering the at least one superconducting output driver circuit. 14. The system of claim 11, wherein the first and second power delivery networks are configured to reduce power consumption during normal operation and minimize switching noise. 15. The system of claim 8, wherein temperature N is room temperature. 16. The system of claim 8, wherein the computing system further performs steps comprising identifying a total number of circuit outputs in a high state. 17. The system of claim 8, wherein the system comprises a built-in self-test where no output pins for the signals are measured. 18. A method for calculating a Hamming weight of a superconducting digital circuit, comprising: measuring side-channel leakage of the circuit via a superconducting output driver circuit; monitoring variation in power dissipation or electromagnetic emanations at a temperature N; and calculating the Hamming weight of the circuit based on the power dissipation or electromagnetic emanations variation. 19. The method of claim 18, wherein temperature N is room temperature. 20. The method of claim 18, wherein temperature N is in the range of 50 K to 70 K.",
+  "classifications": {
+    "ipc": [
+      "G01R 31/00",
+      "G01R 31/28",
+      "G01R 31/30",
+      "G01R 31/3004",
+      "G01R 31/3008",
+      "G06N 10/00",
+      "G06N 10/40",
+      "H10N 60/00",
+      "H10N 60/10",
+      "H10N 60/12",
+      "H10N 69/00"
+    ],
+    "cpc": [],
+    "all": [
+      "G01R 31/00",
+      "G01R 31/28",
+      "G01R 31/30",
+      "G01R 31/3004",
+      "G01R 31/3008",
+      "G06N 10/00",
+      "G06N 10/40",
+      "H10N 60/00",
+      "H10N 60/10",
+      "H10N 60/12",
+      "H10N 69/00"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025096705"
+}

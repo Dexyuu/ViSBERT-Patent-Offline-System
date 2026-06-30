@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2018162874",
+  "application_id_fs": "WO2018162874",
+  "title": "A spiking neural network",
+  "abstract": "Broadly speaking, embodiments of the present technique provide a neuron for a spiking neural network, where the neuron is formed of at least one Correlated Electron Random Access Memory (CeRAM) elementor Correlated Electron Switch (CES) element.",
+  "claims": "Claims CLAIMS: 1. A spiking neuron for a spiking neural network, the spiking neuron comprising : a correlated electron switch (CES) element for implementing a thresholding function of the spiking neuron. 2. The spiking neuron according to claim 1 further comprising : an input node for receiving at least one signal from the spiking neural network; and an output node for outputting a spike signal. 3. The spiking neuron according to claim 2 wherein the at least one signal received at the input node is an accumulated signal from the spiking neural network. 4. The spiking neuron as claimed in claim 2 further comprising : an accumulator circuit for summing current signals received by the input node to provide an accumulated current signal. 5. The spiking neuron as claimed in claim 3 or 4 wherein the CES element stores a threshold value, and wherein the output node outputs the spike signal when the accumulated signal is greater than or equal to the threshold value. 6. The spiking neuron as claimed in claim 5 wherein the accumulated signal is an accumulated current signal and the CES element stores a threshold current value. 7. The spiking neuron as claimed in claim 6 wherein the CES element is programmed into an initial impedance state to store the threshold current value. 8. The spiking neuron as claimed in claim 7 further comprising : means for coupling the spiking neuron to programming circuitry for applying a compliance current to the CES element and programming the CES element into the initial impedance state. 9. The spiking neuron as claimed in any one of claims 6 to 8 wherein the CES element stores a threshold current value corresponding to a compliance current, the spiking neuron further comprising : a comparator circuit for: comparing the accumulated current signal with the threshold current value stored by the CES element, and outputting a spike signal if the accumulated current signal is greater than or equal to the threshold current value. 10. The spiking neuron as claimed in claim 9 wherein the spiking neuron comprises a further CES element for storing the accumulated current signal as a compliance current. 11. The spiking neuron as claimed in claim 10 wherein the comparator circuit comprises: a first mirror circuit for mirroring the accumulated current signal stored in the further CES element; and a second mirror circuit for mirroring the threshold current value stored by the CES element. 12. The spiking neuron as claimed in claim 3 or 4 wherein the accumulated signal is an accumulated current signal and wherein the CES element is programmed into an initial high impedance state. 13. The spiking neuron as claimed in claim 12 further comprising : circuitry for applying voltage Vset across the CES element, wherein the spiking neuron outputs a spike when the accumulated current signal exceeds a threshold current Iset and causes the CES element to switch out of the initial high impedance state. 14. The spiking neuron as claimed in claim 3 or 4 wherein the accumulated signal is an accumulated current signal and wherein the CES element is programmed into one of a plurality of low impedance states. 15. The spiking neuron as claimed in claim 2 further comprising : circuitry for applying voltage Vreset across the CES element, \n\n wherein the spiking neuron outputs a spike when the accumulated current signal exceeds a threshold current Ireset, and causes the CES element to switch into a high impedance state upon application of voltage Vreset. 16. The spiking neuron as claimed in claim 13 or 15 wherein the circuitry for applying voltage Vset or Vreset across the CES element comprises a capacitor provided in a parallel arrangement with the CES element. 17. The spiking neuron as claimed in any one of claims 4 to 16 wherein the accumulator circuit for summing the signals received by the input node comprises a crosspoint array for applying weights to the received signals. 18. The spiking neuron as claimed in claim 17 wherein the crosspoint array comprises: at least one row signal line and at least one column signal line; and a plurality of programmable CES elements provided at each intersection of a row signal line and a column signal line, wherein each CES element is programmable into a high impedance state or one of a plurality of low impedance states. 19. The spiking neuron as claimed in claim 18 further comprising means for coupling the crosspoint array to calibration circuitry for writing the programmable CES elements. 20. A synapse for a spiking neural network, the synapse comprising : a crosspoint array comprising : at least one row signal line and at least one column signal line; and a plurality of programmable CES elements provided at each intersection of a row signal line and a column signal line, wherein each CES element is programmable into a high impedance state or one of a plurality of low impedance states. 21. The synapse as claimed in claim 20 further comprising : input nodes coupled to each row signal line, for receiving current signals from the spiking neural network; and output nodes coupled to each column signal line, wherein each output node is couplable to a spiking neuron. 22. The synapse as claimed in claim 20 or 21 further comprising : circuitry for coupling the crosspoint array to calibration circuitry for writing the programmable CES elements into a required impedance state. 23. A method of outputting spike signals from a spiking neuron, the method comprising : using a correlated electron switch (CES) element to implement a thresholding function of the spiking neuron. 24. The method as claimed in claim 23 further comprising : accumulating two or more current signals received from the spiking neural network to provide an accumulated current signal; and outputting a spike signal. 25. The method as claimed in claim 24 wherein the CES element stores a threshold current, the method further comprising : comparing the stored threshold current and the accumulated current signal; determining if the accumulated current signal is greater than or equal to the stored threshold current; and outputting, responsive to the determining, the spike signal. 26. The method as claimed in claim 24 further comprising : programming the CES element into one of a plurality of low impedance states to store a threshold current value; and applying, subsequent to the programming, a voltage Vreset across the CES element. 27. The method as claimed in claim 26 further comprising : outputting the spike signal when the accumulated current signal exceeds a threshold current Ireset and causes the CES element to switch out of the low impedance state upon application of voltage Vreset. 28. The method as claimed in claim 24 further comprising : \n\n programming the CES element into a high impedance state to store a threshold current value; and applying, subsequent to the programming, a voltage Vset across the CES element. 29. The method as claimed in claim 28 further comprising : outputting the spike signal when the accumulated current signal exceeds a threshold current Iset and causes the CES element to switch out of the high impedance state. 30. The method as claimed in any one of claims 24 to 29 further comprising : resetting the spiking neuron subsequent to outputting a spike signal . 31. A spiking neural network comprising : a plurality of spiking neurons according to any of claims 1 to 16; and at least one synapse according to any of claims 20 to 22, the synapse couplable to two or more of the plurality of spiking neurons",
+  "classifications": {
+    "ipc": [
+      "G06N 3/00",
+      "G06N 3/02",
+      "G06N 3/04",
+      "G06N 3/049",
+      "G06N 3/08",
+      "G06N 3/06",
+      "G06N 3/063",
+      "G06N 3/065",
+      "G11C 11/00",
+      "G11C 11/54",
+      "G11C 13/00",
+      "G11C 23/00",
+      "G11C 25/00",
+      "G11C 13/0002"
+    ],
+    "cpc": [],
+    "all": [
+      "G06N 3/00",
+      "G06N 3/02",
+      "G06N 3/04",
+      "G06N 3/049",
+      "G06N 3/08",
+      "G06N 3/06",
+      "G06N 3/063",
+      "G06N 3/065",
+      "G11C 11/00",
+      "G11C 11/54",
+      "G11C 13/00",
+      "G11C 23/00",
+      "G11C 25/00",
+      "G11C 13/0002"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018162874"
+}

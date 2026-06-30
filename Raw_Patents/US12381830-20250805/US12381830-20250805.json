@@ -1,0 +1,16 @@
+{
+  "title": "Efficient TLV style header parsing and editing",
+  "abstract": "In some aspects, the disclosure is directed to methods and systems for a flexible type-length-value (TLV) parser and identification map that may be used to quickly identify TLV sequences of packet headers for subsequent processing in a pipeline. A flexible TLV bus may provide a secondary path for the TLV header and identification map, allowing for subsequent processing stages to read, process, modify, delete, or otherwise utilize individual TLV sequences within the header.",
+  "claims": "1. A method comprising: identifying, by a type-length-value (TLV) processor of a device, a type of a TLV sequence of one or more TLV sequences present in a header of a packet and a starting location of the header, the packet received via communications over one or more networks; determining, by the TLV processor, an offset of a location of the TLV sequence in the header based at least on the starting location; encoding, by the TLV processor, the TLV sequence in a bitmap using the type and offset; and providing, by the TLV processor, the bitmap for use by another TLV processor to identify the TLV sequence in the header.",
+  "patent_id": "US12381830-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 47/34"
+    ],
+    "all": [
+      "H04L 47/34"
+    ],
+    "source": "converted"
+  }
+}

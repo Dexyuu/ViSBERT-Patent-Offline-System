@@ -1,0 +1,38 @@
+{
+  "title": "Medical imaging systems for reducing radiation exposure",
+  "abstract": "Methods, systems, and apparatuses are described herein for using processes and machine learning techniques to optimize medical imaging processes to reduce inadvertent exposure to harmful radiation. A machine learning model may be trained to output recommended medical imaging device operating parameter settings. Available operating parameters of a medical imaging device may be determined, and patient data may be received. The patient data and the available operating parameters may be used as input to the trained machine learning model, which might output recommended operating parameter settings. In turn, this output in addition to other calculations might be used to transmit, to the medical imaging device, data that causes modification of the operating parameters of the medical imaging device. Metadata corresponding to one or more images captured by the medical imaging device may be received, and the trained machine learning model might be further trained based on that metadata.",
+  "claims": "1. A system comprising: a computing device and an imaging device, wherein the computing device is configured to: receive subject data by: receiving, via a user interface, a selection of an imaging application; receiving, via the user interface, a weight of a subject and a height of the subject; receiving, via the user interface, a selection of a body target; and receiving, via the user interface, one or more size offsets for the body target; receive, via the user interface, one or more settings of the imaging device; automatically determine operating parameters configured to reduce radiation exposure based on the subject data and the one or more settings by: determining an Equalizing Quotient (EQ) calculated by multiplying a value by the weight of the subject to obtain a product, and then dividing the product by the height of the subject, and determining, based on the EQ, the imaging application, the body target as modified based on the one or more size offsets, and the one or more settings of the imaging device, one or more of: peak kilovoltage, tube current, or exposure time; and cause outputting of the operating parameters.",
+  "patent_id": "US12376816-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 6/544",
+      "A61B 6/545",
+      "G06T 7/0012",
+      "G16H 40/20",
+      "G16H 40/40",
+      "G16H 40/67",
+      "G06T 2200/24",
+      "G06T 2207/10121",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30168",
+      "G16H 10/60"
+    ],
+    "all": [
+      "A61B 6/544",
+      "A61B 6/545",
+      "G06T 7/0012",
+      "G16H 40/20",
+      "G16H 40/40",
+      "G16H 40/67",
+      "G06T 2200/24",
+      "G06T 2207/10121",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30168",
+      "G16H 10/60"
+    ],
+    "source": "converted"
+  }
+}

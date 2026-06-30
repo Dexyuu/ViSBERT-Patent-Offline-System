@@ -1,0 +1,26 @@
+{
+  "title": "Signal processing method",
+  "abstract": "A signal processing method transforms X input signals into M output signals. The method includes applying a decorrelation filter to the X input signals so as to generate N decorrelated signals ei; and for each decorrelated signal ei determined, generating N delayed signals ei,k by applying a delay Ïk and a gain gk to each decorrelated signal ei, the delays Ïk and the gains gk being chosen. For each decorrelated signal ei, the delayed signals ei,k simulate a propagation of the decorrelated signal in a virtual space. The virtual space has N virtual loudspeakers and a virtual listening position that are distributed according to a predetermined geometry. For each value of k, summing the delayed signals ei,k: Ek=Î£i=1Nei,k; and determining M output signals, each output signal resulting from a linear combination of the N sums of the delayed signals Ek.",
+  "claims": "1. A signal processing method transforming X input signals a p , p being an integer belonging to the interval [1, X], into M output signals s q , q being an integer belonging to the interval [2, M], M being other than X, the method comprising the following steps: a) applying a decorrelation filter to the X input signals a p so as to generate N decorrelated signals e i , i being an integer belonging to the interval [1, N]; b) for each decorrelated signal e i determined in step a), generating N delayed signals e i,k by applying a delay τ k and a gain g k to each decorrelated signal e i , k being an integer belonging to the interval [1, N], the delays τ k and the gains g k being chosen such that, for each decorrelated signal e i , the delayed signals e i,k simulate a propagation of the decorrelated signal in a virtual space, the virtual space comprising N virtual loudspeakers and a virtual listening position that are distributed according to a predetermined geometry, the virtual space being a resonance-free space, c) for each integer value of k belonging to the interval [1, N], summing the delayed signals e i,k using the following formula: E k =Σ i=1 N e i,k ; d) duplicating the delayed signals e i,k determined in step b), and for each duplicated signal e i,k,j , j being an integer greater than or equal to 1, applying a delay ε i,k,j , and then summing the delayed duplicated signals e i,k (t−ε i,k,j ), using the following formula: for each integer value of k within the interval [1, N], for each value of j, F k,j =Σ i=1 N e i,k ( t−ε i,k,j ); and e) determining M output signals, each output signal s q resulting from a linear combination of the N sums of the delayed signals resulting from step c), E k , and, when a step d) is implemented, of the j*N sums of duplicated signals resulting from step d), F k,j .",
+  "patent_id": "US12382236-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04S 7/302",
+      "H04S 3/008",
+      "H04S 7/307",
+      "H04S 2400/01",
+      "H04S 2400/11",
+      "H04S 2400/13"
+    ],
+    "all": [
+      "H04S 7/302",
+      "H04S 3/008",
+      "H04S 7/307",
+      "H04S 2400/01",
+      "H04S 2400/11",
+      "H04S 2400/13"
+    ],
+    "source": "converted"
+  }
+}

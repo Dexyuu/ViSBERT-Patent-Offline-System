@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for light weight bitrate-resolution optimization for live streaming and transcoding",
+  "abstract": "Systems and methods are described for transcoding at least a portion of a live media asset ingested from a media content source. The systems and methods may be configured to, in real time, after ingesting the at least a portion of the live media asset, determine parameters of the at least a portion of the live media asset. The systems and methods may be further configured to, in real time, after ingesting the at least a portion of the live media asset, determine, based on the parameters, a plurality of optimal bitrate-resolution pairs for the at least a portion of the live media asset. The systems and methods may be further configured to, in real time, after ingesting the at least a portion of the live media asset, cause the at least a portion of the live media asset to be transcoded based on the plurality of optimal bitrate-resolution pairs.",
+  "claims": "1. A computer-implemented method performed by a computing medium, the computer-implemented method comprising: ingesting at least a portion of a live media asset from a media content source; performing, in real time, after ingesting the at least the portion of the live media asset: determining parameters of the at least the portion of the ingested live media asset based at least in part on analyzing bitstream-level statistics ingested with the at least the portion of the ingested live media asset; inputting the determined parameters into a machine learning model, wherein the machine learning model has been trained using training data comprising a plurality of parameters for at least respective portions of a plurality of media assets and corresponding bitrate-resolution pairs; determining, via an output from the machine learning model, a plurality of optimal bitrate-resolution pairs for the at least the portion of the live media asset for transmission to at least one edge server; determining a bandwidth of the computing medium and the at least one edge server, wherein the at least one edge server is different from the computing medium; based at least in part on the bandwidth, determining a transcoding site to transcode the at least the portion of the live media asset, wherein the transcoding site corresponds to the computing medium or the at least one edge server; and causing the at least the portion of the live media asset to be transcoded at the transcoding site based on the plurality of optimal bitrate-resolution pairs.",
+  "patent_id": "US12382116-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/23611",
+      "H04N 21/2187",
+      "H04N 21/8456"
+    ],
+    "all": [
+      "H04N 21/23611",
+      "H04N 21/2187",
+      "H04N 21/8456"
+    ],
+    "source": "converted"
+  }
+}

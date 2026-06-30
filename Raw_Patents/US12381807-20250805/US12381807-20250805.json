@@ -1,0 +1,28 @@
+{
+  "title": "Host routing with virtual machine mobility",
+  "abstract": "A method for supporting virtual machine (VM) mobility between network devices connected to a network includes: selecting a first type of route for interconnecting VMs that are connected to the network devices; and adding a feature of a second type of route to the first type of route to enable the network devices to execute proxy address resolution protocol (ARP) for transmitting network traffic between the VMs without requiring each of the network devices to store a physical address of each of the VMs in respective ones of a network address table.",
+  "claims": "1. A method for supporting virtual machine (VM) mobility between network devices connected to a network, the method being executed by a first network device among the network devices that is connected to a first VM executing on a first server and comprising: receiving, from a second network device among the network devices that is connected to a second VM executing on a second server, a route establishment request comprising an internet protocol (IP) address of the second VM, a media access control (MAC) address of the second VM, and a MAC address of the second network device; initiating, in response to receiving the route establishment request, programming of a connection to the second VM, wherein the programming of the connection to the second VM comprises: removing, from a network address table stored by the first network device, all entries matching the MAC address of the second VM; and programming a route to the second VM, wherein the programmed route contains the MAC address of the second network device; intercepting, after the programming of the connection to the second VM, a broadcast request transmitted by the first VM; transmitting, in response to intercepting the broadcast request, a MAC address of the first network device to the first VM; receiving from the first VM, in response to transmitting the MAC address of the first network device to the first VM, network traffic comprising: the IP address of the second VM as an IP destination address; and the MAC address of the first network device as a MAC destination address; initiating, in response to receiving the network traffic, execution of a routing lookup to: rewrite, based on the programmed route, the MAC destination address from the MAC address of the first network device to the MAC address of the second network device; and encapsulate the network traffic with a tunnel header to generate encapsulated network traffic; and transmitting the encapsulated network traffic to the second network device.",
+  "patent_id": "US12381807-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 45/02",
+      "G06F 9/45558",
+      "H04L 45/04",
+      "H04L 61/103",
+      "H04L 61/59",
+      "G06F 2009/45595",
+      "H04L 2101/622"
+    ],
+    "all": [
+      "H04L 45/02",
+      "G06F 9/45558",
+      "H04L 45/04",
+      "H04L 61/103",
+      "H04L 61/59",
+      "G06F 2009/45595",
+      "H04L 2101/622"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Generating templates for use in synthetic document generation processes",
+  "abstract": "The system generates templates to be used for use in synthetic document generation. Generating a template includes selecting entities to be included in the template and/or selecting characteristics of entities in the template. The system may execute randomization functions to determine which entities, of a candidate set of entities, are to be included in a template. The randomization functions may accept, as input, probabilities associated with the entities to compute the inclusion or exclusion of entities in the template. Different entities may be associated with different corresponding probabilities. The system may execute randomization functions to determine characteristics of entities that are included in a template. The characteristics may be selected from a specific candidate set of characteristics or a range of characteristic values.",
+  "claims": "1. One or more non-transitory machine-readable media storing instructions which, when executed by one or more hardware processors, cause performance of operations comprising: accessing a template generator document specifying: a first probability associated with a first entity; and a second probability associated with a second entity; generating a first template, of a plurality of templates, based on the template generator document, wherein generating the first template comprises: executing a first randomization function based on the first probability to determine whether to include the first entity in the first template; based on a first result corresponding to the execution of the first randomization function, including the first entity in the first template; executing a second randomization function based on the second probability to determine whether to include the second entity in the first template; and based on a second result corresponding to the execution of the second randomization function, including the second entity in the first template; and generating a second template, of the plurality of templates, based on the template generator document, wherein generating the second template comprises: executing a third randomization function based on the first probability to determine whether to include the first entity in the second template; based on a third result corresponding to the execution of the third randomization function, including the first entity in the second template; executing a fourth randomization function based on the second probability to determine whether to include the second entity in the second template; and based on a fourth result corresponding to the execution of the fourth randomization function, refraining from including the second entity in the second template.",
+  "patent_id": "US12380719-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 30/19147",
+      "G06F 40/186",
+      "G06V 30/412"
+    ],
+    "all": [
+      "G06V 30/19147",
+      "G06F 40/186",
+      "G06V 30/412"
+    ],
+    "source": "converted"
+  }
+}

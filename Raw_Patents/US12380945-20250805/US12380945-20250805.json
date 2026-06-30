@@ -1,0 +1,16 @@
+{
+  "title": "Memory device with word line pulse recovery",
+  "abstract": "A memory device includes a plurality of memory cells; a word line, connected to one of the plurality of memory cells, that is configured to provide a first WL pulse having a rising edge and a falling edge that define a pulse width of the first WL pulse; a first tracking WL, formed adjacent to the memory cells, that is configured to provide, via being physically or operatively coupled to a bit line (BL) configured to write a logic state to the memory cell, a second WL pulse having a rising edge with a decreased slope; and a first tracking BL, configured to emulate the BL, that is coupled to the first tracking WL such that the pulse width of the first WL pulse is increased based on the decreased slope of the rising edge of the second WL pulse.",
+  "claims": "1. A method of operating a memory device, comprising: transitioning, from a first logic state to a second logic state, a word line (WL) coupled to a memory cell; coupling a tracking WL to at least one of a bit line (BL) coupled to the memory cell or a first tracking BL emulating the BL, wherein the tracking WL emulates the WL with a decreased slope during a rising edge when transitioning from the first logic state to the second logic state responsive to the coupling; and discharging a second tracking BL emulating the BL according to the decreased slope.",
+  "patent_id": "US12380945-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G11C 11/419"
+    ],
+    "all": [
+      "G11C 11/419"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Automated industrial ergonomics risk root cause identification and management",
+  "abstract": "A system for identifying industrial ergonomics risk root-causes and providing risk control actions, comprising: a computing device configured to obtain video signals of a worker performing a job at a workplace; and a computing server system configured to receive and process the video signals to determine joint locations of the worker, calculate joint angles for each body region of the worker based on the joint locations, calculate, based on the joint angles, a risk score for each body region of the worker in a plurality of risk categories, calculate a risk rating for each body region of the worker based on the risk score, determine ergonomic risk root-causes for each body region of the worker based on the risk rating, and provide ergonomic risk control recommendations to mitigate the ergonomic risk root-causes.",
+  "claims": "1. An automated injury risk detection and display mitigation system deployed within a cloud-based communication network, the system comprising: a computing device, comprising: a non-transitory computer-readable storage medium configured to store an application program; a processor coupled to the non-transitory computer-readable storage medium and configured to control a plurality of modules to execute instructions of the application program to receive image frames; and a computing server system configured to: extract feature maps from the image frames by processing the the image frames through a neural network; generate, by each stage of a multi-stage convolutional neural network (a multi-stage CNN), at least one of confidence maps of body regions or representations of pairwise relationships between the body regions, by processing each of the feature maps by the multi-stage CNN, wherein each subsequent stage of the multi-stage CNN uses at least one of previous confidence maps or previous representations from a previous stage of the multi-stage CNN for a final stage of the multi-stage CNN to generate at least one estimate of the body regions; and provide ergonomic risk control recommendations to mitigate determined ergonomic risk root-causes for at least one body region of the body regions, wherein the determined ergonomic risk root-causes are based on the at least one estimate of the body regions.",
+  "patent_id": "US12380392-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/06398",
+      "G06Q 10/0635",
+      "G06V 20/52"
+    ],
+    "all": [
+      "G06Q 10/06398",
+      "G06Q 10/0635",
+      "G06V 20/52"
+    ],
+    "source": "converted"
+  }
+}

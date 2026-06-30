@@ -1,0 +1,20 @@
+{
+  "title": "Non-contact elevator control system",
+  "abstract": "A non-contact elevator control system having a control panel with multiple buttons, an image processor, a first and a second camera module, wherein the first and second camera modules are arranged at two adjacent corners of the control panel, is disclosed. When an object enters a detection range, the image processor obtains a first imaging position of the object based on a first image taken by the first camera module and a second imaging position of the object based on a second image taken by the second camera module. The image processor calculates the corresponding position of the object in the control panel according to the first and the second imaging positions, and the relative position information of the first and second imaging positions with respect to the first and second camera modules. The image processor triggers a corresponding button in the control panel based on the position.",
+  "claims": "1. A non-contact elevator control system, comprising: a control panel, including a rectangular region that includes a plurality of buttons; an image processor; and a first camera module and a second camera module, the first camera module and the second camera module being respectively arranged at a first corner and a second corner of the rectangular region of the control panel, the first corner and the second corner being adjacent to each other, wherein each of the first camera module and the second camera module includes a light-emitting source, the light-emitting source has at least a first luminance and a second luminance, and the first luminance is greater than the second luminance; wherein when an object enters a detection range, the image processor is configured to: record the object in the first luminance and the second luminance respectively by the first camera module to obtain a first high-luminance image corresponding to the first luminance and a first low-luminance image corresponding to the second luminance, and select one of the first high-luminance image and the first low-luminance image as a first image, wherein only the light-emitting source of the first camera module emits light in the first luminance and the second luminance to allow the first camera module to record the first high-luminance image and the first low-luminance image; record the object in the first luminance and the second luminance respectively by the second camera module to obtain a second high-luminance image corresponding to the first luminance and a second low-luminance image corresponding to the second luminance, and select one of the second high-luminance image and the second low-luminance image as a second image, wherein only the light-emitting source of the second camera module emits light in the first luminance and the second luminance to allow the second camera module to record the second high-luminance image and the second low-luminance image; obtain a first imaging position of the object based on the first image recorded by the first camera module and a second imaging position of the object based on the second image recorded by the second camera module; calculate a first position of the object in the control panel according to the first imaging position, the second imaging position and relative position information of the first imaging position and the second imaging position with respect to the first camera module and the second camera module; and send a command signal to the control panel according to a button corresponding to the first position; and the control panel triggers the button corresponding to the first position in response to the command signal.",
+  "patent_id": "US12380527-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 1/0007",
+      "G06T 7/73",
+      "G06T 2207/30268"
+    ],
+    "all": [
+      "G06T 1/0007",
+      "G06T 7/73",
+      "G06T 2207/30268"
+    ],
+    "source": "converted"
+  }
+}

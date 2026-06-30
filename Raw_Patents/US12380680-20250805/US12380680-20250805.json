@@ -1,0 +1,24 @@
+{
+  "title": "Model training method and related device",
+  "abstract": "A model training method and a related apparatus are provided and may be used in computer vision to perform image detection. The method includes: extracting feature information from a target image; further separately extracting features of a target object from the feature information by using a Gaussian mask to obtain a first local feature and a second local feature; determining a feature loss by using the first local feature and the second local feature; performing prediction by using the first network and the second network based on a same region proposal set to obtain a first classification predicted value and a second classification predicted value, and obtaining a classification loss based on the first classification predicted value and the second classification predicted value; and training the second network based on the classification loss and the feature loss to obtain a target network.",
+  "claims": "1. A model training method, comprising: extracting first feature information from a target image using a feature extraction layer of a first network; extracting second feature information from the target image using a feature extraction layer of a second network, wherein both the first network and the second network are classification networks, and a depth of the first network is greater than a depth of the second network; extracting a feature about a target object from the first feature information using a Gaussian mask to obtain a first local feature; extracting a feature about a target object from the second feature information using the Gaussian mask to obtain a second local feature; determining a feature loss using the first local feature and the second local feature; and training the second network based on the feature loss to obtain a target network.",
+  "patent_id": "US12380680-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/774",
+      "G06V 10/30",
+      "G06V 10/40",
+      "G06V 10/764",
+      "G06V 10/82"
+    ],
+    "all": [
+      "G06V 10/774",
+      "G06V 10/30",
+      "G06V 10/40",
+      "G06V 10/764",
+      "G06V 10/82"
+    ],
+    "source": "converted"
+  }
+}

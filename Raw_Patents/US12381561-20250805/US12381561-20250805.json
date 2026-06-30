@@ -1,0 +1,18 @@
+{
+  "title": "Circuits and methods for accessing signals in integrated circuits",
+  "abstract": "An integrated circuit includes a monitored circuit and a signal analyzer circuit. The signal analyzer circuit includes a logic circuit that determines if a condition signal satisfies a condition to generate an output signal. A first-in-first-out (FIFO) buffer circuit stores opportunistic data indicated by a monitored signal received from the monitored circuit in response to the output signal indicating if the condition signal satisfies the condition. A communication channel transmits the opportunistic data stored in the FIFO buffer circuit outside the integrated circuit.",
+  "claims": "1. An integrated circuit comprising: a monitored circuit; and a signal analyzer circuit comprising a first logic circuit that determines if a first condition signal satisfies a first condition to generate a first output signal, a first-in-first-out (FIFO) buffer circuit that stores opportunistic data indicated by a monitored signal received from the monitored circuit in response to the first output signal indicating if the first condition signal satisfies the first condition, and a communication channel that transmits the opportunistic data stored in the FIFO buffer circuit to a storage location, wherein the FIFO buffer circuit stores a first subset of the opportunistic data that is received before the first condition signal satisfies the first condition, and wherein the FIFO buffer circuit stores a second subset of the opportunistic data that is received after the first condition signal satisfies the first condition.",
+  "patent_id": "US12381561-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03K 19/177",
+      "G06F 30/343"
+    ],
+    "all": [
+      "H03K 19/177",
+      "G06F 30/343"
+    ],
+    "source": "converted"
+  }
+}

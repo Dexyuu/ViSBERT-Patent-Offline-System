@@ -1,0 +1,28 @@
+{
+  "title": "Systems and methods for 3-D scene acceleration structure creation and updating",
+  "abstract": "Systems and methods for producing an acceleration structure provide for subdividing a 3-D scene into a plurality of volumetric portions, which have different sizes, each being addressable using a multipart address indicating a location and a relative size of each volumetric portion. A stream of primitives is processed by characterizing each according to one or more criteria, selecting a relative size of volumetric portions for use in bounding the primitive, and finding a set of volumetric portions of that relative size which bound the primitive. A primitive ID is stored in each location of a cache associated with each volumetric portion of the set of volumetric portions. A cache location is selected for eviction, responsive to each cache eviction decision made during the processing. An element of an acceleration structure according to the contents of the evicted cache location is generated, responsive to the evicted cache location.",
+  "claims": "1. A method of building an acceleration structure for use in ray tracing, the method comprising: mapping a part of a scene to a memory location in a memory, said mapping being performed using a hash function; and evicting the memory location so as to form an element of the acceleration structure that aggregates one or more parts of the scene mapped to that memory location.",
+  "patent_id": "US12380626-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 15/06",
+      "G06T 15/08",
+      "G06T 15/80",
+      "G06T 17/00",
+      "G06T 17/10",
+      "G06T 2210/12",
+      "G06T 2210/32"
+    ],
+    "all": [
+      "G06T 15/06",
+      "G06T 15/08",
+      "G06T 15/80",
+      "G06T 17/00",
+      "G06T 17/10",
+      "G06T 2210/12",
+      "G06T 2210/32"
+    ],
+    "source": "converted"
+  }
+}

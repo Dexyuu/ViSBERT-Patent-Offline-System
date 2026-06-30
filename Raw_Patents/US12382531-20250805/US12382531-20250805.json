@@ -1,0 +1,20 @@
+{
+  "title": "IAB-node handover in inter-CU migration, recursive F1 and RRC signaling aspects",
+  "abstract": "A method by a network node, operating as a target donor CU in an IAB network serving as a candidate donor node for a migrating IAB node and providing connectivity for a UE. A message for IAB handover including contexts of the migrating IAB node and UEs and IAB nodes directly or indirectly served by the migrating IAB node is received. Admission control is performed for the UEs and IAB nodes. A handover command to a mobile termination, MT, of the migrating IAB node, and each UE and MT of the IAB nodes is prepared. A group handover command that recursively contains handover commands of all the UEs and MTs is generated. A handover acknowledge message including a list of admitted and not admitted PDU session resources and containing the group handover command is sent. A RRC Reconfiguration Complete message is received.",
+  "claims": "1. A method by a first network node, operating as a target donor central unit in an integrated access backhaul (“IAB”) network, serving as a candidate donor node for a migrating IAB node and providing connectivity for a user equipment (“UE”) the method comprising: receiving a message for IAB handover from a second network node, the message including contexts of the migrating IAB node and UEs and IAB nodes that are directly or indirectly served by the migrating IAB node; performing admission control for the UEs and IAB nodes included in the message; preparing a handover command to a mobile termination (“MT”) of the migrating IAB node, and each UE and MT of IAB node that are directly or indirectly served by the migrating IAB node; generating a group handover command that recursively contains handover commands of all UEs and MTs of IAB nodes that are directly or indirectly served by the migrating IAB node; preparing and sending a handover acknowledge message to the second network node, the handover acknowledge message including a list of admitted and not admitted protocol data units (“PDU”) session resources that are associated with the UEs and IAB nodes and containing the group handover command; and receiving a Radio Resource Control (“RRC”) Reconfiguration Complete message corresponding to an MT of the migrating IAB node and/or an MT of any IAB node and/or UE that are directly or indirectly served by the migrating IAB node.",
+  "patent_id": "US12382531-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/20",
+      "H04W 36/0016",
+      "H04W 36/0033"
+    ],
+    "all": [
+      "H04W 76/20",
+      "H04W 36/0016",
+      "H04W 36/0033"
+    ],
+    "source": "converted"
+  }
+}

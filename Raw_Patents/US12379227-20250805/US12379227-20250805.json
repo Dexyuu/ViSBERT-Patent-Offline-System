@@ -1,0 +1,28 @@
+{
+  "title": "Navigation system with semantic map probability mechanism and method of operation thereof",
+  "abstract": "A navigation system includes: a control circuit configured to: a control circuit configured to: capture a semantic frame from a sensor data stream for a region of interest, crop an outer peripheral edge of the semantic frame by removing semantic points beyond the outer peripheral edge, calculate a world coordinate point cloud by calculating a global positioning system (GPS) location of the semantic points includes a pose error corrected, establish a probability value for a base-level grid, generate a semantic grid map by identifying a dominant percentage of the probability value of the base-level grid and an upper-level grid, and generate a semantic map from the semantic grid map to represent the region of interest; and; and a communication circuit, coupled to the control circuit, configured to transmit the semantic map for displaying on a device.",
+  "claims": "1. A navigation system comprising: a control circuit configured to: capture a semantic frame from a sensor data stream for a region of interest, crop an outer peripheral edge of the semantic frame by removing semantic points beyond the outer peripheral edge, calculate a world coordinate point cloud by calculating a global positioning system (GPS) location of the semantic points includes a pose error corrected, establish a probability value for a base-level grid, generate a semantic grid map by identifying a dominant percentage of the probability value of the base-level grid and an upper-level grid, and generate a semantic map from the semantic grid map to represent the region of interest; and a communication circuit, coupled to the control circuit, configured to transmit the semantic map for displaying on a device.",
+  "patent_id": "US12379227-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01C 21/3889",
+      "G01C 21/32",
+      "G01C 21/3602",
+      "G06T 7/73",
+      "G01C 21/3878",
+      "G06T 2207/10028",
+      "G06T 2207/30252"
+    ],
+    "all": [
+      "G01C 21/3889",
+      "G01C 21/32",
+      "G01C 21/3602",
+      "G06T 7/73",
+      "G01C 21/3878",
+      "G06T 2207/10028",
+      "G06T 2207/30252"
+    ],
+    "source": "converted"
+  }
+}

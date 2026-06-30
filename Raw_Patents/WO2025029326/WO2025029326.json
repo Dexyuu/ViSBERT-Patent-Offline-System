@@ -1,0 +1,28 @@
+{
+  "application_id": "WO2025029326",
+  "application_id_fs": "WO2025029326",
+  "title": "System and methods for computing parity information in a raid array",
+  "abstract": "A redundant disk array may include redundant information to facilitate rebuilding the array in the event of a disk failure. A host processor may allocate buffers in an accelerator memory. Data may be moved from one or more storage devices to the buffers. An accelerator engine may perform parity calculations required to rebuild the array based on data in the buffers without requiring a host CPU to perform the parity calculation.",
+  "claims": "Claims 1. A system comprising: a central processing unit (CPU); a non-transitory processor memory device coupled to the CPU; one or more storage devices, the one or more storage devices comprising a storage array and a Direct Memory Access (DMA) circuit; an accelerator processor; an accelerator non-transitory memory; a shared bus, shared bus coupled to the CPU, the accelerator processor, the accelerator non-transitory memory, and the one or more storage devices, and wherein the CPU to instruct the one or more storage devices to move data between the one or more storage devices and the accelerator non-transitory memory, and wherein the CPU to instruct the accelerator processor to perform a parity calculation on data stored in the accelerator non-transitory memory and to write the parity information to the one or more storage devices. 2. The system as claimed in claim 1, the one or more storage devices partitioned into one or more strips, respective strips comprised of a predetermined number of bytes. 3. The system as claimed in claim 2, the strips comprised of portions of blocks of data. 4. The system as claimed in any of claims 2-3, the strips comprised of parity information. 5. The system as claimed in any of claims 1-4, the accelerator non-transitory memory comprising a source buffer and a result buffer. 6. The system as claimed in claim 5, the CPU to instruct the DMA circuit in one or more storage devices to move data between the one or more storage devices and the source buffer within the accelerator non-transitory memory. 7. The system as claimed in any of claims 5-6, the CPU to instruct the accelerator processor to write the parity information to the result buffer within the accelerator non-transitory memory. 8. The system as claimed in any of claims 1-7, the system to rebuild the storage array based on data stored in the one or more storage devices. 9. A method comprising: allocating a source buffer and a result buffer in an accelerator memory in an accelerator device; moving data from one or more storage devices to the source buffer; issuing an interrupt from the one or more storage devices to a host processor; calculating parity information based on data in the source buffer; writing the parity information to the result buffer in the accelerator memory, and writing the parity information to the one or more storage devices. 10. The method as claimed in claim 9, the one or more storage devices partitioned into one or more strips, each strip comprised of a predetermined number of bytes. 11. The method as claimed in claim 10, the strips comprised of portions of blocks of data. 12. The method as claimed in any of claims 10-11, the strips comprised of parity information. 13. The method as claimed in any of claims 9-12, the moving data from one or more storage devices to the source buffer to be performed by a respective DMA circuit of the one or more storage devices. 14. The method as claimed in any of claims 9-13, the writing the parity information to the one or more storage devices to be performed by a respective DMA circuit of the one or more storage devices. 15. The method as claimed in any of claims 9-14, the calculating parity information based on data in the source buffer to be performed by an accelerator processor.",
+  "classifications": {
+    "ipc": [
+      "G06F 11/00",
+      "G06F 11/07",
+      "G06F 11/08",
+      "G06F 11/10",
+      "G06F 11/1076",
+      "G06F 11/108"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 11/00",
+      "G06F 11/07",
+      "G06F 11/08",
+      "G06F 11/10",
+      "G06F 11/1076",
+      "G06F 11/108"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025029326"
+}

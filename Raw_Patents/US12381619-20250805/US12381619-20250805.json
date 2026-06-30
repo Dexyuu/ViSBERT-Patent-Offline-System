@@ -1,0 +1,18 @@
+{
+  "title": "Efficient tracking area update in LEO-NTN",
+  "abstract": "Low Earth Orbit (LEO) satellites orbit around the earth at a high speed (mobility), but over a predictable or deterministic orbit. In this invention, an efficient mechanism to include a list of multiple Tracking Area Codes (TAC List) in LEO-NTN is proposed for efficient tracking area update (TAU). Each cell broadcasts a TAC list corresponding to all the tracking areas it covers as it moves, dynamically. A UE selects a cell and is registered with a TA during initial registration and cell selection. As the satellite moves, the UE reselects another cell during cell reselection. The UE triggers a TAU only if its current TA does not match with any tracking area code of the TAC List broadcasted by the reselected cell. By using the concept of TAC list, it significantly reduces the TAU signaling overhead in LEO-NTN.",
+  "claims": "1. A method comprising: performing cell selection by a user equipment (UE) in a new radio (NR) based Low Earth Orbit (LEO) Non-Terrestrial Network (NTN), wherein the UE selects a first cell associated with a first tracking area code (TAC) list; performing a registration procedure with a first TAC from the first TAC list; performing cell reselection and selecting a second cell, wherein the second cell is associated with a second TAC list; and determining whether the first TAC is included in the second TAC list, wherein the UE initiates a TA update (TAU) procedure when the first TAC is not included in the second TAC list, wherein the TAU procedure involves the UE sending a TAU Request message that comprises the second TAC list, and wherein the UE receives a TAU Accept message and the UE is registered to a second TAC from the second TAC list.",
+  "patent_id": "US12381619-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 7/18504",
+      "H04B 7/18513"
+    ],
+    "all": [
+      "H04B 7/18504",
+      "H04B 7/18513"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Determination device, determination method, and determination program",
+  "abstract": "A determination device includes processing circuitry configured to extract a series of communication logs of a same session from a communication log in which an attack is to be detected, detect a communication log of a blind attack using a URL of a request destination of the communication log and specify an attack target location of the blind attack and content of the attack from the communication log in which the blind attack has been detected, and extract communication logs in which attack target locations of the blind attack match among the extracted series of communication logs of the same session and determine that the blind attack has succeeded by communication indicated by the series of communication logs in a case where it is determined that there are a plurality of types of the content of the attack and a plurality of response status codes and response sizes.",
+  "claims": "1. A determination device comprising: processing circuitry configured to: extract a series of communication logs of a same session from a communication log in which an attack is to be detected; detect a communication log of a blind attack using a URL of a request destination of the communication log and specify an attack target location of the blind attack and content of the attack from the communication log in which the blind attack has been detected; extract communication logs in which attack target locations of the blind attack match among the extracted series of communication logs of the same session and determine that the blind attack has succeeded by communication indicated by the series of communication logs in a case where it is determined that there are a plurality of types of the content of the attack and a plurality of response status codes and response sizes in the extracted communication logs; and output a result of the determination.",
+  "patent_id": "US12381894-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1416",
+      "H04L 63/1425",
+      "H04L 63/1466"
+    ],
+    "all": [
+      "H04L 63/1416",
+      "H04L 63/1425",
+      "H04L 63/1466"
+    ],
+    "source": "converted"
+  }
+}

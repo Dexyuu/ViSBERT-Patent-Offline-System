@@ -1,0 +1,52 @@
+{
+  "title": "Complex application attack quantification, testing, detection and prevention",
+  "abstract": "An apparatus and method for cyber risk quantification calculated from the likelihood of a cyber-attack on the target enterprise and/or cyber ecosystem based on its security posture. The cyber-attack likelihood can be derived as a probability-based time-to-event (TTE) measure using survivor function analysis. The likelihood probability measure can also be passed to cyber risk frameworks to determine financial impacts of the cyber-attacks. Embodiments of the present invention also relate to an apparatus and method {1) to identify and validate application attack surfaces and protect web applications against business logic-based attacks, sensitive data leakage and privilege escalation attacks; and/or {2) that protects web applications against business logic-based attacks, sensitive data leakage and privilege escalation attacks. This can include implementing an intelligent learning loop using artificial intelligence that creates an ontology-based knowledge base from application request and response sequences. Stochastic probabilistic measures are preferably applied to a knowledge base for predicting malicious user actions in real time.",
+  "claims": "1. A method for providing intelligent web application security, the method comprising: capturing requests and response sequences within a target application, wherein: the requests and response sequences include synchronous HTTP request and asynchronous HTTP requests and response sequences; the requests and response sequences result from user actions in real time; the synchronous HTTP requests and response sequences include traditional GET and POST HTTP requests between a client and a server; creating a structured content hierarchy based on captured unstructured HTTP(S) data; creating a concept hierarchy from the structured content hierarchy, the concept hierarchy representing a “is-a” relationship of content of the target application; generating an ontology of the target application from the concept hierarchy and storing the ontology in a knowledge base, the ontology being represented using first order predicate logic that represents domain knowledge of the target application; creating a master Markov logic network (MLN) and a dynamic MLN based on the captured synchronous and asynchronous HTTP requests of the knowledge base; and predicting an attack on the target application using the master MLN and the dynamic MLN, wherein the predicting an attack on the target application is based on determining a relative entropy of the master MLN and dynamic MLN to detect deviations in user behavior and infer potential attacks in progress.",
+  "patent_id": "US12380374-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/06",
+      "G06F 16/986",
+      "G06F 21/54",
+      "G06N 5/022",
+      "G06N 5/04",
+      "G06Q 30/018",
+      "H04L 63/1416",
+      "H04L 63/1433",
+      "H04L 67/02",
+      "H04L 67/1095",
+      "H04L 67/535",
+      "G06F 16/9024",
+      "G06F 18/214",
+      "G06F 21/577",
+      "G06F 2221/033",
+      "G06F 2221/2101",
+      "G06N 7/01",
+      "G06N 20/00",
+      "G06Q 10/10"
+    ],
+    "all": [
+      "G06Q 10/06",
+      "G06F 16/986",
+      "G06F 21/54",
+      "G06N 5/022",
+      "G06N 5/04",
+      "G06Q 30/018",
+      "H04L 63/1416",
+      "H04L 63/1433",
+      "H04L 67/02",
+      "H04L 67/1095",
+      "H04L 67/535",
+      "G06F 16/9024",
+      "G06F 18/214",
+      "G06F 21/577",
+      "G06F 2221/033",
+      "G06F 2221/2101",
+      "G06N 7/01",
+      "G06N 20/00",
+      "G06Q 10/10"
+    ],
+    "source": "converted"
+  }
+}

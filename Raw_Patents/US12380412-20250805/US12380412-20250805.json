@@ -1,0 +1,36 @@
+{
+  "title": "Intelligent credit card payment system and payment processing method",
+  "abstract": "An intelligent credit card payment system and payment processing method may be implemented to perform duplex payment through VAN or PG linking so that payment can be stably performed, in consideration of the problem that credit card payment is no longer available due to reaching the monthly limit set by a card company for a member store, or for another reason due to the member store. To this end, an intelligent terminal, a VAN network, and a PG network are included, so that: according to a configuration for an intelligent terminal, VAN approval information is converted into PG approval information, and thus payment processing according to VAN linking is changed to payment processing according to PG linking; or PG approval information is converted into VAN approval information, and thus payment processing according to PG linking is changed to payment processing according to VAN linking.",
+  "claims": "1. An intelligent credit card payment processing method using an intelligent credit card payment system, the intelligent credit card payment system comprising: an intelligent terminal of an affiliated store that inputs transaction information including card information, product price, and payment information according to an IC credit card payment of a purchaser, and automatically sets and performs a payment processing network through VAN linkage or PG linkage, a VAN network for processing the transaction information inputted according to the VAN linkage of the intelligent terminal by encrypting the transaction information to VAN approval information; and a PG network processing the transaction information inputted according to the PG linkage of the intelligent terminal by encrypting the transaction information to PG approval information, wherein: the intelligent terminal is provided with a duplex payment structure configured according to setting of the intelligent terminal in which the intelligent terminal is automatically routed upon approval rejection due to an error relevant to the affiliated store during processing a payment subject to the VAN linkage and displays a switching to a payment processing through the PG linkage, and the VAN approval information is converted to the PG approval information, so that a payment processing subject to the VAN linkage is switched to a payment processing subject to the PG linkage, and the intelligent terminal is further configured to: provide a commission to a PG company as a representative makes a contract with a credit card company for using the PG linkage provided by the PG company; directly connect to the credit card company by using the VAN linkage; and select a payment through the VAN linkage, a payment through the PG linkage, or a combined payment processed by selectively switching the VAN linkage or the PG linkage in an affiliated store product sales screen and a credit card cancellation screen outputted on a display of the intelligent terminal; the intelligent credit card payment processing method comprising: step S1 of checking transaction information including card information, product price, and payment information from an IC credit card of a purchaser, and selecting a VAN linkage or a PG linkage according to setting, wherein the PG linkage is configured such that a PG company as a representative makes a contract with a credit card company, executes a credit card payment and settlement as an agent, and receives a commission from sub-shopping malls (affiliated stores) by using the PG linkage and the VAN linkage is configured such that each of the affiliated stores is directly connected to the credit card company by using VAN linkage through each terminal; step S2 of generating VAN approval information according to the VAN linkage in step S1 and requesting an approval using a VAN network; step S3 of checking whether the approval is normally performed or rejected based on a result of the approval request in step S2; step S4 of storing the transaction information and outputting a receipt when the result in step S3 is the normal approval, thereby completing the transaction; step S5 of analyzing an error code when the result in step S3 is the rejected approval; step S6 in which the intelligent terminal is automatically routed when an error is confirmed as being related to the affiliated store according to step S5 and displays a switching to a payment processing through the PG linkage, and the VAN approval information is converted into PG approval information to request an approval by using a PG network; step S7 of checking whether the approval is normally performed or rejected based on the approval request in step S6 is a normal approval or rejected approval; step S8 of storing the transaction information and outputting a receipt when the result in step S7 is the normal approval, thereby completing the transaction; and determining that the result is an error related to the purchaser when the result in step S7 is the rejected approval, and terminating the transaction, wherein: an affiliated store product sales screen outputted on a display of the intelligent terminal before step S1 performs selecting a combined payment that is processed by switching the VAN linkage or the PG linkage.",
+  "patent_id": "US12380412-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/02",
+      "G06Q 20/202",
+      "G06Q 20/204",
+      "G06Q 20/209",
+      "G06Q 20/341",
+      "G06Q 20/401",
+      "G06Q 20/407",
+      "G06Q 20/42",
+      "G06Q 40/02",
+      "H04L 63/0428",
+      "G06Q 2220/00"
+    ],
+    "all": [
+      "G06Q 20/02",
+      "G06Q 20/202",
+      "G06Q 20/204",
+      "G06Q 20/209",
+      "G06Q 20/341",
+      "G06Q 20/401",
+      "G06Q 20/407",
+      "G06Q 20/42",
+      "G06Q 40/02",
+      "H04L 63/0428",
+      "G06Q 2220/00"
+    ],
+    "source": "converted"
+  }
+}

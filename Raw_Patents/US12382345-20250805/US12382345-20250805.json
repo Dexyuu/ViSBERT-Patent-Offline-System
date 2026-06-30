@@ -1,0 +1,16 @@
+{
+  "title": "Method for adaptively configuring transmission of data flows",
+  "abstract": "This disclosure generally relates configuration of transmission profile of data flows in communication networks and particularly relates to configuration of Quality of Service (QoS) profile for QoS flows. In some implementations, a first network element in the communication network may be configured to determine a plurality of transmission profiles for a data flow and transmit these profiles to a second network element. The second network element may adaptively select an active transmission profile from the plurality of transmission profiles for configuring the transmission of the data flow. The second network element may further modify the active transmission profile from the plurality of transmission profiles during an active transmission of the data flow without involving additional decision by the first network element.",
+  "claims": "1. A method for configuring a set of transmission parameters for a data flow in a wireless communication network, comprising: determining, by a first network element of the wireless communication network, two or more different configuration profiles for the data flow, each configuration profile comprising the set of transmission parameters as estimated by the first network element for the data flow, wherein the first network element comprises a first access network of the wireless communication network; notifying, by the first network element, the two or more different configuration profiles to a second network element of the wireless communication network separate from the first network element, wherein the second network element comprises a second access network of the wireless communication network, and wherein notifying the two or more different configuration profiles to the second network element involves at least notifying by the first access network the two or more different configuration profiles to the second access network; causing, by the first network element, the second network element to select an active configuration profile from the two or more different configuration profiles; and causing, by the first network element, the wireless communication network to configure transmission of the data flow based on the set of transmission parameters associated with the active configuration profile.",
+  "patent_id": "US12382345-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 28/24"
+    ],
+    "all": [
+      "H04W 28/24"
+    ],
+    "source": "converted"
+  }
+}

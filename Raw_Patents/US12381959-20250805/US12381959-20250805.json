@@ -1,0 +1,48 @@
+{
+  "title": "Geofence information delivery systems and methods",
+  "abstract": "The present invention is directed to methods and systems for querying a database of geofences, with each geofence in the database being associated with a plurality of IP addresses, preferably IPv6 addresses, and each IP address corresponding to a specific geographic coordinate. The method and system convert location coordinates to IP addresses and determine whether a location anchor point is associated with a geofence.",
+  "claims": "1. A system for delivering geofence information, comprising: at least one device including a processor and a memory, wherein the at least one device is constructed and configured for communication with at least one server computer including a database; wherein the database includes Internet Protocol (IP) addresses for geofences; wherein the at least one device generates a first request comprising a geographic location and sends the first request to the at least one server computer; wherein the at least one server computer converts the geographic location to an IP address; wherein the at least one server computer identifies at least one geofence associated with the IP address; wherein the at least one server computer creates a first response, wherein the first response includes information describing the at least one identified geofence; and wherein the database is automatically updated at predetermined time intervals, wherein the automatic updates include updating geofence ownership information and geofence license information.",
+  "patent_id": "US12381959-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 67/52",
+      "G06F 16/29",
+      "G06F 21/604",
+      "G08G 5/55",
+      "G08G 5/57",
+      "G08G 5/59",
+      "H04L 12/2816",
+      "H04L 12/6418",
+      "H04L 61/5007",
+      "H04L 67/02",
+      "H04L 67/563",
+      "H04W 4/021",
+      "H04W 12/08",
+      "G06F 2221/2111",
+      "H04L 61/4511",
+      "H04L 2101/659",
+      "H04L 2101/69"
+    ],
+    "all": [
+      "H04L 67/52",
+      "G06F 16/29",
+      "G06F 21/604",
+      "G08G 5/55",
+      "G08G 5/57",
+      "G08G 5/59",
+      "H04L 12/2816",
+      "H04L 12/6418",
+      "H04L 61/5007",
+      "H04L 67/02",
+      "H04L 67/563",
+      "H04W 4/021",
+      "H04W 12/08",
+      "G06F 2221/2111",
+      "H04L 61/4511",
+      "H04L 2101/659",
+      "H04L 2101/69"
+    ],
+    "source": "converted"
+  }
+}

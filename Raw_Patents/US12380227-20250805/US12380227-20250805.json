@@ -1,0 +1,20 @@
+{
+  "title": "Encryption computing system and encryption method",
+  "abstract": "An encryption computing system may include; a processor performing calculations between homomorphic encrypted data including cyphertexts, and a non-volatile memory device storing the homomorphic encrypted data. The processor performs a first multiplication between a first cyphertext and a second cyphertext to generate a first intermediate cyphertext, performs a second multiplication between the first intermediate cyphertext and a third cyphertext to generate a second intermediate cyphertext, performs a third multiplication between the second intermediate cyphertext and a fourth cyphertext to generate a third intermediate cyphertext, and thereafter, performs a rescaling calculation on the third intermediate cyphertext using a cumulative scaling factor to generate the homomorphic encrypted data, wherein the cumulative scaling factor is defined in relation to the first multiplication, the second multiplication and the third multiplication.",
+  "claims": "1. An encryption computing system comprising: a processor configured to perform calculations between homomorphic encrypted data; and a non-volatile memory device storing the homomorphic encrypted data, wherein the homomorphic encrypted data includes a plurality of cyphertexts, wherein the processor is further configured to: perform a first multiplication between a first cyphertext and a second cyphertext to generate a first intermediate cyphertext; perform a second multiplication between the first intermediate cyphertext and a third cyphertext to generate a second intermediate cyphertext; perform a third multiplication between the second intermediate cyphertext and a fourth cyphertext to generate a third intermediate cyphertext; and thereafter, perform rescaling comprising one or more rescaling calculations on the third intermediate cyphertext using a cumulative scaling factor to generate the homomorphic encrypted data, wherein the cumulative scaling factor is based on a cumulative result of the first multiplication, the second multiplication and the third multiplication, wherein a number of the one or more rescaling calculations is less than a number of a plurality of multiplications including the first multiplication, the second multiplication, and the third multiplication.",
+  "patent_id": "US12380227-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/602",
+      "G06F 7/5443",
+      "G06F 21/79"
+    ],
+    "all": [
+      "G06F 21/602",
+      "G06F 7/5443",
+      "G06F 21/79"
+    ],
+    "source": "converted"
+  }
+}

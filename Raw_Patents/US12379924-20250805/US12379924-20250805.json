@@ -1,0 +1,18 @@
+{
+  "title": "Register access via a read port",
+  "abstract": "Apparatuses, systems, chip-containing products, methods and computer-readable media are disclosed relating to register bank circuitry providing registers holding data values and comprising at least one read port. On receipt of a register selection vector a read address compression procedure is performed on a vector of read addresses. The register selection vector comprises element validity indicators corresponding to address elements of the vector of read addresses. The compression procedure comprises identifying selected/non-selected element positions and shifting in the vector of read addresses a set of active read addresses in a predetermined direction towards a predetermined element position to form a contiguous group in the vector of read addresses ending on one side at the predetermined element position. A read vector of data values identified by the set of active read addresses is read out from the registers via a selected read port of the at least one read port.",
+  "claims": "1. Apparatus comprising: processing circuitry to perform data processing operations in response to a sequence of instructions; and register bank circuitry to provide registers for holding data values that are subject to the data processing operations and comprising at least one read port via which data values are read from the registers, wherein the register bank circuitry further comprises register access circuitry responsive to receipt from the processing circuitry of a register selection vector to perform a read address compression procedure on a vector of read addresses, wherein the register selection vector comprises element validity indicators corresponding to address elements of the vector of read addresses, wherein the read address compression procedure comprises: identifying selected element positions and non-selected element positions based on the element validity indicators; and shifting in the vector of read addresses a set of active read addresses given by the selected element positions in a predetermined direction towards a predetermined element position, such that the set of active read addresses forms a contiguous group in the vector of read addresses ending on one side at the predetermined element position, and wherein the register access circuitry is configured to cause a read vector of data values identified by the set of active read addresses to be read out from the registers via a selected read port of the at least one read port.",
+  "patent_id": "US12379924-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/30036",
+      "G06F 9/30134"
+    ],
+    "all": [
+      "G06F 9/30036",
+      "G06F 9/30134"
+    ],
+    "source": "converted"
+  }
+}

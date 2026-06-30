@@ -1,0 +1,26 @@
+{
+  "title": "Geo-fence selection system",
+  "abstract": "The present invention relates to improvements to systems and methods for determining a current location of a client device, and for identifying and selecting appropriate geo-fences based on the current location of the client device. An improved geo-fence selection system performs operations that include associating media content with a geo-fence that encompasses a portion of a geographic region, sampling location data from a client device, defining a boundary based on the sampled location data from the client device, detecting an overlap between the boundary and the geo-fence, retrieving the media content associated with the geo-fence, and loading the media content at a memory location of the client device, in response to detecting the overlap.",
+  "claims": "1. A method comprising: associating media content with a geo-fence that encompasses a location; accessing historical location data associated with a first client device, the historical location data comprising a plurality of data points that indicate one or more locations of the client device; determining that a location from among the historical location data associated with the client device identifies the location encompassed by the geo-fence; identifying a social network connection associated with a user of the first client device, the social network connection associated with a second client device; loading the media content associated with the geo-fence at memory locations of the first client device and the second client device based on the historical location data identifying the location encompassed by the geo-fence.",
+  "patent_id": "US12382244-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 4/021",
+      "H04L 67/06",
+      "H04L 67/306",
+      "H04L 67/52",
+      "H04W 4/027",
+      "H04W 4/029"
+    ],
+    "all": [
+      "H04W 4/021",
+      "H04L 67/06",
+      "H04L 67/306",
+      "H04L 67/52",
+      "H04W 4/027",
+      "H04W 4/029"
+    ],
+    "source": "converted"
+  }
+}

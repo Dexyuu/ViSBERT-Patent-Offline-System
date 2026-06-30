@@ -1,0 +1,28 @@
+{
+  "title": "Stop detection device and stop detection method",
+  "abstract": "A stop detection device includes: an acquirer that acquires multiple captured images captured in chronological order by a camera mounted on a vehicle; an image processor that performs image processing on acquired multiple captured images; and a detector that detects vehicle speed of a vehicle at a stop position based on a result of image processing. The image processor includes a stop position identification unit that detects a marking indicating a stop position from a captured image to identify a stop position, and a vehicle speed calculation unit that calculates vehicle speed by comparing captured images in chronological order. The vehicle speed calculation unit excludes a specific region from each of multiple captured images to compare captured images.",
+  "claims": "1. A stop detection device, comprising: an acquirer that acquires a plurality of captured images captured in chronological order by a camera mounted on a vehicle; an image processor that performs image processing on an acquired plurality of captured images; and a detector that detects vehicle speed of the vehicle at a stop position based on a result of image processing, the image processor comprising: a stop position identification unit that identifies a stop position based on a marking indicating a stop position detected from a captured image; and a vehicle speed calculation unit that calculates vehicle speed by comparing captured images in chronological order, wherein the vehicle speed calculation unit excludes a specific region from each of a plurality of captured images to compare captured images; wherein the vehicle speed calculation unit sets the specific region to a predetermined center region positioned in the center of a captured image.",
+  "patent_id": "US12380803-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G08G 1/052",
+      "G06T 7/248",
+      "G06V 10/22",
+      "G06V 20/588",
+      "G08G 1/04",
+      "G06T 2207/10016",
+      "G06T 2207/30256"
+    ],
+    "all": [
+      "G08G 1/052",
+      "G06T 7/248",
+      "G06V 10/22",
+      "G06V 20/588",
+      "G08G 1/04",
+      "G06T 2207/10016",
+      "G06T 2207/30256"
+    ],
+    "source": "converted"
+  }
+}

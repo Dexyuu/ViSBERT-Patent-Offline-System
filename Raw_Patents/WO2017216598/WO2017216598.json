@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2017216598",
+  "application_id_fs": "WO2017216598",
+  "title": "Method of and apparatus for learning the phase error or timing delays within a current transducer and power measurement apparatus including current transducer error correction",
+  "abstract": "Current transducers are widely used in current measuring systems. They provide good isolation between the supply voltage and the measurement equipment. However they can introduce small phase errors which can become significant sources of error if the current to a load is out of phase with the supply voltage for the load. This disclosure discusses a robust measurement apparatus and method that can be used in situ to monitor for and correct phase errors.",
+  "claims": "Claims A method of estimating phase measurement errors in meas urements of current or voltage, the method comprising: providing an input signal having a fundamental frequency to an input of a current transducer; receiving an output signal from the current transducer, and analyzing the output signal to determine a phase difference compared to the input signal; and applying a correction to the estimate of phase measurement error compensate for a finite rate of change of the input signal. The method as claimed in claim 1 , in which the input signal is a repeating signal. The method as claimed in claim 1, in which the input signal is a stepwise approximation to a continuous signal The method as claimed in claim 3, in which the continuous signal is one of a sinusoid, a triangle wave, a square wave with smoothed transitions, and a bandwidth limited noise source. The method as claimed in claim 2, in which the input signal is a square wave like signal, and the correction comprises making a compensation for the finite rate of change of edges of the square wave like signal when tra sitioning between high and low values. The method as claimed in any one of claims 2 or 5, in which the current transducer comprises a current transformer, and the repeating input signal approximates a slew rate limited square wave or a charge rate limited square wave. The method as claimed in claim 6, in which the slew rate or charge rate limited square wave transitions between first and second values, and wherein when a transition from the first value to the second values \n\n commences at a time Tl, and finishes at a time T2, an estimate at a time to reach a midpoint is made to proceed a first phase correction. The method as claimed in any one of claims 6 or 7, in which the time to reach the midpoint is formed by starting a counter or timer at the beginning of the transition and stopping it when the end-point value is reached. The method as claimed in claim 7, further comprising adding a second phase correction to account for non-linearity of the rate of transition between the first and second values. The method as claimed in claim 9, in which the second correction is estimated or measured at manufacture and stored in memory. The method as claimed in claim 1, in which the transducer is a current transformer and the phase difference after applying the correction signal represents a phase shift resulting from the current transformer. A method of estimating power consumption comprising measuring the potential at a first conductor, measuring the current flowing in the first conductor, applying a phase correction to the measurement of current using the method of claim 1, and multiplying the potential and current measurements to estimate power. The method as claimed in claim 12, in which the correction to the measured current signal comprises estimating and applying a time shift to be applied to sampled values of the current compared to sampled values of voltage. The method as claimed in claim 6 in which the slew rate or charge rate limited square wave has a substantially equal mark-space ratio. \n\n The method as claimed in claim 1 in which the phase difference is estimated using a FFT or a Geortzel algorithm, or a phase detector circuit. The method as claimed in claim 1 in which the input signal has a predetermined slew rate or transition time and is formed by a digital to analog converter and the corrections required to account for the finite rate of change of the input signal are known because the slew rate or transition time of the input signal is predetermined. An apparatus comprising means for performing the method of claim 1. An apparatus of estimating phase shifts in measurements of current, the apparatus comprising: a signal generator for providing an mput signal to an input of a current transducer, and a phase or time shift comparator for receiving an output signal from the current transducer and analyzing the output signal to determine a phase or time difference compared to the input signal, and the phase comparator is arranged to apply a phase correction to compensate for a finite rate of change of the input signal. The apparatus as claimed in claim 18 further comprising a circuit for measuring the transition time in the input signal due to a finite rate of change of the input signal, The apparatus as claimed in any one of claims 18 or 19, in which the signal generator is a square wave generator. The apparatus as claimed in any one of claims 18 through 20 in which the measurement circuit estimates the midpoint of the square wave transition and provides a liming signal to the phase comparator. An apparatus as clamed in claim 18, in which the input signal is an approximation to a square wave but having ramp like transitions, the input signal is formed by a digital to analog converter such that the \n\n duration of the ramp like transitions are known or predetermined, and a correction value to account for the duration of the ramp like transition is known or predetermined, A power meter including an apparatus as claimed in any one of claims 18 through 22. The power meter as claimed in claim 23 further including an interface for sending data back to a network operator, where the data includes estimates of performance of the power meter and/or information about load and voltage conditions at the power meter. The power meter as claimed in claim 23 further arranged to account for harmonic signals in the current when calculating the power drawn. The power meter as claimed in claim 23 in which the signal generator generates a repeating signal having a fundamental frequency and the frequency of the signal generator is adjustable. A method of estimating phase measurement errors in measurements of current, the method comprising: providing a repeating input signal having a fundamental frequency to an input of a current transformer, where the repeating signal has nominally linear rising and falling edges; receiving an output signal from the current transducer, and analyzing the output signal to determine a phase difference compared to the input signal: wherein the method further comprises applying a correction to the estimate of phase measurement error compensate for a finite rate of change of the edges of the input signal, and the fundamental frequency of the input signal is adjustable such that the phase measurement error can be estimated at one or more frequencies.",
+  "classifications": {
+    "ipc": [
+      "G01R 19/00",
+      "G01R 19/25",
+      "G01R 19/2506",
+      "G01R 25/00",
+      "G01R 19/2513",
+      "G01R 21/00",
+      "G01R 21/06",
+      "G01R 21/133",
+      "G01R 22/00",
+      "G01R 22/06",
+      "G01R 22/10",
+      "G01R 25/005",
+      "G01R 19/0092"
+    ],
+    "cpc": [],
+    "all": [
+      "G01R 19/00",
+      "G01R 19/25",
+      "G01R 19/2506",
+      "G01R 25/00",
+      "G01R 19/2513",
+      "G01R 21/00",
+      "G01R 21/06",
+      "G01R 21/133",
+      "G01R 22/00",
+      "G01R 22/06",
+      "G01R 22/10",
+      "G01R 25/005",
+      "G01R 19/0092"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017216598"
+}

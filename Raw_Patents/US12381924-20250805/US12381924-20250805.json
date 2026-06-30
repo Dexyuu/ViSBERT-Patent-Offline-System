@@ -1,0 +1,26 @@
+{
+  "title": "Real-time communication user interface",
+  "abstract": "The present disclosure generally relates to real-time communication user interfaces. A computer system displays a plurality of selectable options for sharing a link to a real-time communication session via a plurality of respective communication protocols. A computer system displays a selectable user interface element corresponding to a link to a real-time communication session that, when selected via user input, initiates a process to send the link to a user and displays a user interface for participating in the real-time communication session with the user. A computer system displays a visual representation of a user attempting to join a real-time communication session that includes an option that is selectable to determine whether the user is allowed to participate in the real-time communication session.",
+  "claims": "1. A computer system that is in communication with a display generation component and one or more input devices, comprising: one or more processors; and memory storing one or more programs configured to be executed by the one or more processors, the one or more programs including instructions for: while the computer system displays, via the display generation component, a user interface that includes a visual representation of an active real-time communication session for a first user, a second user different from the first user attempts to join the real-time communication; and after the second user attempts to join the real-time communication session, displaying in the user interface a visual representation of the attempt of the second user to join the real-time communication session, wherein displaying the visual representation of the attempt of the second user to join the real-time communication session includes: in accordance with a determination that one or more criteria have been met, wherein the one or more criteria include a requirement that an identity of the second user has not been verified as an invitee to the real-time communication session in order for the one or more criteria to be met, the visual representation of the attempt of the second user to join the real-time communication session includes an option that is selectable to determine whether the second user is allowed to participate in the real-time communication session; in accordance with a determination that the identity of the second user has been verified as an invitee to the real-time communication session, the visual representation of the attempt of the second user to join the real-time communication session includes a representation of the second user that is displayed without displaying the option that is selectable to determine whether the second user is allowed to participate in the real-time communication session and without displaying a remove user interface object that, when selected via user input, causes the second user to be removed from the real-time communication session; and while displaying the option that is selectable to determine whether the second user is allowed to participate in the real-time communication session, detecting user input corresponding to a request to allow the second user to participate in the real-time communication session; and in response to detecting the user input corresponding to the request to allow the second user to participate in the real-time communication session, displaying, via the display generation component: the representation of the second user; and the remove user interface object that, when selected via user input, causes the second user to be removed from the real-time communication session.",
+  "patent_id": "US12381924-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 65/403",
+      "G06F 3/0482",
+      "G06F 3/0484",
+      "G06Q 10/1095",
+      "H04L 51/046",
+      "H04L 65/1093"
+    ],
+    "all": [
+      "H04L 65/403",
+      "G06F 3/0482",
+      "G06F 3/0484",
+      "G06Q 10/1095",
+      "H04L 51/046",
+      "H04L 65/1093"
+    ],
+    "source": "converted"
+  }
+}

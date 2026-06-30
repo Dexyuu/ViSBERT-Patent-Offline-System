@@ -1,0 +1,24 @@
+{
+  "title": "Optimizing cache energy consumption in processor-based devices",
+  "abstract": "Optimizing cache energy consumption in processor-based devices is disclosed herein. In some aspects, a processor-based device comprises a way lookup table (WLUT) circuit that is configured to receive an effective address (EA) for a memory access request. The WLUT circuit determines that a tag portion of the EA corresponds to a tag of a WLUT entry among a plurality of WLUT entries. In response, the WLUT circuit transmits a predicted way indicator of the WLUT entry to a cache controller. The cache controller accesses, in a set among a plurality of sets of a cache memory device corresponding to a set portion of the EA, only a predicted tag way among a plurality of tag ways of the cache memory device indicated by the predicted way indicator and only a predicted data way among a plurality of data ways of the cache memory device indicated by the predicted way indicator.",
+  "claims": "1. A processor-based device, comprising: a cache controller communicatively coupled to a cache memory device, the cache memory device comprising a tag array and a data array, the cache memory device organized as a plurality of sets each comprising a plurality of tag ways of the tag array and a plurality of data ways of the data array; an instruction processing circuit configured to process an instruction stream in an instruction pipeline comprising a plurality of pipeline stage circuits; the instruction processing circuit comprising a way lookup table (WLUT) circuit comprising a plurality of WLUT entries that correspond to a plurality of tags and that store a corresponding plurality of predicted way indicators, wherein: a count of the plurality of WLUT entries corresponds to a count of the plurality of sets; and each predicted way indicator of the plurality of predicted way indicators comprises a number N of bits, wherein N is a base two (2) logarithm of a count of the plurality of data ways; the WLUT circuit is configured to: receive an effective address (EA) for a memory access request; determine whether a tag portion of the EA corresponds to a tag of a WLUT entry among the plurality of WLUT entries; and responsive to determining that the tag portion of the EA corresponds to the tag of the WLUT entry, transmit a predicted way indicator of the WLUT entry to the cache controller, wherein the predicted way indicator comprises an identifier of a predicted tag way among the plurality of tag ways and a corresponding predicted data way among the plurality of data ways; and the cache controller is configured to: access, in a set among the plurality of sets corresponding to a set portion of the EA, only the predicted tag way among the plurality of tag ways indicated by the predicted way indicator and only the predicted data way among the plurality of data ways indicated by the predicted way indicator.",
+  "patent_id": "US12380026-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 12/0804",
+      "G06F 12/1009",
+      "G06F 2212/1028",
+      "G06F 2212/6032",
+      "G06F 2212/6082"
+    ],
+    "all": [
+      "G06F 12/0804",
+      "G06F 12/1009",
+      "G06F 2212/1028",
+      "G06F 2212/6032",
+      "G06F 2212/6082"
+    ],
+    "source": "converted"
+  }
+}

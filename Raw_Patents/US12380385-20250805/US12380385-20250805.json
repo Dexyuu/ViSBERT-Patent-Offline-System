@@ -1,0 +1,26 @@
+{
+  "title": "Control apparatus, control method, and non-transitory computer readable medium",
+  "abstract": "A control apparatus includes a controller configured to acquire reservation information including a reservation time of a medical checkup for a user and a site of the medical checkup, acquire boarding positional information indicating a boarding position of the user, and generate a dispatch plan for a vehicle, that the user boards to travel between the boarding position and the site, based on the reservation information and the boarding positional information.",
+  "claims": "1. A control apparatus comprising: a communication interface configured to communicate with a vehicle and a terminal apparatus of a user; a memory configured to store information indicating a time required for each checkup item; and a controller configured to: receive, from the terminal apparatus via the communication interface, reservation information including a reservation time of a medical checkup for the user and a site of the medical checkup; receive, from the terminal apparatus via the communication interface, boarding positional information indicating a boarding position of the user; and generate a dispatch plan for the vehicle, that the user boards to travel between the boarding position and the site, based on the reservation information and the boarding positional information, wherein the controller is further configured to: receive, from the terminal apparatus via the communication interface, additional checkup information indicating at least one additional checkup item; identify a time required for the at least one additional checkup item based on the information indicating the time required for each checkup item; when a total of the identified time required is equal to or greater than a predetermined value, modify the dispatch plan by delaying a departure time of the vehicle from the site; transmit, via the communication interface, the modified dispatch plan to the vehicle; and wherein the vehicle is configured to receive the modified dispatch plan and autonomously travel from the site to the boarding position according to the modified dispatch plan.",
+  "patent_id": "US12380385-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/06315",
+      "G06Q 10/02",
+      "G06Q 30/0207",
+      "G08G 1/0133",
+      "G08G 1/096844",
+      "G08G 1/202"
+    ],
+    "all": [
+      "G06Q 10/06315",
+      "G06Q 10/02",
+      "G06Q 30/0207",
+      "G08G 1/0133",
+      "G08G 1/096844",
+      "G08G 1/202"
+    ],
+    "source": "converted"
+  }
+}

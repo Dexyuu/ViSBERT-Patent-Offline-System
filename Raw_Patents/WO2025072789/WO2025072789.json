@@ -1,0 +1,38 @@
+{
+  "application_id": "WO2025072789",
+  "application_id_fs": "WO2025072789",
+  "title": "Smart glass system pane mapping",
+  "abstract": "A system with one or more smart glass units is provided. The system includes a smart glass unit and a controller. The controller is configured to send, using one or more wires, a tint signal to the smart glass unit to control a tint level of the smart glass unit. The controller is also configured to send, using the same one or more wires, a detection signal, independent of the tint signal, to the smart glass unit for determining a location of the smart glass unit via at least one of an electric field coupling or a magnetic field coupling.",
+  "claims": "Claims CLAIMS WHAT IS CLAIMED IS: 1. A system comprising: a controller configured to: send, using one or more wires, a tint signal to a smart glass unit to control a tint level of the smart glass unit, and send, using the same one or more wires, a detection signal, independent of the tint signal, to the smart glass unit for determining a location of the smart glass unit via at least one of an electric field coupling or a magnetic field coupling. 2. The system of claim 1, wherein the controller is configured to send the detection signal to the smart glass unit for determining the location of the smart glass unit without controlling the tint level of the smart glass unit. 3. The system of claim 1, wherein the detection signal is configured to generate one or more tones including at least one of a specific pitch assigned to the smart glass unit, a series of pitches assigned to the smart glass unit, or a sequence of pulses assigned to the smart glass unit. 4. The system of claim 1, wherein the detection signal includes a frequency assigned to the smart glass unit. 5. The system of claim 1, further comprising a detector, wherein the detector is configured to: capacitively detect, via the electric field coupling, or inductively detect, via the magnetic field coupling, the detection signal at the smart glass unit; and produce at least one of a light indication, a vibration, or a sound based on the detection signal for determining the location of the smart glass unit. 6. The system of claim 5, wherein the detector is further configured to: transmit the location of the smart glass unit to the controller for associating the detection signal with the location of the smart glass unit. 7. The system of claim 5, wherein the location of the smart glass unit is based on a location of the detector, determined by the detector when the detector detects the detection signal at the smart glass unit. 8. The system of claim 1, wherein the controller shares a physical location with the smart glass unit. 9. The system of claim 1, wherein the controller is positioned at a different location than the smart glass unit. 10. The system of any one of claims 1 through 9, further comprising: the smart glass unit. 11. The system of claim 10, wherein the smart glass unit comprises a first smart glass unit, wherein the system further comprises a second smart glass unit, and wherein the controller is further configured to: send the detection signal to the second smart glass unit for determining a location of the second smart glass unit. 12. The system of claim 10, wherein the smart glass unit comprises a first smart glass unit, wherein the detection signal comprises a first detection signal, wherein the system further comprises a second smart glass unit, and wherein the controller is further configured to: send a second detection signal, different from the first detection signal, to the second smart glass unit, independent of the first detection signal, for identifying the location of the second smart glass unit via at least one of the electric field coupling or the magnetic field coupling. 13. The system of claim 10, wherein the smart glass unit comprises a first smart glass unit, wherein the system further comprises a second smart glass unit, and wherein the controller is further configured to: after sending the detection signal to the first smart glass unit for determining the location of the first smart glass unit, send the detection signal to the second smart glass unit for determining the location of the second smart glass unit. 14. The system of any one of claims 1 through 14, wherein the controller is a first controller, and wherein the smart glass unit is a first smart glass unit, the system further comprising: a supervisory controller; a data storage for mapping detection signals with respective locations of smart glass units; a plurality of controllers in electronic communication with the supervisory controller, wherein the plurality of controllers comprises at least the first controller and a second controller; the first smart glass unit electrically wired to the first controller; and a second smart glass unit electrically wired to the second controller, wherein the supervisory controller is configured to: send a first command to the first controller and the second controller to send a tint signal to the first smart glass unit and the second smart glass unit, respectively, to control a tint level of the first smart glass unit and the second smart glass unit, respectively, send a second command to the first controller and the second controller to send respective detection signals, independent of the tint signal, to the first smart glass unit and the second smart glass unit for determining respective locations of the first smart glass unit and the second smart glass unit, receive a first signal mapping the detection signal sent to the first smart glass unit with the location of the first smart glass unit and store the mapping of the detection signal sent to the first smart glass unit and the location of the first smart glass unit in the data storage, and receive a second signal mapping the detection signal sent to the second smart glass unit with the location of the second smart glass unit and store the mapping of the detection signal sent to the second smart glass unit and the location of the second smart glass unit in the data storage. 15. The system of claim 14, wherein the supervisory controller is configured to send the second command to the first controller so that the first controller sends the detection signal to the first smart glass unit for identifying the first smart glass unit without sending the tint signal to control the tint level of the first smart glass unit, and wherein the supervisory controller is configured to send the second command to the second controller so that the second controller sends the detection signal to the second smart glass unit for identifying the first smart glass unit without sending the tint signal to control the tint level of the second smart glass unit.",
+  "classifications": {
+    "ipc": [
+      "G02F 1/00",
+      "G02F 1/01",
+      "G02F 1/15",
+      "G02F 1/153",
+      "G02F 1/157",
+      "E06B 9/00",
+      "E06B 9/24",
+      "G02F 1/163",
+      "E06B 2009/2464",
+      "G02F 2203/00",
+      "G02F 2203/01"
+    ],
+    "cpc": [],
+    "all": [
+      "G02F 1/00",
+      "G02F 1/01",
+      "G02F 1/15",
+      "G02F 1/153",
+      "G02F 1/157",
+      "E06B 9/00",
+      "E06B 9/24",
+      "G02F 1/163",
+      "E06B 2009/2464",
+      "G02F 2203/00",
+      "G02F 2203/01"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025072789"
+}

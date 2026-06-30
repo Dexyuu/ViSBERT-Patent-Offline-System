@@ -1,0 +1,22 @@
+{
+  "title": "Detecting malicious email attacks based on entity image analysis",
+  "abstract": "In some aspects, the techniques described herein relate to a method for detecting malicious emails, the method including: receiving an email, wherein the email is associated with a markup payload; determining, based on the markup payload, text data associated with the email; determining, using the text data and a first machine learning model, a first representation of the email representing text associated with the email; rendering the email to generate image data that represents a rendering of the email; determining, using the image data and a second machine learning model, a second representation of the email that represents at least the rendering of the email; and determining a prediction for the email based on the first representation and the second representation, wherein the prediction represents whether the email is predicted to be malicious based on the first representation and the second representation.",
+  "claims": "1. A method for detecting malicious emails, the method comprising: receiving an email, wherein the email is associated with a first markup payload; determining, based at least in part on the first markup payload, text data associated with the email; determining, based on the text data, whether the email discusses a first entity; based at least in part on determining that the email discusses the first entity, rendering the first markup payload to generate image data that represents a rendering of the email; determining, based on the image data, whether the email comprises a first image associated with the first entity; based at least in part on determining that the email comprises the first image, determining a first prediction about the email based at least in part on at least one of: (i) whether the first image is attached to the email as an image file or (ii) whether the first image is associated with a first uniform resource locator (URL) in the first markup payload; and determining a second prediction about the email based at least in part on the first prediction, wherein the second prediction represents whether the email is predicted to be malicious.",
+  "patent_id": "US12381914-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1483",
+      "G06F 40/30",
+      "G06V 10/40",
+      "G06V 2201/09"
+    ],
+    "all": [
+      "H04L 63/1483",
+      "G06F 40/30",
+      "G06V 10/40",
+      "G06V 2201/09"
+    ],
+    "source": "converted"
+  }
+}

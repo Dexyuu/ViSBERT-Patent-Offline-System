@@ -1,0 +1,18 @@
+{
+  "title": "Condensed coherence directory entries for processing-in-memory",
+  "abstract": "In accordance with the described techniques for condensed coherence directory entries for processing in memory, a computing device includes a core that includes a cache, a memory that includes multiple banks, a coherence directory that includes a condensed entry indicating that data associated with a memory address and the multiple banks is not stored in the cache, and a cache coherence controller. The cache coherence controller receives a processing-in-memory command to the memory address and performs a single lookup in the coherence directory for the processing-in-memory command based on inclusion of the condensed entry in the coherence directory.",
+  "claims": "9. A method comprising: receiving a first processing-in-memory command to a memory address; performing, for the first processing-in-memory command, lookups for the memory address in a coherence directory on multiple banks of a memory; creating a condensed entry in the coherence directory representing data of the memory address stored in more than one of the multiple banks responsive to the lookups, the condensed entry including multiple cache statuses each indicating whether data associated with the memory address and an individual bank of the multiple banks is stored in a cache of a core; receiving a second processing-in-memory command to the memory address; and performing a lookup in the coherence directory for the second processing-in-memory command based on each of the multiple cache statuses indicating that the data is not stored in the cache.",
+  "patent_id": "US12380029-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 12/0817",
+      "G06F 2212/1016"
+    ],
+    "all": [
+      "G06F 12/0817",
+      "G06F 2212/1016"
+    ],
+    "source": "converted"
+  }
+}

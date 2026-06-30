@@ -1,0 +1,18 @@
+{
+  "title": "Control apparatus, optical apparatus, and control method",
+  "abstract": "A control apparatus is configured to control, based on a shake amount, driving of a first image stabilizing unit that moves a correction optical system and a second image stabilizing unit that moves an image sensor. The control apparatus acquires first and second information about an image blur residue relative to a moving amount of the correction optical system and the image sensor, respectively, and third and fourth information about a maximum image stabilizable amount of the first and second image stabilizing units, respectively, and a setting unit configured to set a correction ratio between the first image stabilizing unit and the second image stabilizing unit to a first ratio based on the first and second information, and a second ratio based on the third and fourth information, and switches the correction ratio according to the shake amount.",
+  "claims": "1. A control apparatus configured to control, based on a detected shake amount, driving of a first image stabilizing unit for image stabilization by moving a correction optical system that constitutes at least part of an imaging optical system and a second image stabilizing unit for image stabilization by moving an image sensor configured to capture an object image formed by the imaging optical system, the control apparatus comprising: a memory storing instructions; and at least one processor that executes the instructions to: acquire first information about an image blur residue relative to a moving amount of the correction optical system, second information about an image blur residue relative to a moving amount of the image sensor, third information about a maximum image stabilizable amount of the first image stabilizing unit, and fourth information about a maximum image stabilizable amount of the second image stabilizing unit; and set a correction ratio between the first image stabilizing unit and the second image stabilizing unit by switching between a first ratio and a second ratio according to the shake amount, wherein the first ratio is based on the first information and the second information, and the second ratio is based on the third information and the fourth information.",
+  "patent_id": "US12382175-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 23/687",
+      "H04N 23/683"
+    ],
+    "all": [
+      "H04N 23/687",
+      "H04N 23/683"
+    ],
+    "source": "converted"
+  }
+}

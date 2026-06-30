@@ -1,0 +1,20 @@
+{
+  "title": "Configurable power monitoring system for electronic devices",
+  "abstract": "A configurable power monitoring system for electronic devices is described herein. In an example, a device can include a first circuit that can receive a first voltage signal from a voltage bus and output a second voltage signal that is lower than the first voltage signal. An electronic system can be coupled to the voltage bus. A second circuit can be coupled to the electronic system and can output a third voltage signal corresponding to current flow through the electronic system. An amplifier can amplify the third voltage signal to generate an amplified voltage signal. An accumulator can determine a power consumption value of the electronic system based on the second voltage signal and the amplified voltage signal. A data communication system can transmit the power consumption value to the electronic system and can receive configuration data usable to adjust an accuracy and/or a dynamic sensing range of the device.",
+  "claims": "1. A system comprising: a voltage divider configured to receive a first voltage signal from a voltage bus and output a second voltage signal at an output port, wherein the second voltage signal is lower than the first voltage signal; a current sense resistor coupled to the voltage bus, wherein a first end of the current sense resistor is configured to output a positive output voltage signal and a second end of the current sense resistor is connected to ground; an amplifier comprising: a first amplifier input terminal connected to the first end of the current sense resistor; and a second amplifier input terminal connected to ground; and an amplifier output terminal; a switch comprising: a first switch input terminal connected to the output port of the voltage divider; a second switch input terminal connected to the amplifier output terminal of the amplifier; and a switch output terminal; an analog-to-digital converter (ADC) comprising an ADC input terminal connected to the switch output terminal and an ADC output terminal; a multiplexer/demultiplexer connected to the ADC output terminal and configured to store, in a first operating state, voltage information in a voltage register and, in a second operating state, current information in a current register; a power register coupled to the voltage register and the current register and configured to store power information computed based on the voltage information and the current information; an accumulator connected to the power register and configured to determine a system power corresponding to the voltage bus based on the power information; and an electronic system coupled to the voltage bus and configured to compute configuration data based on the system power, wherein: the amplifier is operable to adjust a gain of the amplifier based on the configuration data; and the ADC is operable to adjust a sampling rate of the ADC based on the configuration data.",
+  "patent_id": "US12379736-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05F 1/56",
+      "G06F 1/28",
+      "H03M 1/12"
+    ],
+    "all": [
+      "G05F 1/56",
+      "G06F 1/28",
+      "H03M 1/12"
+    ],
+    "source": "converted"
+  }
+}

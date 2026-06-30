@@ -1,0 +1,20 @@
+{
+  "title": "Data transmission method, and electronic device",
+  "abstract": "Described is a data transmission method, which is applied to a client and comprises: sending a first client greeting message, the first client greeting message being used to indicate a first handshake-key mode that the client can support; obtaining a first server feedback message sent by a server on the basis of the first client greeting message, the first server feedback message being used to indicate a second handshake-key mode determined by the server, and the first server feedback message comprising a request to resend the greeting message or a server greeting message; and determining a first client shared key, and performing target data transmission according to the first client shared key. Further described are a data transmission device and a storage medium.",
+  "claims": "1. A data transmission method, performed by a client, comprising: sending a first client greeting message, wherein the first client greeting message is configured to indicate a first handshake-key mode that is capable of being supported by the client; obtaining a first server feedback message sent by a server based on the first client greeting message, wherein the first feedback message is configured to indicate a second handshake-key mode determined by the server, and the first server feedback message comprises a request of resending a greeting message or a server greeting message, wherein, when the second handshake-key mode determined by the user is handshaking a key using a ECDH-based network configuration protocol, the first server feedback message comprises: a second public key; when the second handshake-key mode determined by the user is handshaking a key using a ECJPAKE-based network configuration protocol, the first server feedback message comprises: a first public key list, and the first public key list comprises a public key pair sent from the server to the client for determining a shared key; and determining the shared key of the client based on the ECDH-based network configuration protocol or the ECJPAKE-based network configuration protocol, and transmitting target data based on the shared key of the client.",
+  "patent_id": "US12381719-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/0838",
+      "H04L 9/0825",
+      "H04L 9/14"
+    ],
+    "all": [
+      "H04L 9/0838",
+      "H04L 9/0825",
+      "H04L 9/14"
+    ],
+    "source": "converted"
+  }
+}

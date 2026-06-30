@@ -1,0 +1,21 @@
+{
+  "application_id": "WO2018169716",
+  "application_id_fs": null,
+  "title": "Systems and methods for interleaving multiple active camera frames",
+  "abstract": "A system for three-dimensional imaging includes a plurality of three-dimensional imaging cameras. A first camera and a second camera may have integration times that are interleaved with the readout time of the other camera to limit interference while increasing framerate and throughput.",
+  "claims": "Claims A system for active illuminated imaging, the system comprising: a first active imaging camera; a second active imaging camera; a precision Timing Control block (TCON) in communication with the first active illuminated imaging camera and the second active illuminated IR imaging camera, the TCON configured to control the frame timing of the first imaging camera and the frame timing of the second imaging camera with synchronization precision of < 10 microseconds; one or more memory device in communication with the first active imaging camera and the second imaging camera. The system of claim 1, the first active camera being an active 3D imaging camera including at least one illuminator. The system of claim 2, the second active imaging camera being an IR camera for eye tracking including at least one illuminator. The system of claim 1, the first active imaging camera and the second active IR imaging camera being positioned in a housing. The system of claim 4, the housing being a head-mounted device. The system of claim 1, the first active imaging camera being a time-of-flight 3D imaging camera. The system of claim 1, the first imaging camera being a structured light 3D imaging camera. A method for active IR imaging, the method comprising: selecting a first camera schedule for a first active IR imaging camera; identifying an inactive portion in the first camera schedule; selecting a second camera schedule for a second active IR imaging camera; identifying an active portion in the second camera schedule; and aligning the active portion of the first camera schedule with the inactive portion of the second camera schedule. The method of claim 8, the first camera schedule having a first framerate greater than a second framerate of the second camera schedule. The method of claim 8, at least one of the first camera schedule and the second camera schedule having a framerate of no less than 60 frames per \n\n second. 11. The method of claim 8, aligning the active portion of the first camera schedule with the inactive portion of the second camera schedule including aligning the active portion of the first camera schedule between subframes of the second camera schedule. 12. The method of claim 8, aligning the active portion of the first camera schedule with the inactive portion of the second camera schedule including aligning the active portion of the first camera schedule between frames of the second camera schedule. 13. The method of claim 8, wherein selecting the first camera schedule includes selecting the first camera schedule from at least two operating modes of the first imaging camera, the first imaging camera comprising a 3D imaging camera. 14. The method of claim 8, the first active IR imaging camera and the second active IR imaging camera being positioned in a housing. 15. The method of claim 14, the housing being a head-mounted device.",
+  "classifications": {
+    "ipc": [
+      "G01S 17/87",
+      "G01S 17/89",
+      "G01S 7/481"
+    ],
+    "cpc": [],
+    "all": [
+      "G01S 17/87",
+      "G01S 17/89",
+      "G01S 7/481"
+    ],
+    "source": "csv"
+  }
+}

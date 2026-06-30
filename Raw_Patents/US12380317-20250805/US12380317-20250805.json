@@ -1,0 +1,24 @@
+{
+  "title": "Processor for reconstructing artificial neural network, electrical device including the same, and operating method of processor",
+  "abstract": "An operation method of a processor configured to operate based on an artificial neural network including a first neural network and a second neural network is provided. The operation method includes: analyzing similarity of a structure of the first neural network and a structure of the second neural network, the first neural network including a plurality of first neural network layers and the second neural network including a plurality of second neural network layers; selecting, from the plurality of first neural network layers and the plurality of second neural network layers, sharing layers capable of being commonly used, based on a result of the analysis; and reconstructing the structure of the first neural network or the structure of the second neural network based on the sharing layers.",
+  "claims": "1. An operation method of a processor configured to operate based on an artificial neural network comprising a first neural network and a second neural network, a Random Access Memory (RAM), and a non-volatile memory, the operation method comprising: analyzing a structure of the first neural network and a structure of the second neural network with reference to a structure of a reference neural network to identify a first sharing layer group comprising one or more layers of the first neural network, and a second sharing layer group comprising one or more layers of the second neural network, wherein the first and second sharing layer groups correspond to layers of the reference neural network to be commonly used by the first and second neural networks, the first neural network comprising a plurality of first neural network layers and the second neural network comprising a plurality of second neural network layers, wherein the analyzing comprises analyzing, for each of the first neural network, the second neural network and the reference neural network, a number of layers, types of layers, a kernel size, a number of input samples, and a number of output samples; selecting, from among the plurality of first neural network layers and the plurality of second neural network layers, sharing layers capable of being commonly used, based on a result of the analysis; determining, one of the first sharing layer group or the second sharing layer group as a selected sharing layer group; reconstructing the structure of the first neural network or the structure of the second neural network based on the selected sharing layer group, wherein the reconstructing of the structure of the first neural network or the structure of the second neural network further comprises adding the selected sharing layer group and a new layer to the first neural network or the second neural network, and wherein the new layer is used to correct a calculation result after adding the selected sharing layer group according to the reconstructing of the first neural network or the second neural network such that the calculation result after the reconstructing remains identical to the calculation result prior to the reconstructing; and storing the sharing layers in the RAM, and remaining layers of the first neural network and the second neural network in the non-volatile memory.",
+  "patent_id": "US12380317-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 3/045",
+      "G06F 3/0604",
+      "G06F 3/0659",
+      "G06F 3/068",
+      "G06N 3/082"
+    ],
+    "all": [
+      "G06N 3/045",
+      "G06F 3/0604",
+      "G06F 3/0659",
+      "G06F 3/068",
+      "G06N 3/082"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Control device and control method",
+  "abstract": "A control device includes a recognizing unit that recognizes an external environment based on sensing information, an action decision managing unit that, based on the recognized external environment, decides on actions to be taken, a behavior managing unit that, based on at least either difficulty level of recognition for the recognizing unit or difficulty level of action decision for the action decision managing unit, determines about whether or not to exhibit emotional expressions, and a drive control unit that, based on the determination performed by the behavior managing unit, controls execution of the actions corresponding to the emotional expressions.",
+  "claims": "1. A control device, comprising: a central processing unit (CPU) configured to: recognize an external environment based on sensing information; implement a recognition algorithm associated with the recognition of the external environment; determine a first difficulty level of the recognition of the external environment based on at least one of the implemented recognition algorithm or an accuracy of the recognition; determine a degree of attention of a user toward the control device; determine a first exhibition of an emotional expression based on the first difficulty level of the recognition of the external environment and the degree of attention of the user toward the control device; and control a first action based on the determined first exhibition of the emotional expression, wherein the first action corresponds to the emotional expression.",
+  "patent_id": "US12379733-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05D 1/249",
+      "G05D 1/247",
+      "G06V 20/10",
+      "G06V 40/10",
+      "G10L 15/1815",
+      "G10L 15/22"
+    ],
+    "all": [
+      "G05D 1/249",
+      "G05D 1/247",
+      "G06V 20/10",
+      "G06V 40/10",
+      "G10L 15/1815",
+      "G10L 15/22"
+    ],
+    "source": "converted"
+  }
+}

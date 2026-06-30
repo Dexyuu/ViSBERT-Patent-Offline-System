@@ -1,0 +1,24 @@
+{
+  "title": "Available slot determination for aperiodic sounding reference signal triggering in full-duplex system",
+  "abstract": "Certain aspects of the present disclosure provide techniques for available slot determination for aperiodic sounding reference signal (A-SRS) transmission in full-duplex (FD) systems. A method for wireless communications includes receiving, in a first slot, downlink control information (DCI) triggering an A-SRS transmission. The method includes determining a second slot to transmit the A-SRS based, at least in part, on a slot configuration indicating one or more slots as FD slots.",
+  "claims": "1. An apparatus of wireless communications by a user equipment (UE), the apparatus comprising: memory comprising computer-executable instructions; and one or more processors configured to, individually or collectively, execute the computer-executable instructions and cause the apparatus to: receive, in a first slot, downlink control information (DCI) triggering a sounding reference signal (SRS) resource set for an aperiodic sounding reference signal (A-SRS) transmission; determine a reference slot as a third slot occurring after a first offset number of slots from the first slot; and determine a second slot to transmit the A-SRS as a slot that is a second offset number of available slots after the reference slot, wherein a slot is indicated in a slot configuration as a full-duplex (FD) slot is an available slot, of the number of available slots, when all SRS resources of the triggered SRS resource set fit within an uplink bandwidth of the FD slot, and wherein the FD slot is an unavailable slot when one or more of the SRS resources of the triggered SRS resource set do not fit within the uplink bandwidth of the FD slot.",
+  "patent_id": "US12382467-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/23",
+      "H04L 5/0051",
+      "H04L 5/14",
+      "H04W 24/08",
+      "H04W 72/0446"
+    ],
+    "all": [
+      "H04W 72/23",
+      "H04L 5/0051",
+      "H04L 5/14",
+      "H04W 24/08",
+      "H04W 72/0446"
+    ],
+    "source": "converted"
+  }
+}

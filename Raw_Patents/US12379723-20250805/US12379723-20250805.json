@@ -1,0 +1,22 @@
+{
+  "title": "Autonomous mobile robot using multiple safety protocols",
+  "abstract": "A method includes operating an autonomous mobile robot (AMR) in a first physical location according to a first safety protocol of the AMR and based on a location of the AMR relative to a second physical location different from the first physical location and with a second safety protocol different from the first safety protocol, switching the AMR to operate under the second safety protocol rather than the first safety protocol while the AMR is located in the second physical location. The method also includes, in response to detecting that the AMR is exiting the second physical location after the AMR has completed operating in the second physical location, switching the AMR to operate under the first safety protocol.",
+  "claims": "1. A method comprising: operating an autonomous mobile robot (AMR) according to a first safety protocol of the AMR; in response to a color sensor of the AMR scanning a first colored strip assigned to an entry of a physical location, determining that the AMR has entered the physical location; in response to determining that the AMR has entered the physical location, switching the AMR to operate under a second safety protocol of the physical location rather than the first safety protocol while the AMR is located in the physical location, wherein the first safety protocol is different from the second safety protocol; in response to detecting, by the AMR, that an optical emitter in the physical location has turned off an optical signal, immobilizing the AMR; in response to receiving instructions, from a safety controller of the physical location, to move to an exit of the physical location, determining that the AMR has completed operating in the physical location; in response to detecting, by the color sensor, that the AMR has moved proximate a second colored strip after the AMR has completed operating in the physical location, switching the AMR to operate under the first safety protocol, wherein the second colored strip is assigned to the exit of the physical location, and wherein the second color strip is a different color than the first color strip; and operating the AMR to exit the physical location.",
+  "patent_id": "US12379723-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05D 1/0077",
+      "G05D 1/0214",
+      "G05D 1/0234",
+      "G05D 1/0272"
+    ],
+    "all": [
+      "G05D 1/0077",
+      "G05D 1/0214",
+      "G05D 1/0234",
+      "G05D 1/0272"
+    ],
+    "source": "converted"
+  }
+}

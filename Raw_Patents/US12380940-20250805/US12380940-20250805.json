@@ -1,0 +1,20 @@
+{
+  "title": "Semiconductor device",
+  "abstract": "A semiconductor device includes: a power down control circuit receiving a power down command signal and a chip selection signal, and generating a power down enable signal and a power down exit signal, here, a logic level of the power down enable signal is converted at a first edge of the power down command signal during a power down stage, and a logic level of the power down exit signal is converted at a second edge of the chip selection signal during a power down exit stage; a power control circuit stopping providing a power voltage according to the power down enable signal during the power down stage, and providing the power voltage according to the power down exit signal during the power down exit stage; and an input buffer circuit transmitting signals during the power down exit stage in response to the power down exit signal.",
+  "claims": "1. A semiconductor device, comprising: a power down control circuit, receiving a power down command signal and a chip selection signal, and generating a power down enable signal and a power down exit signal, wherein a logic level of the power down enable signal is converted at a first edge of the power down command signal during a power down stage, and a logic level of the power down exit signal is converted at a second edge of the chip selection signal during a power down exit stage; a power control circuit, coupled to the power down control circuit, wherein the power control circuit stops providing a power voltage according to the power down enable signal during the power down stage, and provides the power voltage according to the power down exit signal during the power down exit stage; and an input buffer circuit, coupled to the power down control circuit, and transmitting signals during the power down exit stage in response to the power down exit signal.",
+  "patent_id": "US12380940-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G11C 11/4072",
+      "G11C 11/4076",
+      "G11C 11/4093"
+    ],
+    "all": [
+      "G11C 11/4072",
+      "G11C 11/4076",
+      "G11C 11/4093"
+    ],
+    "source": "converted"
+  }
+}

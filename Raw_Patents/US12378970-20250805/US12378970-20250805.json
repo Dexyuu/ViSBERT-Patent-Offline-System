@@ -1,0 +1,20 @@
+{
+  "title": "Mass flow interpolation systems and methods of dynamic compressors",
+  "abstract": "A system includes a dynamic compressor to compress a working fluid and a controller. The controller is connected to the dynamic compressor and includes a processor and a memory. The memory stores a map of predetermined operating points of the dynamic compressor, each predetermined operating point including a mass flow of the compressor at that predetermined operating point. The memory stores instructions that program the processor to operate the dynamic compressor to compress the working fluid and determine a current operating point of the compressor. The instructions program the processor to calculate the mass flow for the current operating point from the map of the plurality of predetermined operating points. The instructions further program the processor to continue to operate the dynamic compressor to compress the working fluid based at least in part on the calculated mass flow for the current operating point.",
+  "claims": "1. A system comprising: a dynamic compressor operable to compress a working fluid, the dynamic compressor comprising an impeller, a motor operably connected to the impeller, a variable frequency drive (VFD) coupled to the motor, and a variable inlet guide vane (VIGV); and a controller connected to the dynamic compressor, the controller comprising a processor and a memory, the memory storing: a map of a plurality of predetermined operating points of the dynamic compressor, each predetermined operating point including a mass flow of the dynamic compressor at that predetermined operating point; and instructions that program the processor to: operate the dynamic compressor to compress the working fluid by controlling a position of the VIGV and controlling a speed of the motor driving the impeller using the VFD; determine, while operating the dynamic compressor, a current operating point of the compressor; calculate a mass flow for the current operating point from the map of the plurality of predetermined operating points; and continue to operate the dynamic compressor to compress the working fluid based at least in part on the calculated mass flow for the current operating point by inputting the calculated mass flow into a control algorithm that calculates an operating point value based at least in part on the calculated mass flow and controlling an unloading device of the dynamic compressor based on the operating point value and a margin.",
+  "patent_id": "US12378970-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "F04D 27/001",
+      "F04D 17/12",
+      "F04D 29/30"
+    ],
+    "all": [
+      "F04D 27/001",
+      "F04D 17/12",
+      "F04D 29/30"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Digitizer error detection and recovery",
+  "abstract": "A digitizer includes an analog-to-digital converter (ADC), a field programmable gate array (FPGA), a data link of a given interface standard between the ADC and the FPGA, and a display device operatively connected to the FPGA. The FPGA includes an IP controller configured according to the interface standard of the data link. An error detection and recovery method for the digitizer includes applying an analog input source signal to the ADC, acquiring data samples on the data link from the ADC to the FPGA, and the IP controller checking the data samples for errors. When the data samples include errors, the method further includes (a) the IP controller displaying on the display device a waveform of the captured data samples and an error message, (b) a user adjusting a voltage of the input signal source to within a given peak-to-peak voltage range, and (c) the IP controller resetting the data link without power cycling of the digitizer. When the data sample does not include errors, the method includes displaying on the display device a waveform of the captured data samples.",
+  "claims": "1. An error detection and recovery method for a digitizer, the digitizer including an analog-to-digital converter (ADC), a field programmable gate array (FPGA), a data link of a given interface standard between the ADC and the FPGA, and a display device operatively connected to the FPGA, the FPGA including an IP controller configured according to the interface standard of the data link, the method comprising: applying an analog input source signal to the ADC; acquiring data samples on the data link from the ADC to the FPGA; the IP controller checking the data samples for errors; when the data samples include errors, (a) the IP controller displaying on the display device a waveform of the captured data samples and an error message, (b) a user adjusting a voltage of the input signal source to within a given peak-to-peak voltage range, and (c) the IP controller resetting the data link without power cycling of the digitizer; when the data samples do not include errors, displaying on the display device a waveform of the captured data samples.",
+  "patent_id": "US12379987-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/0793",
+      "G06F 11/0769"
+    ],
+    "all": [
+      "G06F 11/0793",
+      "G06F 11/0769"
+    ],
+    "source": "converted"
+  }
+}

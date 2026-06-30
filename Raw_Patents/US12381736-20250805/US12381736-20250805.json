@@ -1,0 +1,18 @@
+{
+  "title": "Cipher system, encryption apparatus, decryption apparatus, method, and program",
+  "abstract": "A cipher system that performs encryption and decryption by a public key encryption scheme including schemes of tag-based encryption, weak commitment, and message authentication code, is configured to, using a security parameter, generate an encryption key, a decryption key, and a common parameter, and use the encryption key and the common parameter as an encryption key and the decryption key as a decryption key of the public key encryption scheme; generate a random number, a commitment, and a decommitment, generate a ciphertext using a plaintext to be encrypted, generate a tag, and use the commitment, the ciphertext, and the tag as a ciphertext of the public key encryption scheme; and parse the ciphertext into the commitment, the ciphertext, and the tag, generate a plaintext and a decommitment, verify whether committing to a random number value has succeeded, and verify the tag in a case where the committing has succeeded.",
+  "claims": "1. A cipher system that performs encryption and decryption, the cipher system comprising: a public key encryption scheme comprising a tag-based encryption (TBE) scheme comprising algorithms GenTBE, EncTBE, and DecTBE; a weak commitment scheme (wCom) comprising the following algorithms Init, S, and R; and a message authentication code scheme (MAC) comprising algorithms T and V; and one or more information processing devices each including a memory and a processor configured to: using a security parameter as κ, generate an encryption key ekTBE and a decryption key dkTBE by a key generation algorithm GenTBE(I), generate a common parameter pub by an initialization algorithm Init (1κ), and use the encryption key ekTBE and the common parameter pub as an encryption key ek of the public key encryption scheme and the decryption key dkTBE as a decryption key dk of the public key encryption scheme; generate a random number r, a commitment com, and a decommitment dec by a sender algorithm S (1κ, pub), generate a ciphertext c by an encryption algorithm EncTBE (ekTBE, com, (m, dec)) using a plaintext to be encrypted as m, generate a tag σ by a MAC generation algorithm T (r, c), and use the commitment com, the ciphertext c, and the tag σ as a ciphertext ct of the public key encryption scheme; and parse the ciphertext ct into the commitment com, the ciphertext c, and the tag σ, generate a plaintext m and a decommitment dec by a decryption algorithm DecTBE (dkTBE, com, c), verify whether committing to a random number value r has succeeded by a receiver algorithm R (pub, com, dec), and verify the tag σ by a verification algorithm V (r, c, a) in a case where the committing has succeeded.",
+  "patent_id": "US12381736-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/3242",
+      "H04L 9/3263"
+    ],
+    "all": [
+      "H04L 9/3242",
+      "H04L 9/3263"
+    ],
+    "source": "converted"
+  }
+}

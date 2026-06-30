@@ -1,0 +1,22 @@
+{
+  "title": "Method and apparatus for providing service in wireless communication system",
+  "abstract": "A method performed by an integrated access backhaul (IAB) node in a wireless communication system is provided. The method comprises: receiving, from a base station, configuration information regarding an uplink (UL) grant, receiving, from the base station, configuration information regarding backhaul (BH) radio link control (RLC) channel via higher layer signaling, identifying, based on the configuration information regarding BH RLC channel, whether an extended logical channel identifier (eLCID) is used, in case that the eLCID is not used and a UL grant size is equal to or larger than a first size, not transmitting only a padding buffer status report (BSR) or not transmitting only padding or not transmitting only the padding BSR and the padding, and in case that the eLCID is used and the UL grant size is equal to or larger than a second size, not transmitting only the padding BSR or not transmitting only the padding or not transmitting only the padding BSR and the padding.",
+  "claims": "1. A method performed by an integrated access backhaul (IAB) node in a wireless communication system, the method comprising: receiving, from a base station, configuration information associated with a backhaul (BH) radio link control (RLC) channel via a higher layer signaling; and identifying, based on the configuration information associated with the BH RLC channel, whether an extended logical channel identifier (eLCID) is configured, wherein in case that the eLCID is not used and an uplink (UL) grant size is equal to or larger than a first size, while data for transmission is available, only a padding buffer status report (BSR) and/or a padding is not transmitted, wherein in case that the eLCID is used and the UL grant size is equal to or larger than a second size, while the data for transmission is available, only a padding BSR and/or a padding is not transmitted, and wherein the second size is greater than the first size.",
+  "patent_id": "US12382465-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/23",
+      "H04L 1/0008",
+      "H04W 28/0278",
+      "H04W 72/1268"
+    ],
+    "all": [
+      "H04W 72/23",
+      "H04L 1/0008",
+      "H04W 28/0278",
+      "H04W 72/1268"
+    ],
+    "source": "converted"
+  }
+}

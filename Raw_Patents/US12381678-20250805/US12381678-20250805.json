@@ -1,0 +1,20 @@
+{
+  "title": "Uplink transmission method and apparatus",
+  "abstract": "The present application can provide an uplink transmission method and apparatus. The method comprises: a base station instructs a UE to send SRSs corresponding to N groups of SRS resources, each of the N groups of SRS resources comprising one or more SRS resources; N being a positive integer; the base station receives the SRSs sent by the UE to determine X groups of uplink scheduling information, each of the X groups of uplink scheduling information corresponding to one group of SRS resources in the N groups of SRS resources; uplink scheduling information in different groups corresponding to SRS resources in different groups; X being a positive integer greater than one and not greater than N; the base station sends the determined X groups of uplink scheduling information to the UE so that the UE transmits an uplink signal according to the X groups of uplink scheduling information.",
+  "claims": "1. An uplink transmission method, comprising: instructing, by a base station, a User Equipment (UE) to send Sounding Reference Signals (SRSs) corresponding to N groups of SRS resources, wherein each group of SRS resources comprises one or more SRS resources, and N is a positive integer greater than 1; receiving, by the base station, the SRSs sent by the UE; determining, by the base station, X groups of uplink scheduling information; wherein each group of uplink scheduling information corresponds to one of the N groups of SRS resources, and X is a positive integer greater than land less than N, or X is a positive integer greater than 1 and equal to N; sending, by the base station, the X groups of uplink scheduling information to the UE for the UE performing uplink signal transmission according to the X groups of uplink scheduling information; and sending, by the base station, SRS resource set indication information to the UE, wherein the SRS resource set indication information indicates SRS resource sets corresponding to the X groups of uplink scheduling information.",
+  "patent_id": "US12381678-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/0048",
+      "H04W 72/1268",
+      "H04W 72/23"
+    ],
+    "all": [
+      "H04L 5/0048",
+      "H04W 72/1268",
+      "H04W 72/23"
+    ],
+    "source": "converted"
+  }
+}

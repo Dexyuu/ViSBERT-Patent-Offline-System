@@ -1,0 +1,22 @@
+{
+  "title": "Height measurement device and height measurement method based on millimeter-wave radar",
+  "abstract": "A height measurement device and a height measurement method based on a millimeter-wave radar are provided. The height measurement device comprises a millimeter-wave radar module, a main controller, and a wake-up module. The wake-up module and the millimeter-wave radar module are connected to the main controller, respectively. The wake-up module activates the millimeter-wave radar module through the main controller. The millimeter-wave radar module sends a transmission signal and receives an echo signal, and obtains an intermediate-frequency signal based on the transmission signal and the echo signal. The echo signal is formed by the reflected back transmission signal after it encounters human head. The main controller applies continuous millimeter waves to sweep across the highest point of the human head and obtain height data based on the intermediate-frequency signal. When height measurement is needed, the wake-up module activates the millimeter-wave radar module, achieving non-contact, high-precision height measurement and reducing energy consumption.",
+  "claims": "1. A height measurement device based on a millimeter-wave radar, comprising a millimeter-wave radar module, a main controller, and a wake-up module integrated into the millimeter-wave radar module, wherein the wake-up module and the millimeter-wave radar module are connected to the main controller, respectively; wherein the wake-up module activates the millimeter-wave radar module through the main controller, and transitions the millimeter-wave radar module from a standby state to a working state; wherein the millimeter-wave radar module sends transmission signals and receive corresponding echo signals in the working state, and obtains intermediate-frequency signals based on the transmission signals and the echo signals, wherein the echo signals are formed from reflected back transmission signals when encountering a human head directly below the millimeter-wave radar; and wherein the main controller applies continuous millimeter radar waves to sweep across the human head to obtain radar data, filter the radar data based on signal characteristics by high-pass and low-pass filters to obtain a target intermediate-frequency signal corresponding to a highest point of the human head, and invoke a height measurement algorithm library to obtain height data based on the target intermediate-frequency signal.",
+  "patent_id": "US12379462-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 7/35",
+      "G01S 7/003",
+      "G01S 13/34",
+      "G01S 13/86"
+    ],
+    "all": [
+      "G01S 7/35",
+      "G01S 7/003",
+      "G01S 13/34",
+      "G01S 13/86"
+    ],
+    "source": "converted"
+  }
+}

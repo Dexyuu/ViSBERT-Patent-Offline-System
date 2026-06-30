@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2017176548",
+  "application_id_fs": "WO2017176548",
+  "title": "T2 inversions with reduced motion artifacts",
+  "abstract": "A method for processing nuclear magnetic resonance (NMR) measurement data includes receiving, with a processor, NMR measurement data obtained from an NMR tool, the NMR measurement data having an echo train affected by a motion artifact, wherein the motion artifact is related to a magnetic field magnitude that varies in a volume of interest due to a motion of the NMR tool. The method further includes reducing, with the processor, an effect on the NMR measurement data of the motion artifact by using a correcting inversion method that models the motion artifact to provide a corrected transverse relaxation time constant (T2) distribution, the correcting inversion method having a multiplicative term having a term that includes at least one local maximum and an optional decay term.",
+  "claims": "Claims CLAIMS  What is claimed is: 1. A method (140, 250) for processing nuclear magnetic resonance (NMR) measurement data, the method (140, 250) characterized by: receiving, with a processor, NMR measurement data obtained from an NMR Tool (10), the NMR measurement data comprising an echo train (150) affected by a motion artifact (151) , wherein the motion artifact (151) is related to a magnetic field magnitude that varies in a volume of interest due to a motion of the NMR Tool (10); and reducing, with the processor, an effect on the NMR measurement data of the motion artifact (151) by using a correcting inversion method (140, 250) that models the motion artifact (151) to provide a corrected transverse relaxation time constant (T2) distribution, the correcting inversion method (140, 250) comprising a multiplicative term comprising a term having at least one local maximum and an optional decay term. 2. The method (140, 250) according to claim 1, wherein the motion artifact (151) is a late motion artifact (151). 3. The method (140, 250) according to claim 1, wherein the decay term comprises: where t is time, A exp is an exponential decay amplitude, and T exp is an exponential decay time constant. 4. The method (140, 250) according to claim 1, wherein the periodic term comprises: where t is time, A cos is cosine amplitude, and T cos is cosine period time. 5. The method (140, 250) according to claim 1, wherein the multiplicative term comprises: where t is time, A cos is cosine amplitude, T cos is cosine period time, A exp is an exponential decay amplitude, and T exp is an exponential decay time constant. 6. The method (140, 250) according to claim 1, further comprising averaging the multiplicative term over different period times to provide an averaged multiplicative term. 7. The method (140, 250) according to claim 6, wherein the averaged multiplicative term comprises: 8. The method (140, 250) according to claim 1, wherein the echo train (150) comprises a single echo train (150) having a long polarization time that is greater than or equal to one second. 9. The method (140, 250) according to claim 1, wherein the echo train (150) comprises a first echo train (150) obtained with a long polarization time TW ET and a second echo train (150) obtained with a short polarization time TWrz, that is shorter than TWs-. 10. The method (140, 250) according to claim 1, wherein a period time of the periodic term varies. 11. The method (140, 250) according to claim 10, further comprising receiving a vibration signal from a vibration sensor (14) and adjusting the period time to correspond to a period time of the vibration, the vibration sensor (14) being configured to sense vibration of a drill string (6). 12. The method (140, 250) according to claim 10, further comprising receiving a rotational speed signal from a rotational speed sensor (15) and adjusting the period time to correspond to a period time of a rotational speed variation, the rotational speed sensor (15) being configured to sense rotational speed of a drill string (6). 13. The method (140, 250) according to claim 1, wherein the MR measurement data comprises NMR measurements on an earth formation (4) and the method (140, 250) further comprises performing an action on an earth formation (4) using action-related apparatus and the NMR measurement data having the reduced effect. 14. The method (140, 250) according to claim 1, further comprising conveying the NMR Tool (10) through a borehole (2) penetrating the earth formation (4). 15. A system for processing nuclear magnetic resonance (NMR) measurement data, the system characterized by: a memory having computer executable instructions; and \n\n a processor configured to execute the computer executable instructions, the computer executable instructions comprising: receiving NMR measurement data obtained from an MR Tool (10), the MR measurement data comprising an echo train (150) affected by a motion artifact (151) , wherein the motion artifact (151) is related to a magnetic field magnitude that varies in a volume of interest due to a motion of the NMR Tool (10); and reducing an effect on the NMR measurement data of the motion artifact (151) by using a correcting inversion method (140, 250) that models the motion artifact (151) to provide a corrected transverse relaxation time constant (T2) distribution, the correcting inversion method (140, 250) comprising a multiplicative term comprising a term having at least one local maximum and an optional decay term.",
+  "classifications": {
+    "ipc": [
+      "G01V 3/00",
+      "G01V 3/18",
+      "G01V 3/32",
+      "G01N 24/00",
+      "G01N 24/08",
+      "G01N 24/081",
+      "G01R 33/00",
+      "G01R 33/20",
+      "G01R 33/44",
+      "G01R 33/448",
+      "G01R 33/48",
+      "G01R 33/54",
+      "G01R 33/56",
+      "G01R 33/565"
+    ],
+    "cpc": [],
+    "all": [
+      "G01V 3/00",
+      "G01V 3/18",
+      "G01V 3/32",
+      "G01N 24/00",
+      "G01N 24/08",
+      "G01N 24/081",
+      "G01R 33/00",
+      "G01R 33/20",
+      "G01R 33/44",
+      "G01R 33/448",
+      "G01R 33/48",
+      "G01R 33/54",
+      "G01R 33/56",
+      "G01R 33/565"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017176548"
+}

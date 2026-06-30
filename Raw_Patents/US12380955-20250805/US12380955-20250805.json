@@ -1,0 +1,20 @@
+{
+  "title": "Memory controller and method for adaptively programming flash memory",
+  "abstract": "A memory controller for controlling a flash memory is provided. The memory controller includes a control circuit and a voltage generator. The control circuit is configured to program one or more pages of the flash memory in sequence, wherein each page includes a plurality of bytes. The voltage generator is configured to adjust the output voltage according to the control signal from the control circuit. The control circuit performs a programming verification operation on each byte of a current page of the one or more pages in a page programming mode, and calculates the first number of bytes which fail the programming verification operation and performs a programming operation again. The control circuit determines the programming mode of the page after the current page as the page programming mode or the byte programming mode according to the first number.",
+  "claims": "1. A memory controller for controlling a flash memory, the memory controller comprises: a control circuit, configured to program one or more pages in the flash memory in sequence, wherein each page includes a plurality of bytes; and a voltage generator, configured to adjust an output voltage according to a control signal from the control circuit; wherein the control circuit performs a programming verification operation on each byte of a current page of the one or more pages in a page programming mode, calculates a first number of bytes which fail the programming verification operation and have been performed a programming operation again; wherein the control circuit determines a programming mode of the page after the current page as the page programming mode or a byte programming mode according to the first number; wherein the control circuit determines the programming mode of the page after the current page as the page programming mode when the first number is greater than a predetermined threshold value; wherein the control circuit determines the programming mode of the page after the current page as the byte programming mode when the first number is less than or equal to the predetermined threshold value.",
+  "patent_id": "US12380955-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G11C 16/3459",
+      "G11C 16/102",
+      "G11C 16/30"
+    ],
+    "all": [
+      "G11C 16/3459",
+      "G11C 16/102",
+      "G11C 16/30"
+    ],
+    "source": "converted"
+  }
+}

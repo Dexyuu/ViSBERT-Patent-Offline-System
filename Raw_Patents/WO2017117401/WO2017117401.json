@@ -1,0 +1,32 @@
+{
+  "application_id": "WO2017117401",
+  "application_id_fs": "WO2017117401",
+  "title": "Systems, apparatuses, and methods for strided loads",
+  "abstract": "Detailed herein are systems, apparatuses, and methods for strided loads. In an embodiment, an apparatus includes a decoder to decode an instruction, wherein the instruction to include fields a starting source memory address operand and a starting destination register operand; and execution circuitry to execute the decoded instruction to extract data elements of a defined number of types from contiguous memory beginning at the starting source memory address and, for each type, store the extracted data elements in a packed data register dedicated to that type beginning with starting destination register operand.",
+  "claims": "Claims Claims What is claimed is: 1. An apparatus comprising: a decoder means to decode an instruction, wherein the instruction to include fields a starting source memory address operand and a starting destination register operand; and execution means to execute the decoded instruction to extract data elements of a defined number of types from contiguous memory beginning at the starting source memory address and, for each type, store the extracted data elements in a packed data register dedicated to that type beginning with starting destination register operand. 2. The apparatus of claim 1, wherein the instruction to include an opcode indicating the defined number of types. 3. The apparatus of claim 2, wherein the defined number of types are two, three, and four. 4. The apparatus of claim 1, wherein the defined number of types indicates a number of destination packed data registers. 5. The apparatus of any of claims 1-4, wherein the instruction to indicate a size of the data elements. 6. The apparatus of any of claims 1-5, wherein the instruction to include a writemask operand. 7. The apparatus of claim 7, the execution circuitry to store extracted data element based on values of the writemask operand. 8. An method comprising: decoding an instruction, wherein the instruction to include fields a starting source memory address operand and a starting destination register operand; and executing the decoded instruction to extract data elements of a defined number of types from contiguous memory beginning at the starting source memory address and, for each type, store the extracted data elements in a packed data register dedicated to that type beginning with starting destination register operand. 9. The method of claim 8, wherein the instruction to include an opcode indicating the defined number of types. 10. The method of claim 9, wherein the defined number of types are two, three, and four. 11. The method of claim 8, wherein the defined number of types indicates a number of destination packed data registers. 12. The method of any of claims 8-11, wherein the instruction to indicate a size of the data elements. 13. The method of any of claims 8-12, wherein the instruction to include a writemask operand. 14. The method of any of claims 8-13, wherein the storing of extracted data element is based on values of the writemask operand. 15. A non-transitory machine readable medium storing an instruction, which when executed causes a processor to perform a method, the method comprising: decoding an instruction, wherein the instruction to include fields a starting source memory address operand and a starting destination register operand; and executing the decoded instruction to extract data elements of a defined number of types from contiguous memory beginning at the starting source memory address and, for \n\n each type, store the extracted data elements in a packed data register dedicated to that type beginning with starting destination register operand. 16. An apparatus comprising: a decoder to decode an instruction, wherein the instruction to include fields a starting source memory address operand and a starting destination register operand; and execution circuitry to execute the decoded instruction to extract data elements of a defined number of types from contiguous memory beginning at the starting source memory address and, for each type, store the extracted data elements in a packed data register dedicated to that type beginning with starting destination register operand. 17. The apparatus of claim 16, wherein the instruction to include an opcode indicating the defined number of types. 18. The apparatus of claim 17, wherein the defined number of types are two, three, and four. 19. The apparatus of claim 16, wherein the defined number of types indicates a number of destination packed data registers. 20. The apparatus of claim 16, wherein the instruction to indicate a size of the data elements. 21. The apparatus of claim 16, wherein the instruction to include a writemask operand. 22. The apparatus of claim 21, the execution circuitry to store extracted data element based on values of the writemask operand.",
+  "classifications": {
+    "ipc": [
+      "G06F 9/00",
+      "G06F 9/06",
+      "G06F 9/30",
+      "G06F 9/3016",
+      "G06F 9/3004",
+      "G06F 9/34",
+      "G06F 9/345",
+      "G06F 9/3455"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 9/00",
+      "G06F 9/06",
+      "G06F 9/30",
+      "G06F 9/3016",
+      "G06F 9/3004",
+      "G06F 9/34",
+      "G06F 9/345",
+      "G06F 9/3455"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017117401"
+}

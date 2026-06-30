@@ -1,0 +1,18 @@
+{
+  "title": "Systems and methods to reduce voltage guardband",
+  "abstract": "Systems or methods of the present disclosure may provide efficient power consumption for programmable logic devices based on reducing guardband voltages. A programmable logic device may include circuit monitors to mimic critical paths of an implemented circuit design and generate timing information based on the critical paths. A controller on the programmable logic device may adjust the voltage guardband based on the timing information.",
+  "claims": "1. A system, comprising: a processor that: receives a circuit design; identifies one or more critical paths based on the circuit design; identifies one or more unused portions of programmable logic of a programmable logic device based on the circuit design; generates one or more circuit monitors that mimic the one or more critical paths; and compiles the circuit design and the one or more circuit monitors into configuration data, wherein the configuration data is transmitted to the programmable logic device; and the programmable logic device comprising a controller that: programs a plurality of programmable logic elements to implement the configuration data, wherein the one or more unused portions of the programmable logic for the circuit design are programmed to implement the one or more circuit monitors; and adjusts a voltage guardband of the programmable logic device based on the one or more circuit monitors.",
+  "patent_id": "US12379698-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05B 19/042",
+      "G05B 2219/21155"
+    ],
+    "all": [
+      "G05B 19/042",
+      "G05B 2219/21155"
+    ],
+    "source": "converted"
+  }
+}

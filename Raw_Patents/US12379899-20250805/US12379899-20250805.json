@@ -1,0 +1,24 @@
+{
+  "title": "Performing multiple bit computation and convolution in memory",
+  "abstract": "A compute-memory circuit included in a computer system includes multiple data storage cells and multiplier circuits. The data storage cells store weight values associated with a first operand. The multiplier circuits are coupled to a global bit line and receive the weight values via local bit lines coupled to the data storage cells. Using the received weight values and activation signals indicative of a second operand, the multiplier circuits modify a voltage level of the global bit line. The resultant voltage level on the global bit line is indicative of a product of the first and second operands, and can be converted to a digital value using an analog-to-digital converter circuit.",
+  "claims": "1. An apparatus, comprising: a first memory array circuit including a plurality of columns, wherein a given column of the plurality of columns is configured to store a respective weight value of a plurality of weight values, and wherein the respective weight value includes a plurality of weight bits; a control circuit configured to perform a multiplication operation across a plurality of cycles, wherein to perform a given cycle of the plurality of cycles, the control circuit is configured to retrieve a weight bit from respective columns of the plurality of columns to form a set of weight bits, the weight bit being of a respective one of the plurality of weight values; a decoder circuit configured to, during the given cycle, combine, for each weight bit of the set of weight bits, that weight bit with an operand bit, from one of a plurality of operands that corresponds to a weight value that includes that weight bit, to generate a portion of a given product bit set of a plurality of product bit sets; and an adder circuit configured, in response to a determination that the multiplication operation has completed, to combine the plurality of product bit sets to generate a result.",
+  "patent_id": "US12379899-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 7/5443",
+      "G06F 7/523",
+      "G06F 17/15",
+      "H03M 1/46",
+      "G06N 20/00"
+    ],
+    "all": [
+      "G06F 7/5443",
+      "G06F 7/523",
+      "G06F 17/15",
+      "H03M 1/46",
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

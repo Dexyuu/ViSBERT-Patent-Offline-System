@@ -1,0 +1,18 @@
+{
+  "title": "User equipments, base stations and signaling for resource allocations of enhanced uplink transmissions",
+  "abstract": "A user equipment (UE) is described. The UE includes receiving circuitry configured to receive downlink control information (DCI). The DCI includes a time domain resource assignment field The UE also includes a processor. The processor is configured to determine a resource allocation based on the DCI with the time domain resource assignment field.",
+  "claims": "1. A user equipment (UE) comprising: receiving circuitry configured to: receive radio resource control (RRC) parameters used for configuring a first allocation table and a second allocation table, each of the first allocation table and the second allocation table being used for defining a time domain allocation for a physical uplink shared channel (PUSCH) transmission, the RRC parameters including a PUSCH-Config parameter, the PUSCH-Config parameter including a first information element for a downlink control information (DCI) format 0_1 and a second information element for a DCI format 0_2, each of the first information element and the second information element being a parameter different from a PUSCH-TimeDomainResourceAllocationList parameter in the PUSCH-Config parameter and from a pusch-TimeDomainAllocationList parameter in a pusch-ConfigCommon common parameter, wherein: starting symbol and length are indicated as a single parameter in the first allocation table, and starting symbol and length are indicated as separate parameters in the second allocation table, and detect, in a UE specific search space, a first DCI format comprising first information used for indicating a row index to an allocation table used for the PUSCH transmission, the first DCI format being used for scheduling of the PUSCH transmission; transmitting circuitry configured to perform, based on the detection of the first DCI format, the PUSCH transmission based on the allocation table used for the PUSCH transmission; and processing circuitry configured to determine, based on whether the first DCI format is the DCI format 0_1, the DCI format 0_2, or a DCI format 0_0, whether the allocation table used for the PUSCH transmission is the first allocation table, the second allocation table, or any one of other allocation tables used for defining time domain allocations for PUSCH transmissions, wherein the processing circuitry is configured such that: in a case that the first DCI format is the DCI format 0_1 or the DCI format 0_2, the allocation table used for the PUSCH transmission is determined based on one of the first information element and the second information element, which is configured for the first DCI format, and regardless of whether the RRC parameters include the PUSCH-TimeDomainResourceAllocationList parameter in the PUSCH-Config parameter and the pusch-TimeDomainAllocationList parameter in the pusch-ConfigCommon common parameter.",
+  "patent_id": "US12382449-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/1268",
+      "H04W 72/23"
+    ],
+    "all": [
+      "H04W 72/1268",
+      "H04W 72/23"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Predictive value engine for logical map generation and injection",
+  "abstract": "Aspects of the disclosure relate to logical map generation and injection. A computing platform may train a key value engine to assign logical map data priority values based on data use cases. The computing platform may receive first data and a first use case, which the computing platform may input into the key value engine to produce the logical map data priority values for the first data. The computing platform may generate, based on the logical map data priority values, a logical map for the first data. The computing platform may modify the first data by embedding, into a header of the first data, the logical map. The computing platform may send, to a recipient computing device, a portion of the modified first data and one or more commands to re-assemble the first data using the logical map stored in the portion of the modified first data.",
+  "claims": "1. A computing platform comprising: at least one processor; a communication interface communicatively coupled to the at least one processor; and memory storing computer-readable instructions that, when executed by the at least one processor, cause the computing platform to: train a key value engine to assign logical map data priority values based on one or more data use cases; input first data and a first use case for the first data into the key value engine to produce the logical map data priority values for the first data; generate, based on the logical map data priority values, a logical map for the first data; modify the first data by embedding, into a header of the first data, the logical map; and send, to a recipient computing device, a portion of the modified first data and one or more commands directing the recipient computing device to re-assemble the first data using the logical map stored in the portion of the modified first data, wherein sending the one or more commands directing the recipient computing device to re-assemble the first data using the logical map stored in the portion of the modified first data causes the recipient computing device to re-assemble the first data using the logical map stored in the portion of the modified first data.",
+  "patent_id": "US12380070-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/213"
+    ],
+    "all": [
+      "G06F 16/213"
+    ],
+    "source": "converted"
+  }
+}

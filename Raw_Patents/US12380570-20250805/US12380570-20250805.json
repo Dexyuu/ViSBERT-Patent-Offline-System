@@ -1,0 +1,28 @@
+{
+  "title": "Image processing method and apparatus, and hardware apparatus",
+  "abstract": "The disclosure discloses an image processing method and apparatus, and a hardware apparatus. The image processing method includes the following steps: an audio is acquired, and then is preprocessed to obtain audio attribute data at each first time point of the audio; first audio attribute data corresponding to a current time point is acquired; and preset processing is performed on an image to be processed according to the first audio attribute data. According to the image processing method of the embodiments of the disclosure, when performing preset processing on the image to be processed according to the audio attribute data, the image processing can be completed only by setting the relationship between the audio attribute data and the image processing operation, which improves the flexibility and efficiency of image processing.",
+  "claims": "9. An electronic device, comprising: a processor; and a memory communicatively coupled to the processor and storing executable instructions that upon execution by the processor cause the electronic device to perform operations comprising: acquiring an audio and preprocessing the audio to obtain audio attribute data at each first time point of the audio; identifying a target object comprised in at least one subset of image frames of a video; generating an area in each of the at least one subset of the image frames based on a location of the target object in each of the at least one subset of the image frames, wherein the generating an area in each of the at least one subset of the image frames further comprises: generating a first plurality of feature points in each of the at least one subset of the image frames based on a contour of the target object and a predetermined distance from the contour of the target object, wherein the target object comprises a human body comprised in the at least one subset of image frames of the video, generating a second plurality of feature points in a direction away from the target object and the first plurality of feature points, and generating the area in each of the at least one subset of the image frames based on the first plurality of feature points and the second plurality of feature points; filling a visual material into the area in each of the at least one subset of the image frames, wherein the visual material comprises a picture; and generating an effect in the video by adjusting at least one attribute of the visual material based on the audio attribute data.",
+  "patent_id": "US12380570-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/149",
+      "G06F 16/686",
+      "G06T 7/13",
+      "G06T 7/564",
+      "G10H 1/368",
+      "G10H 1/40",
+      "H04N 23/80"
+    ],
+    "all": [
+      "G06T 7/149",
+      "G06F 16/686",
+      "G06T 7/13",
+      "G06T 7/564",
+      "G10H 1/368",
+      "G10H 1/40",
+      "H04N 23/80"
+    ],
+    "source": "converted"
+  }
+}

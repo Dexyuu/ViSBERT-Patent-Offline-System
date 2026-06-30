@@ -1,0 +1,20 @@
+{
+  "title": "Efficient uploading of files to a storage service",
+  "abstract": "A computing system may (A) determine that a target service is to receive portions of a first file in a particular sequence from the computing system via a first hypertext transport protocol (HTTP) connection between the computing system and the target service, (B) receive a first portion of the first file from a client device via a second HTTP connection established between the computing system and the client device, (C) determine that the first portion of the first file is next in the particular sequence of file portions to be sent to the target service, (D) send, to the target service via the first HTTP connection, the first portion of the first file based at least in part on the first portion of the first file being next in the particular sequence, (E) receive a second portion of the first file from the client device via a third HTTP connection established between the computing system and the client device, (F) determine that the second portion of the first file is next in the particular sequence, and (G) send to the target service via the first HTTP connection, the second portion of the first file based at least in part on the second portion of the first file being next in the particular sequence.",
+  "claims": "1. A method, comprising: determining, by a computing system, that a target service is to receive portions of a first file in a particular sequence from the computing system via a first hypertext transport protocol (HTTP) connection between the computing system and the target service; receiving, by the computing system, a first portion of the first file from a client device via a second HTTP connection established between the computing system and the client device; determining, by the computing system, that the first portion of the first file is next in the particular sequence of file portions to be sent to the target service; sending, from the computing system to the target service via the first HTTP connection, the first portion of the first file based at least in part on the first portion of the first file being next in the particular sequence; receiving, by the computing system, a second portion of the first file from the client device via a third HTTP connection established between the computing system and the client device; determining, by the computing system, that the second portion of the first file is next in the particular sequence; sending, from the computing system to the target service via the first HTTP connection, the second portion of the first file based at least in part on the second portion of the first file being next in the particular sequence; and determining, by the computing system, that a second target service is to receive portions of a second file from the computing system via a plurality of HTTP connections between the computing system and the second target service.",
+  "patent_id": "US12379879-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/067",
+      "G06F 3/0604",
+      "G06F 3/0655"
+    ],
+    "all": [
+      "G06F 3/067",
+      "G06F 3/0604",
+      "G06F 3/0655"
+    ],
+    "source": "converted"
+  }
+}

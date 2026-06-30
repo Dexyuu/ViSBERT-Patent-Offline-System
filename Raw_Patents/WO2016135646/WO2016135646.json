@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2016135646",
+  "application_id_fs": "WO2016135646",
+  "title": "Telephone call placement",
+  "abstract": "A method or apparatus for connecting a telephone call between a vehicle driver and a customer, the method comprising receiving a driver request message from a device associated with the vehicle driver to place a telephone call between the vehicle driver and a customer; using the driver request message to match the vehicle driver with a job allocation record in at least one database and identifying from the record the identity of the customer; retrieving a telephone number relating to the device associated with the vehicle driver and retrieving a customer telephone number from the at least one database; and causing a telephony service to use the telephone numbers to place the telephone call between the vehicle driver and the customer.",
+  "claims": "Claims Claims 1. A computer-implemented method for connecting a telephone call between a vehicle driver and a customer, the method comprising: receiving a driver request message from a device associated with the vehicle driver to place a telephone call between the vehicle driver and a customer; using the driver request message to match the vehicle driver with a job allocation record in at least one database and identifying from the record the identity of the customer; retrieving a telephone number relating to the device associated with the vehicle driver and retrieving a customer telephone number from the at least one database; and causing a telephony service to use the telephone numbers to place the telephone call between the vehicle driver and the customer. 2. The method of claim 1, wherein the driver request message comprises a driver identifier. 3. The method of claim 2, further comprising using the driver identifier to identify a job to which the vehicle driver has been allocated and obtaining customer information relating to the job. 4. The method of claim 1, further comprising retrieving a customer phone number from a customer database or from an accounts database. 5. The method of claim 1, wherein the telephony service is a conference call host. 6. The method of claim 1, wherein the driver request to place a call is a message sent in response to actuation of a call-out soft button displayed on a user interface of a driver device. 7. The method of claim 1, wherein causing a telephony service to place the telephone call comprises sending an instruction message from a vehicle management system to the telephony service. 8. The method of claim 7, wherein the instruction message comprises an instruction for the telephony service to call the driver device, and in response to the driver device answering the call, subsequently calling the customer device. 9. The method of claim 7, wherein the instruction message contains the telephone number of the driver and the telephone number of the customer. 10. The method of claim 7, wherein the instruction message is an encrypted XML message. 11. The method of claim 1, further comprising causing the driver telephone number to be displayed on the customer device during a telephone call. 12. The method of claim 1, further comprising causing a telephone number of the private hire service to be displayed on the customer device during a telephone call. 13. A non-transitory computer-readable storage medium having stored thereon computer-readable code, which, when executed by computing apparatus, causes the computing apparatus to perform a method of managing a private hire vehicle sharing facility, the method comprising: receiving a driver request message from a device associated with the vehicle driver to place a telephone call between the vehicle driver and a customer; using the driver request message to match the vehicle driver with a job allocation record in at least one database and identifying from the record the identity of the customer; retrieving a telephone number relating to the device associated with the vehicle driver and retrieving a customer telephone number from the at least one database; and causing a telephony service to use the telephone numbers to place the telephone call between the vehicle driver and the customer. 14. Apparatus having at least one processor and at least one memory having computer-readable code stored thereon which when executed controls the at least one processor to manage a private hire vehicle sharing facility by: receiving a driver request message from a device associated with the vehicle driver to place a telephone call between the vehicle driver and a customer; \n\n using the driver request message to match the vehicle driver with a job allocation record in at least one database and identifying from the record the identity of the customer; retrieving a telephone number relating to the device associated with the vehicle driver and retrieving a customer telephone number from the at least one database; and causing a telephony service to use the telephone numbers to place the telephone call between the vehicle driver and the customer. 15. An apparatus for connecting a telephone call between a vehicle driver and a customer, the apparatus comprising means configured for: receiving a driver request message from a device associated with the vehicle driver to place a telephone call between the vehicle driver and a customer; using the driver request message to match the vehicle driver with a job allocation record in at least one database and identifying from the record the identity of the customer; retrieving a telephone number relating to the device associated with the vehicle driver and retrieving a customer telephone number from the at least one database; and causing a telephony service to use the telephone numbers to place the telephone call between the vehicle driver and the customer.",
+  "classifications": {
+    "ipc": [
+      "H04M 3/00",
+      "H04M 3/42",
+      "G06Q 10/00",
+      "G06Q 10/02",
+      "G06Q 10/10",
+      "G06Q 50/00",
+      "G06Q 50/40",
+      "H04M 2203/00",
+      "H04M 2203/20",
+      "H04M 2203/2016",
+      "H04M 3/4211",
+      "H04M 3/50",
+      "H04M 3/527"
+    ],
+    "cpc": [],
+    "all": [
+      "H04M 3/00",
+      "H04M 3/42",
+      "G06Q 10/00",
+      "G06Q 10/02",
+      "G06Q 10/10",
+      "G06Q 50/00",
+      "G06Q 50/40",
+      "H04M 2203/00",
+      "H04M 2203/20",
+      "H04M 2203/2016",
+      "H04M 3/4211",
+      "H04M 3/50",
+      "H04M 3/527"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2016135646"
+}

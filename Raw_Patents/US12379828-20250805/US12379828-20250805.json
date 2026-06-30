@@ -1,0 +1,20 @@
+{
+  "title": "System and method for dynamic profile photos",
+  "abstract": "Systems and methods for managing a presentation of a dynamic profile photo are provided. In particular, a server may receive contextual information associated with one or more users. The server may determine that the contextual information is consistent with a predetermined contextual action. In some examples, the server may identify a dynamic profile photo associated with the predetermined contextual information; and present, in response to the determination that the contextual information is consistent with the predetermined contextual action, the dynamic profile photo to the one or more users.",
+  "claims": "1. A method for presenting a dynamic profile photo, the method comprising: displaying, on a user interface, a content object; detecting one or more user engagement events with respect to the content object from one or more users, wherein the one or more user engagement events comprise receiving a first comment posted by a user on the content object and receiving a second comment posted by the user on the content object; analyzing the one or more user engagement events with respect to the content object and a context of the user interface to determine at least one contextual parameter of the context, wherein the context of the user interface comprises one or more of a username, a profile photo, a comment, or a contextual element of an image or a video; determining, based on the at least one contextual parameter and a predetermined mapping between contextual parameters and context identifiers, at least one context identifier of at least one corresponding context with the at least one contextual parameter; determining, based on the at least one context identifier, at least one dynamic profile photo, wherein the at least one dynamic profile photo is associated with at least one corresponding context with the at least one contextual parameter, and wherein the at least one dynamic profile photo comprises a first dynamic photo of the user and a second dynamic photo of the user; and presenting, on the user interface, the at least one dynamic profile photo in addition to presenting the one or more user engagement events with respect to the content object from the one or more users, wherein presenting, on the user interface, the at least one dynamic profile photo comprises: presenting, on the user interface, the first dynamic photo of the user next to the first comment posted by the user; and presenting, on the user interface, the second dynamic photo of the user next to the second comment posted by the user.",
+  "patent_id": "US12379828-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0484",
+      "G06V 20/50",
+      "H04L 67/306"
+    ],
+    "all": [
+      "G06F 3/0484",
+      "G06V 20/50",
+      "H04L 67/306"
+    ],
+    "source": "converted"
+  }
+}

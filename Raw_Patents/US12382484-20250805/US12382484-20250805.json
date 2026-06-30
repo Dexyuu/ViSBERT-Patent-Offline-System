@@ -1,0 +1,18 @@
+{
+  "title": "Gateway access method and electronic device",
+  "abstract": "A gateway access method and an electronic device are provided. The gateway access method includes: determining a target ePDG based on a priority level of at least one pre-recorded evolved packet data gateway ePDG; and initiating an access procedure to the target ePDG based on pre-recorded address information; where the priority level includes a priority level that is determined based on access parameter information of the at least one ePDG; and the address information includes address information of the target ePDG.",
+  "claims": "1. A gateway access method, applied to an electronic device and comprising: determining a target ePDG based on a priority level of at least one evolved packet data gateway (ePDG) pre-recorded by the electronic device; and initiating an access procedure to the target ePDG based on pre-recorded address information; wherein the priority level comprises a priority level that is determined based on access parameter information of the at least one ePDG; and the address information comprises address information of the target ePDG; wherein the method further comprises: determining a different target ePDG based on the priority level in a case that access to the target ePDG fails and initiating an access procedure to the determined different target ePDG; wherein a priority level of the determined different target ePDG is lower than a priority level of a previously determined target ePDG; wherein the determining the different target ePDG based on the priority level in a case that access to the target ePDG fails and initiating the access procedure to the determined different target ePDG comprises: cyclically performing the operation of determining the different target ePDG based on the priority level in a case that access to the target ePDG fails and initiating the access procedure to the determined different target ePDG, until all pre-recorded ePDGs are polled; obtaining an assigned ePDG address by querying ePDG information through static query or dynamic domain name system DNS query; and initiating an access procedure to a corresponding ePDG based on the allocated ePDG address.",
+  "patent_id": "US12382484-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/56",
+      "H04W 88/16"
+    ],
+    "all": [
+      "H04W 72/56",
+      "H04W 88/16"
+    ],
+    "source": "converted"
+  }
+}

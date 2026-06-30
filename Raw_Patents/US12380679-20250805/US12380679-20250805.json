@@ -1,0 +1,22 @@
+{
+  "title": "System and methods for active domain adaptation",
+  "abstract": "Systems and methods for machine learning are described. The systems and methods include receiving target training data including a training image and ground truth label data for the training image, generating source network features for the training image using a source network trained on source training data, generating target network features for the training image using a target network, generating at least one attention map for training the target network based on the source network features and the target network features using a guided attention transfer network, and updating parameters of the target network based on the attention map and the ground truth label data.",
+  "claims": "1. A method comprising: receiving target training data including a training image and ground truth label data for the training image; generating source network features for the training image using a source network trained on source training data; generating target network features for the training image using a target network; generating at least one attention map for training the target network based on the source network features and the target network features using a guided attention transfer network, wherein the at least one attention map indicates regions or channels of the source network features that align with corresponding regions or channels of the target network features; and updating parameters of the target network based on the attention map and the ground truth label data.",
+  "patent_id": "US12380679-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/774",
+      "G06V 10/776",
+      "G06V 10/778",
+      "G06V 10/82"
+    ],
+    "all": [
+      "G06V 10/774",
+      "G06V 10/776",
+      "G06V 10/778",
+      "G06V 10/82"
+    ],
+    "source": "converted"
+  }
+}

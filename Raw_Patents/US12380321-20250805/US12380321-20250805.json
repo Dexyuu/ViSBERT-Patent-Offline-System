@@ -1,0 +1,20 @@
+{
+  "title": "Flexible array data loading",
+  "abstract": "To improve utilization of a systolic array, each row of the array is provided with two or more general purpose row input buses. Each of the general purpose row input data buses can be operable to transfer either feature map (FMAP) input elements or weight values into the processing elements of the corresponding row of the array. The flexibility of the general purpose row input buses allows weights to be loaded in parallel into the array to speed up weight loading times to reduce the overall latency.",
+  "claims": "1. A neural network processor comprising: an array of processing elements arranged in rows and columns, wherein each row of the array includes a plurality of row input data buses, wherein each processing element (PE) is operable to multiply a feature map (FMAP) input element with a weight value to generate a multiplication result, add the multiplication result to a column input to generate a partial sum, and output the partial sum to a column output, and wherein each PE includes a first multiplexor operable to receive inputs from each of the plurality of row input data buses and select which of the inputs to use as the FMAP input element; and a memory operable to store weight values and FMAP input elements for loading into the array, wherein the plurality of row input data buses of a row is operable to transfer a first set of weight values for a first matrix multiplication operation from the memory into the row in parallel, and after transferring the first set of weight values, transfer a set of FMAP input elements for the first matrix multiplication operation from the memory on one of the row input data buses of the row with a second set of the weight values for a second matrix multiplication operation on another row input data bus of the row, and wherein the set of FMAP input elements for the first matrix multiplication operation and the second set of the weight values for the second matrix multiplication operation are transferred into the row concurrently.",
+  "patent_id": "US12380321-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 3/063",
+      "G06F 9/3893",
+      "G06N 3/04"
+    ],
+    "all": [
+      "G06N 3/063",
+      "G06F 9/3893",
+      "G06N 3/04"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Dynamically processing requests for data items based on resource constraints",
+  "abstract": "To dynamically process requests for data items based on resource constraints, a computer system receives data including identifiers identifying respective data items. The data includes authorization request to obtain the multiple items and source data identifying a source. The system identifies a resource constraint associated with each of the data items and determines an aggregate resource constraint. If the aggregate exceeds a threshold, the system determines a subset of the multiple items. If an aggregate associated with data items in the subset satisfies the threshold, the system generates a first subset of the identifiers identifying respective data items in the determined subset, generates a second subset of the identifiers identifying respective data items excluded from the determined subset, transmits the authorization request to obtain the data items in the first subset, and transmits the permission, the first subset and the second subset to the source identified by the source data.",
+  "claims": "9. A system comprising: one or more computers; and a computer-readable medium coupled to the one or more computers having instructions stored thereon which, when executed by the one or more computers, cause the one or more computers to perform operations comprising: determining that an aggregate resource constraint associated with a plurality of data items received with an authorization request to obtain the plurality of data items exceeds a threshold resource constraint for obtaining data items, the authorization request comprising source data identifying a source from which the authorization request was received; in response to determining that the aggregate resource constraint exceeds the threshold resource constraint, determining a first subset of the plurality of data items that includes fewer data items than the plurality of data items received with the authorization request and for which an aggregate of resource constraints of data items in the first subset does not exceed the threshold resource constraint; in response to determining that the aggregate of resource constraints of data items in the first subset does not exceed the threshold resource constraint associated with obtaining data items: generating a first unique identifier identifying the first subset; mapping, to the first unique identifier, a plurality of identifiers identifying respective data items in the first subset; generating a second unique identifier identifying a second subset; mapping, to the second unique identifier, identifiers identifying respective data items excluded from the first subset; transmitting the authorization request to an authorization engine requesting permission to obtain the plurality of data items in the first subset; and in response to receiving the permission, transmitting, to the source identified by the source data: the permission, the first unique identifier generated for the first subset, the plurality of identifiers mapped to the first unique identifier, the second unique identifier generated for the second subset, and the identifiers mapped to the second unique identifier.",
+  "patent_id": "US12380234-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/6227",
+      "G06F 16/24578",
+      "G06F 16/284",
+      "G06F 2221/2113"
+    ],
+    "all": [
+      "G06F 21/6227",
+      "G06F 16/24578",
+      "G06F 16/284",
+      "G06F 2221/2113"
+    ],
+    "source": "converted"
+  }
+}

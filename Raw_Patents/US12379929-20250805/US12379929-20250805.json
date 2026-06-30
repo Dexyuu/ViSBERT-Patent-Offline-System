@@ -1,0 +1,20 @@
+{
+  "title": "Branch prediction using loop iteration count",
+  "abstract": "An integrated circuit comprising instruction processing circuitry for processing a plurality of program instructions and instruction prediction circuitry. The instruction prediction circuitry comprises circuitry for detecting successive occurrences of a same program loop sequence of program instructions. The instruction prediction circuitry also comprises circuitry for predicting a number of iterations of the same program loop sequence of program instructions, in response to detecting, by the circuitry for detecting, that a second occurrence of the same program loop sequence of program instructions comprises a same number of iterations as a first occurrence of the same program loop sequence of program instructions.",
+  "claims": "1. A device comprising: an instruction pipeline; a program counter coupled to the instruction pipeline and configured to store a value; and a branch predictor coupled to the program counter and configured to: determine that the value corresponds to a beginning of a hyperblock loop by performing a first comparison of the value with a first data set; in response to the value corresponding to the beginning of the hyperblock loop, determine that a second data set characterizing the hyperblock loop is stored in a memory by performing a second comparison of the value with the second data set, wherein the second data set is different from the first data set; and predict a number of iterations for the hyperblock loop based on the second data set.",
+  "patent_id": "US12379929-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/325",
+      "G06F 9/3806",
+      "G06F 9/3846"
+    ],
+    "all": [
+      "G06F 9/325",
+      "G06F 9/3806",
+      "G06F 9/3846"
+    ],
+    "source": "converted"
+  }
+}

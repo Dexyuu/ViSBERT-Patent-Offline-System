@@ -1,0 +1,30 @@
+{
+  "title": "Method and device for reporting resource sensing result, user equipment, and storage medium",
+  "abstract": "Provided is a method for reporting a resource sensing result that can include determining whether a traffic is currently in progress in response to detecting that a resource sensing result needs to be reported to a base station, and adding a specified identifier to a resource sensing message in response to determining that no traffic is currently in progress. The specified identifier being intended to indicate that no traffic is currently in progress. The method can further include reporting the resource sensing message to the base station.",
+  "claims": "1. A method for reporting a resource sensing result, being capable to user equipment (UE), wherein sidelink resources corresponding to the UE are determined by autonomous selection of the UE as well as by dynamic scheduling of a base station; and the method comprises: determining that a sidelink resource sensing result is detected and needs to be reported to the base station in a case of a reporting mechanism periodically reporting the sidelink resource sensing result and a current moment being a reporting moment in a current period, or determining that a sidelink resource sensing result is detected and needs to be reported to the base station in a case of a reporting mechanism non-periodically reporting the sidelink resource sensing result and a reporting instruction from the base station being received; in a case that no service is currently in progress, adding a first resource sensing result and a second identifier to a resource sensing message, wherein the first resource sensing result is a sidelink resource sensing result obtained before the current moment, and the second identifier indicates that the first resource sensing result is the sidelink resource sensing result obtained before the current moment; or adding a second resource sensing result and a third identifier to a resource sensing message, wherein the second resource sensing result is a sidelink resource sensing result determined based on a preset sensing start time and a preset sensing end time, and the third identifier indicates that the second resource sensing result is the sidelink resource sensing result determined based on the preset sensing start time and the preset sensing end time; and reporting the resource sensing message to the base station, wherein the resource sensing message is configured for the base station to schedule the sidelink resources for the UE.",
+  "patent_id": "US12382372-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 48/14",
+      "H04W 4/50",
+      "H04W 24/02",
+      "H04W 24/10",
+      "H04W 48/16",
+      "H04W 4/40",
+      "H04W 8/22",
+      "H04W 24/08"
+    ],
+    "all": [
+      "H04W 48/14",
+      "H04W 4/50",
+      "H04W 24/02",
+      "H04W 24/10",
+      "H04W 48/16",
+      "H04W 4/40",
+      "H04W 8/22",
+      "H04W 24/08"
+    ],
+    "source": "converted"
+  }
+}

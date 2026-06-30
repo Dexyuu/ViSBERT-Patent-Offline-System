@@ -1,0 +1,17 @@
+{
+  "application_id": "WO2019166903",
+  "application_id_fs": null,
+  "title": "Method and device for fault location in a two-terminal transmission system",
+  "abstract": "The present invention discloses a device and a method for locating fault in a two-terminal transmission system comprising two terminals connected with parallel transmission lines. The device obtains voltage and current measurements at two terminals of a faulted line. The device estimates positive sequence voltage and current phasors from the measurements. In addition, the device locates the fault based on the positive sequence voltage and current phasors, and surge impedance and propagation constant of the corresponding transmission line.",
+  "claims": "Claims 1. A device for locating fault in a two-terminal transmission system, wherein the two-terminal transmission system comprises a first terminal and a second terminal connected by two transmission lines that are parallel to each other, wherein a fault is located in a first transmission line of the two transmission lines, the device comprising: an interface for obtaining measurements of voltages and currents measured at the first terminal and the second terminal, wherein the measurements are carried out with one or more measurement equipment associated with the corresponding terminals of the first transmission line; a phasor estimator for obtaining positive sequence voltage and current phasors from the measurements of voltages and currents measured at the first terminal and the second terminal of the first transmission line; a memory for storing at least one of a surge impedance of the first transmission line and a propagation constant of the first transmission line; and a fault locator for estimating a fault location in the first transmission line, based on the positive sequence voltage and current phasors, the surge impedance and the propagation constant of the first transmission line. 2. The device as claimed in claim 1, wherein the fault locator obtains the fault location by calculating an absolute value of an inverse hyperbolic tangent of one or more parameters, wherein the parameters are calculated from one or more of the positive sequence voltage and current phasors, and the positive sequence line impedance parameters of the first transmission line. 3. The device as claimed in claim 1, wherein the device is a server in communication with one or more power system devices of the two-terminal transmission system. 4. The device as claimed in claim 1, wherein the device is an Intelligent Electronic Device (IED) associated with one of the first terminal and the second terminal, wherein the IED: obtains measurements of voltages and currents measured at the corresponding terminal; estimates positive sequence voltage and current phasors from the corresponding measurements; and \n\n receive positive sequence voltage and current phasors obtained from the voltage and current measurements performed at the other terminal. 5. The device as claimed in claim 4 communicates with a device associated with the other terminal.",
+  "classifications": {
+    "ipc": [
+      "G01R 31/08"
+    ],
+    "cpc": [],
+    "all": [
+      "G01R 31/08"
+    ],
+    "source": "csv"
+  }
+}

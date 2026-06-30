@@ -1,0 +1,18 @@
+{
+  "title": "Systems and methods for generating predictive risk outcomes",
+  "abstract": "Disclosed embodiments may include a method for generating predictive risk outcomes by receiving data and generating, using a first machine learning model (MLM), associated data. Then generating from the associated data, using a second MLM, correlated and uncorrelated data, which is then filtered to a reduced data set. The reduced data set is then used to generate, using a third MLM, risk event predictions that are output to an interactive graphical user interface (GUI) in a ranked, dynamic index. The system can be adjusted and run in near-real time from the GUI.",
+  "claims": "1. A method of proactively managing risk, the method comprising: receiving input data comprising event data; generating, using a first machine learning model (MLM), associated data from the input data by assigning one or more levels of similarity to the input data above a first threshold; generating, using a second MLM, correlated data and non-correlated data based on the associated data and the event data by establishing one or more linkages between the event data and the associated data using a custom algorithm operating within the second MLM; generating, using a third MLM, one or more risk event predictions based on at least the correlated data by assigning probabilistic attributes to the correlated data; transmitting the one or more risk event predictions to one or more user devices for display via a graphical user interface (GUI); receiving user input associated with the one or more risk event predictions from the one or more user devices via the GUI; training the first MLM with at least the associated data and the user input to modify the first threshold; updating the one or more risk event predictions by: generating updated associated data with the first MLM based on the modified first threshold; generating updated correlated data with the second MLM based on the updated associated data; generating one or more updated risk event predictions with the third MLM based on the updated correlated data; and transmitting the one or more updated risk event predictions to the one or more user devices for display via an updated GUI.",
+  "patent_id": "US12380387-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/0635",
+      "G06N 20/00"
+    ],
+    "all": [
+      "G06Q 10/0635",
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

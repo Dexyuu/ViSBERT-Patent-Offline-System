@@ -1,0 +1,24 @@
+{
+  "title": "Efficient image demosaicing and local contrast enhancement",
+  "abstract": "An exemplary method includes receiving a frame of raw pixels captured by an image capture sensor, a particular location in the frame of raw pixels including a captured color pixel value of a first color component of a first color space; generating, for the particular location in the frame of raw pixels, a vertical color difference signal and a horizontal color difference signal using information from the frame of raw pixels; determining that the particular location is missing a color pixel value of a second color component of the first color space; generating a reconstructed color pixel value of the second color component based on the vertical color difference signal and the horizontal color difference signal; and transforming the vertical color difference signal and the horizontal color difference signal into chrominance pixel values in a second color space that is different from the first color space.",
+  "claims": "1. A method comprising: receiving a frame of raw pixels captured by an image capture sensor, a particular location in the frame of raw pixels including a captured color pixel value of a first color component of a first color space; generating, for the particular location in the frame of raw pixels, a vertical color difference signal and a horizontal color difference signal using information from the frame of raw pixels; determining that the particular location is missing a color pixel value of a second color component of the first color space; generating, for the particular location in the frame of raw pixels, a reconstructed color pixel value of the second color component based on the vertical color difference signal and the horizontal color difference signal; and transforming, for the particular location in the frame of raw pixels, the vertical color difference signal and the horizontal color difference signal of the particular location in the frame of raw pixels into chrominance pixel values in a second color space that is different from the first color space; wherein transforming the vertical color difference signal and the horizontal color difference signal into the chrominance pixel values in the second color space comprises: determining an average of the vertical color difference signal and the horizontal color difference signal; and using the average of the vertical color difference signal and the horizontal color difference signal to determine the chrominance pixel values in the second color space.",
+  "patent_id": "US12380533-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 3/4015",
+      "H04N 23/843",
+      "H04N 25/134",
+      "A61B 2576/00",
+      "H04N 23/555"
+    ],
+    "all": [
+      "G06T 3/4015",
+      "H04N 23/843",
+      "H04N 25/134",
+      "A61B 2576/00",
+      "H04N 23/555"
+    ],
+    "source": "converted"
+  }
+}

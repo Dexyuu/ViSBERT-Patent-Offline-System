@@ -1,0 +1,26 @@
+{
+  "title": "Adaptive lead generation for marketing",
+  "abstract": "Various examples are directed to systems and methods for adaptively generating leads. A marketing system may determine that a first lead score for a first lead is greater than a first lead score threshold and determine that a second lead score for a second lead is less than the first lead score threshold. The marketing system may generate a set of filtered leads including the first lead information from the first lead. The marketing system may determine a scrub rate that describes a portion of first execution cycle data having lead scores greater than the first lead score threshold and determine that the scrub rate is greater than an analysis window scrub rate by more than a scrub rate threshold. The marketing system may select a second lead score threshold that is lower than the first lead score threshold.",
+  "claims": "1. A system comprising at least one processor and a memory in communication with the at least one processor, wherein the system is programmed to: receive, by the at least one processor, first execution cycle data comprising a first lead and a second lead from a lead interface, wherein the first lead comprises first lead information describing a first potential customer and the second lead comprises second lead information describing a second potential customer; determine, by the at least one processor, that a first lead score for the first lead is greater than a lead score threshold; determine, by the at least one processor, that a second lead score for the second lead is less than the lead score threshold; generate, by the at least one processor, a set of filtered leads including the first lead information based on the first lead score; determine, by the at least one processor, a scrub rate, wherein the scrub rate describes a portion of the first execution cycle data having lead scores lower than the lead score threshold, wherein the scrub rate is a ratio of a number of customers removed from the system; determine a mean scrub rate of a plurality of historical scrub rates to generate an analysis window scrub rate; determine whether a scrub rate threshold is more than two standard deviations higher than the mean scrub rate; automatically adjust the lead score threshold using an adjustment evaluator on the at least one processor in response to determining that the scrub rate threshold is more than two standard deviations higher than the mean scrub rate; determine, by the adjustment evaluator, that the scrub rate is greater than an analysis window scrub rate by more than the scrub rate threshold; determine, by a guard-rail enforcer component, that a number of score threshold adjustments do not exceed a predetermined number of score threshold adjustments in a predetermined time period before automatically adjusting the lead score threshold further using the adjustment evaluator in response to determining that the scrub rate is greater than the analysis window scrub rate by more than the scrub rate threshold; in response to adjusting the lead score threshold, determine that an application of the adjusted lead score threshold is permitted by a limitation rule determined by the guard-rail enforcer component; send a message to an administrative user before generating the set of filtered leads; and transmit, by the at least one processor, data to the filtered leads.",
+  "patent_id": "US12380465-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0243",
+      "G06F 16/24578",
+      "G06F 16/9535",
+      "G06F 30/20",
+      "G06Q 30/016",
+      "G06Q 30/0251"
+    ],
+    "all": [
+      "G06Q 30/0243",
+      "G06F 16/24578",
+      "G06F 16/9535",
+      "G06F 30/20",
+      "G06Q 30/016",
+      "G06Q 30/0251"
+    ],
+    "source": "converted"
+  }
+}

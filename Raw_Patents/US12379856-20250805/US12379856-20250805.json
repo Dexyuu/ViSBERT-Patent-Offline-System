@@ -1,0 +1,20 @@
+{
+  "title": "Storage device for storing write data or reading read data and electronic device including the same",
+  "abstract": "A storage device includes: a memory device; and a memory controller configured to receive, from an external device having an external memory, a write command for storing data in the memory device and address information of an area in the external memory that corresponds to the write command, and acquire write data from the external device based on the address information. The memory controller may be further configured to store the write data in the memory device in response to the write command. The memory controller may be further configured to acquire a portion of the write data from the external memory upon a failure of storage of the portion of the write data in the memory device, and provide a response to the write command to the external device after completing storing of the write data in the memory device.",
+  "claims": "1. A storage device comprising: a memory device; and a memory controller configured to receive, from an external device having an external memory, a write command for storing a plurality of write data in the memory device and address information of an area in the external memory that corresponds to the write command, and acquire the plurality of write data from the external device based on the address information, wherein the memory controller is further configured to: store the plurality of write data acquired from the external device in the memory device in response to the write command; and acquire a first portion of the plurality of write data from the external memory upon a failure of storage of the first portion of the plurality of write data in the memory device after completing storing of a second portion of the plurality of write data excluding the first portion of the plurality of write data in the memory device, store the first portion of the plurality of write data acquired from the external device in the memory device in response to the write command, and provide a response to the write command to the external device after completing storing of the second portion of the plurality of write data in the memory device.",
+  "patent_id": "US12379856-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0625",
+      "G06F 3/0659",
+      "G06F 3/0673"
+    ],
+    "all": [
+      "G06F 3/0625",
+      "G06F 3/0659",
+      "G06F 3/0673"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "System for selectively adding noise pedestal to generated signal",
+  "abstract": "A reference system is provided for generating a clock signal with a tunable noise pedestal for driving a signal generator. The reference system includes a reference source configured to generate a reference signal and a multiplier chain, including a noise pedestal generator. The noise pedestal generator includes a noise pedestal attenuator configured to attenuate the reference signal to degrade a noise floor of the reference signal, a VGA configured to adjust the attenuated reference signal to a desired signal level, a bandpass filter configured to filter out excess noise from the adjusted reference signal to form a noise pedestal, and a switch arrangement configured to selectively input the reference signal to a first path including the noise pedestal attenuator and the VGA, and a second path bypassing the noise pedestal attenuator and the VGA. The clock signal includes the noise pedestal when the first path is selected.",
+  "claims": "1. A reference system for generating a clock signal with a tunable noise pedestal for driving a signal generator, the reference system comprising: a reference source configured to generate a reference signal having a first frequency; and a multiplier chain configured to multiply the reference signal to produce a clock signal having a second frequency greater than the first frequency, and to output the clock signal to the signal generator, wherein the multiplier chain comprises: a noise pedestal generator configured to selectively form a noise pedestal in the reference signal, wherein the noise pedestal generator comprises: a noise pedestal attenuator configured to attenuate the reference signal to degrade a noise floor of the reference signal; a variable gain amplifier (VGA) configured to adjust the attenuated reference signal to a desired signal level to provide an adjusted reference signal able to drive a remainder of the multiplier chain at a target power, while maintaining the degraded noise floor; a bandpass filter configured to filter out excess noise from the adjusted reference signal to form the noise pedestal; and a switch arrangement configured to selectively input the reference signal to a first path including the noise pedestal attenuator and the VGA, and a second path bypassing the noise pedestal attenuator and the VGA, wherein the clock signal, which is output to the signal generator, is based on the adjusted reference signal including the noise pedestal when the switch arrangement selectively inputs the reference signal to the first path, and the clock signal is based on the reference signal without the noise pedestal when the switch arrangement selectively inputs the reference signal to the second path.",
+  "patent_id": "US12381542-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03K 5/01",
+      "G06F 1/04",
+      "H03B 29/00"
+    ],
+    "all": [
+      "H03K 5/01",
+      "G06F 1/04",
+      "H03B 29/00"
+    ],
+    "source": "converted"
+  }
+}

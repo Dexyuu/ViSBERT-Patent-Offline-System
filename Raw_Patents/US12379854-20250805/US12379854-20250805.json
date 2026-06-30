@@ -1,0 +1,30 @@
+{
+  "title": "Two or more logical arrays having zoned drives",
+  "abstract": "A plurality of storage nodes is provided. The plurality of storage nodes includes a first plurality of storage nodes configured to communicate together as a first storage cluster and a second plurality of storage nodes configured to communicate together as a second storage cluster. Each of the first and second pluralities of storage nodes has nonvolatile solid-state memory for user data storage and each of the first and second pluralities of storage nodes is configured to distribute user data and metadata associated with the user data throughout a respective plurality of storage nodes such that a respective storage cluster maintains ability to read the user data, using erasure coding, despite a loss of one or more of the respective plurality of storage nodes.",
+  "claims": "1. A method, comprising: assigning a first subset of storage nodes of a plurality of storage nodes as members of a first storage cluster partitioned into a first set of logical arrays comprising a first set of computing resources and a first set of storage devices, wherein the first subset of storage nodes is distributed across two or more chassis and storage nodes of the first subset of storage nodes are configured to communicate with one another and store erasure coded data across the two or more chassis as the first storage cluster; assigning a second subset of storage nodes of the plurality of storage nodes as members of a second storage cluster partitioned into a second set of logical arrays comprising a second set of computing resources and a second set of storage devices, which is independent of the first storage cluster, wherein storage nodes of the second subset of storage nodes comprise a plurality of authorities and are configured to communicate with one another and store data as the second storage cluster, wherein the second set of computing resources and the second set of storage devices is different than the first set of computing resources and the first set of storage devices and wherein the plurality of authorities control one or more partitions of the second set of storage devices for reading and writing data for the second plurality of storage nodes and at least one of the second set of storage devices has multiple authorities; executing a first software on the first set of logical arrays; and executing a second software on the second set of logical arrays independent of the first set of logical arrays executing the first software, wherein the first storage cluster is configured to upgrade software independent of a software upgrade to the second storage cluster, wherein the plurality of storage nodes includes a storage controller comprising a zoned storage device.",
+  "patent_id": "US12379854-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0619",
+      "G06F 3/0644",
+      "G06F 3/065",
+      "G06F 3/0665",
+      "G06F 3/0689",
+      "G06F 11/1076",
+      "G06F 11/2094",
+      "G06F 11/1441"
+    ],
+    "all": [
+      "G06F 3/0619",
+      "G06F 3/0644",
+      "G06F 3/065",
+      "G06F 3/0665",
+      "G06F 3/0689",
+      "G06F 11/1076",
+      "G06F 11/2094",
+      "G06F 11/1441"
+    ],
+    "source": "converted"
+  }
+}

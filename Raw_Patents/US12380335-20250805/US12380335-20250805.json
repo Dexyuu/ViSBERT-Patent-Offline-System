@@ -1,0 +1,24 @@
+{
+  "title": "Machine learning networks, architectures and techniques for determining or predicting demand metrics in one or more channels",
+  "abstract": "This disclosure relates to artificial intelligence (AI) and machine learning networks for predicting or determining demand metrics across multiple channels. An analytics platform can receive channel events from multiple channels corresponding to geographic areas, and channel features related to demand conditions in the channels can be extracted from the channel events. During a training phase, the channel features can be accumulated into one or more training datasets for training one or more demand prediction models. The one or more demand prediction models can be trained to predict or determine demand metrics for each of the channels. The demand metrics can indicate or predict demand conditions based on the current conditions in the channels and/or based on future, predicted conditions in the channels. Other embodiments are disclosed herein as well.",
+  "claims": "1. A method implemented via execution of computing instructions by one or more processors and stored on one or more non-transitory computer-readable storage devices, the method comprising: providing, by the one or more processors, access to an analytics platform that includes a machine learning network comprising one or more demand prediction models configured to predict demand metrics for a plurality of channels; storing, by the one or more non-transitory computer-readable storage devices, a first set of channel events pertaining to the plurality of channels; generating, by the one or more processors, a first set of channel features based, at least in part, on the channel events; executing, by the one or more processors, an unsupervised training procedure to train the one or more demand prediction models using the plurality of channel features; receiving a second set of channel events pertaining to at least one channel; generating, by one or more processors, a second set of channel features based, at least in part, on the second set of channel events; and predicting, using the demand prediction model trained with the unsupervised training procedure and executed by the one or more processors, a demand metric for the at least one channel based, at least in part, on the second set of channel features; wherein a demand adjustment function is executed that adjusts prices or allocations of one or more inventory items in the at least one channel based, at least in part, on the demand metric, and the demand prediction model associated with the machine learning network includes an anomaly detection model that generates the demand metric, the anomaly detection model includes a change point detection (CPD) model that is pre-trained using the unsupervised training procedure to generate the demand metric, each of the plurality of channels corresponds to a geographic area, and the demand metric predicts a demand in the at least one channel for a current time period, a most recent time period, or a future time period.",
+  "patent_id": "US12380335-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 3/088",
+      "G06N 3/0442",
+      "G06Q 10/087",
+      "G06Q 30/0202",
+      "G06Q 30/0206"
+    ],
+    "all": [
+      "G06N 3/088",
+      "G06N 3/0442",
+      "G06Q 10/087",
+      "G06Q 30/0202",
+      "G06Q 30/0206"
+    ],
+    "source": "converted"
+  }
+}

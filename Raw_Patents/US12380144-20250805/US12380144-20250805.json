@@ -1,0 +1,22 @@
+{
+  "title": "System and method for medical data governance using large language models",
+  "abstract": "A system for medical data governance using large language models is disclosed. The system receives a user input including at least one search query to retrieve first medical data from one or more medical data governance (MDG) databases. The system applies one or more large language models (LLMs) on the received at least one search query, wherein the one or more LLMs are pre-trained models. The system determines metadata associated with the at least one search query based on the application of the one or more LLMs on the received search query. The system queries a first MDG database of the one or more MDG databases based on the determined metadata to retrieve the first medical data. The system outputs the retrieved first medical data.",
+  "claims": "1. A system using large language models to process medical data comprising: circuitry configured to: receive a user input including at least one search query to retrieve first medical data stored in one or more medical data governance (MDG) databases; receive real-time medical data associated with at least one user from one or more medical devices associated with the at least one user; determine metadata associated with the received at least one search query and the received real-time medical data based on an application of one or more large language models (LLMs) on the received search query and the received real-time medical data; query at least a first MDG database of the one or more MDG databases based on the determined metadata; and output the retrieved first medical data, wherein the first medical data comprises at least one upcoming event associated with a medical condition of the at least one user.",
+  "patent_id": "US12380144-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/3334",
+      "G06F 21/6245",
+      "G06F 40/40",
+      "G16H 40/20"
+    ],
+    "all": [
+      "G06F 16/3334",
+      "G06F 21/6245",
+      "G06F 40/40",
+      "G16H 40/20"
+    ],
+    "source": "converted"
+  }
+}

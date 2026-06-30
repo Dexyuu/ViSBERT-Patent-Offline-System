@@ -1,0 +1,18 @@
+{
+  "title": "System and method for device identification and uniqueness",
+  "abstract": "Systems and methods for determining uniqueness of device identifiers are provided. The uniqueness of a device identifier may be indicated by a device quality score or grade that is calculated based on a plurality of parameters associated with a device identifier as well as evaluation rules derived based on historical data. The plurality of parameters may be associated with a network event or transaction associated with the device identifier. The evaluation rules may be derived using machine learning techniques. Based on uniqueness of a device identifier, a suitable action or measure may be taken.",
+  "claims": "1. A computer-implemented method comprising: calculating a quality score associated with a device identifier corresponding to at least a first user device, wherein the quality score is calculated based at least in part on (1) at least one of a plurality of evaluation rules and (2) values corresponding to at least one of a plurality of parameters associated with the first user device; determining that the device identifier is not shared between multiple devices based on a comparison between the quality score and a predetermined threshold associated with a range of quality scores; and based at least in part on the determination that the device identifier is not shared between the multiple devices and an electronic indication that an online session between a computer system and the first user device is likely fraudulent, adding the device identifier to a blacklist such that network traffic from devices, including the first user device, with an association to the device identifier are blocked.",
+  "patent_id": "US12380341-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 5/025",
+      "G06N 20/00"
+    ],
+    "all": [
+      "G06N 5/025",
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

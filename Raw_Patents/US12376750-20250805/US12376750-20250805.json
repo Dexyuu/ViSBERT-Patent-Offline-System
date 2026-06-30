@@ -1,0 +1,46 @@
+{
+  "title": "Tumor characterization and outcome prediction through quantitative measurements of tumor-associated vasculature",
+  "abstract": "The present disclosure relates to a method. The method may be performed by accessing data derived from one or more routine clinical medical imaging scans including a lesion in which the lesion and associated vasculature are segmented in a three-dimensional segmentation. At least two features are extracted from the three-dimensional segmentation of the associated vasculature. The at least two features include at least one feature indicative of a morphology of the associated vasculature or a portion thereof, and at least one feature indicative of a function of the associated vasculature or a portion thereof. The at least two features, and/or one or more statistics of the at least two features, are provided to a machine learning model trained to make a prediction concerning the lesion. The prediction concerning the lesion is received from the machine learning model.",
+  "claims": "1. A method, comprising: accessing data derived from one or more routine clinical medical imaging scans including a lesion in which the lesion and associated vasculature are segmented in a three-dimensional segmentation; extracting at least two features, the at least two features including at least one feature indicative of a morphology of the associated vasculature or a portion thereof, and at least one feature indicative of a function of the associated vasculature or a portion thereof, the at least one feature indicative of the morphology extracted from the three-dimensional segmentation of the associated vasculature, and the at least one feature indicative of the function being a pharmacokinetic measurement extracted from a region of tissue in the one or more routine clinical imaging scans that is perfused by the associated vasculature; providing the at least two features, and/or one or more statistics of the at least two features, to a machine learning model trained to make a prediction concerning the lesion; and receiving, from the machine learning model, the prediction concerning the lesion.",
+  "patent_id": "US12376750-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 5/02007",
+      "A61B 5/0035",
+      "A61B 5/004",
+      "A61B 5/08",
+      "A61B 5/7267",
+      "A61B 5/7275",
+      "G06T 7/0012",
+      "G06T 7/12",
+      "G06T 2207/10081",
+      "G06T 2207/10088",
+      "G06T 2207/20036",
+      "G06T 2207/20081",
+      "G06T 2207/30061",
+      "G06T 2207/30068",
+      "G06T 2207/30096",
+      "G06T 2207/30101"
+    ],
+    "all": [
+      "A61B 5/02007",
+      "A61B 5/0035",
+      "A61B 5/004",
+      "A61B 5/08",
+      "A61B 5/7267",
+      "A61B 5/7275",
+      "G06T 7/0012",
+      "G06T 7/12",
+      "G06T 2207/10081",
+      "G06T 2207/10088",
+      "G06T 2207/20036",
+      "G06T 2207/20081",
+      "G06T 2207/30061",
+      "G06T 2207/30068",
+      "G06T 2207/30096",
+      "G06T 2207/30101"
+    ],
+    "source": "converted"
+  }
+}

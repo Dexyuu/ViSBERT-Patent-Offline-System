@@ -1,0 +1,22 @@
+{
+  "title": "Protected data use in third party software applications",
+  "abstract": "Various embodiments provide systems, methods, devices, and instructions for protected data use in a third-party software application, where use can be enabled while maintaining protection of the protected data from the third party software application. In particular, various embodiments provide a software application architecture that permits a data party that owns or maintains protected data to support a software development ecosystem where a third-party can develop a third-party software application that uses the protected data while denying the third-party access to the protected data.",
+  "claims": "1. A system comprising: a private data storage configured to provide: read and write data access to one or more private software environments within a container software application; and write-only data access to all public software environments within the container software application; a protected data storage configured to provide: read and write data access to the container software application; read data access to the one or more private software environments within the container software application; and deny data access to all public software environments within the container software application; one or more hardware processors; and one or more machine-readable media storing instructions that, when executed by the one or more hardware processors, cause the system to perform operations comprising: causing execution of the container software application; causing the container software application to execute a third-party software application in a public software environment within the container software application, the public software environment being a first HyperText Markup Language (HTML) inline frame (iframe) element; and causing the third-party software application to execute a private software component in a private software environment within the third-party software application, the container software application being configured to write first protected data to the protected data storage and to read second protected data from the protected data storage, the private software component being a second HTML iframe element embedded in the first HTML iframe element, the private software component being configured to read third protected data from the protected data storage while preventing the third-party software application from accessing the third protected data being read by the private software component, the private software component being configured to write first private data to and read second private data from the private data storage, and the third-party software application being configured to write third private data to the private data storage.",
+  "patent_id": "US12380237-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/6245",
+      "G06F 21/53",
+      "G06F 21/604",
+      "G06F 2221/2115"
+    ],
+    "all": [
+      "G06F 21/6245",
+      "G06F 21/53",
+      "G06F 21/604",
+      "G06F 2221/2115"
+    ],
+    "source": "converted"
+  }
+}

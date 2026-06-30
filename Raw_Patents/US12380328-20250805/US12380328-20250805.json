@@ -1,0 +1,18 @@
+{
+  "title": "Lightweight model training method, image processing method, electronic device, and storage medium",
+  "abstract": "Provided is a lightweight model training method, an image processing method, a device and a medium. The lightweight model training method includes: acquiring first and second augmentation probabilities and a target weight adopted in an e-th iteration; performing data augmentation on a data set based on the first and second augmentation probabilities respectively, to obtain first and second data sets; obtaining a first output value of a student model and a second output value of a teacher model based on the first data set; obtaining a third output value and a fourth output value based on the second data set; determining a distillation loss function, a truth-value loss function and a target loss function; training the student model based on the target loss function; and determining a first augmentation probability or target weight to be adopted in an (e+1)-th iteration in a case of e is less than E.",
+  "claims": "1. A lightweight model training method, comprising: acquiring a first augmentation probability, a second augmentation probability and a target weight adopted in an e-th iteration, the target weight being a weight of a distillation loss value, e being a positive integer not greater than E, and E being a maximum quantity of iterations and being a positive integer greater than 1; performing data augmentation on a data set based on the first augmentation probability and the second augmentation probability respectively, to obtain a first data set and a second data set; obtaining a first output value of a student model and a second output value of a teacher model based on the first data set; obtaining a third output value of the student model and a fourth output value of the teacher model based on the second data set, and the student model being a lightweight model; determining a distillation loss function based on the first output value and the second output value; determining a truth-value loss function based on the third output value and the fourth output value; determining a target loss function based on the distillation loss function and the truth-value loss function; training the student model based on the target loss function; and determining a first augmentation probability or target weight to be adopted in an (e+1)-th iteration in a case of e is less than E.",
+  "patent_id": "US12380328-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 3/08",
+      "G06V 10/82"
+    ],
+    "all": [
+      "G06N 3/08",
+      "G06V 10/82"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "application_id": "WO2019005246",
+  "application_id_fs": null,
+  "title": "Accessing secured information from within a graphical keyboard",
+  "abstract": "A keyboard application executing at a computing device is described that obtains consent from a user to access secure information maintained outside a graphical keyboard user interface, request access to the secure information, and receive permission to access the secure information. The keyboard application launches an embedded-application that makes use of at least some of the secure information, and outputs, for display, within the graphical keyboard user interface, at least a portion of the secure information.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1. A method comprising: obtaining, by a keyboard application, consent from a user to access secure information maintained outside a graphical keyboard user interface; requesting, by the keyboard application, access to the secure information; receiving, by the keyboard application, permission to access the secure information; launching, by the keyboard application, an embedded-application that makes use of at least some of the secure information; and outputting, by the keyboard application, for display, within the graphical keyboard user interface, at least a portion of the secure information. 2. The method of claim 1, wherein obtaining consent comprises: outputting, by the keyboard application, for display as part of an embedded- application experience, a content card that suggests the user provide consent; receiving, by the keyboard application, user input associated with the content card; and in response to receiving the user input associated with the content card, outputting, by the keyboard application, for display in place of the content card, a different content card requesting credentials of the user. 3. The method of any one of claims 1 or 2, wherein obtaining consent comprises: determining, by the keyboard application, whether the consent was obtained by a different application executing at or accessible from the computing device. 4. The method of claim 3, wherein determining whether the consent was obtained by the different application comprises communicating, by the keyboard application, with a remote computing system a request for confirmation that consent was obtained by the different application. 5. The method of any one of claims 1-4, wherein requesting access to the secure information comprises: sending, by the keyboard application, to a remote computing system that manages the secure information, a request for access to the secure information, the request includes the credentials of the user. 6. The method of claim 5, wherein receiving permission to access to the secure information comprises receiving, by the keyboard application, from the remote computing system that manages the secure information, an acknowledgement that access is granted and a location of the secure information or a copy of the secure information. 7. The method of any one of claims 1-6, wherein launching the embedded-application that makes use of the secure information comprises initiating, by the keyboard application, one or more application threads for executing operations of the embedded-application. 8. The method of claim 7, wherein outputting the at least a portion of the secure information for display comprises outputting, by the keyboard application, for display as part of an embedded-application experience of the embedded-application, the at least a portion of the secure information. 9. The method of claim 8, wherein the embedded-application experience comprises a graphical user interface of the embedded-application, the method further comprising: outputting, by the keyboard application, for display, in place of at least some graphical keys of the graphical keyboard, the embedded-application experience of the embedded-application. 10. The method of any one of claims 8 or 9, wherein the embedded-application experience includes selectable content that is based on or includes the at least a portion of the secure information. 11. A computing device comprising at least one processor configured to perform any one of the methods of claims 1-10. 12. A system comprising means for performing any one of the methods of claims 1-10.",
+  "classifications": {
+    "ipc": [
+      "G06F 21/83",
+      "H04W 12/06",
+      "G06F 17/30",
+      "H04M 1/725",
+      "G06F 3/0482"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 21/83",
+      "H04W 12/06",
+      "G06F 17/30",
+      "H04M 1/725",
+      "G06F 3/0482"
+    ],
+    "source": "csv"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Playback of synthetic media content via multiple devices",
+  "abstract": "Generative media content (e.g., generative audio) can be played back across multiple playback devices concurrently. A coordinator device can receive a multi-channel stream of media content, with at least some channels comprising generative media content. The coordinator device transmits each of the channels to a plurality of playback devices. A first playback device plays back a first subset of the channels according to first playback responsibilities and a second playback device plays back a second subset of the channels according to second playback responsibilities. The first and/or second playback responsibilities can be dynamically modified over time, for example in response to one or more input parameters.",
+  "claims": "1. A first playback device comprising: a network interface; one or more audio transducers; one or more processors; and data storage having instructions stored thereon that, when executed by the one or more processors, cause the first playback device to perform operations comprising: receiving one or more input parameters, determining that the first playback device and a second playback device are grouped together for synchronous playback, generating, via one or more generative machine learning models, a first media content stream and a second media content stream differing from the first media content stream, each media content stream comprising synthetic media content generated based on input data that includes at least one of the one or more input parameters, and causing, via the network interface, the second playback device to play back the second media content stream in substantial synchrony with playback of the first media content stream via the one or more audio transducers.",
+  "patent_id": "US12382125-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/43076",
+      "H04N 21/436"
+    ],
+    "all": [
+      "H04N 21/43076",
+      "H04N 21/436"
+    ],
+    "source": "converted"
+  }
+}

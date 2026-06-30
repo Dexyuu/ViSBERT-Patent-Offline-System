@@ -1,0 +1,20 @@
+{
+  "title": "Establishing and maintaining cellular data communication using remote subscriber identification module profile",
+  "abstract": "The present invention discloses methods and systems for establishing data communication at a network device. The method includes identifying a cellular network by the network device. After that, the network device sends a request to an MSA for an embedded subscriber identification module (eSIM) profile of the cellular network. The MSA may or may not have an eSIM profile of the cellular network available. When an eSIM profile of the cellular network is available, the network device receives the eSIM profile information from the MSA. The network device then sends a request for data communication access to the cellular network using the eSIM profile information to obtain data communication access through the cellular network. The network device may comprise at least one universal integrated circuit card (UICC) and/or embedded universal integrated circuit card (eUICC).",
+  "claims": "1. A method for establishing data communication at a network device, the method comprising: (a) identifying one or more available cellular networks in current geographical location of the network device by scanning signals of a plurality of cellular networks using a wireless communication module (WCM) of the network device; (b) generating a first list of cellular networks based on a signal strength level threshold from the one or more available cellular networks; (c) sending the first list of cellular networks to a massive SIM apparatus (MSA) and requesting an inquiry on availability of embedded subscriber identification module (eSIM) profile for at least one first cellular network in the first list of cellular networks; (d) when at least one eSIM profile of the at least one first cellular network is available at the MSA: (i) receiving a second list of cellular networks from the MSA; (ii) selecting at least one second cellular network from the second list of cellular networks based on at least one condition when the second list of cellular networks comprises more than one cellular network; (iii) requesting data communication access to the at least one second cellular network; and (iv) obtaining access to the at least one second cellular network for establishing data communication over the at least one second cellular network; (e) when none of the at least one eSIM profile of the at least one first cellular network is available at the MSA: (i) receiving a negative response from the MSA; (ii) requesting the at least one eSIM profile from the at least one first cellular network; (iii) in response, receiving at least one eUICC ID from the at least one first cellular network; (iv) forwarding the at least one eUICC ID to the MSA; (V) in response, receiving eUICC ID information from the MSA; (vi) forwarding the eUICC ID information to the at least one first cellular network; (vii) downloading the at least one eSIM profile from the at least one first cellular network; and (viii) establishing the data communication over the at least one first cellular network by using the at least one eSIM profile; wherein: the first list of cellular networks comprises identity of one or more cellular networks from the one or more available cellular networks for which the signal strength level threshold is met; and the second list of cellular networks comprises identity of the at least one first cellular network for which at least one eSIM profile is available at the MSA.",
+  "patent_id": "US12382276-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 8/183",
+      "H04W 60/04",
+      "H04W 76/10"
+    ],
+    "all": [
+      "H04W 8/183",
+      "H04W 60/04",
+      "H04W 76/10"
+    ],
+    "source": "converted"
+  }
+}

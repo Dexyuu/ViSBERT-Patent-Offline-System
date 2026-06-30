@@ -1,0 +1,20 @@
+{
+  "title": "Method and apparatus for detecting disablement of data backup processes",
+  "abstract": "A method and apparatus for detecting disablement of a data backup process disclosed. The system inserts and periodically updates authenticatable sentinel data objects in the primary system. After the backup occurs, the backup data with the sentinel data objects are read and the sentinel data objects are detected and authenticated. If any of the sentinel data objects are not detected or cannot be authenticated, the system informs an administrator that the data backup has failed at least in part.",
+  "claims": "1. In a system comprising a primary data storage device for storing data and a processor implementing a data backup agent for retrieving a specified portion of the data and providing the specified portion of data for storage in a backup storage device, a method of detecting disablement of backing up of the specified portion of the data, the method comprising: inserting one or more sentinel data objects into the specified portion of the data, each sentinel data object comprising: an associated authenticator; and temporal data; determining if the one or more sentinel data objects are included in a backup of the specified portion of the data stored in the backup storage device; if any of the one or more sentinel data objects is not included in the backup of the specified portion of the data stored in the backup storage device, providing an indication of the disablement of the backup of the specified portion of the data; if all of the one or more sentinel data objects are included in the backup of the specified portion of the data stored in the backup storage device, extracting the one or more of the sentinel data objects from the backup of the specified portion of the data; determining if each of the extracted sentinel data objects is: up to date, and passes authentication according to a verification key associated with the authenticator associated with the extracted sentinel data object; and if any of the extracted sentinel data objects is not up to date or fail authentication, providing the indication of the disablement of the backup of the specified portions of the data.",
+  "patent_id": "US12380211-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/565",
+      "G06F 11/1451",
+      "G06F 21/602"
+    ],
+    "all": [
+      "G06F 21/565",
+      "G06F 11/1451",
+      "G06F 21/602"
+    ],
+    "source": "converted"
+  }
+}

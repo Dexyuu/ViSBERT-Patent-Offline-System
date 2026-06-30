@@ -1,0 +1,40 @@
+{
+  "title": "Molecular structure transformers for property prediction",
+  "abstract": "Computer-implemented methods may include accessing a multi-dimensional embedding space that supports relating embeddings of molecules to predicted values of a given property of the molecules. The method may also include identifying one or more points of interest within the embedding space based on the predicted values. Each of the one or more points of interest may include a set of coordinate values within the multi-dimensional embedding space and may be associated with a corresponding predicted value of the given property. The method may further include generating, for each of the one or more points of interest, a structural representation of a molecule by transforming the set of coordinate values included in the point of interest using a decoder network. The method may include outputting a result that identifies, for each of the one or more points of interest, the structural representation of the molecule corresponding to the point of interest.",
+  "claims": "1. A computer-implemented method comprising: accessing a multi-dimensional embedding space that supports relating embeddings of molecules to predicted values of a given property of the molecules; identifying one or more points of interest within the multi-dimensional embedding space based on the predicted values, wherein each of the one or more points of interest: includes a set of coordinate values within the multi-dimensional embedding space, conveys spatial information of atoms or bonds in a molecule, and is associated with a corresponding predicted value of the given property; generating, for each of the one or more points of interest, a structural representation of the molecule by transforming the set of coordinate values included in a point of interest using a decoder network, wherein training of the decoder network included learning to transform positions within the embedding space to outputs representing molecular-structure characteristics, wherein the training of the decoder network was performed at least in part concurrently to training an encoder network to transform positions within the embedding space to predictions corresponding to values of the given property; and outputting a result that identifies, for each of the one or more points of interest, the structural representation of the molecule corresponding to the point of interest.",
+  "patent_id": "US12378383-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "C08J 11/16",
+      "C08J 11/10",
+      "G16C 10/00",
+      "G16C 20/10",
+      "G16C 20/20",
+      "G16C 20/40",
+      "G16C 20/70",
+      "G16C 20/80",
+      "G16C 60/00",
+      "C08J 2367/02",
+      "C08J 2367/04",
+      "C08J 2467/02",
+      "C08J 2467/04"
+    ],
+    "all": [
+      "C08J 11/16",
+      "C08J 11/10",
+      "G16C 10/00",
+      "G16C 20/10",
+      "G16C 20/20",
+      "G16C 20/40",
+      "G16C 20/70",
+      "G16C 20/80",
+      "G16C 60/00",
+      "C08J 2367/02",
+      "C08J 2367/04",
+      "C08J 2467/02",
+      "C08J 2467/04"
+    ],
+    "source": "converted"
+  }
+}

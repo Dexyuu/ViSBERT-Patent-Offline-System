@@ -1,0 +1,29 @@
+{
+  "application_id": "WO2019050727",
+  "application_id_fs": null,
+  "title": "A graphical project management tool",
+  "abstract": "A graphical project management tool that takes a representational image as input and enables a user to define one or more \"regions\" of the image as a \"hotspot\". Tasks that are tracked by one or more project issue management tools can then be associated with the hotspot. The user can originate new tasks from within the tool, or may view a list of unassigned / unassociated tasks imported from the project management 5 tool. The system also ensures that data internal to the graphical tool is kept in sync with data maintained by the management tool.",
+  "claims": "Claims 1. A method for providing a graphical project management tool, the method executing on one or more data processors, the method comprising: receiving a representative image for a project; obtaining information defining a region of the representative image; designated the region as a hotspot; and associating one or more task definitions for the project with the hotspot. 2. The method of claim 1 additionally comprising: obtaining at least one of the task definitions via an application program interface to a project tracking tool that operates independently of the graphical project management tool. 3. The method of claim 1 additionally comprising: obtaining a first task definition from a first project tracking tool; and obtaining a second task definition from a second project tracking tool. 4. The method of claim 1 wherein the representative image is a stateflow diagram for a software application. 5. The method of claim 1 wherein the representative image is imported from a drawing tool. 6. The method of claim 1 additionally comprising: displaying a graphical representation of hotspot overlaid onto the representative image together with the task definitions. 7. The method of claim 6 additionally comprising: accepting input from a user to determing a selected hotspot; and visually highlighting the tasks associated with the selected hotspot. 8. The method of claim 6 wherein the graphical representation of the hotspot further includes a visual indication of a number of tasks associated with the hotspot. 9. The method of claim 6 additionally comprising: accepting input from a user specifying that only a certain subset of the tasks associated with the hotspot are to be displayed djacent the representative project diagram. 10. A graphical project management system comprising an interface to a client processor, one or more server processors, a program memory, a database, and a project task tracking system, wherein the one or more server processors are operably coupled to the client processor, the database, the task tracking system, and the program memory to execute program code to: receive, from the task tracking system, one or more task definitions for the project; receive, from the client processor: (a) an identification of a representative image for a project; (b) information defining a hotspot region of the representative image; (c) an input indicating that one or more of the task definitions are related to the hotspot region of the representative image; send, to the database, the information defining the hotspot region and the one or more task definitions. 11. The system of claim 10 additionally comprising an image store, and wherein the one or more server processors are operatively coupled to the image store, and to execute the program code to further: send, to the image store, the representative image; receive, from the image store, location information for the representative image; and send, to the database, the location information for the representative image to be related to the information definiting the hotspot region.",
+  "classifications": {
+    "ipc": [
+      "G06F 3/0481",
+      "G06F 3/0484",
+      "G06F 9/54",
+      "G06F 17/30",
+      "G06K 9/36",
+      "G06Q 10/06",
+      "G06T 11/60"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 3/0481",
+      "G06F 3/0484",
+      "G06F 9/54",
+      "G06F 17/30",
+      "G06K 9/36",
+      "G06Q 10/06",
+      "G06T 11/60"
+    ],
+    "source": "csv"
+  }
+}

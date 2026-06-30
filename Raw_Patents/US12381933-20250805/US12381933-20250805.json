@@ -1,0 +1,18 @@
+{
+  "title": "Systems and methods for monitoring application activity in micro frontend dependent applications without use of a shell application",
+  "abstract": "Systems and methods for a frontend architecture that comprise a first application that hosts a plurality of functions. The plurality of functions selects specific micro frontend fragments for specific applications. As the plurality of functions may select specific micro frontend fragments for specific applications at runtime and thus provide the needed governance, all new micro frontend fragments and their associated APIs may be onboarded immediately.",
+  "claims": "1. A system for monitoring application activity in micro frontend dependent applications without using shell applications, the system comprising: a first micro frontend fragment, wherein the first micro frontend fragment comprises a first web application component, and wherein the first micro frontend fragment uses a first microservice to provide first content; a second micro frontend fragment, wherein the second micro frontend fragment comprises a second web application component, and wherein the second micro frontend fragment uses a second microservice to provide second content; and a first application, wherein the first application comprises a plurality of functions, wherein each function of the plurality of functions comprises pre-approved application programming interfaces, wherein the first application performs operations comprising: receiving a first user input to launch a first application on a user device, wherein the first application comprises application software that runs in a web browser; retrieving, from the plurality of functions, a clickstream event tracking function for the first application; determining that the clickstream event tracking function includes the first micro frontend fragment and the second micro frontend fragment; and in response to determining that the clickstream event tracking function includes the first micro frontend fragment and the second micro frontend fragment, executing, an application start-up procedure for the first application, wherein the application start-up procedure includes a first instruction to the first micro frontend fragment to bootstrap a first start-up procedure for the first micro frontend fragment to the first application, and wherein the application start-up procedure includes a second instruction to the second micro frontend fragment to bootstrap a second start-up procedure for the second micro frontend fragment to the first application; and causing to be generated for display, in a user interface on the user device, the first application, wherein the first application comprises first content corresponding to the first micro frontend fragment and second content corresponding to the second micro frontend fragment.",
+  "patent_id": "US12381933-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 67/025",
+      "G06F 21/50"
+    ],
+    "all": [
+      "H04L 67/025",
+      "G06F 21/50"
+    ],
+    "source": "converted"
+  }
+}

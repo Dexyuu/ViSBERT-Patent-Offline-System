@@ -1,0 +1,20 @@
+{
+  "title": "System and method for corrected video-see-through for head mounted displays",
+  "abstract": "A head mounted display system with video-see-through (VST) is taught. The system and method process video images captured by at least two forward facing video cameras mounted to the headset to produce generated images whose viewpoints correspond to the viewpoint of the user if the user was not wearing the display system. By generating VST images which have viewpoints corresponding to the user's viewpoint, errors in sizing, distances and positions of objects in the VST images are prevented.",
+  "claims": "1. A head mounted display system comprising: a display capable of being worn by a user in front of their eyes and displaying images to the user; at least eight video cameras at fixed locations relative to the display and having respective fields of view that are narrower than an expected field of view of the user and that cover a combined field of view angle of at least 180 degrees horizontally and vertically, the at least eight video cameras operable to capture video images from the respective fields of view and configured to detect distances between the display and objects located in the respective fields of view; a computational device operable to: obtain, via at least one of the at least eight video cameras, the distances between the display and the objects located in the respective fields of view; receive user-selected virtual locations of the pupils of the user, the user-selected virtual locations being different to actual locations of the pupils of the user; determine, based on the respective fields of view of the at least eight video cameras and the distances, a transformation to transform captured video images from each of the at least eight video cameras to the user-selected virtual locations of the pupils of the user; and apply the transformation to the captured video images to generate images for providing video-see-through on the display, the generated images corresponding to a virtual viewpoint from the user-selected virtual locations of the pupils of the user to provide the user with a different real-world view from an actual real-world view that would be experienced by the user if not wearing the display, including displaying the objects located in the respective fields of view of the at least eight video cameras at depths corresponding to distances of the objects from the user-selected virtual locations of the pupils of the user, the depths computed based on the obtained distances and the respective fields of view of the at least eight video cameras relative to the user-selected virtual locations of the pupils of the user.",
+  "patent_id": "US12382009-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 13/344",
+      "H04N 13/117",
+      "H04N 13/239"
+    ],
+    "all": [
+      "H04N 13/344",
+      "H04N 13/117",
+      "H04N 13/239"
+    ],
+    "source": "converted"
+  }
+}

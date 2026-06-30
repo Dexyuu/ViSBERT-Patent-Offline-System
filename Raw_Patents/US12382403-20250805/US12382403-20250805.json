@@ -1,0 +1,22 @@
+{
+  "title": "Maximum power reduction",
+  "abstract": "One disclosure of the present specification provides a user equipment (UE). The UE comprises: a transceiver for transmitting a signal and receiving a signal; and a processor for controlling the transceiver, wherein the processor: obtains network signal (NS) 52; determines an additional maximum power reduction (A-MPR) configured on the basis of obtained NS 52; and determines a transmission power for a sidelink signal, on the basis of the determined A-MPR, the transceiver transmits, to another UE, the sidelink signal with the transmission power, the sidelink signal is transmitted within a band having a center frequency of 5885 MHz and a bandwidth of 40 MHz, and the A-MPR is configured on the basis of region 1, region 2, and region 3, and may be configured on the basis of QPSK, 16 QAM, 64 QAM, and 256 QAM modulation schemes.",
+  "claims": "1. A UE (user equipment), comprising: at least one transceiver to transmit a signal and to receive a signal; and at least one processor to control the at least one transceiver, wherein the at least one processor is configured to acquire a network signal (NS) 52, wherein the at least one processor is configured to determine A-MPR (additional maximum power reduction), based on the NS 52, wherein the at least one processor is configured to determine transmission power for a sidelink signal, based on the A-MPR, wherein the at least one transceiver is configured to transmit the sidelink signal with the transmission power via a modulation type, to another UE, wherein the sidelink signal is transmitted through a PSSCH (Physical Sidelink Shared Channel) or a PSCCH (Physical Sidelink Control Channel), wherein the sidelink signal is transmitted through a band having a center frequency of 5885 MHz and a bandwidth of 40 MHz, wherein the sidelink signal is transmitted through allocated RBs (Resource Blocks), which belong to one among region 1, region 2 and region 3, wherein the modulation type is one among QPSK (Quadrature Phase Shift Keying), 16QAM (Quadrature Amplitude Modulation), 64QAM and 256QAM, wherein the A-MPR is determined based on the allocated RBs and the modulation type, wherein the A-MPR is less than or equal to 8 dB, based on the modulation type being the QPSK and the allocated RBs belonging to the region 2.",
+  "patent_id": "US12382403-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 52/367",
+      "H04W 52/34",
+      "H04W 52/383",
+      "H04W 72/20"
+    ],
+    "all": [
+      "H04W 52/367",
+      "H04W 52/34",
+      "H04W 52/383",
+      "H04W 72/20"
+    ],
+    "source": "converted"
+  }
+}

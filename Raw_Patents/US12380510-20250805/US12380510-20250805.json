@@ -1,0 +1,28 @@
+{
+  "title": "Training gradient boosted decision trees with progressive maximum depth for parsimony and interpretability",
+  "abstract": "An apparatus for generating a generalized linear model structure definition by generating a gradient boosted tree model and separating each decision tree into a plurality of indicator variables upon which a dependent variable of the generalized linear model depends.",
+  "claims": "1. An apparatus, comprising at least one processor and at least one non-transitory computer readable storage medium storing instructions that, when executed by the at least one processor, cause the apparatus to: generate a gradient boosted tree model based at least in part on a plurality of data records, by: generating a first decision tree structure having a maximum tree depth of one (1); iteratively generating a first layer comprising a first plurality of decision tree structures each having a maximum tree depth of one (1) until variation associated with one or more first order effects of a dependent variable in a residual of the gradient boosted tree model is exhausted, wherein each of the one or more first order effects comprises a main effect of a given predictor variable of a plurality of predictor variables on the dependent variable while ignoring all other predictor variables of the plurality of predictor variables; and until no information about the dependent variable remains in the residual, iteratively generating successive layers each comprising successive pluralities of decision tree structures each having a maximum tree depth n increased by one (1) as compared to its immediately preceding successive layer, wherein n is initially two (2), wherein each successive layer comprises a number of decision tree structures necessary to exhaust all variation associated with one or more nth order effects of the dependent variable in the residual, and wherein no additional successive layer is generated once all variation associated with the one or more nth order effects of the dependent variable in the residual is exhausted; and generate, based at least in part on the gradient boosted tree model and for a requesting computing device, one or more of one or more predictions or one or more proposed effects.",
+  "patent_id": "US12380510-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 40/08",
+      "G06F 16/20",
+      "G06F 18/214",
+      "G06F 18/24323",
+      "G06N 5/01",
+      "G06N 20/00",
+      "G06N 5/00"
+    ],
+    "all": [
+      "G06Q 40/08",
+      "G06F 16/20",
+      "G06F 18/214",
+      "G06F 18/24323",
+      "G06N 5/01",
+      "G06N 20/00",
+      "G06N 5/00"
+    ],
+    "source": "converted"
+  }
+}

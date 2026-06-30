@@ -1,0 +1,24 @@
+{
+  "title": "Air conditioning system and control unit",
+  "abstract": "When an instruction to request increase in the amount of air supply of air supply fan (2) is generated, operating conditions of air conditioner (3) is determined based on outdoor temperature information acquired by outdoor temperature acquisition unit (24) and indoor temperature information acquired by indoor temperature acquisition unit (32). Then, air conditioner (3) is instructed on the determined operating conditions.",
+  "claims": "1. An air conditioning system comprising: an air supply fan that supplies outside air to an indoor space; an air conditioner that performs air conditioning of the indoor space; an outdoor temperature sensor that acquires information on a temperature of the outside air; an indoor temperature sensor that acquires information on a temperature of the indoor space; and a controller that controls operation of the air supply fan and the air conditioner, that determines operating conditions of the air conditioner based on the information on the temperature of the outside air acquired by the outdoor temperature sensor and the information on the temperature of the indoor space acquired by the indoor temperature sensor when an instruction to request an increase in an amount of air supply of the air supply fan is generated, and that instructs the air conditioner on the operating conditions determined by the controller, wherein the controller further calculates a predetermined period of time from the instruction to the air conditioner to issuing an instruction to permit the increase in the amount of air supply to the air supply fan, based on an amount of heat of the outside air supplied by the air supply fan during the scheduled operational air flow rate of the air supply fan and on the target temperature in the indoor space set in the air conditioner, and after the predetermined period of time elapses, the controller further issues the instruction to permit the increase in the amount of air supply to the air supply fan.",
+  "patent_id": "US12379129-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "F24F 11/77",
+      "F24F 11/80",
+      "F24F 1/0035",
+      "F24F 2110/64",
+      "F24F 2110/70"
+    ],
+    "all": [
+      "F24F 11/77",
+      "F24F 11/80",
+      "F24F 1/0035",
+      "F24F 2110/64",
+      "F24F 2110/70"
+    ],
+    "source": "converted"
+  }
+}

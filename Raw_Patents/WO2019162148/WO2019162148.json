@@ -1,0 +1,30 @@
+{
+  "application_id": "WO2019162148",
+  "application_id_fs": "WO2019162148",
+  "title": "Fault handling",
+  "abstract": "This application relates to methods and apparatus for handling a fault associated with a voltage source converter (VSC) for exchanging electrical power between an AC system (101, 102) and a DC system (106-1, 106-2). The VSC (104) is connected to the AC system via an interface apparatus, comprising a transformer (107) with a set of primary windings (202) for coupling to a plurality of AC phases (A, B, C) of the AC system. In embodiments of the disclosure the set of primary windings having a neutral point (N) and the interface apparatus includes a fault module (301) having an energy storage element (302) connected in parallel with a resistive element (303) between the neutral point of the set of primary windings and a reference voltage, such as ground. The fault module does not interfere with normal operation but in the event of a phase-to-ground fault on the secondary side of the transformer, can induce earlier zero-crossing in the AC phases than otherwise would be the case, thus allowing AC breaker (108) to open with a reduced arcing time.",
+  "claims": "Claims CLAIMS: 1. An interface apparatus for interfacing between an AC system (101 , 102) and a DC system (106-1 , 106-2), the apparatus comprising: a transformer (107) having a set of windings (202) for coupling to a plurality of AC phases (A, B, C) of the AC system, the set of windings having a neutral point (N); and a fault module (301 ) comprising an energy storage element (302) connected in parallel with a resistive element (303) between a first module node and a second module node; the first module node being electrically connected to the neutral point of the set of windings and the second module node connected to a reference node held, in use, at a reference voltage. 2. An interface apparatus as claimed in claim 1 wherein the fault module comprises a surge arrestor (304) electrically connected between the first and second module nodes in parallel with said energy storage element and said resistive element. 3. An interface apparatus as claimed in claim 1 or claim 2 wherein the energy storage element comprises at least one capacitor (302). 4. An interface apparatus as claimed in any preceding claim further comprising a respective AC circuit breaker (108) for each of the AC phases of the AC system. 5. An interface apparatus as claimed in claim 4 comprising a fault controller (201 ) for operating said AC circuit breakers in the event of a fault. 6. An interface apparatus as claimed in claim 5 wherein said set of windings of the transformer is a primary set of windings of the transformer. 7. An interface apparatus as claimed in claim 6 further comprising a set of secondary windings (203) of the transformer (107) for coupling to a plurality of phase limbs of a voltage source converter. 8. An interface apparatus as claimed in claim 7 wherein, in the event of a phase-to-ground fault in any of: the set of secondary windings; a phase limb of the voltage source converter or the connection between the set of secondary windings and a phase limb of the voltage source converter, the fault controller is configured to command the AC circuit breakers to open. 9. An interface apparatus as claimed in claim 8 wherein in the event of such a fault the fault controller is further configured to send a command to block the voltage source converter. 10. An interface apparatus as claimed in any preceding claim wherein the voltage source converter is configured as part of a bipole power transmission system (100). 1 1. An interface apparatus as claimed in any preceding claim wherein the voltage source converter is configured as part of a high-voltage direct- current (HVDC) power transmission system (100). 12. A method of fault handling for a power distribution network, the method comprising: during normal mode of operation, operating a voltage source converter (104) to exchange electrical power with an AC system (101 , 102) having multiple electrical phases (A, B, C) via an interface apparatus, the interface apparatus comprising a transformer (107) comprising a set of primary windings (202) connected to the electrical phases of the AC system and a set of secondary windings (203) connected to the voltage source converter; \n\n wherein the interface apparatus further comprises a fault module (301 ) comprising an energy storage element (302) connected in parallel with a resistive element (303) between a reference voltage and a neutral point of one of the set of primary windings or the set of secondary windings; the method further comprising monitoring for a fault and, upon detecting a fault, generating a command to open a respective AC circuit breaker (108) for each of the phases of the first AC system. 13. A method as claimed in claim 12 wherein said fault is a phase-to-ground fault in any of: the set of secondary windings; a phase limb of the voltage source converter or the connection between the set of secondary windings and a phase limb of the voltage source converter. 14. A method as claimed in claim 12 or claim 13 wherein, in the event of a fault the method further comprises generating a command to block the voltage source converter. 15. A method as claimed in any of claims 12 to 14 wherein the fault module further comprises a surge arrestor (304) electrically connected in parallel with said energy storage element and said resistive element.",
+  "classifications": {
+    "ipc": [
+      "H02J 3/00",
+      "H02J 3/36",
+      "H02H 3/00",
+      "H02H 3/02",
+      "H02H 3/021",
+      "H02H 3/08",
+      "H02H 3/083"
+    ],
+    "cpc": [],
+    "all": [
+      "H02J 3/00",
+      "H02J 3/36",
+      "H02H 3/00",
+      "H02H 3/02",
+      "H02H 3/021",
+      "H02H 3/08",
+      "H02H 3/083"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019162148"
+}

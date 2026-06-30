@@ -1,0 +1,32 @@
+{
+  "title": "Systems and processes for generating a single cryptocurrency address mapping space for a plurality of cryptocurrencies by clustering",
+  "abstract": "Systems and processes for generating a single cryptocurrency address mapping space for a plurality of cryptocurrencies including a global map of activity for the plurality of cryptocurrencies by clustering different addresses used in separate cryptocurrency transactions that are controlled by a same individual or entity are disclosed. Some embodiments may include: clustering the signed first cryptocurrency transaction and the signed second cryptocurrency transaction based on the determining the signed first cryptocurrency transaction and the signed second cryptocurrency transaction being controlled by the same individual or entity and displaying an interactive graphical user interface of a single cryptocurrency address mapping space, the single cryptocurrency address mapping space encompassing a plurality of cryptocurrencies including the clustering the signed first cryptocurrency transaction and the signed second cryptocurrency transaction indicating the signed first cryptocurrency transaction and the signed second cryptocurrency transaction being controlled by the same individual or entity.",
+  "claims": "1. A system comprising: one or more hardware processors configured by machine-readable instructions to: receive first blockchain data from a first cryptocurrency chain participant node, the first blockchain data including a signed first cryptocurrency transaction including a first human readable address hash; receive second blockchain data from a second cryptocurrency chain participant node, the second blockchain data including a signed second cryptocurrency transaction including a second human readable address hash, the second cryptocurrency chain participant node being different from the first cryptocurrency chain participant node; convert the first blockchain data for the first cryptocurrency chain participant node to normalized first blockchain data, the converting comprising decomposing the first human readable address hash to first blockchain raw script hash; convert the second blockchain data for the second cryptocurrency chain participant node to normalized second blockchain data, the converting comprising decomposing the second human readable address hash to second blockchain raw script hash; input the normalized first blockchain data and the normalized second blockchain data to a clustering node, the clustering node comparing the first blockchain raw script hash with the second blockchain raw script hash, the comparing determining that the first blockchain raw script hash are the same as the second blockchain raw script hash; determine the signed first cryptocurrency transaction and the signed second cryptocurrency transaction are controlled by a same individual or entity based on the first blockchain raw script hash being the same as the second blockchain raw script hash; cluster the signed first cryptocurrency transaction and the signed second cryptocurrency transaction based on the determining the signed first cryptocurrency transaction and the signed second cryptocurrency transaction are controlled by the same individual or entity, the clustering creating a single cryptocurrency address mapping space; and display an interactive graphical user interface of the single cryptocurrency address mapping space, the single cryptocurrency address mapping space encompassing a plurality of cryptocurrencies including the clustered signed first cryptocurrency transaction and the signed second cryptocurrency transaction indicating the signed first cryptocurrency transaction and the signed second cryptocurrency transaction are controlled by the same individual or entity.",
+  "patent_id": "US12380447-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/401",
+      "G06Q 20/3825",
+      "G06Q 20/3829",
+      "H04L 9/0825",
+      "H04L 9/3073",
+      "H04L 9/3239",
+      "G06Q 2220/00",
+      "H04L 9/50",
+      "H04L 2209/56"
+    ],
+    "all": [
+      "G06Q 20/401",
+      "G06Q 20/3825",
+      "G06Q 20/3829",
+      "H04L 9/0825",
+      "H04L 9/3073",
+      "H04L 9/3239",
+      "G06Q 2220/00",
+      "H04L 9/50",
+      "H04L 2209/56"
+    ],
+    "source": "converted"
+  }
+}

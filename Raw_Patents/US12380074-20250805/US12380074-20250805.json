@@ -1,0 +1,22 @@
+{
+  "title": "Optimizing metadata enrichment of data assets",
+  "abstract": "The present disclosure relates to a method of metadata enrichment using an enrichment comprising multiple steps. The method comprises: determining for an input data asset a metadata value descriptive of the input data asset. Characteristics of the metadata value of the input data asset may be determined. At least one informativeness score of the metadata value of the input data asset may be computed using the determined characteristics. An execution of the enrichment step may be skipped in case an input characteristic of the enrichment step is not part of the determined characteristics. In case the input characteristic of the enrichment step is part of the determined characteristics, the enrichment step may be adapted and executed or the enrichment step may be executed without adaptation. Labels resulting from the executed enrichment steps may be combined for providing one or more labels of the data asset.",
+  "claims": "1. A computer-implemented method comprising: determining, by one or more computer processors, for an input data asset of a relational database system, a metadata value descriptive of the input data asset, wherein the metadata value comprises a tuple having three entries including a column name, a file name, and a data class; determining, by one or more computer processors, characteristics of the metadata value of the input data asset using a machine learning model, wherein the machine learning model receives, as input, a definition of an enrichment workflow and the metadata value; computing, by one or more computer processors, at least one informativeness score of the metadata value of the input data asset using the determined characteristics, wherein: the at least one informativeness score indicates a level of information that is provided by content of the metadata value; and the at least one informativeness score indicates that the column name is computer-generated and that a semantic comparison with real language terms is precluded; determining, by one or more computer processors, input characteristics of enrichment steps by parsing code implementing the enrichment steps; for each step of the enrichment steps: determining, by one or more computer processors, that the input characteristic of the enrichment step is part of the determined characteristics; and responsive to determining that the input characteristic of the enrichment step is part of the determined characteristics, executing, by one or more computer processors, the enrichment step using the input characteristic as input, based on the at least one informativeness score; and labeling, by one or more computer processors, the data asset with a combination of labels resulting from the executed enrichment steps, wherein the combination of labels describe the data asset.",
+  "patent_id": "US12380074-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/215",
+      "G06F 16/221",
+      "G06F 16/285",
+      "G06F 16/907"
+    ],
+    "all": [
+      "G06F 16/215",
+      "G06F 16/221",
+      "G06F 16/285",
+      "G06F 16/907"
+    ],
+    "source": "converted"
+  }
+}

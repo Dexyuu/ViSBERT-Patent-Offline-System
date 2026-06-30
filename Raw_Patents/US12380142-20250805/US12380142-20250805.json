@@ -1,0 +1,20 @@
+{
+  "title": "Sequenced data processing method and device, and text processing method and device",
+  "abstract": "A method includes constructing a graph including a plurality of nodes for a set of sequences, wherein each node corresponds to a sequence in the set of sequences; for each node, determining an initial feature matrix of the node, wherein the initial feature matrix of the node includes initial vectors of various elements in a sequence corresponding to the node; and, inputting the initial feature matrix of the node of the graph into a graph sequence network to enable the graph sequence network to update the feature matrix of the node using the feature matrix(es) of adjacent node(s) of the node; and obtaining a feature matrix output by the graph sequence network of each node to perform a sequence-based classification prediction using output feature matrixes, wherein the feature matrix output for each node includes updated vectors corresponding to the various elements in the sequence corresponding to the node.",
+  "claims": "1. A sequenced data processing method, comprising: constructing a graph comprising a plurality of nodes for a set of sequences, wherein each node corresponds to a sequence in the set of sequences, the sequences comprise a text from a question text, text(s) in question support documents and alternative answer text(s); for each node: determining an initial feature matrix of the node, wherein the initial feature matrix of the node comprises initial vectors of various elements in a sequence corresponding to the node, wherein an initial vector of the each element in the sequence is a row or column of the feature matrix, and an arrangement order of rows or columns in the feature matrix is consistent with the arrangement order of the elements corresponding to the rows or the columns in the sequence; and inputting the initial feature matrix of the node of the graph into a graph sequence network to enable the graph sequence network to update the feature matrix of the node using the feature matrix(es) of adjacent node(s) of the node; obtaining a feature matrix output by the graph sequence network of each node, wherein the feature matrix output for each node comprises updated vectors corresponding to the various elements in the sequence corresponding to the node; fusing and transforming updated feature matrix(es) of the alternative answer text(s) and an updated feature matrix of the question text to obtain a classification result output by a machine learning model; and determining whether an alternative answer is a correct answer according to the classification result to realize automatic question answering.",
+  "patent_id": "US12380142-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/3329",
+      "G06F 40/284",
+      "G06F 40/295"
+    ],
+    "all": [
+      "G06F 16/3329",
+      "G06F 40/284",
+      "G06F 40/295"
+    ],
+    "source": "converted"
+  }
+}

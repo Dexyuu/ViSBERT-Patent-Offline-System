@@ -1,0 +1,52 @@
+{
+  "title": "Method for predicting defects in assembly units",
+  "abstract": "One variation of a method for predicting manufacturing defects includes: accessing a first set of inspection images of a first set of assembly units recorded by an optical inspection station over a first period of time; generating a first set of vectors representing features extracted from the first set of inspection images; grouping neighboring vectors in a multi-dimensional feature space into a set of vector groups; accessing a second inspection image of a second assembly recorded by the optical inspection station at a second time succeeding the first period of time; detecting a second set of features in the second inspection image; generating a second vector representing the second set of features in the multi-dimensional feature space; and, in response to the second vector deviating from the set of vector groups by more than a threshold difference, flagging the second assembly unit.",
+  "claims": "1. A method for predicting manufacturing defects, the method comprising: accessing a first set of inspection images of a first set of assembly units, of a particular assembly type, recorded during production of the first set of assembly units; for each inspection image in the first set of inspection images: detecting a first set of features in the inspection image; and generating a feature profile, in a set of feature profiles, representing the first set of features in a multi-dimensional feature space; grouping neighboring feature profiles, in the set of feature profiles, in the multi-dimensional feature space into a set of feature profile groups; and in response to receipt of a first inspection result indicating a defect in a first assembly unit, in the first set of assembly units, associated with a first feature profile in a first feature profile group, in the set of feature profile groups: labeling the first feature profile group with the defect; predicting the defect in a second assembly unit, in the first set of assembly units, based on proximity of a second feature profile, in the first feature profile group, to the first feature profile; and flagging the second assembly unit associated with the second feature profile as exhibiting characteristics of the defect.",
+  "patent_id": "US12380553-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/001",
+      "G06F 3/04842",
+      "G06F 3/04845",
+      "G06F 3/0485",
+      "G06T 7/0004",
+      "G06T 7/11",
+      "G06T 7/13",
+      "G06T 7/60",
+      "G06T 11/60",
+      "G06V 10/44",
+      "G06F 2203/04806",
+      "G06T 2200/24",
+      "G06T 2207/10004",
+      "G06T 2207/10016",
+      "G06T 2207/20092",
+      "G06T 2207/20164",
+      "G06T 2207/20221",
+      "G06T 2207/30108",
+      "G06V 2201/06"
+    ],
+    "all": [
+      "G06T 7/001",
+      "G06F 3/04842",
+      "G06F 3/04845",
+      "G06F 3/0485",
+      "G06T 7/0004",
+      "G06T 7/11",
+      "G06T 7/13",
+      "G06T 7/60",
+      "G06T 11/60",
+      "G06V 10/44",
+      "G06F 2203/04806",
+      "G06T 2200/24",
+      "G06T 2207/10004",
+      "G06T 2207/10016",
+      "G06T 2207/20092",
+      "G06T 2207/20164",
+      "G06T 2207/20221",
+      "G06T 2207/30108",
+      "G06V 2201/06"
+    ],
+    "source": "converted"
+  }
+}

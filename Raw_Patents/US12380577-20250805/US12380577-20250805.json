@@ -1,0 +1,26 @@
+{
+  "title": "Ice floe motion prediction method, device, storage medium, and electronic device",
+  "abstract": "The present disclosure provides an ice floe motion prediction method, a device, a storage medium, and an electronic device. In the method, the electronic device is configured to acquire a historical motion information sequence of ice floe in a to-be-navigated region, wherein the historical motion information sequence includes multiple pieces of historical motion information of the ice floe at different time points; invoke a motion prediction model to analyze a spatiotemporal relationship of the multiple pieces of historical motion information; and obtain motion prediction information of the ice floe in the to-be-navigated region.",
+  "claims": "1. An ice floe motion prediction method, wherein the method comprises: acquiring a historical motion information sequence of ice floe in a to-be-navigated region, wherein the historical motion information sequence comprises multiple pieces of historical motion information of the ice floe at different time points, wherein the step comprises: acquiring multiple historical images captured at different time points in the to-be-navigated region; pairing every two historical images at adjacent time points into an image group based on the multiple historical images; fusing, for every image group, a first feature point sequence and a second feature point sequence of each historical image in the image group to obtain a fused feature point sequence of each historical image in the image group, wherein the first feature point sequence comprises corner points distributed uniformly, and the second feature point sequence comprises feature points distributed at texture positions; processing the fused feature point sequence of each historical image in the image group through a feature point matching model to obtain a position of the ice floe in each historical image in the image group; and obtaining one piece of historical motion information corresponding to the image group in the historical motion information sequence based on the position of the ice floe in each historical image within the image group; and invoking a motion prediction model to analyze a spatiotemporal relationship of the multiple pieces of historical motion information, and obtaining motion prediction information of the ice floe in the to-be-navigated region.",
+  "patent_id": "US12380577-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/248",
+      "G06T 7/215",
+      "G01C 21/203",
+      "G06T 2207/20084",
+      "G06T 2207/20221",
+      "G06T 2207/30241"
+    ],
+    "all": [
+      "G06T 7/248",
+      "G06T 7/215",
+      "G01C 21/203",
+      "G06T 2207/20084",
+      "G06T 2207/20221",
+      "G06T 2207/30241"
+    ],
+    "source": "converted"
+  }
+}

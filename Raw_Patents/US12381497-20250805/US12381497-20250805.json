@@ -1,0 +1,24 @@
+{
+  "title": "Method for operating a power supply system that supplies power to a grid to maintain stator current occurring at a harmonic frequency below a threshold value",
+  "abstract": "A method for operating a power supply system connected to a grid, the power supply system including a rotor, a doubly-fed induction generator (DFIG), a power conversion assembly, and an active filter. The DFIG includes a generator rotor mechanically connected with the rotor and a generator stator. The power conversion assembly includes a rotor-side power converter. The active filter electrically connected with the generator stator via a stator bus and the rotor-side power converter electrically connected with the generator rotor via a rotor bus. Based on a rotor frequency of the generator rotor, the method determines an expected harmonic frequency for a stator current flowing on the stator bus. An amplitude of the stator current at the expected harmonic frequency is determined via a data set of stator current values. The method controls the active filter based on the amplitude of the stator current at the expected harmonic frequency.",
+  "claims": "1. A method for operating a power supply system to supply power to a grid connected to the power supply system, the power supply system comprising: a rotor, a doubly-fed induction generator (DFIG), a power conversion assembly, and an active filter, the DFIG comprising a generator rotor mechanically connected with the rotor and a generator stator, the power conversion assembly comprising a rotor-side power converter, the active filter electrically connected with the generator stator via a stator bus, the rotor-side power converter electrically connected with the generator rotor via a rotor bus, the method comprising: determining a predicted harmonic frequency of a stator current flowing on the stator bus at an expected harmonic frequency of the generator rotor; based on correlating previously-measured stator current values to stator current frequencies, determining a corresponding current amplitude of the stator current on the stator bus at the predicted harmonic frequency of the stator current; and controlling the active filter based on the corresponding current amplitude of the stator current on the stator bus so that an actual current amplitude of the stator current on the stator bus at the predicted harmonic frequency is maintained below a threshold amplitude value.",
+  "patent_id": "US12381497-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02P 9/105",
+      "F03D 9/255",
+      "H02P 9/007",
+      "F05B 2220/706",
+      "H02P 2101/15"
+    ],
+    "all": [
+      "H02P 9/105",
+      "F03D 9/255",
+      "H02P 9/007",
+      "F05B 2220/706",
+      "H02P 2101/15"
+    ],
+    "source": "converted"
+  }
+}

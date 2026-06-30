@@ -1,0 +1,38 @@
+{
+  "application_id": "WO2019206685",
+  "application_id_fs": "WO2019206685",
+  "title": "Cryptographic key exchange or key agreement involving a device without network access",
+  "abstract": "A method (10) of cryptographic exchange of or agreement on a shared secret key between a non-network connected device (20) and a network connected device, and a corresponding non-network connected device (20) are provided. The non-network connected device (20) is arranged to receive messages having a predetermined maximum length. The method (10) comprises: initiating (11), by the non-network connected device (20), the cryptographic exchange or agreement; completing (12), by the network connected device, the cryptographic exchange or agreement; and verifying (13) the shared secret key. The method (10) may particularly be used to ensure data protection in healthcare environments.",
+  "claims": "Claims Patent Claims 1. A method (10) of cryptographic agreement on a shared se cret key between a non-network connected device (20) and a network connected device, the non-network connected device (20) being arranged to receive messages having a predeter mined maximum length; the method (10) comprising - initiating (11) , by the non-network connected device (20), the cryptographic agreement; - completing (12), by the network connected device, the cryptographic agreement; and - verifying (13) the shared secret key. 2. The method (10) of claim 1, wherein - the non-network connected device (20) is arranged to receive messages having a predetermined maximum length corresponding to a predetermined number of decimal dig its . 3. The method (10) of claim 1 or claim 2, wherein - initiating (11) and completing (12) the agreement re spectively comprises using, by the network connected device and the non-network connected device, public-key cryptography, and the non-network connected device hav ing a public key associated with the network connected device . 4. The method (10) of any one of claims 1 - 3, wherein - verifying (13) the shared secret key comprises deter mining (131) , by the network connected device, a veri fication key from the shared secret key. 5. The method (10) of claim 4, wherein - determining (131) , by the network connected device, the verification key from the shared secret key comprises using, by the network connected device, a verification key having the predetermined maximum length. 6. The method (10) of claim 4 or claim 5, wherein - verifying (13) the shared secret key further comprises communicating (132), from the network connected device to the non-network connected device (20) , the deter mined verification key. 7. The method (10) of claim 6, wherein - communicating (132), from the network connected device to the non-network connected device (20) , the deter mined verification key comprises communicating, from the network connected device to the non-network con nected device, the determined verification key via a proxy device (40) . 8. The method (10) of claim 7, wherein - communicating (132), from the network connected device to the non-network connected device (20) , the deter mined verification key comprises displaying (1321) , by the proxy device (40) , the communicated verification key, and inputting (1322) the displayed verification key to the non-network connected device (20) . 9. The method (10) of claim 8, wherein - communicating (132), from the network connected device to the non-network connected device (20) , the deter mined verification key comprises inputting (1322) the displayed verification key to the non-network connected device (20) using a keyboard. 10. The method (10) of any one of claims 6 - 9, wherein - verifying (13) the shared secret key further comprises verifying (133), by the non-network connected device (20) , the communicated verification key. 11. The method (10) of claim 10, wherein - verifying (133), by the non-network connected device (20) , the communicated verification key comprises de termining (1331) , by the non-network connected device \n\n (20) , a further verification key from the shared secret key. 12. The method (10) of claim 10 or claim 11, wherein - verifying (133), by the non-network connected device (20) , the communicated verification key further com prises comparing (1332) , by the non-network connected device (20) , the communicated verification key with the further verification key. 13. A non-network connected device (20), the non-network con nected device (20) being arranged to receive messages hav ing a predetermined maximum length, the non-network con nected device (20) comprising - a processing device (21) arranged for o initiating (11) a cryptographic agreement on a shared secret key between the non-network connected device (20) and a network connected device not form ing part of the non-network connected device (20) , the network connected device being arranged for com pleting (12) the cryptographic agreement; and o verifying (13) the shared secret key. 14. The device (20) of claim 13, wherein the processing device (21) is arranged to perform the method (10) of any one of claims 2 - 12.",
+  "classifications": {
+    "ipc": [
+      "H04L 63/00",
+      "H04L 63/06",
+      "H04L 63/061",
+      "H04L 63/18",
+      "H04L 63/08",
+      "H04L 63/0853",
+      "H04W 12/00",
+      "H04W 12/04",
+      "H04W 12/60",
+      "H04W 12/69",
+      "H04W 12/77"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 63/00",
+      "H04L 63/06",
+      "H04L 63/061",
+      "H04L 63/18",
+      "H04L 63/08",
+      "H04L 63/0853",
+      "H04W 12/00",
+      "H04W 12/04",
+      "H04W 12/60",
+      "H04W 12/69",
+      "H04W 12/77"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019206685"
+}

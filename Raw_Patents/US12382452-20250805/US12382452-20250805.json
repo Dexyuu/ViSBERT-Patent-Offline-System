@@ -1,0 +1,26 @@
+{
+  "title": "User equipment processing time for physical downlink shared channel scheduled using downlink control information repetition",
+  "abstract": "Various aspects of the present disclosure generally relate to wireless communication. In some aspects, a user equipment (UE) may receive a first downlink control information (DCI) repetition, for scheduling a physical downlink shared channel (PDSCH), wherein the first DCI repetition is associated with a first physical downlink control channel (PDCCH) candidate. The UE may receive a second DCI repetition associated with a second PDCCH candidate that is linked to the first PDCCH candidate for DCI repetition. The UE may transmit a feedback associated with a first symbol of a physical uplink control channel (PUCCH) based at least in part on determining a processing time and an additional processing time, wherein determining the additional processing time comprises determining the additional processing time based at least in part on a parameter associated with at least one of the first PDCCH candidate or the second PDCCH candidate. Numerous other aspects are described.",
+  "claims": "1. A user equipment (UE) for wireless communication, comprising: one or more memories; and one or more processors, coupled to the one or more memories, configured to: receive a first downlink control information (DCI) repetition, for scheduling a physical downlink shared channel (PDSCH), wherein the first DCI repetition is associated with a first physical downlink control channel (PDCCH) candidate, and wherein the PDSCH corresponds to a set of PDSCH symbols comprising a starting symbol; receive a second DCI repetition associated with a second PDCCH candidate that is linked to the first PDCCH candidate for DCI repetition; and transmit a hybrid automatic repeat request (HARQ) acknowledgement (HARQ-ACK) feedback associated with a first symbol of a physical uplink control channel (PUCCH) based at least in part on determining a processing time and an additional processing time, wherein the processing time corresponds to a first quantity of symbols and the additional processing time corresponds to a second quantity of symbols, wherein a quantity of symbols between a last symbol of the set of PDSCH symbols and the first symbol of the PUCCH corresponds to a sum of the first quantity of symbols and the second quantity of symbols, wherein the processing time starts after the last symbol of the set of PDSCH symbols, wherein the one or more processors, to determine the additional processing time, are configured to determine the additional processing time based at least in part on determining a value of a parameter associated with at least one of the first PDCCH candidate or the second PDCCH candidate in accordance with a demodulation reference signal (DMRS) symbol being the starting symbol of the set of PDSCH symbols, wherein the first PDCCH candidate and the second PDCCH candidate overlap the DMRS symbol, and wherein the one or more processors, to determine the value of the parameter, are configured to: determine a first metric that indicates a number of overlapping symbols of the first PDCCH candidate and the PDSCH; determine a second metric that indicates a number of overlapping symbols of the second PDCCH candidate and the PDSCH; and evaluate a function of the first metric and the second metric, wherein the one or more processors, to evaluate the function of the first metric and the second metric, are configured to determine a maximum of the first metric and the second metric.",
+  "patent_id": "US12382452-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/1273",
+      "H04L 1/1812",
+      "H04L 5/0053",
+      "H04W 72/0446",
+      "H04W 72/23",
+      "H04W 72/51"
+    ],
+    "all": [
+      "H04W 72/1273",
+      "H04L 1/1812",
+      "H04L 5/0053",
+      "H04W 72/0446",
+      "H04W 72/23",
+      "H04W 72/51"
+    ],
+    "source": "converted"
+  }
+}

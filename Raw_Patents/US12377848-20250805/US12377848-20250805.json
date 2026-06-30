@@ -1,0 +1,24 @@
+{
+  "title": "Method of outputting prompt information, device, medium, and vehicle",
+  "abstract": "A method of outputting a prompt information, a device, a medium, and a vehicle, which relate to a field of artificial intelligence, in particular to a field of assisted driving, a field of intelligent transportation and a field of computer vision. The method of outputting the prompt information may include: determining a type of an auxiliary prompt information in response to a determination that the auxiliary prompt information is required to be output, wherein the determination that the auxiliary prompt information is required to be output is performed according to a navigation information and an environment information; determining an output time of the auxiliary prompt information according to the type of the auxiliary prompt information; and outputting the auxiliary prompt information in response to the output time being reached.",
+  "claims": "1. A method of outputting a prompt information, implemented by a vehicle-mounted terminal of a vehicle, the method comprising: determining a type of an auxiliary prompt information in response to a determination that the auxiliary prompt information is required to be output, wherein the determination that the auxiliary prompt information is required to be output is performed according to a navigation information and an environment information; determining an output time of the auxiliary prompt information according to the type of the auxiliary prompt information; and outputting the auxiliary prompt information in response to the output time being reached, wherein the type of the auxiliary prompt information comprises a lane change type; and wherein the determining the output time comprises: determining, for the lane change type, a time length required for a safe execution of a lane change operation, in response to a determination that a collision risk exists in an execution of the lane change operation, wherein the determination that the collision risk exists in the execution of the lane change operation is performed according to a detected vehicle information of an adjacent vehicle; and when the time length is less than a predetermined time length, determining that the auxiliary prompt information is immediately output, wherein the determining the time length required comprises determining the time length by using at least two constraint conditions selected from: in a process of performing the lane change operation, a difference value between a first distance of a current vehicle travelling in a lane direction and a second distance of a front object on a current lane moving in the lane direction is less than a first value, and the first value is determined according to a distance between the current vehicle and the front object in the lane direction before the lane change operation is performed; in a process of performing the lane change operation, a difference value between the first distance and a third distance of a front vehicle on the target lane travelling in the lane direction is less than a second value, and the second value is determined according to a distance between the current vehicle and the front vehicle in the lane direction before the lane change operation is performed and a predetermined safety distance; or in a process of performing the lane change operation, a difference value between a fourth distance of a rear vehicle on the target lane travelling in the lane direction and the first distance is less than a third value, and the third value is determined according to a distance between the rear vehicle and the current vehicle in the lane direction before the lane change operation is performed and a predetermined safety distance, wherein the first distance is determined according to a vehicle speed and the time length, and the front object comprises a vehicle or a target object.",
+  "patent_id": "US12377848-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 30/18163",
+      "B60W 30/095",
+      "B60W 50/14",
+      "G01C 21/3658",
+      "B60W 2552/53"
+    ],
+    "all": [
+      "B60W 30/18163",
+      "B60W 30/095",
+      "B60W 50/14",
+      "G01C 21/3658",
+      "B60W 2552/53"
+    ],
+    "source": "converted"
+  }
+}

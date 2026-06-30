@@ -1,0 +1,22 @@
+{
+  "title": "Circuitry to assist with neural sensing in an implantable stimulator device in the presence of stimulation artifacts",
+  "abstract": "Sense amplifier (amp) circuitry for an implantable stimulator device is disclosed useful for sensing neural responses or other voltages in a patient's tissue. The sense amp circuitry comprises a low-voltage and a high-voltage sense amp circuit, either of which may be selected based on an assessment of the magnitude of the voltage at either or both of the inputs connected to selected sensing electrodes. The assessed magnitude, as determined by monitoring circuitry, can be processed by an algorithm to select use of one of the sense amp circuits, selecting the low-voltage sense amp circuit when the magnitude(s) are lower, and the high-voltage sense amp circuit when the magnitude(s) are higher. Furthermore, DC offset compensation circuitry is disclosed to equate the DC levels of the inputs, which may only operate when the high-voltage sense amp is selected.",
+  "claims": "1. A stimulator device, comprising: a plurality of electrode nodes, wherein each of the electrode nodes is associated with a different electrode configured to contact a patient's tissue, wherein at least one of the electrodes comprises a sensing electrode to receive a voltage from the tissue, wherein each electrode node associated with the at least one sensing electrode comprises a sensing electrode node; sense amplifier circuitry comprising a first amplifier with a first input and a first output and a second amplifier with a second input and a second output; and monitoring circuitry configured to assess a voltage at each sensing electrode node, wherein the monitoring circuitry is configured based on the assessed one or more voltages to select use of the first or the second amplifier to determine a signal in the tissue.",
+  "patent_id": "US12377273-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61N 1/36125",
+      "A61N 1/36135",
+      "A61N 1/3782",
+      "H03F 3/45264"
+    ],
+    "all": [
+      "A61N 1/36125",
+      "A61N 1/36135",
+      "A61N 1/3782",
+      "H03F 3/45264"
+    ],
+    "source": "converted"
+  }
+}

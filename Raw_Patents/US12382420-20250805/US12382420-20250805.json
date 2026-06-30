@@ -1,0 +1,18 @@
+{
+  "title": "User equipment (UE) steering between network slices for service continuity",
+  "abstract": "The present disclosure is directed to systems and techniques for providing service continuity for User Equipment (UE) services associated with certain network slices. In one example, the systems and techniques can receive a registration request from a UE, wherein the registration request includes a requested slice, and determine a current network location of the UE. In response to determining that the current network location of the UE does not support the requested slice, one or more additional network locations that support the requested slice can be identified. Location information associated with the one or more additional network locations can be identified and a registration response message can be transmitted to the UE, wherein the registration response message includes location information of an one or more additional Tracking Area Identities (TAIs) or additional Registration Areas (RAs) that support the requested slice.",
+  "claims": "1. A method comprising: receiving a registration request from a User Equipment (UE) within a first registration area, wherein the registration request includes a first requested slice and a second requested slice; determining a current network location of the UE is within the first registration area; in response to determining that the current network location of the UE does not support the first requested slice, identifying one or more additional network locations that support the first requested slice; determining location information associated with the one or more additional network locations in a second registration area; and transmitting a registration response message to the UE, wherein the registration response message includes an acceptance of the registration request for the second requested slice, a rejection of the registration request for the first requested slice, and the location information of one or more additional Tracking Area Identities (TAIs) or additional Registration Areas (RAs) that support the first requested slice such that the UE can request registration for the first requested slice when the current network location of the UE is within the second registration area.",
+  "patent_id": "US12382420-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 64/00",
+      "H04W 60/00"
+    ],
+    "all": [
+      "H04W 64/00",
+      "H04W 60/00"
+    ],
+    "source": "converted"
+  }
+}

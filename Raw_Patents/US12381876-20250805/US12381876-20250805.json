@@ -1,0 +1,22 @@
+{
+  "title": "Anomaly-based mitigation of access request risk",
+  "abstract": "Access to secured items in a computing system is requested instead of being persistent. Access requests may be granted on a just-in-time basis. Anomalous access requests are detected using machine learning models based on historic patterns. Models utilizing conditional probability or collaborative filtering also facilitate the creation of human-understandable explanations of threat assessments. Individual machine learning models are based on historic data of users, peers, cohorts, services, or resources. Models may be weighted, and then aggregated in a subsystem to produce an access request risk score. Scoring principles and conditions utilized in the scoring subsystem may include probabilities, distribution entropies, and data item counts. A feedback loop allows incremental refinement of the subsystem. Anomalous requests that would be automatically approved under a policy may instead face human review, and low threat requests that would have been delayed by human review may instead be approved automatically.",
+  "claims": "1. A computing system configured to mitigate cybersecurity risk from access requests, the system comprising: a digital memory; a processor in operable communication with the digital memory, the processor configured to perform cybersecurity risk mitigation steps including automatically obtaining from an explanatory machine learning model subsystem an explainable anomaly-based risk score of a request by a requestor for access to a secured resource or a secured service or both, selecting an approval procedure based on at least the explainable anomaly-based risk score, the approval procedure being selected from a set of multiple approval procedures which includes at least one step-up approval procedure which upon computational execution compels presentation of the request to a non-requestor for human review prior to approval of the request and at least one step-down approval procedure which upon computational execution avoids presentation of the request for human review prior to approval of the request, submitting the request to the selected approval procedure, getting an access decision from the approval procedure, implementing the access decision in at least one of the following ways: allowing the requested access, barring the requested access, or deferring access by submitting the request to additional approval processing, the cybersecurity risk mitigation steps also including automatically computing a black box risk score using a black box machine learning model, determining that the black box risk score is within a predetermined tolerance of the explainable anomaly-based risk score, and then displaying an explanation of at least one risk, the explanation being automatically derived from at least one of the following: an input to the explanatory machine learning model subsystem, or an output of the explanatory machine learning model subsystem.",
+  "patent_id": "US12381876-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/10",
+      "G06N 5/04",
+      "G06N 20/00",
+      "H04L 63/1425"
+    ],
+    "all": [
+      "H04L 63/10",
+      "G06N 5/04",
+      "G06N 20/00",
+      "H04L 63/1425"
+    ],
+    "source": "converted"
+  }
+}

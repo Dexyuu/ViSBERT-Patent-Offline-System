@@ -1,0 +1,20 @@
+{
+  "title": "Partial die blocks",
+  "abstract": "Rather than having unused die blocks, partial die blocks can contribute to a super block. In so doing, as much of the available physical capacity of the data storage device may be achieved. The result could be an increase in over provisioning (OP) and good capacity for the data storage device or an increase in die yield. An increase in good capacity through the use of previously unused physical blocks would lead to an increase in performance and endurance. A yield increase would result in a reduction in cost per die and per data storage device. A partial die block is the solution.",
+  "claims": "1. A data storage device, comprising: a memory device having a plurality of dies, wherein each die of the plurality of dies comprises a plurality of planes; and a controller coupled to the memory device, wherein the controller is configured to: detect that one or more planes of the plurality of planes have one or more bad blocks; create one or more first super blocks using a plurality of die blocks, wherein at least one die block of the one or more first super blocks uses less than all of the planes of the plurality of planes; create one or more second super blocks using the plurality of die blocks, wherein at least one die block of the one or more second super blocks uses all planes of the plurality of planes; remove illegal super blocks from the one or more first and second super blocks, wherein an illegal super block is a super block that does not have at least two adjacent die blocks that each use all planes of the plurality of planes; and write data of a manifest to a first of the at least two adjacent die blocks, wherein the data of the manifest comprises a record of data already written to the super blocks, wherein parity data is stored in a second of the at least two adjacent die blocks.",
+  "patent_id": "US12379852-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0616",
+      "G06F 3/064",
+      "G06F 3/0679"
+    ],
+    "all": [
+      "G06F 3/0616",
+      "G06F 3/064",
+      "G06F 3/0679"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Semiconductor apparatus and semiconductor system having LUN selection cycle, and operating method of semiconductor system",
+  "abstract": "A semiconductor system includes a first semiconductor apparatus and a second semiconductor apparatus. The first semiconductor apparatus transmits an address signal during an address cycle after transmitting a command signal during a command cycle. The first semiconductor apparatus transmits a selection signal during a logical unit number selection cycle before the command cycle. The second semiconductor apparatus performs a data input and output operation based on the selection signal, the command signal, and the address signal.",
+  "claims": "1. A semiconductor system comprising: a first semiconductor apparatus configured to provide an input and output signal through an input and output bus, and to selectively enable a command latch enable signal and an address latch enable signal when transmitting the input and output signal; and a second semiconductor apparatus configured to receive the input and output signal as one of a selection signal, a command signal, an address signal, and data based on the command latch enable signal and the address latch enable signal, wherein, when both the command latch enable signal and the address latch enable signal are enabled, the second semiconductor apparatus receives the input and output signal as the selection signal.",
+  "patent_id": "US12380944-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G11C 11/4096",
+      "G06F 13/20",
+      "G11C 7/1048",
+      "G11C 7/1096",
+      "G11C 11/4093",
+      "G06F 2213/40"
+    ],
+    "all": [
+      "G11C 11/4096",
+      "G06F 13/20",
+      "G11C 7/1048",
+      "G11C 7/1096",
+      "G11C 11/4093",
+      "G06F 2213/40"
+    ],
+    "source": "converted"
+  }
+}

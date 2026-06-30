@@ -1,0 +1,16 @@
+{
+  "title": "Electronic device and method of controlling temperature associated with a semiconductor device using dynamic voltage frequency scaling (DVFS)",
+  "abstract": "An electronic device includes; an intellectual property (IP) block, a thermal management unit (TMU) that detects a temperature associated with the IP block to generate a detected temperature, a clock management unit (CMU) that generates an operating clock and provides the operating clock to the IP block, a clock generator that controls operation of the CMU in generating the operating clock, a power management unit (PMU) that generates a supply voltage provided to the CMU, and a dynamic voltage frequency scaling (DVFS) block. The DVFS block includes; a critical path monitor (CPM) that monitors the operating clock, a frequency monitor that determines a current frequency for the operating clock, a target frequency module that determines a target frequency for the operating clock, an adder that compares the target frequency and the current frequency to generate frequency comparison results, and a decide voltage module that generates deciding results in response to the frequency comparison results, wherein the PMU adjusts a level of the supply voltage in response to the deciding results.",
+  "claims": "15. A method of controlling temperature in an electronic device including an intellectual property (IP) block, the method comprising: generating an operating clock using a Phase-Locked Loop (PLL); providing the operating clock to the IP block, wherein a temperature of the IP block is related to a frequency of the operating clock; providing a supply voltage to a critical path monitor (CPM) of a dynamic voltage frequency scaling (DVFS) block, the DVFS block being configured to perform dynamic voltage frequency scaling on the IP block, and the CPM being configured to generate a speed code that indicates an operating speed of the operating clock; determining a target frequency for the operating clock; determining, based upon the speed code, a current frequency for the operating clock; comparing the target frequency and the current frequency to generate frequency comparison results; generating deciding results in response to the frequency comparison results; and controlling a level of the supply voltage in response to the deciding results.",
+  "patent_id": "US12379768-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 1/3296"
+    ],
+    "all": [
+      "G06F 1/3296"
+    ],
+    "source": "converted"
+  }
+}

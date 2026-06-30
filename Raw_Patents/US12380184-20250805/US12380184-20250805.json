@@ -1,0 +1,18 @@
+{
+  "title": "Secure processor performing user authentication, and electronic device including the same",
+  "abstract": "Electronic device including SoC which includes secure processor performing user authentication based on authentication data received from user, and nonvolatile memory device storing first event count is disclosed. The secure processor includes volatile memory that stores failure count increasing as the user authentication fails and being reset as the user authentication succeeds, security module that restricts the user authentication of the user during first time period when the failure count reaches first threshold value, and OTP memory that stores second event count increasing as throttle level corresponding to the failure count changes. When the user authentication succeeds and when power-off request for the system on chip is generated, the first event count is updated based on the second event count. When the secure processor is powered on after the SoC is powered on, the security module compares the first and second event count to determine whether sudden power-off occurs.",
+  "claims": "1. A electronic device comprising: a system on chip (SoC) comprising a secure processor configured to perform user authentication based on authentication data received from a user; and a nonvolatile memory device configured to store a first event count, wherein the secure processor comprises: a volatile memory configured to store a failure count, which increases based on a failure of the user authentication and resets based on a success of the user authentication; a security module configured to restrict the user authentication during a first time period when the failure count reaches a first threshold value among a plurality of threshold values; and a one-time programmable (OTP) memory configured to store a second event count, which increases when a throttle level corresponding to the failure count is changed, wherein, when a power-off request for the SoC being generated and when the user authentication being successful, the first event count is updated based on the second event count, and wherein, based on the secure processor being powered on after the SoC is powered on, the security module is further configured to compare the first event count and the second event count to determine whether a sudden power-off (SPO) event occurred.",
+  "patent_id": "US12380184-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/31",
+      "G06F 21/79"
+    ],
+    "all": [
+      "G06F 21/31",
+      "G06F 21/79"
+    ],
+    "source": "converted"
+  }
+}

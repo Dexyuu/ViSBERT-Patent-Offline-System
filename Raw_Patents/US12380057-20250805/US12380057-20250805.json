@@ -1,0 +1,24 @@
+{
+  "title": "Improving computing efficiency of a processor by optimizing a computational size of each computing core in the processor",
+  "abstract": "Techniques for improving computing efficiency of a processor by optimizing a computational size of each computing core in the processor are provided. The techniques include obtaining a configuration space for a target parameter; obtaining a computational time model of the processor, the computational time model is a function of the target parameter and a number of computing cores of the processor; traversing the target parameter in the configuration space, and calculating, based on the computational time model, a computational time corresponding to the target parameter that is selected; in response to the target parameter being a k-th parameter with a minimum computational time, determining the target parameter as the k-th parameter; and improving the computing efficiency of the processor by configuring the computational size of each computing core in the processor based on the k-th parameter.",
+  "claims": "1. A method for improving computing efficiency of a processor by optimizing a computational size of each computing core in the processor, wherein the processor comprises at least one computing core, the method comprises: obtaining a configuration space for a target parameter, wherein the configuration space comprises a first parameter to an n-th parameter, and n is an integer greater than 1; obtaining a computational time model of the processor, wherein the computational time model is a function of the target parameter and a number of computing cores of the processor; traversing the target parameter in the configuration space, and calculating, by utilizing the computational time model, a computational time corresponding to the target parameter that is selected among the parameters in the configuration space, wherein the computational time is positively correlated with an input time, an execution time, and an output time; in response to the target parameter being a k-th parameter with a minimum computational time of the processor, determining the target parameter as the k-th parameter, wherein k is a positive integer smaller than or equal to n; improving the computing efficiency of the processor by configuring the computational size of each computing core in the processor based on the k-th parameter; and wherein in response to the computational time model being the first computational time model, the determining the target parameter as the k-th parameter comprises: determining the target parameter as the k-th parameter in response to a first condition being satisfied when the target parameter is traversed to the k-th parameter, wherein the first condition comprises that a product of the input time and the number of computing cores is equal to a sum of the input time, the execution time, and the output time.",
+  "patent_id": "US12380057-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 15/7867",
+      "G06F 9/5044",
+      "G06F 9/505",
+      "G06F 9/5077",
+      "G06F 9/5083"
+    ],
+    "all": [
+      "G06F 15/7867",
+      "G06F 9/5044",
+      "G06F 9/505",
+      "G06F 9/5077",
+      "G06F 9/5083"
+    ],
+    "source": "converted"
+  }
+}

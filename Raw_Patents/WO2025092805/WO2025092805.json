@@ -1,0 +1,30 @@
+{
+  "application_id": "WO2025092805",
+  "application_id_fs": "WO2025092805",
+  "title": "A method for improving the measuring accuracy of high speed dynamic forklift scale",
+  "abstract": "The present application provides a weighing method and system for a dynamic forklift scale. The weighing method includes: calculating a tilt angle of an acceleration sensor relative to a traveling direction of a forklift; determining whether a data drift occurs in axis data of the acceleration sensor on a traveling direction axis based on the axis data; obtaining a data drift trend when the data drift occurs; and when the forklift enters a constant speed phase, enabling fine filtering, and starting a data drift compensation algorithm at the same time to process a weighing signal, to obtain the compensated weighing signal, where the fine filtering is to remove dynamic noise, and the data drift compensation algorithm includes calculating the compensated weighing signal based on the tilt angle, the data drift trend, and the weighing signal. The present application facilitates obtaining a high-accuracy weighing result of the high-speed dynamic forklift scale.",
+  "claims": "Claims ( 10 ) AÂ weighingÂ methodÂ forÂ aÂ dynamicÂ forkliftÂ scale,Â characterizedÂ inÂ thatÂ theÂ methodÂ comprises: calculatingÂ aÂ tiltÂ angleÂ ofÂ anÂ accelerationÂ sensorÂ relativeÂ toÂ aÂ travelingÂ directionÂ ofÂ aÂ forklift; determiningÂ whetherÂ aÂ dataÂ driftÂ occursÂ inÂ axisÂ dataÂ ofÂ theÂ accelerationÂ sensorÂ onÂ aÂ travelingÂ directionÂ axisÂ basedÂ onÂ theÂ axisÂ data; obtainingÂ aÂ dataÂ driftÂ trendÂ whenÂ theÂ dataÂ driftÂ occurs;Â and whenÂ theÂ forkliftÂ entersÂ aÂ constantÂ speedÂ phase,Â enablingÂ fineÂ filtering,Â andÂ startingÂ aÂ dataÂ driftÂ compensationÂ algorithmÂ atÂ theÂ sameÂ timeÂ toÂ processÂ aÂ weighingÂ signal,Â toÂ obtainÂ aÂ compensatedÂ weighingÂ signal,Â whereinÂ theÂ fineÂ filteringÂ isÂ toÂ removeÂ dynamicÂ noise,Â andÂ theÂ dataÂ driftÂ compensationÂ algorithmÂ comprisesÂ calculatingÂ theÂ compensatedÂ weighingÂ signalÂ basedÂ onÂ theÂ tiltÂ angle,Â theÂ dataÂ driftÂ trend,Â andÂ theÂ weighingÂ signal. TheÂ weighingÂ methodÂ accordingÂ toÂ claimÂ 1,Â characterizedÂ byÂ furtherÂ comprising:Â enablingÂ preliminaryÂ filteringÂ whenÂ theÂ forkliftÂ isÂ started,Â theÂ preliminaryÂ filteringÂ beingÂ toÂ identifyÂ statesÂ ofÂ theÂ forklift,Â andÂ theÂ statesÂ comprisingÂ aÂ dynamicÂ stateÂ andÂ aÂ staticÂ state. TheÂ weighingÂ methodÂ accordingÂ toÂ claimÂ 1,Â characterizedÂ inÂ thatÂ theÂ stepÂ ofÂ determiningÂ whetherÂ theÂ dataÂ driftÂ occursÂ inÂ axisÂ dataÂ ofÂ theÂ accelerationÂ sensorÂ onÂ theÂ travelingÂ directionÂ axisÂ basedÂ onÂ theÂ axisÂ dataÂ comprises: obtainingÂ aÂ peak-to-peakÂ valueÂ ofÂ theÂ axisÂ dataÂ withinÂ aÂ predeterminedÂ timeÂ period;Â and whenÂ theÂ peak-to-peakÂ valueÂ exceedsÂ aÂ thresholdÂ andÂ graduallyÂ increasesÂ orÂ decreases,Â determiningÂ thatÂ theÂ dataÂ driftÂ occursÂ inÂ theÂ axisÂ data. TheÂ weighingÂ methodÂ accordingÂ toÂ claimÂ 1,Â characterizedÂ inÂ thatÂ theÂ stepÂ ofÂ obtainingÂ theÂ dataÂ driftÂ trendÂ comprises: obtainingÂ theÂ axisÂ dataÂ withinÂ aÂ predeterminedÂ timeÂ period;Â and performingÂ functionÂ fittingÂ onÂ theÂ axisÂ dataÂ toÂ obtainÂ aÂ fitÂ coefficientÂ inÂ aÂ predeterminedÂ function. TheÂ weighingÂ methodÂ accordingÂ toÂ claimÂ 4,Â characterizedÂ inÂ thatÂ theÂ predeterminedÂ functionÂ isÂ anÂ exponentialÂ function,Â whichÂ isÂ expressedÂ byÂ theÂ followingÂ formula: whereinÂ driftÂ representsÂ theÂ dataÂ driftÂ trend,Â tÂ representsÂ time,Â nÂ representsÂ aÂ dataÂ amount,Â A i Â representsÂ anÂ i th Â amplitudeÂ coefficient,Â andÂ tau i Â representsÂ anÂ i th Â timeÂ coefficient. TheÂ weighingÂ methodÂ accordingÂ toÂ claimÂ 4,Â characterizedÂ inÂ thatÂ theÂ predeterminedÂ functionÂ isÂ aÂ quadraticÂ function,Â whichÂ isÂ expressedÂ byÂ theÂ followingÂ formula: drift=a 2 *t 2 +a 1 *t+a 0 whereinÂ driftÂ representsÂ theÂ dataÂ driftÂ trend,Â tÂ representsÂ time,Â andÂ a 0 ,Â a 1 ,Â andÂ a 2 Â allÂ representÂ fitÂ coefficients. TheÂ weighingÂ methodÂ accordingÂ toÂ claimÂ 1,Â characterizedÂ inÂ thatÂ theÂ dataÂ driftÂ compensationÂ algorithmÂ comprisesÂ theÂ followingÂ formula: W comp =fÂ (W,Â Î¸,Â drift) whereinÂ W comp Â representsÂ theÂ compensatedÂ weighingÂ signal,Â WÂ representsÂ theÂ weighingÂ signal,Â Î¸Â representsÂ theÂ tiltÂ angle,Â driftÂ representsÂ theÂ dataÂ driftÂ trend,Â andÂ fÂ representsÂ aÂ function. TheÂ weighingÂ methodÂ accordingÂ toÂ claimÂ 7,Â characterizedÂ inÂ thatÂ theÂ compensatedÂ weighingÂ signalÂ W comp Â isÂ calculatedÂ usingÂ theÂ followingÂ formula: W comp =W+Amp*drift Amp=k*Î¸+b whereinÂ AmpÂ representsÂ amplitudeÂ ofÂ theÂ dataÂ drift,Â andÂ kÂ andÂ bÂ representÂ compensationÂ coefficients. TheÂ weighingÂ methodÂ accordingÂ toÂ claimÂ 1,Â characterizedÂ inÂ thatÂ theÂ travelingÂ directionÂ axisÂ isÂ anÂ X-axisÂ orÂ Y-axisÂ ofÂ anÂ accelerometer. AÂ weighingÂ systemÂ forÂ aÂ dynamicÂ forkliftÂ scale,Â characterizedÂ inÂ thatÂ theÂ systemÂ comprises: anÂ accelerometerÂ configuredÂ toÂ obtainÂ accelerationÂ duringÂ travelingÂ ofÂ aÂ forklift; aÂ filteringÂ moduleÂ configuredÂ toÂ performÂ filteringÂ processingÂ onÂ aÂ weighingÂ signal; aÂ dataÂ driftÂ compensationÂ moduleÂ configuredÂ toÂ processÂ theÂ weighingÂ signalÂ usingÂ aÂ dataÂ driftÂ compensationÂ algorithm; aÂ memoryÂ configuredÂ toÂ storeÂ theÂ acceleration,Â theÂ weighingÂ signal,Â coefficients,Â andÂ instructionsÂ executableÂ byÂ aÂ processor;Â and aÂ processorÂ configuredÂ toÂ executeÂ theÂ instructionsÂ toÂ implementÂ theÂ weighingÂ methodÂ accordingÂ toÂ anyÂ oneÂ ofÂ claimsÂ 1Â toÂ 9.",
+  "classifications": {
+    "ipc": [
+      "G01G 19/00",
+      "G01G 19/08",
+      "G01G 19/083",
+      "G01G 23/00",
+      "G01G 23/002",
+      "G01G 23/06",
+      "G01G 23/10"
+    ],
+    "cpc": [],
+    "all": [
+      "G01G 19/00",
+      "G01G 19/08",
+      "G01G 19/083",
+      "G01G 23/00",
+      "G01G 23/002",
+      "G01G 23/06",
+      "G01G 23/10"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025092805"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Secure transfer of access credentials",
+  "abstract": "In some implementations, a system is provided for securely transferring access credentials from a mobile device that is exclusively operated by a single user, to a terminal device that is shared among multiple different users, via a session server. A session is established between the session server and the terminal device over a secure communication channel. The terminal device generates a key pair, transmits the public key to the session server, and stores the private key. The terminal device outputs a detectable code corresponding to the session. In response to detecting the detectable code, the mobile device transmits an access token payload to the session server. The session server transmits, to the terminal device, an encrypted access token that has been encrypted using the public key. The terminal device decrypts the encrypted access token using the stored private key, and provides operator access to the terminal device.",
+  "claims": "1. A computer system for securely transferring access credentials from a mobile device that is exclusively operated by a single user, to a terminal device that is shared among multiple different users, via a session server, the system comprising: the mobile device; the terminal device; and the session server, wherein the mobile device, the terminal device, and the session sever each include one or more processors, memory, and storage devices storing respective instructions that, when executed, cause the respective mobile device, terminal device, and session server to perform operations comprising: transmitting, by the session server and to the terminal device over a secure communication channel, a session identifier of a session; generating, by the terminal device, a key pair comprising a private key and a public key; transmitting the public key, by the terminal device and to the session server over the secure communication channel, and storing, at the terminal device, the private key; outputting, by the terminal device, a detectable code corresponding to the session identifier, in a format that is configured for detection by the mobile device; detecting, by the mobile device, the detectable code that has been output by the terminal device; in response to detecting the detectable code, transmitting, by the mobile device and to the session server, an access token payload in association with the detectable code; transmitting, by the session server and to the terminal device over the secure communication channel, an encrypted access token that has been encrypted using the public key that had previously been transmitted by the terminal device; decrypting, by the terminal device, the encrypted access token using the stored private key; and providing operator access to the terminal device.",
+  "patent_id": "US12381866-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/0807",
+      "H04L 9/0825",
+      "H04L 63/083"
+    ],
+    "all": [
+      "H04L 63/0807",
+      "H04L 9/0825",
+      "H04L 63/083"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2016118499",
+  "application_id_fs": "WO2016118499",
+  "title": "Visual localization within lidar maps",
+  "abstract": "An apparatus and method for visual localization of a visual camera system outputting real-time visual camera data and a graphics processing unit receiving the real-time visual camera data. The graphics processing unit accesses a database of prior map information and generates a synthetic image that is then compared to the real-time visual camera data to determine corrected position data. The graphics processing unit determines a camera position based on the corrected position data. A corrective system for applying navigation of the vehicle based on the determined camera position can be used in some embodiments.",
+  "claims": "Claims CLAIMS  What is claimed is: 1 . A method of visual localization using a visual camera system, the method comprising: outputting real-time visual camera data from a visual camera system; accessing a database of LIDAR-generated prior map information and generating a synthetic image; comparing the synthetic image to the real-time visual camera data to determine corrected position data to determine a camera position based on the corrected position data; and applying corrected navigation information of the camera based on the determined camera position. 2. The method according to Claim 1 wherein the visual camera system is a monocular camera system. 3. The method according to Claim 1 wherein the LIDAR-generated prior map information is three-dimensional map information. 4. The method according to Claim 1 wherein the LIDAR-generated prior map information comprises odometry and global positioning system prior constraints. 5. The method according to Claim 1 wherein the LIDAR-generated prior map information is constrained to produce a near-planar graph. 6. The method according to Claim 1 , further comprising: producing the LIDAR-generated prior map information by extracting a ground-plane at each pose and draping an orthographic texture over a varying z- height map. 7. The method according to Claim 1 wherein the step of comparing the synthetic image to the real-time visual camera data to determine corrected position data to determine a camera position based on the corrected position data comprises: determining a relative offset; and aligning the LIDAR-generated prior map to the visual camera data. 8. The method according to Claim 1 further comprising: receiving the real-time visual camera data via a graphics processing unit, said graphics processing unit performing the step of accessing a database of LIDAR-generated prior map information and generating a synthetic image.",
+  "classifications": {
+    "ipc": [
+      "G05D 1/00",
+      "G05D 1/02",
+      "G05D 1/021",
+      "G05D 1/0231",
+      "G05D 1/0246",
+      "G05D 1/0248",
+      "G05D 1/0268",
+      "G05D 1/0274",
+      "G06T 7/00",
+      "G06T 7/70",
+      "G06T 7/73",
+      "G06T 7/74",
+      "G06T 7/75",
+      "G06T 2207/00",
+      "G06T 2207/10",
+      "G06T 2207/20",
+      "G06T 2207/30"
+    ],
+    "cpc": [],
+    "all": [
+      "G05D 1/00",
+      "G05D 1/02",
+      "G05D 1/021",
+      "G05D 1/0231",
+      "G05D 1/0246",
+      "G05D 1/0248",
+      "G05D 1/0268",
+      "G05D 1/0274",
+      "G06T 7/00",
+      "G06T 7/70",
+      "G06T 7/73",
+      "G06T 7/74",
+      "G06T 7/75",
+      "G06T 2207/00",
+      "G06T 2207/10",
+      "G06T 2207/20",
+      "G06T 2207/30"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2016118499"
+}

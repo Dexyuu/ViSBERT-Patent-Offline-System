@@ -1,0 +1,24 @@
+{
+  "title": "Method and user equipment for handling a survival time state",
+  "abstract": "A method and a user equipment (UE) for handling a survival time state are provided. The method includes: receiving a Packet Data Convergence Protocol (PDCP) configuration for indicating that a Data Radio Bearer (DRB) associated with a PDCP entity supports a survival time state functionality, the PDCP entity being associated with at least two Radio Link Control (RLC) entities; receiving an Uplink (UL) grant for retransmission of a Medium Access Control (MAC) Protocol Data Unit (PDU), the MAC PDU including data from the DRB; entering the survival time state for the DRB upon receiving the UL grant; and activating a PDCP duplication for the PDCP entity during the survival time state.",
+  "claims": "1. A method performed by a User Equipment (UE) for handling a survival time state, the method comprising: receiving, from a base station, a Packet Data Convergence Protocol (PDCP) configuration; determining whether an indication is included in the PDCP configuration; determining that a Data Radio Bearer (DRB) associated with a PDCP entity supports a survival time state functionality in a case that the indication is included in the PDCP configuration and indicates a specific value, wherein the PDCP entity is associated with at least two Radio Link Control (RLC) entities; determining that the DRB associated with the PDCP entity does not support the survival time state functionality in a case that the indication is absent from the PDCP configuration; receiving an Uplink (UL) grant for retransmission of a Medium Access Control (MAC) Protocol Data Unit (PDU), the MAC PDU including data from the DRB; entering the survival time state for the DRB upon receiving the UL grant in a case that a counter value of a counter for counting a number of unsuccessful data transmissions is equal to a threshold; and activating a PDCP duplication for the PDCP entity while the UE is in the survival time state.",
+  "patent_id": "US12382468-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/23",
+      "H04L 1/08",
+      "H04L 1/1812",
+      "H04W 72/1263",
+      "H04W 80/02"
+    ],
+    "all": [
+      "H04W 72/23",
+      "H04L 1/08",
+      "H04L 1/1812",
+      "H04W 72/1263",
+      "H04W 80/02"
+    ],
+    "source": "converted"
+  }
+}

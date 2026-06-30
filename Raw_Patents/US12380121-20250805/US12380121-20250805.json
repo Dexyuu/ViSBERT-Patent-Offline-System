@@ -1,0 +1,20 @@
+{
+  "title": "Anomaly detection with local outlier factor",
+  "abstract": "A method for anomaly detection includes receiving an anomaly detection query from a user. The anomaly detection query requests data processing hardware determine one or more anomalies in a dataset including a plurality of examples. Each example in the plurality of examples is associated with one or more features. The method includes training a model using the dataset. The trained model is configured to use a local outlier factor (LOF) algorithm. For each respective example of the plurality of examples in the dataset, the method includes determining, using the trained model, a respective local deviation score based on the one or more features. The method includes determining that the respective local deviation score satisfies a deviation score threshold and, based on the location deviation score satisfying the threshold, determining that the respective example is anomalous. The method includes reporting the respective anomalous example to the user.",
+  "claims": "1. A computer-implemented method when executed by data processing hardware causes the data processing hardware to perform operations comprising: receiving an anomaly detection query from a user, the anomaly detection query requesting the data processing hardware to determine one or more anomalies in a dataset comprising a plurality of examples, each example in the plurality of examples associated with one or more features; training a model using the dataset, the trained model configured to use a standard local outlier factor (LOF) algorithm and a randomized LOF algorithm, the randomized LOF algorithm having a greater scalability for large datasets relative to the standard LOF; determining that a size of the dataset satisfies a size threshold; based on determining that the size of the dataset satisfies the size threshold, selecting the randomized LOF algorithm; and for each respective example of the plurality of examples in the dataset: determining, using the trained model and the selected randomized LOF algorithm, a respective local deviation score based on the one or more features; determining that the respective local deviation score satisfies a deviation score threshold, based on the deviation score satisfying the deviation score threshold, determining that the respective example is anomalous; and reporting the respective anomalous example to the user.",
+  "patent_id": "US12380121-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/2462",
+      "G06F 16/215",
+      "G06F 16/256"
+    ],
+    "all": [
+      "G06F 16/2462",
+      "G06F 16/215",
+      "G06F 16/256"
+    ],
+    "source": "converted"
+  }
+}

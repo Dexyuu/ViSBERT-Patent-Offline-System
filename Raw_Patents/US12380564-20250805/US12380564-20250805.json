@@ -1,0 +1,20 @@
+{
+  "title": "Method for registering two or more patient images for change assessment over time",
+  "abstract": "A system, method, and computer program product for registering two or more patient images for change assessment over time. An example aspect is configured to: obtain a new image of an area with an image capture system; obtain a reference image of a similar area; perform pre-processing of the new image and the reference image; perform a coarse alignment of the new image and the reference image; perform a high-resolution estimate; perform a high-resolution alignment; cross-check the at least one-point match to eliminate false matches and confirm correct matches of the high-resolution new image and the high-resolution reference image; perform segmentation of the high-resolution new image and the high-resolution reference image; perform analysis on at least one lesion in the high-resolution new image and the high-resolution reference image; and display a result of the analysis on a validator.",
+  "claims": "1. A method of registering two or more patient images for change assessment over time, comprising: obtaining a new image of an area with an image capture system; obtaining a reference image of a similar area; performing pre-processing of the new image and the reference image, wherein at least one point is determined in the new image that corresponds to at least one point in the reference image, and wherein the at least one point comprises a centroid of a skin lesion; performing a coarse alignment of the new image and the reference image to coarse align the at least one point in the reference image and the at least one point in the new image to generate a point match of the new image and the reference image; performing a high-resolution estimate to generate a high-resolution new image and a high-resolution reference image, wherein the high-resolution new image and the high-resolution reference image have an increased number of points identified within the high-resolution new image and the high-resolution reference image in comparison with the new image and the reference image; performing an alignment of the high-resolution new image and the high-resolution reference image, wherein the high-resolution new image and the high-resolution reference image have an increased number of point matches in comparison with the coarse alignment; cross-checking the increased number of point matches to eliminate false matches and confirm correct matches of the high-resolution new image and the high-resolution reference image; performing segmentation of the high-resolution new image and the high-resolution reference image to distinguish at least one skin lesion from the area; performing analysis on the at least one skin lesion in the high-resolution new image and the high-resolution reference image; and displaying a result of the analysis on a validator.",
+  "patent_id": "US12380564-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/0016",
+      "G06T 2207/10",
+      "G06T 2207/30088"
+    ],
+    "all": [
+      "G06T 7/0016",
+      "G06T 2207/10",
+      "G06T 2207/30088"
+    ],
+    "source": "converted"
+  }
+}

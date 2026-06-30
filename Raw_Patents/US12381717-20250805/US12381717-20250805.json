@@ -1,0 +1,20 @@
+{
+  "title": "Generating a shared secret for an electronic system",
+  "abstract": "Methods, systems, and devices for techniques for generating a shared secret for an electronic system are described. A memory system may identify an initial key pair and exchange a public key of the key pair with a public key associated with a server. The memory system and the server may each generate a shared secret. In some cases, the memory system and the server may use the shared secret to generate a device identifier for the memory system, for example by incorporating the device identifier into a cryptographic representation of a software layer of the memory system. The memory system and the server may use the device identifier to generate one or more asymmetric key pairs, which may be used by the server to authenticate the memory system.",
+  "claims": "1. An apparatus, comprising: a memory device; and a controller for the memory device, wherein the controller is configured to cause the apparatus to: identify, at the memory device, a key pair comprising a public key associated with the memory device and a private key associated with the memory device; output, from the memory device, the public key associated with the memory device; obtain, at the memory device, a public key associated with a server; generate, at the memory device, a shared secret between the memory device and the server based at least in part on the private key associated with the memory device and the public key associated with the server; and generate, at the memory device, a device identifier for the memory device based at least in part on the shared secret and a cryptographic representation of a software layer of the memory device.",
+  "patent_id": "US12381717-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/0825",
+      "H04L 9/0866",
+      "H04L 9/3278"
+    ],
+    "all": [
+      "H04L 9/0825",
+      "H04L 9/0866",
+      "H04L 9/3278"
+    ],
+    "source": "converted"
+  }
+}

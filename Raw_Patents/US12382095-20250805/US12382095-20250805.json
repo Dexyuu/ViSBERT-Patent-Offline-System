@@ -1,0 +1,22 @@
+{
+  "title": "Methods and devices for coding and decoding a data stream representative of at least one image",
+  "abstract": "A method and device for coding and decoding a coded data stream representative of at least one image split into blocks. For a current block, a group of pixel values in the block is determined from previously decoded pixels, and for each pixel, a prediction residue is decoded. A prediction value for the pixel is determined according to a first prediction mode by predicting the pixel from at least one other previously decoded pixel belonging to the current block. Information is decoded from the stream indicating whether the pixel is predicted according to a second prediction mode using a prediction resulting from the group of pixel values in the block. When the pixel is predicted according the second mode, the prediction value for the pixel is replaced with a selected value of the group. The pixel is reconstructed using the prediction value associated with the pixel and the prediction residue.",
+  "claims": "1. A method for decoding a coded data stream representative of at least one image, said image being split into blocks, the decoding method being implemented by a decoding device and comprising, for at least one block of the image, referred to as a current block: determining a group of pixel values in the block from previously decoded pixels, and for each pixel of the block: (i) decoding a prediction residue associated with said pixel, said prediction residue comprising a sign, (ii) determining a prediction value associated with the pixel according to a first prediction mode, according to which the pixel is predicted from at least one other previously decoded pixel, said other previously decoded pixel belonging to said current block, (iii) decoding from the data stream a value of an item of information indicating whether the pixel is predicted according to a second prediction mode according to which the pixel is predicted using a prediction resulting from said group of pixel values in the block, (iv) in response to the decoded value of the item of information indicating that the pixel is predicted according to the second prediction mode: (a) selecting a value of said group, and (b) replacing said prediction value associated with the pixel with said selected value, and (v) reconstructing said pixel using the prediction value associated with the pixel and the prediction residue.",
+  "patent_id": "US12382095-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/593",
+      "H04N 19/11",
+      "H04N 19/176",
+      "H04N 19/182"
+    ],
+    "all": [
+      "H04N 19/593",
+      "H04N 19/11",
+      "H04N 19/176",
+      "H04N 19/182"
+    ],
+    "source": "converted"
+  }
+}

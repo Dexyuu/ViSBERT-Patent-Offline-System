@@ -1,0 +1,16 @@
+{
+  "title": "Method for operating a steer-by-wire steering system of a motor vehicle, control device, computer program, and steer-by-wire steering system",
+  "abstract": "A method is disclosed for a steer-by-wire steering system of a motor vehicle, the system having at least one steering function that requests one or more steering angle changes as target steering angles for at least at one vehicle axle. An arbitration unit (AE) weights the steering angle changes as target steering angles (SLw_i) and, taking into account at least one target steering angle (SLw_i), determines an overall target steering angle (G_SLw). Before the overall target steering angle (G_SLw) is set by an actuator of the steer-by-wire steering system, a check is carried out to see whether a gradient of the overall target steering angle (G_SLw) is smaller than or equal to the gradient of the at least one target steering angle (SLw_i).",
+  "claims": "1. A method for operating a steer-by-wire steering system of a motor vehicle having at least one steering function, an arbitration unit, and an actuator, the method comprising: requesting, by the at least one steering function of the steer-by-wire steering system, one or more steering angle changes for at least one vehicle axle; weighting, by the arbitration unit (AE), the one or more steering angle changes as target steering angles (SLw_i); determining a selected target steering angle (G_SLw), taking into account at least one of the target steering angles (SLw_i); determining that a gradient of the selected target steering angle (G_SLw) is smaller than or equal to a gradient of the at least one of the target steering angles (SLw_i) taken into account; and setting, by the actuator of the steer-by-wire steering system, the selected target steering angle (G_SLw) for the at least one vehicle axle.",
+  "patent_id": "US12377910-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B62D 7/159"
+    ],
+    "all": [
+      "B62D 7/159"
+    ],
+    "source": "converted"
+  }
+}

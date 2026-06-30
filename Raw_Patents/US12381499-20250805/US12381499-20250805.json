@@ -1,0 +1,20 @@
+{
+  "title": "Automated load torque ripple compensation using feedforward signals calculated using a cross-correlation function",
+  "abstract": "A motor controller includes a measurement interface configured to measure a mechanical angle of a shaft driven by a motor and a rotational speed of the shaft, and generate a speed feedback signal representative of the rotational speed, a speed regulator, and a current regulator. The speed regulator includes an error component configured to generate a speed error signal based on a difference between a speed reference signal and the speed feedback signal; a proportional integral controller configured to, based on the speed error signal, regulate a torque reference value that is configured to sustain a speed reference value; and a load torque ripple compensator configured to apply a torque feedforward function to reduce a load torque ripple in the torque reference value. The current regulator is configured to drive motor currents of the motor for generating a torque corresponding to the torque reference value.",
+  "claims": "1. A motor controller configured to drive a motor coupled to a shaft, the motor controller comprising: a measurement interface configured to measure a mechanical angle of the shaft and a rotational speed of the shaft, and generate a speed feedback signal representative of the rotational speed; a speed regulator comprising: a first error component configured to receive a speed reference signal corresponding to a speed reference value and the speed feedback signal, and generate a speed error signal based on a difference between the speed reference signal and the speed feedback signal; a proportional integral (PI) controller configured to, based on the speed error signal, regulate a torque reference value that is configured to sustain the speed reference value; and a load torque ripple compensator configured to apply a torque feedforward function to reduce a load torque ripple in the torque reference value, wherein applying the torque feedforward function includes generating a feedforward compensation signal that matches a frequency, a magnitude, and a phase of the load torque ripple, and adding the feedforward compensation signal to an output signal of the PI controller to generate the torque reference value, wherein the load torque ripple varies with the mechanical angle, and wherein the load torque ripple compensator is configured to dynamically adjust a magnitude and a phase of the feedforward compensation signal in real time as a load of the motor varies over time; and a current regulator configured to receive the torque reference value and drive motor currents of the motor for generating a torque corresponding to the torque reference value.",
+  "patent_id": "US12381499-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02P 21/20",
+      "H02P 21/22",
+      "H02P 27/08"
+    ],
+    "all": [
+      "H02P 21/20",
+      "H02P 21/22",
+      "H02P 27/08"
+    ],
+    "source": "converted"
+  }
+}

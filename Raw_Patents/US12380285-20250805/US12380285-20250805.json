@@ -1,0 +1,18 @@
+{
+  "title": "Grounded dialogue generation with cross-encoding re-ranker, grounding span prediction, and passage dropout",
+  "abstract": "An information-seeking dialogue system can be trained using a pipeline process having stages, or components, of passage retrieval (selecting passages relevant to a query from a corpus or knowledge base), re-ranking, and generating a response to the query based on one or more of the re-ranked passages. Each stage, or component, of the pipeline can be individually optimized based on ground truth data.",
+  "claims": "1. A computer-implemented method for responding to user queries, the method comprising: obtaining a training set, the training set including a plurality of passages, a plurality of queries, and a plurality of responses, the training set further including association data associating particular queries of the plurality of queries with particular passages of the plurality of passages and particular responses of the plurality of responses; performing a training process using the training set, wherein the training process includes: training a retriever model to identify similarities between a query and a passage; training a re-ranking model to rank a plurality of passages based on a distance metric defining a distance between a passage and a query, wherein the re-ranking model uses an ensemble of transformer language models that each output a distance function between a passage and a query, and wherein the re-ranking model ranks the plurality of passages based on a weighted sum of the distance functions of the transformer language models; and training a generator model to generate a response to a query based on a passage; and performing a testing process, wherein the testing process includes: receiving a testing query; using the retriever model to retrieve a plurality of passages responsive to the testing query; using the re-ranking model to rank the retrieved passages based on the testing query; and using the generator model to generate a response based on a highest-ranking one of the retrieved passages.",
+  "patent_id": "US12380285-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 40/51",
+      "G06F 16/3329"
+    ],
+    "all": [
+      "G06F 40/51",
+      "G06F 16/3329"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Virtual selections using multiple input modalities",
+  "abstract": "Aspects of the present disclosure are directed to triggering virtual keyboard selections using multiple input modalities. An interface manager can display an interface, such as a virtual keyboard, to a user in an artificial reality environment. Implementations of the interface manager can track user eye gaze input and user hand input (e.g., hand or finger motion). The interface manager can resolve a character selection on the virtual keyboard according to the tracked user gaze input based on detection that the user's hand motion meets a trigger criteria. For example, the interface manager can: detect that the tracked user hand motion meets the trigger criteria at a given point in time; and resolve a selection from the virtual keyboard (e.g., selection of a displayed character) according to the tracked user gaze on the virtual keyboard at the given point in time.",
+  "claims": "1. A method for triggering virtual interface selections using multiple input modalities, the method comprising: displaying a virtual interface in an augmented reality environment; tracking a) user gaze input in relation to the virtual interface and b) user hand motion; in response to detecting a first instance when the tracked user hand motion meets a velocity criteria, resolving a first user interaction according to the user gaze input, in relation to the virtual interface, at a time that corresponds to the detected first instance when the user hand motion meets the velocity criteria, wherein the resolving the first user interaction is not based on a position of the user's hand in relation to the virtual interface; in response to detecting a second instance when the tracked user hand motion meets the velocity criteria, resolving a second user interaction according to the user gaze input, in relation to the virtual interface, at a time that corresponds to the detected second instance when the user hand motion meets the velocity criteria; and generating an input sequence comprising the resolved first and second user interactions.",
+  "patent_id": "US12379786-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/017",
+      "G06F 3/013",
+      "G06F 3/04886",
+      "G06F 3/011"
+    ],
+    "all": [
+      "G06F 3/017",
+      "G06F 3/013",
+      "G06F 3/04886",
+      "G06F 3/011"
+    ],
+    "source": "converted"
+  }
+}

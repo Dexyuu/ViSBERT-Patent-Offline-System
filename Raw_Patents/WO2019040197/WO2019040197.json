@@ -1,0 +1,46 @@
+{
+  "application_id": "WO2019040197",
+  "application_id_fs": "WO2019040197",
+  "title": "Network-based learning models for natural language processing",
+  "abstract": "Systems and methods of network-based learning models for natural language processing are provided. Information may be stored information in memory regarding user interaction with network content. Further, a digital recording of a vocal utterance made by a user may be captured. The vocal utterance may be interpreted based on the stored user interaction information. An intent of the user may be identified based on the interpretation, and a prediction may be made based on the identified intent. The prediction may further correspond to a selected workflow.",
+  "claims": "Claims CLAIMS WHAT IS CLAIMED IS: 1. A system of network-based learning models for natural language processing, the system comprising: an end-user device comprising a microphone that captures a vocal utterance made by a user; and a network server comprising: a network interface that receives a digital recording of the vocal utterance, memory that stores information regarding user interaction with network content, and a processor that executes instructions stored in memory, wherein execution of the instructions by the processor: interprets the vocal utterance based on the stored user interaction information, identifies an intent of the user based on the interpretation of the vocal utterance, and makes a prediction based on the identified intent, wherein the prediction corresponds to a selected workflow. 2. The system of claim 1, wherein the network server identifies that the vocal utterance was made during a current interaction with one or more social contacts. 3. The system of claim 2, wherein the processor identifies the intent by weighting the interaction with the social contacts. 4. The system of claim 3, wherein the weight is further based on a category into which the social contacts fall. 5. The system of claim 4, wherein the processor further identifies the category into which the social contacts fall based on an analysis of the vocal utterance. 6. The system of claim 5, wherein the processor further identifies the category into which the social contacts fall based on an analysis of at least one user profile of one of the social contacts. 7. The system of claim 4, wherein the category is based on at least one of a demographic, a content title being played, how often a content title is played, a level of the content title, and a community membership. 8. The system of claim 2, wherein the processor identifies the intent by weighting information regarding interaction by one of the social contacts with respective network content. 9. The system of claim 1, wherein the network server identifies that the vocal utterance was made during a current interaction with network content and further updates the stored user interaction information regarding the current interaction. 10. The system of claim 1, wherein the processor further stores a plurality of workflows, each workflow associated with a different type of intent. 11. A method of network-based learning models for natural language processing, the method comprising: storing information in memory regarding user interaction with network content; capturing a digital recording of vocal utterance made by a user; and executing instructions stored in memory, wherein execution of the instructions by a processor: interprets the vocal utterance based on the stored user interaction information, identifies an intent of the user based on the interpretation of the vocal utterance, and makes a prediction based on the identified intent, wherein the prediction corresponds to a selected workflow. 12. The method of claim 11, further comprising identifying that the vocal utterance was made during a current interaction with one or more social contacts. 13. The method of claim 12, wherein identifying the intent comprises weighting the interaction with the social contacts. 14. The method of claim 13, wherein weighting is further based on a category into which the social contacts fall. 15. The method of claim 14, further comprising identifying the category into which the social contacts fall based on an analysis of the vocal utterance. 16. The method of claim 15, further comprising identifying the category into which the social contacts fall based on an analysis of at least one user profile of one of the social contacts. 17. The method of claim 14, wherein the category is based on at least one of a demographic, a content title being played, how often a content title is played, a level of the content title, and a community membership. 18. The method of claim 12, wherein identifying the intent comprises weighting information regarding interaction by one of the social contacts with respective network content. 19. The method of claim 11, further comprising identifies that the vocal utterance was made during a current interaction with network content, and updating the stored user interaction information regarding the current interaction. 20. The method of claim 11, further comprising storing a plurality of workflows in memory, each workflow associated with a different type of intent. 21. A non-transitory computer-readable medium having embodied thereon a program executable by a processor to perform a method of network-based learning models for natural language processing, the method comprising: storing information in memory regarding user interaction with network content; capturing a digital recording of vocal utterance made by a user; interpreting the vocal utterance based on the stored user interaction information; identifying an intent of the user based on the interpretation of the vocal utterance; and making a prediction based on the identified intent, wherein the prediction corresponds to a selected workflow.",
+  "classifications": {
+    "ipc": [
+      "G06F 40/00",
+      "G06F 40/30",
+      "G10L 15/00",
+      "G10L 15/08",
+      "G10L 15/18",
+      "G10L 15/1815",
+      "G06F 40/20",
+      "G06F 40/205",
+      "G06F 40/216",
+      "G06F 40/35",
+      "G06N 20/00",
+      "G10L 15/22",
+      "G10L 15/28",
+      "G10L 15/30",
+      "G10L 2015/223"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 40/00",
+      "G06F 40/30",
+      "G10L 15/00",
+      "G10L 15/08",
+      "G10L 15/18",
+      "G10L 15/1815",
+      "G06F 40/20",
+      "G06F 40/205",
+      "G06F 40/216",
+      "G06F 40/35",
+      "G06N 20/00",
+      "G10L 15/22",
+      "G10L 15/28",
+      "G10L 15/30",
+      "G10L 2015/223"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019040197"
+}

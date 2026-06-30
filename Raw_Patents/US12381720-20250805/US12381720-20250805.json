@@ -1,0 +1,22 @@
+{
+  "title": "System and method for decentralized confirmation of entries in a directed acyclic graph for rapidly confirming as authentic ledger entries without requiring centralized arbitration of authenticity",
+  "abstract": "Method and systems for decentralized confirmation of entries in a directed acyclic graph (DAG) for rapidly confirming as authentic ledger entries without centralized arbitration of authenticity are provided. Access is provided to a user account by applying Shamir Secret Sharing, the user account being accessible to a single user and to combined efforts of multiple authorized third-party users appointed by the single user. An identity of the user account is cryptographically obfuscated using post-quantum cryptography. A DAG communication having data is transmitted from the user account to the DAG. DAG communications are weighted via proof-of-work hashing conducted on randomly-selected third-party DAG users, and are recorded and reconciled at nodes that compete to achieve consensus using SABRPaxos protocol, thereby confirming entries in the DAG. Nodes are incentivized by rewarding tokens that are variably determined by calculating the number of communications in a fixed time period and a total number of communications.",
+  "claims": "1. A method for decentralized confirmation of entries in a directed acyclic graph (DAG) for rapidly confirming as authentic ledger entries without centralized arbitration of authenticity, the method comprising: providing access to at least one user account by applying Shamir Secret Sharing (SSS) to the at least one account, wherein the user account is accessible to a single user and to combined efforts of multiple authorized third-party users appointed by the single user; cryptographically obfuscating an identity of at least one user account using post-quantum cryptography and transmitting a DAG communication having a quantity of data from the at least one user account to the DAG; weighting DAG communications via proof-of-work hashing conducted on randomly-selected third-party DAG users; recording and reconciling DAG communications at nodes that compete to achieve consensus using Secure Asynchronous Byzantine-Resilient Paxos (SABRPaxos) protocol, thereby confirming entries in the DAG; and incentivizing nodes for quickly recording and reconciling DAG communications by rewarding tokens that are variably determined by calculating the number of communications in a fixed time period and a total number of communications.",
+  "patent_id": "US12381720-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/085",
+      "H04L 9/0852",
+      "H04L 9/3218",
+      "H04L 9/50"
+    ],
+    "all": [
+      "H04L 9/085",
+      "H04L 9/0852",
+      "H04L 9/3218",
+      "H04L 9/50"
+    ],
+    "source": "converted"
+  }
+}

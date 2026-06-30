@@ -1,0 +1,32 @@
+{
+  "title": "System and methods with a multimodal interface for command and control (inputs) and monitoring (outputs) of unmanned systems",
+  "abstract": "A system for controlling unmanned vehicles such as drones, ground vehicles and robots includes multiple human-to-machine interface components to manage interactions efficiently and effectively between humans and robots with respect to control mechanisms (i.e., inputs such as voice-commands or joystick use) and monitoring (i.e., outputs such as camera or other sensor feeds, geolocation overlay, or audio feedbacks). A system according to the principles of the invention includes numerous modalities for control (e.g., voice-control, gesture-control, touch screen, joystick or other hand-held controllers) as well as monitoring (visual screen display, heads-up-display, audio feedbacks, geolocation overlay, haptic feedback, wearable sensor devices). The system is preferably expandable and may include additional modalities in the future, such as eye-tracking as compared to voice or gesture control.",
+  "claims": "1. A multi-modal system for controlling an unmanned vehicle comprising: a human-to-machine interface including a plurality of selectable input modes, including: (i) at least one of a voice input, a hand-held controller, and a touch screen input, and (ii) at least one selectable human feedback device; an interface process responsive to data indicative of instructions to the unmanned vehicle input on selected ones of the input modes and operable to map the inputs to a data model that includes data indicating the instructions, the unmanned vehicle, and the selected input mode corresponding to the input data indicative of the instructions; and a ground control effects process operable to process the data model including a process to extract from the data model input context data including the data indicative of the instructions to the unmanned vehicle and data indicative of the selected input mode corresponding to the input data indicative of the instructions and to translate the instructions to control command data executable by the unmanned vehicle; wherein the unmanned vehicle is operable to respond to instructions provided in a pre-determined machine language translated from data indicative of the instructions provided via an input mode native to the unmanned vehicle, and wherein the selectable input modes include the input mode native to the unmanned vehicle and at least one non-native input mode, the ground control effects process operable to normalize the extracted input context data to out of context command data and to translate the out of context command data to the pre-determined machine language.",
+  "patent_id": "US12379722-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05D 1/005",
+      "B64C 39/024",
+      "G05D 1/0016",
+      "G06F 3/016",
+      "G06F 3/04883",
+      "G06F 3/16",
+      "G08G 5/55",
+      "G08G 5/57",
+      "B64U 2201/20"
+    ],
+    "all": [
+      "G05D 1/005",
+      "B64C 39/024",
+      "G05D 1/0016",
+      "G06F 3/016",
+      "G06F 3/04883",
+      "G06F 3/16",
+      "G08G 5/55",
+      "G08G 5/57",
+      "B64U 2201/20"
+    ],
+    "source": "converted"
+  }
+}

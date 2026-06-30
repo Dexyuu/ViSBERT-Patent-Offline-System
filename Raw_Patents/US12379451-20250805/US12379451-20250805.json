@@ -1,0 +1,22 @@
+{
+  "title": "Method for determining the position of a decoy using at least one receiver",
+  "abstract": "A method for determining the position of a decoy using at least one receiver, the method includes a step for detecting a decoy attack, a step for correcting the clock bias delivered by the receiver based on an estimated drift (Dj) of the clock of the receiver. The method comprises a step for differential measurements using at least three corrected clock biases (CBjcorr(tâ³), CBkcorr(tâ³), CBlcorr(tâ³)) and a localization step for determining the position of the decoy.",
+  "claims": "1. A method for determining the position of a decoy using at least one receiver ( 103 ; 103 1 , . . . 103 j , . . . 103 N ), the at least one receiver ( 103 ; 103 1 , . . . 103 j , . . . 103 N ) being designed to receive signals coming from the satellites of a GNSS radionavigation system, the said receiver ( 103 ; 103 1 , . . . 103 j , . . . 103 N ) and the said GNSS radionavigation system each having a clock, respectively referred to as clock of the at least one receiver and reference clock, the said clock of the at least one receiver and the said reference clock having a time difference at a time t referred to as reference clock bias (CB ref (t); CB jref (t)), the said clock of the at least one receiver drifting over time with respect to the reference clock, the said method comprising: a step (E3) for detecting a decoy attack; a step (E5) for correcting the clock bias delivered by the at least one receiver ( 103 , 103 1 , . . . 103 j , . . . 103 N ) at a time t″, referred to as corrected clock bias (CB corr (t″); CB jcorr (t″)), the said correction being made based on an estimated drift (D; D j ) of the clock of the at least one receiver; a step (E6) for differential measurements using at least three corrected clock biases (CB corr (t″), CB corr (t′″), CB corr (t″″); CB jcorr (t″), CB kcorr (t″), CB lcorr (t″)) in order to determine the position of the decoy; wherein the corrected clock bias (CB corr (t″)) corresponds to the equation: CB corr ( t ″)=(δ s ( t ″)−( t ″))−D ( t″−t 0 )−CBe( t 0 ),",
+  "patent_id": "US12379451-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 5/0246",
+      "G01S 5/0249",
+      "G01S 5/06",
+      "G01S 19/215"
+    ],
+    "all": [
+      "G01S 5/0246",
+      "G01S 5/0249",
+      "G01S 5/06",
+      "G01S 19/215"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Information processing device, and emotion estimation method",
+  "abstract": "An information processing device includes an acquisition unit, an identification unit and an emotion estimation unit. The acquisition unit acquires input information as information regarding a user in a certain situation. The identification unit identifies an object to which the user is paying attention and the user's appearance when the user is paying attention to the object based on the input information. The emotion estimation unit estimates emotion of the user based on object information indicating the identified object, appearance information indicating the identified appearance, and a predetermined method of estimating the emotion.",
+  "claims": "1. An information processing device comprising: an acquiring circuitry to acquire input information as information regarding a user in a certain situation, method information indicating a plurality of methods, each of the plurality of methods being a method of estimating the emotion, and equipment information as information regarding equipment used by the user; an identification circuitry to identify an object to which the user is paying attention and the user's appearance when the user is paying attention to the object based on the input information; a waiting time identifying circuitry to identify a time from the user's operation on the equipment to a return of a response to the operation as a waiting time based on the equipment information; a method selecting circuitry to select a method among the plurality of methods corresponding to the waiting time, object information indicating the identified object, and appearance information indicating the identified appearance from the plurality of methods based on the waiting time, the object information, the appearance information and the method information; and an emotion estimating circuitry to estimate emotion of the user based on the selected method, the object information, and the appearance information; and output circuitry to output the estimated emotion to an external device or a display, wherein the input information includes at least one of an image obtained by photographing the user's vicinity, voice information indicating voice of the user, a plurality of images each including the user, posture information indicating the user's posture or skeletal information on the user, motion information indicating motion of the user, biological information at a time when the user is paying attention to the object, and sight line data indicating the user's attention position in the image, and the identification circuitry identifies the object to which the user is paying attention based on at least one of the image obtained by photographing the user's vicinity, the voice information indicating voice of the user, the plurality of images each including the user, the posture information indicating the user's posture or skeletal information on the user, the motion information indicating motion of the user, the biological information at the time when the user is paying attention to the object, and the sight line data.",
+  "patent_id": "US12380731-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 40/174",
+      "G06F 21/32",
+      "G06V 40/161"
+    ],
+    "all": [
+      "G06V 40/174",
+      "G06F 21/32",
+      "G06V 40/161"
+    ],
+    "source": "converted"
+  }
+}

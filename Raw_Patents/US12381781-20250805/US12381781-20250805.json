@@ -1,0 +1,16 @@
+{
+  "title": "Parameter value setting system for setting reference source parameter values, control method of parameter value setting system and program",
+  "abstract": "A parameter name data storage module stores a plurality of pieces of parameter name data. A reference data storage module stores reference data indicating a reference destination parameter and a reference source parameter. A presentation module presents, to a user, for one of the plurality of elements that is related to the reference destination parameter, an input screen for inputting a value of a parameter to be set to the related element. A parameter value setting module sets a value input as a value of the reference destination parameter by the user to the input screen, as the value of the reference destination parameter and also as a value of the reference source parameter.",
+  "claims": "1. A parameter value setting system, comprising: at least one processor; and at least one memory device storing instructions which, when executed by the at least one processor, cause the at least one processor to perform operations comprising: storing, for each of a plurality of elements included in a communication system, a plurality of pieces of parameter name data, wherein each of the plurality of pieces of parameter name data indicates a name of a corresponding parameter to be set for the each of the plurality of elements; storing reference data, wherein the reference data includes: a reference destination parameter, wherein the reference destination parameter indicates a parameter value of a parameter of a first element of the plurality of elements; and a reference source parameter, wherein the reference source parameter indicates a parameter value of a parameter of a second element of the plurality of elements, and the second element manages the first element and relies on the first element for implementing a functionality of the second element; presenting, to a user, for the first element, an input screen for inputting a value of the parameter to be set as the reference destination parameter; and automatically setting the value input by the user to the input screen, as the value of the reference source parameter, wherein, in response to the reference source parameter of the second element being linked to the reference destination parameter of the first element and to a reference destination parameter of a third element of the plurality of elements, setting the value of the reference source parameter equal to a value selected by the user from the reference destination parameter of the first element or the reference destination parameter of the third element.",
+  "patent_id": "US12381781-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 41/0823"
+    ],
+    "all": [
+      "H04L 41/0823"
+    ],
+    "source": "converted"
+  }
+}

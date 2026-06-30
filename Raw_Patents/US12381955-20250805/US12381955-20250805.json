@@ -1,0 +1,22 @@
+{
+  "title": "Signaling intent to establish connections between autonomous systems",
+  "abstract": "Techniques for devices in autonomous systems to utilize a protocol, such as a Border Gateway Protocol (BGP), to signal intent to instantiate services for establishing connections between the devices. For instance, first device(s) in a first autonomous system (AS) may determine to establish a connection with a second AS. The first device(s) may encode a service key into an Internet Protocol (IP) address where the service key indicates a service that is to be provisioned on second device(s) in the second AS. The first device(s) system may then advertise the IP address host-route using BGP, and the second device(s) may receive the BGP advertisement. The second device(s) may decode the service key from the IP address, and provision the service to establish the connection between the autonomous systems. Thus, the devices in may leverage existing protocols to signal intent to instantiate services and establish connections between autonomous systems.",
+  "claims": "1. A method to utilize a protocol to signal intent to establish a connection over a network and between a first autonomous system (AS) and a second AS, the method comprising: determining, at a first controller of the first AS, to establish the connection between a first device in the first AS and the second AS; encoding, by the first controller, a service identifier (ID) into an Internet Protocol (IP) address, wherein the service ID indicates a service that is being requested to be provisioned on a second device in the second AS to establish the connection; providing, by the first controller, the IP address to the first device; sending, using a control-plane protocol, over the network, and to the second AS, an advertisement message that indicates the IP address is an IP route, wherein the service ID is usable in the second AS to provision the service on the second device to establish the connection.",
+  "patent_id": "US12381955-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 67/141",
+      "H04L 45/04",
+      "H04L 45/72",
+      "H04L 61/5007"
+    ],
+    "all": [
+      "H04L 67/141",
+      "H04L 45/04",
+      "H04L 45/72",
+      "H04L 61/5007"
+    ],
+    "source": "converted"
+  }
+}

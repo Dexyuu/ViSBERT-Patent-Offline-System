@@ -1,0 +1,16 @@
+{
+  "title": "Method and device for transmitting image information, and decoding method and device using same",
+  "abstract": "An image decoding method according to the present invention comprises the steps of: acquiring information to form a reference picture set of a current picture by entropy decoding the received bitstream information; and performing prediction on a prediction block inside the current picture by using a reference picture list which is formed based on the reference picture set.",
+  "claims": "1. An image decoding method performed by a decoding apparatus, the method comprising: acquiring image information including long term reference picture (LTRP) information from a bitstream; configuring a reference picture set based on the LTRP information; generating predicted samples for a current block in a current picture based on an LTRP in the reference picture set; and generating reconstructed samples based on the predicted samples, wherein the LTRP information comprises first LTRP information included in a sequence parameter set (SPS) of the bitstream, wherein the LTRP is one of candidate LTRPs specified by the first LTRP information, wherein the reference picture set comprises an LTRP set including at least one LTRP, wherein the first LTRP information includes a long term reference pictures present flag, wherein based on a value of the long term reference pictures present flag being equal to 1, the first LTRP information includes an LTRP number syntax element representing a number of the candidate LTRPs specified in the SPS and picture order count (POC) least significant bit (LSB) information representing an LSB of a POC of each of the candidate LTRPs, and wherein the first LTRP information includes used by current picture long term SPS flag information representing whether each of the candidate LTRPs specified in the SPS is not used for reference picture by the current picture.",
+  "patent_id": "US12382093-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/593"
+    ],
+    "all": [
+      "H04N 19/593"
+    ],
+    "source": "converted"
+  }
+}

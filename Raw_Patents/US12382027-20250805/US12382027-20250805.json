@@ -1,0 +1,24 @@
+{
+  "title": "Coding tool parameter selection by mapping wide angle intra prediction modes to non-wide intra prediction modes",
+  "abstract": "A method for video decoding includes determining that an angular intra prediction mode for a current block is a wide angle mode. The method further includes determining a non-wide angle mode that corresponds to the wide angle mode, the non-wide angle mode being spaced apart from the vertical mode or the horizontal mode by an angular distance that is less than or equal to the predetermined threshold. The method further includes, in response to a determination that an intra prediction coding tool and coding tool parameters are specified for the determined non-wide angle mode, performing intra prediction for the current block using the wide angle mode, using the intra prediction coding tool, and using the coding tool parameters specified for the determined non-wide angle mode.",
+  "claims": "1. A method for video decoding, comprising: determining that an angular intra prediction mode for a current block is a wide angle mode that is spaced apart from a vertical mode and a horizontal mode by an angular distance that is more than a predetermined threshold, the vertical mode aligned with a vertical axis of the current block, the horizontal mode aligned with a horizontal axis of the current block; when the angular intra prediction mode is determined as the wide angle mode, determining a non-wide angle intra prediction mode that corresponds to the wide angle mode; determining whether an intra prediction coding tool is enabled for the non-wide angle mode that is determined to correspond to the wide angle mode, the non-wide angle mode being spaced apart from the vertical mode or the horizontal mode by an angular distance that is less than or equal to the predetermined threshold; and when the intra prediction coding tool is enabled for the non-wide angle mode and the angular intra prediction mode is the wide angle mode, reconstructing the current block based on intra prediction using the wide angle mode and using the intra prediction coding tool.",
+  "patent_id": "US12382027-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/11",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/189",
+      "H04N 19/44"
+    ],
+    "all": [
+      "H04N 19/11",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/189",
+      "H04N 19/44"
+    ],
+    "source": "converted"
+  }
+}

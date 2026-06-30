@@ -1,0 +1,28 @@
+{
+  "title": "System and method for delaying an executable instruction that would otherwise be executable immediately upon arrival at an executing system",
+  "abstract": "A system and method are provided for intentionally delaying an execution of an executable instruction by determining if a current executable instruction is received from a predefined source for which all executable instructions are to be intentionally delayed. When so, the system sets a sequence time associated with the instruction equal to a receipt time plus a delay time. The system saves the instruction in an intentional delay queue for future execution. When the current executable instruction is received from a source that is not the predefined source, the system determines if a condition for immediate processing of the current executable instruction is present. When so, the system executes the instruction immediately. Otherwise, it performs an intentional delay determination that determines whether the current executable instruction has been intentionally delayed. When the current executable instruction has been intentionally delayed, the system executes the instruction immediately.",
+  "claims": "1. A method comprising: receiving, by a matching system dispatcher of a matching system, a message comprising an executable instruction executable by a processor configured to execute programmed instructions stored in non-transitory memory; sending, by the matching system dispatcher, the message to an inbound message queue, the inbound message queue configured to store the message such that it is added to an end of the inbound message queue for processing according to a sequence in which it is received; determining, by a matching system engine of the matching system, that one or more of a source of the message is a predefined source for which all messages are to be intentionally delayed and the executable instruction matches at least one predetermined condition for intentionally delayed processing; sending, by the matching system engine, the message to an intentional delay queue for execution after a delay time, the intentional delay queue specifically configured to store the message such that the message is inserted into a position within the intentional delay queue for processing according to an order in which it is eligible for processing; identifying, by the matching system engine, a current executable instruction within a current message at a first position of one of the inbound message queue and the intentional delay queue; and one of executing, by the matching system engine, the current executable instruction and sending the current executable instruction to the intentional delay queue.",
+  "patent_id": "US12380506-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 40/06",
+      "G06F 9/3856",
+      "G06Q 40/04",
+      "G06Q 30/08",
+      "G06Q 40/00",
+      "G06Q 40/02",
+      "G06Q 40/12"
+    ],
+    "all": [
+      "G06Q 40/06",
+      "G06F 9/3856",
+      "G06Q 40/04",
+      "G06Q 30/08",
+      "G06Q 40/00",
+      "G06Q 40/02",
+      "G06Q 40/12"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Resource offset mapping for multiplexing",
+  "abstract": "Methods, systems, and devices for wireless communications are described. For instance, the described techniques support resource offset mapping for multiplexing. Resource offset mapping may refer to the mapping of frequency-domain symbols to different subsets of resources that are offset from each other or separated by gaps. For instance, a first wireless device may map a first set of frequency-domain symbols to a first subset of subcarriers and a second set of frequency-domain symbols to a second subset of subcarriers. A lowest subcarrier of the second subset of subcarriers may be separated by an offset or a gap from a highest subcarrier of the first subset of subcarriers. As a result, at least some distortion experienced on subcarriers in the gap may not spread to other subcarriers, and the reliability and throughput of communications between the first wireless device and a second wireless device may improve.",
+  "claims": "1. An apparatus for wireless communication at a first wireless device, comprising: a processor; memory coupled with the processor; and instructions stored in the memory and executable by the processor to cause the apparatus to: perform a first time-domain to frequency-domain transform on a first subset of symbols of a plurality of symbols of a data stream to obtain a first set of frequency-domain symbols and a second time-domain to frequency-domain transform on a second subset of symbols of the plurality of symbols of the data stream to obtain a second set of frequency-domain symbols; map the first set of frequency-domain symbols to a first subset of subcarriers of a plurality of subcarriers and the second set of frequency-domain symbols to a second subset of subcarriers of the plurality of subcarriers, wherein a lowest subcarrier of the second subset of subcarriers is separated from a highest subcarrier of the first subset of subcarriers by an offset; perform a frequency-domain to time-domain transform on the mapped first set of frequency-domain symbols and the mapped second set of frequency-domain symbols to obtain a set of time-domain samples; and transmit signaling obtained from the set of time-domain samples to a second wireless device.",
+  "patent_id": "US12381667-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/0005",
+      "H04W 8/24"
+    ],
+    "all": [
+      "H04L 5/0005",
+      "H04W 8/24"
+    ],
+    "source": "converted"
+  }
+}

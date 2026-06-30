@@ -1,0 +1,20 @@
+{
+  "title": "Automatically generating training data of a time series of sensor data",
+  "abstract": "Assistance device for automatically generating training data of a time series of sensor data, further on called temporal sensor data, applied to train an Artificial Intelligence system used for detecting anomalous behavior of a technical system, including a processor configured to performâobtaining historical temporal sensor data, dividing the historical temporal sensor data into a temporal sequence of segments and assigning one segment type out of several different segment types to each segment, iteratively for each segment, determining a neighborhood pattern of segment types, determining the most frequently occurring neighborhood pattern from all determined neighborhood patterns as reference pattern for normal operation of the technical system, âselecting a subsequence of segments out of the historical temporal sensor data, which is ordered according to the reference pattern, andâoutputting the subsequence of segments for applying as training data.",
+  "claims": "1. An assistance device for automatically generating training data of a time series of sensor data, further on called temporal sensor data, applied to train an Artificial Intelligence system used for detecting anomalous behavior of a technical system, comprising at least one processor configured to perform: receiving, from a plurality of sensors, by one or more processors of a computer system, sensor signals comprising historical temporal sensor data measured at said technical system; dividing, by the one or more processors, the sensor signals into a temporal sequence of segments and assigning, by the one or more processors, one segment type out of several different segment types to each segment, wherein each segment type is characterized by a data distribution of temporal sensor data, wherein said dividing and assigning comprises: applying an unsupervised segmentation algorithm on the historical temporal sensor data within the sensor signals to assign units of the sensor signals whose included historical temporal sensor data has features of a cluster built from a Hidden-Markov-model, wherein each unit of the sensor signals showing a same state of the Hidden-Markov-model over a same interval of time is assigned as a segment of the temporal sequence of segments; training, by the one or more processors, the Artificial Intelligence system using one or more subsequences of the segments as training data for performing said training, wherein, for each segment, there are neighborhood patterns of segment types including a neighborhood pattern of the segment type of the segment and the segment types of a first number of adjacent preceding segments and a neighborhood pattern of the segment type of the segment and the segment types of a second number of adjacent subsequent segments, wherein each neighborhood pattern has at least two different segment types, wherein a reference pattern for normal operation of the technical system is a most frequently occurring neighborhood pattern of the neighborhood patterns for the segments, wherein each subsequence of the one or more subsequences of the segments used as training data for performing said training comprises the reference pattern.",
+  "patent_id": "US12380339-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 5/022",
+      "G05B 23/0245",
+      "G05B 2223/02"
+    ],
+    "all": [
+      "G06N 5/022",
+      "G05B 23/0245",
+      "G05B 2223/02"
+    ],
+    "source": "converted"
+  }
+}

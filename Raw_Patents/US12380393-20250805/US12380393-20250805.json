@@ -1,0 +1,30 @@
+{
+  "title": "Unmanned aerial device, information processing method, and computer-readable medium that records control program",
+  "abstract": "An unmanned aerial vehicle executes: a movement control process that moves the unmanned aerial vehicle to a delivery area including a delivery address to which a package is to be delivered, the delivery area including delivery destination candidates, and each of the delivery destination candidates including an identification information indicator located at a position where the identification information indicator is readable from outside; an identification information acquiring process that acquires identification information associated with each delivery destination candidate by reading a corresponding identification information indicator; a delivery destination identifying process that identifies, as a delivery destination, a delivery destination candidate in which the acquired identification information matches the delivery address; a position identifying process that identifies a receiving position of the package based on a position of the identified delivery destination; and a placing process that places the package at the identified receiving position.",
+  "claims": "1. An unmanned aerial vehicle, comprising: at least one memory configured to store computer program code; and at least one processor configured to read the program code and operate as instructed by the program code, the program code comprising: movement control code configured to cause at least one of the at least one processor to move the unmanned aerial vehicle to a delivery area including a delivery address to which a package is to be delivered, the delivery area including one or more delivery destination candidates, and each of the one or more delivery destination candidates including an identification information indicator located at a position where the identification information indicator is readable from outside; identification information acquiring code configured to cause at least one of the at least one processor to acquire identification information associated with each of the one or more delivery destination candidates by reading a first corresponding identification information indicator from among one or more identification information indicators; delivery destination identifying code configured to cause at least one of the at least one processor to identify, as a delivery destination, a delivery destination candidate in which the identification information matches the delivery address; position identifying code configured to cause at least one of the at least one processor to identify a receiving position of the package based on a position of the delivery destination; and placing code configured to cause at least one of the at least one processor to place the package at the receiving position, wherein the one or more delivery destination candidates respectively include receiving portions, each receiving portion being configured to receive the package, wherein the position identifying code is configured to cause at least one of the at least one processor to identify a position of a first receiving portion associated with the delivery destination and identify the first receiving portion from among the receiving portions, wherein the identification information further comprises a plurality of room numbers corresponding to a plurality of dwelling units of a multi-dwelling unit, and wherein the receiving portions are included in the multi-dwelling unit, correspond to the plurality of dwelling units, and are shifted from one another such that the receiving portions do not overlap one another as viewed from above the multi dwelling unit.",
+  "patent_id": "US12380393-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/083",
+      "B64U 10/14",
+      "G05D 1/101",
+      "G06K 7/1417",
+      "B64U 2101/20",
+      "B64U 2101/64",
+      "B64U 2101/67",
+      "B64U 2201/00"
+    ],
+    "all": [
+      "G06Q 10/083",
+      "B64U 10/14",
+      "G05D 1/101",
+      "G06K 7/1417",
+      "B64U 2101/20",
+      "B64U 2101/64",
+      "B64U 2101/67",
+      "B64U 2201/00"
+    ],
+    "source": "converted"
+  }
+}

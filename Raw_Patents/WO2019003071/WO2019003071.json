@@ -1,0 +1,46 @@
+{
+  "application_id": "WO2019003071",
+  "application_id_fs": "WO2019003071",
+  "title": "Controlled cryptographic private key release",
+  "abstract": "A computer-implemented method includes: storing an encryption public key that is associated with a group of nodes, each node in the group associated with a private key share, the private key shares associated with a threshold private key reconstruction scheme for the group to allow an encryption private key associated with the encryption public key to be determined from at least a threshold of the private key shares; iteratively obtaining a plurality of indicators provided by a plurality of nodes of the group, each of the indicators representing one of an encryption private key share or a dummy signal; and identifying the encryption private key by iteratively: i) selecting a subset of the indicators; ii) calculating a possible shared secret; and iii) evaluating each possible shared secret against the encryption public key to determine whether the possible shared secret is the encryption private key. The invention is suited for implementation on a blockchain.",
+  "claims": "Claims CLAIMS: 1. A computer- implemented method comprising: storing an encryption public key that is associated with a group of nodes, each node in the group associated with a private key share, the private key shares associated with a threshold private key reconstruction scheme for the group to allow an encryption private key associated with the encryption public key to be determined from at least a threshold of the private key shares; iteratively obtaining a plurality of indicators provided by a plurality of nodes of the group, each of the indicators representing one of an encryption private key share or a dummy signal; andidentifying the encryption private key by iteratively: selecting a subset of the indicators; calculating a possible shared secret; and evaluating each possible shared secret against the encryption public key to determine whether the possible shared secret is the encryption private key. 2. The computer-implemented method of claim 1, further comprising: when the possible shared secret is determined to be the encryption private key, decrypting data previously encrypted with the encryption public key. 3. The computer-implemented method of claim 1 or 2, further comprising: when the possible shared secret is determined to be the encryption private key: generating a signature based on the encryption private key; andadding the signature to an unlocking script of a transaction to unlock a token previously encumbered with the encryption public key. 4. The computer-implemented method of any preceding claim, further comprising: identifying nodes of the group that provided an indicator representing an encryption private key share in a defined window of opportunity; andcooperatively generating a valid signature for a transaction to transfer one or more digital assets to one or more of the identified nodes. 5. The computer-implemented method of claim 4, wherein cooperatively generating a valid signature for a transaction to transfer one or more digital assets to one or more of the identified nodes comprises cooperatively generating a valid signature to distribute one or more tokens provided by a requestor that issued a monitoring request associated with an event. 6. The computer-implemented method of any preceding claim, further comprising: generating one of the encryption private key shares; iteratively providing an indicator to a plurality of nodes of the group, the indicator comprising: when a predetermined event has not occurred, a dummy signal; and in response to detecting the predetermined event, the encryption private key share. 7. The computer-implemented method of claim 6, wherein the dummy signal is of the same length as the private key share. 8. The computer-implemented method of claim 7, further comprising randomly generating the dummy signal. 9. The computer-implemented method of any one of claims 6 to 8, further comprising: generating a group-stake private key share and, in cooperation with other nodes of the group, generating a group-stake public key, the group-stake private key share allowing a subset of nodes of the group controlling at least a threshold of group-stake private key shares to generate a valid signature on behalf of the group; andencumbering a token using the group-stake public key. 10. The computer-implemented method of claim 9, wherein the indicator provided to the plurality of nodes of the group includes a signature generated with the group-stake private key. 11. The computer-implemented method of any one of claims 9 or 10, further comprising: detecting a monitoring request; and \n\n in response to detecting the monitoring request, transmitting a request to join the group and establishing secure a communication channel with other nodes of the group. 12. The computer-implemented method of any one of claims 9 to 11, wherein the group- stake private key share is generated by executing a dealer-free secret sharing protocol with a threshold for a threshold signature scheme, the threshold defined in a monitoring request. 13. The computer-implemented method of any preceding claim, further comprising: determining that one of the nodes of the group has breached a protocol by providing an associated private key share in a plurality of indicators; andin response to determining that one of the nodes of the group has breached the protocol, cooperating with other nodes of the group to confiscate a stake of that one of the nodes of the group. 14. A computer readable storage medium comprising computer-executable instructions which, when executed, configure a processor to perform the method of any one of claims 1 to 13. 15. An electronic device comprising: an interface device; a processor coupled to the interface device; and a memory coupled to the processor, the memory having stored thereon computer executable instructions which, when executed, configure the processor to perform the method of any one of claims 1 to 13.",
+  "classifications": {
+    "ipc": [
+      "H04L 9/00",
+      "H04L 9/08",
+      "H04L 9/0816",
+      "H04L 9/085",
+      "G06F 21/00",
+      "G06F 21/60",
+      "G06F 21/64",
+      "H04L 9/30",
+      "H04L 9/32",
+      "H04L 9/321",
+      "H04L 9/3213",
+      "H04L 9/3236",
+      "H04L 9/3247",
+      "H04L 9/3297",
+      "H04L 9/50"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 9/00",
+      "H04L 9/08",
+      "H04L 9/0816",
+      "H04L 9/085",
+      "G06F 21/00",
+      "G06F 21/60",
+      "G06F 21/64",
+      "H04L 9/30",
+      "H04L 9/32",
+      "H04L 9/321",
+      "H04L 9/3213",
+      "H04L 9/3236",
+      "H04L 9/3247",
+      "H04L 9/3297",
+      "H04L 9/50"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019003071"
+}

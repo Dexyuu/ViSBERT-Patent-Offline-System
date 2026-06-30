@@ -1,0 +1,18 @@
+{
+  "title": "Encoder specifying method and driver",
+  "abstract": "A method for specifying an encoder attached to a motor that is a target of control processing performed by the driver using encoder detection in a predetermined communication state in which the driver is able to communicate with the encoder, and the motor is able to transmit and receive a signal between the encoder and a winding of the motor. The method includes a first step of connecting the driver and the motor by a power line, a second step of transmitting first identification information for identifying a transmission side in the driver and the motor from the transmission side to a reception side through the power line between the driver and the motor connected by the power line, and a third step of specifying the encoder corresponding to the driver with respect to the control processing using at least the first identification information.",
+  "claims": "1. A method for specifying an encoder attached to a motor that is a target of control processing by a driver in a predetermined communication state in which the driver and the encoder are communicable, the motor being able to transmit and receive a signal between the encoder and a winding of the motor, the method comprising: a first step of connecting the driver and the motor by a power line; a second step of transmitting first identification information for identifying a transmission side in the driver and the motor from the transmission side to a reception side through the power line between the driver and the motor connected by the power line; and a third step of specifying the encoder corresponding to the driver with respect to the control processing using at least the first identification information, wherein in the second step, the encoder transmits the first identification information for identifying the encoder from the encoder to the driver through each of the power line and a communication path associated with the predetermined communication state, and in the third step, the driver specifies that the encoder identified by the first identification information corresponds to the driver based on a comparison result between two pieces of the first identification information transmitted through the power line and the communication path.",
+  "patent_id": "US12381496-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02P 8/34",
+      "H02P 2205/03"
+    ],
+    "all": [
+      "H02P 8/34",
+      "H02P 2205/03"
+    ],
+    "source": "converted"
+  }
+}

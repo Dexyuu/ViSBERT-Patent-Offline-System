@@ -1,0 +1,32 @@
+{
+  "title": "Systems and methods for generating reliable client billing quotes based on a team including a plurality of members",
+  "abstract": "Systems and methods for generating reliable client billing quotes are disclosed herein. In an embodiment, a method of generating reliable client billing, quotes includes receiving a selection of a first team from a plurality of teams stored in a central memory, the first team including a plurality of members, generating a graphical user interface using team data corresponding to the first team, the graphical user interface including a quote creation table enabling entry of input data related to the plurality of members of the first team, and generating a new quote for a new client based on the input data related to the plurality of members of the first team.",
+  "claims": "1. A system for generating client billing quotes, the system comprising: at least one memory configured to store team data corresponding to a plurality of teams, each team having a plurality of members that have worked together on one or more past matters, the team data including percentages of total work performed by each of the plurality of members of the team for the one or more past matters; and at least one processor programmed to: (i) generate a graphical user interface including a team button and a quote creation table including a plurality of first members of a first team from the plurality of teams and percentages of total work to be performed by each of the first members of the first team; (ii) based on selection of a second team having a plurality of second members using the team button, automatically retrieve workload data for one or more of the second members regarding a current workload during a defined time period; (iii) compare the workload data to a workload threshold for the one or more second members; (iv) upon determining that the current workload for the one or more second members during the defined time period exceeds the workload threshold, retrieve workload data for one or more additional members eligible to be placed on the second team and replace the one or more second members with the one or more additional members having a current workload during the defined time period that does not exceed the workload threshold; (v) regenerate the quote creation table with an adjusted second team including the one or more additional members, along with percentages of total work to be performed; (vi) enable adjustment and storage of the percentages of total work performed and entry of additional input data related to the adjusted second team; (vii) automatically adjust a second percentage of total work for one member of the adjusted second team upon an adjustment of a first percentage of total work for another member of the adjusted second team using the graphical user interface; and (vii) generate a new quote for a new client based on the adjusted percentages and additional input data related to the adjusted second team.",
+  "patent_id": "US12380378-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/06311",
+      "G06F 3/04817",
+      "G06F 3/0484",
+      "G06F 3/04842",
+      "G06Q 10/1053",
+      "G06Q 10/1091",
+      "G06Q 30/0283",
+      "G06Q 30/04",
+      "G06Q 30/0611"
+    ],
+    "all": [
+      "G06Q 10/06311",
+      "G06F 3/04817",
+      "G06F 3/0484",
+      "G06F 3/04842",
+      "G06Q 10/1053",
+      "G06Q 10/1091",
+      "G06Q 30/0283",
+      "G06Q 30/04",
+      "G06Q 30/0611"
+    ],
+    "source": "converted"
+  }
+}

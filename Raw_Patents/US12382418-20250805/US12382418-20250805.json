@@ -1,0 +1,18 @@
+{
+  "title": "Unavailability period support associated with congestion",
+  "abstract": "A device (e.g., a WTRU, network device, such as a device comprising an access and mobility function (AMF)) may perform one or more of the following actions. The device may send a registration request via non-access stratus signaling. The registration request may include a first duration. The device may receive a registration accept message. The registration accept message may indicate whether the device is to inform the network entity when the WTRU is available. The device may determine that an unavailability event has ended. The WTRU may determine whether to inform the network entity that the WTRU is available. The device may send a registration update request, for example, based on a determination that the unavailability event has ended and a determination that the WTRU is to inform the network entity when the WTRU is available. The registration update request may indicate that the WTRU is available.",
+  "claims": "1. A wireless transmit/receive unit (WTRU) comprising: a processor configured to: receive signaling from a network entity that indicates congestion, wherein the signaling indicates a back-off duration, wherein the back-off duration is associated with congestion; send a registration request to the network entity, wherein the registration request indicates an unavailability period and indicates that the WTRU is unable to receive DL data during the unavailability period, and wherein the registration request is sent during the back-off duration; receive a registration accept message, wherein the registration accept message comprises an indication that indicates whether the WTRU is to inform the network entity at an end of the unavailability period; determine that the unavailability period has ended; determine that the WTRU is to inform the network entity at the end of the unavailability period; and send a registration update request to the network entity based on the determination that the unavailability period has ended and the determination that the WTRU is to inform the network entity at the end of the unavailability period, wherein the registration update request indicates that the unvailability period has ended.",
+  "patent_id": "US12382418-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 60/04",
+      "H04W 28/0289"
+    ],
+    "all": [
+      "H04W 60/04",
+      "H04W 28/0289"
+    ],
+    "source": "converted"
+  }
+}

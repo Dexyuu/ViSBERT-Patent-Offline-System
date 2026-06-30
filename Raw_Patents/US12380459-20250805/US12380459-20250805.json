@@ -1,0 +1,22 @@
+{
+  "title": "Method and system for driving zero time to insight and nudge based action in data-driven decision making",
+  "abstract": "A method for driving zero time-to-insight and effectiveness of insight-to-nudge in a decision-making process. The method includes identifying a scope associated with a data-to-action loop in the decision-making process. The method further includes determining, by a zero time-to-insight engine, a zero time-to-insight quotient for a data-to-insight loop included in the data-to-action loop. The method additionally includes determining, by an insight-to-nudge engine, an insight-to-nudge quotient for an insight-to-action loop included in the data-to-action loop. The method additionally includes determining, by a predictive model factor component, a data-to-action prediction model factor (D2A PMF) for the data-to-action loop, where the D2A PMF quantifies an incremental zero time-to-insight potential for the data-to-action loop and corresponding attributes. The method additionally includes generating a nudge quotient for the data-to-action loop based on the zero time-to-insight quotient, the insight-to-nudge quotient, and the D2A PMF.",
+  "claims": "17. A computer-implemented method for driving zero time-to-insight and effectiveness of insight-to-nudge in a decision-making process, the method comprising: identifying a scope associated with a data-to-action loop in the decision-making process; determining, by a zero time-to-insight engine, a zero time-to-insight quotient for a data-to-insight loop included in the data-to-action loop; determining, by an insight-to-nudge engine, an insight-to-nudge quotient for an insight-to-action loop included in the data-to-action loop; determining, by a predictive model factor component, a data-to-action prediction model factor (D2A PMF) for the data-to-action loop, the D2A PMF quantifying an incremental zero time-to-insight potential for the data-to-action loop and corresponding attributes, wherein the predictive model factor component comprises a predictive machine learning model trained by: running simulations on a plurality of data-to-action cycles for various permutations of data-to-action cycle attributes; dividing the simulations and data-to-action cycles in real-world scenarios into a training set and a testing set; and training and testing the predictive machine learning model based on the training set and the testing set wherein training the predictive machine learning model includes one or more additional training steps when differences between outputs from the testing of the predictive machine learning model and labeled outputs exceed a specified threshold; generating a nudge quotient for the data-to-action loop based on the zero time-to-insight quotient, the insight-to-nudge quotient, and the D2A PMF; and dynamically adjusting a data collection process to at least improve data privacy based on the generated nudge quotient.",
+  "patent_id": "US12380459-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0203",
+      "G06Q 30/0204",
+      "G06Q 30/0206",
+      "G06N 20/00"
+    ],
+    "all": [
+      "G06Q 30/0203",
+      "G06Q 30/0204",
+      "G06Q 30/0206",
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

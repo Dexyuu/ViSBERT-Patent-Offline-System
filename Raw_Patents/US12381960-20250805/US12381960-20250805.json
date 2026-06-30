@@ -1,0 +1,24 @@
+{
+  "title": "Methods and systems for user data management",
+  "abstract": "The present disclosure generally relates to systems and methods for user authentication and data management. Information involving a user's interactions with an online platform is stored on a user device that is used to access the platform. Such information may include user authentication information, personal information, and an interaction history of events, such as logins, purchases, and checkouts. When providing information to the online platform, the user is given the option of what information to provide and, in some cases, the user may opt to provide tokenized information in lieu of sensitive information that the user would prefer not to share. Also, the user may selectively provide information about his or her interaction history, thereby permitting the online platform to establish a trust level of the user using information from the user device. Thus, information about the user's account with the online platform is safely stored on the user device permitting the user to be the custodian of such data, including deciding what information to share with online platforms.",
+  "claims": "1. A method for managing user data associated with online platforms, comprising: monitoring, with a user device, a plurality of interaction events occurring during interactions with a plurality of online platforms by the user device; storing interaction information in memory of the user device, the interaction information including first entries of data, wherein each of the first entries indicates details of a respective one of the plurality of interaction events, the details including at least an event type for the respective interaction event and a time associated with the respective interaction event; analyzing the first entries with the user device; calculating, with the user device based on the analyzing, at least one user interaction score indicative of an amount of verified interactions between a user of the user device and at least one of the plurality of online platforms; providing, by the user device, the at least one user interaction score to a first online platform for use in assessing trust in information provided by the user to the first online platform; permitting the user to control whether to provide at least one of the first entries to the first online platform; receiving, with the user device, first user input indicating that at least one of the first entries is to be provided to the first online platform; and providing at least one of the first entries to the first online platform based on the first user input.",
+  "patent_id": "US12381960-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 67/535",
+      "H04L 63/08",
+      "H04L 67/306",
+      "H04L 67/53",
+      "H04L 67/54"
+    ],
+    "all": [
+      "H04L 67/535",
+      "H04L 63/08",
+      "H04L 67/306",
+      "H04L 67/53",
+      "H04L 67/54"
+    ],
+    "source": "converted"
+  }
+}

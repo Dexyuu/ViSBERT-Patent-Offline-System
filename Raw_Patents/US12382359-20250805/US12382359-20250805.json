@@ -1,0 +1,18 @@
+{
+  "title": "Lower-layer triggered mobility for recovery from radio link failure",
+  "abstract": "A method comprising receiving a first Radio Resource Control (RRC) reconfiguration message, the first RRC reconfiguration message including: a conditional reconfiguration field that comprises a conditional reconfiguration, and a lower-layer triggered mobility (LTM) configuration field that comprises an LTM configuration, the conditional reconfiguration comprising an RRC reconfiguration field that includes a second RRC reconfiguration message, wherein the second RRC reconfiguration message comprises a master key update field and wherein the LTM configuration field is precluded from the second RRC reconfiguration message, the LTM configuration comprising an attempt LTM switch field and an RRC reconfiguration field that includes a third RRC reconfiguration message, wherein the conditional reconfiguration field, the LTM configuration field, and the master key update field are precluded from the third RRC reconfiguration message, detecting a radio link failure of a master cell group (MCG), determining a selected cell based on the radio link failure of the MCG, and performing an LTM cell switch to the selected cell based on the LTM configuration is disclosed.",
+  "claims": "1. A method performed by a user equipment (UE), the method comprising: receiving a first Radio Resource Control (RRC) reconfiguration message, the first RRC reconfiguration message including: a conditional reconfiguration field that comprises a conditional reconfiguration, and a lower-layer triggered mobility (LTM) configuration field that comprises an LTM configuration, the conditional reconfiguration comprising an RRC reconfiguration field that includes a second RRC reconfiguration message, wherein the second RRC reconfiguration message comprises a master key update field and a data radio bearer (DRB) configuration comprising a dual active protocol stack (DAPS) configuration field indicating that a DRB configured by the DRB configuration is a DAPS bearer, and wherein the LTM configuration field is precluded from the second RRC reconfiguration message, the LTM configuration comprising an attempt LTM switch field and an RRC reconfiguration field that includes a third RRC reconfiguration message, wherein: the conditional reconfiguration field, the LTM configuration field, and the master key update field are precluded from the third RRC reconfiguration message, and the DAPS configuration field is precluded from the third RRC reconfiguration message due to the third RRC reconfiguration message being included in the RRC reconfiguration field of the LTM configuration; detecting a radio link failure of a master cell group (MCG); determining a selected cell based on the radio link failure of the MCG; and performing an LTM cell switch to the selected cell based on the LTM configuration, wherein performing the LTM cell switch comprises: retaining each of a logical channel identity, state variables, and buffers of a radio link control (RLC) bearer configured by an RLC bearer configuration, and resetting a transmission count of the RLC bearer.",
+  "patent_id": "US12382359-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 36/305",
+      "H04W 36/0072"
+    ],
+    "all": [
+      "H04W 36/305",
+      "H04W 36/0072"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Evaluation criteria for media authenticity analysis service",
+  "abstract": "Systems and methods directed to a service that analyzes media and outputs a confidence score of the media based on inconsistencies within media and differences between source media and the media, are described herein. In one aspect, a media file may be obtained at a computing resource service provider. The media file may be analyzed using at least one of a plurality of functions to generate media results that indicate inconsistencies within the media file, and/or differences between the media file and corresponding media registered with the computing resource service provider or contextual media that contains similar content to the media file, where individual functions of the plurality of functions are executed in parallel by at least one compute unit. A confidence score, which indicates a significance of the inconsistencies within the media file and/or differences from the registered or contextual media, may be generated based on the media results.",
+  "claims": "1. A system, comprising: one or more processors; and memory with instructions that, as a result of being executed by the one or more processors, cause the system to at least: obtain a media file at a computing resource service provider; obtain a source media file corresponding to the media file; compare the media file to the source media file to generate a plurality of media comparisons that indicate differences between the media file and the source media file; generate an archival score that indicates an importance of differences between the source media file and the media file based on compiling the plurality of media comparisons; analyze data only contained within the media file itself to generate media results that indicate inconsistencies within the media file, the inconsistencies indicative of at least one visual or audio modification made to produce the media file; generate an artifact score that indicates an importance of the inconsistencies within the media file based on the media results; and generate and provide through a graphical user interface a confidence score of the media file by combining the archival score and the artifact score, wherein the confidence score indicates a trustworthiness of the media file, and wherein the graphical user interface visually indicates the differences between the source media file and the media file relative to at least one of the media file or the source media file.",
+  "patent_id": "US12381886-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/12",
+      "G06F 16/41",
+      "G06F 16/483",
+      "G06V 10/761",
+      "G06V 20/48"
+    ],
+    "all": [
+      "H04L 63/12",
+      "G06F 16/41",
+      "G06F 16/483",
+      "G06V 10/761",
+      "G06V 20/48"
+    ],
+    "source": "converted"
+  }
+}

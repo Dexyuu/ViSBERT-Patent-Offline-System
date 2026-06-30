@@ -1,0 +1,16 @@
+{
+  "title": "Containerized modeling of device updates or modifications via digital twins",
+  "abstract": "A method may include receiving an indication of an available updated container. The method may also involve identifying one or more compute surfaces comprising a first container and a second container that correspond to the available container, such that the first container may control one or more operations of an operational technology (OT) device. The method may also include scheduling a deployment of the updated container to replace the second container, receiving expected output data associated with a digital model associated with the OT device, and scheduling a switchover of control of the one or more operations to the second container based on the expected output data.",
+  "claims": "1. A system, comprising: a plurality of devices configured to perform a plurality of operations within an industrial automation system, wherein each of the plurality of devices comprises a compute surface configured to execute a respective container of a plurality of containers of a container orchestration system; a processing system configured to: receive an indication of inoperability of a device of the plurality of devices, the device associated with a first container of the plurality of containers configured to control one or more operations of the device; identify a second container of the plurality of containers performing digital twin operations of the first container in response to receiving the indication, wherein the second container is configured to store data associated with a period of time preceding the indication of inoperability; receive the data from the second container; identify one or more additional operations of the device associated with the inoperability of the device based on the data; identify a cause associated with the indication of inoperability based on the one or more additional operations of the device; and transfer the control of the one or more operations of the device to the second container.",
+  "patent_id": "US12379919-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 8/65"
+    ],
+    "all": [
+      "G06F 8/65"
+    ],
+    "source": "converted"
+  }
+}

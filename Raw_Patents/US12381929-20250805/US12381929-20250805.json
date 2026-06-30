@@ -1,0 +1,22 @@
+{
+  "title": "Region of interest-based frame rate adjustment",
+  "abstract": "Frame rates for rendering video streams depicting conference participants within a physical space are adjusted based on motion detected with respect to those conference participants. Regions of interest are identified within an initial video stream captured by a video capture device. The video capture device is caused to capture, at an initial frame rate, video streams each associated with a different one of the regions of interest. An adjusted frame rate for a region of interest of the regions of interest is determined based on information associated with content depicted within the region of interest. A frame rate of a video stream of the video streams is then adjusted from the initial frame rate to the adjusted frame rate, in which the video stream is associated with the region of interest.",
+  "claims": "1. A method, comprising: causing, during a video conference wherein a video capture device captures an initial video stream depicting multiple conference participants, the video capture device to capture, at an initial frame rate, a first video stream limited to a first region of interest of the initial video stream and a second video stream limited to a second region of interest of the initial video stream, wherein the first region of interest depicts a first conference participant of the multiple conference participants and the second region of interest depicts a second conference participant of the multiple conference participants; determining, based on detected movement information of the first conference participant within the first video stream relative to detected movement information of the second conference participant within the second video stream, a first adjusted frame rate for increasing the initial frame rate for the first video stream and a second adjusted frame rate for decreasing the initial frame rate for the second video stream; and causing the video capture device to capture the first video stream at the first adjusted frame rate and the second video stream at the second adjusted frame rate.",
+  "patent_id": "US12381929-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 65/762",
+      "H04L 65/403",
+      "H04L 65/80",
+      "H04N 23/60"
+    ],
+    "all": [
+      "H04L 65/762",
+      "H04L 65/403",
+      "H04L 65/80",
+      "H04N 23/60"
+    ],
+    "source": "converted"
+  }
+}

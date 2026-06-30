@@ -1,0 +1,48 @@
+{
+  "title": "Memory controller, memory system, and memory control method",
+  "abstract": "According to one embodiment, a nonvolatile memory includes a plurality of memory areas and controller circuit including an error correction code encoder. The error correction code encoder encodes a first data to generate a first parity in a first operation and encodes a second data to generate a second parity in a second operation. The controller circuit writes the first data and the first parity into a first memory area among the plurality of memory areas and writes the second data and the second parity into a second memory area among the plurality of memory areas. The size of the second data is smaller than the size of the first data and the size of the second parity is equal to the size of the first parity.",
+  "claims": "1. A method of controlling a nonvolatile memory, the nonvolatile memory including a plurality of memory areas, the plurality of memory areas including at least a first memory area and a second memory area, the method comprising: managing a level of wear of each of the plurality of memory areas; determining that the level of wear of the first memory area is lower than a first threshold; in response to determining that the level of wear of the first memory area is lower than the first threshold, deciding to perform a first encoding for encoding a first size of first data to generate a second size of a first parity for correcting an error in the first data such that a sum of the first size and the second size is equal to a size of each of the plurality of memory areas, performing the first encoding on the first data to generate the first parity, and writing the first data and the first parity into the first memory area; determining that the level of wear of the second memory area is higher than or equal to the first threshold; and in response to determining that the level of wear of the second memory area is higher than or equal to the first threshold, deciding to perform a second encoding for encoding a third size of second data to generate a fourth size of a second parity for correcting an error in the second data such that the third size is smaller than the first size, and a sum of the third size and the fourth size is equal to the size of each of the plurality of memory areas, performing the second encoding on the second data to generate the second parity, and writing the second data and the second parity into the second memory area.",
+  "patent_id": "US12381580-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03M 13/35",
+      "G06F 3/0619",
+      "G06F 3/064",
+      "G06F 3/0653",
+      "G06F 3/0679",
+      "G06F 11/1008",
+      "G06F 11/1044",
+      "G06F 11/1048",
+      "G06F 11/1068",
+      "G06F 11/1076",
+      "G11C 29/52",
+      "H03M 13/29",
+      "H03M 13/2906",
+      "H03M 13/2957",
+      "G11B 20/1833",
+      "G11C 7/1006",
+      "G11C 2029/0411"
+    ],
+    "all": [
+      "H03M 13/35",
+      "G06F 3/0619",
+      "G06F 3/064",
+      "G06F 3/0653",
+      "G06F 3/0679",
+      "G06F 11/1008",
+      "G06F 11/1044",
+      "G06F 11/1048",
+      "G06F 11/1068",
+      "G06F 11/1076",
+      "G11C 29/52",
+      "H03M 13/29",
+      "H03M 13/2906",
+      "H03M 13/2957",
+      "G11B 20/1833",
+      "G11C 7/1006",
+      "G11C 2029/0411"
+    ],
+    "source": "converted"
+  }
+}

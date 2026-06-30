@@ -1,0 +1,22 @@
+{
+  "title": "Auto-generated fulfillment attributes",
+  "abstract": "Generating a fulfillment attribute(s) associated with an item(s) based on inputs associated with the item(s) is described. One or more inputs (e.g., images) of an item (packaged or unpackaged) can be analyzed, and characteristics associated with the item can be determined based on the analysis of the inputs. Upon receiving a user-specified delivery location, fulfillment attribute(s) can be determined based on the delivery location and the characteristics associated with the item, and the fulfillment attribute(s) can be displayed to a user. For example, a point-of-sale (POS) device can be used during a checkout process at a merchant location to capture an image(s) of an item, and to display a shipping quote for selection by a user based on the captured item imagery.",
+  "claims": "1. A method for automatically generating a shipping quote for an object, the method comprising: executing an application by a processor of a point-of-sale (POS) device; receiving an image or a video of the object captured by a camera of the POS device; determining, by the processor, based on an analysis of the image or the video, whether the object has a cuboidal shape; based on determining that the object has the cuboidal shape: determining, by the processor, that the object is a packaged item; presenting, on a display of the POS device, a first selectable element to confirm that the packaged item is already packaged; receiving, via the application, first user input selecting the first selectable element; presenting, on the display of the POS device, and based on the image or the video, a live, pass-through video feed within a viewport of a user interface of the application; receiving, via the application, second user input at three or more locations within the viewport, each location respectively indicating a corner of the packaged item as represented in the image or the video; determining, by the processor, and using an augmented reality (AR) component to convert the second user input received at the three or more locations into coordinates representing a boundary of the packaged item, dimensions of the packaged item, the dimensions comprising a length, a width, and a height; and storing, by the processor, in memory of the POS device, the dimensions as structured data; calculating, by the processor, and based on the dimensions stored as the structured data and a dimensional factor specific to a fulfillment provider, a dimensional weight of the packaged item; receiving, based on third user input received via the application, weight data from a scale via a wireless transceiver of the POS device, the weight data indicating an actual weight of the packaged item; receiving, via the application, fourth user input that specifies a delivery location where the packaged item is to be shipped; calculating, by the processor, and based on the delivery location and a greater of the dimensional weight and the actual weight, a cost of shipping the packaged item to the delivery location using a delivery service of the fulfillment provider; presenting, on the display of the POS device, a second selectable element indicating the cost; and selecting, by the processor, during a checkout process for the packaged item, the delivery service for shipping the packaged item to the delivery location based on a selection of the second selectable element.",
+  "patent_id": "US12380366-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 20/00",
+      "G06Q 10/08345",
+      "G06Q 20/208",
+      "G06V 10/46"
+    ],
+    "all": [
+      "G06N 20/00",
+      "G06Q 10/08345",
+      "G06Q 20/208",
+      "G06V 10/46"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Data processing systems and methods for performing assessments and monitoring of new versions of computer code for compliance",
+  "abstract": "In various embodiments, a data map generation system is configured to receive a request to generate a privacy-related data map for particular computer code, and, at least partially in response to the request, determine a location of the particular computer code, automatically obtain the particular computer code based on the determined location, and analyze the particular computer code to determine privacy-related attributes of the particular computer code, where the privacy-related attributes indicate types of personal information that the particular computer code collects or accesses. The system may be further configured to generate and display a data map of the privacy-related attributes to a user.",
+  "claims": "1. A method comprising: monitoring, by computing hardware, a location where computer code is located; identifying, by the computing hardware, a new instance of the computer code at the location; comparing, by the computing hardware, the new instance of the computer code with a previous instance of the computer code to identify a change has been made to the computer code; responsive to identifying the change, analyzing, by the computing hardware, the new instance of the computer code to determine an attribute of the new instance of the computer code, wherein the attribute identifies new functionality that the new instance of the computer code performs over the previous instance of the computer code; providing, by the computing hardware, a graphical user interface for display, wherein the graphical user interface is configured to prompt for information regarding the new functionality; and communicating, by the computing hardware, the information regarding the new functionality for use in conducting an assessment of the computer code.",
+  "patent_id": "US12381915-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/20",
+      "G06Q 10/06",
+      "H04L 63/04"
+    ],
+    "all": [
+      "H04L 63/20",
+      "G06Q 10/06",
+      "H04L 63/04"
+    ],
+    "source": "converted"
+  }
+}

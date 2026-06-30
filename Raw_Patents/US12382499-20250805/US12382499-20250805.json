@@ -1,0 +1,24 @@
+{
+  "title": "Channel occupancy time (COT)-structure indication",
+  "abstract": "Wireless communications systems and methods related to communicating a structure of a channel occupancy time (COT) are provided. A first wireless communication device communicates with a second wireless communication device, a first indicator indicating at least one of a subband configuration for a COT or a duration of the COT. The first wireless communication device communicates with the second wireless communication device during the COT, a first communication signal based on at least one of the subband configuration for the COT or the duration of the COT. The first wireless communication device communicates with the second wireless communication device during the COT, a second indicator indicating an update for at least one of the subband configuration for the COT or the duration of the COT. Additionally, the first wireless communication device communicates with the second wireless communication device during the COT, a second communication signal based on the update.",
+  "claims": "1. A method of wireless communication performed at a user equipment (UE), the method comprising: receiving, from a network unit, a first indicator indicating a duration of at least a first portion of a channel occupancy time (COT); receiving, from the network unit, a second indicator indicating a duration of at least a second portion of the COT different than the first portion of the COT and a flag indicating whether the second portion is a full remaining COT duration, wherein the second indicator comprises an uplink (UL) grant indicating one or more valid subbands of a subband configuration based on one or more listen-before-talk (LBT) results at a base station (BS); and communicating at least one communication signal before an end of the duration of the second portion of the COT in response to the flag indicating the second portion is the full remaining COT duration, based on at least one of the first indicator or the second indicator.",
+  "patent_id": "US12382499-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 74/0816",
+      "H04L 5/0048",
+      "H04W 72/1268",
+      "H04W 72/1273",
+      "H04W 72/23"
+    ],
+    "all": [
+      "H04W 74/0816",
+      "H04L 5/0048",
+      "H04W 72/1268",
+      "H04W 72/1273",
+      "H04W 72/23"
+    ],
+    "source": "converted"
+  }
+}

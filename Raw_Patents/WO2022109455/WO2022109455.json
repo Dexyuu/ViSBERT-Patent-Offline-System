@@ -1,0 +1,27 @@
+{
+  "application_id": "WO2022109455",
+  "application_id_fs": null,
+  "title": "Weighted statistics on a wagering network",
+  "abstract": "A method of data management through which statistics can be weighed against 3rd party statistics to create normalized statistics that may be used to determine wagering odds for an event, series, or drive in an event or a specific play within an event. Further, embodiments may include a wagering software application or a wagering app, which is a program that enables the user to place bets on individual plays in the live event, streams audio and video from the live event, and features the available wagers from the live event on the mobile device. The wagering app allows the user to interact with the wagering network to place bets and provide payment/receive funds based on wager outcomes.",
+  "claims": "Claims Claims What is claimed is: 1. A method for calculating odds using multiple data sources, comprising: extracting odds data from an odds database; connecting to at least one third-party entity and searching at least one third-party odds database for similar data to a live event; extracting odds from the at least one third-party odds database containing odds for the similar data; normalizing the extracted odds by one of discarding outlier odds; calculating odds of the live event by using the normalized odds or pre-calculated odds stored in the third-party odds database; and providing the combined odds on a wagering network. 2. The method for calculating odds using multiple data sources of claim 1, further comprising determining the weighted average using a weight set by one of an administrator or a module. 3. The method for calculating odds using multiple data sources of claim 2, wherein the weight is based on at least one of the accuracy of the determination of odds for the outcome of a play and a specialized collection of one type of data from the live event, and is increased or decreased according to the amount of data in a dataset. 4. The method for calculating odds using multiple data sources of claim 1, wherein the discarded odds are determined by at least one of a preset standard deviation or discarding odds as determined by an administrator of a system. 24 \n\nThe method for calculating odds using multiple data sources of claim 1, further comprising combining odds data from at least two third parties and the calculated odds by taking a weighted average. A system for calculating odds using multiple data sources, comprising: a multiple odds calculation module; an odds database; a third-party odds database, wherein the multiple odds calculation module is configured to extract odds from the odds database, collect data from a live event, connect to at least one third party, search and extract similar play data from at least one third-party odds database, normalize the extracted odds, combine odds using a weighted average, and store the combined odds in the odds database; and the third-party odds database is configured to contain play data on historical or live events. The system for calculating odds using multiple data sources of claim 6, wherein the play data in the third-party odds database is an amount of plays made during the live event. The system for calculating odds using multiple data sources of claim 6, wherein the play data in the third-party odds database is further configured to be an amount of games played during a season. The system for calculating odds using multiple data sources of claim 6, wherein the play data in the third-party odds database is further configured to be a total number of games ever played. \n\nThe system for calculating odds using multiple data sources of claim 6, wherein the play data in the third-party odds database is further configured to be a team playing. The system for calculating odds using multiple data sources of claim 6, wherein the play data in the third-party odds database is further configured to be an amount of players playing. The system for calculating odds using multiple data sources of claim 6, wherein the play data in the third-party odds database is further configured to be a play ID. The system for calculating odds using multiple data sources of claim 6, wherein the play data in the third-party odds database is further configured to be a time during the live event. The system for calculating odds using multiple data sources of claim 6, wherein the play data in the third-party odds database is further configured to be a temperature of the live event. The system for calculating odds using multiple data sources of claim 6, wherein the multiple odds calculation module is further configured to normalize the odds through a preset standard deviation or an administrator of the system, calculate the odds from the normalized odds.",
+  "classifications": {
+    "ipc": [
+      "G07F 17/32",
+      "A63F 9/24",
+      "G06F 17/00",
+      "G06F 17/40",
+      "G06Q 10/04",
+      "G06Q 50/34"
+    ],
+    "cpc": [],
+    "all": [
+      "G07F 17/32",
+      "A63F 9/24",
+      "G06F 17/00",
+      "G06F 17/40",
+      "G06Q 10/04",
+      "G06Q 50/34"
+    ],
+    "source": "csv"
+  }
+}

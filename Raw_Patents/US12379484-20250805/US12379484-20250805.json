@@ -1,0 +1,22 @@
+{
+  "title": "GPR scanning through the use of external scene knowledge",
+  "abstract": "A method for scanning an area using a ground penetrating radar (GPR) by moving the GPR along at least one scanning trajectory. The method includes determining at least one landmark object image feature by applying object detection techniques to images of the area to be scanned, determining a position and/or type of at least one landmark object corresponding to the at least one landmark object image feature in a scanning-area coordinate frame, determining a candidate position or candidate type of at least one candidate underground asset in the area to be scanned by using the determined position or type of the at least one landmark object determining the at least one scanning trajectory using the candidate position and/or candidate type of the at least one candidate underground asset.",
+  "claims": "1. A method for planning at least one scanning trajectory for scanning an area using a ground penetrating radar (GPR) by moving the GPR along at least one planned scanning trajectory, the method comprising: determining at least one landmark object image feature by applying object detection techniques to images of the area to be scanned capturing an overground scene; determining a position or type of at least one landmark object corresponding to the at least one landmark object image feature in a scanning-area coordinate frame; determining a candidate position or candidate type of at least one candidate underground asset in the area to be scanned by using the determined position or type of the at least one landmark object; and determining the at least one planned scanning trajectory using the candidate position or candidate type of the at least one candidate underground asset, wherein the landmark object image feature is determined by the object detection techniques applied to the images that is carried out using machine learning real-time object detection techniques.",
+  "patent_id": "US12379484-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 13/885",
+      "G01S 7/411",
+      "G06N 5/025",
+      "G06V 20/58"
+    ],
+    "all": [
+      "G01S 13/885",
+      "G01S 7/411",
+      "G06N 5/025",
+      "G06V 20/58"
+    ],
+    "source": "converted"
+  }
+}

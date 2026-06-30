@@ -1,0 +1,26 @@
+{
+  "title": "Fault detection and automatic switching of relays",
+  "abstract": "An apparatus including one or more relays and a fault detector is disclosed. The one or more relays are coupled to a load. The fault detector is coupled with the one or more relays and receives at least one control signal. The fault detector includes a sensor to detect electricity flowing through the load and generate a detection signal. Based on a comparison of the control signal and the detection signal, the fault detector generates a fault signal indicative of whether a relay is functional or faulty.",
+  "claims": "1. An apparatus, comprising: a controller configured to generate a first control signal; a first relay coupled to a load; a fault detector coupled to the controller and the first relay and configured to receive the first control signal and generate a first fault signal, wherein, the fault detector further comprising: a first input coupled with the controller for receiving the first control signal; a first output coupled to the first relay for providing the first control signal to the first relay; a sensor to detect a presence and an absence of electricity flowing through the load and generate a detection signal; and a logic gate to compare the detection signal and the first control signal, wherein: when a logic level of the detection signal is the same as a logic level of the first control signal, the first fault signal indicates that the first relay is functional, and when the logic level of the detection signal is different from the logic level of the first control signal, the first fault signal indicates that the first relay is faulty.",
+  "patent_id": "US12381557-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03K 19/00392",
+      "G01R 31/3278",
+      "H01H 47/005",
+      "H01H 71/1081",
+      "H01H 71/125",
+      "H01H 2071/048"
+    ],
+    "all": [
+      "H03K 19/00392",
+      "G01R 31/3278",
+      "H01H 47/005",
+      "H01H 71/1081",
+      "H01H 71/125",
+      "H01H 2071/048"
+    ],
+    "source": "converted"
+  }
+}

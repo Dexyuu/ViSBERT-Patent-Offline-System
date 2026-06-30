@@ -1,0 +1,18 @@
+{
+  "title": "Hardware-based image/video processing in machine learning-accelerator system-on-chip",
+  "abstract": "A machine learning (ML)-accelerator system-on-chip (SoC) is described. The ML-accelerator SoC includes a set of ML-accelerator cores. The ML-accelerator SoC also includes a network-on-chip (NoC) coupled to the set of ML-accelerator cores. The ML-accelerator SoC further includes an inference video post processing (infVPP) module coupled to the NoC. The ML-accelerator SoC also includes a video decoder coupled to the NoC.",
+  "claims": "1. A machine learning (ML)-accelerator system-on-chip (SoC), comprising: a plurality of ML-accelerator cores; a network-on-chip (NoC) coupled to the plurality of ML-accelerator cores; an inference video post processing (infVPP) module coupled to the NoC; and an on-chip video decoder coupled to the NoC to enable single chip video or imaging ML applications, wherein the video decoder is operable to decode video/image data received in a first storage format and to store decoded video/image data in a predetermined video format in a first memory of the ML-accelerator SoC, wherein the infVPP module is operable to convert the decoded video/image data stored in the first memory into activation input data stored in a second memory of the ML-accelerator SoC, wherein the infVPP module is further operable to provide image processing, image data scaling, cropping, normalizing, data packing, and formatting of the decoded video/image data in a packed dense depth data dump (D4) format to provide the activation input data, and wherein the infVPP module improves decoding processing efficiency and overall performance of the ML-accelerator cores in terms of inference per second (inference/sec).",
+  "patent_id": "US12380058-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 15/80",
+      "G06F 9/5027"
+    ],
+    "all": [
+      "G06F 15/80",
+      "G06F 9/5027"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Detection device and image display system",
+  "abstract": "A detection device includes an input device and a detector. The input device in the detection device receives input of image information output from a camera. The detector performs a detection process to detect positions of eyes of a user. The detector performs, as the detection process, a first process to detect first positions of the eyes based on the image information by template matching, and a second process to detect a position of a face based on the image information by template matching and detect second positions of the eyes based on the detected position of the face.",
+  "claims": "1. A detection device, comprising: an input device configured to receive input of image information; a controller configured to perform a detection process to detect current positions of eyes of a user; and a predictor configured to predict future positions of the eyes of the user, wherein the controller performs, as the detection process, a first process to detect first positions of the eyes of the user based on the input image information by template matching using a first template image, a second process to detect a position of a face of the user based on the input image information by template matching using a second template image different from the first template image and detect second positions of the eyes of the user based on the detected position of the face of the user, and a third process to detect third positions of the eyes of the user based on the input image information, the third process being different from the first process, wherein the predictor predicts, based on the third positions of the eyes of the user, the future positions of the eyes of the user.",
+  "patent_id": "US12382010-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 13/383",
+      "G06T 7/74",
+      "G06V 10/147",
+      "G06V 40/166",
+      "H04N 13/312",
+      "G06T 2207/30201"
+    ],
+    "all": [
+      "H04N 13/383",
+      "G06T 7/74",
+      "G06V 10/147",
+      "G06V 40/166",
+      "H04N 13/312",
+      "G06T 2207/30201"
+    ],
+    "source": "converted"
+  }
+}

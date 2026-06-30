@@ -1,0 +1,24 @@
+{
+  "title": "Patent mapping",
+  "abstract": "The present inventive subject matter provides systems, methods, software, and data structures for patent mapping, storage, and searching. Some such embodiments include mapping patent documents, claims, and claim limitations. Some further embodiments provide for searching a universe of patent documents by patent document, claim, limitation, class, element, or concept.",
+  "claims": "1. A non-transitory machine-readable medium including instructions that, when executed on a processor, cause the processor to perform operations including: identifying a plurality of patent documents and at least some patent claims included in each patent document; generating a list of concepts associated with the plurality of patent documents and the at least some of the patent claims; screening the list of concepts with respect to a target subject matter; filtering at least one concept from the list of concepts based on the screening; generating a screening data structure entity comprising outputs from the screening, the outputs comprising a status for each concept of the list of concepts, a list of one or more patent claim of the at least some of the patent claims not applicable to the target subject matter, a list of patent documents of the plurality of patent documents that are not applicable to the target subject matter; annotating a concept filtered out of the list of concepts, a patent claim of the one or more patent claim, or a patent document of the list of patent documents by associating the screening data structure with the concept filtered out, the patent claim, or the patent document; and storing the filtered list of concepts in a data structure in a memory storage device.",
+  "patent_id": "US12380525-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 99/00",
+      "G06F 40/143",
+      "G06F 40/30",
+      "G06Q 50/184",
+      "G06F 16/86"
+    ],
+    "all": [
+      "G06Q 99/00",
+      "G06F 40/143",
+      "G06F 40/30",
+      "G06Q 50/184",
+      "G06F 16/86"
+    ],
+    "source": "converted"
+  }
+}

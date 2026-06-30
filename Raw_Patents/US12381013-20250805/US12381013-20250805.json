@@ -1,0 +1,20 @@
+{
+  "title": "Predicting tolerability in aggressive non-hodgkin lymphoma",
+  "abstract": "Systems and methods described herein improve outcomes of subjects with lymphoma. Subjects with lymphoma may be able to avoid conventional treatments that have a high probability of leading to an adverse effect in the subject. Systems and methods allow for a more accurate prediction of subjects who cannot tolerate a particular treatment. Methods may include accessing an input data set that includes multiple input data values pertaining to a particular subject with lymphoma. The method may further include inputting the input data set into a machine-learning model to generate a score corresponding to the degree to which the particular subject will tolerate a particular treatment. The method may include outputting a prediction of the tolerance of the particular subject to the particular treatment using the generated score.",
+  "claims": "1. A method comprising: accessing an input data set that includes multiple input data values pertaining to a particular subject with lymphoma, each input data value corresponding to a variable of a set of variables, wherein the multiple input data values comprise an index value characterizing comorbidities of the particular subject; inputting the input data set into a machine-learning model to generate a score corresponding to a degree to which the particular subject will tolerate a particular treatment to the lymphoma, wherein tolerating the particular treatment comprises not having the particular treatment ended or reduced below a threshold dose within a time period after starting the particular treatment, wherein the machine-learning model comprises: a set of parameters determined using multiple training data elements, each of the multiple training data elements corresponding to a training subject with the lymphoma, and each of the multiple training data elements including a training input data set and a label, the label indicating a tolerance of the training subject to the particular treatment; and a function relating received input data sets and the parameters to the score; generating a prediction of the tolerance of the particular subject to the particular treatment using the generated score; and administering (a) the particular treatment to the particular subject when the prediction of the tolerance is that the particular subject will tolerate the particular treatment, and (b) an alternative treatment to the particular subject when the prediction of the tolerance is that the particular subject will not tolerate or is unlikely to tolerate the particular treatment, wherein the particular treatment is R-CHOP (rituximab, cyclophosphamide, doxorubicin hydrochloride, vincristine, prednisolone), M-CHOP (mosuntuzumab with CHOP), or anti-CD20 treatment with CHOP.",
+  "patent_id": "US12381013-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16H 50/50",
+      "G16H 20/10",
+      "G16H 50/30"
+    ],
+    "all": [
+      "G16H 50/50",
+      "G16H 20/10",
+      "G16H 50/30"
+    ],
+    "source": "converted"
+  }
+}

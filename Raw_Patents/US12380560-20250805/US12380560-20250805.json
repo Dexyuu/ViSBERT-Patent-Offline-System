@@ -1,0 +1,48 @@
+{
+  "title": "Systems, methods, and devices for image-based plaque analysis and risk determination",
+  "abstract": "This application is directed to systems, methods, and devices for image based analysis of plaque. In some embodiments, the approaches herein can be used for developing treatment plans, which can include local treatment, systemic treatment, or both. In some embodiments, the approaches herein can be used for stent selection. In some embodiments, the approaches herein can be used for surgical planning, which can include robotic surgical planning. In some embodiments, the approaches herein can be used for image normalization. In some embodiments, the approaches herein can be used for identifying plaque calcification thresholds. In some embodiments, the approaches herein can be used for identifying thin cap fibroatheroma. In some embodiments, the approaches herein can be used for coronary artery tree reconstruction. Some embodiments are directed to coronary artery disease risk stratification.",
+  "claims": "1. A computer-implemented method for preoperatively aiding stent selection and surgical planning for coronary revascularization based on image processing analysis of a medical image, the computer-implemented method comprising: receiving, by a computer system, a multiplanar reconstruction of a coronary computed tomography angiography (CCTA) image of a subject, the multiplanar reconstruction showing one or more lesions, wherein the one or more lesions correspond to one or more segments of a vessel where plaque is present; identifying, by the computer system, one or more lesions in the multiplanar reconstruction; identifying plaque in the one or more lesions based at least in part on applying a trained machine learning algorithm to the multiplanar reconstruction; determining, by the computer system, a lesion for treatment from the one or more lesions, wherein determining the lesion for treatment comprises: generating, by the computer system, a graphical user interface comprising the multiplanar reconstruction; and receiving, by the computer system, via the graphical user interface a user selection of a lesion of the one or more lesions; determining, by the computer system, a density of the plaque present in the lesion corresponding to the user selection based at least in part on analyzing radiodensities of image pixels of the multiplanar reconstruction; preoperatively determining, by the computer system, a stenting procedure for the lesion corresponding to the user selection based at least in part on the determined density of the plaque, wherein the stenting procedure comprises one or more of angioplasty or atherectomy; preoperatively determining, by the computer system, based at least in part on a normal lumen diameter, a diameter for a stent, wherein the normal lumen diameter is obtained from a segment of the vessel adjacent to the lesion corresponding to the user selection; preoperatively determining, by the computer system, based on a length of the lesion, a length of the stent, wherein the length of the lesion is determined along an axis generally parallel to a centerline of the vessel, wherein the centerline of the vessel is determined based at least in part on applying the trained machine learning algorithm to the multiplanar reconstruction; preoperatively determining, by the computer system, based on a location of the lesion, a location for placement of the stent, wherein the location is determined relative to a reference point along the vessel, the reference point comprising one or more of an ostium, bifurcation point, or trifurcation point defined by a morphology of the vessel; preoperatively generating, by the computer system, a surgical plan comprising the stenting procedure, diameter of the stent, the length of the stent, and the location for placement of the stent; and preoperatively causing, by the computer system, generation of an updated graphical user interface showing the preoperatively generated surgical plan to preoperatively aid stent selection and surgical planning for coronary revascularization, wherein the computer system comprises at least one processor and an electronic storage medium.",
+  "patent_id": "US12380560-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/0014",
+      "A61B 6/027",
+      "A61B 6/035",
+      "A61B 6/4241",
+      "A61B 6/504",
+      "A61B 6/5217",
+      "G06T 5/60",
+      "G06T 7/62",
+      "G16H 30/40",
+      "G16H 50/30",
+      "G06T 2207/10081",
+      "G06T 2207/20021",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30048",
+      "G06T 2207/30101",
+      "G06V 10/766"
+    ],
+    "all": [
+      "G06T 7/0014",
+      "A61B 6/027",
+      "A61B 6/035",
+      "A61B 6/4241",
+      "A61B 6/504",
+      "A61B 6/5217",
+      "G06T 5/60",
+      "G06T 7/62",
+      "G16H 30/40",
+      "G16H 50/30",
+      "G06T 2207/10081",
+      "G06T 2207/20021",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30048",
+      "G06T 2207/30101",
+      "G06V 10/766"
+    ],
+    "source": "converted"
+  }
+}

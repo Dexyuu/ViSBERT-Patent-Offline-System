@@ -1,0 +1,26 @@
+{
+  "title": "System, devices and/or processes for assignment, configuration and/or management of one or more hardware components of a computing device",
+  "abstract": "Briefly, example methods, apparatuses, and/or articles of manufacture are disclosed that may facilitate and/or support assignment, configuration and/or management of one or more hardware components of a computing device.",
+  "claims": "1. A method, comprising: transitioning a particular interface of a particular hardware component to an active state responsive at least in part to a determination, at least in part via execution of a particular second level software component, that the particular interface of the particular hardware component has been configured by an additional second level software component in accordance with one or more parameters specified by the particular second level software component, wherein the additional second level software component operates in a non-secure security state; at least in part via execution of the particular second level software component, granting permission for a particular first level software component to access the particular interface of the particular hardware component; and transitioning the particular interface of the particular hardware component from the active state to a terminated state or a disabled state responsive at least in part to one or more outstanding jobs being completed, terminated or cancelled and/or responsive at least in part to a revocation of one or more job slots; wherein the particular second level software component operates in the non-secure security state, a secure security state or a realm security state, wherein the particular first level software component operates in a same security state as the particular second level software component and wherein the transitioning the particular interface of the particular hardware component from the active state to a terminated state or a disabled state comprises transitioning the particular interface of the particular hardware component from the active state to the terminated state or the disabled state at least in part via execution of the additional second level software component operating in the non-secure security state.",
+  "patent_id": "US12380200-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/44",
+      "G06F 9/45558",
+      "G06F 9/4881",
+      "G06F 21/52",
+      "G06F 2009/45587",
+      "G06F 2221/034"
+    ],
+    "all": [
+      "G06F 21/44",
+      "G06F 9/45558",
+      "G06F 9/4881",
+      "G06F 21/52",
+      "G06F 2009/45587",
+      "G06F 2221/034"
+    ],
+    "source": "converted"
+  }
+}

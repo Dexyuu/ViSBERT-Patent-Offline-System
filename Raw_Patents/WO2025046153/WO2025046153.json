@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2025046153",
+  "application_id_fs": "WO2025046153",
+  "title": "Methods and apparatus for projector camera systems",
+  "abstract": "A method of transforming data transmitted through a physical environment comprises the following steps An emitted signal is emitted into the physical environment. A detected signal is then detected from detection of the emitted signal after interaction with the physical environment. The detected signal is then transformed to modify a further emitted signal. These steps are repeated until a predetermined objective is met. A system suitable for performing such a method is also described. In particular embodiments, the emitted signal is emitted by a projector, and the detected signal is detected by a camera.",
+  "claims": "Claims Claims 1 . A method of transforming data transmitted through a physical environment, the method comprising: emitting an emitted signal into the physical environment; detecting a detected signal from detection of the emitted signal after interaction with the physical environment; transforming the detected signal to modify a further emitted signal; and repeating the emitting, detecting, and transforming steps until a predetermined objective is met. 2. The method of claim 1 , wherein the emitted signal is an image emitted by a projector and the detected signal is an image captured by a camera. 3. The method of claim 2, wherein the projector is a video projector. 4. The method of claim 3, wherein image capture by the camera is matched to a refresh rate of the video projector. 5. The method of any preceding claim, wherein the transforming step is performed using a generator model adapted to predict an emitted signal from a detected signal. 6. The method of claim 5, wherein the generator model is a trained machine learning model. 7. The method of claim 6, wherein the machine learning model is an artificial neural network. 8. The method of claim 6 or claim 7, wherein the machine learning model is trained to blend a predetermined image into the further emitted image. 9. The method of claim 8, wherein the predetermined image is predetermined text or other loss function. 10. The method of any of claims 6 to 9, further comprising modifying the generator model in real time. 11 . The method of any preceding claim, wherein the transforming step comprises applying a predetermined style to the further emitted signal. 12. The method of any preceding claim, wherein the transforming step comprises operating on the detected signal using a one-way function. 13. The method of claim 12, wherein the one-way function comprises a structured noise generator function. 14. The method of claim 12 or claim 13, wherein the emitting, detecting and transforming steps are repeated a predetermined number of times to achieve the predetermined objective, the predetermined objective comprising a one-way function. 15. The method of any of claims 12 to 14, wherein an output of the method is a secure data recording. 16. The method of any preceding claim, wherein the method is performed in parallel by a plurality of emitter-detector pairs. 17. The method of claim 16, wherein the plurality of emitter-detector pairs is configured to act oppositionally, with at least one of the plurality of emitter-detector pairs adversarial to the other emitter-detector pairs. 18. The method of claim 17 where dependent on claim 14, wherein an adversarial autoencoder or any anomaly detector is adapted to verify integrity of the emission-recording pairs. 19. The method of claim 16 where dependent on claim 6 or claim 7, wherein an output of the method is production of a 3D image or other analysis. 20. The method of any of claims 1 to 7, wherein the predetermined objective is completion of a computation process. 21 . A system for transformation of data transmitted through a physical environment, the system comprising: at least one emitter for emitting an emitted signal into the environment; at least one detector for detecting a detected signal from detection of the emitted signal after interaction with the environment; and computing means, wherein the computing means is adapted to transform the detected signal to modify the emitted signal. 22. The system of claim 22, wherein the emitter is a projector and the detector is a camera, and wherein the computing means is a suitably programmed processor. 23. The system of claim 22, wherein the projector is a video projector. 24. The system of claim 23, wherein image capture by the camera is matched to a refresh rate of the video projector. 25. The system of any of claims 21 to 25, wherein the system is adapted to perform the method of one or more of claims 5 to 20.",
+  "classifications": {
+    "ipc": [
+      "H04N 9/00",
+      "H04N 9/12",
+      "H04N 9/31",
+      "H04N 9/3191",
+      "H04N 9/3194",
+      "G06F 21/00",
+      "G06F 21/70",
+      "G06F 21/82",
+      "G06N 3/00",
+      "G06N 3/02",
+      "G06N 3/08",
+      "G06N 3/088",
+      "G06T 11/00",
+      "H04N 9/3179"
+    ],
+    "cpc": [],
+    "all": [
+      "H04N 9/00",
+      "H04N 9/12",
+      "H04N 9/31",
+      "H04N 9/3191",
+      "H04N 9/3194",
+      "G06F 21/00",
+      "G06F 21/70",
+      "G06F 21/82",
+      "G06N 3/00",
+      "G06N 3/02",
+      "G06N 3/08",
+      "G06N 3/088",
+      "G06T 11/00",
+      "H04N 9/3179"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025046153"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Method and apparatus for fine-grained hierarchical locking in a multi-master database system",
+  "abstract": "A method of managing locks in a database is performed by a row lock manager of a database master. The method includes receiving, from a transaction executing on the database master, a row lock request for a row in the database. The row lock request includes a page in the database where the row is located. The row lock request also includes a row lock mode of sufficient strength to perform the transaction. Then, sending, to a page lock manager, a request for a covering lock of the page. The request specifies a page lock mode of sufficient strength to satisfy the row lock mode. Also, receiving, from the page lock manager, a grant of the page lock. The page lock includes information on row locks of rows located in the page. Then, granting, to the transaction, the row lock.",
+  "claims": "1. A method of managing locks in a database, the method comprising: receiving, by a row lock manager of a database master, from a transaction executing on the database master, a row lock request for a row in the database, the row lock request including a page in the database where the row is located, the row lock request including a row lock mode of sufficient strength to perform the transaction; sending, by the row lock manager, to a page lock manager, a request for a covering lock of the page, the request specifying a page lock mode of sufficient strength to satisfy the row lock mode; receiving, by the row lock manager, from the page lock manager, a grant of the page lock, the page lock including information on row locks of rows located in the page; and granting, by the row lock manager, to the transaction, the row lock, only if the page lock mode is the same or stronger than the row lock mode.",
+  "patent_id": "US12380086-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/2343",
+      "G06F 16/273"
+    ],
+    "all": [
+      "G06F 16/2343",
+      "G06F 16/273"
+    ],
+    "source": "converted"
+  }
+}

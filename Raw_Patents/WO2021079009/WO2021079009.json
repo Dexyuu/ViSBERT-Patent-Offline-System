@@ -1,0 +1,33 @@
+{
+  "application_id": "WO2021079009",
+  "application_id_fs": null,
+  "title": "Method for managing image data and automotive lighting device",
+  "abstract": "The invention provides a method for managing image data in an automotive lighting device (10). This method comprises the steps of providing an image pattern (1), dividing the image pattern (1) in rows or columns of pixels (2), provide, for each row pattern (2), a plurality of linear segments, compress the data of the linear segments and send the compressed data to the light module. The invention also provides an automotive lighting device (10) for performing the steps of such a method.",
+  "claims": "Claims Claims [Claim 1] [Method for managing image data in an automotive lighting device (10), the method comprising the steps of: - providing an image pattern (1 ) comprising a plurality of pixels (11 ), wherein each pixel is characterized by a number related to the luminous intensity of the pixel (11 ); - divide the image pattern (1 ) in rows or columns of pixels (2), thus creating a plurality of row patterns (2); - provide, for each row pattern (2), a plurality of linear segments, each linear segment providing a linear approximation to a group of pixels; - compress the data of the linear segments; and - send the compressed data to the light module. [Claim 2] Method according to claim 1 , wherein the light pixels (11 ) of the image pattern (1 ) are greyscale pixels, and more particularly, the luminous intensity of each pixel (11 ) is characterized by a number according to a scale from 0 to 255. [Claim 3] Method according to any of the preceding claims, wherein each linear segment is defined by a start value, an end value and the number of pixels comprised between the start value and the end value. [Claim 4] Method according to claim 3, wherein the start value of the linear segment coincides with a first value of the group of pixels and the end value of the linear segment coincides with a last value of the group of pixels. [Claim 5] Method according to any of the preceding claims, further comprising the step of decompressing the compressed data. [Claim 6] Method according to any of the preceding claims, wherein the compressed data is related only to a particular portion of the image pattern (1 ). [Claim 7] Automotive lighting device (10) comprising: - a light module (4) comprising a plurality of light sources (5); and - a control unit (6) to carry out the steps of a method according to any of the preceding claims. \n\n[Claim 8] Automotive lighting device (10) according to claim 7, wherein the light module (4) further comprises a processor unit (7), the processor unit (7) being configured to decompress the compressed data. [Claim 9] Automotive lighting device (10) according to any of claims 7 or 8, wherein the light sources (5) are solid-state light sources, such as LEDs. ]",
+  "classifications": {
+    "ipc": [
+      "H04N 19/167",
+      "H04N 19/115",
+      "H04N 19/593",
+      "H04N 19/98",
+      "B60Q 1/04",
+      "B62J 6/02",
+      "F21S 41/00",
+      "G01C 21/36",
+      "H04N 19/119"
+    ],
+    "cpc": [],
+    "all": [
+      "H04N 19/167",
+      "H04N 19/115",
+      "H04N 19/593",
+      "H04N 19/98",
+      "B60Q 1/04",
+      "B62J 6/02",
+      "F21S 41/00",
+      "G01C 21/36",
+      "H04N 19/119"
+    ],
+    "source": "csv"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Refreshing cache regions using a memory controller and multiple tables",
+  "abstract": "In one embodiment, a controller in a microprocessor, the controller configured to manage accesses to dynamic random access memory (DRAM), the controller comprising: a first table configured to track cache lines that have been written to zero for a plurality of first memory regions; and a second table configured to track the cache lines that have been written to zero for a plurality of second memory regions, wherein each of the plurality of second memory regions comprises a group of the plurality of first memory regions where all of the cache lines within each of the plurality of the first memory regions within the group have been written to zero.",
+  "claims": "1. A controller in a microprocessor, the controller configured to manage accesses to dynamic random access memory (DRAM), the controller comprising: a first table comprising first plural bitmasks, each of the first plural bitmasks corresponding to a respective memory page of cache lines, the respective memory page corresponding to a respective region in the DRAM, the controller configured to set a bit for one of the first plural bitmasks for each cache line of the memory page written to zero; and a second table configured for storing second plural bitmasks, wherein the controller is configured to enter one of the second plural bitmasks as an entry into the second table and set a bit for the one of the second plural bitmasks when all bits of the one of the first plural bitmasks are set based on all of the cache lines of the memory page corresponding to the one of the first plural bitmasks being written to zero, wherein the first table is separate from the second table.",
+  "patent_id": "US12380033-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 12/0891",
+      "G06F 2212/305"
+    ],
+    "all": [
+      "G06F 12/0891",
+      "G06F 2212/305"
+    ],
+    "source": "converted"
+  }
+}

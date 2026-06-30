@@ -1,0 +1,36 @@
+{
+  "application_id": "WO2017115271",
+  "application_id_fs": "WO2017115271",
+  "title": "Method of plane tracking",
+  "abstract": "A method of plane tracking comprising: capturing by a camera a reference frame of a given plane from a first angle; capturing by said camera a destination frame of said given plane from a second angle different than said first angle; defining coordinates of matching points in said reference frame and said destination frame; using said first and second angles to calculate first and second respective rotation transformations to a simulated plane parallel to said given plane; applying an affine transformation between said reference frame coordinate on said simulated plane and said destination frame coordinate on said simulated plane; and applying a projective transformation on said simulated plane destination frame coordinate to calculate said destination frame coordinate.",
+  "claims": "Claims 1 . A method of plane tracking, comprising: capturing by a first camera a reference frame of a given plane from a first angle; capturing by a second camera a destination frame of said given plane from a second angle different than said first angle; defining coordinates of matching points in said reference frame and said destination frame; using said first and second angles to calculate first and second respective rotation transformations to a simulated plane parallel to said given plane; applying an affine transformation between said reference frame coordinate on said simulated plane and said destination frame coordinate on said simulated plane; and applying a projective transformation on said simulated plane destination frame coordinate to calculate said destination frame coordinate. 2. The method of claim 1 , wherein said angles are provided by at least one inertial measurement unit attached to each one of said first and second camera. 3. The method of claim 1 , wherein said calculating first and second rotation transformations to a simulated plane comprises calculating Euler angles. 4. The method of claim 1 , wherein said calculating first and second respective rotation transformations to a simulated plane parallel to said given plane comprises, for each said defined coordinates: applying a first projective transformation on said reference frame coordinate to calculate said reference frame coordinate on said simulated plane; and applying a second projective transformation on said destination frame coordinate to calculate said destination frame coordinate on said simulated plane. 5. The method of claim 1 , wherein said first camera and said second \n\ncamera are the same camera",
+  "classifications": {
+    "ipc": [
+      "G06T 3/00",
+      "G06T 3/02",
+      "G06T 7/00",
+      "G06T 7/30",
+      "G06T 7/33",
+      "G06T 7/20",
+      "G06T 7/246",
+      "G06T 7/70",
+      "G06T 7/73",
+      "G06T 7/74"
+    ],
+    "cpc": [],
+    "all": [
+      "G06T 3/00",
+      "G06T 3/02",
+      "G06T 7/00",
+      "G06T 7/30",
+      "G06T 7/33",
+      "G06T 7/20",
+      "G06T 7/246",
+      "G06T 7/70",
+      "G06T 7/73",
+      "G06T 7/74"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017115271"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Visual reordering of partial vector objects",
+  "abstract": "In implementations of systems for visual reordering of partial vector objects, a computing device implements an order system to receive input data describing a region specified relative to a group of vector objects that includes a portion of a first vector object and a portion of second vector object. A visual order as between the portion of the first vector object and the portion of the second vector object within the region is determined. The order system computes a modified visual order as between the portion of the first vector object and the portion of the second vector object within the region based on the visual order. The order system generates the group of vector objects for display in a user interface using a render surface and a sentinel value to render pixels within the region in the modified visual order.",
+  "claims": "1. A method comprising: receiving, by a processing device, input data describing a region specified relative to a group of intertwined vector objects that includes a portion of a first vector object and a portion of a second vector object; determining, by the processing device, a visual order as between the portion of the first vector object and the portion of the second vector object within the region; computing, by the processing device, a modified visual order as between the portion of the first vector object and the portion of the second vector object within the region different than the visual order; marking pixels within the region with a sentinel value that denotes pixels to be rendered in accordance with the modified visual order; and generating, by the processing device, the group of intertwined vector objects for display in a user interface using a render surface and the sentinel value to render pixels of the portion of the first vector object and the portion of the second vector object marked with the sentinel value in the modified visual order and preserve the visual order for pixels of the group of intertwined vector objects outside of the region.",
+  "patent_id": "US12380617-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 11/60",
+      "G06T 2210/36"
+    ],
+    "all": [
+      "G06T 11/60",
+      "G06T 2210/36"
+    ],
+    "source": "converted"
+  }
+}

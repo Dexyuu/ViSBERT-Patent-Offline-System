@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2025093345",
+  "application_id_fs": "WO2025093345",
+  "title": "Magnetic resonance angiography imaging method and system",
+  "abstract": "The invention relates to a method of MR imaging of at least a part of a patient's body (10) placed in an examination volume of an MR system (1). It is an object of the invention to provide an improved rapid gradient echo imaging technique with the ability to obtain angiographic information. The method of the invention comprises the following steps: subjecting the body part to a magnetization preparation RF pulse (MP); after a preparation delay (TD), subjecting the body part to a gradient echo imaging sequence comprising a series of RF excitations (EP), wherein phase-encoding (PE) and refocusing gradients (RO) as well as at least one bipolar pair of velocity-encoding gradients (VE) are applied in a repetition time interval (TR) between successive RF excitations (EP) to sample a pre-defined region of k-space and to generate a gradient echo in each repetition time interval (TR); acquiring echo signals from the body part; reconstructing a morphological MR image of the body part from the acquired echo signals; and deriving phase-contrast angiographic information from the phase imposed on the echo signals by the velocity- encoding gradients (VE). Moreover, the invention relates to an MR system (1) and to a computer program.",
+  "claims": "Claims 1. A method of magnetic resonance, MR, imaging of at least a part of a patientâs body (10) placed in an examination volume of an MR system (1), the method comprising the steps of: subjecting the body part to a magnetization preparation radiofrequency, RF, pulse (MP); after a preparation delay (TD), subjecting the body part to a gradient echo imaging sequence comprising a series of RF excitations (EP), wherein phase-encoding (PE) and refocusing gradients (RO) as well as at least one bipolar pair of velocity-encoding gradients (VE) are applied in a repetition time interval (TR) between successive RF excitations (EP) to sample a pre-defined region of k- space and to generate a gradient echo in each repetition time interval (TR); acquiring echo signals from the body part; reconstructing a morphological MR image of the body part from the acquired echo signals; and deriving phase-contrast angiographic information from the phase imposed on the echo signals by the velocity-encoding gradients (VE). 2. The method of claim 1, wherein the magnetization preparation RF pulse (MP) is a spatially non-selective inversion pulse. 3. The method of claim 1, wherein the derivation of phase-contrast angiographic information includes the reconstruction of a phase-contrast angiographic MR image from the acquired echo signals. 4. The method of claim 3, wherein a weighted subtraction of the morphological MR image and the phase-contrast angiographic MR image is computed to obtain a black-blood MR image of the body part. 5. The method of any one of claims 1 to 4, wherein the gradient echo imaging sequence performs undersampling of k-space to accelerate the sampling of the pre-defined region. 6. The method of claim 5, wherein the morphological MR image and/or the phase-contrast angiographic MR image are acquired and reconstructed using parallel imaging. 7. The method of claim 5 or 6, wherein the morphological MR image and/or the phasecontrast angiographic MR image are reconstructed using compressed sensing or deep learning-based \n\nreconstruction. 8. The method of any one of claims 1 to 7, wherein the morphological MR image is a Ti- contrast MR image. 9. The method of any of the preceding claims, wherein acquiring echo signals from the body part is based on pulse sequence conform rapid gradient echo imaging with magnetization preparation, MP -RAGE, further comprising the at least one bipolar pair of velocity-encoding gradients (VE). 10. The method of claim 9, further comprising displaying on a monitor (18) a representation based on echo signals acquired from the body with bipolar pair of velocity-encoding gradients (VE) enhanced MP -RAGE pulse sequence. 11. A computational system for controlling temporal succession of radiofrequency, RF, pulses and switched magnetic field gradients of a magnetic resonance, MR, system, the computational system configured to control the MR system to: subject a body part to a magnetization preparation RF pulse (MP); after a preparation delay (TD), to subject the body part to a gradient echo imaging sequence comprising a series of RF excitations (EP), wherein phase-encoding (PE) and refocusing gradients (RO) as well as at least one bipolar pair of velocity-encoding gradients (VE) are applied in a repetition time interval (TR) between successive RF excitations (EP) to sample a pre-defined region of k- space and to generate a gradient echo in each repetition time interval (TR); acquire echo signals from the body part; the computational system further configured to: reconstruct a morphological MR image of the body part from the acquired echo signals; and derive phase-contrast angiographic information from the phase imposed on the echo signals by the velocity-encoding gradients (VE). 12. A magnetic resonance, MR, system, comprising: at least one main magnet coil (2) for generating a substantially uniform, steady magnetic field within an examination volume; a number of gradient coils (4, 5, 6) for generating switched magnetic field gradients in different spatial directions within the examination volume; at least one RF coil (9) for generating RF pulses within the examination volume and/or for receiving MR signals from a body part (10) positioned in the examination volume; and a computational system according to claim 11. 13. The system of claim 11 or 12, wherein acquisition of echo signals from the body part is based on pulse sequence conform rapid gradient echo imaging with magnetization preparation, MP- RAGE, further comprising the at least one bipolar pair of velocity-encoding gradients (VE). 14. The system of claim 13, further comprising a monitor (18) configured to display a representation based on echo signals acquired from the body with bipolar pair of velocity-encoding gradients (VE) enhanced MP -RAGE pulse sequence. 15. A computer program product comprising instructions to be executed by a computational system of a magnetic resonance, MR, system (1), wherein execution of the instructions causes the MR system (1) to perform a method according to any of claims 1 to 10.",
+  "classifications": {
+    "ipc": [
+      "G01R 33/00",
+      "G01R 33/20",
+      "G01R 33/44",
+      "G01R 33/48",
+      "G01R 33/54",
+      "G01R 33/56",
+      "G01R 33/563",
+      "G01R 33/5635",
+      "G01R 33/561",
+      "G01R 33/4818",
+      "G01R 33/482",
+      "G01R 33/4822",
+      "G01R 33/5602",
+      "G01R 33/5611"
+    ],
+    "cpc": [],
+    "all": [
+      "G01R 33/00",
+      "G01R 33/20",
+      "G01R 33/44",
+      "G01R 33/48",
+      "G01R 33/54",
+      "G01R 33/56",
+      "G01R 33/563",
+      "G01R 33/5635",
+      "G01R 33/561",
+      "G01R 33/4818",
+      "G01R 33/482",
+      "G01R 33/4822",
+      "G01R 33/5602",
+      "G01R 33/5611"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025093345"
+}

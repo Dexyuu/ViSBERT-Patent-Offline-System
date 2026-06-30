@@ -1,0 +1,18 @@
+{
+  "title": "Workflow for computer game development",
+  "abstract": "Methods, systems, and techniques for enhanced game development workflow between programmers and non-programmers are provided. Example embodiments provide an EGPIDE which provides an environment suitable for workflow collaboration for software programmers or those game developers that prefer to work in textual language versus non-programmer game designers that prefer to work in visual language. In one embodiment, the EGPIDE comprises an EGPIDE script programming parser and visualization engine, an EGPIDE node graph visual programming parser and visualization engine, EGPIDE translation management, EGPIDE autolayout support, and user interface support. These components provide automatic translation between visual programming specification and text based programming specification to enable real time bi-directional communication between these types of programming to expedite game development process.",
+  "claims": "1. A computing system for facilitating computer game development work flow to enhance collaboration between a software programmer and a non-programmer game developer (NPGD), comprising: a processor; a memory; and code logic, stored in the memory and configured, when executed by the processor, to provide a visual programming user interface for software game development, the user interface displaying one or more visual programming tools manipulatable by the non-programmer game developer to create and define one or more node graphs without programming in a programming language and without programming in a scripting language, each node graph corresponding to a game object and associated game logic that is executable to produce game behavior, each node graph presenting one or more nodes that define states, attributes, and/or actions of the game object responsive to one or more events; wherein the code logic is further configured, in response to receiving an indication of one or more nodes, to automatically generate corresponding code in at least one programming language or script language, the code, when executed by the processor, generating and presenting one or more corresponding game objects and game logic corresponding to the states, attributes and/or actions of the game objects that correspond to the indicated one or more nodes, the logic structured such that the software programmer directly views and manipulates the generated code as text; and wherein the logic is further configured, in response to receiving notification of a modification to the corresponding code, causing the presented node graphs to be automatically updated graphically to present modified node graphs in accordance with the received notification of the code modification.",
+  "patent_id": "US12379900-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 8/20",
+      "G06F 8/30"
+    ],
+    "all": [
+      "G06F 8/20",
+      "G06F 8/30"
+    ],
+    "source": "converted"
+  }
+}

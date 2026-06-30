@@ -1,0 +1,52 @@
+{
+  "application_id": "WO2025029941",
+  "application_id_fs": "WO2025029941",
+  "title": "Reporting linkage/mapping between measured cross-link interference and uplink/downlink beams",
+  "abstract": "A WTRU (e.g., a first WTRU) may be configured with SBFD operation, where the WTRU is configured to measure directional (e.g., beam-based) CLI (e.g., in UL or DL subbands) based on received SRS (denoted by CLI-SRS) from nearby second potential victim WTRUs. The first WTRU may be configured with CLI-SRS resources for measuring CLI-SRS transmissions from one or more second WTRUs. Based on the measurements, the first WTRU may determine that one or more measurements of CLI-SRS are higher than a corresponding threshold. The first WTRU may determine CLI-SRS mapping with DL RS indexes and/or CLI-SRS mapping with UL RS indexes (e.g., for example when the first UE determines that one or more measurements of CLI-SRS are higher than a corresponding threshold). The WTRU may report the measured CLI and the determined mapping pairs, for example according to a report configuration that the WTRU may receive.",
+  "claims": "Claims CLAIMS: 1 . A wireless transmit/receive unit (WTRU) comprising: a processor configured to: receive, from a network, a report configuration; measure directional cross-link interference (CLI) on at least one subband; determine that the measured directional CLI is above a threshold value; determine, based at least on the report configuration, a CLI-sounding reference signal (SRS) index and at least one of an uplink (UL) reference signal (RS) index and a downlink (DL) RS index associated with the subband; and transmit, to the network, an indication of the measured directional CLI, an indication of the determined CLI-SRS index, and an indication of the at least one of the UL RS index and the DL RS index. 2. The WTRU of claim 1 , wherein the processor is configured to determine the DL RS index based on a determination that an angle of arrival (AoA) of one or more CLI-SRS resources from one or more second WTRUs are within a configured range of an angle of departure (AoD) for UL transmission based on at least one DL RS beam direction at the WTRU. 3. The WTRU of claim 1 , wherein the processor is configured to determine the UL RS index based on a determination that an angle of arrival (AoA) of one or more CLI-SRS resources from one or more second WTRUs are within a configured range of an angle of departure (AoD) for UL transmission based on at least one UL RS beam direction at the WTRU. 4. The WTRU of claim 1 , wherein the WTRU is a subband non-overlapping full duplex (SBFD)- capable WTRU. 5. The WTRU of claim 1 , wherein the report configuration comprises an indication of one or more CLI- SRS resources for measuring the directional CLI on the at least one subband. 6. The WTRU of claim 1 , wherein the processor is further configured to receive, from the network, an indication of a list of candidate UL beams. 7. The WTRU of claim 1 , wherein the processor is further configured to receive the threshold value from the network. 8. The WTRU of claim 7, wherein the processor is configured to receive the threshold value via DCI. 9. The WTRU of claim 1 , wherein the processor is configured to determine the CLI-SRS index and the at least one of the UL RS index and the DL RS index further based on the determination that the measured directional CLI is above the threshold value. 10. A method implemented in a wireless transmit/receive unit (WTRU), the method comprising: receiving, from a network, a report configuration; measuring directional cross-link interference (CLI) on at least one subband; determining that the measured directional CLI is above a threshold value; determining, based at least on the report configuration, a CLI-sounding reference signal (SRS) index and at least one of an uplink (UL) reference signal (RS) index and a downlink (DL) RS index associated with the subband; and transmitting, to the network, an indication of the measured directional CLI, an indication of the determined CLI-SRS index, and an indication of the at least one of the UL RS index and the DL RS index. 11. The method of claim 10, further comprising determining that an angle of arrival (AoA) of one or more CLI-SRS resources from one or more second WTRUs are within a configured range of an angle of departure (AoD) for UL transmission based on at least one DL RS beam direction at the WTRU. 12. The method of claim 10, further comprising determining that an angle of arrival (AoA) of one or more CLI-SRS resources from one or more second WTRUs are within a configured range of an angle of departure (AoD) for UL transmission based on at least one UL RS beam direction at the WTRU. 13. The method of claim 10, wherein the WTRU is a subband non-overlapping full duplex (SBFD)- capable WTRU. 14. The method of claim 10, wherein the report configuration comprises an indication of one or more CLI-SRS resources for measuring the directional CLI on the at least one subband. 15. The method of claim 10, further comprising receiving, from the network, an indication of a list of candidate UL beams. 16. The method of claim 10, further comprising receiving the threshold value from the network. 17. The method of claim 16, wherein the threshold value is received via DCI. 18. The method of claim 10, wherein the CLI-SRS index and the at least one of the UL RS index and the DL RS index are determined further based on determining that the measured directional CLI is above the threshold value.",
+  "classifications": {
+    "ipc": [
+      "H04L 5/00",
+      "H04L 5/003",
+      "H04L 5/0048",
+      "H04B 7/00",
+      "H04B 7/02",
+      "H04B 7/04",
+      "H04B 7/06",
+      "H04B 7/0686",
+      "H04B 7/0695",
+      "H04L 5/0001",
+      "H04L 5/0014",
+      "H04L 5/0023",
+      "H04L 5/0053",
+      "H04L 5/0058",
+      "H04L 5/0062",
+      "H04L 5/0091",
+      "H04L 5/0094",
+      "H04L 5/14"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 5/00",
+      "H04L 5/003",
+      "H04L 5/0048",
+      "H04B 7/00",
+      "H04B 7/02",
+      "H04B 7/04",
+      "H04B 7/06",
+      "H04B 7/0686",
+      "H04B 7/0695",
+      "H04L 5/0001",
+      "H04L 5/0014",
+      "H04L 5/0023",
+      "H04L 5/0053",
+      "H04L 5/0058",
+      "H04L 5/0062",
+      "H04L 5/0091",
+      "H04L 5/0094",
+      "H04L 5/14"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025029941"
+}

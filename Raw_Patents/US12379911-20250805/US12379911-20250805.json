@@ -1,0 +1,18 @@
+{
+  "title": "Application installation method and electronic device for supporting same",
+  "abstract": "An electronic device includes: a communication circuit; a memory; and a processor operatively connected to the communication circuit and the memory. The processor is configured to: receive an application from an external electronic device through the communication circuit; determine whether a profile related to the application exists in the memory; execute the application in a background state based on a determination that the profile related to the application does not exist in the memory; generate a profile related to the application executed in the background state; and install the application based on the generated profile.",
+  "claims": "1. An electronic device comprising: a communication circuit; memory storing instructions; and at least one processor, wherein the instructions, executed individually or collectively by the at least one processor, cause the electronic device to: receive an application from an external electronic device through the communication circuit; determine whether a profile related to the application exists in the memory; by generating a virtual instance to execute the application through a virtual display, execute the application in a background state based on a determination that the profile related to the application does not exist in the memory; generate the profile related to execution history of a bytecode of the application executed in the background state, wherein the profile comprises classes and methods that have been called more than a threshold number of times during execution of the application; and install the application based on the generated profile which includes a partial code, without compiling the partial code; wherein the profile related to the application does not correspond to a Just-In-Time (JIT) code of a JIT scheme.",
+  "patent_id": "US12379911-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 8/61",
+      "G06F 9/4451"
+    ],
+    "all": [
+      "G06F 8/61",
+      "G06F 9/4451"
+    ],
+    "source": "converted"
+  }
+}

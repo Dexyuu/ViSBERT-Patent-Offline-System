@@ -1,0 +1,16 @@
+{
+  "title": "Continuing video playback when switching from a dynamic page to a non-dynamic page",
+  "abstract": "A multimedia processing method includes rendering, through a first native container node of a dynamic page, a content node associated with the first native container node to play multimedia content. The method further includes generating a non-dynamic page in response to a first page switching operation triggered in the dynamic page, and creating a second native container node in a second node tree of the non-dynamic page, the second native container node being supported by the native application framework provided by the operating system. The method further includes disassociating the content node from the first native container node, and establishing an association between the content node and the second native container node. The method further includes rendering, through the second native container node, the content node in the non-dynamic page to continue playing the rendered multimedia content in a portion of the generated non-dynamic page.",
+  "claims": "1. A multimedia content processing method comprising: rendering, through a first native container node in a first node tree of a dynamic page, a content node associated with the first native container node to play rendered multimedia content, the first native container node being supported by a native application framework provided by an operating system; generating a non-dynamic page in response to a first page switching operation triggered in the dynamic page; creating a second native container node in a second node tree of the non-dynamic page, the second native container node being supported by the native application framework provided by the operating system; disassociating the content node from the first native container node; establishing an association between the content node and the second native container node; and rendering, through the second native container node, the content node in the non-dynamic page to continue playing the rendered multimedia content in a portion of the generated non-dynamic page.",
+  "patent_id": "US12382127-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/4312"
+    ],
+    "all": [
+      "H04N 21/4312"
+    ],
+    "source": "converted"
+  }
+}

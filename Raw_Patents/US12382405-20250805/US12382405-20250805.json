@@ -1,0 +1,20 @@
+{
+  "title": "Communication method and apparatus",
+  "abstract": "A terminal determines a first frequency for accessing the network device Then, the terminal determines at least one second frequency based on the first frequency, where any second frequency is different from the first frequency, and at least two second frequencies are also different. The terminal selects at least two different second frequencies from the first frequency and the at least one second frequency. The terminal separately receives, in a time unit in a period by using the at least two different frequencies, an SSB from the network device. The terminal accesses the network device based on received one or more different SSBs.",
+  "claims": "1. A method comprising: determining, by a terminal device, a first frequency for accessing a network device; determining, by the terminal device, at least one second frequency based on the first frequency, wherein any second frequency is different from the first frequency, and, when there are at least two second frequencies, the at least two second frequencies are different; separately receiving, by the terminal device in a time unit in a period by using at least two different frequencies, a synchronization signal block (SSB) from the network device, wherein the at least two different frequencies used to receive the SSB belong to a frequency set comprising the first frequency and the at least one second frequency and a quantity of frequencies used to receive the SSB is related to a frequency reuse factor; accessing, by the terminal device, the network device based on received one or more different SSBs, wherein the period comprises at least two time units, SSBs separately received in different time units in the period are different, SSBs received in the time unit by using different frequencies are different, and different SSBs received in the time unit correspond to different beams; determining, by the terminal device, whether beams corresponding to different SSBs that are received by using a same frequency in adjacent time units are the same, wherein the SSB received by the terminal device comprises a first indication, wherein the first indication indicates whether a beam corresponding to an SSB sent by the network device by using a third frequency in a first time unit is the same as a beam corresponding to an SSB sent by using the third frequency in a second time unit, the second time unit is adjacent to the first time unit, and the third frequency is any one of the at least two different frequencies; and determining, by the terminal device based on the first indication, whether the beam corresponding to the SSB received by using the third frequency in the first time unit is the same as the beam corresponding to the SSB received by using the third frequency in the second time unit.",
+  "patent_id": "US12382405-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 56/001",
+      "H04W 56/003",
+      "H04W 84/06"
+    ],
+    "all": [
+      "H04W 56/001",
+      "H04W 56/003",
+      "H04W 84/06"
+    ],
+    "source": "converted"
+  }
+}

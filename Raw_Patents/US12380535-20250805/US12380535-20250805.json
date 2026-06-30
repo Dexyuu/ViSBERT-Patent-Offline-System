@@ -1,0 +1,22 @@
+{
+  "title": "System and method for single image super- resolution for smart device camera",
+  "abstract": "A method includes extracting multiple shallow features from a low-resolution image using a shallow feature extractor that includes a quaternion convolutional network. The method also includes extracting multiple deep features from the multiple shallow features using a deep feature extractor that includes multiple quaternion residual distillation blocks (QRDBs), where each QRDB includes a quaternion self-attention module. The method further includes reconstructing the multiple deep features into a high-resolution image. Each QRDB may further include a quaternion gated deconvolutional feed forward network (QGDFN) configured to suppress one or more of the multiple deep features.",
+  "claims": "1. A method comprising: extracting multiple shallow features from a low-resolution image using a shallow feature extractor that includes a quaternion convolutional network; extracting multiple deep features from the multiple shallow features using a deep feature extractor that includes multiple quaternion residual distillation blocks (QRDBs), each QRDB comprising a quaternion self-attention module; and reconstructing the multiple deep features into a high-resolution image.",
+  "patent_id": "US12380535-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 3/4053",
+      "G06T 3/4046",
+      "H04N 23/815",
+      "H04N 23/84"
+    ],
+    "all": [
+      "G06T 3/4053",
+      "G06T 3/4046",
+      "H04N 23/815",
+      "H04N 23/84"
+    ],
+    "source": "converted"
+  }
+}

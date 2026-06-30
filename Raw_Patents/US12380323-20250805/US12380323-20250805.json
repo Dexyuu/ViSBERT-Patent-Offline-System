@@ -1,0 +1,24 @@
+{
+  "title": "Parallel processing in a spiking neural network",
+  "abstract": "The disclosed embodiments are related to storing critical data in a memory device such as Flash or DRAM memory device. In one embodiment, a device comprising a plurality of parallel processors is disclosed, the plurality of parallel processors configured to: perform a search and match operation, the search and match operation loading a plurality of synaptic identifier bit strings and a plurality of spike identifier bit strings, the search and match operation further generating a plurality of bitmasks; perform a synaptic integration phase, the synaptic integration phase generating a plurality of synaptic current vectors based on the plurality of bitmasks, the synaptic current vectors associated with respective synthetic neurons; solve a neural membrane equation for each of the synthetic neurons; and update membrane potentials associated with the synthetic neurons, the membrane potentials stored in a memory device.",
+  "claims": "1. A device comprising: a plurality of parallel processors, the plurality of parallel processors configured to: perform a search and match operation, the search and match operation loading a plurality of synaptic identifier bit strings and a plurality of spike identifier bit strings, the search and match operation further generating a plurality of bitmasks and performing an exclusive NOR (XNOR) operation between first bits of a plurality of synaptic identifier vectors and a first bit of a first spike identifier and storing a result of the XNOR operation in a first location; perform a synaptic integration phase, the synaptic integration phase generating a plurality of synaptic current vectors based on the plurality of bitmasks, the synaptic current vectors associated with respective synthetic neurons; solve a neural membrane equation for each of the synthetic neurons; update one or more state variables associated with the synthetic neurons; and write a data values indicative of the one or more state variables to a memory device.",
+  "patent_id": "US12380323-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 3/063",
+      "G06F 9/30029",
+      "G06F 9/3887",
+      "G06F 9/3889",
+      "G06N 3/049"
+    ],
+    "all": [
+      "G06N 3/063",
+      "G06F 9/30029",
+      "G06F 9/3887",
+      "G06F 9/3889",
+      "G06N 3/049"
+    ],
+    "source": "converted"
+  }
+}

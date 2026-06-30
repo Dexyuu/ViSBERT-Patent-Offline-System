@@ -1,0 +1,20 @@
+{
+  "title": "Firmware power up sequencing in memory sub-systems",
+  "abstract": "A front-end firmware component of a memory sub-system receives a first request to perform a first set of initialization operations and initiates a first set of initialization operations for the front-end component in parallel with initiating a second set of initialization operations for a back-end component. Responsive to completing the first set of initialization operations, the front-end component sends a first notification to a host computer system to indicate that the front-end component is available to respond to requests for configuration data associated with the memory sub-system, receives a second request from the host computer system for a configuration data associated with the memory sub-system, and responsive to receiving the second request from the host computer system before the back-end component has completed the second set of initialization operations, provides the configuration data to the host computer system.",
+  "claims": "1. A method comprising: receiving, by a processing device executing a front-end component of a memory sub-system, a first request to perform a first set of initialization operations, wherein the front-end component communicates with a back-end component in a data path associated with a memory device of the memory sub-system; responsive to receiving the first request, initiating the first set of initialization operations for the front-end component in parallel with initiating a second set of initialization operations for the back-end component; and responsive to completing the first set of initialization operations and before the back-end component has completed the second set of initialization operations, sending a first notification to a host computer system to indicate that the front-end component is available to respond to requests from the host computer system for configuration data associated with the memory sub-system.",
+  "patent_id": "US12379860-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0632",
+      "G06F 3/0611",
+      "G06F 3/0673"
+    ],
+    "all": [
+      "G06F 3/0632",
+      "G06F 3/0611",
+      "G06F 3/0673"
+    ],
+    "source": "converted"
+  }
+}

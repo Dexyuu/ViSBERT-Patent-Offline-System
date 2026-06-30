@@ -1,0 +1,20 @@
+{
+  "title": "Transformation of legacy code for cloud environment",
+  "abstract": "A system and method include reception of first code associated with an on-premise runtime environment and a first programming language, identification of tokens associated with the first programming language in the first code, removal of state dependencies from the first code based on the identified tokens and on transformation data mapping one or more of the identified tokens to a respective code transformation, to generate second code, execution of performance transformations on the second code to generate third code, execution of functional tests on the third code, in response to a determination that the functional tests were passed, separation of the third code into functional units to generate fourth code, application of a security function to one or more of the functional units to generate fifth code, and deployment of the fifth code to a cloud-based runtime environment.",
+  "claims": "1. A system associated with a target runtime environment, the system comprising: a memory storing processor-executable program code; and at least one processing unit to execute the processor-executable program code to cause the system to: receive first code associated with an on-premise runtime environment and a first programming language; identify tokens associated with the first programming language in the first code; remove state dependencies from the first code based on the identified tokens and on transformation data mapping one or more of the identified tokens to a respective code transformation, to generate second code; execute performance transformations on the second code to generate third code; execute functional tests on the third code; in response to a determination that the functional tests were passed, separate the third code into functional units to generate fourth code; apply a security function to one or more of the functional units to generate fifth code; and deploy the fifth code to a cloud-based runtime environment.",
+  "patent_id": "US12379905-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 8/35",
+      "G06F 8/51",
+      "G06F 8/60"
+    ],
+    "all": [
+      "G06F 8/35",
+      "G06F 8/51",
+      "G06F 8/60"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Transmission and reception of channel state information",
+  "abstract": "Control information in wireless communications may be associated with a reference signal. A first transmission control indicator (TCI) state of at least two TCI states may be used to receive a reference signal based on the reference signal overlapping in time with downlink channel that is indicated with the at least two TCI states.",
+  "claims": "1. A method comprising: receiving, by a wireless device, a medium access control (MAC) control element (CE) used to map transmission configuration indicator (TCI) states to codepoints, wherein a TCI field of downlink control information (DCI) indicates a codepoint of the codepoints; receiving a first DCI scheduling a physical downlink shared channel (PDSCH), wherein: a first time offset between a reception of the first DCI and a reception of the PDSCH is equal to, or greater than, a first threshold; and a first codepoint, of a first TCI field in the first DCI, indicates two TCI states among the TCI states; receiving a second DCI comprising a channel state information (CSI) request field indicating an aperiodic trigger state, wherein a second time offset between a last symbol of a PDCCH carrying the second DCI and a first symbol of an aperiodic CSI-RS resource associated with the aperiodic trigger state is less than a second threshold; and based on the aperiodic CSI-RS resource and the PDSCH overlapping in one or more symbols, applying a first reference signal indicated by a first TCI state of the two TCI states when receiving an aperiodic CSI-RS via the aperiodic CSI-RS resource.",
+  "patent_id": "US12382445-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/046",
+      "H04W 72/1268",
+      "H04W 72/23"
+    ],
+    "all": [
+      "H04W 72/046",
+      "H04W 72/1268",
+      "H04W 72/23"
+    ],
+    "source": "converted"
+  }
+}

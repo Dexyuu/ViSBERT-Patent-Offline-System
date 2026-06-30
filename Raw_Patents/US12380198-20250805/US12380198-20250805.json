@@ -1,0 +1,20 @@
+{
+  "title": "Secure human user verification for electronic systems",
+  "abstract": "Systems and methods are provided for a secure human user verification procedure that involves physical manipulation of a user device with respect to its environment. A challenge prompt may be presented for a user to provide challenge response data. A subsystem of an application running on the user device may be configured (e.g., using a machine learning model) to evaluate the challenge response data and determine whether the challenge response data includes the subject of the challenge. To ensure that the user is not providing pre-existing data in response to the challenge prompt, data items associated with the challenge response data may be evaluated to validate the challenge response data as being provided by a human user rather than automatically generated.",
+  "claims": "1. A computing system comprising: a display device; a camera device configured to generate image data; computer-readable memory storing an image recognition model configured to recognize images of a plurality of challenge subjects; and one or more processors programmed by executable instructions to at least: determine to verify whether a user, of an application configured to be executed by the one or more processors, is a human user; select a challenge subject from the plurality of challenge subjects, wherein an image of the challenge subject is to be provided in response to a challenge prompt; present the challenge prompt using the display device; receive, in response to the challenge prompt, the image data and challenge context data; determine, using the image recognition model, that at least a portion of the image data represents the image; determine that the challenge context data fails to satisfy a response validation criterion based on determining that the challenge context data indicates the image data was generated using another camera device different from the camera device, wherein the challenge context data represents a source of the image data; and in response to determining that the challenge context data fails to satisfy the response validation criterion, prevent an operation of the application.",
+  "patent_id": "US12380198-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/36",
+      "G06V 10/255",
+      "H04L 9/3271"
+    ],
+    "all": [
+      "G06F 21/36",
+      "G06V 10/255",
+      "H04L 9/3271"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Integrated sample processing system with variable workflows",
+  "abstract": "One embodiment of the invention is directed to a sample processing system for analyzing a biological sample from a patient. The sample processing system comprises: a plurality of analyzers comprising at least one mass spectrometer, wherein each analyzer in the plurality of analyzers is configured to acquire at least one measurement value corresponding to at least one characteristic of the biological sample; at least one data storage component which stores (i) a list of parameters for the plurality of analyzers, and (ii) at least two condition sets, which contain data associated with completing one or more test orders. The condition sets contain data which differ by at least one variable; and a control system operatively coupled to the plurality of analyzers, and the at least one data storage component. The control system is configured to (i) determine which condition set of the at least two condition sets to use based on the determined condition set, (ii) determine which analyzer or analyzers of the plurality of analyzers to use to process each test order based on the determined condition set and one or more parameters from the list of parameters, and (iii) cause the determined analyzer or analyzers to acquire one or more measurement values for the biological sample.",
+  "claims": "1. A method performed by a system comprising a plurality of analyzers comprising a mass spectrometer and an immunoanalyzer, a sample introduction apparatus, and a control system, the control system operatively coupled to the mass spectrometer, the immunoanalyzer, and the sample introduction apparatus, wherein the immunoanalyzer comprises a sample pipetting station, the method comprising: determining, by the control system, that a mass spectrometric analysis is to be performed; transferring to a first reaction vessel, by the sample pipetting station, a sample aliquot; performing, by the immunoanalyzer, separation of an analyte in the sample aliquot in the first reaction vessel to produce a separated analyte; transferring the separated analyte to a second reaction vessel; transferring, by the sample introduction apparatus, the second reaction vessel to the mass spectrometer; and performing, by the mass spectrometer, an analysis of the analyte.",
+  "patent_id": "US12379370-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01N 33/48792",
+      "G01N 35/00871",
+      "G01N 2035/00356",
+      "G01N 2035/00881",
+      "G01N 2035/0444",
+      "G01N 35/1095",
+      "H01J 49/26"
+    ],
+    "all": [
+      "G01N 33/48792",
+      "G01N 35/00871",
+      "G01N 2035/00356",
+      "G01N 2035/00881",
+      "G01N 2035/0444",
+      "G01N 35/1095",
+      "H01J 49/26"
+    ],
+    "source": "converted"
+  }
+}

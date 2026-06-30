@@ -1,0 +1,22 @@
+{
+  "title": "Location sensing technology for detecting asset location",
+  "abstract": "Various embodiments employ multiple readers and tags in fixed locations in different geographical areas and/or along different storage units. This allows for more granular or precise location sensing. Particular embodiments employ multiple environment tags in various geographical locations and within multiple storage units. Using this new infrastructure setup, some embodiments can perform new functionality by predicting whether a target asset is in a particular geographical location, predict whether the asset is within a particular storage unit based on the proportion of readers mapped to that shelf which are actually reading the tag on the asset, and/or can predict where an asset's exact location in the located storage unit is based on comparing indications of signal strength values between each reader and tag in the storage unit with other indications of signal strength values between each reader and the tag that is attached to the asset.",
+  "claims": "1. A system comprising: a plurality of reader devices located in a facility, wherein a first set of reader devices of the plurality of reader devices is mapped to a first storage unit located at the facility and a second set of reader devices of the plurality of reader devices is mapped to a second storage unit located at the facility; a plurality of environment tags configured to provide first data to the plurality of reader devices, wherein each of a first set of environment tags of the plurality of environment tags is coupled to the first storage unit and each of a second set of environment tags of the plurality of environment tags is coupled to the second storage unit; and one or more computing devices that are configured to: determine, based at least in part on a mapping, that the first set of reader devices is mapped to the first storage unit, determine a proportion of the first set of reader devices that has received second data from a target tag coupled to a target asset, determine, based at least in part on the proportion, that the target asset is at the first storage unit, and determine a specific location of the target asset at the first storage unit based at least in part on comparing one or more indications of signal strength readings between at least one reader device of the first set of reader devices and each environment tag of the first set of environment tags with one or more other indications of signal strength readings between the at least one reader device and the target tag.",
+  "patent_id": "US12381644-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 17/318",
+      "G06K 7/10099",
+      "G06K 7/10188",
+      "G06K 7/10356"
+    ],
+    "all": [
+      "H04B 17/318",
+      "G06K 7/10099",
+      "G06K 7/10188",
+      "G06K 7/10356"
+    ],
+    "source": "converted"
+  }
+}

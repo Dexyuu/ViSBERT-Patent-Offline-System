@@ -1,0 +1,22 @@
+{
+  "title": "Method and apparatus for providing multiple power domains in a programmable semiconductor device",
+  "abstract": "A semiconductor device, able to be selectively configured to perform one or more user defined logic functions, includes a semiconductor die and a selectable power regulator. The semiconductor die, in one aspect, includes a first region and a second region. The first region is operatable to perform a first set of logic functions based on a first power domain having a first voltage. The second region is configured to perform a second set of logic functions based on a second power domain having a second voltage. The selectable power regulator, in one embodiment, provides the second voltage for facilitating the second power domain in the second region of the semiconductor die in response to at least one enabling input from the first region of the semiconductor die.",
+  "claims": "1. A method of a semiconductor device partitioned into multiple power domains facilitating dynamically power-down and power-up a portion of the device for power conservation, the method comprising: generating a first power control signal by a master die for controlling a first power domain; forwarding the first power control signal from the master die to a configurable power regulator to activate a first power domain; providing the first power domain with a first voltage in accordance the first power control signal to a slave die; and waking up at least a portion of logic components in the slave die in response to activation of the first power domain.",
+  "patent_id": "US12381562-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03K 19/17788",
+      "H03K 19/17708",
+      "H03K 19/1776",
+      "H03K 19/17784"
+    ],
+    "all": [
+      "H03K 19/17788",
+      "H03K 19/17708",
+      "H03K 19/1776",
+      "H03K 19/17784"
+    ],
+    "source": "converted"
+  }
+}

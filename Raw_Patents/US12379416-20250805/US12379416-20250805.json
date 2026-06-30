@@ -1,0 +1,20 @@
+{
+  "title": "Solenoid system with position and temperature detection",
+  "abstract": "A solenoid system and method can include: providing an energizing voltage to a coil of a solenoid; providing an AC signal superimposed onto the energizing voltage; detecting current through the coil including an AC current amplitude induced by the AC signal and including a DC offset current amplitude; determining the AC current amplitude is a low AC current amplitude based on an armature within the solenoid being in a retracted position or determining the AC current amplitude is a high AC current amplitude based on the armature being in an extended position with the control logic, and where the AC current amplitude is determined utilizing the AC signal for synchronous demodulation; and determining a temperature fault based on the DC offset current amplitude falling below a DC offset current amplitude threshold.",
+  "claims": "1. A solenoid detection system comprising control logic configured to: couple to a switch controller for providing an energizing voltage, the control logic providing an AC signal, the AC signal being superimposed onto the energizing voltage; couple to a current sensor for detecting a current through a coil of a solenoid, the current including an AC current amplitude induced by the AC signal and including a DC offset current amplitude; determine the AC current amplitude utilizing the AC signal for synchronous demodulation; determine the AC current amplitude is a low AC current amplitude based on an armature of the solenoid being in a retracted position, or the AC current amplitude is a high AC current amplitude based on the armature of the solenoid being in an extended position; and determine a temperature fault based on the DC offset current amplitude falling below a DC offset current amplitude threshold.",
+  "patent_id": "US12379416-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01R 31/3278",
+      "H01F 7/064",
+      "H01F 7/081"
+    ],
+    "all": [
+      "G01R 31/3278",
+      "H01F 7/064",
+      "H01F 7/081"
+    ],
+    "source": "converted"
+  }
+}

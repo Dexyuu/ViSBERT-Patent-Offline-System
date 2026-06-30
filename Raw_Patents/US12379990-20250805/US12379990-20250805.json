@@ -1,0 +1,24 @@
+{
+  "title": "Single block mode block handling for single-side GIDL erase",
+  "abstract": "A memory device includes a memory block including a plurality of sub-blocks each including a plurality of memory cells and control circuitry configured to perform single-side erase operations on the memory block in a sub-block mode in which a selected sub-block of the plurality of sub-blocks in the memory block is erased while unselected sub-blocks of the plurality of sub-blocks in the memory block are not erased and selectively perform data scrubbing and relocation operations on the plurality of sub-blocks of the memory block. To perform a data scrubbing and relocation operation, the control circuitry is configured to determine whether to perform the data scrubbing and relocation operation on a first sub-block based on a position of the first sub-block relative to an erase side of the memory block and selectively perform the data scrubbing and relocation operation on the first sub-block in response to the determination.",
+  "claims": "1. A memory device, comprising: a memory block including a plurality of sub-blocks, each of the plurality of sub-blocks including a plurality of memory cells; and control circuitry configured to (i) perform single-side erase operations on the memory block in a sub-block mode in which a selected sub-block of the plurality of sub-blocks in the memory block is erased while unselected sub-blocks of the plurality of sub-blocks in the memory block are not erased and (ii) selectively perform data scrubbing and relocation operations on the plurality of sub-blocks of the memory block, wherein, to perform a data scrubbing and relocation operation, the control circuitry is configured to determine whether to perform the data scrubbing and relocation operation on a first sub-block based on a position of the first sub-block relative to an erase side of the memory block, and selectively perform the data scrubbing and relocation operation on the first sub-block in response to the determination.",
+  "patent_id": "US12379990-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/106",
+      "G06F 3/0619",
+      "G06F 3/0652",
+      "G06F 3/0679",
+      "G06F 11/076"
+    ],
+    "all": [
+      "G06F 11/106",
+      "G06F 3/0619",
+      "G06F 3/0652",
+      "G06F 3/0679",
+      "G06F 11/076"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Data integrity monitoring",
+  "abstract": "Described are techniques for data integrity monitoring of point-in-time backups. The techniques include obtaining a point-in-time backup of a virtual computing resource that executes in a computing environment which is monitored by a controller component of a disaster recovery system. The techniques further include starting a temporary virtual computing resource in a virtual private network from the point-in-time backup of the virtual computing resource. The techniques further include establishing communication between the controller component and the temporary virtual computing resource to enable the controller component to initiate an integrity check of data included in the point-in-time backup. The techniques further include, in response to an indication that the point-in-time backup passed the integrity check, preserving the point-in-time backup as a validated safe backup of the virtual computing resource.",
+  "claims": "1. A system comprising: one or more computer readable storage media storing program instructions and one or more processors which, in response to executing the program instructions, are configured to: obtain a point-in-time backup of a virtual computing resource that executes in a computing environment which is monitored by a controller component of a disaster recovery system; start a temporary virtual computing resource in a virtual private network from the point-in-time backup of the virtual computing resource; establish communication between the controller component and the temporary virtual computing resource to enable the controller component to initiate an integrity check of data included in the point-in-time backup; and in response to an indication that the point-in-time backup passed the integrity check, preserve the point-in-time backup as a validated safe backup of the virtual computing resource.",
+  "patent_id": "US12379999-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/1448",
+      "G06F 11/0766",
+      "G06F 11/1469"
+    ],
+    "all": [
+      "G06F 11/1448",
+      "G06F 11/0766",
+      "G06F 11/1469"
+    ],
+    "source": "converted"
+  }
+}

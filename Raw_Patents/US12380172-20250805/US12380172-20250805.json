@@ -1,0 +1,18 @@
+{
+  "title": "Method, device and computer program for collecting data from multi-domain",
+  "abstract": "The present invention relates to a method for collecting data from a multi-domain in a data collection device. The method includes a step A of collecting data from a general web that is accessible through a search engine; a step B of collecting data from a dark web site that is not accessible with a general web browser and is accessible with preset specific software; and a step C of standardizing the collected data in a preset format and generating metadata for the collected data.",
+  "claims": "1. A method of collecting data from dark web domains, the method comprising: providing a domain database for storing information concerning dark web domains; collecting, from a dark web network, addresses of dark web domains that require software specifically designed to access and cannot be accessed using a general browser; upon collecting, storing the collected addresses and status information of the dark web domains in a domain database; cyclically checking current status of at least part of the dark web domains and updating the status information in the domain database; and dynamically allocating distributed crawlers for crawling content data to one or more dark web domains based on changes in the domain database such that, when a first distributed crawler of the distributed crawlers becomes available for crawling, the first distributed crawler is allocated preferentially to one of the dark web domains that have been most recently registered or updated.",
+  "patent_id": "US12380172-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/951",
+      "H04L 63/1425"
+    ],
+    "all": [
+      "G06F 16/951",
+      "H04L 63/1425"
+    ],
+    "source": "converted"
+  }
+}

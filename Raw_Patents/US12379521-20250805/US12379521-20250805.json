@@ -1,0 +1,22 @@
+{
+  "title": "Method and system for integrated surface water and groundwater modelling using a dynamic mesh evolution",
+  "abstract": "A method and system for integrated surface water and groundwater modelling using a dynamic mesh evolution. The system includes a dynamic mesh evolution that enables elevation changes in a landscape to be better represented in a simulation model. By moving, adding or removing computation nodes within the model over a predetermined range and updating the metadata, elevation changes may be better represented.",
+  "claims": "1. A method of integrated surface water and groundwater modelling for a predetermined landscape comprising: processing elevation and material property information associated with the predetermined landscape to determine location of a set of computational nodes within a digital dynamic element mesh; determining, based on received input data, if any of the set of computational nodes need to be repositioned whereby if at least one computational node needs to be to repositioned, adding or removing nodes in the dynamic element mesh; updating metadata associated with each of the set of computational nodes to reflect elevation changes within the landscape based on a new position of each of the set of computational nodes; generating a three-dimensional (3D) model based on the updated metadata; and displaying the 3D model based on the evolution of the dynamic element mesh.",
+  "patent_id": "US12379521-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01V 20/00",
+      "G06F 16/907",
+      "G06T 17/05",
+      "G01V 2210/661"
+    ],
+    "all": [
+      "G01V 20/00",
+      "G06F 16/907",
+      "G06T 17/05",
+      "G01V 2210/661"
+    ],
+    "source": "converted"
+  }
+}

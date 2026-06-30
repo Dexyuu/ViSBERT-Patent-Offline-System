@@ -1,0 +1,34 @@
+{
+  "title": "Object detection circuitry and object detection method using combined probability data",
+  "abstract": "The present disclosure generally pertains to an object detection circuitry configured to: obtain first feature data which are based on first sensing data of a first sensor; compare the first feature data to a first predetermined feature model being representative of a predefined object, wherein the first predetermined feature model is specific for the first sensor, thereby generating first object probability data; obtain second feature data which are based on second sensing data of a second sensor; compare the second feature data to a second predetermined feature model being representative of the predefined object, wherein the second predetermined feature model is specific for the second sensor, thereby generating second object probability data; and combine the first and the second object probability data, thereby generating combined probability data for detecting the predefined object.",
+  "claims": "1. An object detection circuitry configured to: obtain first feature data which are based on first sensing data of a first sensor; compare the first feature data to a first predetermined feature model being representative of a predefined object O thereby generating first object probability data representing a first probability of an existence of the predefined object O in a first object parameter space, wherein the first predetermined feature model represents a plurality of different postures of the predefined object O and is specific for the first sensor; obtain second feature data which are based on second sensing data of a second sensor; compare the second feature data to a second predetermined feature model being representative of the predefined object O thereby generating second object probability data representing a second probability of an existence of the predefined object O in a second object parameter space, wherein the second predetermined feature model represents a plurality of different postures of the predefined object O and is specific for the second sensor; combine the first and the second object probability data, thereby generating combined probability data for detecting the predefined object O; and detect the predefined object O using the combined probability data.",
+  "patent_id": "US12380693-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 20/00",
+      "G06T 7/246",
+      "G06T 7/74",
+      "G06V 10/7715",
+      "G06V 10/776",
+      "G06V 10/806",
+      "G06T 2207/10028",
+      "G06T 2207/10044",
+      "G06T 2207/20081",
+      "G06V 2201/07"
+    ],
+    "all": [
+      "G06V 20/00",
+      "G06T 7/246",
+      "G06T 7/74",
+      "G06V 10/7715",
+      "G06V 10/776",
+      "G06V 10/806",
+      "G06T 2207/10028",
+      "G06T 2207/10044",
+      "G06T 2207/20081",
+      "G06V 2201/07"
+    ],
+    "source": "converted"
+  }
+}

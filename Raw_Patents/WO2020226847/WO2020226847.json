@@ -1,0 +1,21 @@
+{
+  "application_id": "WO2020226847",
+  "application_id_fs": null,
+  "title": "Capture indicator for a virtual world",
+  "abstract": "Examples are disclosed that relate to computing devices, head-mounted display devices, and methods for displaying a capture indicator within a virtual world. In one example, a method comprises displaying, via a display subsystem, a virtual world; receiving, from a sensor, location data defining a user pose; using the user pose to define a camera pose; generating a capture indicator corresponding to the camera pose; and displaying the capture indicator within the virtual world.",
+  "claims": "Claims 1. A computing device, comprising: a logic subsystem comprising a processor; and a memory storing instructions executable by the logic subsystem to: display, via a display subsystem, a virtual world; receive, from a sensor, location data defining a user pose; use the user pose to define a camera pose; generate a capture indicator corresponding to the camera pose; and display the capture indicator within the virtual world. 2. The computing device of claim 1, wherein the user pose comprises a position and/or an orientation of a userâs hand, and the capture indicator comprises a spherical preview of a 360-degree image. 3. The computing device of claim 1, wherein the user pose comprises a position and/or an orientation of a userâs head. 4. The computing device of claim 3, wherein the capture indicator comprises a bounding box of a camera frustum originating from the userâs head. 5. The computing device of claim 1, wherein the capture indicator comprises a grid that is overlaid around the user to indicate an orientation of a 360-degree image. 6. The computing device of claim 5, wherein the capture indicator comprises a default forward indicator to indicate a center of the 360-degree image. 7. The computing device of claim 5, wherein the capture indicator comprises a center line to indicate the orientation of the image with respect to a horizon. 8. The computing device of claim 1, wherein the capture indicator comprises a center indicator to indicate a center of an image captured from the camera pose. 9. The computing device of claim 1, wherein the instructions are further executable to: capture a 360-degree image; display a globe comprising the 360-degree image mapped to the globe; receive a user input to manipulate the globe; and in response to receiving the user input, change a pose of the globe to display another portion of the captured 360-degree image. 10. The computing device of claim 1, wherein the camera pose is spatially offset from the user pose, and wherein the instructions are further executable to update the camera pose using a smoothing algorithm. 11. At a computing device, a method for displaying a capture indicator within a virtual \n\n world, the method comprising: displaying, via a display subsystem, the virtual world; receiving, from a sensor, location data defining a user pose; using the user pose to define a camera pose; generating the capture indicator corresponding to the camera pose; and displaying the capture indicator within the virtual world. 12. The method of claim 11, wherein generating the capture indicator comprises generating a spherical preview of a 360-degree image. 13. The method of claim 11, wherein generating the capture indicator comprises generating a bounding box of a camera frustum originating from a userâs head. 14. The method of claim 11, wherein generating the capture indicator comprises generating a grid that is overlaid around the user to indicate an orientation of a 360-degree image. 15. The method of claim 11, further comprising: capturing a 360-degree image; displaying a globe comprising the 360-degree image mapped to the globe; receiving a user input to manipulate the globe; and in response to receiving the user input, changing a pose of the globe to display another portion of the captured 360-degree image.",
+  "classifications": {
+    "ipc": [
+      "G06F 3/01",
+      "G02B 27/01",
+      "G06F 3/0346"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 3/01",
+      "G02B 27/01",
+      "G06F 3/0346"
+    ],
+    "source": "csv"
+  }
+}

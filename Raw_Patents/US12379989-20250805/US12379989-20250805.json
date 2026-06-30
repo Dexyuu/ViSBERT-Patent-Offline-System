@@ -1,0 +1,20 @@
+{
+  "title": "Zero voltage program state detection",
+  "abstract": "For NAND devices having a zero voltage program state as a result of a preconditioning operation, detecting the status of the zero voltage program state is important for customers to quickly validate their component and SSD flows to improve NAND retention and reliability after assembly and die level re-work. A zero voltage program state detection operation quickly determines the validity of the zero voltage program state of a NAND page of a NAND device. The detection operation includes reading a NAND page with reference voltages that delimit a predetermined acceptable range of voltage levels below and above a zero threshold voltage. If NAND memory cells having threshold voltage levels that fall below or above the acceptable voltage levels exceed a predetermined failed bytes limit for the NAND page, the zero voltage program state is invalid.",
+  "claims": "1. A non-volatile memory (NVM) device comprising: a NAND array of memory cells; and circuitry to detect a status of a zero voltage program state of a NAND page of the NAND array, in which the memory cells are programmed internally to all zero values at a zero threshold voltage, the circuitry to: access failing memory cells in the NAND page whose voltage levels are not within an acceptable range of voltage levels below and above a zero threshold voltage, count the failing memory cells in a failed bytes counter, and return the status of the zero voltage program state based on the failed bytes counter, including: a fail status if the failed bytes counter exceeds a failed bytes limit, and a pass status if the failed bytes counter does not exceed the failed bytes limit.",
+  "patent_id": "US12379989-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/1048",
+      "G06F 3/0619",
+      "G06F 11/1072"
+    ],
+    "all": [
+      "G06F 11/1048",
+      "G06F 3/0619",
+      "G06F 11/1072"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Vehicle equipped with electric motor and method of controlling regenerative braking for the same",
+  "abstract": "A braking control method of an electrified vehicle provided with an electric motor as a driving source may include the steps of starting regenerative braking when a required braking amount is obtained; determining a minimum transition time which is a minimum time required for braking transition from the regenerative braking to hydraulic braking according to a maximum response slope of a hydraulic braking device of the vehicle; determining braking deceleration according to the required braking amount and a road surface condition; determining a start vehicle speed of the braking transition according to the minimum transition time, the braking deceleration, and an end vehicle speed of the braking transition; and starting the braking transition upon determining that the start vehicle speed of the braking transition is reached during the regenerative braking.",
+  "claims": "1. A braking control method of an electrified vehicle provided with an electric motor as a driving source thereof, the braking control method comprising: determining, by a controller, a required braking amount based on a value of a brake pedal position sensor (BPS) and starting regenerative braking when the required braking amount is determined; determining, by the controller, a minimum transition time, which is a minimum time required for braking transition from the regenerative braking to hydraulic braking, based on a maximum response slope which is a maximum slope corresponding to a largest rate of change of braking torque per hour of a hydraulic braking device of the vehicle, to obtain additional regenerative braking energy; determining, by the controller, braking deceleration according to the required braking amount and a road surface condition; determining, by the controller, a start vehicle speed of the braking transition based on the minimum transition time, the braking deceleration, and an end vehicle speed of the braking transition; and starting, by the controller, the braking transition when the start vehicle speed of the braking transition is reached during the regenerative braking.",
+  "patent_id": "US12377733-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60L 7/26"
+    ],
+    "all": [
+      "B60L 7/26"
+    ],
+    "source": "converted"
+  }
+}

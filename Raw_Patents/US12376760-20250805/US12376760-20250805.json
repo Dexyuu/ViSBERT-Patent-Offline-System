@@ -1,0 +1,18 @@
+{
+  "title": "Magnetic resonance imaging apparatus, and control method for magnetic resonance imaging apparatus",
+  "abstract": "A magnetic resonance imaging apparatus according to an embodiment includes a main unit and a receiver coil unit. The main unit includes processing circuitry. The processing circuitry generates a first clock signal. The processing circuitry receives a clock signal sent by the receiver coil unit in a wireless manner, and generates a second clock signal. The processing circuitry performs, in a first time period which is based on pulse sequence information, phase control of a third clock signal, based on the phase difference between the first clock signal and the second clock signal; and stops the phase control in a second time period which is based on the pulse sequence information. Then, the processing circuitry sends the third clock signal in a wireless manner to the receiver coil unit.",
+  "claims": "1. A magnetic resonance imaging apparatus comprising: a main unit; and a receiver coil unit that is a separate unit from the main unit, wherein the main unit includes processing circuitry configure to generate a first clock signal, receive a clock signal sent by the receiver coil unit in a wireless manner, and generate a second clock signal, perform, in a first time period which is based on pulse sequence information, phase control of a third clock signal, based on phase difference between the first clock signal and the second clock signal, and stop, in a second time period which is based on the pulse sequence information, the phase control, send the third clock signal in a wireless manner to the receiver coil unit, receive a magnetic resonance signal sent by the receiver coil unit in a wireless manner, and process the magnetic resonance signal and reconstruct an image related to a subject.",
+  "patent_id": "US12376760-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 5/055",
+      "G06T 2207/10088"
+    ],
+    "all": [
+      "A61B 5/055",
+      "G06T 2207/10088"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Base station transmission of RF component precision requirements to UEs",
+  "abstract": "Aspects of the present disclosure relate to signaling between network entities to mitigate, through management of phase shifter or amplitude controller precision, increased interference applied to a network node during uplink beamforming resulting from low phase shift or amplitude control precision. A UE transmits first uplink data in a first beam using a phase shifter or an amplitude controller configured with a first bit precision. The UE receives a message from a network entity indicating to change the first bit precision to a different, second bit precision in response to the first beam interfering with downlink communications from or to a network node. The UE afterwards transmits second uplink data in a second beam using the phase shifter or the amplitude controller reconfigured with the second bit precision. Thus, interference from lower precision phase shifters or amplitude controllers may be avoided.",
+  "claims": "1. An apparatus for wireless communication, comprising: a processor; memory coupled with the processor; and instructions stored in the memory and operable, when executed by the processor, to cause the apparatus to: transmit first uplink data in a first beam using a phase shifter or an amplitude controller configured with a first bit precision; receive a message from a network entity indicating to change the first bit precision to a second bit precision in response to the first beam interfering with downlink communications from or to a network node, the second bit precision being different than the first bit precision; and transmit second uplink data in a second beam using the phase shifter or the amplitude controller reconfigured with the second bit precision.",
+  "patent_id": "US12381608-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 7/0617",
+      "H04B 7/01",
+      "H04B 7/0619"
+    ],
+    "all": [
+      "H04B 7/0617",
+      "H04B 7/01",
+      "H04B 7/0619"
+    ],
+    "source": "converted"
+  }
+}

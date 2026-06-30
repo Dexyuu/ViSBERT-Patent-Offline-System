@@ -1,0 +1,20 @@
+{
+  "title": "Pattern match-based detection in IOT security",
+  "abstract": "Techniques for providing Internet of Things (IoT) security are disclosed. An applicable system includes profiling IoT devices to limit the number of network signatures applicable to the IoT devices and performing pattern matching using a pattern that is appropriate for the profile of a given IoT device.",
+  "claims": "1. A method of detecting undesirable behavior of an Internet-of-Things (IoT) device, comprising: associating a first subset of patterns of a superset of patterns with a first IoT device profile, wherein the first IoT device profile belongs to a set comprising a plurality of IoT device profiles; attributing the first IoT device profile to a first IoT device as a first provisional profile and attributing a second provisional profile to the first IoT device; detecting first IoT device events, the first IoT device events including one or more network sessions of the first IoT device; generating an activity data structure from the first IoT device events and from other events, including by enriching at least one event by associating enrichment data with the at least one event, wherein the enrichment data comprises at least one of: (1) another event, or (2) information appended to the at least one event, wherein the generated activity data structure comprises a labeled collection of events, wherein at least one of the other events comprises a non-network event, and wherein a first event is treated differently for the first provisional profile than the second provisional profile; determining an activity of the first IoT device based on the activity data structure; applying the first subset of patterns to the activity of the first IoT device; and generating an alert when the application of the first subset of patterns to the activity of the first IoT device is indicative of undesirable behavior for a device to which the first IoT device profile is attributed.",
+  "patent_id": "US12381902-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1425",
+      "G06N 20/00",
+      "H04L 63/20"
+    ],
+    "all": [
+      "H04L 63/1425",
+      "G06N 20/00",
+      "H04L 63/20"
+    ],
+    "source": "converted"
+  }
+}

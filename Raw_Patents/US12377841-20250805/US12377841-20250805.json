@@ -1,0 +1,24 @@
+{
+  "title": "Vehicle systems and methods for probabilistic maneuver prediction",
+  "abstract": "Vehicles and related systems and methods are provided for predicting a future maneuver expected to be executed by a driver. One method involves determining a combined probability for a potential maneuver based on constituent probabilities corresponding to different vehicle state variables, and environmental conditions using one or more tuning parameters specific to the respective combination of maneuver and vehicle state variable, determining an adjusted probability for the potential maneuver based at least in part on the combined probability and one or more contextual state variables corresponding to a current operating context for the vehicle, adapted to driver behavior and driving style, identifying the potential maneuver as an expected maneuver to be executed by a driver of the vehicle based on the adjusted probability, and automatically initiating one or more actions in a manner that is influenced by the expected maneuver.",
+  "claims": "1. A method of assisting operation of a vehicle, the method comprising: obtaining, by a processor associated with the vehicle, for a plurality of vehicle state variables, a respective current value for the respective vehicle state variable; obtaining, by the processor, one or more contextual state variables corresponding to a current operating context for the vehicle; determining, by the processor, a respective probability for a potential maneuver of a plurality of potential maneuvers for the vehicle based on the respective current value for the plurality of vehicle state variables and one or more tuning parameters associated with respective combinations of the potential maneuver and the respective vehicle state variable, resulting in a plurality of probabilities for the potential maneuver corresponding to the plurality of vehicle state variables; determining, by the processor, a combined probability for the potential maneuver based at least in part on the plurality of probabilities for the potential maneuver corresponding to the plurality of vehicle state variables; determining, by the processor, an adjusted probability for the potential maneuver based at least in part on the combined probability and the one or more contextual state variables corresponding to the current operating context for the vehicle; identifying, by the processor, the potential maneuver as an expected maneuver to be executed by a driver of the vehicle based on the adjusted probability; adjusting a first tuning parameter of the one or more tuning parameters associated with respective combinations of a first maneuver and a first vehicle state variable based on at least one of a driving style and a behavior associated with the driver; and automatically initiating, by the processor, one or more actions including operating one or more actuators associated with the vehicle in a manner that is influenced by the expected maneuver.",
+  "patent_id": "US12377841-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 30/0953",
+      "B60W 50/0097",
+      "B60W 50/06",
+      "B60W 50/14",
+      "B60W 2530/00"
+    ],
+    "all": [
+      "B60W 30/0953",
+      "B60W 50/0097",
+      "B60W 50/06",
+      "B60W 50/14",
+      "B60W 2530/00"
+    ],
+    "source": "converted"
+  }
+}

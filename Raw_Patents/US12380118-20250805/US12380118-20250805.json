@@ -1,0 +1,22 @@
+{
+  "title": "Generating personalized user recommendations using word vectors",
+  "abstract": "In various example embodiments, a system and method for constructing and scoring word vectors between natural language words and generating output to a user in the form of personalized recommendations are presented.",
+  "claims": "1. A computer-implemented method comprising: monitoring, via a device, user interaction with a first item listing of a network-based marketplace, the first item listing including a first plurality of words; generating a word vector for a first word from the first plurality of words, the word vector indicating contextual relatedness represented by an edit distance between the first word and a second word from the first plurality of words; assigning, by at least one processor, a score to the word vector based at least in part on the user interaction, the score indicating a likelihood of a search being performed using the first word together with the second word; identifying a second item listing with which a user of the device has a prior interaction; mapping a second plurality of words in the second item listing to the first word and the second word from the first plurality of words based on the word vector; ranking the second plurality of words in the second item listing at least based on the score assigned to the word vector; and based on the ranking, outputting, by the at least one processor, the second item listing on the device.",
+  "patent_id": "US12380118-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/24578",
+      "G06F 16/24575",
+      "G06F 16/248",
+      "G06F 16/313"
+    ],
+    "all": [
+      "G06F 16/24578",
+      "G06F 16/24575",
+      "G06F 16/248",
+      "G06F 16/313"
+    ],
+    "source": "converted"
+  }
+}

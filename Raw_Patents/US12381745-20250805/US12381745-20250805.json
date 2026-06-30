@@ -1,0 +1,18 @@
+{
+  "title": "Identity authority",
+  "abstract": "Systems and methods are described for rotating keys in a trust store to be used by a group of peer devices for secure communications between the peers in the group. In some examples, a service, such as an identify authority service, may make a determination that a set of peers that individually trust at least one public key from a group of public keys satisfies a set of conditions. As a result of the determination, the service may update the plurality of public keys by at least removing at least one public key from the group of public keys and indicate the updated plurality of public keys to at least one of the peers in the group. The service may remove the at least one public key from the group upon determining that less than a threshold number of peers in the group use the at least one public key.",
+  "claims": "1. A computer implemented method, comprising: obtaining first data from a peer computing system that indicates a set of certificates trusted by the peer computing system; updating, based on the first data, second data that tracks certificates trusted by a plurality of peer computing systems that includes the peer computing system; generating, based on the second data, a determination that a set of conditions for updating a plurality of certificates is satisfied, wherein the set of conditions comprise an indication that at least a threshold number of peer computing systems have stopped using a second certificate to authenticate communications with other peer computing systems of the plurality of peer computing systems, wherein individual certificates of the set of certificates are configured independently of other certificates of the set of certificates to establish trust by or with the peer computing system; as a result of the determination, updating the plurality of certificates to result in an updated plurality of certificates by: adding a first certificate to the plurality of certificates; removing the second certificate from the plurality of certificates; and changing a status of at least one third certificate to allow the at least one third certificate to be used by the plurality of the peer computing systems to verify peer certificates that are used to authenticate for peer-to-peer communication; and communicating to at least one of the plurality of peer computing systems third data that indicates certificates in the updated plurality of certificates.",
+  "patent_id": "US12381745-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/3268",
+      "H04L 63/0823"
+    ],
+    "all": [
+      "H04L 9/3268",
+      "H04L 63/0823"
+    ],
+    "source": "converted"
+  }
+}

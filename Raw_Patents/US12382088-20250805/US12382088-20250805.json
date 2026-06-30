@@ -1,0 +1,22 @@
+{
+  "title": "Motion estimation region for the merge candidates",
+  "abstract": "An electronic apparatus performs a method of encoding and decoding video data. The method comprises: receiving, from a bitstream, the video data corresponding to a coding unit; receiving, from the video data, a first syntax element that defines a Motion Estimation Region (MER); receiving a plurality of second syntax elements from the video data, wherein the plurality of second syntax elements indicate whether the coding unit is in a subblock-based temporal motion vector prediction (SbTMVP) mode; in accordance with a determination that the coding unit is in the SbTMVP mode, determining whether both a spatial neighboring block used to determine a temporal vector of the coding unit and the coding unit are within the same MER; and in accordance with a determination that both the spatial neighboring block and the coding unit are within the same MER, setting the temporal vector of the coding unit to zero.",
+  "claims": "5. An electronic apparatus comprising: one or more processing units; memory coupled to the one or more processing units; and a plurality of programs stored in the memory that, when executed by the one or more processing units, cause the electronic apparatus to: receive, from a bitstream, a first syntax element that is used to define a Motion Estimation Region (MER), wherein construction of a merge candidate list of a coding unit in the MER is independent of other coding units in the MER; receive a plurality of second syntax elements from the bitstream, wherein at least one of the plurality of second syntax elements indicates whether a subblock-based temporal motion vector prediction (SbTMVP) mode is enabled for the coding unit; and in accordance with a determination that the coding unit is in a sub-block merge mode and the SbTMVP mode is enabled for the coding unit: determine whether both a first spatial neighboring block used to determine a temporal vector of the coding unit and the coding unit are within the same MER, wherein in accordance with the determination that both the first spatial neighboring block and the coding unit are within the same MER, the temporal vector of the coding unit is equal to zero, wherein the plurality of second syntax elements includes a third syntax element indicating whether the coding unit is in the sub-block merge mode, wherein the plurality of programs stored in the memory that, when executed by the one or more processing units, cause the electronic apparatus to: receive a fourth syntax element indicating which subblock-based merge candidate is used to reconstruct the coding unit in a case that the coding unit is in the sub-block merge mode, and wherein the third syntax element is a merge_subblock_flag and the fourth syntax element is a merge_subblock_idx.",
+  "patent_id": "US12382088-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/52",
+      "H04N 19/105",
+      "H04N 19/159",
+      "H04N 19/70"
+    ],
+    "all": [
+      "H04N 19/52",
+      "H04N 19/105",
+      "H04N 19/159",
+      "H04N 19/70"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Method for cargo counting, computer equipment, and storage medium",
+  "abstract": "A method for cargo counting, a computer equipment, and a storage medium are provided in the disclosure. The method includes the following. Three-dimensional (3D) point cloud data of a set of cargoes within a preset placement region is obtained based on a cargo-counting instruction. Whether the set of cargoes are in a first placement state is determined according to the 3D point cloud data. Based on a determination that the set of cargoes are in the first placement state, a quantity of the set of cargoes is calculated.",
+  "claims": "1. A method for cargo counting, comprising: obtaining three-dimensional (3D) point cloud data of a set of cargoes within a preset placement region based on a cargo-counting instruction; determining whether the set of cargoes are in a first placement state according to the 3D point cloud data; and calculating a quantity of the set of cargoes, based on a determination that the set of cargoes are in the first placement state; wherein determining whether the set of cargoes are in the first placement state according to the 3D point cloud data comprises: projecting the 3D point cloud data onto a ground plane to obtain a statistics-based grid map; performing straight line detection on the grid map to obtain a plurality of straight line equations; and determining that the set of cargoes are in the first placement state, on condition that a straight line slope of each of the plurality of straight line equations is equal to 0 or 1.",
+  "patent_id": "US12380669-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/476",
+      "G01S 17/89",
+      "G06T 7/11",
+      "G06T 2207/10028"
+    ],
+    "all": [
+      "G06V 10/476",
+      "G01S 17/89",
+      "G06T 7/11",
+      "G06T 2207/10028"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Systems and methods for reducing alert fatigue during operation of cyber-physical systems",
+  "abstract": "Disclosed herein are systems and methods for reducing or mitigation alert fatigue from real-time alerts in cyber-physical systems or other types of edge computing systems are provided. In one or more examples, the edge computing system monitor can look for one or more patterns within received data that can indicate malicious activity or other conditions that may warrant a real-time or near-real time response from the operator. In one or more examples, a detection of any of the specified patterns in the streaming data can trigger an alert to the operator of the edge computing system. In one or more examples, the alerts can be suppressed until the number of alerts associated with a particular pattern crosses a pre-determined threshold. Additionally or alternatively, alerts can be suppressed based on a duration that the alerts have been generated. The suppression of alerts can be configured to reduce operator alert fatigue.",
+  "claims": "1. A method for reducing a number of alerts provided to an edge computing system operator, the method comprising: receiving one or more messages transmitted between a plurality of components of the edge computing system; receiving a list of information that comprises information about one or more components identified in the received one or more messages; receiving one or more modifications to the received list of information from the edge computing system operator to generate a seen-list, wherein the seen-list comprises one or more components in the list of information that has been authorized by the edge computing system operator; receiving one or more specifications of conditions to search for within the received one or more messages; converting the one or more specifications of conditions into one or more watch points, wherein each watch point defines a pattern to be searched for in the one or more messages transmitted between the plurality of components; determining the presence of one or more patterns within the received one or more messages based on the one or more watch points; and if the one or more patterns within the received one or more messages are determined to be present: generating an alert; and suppressing the alert from being transmitted to the edge computing system operator based on a comparison between the one or more patterns in the received one or more messages and the seen-list.",
+  "patent_id": "US12381773-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 41/0604",
+      "G06F 11/3006",
+      "G06F 11/3072",
+      "G06F 18/00",
+      "G06F 21/50",
+      "G06N 20/00",
+      "H04L 41/0893",
+      "H04L 41/16",
+      "H04L 63/1408",
+      "H04L 63/1416"
+    ],
+    "all": [
+      "H04L 41/0604",
+      "G06F 11/3006",
+      "G06F 11/3072",
+      "G06F 18/00",
+      "G06F 21/50",
+      "G06N 20/00",
+      "H04L 41/0893",
+      "H04L 41/16",
+      "H04L 63/1408",
+      "H04L 63/1416"
+    ],
+    "source": "converted"
+  }
+}

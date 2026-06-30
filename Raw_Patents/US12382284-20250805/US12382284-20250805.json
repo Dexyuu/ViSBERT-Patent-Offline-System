@@ -1,0 +1,18 @@
+{
+  "title": "User equipment authentication and authorization procedure for edge data network",
+  "abstract": "A user equipment (UE) may attempt to access an edge data network. The UE generates a first credential based on a second credential, the second credential generated for a procedure between the UE and a cellular network, generating an identifier corresponding to the first credential, and generates a multi-access edge computing (MEC) authorization parameter. The UE then transmits an application registration request message to a server associated with an edge data network, the application registration request message including an indication of the first credential, the identifier corresponding to the first credential and the first authorization parameter. The UE then receives an authentication accept message or an authentication reject message from the server associated with the edge data network.",
+  "claims": "1. A method, comprising: at a user equipment (UE): generating a first credential based on a second credential, the second credential generated for a primary authentication procedure between the UE and a cellular network, wherein the second credential is an Authentication Server Function (AUSF) key (K AUSF ); generating an identifier corresponding to the first credential, said identifier uniquely identifying the first credential; calculating a multi-access edge computing (MEC) authorization parameter using the first credential and a second identifier, the second identifier being a globally unique value associated with an edge enabler client (EEC) running on the UE; transmitting an application registration request message to a server associated with an edge data network, the application registration request message including the second identifier, the second identifier corresponding to the first credential and the MEC authorization parameter; and receiving an authentication accept message or an authentication reject message from the server associated with the edge data network, wherein the authentication accept message or the authentication rejection message is based on a validation of the MEC authorization parameter.",
+  "patent_id": "US12382284-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 12/06",
+      "H04W 12/08"
+    ],
+    "all": [
+      "H04W 12/06",
+      "H04W 12/08"
+    ],
+    "source": "converted"
+  }
+}

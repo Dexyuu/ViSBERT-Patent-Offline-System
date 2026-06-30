@@ -1,0 +1,38 @@
+{
+  "title": "Computer vision property evaluation",
+  "abstract": "Systems and methods are disclosed for computer vision property evaluation. In certain embodiments, a method may comprise executing a computer vision property evaluation operation via a computing system. The computer vision property evaluation operation may include identifying an image of a selected property feature using a first neural network (NN) of the computing system, cropping the image of the selected property feature in a selected way to produce a cropped image using a second NN of the computing system, generating a categorization of the cropped image based on identified details of the selected property feature, and generating a classification of a property corresponding to the selected property feature based on the categorization.",
+  "claims": "1. A method comprising: executing a computer vision property evaluation operation via a computing system, including: identifying an image as having a selected property feature using a first neural network (NN) of the computing system; cropping the image of the selected property feature in a selected way to produce a cropped image using a second NN of the computing system; generating a categorization of the cropped image by determining which of several categories the cropped image belongs to based on identified details of the selected property feature; and generating a classification of a property corresponding to the selected property feature based on the categorization, the classification specifying a qualitative description of the property.",
+  "patent_id": "US12380675-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/764",
+      "G06F 18/214",
+      "G06N 3/045",
+      "G06Q 50/16",
+      "G06T 7/11",
+      "G06V 10/42",
+      "G06V 10/82",
+      "G06V 20/176",
+      "G06V 20/70",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/20132"
+    ],
+    "all": [
+      "G06V 10/764",
+      "G06F 18/214",
+      "G06N 3/045",
+      "G06Q 50/16",
+      "G06T 7/11",
+      "G06V 10/42",
+      "G06V 10/82",
+      "G06V 20/176",
+      "G06V 20/70",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/20132"
+    ],
+    "source": "converted"
+  }
+}

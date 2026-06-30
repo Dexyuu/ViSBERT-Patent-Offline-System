@@ -1,0 +1,20 @@
+{
+  "title": "Transferring authentication from an extended reality (“XR”) device",
+  "abstract": "Systems and Method are provided for transferring authentication from an extended reality (âXRâ) device. The systems and method may include the XR device comprising a sensor, and a computing device in electronic communication with the sensor. The sensor may collect biometric information from a user. The computing device may assign a first authentication level based on the biometric information. The user may be prompted to sign or virtually sign a document. The sensor may record a video recording of the user signing the document. The computing device may create a digital file from the video recording and a token indicating the first authentication level and the biometric information. The computing device may embed the token into the digital file. The digital file with the embedded token may be transferred to a second party.",
+  "claims": "1. System for transferring authentication from an extended reality (“XR”) device, the system comprising: the XR device comprising: a device identifier (“ID”); a sensor configured to capture biometric information of a user; and a computing device associated with and under the control of a notary public, the computing device configured to run an XR session, the computing device in electronic communication with the sensor; wherein: the sensor collects the biometric information during a user login into the XR session; the computing device assigns, based on the biometric information collected, a first authentication level to the XR session; the user is prompted, in response to the first authentication level being assigned, to sign or virtually sign a document, within the XR session; the sensor records a video recording of the user signing the document; the computing device creates a digital file from the video recording; the computing device creates a token indicating the first authentication level, qualifications of the notary public, the biometric information, and the device ID; the computing device embeds the token into the digital file; in response to the computing device embedding the token into the digital file, prompting the notary public to verify that the first authentication level satisfies a notary-level authentication; and the computing device transfers the digital file which has been verified by the notary public, with the embedded token, to a second party.",
+  "patent_id": "US12381874-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/0861",
+      "G06F 21/32",
+      "H04L 65/403"
+    ],
+    "all": [
+      "H04L 63/0861",
+      "G06F 21/32",
+      "H04L 65/403"
+    ],
+    "source": "converted"
+  }
+}

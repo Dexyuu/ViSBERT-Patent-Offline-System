@@ -1,0 +1,16 @@
+{
+  "title": "Transport system and transport robot",
+  "abstract": "The present invention makes an instruction for causing a transport robot to carry out transport easier for a person to understand. A transport system (1) is such that an address indicating a transport destination or a transport source is represented by a tree structure including a node indicating loading locations and a node indicating equipment to which the loading locations are provided, and when the address of the transport destination indicates equipment, a transport robot (20) sequentially loads objects to be transported in accordance with a preset loading priority order in loading locations where no objects to be transported have been loaded, from among the loading locations belonging to that equipment.",
+  "claims": "1. A transport system for transporting, in an area where a plurality of pieces of equipment provided with a plurality of loading locations for loading an object to be transported is installed, the object to be transported between the loading locations across the plurality of pieces of equipment by a transport robot, the transport system comprising: a control device having an instruction issuance unit that issues a transport instruction for the transport robot, and a database that holds inventory information of the loading location; and the transport robot, wherein an address used in the transport instruction to specify a transport destination or a transport source is represented by a tree structure that comprises a node indicating the locating location and a node indicating equipment provided with the locating location, and when the address of the transport destination specified by the transport instruction indicates the equipment, the transport robot sequentially loads the object to be transported in accordance with a predetermined loading priority order in the loading location where the object to be transported has not been loaded, among the loading locations belonging to the equipment, based on the inventory information.",
+  "patent_id": "US12378076-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B65G 1/1371"
+    ],
+    "all": [
+      "B65G 1/1371"
+    ],
+    "source": "converted"
+  }
+}

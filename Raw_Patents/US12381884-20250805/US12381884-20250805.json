@@ -1,0 +1,20 @@
+{
+  "title": "Time-based credential validity period reduction",
+  "abstract": "A credential management system with time-based credential validity period reduction is disclosed. The credential management system, responsive to determining to renew a current version of a time-based security credential, determines a validity time period length for a renewal version of the time-based security credential based on (1) a validity time period length for the current version of the time-based security credential and/or (2) renewal completion metrics for the respective credential holder. The credential management system obtains, from a credential authority, a renewed version of the time-based security credential having the determined validity time period length, and returns the renewed version to the credential holder. Receipt of the renewed version initiates performance of a deployment of the renewed credential at the respective credential holder to update use of the current version of the time-based security credential. Completion metrics are transmitted to the credential management system, for determining a next validity time.",
+  "claims": "1. A system, comprising: one or more storage devices to implement a credential management repository to store validity time period information or replacement time information for a plurality of credentials; and one or more processors and one or more memories to store computer-executable instructions that, if executed, cause the one or more processors to implement a credential management system to, for respective credential holders of a plurality of credential holders: determine to renew a current version of a time-based security credential for the respective credential holder; responsive to the determination to renew, determine a validity time period length for a renewed version of the time-based security credential based on: a validity time period length for the current version of the time-based security credential, and one or more renewal completion metrics for the respective credential holder, wherein the one or more renewal completion metrics measure one or more characteristics of one or more completions of one or more renewals of one or more time-based security credentials; obtain on behalf of the respective credential holder, from a credential authority, the renewed version of the time-based security credential having the determined validity time period length; and return the renewed version of the time-based security credential to the respective credential holder, wherein receipt of the renewed version of the time-based security credential initiates performance of a credential deployment process at the respective credential holder to update use of the current version of the time-based security credential to the renewed version of the time-based security credential.",
+  "patent_id": "US12381884-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/108",
+      "H04L 63/102",
+      "H04L 63/20"
+    ],
+    "all": [
+      "H04L 63/108",
+      "H04L 63/102",
+      "H04L 63/20"
+    ],
+    "source": "converted"
+  }
+}

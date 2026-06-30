@@ -1,0 +1,24 @@
+{
+  "title": "System and method for upgrading sparkline cluster with zero downtime",
+  "abstract": "The present embodiments relate to updating a dataflow interactive cluster with zero downtime. A request to update a first dataflow cluster can be received, and a second dataflow cluster can be generated as a replacement cluster to execute received queries. Generating the second dataflow cluster can include identifying a second series of executor nodes that are configured to execute queries from the gateway node via a second driver node. A first update to a configuration of a host configuration node can be performed to register the second dataflow cluster as an active endpoint and identify the first dataflow cluster as an inactive endpoint. When no active queries exist, a second update to the configuration can be provided to remove the first dataflow cluster from the configuration to direct subsequent queries from the gateway node to the second dataflow cluster.",
+  "claims": "1. A method comprising: obtaining a request to update a first dataflow cluster, the first dataflow cluster directing query data from a gateway node to a first series of executor nodes to execute queries; responsive to obtaining the request to update the first dataflow cluster, generating a second dataflow cluster as a replacement to the first dataflow cluster, generating the second dataflow cluster comprising: identifying a second series of executor nodes from a new node pool that corresponds to the second dataflow cluster, the second series of executor nodes configured to execute queries from the gateway node; causing a first update to a configuration of a host configuration node to register the second dataflow cluster as an active endpoint for subsequent queries and identify the first dataflow cluster as an inactive endpoint; and responsive to determining that an upgrade timeout period has completed, causing a second update to the configuration of the host configuration node to set a stale indicator for the first dataflow cluster to be set to true; subsequent to the second update to the configuration of the host configuration node to set the stale indicator: polling the configuration of the host configuration node for the stale indicator for the first dataflow cluster; responsive to polling the configuration to determine the stale indicator is true for the first dataflow cluster, causing a third update to the configuration of the host configuration node to remove the first dataflow cluster from the configuration, causing direction of subsequent query data from the gateway node to the second dataflow cluster; wherein the method is performed by at least one device including a hardware processor.",
+  "patent_id": "US12380102-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/24542",
+      "G06F 8/656",
+      "G06F 9/4856",
+      "G06F 9/547",
+      "G06F 16/2379"
+    ],
+    "all": [
+      "G06F 16/24542",
+      "G06F 8/656",
+      "G06F 9/4856",
+      "G06F 9/547",
+      "G06F 16/2379"
+    ],
+    "source": "converted"
+  }
+}

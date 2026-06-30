@@ -1,0 +1,20 @@
+{
+  "title": "Current-mode analog-to-digital converter systems, devices and methods for multi-sensing",
+  "abstract": "A device can include analog circuits formed with a substrate, including a comparator, analog switches, and a balance current circuit. A sensor current and balance current can be applied at an input of the comparator. The sensor current, balance current or both can be modulated with a switch control signal. Digital circuits can include switch control logic that generates the switch control signal in response to an output of the comparator and a modulation clock signal. Digital signal processing circuits can generate a multi-bit digital value from a bit stream output by the comparator circuit. The multi-bit digital value can be an analog-to-digital conversion of the sensor current. Corresponding methods and systems are also disclosed.",
+  "claims": "1. A method, comprising: configuring switch control circuits to generate a plurality of switch control signals based on configuration data in response to an output of an analog comparator circuit and a modulation clock signal; configuring a plurality of first analog switches of a program balance current generator to modulate at least one balance current based on at least a first control signal and a second control signal of the plurality of switch control signals, wherein the first control signal and the second control signal have duty cycles that do not overlap; configuring a second analog switch of the program balance current generator to couple the plurality of first analog switches to a first input of the analog comparator circuit based on a third control signal of the plurality of switch control signals, wherein the second analog switch is configured to modulate a sensor current received at the first input of the analog comparator circuit; offsetting, responsive to a determination that a voltage at the first input of the analog comparator circuit meets a voltage threshold, the sensor current with the balance current; and generating a multi-bit digital value from at least a bit stream output by the analog comparator circuit corresponding to the sensor current.",
+  "patent_id": "US12381569-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03M 1/34",
+      "G01D 5/14",
+      "G01R 17/02"
+    ],
+    "all": [
+      "H03M 1/34",
+      "G01D 5/14",
+      "G01R 17/02"
+    ],
+    "source": "converted"
+  }
+}

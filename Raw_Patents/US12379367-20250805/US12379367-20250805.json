@@ -1,0 +1,22 @@
+{
+  "title": "Method for setting polymerization condition and method for manufacturing optical material",
+  "abstract": "The method for setting polymerization conditions includes a physical property acquiring step, in which, when a composition which includes a polymerizable reactive compound including an episulfide compound, and a polymerization catalyst is heated and maintained at a predetermined temperature, a physical property value a derived from a functional group of the polymerizable reactive compound before heating and a physical property value b derived from a remaining functional group after maintaining heat for a predetermined time, are acquired; a remaining functional group ratio calculating step of calculating a remaining functional group ratio; a reaction rate coefficient calculating step for calculating a reaction rate coefficient; and a polymerization temperature calculating step of back-calculating each polymerization temperature every predetermined time in a polymerization time.",
+  "claims": "1. A method for setting polymerization condition, comprising: providing a composition including a polymerizable reactive compound including an episulfide compound, and a polymerization catalyst; a physical property acquiring step comprising: acquiring a physical property value a derived from a functional group, heating the composition and retaining heat at a plurality of predetermined temperatures, wherein the acquiring the physical property value a is conducted before the heating, and acquiring a physical property value b derived from a remaining functional group after maintaining each of the plurality of predetermined temperatures for predetermined times; a remaining functional group ratio calculating step of calculating a remaining functional group ratio from the physical property value a and the physical property value b; a reaction rate coefficient calculating step of calculating a reaction rate coefficient from the remaining functional group ratio based on a predetermined reaction rate equation stored in a storage unit; a polymerization temperature calculating step of back-calculating a plurality of polymerization temperatures at predetermined time intervals within a polymerization time based on the reaction rate equation, using the reaction rate coefficient, such that the following conditions are satisfied; wherein the conditions are comprised of selecting and determining an average polymerization rate from a range of more than 0%/hr and 3.0%/hr or less in a range of 0% or more and 20% or less of a conversion ratio, calculating multiple polymerization rates at predetermined time intervals within the time when the conversion ratio is in a range of 0% or more and 20% or less, and calculating a standard deviation by the positive square root of the variance of the multiple polymerization rates and the average polymerization rate, and satisfying 0.8%/hr or less of the calculated standard deviation.",
+  "patent_id": "US12379367-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01N 33/442",
+      "B29D 11/00",
+      "C08G 75/08",
+      "G02B 1/04"
+    ],
+    "all": [
+      "G01N 33/442",
+      "B29D 11/00",
+      "C08G 75/08",
+      "G02B 1/04"
+    ],
+    "source": "converted"
+  }
+}

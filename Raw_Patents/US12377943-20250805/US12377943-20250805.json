@@ -1,0 +1,24 @@
+{
+  "title": "Apparatus and method for a free-swimming soft underwater robot using adaptive three-axis depth control to monitor marine environments",
+  "abstract": "An underwater robot apparatus that is capable of omnidirectional lateral movement using Bluetooth, depth, temperature, and light sensors for monitoring the marine environment. The apparatus is an adaptive, three-axis control soft robotic apparatus embedded with sensors and can swim in three dimensions to record aquatic life. An adaptive controller within the soft robotic apparatus produces positive upward motion despite its negative buoyancy and additional pressure vessel mass. A submersible impellor pump is connected to each actuator grouping wherein propulsion is created by filling and emptying of nine tentacles with surrounding ambient water. The apparatus produces maximum thrust using a full stroke actuation scheme at a frequency of 0.3 Hz. In addition to upward motion, the apparatus effects lateral motion utilizing two of three sets of actuator groups for more complex travel. An onboard pressure sensor coupled with the adaptive controller, allows the apparatus to autonomously hold to a predetermined depth.",
+  "claims": "1. An underwater robot apparatus that can freely swim in three dimensions for monitoring underwater marine life in a marine environment, said apparatus comprising: a body portion having a plurality of soft actuators that can articulate to maneuver and propel said apparatus; a plurality of submersible pumps within said body portion, each one of said plurality of submersible pumps controlling the activation of particular ones of said plurality of soft actuators; a pressure sensor for detecting the pressure of the ambient marine environment corresponding to depth in the marine environment; an adaptive controller coupled to each one of said submersible pumps for commanding said plurality of submersible pumps to undulate said particular ones of said plurality of soft actuators at an undulation frequency, wherein said pressure sensor coupled to said adaptive controller for providing feedback to form a depth tracking error defined by the difference between a target depth and a current depth of the underwater robot apparatus, and wherein said adaptive controller modulates the undulation frequency based on said depth tracking error to move the apparatus toward the target depth via omnidirectional movement of said apparatus within said marine environment.",
+  "patent_id": "US12377943-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B63G 8/001",
+      "A01K 29/00",
+      "B63G 8/08",
+      "B63G 8/16",
+      "B63G 2008/005"
+    ],
+    "all": [
+      "B63G 8/001",
+      "A01K 29/00",
+      "B63G 8/08",
+      "B63G 8/16",
+      "B63G 2008/005"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "System and method for managing communications in a networked call center",
+  "abstract": "Disclosed implementations include a sequence of logic in a call center system to facilitate warm transfer operations, including when the warm transfer is to a party that is not part of, or integrated with, the call center. Disclosed implementations utilize a connection module to capture and parse connection information, such as a phone number, in a web page or other display on an agent's terminal. The connection information is replaced with a link that can be recognized by the call center and visually recognized by the agent. This provides the agent with a âclick-to-callâ function that can be used to achieve connection to a third-party expert or associated web page. The connection module ascertains the agent's status in the call center system, and connection logic is applied, based on the status, to execute an appropriate connection strategy in response to selection of the click-to-call operation by the agent.",
+  "claims": "1. A method of initiating communications within an automated call center, the method comprising: parsing, by a browser plug-in installed in a web browser of a call center agent, text of a web page of a third-party consultant to obtain parsed text; applying at least one of an expression format to the parsed text to identity at least one set of connection data in the parsed text; identifying segments of the at least one set of connection data; inserting the segments into a data structure in accordance with a URL schema compatible with a communication routing module of the automated call center; converting the data structure into a link that is displayed on a user interface of an agent computing device; in response to selection of the link by the agent through the user interface,",
+  "patent_id": "US12381983-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04M 3/5232",
+      "H04M 3/5238"
+    ],
+    "all": [
+      "H04M 3/5232",
+      "H04M 3/5238"
+    ],
+    "source": "converted"
+  }
+}

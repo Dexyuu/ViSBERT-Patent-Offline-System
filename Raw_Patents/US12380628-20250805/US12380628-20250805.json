@@ -1,0 +1,22 @@
+{
+  "title": "Method and apparatus for generating a colored three dimensional volume via voxel elimination and color assignment to voxel groups",
+  "abstract": "Pointers are added to a 3D volumetric dataset to help the user visualize the direction of blood flow. A 3D volume containing at least one blood vessel is created. Next, the direction of the blood flow is determined. Next, at least pointer is placed into the 3D volume in an aligned fashion with the direction of blood flow such that the 3D volume is modified. Next, the modified 3D volume is displayed on a head display unit, such as an augmented reality or virtual reality display. Next, at least one pointer is advanced to a new position for additional modification of the 3D imaging volume.",
+  "claims": "1. A computer-implemented method comprising: imaging a volume in response to use of an imaging device, wherein said imaging device uses electromagnetic energy, wherein said electromagnetic energy interacts with said volume, and wherein said volume comprises items, generating a 3D dataset corresponding to said volume based on said interaction, wherein said 3D dataset is associated with a 3D coordinate system, wherein said 3D dataset comprises voxels, and wherein each of said voxels corresponds to an intrinsic property of a corresponding item of said items; modifying said 3D dataset into a colored 3D dataset, wherein a first group of voxels of said 3D dataset is associated with a transparent volume based on an intrinsic property, and wherein a second group of voxels of said 3D dataset, different from the first group of voxels, is assigned a first color based on said intrinsic property to generate said colored 3D dataset, wherein at least one voxel of said first group of voxels resides at a first distance from a viewpoint, and at least one voxel of said second group of voxels resides at a second distance from said viewpoint, wherein said second distance is greater than said first distance; and displaying said colored 3D dataset to a user.",
+  "patent_id": "US12380628-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 15/08",
+      "G06T 15/20",
+      "H04N 13/344",
+      "G06T 2210/41"
+    ],
+    "all": [
+      "G06T 15/08",
+      "G06T 15/20",
+      "H04N 13/344",
+      "G06T 2210/41"
+    ],
+    "source": "converted"
+  }
+}

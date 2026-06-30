@@ -1,0 +1,20 @@
+{
+  "title": "Redirection of attachments based on risk and context",
+  "abstract": "A computer system is provided. The computer system includes a memory and at least one processor coupled to the memory and configured to evaluate a risk associated with an email attachment based on application of security policies to properties of the attachment and to the context associated with receipt of the email. The at least one processor is further configured to detect an attempt by a user to open the email attachment. The at least one processor is further configured to prevent the opening of the attachment based on the evaluated risk. The at least one processor is further configured to redirect the attachment to a secure browser, hosted on a remote server, based on the evaluated risk.",
+  "claims": "1. A computer system comprising: a memory; and at least one processor coupled to the memory and configured to: evaluate a risk associated with a file attachment of an email based on application of security policies to properties of the file attachment and to context associated with receipt of the email; detect an attempt to open the file attachment; in response to detecting the attempt to open the file attachment, send, to a server, a request to host a secure browser session; send, to the server, an identifier of the file attachment, an identifier of the email, and a token to authenticate a request for access to the attachment at an email server storing the file attachment; prevent opening of the file attachment based on the evaluated risk; communicate with the server causing the server to retrieve the file attachment using the identifier of the file attachment, the identifier of the email, and the token from the email server storing the file attachment; and view the file attachment through the secure browser session hosted on the server.",
+  "patent_id": "US12380203-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/53",
+      "G06F 21/57",
+      "H04L 51/08"
+    ],
+    "all": [
+      "G06F 21/53",
+      "G06F 21/57",
+      "H04L 51/08"
+    ],
+    "source": "converted"
+  }
+}

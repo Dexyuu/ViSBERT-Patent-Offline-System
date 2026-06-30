@@ -1,0 +1,18 @@
+{
+  "title": "Control system and method for power supply system",
+  "abstract": "A control system and method for a power supply system. The control system includes a front controller and a front voltage conversion circuit and a post controller and a post voltage conversion circuit. The front voltage conversion apparatus is configured to supply power to the post voltage conversion apparatus through a direct current bus. The post voltage conversion apparatus is configured to: receive electric energy transmitted by the front voltage conversion apparatus through the direct current bus, and supply power to a power grid. The post controller is further configured to transmit, to the front controller through the direct current bus, information indicating that high voltage ride-through occurs on the power grid. Voltage control on the direct current bus does not need to depend on the high-speed communication cable, thereby improving control efficiency of a power supply system.",
+  "claims": "1. A control system for a power supply system, comprising: a front voltage conversion apparatus, wherein the front voltage conversion apparatus comprises a front controller and a front voltage conversion circuit and the front controller is configured to control the front voltage conversion circuit to: receive electric energy provided by a power supply module that is in a power supply system, and supply power to the post voltage conversion apparatus through a direct current bus after the front voltage conversion circuit performs direct current voltage conversion; and a post voltage conversion apparatus, wherein the post voltage conversion apparatus comprises a post controller and a post voltage conversion circuit and the post controller is configured to control the post voltage conversion circuit to: receive, through the direct current bus, electric energy transmitted by the front voltage conversion apparatus, and supply power to a power grid after the post voltage conversion circuit performs direct current to alternating current voltage conversion; and the post controller is further configured to transmit, to the front controller through the direct current bus, information indicating that high voltage ride-through occurs on the power grid, wherein the post controller is specifically configured to, when detecting that high voltage ride-through occurs on the power grid, control a present voltage of the direct current bus to enable the present voltage of the direct current bus to meet a preset first voltage characteristic, wherein the preset first voltage characteristic comprises at least one of the following: a preset level, a preset level range, and a preset characteristic of a range of changing levels; and the front controller is further configured to obtain, through the direct current bus, the information that is transmitted by the post controller and that indicates that high voltage ride-through occurs on the power grid.",
+  "patent_id": "US12381399-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02J 3/38",
+      "H02J 2300/24"
+    ],
+    "all": [
+      "H02J 3/38",
+      "H02J 2300/24"
+    ],
+    "source": "converted"
+  }
+}

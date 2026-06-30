@@ -1,0 +1,20 @@
+{
+  "title": "Three-dimensional shape generation apparatus, three-dimensional shape generation system, three-dimensional shape generation method, and non-transitory recording medium",
+  "abstract": "A three-dimensional shape generation apparatus includes circuitry configured to perform one of a first processing or a second processing to generate three-dimensional shape information using point-group information indicating three-dimensional point groups as a generation processing based on an instruction operation received at an instruction reception screen, the instruction operation designating one of the first processing or the second processing. The circuitry performs all processes or a part of processes of the generation processing based on an operation input received at the instruction reception screen in response to the instruction operation designating the first processing. The circuitry performs all processes of the generation processing using a stored processing previously stored in a memory without using the operation input received at the instruction reception screen in response to the instruction operation designating the second processing.",
+  "claims": "1. A three-dimensional shape generation apparatus, comprising: circuitry configured to display an instruction reception screen including: information identifying each generation process of a plurality of generation processes; process selection options for each generation process, the process selection options including options for first processing and second processing, the first processing including a manual processing and a mixed processing and the second processing including an automatic processing; and a sequence order input box for each generation process; receive an instruction operation via the instruction reception screen, the instruction operation designating one of the first processing or the second processing for one or more generation process of the plurality of generation processes and designating an execution order via the sequence order input boxes; and perform a generation processing based on the instruction operation to generate three-dimensional shape information using point-group information indicating three-dimensional point groups, wherein in a case that the instruction operation indicates at least one of generation processes with the first processing, the circuitry performs the one or more generation processes of the generation processing based on the instruction operation input received at the instruction reception screen and according to the execution order, and in a case that the instruction operation indicates the plurality of generation processes with the second processing, the circuitry performs all generation processes of the generation processing using a stored processing previously stored in a memory and according to a stored execution order without using any operation input received at the instruction reception screen.",
+  "patent_id": "US12380639-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 17/00",
+      "G06T 2200/24",
+      "G06T 2210/56"
+    ],
+    "all": [
+      "G06T 17/00",
+      "G06T 2200/24",
+      "G06T 2210/56"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Slot format indication method and apparatus",
+  "abstract": "A slot format indication method and an apparatus thereof are provided. The method may include: performing Listen Before Talk (LBT) on an active bandwidth part (BWP) in a target serving cell corresponding to a terminal; determining target LBT bandwidth units (LBT BW units), corresponding channels of which are idle, from respective LBT bandwidth units included in the active BWP; and sending downlink control information (DCI) to the terminal, wherein the DCI comprises slot format indications (SFIs) of the target LBT BW units.",
+  "claims": "6. A slot format indication device, which is applied to a terminal, comprising: a processor; memory for storing instructions executable by the processor; wherein, the processor is configured to: receive downlink control information (DCI) sent by a base station, wherein the DCI comprises slot format indications (SFIs) of target LBT bandwidth units (LBT BW units), and the target LBT BW units comprise LBT BW units, corresponding channels of which are idle, from respective LBT BW units included in an active bandwidth part (BWP) in a target serving cell corresponding to the terminal; and determine numbers and SFIs of the target LBT BW units according to the DCI; wherein the processor is configured to detect the DCI on at least one LBT BW unit included in the active BWP in the target serving cell corresponding to the terminal, wherein the DCI comprises idle channel indications and SFIs of all LBT BWs, corresponding channels of which are idle, in the target serving cell, and the idle channel indications indicate whether channels respectively corresponding to all LBT BW units in the target serving cell are idle or not, wherein the processor is further configured to, in response to detecting the DCI on any one of LBT BW units included in the active BWP, determine, according to the idle channel indications and the SFIs included in the DCI, numbers and SFIs of the LBT BW units, corresponding channels of which are idle, from respective LBT BW units included in the active BWP as the numbers and the SFIs of the target LBT BW units.",
+  "patent_id": "US12382493-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 74/0808",
+      "H04W 72/044",
+      "H04W 72/23"
+    ],
+    "all": [
+      "H04W 74/0808",
+      "H04W 72/044",
+      "H04W 72/23"
+    ],
+    "source": "converted"
+  }
+}

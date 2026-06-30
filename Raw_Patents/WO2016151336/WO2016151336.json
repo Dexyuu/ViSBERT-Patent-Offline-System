@@ -1,0 +1,19 @@
+{
+  "application_id": "WO2016151336",
+  "application_id_fs": null,
+  "title": "Battery model comprising plurality of equivalent circuit networks and interface element coupling them",
+  "abstract": "The disclosure provides a method and apparatus for determining a characteristic of a battery within a system. The method comprises: defining a model comprising a plurality of equivalent circuit networks and an interface element through which the equivalent circuit networks are coupled; monitoring at least one observable parameter of the system; and calculating a battery characteristic based on the observable parameter and the model.",
+  "claims": "Claims Claims 1. A method for determining a characteristic of a battery within an apparatus, comprising: defining a model comprising a plurality of equivalent circuit networks and an interface element through which the equivalent circuit networks are coupled; monitoring at least one observable parameter of the apparatus; and calculating a battery characteristic based on the observable parameter and the model. 2. A method according to claim 1 , wherein the interface element defines a charge transfer reaction between equivalent circuit networks. 3. A method according to either claim 1 or claim 2, wherein the model comprises at least three ECNs. 4. A method according to any one of the preceding claims, wherein at least one ECN represents chemical transport at a battery electrode. 5. A method according to any one of the preceding claims, wherein at least one ECN represents ionic transport between electrodes in the battery. 6. A method according to any one of the preceding claims, wherein one or more ECNs represent an electrical circuit coupled to a battery cell. 7. A method according to any one of the preceding claims, comprising a plurality of different species of ECN, wherein different species of ECN are coupled through the interface element. 8. A method according to any one of the preceding claims, wherein the interface element compensates for charge transfer overpotential within the battery. 9. A method according to claim 8, wherein the charge-transfer overpotential may comprise one or more of: an activation overpotential, a concentration overpotential, a passivating layer overpotential and a double layer overpotential. 10. A method according to any one of the preceding claims, wherein at least one ECN comprises an RC ladder. 11. A method according to claim 10, wherein an ECN representing ion transport and/or and ECN representing chemical behaviour at an electrode of the battery comprises an RC ladder. 12. A method according to any one of the preceding claims, wherein the battery characteristic is state of charge (SOC) or state of health (SOH). 13. A method according to any one of the preceding claims, wherein the battery is a lithium ion battery. 14. A computer program product comprising computer executable instructions for carrying out the method of any one of the preceding claims. 15. A method according to any one of the preceding claims, wherein a battery characteristic which cannot be measured but is predicted by the model is used in a control algorithm to improve performance or extend life.",
+  "classifications": {
+    "ipc": [
+      "G01R 31/36",
+      "G06F 17/50"
+    ],
+    "cpc": [],
+    "all": [
+      "G01R 31/36",
+      "G06F 17/50"
+    ],
+    "source": "csv"
+  }
+}

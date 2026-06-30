@@ -1,0 +1,34 @@
+{
+  "title": "Systems and methods for improving accuracy of device maps using media viewing data",
+  "abstract": "Provided are methods, devices, and computer-program products for determining an accuracy score for a device mapping system. In some examples, the accuracy score can be based on a device map of the device mapping system and viewing data from an automated content recognition component. In such examples, the accuracy score can indicate whether the device mapping system is assigning similar categories to devices that have similar player of media content. In some examples, a device map can be determined to be random, indicating that the device mapping system is inaccurate. In contrast, if the device map is determined to have a sufficiently low probability of being merely random in nature, the device mapping system can be determined to be accurate.",
+  "claims": "1. A system comprising: one or more processors; and one or more non-transitory machine-readable storage media containing instructions that, when executed on the one or more processors, cause the one or more processors to perform operations including: receiving a device map including an identification of one or more devices, wherein the one or more devices share a common set of characteristics; receiving a dataset that includes data from a first database and data from a second database, wherein the data from the first database includes internet activity associated with at least one device of the one or more devices, and wherein the data from the second database includes viewing behavior of at least one device of the one or more devices; identifying, based on a statistical analysis of the dataset, correlations between devices of the device map with similar viewing behavior and category segments assigned to the one or more devices; and determining, based on the identified correlations, that the category segments correlate to viewing behaviors, wherein one or more operations associated with the device map are modified based on determining that the category segments correlate to the viewing behaviors.",
+  "patent_id": "US12380089-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/2365",
+      "G06F 16/285",
+      "G06F 16/7837",
+      "G06V 20/40",
+      "H04L 65/612",
+      "H04L 65/80",
+      "H04N 21/442",
+      "H04N 21/44213",
+      "H04N 21/44222",
+      "H04N 21/4667"
+    ],
+    "all": [
+      "G06F 16/2365",
+      "G06F 16/285",
+      "G06F 16/7837",
+      "G06V 20/40",
+      "H04L 65/612",
+      "H04L 65/80",
+      "H04N 21/442",
+      "H04N 21/44213",
+      "H04N 21/44222",
+      "H04N 21/4667"
+    ],
+    "source": "converted"
+  }
+}

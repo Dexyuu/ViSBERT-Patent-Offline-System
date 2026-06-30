@@ -1,0 +1,20 @@
+{
+  "title": "Detecting alteration of boot code",
+  "abstract": "An information processing apparatus includes a first storage medium configured to store a first boot code, a boot code signature value for the entire first boot code, and a specific area signature value for a specific area in the first storage medium, and an alteration detection unit configured to perform detection of an alteration of the first boot code by using the boot code signature value stored in the first storage medium, and perform detection of an alteration in the specific area by using the specific area signature value stored in the first storage medium.",
+  "claims": "1. An information processing apparatus comprising: a first non-transitory storage medium configured to store a first boot code, a boot code signature value, a specific area which has layout information indicating an arrangement of the first boot code, and a specific area signature value, wherein the boot code signature value is a signature for the first boot code and the specific area, and the specific area signature value is a signature for the specific area except for the first boot code; and first at least one processor implemented in hardware configured to execute first executable instructions, the first at least one processor being operable when executing the first executable instructions to perform detection of an alteration of the first boot code by using the boot code signature value stored in the first storage medium, and perform detection of an alteration in the specific area by using the specific area signature value stored in the first storage medium.",
+  "patent_id": "US12380213-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/572",
+      "G06F 21/554",
+      "G06F 2221/033"
+    ],
+    "all": [
+      "G06F 21/572",
+      "G06F 21/554",
+      "G06F 2221/033"
+    ],
+    "source": "converted"
+  }
+}

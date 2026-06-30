@@ -1,0 +1,20 @@
+{
+  "title": "Methods and devices for configuring HARQ-ACK feedback",
+  "abstract": "The present disclosure describes methods, system, and devices for configuring hybrid automatic repeat request acknowledgement (HARQ-ACK) feedback for physical downlink shared channel (PDSCH) transmission. The method includes receiving, by a user equipment (UE), a radio resource control (RRC) parameter to configure an enhanced dynamic HARQ-ACK feedback mode; and receiving, by the UE, a first downlink control information (DCI) comprising a first K. The first DCI corresponds to a first PDSCH. The method also includes receiving, by the UE, a second DCI for a second PDSCH, the second DCI comprising a second K with an applicable value; and transmitting, by the UE, an enhanced dynamic HARQ-ACK feedback according to a preset rule.",
+  "claims": "1. A method for wireless communication, comprising: configuring hybrid automatic repeat request acknowledgement (HARQ-ACK) feedback for physical downlink shared channel (PDSCH) transmission by: receiving, by a user equipment (UE), a radio resource control (RRC) parameter to configure an enhanced dynamic HARQ-ACK feedback mode; receiving, by the UE, a first downlink control information (DCI) comprising a first K, the first DCI corresponding to a first PDSCH; receiving, by the UE, a second DCI for a second PDSCH, the second DCI comprising a second K with an applicable value and a bit field for a uplink (UL) DAI, wherein in response to the second DCI not being configured with UL-TotalDAI-Included-r16 and two HARQ-ACK codebooks for different priority being necessary for HARQ-ACK transmission, the UL DAI in the second DCI corresponds to a HARQ-ACK codebook of higher priority; and transmitting, by the UE, an enhanced dynamic HARQ-ACK feedback according to a preset rule.",
+  "patent_id": "US12381663-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 1/1861",
+      "H04L 5/0055",
+      "H04L 1/1812"
+    ],
+    "all": [
+      "H04L 1/1861",
+      "H04L 5/0055",
+      "H04L 1/1812"
+    ],
+    "source": "converted"
+  }
+}

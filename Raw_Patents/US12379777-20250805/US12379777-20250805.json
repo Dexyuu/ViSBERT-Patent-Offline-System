@@ -1,0 +1,46 @@
+{
+  "title": "Controlling reading of a head-mounted sensor according to facial expressions",
+  "abstract": "Disclosed herein are systems and methods for tracking facial expressions efficiently. In one embodiment, a system includes a non-contact head-mounted electro-optical sensor (e.g., an inward-facing head-mounted camera), which measures reflections from a region on a user's head, which are indicative of facial expressions of the user. The system also includes a computer that detects, based on the reflections, a type of facial expression expressed by the user, which belongs to a group comprising neutral facial expressions and non-neutral facial expressions. The computer uses this detection to determine how to proceed to read the electro-optical sensor: the computer reads the electro-optical sensor at a first average bitrate (b1) when the user expresses a facial expression from among the neutral facial expressions, and reads the electro-optical sensor at a second average bitrate (b2) when the user expresses a facial expression from among the non-neutral facial expressions, where b2>b1.",
+  "claims": "1. A system comprising: a non-contact head-mounted electro-optical sensor configured to measure reflections from a region on a user's head; whereby the reflections are indicative of facial expressions of the user; and a computer configured to: detect, based on the reflections, a type of facial expression expressed by the user, which belongs to a group comprising neutral facial expressions and non-neutral facial expressions; read the electro-optical sensor at a first average bitrate (b 1 ) when the user expresses a facial expression from among the neutral facial expressions; and read the electro-optical sensor at a second average bitrate (b 2 ) when the user expresses a facial expression from among the non-neutral facial expressions, wherein b 2 >b 1 .",
+  "patent_id": "US12379777-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/013",
+      "A61B 5/0205",
+      "A61B 5/02427",
+      "A61B 5/02438",
+      "A61B 5/14546",
+      "A61B 5/1455",
+      "A61B 5/6803",
+      "G06V 10/141",
+      "G06V 40/166",
+      "G06V 40/174",
+      "H04N 23/611",
+      "H04N 23/651",
+      "H04N 23/951",
+      "A61B 5/02416",
+      "A61B 5/7221",
+      "H04N 25/46"
+    ],
+    "all": [
+      "G06F 3/013",
+      "A61B 5/0205",
+      "A61B 5/02427",
+      "A61B 5/02438",
+      "A61B 5/14546",
+      "A61B 5/1455",
+      "A61B 5/6803",
+      "G06V 10/141",
+      "G06V 40/166",
+      "G06V 40/174",
+      "H04N 23/611",
+      "H04N 23/651",
+      "H04N 23/951",
+      "A61B 5/02416",
+      "A61B 5/7221",
+      "H04N 25/46"
+    ],
+    "source": "converted"
+  }
+}

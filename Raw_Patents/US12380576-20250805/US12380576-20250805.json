@@ -1,0 +1,24 @@
+{
+  "title": "Frame-based video segmentation",
+  "abstract": "Methods and systems of frame based image segmentation are provided. For example, a method for feature object tracking between frames of video data is provided. The method comprises receiving a first frame of video data, extracting a mask feature for each of one or more objects of the first frame, adjusting the first frame by applying each initial mask and corresponding identification to a respective object of the first frame, and outputting the adjusted first frame. The method further comprises tracking the one or more objects in one or more consecutive frames. The tracking comprises extracting a masked feature for each of one or more objects in the consecutive frame, adjusting the consecutive frame by applying each initial mask and corresponding identification for the consecutive frame to the respective object of the one or more objects of the consecutive frame, and outputting the adjusted consecutive frame.",
+  "claims": "1. A method for object tracking between frames of video data, the method comprising: receiving a first frame of video data, the first frame comprising one or more objects; extracting a masked feature for each of one or more objects of the first frame by combining an initial mask for each object with one or more extracted features of the object; generating a representation of each masked feature, the representation being indicative of the one or more extracted features of the masked feature, and storing each representation and an associated identification in a feature bank; adjusting the first frame by applying each initial mask and a corresponding identification to a respective object of the one or more objects of the first frame, and outputting the adjusted first frame; and tracking the one or more objects in one or more consecutive frames, the tracking comprising, for each consecutive frame: extracting a masked feature for each of one or more objects in the consecutive frame by combining an initial mask for each object with one or more extracted features of the object; generating a representation of each masked feature for the consecutive frame, the representation being indicative of the one or more extracted features of the masked feature; determining whether the representation of each masked feature for the consecutive frame corresponds to a representation stored in the feature bank; in response to determining that the representation of a masked feature for the consecutive frame corresponds to a representation stored in the feature bank, associating the initial mask for the consecutive frame with the identification of a corresponding stored representation; updating in the feature bank the corresponding stored representation with a corresponding representation of the masked feature for the consecutive frame; and adjusting the consecutive frame by applying each initial mask and the corresponding identification for the consecutive frame to the respective object of the one or more objects of the consecutive frame, and outputting the adjusted consecutive frame.",
+  "patent_id": "US12380576-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/215",
+      "G06T 7/11",
+      "G06T 7/248",
+      "G06T 2207/10016",
+      "G06T 2207/20084"
+    ],
+    "all": [
+      "G06T 7/215",
+      "G06T 7/11",
+      "G06T 7/248",
+      "G06T 2207/10016",
+      "G06T 2207/20084"
+    ],
+    "source": "converted"
+  }
+}

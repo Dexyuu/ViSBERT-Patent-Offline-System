@@ -1,0 +1,28 @@
+{
+  "title": "Timing controller and image adjustment method",
+  "abstract": "A timing controller for executing an image adjustment method is provided. The timing controller includes an image adjustment circuit including a feature extraction module, configured to obtain a first feature value of a pixel according to a sub-pixel value of the pixel; a look-up table module, coupled to the feature extraction module, configured to obtain a first sub-pixel value of the pixel according to a first lookup table and obtain a second sub-pixel value of the pixel according to a second lookup table; and a color adjustment module, coupled to the feature extraction module and the look-up table module, configured to compare the first feature value with a first threshold, and correspondingly adjust the sub-pixel value of the pixel according to the first sub-pixel value and the second sub-pixel value.",
+  "claims": "1. An image adjustment method, comprising: obtaining a first feature value of a pixel according to a sub-pixel value of the pixel; obtaining a first sub-pixel value of the pixel according to a first lookup table; obtaining a second sub-pixel value of the pixel according to a second lookup table; and comparing the first feature value with a first threshold, and correspondingly adjusting the sub-pixel value of the pixel according to the first sub-pixel value and the second sub-pixel value; wherein the image adjustment method further comprises: obtaining a second feature value of the pixel according to the sub-pixel value of the pixel; and determining the first threshold according to the second feature value.",
+  "patent_id": "US12380833-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/2096",
+      "G09G 3/3607",
+      "G09G 5/06",
+      "G09G 2320/0242",
+      "G09G 2320/066",
+      "G09G 2320/0666",
+      "G09G 2320/0693"
+    ],
+    "all": [
+      "G09G 3/2096",
+      "G09G 3/3607",
+      "G09G 5/06",
+      "G09G 2320/0242",
+      "G09G 2320/066",
+      "G09G 2320/0666",
+      "G09G 2320/0693"
+    ],
+    "source": "converted"
+  }
+}

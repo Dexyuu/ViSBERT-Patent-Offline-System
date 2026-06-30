@@ -1,0 +1,20 @@
+{
+  "title": "Apparatus for inspecting defect of printed material, method, and storage medium",
+  "abstract": "To make it possible to set an appropriate threshold value for detecting a print defect by taking into consideration an impurity included in a sheet. A lower limit value of a threshold value used for detection of a print defect is found and stored in advance. Then, whether or not a threshold value for detecting a print defect, which is set based on user instructions, is an appropriate threshold value is determined by using the lower limit value stored in advance.",
+  "claims": "1. An apparatus for inspecting a read image obtained by reading a printed sheet, the apparatus comprising: a storage storing a lower limit value for each of a plurality of threshold values for inspection of the read of the printed sheet to be inspected; and a controller, including a processor that executes instructions stored in a memory or including a circuitry, configured to: calculate, for each contrast value in a designated range of contrast values for a blank-sheet read image obtained by reading a blank sheet of each sheet type including at least a first sheet type and a second sheet type, a maximum size of a pixel group representing a foreign substance included in the blank-sheet read image of the each sheet type; store in the storage the calculated maximum size as a lower limit value for the each contrast value for the each sheet type; register a reference image; inspect the read image of the printed sheet based on at least the registered reference image and an inspection setting related to a set threshold value for the inspection; and apply a different lower limit value to the set threshold value for the inspection depending on a sheet type of the printed sheet.",
+  "patent_id": "US12380552-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/001",
+      "G06T 2207/10008",
+      "G06T 2207/30124"
+    ],
+    "all": [
+      "G06T 7/001",
+      "G06T 2207/10008",
+      "G06T 2207/30124"
+    ],
+    "source": "converted"
+  }
+}

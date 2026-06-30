@@ -1,0 +1,22 @@
+{
+  "title": "Systems and methods for secure data sharing",
+  "abstract": "One aspect of the invention provides a method for secure sharing of data. The method includes: receiving, from a first computing device and by a security node for the first computing device, a hashed identifier for a data source; generating, in response to the receiving, a blinding function value dependent on the hashed identifier; and transmitting, to the first computing device, the blinding function value for storage of a set of data and linking the set of data to the data source.",
+  "claims": "1. A method for secure sharing of data, the method comprising: providing, to a security node for a first computing device, a hashed identifier for a data source; applying a blinding function to the hashed identifier, the blinding function generating a first blinded value dependent on the hashed identifier; receiving, at a second computing device, the first blinded value and a set of data of the data source; transmitting, from the second computing device to a security node of the second computing device, the first blinded value; applying a completion function to the first blinded value, the completion function generating a second blinded value for the set of data; and storing the set of data and the second blinded value at the second computing device, the second blinded value linking the set of data to the data source.",
+  "patent_id": "US12380244-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/6254",
+      "G06F 21/602",
+      "G06F 21/6227",
+      "H04L 9/0643"
+    ],
+    "all": [
+      "G06F 21/6254",
+      "G06F 21/602",
+      "G06F 21/6227",
+      "H04L 9/0643"
+    ],
+    "source": "converted"
+  }
+}

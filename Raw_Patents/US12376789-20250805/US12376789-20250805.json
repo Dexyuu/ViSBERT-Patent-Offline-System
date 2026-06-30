@@ -1,0 +1,36 @@
+{
+  "title": "Method of providing diagnostic information on Alzheimer's disease using brain network",
+  "abstract": "The present invention relates to a method of providing diagnostic information for Alzheimer's disease using a brain network.",
+  "claims": "1. A method of providing diagnostic information for classifying of Alzheimer's disease progression, including; 1) extracting a first feature; 2) constructing a brain network graph using graph theory; 3) converting the brain network graph to a feature vector using node2vec graph embedding; 4) selecting a second feature; 5) classifying Alzheimer's disease progression; and 6) evaluating the classification result, wherein the first feature is extracted from one selected from the group consisting of electroencephalography (EEG), functional magnetic resonance imaging (fMRI), single-photon emission computed tomography (SPECT) and positron emission tomography (PET), the graph embedding includes sampling, skip-gram, and computing embedding, and the selection is selected from the group consisting of support vector machine-recursive feature elimination (SVM-RFE), least absolute shrinkage and selection operator (LASSO), feature selection with adaptive structure learning (FSASL), local learning and clustering based feature selection (LLCFS) and pairwise correlation based feature selection (CFS).",
+  "patent_id": "US12376789-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 5/4842",
+      "A61B 5/4088",
+      "A61B 5/7264",
+      "G06T 7/0012",
+      "G16H 50/20",
+      "G06T 2207/10088",
+      "G06T 2207/10104",
+      "G06T 2207/10108",
+      "G06T 2207/20072",
+      "G06T 2207/20081",
+      "G06T 2207/30016"
+    ],
+    "all": [
+      "A61B 5/4842",
+      "A61B 5/4088",
+      "A61B 5/7264",
+      "G06T 7/0012",
+      "G16H 50/20",
+      "G06T 2207/10088",
+      "G06T 2207/10104",
+      "G06T 2207/10108",
+      "G06T 2207/20072",
+      "G06T 2207/20081",
+      "G06T 2207/30016"
+    ],
+    "source": "converted"
+  }
+}

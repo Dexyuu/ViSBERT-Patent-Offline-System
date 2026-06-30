@@ -1,0 +1,20 @@
+{
+  "title": "Managing storage extents using wear levels",
+  "abstract": "A technique is directed to managing wear leveling between storage devices. The technique includes obtaining a wear level metric of a candidate storage extent that includes storage from multiple storage devices. The technique further includes performing an assessment operation that provides an indication that the candidate storage extent satisfies an access criterion. The access criterion is based on the wear level metric. The technique further includes, in response to the assessment operation providing the indication that the candidate storage extent satisfies the access criterion, performing a set of access operations that accesses the candidate storage extent.",
+  "claims": "1. A method of managing storage devices, the method comprising: obtaining a wear level metric of a candidate storage extent that includes storage locations from multiple storage devices, the wear level metric indicating an amount of wear of the candidate storage extent; performing an assessment operation that provides an indication that the candidate storage extent satisfies an access criterion, the access criterion being based on the wear level metric; and in response to the assessment operation providing the indication that the candidate storage extent satisfies the access criterion, performing a set of access operations that accesses the candidate storage extent; wherein the candidate storage extent is included in a plurality of storage extents; wherein the wear level metric is an average amount of consumed program/erase (P/E) cycles for the storage locations in the candidate storage extent over total P/E cycles that the storage locations are estimated to withstand; wherein the access criterion is the average amount being below a predefined wear level threshold; and wherein the method further comprises: prior to performing the assessment operation, detecting that available write bandwidth has fallen below a predefined available write bandwidth threshold; and in response to detecting that the available write bandwidth has fallen below the predefined available write bandwidth threshold, increasing the predefined wear level threshold to increase a number of storage extents of the plurality of storage extents that have respective wear level metrics below the predefined wear level threshold.",
+  "patent_id": "US12379853-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0616",
+      "G06F 3/0634",
+      "G06F 3/0688"
+    ],
+    "all": [
+      "G06F 3/0616",
+      "G06F 3/0634",
+      "G06F 3/0688"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Group cast with retries (GCR) for multi-link operation (MLO)",
+  "abstract": "Embodiments are disclosed for group cast with retries (GCR) in a multi-link wireless communications system. In some embodiments, an access point (AP) multi-link device (MLD) can exchange information with a non-AP MLD to establish a GCR-multi-link operation (MLO) agreement corresponding to a group address, wherein the information includes, but is not limited to: a GCR primary link or a GCR primary link set of the AP MLD, an association identifier (AID) that corresponds to the group address. In some embodiments, the AP MLD can transmit a GCR frame subject to the GCR-MLO agreement, where the GCR frame includes a sequence number assigned from sequence number space (SNS)_GCR_MLO defined at a MLD level, and generate a Group Temporal Key (GTK)_GCR_ML at the MLD level, where the GTK_GCR_ML enables encryption and decryption of the GCR frame.",
+  "claims": "14. A method for an access point (AP) multi-link device (MLD), comprising: generating a Group Temporal Key (GTK)_Group Cast with Retries (GCR)_Multi-link (ML) at a MLD level for transmission of a GCR frame, wherein the GCR frame includes a group address subject to a GCR-multi-link operation (MLO) agreement; encrypting the GCR frame using the GTK_GCR ML; and transmitting the encrypted GCR frame.",
+  "patent_id": "US12382282-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 12/041",
+      "H04L 1/1621",
+      "H04L 1/1809",
+      "H04W 12/043",
+      "H04W 12/122",
+      "H04W 28/04",
+      "H04W 28/18",
+      "H04W 48/08",
+      "H04W 48/16",
+      "H04W 76/15",
+      "H04W 76/40",
+      "H04L 2001/0093",
+      "H04W 84/12",
+      "H04W 88/02",
+      "H04W 88/08",
+      "H04W 92/02",
+      "H04W 92/10"
+    ],
+    "all": [
+      "H04W 12/041",
+      "H04L 1/1621",
+      "H04L 1/1809",
+      "H04W 12/043",
+      "H04W 12/122",
+      "H04W 28/04",
+      "H04W 28/18",
+      "H04W 48/08",
+      "H04W 48/16",
+      "H04W 76/15",
+      "H04W 76/40",
+      "H04L 2001/0093",
+      "H04W 84/12",
+      "H04W 88/02",
+      "H04W 88/08",
+      "H04W 92/02",
+      "H04W 92/10"
+    ],
+    "source": "converted"
+  }
+}

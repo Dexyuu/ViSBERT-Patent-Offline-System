@@ -1,0 +1,22 @@
+{
+  "title": "Detection of feedback control instability in computing device thermal control",
+  "abstract": "Systems, methods, and other embodiments associated with detecting feedback control instability in computer thermal controls are described herein. In one embodiment, a method includes executing a workload on the computing system, wherein the workload varies between a minimum and a maximum at a workload frequency. The method includes recording thermal telemetry from the computing system during execution of the workload. The method includes converting the recorded thermal telemetry into a frequency domain. The method includes detecting whether thermal control of the computing system exhibits feedback control instability based on dissimilarity in the frequency domain between the transformed thermal telemetry and the workload frequency. And, the method includes generating an electronic alert that indicates whether the thermal control of the computing device exhibits the feedback control instability.",
+  "claims": "1. One or more non-transitory computer-readable media that include stored thereon computer-executable instructions that when executed by at least a service processor of a computing system cause the computing system to: execute a workload on the computing system, wherein the workload varies between a minimum and a maximum at a workload frequency; record a thermal telemetry from the computing system during execution of the workload; convert the recorded thermal telemetry into a frequency domain; detect whether a thermal control of the computing system exhibits feedback control instability based on dissimilarity in the frequency domain between the converted recorded thermal telemetry and the workload frequency; and generate an electronic alert that indicates whether the thermal control of the computing system exhibits the feedback control instability.",
+  "patent_id": "US12379755-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 1/206",
+      "H05K 7/20136",
+      "H05K 7/20718",
+      "H05K 7/20836"
+    ],
+    "all": [
+      "G06F 1/206",
+      "H05K 7/20136",
+      "H05K 7/20718",
+      "H05K 7/20836"
+    ],
+    "source": "converted"
+  }
+}

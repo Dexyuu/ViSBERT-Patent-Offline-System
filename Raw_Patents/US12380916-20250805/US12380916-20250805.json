@@ -1,0 +1,20 @@
+{
+  "title": "User voice detector device and method using in-ear microphone signal of occluded ear",
+  "abstract": "A device and a method for detecting voice of a user of an intra-aural device. The intra-aural device has an in-ear microphone adapted to be in fluid communication with an outer-ear ear canal of the user occluded from an environment outside the ear. A signal provided by the in-ear microphone is obtained to determine an acquired voice indicator signal, and a voice produced by the user is detecting by comparing the acquired voice indicator signal with a corresponding threshold value, upon the acquired voice indicator signal being larger than the corresponding threshold value.",
+  "claims": "1. A method for detecting voice of a user of an intra-aural device, the intra-aural device having an in-ear microphone adapted to be in fluid communication with an outer-ear ear canal of the user occluded from an environment outside the ear by the intra-aural device, the method comprising the steps of: obtaining a signal provided by the in-ear microphone, the signal being influenced by an occlusion effect within the occluded outer-ear ear canal caused by bone and tissue conducted vibrations from the user, thereby distorting an in-ear frequency profile of the signal relative to an open-air voice signal; processing the signal provided by the in-ear microphone to determine an acquired voice indicator signal, and to filter the signal over a predetermined frequency range to isolate the user's voice from the distorted in-ear frequency profile while accounting for wearer-induced disturbances specific to the intra-aural device; and detecting voice produced by the user by comparing the acquired voice indicator signal with a corresponding threshold value, upon the acquired voice indicator signal being larger than the corresponding threshold value, and wherein the processing and detecting steps reduce any voice interference coming from a non-user by controlling the distorted in-ear frequency profile enhanced by the occlusion effect relative to an external noise.",
+  "patent_id": "US12380916-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 25/78",
+      "H04R 1/1016",
+      "G10L 2025/783"
+    ],
+    "all": [
+      "G10L 25/78",
+      "H04R 1/1016",
+      "G10L 2025/783"
+    ],
+    "source": "converted"
+  }
+}

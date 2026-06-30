@@ -1,0 +1,20 @@
+{
+  "title": "Detection of use of a remote access tool for secure transactions",
+  "abstract": "A method for determining whether a secure transaction between a user computing device and a server, connected via a network, is controlled remotely via a remote access tool. The method includes, during the secure transaction, actively perturbing and/or probing the network to change the conditions in the network. During perturbing of the network, data relating to user interactions with a user interface associated with the user computing device is collected and compared to reference data relating to user interactions carried out prior to the secure transaction or prior to perturbing of the network. Based on the comparison, a probability that the secure transaction is carried out via a remote access tool is computed and is compared to a predefined threshold. If the threshold is exceeded, the secure transaction is terminated.",
+  "claims": "1. A method for determining whether a secure transaction between a user computing device and a server, connected via a network, is controlled remotely from a second computing device via a remote access tool, the method comprising: identifying a specific port used for carrying out the secure transaction; during the secure transaction, actively perturbing the specific port of the network to change conditions in the network; collecting mouse movement spatial data relating to user interactions with a user interface associated with the user computing device during the perturbing of the network; determining discrete level groupings of the mouse movement spatial data; determining a spatial distance between the determined discreet level groupings of the mouse movement spatial data; comparing the data collected during the perturbing of the network to reference data relating to user interactions carried out prior to the secure transaction or prior to perturbing of the network; based on the comparing, determining a probability that the secure transaction is carried out via a remote access tool; and upon identifying that the probability exceeds a predefined threshold, terminating the secure transaction.",
+  "patent_id": "US12380435-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/382",
+      "H04L 47/10",
+      "H04L 67/125"
+    ],
+    "all": [
+      "G06Q 20/382",
+      "H04L 47/10",
+      "H04L 67/125"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "System and method for determining a grasping hand model",
+  "abstract": "Method for determining a grasping hand model suitable for grasping an object by receiving an image including at least one object; obtaining an object model estimating a pose and shape of the object from the image of the object; selecting a grasp class from a set of grasp classes by means of a neural network, with a cross entropy loss, thus, obtaining a set of parameters defining a coarse grasping hand model; refining the coarse grasping hand model, by minimizing loss functions referring to the parameters of the hand model for obtaining an operable grasping hand model while minimizing the distance between the finger of the hand model and the surface of the object and preventing interpenetration; and obtaining a mesh of the hand represented by the enhanced set of parameters.",
+  "claims": "1. A system for determining parameters of a hand model suitable for grasping an object, comprising: a first neural network for segmenting the object in an image; a second neural network for predicting parameters of the hand model that define a pose for grasping the segmented object; and a third neural network for refining the predicted parameters of the hand model to fit the segmented object by maximizing a number of contact points between the object in the image and the hand model while minimizing interpenetration; wherein the refined predicted parameters of the hand model represent how a hand may grasp the object.",
+  "patent_id": "US12377549-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B25J 9/1697",
+      "B25J 9/161"
+    ],
+    "all": [
+      "B25J 9/1697",
+      "B25J 9/161"
+    ],
+    "source": "converted"
+  }
+}

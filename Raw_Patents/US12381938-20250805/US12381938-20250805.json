@@ -1,0 +1,18 @@
+{
+  "title": "Computer-implemented systems and methods for a user-controllable parameter",
+  "abstract": "Systems and methods are provided for operating a user-controllable parameter. An item pool is accessed, where the item pool contains a plurality of items, and where each item is associated with a parameter. A baseline position is identified, where the baseline position is associated with a particular value of the parameter. A user-controllable parameter is received, where the user-controllable parameter indicates a user preference for a next item relative to the baseline position. The next item is selected based on the baseline position and the user-controllable parameter, and the next item is provided via a computer network.",
+  "claims": "1. A computer-implemented method, comprising: accessing an item pool, wherein the item pool contains data associated with a plurality of literature items; providing the plurality of literature items to a model that is configured to output a literature item based on parameters of the plurality of literature items in the item pool, characteristics of a current literature item, and a user-controllable parameter; receiving the user-controllable parameter via a user interface, the user interface being a slide bar for a characteristic that includes a plurality of positions relative to the baseline position associated with the current literature item, the characteristic being based on language of the current literature item, the slide bar being configured for inputting a preference for an increase or decrease of the characteristic relative to the current literature item, wherein the user-controllable parameter indicates a user preference for the characteristic of a next literature item relative to the current literature item; providing the current literature item and the user-controllable parameter to the model; and delivering the next literature item identified by the model based on the current literature item and the user-controllable parameter.",
+  "patent_id": "US12381938-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 67/10",
+      "H04L 67/306"
+    ],
+    "all": [
+      "H04L 67/10",
+      "H04L 67/306"
+    ],
+    "source": "converted"
+  }
+}

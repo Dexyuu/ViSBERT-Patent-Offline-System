@@ -1,0 +1,24 @@
+{
+  "title": "Modem with built-in automated power and performance monitoring",
+  "abstract": "Certain aspects of the present disclosure provide techniques for communicating a dynamically scheduled transmission that overwrites a transmission in a semi-static scheduling occasion. A method performed by a user equipment (UE) includes receiving a first control message, activating a first semi-static scheduling configuration and a second semi-static scheduling configuration for full duplex communication, wherein: the first semi-static scheduling configuration comprises a semi-persistent scheduling (SPS) occasion and the second semi-static scheduling configuration comprises a configured grant (CG) occasion. The method may further include receiving a second control message dynamically scheduling a transmission that overwrites a downlink transmission in the SPS occasion or an uplink transmission in the CG occasion and taking one or more actions to communicate at least the transmission that overwrites the downlink transmission in the SPS occasion or the uplink transmission in the CG occasion.",
+  "claims": "1. A method for debugging a wireless modem, comprising: determining a benchmark current value for the wireless modem; measuring an actual current value of the wireless modem; transitioning the wireless modem into a shutdown mode when the measured actual current value is greater than the benchmark current value for a threshold amount of time; and generating, after transitioning the wireless modem into the shutdown mode, a crash report, the crash report including operating information associated with a plurality of clients associated with the wireless modem prior to transitioning the wireless modem into the shutdown mode.",
+  "patent_id": "US12382390-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 52/0219",
+      "G06F 11/0766",
+      "G06F 11/0793",
+      "H04L 12/10",
+      "H04W 24/10"
+    ],
+    "all": [
+      "H04W 52/0219",
+      "G06F 11/0766",
+      "G06F 11/0793",
+      "H04L 12/10",
+      "H04W 24/10"
+    ],
+    "source": "converted"
+  }
+}

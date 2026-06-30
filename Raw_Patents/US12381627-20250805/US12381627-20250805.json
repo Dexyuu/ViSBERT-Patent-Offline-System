@@ -1,0 +1,26 @@
+{
+  "title": "Optimal equalization partitioning",
+  "abstract": "An optical module configured to electrically connect to a host. A linear equalizer performs equalization on a host equalized signal to create a module equalized signal, and a driver configured to present the module equalized signal from the linear equalizer to an optical conversion device at a magnitude suitable for the optical conversion device. An optical conversion device receives the module equalized signal from the driver, converts the module equalized signal to an optical signal, and transmit the optical signal over an optical channel. Also part of the optical module is an interface which communicates supplemental equalizer settings to the host. A memory stores the supplemental equalizer settings which reflect the optical modules effect on a signal passing through the optical module. A controller oversees communication of the supplemental equalizer settings to the host such that the host uses the supplemental equalizer settings to modify host equalizer settings.",
+  "claims": "1. A host configured to electrically connect to a linear module, the host comprising: a host input configured to connect to a low-speed communication channel; a low-speed host-to-linear module interface configured to communicate with the linear module, and receive and process equalizer settings received over the low-speed communication channel from the linear module; an equalizer configured to perform equalization on an outgoing signal to create an equalized outgoing signal, using the equalizer settings provided from the linear module, prior to the outgoing signal being transmitted from the host to the linear module; a driver configured to transmit the equalized outgoing signal from the host to the linear module; and an output connected to the driver configured to transmit the equalized outgoing signal, as an electrical signal, from the host to the linear module over a data channel.",
+  "patent_id": "US12381627-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 10/25073",
+      "H04B 10/25759",
+      "H04L 27/01",
+      "H04B 10/40",
+      "H04B 10/50",
+      "H04B 10/60"
+    ],
+    "all": [
+      "H04B 10/25073",
+      "H04B 10/25759",
+      "H04L 27/01",
+      "H04B 10/40",
+      "H04B 10/50",
+      "H04B 10/60"
+    ],
+    "source": "converted"
+  }
+}

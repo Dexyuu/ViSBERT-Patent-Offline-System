@@ -1,0 +1,32 @@
+{
+  "title": "On-chip voltage assignment through particle swarm optimization",
+  "abstract": "An on-chip voltage delivery method for a system includes multiple processor cores operating at multiple voltage levels. Distributed on-chip DC-DC converters as voltage regulators may deliver point of load current to the different units of a processor core operating at the same voltage level. Distributed timing sensors calibrated to generate digitized clock edge location. A power management unit may take input from the timing sensors, processes it through a particle swarm optimizer and generates digitized voltage identification code as reference to the distributed voltage regulators. The particle swarm optimizer may provide disparate voltage levels feasible for a given frequency of operation of the processor core with a provision to operate at multiple frequencies. The run-time assignment of the voltage through the particle swarm optimizer may negate the effects of transistor aging, process, temperature, and power supply noise induced variation in the load circuits, voltage regulators and sensors.",
+  "claims": "1. A method for determining the minimum operating voltage of an integrated circuit with multiple processor cores, comprising running a particle swarm optimization (PSO) algorithm on a circuit, wherein the PSO algorithm includes the steps of applying statistical static timing analysis to a voltage domain to determine a set of timing paths that exhibit high delay or are statistically likely to evolve as the paths with a maximum delay as the circuit ages; and providing distributed on-chip DC-DC voltage converters or voltage regulators: distributed time-based sensors; and providing a look up table stored in on-chip memory, wherein time-based sensors are monitored at the beginning of life of the multiple processor cores and calibrated as voltage meters, and wherein the time-based sensors are calibrated as timing meters, temperature meters, current meters, or other metering type that correlates to the operating voltage in a domain.",
+  "patent_id": "US12379767-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 1/3296",
+      "G06F 1/324",
+      "G06F 1/3243",
+      "G06F 30/25",
+      "G06F 30/337",
+      "G06F 30/392",
+      "G06N 3/006",
+      "G05F 1/575",
+      "H02M 3/00"
+    ],
+    "all": [
+      "G06F 1/3296",
+      "G06F 1/324",
+      "G06F 1/3243",
+      "G06F 30/25",
+      "G06F 30/337",
+      "G06F 30/392",
+      "G06N 3/006",
+      "G05F 1/575",
+      "H02M 3/00"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Transparent media asset substitution using broadcast delivery systems",
+  "abstract": "A method of communicating a media asset includes: receiving a media asset selection from a viewer, determining if the selected media asset is available in a memory of a user device or is currently being broadcast to the user device associated with the viewer, if the selected media asset is available in the memory: retrieving the selected media asset, else: retrieving the selected media asset from a network location and communicating an identity of the requested media asset to a controller.",
+  "claims": "1. A method of communicating a media asset comprising: receiving a request for a media asset from a viewer via a 3 rd party application software associated with a streaming content provider; intercepting the request by an internet RF proxy operating within an internet communication layer; determining, by the internet RF proxy, if the requested media asset is available in a memory of user device associated with the viewer or if the requested media asset is currently being broadcast over the air (OTA) to the user device in an advanced television system committee (ATSC) 3.0 environment; if the requested media asset is available in the memory of the user device or if the requested media asset is being broadcast OTA to the user device, retrieving, by the internet RF proxy, the requested media asset from the memory or from the OTA broadcast; else, retrieving, by the internet RF proxy, the requested media asset from a network location; and communicating an identity of the requested media asset to a central content controller (CCC), wherein the 3 rd party application is unaltered during each of the determining, retrieving and communicating with the CCC steps wherein functionality associated with the internet RF proxy is located within the user device.",
+  "patent_id": "US12382110-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/232",
+      "H04N 21/4667",
+      "H04N 21/482"
+    ],
+    "all": [
+      "H04N 21/232",
+      "H04N 21/4667",
+      "H04N 21/482"
+    ],
+    "source": "converted"
+  }
+}

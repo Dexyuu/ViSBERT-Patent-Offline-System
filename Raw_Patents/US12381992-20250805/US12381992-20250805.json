@@ -1,0 +1,26 @@
+{
+  "title": "Automated color correction",
+  "abstract": "A method, system, and computer program product for correcting color of elements rendered as visual display output of a computing device. Visual elements of a digital content container each comprising foreground and background portions for which foreground and background display color values being defined respectively are processed iteratively. Contrast ratio is calculated as function of the foreground and background display color values and if exceeded by an expected contrast ratio, expected foreground luminance value for the foreground portion and substitute foreground luminance value as function thereof are determined in relation to the expected contrast ratio and based on the background display color value. At least one foreground chromaticity value is obtained by converting the foreground display color value into a multi-dimensional chromatic valence color space, and an updated foreground display color value is obtained by inversely converting the substitute foreground luminance value and the at least one foreground chromaticity value.",
+  "claims": "1. A method for correcting color of elements rendered as visual display output of a computing device, comprising: in each of a plurality of iterations, processing a visual element of a digital content container comprising a plurality of visual elements for rendition, the visual element comprising at least a foreground and background portions for which a foreground and background display color values are defined respectively, said processing comprising: responsive to an expected contrast ratio exceeding a contrast ratio calculated as a function of the foreground and background display color values, performing: determining, in relation to the expected contrast ratio and based on the background display color value, an expected foreground luminance value for the foreground portion and a substitute foreground luminance value as a function thereof; obtaining at least one foreground chromaticity value by converting the foreground display color value into a multi-dimensional chromatic valence color space; obtaining an updated foreground display color value by inversely converting the substitute foreground luminance value and the at least one foreground chromaticity value; and, responsive to the expected contrast ratio not exceeding an updated contrast ratio calculated as a function of the background and updated foreground display color values, providing an output of the updated foreground display color value.",
+  "patent_id": "US12381992-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 1/6005",
+      "G06V 10/60",
+      "G09G 5/02",
+      "H04N 1/6016",
+      "G09G 2320/0666",
+      "G09G 2340/06"
+    ],
+    "all": [
+      "H04N 1/6005",
+      "G06V 10/60",
+      "G09G 5/02",
+      "H04N 1/6016",
+      "G09G 2320/0666",
+      "G09G 2340/06"
+    ],
+    "source": "converted"
+  }
+}

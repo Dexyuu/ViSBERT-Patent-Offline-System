@@ -1,0 +1,33 @@
+{
+  "application_id": "WO2024249147",
+  "application_id_fs": null,
+  "title": "Secure processing of speech signals using pseudo-speech representations",
+  "abstract": "A method, computer program product, and computing system for processing a speech signal. A sensitive portion of the speech signal is identified. A pseudo-speech representation of the sensitive portion is generated using a voice converter system. Speech processing is performed on the speech signal and the pseudo-speech representation of the sensitive portion using a speech processing system.",
+  "claims": "Claims Claims 1. A computer-implemented method, executed on a computing device, comprising: processing a speech signal; identifying a sensitive portion of the speech signal; generating a pseudo-speech representation of the sensitive portion using a voice converter system; and performing speech processing on the speech signal and the pseudo-speech representation of the sensitive portion using a speech processing system. 2. The computer-implemented method of claim 1, wherein generating the pseudo-speech representation includes generating a predefined acoustic signature. 3. The computer-implemented method of claim 1, wherein generating the pseudo-speech representation includes generating the pseudo-speech representation with a predefined acoustic signature based upon, at least in part, a content type of the sensitive portion of the speech signal. 4. The computer-implemented method of claim 1, wherein generating the pseudo-speech representation includes transforming an articulatory feature of the sensitive portion of the speech signal. 5. The computer-implemented method of claim 1, wherein generating the pseudo-speech representation includes performing a spectral modification of the sensitive portion of the speech signal. 6. The computer-implemented method of claim 1, wherein performing speech processing on the speech signal includes generating a transcript of the speech signal by processing the speech signal and the pseudo-speech representation of the sensitive portion using an automated speech recognition (ASR) system. 7. The computer-implemented method of claim 1, further comprising: marking the pseudo-speech representation of the sensitive portion with a watermark. 8. The computer-implemented method of claim 7, further comprising: performing speech processing on the speech signal, the pseudo-speech representation of the sensitive portion, and the watermark using the speech processing \n\n system by regenerating the sensitive content from the pseudo-speech representation using the watermark. 9. A computing system comprising: a memory ; and a processor configured to process a speech signal, to identify a sensitive speech component from the speech signal, to identify a sensitive portion of the speech signal, to generate a pseudo-speech representation of the sensitive portion using a voice converter system, to mark the pseudo-speech representation of the sensitive portion with a watermark, and to perform speech processing the speech signal, the pseudo-speech representation of the sensitive portion, and the watermark using a speech processing system. 10. The computing system of claim 9, wherein performing speech processing on the speech signal includes generating a transcript of the speech signal by processing the speech signal, the pseudo-speech representation of the sensitive portion, and the watermark using an automated speech recognition (ASR) system. 11. The computing system of claim 9, wherein generating the pseudo-speech representation includes generating a predefined acoustic signature. 12. The computing system of claim 9, wherein generating the pseudo-speech representation includes generating the pseudo-speech representation with a predefined acoustic signature based upon, at least in part, a content ty pe of the sensitive portion of the speech signal. 13. The computing system of claim 9, wherein generating the pseudo-speech representation includes transforming an articulatoryâ feature of the sensitive portion of the speech signal. 14. The computing system of claim 9, wherein generating the pseudo-speech representation includes performing a spectral modification of the sensitive portion of the speech signal. 15. A computer program product residing on a computer readable medium having a plurality of instructions stored thereon whi ch, w hen executed by a processor, cause the processor to perform operations comprising: generating a transcript by processing a speech signal using an automated speech recognition (ASR) system; \n\n determining a plurality of confidence scores associated with a plurality of respective portions of the transcript; identifying a sensitive portion of the transcript based upon, at least in part, the plurality' of confidence scores; generating a pseudo-speech representation of the sensitive portion; and generating a synthetic speech signal by processing the transcript and the pseudospeech representation of the sensitive portion.",
+  "classifications": {
+    "ipc": [
+      "G10L 21/003",
+      "G06F 21/62",
+      "G10L 13/033",
+      "G10L 15/00",
+      "G10L 17/00",
+      "G10L 19/018",
+      "G10L 21/013",
+      "H04K 1/00",
+      "G06F 40/279"
+    ],
+    "cpc": [],
+    "all": [
+      "G10L 21/003",
+      "G06F 21/62",
+      "G10L 13/033",
+      "G10L 15/00",
+      "G10L 17/00",
+      "G10L 19/018",
+      "G10L 21/013",
+      "H04K 1/00",
+      "G06F 40/279"
+    ],
+    "source": "csv"
+  }
+}

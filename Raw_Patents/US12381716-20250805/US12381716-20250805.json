@@ -1,0 +1,22 @@
+{
+  "title": "Optimized key management for data signing systems",
+  "abstract": "A system and method for providing a providing security credential is disclosed. In one embodiment, the method comprises accepting a request to generate at least one key in an online data signing system; generating, in a hardware security module communicatively coupled to the online data signing system, a first key K1as a temporary object; encrypting, by the hardware security module, the first key K1according to a wrapping key Kw to produce an encrypted first key EKw[K1]; storing the encrypted first key; and providing a second key K2associated with the first key K1to a user device communicatively coupled to the online data signing system.",
+  "claims": "1. A method of providing security credentials, comprising: accepting a request to generate at least one key in an online data signing system; generating, in a hardware security module communicatively coupled to the online data signing system, a first key K 1 as a temporary object; encrypting, by the hardware security module, the first key K 1 according to a wrapping key Kw to produce an encrypted first key E Kw [K 1 ]; storing the encrypted first key; providing a second key K 2 associated with the first key K 1 to a user device communicatively coupled to the online data signing system; linking, in the online data signing system, a configuration defined by an administrator to the encrypted first key E Kw [K 1 ]; accepting, in the online data signing system, a request from the user device to perform a cryptographic operation on data according to the configuration; retrieving the encrypted first key; decrypting, in the hardware security module, the encrypted first key according to the wrapping key Kw to recover the first key K 1 as a second temporary object; performing the cryptographic operation on the data in the online data signing system according to the first key K 1 ; and providing a result of the cryptographic operation to the user device.",
+  "patent_id": "US12381716-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/0825",
+      "H04L 9/0877",
+      "H04L 9/3247",
+      "H04L 9/3263"
+    ],
+    "all": [
+      "H04L 9/0825",
+      "H04L 9/0877",
+      "H04L 9/3247",
+      "H04L 9/3263"
+    ],
+    "source": "converted"
+  }
+}

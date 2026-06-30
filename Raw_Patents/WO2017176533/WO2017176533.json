@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2017176533",
+  "application_id_fs": "WO2017176533",
+  "title": "System and method for a database proxy",
+  "abstract": "A database proxy includes a request processor, a cache, a database plugin, and interfaces for coupling the database proxy client devices, other database proxies, and database servers. The request processor is configured to receive a read request from a client, determine whether the read request is assigned to the database proxy, and return results of the read request to the client. When the read request is not assigned to the database proxy, the read request is forwarded to another database proxy. When the read request is assigned to the database proxy, the read request is processed using data stored in the cache when the results are stored in the cache or forwarded to the database plugin, which forwards the read request to a database server, receives the results from the database server, and returns the results to the request processor for storage in the cache.",
+  "claims": "Claims CLAIMS  What is claimed is: 1. A database proxy comprising a request processor; a cache coupled to the request processor; a database plugin coupled to the request processor; a first interface for coupling the request processor to one or more client devices; a second interface for coupling the request processor to one or more other database proxies; and a third interface for coupling the database plugin to one or more database servers; wherein the request processor is configured to: receive a database read request from a client using the first interface; determine whether the database read request is assigned to the database proxy; when the database read request is not assigned to the database proxy, forward the database read request to a first one of the one or more other database proxies using the second interface; when the database read request is assigned to the database proxy: process the database read request using data stored in the cache when data associated with the database read request is stored in the cache; and forward the database read request to the database plugin when the data associated with the database read request is not stored in the cache and store results of the database read request received from the database plugin in the cache; and return results of the database read request to the client using the first interface; wherein the database plugin is configured to: forward the database read request to a first one of the one or more database servers; receive the results of the database read request from the first one of the one or more database servers; and return the results to the request processor. 2. The database proxy of claim 1, wherein the first interface and the second interface are a same interface. 3. The database proxy of claim 1, wherein at least one of the first interface, the second interface, and the third interface is a network interface. 4. The database proxy of claim 1, wherein at least one of the first interface, the second interface, and the third interface is a bus. 5. The database proxy of claim 1, wherein the database read request is received from the client via a client-side driver. 6. The database proxy of claim 1, wherein to determine whether the database read request is assigned to the database proxy the request processor: hashes information associated with the database read request to create a hash value; and compares the hash value to one or more ranges of hash values assigned to the database proxy. 7. The database proxy of claim 1, wherein the request processor is further configured to convert data objects, using one or more serializer-deserializer engines, between one or more first data formats used by the client and one or more second data formats used by the request processor. 8. The database proxy of claim 1, wherein the database plugin is further configured to convert data objects, using one or more serializer-deserializer engines, between one or more first data formats used by the database server and one or more second data formats used by the request processor. 9. The database proxy of claim 1, wherein the request processor is further configured to convert, using an index converter, one or more secondary indices used in the database read request to one or more primary indices. 10. The database proxy of claim 1, wherein the request processor is further configured to process, using a compute block, the results using one or more regular expressions or functions before returning the results to the client. 11. The database proxy of claim 1, wherein the cache is accessed via a hybrid memory management unit. 12. The database proxy of claim 1, wherein a storage engine stores data in the cache according to a columnar data format, a graph data format, or a document store data format. 13. The database proxy of claim 1, wherein when the database read request is not assigned to the database proxy, the request processor is further configured to receive the results from the first one of the one or more other database proxies using the second interface. 14. The database proxy of claim 1, wherein the request processor is further configured to: divide the database read request into a plurality of sub-requests; process each of the sub-requests based on hash values associated with each of the sub- requests; and combine results of each of the sub-requests as the results for the database read request. 15. The database proxy of claim 1, wherein the request processor is further configured to process database write requests, database update requests, and database delete requests. 16. The database proxy of claim 1, wherein the database proxy comprises one or more processors, application specific integrated circuits, field programmable gate arrays, or any combination thereof. 17. A method of processing database read requests using database proxies, the method comprising: receiving, by a request processor of a first database proxy, a database read request from a client using a first interface; determining, by the request processor, whether the database read request is assigned to the first database proxy; when the database read request is not assigned to the first database proxy, forwarding, by the request processor, the database read request to a second database proxy using a second interface; when the database read request is assigned to the first database proxy: \n\n processing, by the request processor, the database read request using data stored in a cache when data associated with the database read request is stored in the cache; and forwarding, by a database plugin of the first database proxy, the database read request to a database server and storing, by the request processor, results of the database read request received from the database plugin in the cache when the data associated with the database read request is not stored in the cache; and returning results of the database read request to the client using the first interface. 18. The method of claim 17, further comprising: converting first data objects, using one or more first serializer-deserializer engines, between one or more first data formats used by the client and one or more second data formats used by the request processor; or converting second data objects, using one or more second serializer-deserializer engines, between one or more third data formats used by the database server and the one or more second data formats used by the request processor. 19. The method of claim 17, further comprising converting, using an index converter, one or more secondary indices used in the database read request to one or more primary indices. 20. The method of claim 17, further comprising when the database read request is not assigned to the first database proxy, receiving the results from the second database proxy using the second interface.",
+  "classifications": {
+    "ipc": [
+      "H04L 67/00",
+      "H04L 67/01",
+      "H04L 67/10",
+      "H04L 67/1097",
+      "G06F 16/00",
+      "G06F 16/20",
+      "G06F 16/25",
+      "G06F 16/252",
+      "H04L 67/50",
+      "H04L 67/56",
+      "H04L 67/60",
+      "G06F 16/24",
+      "G06F 16/245",
+      "G06F 16/2458",
+      "G06F 16/2471",
+      "H04L 67/568"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 67/00",
+      "H04L 67/01",
+      "H04L 67/10",
+      "H04L 67/1097",
+      "G06F 16/00",
+      "G06F 16/20",
+      "G06F 16/25",
+      "G06F 16/252",
+      "H04L 67/50",
+      "H04L 67/56",
+      "H04L 67/60",
+      "G06F 16/24",
+      "G06F 16/245",
+      "G06F 16/2458",
+      "G06F 16/2471",
+      "H04L 67/568"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017176533"
+}

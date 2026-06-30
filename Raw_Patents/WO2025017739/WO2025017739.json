@@ -1,0 +1,40 @@
+{
+  "application_id": "WO2025017739",
+  "application_id_fs": "WO2025017739",
+  "title": "System and method for asset management",
+  "abstract": "The present invention relates to a system (120) and a method (500) for asset management is disclosed. The system (120) includes a transceiver (320), configured to, receive, one or more discovery requests pertaining to discovery data of a plurality of remote assets in a network (105). The system (120) includes an accessing unit (325) configured to access the plurality of remote assets based on the one or more discovery requests received. The system (120) includes an execution unit (330) configured to execute one or more customized scripts pertaining to the plurality of remote assets accessed. The system (120) includes a fetching unit (335) configured to fetch output data of the one or more executed customized scripts.",
+  "claims": "Claims CLAIMS We Claim: 1. A method (500) for asset management, the method (500) comprising the steps of: receiving, by one or more processors (305), one or more discovery requests pertaining to discovery data of a plurality of remote assets in a network (105); accessing, by the one or more processors (305), the plurality of remote assets based on the one or more discovery requests received; executing, by the one or more processors (305), one or more customized scripts pertaining to the plurality of remote assets accessed; and fetching, by the one or more processors (305), , output data of the one or more executed customized scripts, wherein the output data pertains to discovery data of each of the plurality of remote assets in the network (105). 2. The method (500) as claimed in claim 1, wherein the discovery data includes information related to at least one of one or more middleware and technologies/applications running on the plurality of remote assets, wherein the one or more middleware and the technologies/applications include at least one of, version details, locations, installation paths, log paths, home/log paths, error log paths, process ID, and port details. 3. The method (500) as claimed in claim 1, wherein the plurality of remote assets includes at least one of remote servers. 4. The method (500) as claimed in claim 1 , wherein the fetched output data of the one or more executed customized scripts are stored in a database (210). 5. The method (500) as claimed in claim 1, wherein the customized scripts are a sequence of commands coded in the script. 6. The method (500) as claimed in claim 1, wherein the one or more discovery requests are received from at least one of, a network operator. 7. The method (500) as claimed in claim 1 , wherein the discovery data is transmitted by the one or more processors (305) to a network operator as a response to the one or more discovery requests. 8. The method (500) as claimed in claim 1, wherein the step of accessing, the plurality of remote assets based on the one or more discovery requests received, includes the steps of: identifying, by the one or more processors (305), the plurality of remote assets based on the one or more discovery requests received; and logging-in, by the one or more processors (305), to the identified plurality of remote assets. 9. A system (120) for asset management, the system (120) comprising: a transceiver (320), configured to, receive, one or more discovery requests pertaining to discovery data of a plurality of remote assets in a network (105); an accessing unit (325), configured to, access, the plurality of remote assets based on the one or more discovery requests received; an execution unit (330), configured to, execute, one or more customized scripts pertaining to the plurality of remote assets accessed; and a fetching unit (335), configured to, fetch output data of the one or more executed customized scripts, wherein the output data pertains to discovery data of each of the plurality of remote assets in the network (105). 10. The system (120) as claimed in claim 9, wherein the discovery data includes information related to at least one of one or more middleware and technologies/applications running on the plurality of remote assets, wherein the one or more middleware and the technologies/applications include at least one \n\n of, version details, locations, installation paths, log paths, home/log paths, error log paths, process ID, and port details. 11. The system (120) as claimed in claim 9, wherein the plurality of remote assets includes at least one of remote servers. 12. The system (120) as claimed in claim 9, wherein the fetched output data of the one or more executed customized scripts are stored in a database (210). 13. The system (120) as claimed in claim 9, wherein the customized scripts are a sequence of commands coded in the script. 14. The system (120) as claimed in claim 9, wherein the one or more discovery requests are received from at least one of, a network operator. 15. The system (120) as claimed in claim 9, wherein the discovery data is transmitted by the one or more processors (205) to a network operator as a response to the one or more discovery requests. 16. The system (120) as claimed in claim 9, wherein the accessing unit (325), accesses, the plurality of remote assets based on the one or more discovery requests received, by: identifying, the plurality of remote assets based on the one or more discovery requests received; and logging-in, to the identified plurality of remote assets. 17. A network operator equipment (110), comprising: one or more primary processors (405) communicatively coupled to one or more processors (305), the one or more primary processors (405) coupled with a memory (410), wherein said memory (410) stores instructions which when \n\n executed by the one or more primary processors (405) causes the network operator equipment (110) to: transmit, one or more discovery requests and one or more customized scripts to the one or more processors (305), in order to fetch discovery data of each of the plurality of remote assets in a network (105); and wherein the one or more processors (305) is configured to perform the steps as claimed in claim 1. 18. A non-transitory computer-readable medium having stored thereon computer- readable instructions that, when executed by a processor (305), causes the processor (305) to: receive, one or more discovery requests pertaining to discovery data of a plurality of remote assets in a network (105); access, the plurality of remote assets based on the one or more discovery requests received; execute, one or more customized scripts pertaining to the plurality of remote assets accessed; and fetch, output data of the one or more executed customized scripts, wherein the output data pertains to discovery data of each of the plurality of remote assets in the network (105).",
+  "classifications": {
+    "ipc": [
+      "H04L 41/00",
+      "H04L 41/12",
+      "H04L 41/08",
+      "H04L 41/085",
+      "H04L 41/0853",
+      "H04L 67/00",
+      "H04L 67/50",
+      "H04L 67/51",
+      "H04L 67/56",
+      "H04L 67/567",
+      "H04L 41/0803",
+      "H04L 41/0823"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 41/00",
+      "H04L 41/12",
+      "H04L 41/08",
+      "H04L 41/085",
+      "H04L 41/0853",
+      "H04L 67/00",
+      "H04L 67/50",
+      "H04L 67/51",
+      "H04L 67/56",
+      "H04L 67/567",
+      "H04L 41/0803",
+      "H04L 41/0823"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025017739"
+}

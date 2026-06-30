@@ -1,0 +1,28 @@
+{
+  "title": "Adapting an utterance cut-off period with user specific profile data",
+  "abstract": "A system detects a period of non-voice activity and compares its duration to a cutoff period. The system adapts the cutoff period based on parsing previously-recognized speech of a user that is stored on a user's device or the system, which detects the voice activity, to determine according to a model, such as a machine-learned model, the probability that the speech recognized so far is a prefix to a longer complete utterance. The cutoff period is longer when a parse of previously recognized speech, which is based on the user profile, has a high probability of being a prefix of a longer utterance.",
+  "claims": "1. A method comprising: detecting, at a user device, an utterance comprising periods of voice activity and periods of no voice activity within a plurality of spoken words; parsing the plurality of spoken words according to a first grammar and a second grammar to determine if the plurality of spoken words is at least one of a complete parse according to the first grammar and a prefix to another complete parse according to the second grammar; accessing a no voice activity detection (NVAD) cut-off period calculated from prior speech associated with a user profile stored at the user device; scaling the NVAD cut-off period, which prevents pre-mature cutting off slow voice activity and improves responsiveness to fast voice activity, based at least in part on determining whether the plurality of spoken words is at least one of a complete parse according to the first grammar and a prefix to another complete parse according to the second grammar; and performing speech recognition using the NVAD cut off period to detect the end of the utterance.",
+  "patent_id": "US12380889-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 15/22",
+      "G10L 15/05",
+      "G10L 15/1822",
+      "G10L 25/78",
+      "G10L 2015/088",
+      "G10L 15/19",
+      "G10L 15/30"
+    ],
+    "all": [
+      "G10L 15/22",
+      "G10L 15/05",
+      "G10L 15/1822",
+      "G10L 25/78",
+      "G10L 2015/088",
+      "G10L 15/19",
+      "G10L 15/30"
+    ],
+    "source": "converted"
+  }
+}

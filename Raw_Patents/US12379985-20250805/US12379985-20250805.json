@@ -1,0 +1,20 @@
+{
+  "title": "Method of processing exception events and storage device for processing exception events",
+  "abstract": "A method of processing exception events for a storage device includes generating, by the storage device, a first exception event alert comprising a first value and a second value, where the first value indicates generation of exception events and the second value indicates attributes of the exception events, and transmitting, from the storage device, the first exception event alert to a host device.",
+  "claims": "1. A method of processing exception events for a storage device, the method comprising: generating, by the storage device, a first exception event alert comprising a first value and a second value, wherein the first value indicates generation of exception events and the second value indicates attributes of the exception events; transmitting, from the storage device, the first exception event alert to a host device; determining, by the host device, that the first exception event alert indicates an abnormality of the storage device; and based on determining that the first exception event alert indicates the abnormality of the storage device, identifying, by the host device, a type of exception event corresponding to the first exception event alert based on the second value and performing an exception processing routine based on the identified type of exception event.",
+  "patent_id": "US12379985-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/0772",
+      "G06F 11/0781",
+      "G06F 11/3034"
+    ],
+    "all": [
+      "G06F 11/0772",
+      "G06F 11/0781",
+      "G06F 11/3034"
+    ],
+    "source": "converted"
+  }
+}

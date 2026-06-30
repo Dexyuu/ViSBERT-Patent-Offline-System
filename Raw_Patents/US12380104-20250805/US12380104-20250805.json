@@ -1,0 +1,22 @@
+{
+  "title": "Batched query processing and optimization",
+  "abstract": "Disclosed are various embodiments for batched query processing and optimization in database management systems. A single algebraic expression is generated based at least in part on applying equivalence rules to algebraic expressions for a plurality of database queries of a database comprising a set of relations. The equivalence rules involve relational operators comprising Psi (Ï) operators. The database can be queried using a single database query to create a result that is equivalent to the plurality of database queries.",
+  "claims": "1. A system comprising: a memory storing a database; at least one computing device in communication with the database and comprising a processor, the processor being configured to execute a set of instructions to at least: obtain a plurality of database queries; prior to sending any query requests of the plurality of database queries to a database management system of the memory, transform the plurality of database queries using algebraic expressions and generate a single global query encompassing the algebraic expressions of all of the plurality of database queries; send a single database query request based on the global query to the database management system of the memory storing the database; and by querying the database using only the single database query request, to cause the database to return to the at least one computing device a result in the form of a global relation corresponding to relations for the plurality of database queries, wherein the global relation comprises response data from which results for all of the database queries can be derived.",
+  "patent_id": "US12380104-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/24544",
+      "G06F 11/3409",
+      "G06F 16/2282",
+      "G06F 16/24539"
+    ],
+    "all": [
+      "G06F 16/24544",
+      "G06F 11/3409",
+      "G06F 16/2282",
+      "G06F 16/24539"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Data race detection with per-thread memory protection",
+  "abstract": "Data race detection in multi-threaded programs can be achieved by leveraging per-thread memory protection technology in conjunction with a custom dynamic memory allocator to protect shared memory objects with unique memory protection keys, allowing data races to be turned into inter-thread memory access violations. Threads may acquire or release the keys used for accessing protected memory objects at the entry and exit points of critical sections within the program. An attempt by a thread to access a protected memory object within a critical section without the associated key triggers a protection fault, which may be indicative of a data race.",
+  "claims": "1. A method for data race detection during execution of a multi-threaded program comprising one or more critical sections, the method using a set of access keys available to protect memory objects in the one or more critical sections, wherein each memory object is protected by only one of the access keys at a time, the method comprising: maintaining, in one or more machine-readable media, a first subset of the set of access keys, the first subset consisting of access keys currently not held by any of multiple threads and thus available for acquisition; maintaining, in the one or more machine-readable media, multiple second subsets of the set of access keys, each of the second subsets associated with one of the multiple threads and consisting of access keys held by that thread, the first subset and the multiple second subsets collectively containing all keys of the set of access keys available to protect the memory objects in the one or more critical sections of the program, wherein an access key is removed from the first subset upon acquisition from the first subset by any of the multiple threads and added back to the first subset upon release by that thread; maintaining, in the one or more machine-readable media, one or more third subsets of the set of access keys, each of the one or more third subsets associated with one of the one or more critical sections of the program, each access key within one of the one or more third subsets of access keys being one of the keys of the set of access keys and being associated with a memory object to be accessed within the respective critical section, at least one of the third subsets comprising at least two access keys; and detecting, by a computer processor, an attempt of one of the multiple threads to access a memory object whose associated access key is held by another one of the multiple threads, and registering a data race in response thereto.",
+  "patent_id": "US12379974-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/526",
+      "G06F 9/544",
+      "G06F 11/3624",
+      "G06F 11/3632",
+      "G06F 12/084",
+      "G06F 11/3636",
+      "G06F 12/10",
+      "G06F 2212/657"
+    ],
+    "all": [
+      "G06F 9/526",
+      "G06F 9/544",
+      "G06F 11/3624",
+      "G06F 11/3632",
+      "G06F 12/084",
+      "G06F 11/3636",
+      "G06F 12/10",
+      "G06F 2212/657"
+    ],
+    "source": "converted"
+  }
+}

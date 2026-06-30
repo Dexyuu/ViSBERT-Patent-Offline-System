@@ -1,0 +1,18 @@
+{
+  "title": "Inspection device",
+  "abstract": "In an inspection device having a storage unit and an exposure dose calculation unit, the exposure dose calculation unit executes a first step for calculating the dose when an image is acquired by irradiating radiation from a radiation generator based on the reference dose stored in the storage unit, a second step for calculating the dose when the relative position between the radiation generator and an inspection object is changed, a third step for calculating the total value of the dose irradiated to the inspection object, and a fourth step for outputting the total value.",
+  "claims": "1. An inspection device that inspects an inspection object by changing a relative position of a radiation source and the inspection object, irradiating the inspection object with a radiation from the radiation source, and acquiring an image of the inspection object, the inspection device comprising: an information storage that stores, as a reference dose, a dose from the radiation source irradiated on a predetermined position with respect to the radiation source; and a calculator that calculates the dose irradiated on the inspection object in the inspection, the calculator executing: before the inspection object is inspected, based on inspection information of the inspection object in the inspection, an imaging condition, and a moving route including an imaging position on the inspection object, in any period from a start to an end of the inspection, a first step of calculating, based on the reference dose stored in the information storage, from the relative positions of the radiation source and the inspection object in a period in which the image is acquired in the imaging position while the relative positions of the radiation source and the inspection object are fixed of changed, an estimated value of the dose irradiated on the inspection object; a second step of calculating, based on the reference dose stored in the information storage, from the relative positions of the radiation source and the inspection object in a period in which the relative positions of the radiation source and the inspection object are changed and the imaging position is moved, an estimated value of the dose irradiated on the inspection object; a third step of calculating a total value of the estimated values of the doses irradiated on the inspection object from a total of the estimated value of the dose calculated in the first step and the estimated value of the dose calculated in the second step; and a fourth step of outputting the total value calculated in the third step.",
+  "patent_id": "US12379334-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01N 23/06",
+      "G01N 23/04"
+    ],
+    "all": [
+      "G01N 23/06",
+      "G01N 23/04"
+    ],
+    "source": "converted"
+  }
+}

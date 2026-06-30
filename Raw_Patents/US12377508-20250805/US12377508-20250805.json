@@ -1,0 +1,18 @@
+{
+  "title": "Method for operating a machine tool, computer program product, control unit, machine tool, simulation program product and use of the control unit",
+  "abstract": "A method for operating a machine tool having a first number of machine axes that are movable via a drive and actuatable via a control unit that is configured such that, relative to a reference point on the machine tool, a coordinates transformation is performed around a second number of machine axes, includes providing a parts program for machining of a workpiece via the machine tool, a second step of determining at least one axis of rotation from among the first number of machine axes and blocking the determined at least one axis of rotation for actuations, determining control commands for a plurality of machine axes, excluding the at least one axis of rotation determined in the second step, and a fourth step in which the at least one axis of rotation determined in the second step is brought into a machining position and a corresponding rotational movement is determined.",
+  "claims": "1. A method for operating a machine tool having a first number of machine axes which are each moveable via a drive and are each actuatable via a control unit which is configured to perform a coordinates transformation around a second number of machine axes relative to a reference point on the machine tool, the method comprising: a) providing a parts program for machining of a workpiece via the machine tool; b) determining at least one axis of rotation from among the machine axes and blocking the at least one axis of rotation for actuations; c) determining control commands for a plurality of machine axes excluding the at least one axis of rotation determined in step b); d) setting the at least one axis of rotation determined in step b) into a machining position and determining a corresponding rotational movement; e) determining an adapted set of control commands for the plurality of machine axes based on the control commands determined in step c) and the rotational movement determined in step d); and f) machining the workpiece via execution of the adapted set of control commands.",
+  "patent_id": "US12377508-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B23Q 15/12",
+      "G05B 19/402"
+    ],
+    "all": [
+      "B23Q 15/12",
+      "G05B 19/402"
+    ],
+    "source": "converted"
+  }
+}

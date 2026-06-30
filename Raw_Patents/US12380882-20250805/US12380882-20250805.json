@@ -1,0 +1,26 @@
+{
+  "title": "Speech processing system and method",
+  "abstract": "A speech processing system includes an input for receiving an input utterance spoken by a user and a word alignment unit configured to align different sequences of acoustic speech models with the input utterance spoken by the user. Each different sequence of acoustic speech models corresponds to a different possible utterance that a user might make. The system identifies any parts of a read prompt text that the user skipped; any parts of the read prompt text that the user repeated; and any speech sounds that the user inserted between words of the read prompt text. The information from the word alignment unit can be used to assess the proficiency and/or fluency of the user's speech.",
+  "claims": "1. A speech processing system comprising: an input for receiving an input utterance spoken by a user; a speech recognition system that recognizes the input utterance spoken by the user and that outputs a recognition result comprising a sequence of recognized textual words, and an additional sequence of recognized sub-word units corresponding to the input utterance; an acoustic model store that stores acoustic speech models; a word alignment unit configured to receive the sequence of recognized textual words and the sequence of recognized sub-word units output by the speech recognition system and to align a sequence of said acoustic speech models corresponding to the received sequence of recognized textual words and the received sequence of recognized sub-word units with a sequence of acoustic feature vectors representing the input utterance spoken by the user and to output an alignment result identifying: a time alignment between each word of the received sequence of recognized textual words and the sequence of acoustic feature vectors representing the input utterance spoken by the user that identifies where each recognized textual word is located within the sequence of acoustic feature vectors representing the input utterance spoken by the user; a time alignment between each sub-word unit in the sequence of recognized sub-word units and the sequence of acoustic feature vectors representing the input utterance spoken by the user that identifies where each sub-word unit is located within the sequence of acoustic feature vectors representing the input utterance spoken by the user; a speech scoring feature determining unit configured to use: i) the time alignment between each word of the received sequence of recognized textual words and the sequence of acoustic feature vectors representing the input utterance spoken by the user that identifies where each recognized textual word is located within the sequence of acoustic feature vectors representing the input utterance spoken by the user; and ii) the time alignment between each sub-word unit in the sequence of recognized sub-word units and the sequence of acoustic feature vectors representing the input utterance spoken by the user that identifies where each sub-word unit is located within the sequence of acoustic feature vectors representing the input utterance spoken by the user; output from the word alignment unit to determine a plurality of speech scoring feature values for the input utterance; and a scoring unit operable to use the plurality of speech scoring feature values for the input utterance determined by the speech scoring feature determining unit, to generate a score representing language ability of the user.",
+  "patent_id": "US12380882-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 15/193",
+      "G09B 19/06",
+      "G10L 15/187",
+      "G10L 25/51",
+      "G10L 25/87",
+      "G10L 25/78"
+    ],
+    "all": [
+      "G10L 15/193",
+      "G09B 19/06",
+      "G10L 15/187",
+      "G10L 25/51",
+      "G10L 25/87",
+      "G10L 25/78"
+    ],
+    "source": "converted"
+  }
+}

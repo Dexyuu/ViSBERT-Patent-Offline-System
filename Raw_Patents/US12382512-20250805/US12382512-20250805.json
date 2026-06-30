@@ -1,0 +1,18 @@
+{
+  "title": "Channel contention method and related apparatus",
+  "abstract": "A channel contention method includes performing, by a first station and a second station of a multi-link device (MLD), channel contention based on a first enhanced distributed channel access (EDCA) parameter; generating, by the first station and the second station, a point coordination function (PCF) inter-frame space (PIFS) access t imer when the first station performs EDCA access and the second station performs PIFS access; and performing, by the first station and the second station, channel contention based on a second EDCA parameter before the PIFS access timer backs off to 0.",
+  "claims": "1. A method implemented by a multi-link device (MLD), wherein the method comprises: when a first station of the MLD contends for a first channel of a first link based on a first enhanced distributed channel access (EDCA) parameter set: detecting, by the first station at a first moment, that a first backoff count value of the first channel backs off to 0, wherein the first station works on the first link, and wherein the first station is a first access point station or a first non-access point station; and obtaining, by the first station, a first transmission opportunity of the first channel; when a second station contends for a second channel of a second link based on the first EDCA parameter set: learning, by the second station, that at the first moment, the first backoff count value backs off to 0, wherein the second station works on the second link, and wherein the second station is a second access point station or a second non-access point station; sensing, by the second station, that the second channel is idle within one point coordination function (PCF) inter-frame space (PIFS) before the first moment; and obtaining, by the second station, a second transmission opportunity of the second channel, wherein at least one parameter of a first arbitration inter-frame space number (AIFSN), a first maximum contention window (CWmax), or a first minimum contention window (CWmin) in a second EDCA parameter set is different from a corresponding parameter in the first EDCA parameter set, and wherein in response to the second station obtaining the second transmission opportunity, the method further comprises at least one of: generating, by the first station, a first PIFS access timer of the first station, starting, by the first station, a first backoff of a first count value of the first PIFS access timer, and performing, by the first station, first channel contention based on the second EDCA parameter set within a first backoff time before the first count value of the first PIFS access timer backs off to 0; or generating, by the second station, a second PIFS access timer of the second station, starting, by the second station, a second backoff of a second count value of the second PIFS access timer, and performing, by the second station, second channel contention based on the second EDCA parameter set within a second backoff time before the second count value backs of the second PIFS access timer off to 0.",
+  "patent_id": "US12382512-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 74/085",
+      "H04W 74/0866"
+    ],
+    "all": [
+      "H04W 74/085",
+      "H04W 74/0866"
+    ],
+    "source": "converted"
+  }
+}

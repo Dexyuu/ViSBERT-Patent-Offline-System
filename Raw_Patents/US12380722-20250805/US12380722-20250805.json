@@ -1,0 +1,20 @@
+{
+  "title": "On-device two step approximate string matching",
+  "abstract": "A personalized preview system to receive a request to access a collection of media items from a user of a user device. Responsive to receiving the request to access the collection of media items, the personalized preview system accesses user profile data associated with the user, wherein the user profile data includes an image. For example, the image may comprise a depiction of a face, wherein the face comprises a set of facial landmarks. Based on the image, the personalized preview system generates one or more media previews based on corresponding media templates and the image, and displays the one or more media previews within a presentation of the collection of media items at a client device of the user.",
+  "claims": "1. A method comprising: receiving, from a client device, a query against a corpus of text strings, the query comprising a string of characters received via a keyboard displayed within a graphical user interface (GUI) of the client device; responsive to the receiving the query against the corpus of text strings, causing the client device to perform operations at the client device that include: applying a modification to the string of characters; generating one or more bigrams based on the string of characters that include the modification; assigning weights to each bigram among the one or more bigrams based on a keyboard type of the keyboard displayed within the GUI of the client device, and an order of the one or more bigrams; generating a hash-map that comprises a set of values and a key, the set of values including the weights of the one or more bigrams, and the key comprising the one or more bigrams; determining a bigram distance between each of the one or more bigrams within the hash-map and at least a bigram of a text string from the corpus of text strings; selecting the text string from the corpus of text strings based on the bigram distance between each of the one or more bigrams within the hash-map and the bigram of the text string; and causing display of a presentation of a set of search results at the client device, the presentation of the set of search results including at least the text string.",
+  "patent_id": "US12380722-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 30/1983",
+      "G06V 30/19113",
+      "G06V 30/19167"
+    ],
+    "all": [
+      "G06V 30/1983",
+      "G06V 30/19113",
+      "G06V 30/19167"
+    ],
+    "source": "converted"
+  }
+}

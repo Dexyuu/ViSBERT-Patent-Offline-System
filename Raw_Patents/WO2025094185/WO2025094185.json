@@ -1,0 +1,30 @@
+{
+  "application_id": "WO2025094185",
+  "application_id_fs": "WO2025094185",
+  "title": "Method and system enabling instalment payments on a financial transaction device",
+  "abstract": "The present disclosure relates to a method and system of authorizing payment transactions via a embedded module in a bank application installed on an electronic device on a debit cards, wherein the payments are converted to EMIs (equated monthly instalments) at the POS terminal. The embedded module in the bank application integrated with a switch network, is installed in an electronic device (205), such as a mobile phone or tablet. The embedded module checks the customer eligibility for availing EMI on their debit cards (215), provides EMI options, tenures and interest rate (225); on selection of a preferred tenure generates a one-time EMI PIN for operating the debit card of the user (235); which is active until successful usage or until time-out. The said embedded module communicates the purchase amount to be converted to EMI with the chosen tenure and interest rate (240), that is automatically deducted from customer's linked bank on a specified date every month until the agreed tenure ends.",
+  "claims": "Claims WE CLAIM 1. A method of processing a payment transaction from a debit card, wherein the transaction is converted to equated monthly instalments (EMI) through an embedded module in a bank application in a linked electronic device, comprising steps of: a) receiving and verifying a request from a user to check eligibility for EMI (215), for processing the payment transaction on the debit card, via the embedded module in the bank application on the electronic device; b) generating and displaying, a plurality of eligible payment options and tenures in instalments and an embedded calculator (225), on the electronic device; c) receiving authorization from the user to select and verify an eligible payment option and tenure that is available on the said debit card via the electronic device (230); d) generating and communicating a temporary personal identification number (PIN) for the debit card via the embedded module in the bank application for activating the selected instalment option and tenure by the user (235); wherein, the temporary PIN is employed as a standard PIN to render a payment transaction to a vendor on the debit card at a point of service (POS) terminal; and wherein the payment transaction is initiated as equated monthly instalments (EMI) from a core account on successful operation of the temporary PIN at the terminal (240). 2. The method as claimed in claim 1 wherein the temporary PIN is deactivated after being used one-time in a payment transaction or until period of time-out. 3. The method as claimed in claim 1 wherein the time-out of the temporary PIN is up to a period of 30 minutes. 4. The method as claimed in claim 1, wherein the linked electronic device is a mobile phone or a tablet. 5. A system for processing a payment transaction from a debit card as claimed in claim 1; the system comprises a embedded module in a bank application installed in an electronic device comprising a processor and memory instructions, when, executed by the processor causes the embedded module in the bank application to: a) receive real time information on the debit card holder to verify eligibility for EMI (255); b) generate plurality of eligible payment options and tenures; c) receive a user authorization to select and verify an eligible payment option and tenure; and d) generate a temporary personal identification number (PIN) for the debit card; to render a payment transaction to a vendor via the debit card at a point of service (POS) terminal; and to initiate equated monthly instalments (EMI) from the account linked to the debit card. 6. The system as claimed in claim 5, wherein the embedded module communicates between the bank server, a POS terminal, electronic linked device via switch network (260).",
+  "classifications": {
+    "ipc": [
+      "G06Q 40/00",
+      "G06Q 40/03",
+      "G06Q 20/00",
+      "G06Q 30/00",
+      "G06Q 30/018",
+      "G06Q 30/06",
+      "G06Q 40/02"
+    ],
+    "cpc": [],
+    "all": [
+      "G06Q 40/00",
+      "G06Q 40/03",
+      "G06Q 20/00",
+      "G06Q 30/00",
+      "G06Q 30/018",
+      "G06Q 30/06",
+      "G06Q 40/02"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025094185"
+}

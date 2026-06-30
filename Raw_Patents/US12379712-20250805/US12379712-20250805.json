@@ -1,0 +1,22 @@
+{
+  "title": "Control mode switching apparatus and control mode switching method",
+  "abstract": "A control mode switching apparatus switches a control mode of a robot. The control mode includes at least two of a remote control mode, a manual control mode, and an autonomous control mode. The control mode switching apparatus includes: an anomaly detector that, based on a communication message on a control network in the robot and the control mode, obtains a detection result of at least one anomaly among a user anomaly caused by user control, a robot anomaly caused by the control network, an operating environment anomaly caused by an operating environment of the robot, and an application anomaly caused by an application; and a switcher that calculates, for each type of anomaly detected, a score indicating a likelihood that the type is a cause of the anomaly in the robot, and switches the control mode based on the score calculated.",
+  "claims": "1. A control mode switching apparatus that switches a control mode of a robot, wherein the control mode includes all of the following modes: (i) a remote control mode in which the robot is controlled by a first user over an external network; (ii) a manual control mode in which the robot is controlled by being operated by a second user without using the external network; and (iii) an autonomous control mode in which the robot is controlled based on sensor information obtained by a sensor provided in the robot, and the control mode switching apparatus comprises: an obtainer that, based on a communication message on a control network in the robot and the control mode, obtains a detection result of detecting an anomaly occurring in the robot among at least one type of anomaly, the at least one type of anomaly including a user anomaly caused by control performed by the first user or the second user, a robot anomaly caused by the control network, an operating environment anomaly caused by an operating environment of the robot, or an application anomaly caused by an application run by a control device that is connected to the control network and that controls the robot; and a switcher that, based on the detection result obtained, calculates, for each type of anomaly of the at least one type of anomaly, a score indicating a likelihood that the type of anomaly is a cause of the anomaly occurring in the robot, and switches the control mode of the robot based on each score calculated.",
+  "patent_id": "US12379712-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05B 19/4155",
+      "G05D 1/0038",
+      "G05D 1/0061",
+      "G05B 2219/50391"
+    ],
+    "all": [
+      "G05B 19/4155",
+      "G05D 1/0038",
+      "G05D 1/0061",
+      "G05B 2219/50391"
+    ],
+    "source": "converted"
+  }
+}

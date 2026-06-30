@@ -1,0 +1,26 @@
+{
+  "title": "Granular motion control for a virtual agent",
+  "abstract": "Various implementations disclosed herein include devices, systems, and methods for granular motion control for a virtual agent. In various implementations, a device includes a non-transitory memory and one or more processors coupled with the non-transitory memory. In some implementations, a method includes obtaining an action for a virtual agent. In some implementations, the action is associated with a plurality of time frames. In some implementations, the method includes, for a first time frame of the plurality of time frames, determining respective confidence scores for a plurality of granular motions that advance the virtual agent towards completion of the action. In some implementations, the method includes selecting a subset of the plurality of granular motions based on the respective confidence scores.",
+  "claims": "1. A method comprising: at a device including a non-transitory memory and one or more processors coupled with the non-transitory memory: manipulating a representation of a virtual agent to perform an action in a plurality of time frames; selecting, from a plurality of granular motions, a first granular motion that advances the virtual agent towards completing the action by evaluating an effect of the first granular motion selected for a current time frame of the plurality of time frames on a second granular motion available for a future time frame in the plurality of time frames; and animating the representation of the virtual agent in accordance with the first granular motion in the current time frame.",
+  "patent_id": "US12380623-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 13/80",
+      "G06T 7/251",
+      "G06T 13/40",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30241"
+    ],
+    "all": [
+      "G06T 13/80",
+      "G06T 7/251",
+      "G06T 13/40",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30241"
+    ],
+    "source": "converted"
+  }
+}

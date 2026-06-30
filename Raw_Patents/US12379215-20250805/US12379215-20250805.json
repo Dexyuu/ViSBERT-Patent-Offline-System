@@ -1,0 +1,22 @@
+{
+  "title": "Efficient vision-aided inertial navigation using a rolling-shutter camera with inaccurate timestamps",
+  "abstract": "Vision-aided inertial navigation techniques are described. In one example, a vision-aided inertial navigation system (VINS) comprises an image source to produce image data at a first set of time instances along a trajectory within a three-dimensional (3D) environment, wherein the image data captures features within the 3D environment at each of the first time instances. An inertial measurement unit (IMU) to produce IMU data for the VINS along the trajectory at a second set of time instances that is misaligned with the first set of time instances, wherein the IMU data indicates a motion of the VINS along the trajectory. A processing unit comprising an estimator that processes the IMU data and the image data to compute state estimates for 3D poses of the IMU at each of the first set of time instances and 3D poses of the image source at each of the second set of time instances along the trajectory. The estimator computes each of the poses for the image source as a linear interpolation from a subset of the poses for the IMU along the trajectory.",
+  "claims": "1. A vision-aided inertial navigation system (VINS) comprising: an image source configured to produce image data at a first set of time instances along a trajectory within a three-dimensional (3D) environment, wherein: the image data captures feature observations within the 3D environment at each of the first set of time instances, the image source comprises at least one sensor capable of capturing a plurality of rows of image data, and a sensor of the at least one sensor is configured to capture the plurality of rows of image data row-by-row so that each row is captured at a different time instance than any of the first set of time instances; an inertial measurement unit (IMU) configured to produce IMU data for the VINS along the trajectory at a second set of time instances that is misaligned in time with the first set of time instances, wherein the IMU data indicates a motion of the VINS along the trajectory; and a processor is configured to: compute poses for the image source as an extrapolation from poses for the IMU that are closest in time along the trajectory, compute each of the poses for the image source by storing and updating a state vector having a sliding window of poses for the image source, wherein each of the poses for the image source correspond to a different time instance of the first set of time instances at which the image data was captured by the image source, and in response to the image source producing the image data, insert a most recent pose computed for the IMU into the state vector as an image source pose.",
+  "patent_id": "US12379215-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01C 21/1656",
+      "G06T 7/277",
+      "G06T 2207/30241",
+      "G06T 2207/30244"
+    ],
+    "all": [
+      "G01C 21/1656",
+      "G06T 7/277",
+      "G06T 2207/30241",
+      "G06T 2207/30244"
+    ],
+    "source": "converted"
+  }
+}

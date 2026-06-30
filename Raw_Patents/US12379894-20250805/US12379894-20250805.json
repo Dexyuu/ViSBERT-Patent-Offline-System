@@ -1,0 +1,26 @@
+{
+  "title": "Reference resolution during natural language processing",
+  "abstract": "Systems and processes for operating a digital assistant are provided. An example method includes, at an electronic device having one or more processors and memory, detecting invocation of a digital assistant; determining, using a reference resolution service, a set of possible entities; receiving a user utterance including an ambiguous reference; determining based on the user utterance and the list of possible entities, a candidate interpretation including a preliminary set of entities corresponding to the ambiguous reference; determining, with the reference resolution service and based on the candidate interpretation including the preliminary set of entities corresponding to the ambiguous reference, an entity corresponding to the ambiguous reference; and performing, based on the candidate interpretation and the entity corresponding to the ambiguous reference, a task associated with the user utterance.",
+  "claims": "1. A non-transitory computer-readable storage medium storing one or more programs configured to be executed by one or more processors of an electronic device, the one or more programs including instructions for: detecting invocation of a digital assistant; determining, using a reference resolution service, a set of possible entities prior to receiving a user utterance including an ambiguous reference; receiving the user utterance including the ambiguous reference; determining, based on the user utterance and the set of possible entities, a plurality of candidate interpretations including a preliminary set of entities corresponding to the ambiguous reference, wherein a first candidate interpretation of the plurality of candidate interpretations is determined by a first natural language model associated with a first application and a second candidate interpretation of the plurality of candidate interpretations is determined by a second natural language model different from the first natural language model and wherein the second natural language model is associated with a second application different from the first application; determining, with the reference resolution service and based on the plurality of candidate interpretations including the preliminary set of entities corresponding to the ambiguous reference, an entity corresponding to the ambiguous reference; and performing, based on the plurality of candidate interpretations and the entity corresponding to the ambiguous reference, a task associated with the user utterance.",
+  "patent_id": "US12379894-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/167",
+      "G06F 3/013",
+      "G06F 3/017",
+      "G10L 15/22",
+      "G10L 2015/223",
+      "G10L 2015/226"
+    ],
+    "all": [
+      "G06F 3/167",
+      "G06F 3/013",
+      "G06F 3/017",
+      "G10L 15/22",
+      "G10L 2015/223",
+      "G10L 2015/226"
+    ],
+    "source": "converted"
+  }
+}

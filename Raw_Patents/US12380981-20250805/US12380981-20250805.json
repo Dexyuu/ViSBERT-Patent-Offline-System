@@ -1,0 +1,20 @@
+{
+  "title": "Closed loop control of physiological glucose",
+  "abstract": "The present disclosure relates to systems and methods for controlling physiological glucose concentrations in a patient.",
+  "claims": "1. A system for providing closed-loop control of physiological glucose, comprising: a drug delivery device configured to receive a first drug reservoir containing insulin and a second drug reservoir containing glucagon; a user interface configured to receive user input comprising exercise data; a glucose measuring device configured to measure a current interstitial glucose; and a controller, wherein in response to receipt of the exercise data, the controller is configured to estimate a physiological glucose based on the measured current interstitial glucose, calculate a corrected physiological glucose by subtracting an exercise factor from the estimated physiological glucose, and based on the calculation, to cause a glucagon bolus and an insulin bolus to be delivered in a closed-loop, wherein the glucagon bolus is deliverable only when a rate of change of the physiological glucose is less than a glucose rate threshold, and wherein the glucose rate threshold is a function of the estimated physiological glucose.",
+  "patent_id": "US12380981-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16H 20/17",
+      "A61M 5/1723",
+      "G16H 50/50"
+    ],
+    "all": [
+      "G16H 20/17",
+      "A61M 5/1723",
+      "G16H 50/50"
+    ],
+    "source": "converted"
+  }
+}

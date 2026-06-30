@@ -1,0 +1,22 @@
+{
+  "title": "Techniques for generating subjective style comparison metrics for B-reps of 3D CAD objects",
+  "abstract": "In various embodiments, a style comparison metric application generates a style comparison metric for pairs of different three dimensional (3D) computer-aided design (CAD) objects. In operation, the style comparison metric application executes a trained neural network any number of times to map 3D CAD objects to feature maps. Based on the feature maps, the style comparison metric application computes style signals. The style comparison metric application determines values for weights based on the style signals. The style comparison metric application generates the style comparison metric based on the weights and a parameterized style comparison metric.",
+  "claims": "1. A computer-implemented method for generating a style comparison metric for pairs of different three dimensional (3D) computer-aided design (CAD) objects, the method comprising: executing a trained neural network one or more times to map inputs of the trained neural network comprising a plurality of 3D CAD objects to outputs of the trained neural network comprising a plurality of feature maps, wherein the trained neural network is generated using unsupervised learning techniques that do not receive labeled training data as input; computing a plurality of style signals based on the plurality of feature maps; determining a plurality of values for a plurality of weights based on the plurality of style signals, wherein a parameterized style comparison metric combines a plurality of style distances based on the plurality of weights; and generating the style comparison metric based on the plurality of weights and the parameterized style comparison metric.",
+  "patent_id": "US12380256-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 30/10",
+      "G06F 30/27",
+      "G06N 3/045",
+      "G06N 3/088"
+    ],
+    "all": [
+      "G06F 30/10",
+      "G06F 30/27",
+      "G06N 3/045",
+      "G06N 3/088"
+    ],
+    "source": "converted"
+  }
+}

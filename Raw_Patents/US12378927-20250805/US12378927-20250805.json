@@ -1,0 +1,28 @@
+{
+  "title": "In-vehicle control device and method for controlling internal combustion engine",
+  "abstract": "This in-vehicle control device includes: a cooling period setting unit that sets a timing prior to the start timing of a predicted knock occurrence period as the increasing timing of a cooling amount of a combustion room, and sets a timing prior to an end timing of the predicted knock occurrence period as the decreasing timing of the cooling amount of the combustion room; and a cooling amount change unit that changes the cooling amount of the combustion room by a cooling mechanism on the basis of the set increasing and decreasing timings and a target cooling amount set by a target cooling amount setting unit.",
+  "claims": "1. An in-vehicle control device mounted in an automobile that is driven by an internal combustion engine having a combustion chamber, the in-vehicle control device comprising: a cooling mechanism that cools the combustion chamber; an engine output prediction unit that predicts an engine output that is a future output of the internal combustion engine; a knock intensity prediction unit that predicts a future knock intensity on a basis of the engine output predicted by the engine output prediction unit; a knock occurrence period prediction unit that predicts a future knock occurrence period on the basis of the knock intensity predicted by the knock intensity prediction unit; a target cooling amount setting unit that sets a target amount of cooling delivered by the cooling mechanism on the basis of the knock intensity predicted by the knock intensity prediction unit; a cooling timing setting unit that sets, as an increase timing of an amount of cooling of the combustion chamber, a timing that precedes a start timing of the knock occurrence period predicted by the knock occurrence period prediction unit by a predetermined amount of time, and sets, as a decrease timing of the amount of cooling of the combustion chamber, a timing that precedes an end timing of the knock occurrence period predicted by the knock occurrence period prediction unit by a predetermined amount of time; and a cooling amount change unit that changes the amount of cooling of the combustion chamber by the cooling mechanism, on the basis of the increase timing and the decrease timing set by the cooling timing setting unit and the target amount of cooling set by the target cooling amount setting unit, wherein in response to a difference between the engine output predicted by the engine output prediction unit and an actual engine output being equal to or greater than a predetermined value, the cooling amount change unit changes the amount of cooling of the combustion chamber on the basis of the actual engine output, an actual amount of ignition delay, or an actual knock intensity.",
+  "patent_id": "US12378927-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "F02D 41/22",
+      "F01P 3/08",
+      "F01P 5/10",
+      "F01P 7/14",
+      "F01P 2003/006",
+      "F01P 2007/146",
+      "F01P 2031/00"
+    ],
+    "all": [
+      "F02D 41/22",
+      "F01P 3/08",
+      "F01P 5/10",
+      "F01P 7/14",
+      "F01P 2003/006",
+      "F01P 2007/146",
+      "F01P 2031/00"
+    ],
+    "source": "converted"
+  }
+}

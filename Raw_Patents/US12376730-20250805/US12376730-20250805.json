@@ -1,0 +1,50 @@
+{
+  "title": "Method, system, and device for removing smoke from laparoscope images based on conditional diffusion model",
+  "abstract": "Disclosed are a method, system, and device for removing smoke from laparoscope images based on a conditional diffusion model. The method includes: segmenting a video of a laparoscopic surgery according to the number of frames to form a data set; performing smoke rendering on the obtained laparoscope smokeless images, and synthesizing paired smoky images to obtain a synthetic data set containing the smokeless images and the smoky images; inputting the smokeless images into the conditional diffusion model for forward noise addition, and continuously adding noise until the smokeless images are completely noised; inputting the smoky images into a smoke sensing module to obtain smoke concentration and position information, then training a neural network, and continuously performing reverse denoising on the completely noised images using the trained neural network until clear smokeless images are outputted; and optimizing a smoke removal model through a multi-loss function fusion strategy.",
+  "claims": "1. A method for removing smoke from laparoscope images based on a conditional diffusion model, comprising the following steps: 1) segmenting a video of a laparoscopic surgery according to the number of frames to form a data set in the form of pictures; performing smoke rendering on the obtained laparoscope smokeless images, and synthesizing paired smoky images to obtain a synthetic data set containing the smokeless images and the smoky images; 2) inputting the smokeless images into the conditional diffusion model for forward noise addition, and continuously adding noise until the smokeless images are completely noised to obtain a series of noisy images, wherein a specific operation of the step 2) is as follows: inputting the smokeless images captured by a laparoscope into the conditional diffusion model for forward noise addition, wherein an added noise variance is β t ; the noise addition process follows a Markov chain, and a noise-added image is recorded as x t ; and performing noise addition on inputted smokeless images T times until the smokeless images are completely noised to obtain the series of noisy images {x 1 , x 2 , . . . , x t , . . . , x T }, wherein x t represents a noise image obtained by performing a t-th noise addition, and x T represents a noise image obtained by performing a T-th noise addition; an equation for the forward noise addition process is as follows:",
+  "patent_id": "US12376730-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 1/000095",
+      "A61B 1/000096",
+      "A61B 1/3132",
+      "G06T 5/20",
+      "G06T 5/50",
+      "G06T 5/60",
+      "G06T 5/70",
+      "G06T 5/92",
+      "G06T 7/0014",
+      "G06T 7/11",
+      "G06T 7/174",
+      "G06T 11/00",
+      "G06T 2207/10016",
+      "G06T 2207/20076",
+      "G06T 2207/20084",
+      "G06T 2207/20182",
+      "G06T 2207/30004",
+      "G06T 2210/41"
+    ],
+    "all": [
+      "A61B 1/000095",
+      "A61B 1/000096",
+      "A61B 1/3132",
+      "G06T 5/20",
+      "G06T 5/50",
+      "G06T 5/60",
+      "G06T 5/70",
+      "G06T 5/92",
+      "G06T 7/0014",
+      "G06T 7/11",
+      "G06T 7/174",
+      "G06T 11/00",
+      "G06T 2207/10016",
+      "G06T 2207/20076",
+      "G06T 2207/20084",
+      "G06T 2207/20182",
+      "G06T 2207/30004",
+      "G06T 2210/41"
+    ],
+    "source": "converted"
+  }
+}

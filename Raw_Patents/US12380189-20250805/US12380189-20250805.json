@@ -1,0 +1,36 @@
+{
+  "title": "Fingerprint authentication-related indicators for controlling device access and/or functionality",
+  "abstract": "A security feature within an apparatus that includes a fingerprint scanner used for purposes of authentication. Specifically, a first indicator is detected that is a user input to a fingerprint scanner and indicates the occurrence of a duress-inducing event. In response to detecting the first indicator, (i) access to the apparatus is controlled, and (ii) access to functionality provided by the apparatus is controlled. As such, if the user is being forced to input their fingerprint by a nefarious entity desiring access to the apparatus, the present invention provides a means by which the user can covertly activate certain features on the apparatus that prevent the nefarious entity from access to the apparatus and/or functionality provided by the apparatus.",
+  "claims": "1. An apparatus for access and/or functionality security, the apparatus comprising: a computing platform including a memory that stores an authentication fingerprint feature data set of a user, one or more computing processor devices in communication with the memory, a fingerprint scanner in communication with at least one of the one or more computing processor devices, and a fingerprint indicator detection and response application stored in the memory, executable by at least one of the one or more computing processor devices and configured to: while the fingerprint scanner is scanning the fingerprint of a user, detect a first indicator that is a user input to the fingerprint scanner and is prompted by the user experiencing a duress-inducing event, and in response to detecting the first indicator, (i) control access to the apparatus, (ii) control access to functionality provided by the apparatus, and (iii) activate at least one of the one or more audio and/or video recording devices to covertly capture audio and/or video of the user, wherein controlling access to functionality further comprises presenting a fake user interface, wherein the fake user interface comprises icons for mock applications that appear as though they are real, but are inaccessible.",
+  "patent_id": "US12380189-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/32",
+      "G06F 3/0412",
+      "G06F 21/316",
+      "G06F 21/44",
+      "G06F 21/629",
+      "G06V 40/1306",
+      "G06V 40/1365",
+      "G06V 40/174",
+      "G06V 40/20",
+      "G06F 2203/04105",
+      "G06F 2221/2139"
+    ],
+    "all": [
+      "G06F 21/32",
+      "G06F 3/0412",
+      "G06F 21/316",
+      "G06F 21/44",
+      "G06F 21/629",
+      "G06V 40/1306",
+      "G06V 40/1365",
+      "G06V 40/174",
+      "G06V 40/20",
+      "G06F 2203/04105",
+      "G06F 2221/2139"
+    ],
+    "source": "converted"
+  }
+}

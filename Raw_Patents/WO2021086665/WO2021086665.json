@@ -1,0 +1,25 @@
+{
+  "application_id": "WO2021086665",
+  "application_id_fs": null,
+  "title": "Method and system for completing a voice call in a cloud-based communication system",
+  "abstract": "A method and system for completing a voice call in a cloud-based communication system is provided. A cloud-based group voice call service receives a group voice call initiation request from a first mobile device located at a first communication system. The group voice call initiation request is a request to complete a group voice call with a second mobile device located at a second communication system. The cloud-based group voice call service allocates resources at the first communication system and the second communication system. The cloud-based group voice call service issues a call grant to the first mobile device located at the first communication system and also issues a call response to the second mobile device located at the second communication system in order to complete the voice call.",
+  "claims": "Claims 1. A method for completing a voice call in a cloud-based communication system, the method comprising: receiving, at a cloud-based voice call service, a group voice call initiation request from a first mobile device located at a first communication system, the group voice call initiation request comprising a request to complete a group voice call with a second mobile device located at a second communication system; allocating resources at the first communication system and the second communication system; issuing, by the cloud-based voice call service, a call grant to the first mobile device located at the first communication system; and issuing, by the cloud-based voice call service, a call response to the second mobile device located at the second communication system in order to complete the voice call. 2. The method of claim 1, wherein the group voice call initiation request is a talkgroup call initiation request. 3. The method of claim 1, wherein the first communication system utilizes a first over the air (OTA) protocol, and wherein the second communication system utilizes a second OTA protocol that is different from the first OTA protocol. 4. The method of claim 1, wherein the first communication system and the second communication system are different. 5. The method of claim 1, wherein the first communication system and the second communication system are the same. 6. The method of claim 1, the method further comprising the step of performing call processing functionality at the cloud-based voice call service. 7. A cloud-based group voice call service for completing a voice call in a cloud-based communication system, the cloud-based group voice call service comprising: an input port for receiving a group voice call initiation request from a first communication system for a first mobile device, the group voice call initiation request comprising a request to complete a group voice call with a second mobile device located at a second communication system; a processor that performs allocating resources for the first communication system and the second communication system; and an output port that performs: issuing a call grant to the first communication system for the first mobile device; and issuing a call response to the second communication system for the second mobile device in order to complete the voice call. 8. The cloud-based group voice call service of claim 7, wherein the group voice call initiation request is atalkgroup call initiation request. 9. The cloud-based group voice call service of claim 7, wherein the first communication system utilizes a first over the air (OTA) protocol, and wherein the second communication system utilizes a second OTA protocol that is different from the first OTA protocol. 10. The cloud-based group voice call service of claim 7, wherein the first communication system and the second communication system are different. 11. The cloud-based group voice call service of claim 7, wherein the first communication system and the second communication system are the same. 12. The cloud-based group voice call service of claim 7, wherein the processor further performs performing call processing functionality.",
+  "classifications": {
+    "ipc": [
+      "H04W 4/08",
+      "H04W 4/10",
+      "H04W 4/90",
+      "H04W 76/45",
+      "H04W 76/50"
+    ],
+    "cpc": [],
+    "all": [
+      "H04W 4/08",
+      "H04W 4/10",
+      "H04W 4/90",
+      "H04W 76/45",
+      "H04W 76/50"
+    ],
+    "source": "csv"
+  }
+}

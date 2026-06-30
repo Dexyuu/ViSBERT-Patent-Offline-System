@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2019028091",
+  "application_id_fs": "WO2019028091",
+  "title": "Method and apparatus for controlling a mechanical tester",
+  "abstract": "A method of controlling a mechanical testing instrument includes estimating a young's modulus, and applying force during a first time interval then comparing distance measured to expected distance; predicting a distance based on a first slope applying displacement distance and recalculating the slope; providing a corrected force applied for the proper displacement based on measured modulus and correction factor and adjusting into time and distance coherence; applying a force versus time regime interval and predict deformation at the end of the second interval measuring true deformation distance after the next interval; calculating the 'true' slope' based on the extrapolated actual slope; calculating a slope to apply for desired distance; and repeating measurement and correction steps, using the actual slope as the prediction basis. A system for carrying out the method is also disclosed using a data acquisition board.",
+  "claims": "Claims CLAIMS: 1. A method of controlling a mechanical testing instrument comprising: estimating a Young's modulus applying a force during a first time interval; comparing, a distance measured to an expected distance; predicting a distance based on a first selected slope, the first selected slope representing the displacement of the mechanical test instrument in response to an applied force; at the end of a second time interval applying a displacement distance and recalculating the slope; determining a corrected force parameter to be applied for a predetermined displacement based on the measured Young's modulus and a correction factor; adjusting the Young's modulus and the correction factor into coherence for time and distance; predicting a deformation at the end of the second interval measuring true deformation distance at the end of the second interval; calculating an actual slope to apply for desired distance; and repeating measurement and correction steps, using the calculated actual slope as a prediction basis. 2. The method of claim 1, wherein the step of predicting at the end of the second interval comprises applying a force versus time regime interval. 3. The method of claim 1, wherein the step of calculating the actual slope comprises predicting force based on the extrapolated actual slope. 4. The method of claim 1, further comprising removing a regular signal fluctuation from a control signal via phase shifting to stabilize a control algorithm. 5. The method of claim 4, wherein the step of removing the regular signal fluctuation comprises separating the control signal into a short term component and a long term component, treating the short and long term components separately, and recombining the short and long term components. 6. The method of claim 5, further comprising using a spreadsheet algorithm to phase shift the signal to reduce temporal fluctuations. 7. The method of claim 6, further comprising applying a smoothing algorithm with a smoothing function to generate a stable signal basis for controlling the mechanical testing instrument. 8. A system for controlling a mechanical testing instrument comprising: a data acquisition system including a plurality of analog input channels and digital input channels, at least one analog output channel and at least one digital output channel; an expansion board in data communication with the data acquisition system, the expansion board comprising an interface circuitry for data acquisition and control of the mechanical testing instrument; the mechanical testing instrument configured to test a material strength and having a load frame in which a specimen of the material is mounted, the load frame configured to apply a load to the specimen; the data acquisitions system and the expansion board in data communication with a processor; the processor configured to: estimate a Young's modulus, generate a force parameter to be applied by the mechanical instrument during a first time interval; receive a measured distance in response to the applied force; compare the distance measured to an expected distance based on the estimated Young's modulus; predict a distance based on a first selected slope representing the displacement of the mechanical test instrument in response to an applied force; at the end of a second time interval apply a displacement distance and recalculating the slope; determine a corrected force parameter to be applied for a predetermined displacement adjust the Young's modulus and the correction factor into coherence for time and distance; predict a \n\n deformation at the end of the second interval measuring true deformation distance at the end of the second interval; and calculate an actual slope calculating a slope to apply for desired distance. 9. The system of claim 8, wherein the corrected force parameter is calculated based upon the measured Young's modulus and a correction factor. 10. The system of claim 8, wherein the measured distance corresponds with a crosshead travel. 11. The system of claim 8, wherein the measured distance corresponds with a deformation of a mechanical test sample. 12. The system of claim 8, wherein the data acquisition system comprises an analog-to- digital (AID) converter and an interface in data communication with the mechanical testing instrument; 13. The system of claim 8, wherein the processor being further configured to repeat the determination and correction steps, using the actual slope as the prediction basis. 14. The system of claim 8, wherein the analog input range for the analog input channel is +/- 5 volts. 15. The system of claim 8, wherein the analog input channels being configured based on at least one of a voltage parameter, a current parameter, a frequency parameter, or a resistance parameter. 16. The system of claim 8, wherein the analog output channels are configured based on at least one of a voltage parameter, a current parameter, or a PWM signal. 17. The system of claim 8, further comprising a proportional drive circuit included on the expansion board, and power drivers for a DC motor, and a proportional current output. 18. The system of claim 17, further comprising a Counts-to- Volts input configured to convert a pulse stream to an analog voltage signal. 9. The system of claim 19, further comprising a spreadsheet programmed to process the I/O data for controlling the mechanical testing instrument..",
+  "classifications": {
+    "ipc": [
+      "G01N 3/00",
+      "G01N 3/02",
+      "G01N 3/06",
+      "G01N 3/066",
+      "G01N 3/08",
+      "G01N 2203/00",
+      "G01N 2203/0014",
+      "G01N 2203/0016",
+      "G01N 2203/02",
+      "G01N 2203/0202",
+      "G01N 2203/0208",
+      "G01N 2203/021",
+      "G01N 2203/0212",
+      "G01N 2203/06",
+      "G01N 2203/067",
+      "G01N 2203/0682",
+      "G01N 2203/0688"
+    ],
+    "cpc": [],
+    "all": [
+      "G01N 3/00",
+      "G01N 3/02",
+      "G01N 3/06",
+      "G01N 3/066",
+      "G01N 3/08",
+      "G01N 2203/00",
+      "G01N 2203/0014",
+      "G01N 2203/0016",
+      "G01N 2203/02",
+      "G01N 2203/0202",
+      "G01N 2203/0208",
+      "G01N 2203/021",
+      "G01N 2203/0212",
+      "G01N 2203/06",
+      "G01N 2203/067",
+      "G01N 2203/0682",
+      "G01N 2203/0688"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019028091"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Secure transmission of sensitive data over an electronic network",
+  "abstract": "The invention provides a method for transmission of sensitive information via an untrusted party. The sensitive information is held by a trusted computer and is transmitted via an untrusted computer to a recipient computer. Before transmission, the trusted computer encrypts the sensitive information using an encryption key that is associated with the recipient computer. The untrusted computer does not have access to a corresponding decryption key and is therefore unable to decrypt the sensitive information. The recipient computer is able to decrypt the encrypted sensitive information using a decryption key that it has access to and is thus able to gain access to the sensitive information without further communication with the trusted computer. This method has utility in payment transactions, particularly e-commerce transactions.",
+  "claims": "1. A computer-implemented method for transmission of sensitive information from a trusted computer to a recipient computer via an untrusted computer, the method comprising the trusted computer: a) receiving a first encryption key from the recipient computer via a first communication channel, wherein the untrusted computer does not have access to the first communication channel; b) storing the first encryption key in association with a unique identifier corresponding to the recipient computer; c) receiving a request for the sensitive information from the untrusted computer via a second communication channel, the request including the unique identifier; d) identifying the first encryption key based on the unique identifier; e) encrypting the sensitive information using the first encryption key; f) transmitting a message including the encrypted sensitive information to the untrusted computer via the second communication channel; wherein the first encryption key is associated with a second encryption key that is accessible by the recipient computer, wherein the first and second encryption keys form a symmetric key pair or an asymmetric key pair, and wherein the untrusted computer is unable to access the second encryption key, wherein the method further comprises, by the recipient computer: g) receiving the message including the encrypted sensitive information from the untrusted computer via a third communication channel that is established between the untrusted computer and the recipient computer; and h) decrypting the encrypted sensitive information using the second encryption key to obtain the sensitive information in an unencrypted form.",
+  "patent_id": "US12381860-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/0442",
+      "H04L 9/0827",
+      "H04L 9/3247",
+      "H04L 63/1441"
+    ],
+    "all": [
+      "H04L 63/0442",
+      "H04L 9/0827",
+      "H04L 9/3247",
+      "H04L 63/1441"
+    ],
+    "source": "converted"
+  }
+}

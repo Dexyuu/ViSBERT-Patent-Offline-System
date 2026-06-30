@@ -1,0 +1,22 @@
+{
+  "title": "Encrypted flow of SIM data between regions and edge networks",
+  "abstract": "A plurality of computing devices are provisioned configured to communicate on a mobile communications network operated, in part, by an edge computing network. The edge computing network is associated with a customer of a computing service provider. The edge computing network comprises computing and storage devices configured to extend computing resources of the computing service provider to the customer of the computing service provider. A selection is received of a SIM provider and a quantity of SIM profiles for enabling the plurality of computing devices to access the mobile communications network. SIM data corresponding to the quantity of SIM profiles is received. The SIM data is encrypted and received over an encrypted channel.",
+  "claims": "1. A method of provisioning a plurality of computing devices configured to communicate on a mobile communications network operated, in part, by an edge computing network associated with a customer of a computing service provider, the edge computing network comprising computing and storage devices configured to extend computing resources of the computing service provider to the customer of the computing service provider, the method comprising: receiving, by the computing service provider, encrypted SIM data corresponding to a plurality of SIM profiles for enabling the plurality of computing devices to access the mobile communications network; decrypting, by the computing service provider, the SIM data using a first set of decryption credentials; re-encrypting, by the computing service provider, the SIM data using a second set of encryption credentials, wherein decryption credentials for the re-encrypted SIM data are stored at the edge computing network; storing the re-encrypted SIM data in a data store communicatively coupled to the computing service provider to maintain a secure copy of the re-encrypted SIM data at the computing service provider; and sending, by the computing service provider to the edge computing network, the re-encrypted SIM data, wherein the re-encrypted SIM data is operable to be decrypted by the edge computing network using the decryption credentials managed by the computing service provider, and wherein the decrypted SIM data is usable as subscription credentials for accessing the mobile communications network by the plurality of computing devices using the plurality of SIM profiles.",
+  "patent_id": "US12382287-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 12/068",
+      "H04W 8/22",
+      "H04W 12/03",
+      "H04W 12/0433"
+    ],
+    "all": [
+      "H04W 12/068",
+      "H04W 8/22",
+      "H04W 12/03",
+      "H04W 12/0433"
+    ],
+    "source": "converted"
+  }
+}

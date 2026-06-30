@@ -1,0 +1,42 @@
+{
+  "title": "Patient-specific medical systems, devices, and methods",
+  "abstract": "Systems and methods for designing and implementing patient-specific surgical procedures and/or medical devices are disclosed. In some embodiments, a method includes receiving a patient data set of a patient. The patient data set is compared to a plurality of reference patient data sets, wherein each of the plurality of reference patient data sets is associated with a corresponding reference patient. A subset of the plurality of reference patient data sets is selected based, at least partly, on similarity to the patient data set and treatment outcome of the corresponding reference patient. Based on the selected subset, at least one surgical procedure or medical device design for treating the patient is generated.",
+  "claims": "1. A computer-implemented method, comprising: performing a digital surgical simulation for each of a plurality of candidate patient-specific surgical interventions that each provide a corresponding patient-specific anatomical correction, the digital surgical simulations each including a corresponding predictive model of patient anatomy for a particular time after the corresponding candidate patient-specific interventions, wherein the digital surgical simulations are performed at least in part by at least one trained machine learning module trained using reference patient data; displaying surgical simulation data from at least one of the digital surgical simulations, wherein the surgical simulation data includes the corresponding predictive model of patient anatomy for user review; receiving a selection of one of the plurality of candidate patient-specific surgical interventions; and designing one or more patient-specific implants based on the selected candidate patient-specific surgical intervention, wherein the one or more patient-specific implants are configured to achieve a patient-specific anatomical correction associated with the selected candidate patient-specific surgical intervention when implanted in a patient with the patient anatomy.",
+  "patent_id": "US12376907-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 34/10",
+      "A61B 34/30",
+      "A61F 2/44",
+      "G06N 20/00",
+      "G06T 7/0012",
+      "G16H 50/20",
+      "G16H 50/30",
+      "G16H 50/50",
+      "A61B 2034/102",
+      "A61B 2034/105",
+      "A61B 2034/108",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30012"
+    ],
+    "all": [
+      "A61B 34/10",
+      "A61B 34/30",
+      "A61F 2/44",
+      "G06N 20/00",
+      "G06T 7/0012",
+      "G16H 50/20",
+      "G16H 50/30",
+      "G16H 50/50",
+      "A61B 2034/102",
+      "A61B 2034/105",
+      "A61B 2034/108",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30012"
+    ],
+    "source": "converted"
+  }
+}

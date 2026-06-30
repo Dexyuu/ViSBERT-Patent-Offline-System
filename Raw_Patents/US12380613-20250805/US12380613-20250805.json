@@ -1,0 +1,28 @@
+{
+  "title": "Medical image noise reduction method, system, terminal, and storage medium",
+  "abstract": "A medical image noise reduction method, system, terminal and storage medium are disclosed. The method includes: obtaining a standard-dose PET image and a constant-value image; inputting the standard-dose PET image and the constant-value image into a decay function to obtain a corresponding low-dose noisy PET image and a noisy constant-value image, respectively; assembling the low-dose noisy PET image and the noisy constant-value image in a width dimension or a height dimension, and then inputting into a trained conjugate generative adversarial network, and outputting a denoised PET image and constant-value image output by the conjugate generative adversarial network.",
+  "claims": "1. A medical image noise reduction method, comprising: obtaining a standard-dose PET image and a constant-value image; inputting the standard-dose PET image and the constant-value image into a decay function to obtain a respective low-dose noisy PET image and noisy constant-value image; assembling the low-dose noisy PET image and the noisy constant-value image in a width dimension or a height dimension, and then inputting the assembly of the low-dose noisy PET image and the noisy constant-value image into a trained conjugate generative adversarial network, and outputting a denoised PET image and constant-value image output through the conjugate generative adversarial network; wherein the conjugate generative adversarial network comprises a generator and a discriminator; wherein the generator comprises a reflective padding layer, a convolution layer, an instance normalization layer, a nonlinear layer, a residual module, an upsampling layer, and a nonlinear layer; and wherein the discriminator is a convolutional neural network classifier, and comprises a convolutional layer, an instance normalization layer, and a nonlinear layer; wherein the generator comprises two parts: feature extraction and image reconstruction; wherein in the feature extraction part, the input low-dose noisy PET image and noisy constant-value image are first processed using the padding layer, the convolutional layer, the instance normalization layer and the nonlinear layer; then four groups of feature extraction modules are used to perform feature extraction on the low-dose noisy PET image and the noisy constant-value image; then the extracted features are processed using three residual modules; wherein in the image reconstruction part, the PET image and the constant-value image are first gradually reconstructed through four upsampling modules based on the extracted features; then the reconstructed PET image and constant-value image are processed using the padding layer, the convolution layer and the nonlinear layer, and the denoised PET image and constant-value image are output.",
+  "patent_id": "US12380613-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 11/008",
+      "G06N 3/0475",
+      "G06V 10/30",
+      "G06V 10/764",
+      "G06V 10/774",
+      "G06V 10/776",
+      "G06V 10/82"
+    ],
+    "all": [
+      "G06T 11/008",
+      "G06N 3/0475",
+      "G06V 10/30",
+      "G06V 10/764",
+      "G06V 10/774",
+      "G06V 10/776",
+      "G06V 10/82"
+    ],
+    "source": "converted"
+  }
+}

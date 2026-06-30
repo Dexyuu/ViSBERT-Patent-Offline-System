@@ -1,0 +1,32 @@
+{
+  "title": "Selective suppression of uplink transmission in control regions",
+  "abstract": "Limited uplink bandwidth radio network devices are supported on wide bandwidth uplink carriers by configuring and controlling the use of multiple control regions within the uplink carrier bandwidth. In some embodiments, the total bandwidth of the uplink carrier is divided into a plurality of sub-band portions, wherein each sub-band portion includes at least one control region nominally dedicated to the transmission of uplink control signaling. Radio network devices are configured with a specified portion of the uplink carrier bandwidth for use for uplink transmission, which includes at least one control region. Radio network devices may be provisioned or provided with information regarding control regions reserved for control signaling by other radio network devices. The radio network devices may be dynamically configured to allow or suppress uplink data signaling in specified control regions, or portions thereof.",
+  "claims": "1. A method, implemented by a radio network device operative in a wireless communication network, of transmitting uplink data and uplink control signaling to the network, the method comprising: being configured by higher layer signaling in a System Information message from a base station, to operate over a specified frequency portion of a full, continuous bandwidth of an uplink carrier, wherein the specified portion is less than the full carrier bandwidth; transmitting uplink data and uplink control signaling within the specified portion for the full duration of a defined sub-frame in time; and transmitting the uplink control signaling in at least one control region within the specified portion; wherein the full, continuous bandwidth of the uplink carrier is logically divided into two or more sub-band portions, and wherein at least one sub-band portion includes at least one control region; and wherein being configured to operate comprises, prior to transmitting uplink data or uplink control signaling, receiving, in the System Information message from the base station, information regarding the full, continuous bandwidth of the uplink carrier and identifying the sub-band portions.",
+  "patent_id": "US12381671-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/0039",
+      "H04L 5/001",
+      "H04L 5/0042",
+      "H04L 5/0044",
+      "H04L 5/0053",
+      "H04L 5/0094",
+      "H04W 72/0453",
+      "H04W 72/21",
+      "H04L 5/0005"
+    ],
+    "all": [
+      "H04L 5/0039",
+      "H04L 5/001",
+      "H04L 5/0042",
+      "H04L 5/0044",
+      "H04L 5/0053",
+      "H04L 5/0094",
+      "H04W 72/0453",
+      "H04W 72/21",
+      "H04L 5/0005"
+    ],
+    "source": "converted"
+  }
+}

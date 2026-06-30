@@ -1,0 +1,20 @@
+{
+  "title": "Input/output circuit",
+  "abstract": "An input/output circuit (I/O circuit) includes the following elements. An input/output pad (I/O pad) has a plurality of operation mode, including an output mode, a normal input mode and a tolerance mode of an input mode. A first control circuit provides a first control signal in response to a pad voltage of the I/O pad and a supply voltage. A first P-type transistor has a first body region to receive a first control signal. A second P-type transistor has a second body region to receive the first control signal. In the input mode, when the pad voltage is lower than or equal to the supply voltage, the I/O pad operates in the normal input mode, and, when the pad voltage is higher than the supply voltage, the I/O pad operates in the tolerance mode, and voltage of the first control signal is equal to pad voltage.",
+  "claims": "1. An input/output circuit (I/O circuit), comprising: an input/output pad (I/O) pad), having a pad voltage, and having a plurality of operating modes, the operating modes comprise an input mode and an output mode, and the input mode comprises a normal input mode and a tolerance mode; a first control circuit, for providing a first control signal in response to the pad voltage and a supply voltage; a first P-type transistor, having a first source, a first drain, a first gate and a first body region, the first source receives the supply voltage, and the first body region receives the first control signal; and a second P-type transistor, having a second source, a second drain, a second gate and a second body region, the second source is connected to the first drain of the first P-type transistor, the second drain is connected to the I/O pad, the second body region receives the first control signal, wherein, when the I/O pad operates in the input mode, a change of a voltage of the first gate of the first P-type transistor and a change of a voltage of the second gate of the second P-type transistor are synchronized with a change of a voltage of the first body region of the first P-type transistor and a change of a voltage of the second body region of the second P-type transistor, and when the pad voltage is lower than or equal to the supply voltage the I/O pad operates in the normal input mode of the input mode, and when the pad voltage is higher than the supply voltage the I/O pad operates in the tolerance mode of the input mode, a voltage of the first control signal is equal to the pad voltage.",
+  "patent_id": "US12381559-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03K 19/018521",
+      "H03K 19/00315",
+      "H03K 19/018585"
+    ],
+    "all": [
+      "H03K 19/018521",
+      "H03K 19/00315",
+      "H03K 19/018585"
+    ],
+    "source": "converted"
+  }
+}

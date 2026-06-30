@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2018212729",
+  "application_id_fs": "WO2018212729",
+  "title": "An authentication system wherein augmented reality is used",
+  "abstract": "The present invention relates to a system (1) for making OTP (One Time Password) authentication -which is used in transactions such as payment and log-in made online- on the basis of location and device and by using augmented reality. The inventive system (1) consists of communication device (2), user database (3), transaction information authentication unit (4) and application server (5).",
+  "claims": "Claims A system (1) wherein one-time password-based authentication is made by augmented reality; comprising - at least one communication device (2) which is in communication with the data network (V), whereon application can be run, which can determine location information and create augmented reality image on thereof, and includes at least one camera; at least one user database (3) which is keeps account, profile and financial records of users; at least one transaction information authentication unit (4) which performs inquiry to the user database (3) in accordance with the transaction information received over the data network (V) and transmits the inquiry result to related units; and characterized by - at least one application server (5) which receives the transaction information transmitted by the user (K) over the communication device (2), the introductory information of the communication device (2) and the location information of the communication device (2); prepares a visual content to be displayed only by the camera of the communication device (2) and only on the location of the communication device (2) and transmits it to the communication device (2) over the data network (V) by using the location information of the communication device (2) in the event that validity of the transaction information of the transaction information authentication unit (4) is authenticated by using the transaction information; and receives the visual content authentication information of the user (K) transmitted by means of the communication device (2). A system (1) according to Claim 1 ; characterized by the communication device (2) which determines location information by using GPS service. 3. A system (1) according to Claim 1 ; characterized by the user database (3) which keeps users' information under record according to the information of the transaction requested to be carried out by the user (K). 4. A system (1) according to Claim 1 ; characterized by the transaction information authentication unit (4) which receives and authenticates the login request information of the user (K) and the user's (K) account information to be used in login transaction as transaction information. 5. A system (1) according to Claim 1 ; characterized by the transaction information authentication unit (4) which receives and authenticates the payment request information of the user (K) and the user's (K) payment information to be used in payment transaction as transaction information. 6. A system (1) according to Claim 1 ; characterized by the application server (5) which receives the transaction information, the location information and the communication device (2) definition information -that it transmits over the communication device (2)- over the data network (V). 7. A system (1) according to Claim 1 ; characterized by the application server (5) which creates an augmented reality image of a nature such that it can be displayed by means of the communication device (2) camera, as a visual onetime password. 8. A system (1) according to Claim 1 ; characterized by the application server (5) which creates an augmented reality image of a nature such that it can be displayed on a map displayed on the communication device (2), at the point where it is located while the transaction information of the communication device (2) are being transmitted, as a visual one-time password. \n\n A system (1) according to Claim 1 ; characterized by the application server (5) which sets the visual one-time password, created by itself, so as to be displayed on the location where it is located while it is performing transmission of the transaction information of only the communication device (2) by using the location information received from the communication device (2).",
+  "classifications": {
+    "ipc": [
+      "G06F 21/00",
+      "G06F 21/30",
+      "G06F 21/31",
+      "G06F 21/36",
+      "G06Q 20/00",
+      "G06Q 20/38",
+      "G06Q 20/385",
+      "G06Q 20/40",
+      "G06Q 20/401",
+      "G06Q 20/4012",
+      "G06Q 20/4015",
+      "G06F 2221/00",
+      "G06F 2221/21",
+      "G06F 2221/2111"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 21/00",
+      "G06F 21/30",
+      "G06F 21/31",
+      "G06F 21/36",
+      "G06Q 20/00",
+      "G06Q 20/38",
+      "G06Q 20/385",
+      "G06Q 20/40",
+      "G06Q 20/401",
+      "G06Q 20/4012",
+      "G06Q 20/4015",
+      "G06F 2221/00",
+      "G06F 2221/21",
+      "G06F 2221/2111"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018212729"
+}

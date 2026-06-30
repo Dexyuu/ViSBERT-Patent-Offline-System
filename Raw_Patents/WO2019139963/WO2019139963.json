@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2019139963",
+  "application_id_fs": "WO2019139963",
+  "title": "Methods and systems for enabling a vehicle to park remotely",
+  "abstract": "Systems and methods for enabling a vehicle to park remotely. The system includes a memory that stores instructions for executing processes for enabling a vehicle to park remotely, and a processor that executes the instructions. In some aspects, the instructions cause the processor to: analyze an image of the vehicle to identify a vehicle type; extract vehicle information related to the vehicle type; calculate a distance between a mobile device and the vehicle based on the vehicle information and a location of the mobile device; determine whether the mobile device is within a predetermined distance of the vehicle; and enable the vehicle to park remotely when the mobile device is within the predetermined distance.",
+  "claims": "Claims CLAIMS What is claimed is: 1. A system comprising: a memory that stores instructions for executing processes for enabling a vehicle to park remotely; and a processor executing the instructions, wherein the instructions cause the processor to: analyze an image of the vehicle to identify a vehicle type; extract vehicle information related to the vehicle type; calculate a distance between a mobile device and the vehicle based on the vehicle information and a location of the mobile device; determine whether the mobile device is within a predetermined distance of the vehicle; and enable the vehicle to park remotely when the mobile device is within the predetermined distance. 2. The system of claim 1, wherein analyzing the image comprises: identifying at least one physical feature of the vehicle; and determining the vehicle type based on the identified at least one physical feature. 3. The system of claim 2, wherein the at least one physical feature includes at least one of a body style of the vehicle, a type of a headlight of the vehicle, a type of a taillight of the vehicle, a style of a wheel of the vehicle, or a decal identifying a model of the vehicle. 4. The system of claim 3, wherein determining the vehicle type comprises \n\n determining a make, a model, and a year of the vehicle. 5. The system of claim 4, wherein extracting the vehicle information comprises extracting, from a database, dimensions of the vehicle based on the make, the model, and the year of the vehicle. 6. The system of claim 5, wherein determining whether the vehicle is within the predetermined distance of the mobile device comprises: calculating a distance between the mobile device and the vehicle, the distance being based on the dimensions of the vehicle, a location of the vehicle, and a location the mobile device; and determining whether the distance is less than the predetermined distance. 7. The system of claim 1, wherein the predetermined distance is based on a regulation. 8. A system comprising: a mobile device comprising a first memory and a first processor coupled to the first memory, the first processor executing instructions stored by the first memory that cause the first processor to: transmit an image of a vehicle to a server; determine whether the vehicle is within a predetermined distance of the mobile device based on received vehicle information; and enable the vehicle to park remotely when the vehicle is within the predetermined \n\n distance of the mobile device; and the server comprising a second memory and a second processor coupled to the second memory, the second processor executing instructions stored by the second memory that cause the second processor to: analyze the image from the mobile to identify a vehicle type; extract the vehicle information based on the vehicle type; and transmit the vehicle information to the mobile device. 9. The system of claim 8, wherein analyzing the image, by the second processor, comprises: identifying at least one physical feature of the vehicle; and determining the vehicle type based on the identified at least one physical feature. 10. The system of claim 9, wherein the at least one physical feature includes at least one of a body style of the vehicle, a type of a headlight of the vehicle, a type of a taillight of the vehicle, a style of a wheel of the vehicle, or a decal identifying a model of the vehicle. 11. The system of claim 10, wherein determining the vehicle type comprises determining a make, a model, and a year of the vehicle. 12. The system of claim 11, extracting the vehicle information comprises extracting, from a database, dimensions of the vehicle based on the make, the model, and the year of the vehicle. 13. The system of claim 12, wherein determining whether the vehicle is within the \n\n predetermined distance of the mobile device comprises: calculating a distance between the mobile device and the vehicle, the distance being based on the dimensions of the vehicle, a location of the vehicle, and a location the mobile device; and determining whether the distance is less than the predetermined distance. 14. The system of claim 8, wherein the predetermined distance is based on a regulation. 15. A mobile device comprising: a memory; and a processor coupled to the memory, the processor executing instructions stored by the memory that cause the processor to: transmit an image of a vehicle to a server; determine whether the vehicle is within a predetermined distance of the mobile device based on received vehicle information; and enable the vehicle to park remotely when the vehicle is within the predetermined distance of the mobile device. 16. The system of claim 15, wherein the vehicle information is based on at least one physical feature of the vehicle. 17. The system of claim 16, wherein the at least one physical feature includes at least one of a body style of the vehicle, a type of a headlight of the vehicle, a type of a taillight \n\n of the vehicle, a style of a wheel of the vehicle, or a decal identifying a model of the vehicle. 18. The system of claim 17, the vehicle information is extracted from a database based on a make, a model, and a year of the vehicle. 19. The system of claim 18, wherein the vehicle information includes dimensions of the vehicle based on the make, the model, and the year of the vehicle. 20. The system of claim 19, wherein determining whether the vehicle is within the predetermined distance of the mobile device comprises: calculating a distance between the mobile device and the vehicle, the distance being based on the dimensions of the vehicle, a location of the vehicle, and a location the mobile device; and determining whether the distance is less than the predetermined distance.",
+  "classifications": {
+    "ipc": [
+      "G06T 7/00",
+      "G06T 7/50",
+      "G05D 1/00",
+      "G05D 1/0011",
+      "G05D 1/0016",
+      "G05D 1/0033",
+      "G05D 1/02",
+      "G05D 1/021",
+      "G05D 1/0231",
+      "G05D 1/0246",
+      "G06T 7/70",
+      "G06T 2207/00",
+      "G06T 2207/30"
+    ],
+    "cpc": [],
+    "all": [
+      "G06T 7/00",
+      "G06T 7/50",
+      "G05D 1/00",
+      "G05D 1/0011",
+      "G05D 1/0016",
+      "G05D 1/0033",
+      "G05D 1/02",
+      "G05D 1/021",
+      "G05D 1/0231",
+      "G05D 1/0246",
+      "G06T 7/70",
+      "G06T 2207/00",
+      "G06T 2207/30"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019139963"
+}

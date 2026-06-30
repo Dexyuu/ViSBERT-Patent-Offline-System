@@ -1,0 +1,18 @@
+{
+  "title": "Cryptocurrency staking validator system",
+  "abstract": "Systems and methods for staking instrument cryptocurrency rewards and validator management are disclosed. The systems and methods include generating validator pods associated with cryptocurrency staking validation and generating validator keys configured to be utilized by the validator pods for validating proof of stake operations. A subsets of the validator keys may be assigned to the validator pods and a request to perform the proof of stake operations may be received. A validator pod may be provisioned for validating proof of stake operations, and the validator node may be utilized to validate proof of stake operations based on the selected validator node being a compliant validator node.",
+  "claims": "1. A system, comprising: one or more processors; and non-transitory computer-readable media storing instructions that, when executed by the one or more processors, cause the one or more processors to perform operations comprising: generating validator pods associated with cryptocurrency staking validation, individual ones of the validator pods including multiple validator nodes configured to validate proof of stake operations associated with a cryptocurrency transaction; generating validator keys configured to be utilized by the validator pods for validating the proof of stake operations; assigning subsets of the validator keys to the validator pods such that each of the validator pods includes at least a threshold number of validator keys; receiving a request to perform the proof of stake operations associated the cryptocurrency transaction; provisioning, based at least in part on receiving the request, a validator pod of the validator pods to the cryptocurrency transaction for validating proof of stake operations; determining that the validator pod includes a validator node that is a compliant validator node; and utilizing the validator node to validate proof of stake operations.",
+  "patent_id": "US12380443-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/3829",
+      "G06Q 20/0658"
+    ],
+    "all": [
+      "G06Q 20/3829",
+      "G06Q 20/0658"
+    ],
+    "source": "converted"
+  }
+}

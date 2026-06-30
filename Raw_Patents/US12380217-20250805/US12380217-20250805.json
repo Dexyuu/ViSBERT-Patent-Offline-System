@@ -1,0 +1,22 @@
+{
+  "title": "Federated generative models for website assessment",
+  "abstract": "A method, computer program, and computer system are provided for predicting and assessing risks on websites. Data corresponding to historical interactions of a user with one or more websites is accessed. A simulation of actions of the user is generated based on the accessed data, and actions of the user are simulated on a pre-defined target website based on the generated simulation of the actions of the user. Risks on the target website are identified based on simulating the actions of the user. The website is updated to mitigate the identified risks.",
+  "claims": "1. A method of predicting and assessing risks on websites, executable by a processor, comprising: accessing data corresponding to historical interactions of a user with one or more websites, wherein the data corresponding to the historical interactions comprises graph data structures comprising directed acyclic graphs that represent a trace of actions of the user on the one or more websites; generating a simulation of the actions of the user based on the accessed data; simulating actions of the user on a pre-defined target website based on the generated simulation of the actions of the user, wherein the simulation of the actions of the user is generated through a generative neural network and the generative neural network is trained through a federated learning process based on taking a deep learning model specification and a federated training algorithm as inputs; wherein the simulation of the actions of the user is generated through the generative neural network and an associated deep learning model is transferred to the target website; identifying risks on the target website reflected in a comprehensive risk report based on simulating the actions of the user; and updating the website to mitigate the identified risks and correct target website vulnerabilities derived from data output of the comprehensive risk report.",
+  "patent_id": "US12380217-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/577",
+      "G06F 21/552",
+      "G06N 3/045",
+      "G06F 2221/033"
+    ],
+    "all": [
+      "G06F 21/577",
+      "G06F 21/552",
+      "G06N 3/045",
+      "G06F 2221/033"
+    ],
+    "source": "converted"
+  }
+}

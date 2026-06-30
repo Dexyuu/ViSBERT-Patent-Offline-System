@@ -1,0 +1,20 @@
+{
+  "title": "Storage devices and operating methods thereof",
+  "abstract": "A operating method of a storage device including a nonvolatile memory, where the method may include: receiving a first packet including a read command for the nonvolatile memory from a host according to a first protocol; acquiring first requester information corresponding to an identifier (ID) of the host by parsing the first packet; determining resource priorities based on first requester information; reading data stored in the nonvolatile memory by using resources of the storage device according to the resource priorities; and transmitting the data to the host.",
+  "claims": "1. A method of operating a storage device, comprising: receiving a first packet including a read command from a host, according to a first protocol; acquiring first requester information corresponding to a host identifier of the host by parsing the first packet; determining resource priorities based on the first requester information; reading data stored in a nonvolatile memory by using resources of the storage device according to the resource priorities; and transmitting the data to the host; wherein the first protocol comprises a Peripheral Component Interconnect express (PCIe) protocol, and the first requester information comprises PCIe requester information; wherein the PCIe requester information comprises a PCIe requester identifier corresponding to the host identifier according to the PCIe protocol, and wherein the determining of resource priorities based on the first requester information comprises determining the resource priorities according to a read command frequency corresponding to the PCIe requester identifier.",
+  "patent_id": "US12379876-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0659",
+      "G06F 3/0607",
+      "G06F 3/0679"
+    ],
+    "all": [
+      "G06F 3/0659",
+      "G06F 3/0607",
+      "G06F 3/0679"
+    ],
+    "source": "converted"
+  }
+}

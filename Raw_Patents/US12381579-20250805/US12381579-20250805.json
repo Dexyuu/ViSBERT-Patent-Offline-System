@@ -1,0 +1,16 @@
+{
+  "title": "Error rate measurement apparatus and error rate measurement method",
+  "abstract": "When a PAM4 signal based on bit string data of the Flit pattern is transmitted from a pattern generator 3 to a device under test in a loopback state, an error detection unit 44 of an error detector 4 detects and counts an error in a portion corresponding to the Flit in the PAM4 signal received from the device under test. A Flit error detection unit 45 detects and counts an FEC symbol error in the portion corresponding to the Flit for each ECC Group, and determines an ECC group in which the number of FEC symbol errors exceeds a threshold value, to be the Flit error.",
+  "claims": "1. An error rate measurement apparatus comprising: an operation unit that performs a setting; and an error detector that receives a pulse amplitude modulation 4 (PAM4) signal based on bit string data of a Flit pattern transmitted from a device under test and that detects an error, wherein the operation unit sets one period of the Flit pattern including an electrical idle exit ordered set (EIEOS) according to the number of lanes defined in a high-speed bus standard, and a skip ordered set (SKP OS), a Flit length according to the number of lanes, a threshold value for determining a Flit error, an insertion period of the EIEOS, a pattern leading of the Flit pattern, and a synchronization condition threshold value, the error rate measurement apparatus further comprises a pattern generator that generates the PAM4 signal based on bit string data of the Flit pattern and transmits the generated PAM4 signal to the device under test in a loopback state, and the error detector includes an error detection unit that detects and counts an error in a portion corresponding to Flit by excluding, from a measurement target, a portion corresponding to the EIEOS and the SKP OS in the PAM4 signal received from the device under test in the loopback state, a Flit error detection unit that detects a forward error correction (FEC) symbol error in the portion corresponding to the Flit for each error correction code (ECC) group, counts the number of FEC symbol errors, and determines an ECC group in which the number of FEC symbol errors exceeds the threshold value, to be the Flit error, and a synchronization state management unit that gives an instruction to reacquire the pattern leading of the Flit pattern when an amount of the error in the portion corresponding to the Flit, which is detected by the error detection unit, exceeds the synchronization condition threshold value.",
+  "patent_id": "US12381579-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03M 13/31"
+    ],
+    "all": [
+      "H03M 13/31"
+    ],
+    "source": "converted"
+  }
+}

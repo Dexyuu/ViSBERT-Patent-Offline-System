@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2019094257",
+  "application_id_fs": "WO2019094257",
+  "title": "Web page performance improvement system",
+  "abstract": "Methods and devices for determining third party content to display on one or more webpages may include receiving an identification of at least one third party content for analysis. The methods and devices may include receiving third party content performance metric information for the at least one third party content based on an analysis of the at least one third party content. The methods and devices may include determining whether the third party content performance metric information is within a performance threshold level and sending a third party content control message that prevents the at least one third party content from presentation on the webpage based at least on the third party content performance metric information exceeding the performance threshold level.",
+  "claims": "Claims 1. A computer device, comprising: memory configured to store data and instructions; at least one processor configured to communicate with the memory; an operating system configured to communicate with the memory and the processer, wherein the operating system is operable to: receive an identification of at least one third party content for analysis; receive third party content performance metric information for the at least one third party content based on an analysis of the at least one third party content; determine whether the third party content performance metric information is within a performance threshold level; and send a third party content control message that prevents the at least one third party content from presentation on the webpage based at least on the third party content performance metric information exceeding the performance threshold level. 2. The computer device of claim 1, wherein the operating system is further operable to send a third party content control message that allows the presentation of the at least one third party content on the webpage based at least on the third party content performance metric information being within the performance threshold level. 3. The computer device of claim 1, wherein the operating system is further operable to: send a recommendation to improve third party content performance to a third party content provider or a third party content developer associated with the at least one third party content based at least on a third party content revenue for the at least one third party exceeding the revenue threshold. 4. The computer device of claim 1 , wherein the third party content performance metric information represents a performance of the at least one third party content. 5. The computer device of claim 1, wherein the analysis of the at least one third party content occurs in a controlled environment on a device with restricted network traffic and a test webpage. 6. The computer device of claim 5, wherein the operating system is further operable to capture diagnostic information of the at least one third party content during the analysis to identify impacts the webpage performance, and wherein the diagnostic information includes at least one of network waterfall information and a central processing unit (CPU) trace. 7. The computer device of claim 1, wherein the wherein the at least one third party content is one or more of a newly developed third party content and previously presented third party content. 8. A method for determining third party content to display on one or more webpages, the method comprising: receiving, at an operating system on the computer device, an identification of at least one third party content for analysis; receiving third party content performance metric information for the at least one third party content based on an analysis of the at least one third party content; determining whether the third party content performance metric information is within a performance threshold level; and sending a third party content control message that prevents the at least one third party content from presentation on the webpage based at least on the third party content performance metric information exceeding the performance threshold level. 9. The method of claim 8, wherein the operating system is further operable to send a third party content control message that allows the presentation of the at least one third party content on the webpage based at least on the third party content performance metric information being within the performance threshold level. 10. The method of claim 8, further comprising: sending a recommendation to improve third party content performance to a third party content provider or a third party content developer associated with the at least one third party content based at least on a third party content revenue for the at least one third party exceeding the revenue threshold. 11. The method of claim 8, wherein the third party content performance metric information represents a performance of the at least one third party content. 12. The method of claim 8, wherein the analysis of the at least one third party content occurs in a controlled environment on a device with restricted network traffic and a test webpage. 13. The method of claim 12, further comprising: capturing diagnostic information of the at least one third party content during the analysis to identify impacts the webpage performance, and wherein the diagnostic information includes at least one of network waterfall information and a central processing unit (CPU) trace. 14. The method of claim 8, wherein the at least one third party content is one or \n\n more of a newly developed third party content and previously presented third party content. 15. A computer-readable medium storing instructions executable by a computer device, comprising: at least one instruction for causing the computer device to receive an identification of at least one third party content for analysis; at least one instruction for causing the computer device to receive third party content performance metric information for the at least one third party content based on an analysis of the at least one third party content; at least one instruction for causing the computer device to determine whether the third party content performance metric information is within a performance threshold level; and at least one instruction for causing the computer device to send a third party content control message that prevents the at least one third party content from presentation on the webpage based at least on the third party content performance metric information exceeding the performance threshold level.",
+  "classifications": {
+    "ipc": [
+      "G06Q 30/00",
+      "G06Q 30/02",
+      "G06Q 30/0241",
+      "G06Q 30/0242",
+      "G06Q 30/0244",
+      "G06F 16/00",
+      "G06F 16/90",
+      "G06F 16/95",
+      "G06F 16/957",
+      "G06Q 30/0246",
+      "G06Q 30/0247",
+      "H04L 63/00",
+      "H04L 63/10"
+    ],
+    "cpc": [],
+    "all": [
+      "G06Q 30/00",
+      "G06Q 30/02",
+      "G06Q 30/0241",
+      "G06Q 30/0242",
+      "G06Q 30/0244",
+      "G06F 16/00",
+      "G06F 16/90",
+      "G06F 16/95",
+      "G06F 16/957",
+      "G06Q 30/0246",
+      "G06Q 30/0247",
+      "H04L 63/00",
+      "H04L 63/10"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019094257"
+}

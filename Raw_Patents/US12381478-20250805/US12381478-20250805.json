@@ -1,0 +1,18 @@
+{
+  "title": "Circuits and methods to startup and shutdown multi-level converters",
+  "abstract": "A circuit suitable for use with a multi-level power converter cell that (1) charges boot capacitors at startup to a sufficient level to power level shifters and drivers that control the power switches within the cell, (2) pre-charges each fly capacitor to a target voltage, (3) provides a shut-down and/or a standby mode of operation that enables a quick re-start of operation, and (4) balances fly capacitor voltages when the fly capacitor(s) is/are not actively charge-balanced. One embodiment includes a first switchable current source coupled between a fly capacitor and an input voltage; a second switchable current source coupled between the fly capacitor and a reference potential; and a third switchable current source coupled in parallel with the fly capacitor; wherein the switchable current sources are configured to charge the fly capacitor in a first mode of operation, and to discharge the fly capacitor in a second mode of operation.",
+  "claims": "1. A circuit including: (a) an M-level power converter cell having a set of n power switches coupled in series and configured to be coupled between an input voltage and a reference potential, where M≥3 and n≥4; (b) an output capacitor coupled to a node between an adjacent pair of the set of n power switches and to the reference potential; (c) one or more fly capacitors coupled to the set of n power switches, each having a top plate and a bottom plate; and (d) for each of the one or more fly capacitors: (1) a first switchable current source coupled to the top plate of the fly capacitor and configured to be coupled to the input voltage; (2) a second switchable current source coupled to the bottom plate of the fly capacitor and configured to be coupled to the reference potential; and (3) a third switchable current source coupled between the top plate and the bottom plate of the fly capacitor; wherein the first, second, and third switchable current source are configured to charge the fly capacitor in a first mode of operation, and to discharge the fly capacitor in a second mode of operation.",
+  "patent_id": "US12381478-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02M 1/36",
+      "H02M 3/07"
+    ],
+    "all": [
+      "H02M 1/36",
+      "H02M 3/07"
+    ],
+    "source": "converted"
+  }
+}

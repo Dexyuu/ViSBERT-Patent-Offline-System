@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2017123641",
+  "application_id_fs": "WO2017123641",
+  "title": "Check image correction macros",
+  "abstract": "The present disclosure involves systems, software, and computer-implemented methods for applying correction macros to a clearing payment instrument image. An example method includes identifying a correction macro including one or more image processing actions to apply to a first clearing payment instrument image; associating the correction macro with a first attribute of the first clearing payment instrument image; and determining that the correction macro is to be applied to a second clearing payment instrument including a second attribute based on the second attribute matching the first attribute associated with the correction macro.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1. A computer-implemented method executed by one or more processors, the method comprising: identifying a correction macro including one or more image processing actions to apply to a first clearing payment instrument image; associating the correction macro with a first attribute of the first clearing payment instrument image; and determining that the correction macro is to be applied to a second clearing payment instrument including a second attribute based on the second attribute matching the first attribute associated with the correction macro. 2. The method of claim 1 , wherein the second clearing payment instrument image is a black-and-white payment instrument image. 3. The method of claim 2, wherein the one or more image processing actions include: converting the black-and-white payment instrument image into a grayscale payment instrument image by computer algorithms, the computer algorithms including filters, and the filters performing actions including Gaussian actions or blurring actions; adjusting the grayscale payment instrument image; and converting the adjusted grayscale payment instrument image into a second black-and-white payment instrument image. 4. The method of claim 1 , wherein the one or more image processing actions include removing isolated speckling, removing dithering pattems, removing repetitious diagonal line patterns, or adjusting conversion threshold. 5. The method of claim 1 , wherein the first attribute includes an account number or a routing number. 6. The method of claim 1 , wherein the first attribute includes a black-to-white ratio of a black-and-white image created from the first clearing payment instrument image. 7. The method of claim 6, wherein associating the correction macro with the first attribute is performed based on the black-to-white ratio exceeding a darkness threshold, and the correction macro includes an image processing action of raising a black threshold associated with the first clearing payment instrument image. 8. The method of claim 6, wherein associating the correction macro with the first attribute is performed based on the black-to-white ratio being below a lightness threshold, and the correction macro includes an image processing action of lowering a black threshold associated with the first clearing payment instrument image. 9. A non-transitory, computer-readable medium storing instructions operable when executed to cause at least one processor to perform operations comprising: identifying a correction macro including one or more image processing actions to apply to a first clearing payment instrument image; associating the correction macro with a first attribute of the first clearing payment instrument image; and determining that the correction macro is to be applied to a second clearing payment instrument including a second attribute based on the second attribute matching the first attribute associated with the correction macro. 10. The medium of claim 9, wherein the second clearing payment instrument image is a black-and-white payment instrument image. 11. The medium of claim 10, wherein the one or more image processing actions include: converting the black-and-white payment instrument image into a grayscale payment instrument image by computer algorithms, the computer algorithms including filters, and the filters performing actions including Gaussian actions or blurring actions; \n\n adjusting the grayscale payment instrument image; and converting the adjusted grayscale payment instrument image into a second black-and-white payment instrument image. 12. The medium of claim 9, wherein the one or more image processing actions include removing isolated speckling, removing dithering pattems, removing repetitious diagonal line patterns, or adjusting conversion threshold. 13. The medium of claim 9, wherein the first attribute includes an account number or a routing number. 14. The medium of claim 9, wherein the first attribute includes a black-to-white ratio of a black-and-white image created from the first clearing payment instrument image. 15. The medium of claim 14, wherein associating the correction macro with the first attribute is performed based on the black-to-white ratio exceeding a darkness threshold, and the correction macro includes an image processing action of raising a black threshold associated with the first clearing payment instrument image. 16. The medium of claim 14, wherein associating the correction macro with the first attribute is performed based on the black-to-white ratio being below a lightness threshold, and the correction macro includes an image processing action of lowering a black threshold associated with the first clearing payment instrument image. 17. A system comprising: memory for storing data; and one or more processors operable to perform operations comprising: identifying a correction macro including one or more image processing actions to apply to a first clearing payment instrument image; associating the correction macro with a first attribute of the first clearing payment instrument image; and \n\n determining that the correction macro is to be applied to a second clearing payment instrument including a second attribute based on the second attribute matching the first attribute associated with the correction macro. 18. The system of claim 17, wherein the second clearing payment instrument image is a black-and-white payment instrument image. 19. The system of claim 18, wherein the one or more image processing actions include: converting the black-and-white payment instrument image into a grayscale payment instrument image by computer algorithms, the computer algorithms including filters, and the filters performing actions including Gaussian actions or blurring actions; adjusting the grayscale payment instrument image; and converting the adjusted grayscale payment instrument image into a second black-and-white payment instrument image. 20. The system of claim 17, wherein the one or more image processing actions include removing isolated speckling, removing dithering pattems, removing repetitious diagonal line patterns, or adjusting conversion threshold.",
+  "classifications": {
+    "ipc": [
+      "G06Q 20/00",
+      "G06Q 20/04",
+      "G06Q 20/042",
+      "G06Q 20/0425",
+      "G06T 5/00",
+      "G06T 5/70",
+      "G06T 5/90",
+      "G06T 5/92",
+      "G06T 2207/00",
+      "G06T 2207/20",
+      "G06T 2207/30",
+      "G06V 10/00",
+      "G06V 10/98",
+      "G06V 10/993"
+    ],
+    "cpc": [],
+    "all": [
+      "G06Q 20/00",
+      "G06Q 20/04",
+      "G06Q 20/042",
+      "G06Q 20/0425",
+      "G06T 5/00",
+      "G06T 5/70",
+      "G06T 5/90",
+      "G06T 5/92",
+      "G06T 2207/00",
+      "G06T 2207/20",
+      "G06T 2207/30",
+      "G06V 10/00",
+      "G06V 10/98",
+      "G06V 10/993"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017123641"
+}

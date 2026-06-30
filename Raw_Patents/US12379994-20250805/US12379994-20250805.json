@@ -1,0 +1,22 @@
+{
+  "title": "Memory address translation for data protection and recovery",
+  "abstract": "Address translation of host commands to access host data stored in memory devices that provides a chip kill capability not only involves locating where the host data is stored, but also involves locating where parity data striped with the host data is stored. In locating where the parity data is stored, the address translation can be performed with logical (e.g., arithmetic) operations.",
+  "claims": "1. A method, comprising: receiving a host command including: a first address bit indicative of a first numerical value assigned to a row segment of a first memory device configured for first data; and a second address bit indicative of a second numerical value assigned to a first channel of a number of channels and corresponding to the first memory device; and identifying a second channel of the number of channels and corresponding to a second memory device configured for second data that are striped with the first data based at least in part on comparing the first and second numerical values.",
+  "patent_id": "US12379994-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/1076",
+      "G06F 11/1028",
+      "G06F 12/10",
+      "G06F 2212/403"
+    ],
+    "all": [
+      "G06F 11/1076",
+      "G06F 11/1028",
+      "G06F 12/10",
+      "G06F 2212/403"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Auxiliary diagnosis method and system for Parkinson's disease based on static and dynamic features of facial expressions",
+  "abstract": "An auxiliary diagnosis method for Parkinson's disease (PD) based on static and dynamic features of facial expressions is provided. Video data of various facial expressions performed by a to-be-tested patient is acquired and pre-processed to extract a plurality of optimal facial expression images corresponding to the various facial expressions. A similarity discrimination is performed on a synthesized happy facial expression image of the to-be-tested patient in a healthy state and an extracted happy facial expression image to obtain similarity features. Distances between multiple facial key points in the various facial expression images are calculated to obtain multiple key features, which are spliced with the plurality of key features to form static features. Coordinate change degrees of multiple facial key points of eyelids and mouth are calculated to obtain dynamic features. A classification prediction result of PD is output based on the spliced features.",
+  "claims": "1. An auxiliary diagnosis method for Parkinson's disease (PD) based on static and dynamic features of facial expressions, comprising: acquiring video data of various facial expressions performed by a to-be-tested patient; pre-processing the video data to extract a plurality of optimal facial expression images corresponding to the various facial expressions; synthesizing, using a generative network, a happy facial expression image of the to-be-tested patient in a healthy state to obtain a synthesized happy facial expression image; performing, based on a neutral facial expression image, a similarity discrimination, on the synthesized happy facial expression image and an extracted happy facial expression image to obtain similarity features; calculating distances between multiple facial key points in the various facial expression images to obtain a plurality of key features; splicing the similarity features and the plurality of key features to form static features; calculating, based on the plurality of optimal facial expression images, coordinate change degrees of multiple facial key points of eyelids and mouth to obtain dynamic features; and equilibrating dimensions of the static features and the dynamic features, followed by feature splicing using a static-dynamic feature balanced classification network to obtain spliced features; and outputting a classification prediction result of PD based on the spliced features; wherein the video data is pre-processed through steps of: splitting the video into a plurality of independent videos, each of the plurality of independent videos corresponds to a facial expression; annotating facial key points for consecutive video-frame images of each of the plurality of independent videos; convert coordinates of each facial key point to relative coordinates based on a relatively fixed point; and performing normalization processing on the video-frame images; uniformly selecting K images from a neutral-expression independent video; and calculating an average value of coordinates of each facial key point in the K images to obtain key point coordinates of an average neutral face; and for video-frame images in each expression-specific independent video, calculating a distance between each facial key point in each video-frame image and a key point in the average neutral face corresponding thereto; sorting video-frame images of each expression-specific independent video in a descending order according to a sum of distances of all key points in each video-frame image to screen the first L images as the optimal facial expression state images; the various facial expressions comprise a neutral facial expression, a happy facial expression, a sad facial expression, a surprised facial expression, a fearful facial expression, an angry facial expression, and a disgusted facial expression; and the facial key points comprise relatively fixed points and dynamic flexible points, the relatively fixed points comprise points around a nose; the similarity discrimination is performed through steps of: acquiring M synthetic happy facial expression images and N extracted happy facial expression images; extracting coordinates of facial key points around a mouth from the acquired images; and calculating Euclidean distance between the same facial key point in each synthetic image and each extracted image to obtain similarity discrimination results, and the discrimination results are configured as similarity features; the plurality of key features are obtained through steps of: for a happy facial expression image, calculating distance variations between points near mouth corners and the relatively fixed points, and distance changes between an upper lip and a lower lip; for a sad facial expression image, calculating distance variations between eyebrows and the relatively fixed points, and distance variations between points near mouth corners and the relatively fixed points; for a surprised facial expression image, calculating distance variations between eyebrows and lower eyelids, distance variations between an upper eyelid and a lower eyelid, and distance variations between an upper lip and a lower lip; for an angry facial expression image, calculating distance variations between eyebrows and the relatively fixed points, and distance variations between eyebrows and eye centers; and configuring differences between calculation results from synthetic images and extracted images as the plurality of key features; wherein all the distance variations are measured relative to a neutral facial expression image; and the dynamic features are obtained through steps of: extracting facial key point coordinates from the plurality of facial expression images; calculating positional relationships between upper and lower eyelids using extracted facial key point coordinates, and determining variation degrees of eye region key points through variance calculation; calculating movement patterns of each key point in a mouth region using extracted facial key point coordinates, and determining variation degrees of the key points in the mouth region through variance calculation; and configuring calculation results as the dynamic features.",
+  "patent_id": "US12380732-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 40/176",
+      "A61B 5/4082",
+      "G06T 7/0014",
+      "G06V 10/761",
+      "G06V 10/82",
+      "G06V 20/46",
+      "G06V 20/49",
+      "G06V 40/171",
+      "G06V 40/172",
+      "G06T 2207/10016",
+      "G06T 2207/30201"
+    ],
+    "all": [
+      "G06V 40/176",
+      "A61B 5/4082",
+      "G06T 7/0014",
+      "G06V 10/761",
+      "G06V 10/82",
+      "G06V 20/46",
+      "G06V 20/49",
+      "G06V 40/171",
+      "G06V 40/172",
+      "G06T 2207/10016",
+      "G06T 2207/30201"
+    ],
+    "source": "converted"
+  }
+}

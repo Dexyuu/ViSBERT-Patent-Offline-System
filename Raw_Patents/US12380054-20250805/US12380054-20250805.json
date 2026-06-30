@@ -1,0 +1,28 @@
+{
+  "title": "Electronic device and method for controlling power supply of electronic device",
+  "abstract": "An electronic device according to various embodiments comprises: a universal serial bus (USB) interface for configuration channel (CC) communication with an external device; a power management IC (PMIC) for power control of the electronic device; and a processor operatively connected to the USB interface and the PMIC. The processor is configured to: control to transmit a first command, requesting unique identification information, to the external device via the USB interface based on the external device being connected via the USB interface; recognize the external device as a power supply device, for supplying power to the electronic device, on the basis of the unique identification information received from the external device; and control to transmit a second command, instructing rebooting of the external device, via the USB interface based on the electronic device including a battery and being powered off, and not transmit the second command to the external device based on the electronic device not including a battery and being powered off.",
+  "claims": "1. An electronic device comprising: a universal serial bus (USB) interface configured to perform configuration channel (CC) communication with an external device; a power management IC (PMIC) configured to control power of the electronic device; and at least one processor operatively connected to the USB interface and the PMIC, wherein the at least one processor is configured, individually or collectively, to, based on the external device being connected through the USB interface, cause the electronic device to: transmit a first command making a request for unique identification information, to the external device through the USB interface; recognize the external device as a power supply device for supplying power to the electronic device, based on the unique identification information received from the external device; based on the electronic device having a battery and the electronic device being turned off, transmit a second command indicating rebooting of the external device through the USB interface; and based on the electronic device not having a battery and the electronic device being turned off, not transmit the second command to the external device.",
+  "patent_id": "US12380054-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 13/4282",
+      "G06F 1/26",
+      "G06F 13/382",
+      "H02J 7/00045",
+      "G06F 2213/0042",
+      "H02J 7/0029",
+      "H02J 2207/30"
+    ],
+    "all": [
+      "G06F 13/4282",
+      "G06F 1/26",
+      "G06F 13/382",
+      "H02J 7/00045",
+      "G06F 2213/0042",
+      "H02J 7/0029",
+      "H02J 2207/30"
+    ],
+    "source": "converted"
+  }
+}

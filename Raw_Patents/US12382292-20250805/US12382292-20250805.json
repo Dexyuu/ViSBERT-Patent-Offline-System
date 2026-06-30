@@ -1,0 +1,18 @@
+{
+  "title": "Mitigation of rogue Wi-Fi 6E compatible access points",
+  "abstract": "A rogue Wi-Fi 6E access points are identified by on-wire data traffic of authorized Wi-Fi 6E access points. Data traffic is monitored across all access points for the rogue Wi-Fi 6E access points according to an SSID/BSSID scan table. In response, modified CSA values are sent from spoofed action frames that have a source BSSID of the rogue access points rather than the authenticated access point that transmits.",
+  "claims": "1. In a Wi-Fi controller, a method for coordinated channel switch announcement (CSA) disruption of rogue Wi-Fi 6E access point connections with Wi-Fi 6E stations, the method comprising: identifying authorized Wi-Fi 6E access points; on-wire monitoring of SSID/BSSID data including a channel occupied for Wi-Fi traffic, and generating an SSID/BSSID scan table of on-wire SSID/BSSID combinations of the Wi-Fi 6E access points; Wi-Fi monitoring of SSID/BSSID data including channel occupied for Wi-Fi traffic, from RF scanning by the authorized Wi-Fi 6E access points managed over wire by the Wi-Fi controller, wherein the Wi-Fi data packets are encapsulated within on -wire data packets for transmission from the Wi-Fi 6E access points to the Wi-Fi controller; detecting the rogue Wi-Fi access point from an unregistered BSSID combined with a registered SSID within RF range of a first Wi-Fi 6E access point from the SSID/BSSID scan table; at a subsequent time, detecting the rogue access point from the unregistered BSSID within range of a second Wi-Fi 6E access point, physically distinct from the first Wi-Fi 6E access point, communicating with a Wi-Fi 6E station; and transmitting the SSID/BSSID data for the rogue Wi-Fi 6E access point from the SSID/BSSID scan table to the second Wi-Fi 6E access point for disruption, wherein, in response to the transmission, the second Wi-Fi 6E access point generates an action frame modified for the Wi-Fi 6E station with a spoofed BSSID associated with the rogue Wi-Fi access point as scanned by the first Wi-Fi 6E access point, and including CSA values, causing the Wi-Fi 6E station to change a channel used to communicate with the rogue Wi-Fi 6E access point.",
+  "patent_id": "US12382292-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 12/122",
+      "H04W 24/08"
+    ],
+    "all": [
+      "H04W 12/122",
+      "H04W 24/08"
+    ],
+    "source": "converted"
+  }
+}

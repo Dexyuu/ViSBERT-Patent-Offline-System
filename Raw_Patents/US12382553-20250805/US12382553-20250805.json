@@ -1,0 +1,36 @@
+{
+  "title": "Control device of water purifier, water purifier, and control method thereof",
+  "abstract": "A control device, for a water purifier, that dispenses hot water and that includes: an input unit that is configured to receive a command signal; and a controller that is configured to control the water purifier based on the command signal, wherein the controller is configured to: control power output of a heating unit that is configured to heat water stored in a hot water tank of the water purifier, and based on the power output of the heating unit, control temperature of hot water dispensed by the water purifier is disclosed.",
+  "claims": "1. A controller of a water purifier that includes a heater and is configured to dispense hot water, the controller being configured to: control the water purifier based on a command signal, the command signal including information regarding a set temperature for the hot water to be dispensed from the water purifier; detect a power output of the heater, the heater being configured to heat water stored in a hot water tank of the water purifier; determine whether the power output satisfies a preset output reference corresponding to the set temperature; based on a determination that the power output satisfies the preset output reference, control the power output of the heater; control, by controlling the power output of the heater, a dispense temperature of the hot water to be dispensed from the water purifier; detect a first temperature of the hot water discharged from the hot water tank; determine whether the first temperature satisfies a first temperature reference; and based on a determination that the first temperature satisfies the first temperature reference, reduce the power output of the heater at a predetermined time interval to thereby match the first temperature to the first temperature reference.",
+  "patent_id": "US12382553-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H05B 6/108",
+      "B67D 3/0022",
+      "B67D 3/0041",
+      "F24H 1/185",
+      "F24H 15/219",
+      "F24H 15/238",
+      "G05B 15/02",
+      "G05D 23/1917",
+      "H05B 6/06",
+      "B67D 2210/00005",
+      "B67D 2210/00102"
+    ],
+    "all": [
+      "H05B 6/108",
+      "B67D 3/0022",
+      "B67D 3/0041",
+      "F24H 1/185",
+      "F24H 15/219",
+      "F24H 15/238",
+      "G05B 15/02",
+      "G05D 23/1917",
+      "H05B 6/06",
+      "B67D 2210/00005",
+      "B67D 2210/00102"
+    ],
+    "source": "converted"
+  }
+}

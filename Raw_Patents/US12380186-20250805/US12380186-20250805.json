@@ -1,0 +1,18 @@
+{
+  "title": "Unauthorized activity detection based on input analysis and monitoring",
+  "abstract": "Arrangements for detecting unauthorized activity based on input method analysis and monitoring are provided. In some aspects, identity information associated with a user may be received and be stored. An input may be received from a computing device of the user. An input pattern of the received input may be determined. Using a machine learning model, the input pattern of the received input may be compared to input patterns of humans and input patterns of machines. Based on the comparison, it may be determined whether the user is a human user or a non-human user. Responsive to determining that the user is a non-human user, a request may be transmitted to the user to provide increased authentication credentials. Responsive to determining that the user is a human user, an identity of the user may be verified by comparing the input pattern of the received input to the stored identity information.",
+  "claims": "1. A computing platform, comprising: one or more processors; a communication interface communicatively coupled to the one or more processors; and memory storing computer-readable instructions that, when executed by the one or more processors, cause the computing platform to: receive, via the communication interface, from a computing device of a user, identity information associated with the user, wherein the identity information includes cadence patterns associated with the user; store, in a database, the identity information associated with the user; receive, via the communication interface, an input from the computing device of the user; determine an input pattern of the received input, wherein the input pattern of the user includes cadence patterns associated with the received input; compare, using a machine learning model, the input pattern of the received input to one or more input patterns corresponding to a human and one or more input patterns corresponding to a machine; further compare a background noise portion of the received input to background noise associated with a human user and a non-human user stored in the database; based on these comparisons, determine whether the user is a human user or a non-human user; responsive to determining that the user is a non-human user, transmit, to the computing device of the user, a request to the user to provide increased authentication credentials, wherein the increased authentication credentials include authentication credentials different from standard authentication credentials; and responsive to determining that the user is a human user, verify an identity of the user by comparing the input pattern of the received input to the identity information stored in the database.",
+  "patent_id": "US12380186-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/316",
+      "G06F 2221/2133"
+    ],
+    "all": [
+      "G06F 21/316",
+      "G06F 2221/2133"
+    ],
+    "source": "converted"
+  }
+}

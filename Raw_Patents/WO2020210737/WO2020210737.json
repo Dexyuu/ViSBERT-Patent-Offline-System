@@ -1,0 +1,17 @@
+{
+  "application_id": "WO2020210737",
+  "application_id_fs": null,
+  "title": "Method and apparatus for facial verification",
+  "abstract": "The system provides a method and apparatus for facial verification. Instead of determining if an image can be found in a database of multiple possible matches, the present system uses facial verification to verify that the image represents one person who is the person the individual is claiming to represent. For example, when used as part of an authentication process, the system will generate information from a Challenge Image and determine if the image is that of an authorized user. This may be the primary protection system or be part of a multifactor authentication process. The system uses advanced comparative analysis for user identification and identity assurance. The system uses a procedure that reduces false positives, substantially eliminates the twin problem, and is not susceptible to the use of masks or other image spoofing techniques",
+  "claims": "Claims What Is Claimed Is: 1. A method of providing user authentication comprising: creating a Control Image of a User on a User device; adding device identifying information to the User device; storing the Control Image and device identifying information; creating a Challenge Image of the User on the User device; comparing the Challenge Image to the Control Image; authenticating the User when the Challenge Image matches the Control Image. 2. The method of claim 1 further including the step of confirming the device using the device identifying information to authenticate the User. 3. The method of claim 1 wherein the Control Image is taken automatically by the User device when an app is invoked on the User device. 4. The method of claim 3 wherein the Challenge Image is taken automatically by the User device when the app is invoked on the User device. 5. The method of claim 4 wherein the app instructs the User on face orientation and position. 7. The method of claim 1 further including creating a Liveness Control Image of the User on the User device. 8. The method of claim 7 further including creating a Liveness Challenge Image of the User on the User device. 9. The method of claim 8 wherein the User is authenticated when the Liveness Challenge Image matches the Liveness Control Image.",
+  "classifications": {
+    "ipc": [
+      "G06K 9/00"
+    ],
+    "cpc": [],
+    "all": [
+      "G06K 9/00"
+    ],
+    "source": "csv"
+  }
+}

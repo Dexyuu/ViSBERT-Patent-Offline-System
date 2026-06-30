@@ -1,0 +1,35 @@
+{
+  "application_id": "WO2018020368",
+  "application_id_fs": null,
+  "title": "Display method, display device, electronic device, non-temporary memory medium, and program",
+  "abstract": "A display device includes a display portion where pixels including light-emitting elements are arranged in matrix and each of the pixels comprises at least a subpixel. A display method of the display device includes a step of calculating a first part watched by a user of the display device and a step of determining whether or not the first part is included in the display portion are included. In the case where the first part is included in the display portion, the gray level of first subpixels that are included in the first part is made different from the gray level of second subpixels that are included in the other part.",
+  "claims": "Claims 1. A display method of a display device including a display portion where first pixels including light-emitting elements are arranged in matrix, wherein each of the first pixels comprises subpixels, comprising the steps of: calculating a first part watched by a user of the display device; and determining whether or not the first part is included in the display portion, wherein, when the first part is included in the display portion, a gray level for representation of luminance of light emitted from first subpixels included in the first part is made different from a gray level for representation of luminance of light emitted from second subpixels that are not included in any of the first part and a part in a neighborhood of the first part. 2. The display method according to claim 1, wherein a size and a shape of the part in the neighborhood of the first part is set depending on a size and a shape of the first part. 3. The display method according to claim 1, further comprising a step of detecting a pupil of the user of the display device using a sensor, wherein the sensor is included in the display device. 4. The display method according to claim 1, wherein the first part is calculated using a distance between the user of the display device and the display portion. 5. The display method according to claim 1, wherein the display device includes a second pixel, wherein the second pixel includes a liquid crystal element, and wherein the second pixel is stacked over the first pixels. 6. The display method according to claim 1, wherein each of the light-emitting elements is an OLED. 7. A display device configured to display an image by the display method according to claim 1. 8. The display device according to claim 7, further comprising a transistor and an infrared source. 9. The display device according to claim 8, wherein the transistor includes a metal oxide in a channel formation region. 10. An electronic device comprising: the display device according to claim 7; and an operation button or a battery. 11. A non-temporary memory medium storing a program configured to execute the display method according to claim 1. 12. A display method of a display device including a display portion where first pixels including light-emitting elements are arranged in matrix, wherein each of the first pixels comprises subpixels, comprising the steps of: calculating a first part watched by a user of the display device; and calculating a row or a column of text included in the first part, wherein a gray level for representation of luminance of light emitted from first subpixels provided in the row or the column of the text included in the first part is made different from a gray level for representation of luminance of light emitted from second subpixels provided in a row or a column that is not a row or a column of text included in the first part and is not a row or a column in a neighborhood of the row or the column of text included in the first part. 13. The display method according to claim 12, wherein a row previous to the row of the text included in the first part and a row next to the row of the text included in the first part are defined as rows in a neighborhood of the row of the text included in the first part. 14. The display method according to claim 12, wherein a column previous to the column of the text included in the first part and a column next to the column of the text included in the first part are defined as columns in a neighborhood of the column of the text included in the first part. 15. The display method according to claim 12, further comprising a step of detecting a pupil of the user of the display device using a sensor, wherein the sensor is included in the display device. 16. The display method according to claim 12, wherein the first part is calculated using a distance between the user of the display device and the display portion. 17. The display method according to claim 12, wherein the display device includes a second pixel, wherein the second pixel includes a liquid crystal element, and wherein the second pixel is stacked over the first pixels. 18. The display method according to a claim 12, wherein each of the light-emitting elements is an OLED. 19. A display device configured to display an image by the display method according to claim 12. 20. The display device according to claim 19, further comprising a transistor and an infrared source. 21. The display device according to claim 20, wherein the transistor includes a metal oxide in a channel formation region. 22. An electronic device comprising: the display device according to claim 19; and an operation button or a battery. 23. A non-temporary memory medium storing a program configured to execute the display method according to claim 12.",
+  "classifications": {
+    "ipc": [
+      "G09G 3/3233",
+      "G02F 1/1333",
+      "G09F 9/00",
+      "G09F 9/30",
+      "G09F 9/46",
+      "G09G 3/20",
+      "G09G 3/36",
+      "G09G 5/00",
+      "G09G 5/10",
+      "H01L 51/50"
+    ],
+    "cpc": [],
+    "all": [
+      "G09G 3/3233",
+      "G02F 1/1333",
+      "G09F 9/00",
+      "G09F 9/30",
+      "G09F 9/46",
+      "G09G 3/20",
+      "G09G 3/36",
+      "G09G 5/00",
+      "G09G 5/10",
+      "H01L 51/50"
+    ],
+    "source": "csv"
+  }
+}

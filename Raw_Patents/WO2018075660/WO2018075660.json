@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2018075660",
+  "application_id_fs": "WO2018075660",
+  "title": "Arbitration-based voice recognition",
+  "abstract": "A first voice input is detected and a first measure of confidence associated with the first voice input is determined. A message is received comprising a second measure of confidence associated with detection of the first voice input by a network device. A determination is made whether the first measure of confidence is greater than the second measure of confidence. Based on the determination that the first measure of confidence is greater than the second measure of confidence, a second voice input is sent to a server.",
+  "claims": "Claims CLAIMS  We claim: 1. A method for a first network device (600), the method comprising: detecting a first voice input; determining a first measure of confidence (806) indicating how well the first voice input was detected by the first network device (600); receiving a message (800) comprising a second measure of confidence (806) indicating how well the first voice input was detected by a second network device (600); detecting a second voice input that follows the first voice input; when it is determined that the first measure of confidence (806) is greater than the second measure of confidence (806), sending, by the first network device (600), the second voice input to a server. 2. The method of any preceding claim, wherein the first voice input is a wakeword. 3. The method of any preceding claim, wherein the second voice input is one of: a request for information; and a command to modify playback settings of a media playback system. 4. The method of any preceding claim, wherein, when the first measure of confidence (806) is not greater than the second measure of confidence (806), the first network device (600) discards a recording of the received second voice command. 5. The method of any preceding claim, wherein a plurality of network devices (600), including at least the first and second network devices (600), are communicatively coupled via a communication means (546). 6. The method of claim 5, further comprising sending, by the first network device (600) to the plurality network devices (600) coupled to the communication means (546), a second message (800) comprising the first measure of the confidence (806). 7. The method of any preceding claim, wherein the one or more messages (800) further include at least one of: \n\n an identifier (802) of a wakeword corresponding to the first voice input; a voice identifier (804) that identifiers a speaker of the wakeword; and a time interval (808) indicative of how long the second network device (600) will wait before determining whether to send the second voice input to the server. 8. The method of any preceding claim, further comprising waiting for expiration of a time interval (808) before sending the second voice input to the server, wherein detection of the first voice input triggers a start of the time interval (808). 9. The method of claim 8, further comprising: until expiration of the time interval (808), receiving one or more additional messages (800) including respective measures of confidence (806); and determining whether the first measure of confidence (806) is greater than all measures of confidence (806) of messages (800) received before the expiration of the time interval (808); and sending the second voice input to the server upon expiration of the time interval (808) when the first measure of confidence (806) is the greatest of the received measures of confidence (806). 10. The method of claim 8 or 9 in combination with claim 5, wherein a duration of the time interval (808) is set according to a number of network devices (600) connected to the communication means (546) such that the time interval (808) is shorter when fewer network devices (600) are connected, and is set longer when more network devices (600) are connected. 11. The method of one of claims 8 to 10, wherein the duration of the time interval (808) is set based on a proximity of the network devices (600) to each other such that, the closer the network devices (600) are to each other, the shorter the time interval (808). 12. The method of one of claims 8 to 11, wherein the time interval (808) is adjusted based on a learning algorithm intended to minimize the time interval (808) without two network devices (600) sending the second voice input to the server. 13. The method of any preceding claim, further comprising: \n\n receiving, from the server, a voice response to the second voice input; and audibly playing the voice response. 14. The method of any preceding claim, further comprising adjusting a volume of audio playback in response to detecting the first voice input. 15. The method of any preceding claim, further comprising additionally causing volume of audio playback of another network device (600) that is playing back the audio in synchrony with the first network device (600). 16. The method of claim 4, further comprising determining that the audio playback is music playback, wherein adjusting the volume of the audio playback in response to detecting the voice input comprises ducking the music playback. 17. The method of claim 4, further comprising determining that the audio playback is playback of an audio book, wherein adjusting the volume of the audio playback in response to detecting the voice input comprises pausing the playback of the audio book. 18. The method of any preceding claim, further comprising receiving a notification to return the volume of the audio playback to a volume setting before adjustment. 19. The method of one of claims 1 to 13, wherein, when the first measure of confidence is not greater than the second measure of confidence, the first network device does not adjust the volume of audio playback in response to detecting the first voice input; and when the first measure of confidence is greater than the second measure of confidence, the first network device adjusts the volume of audio playback in response to detecting the first voice input. 20. A tangible non-transitory computer readable storage medium including instructions for execution by a processor, the instructions, when executed, cause the processor to implement a method according to any preceding claim. 21. A first network device (600) comprising a processor (602); \n\n memory (604); one or more microphones (606) configured for detecting the first and second voice inputs; and computer instructions stored in the memory (604) and executable by the processor (602) to cause the processor (602) to perform the method of any preceding claim.",
+  "classifications": {
+    "ipc": [
+      "G10L 15/00",
+      "G10L 15/22",
+      "G06F 3/00",
+      "G06F 3/16",
+      "G06F 3/165",
+      "G06F 3/167",
+      "G10L 15/28",
+      "G10L 15/32",
+      "G10L 15/30",
+      "G10L 15/08",
+      "G10L 2015/088",
+      "G10L 2015/223",
+      "H04R 2227/00",
+      "H04R 27/00",
+      "H04R 2227/003",
+      "H04R 2227/005"
+    ],
+    "cpc": [],
+    "all": [
+      "G10L 15/00",
+      "G10L 15/22",
+      "G06F 3/00",
+      "G06F 3/16",
+      "G06F 3/165",
+      "G06F 3/167",
+      "G10L 15/28",
+      "G10L 15/32",
+      "G10L 15/30",
+      "G10L 15/08",
+      "G10L 2015/088",
+      "G10L 2015/223",
+      "H04R 2227/00",
+      "H04R 27/00",
+      "H04R 2227/003",
+      "H04R 2227/005"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018075660"
+}

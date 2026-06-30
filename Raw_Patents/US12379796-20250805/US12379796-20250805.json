@@ -1,0 +1,20 @@
+{
+  "title": "Image sensing system control method and image sensing system",
+  "abstract": "An image sensing system control method, comprising: (a) defining a first reporting frame sensed at a first reporting frame time, and a second reporting frame sensed at a second reporting; (b) acquiring a first motion of the image sensing system for a first latency time interval between a first polling time and the first reporting frame time; (c) computing a second motion of the image sensing system for a first calibration time interval by the image sensor, wherein the first calibration time interval comprises a first frame time interval between the first, the second reporting frame times, and comprises a first expected latency time interval after the second reporting frame time; and (d) outputting a first output motion to the control circuit by the image sensor, thereby a difference between the first output motion and a physical movement of the image sensing system is smaller than a predetermined value.",
+  "claims": "1. An image sensing system control method, applied to an image sensing system comprising an image sensor and a control circuit, comprising: (a) defining a first reporting frame sensed at a first reporting frame time by the image sensor, and defining a second reporting frame sensed at a second reporting frame time after the first reporting frame time by the image sensor; (b) acquiring a first motion of the image sensing system for a first latency time interval between a first polling time and the first reporting frame time, by the image sensor, wherein the image sensor receives a first polling from the control circuit at the first polling time; (c) computing a second motion of the image sensing system for a first calibration time interval by the image sensor, wherein the first calibration time interval comprises a first frame time interval between the first reporting frame time and the second reporting frame time, and comprises a first expected latency time interval after the second reporting frame time; (d) outputting a first output motion to the control circuit by the image sensor, thereby a difference between the first output motion and a physical movement of the image sensing system is smaller than a predetermined value.",
+  "patent_id": "US12379796-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0383",
+      "G06F 3/0325",
+      "G06F 3/03543"
+    ],
+    "all": [
+      "G06F 3/0383",
+      "G06F 3/0325",
+      "G06F 3/03543"
+    ],
+    "source": "converted"
+  }
+}

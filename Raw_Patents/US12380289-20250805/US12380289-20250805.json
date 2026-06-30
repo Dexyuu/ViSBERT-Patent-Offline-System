@@ -1,0 +1,26 @@
+{
+  "title": "System and method for speech recognition using machine transliteration and transfer learning",
+  "abstract": "A method for converting speech in one of a plurality of input languages into text using machine transliteration and transfer learning is disclosed. The method includes a training stage. The training stage includes receiving a training set of a plurality of audio files and an input text corresponding to the audio input in any input language using the speech recognition engine; transliterating the training set to transform the input text into transliterated text that includes characters of a base language and training acoustic model with the plurality of audio files and corresponding transliterated text using transfer learning. The method further includes an inference stage. The inference stage includes performing decoding on output of the trained acoustic model to generate text includes characters of the base language at inference and transliterating the generated text to output text includes characters in input language using reverse transliteration.",
+  "claims": "1. A processor implemented method for converting speech in one of a plurality of input languages into text using machine transliteration and transfer learning, the method comprising steps of: providing a training stage comprises: receiving a training set of a plurality of audio files and an input text corresponding to an audio input in any input language using a speech recognition engine; transliterating the training set to transform the input text into transliterated text comprising characters of a base language; and training an acoustic model with the plurality of audio files and corresponding transliterated text using the transfer learning; and providing an inference stage; performing decoding on an output of the trained acoustic model to generate text comprising characters of the base language at the inference stage; and transliterating the generated text to output text comprising characters in the input language using reverse transliteration, wherein transliterating comprises transliterating using a speech recognition engine, wherein the transliterating is a process of converting text of any language written in one script to another script, wherein the transliterating is achieved using a plurality of methodologies comprising one of a rule-based machine transliteration, Finite-state Transducers (FST) based transliteration, AI based transliteration, Neural model-based transliteration, or mapping-based transliteration, wherein the rule-based transliteration is performed using a collection of rules stored on a disk in a keypair format and processed using python programming language to transform text in one script to another using defined rules, wherein the defined rules is one of sub-word based, word based, even phrase based, and character based, wherein the rule-based machine transliteration comprises: executing phrase-based replacements comprising at least one of word based, sub-word based, and character-based replacements; and discarding characters left from an initial script of transcripts.",
+  "patent_id": "US12380289-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 40/58",
+      "G06F 40/166",
+      "G10L 15/063",
+      "G10L 15/22",
+      "G10L 15/26",
+      "G10L 15/30"
+    ],
+    "all": [
+      "G06F 40/58",
+      "G06F 40/166",
+      "G10L 15/063",
+      "G10L 15/22",
+      "G10L 15/26",
+      "G10L 15/30"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Method and device for obtaining row hammer refresh address, and storage medium",
+  "abstract": "A method for obtaining a row hammer refresh address, including: after a row hammer refresh signal arrives, obtaining a current sampling address, and determining whether a high address is locked in a current row hammer refresh cycle; in response to the high address being locked, determining whether a high address of the current sampling address is identical to the locked high address; in response to being identical, updating an access frequency of the locked high address, and updating access frequencies of low addresses with a low address of the current sampling address; and when a next row hammer refresh signal arrives, using a low address with a highest access frequency stored in the group of low registers as a low address of the row hammer refresh address, and using the locked high address as a high address of the row hammer refresh address.",
+  "claims": "1. A method for obtaining a row hammer refresh address, comprising: after a row hammer refresh signal arrives, obtaining a current sampling address, and determining whether a high address is locked in a current row hammer refresh cycle; in response to the high address being locked, determining whether a high address of the current sampling address is identical to the high address locked in the current row hammer refresh cycle; in response to the high address of the current sampling address being identical to the high address locked in the current row hammer refresh cycle, updating an access frequency of the locked high address, and updating access frequencies of low addresses stored in a group of low registers with a low address of the current sampling address, wherein each of the low addresses corresponds to a respective access frequency; and when a next row hammer refresh signal arrives, using a low address with a highest access frequency stored in the group of low registers as a low address of the row hammer refresh address, and using the locked high address as a high address of the row hammer refresh address.",
+  "patent_id": "US12380939-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G11C 11/40618",
+      "G11C 11/40603",
+      "G11C 11/408"
+    ],
+    "all": [
+      "G11C 11/40618",
+      "G11C 11/40603",
+      "G11C 11/408"
+    ],
+    "source": "converted"
+  }
+}

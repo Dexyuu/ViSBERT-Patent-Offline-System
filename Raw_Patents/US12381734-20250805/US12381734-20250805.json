@@ -1,0 +1,24 @@
+{
+  "title": "Systems and methods for implementing linear view-change in a byzantine fault tolerant (BFT) protocol",
+  "abstract": "A method for implementing linear view-change in a BFT protocol running on a distributed system including n replicas, wherein no more than t of the n replicas are faulty, and wherein the BFT protocol enables the non-faulty replicas to agree on how to sequence execution of a plurality of service operations originating from one or more clients. The method including executing, among and by the n replicas, a phase Ï of the BFT protocol, communicating instances of a lock certificate being associated with said phase; and if 2t+1 communicating instances of said lock certificate are not received by the n replicas within a predetermined timeout period, initiating a view-change with at least the following step: if said current phase Ï is different than 1, each replica Pi(i=1 . . . n)sets Ïithe highest phase up to said current phase.",
+  "claims": "1. A method for implementing linear view-change in a Byzantine Fault Tolerant (BFT) protocol running on a distributed system comprising n replicas, wherein no more than t of the n replicas are faulty, and wherein the BFT protocol enables the non-faulty replicas to agree on how to sequence execution of a plurality of service operations originating from one or more clients, the method comprising: executing, among and by the n replicas, a phase of the BFT protocol, phases being numbered as positive numbers φ=1,2, . . . , in each phase one or several consecutive replicas playing a specific role and being identified as leader replica, a lock certificate being associated with said phase; and if 2t+1 communicating instances of said lock certificate are not received by the n replicas within a predetermined timeout period, initiating a view-change with at least the following steps: if current phase number φ is different than 1, each replica P i(1=1 . . . n) sets φ i the highest phase number up to said current phase φ for which said replica P i received said lock certificate associated with a value I i , or each replica P i(1=1 . . . n) sets said phase number φ i equal to 0 if said replica did not receive any lock certificate; each replica P i sending to a leader replica L φ a message containing at least a report (φ i ,φ), appended with said lock certificate (I i ,φ i ) if φ i ≥1, and on the leader replica L φ side: if said current phase number φ is equal to 1, said leader replica L φ sets a value equal to an input I and sends a proposition message to the replicas including said value I, or if said current phase number φ is different than 1, upon receiving messages from 2t+1 distinct replicas, with one such message from a replica i max containing a report (φ imax ,φ) such that a phase number φ imax is the highest phase number φ i out of the said 2t+1 reports (φ i ,φ) received, a phase number φ max is then set equal to the phase number φ imax and a value I max is set equal to I imax the value contained in the lock certificate (I imax ,φ imax) appended to the message from i max , the leader replica L φ generating a message out of said 2t+1 distinct replicas, with: (i) if said phase number φ max is greater than 0, said leader replica L φ , having received at least one lock certificate Lc max (I max ,φ max ), sends a proposition message (I max ,φ,PnS(φ max ,φ), Lc max ) to the replicas; or (ii) if said phase number φ max is equal to 0, said leader replica L φ sets the value/equal to an input I mod and sends a proposition message (I mod ,φ,PnS(0,φ),⊥) to the replicas, in order to make the view-change effective in said distributed system.",
+  "patent_id": "US12381734-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/3239",
+      "G06F 11/183",
+      "G06F 11/187",
+      "H04L 9/50",
+      "H04L 2209/463"
+    ],
+    "all": [
+      "H04L 9/3239",
+      "G06F 11/183",
+      "G06F 11/187",
+      "H04L 9/50",
+      "H04L 2209/463"
+    ],
+    "source": "converted"
+  }
+}

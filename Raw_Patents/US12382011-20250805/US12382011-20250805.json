@@ -1,0 +1,18 @@
+{
+  "title": "Signal processing apparatus",
+  "abstract": "A signal processing apparatus includes one or more memories storing instructions, and one or more processors executing the instructions to acquire metadata from a video signal, detect an error of the metadata, and correct, in a case where the error has been detected, the error of the metadata.",
+  "claims": "1. A signal processing apparatus comprising: one or more memories storing instructions; and one or more processors executing the instructions to acquire metadata from a video signal, detect an error of the metadata, correct, in a case where the error has been detected, the error of the metadata, and analyze metadata of an input video signal, wherein, in a case where the acquired metadata does not correspond with a result of the analysis, the one or more processors determines that the metadata is erroneous, wherein the one or more processors correct the metadata to a corresponding value based on the result of the analysis, wherein the one or more processors determine whether tone characteristics of the video signal indicate Standard Dynamic Range (SDR), Hybrid Log Gamma (HLG), or Perceptual Quantizer (PQ), based on the number of pixels in a frame per luminance value, wherein, in a case where a difference between the number of pixels whose luminance value is a predetermined luminance value or more and the number of pixels whose luminance value is less than the predetermined luminance value is less than a threshold, the one or more processors determine that the tone characteristics of the video signal is SDR, wherein correction of the error of the metadata includes automatically inserting a corrected video signal by overwriting the video signal without a user input indicating tone characteristics.",
+  "patent_id": "US12382011-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 17/00",
+      "H04N 21/435"
+    ],
+    "all": [
+      "H04N 17/00",
+      "H04N 21/435"
+    ],
+    "source": "converted"
+  }
+}

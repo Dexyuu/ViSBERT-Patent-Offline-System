@@ -1,0 +1,34 @@
+{
+  "title": "Average power tracking systems with fast transient settling",
+  "abstract": "Average power tracking (APT) systems with fast transient settling are disclosed. In certain embodiments, an APT system is used to provide a power amplifier supply voltage to a power amplifier that amplifies a radio frequency (RF) signal. The APT system controls the power amplifier supply voltage to track an average power of the RF signal, and includes a DC-to-DC converter that is assisted by an error amplifier in transitioning from one power amplifier supply voltage level to another power amplifier supply voltage level. Thus, the combination of a DC-to-DC converter with a fast changing error amplifier can swing enough AC voltage with a low enough slew rate to be able to rapidly transition the power amplifier supply voltage from one APT voltage level to another APT voltage level.",
+  "claims": "1. A mobile device comprising: a transceiver configured to generate a radio frequency signal; a front-end system including a power amplifier configured to amplify the radio frequency signal, the power amplifier configured to receive power from a power amplifier supply voltage; and a power management system configured to provide the power amplifier supply voltage to the power amplifier, the power management system including an AC coupling capacitor, a feedback circuit, a DC-to-DC converter having an output configured to regulate the power amplifier supply voltage, and an error amplifier configured to operate in combination with one another to transition the power amplifier supply voltage from a first average power tracking voltage level to a second average power tracking voltage level, the error amplifier having a first input controlled based on the second average power tracking voltage level, a second input, and an output configured to provide a current to the output of the DC-to-DC converter by way of the AC coupling capacitor, the AC coupling capacitor and the feedback circuit electrically connected in series between output of the error amplifier and the second input of the error amplifier, a portion of the current providing feedback from the output of the error amplifier to the second input by way of the AC coupling capacitor and the feedback circuit.",
+  "patent_id": "US12381522-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03F 3/245",
+      "H03F 1/0227",
+      "H03F 1/0238",
+      "H03F 3/195",
+      "H04B 1/04",
+      "H04B 1/40",
+      "H03F 2200/105",
+      "H03F 2200/451",
+      "H04B 2001/0408",
+      "H04B 2001/045"
+    ],
+    "all": [
+      "H03F 3/245",
+      "H03F 1/0227",
+      "H03F 1/0238",
+      "H03F 3/195",
+      "H04B 1/04",
+      "H04B 1/40",
+      "H03F 2200/105",
+      "H03F 2200/451",
+      "H04B 2001/0408",
+      "H04B 2001/045"
+    ],
+    "source": "converted"
+  }
+}

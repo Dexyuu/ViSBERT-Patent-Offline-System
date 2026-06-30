@@ -1,0 +1,28 @@
+{
+  "title": "Generation of teaching data including image and object information including category, position, size, and orientation of object included in image",
+  "abstract": "The first neural network is a learned neural network learned in such a way as to output, when an object image is input, a geometric transformation parameter relevant to the object image. The object image is an image of an object identified based on object information of the first teaching data including an image and the object information including a category, a position, and a size of an object included in the image. The calculation unit calculates an orientation of the object, based on the geometric transformation parameter being output from the first neural network. The generation unit generates, by adding the orientation of the object being calculated by the calculation unit to the first teaching data, second teaching data including an image and object information including a category, a position, a size, and an orientation of an object included in the image.",
+  "claims": "1. A teaching data conversion device comprising: a memory storing instructions; and a processor configured to execute the instructions to: store a learned first neural network learned in such a way as to output, when an object image being an image of an object specified based on object information of first teaching data including an image and the object information including a category, a position, and a size of the object in the image, is input, a geometric transformation parameter relevant to the object image; calculate an orientation of the object, based on the geometric transformation parameter being output from the first neural network; and generate, by adding the orientation of the object to the first teaching data, second teaching data including the image and object information including a category, a position, a size, and the orientation of the object included in the image, wherein the orientation of the object is represented by a coordinate value on a unit circle relevant to the orientation.",
+  "patent_id": "US12380591-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/70",
+      "G06T 3/02",
+      "G06T 3/20",
+      "G06T 3/40",
+      "G06T 3/60",
+      "G06T 7/62",
+      "G06V 10/82"
+    ],
+    "all": [
+      "G06T 7/70",
+      "G06T 3/02",
+      "G06T 3/20",
+      "G06T 3/40",
+      "G06T 3/60",
+      "G06T 7/62",
+      "G06V 10/82"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Core network device, communication terminal, communication system, authentication method, and communication method",
+  "abstract": "An object is to provide a core network device being able to efficiently perform secondary authentication to be performed for each network slice. A core network device (10) according to the present disclosure includes an authentication unit (11) configured to perform, during registration processing of registering a communication terminal in a core network, first authentication processing of determining whether the communication terminal is a communication terminal permitted to be registered in the core network, a communication unit (13) configured to receive permission list information indicating at least one network slice usable by the communication terminal in a serving network, and an authentication unit (12) configured to perform, during registration processing of registering the communication terminal in the core network, second authentication processing of determining whether the communication terminal is a communication terminal permitted to use a network slice included in the permission list information.",
+  "claims": "1. A communication apparatus comprising: at least one memory storing instructions; and at least one processor configured to execute the instructions: to receive, from a communication terminal, a Registration Request message including Requested Network Slice Selection Assistance Information (Requested NSSAI) and capability information of the communication terminal, the capability information of the communication terminal indicating whether the communication terminal is capable of performing Slice-Specific Authentication and Authorization, to perform a procedure related to the Slice-Specific Authentication and Authorization if the capability information indicates that the communication terminal is capable of performing the Slice-Specific Authentication and Authorization, and not to perform the procedure related to the Slice-Specific Authentication and Authorization if the capability information indicates that the communication terminal is not capable of performing the Slice-Specific Authentication and Authorization.",
+  "patent_id": "US12382283-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 12/06",
+      "H04W 12/08",
+      "H04W 60/00",
+      "H04W 84/042"
+    ],
+    "all": [
+      "H04W 12/06",
+      "H04W 12/08",
+      "H04W 60/00",
+      "H04W 84/042"
+    ],
+    "source": "converted"
+  }
+}

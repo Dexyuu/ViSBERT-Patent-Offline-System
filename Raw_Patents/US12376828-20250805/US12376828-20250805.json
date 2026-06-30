@@ -1,0 +1,20 @@
+{
+  "title": "Methods and systems for coherence imaging in obtaining ultrasound images",
+  "abstract": "A system for coherence imaging may receive ultrasound signals each having a respective delay associated with a respective ultrasonic transducer element in an ultrasonic transducer array. The system may obtain an approximation of the auto-correlation of ultrasound signals without any auto-correlation calculation, and determine the output image based on the approximation. In approximating the auto-correlation, the system may group the ultrasound signals into multiple portions, each corresponding to a respective sub-aperture of a plurality of sub-apertures of the ultrasonic transducer array. The system may determine a coherent sum of signals for each sub-aperture, perform a square operation or magnitude square operation over the coherent sum to obtain resulting data, normalize the resulting data, and sum the resulting data for all of the sub-apertures to generate the output image. A sub-aperture in the plurality of sub-apertures may overlap with another sub-aperture.",
+  "claims": "1. An apparatus, comprising: a handheld ultrasound probe wirelessly operatively couplable to a smartphone or tablet, the handheld ultrasound probe containing: an ultrasonic transducer array configured to selectively transmit ultrasound signals at any frequency from 1 MHz-12 MHz associated with a plurality of transducer elements and receive ultrasound signals reflected through a target tissue; one or more processing devices configured to, for a point in the target tissue: process a plurality of portions of received signals the point in the target tissue, wherein each of the plurality of portions is associated with grouped into a respective one of a plurality of sub-apertures of the transducer array, wherein the processing comprises: determining a respective coherent sum over each of the plurality of portions of the received signals for each sub-aperture; performing a processing operation over the respective coherent sum to obtain respective resulting data for each sub-aperture; normalizing the respective resulting data for a sub-aperture of the plurality of sub-apertures by an incoherent sum of the received ultrasound signals associated with the sub-aperture; and summing the normalized resulting data for the plurality of sub-apertures for imaging the target tissue.",
+  "patent_id": "US12376828-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 8/4472",
+      "A61B 5/0066",
+      "A61B 8/4427"
+    ],
+    "all": [
+      "A61B 8/4472",
+      "A61B 5/0066",
+      "A61B 8/4427"
+    ],
+    "source": "converted"
+  }
+}

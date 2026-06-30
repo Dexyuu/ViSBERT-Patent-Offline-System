@@ -1,0 +1,35 @@
+{
+  "application_id": "WO2018055530",
+  "application_id_fs": null,
+  "title": "Authorization with container application issued token",
+  "abstract": "A method and system manages access to resources within a virtualization platform using an application token, where the application token includes information to enable identification of an associated application. The method includes receiving a request from an application programming interface (API) server to instantiate an application, where the application is provided the application token based on a verified caller token, generating the application token derived from the verified caller token or a virtualization platform policy, and providing the application token to the application in a container for the application.",
+  "claims": "Claims CLAIMS  What is claimed is: 1. A method for managing access to resources within a virtualization platform using an application token, where the application token includes information to enable identification of an associated application, the method comprising: receiving (301) a request from an application programming interface (API) server to instantiate an application, where the application is provided the application token based on a verified caller token; generating (307) the application token derived from the verified caller token or a virtualization platform policy; and providing (309) the application token to the application in a container for the application. 2. The method of claim 1, further comprising: instantiating (303) the container for the application. 3. The method of claim 1, further comprising: instantiating (305) the application program in the container. 4. The method of claim 1, further comprising: receiving indication of the validation of a caller token from the API server. 5. The method of claim 4, wherein the caller token is a user token or application token. 6. The method of claim 1, wherein application token includes information to uniquely identify the application or a digital signature. 7. The method of claim 1, wherein the virtualization platform policy can set a scope of authorization sets to be associated with an application token to be a superset or a subset of an authorization set of the caller token, or an authorization set based on platform policies. 8. A computing system configured to implement a method for managing access to resources within a virtualization platform using an application token, where the application token includes information to enable identification of an associated application, the computing system comprising: a non-transitory machine readable medium (113) having stored therein a container manager; and a processor (1 11) coupled to the non-transitory machine readable medium, the processor to execute the container manager, the container manager to receive a request from an application programming interface (API) server to instantiate an application, where the application is provided the application token based on a verified caller token, to generate the application token derived from the verified caller token or a virtualization platform policy, and to provide the application token to the application in a container for the application. 9. The computing system of claim 8, wherein the container manager is further to instantiate the container for the application. 10. The computing system of claim 8, wherein the container manager is further to instantiate the application program in the container. 11. The computing system of claim 8, wherein the container manager is further to receive indication of the validation of a caller token from the API server. 12. The computing system of claim 11, wherein the caller token is a user token or application token. 13. The computing system of claim 8, wherein application token includes information to uniquely identify the application or a digital signature. 14. The computing system of claim 8, wherein the virtualization platform policy can set a scope of authorization sets to be associated with an application token to be a superset or a subset of an authorization set of the caller token, or an authorization set based on platform policies. 15. A non-transitory machine-readable storage medium that provides instructions that, if executed by a processor, will cause said processor to perform operations of a method for managing access to resources within a virtualization platform using an application token, where the application token includes information to enable identification of an associated application, the operations comprising: receiving (301) a request from an application programming interface (API) server to instantiate an application, where the application is provided the application token based on a verified caller token; generating (307) the application token derived from the verified caller token or a virtualization platform policy; and providing (309) the application token to the application in a container for the application. 16. The non-transitory machine -readable storage medium of claim 15, having further instructions stored therein, which when executed cause the processor to perform further operations comprising: instantiating (303) the container for the application. 17. The non-transitory machine -readable storage medium of claim 15, having further instructions stored therein, which when executed cause the processor to perform further operations comprising: instantiating (309) the application program in the container. 18. The non-transitory machine -readable storage medium of claim 15, having further instructions stored therein, which when executed cause the processor to perform further operations comprising: receiving indication of the validation of a caller token from the API server. 19. The non-transitory machine -readable storage medium of claim 18, wherein the caller token is a user token or application token. 20. The non-transitory machine-readable storage medium of claim 15, wherein application token includes information to uniquely identify the application or a digital signature.",
+  "classifications": {
+    "ipc": [
+      "G06F 21/31",
+      "G06F 9/455",
+      "G06F 21/44",
+      "G06F 21/53",
+      "G06F 21/54",
+      "G06F 21/57",
+      "G06F 21/60",
+      "G06F 21/62",
+      "H04L 29/06",
+      "H04L 29/08"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 21/31",
+      "G06F 9/455",
+      "G06F 21/44",
+      "G06F 21/53",
+      "G06F 21/54",
+      "G06F 21/57",
+      "G06F 21/60",
+      "G06F 21/62",
+      "H04L 29/06",
+      "H04L 29/08"
+    ],
+    "source": "csv"
+  }
+}

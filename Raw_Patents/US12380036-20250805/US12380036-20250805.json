@@ -1,0 +1,20 @@
+{
+  "title": "Cache optimization mechanism",
+  "abstract": "An apparatus includes a central processing unit (CPU), including a plurality of processing cores, each having a cache memory, a fabric interconnect coupled to the plurality of processing cores and cryptographic circuitry, coupled to the fabric interconnect including mesh stop station to receive memory data and determine a destination of the memory data and encryption circuitry to encrypt/decrypt the memory data based on a destination of the memory data.",
+  "claims": "1. An apparatus comprising a central processing unit (CPU), including: a plurality of processing cores, each having a cache memory; a fabric interconnect coupled to the plurality of processing cores; and cryptographic circuitry, coupled to the fabric interconnect, including: mesh stop station to receive memory data and determine a destination of the memory data; and encryption circuitry to perform an encryption operation on the memory data upon determining that a first destination is a cache memory and to transmit the memory data without performing the encryption operation upon determining that the first destination is not cache memory.",
+  "patent_id": "US12380036-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 12/1408",
+      "G06F 12/0842",
+      "G06F 2212/402"
+    ],
+    "all": [
+      "G06F 12/1408",
+      "G06F 12/0842",
+      "G06F 2212/402"
+    ],
+    "source": "converted"
+  }
+}

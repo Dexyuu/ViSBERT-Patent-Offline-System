@@ -1,0 +1,24 @@
+{
+  "title": "Information processing apparatus, control method, and program",
+  "abstract": "An information processing apparatus (2000) includes a product recognition unit (2020), a shelf label recognition unit (2040), and a determination unit (2060). The product recognition unit (2020) recognizes the number of types of products or positions of each type of products from a target image. The shelf label recognition unit (2040) recognizes the number or positions of shelf labels indicating information of the products from the target image. The determination unit (2060) determines whether or not there is an error in a relationship between the recognized number of types of products and the recognized number of shelf labels or in a relationship between the recognized positions of each type of products and the recognized positions of the shelf labels.",
+  "claims": "1. An information processing apparatus comprising: at least one memory storing instructions; and at least one processor configured to execute the instructions to: recognize a number of types of products from an image on which the products and shelf labels are imaged by classifying the products into a plurality of product groups based on a similarity between adjacent products in a shelf captured in the image; recognize a number of shelf labels indicating information of each product from the image; and determine whether there is an error in a relationship between the recognized number of types of products and the recognized number of shelf labels, wherein the processor is further configured to execute the instructions to: based on the recognized number of types of products and the recognized number of shelf labels not being equal to each other, determine that there is an error in the relationship between the recognized number of types of products and the recognized number of shelf labels; based on determination that there is no error in the relationship between the recognized number of types of products and the recognized number of shelf labels, recognize a position of each type of products and a position of the shelf label indicating information of each product from the image; determine whether there is an error in a positional relationship between the recognized positions of each type of products and the recognized positions of the shelf labels; and detect the error in the positional relationship, in a case where a position of shelf label is not recognized in a predetermined direction to the position of the product.",
+  "patent_id": "US12380402-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/087",
+      "B65G 1/137",
+      "G06Q 30/06",
+      "G06V 20/20",
+      "G06V 20/52"
+    ],
+    "all": [
+      "G06Q 10/087",
+      "B65G 1/137",
+      "G06Q 30/06",
+      "G06V 20/20",
+      "G06V 20/52"
+    ],
+    "source": "converted"
+  }
+}

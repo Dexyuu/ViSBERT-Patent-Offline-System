@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2017123071",
+  "application_id_fs": "WO2017123071",
+  "title": "A mobile device and a method for texture memory optimization thereof",
+  "abstract": "The embodiments herein provide a mobile device comprising a display, and a processor configured to receiving a texture to be rendered on the display, checking at least one rendering parameter for the received texture wherein the rendering parameter comprises at least one of a device resolution, available memory, rendering path, and texture type, selecting at least one memory optimization technique based on the at least one rendering parameter, wherein the memory optimization technique is at least one of Dynamic Texture Scaling (DTS), Content Adaptive Compression (CAC), and On Device Texture Compression (ODTC) and performing the selected texture optimization technique on the received texture.",
+  "claims": "Claims ( 13 ) A mobile device comprising: a display; and a processor configured for: receiving a texture to be rendered on the display; checking at least one rendering parameter for the received texture, selecting at least one texture optimization technique based on the at least one rendering parameter, wherein the at least one texture optimization technique is at least one of a Dynamic Texture Scaling (DTS), Content Adaptive Compression (CAC), and On Device Texture Compression (ODTC); and performing the selected texture optimization technique on the received texture. The mobile device of claim 1, wherein the rendering parameter comprises at least one of a device resolution, available memory, rendering path and texture type. A memory optimization method comprising: detecting, by a processor, a texture upload call for a texture between a processor and a Graphical Processing Unit (GPU); performing a texture optimization technique on the texture to generate a low memory texture, wherein the texture optimization technique is at least one of On Device Texture Compression (ODTC), Content Adaptive Compression (CAC) and Dynamic Texture Scaling (DTS); and replacing the original texture with the low memory texture to be sent to the GPU. The method of claim 3, wherein ODTC based texture optimization technique comprises: inputting, to a recording module, one or more textures which are not provided earlier for compression; compressing, by a compressor module, the inputted one or more textures; and replacing, by a redirection module, the one or more inputted texture with a compressed texture if a corresponding compressed file of the texture is available. The method of claim 4, wherein the compressor module comprises: a Cache manager module adapted for: tracking of one or more applications and one or more textures that are to be retained on a device memory; retaining textures of the one or more applications which are frequently used; removing the one or more textures which are not used; a job scheduler module adapted for: verifying that the texture compression happens only when the mobile device is in idle mode, an Adaptive Scalable Texture Compression (ASTC) encoder comprising a library to compress the textures into ASTC; and a quality checker unit adapted for checking if the compressed textures are of acceptable quality. The method of claim 4, wherein the compressor module further comprises an alarm receiver for triggering an ODTC session, where the alarm receiver can be configured for a predetermined time interval. The method of claim 3, wherein the performing the CAC texture optimization technique comprises: inputting, to a classification module, one or more images; performing, by the classification module, classification of each sub image based on an information content.; downscaling, by a downscaling module, each sub image based on the classification; and creating a mesh and a texture atlas from the downscaled sub images. The method of claim 3, wherein the performing the DTS texture optimization technique comprises: determining, by a TMO sensor module, a DTS downscaling ratio for the texture based on one or more criteria, where the one or more criteria comprises of a device resolution, texture quality, and a mode of saving of an image; providing, by a DTS list module, a list of applications and an optimal downscaling ratio of the applications for one or more devices; performing a DTS core module elaboration; and performing an EDGE BASED PEAK SIGNAL TO NOISE RATIO (EB-PSNR) for ensuring the quality of one or more compressed images. The method of claim 8, wherein the TMO sensor module is further adapted for: identifying a rendering path of a content during a feature selection; and performing a texture analysis on the identified rendering path; wherein the rendering path of the content is at least one of a hardware user interface (HWUI) and an Extended Graphical Language (EGL). The method of claim 8, wherein the TMO sensor module is further adapted for determining a level of compression to be applied for the feature parameter selection; wherein the feature parameter selection is performed based on one or more parameters comprising a scale factor, a compression factor, a device resolution, and available device memory. The method of claim 8, wherein the method of performing EB-PSNR for ensuring the quality of the compressed image comprises of: obtaining, by a canny edge detector, one or more edge images of an original texture and a reconstructed texture of the one or more compressed images; determining,ãpeak signal-to-noise ratio (PSNR) of blocks by calculating a Sum Squared Error (SSE) after applying smoothening on the one or more edge images and reconstructed texture of the one or more compressed images; performing different levels of smoothening and SSE for each level is accumulated as a final average SSE, finding an edgePSNR block based on the one or more edge images, identified for blocks of image along with a PSNR corresponding to each block; identifying an un-ideal edgePSNR block after finding the edge PSNR block for the plurality of blocks in the image; checking if the unideal edgePSNR is above a preset threshold PSNR or not. The method of claim 8, wherein the edge images of original texture and reconstructed texture of the compressed image by a canny edge detector can be obtained from at least one of Red, Green, Blue (RGB) color space, HSV color space, YUV color space, LUV color space and YCrCb color space. A computer program produce comprising computer executable program code recorded on a computer readable storage medium, the computer executable program code comprising : detecting, by a processor, a texture upload call for a texture between a processor and a Graphical Processing Unit (GPU); performing a texture optimization technique on the texture to generate a low memory texture, wherein the texture optimization technique is at least one of On Device Texture Compression (ODTC), Content Adaptive Compression (CAC) and Dynamic Texture Scaling (DTS); and replacing the original texture with the low memory texture to be sent to the GPU.",
+  "classifications": {
+    "ipc": [
+      "G06T 11/00",
+      "G06T 11/001",
+      "G06T 1/00",
+      "G06T 1/60",
+      "G06T 1/20",
+      "G06T 15/00",
+      "G06T 15/005",
+      "G06T 15/04",
+      "G06T 17/00",
+      "G06T 17/20",
+      "G06T 3/00",
+      "G06T 3/40",
+      "G06T 5/00",
+      "G06T 5/70",
+      "G06T 7/00",
+      "G06T 7/10",
+      "G06T 7/13"
+    ],
+    "cpc": [],
+    "all": [
+      "G06T 11/00",
+      "G06T 11/001",
+      "G06T 1/00",
+      "G06T 1/60",
+      "G06T 1/20",
+      "G06T 15/00",
+      "G06T 15/005",
+      "G06T 15/04",
+      "G06T 17/00",
+      "G06T 17/20",
+      "G06T 3/00",
+      "G06T 3/40",
+      "G06T 5/00",
+      "G06T 5/70",
+      "G06T 7/00",
+      "G06T 7/10",
+      "G06T 7/13"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017123071"
+}

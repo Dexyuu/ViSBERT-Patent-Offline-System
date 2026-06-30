@@ -1,0 +1,20 @@
+{
+  "title": "Controlling an apparatus with a behavior tree",
+  "abstract": "A method and a system for controlling an apparatus using a behavior tree for an assigned task performed by the apparatus. The behavior tree includes a planner section and an activation section. The method includes calling the planner section, determining the state of the apparatus and setting an activation status by the planner section in response to being called, and evaluating the activation status before executing the assigned task.",
+  "claims": "1. A method for controlling an apparatus, wherein the apparatus is a robot, the method comprising: using a behavior tree for tasks performed by the apparatus, wherein the behavior tree comprises nodes including a root node, at least one control flow node and at least one execution node and directed edges, wherein the nodes are connected with the directed edges, wherein the root node has one outgoing edge and no incoming edge, each control flow node has one incoming edge and at least one outgoing edge, and each execution node has one incoming edge and no outgoing edge, wherein a node having an outgoing edge is defined as a parent node in relation to another node connected to this edge, and a node having an incoming edge is defined as a child node in relation to another node connected to this edge, and wherein the at least one control flow nodes and the at least one execution nodes are adapted to return different states to their parent nodes, the states including success, running, and failure; wherein the method further comprises: the root node calling its child node, which is a control flow node; the root node's child node calling a first node; the first node returning a first state to the root node's child node; and the root node's child node returning a second state to the root node; wherein the behavior tree comprises a planner section, wherein the planner section is a child section of a node of the behavior tree; wherein the behavior tree comprises function subtrees for manipulating at least one respective hardware resource of the apparatus wherein each function subtree comprises a respective activation node and a respective function section, wherein each activation node is configured to be set by the planner section in an active state or in an inactive state; wherein the method further comprises: calling the planner section; in response to being called, determining, by the planner section, a state of the apparatus and setting, by the planner section and based on the determination of the state of the apparatus, at least one activation node in the active state or in the inactive state, wherein the planner section is distinct from each of the function subtrees; calling the function subtrees; in response to being called, each function subtree calling the respective function section if the respective activation node is set to the active state and determining not to call the respective function section if the respective activation node is set to the inactive state; calling, via a loop node, a plan activation section; and in response to being called, the plan activation section sequentially requesting a new step or task by calling the planner section after a previous step or task completes; wherein the behavior tree comprises the loop node, and wherein the plan activation section is arranged in the behavior tree such that the plan activation section is called via the loop node.",
+  "patent_id": "US12379711-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05B 19/4155",
+      "B25J 9/1664",
+      "G05B 2219/39254"
+    ],
+    "all": [
+      "G05B 19/4155",
+      "B25J 9/1664",
+      "G05B 2219/39254"
+    ],
+    "source": "converted"
+  }
+}

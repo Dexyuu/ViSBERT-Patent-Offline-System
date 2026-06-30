@@ -1,0 +1,22 @@
+{
+  "title": "Voice operation device, voice operation method and voice operation program",
+  "abstract": "A task determination unit determines a type of processing being operated, on the basis of an operation situation of an existing system. A conversion unit converts voice data input during a predetermined operation of an HID into text data, and determines whether the text data is used for a command determination or a setting parameter according to operation content of the HID. A command determination unit determines a command by using the text data and the type of processing being operated, when it is determined that the text data is used for the command determination. An operation unit executes an operation corresponding to the determined command with respect to the existing system by using the text data as a parameter, when it is determined that the text data is used for the setting parameter.",
+  "claims": "4. A voice operation method executed by a voice operation device, the voice operation method comprising: determining a type of processing being operated, on a basis of an operation situation of an existing system; converting voice data input during a predetermined operation of a human interface device (HID) into text data, and determining whether the text data is used for a command determination or a setting parameter according to operation content of the HID; determining a command by using the text data and the type of processing being operated, in response to determining that the text data is used for the command determination; and executing an operation corresponding to the determined command with respect to the existing system by using the text data as a parameter, in response to determining that the text data is used for the setting parameter, wherein: determining the type of processing and the command corresponding to the type of processing is performed based on a rule stored in a memory, wherein the rule further includes information for designating a parameter to be set in correspondence to the command.",
+  "patent_id": "US12380886-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 15/22",
+      "G10L 15/26",
+      "G10L 2015/223",
+      "G10L 2015/228"
+    ],
+    "all": [
+      "G10L 15/22",
+      "G10L 15/26",
+      "G10L 2015/223",
+      "G10L 2015/228"
+    ],
+    "source": "converted"
+  }
+}

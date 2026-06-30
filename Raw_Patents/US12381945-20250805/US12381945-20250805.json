@@ -1,0 +1,18 @@
+{
+  "title": "Method for managing persistent group information of electronic device",
+  "abstract": "A method for managing persistent group information of an electronic device is provided. The electronic device is a group member of a persistent group. The method includes when the persistent group information is deleted in response to a specific event, the electronic device transmits, to the group members, a message requesting the deletion of the persistent group information stored by group members of the persistent group, thus making it possible to delete the persistent group information and enabling synchronization to proceed.",
+  "claims": "1. A method performed by an electronic device for managing persistent group information of the electronic device, the method comprising: receiving, by the electronic device, a peer-to-peer (P2P) connection provision request from an external electronic device; transmitting, by the electronic device, a P2P connection provision response in response to the P2P connection provision request to the external electronic device; forming, by the electronic device, a persistent group based on the P2P connection provision response; transmitting, by the electronic device, a group owner negotiation request to the external electronic device; receiving, by the electronic device, a group owner negotiation response from the external electronic device; storing, by the electronic device, persistent group information of the persistent group; transmitting, by the electronic device, a request for deletion of the persistent group information to the external electronic device when the persistent group information is deleted according to an event; receiving, by the electronic device from the external electronic device, a response to deletion of the persistent group information, when the persistent group information is deleted from the external electronic device; and transmitting, by the electronic device to another electronic device, information that a previously-persistent group to which the electronic device belongs is no longer a persistent group after the persistent group information is deleted, wherein the event comprises one of deletion of the persistent group information by a user of the electronic device, initialization of network information, initialization of the electronic device, or an error in a file system of the electronic device.",
+  "patent_id": "US12381945-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 67/1051",
+      "H04L 63/104"
+    ],
+    "all": [
+      "H04L 67/1051",
+      "H04L 63/104"
+    ],
+    "source": "converted"
+  }
+}

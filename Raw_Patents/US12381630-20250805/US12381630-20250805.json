@@ -1,0 +1,20 @@
+{
+  "title": "Communication system, receiver, distortion detection device, and method",
+  "abstract": "A coherent receiving circuit coherently receives a signal transmitted via a transmission line. A filter group includes a first WL filter, a filter layer, and a second WL filter being connected in tandem. A coefficient updating means adaptively controls filter coefficients of the first WL filter and the second WL filter by using an error back propagation method, based on a difference between an output signal being output from the filter group and a predetermined value thereof. A first distortion detection means detects in-receiver distortion, based on a filter coefficient of the first WL filter. A second distortion detection means detects in-transmitter distortion, based on a filter coefficient of the second WL filter.",
+  "claims": "1. A receiver comprising: a coherent receiver configured to coherently receive a signal transmitted via a transmission line; a filter group having a first widely linear (WL) filter, a filter layer, and a second WL filter that are connected in tandem, the first WL filter compensating for in-receiver distortion occurring in the signal at a receiver, the filter layer including one or more filters that compensate for distortion included in the signal, the second WL filter compensating for in-transmitter distortion occurring in the signal at a transmitter configured to transmit the signal; a processor configured to execute instructions to: adaptively control filter coefficients of the first WL filter and the second WL filter by using an error back propagation method, based on a difference between an output signal being output from the filter group and a predetermined value of the output signal; detect in-receiver distortion after convergence of the filter coefficients, based on a filter coefficient of the first WL filter; and detect in-transmitter distortion after convergence of the filter coefficients, based on a filter coefficient of the second WL filter.",
+  "patent_id": "US12381630-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 10/61",
+      "H04B 10/2507",
+      "H04J 14/06"
+    ],
+    "all": [
+      "H04B 10/61",
+      "H04B 10/2507",
+      "H04J 14/06"
+    ],
+    "source": "converted"
+  }
+}

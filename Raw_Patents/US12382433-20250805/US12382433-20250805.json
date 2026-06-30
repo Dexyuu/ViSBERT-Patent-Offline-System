@@ -1,0 +1,24 @@
+{
+  "title": "Multiple prose group communication during a sidelink control period",
+  "abstract": "A method allocates radio resources for a transmitting user equipment (UE) to perform direct communication transmissions over a direct sidelink connection to one or more receiving UEs. At least two sidelink grant processes are provided in the transmitting UE for the transmitting UE to handle at least two sidelink grants within the same transmission control period. Each one of the sidelink grant processes is associated with an identification and can be associated with one sidelink grant. The transmitting UE acquires at least two sidelink grants and associates each of the acquired sidelink grants with one sidelink grant process. For each sidelink grant, the transmitting UE allocates radio resources according to the respective sidelink grant to perform a direct communication transmission of sidelink control information and of data over the direct sidelink connection. The transmitting UE performs a direct communication transmission per acquired sidelink grant within the same transmission control period.",
+  "claims": "1. A user equipment comprising: a receiver, which, in operation, receives sidelink grants; circuitry, which is coupled to the receiver and which, in operation: associates the sidelink grants with sidelink processes; determines radio resources allocated to the sidelink grants; uses a logical channel prioritization (LCP) procedure in common for all the sidelink grants to select one sidelink destination group including a logical channel associated with a highest priority, out of a plurality of sidelink destination groups including logical channels having data available for transmission and not previously selected within one transmission control period, as a destination of one of a plurality of direct communication transmissions; and generates sidelink control information that identifies the selected destination group and that identifies the radio resource allocated to the corresponding sidelink grant; and a transmitter, which is coupled to the circuitry and which, in operation, performs the plurality of direct communication transmissions including the direct communication transmission destined to the selected sidelink destination group, wherein the plurality of direct communication transmissions of sidelink control information and data over a plurality of direct sidelink connections use the sidelink grants for the sidelink processes, respectively, within said one transmission control period, wherein a maximum number of the sidelink processes executable in parallel is configured for the user equipment by a base station; wherein the sidelink grants indicate time resource patterns, which define radio resources in a time domain, with different bitmap patterns between the plurality of direct communication transmissions.",
+  "patent_id": "US12382433-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/02",
+      "H04W 72/0453",
+      "H04W 72/23",
+      "H04W 76/14",
+      "H04W 88/04"
+    ],
+    "all": [
+      "H04W 72/02",
+      "H04W 72/0453",
+      "H04W 72/23",
+      "H04W 76/14",
+      "H04W 88/04"
+    ],
+    "source": "converted"
+  }
+}

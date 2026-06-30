@@ -1,0 +1,30 @@
+{
+  "title": "Building energy analysis and management system",
+  "abstract": "This application relates to a building energy analysis and management system for measurement and verification of building performance. The system can analyze, optimize, manage, maintain, trouble shoot, and/or modify building systems, such as HVAC systems, in connection with the building energy usage. Measurements may be gathered for one or more HVAC units coupled to pressure independent valves, and sent to one or more Surge Panels that pass data to remote analysis servers, which can receive other system or external data. The analysis servers compare measurements to predicted values and can standardize the predicted values to account for external conditions. The comparison can result in difference values used to generate probable causes and optimization recommendations. The system outputs reports or other data display using a graphical user interface that can be adjusted for an anticipated user.",
+  "claims": "1. An HVAC data panel couplable to a HVAC system, comprising: an input interface configured to receive one or more HVAC determined values that comprise one or more values based on fluid flow rate through a pressure independent valve; a comparator configured to compare the one or more of the HVAC determined values with one or more of expected measurements for the one or more HVAC determined values, such that the comparator determines a difference value between the one or more of the HVAC determined values and the one or more of expected measurements; an inference component configured to determine a probable cause based on a match between the difference value and one or more known difference values; an optimization component configured to determine one or more changes to a building component or process based on the difference value or probable cause; wherein the input interface is further configured to send one or more signals based on the one or more changes determined by the optimization component.",
+  "patent_id": "US12379121-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "F24F 11/38",
+      "F24F 11/30",
+      "F24F 11/62",
+      "G05B 13/024",
+      "G05B 19/042",
+      "F24F 11/46",
+      "F24F 2110/00",
+      "G05B 2219/2614"
+    ],
+    "all": [
+      "F24F 11/38",
+      "F24F 11/30",
+      "F24F 11/62",
+      "G05B 13/024",
+      "G05B 19/042",
+      "F24F 11/46",
+      "F24F 2110/00",
+      "G05B 2219/2614"
+    ],
+    "source": "converted"
+  }
+}

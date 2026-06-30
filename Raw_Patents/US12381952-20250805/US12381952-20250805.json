@@ -1,0 +1,34 @@
+{
+  "title": "Subscription and notification service",
+  "abstract": "Mechanisms for subscription and notification may include dynamically changing notification behavior based on notification target status or support access to notification history information.",
+  "claims": "1. An apparatus comprising: one or more processors; and one or more memories coupled with the one or more processors, the one or more memories comprising executable instructions that when executed by the processor cause the processor to effectuate operations comprising: obtaining a subscription request from a subscriber device to a first resource being a uniquely addressable element in a Resource Oriented Architecture (ROA) having a representation that can be manipulated via RESTful methods, wherein the subscription request comprises: an event notification criteria that defines when an event notification is to be generated, and instructions on when, how, or which notification should be recorded; detecting the event notification criteria has been met for the first resource; generating the event notification for the first resource; transmitting a notification message to the subscriber device; recording the notification message to a second resource based on the instructions in the subscription request when the notification message has failed; receiving, via RESTful methods, a retrieval request to retrieve the recorded notification message stored in the second resource; and based on the retrieval request, sending a response, wherein the response comprises content of the recorded notification message stored in the second resource.",
+  "patent_id": "US12381952-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 67/12",
+      "G06Q 10/06",
+      "G06Q 10/10",
+      "H04L 67/55",
+      "H04L 67/63",
+      "H04W 4/70",
+      "H04W 76/12",
+      "H04L 43/00",
+      "H04L 67/125",
+      "H04L 67/288"
+    ],
+    "all": [
+      "H04L 67/12",
+      "G06Q 10/06",
+      "G06Q 10/10",
+      "H04L 67/55",
+      "H04L 67/63",
+      "H04W 4/70",
+      "H04W 76/12",
+      "H04L 43/00",
+      "H04L 67/125",
+      "H04L 67/288"
+    ],
+    "source": "converted"
+  }
+}

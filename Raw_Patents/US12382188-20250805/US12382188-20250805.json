@@ -1,0 +1,30 @@
+{
+  "title": "Hand-tracking pipeline dimming",
+  "abstract": "A hand-tracking input pipeline dimming system for an AR system is provided. The AR system deactivates the hand-tracking input pipeline and places a camera component of the hand-tracking input pipeline in a limited operational mode. The AR system uses the camera component to detect initiation of a gesture by a user of the AR system and in response to detecting the initiation of the gesture, the AR system activates the hand-tracking input pipeline and places the camera component in a fully operational mode.",
+  "claims": "1. A computer-implemented method comprising: deactivating, by one or more processors of an Augmented Reality (AR) system, a hand-tracking input pipeline of the AR system; instructing, by the one or more processors, a camera component of the AR system to enter into a limited operational mode, the limited operational mode allowing capturing limited frame rate video data; capturing, by the one or more processors using the camera component, the limited frame rate video data; detecting, by the one or more processors using the limited frame rate video data, initiation of a gesture by a user of the AR system; and performing, by the one or more processors, on a basis of detecting the initiation of the gesture, operations comprising: activating the hand-tracking input pipeline while the user is still making the gesture of the detected initiation; and instructing the camera component to enter into a fully operational mode to recognize the gesture while the user is still making the gesture.",
+  "patent_id": "US12382188-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 23/90",
+      "G06V 10/764",
+      "G06V 10/94",
+      "G06V 20/20",
+      "G06V 40/28",
+      "H04N 23/611",
+      "H04N 23/651",
+      "H04N 23/667"
+    ],
+    "all": [
+      "H04N 23/90",
+      "G06V 10/764",
+      "G06V 10/94",
+      "G06V 20/20",
+      "G06V 40/28",
+      "H04N 23/611",
+      "H04N 23/651",
+      "H04N 23/667"
+    ],
+    "source": "converted"
+  }
+}

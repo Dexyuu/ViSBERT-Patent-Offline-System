@@ -1,0 +1,22 @@
+{
+  "title": "Neural processing device and method for synchronization thereof",
+  "abstract": "A neural processing device is provided. The neural processing device comprises a plurality of neural processors, a shared memory shared by the plurality of neural processors, a plurality of semaphore memories, and global interconnection. The plurality of neural processors generates a plurality of L3 sync targets, respectively. Each semaphore memory is associated with a respective one of the plurality of neural processors, and the plurality of semaphore memories receive and store the plurality of L3 sync targets, respectively. Synchronization of the plurality of neural processors is performed according to the plurality of L3 sync targets. The global interconnection connects the plurality of neural processors with the shared memory, and comprises an L3 sync channel through which an L3 synchronization signal corresponding to at least one L3 sync target is transmitted.",
+  "claims": "1. A neural processing device comprising: first and second neural cores; and, an L2 sync path configured to directly transmit an L2 synchronization signal between the first and second neural cores, wherein the first neural core comprises, a first local memory included in the first neural core and temporarily storing first data to be input and output, a first load/store unit (LSU) included in the first neural core and moving the first data in the first local memory, a processing unit included in the first neural core and performing an computation operation on the first data, a data path through which the first data is transmitted between the local memory, the first LSU, and the processing unit, and an L1 sync path configured to transmit an L1 synchronization signal, in the first neural core, between the first local memory, the first LSU, and the processing unit, wherein the L1 sync path is a separate path from the data path.",
+  "patent_id": "US12380325-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 3/063",
+      "G06F 5/065",
+      "G06F 9/3877",
+      "G06F 9/52"
+    ],
+    "all": [
+      "G06N 3/063",
+      "G06F 5/065",
+      "G06F 9/3877",
+      "G06F 9/52"
+    ],
+    "source": "converted"
+  }
+}

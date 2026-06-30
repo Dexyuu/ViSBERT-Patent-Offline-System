@@ -1,0 +1,20 @@
+{
+  "title": "Voltage converter with over-current protection and over-current protection method thereof",
+  "abstract": "An over-current protection circuit has a current sensing circuit, an over-current comparing circuit, an isolation circuit and a control circuit. The current sensing circuit generates a current sensing signal based on a current flowing through an inductor of a voltage converter. The over-current comparing circuit receives the current sensing signal and generates a first over-current indication signal based on the current sensing signal. The isolation circuit receives the first over-current indication signal and generates a second over-current indication signal based on the first over-current indication signal. The control circuit receives the second over-current indication signal, and generates a control signal to control a switch of the voltage converter. The control circuit turns off the switch when the second over-current indication signal indicates that an over-current condition occurs.",
+  "claims": "1. An over-current protection circuit used in a voltage converter, the over-current protection circuit comprising: a current sensing circuit configured to generate a current sensing signal based on a current flowing through an inductor of the voltage converter; an over-current comparing circuit configured to receive the current sensing signal and to generate a first over-current indication signal based on the current sensing signal; an isolation circuit configured to receive the first over-current indication signal and to generate a second over-current indication signal based on the first over-current indication signal, wherein the isolation circuit comprises a capacitor; and a control circuit configured to receive the second over-current indication signal, and to generate a control signal to control a switch of the voltage converter, wherein the control circuit is configured to turn off the switch when the second over-current indication signal indicates that an over-current condition occurs.",
+  "patent_id": "US12381476-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02M 1/32",
+      "H02M 1/0009",
+      "H02M 1/4208"
+    ],
+    "all": [
+      "H02M 1/32",
+      "H02M 1/0009",
+      "H02M 1/4208"
+    ],
+    "source": "converted"
+  }
+}

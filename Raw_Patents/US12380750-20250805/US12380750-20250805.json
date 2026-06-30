@@ -1,0 +1,26 @@
+{
+  "title": "Video-based door operation using object tracking of mobility assistance devices",
+  "abstract": "Disclosed are methods, systems, and apparatus for video-based door operation using object tracking of mobility assistance devices. A method includes detecting, in one or more images captured by a camera, a mobility assistance device; in response to detecting the mobility assistance device, determining, using the one or more images captured by the camera, a trajectory of the mobility assistance device; determining that the trajectory of the mobility assistance device satisfies a criterion for operating a door; and in response to determining that the trajectory of the mobility assistance device satisfies the criterion for operating the door, transmitting, to a door operator, a command to operate the door. A method includes determining whether the operation of the door satisfies performance criteria using one or more second images; and in response to determining that the operation of the door does not satisfy performance criteria, updating the criterion for operating the door.",
+  "claims": "1. A method comprising: detecting, in one or more images captured by a camera, a mobility assistance device; in response to detecting the mobility assistance device, determining, using the one or more images captured by the camera, a trajectory of the mobility assistance device; determining that the trajectory of the mobility assistance device satisfies a criterion for operating a door; in response to determining that the trajectory of the mobility assistance device satisfies the criterion for operating the door, transmitting, to a door operator, a first-command to operate the door; determining whether the operation of the door satisfies performance criteria using one or more second images, the determining comprising: determining, using the one or more second images, a smallest distance between the mobility assistance device and the door; determining that the smallest distance between the mobility assistance device and the door does not satisfy a threshold distance; and in response to determining that the smallest distance between the mobility assistance device and the door does not satisfy a threshold distance, determining that the operation of the door does not satisfy performance criteria; and in response to determining that the operation of the door does not satisfy the performance criteria, updating the criterion for operating the door.",
+  "patent_id": "US12380750-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G07C 9/00563",
+      "G06V 20/52",
+      "G07C 9/00571",
+      "G07C 9/00658",
+      "G07C 9/00896",
+      "G07C 9/38"
+    ],
+    "all": [
+      "G07C 9/00563",
+      "G06V 20/52",
+      "G07C 9/00571",
+      "G07C 9/00658",
+      "G07C 9/00896",
+      "G07C 9/38"
+    ],
+    "source": "converted"
+  }
+}

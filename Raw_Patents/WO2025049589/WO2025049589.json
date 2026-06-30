@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2025049589",
+  "application_id_fs": "WO2025049589",
+  "title": "Low latency offloading of collectives over a switch",
+  "abstract": "A device includes a plurality of processing elements (PEs). A symmetric memory is allocated in each of the plurality of PEs. The device includes a switch connected to the plurality of PEs. The switch is to: receive, from a first processing element (PE) of the plurality of PEs, a message that includes a buffer offset, compute, based on the buffer offset, a first memory address of a first buffer in a first symmetric memory of the first PE and a second memory address of a second buffer in a second symmetric memory of a second PE of the plurality of PEs, and initiate, based on the first memory address and the second memory address, a direct memory access operation to access the first buffer and the second buffer.",
+  "claims": "Claims CLAIMS What is claimed is: 1. A system comprising: a plurality of processing elements (PEs), wherein a symmetric memory is allocated in each of the plurality of PEs; and a switch connected to the plurality of PEs, wherein the switch is to: receive, from a first processing element (PE) of the plurality of PEs, a message that includes a buffer offset, compute, based on the buffer offset, a first memory address of a first buffer in a first symmetric memory of the first PE and a second memory address of a second buffer in a second symmetric memory of a second PE of the plurality of PEs, and initiate, based on the first memory address and the second memory address, a direct memory access operation to access the first buffer and the second buffer. 2. The system of claim 1, wherein the switch is further to perform a collective operation based on first data stored in the first buffer and second data stored in the second buffer. 3. The system of claim 2, wherein the switch is to trigger performance of the collective operation in response to receiving the message from the first PE. 4. The system of claim 1, further comprising: \n\n a memory to store a base address table (BAT) indicating a base address of each symmetric memory allocated in the plurality of PEs. 5. The system of claim 4, wherein the switch is further to: retrieve, from the BAT, a first base address of the first symmetric memory and a second base address of the second symmetric memory, compute the first memory address based on the first base address and the buffer offset, and compute the second memory address based on the second base address and the buffer offset. 6. The system of claim 4, wherein the memory storing the BAT is: included in the switch; or outside the switch. 7. The system of claim 1, wherein each PE of the plurality of PEs is to process a respective portion of data associated with a collective operation assigned to the plurality of PEs and the switch. 8. The system of claim 7, wherein the PE is to update a respective buffer in a respective symmetric memory of the PE based on the processed respective portion of the data. 9. The system of claim 1, wherein the buffer offset is a send buffer offset, wherein the message further includes a receive buffer offset, wherein the switch is further to: \n\n compute, based on the receive buffer offset, a first receive buffer memory address of a first receive buffer in the first symmetric memory and a second receive buffer memory address of a second receive buffer in the second symmetric memory. 10. A method comprising: receiving, from a first processing element (PE) of a plurality of processing elements (PEs) connected to a switch, a message that includes a buffer offset, wherein a symmetric memory is allocated in each of the plurality of PEs; computing, based on the buffer offset, a first memory address of a first buffer in a first symmetric memory of the first PE and a second memory address of a second buffer in a second symmetric memory of a second PE of the plurality of PEs; and initiating, based on the first memory address and the second memory address, a direct memory access operation to access the first buffer and the second buffer. 11. The method of claim 10, further comprising performing a collective operation based on first data stored in the first buffer and second data stored in the second buffer. 12. The method of claim 11 , further comprising triggering performance of the collective operation in response to receiving the message from the first PE. 13. The method of claim 10, further comprising: retrieving, from a memory storing a base address table indicating a base address of each symmetric memory allocated in the plurality of PEs, a first base address of the first symmetric memory and a second base address of the second symmetric memory; \n\n computing the first memory address based on the first base address and the buffer offset; and computing the second memory address based on the second base address and the buffer offset. 14. The method of claim 10, wherein the buffer offset is a send buffer offset, wherein the message from the first PE further includes a receive buffer offset, the method further comprising: computing, based on the receive buffer offset, a first receive buffer memory address of a first receive buffer in the first symmetric memory and a second receive buffer memory address of a second receive buffer in the second symmetric memory. 15. A computer-readable medium storing instructions that are executable to cause a computing device to perform a method according to any one of claims 10-14.",
+  "classifications": {
+    "ipc": [
+      "G06F 13/00",
+      "G06F 13/38",
+      "G06F 13/40",
+      "G06F 13/4004",
+      "G06F 13/4022",
+      "G06F 12/00",
+      "G06F 12/02",
+      "G06F 12/0223",
+      "G06F 12/023",
+      "G06F 13/14",
+      "G06F 13/16",
+      "G06F 13/1668",
+      "G06F 13/1673",
+      "G06F 13/20",
+      "G06F 13/28",
+      "G06F 13/4027",
+      "G06F 13/404"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 13/00",
+      "G06F 13/38",
+      "G06F 13/40",
+      "G06F 13/4004",
+      "G06F 13/4022",
+      "G06F 12/00",
+      "G06F 12/02",
+      "G06F 12/0223",
+      "G06F 12/023",
+      "G06F 13/14",
+      "G06F 13/16",
+      "G06F 13/1668",
+      "G06F 13/1673",
+      "G06F 13/20",
+      "G06F 13/28",
+      "G06F 13/4027",
+      "G06F 13/404"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025049589"
+}

@@ -1,0 +1,31 @@
+{
+  "application_id": "WO2017199126",
+  "application_id_fs": null,
+  "title": "Display device and method for operating the same",
+  "abstract": "A display device that is driven with low power and a method for operating the display device are provided. The display device includes a host; a controller to which a first signal is supplied from the host; and a display panel to which a second signal is supplied from the controller. When the first signal includes image data, the first signal includes a command indicating the presence of the image data. When the controller detects the command, the controller supplies the image data as the second signal. When the controller does not detect the command, the controller stops supplying the second signal. After the controller stops supplying the second signal for a predetermined time, the controller resumes supplying the second signal regardless of whether or not the first signal includes the command.",
+  "claims": "Claims 1. A display device comprising: a host; a controller to which a first signal is supplied from the host; and a display panel to which a second signal is supplied from the controller, wherein when the first signal comprises image data, the first signal comprises a command indicating presence of the image data, wherein when the controller detects the command, the controller supplies the image data as the second signal, and wherein when the controller does not detect the command, the controller stops supplying the second signal. 2. The display device according to claim 1, wherein after the controller stops supplying the second signal for a predetermined time, the controller resumes supplying the second signal regardless of whether or not the first signal comprises the command. 3. The display device according to claim 1, wherein the controller comprises a frame memory, wherein the frame memory comprises a transistor, and wherein the transistor comprises an oxide semiconductor in a channel formation region. 4. A display device comprising: a host; a controller comprising a first write circuit, a second write circuit, a first frame memory, a second frame memory, a first read circuit, a second read circuit, and a control circuit; and a display panel, wherein the host is electrically connected to the first write circuit and the second write circuit, wherein the first write circuit is electrically connected to the first frame memory, and the second write circuit is electrically connected to the second frame memory, wherein the first frame memory is electrically connected to the first read circuit, and the second frame memory is electrically connected to the second read circuit, wherein the first read circuit and the second read circuit are electrically connected to the \n\n display panel , and wherein the control circuit is configured to determine operation of the first read circuit. 5. The display device according to claim 4, wherein a first signal is configured to be supplied to the first write circuit from the host, wherein when the first signal comprises image data, the first signal comprises a command indicating presence of the image data, wherein when the control circuit detects the command, the first read circuit supplies the image data as a second signal to the display panel, and wherein when the control circuit does not detect the command, the first read circuit stops supplying the second signal. 6. The display device according to claim 5, wherein after the first read circuit stops supplying the second signal for a predetermined time, the first read circuit resumes supplying the second signal regardless of whether or not the first signal comprises the command. 7. The display device according to claim 4, wherein the first frame memory comprises a transistor, and wherein the transistor comprises an oxide semiconductor in a channel formation region. 8. A method for operating a display device, the display device comprising: a host; a controller to which a first signal is supplied from the host; and a display panel to which a second signal is supplied from the controller, wherein when the first signal comprises image data, the first signal comprises a command indicating presence of the image data, wherein when the controller detects the command, the controller supplies the image data as the second signal, and wherein when the controller does not detect the command, the controller stops supplying the second signal. 9. The method for operating the display device, according to claim 8, wherein after the controller stops supplying the second signal for a predetermined time, the controller resumes supplying the second signal regardless of whether or not the first signal \n\n comprises the command. 10. The method for operating the display device, according to claim 8, wherein the controller comprises a frame memory, wherein the frame memory comprises a transistor, and wherein the transistor comprises an oxide semiconductor in a channel formation region.",
+  "classifications": {
+    "ipc": [
+      "G09G 3/20",
+      "G02F 1/133",
+      "G09G 3/3225",
+      "G09G 3/3233",
+      "G09G 3/36",
+      "H01L 27/32",
+      "H01L 29/786",
+      "H01L 51/50"
+    ],
+    "cpc": [],
+    "all": [
+      "G09G 3/20",
+      "G02F 1/133",
+      "G09G 3/3225",
+      "G09G 3/3233",
+      "G09G 3/36",
+      "H01L 27/32",
+      "H01L 29/786",
+      "H01L 51/50"
+    ],
+    "source": "csv"
+  }
+}

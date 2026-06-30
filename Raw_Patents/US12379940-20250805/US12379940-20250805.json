@@ -1,0 +1,22 @@
+{
+  "title": "Application tuning based on performance characteristics",
+  "abstract": "According to examples, an apparatus may include a processor and a memory on which are stored machine-readable instructions that when executed by the processor, may cause the processor to receive information regarding a performance characteristic of an application during predetermined time periods. The processor may calculate a rate of change in the performance characteristic over the predetermined time periods. Based on a determination that the performance characteristic of the application has changed over the predetermined time periods, the processor may tune values of a set of parameters for the application based on the calculated rate of change in the performance characteristic.",
+  "claims": "1. An apparatus comprising: a processor; and a memory on which are stored machine-readable instructions that when executed by the processor, cause the processor to: receive information regarding a performance characteristic of an application during predetermined time periods, the performance characteristic being associated with a number of occurrences of an event of the application; calculate a rate of change in the number of occurrences of the event of the application over the predetermined time periods; and based on a determination that the calculated rate of change in the number of occurrences of the event of the application associated with the performance characteristic of the application has changed over the predetermined time periods, tune values of a set of parameters for the application based on the calculated rate of change, wherein the application is executed based on the tuned values of the set of parameters for the application; based on a determination that the set of parameters for the application requires an application restart to apply changes to the values of the set of parameters for the application, change the values of the set of parameters in a configuration file associated with the set of parameters for the application; and output a notification to restart the application.",
+  "patent_id": "US12379940-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/44505",
+      "G06F 8/656",
+      "G06F 11/302",
+      "G06F 11/3428"
+    ],
+    "all": [
+      "G06F 9/44505",
+      "G06F 8/656",
+      "G06F 11/302",
+      "G06F 11/3428"
+    ],
+    "source": "converted"
+  }
+}

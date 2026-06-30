@@ -1,0 +1,26 @@
+{
+  "title": "Computer implemented method for identifying transparent and/or mirroring plane candidates and UAV using the same",
+  "abstract": "The invention relates to a computer implemented method for identifying transparent and/or mirroring plane candidates from measurement data resulting from scanning an environment by a laser scanner emitting distance measuring light pulses.",
+  "claims": "1. A computer implemented method for identifying transparent and/or mirroring plane candidates from measurement data resulting from scanning an environment by a laser scanner emitting distance measuring light pulses, the method comprising: providing measurement data being used for generating a point cloud representing the environment, and identifying based on the measurement data transparent or mirroring plane candidates, the measurement data being obtained by: recording, for an emitted distance measuring light pulse, a time characteristic of a reception signal resulting from detecting backscattered portions of the emitted distance measuring light pulse, recognizing return pulses in the time characteristic of the reception signal, and assigning to every recognized return pulse, in particular independent from recognized return pulse characteristics: intensity information, distance information, angular information indicating an emission direction of the emitted distance measuring light pulse, and scanner pose information, indicating a position and/or orientation of the laser scanner spatially relating the recognized return pulses to each other into a spatial return pulse arrangement, recognizing a circular accumulation pattern of spatially related return pulses within the spatial return pulse arrangement, the circular accumulation pattern being of a roundish shape with a circumferentially shaped edge region, and using recognizing the circular accumulation pattern as indicator for identifying a transparent and/or mirroring plane candidate.",
+  "patent_id": "US12379504-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 17/933",
+      "G01S 17/89",
+      "G08G 5/55",
+      "G08G 5/57",
+      "G08G 5/80",
+      "B64U 2201/10"
+    ],
+    "all": [
+      "G01S 17/933",
+      "G01S 17/89",
+      "G08G 5/55",
+      "G08G 5/57",
+      "G08G 5/80",
+      "B64U 2201/10"
+    ],
+    "source": "converted"
+  }
+}

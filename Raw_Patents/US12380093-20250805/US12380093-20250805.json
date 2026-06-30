@@ -1,0 +1,22 @@
+{
+  "title": "Performing writes from a consumer database to a producer database",
+  "abstract": "A consumer database of a service provider network may perform writes to a producer database. To do so, the consumer database obtains metadata and a transaction context from the producer database and uses that information to perform a write from the consumer database to the producer database. A consumer database may access (read and/or write) a producer database that uses a different topology to manage data. To do so, the consumer database obtains topology metadata from the producer database and uses the topology metadata to perform a query (read or write) from the consumer database to the producer database. A consumer database may access a producer database based on a mapping of local user IDs to consumer databases at the producer database. The access may be granted to the consumer database based on permissions assigned to the local user IDs.",
+  "claims": "1. A system, comprising: a plurality of computing devices, respectively comprising at least one processor and a memory, that implement a database service of a provider network; wherein the database service comprises a control plane, a producer database engine, and a consumer database engine; wherein the control plane is configured to: receive a request to share write access to a database with the consumer database engine, wherein the database is managed by the producer database engine; and associate the database with the consumer database engine to enable the shared write access to the database; and wherein the consumer database engine is configured to: receive a request to create the database as an external database accessible via the consumer database engine; create the database as the external database; obtain metadata describing the database from the producer database engine; obtain a transaction context describing a state of the database from the producer database engine; and use the metadata and the transaction context to perform a write to the database.",
+  "patent_id": "US12380093-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/2379",
+      "G06F 16/2343",
+      "G06F 16/25",
+      "G06F 16/285"
+    ],
+    "all": [
+      "G06F 16/2379",
+      "G06F 16/2343",
+      "G06F 16/25",
+      "G06F 16/285"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "application_id": "WO2025096345",
+  "application_id_fs": "WO2025096345",
+  "title": "Multiplexed bus streak management",
+  "abstract": "A memory controller includes a command queue stage for storing decoded memory access requests, a first arbiter operable to select first decoded memory access requests for a first pseudo channel from the command queue stage, and a second arbiter operable to select second decoded memory access requests for a second pseudo channel from the command queue stage. Each of the first arbiter and the second arbiter is operable to select a first streak of a first type of accesses, and to change to selecting a second streak of a second type of accesses in response to the first arbiter and the second arbiter meeting a cross mode condition.",
+  "claims": "Claims Attorney Docket No.1458-0690-PCT WHAT IS CLAIMED IS: 1. A memory controller, comprising: a command queue stage for storing decoded memory access requests; a first arbiter operable to select first decoded memory access requests for a first pseudo channel from the command queue stage; and a second arbiter operable to select second decoded memory access requests for a second pseudo channel from the command queue stage; and, wherein each of the first arbiter and the second arbiter is operable to select a first streak of a first type of accesses, and to change to selecting a second streak of a second type of accesses in response to the first arbiter and the second arbiter meeting a cross mode condition. 2. The memory controller of claim 1, wherein: the first type of accesses comprises one of read accesses and write accesses; and the second type of accesses comprises another one of the read accesses and the write accesses. 3. The memory controller of claim 1, wherein: the cross mode condition is based on a total number of the second type of accesses for both the first pseudo channel and the second pseudo channel in the command queue stage. 4. The memory controller of claim 3, wherein: the cross mode condition is further based on a history of the first type of accesses selected for both the first pseudo channel and the second pseudo channel in the command queue stage. 5. The memory controller of claim 1, wherein: the cross mode condition is based on a total number of the second type of accesses for a respective pseudo channel in the command queue stage and another one of the first arbiter and the second arbiter indicating that it is ready to switch to selecting the second streak of the second type of accesses. 6. The memory controller of claim 5 further comprising: an address decoder having an upstream port for receiving memory access requests, and a downstream port coupled to the command queue stage for providing the decoded memory access requests according \n\n Attorney Docket No.1458-0690-PCT to a pseudo-channel number, wherein the address decoder further scrambles memory accesses between the first pseudo channel and the second pseudo channel based on one or more address bits of a normalized address. 7. The memory controller of claim 1, further comprising: a dispatch queue having first and second upstream ports coupled to the first arbiter and the second arbiter, respectively, and a downstream port for conducting first data from the first arbiter that is time- multiplexed with second data from the second arbiter. 8. A data processing system, comprising: a plurality of data processor cores each of which is operable to generate memory access requests; a memory having a first pseudo channel and a second pseudo channel; and a memory controller as recited in any of claims 1-7. . 9. The data processing system of claim 8, wherein the memory comprises a multiplexed-rank dual inline memory module (MRDIMM). 10. A method for accessing a memory, comprising: storing memory access requests in a command queue stage, wherein each memory access request accesses one of a first pseudo channel and a second pseudo channel of the memory; arbitrating among the memory access requests in an arbitration stage to obtain first arbitration winners for the first pseudo channel using a first arbiter and the second pseudo channel using a second arbiter; selecting a first streak of a first type of accesses by the first arbiter; and changing to selecting a second streak of a second type of accesses in response to the first arbiter and the second arbiter meeting a cross mode condition. 11. The method of claim 10, wherein: selecting the first streak of the first type of accesses by the first arbiter comprises the first streak of one of read accesses and write accesses; and \n\n Attorney Docket No.1458-0690-PCT changing to selecting the second streak of the second type of accesses comprises changing to another one of the read accesses and the write accesses. 12. The method of claim 10, wherein: meeting the cross mode condition comprises meeting the cross mode condition based on a total number of the second type of accesses for both the first pseudo channel and the second pseudo channel in the command queue stage. 13. The method of claim 12, wherein: meeting the cross mode condition further comprises meeting the cross mode condition based on a history of the first type of accesses selected for both the first pseudo channel and the second pseudo channel in the command queue stage. 14. The method of claim 10, wherein: meeting the cross mode condition comprises meeting the cross mode condition based on a total number of the second type of accesses for a respective pseudo channel in the command queue stage and another one of the first arbiter and the second arbiter indicating that it is ready to switch to selecting the second streak of the second type of accesses. 15. The method of claim 10, further comprising: receiving memory access requests; decoding an address of the memory access requests to form decoded memory access requests, the decoding comprising scrambling the memory accesses between the first pseudo channel and the second pseudo channel based on one or more address bits of a normalized address; and providing the decoded memory access requests to the command queue stage according to a pseudo-channel number.",
+  "classifications": {
+    "ipc": [
+      "G06F 13/00",
+      "G06F 13/14",
+      "G06F 13/16",
+      "G06F 13/1668",
+      "G06F 13/1689",
+      "G06F 13/1605",
+      "G06F 13/1642",
+      "G06F 13/38",
+      "G06F 13/40",
+      "G06F 13/4004",
+      "G06F 13/4022"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 13/00",
+      "G06F 13/14",
+      "G06F 13/16",
+      "G06F 13/1668",
+      "G06F 13/1689",
+      "G06F 13/1605",
+      "G06F 13/1642",
+      "G06F 13/38",
+      "G06F 13/40",
+      "G06F 13/4004",
+      "G06F 13/4022"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025096345"
+}

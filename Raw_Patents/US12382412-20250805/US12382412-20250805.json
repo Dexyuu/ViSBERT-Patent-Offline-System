@@ -1,0 +1,18 @@
+{
+  "title": "Method for determining transmission timing among nodes of a network",
+  "abstract": "A system and method for receiving timing configuration information are disclosed herein. In one embodiment, a method performed by a first node includes receiving, by the first node, timing configuration information, the timing configuration information comprises at least one of a timing advance parameter (NTA), a timing advance offset (NTA,offset), NTA granularity indication information, time difference information at a second node, a timing adjustment parameter (ÎTq). The method includes determining, by the first node, at least one of UL Tx timing or DL Tx timing based on the timing configuration information.",
+  "claims": "1. A method, comprising: receiving, by a first node, timing configuration information, the timing configuration information comprises at least one of a timing advance parameter (N TA ), a timing advance offset (N TA,offset ), N TA granularity indication information, time difference information at a second node, or a timing adjustment parameter (ΔT q ); determining, by the first node, at least one of uplink transmission (UL Tx) timing or downlink transmission (DL Tx) timing based on the timing configuration information; and adjusting, by the first node, at least one of the UL Tx timing or the DL Tx timing by: adjusting the UL Tx timing based on an amount of timing adjustment relative to a current UL Tx timing or a current DL Tx timing of the first node, wherein the amount of timing adjustment is determined using (T offset,p −T offset,c )/2; or adjusting the DL Tx timing based on the amount of timing adjustment relative to a current UL Tx timing or a current DL Tx timing of the first node, wherein the amount of timing adjustment is determined using (T offset,p −T offset,c )/2, wherein T offset,p is a time different at the second node between a start of a UL Rx frame i for the first node and a start of a DL Tx frame i and is obtained based on the time difference information or parameter T delta received by the first node, T offset,c is a time different between the DL Tx timing and the DL Rx timing of the first node, or between the UL Tx timing and the DL Rx timing of the first node.",
+  "patent_id": "US12382412-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 56/0045",
+      "H04W 56/005"
+    ],
+    "all": [
+      "H04W 56/0045",
+      "H04W 56/005"
+    ],
+    "source": "converted"
+  }
+}

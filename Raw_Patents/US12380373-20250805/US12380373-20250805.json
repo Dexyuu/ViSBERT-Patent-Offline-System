@@ -1,0 +1,24 @@
+{
+  "title": "Information system for industrial vehicles including cyclical recurring vehicle information message",
+  "abstract": "An information system for an industrial vehicle comprises an electronic component on the industrial vehicle that is programmably configured to obtain data by communicating across a vehicle network bus of the industrial vehicle with at least one other component of the industrial vehicle. The information system also comprises memory that stores industrial vehicle information according to a mapping specified by a data object model. Moreover, a processor on the industrial vehicle is programmed to repeatedly perform a cyclically recurring operation that extracts at least a portion of the industrial vehicle information stored in the memory device as broadcast information, generates at least one broadcast message representing the extracted broadcast information, and transmits the generated at least one broadcast message on the vehicle network bus. Accordingly, the entire contents of the broadcast information are repeatedly transmitted across the vehicle network bus in a cyclically recurring manner.",
+  "claims": "1. An information system for an industrial vehicle, the system comprising: an industrial vehicle having a vehicle network bus and components electrically coupled to the vehicle network bus that generate industrial vehicle information, wherein industrial vehicle information for at least one component changes over time; an information master on the industrial vehicle having memory that stores a current state of the industrial vehicle information according to a mapping specified by a data object model, wherein the current state of the industrial vehicle information is collected into the memory by exchanging information with the components using the vehicle network bus such that the current state of the industrial vehicle information is updated over time; and a processor on the industrial vehicle that is programmed to repeatedly perform a cyclical operation that broadcasts the current state of the industrial vehicle information from the memory, wherein for each cycle of the cyclical operation, the processor: extracts at least a portion of the current state of the industrial vehicle information stored in the memory according to the mapping specified by the data object model as broadcast information; generates at least one broadcast message representing the extracted broadcast information; and transmits each generated broadcast message locally on the vehicle network bus of the industrial vehicle; wherein: entire contents of the broadcast information are repeatedly transmitted across the vehicle network bus; and each generated broadcast message is transmitted based upon a predetermined periodic time interval.",
+  "patent_id": "US12380373-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/06",
+      "G05D 1/0287",
+      "G05D 1/0291",
+      "G06Q 10/0637",
+      "G06Q 10/083"
+    ],
+    "all": [
+      "G06Q 10/06",
+      "G05D 1/0287",
+      "G05D 1/0291",
+      "G06Q 10/0637",
+      "G06Q 10/083"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "application_id": "WO2025096510",
+  "application_id_fs": "WO2025096510",
+  "title": "Ai assisted video editing tool",
+  "abstract": "The present technology provides for AI-assisted video editing tools that implement a novel method of processing video which includes transcribing segments of a video and labeling the segments based on the contents of the segments. A smart edit can be generated based on the labelled segments. The smart edit can serve as a rough cut for a user to make further edits.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1. A method comprising: generating a transcript based on a video; generating one or more labels for one or more video clips of the video; generating an edit of the video based on the one or more labels and the one or more video clips; and revising the edit of the video based on one or more user commands. 2. The method of claim 1 , further comprising: synchronizing one or more portions of the transcript with the one or more video clips. 3. The method of claim 1 , wherein the one or more labels are generated based on at least one of: a topic, a concept, an emotion, a dialogue, a character, an action, or a location identified in the one or more video clips. 4. The method of claim 1 , further comprising: generating one or more summaries for the one or more video clips based on the one or more labels. 5. The method of claim 1 , further comprising: storing the one or more labels in a data structure associated with the video, wherein the data structure includes an array, and wherein each element of the array corresponds to a line or an action depicted in the video. 6. The method of claim 1 , wherein the generating the edit comprises: ranking the one or more video clips based on ranking criteria; and ordering the one or more video clips based on the ranking, wherein the generating the edit is based on the ordering. 7. The method of claim 1 , wherein the revising the edit comprises: parsing the one or more user commands for an additive edit; \n\n performing a search to identify a video clip that satisfies the additive edit; and revising a script associated with the edit of the video based on the video clip, wherein the revising the edit of the video is based on the revised script. 8. The method of claim 1 , the revising the edit comprises: parsing the one or more user commands for a subtractive edit; performing a search of a script associated with the edit to identify a portion of the script that satisfies the subtractive edit; and revising the script associated with the edit of the video to remove the identified portion, wherein the revising the edit of the video is based on the revised script. 9. The method of claim 1 , further comprising: tracking iterative edits made to the edit of the video; and rolling back to one of a plurality of versions of the video based on a user selection. 10. The method of claim 1 , further comprising: performing a search of the one or more video clips for a label that satisfies a search command; and surfacing a video clip associated with the label that satisfies the search command. 11. A system comprising: at least one processor; and a memory storing instructions that, when executed by the at least one processor, cause the system to perform: generating a transcript based on a video; generating one or more labels for one or more video clips of the video; generating an edit of the video based on the one or more labels and the one or more video clips; and revising the edit of the video based on one or more user commands. 12. The system of claim 11 , further comprising: synchronizing one or more portions of the transcript with the one or more video clips. 13. The system of claim 11 , wherein the one or more labels are generated based on at least one of: a topic, a concept, an emotion, a dialogue, a character, an action, or a location identified in the one or more video clips. 14. The system of claim 11 , further comprising: generating one or more summaries for the one or more video clips based on the one or more labels. 15. The system of claim 11 , further comprising: storing the one or more labels in a data structure associated with the video, wherein the data structure includes an array, and wherein each element of the array corresponds to a line or an action depicted in the video. 16. A non-transitory computer-readable storage medium including instructions that, when executed by at least one processor of a computing system, cause the computing system to perform: generating a transcript based on a video; generating one or more labels for one or more video clips of the video; generating an edit of the video based on the one or more labels and the one or more video clips; and revising the edit of the video based on one or more user commands. 17. The non-transitory computer-readable storage medium of claim 16, further comprising: synchronizing one or more portions of the transcript with the one or more video clips. 18. The non-transitory computer-readable storage medium of claim 16, wherein the one or more labels are generated based on at least one of: a topic, a concept, an emotion, a dialogue, a character, an action, or a location identified in the one or more video clips. 19. The non-transitory computer-readable storage medium of claim 16, further comprising: generating one or more summaries for the one or more video clips based on the one or more labels. 20. The non-transitory computer-readable storage medium of claim 16, further comprising: storing the one or more labels in a data structure associated with the video, wherein the data structure includes an array, and wherein each element of the array corresponds to a line or an action depicted in the video.",
+  "classifications": {
+    "ipc": [
+      "G06V 20/00",
+      "G06V 20/70",
+      "G06F 16/00",
+      "G06F 16/50",
+      "G06F 16/58",
+      "G06F 16/5866",
+      "G10L 15/00",
+      "G10L 15/26"
+    ],
+    "cpc": [],
+    "all": [
+      "G06V 20/00",
+      "G06V 20/70",
+      "G06F 16/00",
+      "G06F 16/50",
+      "G06F 16/58",
+      "G06F 16/5866",
+      "G10L 15/00",
+      "G10L 15/26"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025096510"
+}

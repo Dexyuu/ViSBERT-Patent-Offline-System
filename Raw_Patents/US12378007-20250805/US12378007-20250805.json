@@ -1,0 +1,30 @@
+{
+  "title": "Methods and systems for generating a mission plan that guides a spacecraft to orbiting target objects",
+  "abstract": "An example method executed by a controller onboard a spacecraft generates a mission plan in real-time that guides the spacecraft along a space autonomous mission to rendezvous with two or more orbiting target objects. The method includes establishing potential permutations for all possible unique maneuver sequences in which to visit the two or more orbiting target objects, and for each potential permutation, determining a collision-free maneuver plan for defining orbit trajectories to intercept each of the two or more orbiting target objects for each of the possible unique maneuver sequences. An optimal permutation is determined that meets viewing constraints of the two or more orbiting target objects, a viewing priority, and fuel constraints of the spacecraft. A mission visit plan is generated using the optimal permutation, and the spacecraft executes the plan to rendezvous with and inspect the two or more orbiting target objects.",
+  "claims": "1. A method executed by a controller onboard a spacecraft to generate a mission plan in real-time that guides the spacecraft along a space autonomous mission to rendezvous with two or more orbiting target objects, the method comprising: establishing, for two or more orbiting target objects to visit, potential permutations for all possible unique maneuver sequences in which to visit the two or more orbiting target objects; for each potential permutation, determining a collision-free maneuver plan for defining orbit trajectories to intercept each of the two or more orbiting target objects for each of the possible unique maneuver sequences; based on the collision-free maneuver plan for each potential permutation, determining an optimal permutation from the potential permutations that meets viewing constraints of the two or more orbiting target objects, a viewing priority, and fuel constraints of the spacecraft, wherein the optimal permutation is further based on an orbit transfer location of the spacecraft and an inspection starting location on the two or more orbiting target objects; generating a mission visit plan, using the optimal permutation, for the spacecraft to rendezvous with and inspect the two or more orbiting target objects; and causing the spacecraft to rendezvous with and inspect the two or more orbiting target objects according to the mission visit plan.",
+  "patent_id": "US12378007-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B64G 1/247",
+      "B64G 1/1078",
+      "B64G 1/242",
+      "B64G 1/2427",
+      "B64G 1/646",
+      "G05D 1/683",
+      "G05D 1/697",
+      "G05D 2109/40"
+    ],
+    "all": [
+      "B64G 1/247",
+      "B64G 1/1078",
+      "B64G 1/242",
+      "B64G 1/2427",
+      "B64G 1/646",
+      "G05D 1/683",
+      "G05D 1/697",
+      "G05D 2109/40"
+    ],
+    "source": "converted"
+  }
+}

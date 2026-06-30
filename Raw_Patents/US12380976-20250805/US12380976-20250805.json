@@ -1,0 +1,26 @@
+{
+  "title": "Clinical laboratory-based disease management program, with automated patient-specific treatment advice",
+  "abstract": "A method is provided, the method including receiving a test result data, wherein said test result data represents a result of a test on a physical specimen, associating said test result data with a standard-of-care data, wherein said standard-of-care data represents a recommended course of action for the condition represented by the test result data, and transforming said specimen data and said standard-of-care data into a human-readable form. A system including a processor is provided, a software adapted to be executed on said processor, said software comprising instructions for receiving a test result data, wherein said test result data represents a result of a test on a physical specimen, associating said test result data with a standard-of-care data, wherein said standard-of-care data represents a recommended course of action for the condition represented by the test result data, and transforming said specimen data and said standard-of-care data into a human-readable form.",
+  "claims": "1. A method for providing information related to test results, the method comprising: receiving, by a processor executing software code, test result data; querying, by the processor, standard-of-care data for the test result data using a matrix associated with medical information logic, wherein the medical information logic is extensible apart from compilation of the software code; associating, by the processor, in response to the querying, the test result data with the standard-of-care data; condensing, by the processor, using medical practice guideline data and the medical information logic, a medical treatment content tag for a specific patient condition; accessing, by the processor, the medical treatment content tag for the specific patient condition and a recommended course of action corresponding to the test result data as determined at least in part by the medical treatment content tag; building, by the processor, using an embedded language protocol, a patient-specific treatment recommendation using the medical treatment content tag and the recommended course of action; and providing, by the processor, a report including the patient-specific treatment recommendation.",
+  "patent_id": "US12380976-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16H 15/00",
+      "G16H 10/20",
+      "G16H 40/20",
+      "G16H 70/20",
+      "G16H 10/40",
+      "G16H 50/20"
+    ],
+    "all": [
+      "G16H 15/00",
+      "G16H 10/20",
+      "G16H 40/20",
+      "G16H 70/20",
+      "G16H 10/40",
+      "G16H 50/20"
+    ],
+    "source": "converted"
+  }
+}

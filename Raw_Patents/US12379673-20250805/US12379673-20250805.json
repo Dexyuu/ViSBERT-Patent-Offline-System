@@ -1,0 +1,20 @@
+{
+  "title": "Control apparatus, lithography apparatus, and article manufacturing method",
+  "abstract": "A control apparatus for generating a control signal for controlling a control target includes a plurality of neural networks, and a selector configured to select, from the plurality of neural networks, a neural network to be used to generate the control signal, wherein each of the plurality of neural networks is selected by the selector to be used in execution of one corresponding control pattern among a plurality of control patterns for controlling the control target.",
+  "claims": "8. A lithography apparatus for performing processing of transferring a pattern of an original to a substrate, the lithography apparatus comprising: an operation unit configured to operate for the processing; and a control unit configured to generate a control signal for controlling the operation unit, wherein the control unit includes a selector configured to select, from a plurality of neural networks, one neural network to be used to generate the control signal, for each one of a plurality of sequences, wherein the selector is configured to select a first neural network from the plurality of neural networks for a first sequence, and select a second neural network from the plurality of neural networks for an exposure sequence of exposing the substrate such that the pattern of the original is transferred to the substrate, the second neural network being different from the first neural network, and wherein the first sequence is one of a measurement sequence for alignment of the substrate and the original, a load sequence of conveying the substrate to a substrate stage, or an unload sequence of conveying the substrate on the substrate stage to a location different from the substrate stage.",
+  "patent_id": "US12379673-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G03F 7/70725",
+      "G03F 7/705",
+      "G03F 7/70758"
+    ],
+    "all": [
+      "G03F 7/70725",
+      "G03F 7/705",
+      "G03F 7/70758"
+    ],
+    "source": "converted"
+  }
+}

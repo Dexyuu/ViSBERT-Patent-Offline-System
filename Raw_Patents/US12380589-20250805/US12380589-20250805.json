@@ -1,0 +1,28 @@
+{
+  "title": "Method and apparatus to evaluate radar images and radar device",
+  "abstract": "In an embodiment, a method to evaluate radar images includes providing a first raw radar image and a second raw radar image and determining, whether a reliability criterion is fulfilled. The method further includes using a first coordinate and a second coordinate output by a trained neural network as an estimate of a position of an object if the reliability criterion is fulfilled, the trained neural network using the first raw radar image and the second raw radar image as an input. The method further includes using a third coordinate and a fourth coordinate output by another radar processing pipeline as the estimate of the position of the object if the reliability criterion is not fulfilled, the radar processing pipeline using the first raw radar image and the second raw radar image as an input.",
+  "claims": "1. A method to evaluate radar images, the method comprising: providing first and second raw radar images; determining whether a reliability criterion is fulfilled; in response to the reliability criterion being fulfilled, generating, by a trained neural network, first and second coordinates based on the first and second raw radar images, the first and second coordinates being indicative of an estimate of a position of an object, wherein the first and second coordinates are generated at an output of the trained neural network; and in response to the reliability criterion not being fulfilled, generating, by a radar processing pipeline different from the trained neural network, third and fourth coordinates based on the first and second raw radar images, the third and fourth coordinates being indicative of the estimate of the position of the object, wherein the radar processing pipeline does not include a neural network, and the radar processing pipeline is inactive when the reliability criterion is fulfilled.",
+  "patent_id": "US12380589-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/70",
+      "G01S 13/89",
+      "G06T 3/10",
+      "G06T 7/277",
+      "G06T 2207/10028",
+      "G06T 2207/20081",
+      "G06T 2207/20084"
+    ],
+    "all": [
+      "G06T 7/70",
+      "G01S 13/89",
+      "G06T 3/10",
+      "G06T 7/277",
+      "G06T 2207/10028",
+      "G06T 2207/20081",
+      "G06T 2207/20084"
+    ],
+    "source": "converted"
+  }
+}

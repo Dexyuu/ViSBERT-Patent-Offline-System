@@ -1,0 +1,26 @@
+{
+  "title": "Map information update method, landmark generation method, and feature point distribution adjustment method",
+  "abstract": "A map information update method includes: (a) obtaining map information; (b) obtaining landmark observed positions indicating positions of one or more landmarks in a captured image; (c) adding that includes (i) generating added map information by adding information pertaining to the landmark observed positions to the map information, and (ii) updating the map information obtained in (a) to the added map information; (d) predicting that includes (i) calculating predicted map information based on the map information updated in (c), by using a neural network inference engine that has been trained, and (ii) updating the map information to the predicted map information; and updating information that includes (i) calculating updated map information based on the map information updated in (d), by using a gradient method, and (ii) updating the map information to the updated map information.",
+  "claims": "1. A map information update method comprising: (a) obtaining map information including estimated positions of a camera and one or more landmarks in a first coordinate system; (b) obtaining landmark observed positions in a second coordinate system in a captured image captured by the camera, the landmark observed positions indicating positions of the one or more landmarks; (c) adding that includes (i) generating added map information by adding information pertaining to the landmark observed positions to the map information obtained in (a), and (ii) updating the map information obtained in (a) to the added map information; (d) predicting that includes (i) calculating predicted map information based on the map information updated in (c), by using a neural network inference engine that has been trained, and (ii) updating the map information updated in (c) to the predicted map information; and (e) updating information that includes (i) calculating updated map information based on the map information updated in (d), by using a gradient method, and (ii) updating the map information updated in (d) to the updated map information.",
+  "patent_id": "US12380598-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/74",
+      "G01C 21/3811",
+      "G06T 2207/20076",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30244"
+    ],
+    "all": [
+      "G06T 7/74",
+      "G01C 21/3811",
+      "G06T 2207/20076",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30244"
+    ],
+    "source": "converted"
+  }
+}

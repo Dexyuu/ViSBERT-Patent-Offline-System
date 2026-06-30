@@ -1,0 +1,17 @@
+{
+  "application_id": "WO2024249537",
+  "application_id_fs": null,
+  "title": "Non-custodial backup and recovery",
+  "abstract": "A method for non-custodial backup of a secret (1021) by the owner of said secret, assisted by a multiplicity n of recovery agents, each having individual public keys and private keys, and the owner having a first value (1013), comprising providing the owner with a first computer program, which at rest will reside on a computer readable medium, configured to enroll the secret by computing a public data set (1023) which does not need to be kept private, requires no security, no secure channels for distribution, and no custody requirements. A method for recovery of the secret (1021) is also disclosed, without which there is no way to run the enrollment backwards and recover the secret.",
+  "claims": "Claims 1. A method for non-custodial backup of a secret (1021) by the owner of said secret, assisted by a multiplicity n of recovery agents, each having individual public key pairs comprising a public key and a private key, and the owner having a first value (1013), comprising providing the owner with a first computer program, which at rest will reside on a computer readable medium, configured to enroll the secret by computing a first data set (1017), using a key derivation (101) that is a function of the owner's first value [1013), each of the n recovery agents' public keys (1011), and a nonce (1015), and thereafter computing a public data set (1023), using a secret sharing scheme (102) that is a function of the computed first data set (1017) and the secret (1021). 2. The method of claim 1, where the first value (1013) is a private key from an asymmetric key pair. 3. The method of claim 1 where after the public data set (1023) is computed, the first data set (1017) and the secret (1021), are burned. 4. The method of claim 1, where computing the public data set (1023) is further a function of a number k of recovery agents' private keys that will be required to recover the secret, where (k = n). 5. The method of claim 4, where one or more of the recovery agents have been designated as mandatory such that their corresponding private key must be one of the k required keys. 6. A method for recovery of a secret (1021) by the owner of said secret, assisted by a multiplicity n of recovery agents, each having individual public key pairs comprising a public key and a private key 7 the owner having a second value (2013), comprising providing the owner with a second computer program, which at rest will reside on a computer readable medium, configured to recover the secret from a public data set (1023), as a function of the owner's second value (2013), and k recovery agents' private keys (2011). 7. The method of claim 6, where the second value (2013) is a public key from an asymmetric key pair.",
+  "classifications": {
+    "ipc": [
+      "H04L 9/08"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 9/08"
+    ],
+    "source": "csv"
+  }
+}

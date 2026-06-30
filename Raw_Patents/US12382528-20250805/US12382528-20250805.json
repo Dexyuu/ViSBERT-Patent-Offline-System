@@ -1,0 +1,18 @@
+{
+  "title": "Radio resource control RRC reestablishment method and apparatus",
+  "abstract": "The present disclosure relates to radio resource control (RRC) reestablishment methods and apparatuses. In one example method, a terminal device selects a target cell, where the target cell supports an expected network slice. The terminal device sends an RRC reestablishment request message by using the target cell. The expected network slice may include a network slice that the terminal device expects to access, or a network slice corresponding to a PDU session established by the terminal device by using a last serving access network device of the terminal device. The terminal device may select the target cell within a preset time period. For example, the terminal device starts a first timer when the terminal device starts selecting the target cell, and selects the target cell during running of the first timer. The first timer may be specific to one or more network slices or all network slices.",
+  "claims": "1. A radio resource control (RRC) reestablishment method, wherein the method comprises: selecting, by a terminal device, a target cell, wherein the target cell is determined by the terminal device to support a network slice expected to be used by the terminal device; and sending, by the terminal device, an RRC reestablishment request message by using the target cell.",
+  "patent_id": "US12382528-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/19",
+      "H04W 36/13"
+    ],
+    "all": [
+      "H04W 76/19",
+      "H04W 36/13"
+    ],
+    "source": "converted"
+  }
+}

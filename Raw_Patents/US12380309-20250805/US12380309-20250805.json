@@ -1,0 +1,18 @@
+{
+  "title": "Radio frequency voltage limiter for an RFID transponder",
+  "abstract": "A radio frequency (RF) voltage limiter for a radio frequency identification (RFID) transponder is provided. The RF voltage limiter includes an envelope detector configured to track an envelope of a signal received at the antenna. The envelope detector has an output for providing an envelope signal. A peak detector is included and has an input coupled to the output of the envelope detector. The peak detector includes a current mirror having an input coupled to the output of the envelope detector, and an output configured to provide a control signal. A shunt circuit is coupled to provide an impedance to the antenna in response to the control signal. The impedance decreases with an increasing voltage of the control signal to limit a maximum voltage at the antenna. In another embodiment, a method is provided for limiting a RF voltage at the antenna.",
+  "claims": "1. A radio frequency (RF) voltage limiter for a radio frequency identification (RFID) transponder, the RF voltage limiter comprising: an envelope detector having an input coupled to an antenna, the envelope detector configured to track an envelope of a signal received at the antenna, the envelope detector having an output for providing an envelope signal; a peak detector having an input coupled to the output of the envelope detector, wherein the peak detector comprises a current mirror having an input coupled to the output of the envelope detector, and an output configured to provide a control signal; a shunt circuit coupled to provide an impedance to the antenna in response to the control signal, wherein the impedance decreases with an increasing voltage magnitude of the control signal; a first transistor having a first current electrode and a control electrode both coupled to receive a reference current, and a second current electrode coupled to the output of the envelope detector; and a second transistor having a first current electrode, a control electrode coupled to the control electrode of the first transistor, and a second current electrode coupled to provide the control signal to the shunt circuit.",
+  "patent_id": "US12380309-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06K 19/0715",
+      "G06K 19/0723"
+    ],
+    "all": [
+      "G06K 19/0715",
+      "G06K 19/0723"
+    ],
+    "source": "converted"
+  }
+}

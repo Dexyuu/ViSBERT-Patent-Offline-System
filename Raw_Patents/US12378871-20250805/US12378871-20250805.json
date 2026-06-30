@@ -1,0 +1,20 @@
+{
+  "title": "Pack off indicator for a wellbore operation",
+  "abstract": "A system can generate, via a software model, downhole pressure estimations and downhole debris estimations using caving parameters. Additionally, the system can generate, via the software model, settled caving volume percent estimations using the caving parameters. The system can determine a pack off volume percent using the downhole pressure estimations, the downhole debris estimations, and the settled caving volume percent estimations. The system can output, via a user interface, the pack off indicator and a subset of the caving parameters for use in adjusting a wellbore operation. The user interface can provide a plot of the pack off volume percent horizontally offset with respect to a plot of the subset of the caving parameters and a depth of the wellbore.",
+  "claims": "7. A method comprising: determining, based on an accumulation of geological material in a wellbore, a pack off indicator that includes a pack off volume percent, the pack off volume percent indicating a likelihood of a downhole tool being immobile in the wellbore, wherein the accumulation of geological material in the wellbore comprises cuttings resulting from an action of the downhole tool positioned in the wellbore and settled cavings resulting from instability in the wellbore, and wherein determining the pack off indicator comprises: estimating the accumulation of geological material in the wellbore, the estimated accumulation comprising a respective estimated accumulation with respect to the cuttings and the settled cavings, wherein the estimated accumulation with respect to the settled cavings is outputted by a data-driven model trained using log data obtained from one or more logging tools; and dividing the estimated accumulation by a volume of a wellbore annulus defined by a first set of wellbore piping and a second set of wellbore piping positioned in the wellbore; and automatically adjusting a wellbore operation using the pack off indicator, the automatically adjusting comprising: controlling a flow of circulating fluid in response to the pack off volume percent; and outputting, via a user interface, the pack off indicator, wherein the user interface comprises a plot of the pack off volume percent horizontally offset with respect to a depth of the wellbore.",
+  "patent_id": "US12378871-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "E21B 47/003",
+      "G01V 20/00",
+      "E21B 2200/20"
+    ],
+    "all": [
+      "E21B 47/003",
+      "G01V 20/00",
+      "E21B 2200/20"
+    ],
+    "source": "converted"
+  }
+}

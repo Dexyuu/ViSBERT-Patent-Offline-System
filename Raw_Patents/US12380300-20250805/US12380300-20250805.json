@@ -1,0 +1,18 @@
+{
+  "title": "Unidirectional transfer of data from sender to receiver",
+  "abstract": "A method, system and devices are provided for unidirectional transfer of data from a sender device (100) to a receiver device (200). At the sender device, respective parts of the data are encoded to generate respective 2D barcodes, and the 2D barcodes are sequentially displayed on a display (142). At the receiver device, an image sensor (222) is used to capture the sequentially displayed 2D barcodes to obtain a series of captured images, and in each or a subset of the series of captured images, detect a position of a respective 2D barcode in the captured image, scan the 2D barcode at the identified position to obtain barcode data, and decode the barcode data to, together with the barcode data obtained from other captured images, obtain a received version of the transmitted data.",
+  "claims": "1. A computer-implemented method for unidirectional transfer of data from a sender device to a receiver device, wherein the sender device comprises or is connected to a display and the receiver device comprises or is connected to an image sensor, comprising: (i) at the sender device: accessing data to be transmitted to the receiver device; encoding respective parts of the data to generate respective 2D barcodes; and (iii) sequentially displaying the 2D barcodes on the display; and (ii) at the receiver device: using the image sensor, capturing the sequentially displayed 2D barcodes to obtain a series of captured images, and in each or a subset of the series of captured images: detecting a position of a respective 2D barcode in the captured image; scanning the 2D barcode at the identified position to obtain barcode data; and decoding the barcode data to, together with the barcode data obtained from other captured images, obtain a received version of the transmitted data, wherein the method further comprising, at the sender device, generating a respective 2D barcode using a mask pattern, and at the receiver device, decoding respective barcode data based on the mask pattern, wherein the mask pattern is a spatiotemporal mask pattern which is different for consecutive pairs of the sequentially displayed 2D barcodes.",
+  "patent_id": "US12380300-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06K 7/1417",
+      "G06K 19/06037"
+    ],
+    "all": [
+      "G06K 7/1417",
+      "G06K 19/06037"
+    ],
+    "source": "converted"
+  }
+}

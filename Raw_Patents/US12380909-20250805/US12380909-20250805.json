@@ -1,0 +1,22 @@
+{
+  "title": "Context-data based speech enhancement",
+  "abstract": "A device to perform speech enhancement includes one or more processors configured to process image data to detect at least one of an emotion, a speaker characteristic, or a noise type. The one or more processors are also configured to generate context data based at least in part on the at least one of the emotion, the speaker characteristic, or the noise type. The one or more processors are further configured to obtain input spectral data based on an input signal. The input signal represents sound that includes speech. The one or more processors are also configured to process, using a multi-encoder transformer, the input spectral data and the context data to generate output spectral data that represents a speech enhanced version of the input signal.",
+  "claims": "1. A device to perform speech enhancement, the device comprising: one or more processors configured to: process image data to detect at least one of an emotion, a speaker identification, or a noise type; generate context data that represents the at least one of the emotion, the speaker identification, or the noise type; obtain input spectral data based on an input signal that corresponds to the image data, the input signal representing sound that includes speech; provide the input spectral data to a first encoder of a multi-encoder transformer to generate first encoded data; provide the context data to at least a second encoder of the multi-encoder transformer to generate second encoded data; provide the first encoded data and the second encoded data to a decoder of the multi-encoder transformer to generate output spectral data that represents a speech enhanced version of the input signal; and perform speech synthesis on the output spectral data to generate an output waveform corresponding to an enhanced version of the speech.",
+  "patent_id": "US12380909-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 21/0232",
+      "G06N 3/0455",
+      "G10L 21/02",
+      "G10L 21/038"
+    ],
+    "all": [
+      "G10L 21/0232",
+      "G06N 3/0455",
+      "G10L 21/02",
+      "G10L 21/038"
+    ],
+    "source": "converted"
+  }
+}

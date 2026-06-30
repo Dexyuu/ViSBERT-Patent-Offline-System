@@ -1,0 +1,18 @@
+{
+  "title": "Virtual machine image management system",
+  "abstract": "Virtual machine images may be constantly scanned using background process, to identify current and evolving security risks, such as by optimizing the image scanning a last-in, first-out (LIFO) stack to prioritize most relevant images. Older and/or non-relevant image are removed from the scanning process and removed from use. Virtual machines image prioritization is based on each virtual machine image's current and/or potential usage requirement, where the LIFO stack prioritizes the scanning order. Newly created virtual machine images and/or newly re-activated virtual machine images are placed onto a provisioning queue (first-in, first out) before activation. The virtual machine images active within a host computing environment are processed via a reconciliation process to scan for indications of security vulnerabilities and/or threats to network security. Obsolete or otherwise irrelevant virtual machine images are removed from use via a repository synchronization process.",
+  "claims": "1. A system comprising: a virtual computing environment platform comprising at least one first processor configured to operate a virtual machine corresponding to an activated virtual machine (VM) image; a VM image management platform, comprising: at least one second processor; and memory storing computer-readable instructions that, when executed by the at least one second processor, cause the VM image management platform to: receive, continuously at a scanning stack, a plurality of virtual machine images, wherein the scanning stack comprises a last in first out (LIFO) stack; add, continuously, virtual images to the scanning stack; pull, by a scanning engine, a first VM image from the scanning stack; scan, by the scanning engine, the first VM image, wherein the first VM image is stored in an approved image data store based on an indication that the scanning engine failed to identify a threat indicator; provision, by a provisioning engine and based on indication that no security threat was identified, the first VM image on the virtual computing environment platform; remove, from the scanning stack and from the approved image data store, a second VM image after expiration of a scan wait time duration; and remove, by a VM image management service based on an identified threat associated with the first VM image and when the first VM image comprises a saved VM image retrieved from the approved image data store, the first VM image from the approved image data store.",
+  "patent_id": "US12380207-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/554",
+      "G06F 21/568"
+    ],
+    "all": [
+      "G06F 21/554",
+      "G06F 21/568"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "BWP activation method for terminal",
+  "abstract": "The present disclosure provides a method and an apparatus, wherein a terminal, for which a primary cell and a secondary cell are configured, performs a random access procedure, and a specific BWP on the secondary cell is activated on the basis that DCI received from a base station indicates non-dormancy.",
+  "claims": "1. A method comprising: transmitting, by a base station (BS) to a user equipment (UE) for which a primary cell and secondary cells (SCells) are configured, information for search spaces to monitor physical downlink control channel (PDCCH) for detection of downlink control information (DCI); transmitting, by the BS to the UE, bandwidth part (BWP) information via a radio resource control (RRC) signal, wherein the BWP information informs of a specific BWP; transmitting, by the BS to the UE, the DCI including a first field related to resource assignment for a specific cell and a second field related to a secondary cell dormancy for a group of configured SCells; and receiving, by the BS from the UE, Hybrid Automatic Repeat and request-acknowledgement (HARQ-ACK) information related with the DCI, wherein based on a current active BWP for the UE being a dormant BWP, the specific BWP informed by the BWP information is activated for each activated SCell in the group of configured SCells based on a value of a bit related with the group of configured SCells in the second field included in the DCI being 1.",
+  "patent_id": "US12382469-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/23"
+    ],
+    "all": [
+      "H04W 72/23"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Encoding and decoding a point cloud using patches for in-between samples",
+  "abstract": "At least one embodiment relates to provides a method of encoding/decoding attribute of orthogonally projected 3D samples and in-between 3D samples in which an information indicates whether at least one first attribute patch of 2D samples obtained by encoding the attribute of said at least one orthogonally projected 3D samples according to a first attribute coding mode, and at least one second attribute patch of 2D samples of an image obtained by encoding the attribute of at least one in-between 3D sample, are stored in separate images.",
+  "claims": "1. A method comprising: decoding from a first video stream data representative of a point cloud, the data comprising at least one first attribute patch of 2D samples, the at least one first attribute patch of 2D samples comprising attributes of orthogonally projected 3D samples of the point cloud whose 3D coordinates are derived from coordinates of pixels in a geometry image and values of said pixels in the geometry image, decoding a syntax element indicating whether or not at least one second attribute patch of 2D samples, at least one geometry patch of 2D samples and at least one third attribute patch of 2D samples can be stored in a second video stream separate from the first video stream, wherein the at least one geometry patch of 2D samples comprising 3D coordinates of at least one 3D sample of a point cloud whose 3D coordinates are derived from pixel values of the at least one geometry patch, the at least one second attribute patch of 2D samples comprising an attribute value of the at least one 3D sample whose 3D coordinates are derived from pixel values of the at least one geometry patch, the at least one third attribute patch of 2D samples comprises attributes of at least one in-between 3D sample of a point cloud, 3D coordinates of the at least one in-between 3D sample are derived from coordinates of a pixel in a geometry image and from one bit of a codeword indicating a location of the at least one in-between 3D sample along a projection line between two 3D samples of the point cloud orthogonally projected along the projection line, decoding from the first video stream or the second video stream based on the syntax element, at least one of the at least one geometry patch of 2D samples, the at least one second attribute patch of 2D samples, or the at least one third attribute patch of 2D samples.",
+  "patent_id": "US12382056-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/132",
+      "H04N 19/182",
+      "H04N 19/463",
+      "H04N 19/597"
+    ],
+    "all": [
+      "H04N 19/132",
+      "H04N 19/182",
+      "H04N 19/463",
+      "H04N 19/597"
+    ],
+    "source": "converted"
+  }
+}

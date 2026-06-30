@@ -1,0 +1,44 @@
+{
+  "title": "Method for determining color difference component quantization parameter and device using the method",
+  "abstract": "Disclosed are a method for determining a color difference component quantization parameter and a device using the method. Method for decoding an image can comprise the steps of: decoding a color difference component quantization parameter offset on the basis of size information of a transform unit; and calculating a color difference component quantization parameter index on the basis of the decoded color difference component quantization parameter offset. Therefore, the present invention enables effective quantization by applying different color difference component quantization parameters according to the size of the transform unit when executing the quantization.",
+  "claims": "1. A video decoding apparatus comprising: an inverse-quantizer configured to identify a quantization group, the quantization group being a group of a plurality of transform blocks to which a same chrominance component quantization parameter is applied, configured to calculate the chrominance component quantization parameter to be applied to the quantization group, configured to inverse-quantize transform coefficients of a transform block included in the quantization group by using the calculated chrominance component quantization parameter; an inverse-transformer configured to generate a residual block of a current block by inverse-transforming the inverse-quantized transform coefficients; a predictor configured to generate a prediction block of the current block by predicting the current block; and an adder configured to reconstruct the current block based on the residual block and the prediction block, wherein the quantization group comprises transform blocks of a first size and transform blocks of a second size, wherein the inverse-quantizer comprises: a chrominance component quantization parameter index calculator configured to calculate a chrominance component quantization parameter index by using a chrominance component quantization parameter offset, wherein the chrominance component quantization parameter offset is derived from encoding information of a level of a sequence; and a chrominance component quantization parameter calculator configured to calculate the chrominance component quantization parameter based on the chrominance component quantization parameter index.",
+  "patent_id": "US12382045-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/124",
+      "H04N 19/105",
+      "H04N 19/117",
+      "H04N 19/122",
+      "H04N 19/13",
+      "H04N 19/15",
+      "H04N 19/157",
+      "H04N 19/159",
+      "H04N 19/186",
+      "H04N 19/43",
+      "H04N 19/46",
+      "H04N 19/463",
+      "H04N 19/61",
+      "H04N 19/174",
+      "H04N 19/176"
+    ],
+    "all": [
+      "H04N 19/124",
+      "H04N 19/105",
+      "H04N 19/117",
+      "H04N 19/122",
+      "H04N 19/13",
+      "H04N 19/15",
+      "H04N 19/157",
+      "H04N 19/159",
+      "H04N 19/186",
+      "H04N 19/43",
+      "H04N 19/46",
+      "H04N 19/463",
+      "H04N 19/61",
+      "H04N 19/174",
+      "H04N 19/176"
+    ],
+    "source": "converted"
+  }
+}

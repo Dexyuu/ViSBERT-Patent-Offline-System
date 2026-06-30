@@ -1,0 +1,44 @@
+{
+  "title": "Method for charging power battery and battery management system",
+  "abstract": "Embodiments of the present application provide a method for charging a power battery and a battery management system, which can effectively improve the charging speed of the power battery on the basis of ensuring the safety performance of the power battery. The method for charging a power battery is applied to a battery management system for the power battery. The method includes: determining a negative electrode potential safety threshold according to a battery state parameter of the power battery, the battery state parameter comprising at least one of the state of charge (SOC), the temperature, and the state of health (SOH) of the power battery; and adjusting a charging request current for the power battery based on a negative electrode potential of the power battery and the negative electrode potential safety threshold during a charging process for the power battery.",
+  "claims": "1. A method for charging a power battery, wherein the method is applied to a battery management system (BMS) for the power battery, the method comprising: determining a negative electrode potential safety threshold according to a battery state parameter of the power battery, the battery state parameter comprising at least one of the state of charge (SOC), the temperature, and the state of health (SOH) of the power battery; and adjusting a charging request current for the power battery based on a negative electrode potential of the power battery and the negative electrode potential safety threshold during a charging process for the power battery; wherein adjusting the charging request current for the power battery based on the negative electrode potential of the power battery and the negative electrode potential safety threshold comprises: adjusting the charging request current from a first charging request current to a second charging request current when the negative electrode potential drops to the negative electrode potential safety threshold, the second charging request current being less than the first charging request current; or adjusting the charging request current from a first charging request current to a third charging request current when the negative electrode potential does not drop to the negative electrode potential safety threshold and a charging duration of the power battery is greater than a time threshold, the third charging request current being greater than the first charging request current.",
+  "patent_id": "US12381405-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02J 7/0029",
+      "B60L 53/62",
+      "B60L 58/12",
+      "B60L 58/16",
+      "B60L 58/24",
+      "H01M 10/425",
+      "H01M 10/443",
+      "H01M 10/486",
+      "H02J 7/0048",
+      "H02J 7/005",
+      "H02J 7/00712",
+      "H02J 7/007194",
+      "B60L 2240/545",
+      "H01M 2010/4271",
+      "H01M 2220/20"
+    ],
+    "all": [
+      "H02J 7/0029",
+      "B60L 53/62",
+      "B60L 58/12",
+      "B60L 58/16",
+      "B60L 58/24",
+      "H01M 10/425",
+      "H01M 10/443",
+      "H01M 10/486",
+      "H02J 7/0048",
+      "H02J 7/005",
+      "H02J 7/00712",
+      "H02J 7/007194",
+      "B60L 2240/545",
+      "H01M 2010/4271",
+      "H01M 2220/20"
+    ],
+    "source": "converted"
+  }
+}

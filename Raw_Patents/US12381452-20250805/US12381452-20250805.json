@@ -1,0 +1,18 @@
+{
+  "title": "Method for fault processing of hall position sensor in brushless direct current motor",
+  "abstract": "A method for fault processing of HALL position sensor in brushless direct current motor, comprising: step (1) detecting HALL signals by an edge detection, and recording the times of edge hopping; step (2) determining whether the absolute value of a difference between the rotor position change represented by HALL and an angle value calculated internally by MCU is within the preset error range; if so, updating the angle value to the angle representing the rotor position that is detected by HALL, otherwise, increasing the MCU internal angle value according to an angle increment previously calculated through a motor rotation speed; step (3) obtaining an acceptable range based on an original value of the previous angle increment. The present invention provides an internal degree to record angle, and the motor commutation is accomplished according to the degree angle value recorded by the internal degree.",
+  "claims": "1. A method for fault processing of HALL position sensor in brushless direct current motor, comprising: step (1) detecting HALL signals by an edge detection, and recording the times of edge hopping, detecting the order of HALL signals, if the order of HALL signals changes, proceeding to step (2), otherwise, indicating no fault occurs; step (2) determining whether the absolute value of a difference between a rotor position change represented by HALL and an angle value calculated by MCU is within a preset error range; if so, indicating no fault occurs, updating the MCU internal angle value to the angle representing the rotor position that is detected by HALL, otherwise, indicating a fault occurs, without determining a type of Hall sensor fault, directly increasing the angle value calculated by MCU according to an angle increment previously calculated through a motor rotation speed; step (3) obtaining an acceptable range based on an original value of the previous angle increment.",
+  "patent_id": "US12381452-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02K 11/215",
+      "H02K 29/08"
+    ],
+    "all": [
+      "H02K 11/215",
+      "H02K 29/08"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Container load state detection",
+  "abstract": "A method and device for container load state detection are disclosed herein. A device processor controls a sensor assembly to capture successive sets of sensor data depicting an interior of the container during a load process for the container. The processor, for successive sets of the sensor data, detects items placed in the container interior, and determines, based on the detected items, respective fullness indicators for the container interior. The processor detects, based on the fullness indicators, an idle time period for the container interior. Responsive to determining that the idle time period exceeds an inactivity threshold, the processor, when a current fullness indicator does not meet a target, sends a first notification to a client device associated with the container load, and when the current fullness indicator meets the target, sends a second notification to the client device, and monitors the sensor data for a container door closure event.",
+  "claims": "1. A method of state detection for a container load, the method comprising: during a load process for a container at a load bay, controlling a sensor assembly disposed at the load bay to capture successive sets of sensor data depicting an interior of the container; at a computing device communicatively coupled to the sensor assembly: for successive sets of the sensor data, (i) detecting items placed in the container interior, and (ii) determining, based on the detected items, respective fullness indicators for the container interior; detecting, based on the fullness indicators, an idle time period for the container interior; in response to determining that the idle time period exceeds an inactivity threshold: (i) when a current fullness indicator does not meet a target fullness, sending a first notification to a client computing device associated with the container load; and (ii) when the current fullness indicator meets the target fullness, sending a second notification to the client computing device, and monitoring the sensor data for a container door closure event.",
+  "patent_id": "US12380381-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/063114",
+      "G06Q 10/08",
+      "G08B 21/182"
+    ],
+    "all": [
+      "G06Q 10/063114",
+      "G06Q 10/08",
+      "G08B 21/182"
+    ],
+    "source": "converted"
+  }
+}

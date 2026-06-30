@@ -1,0 +1,20 @@
+{
+  "title": "Side channel attack resistant cryptographic accelerator",
+  "abstract": "A computer implemented method includes receiving data on which to perform elliptic curve digital signature algorithm (ECDSA) and mapping ECDSA computations from affine coordinates to projective coordinates. A complete addition formula is executed on the data with operations changing based on bits of a secret key by minimizing execution time and power consumption differences via a finite adder. Modular multiplications are executed via a finite multiplier module. At least one countermeasure selected from the group consisting of randomizing a base point, generating a secret key using a two random number seed random number generator, using a randomized secret key to generate a signature, and randomizing signature generation is executed.",
+  "claims": "1. A computer implemented method comprising: receiving data on which to perform elliptic curve digital signature algorithm (ECDSA); mapping ECDSA computations from affine coordinates to projective coordinates; executing a complete addition formula on the data with operations changing based on bits of a secret key by minimizing execution time and power consumption differences via a finite adder; executing modular multiplications via a finite multiplier module; and performing at least one countermeasure selected from the group consisting of randomizing a base point, generating a secret key using a two random number seed random number generator, using a randomized secret key to generate a signature in projective coordinates while performing at least one of the countermeasures; converting the signature to affine coordinates; and providing the signature in affine coordinates as an output.",
+  "patent_id": "US12381742-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/3252",
+      "H04L 9/002",
+      "H04L 9/0869"
+    ],
+    "all": [
+      "H04L 9/3252",
+      "H04L 9/002",
+      "H04L 9/0869"
+    ],
+    "source": "converted"
+  }
+}

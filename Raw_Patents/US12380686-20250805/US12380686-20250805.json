@@ -1,0 +1,36 @@
+{
+  "title": "Ultrasound imaging dataset acquisition for neural network training and associated devices, systems, and methods",
+  "abstract": "Ultrasound image devices, systems, and methods are provided. A medical ultrasound image system, comprising an communication interface in communication with an imaging device and configured to receive a first image representative of a subject's body from the imaging device while the imaging device is positioned at a first imaging position with respect to the subject's body; and transmit a motion control configuration for repositioning the imaging device from the first imaging position to a second imaging position; a processor in communication with the communication interface and configured to generate a database by associating the first image, the motion control configuration, and a score associated with the second imaging position and a target image view including a clinical property; and a storage device in communication with the processor and configured to store the database to facilitate training of a predictive network for aligning the imaging device to the target image view.",
+  "claims": "1. An apparatus, comprising: an ultrasound imaging probe; a memory; a processor configured for communication with the ultrasound imaging probe and the memory, wherein the processor is configured to: control, with an output of a motion control configuration, the ultrasound imaging probe to be physically repositioned from a first imaging position to a second imaging position; control the ultrasound imaging probe to obtain an ultrasound image representative of a subject's body while the ultrasound imaging probe is positioned at the second imaging position; retrieve a target imaging position for the ultrasound imaging probe from the memory; determine a score based on a comparison between the second imaging position and the target imaging position; generate a data tuple comprising the ultrasound image, the motion control configuration, and the score; and store the data tuple in the memory and train a predictive network for aligning the imaging probe to the target imaging position based on the data tuple.",
+  "patent_id": "US12380686-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/82",
+      "A61B 8/0883",
+      "A61B 8/12",
+      "A61B 8/14",
+      "A61B 8/4218",
+      "A61B 8/54",
+      "A61B 34/20",
+      "A61B 34/30",
+      "G06V 10/764",
+      "A61B 2034/2063",
+      "A61B 2034/303"
+    ],
+    "all": [
+      "G06V 10/82",
+      "A61B 8/0883",
+      "A61B 8/12",
+      "A61B 8/14",
+      "A61B 8/4218",
+      "A61B 8/54",
+      "A61B 34/20",
+      "A61B 34/30",
+      "G06V 10/764",
+      "A61B 2034/2063",
+      "A61B 2034/303"
+    ],
+    "source": "converted"
+  }
+}

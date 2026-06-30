@@ -1,0 +1,16 @@
+{
+  "title": "Granting selective access to an encrypted conversation history",
+  "abstract": "Selective access to an encrypted conversation history can be granted as described herein. For example, a first client device can determine a message key used to encrypt messages associated with a conversation. The first client device can then generate a key ciphertext by: determining a prior secret key, determining a current secret key by hashing the prior secret key and the message key, and generating the key ciphertext by encrypting the prior secret key and the message key using the current secret key. The first client device can then transmit the key ciphertext to a server system. To grant the second client device with access to the encrypted messages, the first client device can transmit the current secret key to the second client device, which can obtain the key ciphertext from the server system and apply the current secret key to derive the message key and decrypt the messages.",
+  "claims": "1. A method comprising: determining, by a first client device, a message key used to encrypt messages associated with a conversation; generating, by the first client device, a key ciphertext corresponding to the message key by: determining a prior secret key that is different from the message key; determining a current secret key by hashing the prior secret key and the message key; and generating the key ciphertext by encrypting the prior secret key and the message key using the current secret key; and transmitting, by the first client device, the key ciphertext to a server system that is remote from the first client device, wherein a second client device is configured to receive the key ciphertext from the server system and decrypt the key ciphertext using the current secret key to derive the message key and decrypt the messages.",
+  "patent_id": "US12381726-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/088"
+    ],
+    "all": [
+      "H04L 9/088"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "BFLOAT16 scale and/or reduce instructions",
+  "abstract": "Techniques for scale and reduction of BF16 data elements are described. An exemplary instruction includes fields for an having fields for an opcode, an identification of a location of a first packed data source operand, an identification of a location of a second packed data source operand, and an identification of a packed data destination operand, wherein the opcode is to indicate that execution circuitry is to perform, for each data element position of the packed data source operands, a floating point scale operation of a BF16 data element of the first packed data source by multiplying the data element by a power of 2 value, wherein a value of the exponent of the power of 2 value is a floor value of a BF16 data element of the second packed data source, and store a result of the floating point scale operation into a corresponding data element position of the packed data destination operand.",
+  "claims": "1. An apparatus comprising: decode circuitry to decode an instance of a single instruction, the single instruction to include fields for an opcode, an identification of a location of a first packed data source operand, an identification of a location of a second packed data source operand, and an identification of a packed data destination operand, wherein the opcode is to indicate that execution circuitry is to perform, for each data element position of the packed data source operands, a floating point scale operation of a BF16 data element of the first packed data source by multiplying the data element by a power of 2 value, wherein a value of an exponent of the power of 2 value is a floor value of a BF16 data element of the second packed data source, and store a result of the floating point scale operation into a corresponding data element position of the packed data destination operand; and the execution circuitry to execute the decoded instruction according to the opcode.",
+  "patent_id": "US12379927-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/30145",
+      "G06F 9/30036",
+      "G06F 9/30038",
+      "G06F 9/30101",
+      "G06F 9/30014"
+    ],
+    "all": [
+      "G06F 9/30145",
+      "G06F 9/30036",
+      "G06F 9/30038",
+      "G06F 9/30101",
+      "G06F 9/30014"
+    ],
+    "source": "converted"
+  }
+}

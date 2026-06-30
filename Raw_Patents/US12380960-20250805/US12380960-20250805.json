@@ -1,0 +1,26 @@
+{
+  "title": "Non-volatile memory with faster post-erase defect testing",
+  "abstract": "As part of the erase operation for a memory block, one or more post-erase tests can be incorporated into the erase operation to see whether the block has grown any defects. After erasing a block and verifying the erase, the post-erase tests can be performed on the block. As these test involve biasing the block and performing a sensing operation, these post erase tests come with a time penalty. To reduce the associated time penalty and improve memory performance while incorporating the defect tests into the erase process, when biasing the memory array for the post-erase defect tests different ramp rates can be used. In particular, faster ramp rates for bias levels, such those applied to the word lines of the block, are used for the post-erase tests than are used for the same bias level when performing the standard read, program verify, or read verify operations.",
+  "claims": "1. A non-volatile memory device comprising: a control circuit configured to connect to an array of non-volatile memory cells having a NAND architecture and comprising a plurality of blocks each having plurality of NAND strings each comprising a plurality of the memory cells connected in series between a first select gate and a second select gate, the control circuit configured to perform an erase operation on a selected block of the array, where, to perform the erase operation, the control circuit is configured to: bias the selected block to erase the memory cells thereof; subsequently perform an erase verify on the selected block, the erase verify comprising concurrently applying one or more bias voltages, including a first bias voltage, to the selected block, where to apply the first bias voltage to the selected block the control circuit is configured to ramp up the first bias voltage to a first voltage level at a first ramp rate; determine whether the selected block passed the erase verify: in response to passing the erase verify, perform one or more post-erase memory tests on the selected block, each post-erase memory test comprising applying the first bias voltage to the selected block, where to apply the first bias voltage to the selected block the control circuit is configured to ramp up the first bias voltage to the first voltage level at a second ramp rate, the second ramp rate being higher than the first ramp rate, a first of the post-erase memory tests comprising a sensing operation of the first select gates and the second select gates; and determine whether the selected block passed the post-erase memory tests, where to determine whether the selected block passed the first of the post-erase memory tests the control circuit is configured to determine the NAND strings of the selected block for which the first select gate and the second select gate conduct in response to applying the first bias voltage to the selected block.",
+  "patent_id": "US12380960-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G11C 29/44",
+      "G06F 12/1009",
+      "G11C 16/16",
+      "G11C 16/3445",
+      "G11C 29/12005",
+      "G11C 2029/1202"
+    ],
+    "all": [
+      "G11C 29/44",
+      "G06F 12/1009",
+      "G11C 16/16",
+      "G11C 16/3445",
+      "G11C 29/12005",
+      "G11C 2029/1202"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Method and apparatus for sharing reason cause for MCX communication over pre-established session",
+  "abstract": "A method for sharing a reason cause for a mission critical communication (MCX) communication over pre-established session in an MCC network is provided. The method includes transmitting, to the server, a call initiation request to initiate a call, wherein the call initiation request includes first information on a session type and second information on a resource list, receiving, from the server, a mission critical pre-established session control (MCPC) connect message including a security message, determining whether an authentication for the security message is successful, and transmitting, to the server, a first MCPC acknowledgement message including a reason cause field to inform a reason for terminating the call in response to determining that the authentication for the security message is not successful.",
+  "claims": "1. A method performed by a first user equipment (UE) in a wireless communication system, the method comprising: transmitting, to a server, an initiation request to initiate a mission critical push-to-talk (MCPTT) call over a pre-established session; receiving, from the server, a mission critical pre-established session control (MCPC) connect message including a MIKEY-SAKKE I_MESSAGE; and transmitting, to the server, an MCPC acknowledgement message including a reason code field containing a reason for rejecting the MCPTT call in response to determining that the first UE does not accept the MCPTT call based on the received MCPC connect message, wherein the reason code field includes a reason code field identity, a reason code length, and a reason code value, and wherein the reason code value is one of a plurality of predetermined values, and the plurality of predetermined values comprise at least one of: a first value indicating “authentication of the MIKEY-SAKKE I MESSAGE failed,” a second value indicating “integrity protection check failed,” or a third value indicating “unable to decrypt XML content”.",
+  "patent_id": "US12382254-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 4/10",
+      "H04L 67/14",
+      "H04W 4/90",
+      "H04W 76/45",
+      "H04W 76/50"
+    ],
+    "all": [
+      "H04W 4/10",
+      "H04L 67/14",
+      "H04W 4/90",
+      "H04W 76/45",
+      "H04W 76/50"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Lamp color correction method and system, and storage medium",
+  "abstract": "Disclosed are a lamp color correction method and system, and a storage medium. The lamp color correction method includes: acquiring each monochromatic illuminance, each monochromatic chromaticity coordinate, a first panchromatic illuminance and first panchromatic chromaticity coordinates of a target lamp; acquiring a first parameter if the acquired monochromatic and panchromatic illuminances and chromaticity coordinates are acceptable; acquiring an output value of each monochromatic channel; acquiring a second panchromatic illuminance and second panchromatic chromaticity coordinates of the target lamp; and determining that the target lamp is acceptable and updating the output value of each monochromatic channel to the target lamp, if a ratio of the second panchromatic illuminance to the first panchromatic illuminance is greater than or equal to a preset first threshold and a difference between the second panchromatic chromaticity coordinate and a standard panchromatic chromaticity coordinate satisfies a preset third deviation range.",
+  "claims": "1. A lamp color correction method, comprising: acquiring each monochromatic illuminance, each monochromatic chromaticity coordinate, a first panchromatic illuminance and first panchromatic chromaticity coordinates of a target lamp; determining whether a ratio of each monochromatic illuminance to each preset standard monochromatic illuminance satisfies a preset first deviation range; determining whether a difference between each monochromatic chromaticity coordinate and each preset standard monochromatic chromaticity coordinate satisfies a preset second deviation range; acquiring a minimum ratio of the monochromatic illuminance to the preset standard monochromatic illuminance as a first parameter, if the ratio of each monochromatic illuminance to each preset standard monochromatic illuminance satisfies the first deviation range and the difference between each monochromatic chromaticity coordinate and each preset standard monochromatic chromaticity coordinate satisfies the second deviation range; acquiring an output value of each monochromatic channel based on a product of the first parameter and each preset standard monochromatic illuminance, wherein there is at least an output value of the monochromatic channel that is 255; and acquiring a second panchromatic illuminance and second panchromatic chromaticity coordinates of the target lamp based on the output value of each monochromatic channel; and determining that the target lamp is acceptable and updating the output value of each monochromatic channel to the target lamp, if a ratio of the second panchromatic illuminance to the first panchromatic illuminance is greater than or equal to a preset first threshold and a difference between the second panchromatic chromaticity coordinate and a standard panchromatic chromaticity coordinate satisfies a preset third deviation range.",
+  "patent_id": "US12382558-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H05B 45/22"
+    ],
+    "all": [
+      "H05B 45/22"
+    ],
+    "source": "converted"
+  }
+}

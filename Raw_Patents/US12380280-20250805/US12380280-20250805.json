@@ -1,0 +1,20 @@
+{
+  "title": "Topic identification based on virtual space machine learning models",
+  "abstract": "Techniques for displaying workflow responses based on determining topics associated with user requests are discussed herein. In some examples, a user may post a request (e.g., question) to a virtual space (e.g., a channel, thread, board, etc.) of a communication platform. The communication platform may input the request into a machine learning model trained to identify topics associated with the request and confidence levels associated with topics. In such examples, the communication platform may associate a topic with the user request based on the confidence level of the topic. In some examples, the communication platform may determine that the topic is associated with a graphical identifier (e.g., emoji). The communication platform may cause the graphical identifier to be displayed to the virtual space within which the user request was posted. In response to displaying the graphical identifier, the communication platform may display a workflow response to the virtual space.",
+  "claims": "1. A method, implemented at least in part by one or more computing devices of a communication platform, the method comprising: receiving, via a virtual space and from a user associated with a user profile of the communication platform, a request to obtain information; inputting the request into a trained machine learning model trained to determine a plurality of topics associated with the request and respective confidence levels associated with the plurality of topics, wherein the trained machine learning model is trained on content stored within the virtual space; receiving, from the trained machine learning model, the plurality of topics and the respective confidence levels; determining that an individual confidence level associated with an individual topic is a highest confidence level of the respective confidence levels; determining, based at least in part on the individual confidence level being the highest confidence level, that the individual confidence level meets or exceeds a threshold confidence level; based least in part on the individual confidence level meeting or exceeding the threshold confidence level, associating the individual topic with the request; determining that the individual topic of the request corresponds to a graphical identifier; causing to display, in response to determining that the individual topic corresponds to the graphical identifier and based at least in part on the request being associated with the individual topic, the graphical identifier on the virtual space; and causing to display, based at least in part on the graphical identifier to be displayed, a workflow response on the virtual space.",
+  "patent_id": "US12380280-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 40/35",
+      "G10L 25/30",
+      "H04L 51/02"
+    ],
+    "all": [
+      "G06F 40/35",
+      "G10L 25/30",
+      "H04L 51/02"
+    ],
+    "source": "converted"
+  }
+}

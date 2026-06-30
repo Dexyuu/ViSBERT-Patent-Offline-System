@@ -1,0 +1,18 @@
+{
+  "title": "Aperiodic SRS triggering mechanism enhancement",
+  "abstract": "Provided is a method for a user equipment (UE). The UE obtains, from a network device, a first configuration information. The first configuration information indicates a first resource set for an aperiodic Sounding Reference Signal (AP-SRS). The first resource set for the AP-SRS includes a first list of slot offsets. The UE decodes a second configuration information from the network device. The second configuration information indicates a reference slot and a first slot offset of the first list of slot offsets. The UE generates the AP-SRS for transmission to the network device based on the reference slot and the first slot offset.",
+  "claims": "1. A method comprising: determining, based on configuration information received from a network device via radio resource control (RRC) signaling, a first slot offset, a first list of slot offsets for a first resource set of an aperiodic-sounding reference signal (AP-SRS), and a second list of slot offsets for a second resource set of the AP-SRS, wherein a number of slot offsets in the first list of slot offsets is different from a number of slot offsets in the second list of slot offsets; detecting downlink control information (DCI) received in a first slot; determining, based on the DCI, a second slot offset from the first list of slot offsets; determining a second slot based on the first slot, the first slot offset, and the second slot offset; and generating the AP-SRS to be transmitted in the second slot.",
+  "patent_id": "US12381685-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/0051",
+      "H04L 5/0094"
+    ],
+    "all": [
+      "H04L 5/0051",
+      "H04L 5/0094"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "High bandwidth low latency cellular traffic awareness",
+  "abstract": "Disclosed are techniques for wireless communication. In an aspect, a network node configures a quality of service (QoS) profile comprising one or more file-level QoS parameters, wherein the QoS profile applies to one or more files associated with a service flow associated with a user equipment (UE), wherein each file of the one or more files comprises one or more protocol data units (PDUs), and wherein a header of each PDU of the one or more PDUs of the file includes a file identifier and a file type of the file, and enforces the QoS profile on the one or more files.",
+  "claims": "1. A method of wireless communication performed by a network entity, comprising: receiving, from an application server, a burst of one or more application layer files associated with a service flow associated with a user equipment (UE); receiving a quality of service (QoS) profile associated with the one or more application layer files, the QoS profile comprising one or more application layer file-level QoS parameters, wherein the QoS profile applies to the one or more application layer files associated with the service flow associated with the UE, wherein each application layer file of the one or more application layer files comprises one or more protocol data units (PDUs), wherein the one or more application layer file-level QoS parameters include at least a file identifier, a file error rate (FER), and a file delay budget (FDB) for the application layer file, and wherein a header of each PDU of the one or more PDUs of the application layer file includes the file identifier of the application layer file; encoding the file identifier in headers of each of one or more downlink PDUs; and forwarding, based on the QoS profile, the one or more downlink PDUs to a radio access network (RAN) serving the UE.",
+  "patent_id": "US12382341-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 28/065",
+      "H04L 2101/659",
+      "H04W 80/06"
+    ],
+    "all": [
+      "H04W 28/065",
+      "H04L 2101/659",
+      "H04W 80/06"
+    ],
+    "source": "converted"
+  }
+}

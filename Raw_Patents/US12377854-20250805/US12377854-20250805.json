@@ -1,0 +1,28 @@
+{
+  "title": "Driving mode control method based on power consumption and fuel consumption, computer processing device and storage medium",
+  "abstract": "A driving mode control method, apparatus, device, program and storage medium, which relates to the technical field of electronic control, and is for a control platform, the method includes: acquiring a location information sent by a target vehicle, wherein the location information comprises a target location; determining a status data of at least one sample vehicle pre-stored by the control platform based on the target location, wherein the sample vehicle is a vehicle which has travelled through the target location; determining a target driving mode based on the status data of the sample vehicle, and sending the target driving mode to the target vehicle, such that the target vehicle travels in the target driving mode. This disclosure enables the target vehicle to travel in the target driving mode. The driver needs not to manually switch the driving mode, and the accuracy and convenience of controlling the drive mode are improved.",
+  "claims": "1. A driving mode control method for a control platform, comprising: the control platform acquiring a location information sent by a target vehicle, wherein the location information comprises a target location; the control platform determining a status data of at least one sample vehicle pre-stored by the control platform based on the target location, wherein the sample vehicle is a vehicle which has travelled through the target location; the control platform determining a suitable target driving mode for the target vehicle that travels currently based on the status data of the sample vehicle, and sending the target driving mode to the target vehicle that travels currently, wherein the control platform determining the status data of the at least one sample vehicle pre-stored by the control platform based on the target location comprises: the control platform determining a target road segment involving the target location; the control platform determining the sample vehicle which has travelled through the target road segment during a preset time period before a current time point; and the control platform acquiring the status data of the sample vehicle, wherein the status data of the sample vehicle comprises a driving mode, a power consumption, or a fuel consumption of the sample vehicle when the sample vehicle is travelling through the target road segment; wherein the driving mode is one of a plurality of driving modes and the sample vehicle is one of a plurality of sample vehicles, and the control platform determining the suitable target driving mode for the target vehicle that travels currently based on the status data of the sample vehicle comprises: the control platform determining an average power consumption and an average fuel consumption corresponding to each one of the plurality of driving modes based on the status data of the plurality of sample vehicles; the control platform determining an energy consumption corresponding to each one of the plurality of driving modes based on an average power consumption and an average fuel consumption corresponding to the each one of the plurality of driving modes; and the control platform determining the suitable target driving mode for the target vehicle that travels currently based on the energy consumption corresponding to the each one of the plurality of driving modes; and wherein the control platform determining the average power consumption and the average fuel consumption corresponding to the each one of the plurality of driving modes based on the status data of the plurality of sample vehicles comprises: for each one of the sample vehicles, the control platform determining the power consumption and the fuel consumption of the sample vehicle travelling in each one of the plurality of driving modes based on the status data of the sample vehicle; the control platform determining a corresponding first weighting coefficient and a corresponding second weighting coefficient of the sample vehicle based on a travel time when the sample vehicle travelled through the target road segment; the control platform determining the average power consumption corresponding to a first driving mode based on the power consumption of each one of the sample vehicles travelling in a first driving mode and the corresponding first weighting coefficient of the each one of the sample vehicles, wherein the first driving mode is any one of the plurality of driving modes; and the control platform determining the average fuel consumption corresponding to the first driving mode based on the fuel consumption of each one of the sample vehicles travelling in the first driving mode and the corresponding second weighting coefficient of the each one of the sample vehicles.",
+  "patent_id": "US12377854-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 30/182",
+      "B60W 50/00",
+      "B60W 2050/0022",
+      "B60W 2050/0095",
+      "B60W 2556/10",
+      "B60W 2556/50",
+      "B60W 2556/55"
+    ],
+    "all": [
+      "B60W 30/182",
+      "B60W 50/00",
+      "B60W 2050/0022",
+      "B60W 2050/0095",
+      "B60W 2556/10",
+      "B60W 2556/50",
+      "B60W 2556/55"
+    ],
+    "source": "converted"
+  }
+}

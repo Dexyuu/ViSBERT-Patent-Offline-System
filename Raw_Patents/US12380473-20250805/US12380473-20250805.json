@@ -1,0 +1,24 @@
+{
+  "title": "Systems and methods for indicating the existence of accessible information pertaining to articles of commerce",
+  "abstract": "A system and method are provided for indicating an existence of a link to information pertaining to an article of commerce. The present disclosure provides for downloading a look-up table from a server database to a mobile device via a communication network. The look-up table is configured to store a plurality of UPC numbers associated with a plurality of articles of commerce and a plurality of information link indicators. Each information link indicator is associated with a respective UPC number and article of commerce and indicates the existence of a link via the communication network to information pertaining to the respective article of commerce. The mobile device allows a consumer to immediately determine if product information is available for a particular article of commerce, via a visual or audible indication on the mobile device.",
+  "claims": "1. A non-transitory computer readable medium containing instructions that, when executed by a processor contained within a mobile device, perform the steps of: referencing a look-up table from a server database via a communication network, wherein the look-up table is configured to store a plurality of bar codes associated with a plurality of articles of commerce, the look-up table also storing a plurality of information link indicators, each information link indicator associated with a respective bar code and article of commerce, and each information link indicator being configured as a status signal indicating the existence or absence of a link to information pertaining to a respective article of commerce, the link being made to the information via the communication network wherein referencing the look-up table is performed when the mobile device is not being used for voice communication; receiving a quanta of information associated with an article of commerce using an input device of the mobile device; decoding the quanta of information to obtain a bar code; looking up the bar code in the look-up table from a respective information link indicator to determine if information pertaining to the article of commerce associated with the bar code is accessible via the communication network, and signaling a user a status of the presence of information pertaining to the article of commerce exists; wherein looking up the bar code to determine if the information is accessible is performed without accessing the communication network.",
+  "patent_id": "US12380473-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0281",
+      "G06Q 30/0267",
+      "G06Q 30/0623",
+      "G06Q 30/0627",
+      "G06Q 30/0643"
+    ],
+    "all": [
+      "G06Q 30/0281",
+      "G06Q 30/0267",
+      "G06Q 30/0623",
+      "G06Q 30/0627",
+      "G06Q 30/0643"
+    ],
+    "source": "converted"
+  }
+}

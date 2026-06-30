@@ -1,0 +1,24 @@
+{
+  "title": "Image-based matching of color and appearance of coatings containing effect pigments, using binary patterns derived from color model properties",
+  "abstract": "Disclosed here is a method of matching color and appearance of coatings containing at least one effect pigment. The method involves: obtaining, for a coating sample to be matched, sample color image data having pixel-specific color model properties; creating local binary patterns based on the pixel-specific color model properties; generating a binary pattern histogram for the local binary patterns, wherein the binary pattern histogram arranges the local binary patterns into N distinct bins to obtain N bin counts, and wherein the binary pattern histogram represents an appearance feature descriptor of the coating sample to be matched; and utilizing the binary pattern histogram for comparison against a previously generated binary pattern histogram that serves as an appearance feature descriptor of a candidate coating specimen.",
+  "claims": "1. A method of matching color and appearance of coatings containing at least one effect pigment, the method comprising: obtaining, for a coating sample to be matched, sample color image data comprising pixel-specific color model properties, wherein the sample color image data is based on a digital image of the coating sample to be matched, as captured by a digital image capture system; creating local binary patterns based on the pixel-specific color model properties; generating a binary pattern histogram for the local binary patterns, wherein the binary pattern histogram arranges the local binary patterns into N distinct bins to obtain N bin counts, and wherein the binary pattern histogram represents an appearance feature descriptor of the coating sample to be matched; and utilizing the binary pattern histogram for comparison against a previously generated binary pattern histogram that serves as an appearance feature descriptor of a candidate coating specimen, wherein the local binary patterns are placed into a bin depending on the positions of 0s and 1s in the local binary pattern relative to each other without regard to the numerical value of the local binary pattern.",
+  "patent_id": "US12380673-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/758",
+      "G06T 7/0004",
+      "G06T 7/90",
+      "G06T 2207/10024",
+      "G06T 2207/30156"
+    ],
+    "all": [
+      "G06V 10/758",
+      "G06T 7/0004",
+      "G06T 7/90",
+      "G06T 2207/10024",
+      "G06T 2207/30156"
+    ],
+    "source": "converted"
+  }
+}

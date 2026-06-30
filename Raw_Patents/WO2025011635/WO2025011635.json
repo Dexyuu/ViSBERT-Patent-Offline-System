@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2025011635",
+  "application_id_fs": "WO2025011635",
+  "title": "Inter-chroma with cross-type referencing and constrained reference region",
+  "abstract": "A method for using cross-component prediction for video coding is provided. A video coder receives data to be encoded or decoded as a current block of pixels of a current picture of a video. The video coder identifies a predefined region that is applicable to the current block. The video coder derives a list of candidates that can be inherited by the current block, the list comprising cross-component prediction models from positions outside the predefined region. The video coder selects one or more cross-component models from the list of candidates. The video coder encodes or decodes the current block by applying the selected one or more cross-component models to reconstructed or predicted first component of the current block to generate a predictor for a second component of the current block.",
+  "claims": "Claims ( 18 ) AÂ videoÂ codingÂ methodÂ comprising: receivingÂ dataÂ toÂ beÂ encodedÂ orÂ decodedÂ asÂ aÂ currentÂ blockÂ ofÂ pixelsÂ ofÂ aÂ currentÂ pictureÂ ofÂ aÂ video; identifyingÂ aÂ predefinedÂ regionÂ thatÂ isÂ applicableÂ toÂ theÂ currentÂ block; derivingÂ aÂ listÂ ofÂ candidatesÂ thatÂ canÂ beÂ inheritedÂ byÂ theÂ currentÂ block,Â theÂ listÂ comprisingÂ cross-componentÂ predictionÂ modelsÂ fromÂ positionsÂ outsideÂ theÂ predefinedÂ region; selectingÂ oneÂ orÂ moreÂ cross-componentÂ modelsÂ fromÂ theÂ listÂ ofÂ candidates;Â and encodingÂ orÂ decodingÂ theÂ currentÂ blockÂ byÂ usingÂ theÂ selectedÂ oneÂ orÂ moreÂ cross-componentÂ models. TheÂ videoÂ codingÂ methodÂ ofÂ claimÂ 1,Â whereinÂ encodingÂ orÂ decodingÂ theÂ currentÂ blockÂ comprisesÂ applyingÂ theÂ selectedÂ cross-componentÂ modelÂ toÂ reconstructedÂ orÂ predictedÂ firstÂ componentÂ ofÂ theÂ currentÂ blockÂ toÂ generateÂ aÂ predictorÂ forÂ aÂ secondÂ componentÂ ofÂ theÂ currentÂ block. TheÂ videoÂ codingÂ methodÂ ofÂ claimÂ 2,Â whereinÂ theÂ firstÂ componentÂ isÂ theÂ lumaÂ componentÂ andÂ theÂ secondÂ componentÂ isÂ aÂ chromaÂ component. TheÂ videoÂ codingÂ methodÂ ofÂ claimÂ 2,Â whereinÂ theÂ firstÂ andÂ secondÂ componentsÂ areÂ twoÂ differentÂ chromaÂ components. TheÂ videoÂ codingÂ methodÂ ofÂ claimÂ 1,Â whereinÂ theÂ currentÂ blockÂ isÂ inter-predictedÂ orÂ IBC-predicted. TheÂ videoÂ codingÂ methodÂ ofÂ claimÂ 1,Â whereinÂ aÂ subsequentÂ codedÂ blockÂ thatÂ isÂ codedÂ byÂ aÂ differentÂ predictionÂ modeÂ thanÂ theÂ currentÂ blockÂ isÂ allowedÂ toÂ inheritÂ theÂ selectedÂ cross-componentÂ model. TheÂ videoÂ codingÂ methodÂ ofÂ claimÂ 1,Â whereinÂ aÂ subsequentÂ codedÂ blockÂ thatÂ isÂ codedÂ byÂ aÂ differentÂ predictionÂ modeÂ thanÂ theÂ currentÂ blockÂ isÂ notÂ allowedÂ toÂ inheritÂ theÂ selectedÂ cross-componentÂ model. TheÂ videoÂ codingÂ methodÂ ofÂ claimÂ 1,Â whereinÂ theÂ predefinedÂ regionÂ encompassesÂ firstÂ andÂ secondÂ blocks,Â whereinÂ aÂ firstÂ candidateÂ listÂ derivedÂ forÂ theÂ firstÂ blockÂ excludesÂ cross-componentÂ predictionÂ informationÂ fromÂ theÂ secondÂ blockÂ andÂ aÂ secondÂ candidateÂ listÂ derivedÂ forÂ theÂ secondÂ blockÂ excludesÂ cross-componentÂ predictionÂ informationÂ fromÂ theÂ firstÂ block. TheÂ videoÂ codingÂ methodÂ ofÂ claimÂ 8,Â whereinÂ theÂ firstÂ candidateÂ listÂ andÂ theÂ secondÂ candidateÂ listÂ areÂ independentlyÂ derived. TheÂ videoÂ codingÂ methodÂ ofÂ claimÂ 1,Â whereinÂ theÂ predefinedÂ regionÂ encompassesÂ theÂ currentÂ blockÂ andÂ anotherÂ blockÂ thatÂ alsoÂ usesÂ allÂ orÂ partÂ ofÂ theÂ listÂ ofÂ candidatesÂ forÂ cross-componentÂ prediction. TheÂ videoÂ codingÂ methodÂ ofÂ claimÂ 10,Â whereinÂ theÂ anotherÂ blockÂ usesÂ atÂ leastÂ oneÂ ofÂ spatialÂ adjacent,Â spatialÂ non-adjacentÂ andÂ historyÂ candidatesÂ fromÂ theÂ listÂ ofÂ candidatesÂ ofÂ theÂ currentÂ block. TheÂ videoÂ codingÂ methodÂ ofÂ claimÂ 1,Â whereinÂ aÂ history-basedÂ modelÂ candidateÂ listÂ isÂ updatedÂ onlyÂ ifÂ aÂ sizeÂ ofÂ theÂ currentÂ blockÂ isÂ largerÂ thanÂ aÂ thresholdÂ thatÂ isÂ determinedÂ basedÂ onÂ aÂ sizeÂ ofÂ theÂ predefinedÂ region. AÂ videoÂ codingÂ methodÂ comprising: receivingÂ dataÂ toÂ beÂ encodedÂ orÂ decodedÂ asÂ aÂ currentÂ blockÂ ofÂ pixelsÂ ofÂ aÂ currentÂ pictureÂ ofÂ aÂ video; derivingÂ aÂ listÂ ofÂ candidatesÂ thatÂ canÂ beÂ inheritedÂ byÂ theÂ currentÂ blockÂ basedÂ onÂ theÂ predictionÂ residualsÂ ofÂ theÂ currentÂ block; selectingÂ oneÂ orÂ moreÂ cross-componentÂ modelsÂ fromÂ theÂ listÂ ofÂ candidates; identifyingÂ aÂ representativeÂ predictionÂ modeÂ forÂ theÂ currentÂ blockÂ andÂ usingÂ theÂ representativeÂ predictionÂ modeÂ toÂ selectÂ atÂ leastÂ oneÂ ofÂ aÂ transformÂ setÂ andÂ aÂ transposeÂ flagÂ forÂ transformingÂ orÂ inverseÂ transformingÂ predictionÂ residualsÂ ofÂ theÂ currentÂ block,Â whereinÂ theÂ currentÂ blockÂ isÂ aÂ currentÂ chromaÂ block;Â and encodingÂ orÂ decodingÂ theÂ currentÂ blockÂ byÂ usingÂ theÂ selectedÂ oneÂ orÂ moreÂ cross-componentÂ models. TheÂ videoÂ codingÂ methodÂ ofÂ claimÂ 13,Â whereinÂ theÂ representativeÂ predictionÂ modeÂ isÂ identifiedÂ byÂ performingÂ textureÂ gradientÂ analysisÂ ofÂ predictedÂ chromaÂ samplesÂ ofÂ theÂ currentÂ block. TheÂ videoÂ codingÂ methodÂ ofÂ claimÂ 13,Â whereinÂ theÂ representativeÂ predictionÂ modeÂ isÂ usedÂ ifÂ theÂ currentÂ chromaÂ blockÂ isÂ referencedÂ whenÂ derivingÂ aÂ setÂ ofÂ mostÂ probableÂ modesÂ (MPM)Â forÂ intraÂ codingÂ aÂ subsequentÂ block. AnÂ electronicÂ apparatusÂ comprising: aÂ videoÂ coderÂ circuitÂ configuredÂ toÂ performÂ operationsÂ comprising: receivingÂ dataÂ toÂ beÂ encodedÂ orÂ decodedÂ asÂ aÂ currentÂ blockÂ ofÂ pixelsÂ ofÂ aÂ currentÂ pictureÂ ofÂ aÂ video; identifyingÂ aÂ predefinedÂ regionÂ thatÂ isÂ applicableÂ toÂ theÂ currentÂ block; derivingÂ aÂ listÂ ofÂ candidatesÂ thatÂ canÂ beÂ inheritedÂ byÂ theÂ currentÂ block,Â theÂ listÂ comprisingÂ cross-componentÂ predictionÂ modelsÂ fromÂ positionsÂ outsideÂ theÂ predefinedÂ region; selectingÂ oneÂ orÂ moreÂ cross-componentÂ modelsÂ fromÂ theÂ listÂ ofÂ candidates;Â and encodingÂ orÂ decodingÂ theÂ currentÂ blockÂ byÂ usingÂ theÂ selectedÂ oneÂ orÂ moreÂ cross-componentÂ models. AÂ videoÂ decodingÂ methodÂ comprising: receivingÂ dataÂ toÂ beÂ decodedÂ asÂ aÂ currentÂ blockÂ ofÂ pixelsÂ ofÂ aÂ currentÂ pictureÂ ofÂ aÂ video; identifyingÂ aÂ predefinedÂ regionÂ thatÂ isÂ applicableÂ toÂ theÂ currentÂ block; derivingÂ aÂ listÂ ofÂ candidatesÂ thatÂ canÂ beÂ inheritedÂ byÂ theÂ currentÂ block,Â theÂ listÂ comprisingÂ cross-componentÂ predictionÂ modelsÂ fromÂ positionsÂ outsideÂ theÂ predefinedÂ region; selectingÂ oneÂ orÂ moreÂ cross-componentÂ modelsÂ fromÂ theÂ listÂ ofÂ candidates;Â and reconstructingÂ theÂ currentÂ blockÂ byÂ usingÂ theÂ selectedÂ oneÂ orÂ moreÂ cross-componentÂ models. AÂ videoÂ encodingÂ methodÂ comprising: receivingÂ dataÂ toÂ beÂ encodedÂ asÂ aÂ currentÂ blockÂ ofÂ pixelsÂ ofÂ aÂ currentÂ pictureÂ ofÂ aÂ video; identifyingÂ aÂ predefinedÂ regionÂ thatÂ isÂ applicableÂ toÂ theÂ currentÂ block; derivingÂ aÂ listÂ ofÂ candidatesÂ thatÂ canÂ beÂ inheritedÂ byÂ theÂ currentÂ block,Â theÂ listÂ comprisingÂ cross-componentÂ predictionÂ modelsÂ fromÂ positionsÂ outsideÂ theÂ predefinedÂ region; selectingÂ oneÂ orÂ moreÂ cross-componentÂ modelsÂ fromÂ theÂ listÂ ofÂ candidates;Â and encodingÂ theÂ currentÂ blockÂ byÂ usingÂ theÂ selectedÂ oneÂ orÂ moreÂ cross-componentÂ models.",
+  "classifications": {
+    "ipc": [
+      "H04N 19/00",
+      "H04N 19/10",
+      "H04N 19/169",
+      "H04N 19/186",
+      "H04N 19/102",
+      "H04N 19/103",
+      "H04N 19/105",
+      "H04N 19/11",
+      "H04N 19/119",
+      "H04N 19/134",
+      "H04N 19/157",
+      "H04N 19/159",
+      "H04N 19/17",
+      "H04N 19/176",
+      "H04N 19/50",
+      "H04N 19/593",
+      "H04N 19/70"
+    ],
+    "cpc": [],
+    "all": [
+      "H04N 19/00",
+      "H04N 19/10",
+      "H04N 19/169",
+      "H04N 19/186",
+      "H04N 19/102",
+      "H04N 19/103",
+      "H04N 19/105",
+      "H04N 19/11",
+      "H04N 19/119",
+      "H04N 19/134",
+      "H04N 19/157",
+      "H04N 19/159",
+      "H04N 19/17",
+      "H04N 19/176",
+      "H04N 19/50",
+      "H04N 19/593",
+      "H04N 19/70"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025011635"
+}

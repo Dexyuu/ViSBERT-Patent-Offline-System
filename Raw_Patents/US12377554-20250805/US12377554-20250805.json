@@ -1,0 +1,32 @@
+{
+  "title": "Cleaning robot",
+  "abstract": "A cleaning robot is provided. The cleaning robot includes a motion device configured to move the cleaning robot in an environment, and an exterior housing. The cleaning robot also includes a motion sensor configured to obtain parameters relating to a motion of the cleaning robot, and a storage device configured to store data including at least one of the one or more images or the one or more motion parameters. The cleaning robot also includes a camera configured to capture one or more images of the environment. The camera is disposed internal to a slant surface located at a front end of the exterior housing and is pivotable relative to the slant surface. The slant surface inclines upwardly with respect to a forward moving direction. The camera and the slant surface face substantially a same direction. A direction of the camera and the forward moving direction form an acute angle.",
+  "claims": "1. A cleaning robot, comprising: an exterior housing; one or more motion devices configured to move the cleaning robot in an environment; one or more motion sensors configured to obtain one or more motion parameters relating to a motion of the cleaning robot; a monocular camera configured to capture one or more images of the environment, wherein the monocular camera is disposed internal to a slant surface located at a front end of the exterior housing, the slant surface inclines upwardly with respect to a forward moving direction, the monocular camera and the slant surface face substantially a same direction, and a direction of the monocular camera forms an acute angle with the forward moving direction of the cleaning robot; a storage device configured to store data including at least one of the one or more images or the one or more motion parameters; one or more cleaning devices configured to clean a floor; a power source configured to provide an electric power to the cleaning robot; and a data processing device configured to execute a localization and mapping algorithm to: obtain the one or more images captured by the monocular camera and the one or more motion parameters obtained by the one or more motion sensors; perform localization, mapping, and path planning for the mobile device based on a localization and mapping algorithm; control the one or more motion devices to move the cleaning robot along a planned path, wherein when the data processing device controls the one or more motion devices to move the cleaning robot along the planned path, the data processing device is configured to: when the cleaning robot encounters an obstacle while moving in a first moving direction, control the one or more motion devices to move the cleaning robot along a periphery of the obstacle; compute, in real time, a first projected distance of a moving path of along the periphery projected in a direction perpendicular to the first moving direction; and when the first projected distance is equal to or greater than a deviation distance, control the one or more motion devices to turn the cleaning robot to a direction opposite to the first moving direction to continue moving; or when the first projected distance is substantially equal to 0, control the one or more motion devices to turn the cleaning robot to the first moving direction to continue moving.",
+  "patent_id": "US12377554-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B25J 11/0085",
+      "B25J 9/1676",
+      "B25J 13/089",
+      "B25J 19/023",
+      "B25J 19/04",
+      "G05D 1/0246",
+      "G05D 1/0274",
+      "G05D 1/246",
+      "G05D 1/249"
+    ],
+    "all": [
+      "B25J 11/0085",
+      "B25J 9/1676",
+      "B25J 13/089",
+      "B25J 19/023",
+      "B25J 19/04",
+      "G05D 1/0246",
+      "G05D 1/0274",
+      "G05D 1/246",
+      "G05D 1/249"
+    ],
+    "source": "converted"
+  }
+}

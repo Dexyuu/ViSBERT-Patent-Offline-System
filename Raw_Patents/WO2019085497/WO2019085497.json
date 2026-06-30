@@ -1,0 +1,19 @@
+{
+  "application_id": "WO2019085497",
+  "application_id_fs": null,
+  "title": "Method and system for scanning surrounding environment",
+  "abstract": "The present invention provides a scanning device and method of a surrounding environment in real time. The scanning device includes a plurality of data capturing modules. The data capturing modules are configured to capture data from different directions at the same instance. This captured data is then processed using a processing module to align and stitch data captured from the plurality of data capturing modules to generate a composite information that may be 3-dimensional in nature in real time. The data may be updated at regular time intervals.",
+  "claims": "Claims ( 13 ) A scanning method comprising; Capturing a surrounding environment, wherein the capturing is\n\t\t  performed from a plurality of directions in a single instant; Processing the captured data, wherein the processing\n\t\t  comprises stitching of data captured from the plurality of directions in real\n\t\t  time; and Generating a composite surrounding environment\n\t\t  information. The scanning method of claim 1, wherein the plurality of\n\t\t  directions is 4 in number. The scanning method of claim 2, wherein the surrounding\n\t\t  environment data is captured using an autonomous robot. The scanning method of claim 3, wherein the autonomous robot\n\t\t  comprises at least 4 cameras to capture data from 4 directions. The scanning method of claim 4, wherein the at least 4\n\t\t  cameras include fish eye lenses to capture data in aspherical\n\t\t  configuration. The scanning method of claim 1, wherein the surrounding\n\t\t  environment is indoor environment. The scanning method of claim 1, wherein the captured data\n\t\t  includes overlapped regions. The scanning method of claim 7 wherein the overlapped regions\n\t\t  are recognized and matched to determine differences. A scanning device comprising; a main frame, configured to provide support; a plurality of data capturing modules fixed on the main\n\t\t  frame, wherein the plurality of data capturing modules are configured in\n\t\t  separate direction to capture data from corresponding direction;\n\t\t  and a processing module, communicably connected to the plurality\n\t\t  of data capturing modules, configured to combine data captured from separate\n\t\t  directions to generate a composite surrounding environment\n\t\t  information. The scanning device of claim 9, wherein the scanning device\n\t\t  is an autonomous robot. The scanning device of claim 9, wherein each of the plurality\n\t\t  of data capturing modules is a camera. The scanning device of claim 11, wherein the camera includes\n\t\t  a fisheye lens to capture images in spherical format. The scanning device of claim 9, wherein the composite\n\t\t  surrounding environment is generated in real time.",
+  "classifications": {
+    "ipc": [
+      "H04N 5/232",
+      "G06T 5/50"
+    ],
+    "cpc": [],
+    "all": [
+      "H04N 5/232",
+      "G06T 5/50"
+    ],
+    "source": "csv"
+  }
+}

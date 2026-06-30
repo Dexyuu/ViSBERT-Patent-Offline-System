@@ -1,0 +1,28 @@
+{
+  "title": "Systems and methods for verifying a route taken by a communication",
+  "abstract": "Computer systems and methods for verifying a route taken by a communication are disclosed. In one implementation, a device for verifying a route taken by a communication may include one or more processors configured to obtain a communication transmitted by a source entity. The communication may include data and digital signatures, and each of the digital signatures may be generated based on at least the data. Further, the digital signatures may include a digital signature associated with the source entity, and a set of digital signatures associated with at least a subset of intermediate entities on a route taken by the communication. The one or more processors may be further configured to verify the digital signatures included in the communication, verify whether the entities associated with the digital signatures form an expected route for the communication, and process the data.",
+  "claims": "1. A device for verifying a route taken by a communication, the device comprising: one or more processors configured to: obtain a communication transmitted by a source entity, wherein the communication comprises data and a set of digital signatures, wherein the set of digital signatures includes a digital signature associated with the source entity and one or more digital signatures respectively associated with at least a subset of intermediate entities on the route taken by the communication, and wherein the communication further comprises a header that specifies an order in which each signature of the set of digital signatures was included in the communication; verify the digital signatures included in the communication; verify that the digital signatures included in the communication were included in the communication in an expected order based at least in part on the header; and process the data in response to verifying that the digital signatures were included in the expected order, wherein the communication comprises a JSON Web Token (JWT) comprising a “payload” key-value pair, wherein a value of the “payload” key-value pair includes the data.",
+  "patent_id": "US12381741-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/3247",
+      "H04L 9/088",
+      "H04L 9/14",
+      "H04L 9/321",
+      "H04L 63/062",
+      "H04L 63/123",
+      "H04L 63/126"
+    ],
+    "all": [
+      "H04L 9/3247",
+      "H04L 9/088",
+      "H04L 9/14",
+      "H04L 9/321",
+      "H04L 63/062",
+      "H04L 63/123",
+      "H04L 63/126"
+    ],
+    "source": "converted"
+  }
+}

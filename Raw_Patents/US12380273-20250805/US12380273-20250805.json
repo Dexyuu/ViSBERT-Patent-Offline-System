@@ -1,0 +1,20 @@
+{
+  "title": "Method for provision of a trigger token",
+  "abstract": "A trigger token correlates with a need for maintenance of a system. A computer-implemented method comprises: receiving a logfile of the system, wherein the logfile includes a plurality of event descriptions, and a subset of the plurality of event descriptions is assigned a time stamp; receiving a point in time of a technical defect of the system; extracting tokens from the subset of the event descriptions based on a token category, wherein each of the extracted tokens is contained as a character string in the subset of the plurality of event descriptions; determining the trigger token from the extracted tokens based on a correlation of time stamps assigned to the extracted tokens with the point in time of the technical defect of the system; and provisioning the trigger token.",
+  "claims": "1. A computer-implemented method for provision of a trigger token, wherein the trigger token correlates to a need for maintenance of a system, the computer-implemented method comprising: receiving a logfile of the system, wherein the logfile includes a plurality of event descriptions, and wherein a subset of the plurality of event descriptions is assigned a time stamp; receiving a point in time of a technical defect of the system; extracting tokens from the subset of the plurality of event descriptions based on a token category, wherein each of the extracted tokens is contained as a character string in the subset of the plurality of event descriptions; grouping identical tokens extracted from different event descriptions in the subset of the plurality of event descriptions; determining the trigger token from the extracted tokens based on a correlation of time stamps assigned to groups of identical extracted tokens with the point in time of the technical defect of the system, such that the time stamp assigned to the trigger token and the point in time of the technical defect of the system have a positive correlation, the positive correlation being based on a frequency of occurrence of the trigger token with respect to the point in time of the technical defect of the system; and provisioning the trigger token.",
+  "patent_id": "US12380273-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 40/284",
+      "G06F 11/3072",
+      "G06F 2201/835"
+    ],
+    "all": [
+      "G06F 40/284",
+      "G06F 11/3072",
+      "G06F 2201/835"
+    ],
+    "source": "converted"
+  }
+}

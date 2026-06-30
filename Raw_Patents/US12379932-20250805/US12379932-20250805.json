@@ -1,0 +1,18 @@
+{
+  "title": "Execution of instructions requiring access to an array register",
+  "abstract": "There is provided an apparatus, a system, a chip containing product, a method, and a medium. The apparatus comprises: a plurality of registers comprising at least one array register having a plurality of array regions. The apparatus comprises processing circuitry to receive issued instructions and to process those instructions. The apparatus is also provided with control circuitry responsive to receipt of an instruction requiring access to two or more array regions: to decompose the instruction into two or more execution parts, each corresponding to one of the two or more array regions; and for each execution part, to delay issuing the execution part until it is predicted that the execution part can be processed hazard free. The control circuitry is capable of issuing the two or more execution parts in different cycles based on when it is predicted that each execution part can be processed hazard free.",
+  "claims": "1. An apparatus comprising: a plurality of registers configured to store data, the plurality of registers comprising at least one array register comprising a plurality of array regions; processing circuitry configured to receive issued instructions and to perform processing operations identified in the issued instructions; and control circuitry comprising buffer circuitry to store one or more instructions prior to execution by the processing circuitry, the control circuitry responsive to receipt of an instruction requiring access to two or more array regions of the plurality of array regions: to decompose the instruction into two or more execution parts, each of the two or more execution parts corresponding to one of the two or more array regions; and for each execution part of the two or more execution parts, to delay issuing the execution part as one of the issued instructions until it is predicted that the execution part can be processed hazard free by the processing circuitry, wherein the control circuitry is capable of issuing the two or more execution parts of the instruction in different cycles selected based on when it is predicted that each of the two or more execution parts can be processed hazard free.",
+  "patent_id": "US12379932-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/3836",
+      "G06F 9/30098"
+    ],
+    "all": [
+      "G06F 9/3836",
+      "G06F 9/30098"
+    ],
+    "source": "converted"
+  }
+}

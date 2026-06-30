@@ -1,0 +1,16 @@
+{
+  "title": "Systems and methods for preprocessing target data and generating predictions using a machine learning model",
+  "abstract": "In some embodiments, a machine learning model may be accessed and used to generate a likelihood score related to a condition. In some embodiments, pre-computed vectors may be derived from a training dataset used to build the machine learning model, and the pre-computed vectors may be used to generate processed data from target data derived from a target sample. The machine learning model may then be used on the processed data to generate the likelihood score related to the condition. As an example, subsets of the training dataset may be randomly selected, and the pre-computed vectors may be derived from the randomly-selected subsets of the training dataset. The pre-computed vectors may be applied to the target data to generate the processed data. In one use case, for example, the target data may be normalized using the pre-computed vectors.",
+  "claims": "1. A system for facilitating cancer-related prediction accuracy of a trained model, without requiring renormalization of the entirety of a given training dataset for training the model for novel data, by arranging preprocessing vectors and a trained random forest model, that are derived from the same training dataset, to respectively preprocess sample target data and generate predictions with the preprocessed data, the system comprising: one or more processors and non-transitory machine-readable media storing instructions that, when executed by the one or more processors, cause operations comprising: accessing a random forest machine learning model comprising features that are derived from a training dataset and selected for the random forest machine learning model; obtaining target data derived from a target sample; normalizing, using frozen vectors derived from randomly-selected subsets of the training dataset, the target data to generate processed data; and after generating the processed data using the frozen vectors, generating, using the random forest machine learning model on the processed data and without requiring renormalization of the entirety of the training dataset, a likelihood score related to cancer occurrence by inputting the processed data into nodes of the random forest machine learning model, wherein the nodes and the frozen vectors are both derived from the training dataset.",
+  "patent_id": "US12378610-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 5/01"
+    ],
+    "all": [
+      "G06N 5/01"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Method and system for including dynamic service areas in access and mobility restriction control",
+  "abstract": "Methods performed in a core network (110) for dynamically handling access and mobility service areas with different capabilities in a communication system (100) are disclosed. The methods are carried out in an AMF node (111), a UDM node (112), a PCF node (113) and a SMF node (115). The UDM node (112) configures Service Area Restriction (SAR) data in a subscription data for a UE (120). The SAR data includes a number of service areas allowed or restricted for the UE and, for each service area, a service area identifier, a service area type and a service area definition. The PCF node configures a Service Area Definition (SAD) rule for a UE. The SAD rule comprises a service area definition and an indication of a set of service area characteristics enabled in the service area. During a registration procedure, the SAR data and SAD rule may be provided to the AMF node upon request for a UE communication. The AMF node then takes actions for the UE communication based on anyone of the SAR data, the SAD rule and local policies at the AMF node. During a session management procedure, the SMF node (115) receives service area related information with a service area identifier and a service area type from the AMF node, and receives the SAD rule from the PCF node. The SMF node (115) then take actions for the UE communication based on the SAD rule, the information received from the AMF node (111) and/or local policies at the SMF node.",
+  "claims": "6. A method in a core network for dynamically handling access and mobility service areas with different capabilities in a communication system, the method carried out at a Policy Control Function (PCF) node and comprising: configuring a Service Area Definition (SAD) rule for a user equipment (UE), the SAD rule comprising a service area definition and an indication of a set of service area characteristics enabled in the service area, the service area characteristics comprising one or more of: a Sponsor Area Connectivity Profile that comprises one or more of: a sponsor identity, a set of sponsored services, a usage threshold, and an address to report usage monitoring events; and an indication of whether parental control is enabled in the service area; receiving, from an Access and Mobility Management function (AMF) node, a policy request for the UE; and transmitting, to the AMF node, a policy response with the SAD rule for the UE.",
+  "patent_id": "US12382366-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 48/04",
+      "H04W 4/50",
+      "H04W 8/18",
+      "H04W 48/16",
+      "H04W 48/18"
+    ],
+    "all": [
+      "H04W 48/04",
+      "H04W 4/50",
+      "H04W 8/18",
+      "H04W 48/16",
+      "H04W 48/18"
+    ],
+    "source": "converted"
+  }
+}

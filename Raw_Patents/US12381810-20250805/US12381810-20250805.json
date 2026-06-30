@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for cloaking routes",
+  "abstract": "In a network system, network switching devices such as routers may store routes to various networks. The system may on occasion be reconfigured, e.g., as new network switching devices are brought on line, or as servers are moved to new locations. Such reconfiguring may involve the storing of new routes in a network switching device, or the deletion of routes stored in a network switching device. As such, systems and methods for cloaking routes are provided.",
+  "claims": "1. A system, comprising: a first router, comprising at least one processing circuit and memory, operatively connected to the at least one processing circuit, the first router being configured to: determine that a route to a resource is to be cloaked; advertise the withdrawal of the route; retain the route in storage; determine whether a sufficiency criterion is met, wherein the determining whether a sufficiency criterion is met comprises determining whether at least a plurality of petitions have been received by the first router, wherein the plurality of petitions supports resuming the route; and when it is determined that the sufficiency criterion is met prior to expiration of a time interval, advertise the route; and when it is determined that the sufficiency criterion is not met prior to the expiration of the time interval, delete the route in storage.",
+  "patent_id": "US12381810-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 45/03",
+      "H04L 45/04",
+      "H04L 45/22"
+    ],
+    "all": [
+      "H04L 45/03",
+      "H04L 45/04",
+      "H04L 45/22"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Image-based matching of color and appearance of coatings containing effect pigments, using a cosine comparison methodology",
+  "abstract": "Disclosed here is a method of matching color and appearance of coatings containing at least one effect pigment. The method involves: obtaining, for a coating sample, sample color image data having pixel-specific color model properties; generating a characterizing histogram for the sample color image data, wherein the characterizing histogram represents an appearance feature descriptor of the coating sample; creating a sample histogram vector from the characterizing histogram; retrieving a specimen histogram vector for a candidate coating specimen; and calculating a cosine similarity value from the sample histogram vector and the specimen histogram vector, wherein the cosine similarity value indicates how well the candidate coating specimen matches the coating sample to be matched.",
+  "claims": "1. A method of matching color and appearance of coatings containing at least one effect pigment, the method comprising: obtaining, for a coating sample to be matched, sample color image data comprising pixel-specific color model properties, wherein the sample color image data is based on a digital image of the coating sample to be matched, as captured by a digital image capture system; generating a characterizing histogram for the sample color image data, the characterizing histogram comprising N distinct bins to obtain N bin counts, wherein the characterizing histogram represents an appearance feature descriptor of the coating sample to be matched; creating a sample histogram vector from the characterizing histogram, wherein the sample histogram vector is an N-dimensional vector comprising the N bin counts; retrieving a specimen histogram vector for comparison against the sample histogram vector, wherein the specimen histogram vector is an N-dimensional vector derived from pixel-specific color model properties obtained for a candidate coating specimen in response to a captured digital image of the candidate coating specimen; calculating a cosine similarity value from the sample histogram vector and the specimen histogram vector as a measure of an angle between the sample histogram vector and the specimen histogram vector, wherein the cosine similarity value indicates how well the candidate coating specimen matches the coating sample to be matched, wherein the pixel-specific color model properties include pixel-specific hue values, lightness values, or chroma values; and creating local binary patterns based on the pixel-specific hue values, lightness values, or chroma values respectively, wherein the characterizing histogram is a binary pattern histogram for the local binary patterns, and wherein the binary pattern histogram arranges the local binary patterns into the N distinct bins to obtain the N bin counts.",
+  "patent_id": "US12380536-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 5/40",
+      "G01J 3/462",
+      "G01J 3/463",
+      "G06T 7/44"
+    ],
+    "all": [
+      "G06T 5/40",
+      "G01J 3/462",
+      "G01J 3/463",
+      "G06T 7/44"
+    ],
+    "source": "converted"
+  }
+}

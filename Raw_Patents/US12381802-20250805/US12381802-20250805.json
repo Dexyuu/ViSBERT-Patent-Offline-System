@@ -1,0 +1,20 @@
+{
+  "title": "System and method for deadzone routing of directional communications",
+  "abstract": "A system and method for tactical routing of directional communications identifies directional communications links from a transmitting (Tx) node to a receiving (Rx) node of a multi-node network. Within the network environment, the Tx node identifies deadzones, or areas wherein directional communications links between the Tx and Rx nodes may be constrained. The Tx node assigns each identified directional communications link a link cost; constrained links are assigned a higher cost than unconstrained links. Based on the assigned link costs (and other link cost information received from other network nodes), the Tx node constructs an optimal transmission route to the desired Rx node, the transmission route comprising a sequence one of more directional links selected to optimally fulfill mission objectives (e.g., minimal aggregate link cost).",
+  "claims": "1. A communications node of a multi-node communications network, comprising: a communications interface configured for at least one directional transmission receivable by a receiving (Rx) node of the network; a controller operatively coupled to the communications interface, the controller including one or more processors and configured to: identify one or more communications links, wherein each identified communications link comprises at least one directional transmission by the communications node; identify one or more deadzones, each deadzone capable of constraining at least one communications link of the one or more identified communications links; assign a link cost to each identified communications link, wherein each identified communications link constrained by an identified deadzone is associated with a higher link cost; receive, via the communications interface, link cost information from at least one other node of the network, the link cost information comprising at least one link cost assigned by the at least one other node to a directional communications link; and construct an optimal transmission route from the communications node to the at least one Rx node based on one or more of the assigned link costs and the received link cost information, the optimal transmission route comprising at least one identified communications link.",
+  "patent_id": "US12381802-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 43/0882",
+      "H04W 74/002",
+      "H04W 76/15"
+    ],
+    "all": [
+      "H04L 43/0882",
+      "H04W 74/002",
+      "H04W 76/15"
+    ],
+    "source": "converted"
+  }
+}

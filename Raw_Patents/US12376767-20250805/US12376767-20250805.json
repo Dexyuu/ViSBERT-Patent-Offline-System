@@ -1,0 +1,18 @@
+{
+  "title": "Computer system and method for blood gas analysis support",
+  "abstract": "Computer system and computer-implemented method for rendering representations of blood gas state parameters of a patient to support a medically trained person in blood gas analysis of the patient's blood, comprising: receiving, from a data source, time series of sampled measurement values obtained from a plurality of blood gas analysis sensors for the following blood gas state parameters of the patient: Glucose, Chloride, Potassium, Calcium, Sodium, and Hemoglobin; mapping each state parameter to a predefined corresponding graphical representation with each graphical representation for a particular state parameter being distinct from all graphical representations of the remaining state parameters; and rendering, in a virtual 3D tunnel shaped scene representing the inside of an artery, animated visualizations of the graphical representations, in accordance with predefined animation rules, such that respective graphical objects move through the inside of the artery and reflect current values of the respective state parameters.",
+  "claims": "1. A computer-implemented method for rendering representations of blood gas state parameters of a patient to support a medically trained person in blood gas analysis of the patient's blood, comprising: receiving, from a data source, time series of sampled measurement values obtained from a plurality of blood gas analysis sensors for the following blood gas state parameters of the patient: Glucose, Chloride, Potassium, Calcium, Sodium, and Hemoglobin; mapping each state parameter to a predefined corresponding graphical representation with each graphical representation for a particular state parameter being distinct from all graphical representations of remaining state parameters; and rendering, in a virtual 3D tunnel shaped scene representing an inside of an artery, animated visualizations of the graphical representations, in accordance with predefined animation rules, such that respective graphical objects move through the inside of the artery and reflect current values of the respective state parameters, wherein the predefined animation rules comprise: for the Glucose state parameter: a non-blinking single Glucose object indicating normal Glucose concentration, a blinking Glucose object indicating a too low Glucose concentration, and a cluster of a plurality of non-blinking Glucose objects indicating a too high Glucose concentration; for electrolyte state parameters Chloride, Potassium, Calcium, and Sodium: a two-by-two arrangement of four electrolyte objects with a single non-blinking electrolyte object for each electrolyte indicating normal concentration of the electrolyte parameters, the two-by-two arrangement wherein a blinking electrolyte object indicating a too low concentration of the respective electrolyte parameter, and the two-by-two arrangement wherein a replication of a particular non-blinking electrolyte object around the two-by-two arrangement indicating a too high concentration of the respective electrolyte parameter; and for the Hemoglobin state parameter: a non-blinking single red blood cell object indicating a normal Hemoglobin value, a blinking single red blood cell object indicating a too low Hemoglobin value as an indicator for anemia, and a cluster of a plurality of non-blinking red blood cell objects indicating a too high Hemoglobin value.",
+  "patent_id": "US12376767-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 5/145",
+      "A61B 5/0002"
+    ],
+    "all": [
+      "A61B 5/145",
+      "A61B 5/0002"
+    ],
+    "source": "converted"
+  }
+}

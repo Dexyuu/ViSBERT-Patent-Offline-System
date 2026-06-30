@@ -1,0 +1,22 @@
+{
+  "title": "Systems and techniques for quasi-zenith satellite system (QZSS) signal acquisition",
+  "abstract": "Systems and techniques are provided for performing Quasi-Zenith Satellite System (QZSS) signal acquisition. For example, an example of a method for performing QZSS signal acquisition includes obtaining a modulated message signal using a frequency band and generating, based on an estimated set of signal acquisition parameters associated with an acquired signal, an energy grid of correlation codes. A series of extracted data bytes can be generated for each respective hypothesis of a plurality of hypotheses, based on a location of a peak energy within the energy grid of correlation codes. A correct hypothesis out of the plurality of hypotheses can be determined, wherein the correct hypothesis is associated with a generated series of extracted data bytes that includes a pre-determined header preamble pattern. The modulated message signal can be decoded using an initial code phase associated with the correct hypothesis.",
+  "claims": "1. A method for performing Quasi-Zenith Satellite System (QZSS) signal acquisition, the method comprising: obtaining a modulated message signal using a frequency band, wherein the modulated message signal is not associated with a pilot signal and corresponds to a plurality of modulated data bytes; generating, based on an estimated set of signal acquisition parameters associated with an acquired signal, an energy grid of correlation codes; generating a plurality of hypotheses for a value of an initial data byte encoded in the modulated message signal, the initial data byte included in the plurality of modulated data bytes, and wherein each respective hypothesis of the plurality of hypotheses corresponds to a different data byte value of a plurality of possible data byte values for the initial data byte; determining an initial code phase value for each respective hypothesis, based on a location of a peak energy within the energy grid and the different data byte value corresponding to each respective hypothesis, wherein each respective hypothesis is associated with a different initial code phase value and a different code boundary between respective modulated data bytes of the plurality of modulated data bytes; generating, for each respective hypothesis, a corresponding series of extracted data bytes generated from the modulated message signal based on the different initial code phase value and the different code boundary for each respective hypothesis, wherein the corresponding series of extracted data bytes for each respective hypothesis includes a number of bytes equal to a number of bytes included in the plurality of modulated data bytes corresponding the modulated message signal; determining a correct hypothesis out of the plurality of hypotheses, wherein the correct hypothesis is determined from the plurality of hypotheses based on the corresponding series of extracted data bytes associated with the correct hypothesis including a pre-determined header preamble pattern of four data byte values; and decoding the modulated message signal using the initial code phase value associated with the correct hypothesis.",
+  "patent_id": "US12379505-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 19/07",
+      "G01S 19/243",
+      "G01S 19/254",
+      "G01S 19/256"
+    ],
+    "all": [
+      "G01S 19/07",
+      "G01S 19/243",
+      "G01S 19/254",
+      "G01S 19/256"
+    ],
+    "source": "converted"
+  }
+}

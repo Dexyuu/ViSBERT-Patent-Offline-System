@@ -1,0 +1,20 @@
+{
+  "title": "Key indication protocol",
+  "abstract": "A network node may receive a control plane message. The control plane message may include an indication that the control plane message is a control plane message, an indication that the control plane message is associated with security, an indication of a security key to be associated with a secure zone (SZ) of an in-vehicle communication network, and an indication of a freshness value. The network node may perform a cryptographic operation for a data plane message associated with the SZ using the security key.",
+  "claims": "1. A network node, comprising: one or more components configured to: receive a control plane message including: a control indication field providing an indication that the control plane message is a control plane message, wherein the control indication field carries a value associated with whether or not the control plane message is a control plane message, an indication that the control plane message is associated with security, an indication of a security key to be associated with a secure zone (SZ) of an in-vehicle communication network, and an indication of a freshness value; distinguish the control plane message from non-control plane messages based on the indication that the control plane message is a control plane message, wherein the non-control plane messages include data frames and protocol frames; and based on processing the control plane message, perform a cryptographic operation for a data plane message associated with the SZ using the security key.",
+  "patent_id": "US12381855-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/0428",
+      "H04L 9/0861",
+      "H04L 9/14"
+    ],
+    "all": [
+      "H04L 63/0428",
+      "H04L 9/0861",
+      "H04L 9/14"
+    ],
+    "source": "converted"
+  }
+}

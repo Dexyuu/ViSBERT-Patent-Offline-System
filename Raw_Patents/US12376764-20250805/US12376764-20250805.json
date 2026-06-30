@@ -1,0 +1,16 @@
+{
+  "title": "Repositioning method",
+  "abstract": "The present invention relates to patient positioning. In order to improve patient positioning during a scan, an autonomous motion positioner is proposed using a critical range, which may correspond to maximum corrections achievable by the scanner hardware and the maximum tolerable image distortions. The critical range is determined based on one or more machine settings of the medical imaging system. As the machine setting(s) may vary in a given imaging exam, the critical range may dynamically change in response to a change of the machine setting in the given imaging exam. External sensors may measure, via a feedback loop, the deviation from the start position, i.e. the imaging pose position. If patient motion is too large and the motion parameter (e.g. translation and/or rotation) exceeds the determined critical range, then the scan process may be stopped. The autonomous scanner may hold in an idle mode. During that mode, the patient may be guided to retake its original position via a feedback system. A control loop may calculate critical range deviation and the scan process may be continued, if the motion parameter is less than the determined critical range. Accordingly, uncorrectable motion artefacts due to large body movements may be avoided. The motion positioner may be suitable for systems, such as MR, MR-LINAC, computed tomography (CT), and positron emission tomography (PET).",
+  "claims": "9. A medical imaging system, comprising: a medical imaging apparatus configured to perform a scan to acquire image data of a body part of the patient; and an apparatus for repositioning a body part of a patient when using a medical imaging system to perform a scan, comprising: a memory that stores a plurality of instructions; and processor circuitry that couples to the memory and is configured to execute the plurality of instructions to: obtain a first signal indicative of positional information of the body part of the patient that is being imaged in an imaging pose position; determine a critical range based on a machine setting of the medical imaging system using a pre-trained machine-learning model, within which a motion artefact is correctable with the medical imaging system; detect a change in the obtained first signal indicating a body motion of the patient; determine whether a deviation of a position of the body part from the imaging pose position of the body part exceeds the determined critical range around the imaging pose position; and transmit a control signal to the medical imaging apparatus to cause the medical imaging apparatus to perform an action in dependence upon a determination result.",
+  "patent_id": "US12376764-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 5/1113"
+    ],
+    "all": [
+      "A61B 5/1113"
+    ],
+    "source": "converted"
+  }
+}

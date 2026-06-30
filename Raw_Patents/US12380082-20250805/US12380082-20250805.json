@@ -1,0 +1,20 @@
+{
+  "title": "Method and system for automatically tagging data",
+  "abstract": "Systems and methods relate to auto-tagging of data in a data lake or a data storage. Generating a statistical summary of the data lake and interactively receiving data in a selected column of an exemplar data addresses an issue of efficiently and accurately auto-tagging data in a data lake. The present disclosure automatically generates a statistical summary of the data lake using a lightweight off-line processing. A graphical user interface interactively receives an exemplar data file with a selection of a column in the exemplar data file. A list of candidate data-tagging patterns is generated based on the statistical summary and updates the list by removing candidate data-tagging patterns that under-generalize the data. The present disclosure determines a data-tagging pattern by selecting a candidate data-tagging profile from the list based on having the least number of matching columns in the data lake.",
+  "claims": "1. A computer-implemented method for automatically tagging data, the method comprising: receiving a first set of data; automatically generating, based on a part of the first set of data, a statistical summary of the first set of data, wherein the statistical summary includes: a data-tagging pattern representing a value of the part of the first set of data, and a first degree of generalizing data pattern for the data-tagging pattern; interactively receiving, based on a user selection through a graphical user interface, a second set of data, wherein the second set of data is distinct from the first set of data; generating, based on the data-tagging pattern in the statistical summary and data in the second set of data, a candidate data-tagging pattern; selecting, based on a combination of a false negative rate associated with the candidate data-tagging pattern upon the data in the second set of data and a second degree of generalizing data pattern associated with the candidate data-tagging pattern upon the first set of data, the candidate data-tagging pattern as a data-tagging pattern; automatically tagging based on the selected data-tagging pattern for creating new tagging data, a data tag to a subset of the first set of data; and presenting, through the graphical user interface, based on the automatically tagged data tag, at least part of the automatically tagged subset of the first set of data for storing as output of processing a search query.",
+  "patent_id": "US12380082-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/2272",
+      "G06F 16/221",
+      "G06F 16/2365"
+    ],
+    "all": [
+      "G06F 16/2272",
+      "G06F 16/221",
+      "G06F 16/2365"
+    ],
+    "source": "converted"
+  }
+}

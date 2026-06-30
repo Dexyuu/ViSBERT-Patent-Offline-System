@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for intelligent step-up for access control systems",
+  "abstract": "Some embodiments may provide systems, methods and computer program code to method to facilitate an interaction involving a user which include determining that a user authentication is required to complete the interaction, identifying at least a first verified device associated with the user, and transmitting an authentication message to the at least first verified device.",
+  "claims": "1. A computerized method to facilitate an interaction involving a user and a service provider, wherein the interaction includes an interaction to perform expedited verification of an additional user device, the method comprising: receiving, by an authentication service, an authorization request, the authorization request including information identifying the service provider, information identifying the transaction and information identifying a selected account for use in the interaction; determining that an issuer of the selected account is a registered participant of the authentication service; identifying, based on the information identifying the selected account, a list of registered authentication devices associated with the user; causing the list of registered authentication devices associated with the user to be displayed to the user; receiving a selection of a registered authentication device from the user; and identifying, for each registered authentication device, a token; identifying, for each token, an application identifier; transmitting, to the selected registered authentication device, a request for authentication by the user; wherein transmitting the request for authentication further includes transmitting the information identifying the transaction to the application identified by the application identifier of the selected registered authentication device; receiving an authentication response from the selected registered authentication device; causing the information identifying the transaction to be displayed to the user on a display associated with the selected registered authentication device; and receiving a request from the user to register an additional user device as an at least second registered authentication device associated with the user.",
+  "patent_id": "US12380449-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/4014",
+      "G06Q 20/12",
+      "H04L 63/0876"
+    ],
+    "all": [
+      "G06Q 20/4014",
+      "G06Q 20/12",
+      "H04L 63/0876"
+    ],
+    "source": "converted"
+  }
+}

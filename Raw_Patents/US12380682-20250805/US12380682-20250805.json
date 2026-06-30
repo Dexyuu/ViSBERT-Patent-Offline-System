@@ -1,0 +1,20 @@
+{
+  "title": "Multi-label image classification in a deep learning network",
+  "abstract": "A method for multi-label image classification in a convolutional neural network (CNN) is provided that includes forming a composite image from a plurality of clipped images, and processing the composite image by the CNN to generate a probability vector for each clipped image of the plurality of clipped images, wherein a length of a probability vector is equal to a number of classes the CNN is designed to classify.",
+  "claims": "1. A method for multi-label image classification in a convolutional neural network (CNN), the method comprising: forming a composite image from a plurality of clipped images by tiling the plurality of clipped images in a grid having columns and rows to form the composite image having a height equal to a sum of heights of a first subset of the plurality of clipped images forming a column and a width equal to a sum of widths of a second subset of the plurality of clipped images forming a row; and processing the composite image by the CNN to generate a plurality of probability vectors, each probability vector of the plurality of probability vectors uniquely corresponding to a clipped image of the plurality of clipped images, wherein a length of a probability vector is equal to a number of classes the CNN is designed to classify.",
+  "patent_id": "US12380682-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/7747",
+      "G06N 3/082",
+      "G06V 10/82"
+    ],
+    "all": [
+      "G06V 10/7747",
+      "G06N 3/082",
+      "G06V 10/82"
+    ],
+    "source": "converted"
+  }
+}

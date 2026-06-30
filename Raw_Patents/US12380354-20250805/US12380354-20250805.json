@@ -1,0 +1,18 @@
+{
+  "title": "Determination of characteristics of a molecule by controlling coupling strengths between qubits of a quantum device during a series of measurements",
+  "abstract": "A system and method for modeling one or more characteristics of a molecule using a quantum device implemented on quantum hardware is disclosed. Through control, via modulation, of coupling strengths between qubits on the quantum device and a comparison to an experimentally-measured nuclear magnetic resonance spectrum, J-coupling values may be deduced. These J-coupling values may then be used to recover the molecular structure of the given molecule. The control of coupling strengths may take place through an iterative process until convergence to the one or more characteristics is reached. In some embodiments, such a process may be implemented as part of a quantum computing service. In such cases, the quantum hardware may be local to the quantum computing service, or may be outsourced to a quantum hardware provider.",
+  "claims": "1. A system, comprising: one or more computing devices configured to: receive a nuclear magnetic resonance spectrum corresponding to a given molecule; and generate instructions for modeling characteristics of the nuclear magnetic resonance spectrum on a quantum device implemented using quantum hardware, the quantum device comprising: two or more qubits coupled together with respective coupling strengths; the one or more computing devices further configured to: tune the respective coupling strengths, wherein to tune comprises: control, via modulation, the coupling strengths for a given set of one or more measurements; compare results of the given set of one or more measurements to the received nuclear magnetic resonance spectrum; adjust at least one of the coupling strengths; and iteratively perform one or more additional controls, one or more additional comparisons, and one or more additional adjustments until convergence of current given results to the one or more characteristics of the nuclear magnetic resonance spectrum; and provide, responsive to the convergence of the current given results to the one or more characteristics of the nuclear magnetic resonance spectrum, the current given results.",
+  "patent_id": "US12380354-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 10/40",
+      "G01N 24/08"
+    ],
+    "all": [
+      "G06N 10/40",
+      "G01N 24/08"
+    ],
+    "source": "converted"
+  }
+}

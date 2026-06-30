@@ -1,0 +1,18 @@
+{
+  "title": "Interactive validation of freeform entries in web forms",
+  "abstract": "This technology generally relates to techniques for validating freeform entries in web forms, such that providers of a service can receive an optimal amount of information from potential users of that service in the initial correspondence. The techniques may include receiving a query from a consumer and analyzing the query using natural language parsing of a machine learning model, such as a large language model. The machine learning model may generate a series of prompts related to the content of the query. The user may provide additional information based on the series of prompts. The techniques may further include analyzing the additional information to determine if the prompts were addressed. If the prompts were addressed, the techniques may include outputting a complete message to the user.",
+  "claims": "1. A method for processing freeform data entry on web forms, comprising: receiving, by one or more processors, a user selection of a service provider identified through a graphical user interface; receiving, by the one or more processors, from the user, a query associated with a request for a service, wherein the query is presented as a freeform entry; parsing the freeform text entry using natural language parsing by a machine learning model; verifying, by the one or more processors based on the parsing of the freeform text entry, whether the selected service provider offers the service requested by query prior to submitting the query to the service provider; generating, by the one or more processors, at least one generative prompt that corresponds to the query using natural language parsing by a machine learning model, wherein the at least one generative prompt requests supplemental details related to the query from the user in a communication session between the user and the one or more processors; outputting, by the one or more processors, the at least one generative prompt to the user; receiving, in response to the at least one generative prompt, by the one or more processors, additional information from the user; determining, by the one or more processors using the machine learning model, that the additional information does not address at least one aspect of the at least one generative prompt; in response to determining the additional information does not address at least one aspect of the at least generative prompt, outputting during the communication session the at least one generative prompt that remains unaddressed; and in response to determining during the communication session that the additional information sufficiently addresses the at least one prompt, submitting, by the one or more processors, the query and additional information to the selected provider.",
+  "patent_id": "US12380173-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/953",
+      "G06F 40/20"
+    ],
+    "all": [
+      "G06F 16/953",
+      "G06F 40/20"
+    ],
+    "source": "converted"
+  }
+}

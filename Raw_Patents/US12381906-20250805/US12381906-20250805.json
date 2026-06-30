@@ -1,0 +1,18 @@
+{
+  "title": "System and method for private registry cybersecurity inspection",
+  "abstract": "A system and method for cybersecurity inspection of private software registries is presented. The method includes: deploying an inspection broker in a computing environment, the inspection broker configured to communicate with a private registry of the computing environment; configuring the inspection broker to access the private registry for a list of objects stored in the private registry; selecting an object from the private registry for cybersecurity inspection; inspecting the object for a cybersecurity object in the computing environment; generating an inspection result based on detection of the cybersecurity object; sending the inspection result to an inspection environment, the inspection environment including a representation of the computing environment; and initiating a mitigation action based on the inspection result, the mitigation action generated in response to an instruction from the inspection environment.",
+  "claims": "1. A method for cybersecurity inspection of private software registries, comprising: deploying an inspection broker in a computing environment, the inspection broker configured to communicate with: a private registry of the computing environment, and an inspection environment; configuring the inspection broker to access, through the computing environment, the private registry for a list of objects stored in the private registry; selecting an object from the private registry for cybersecurity inspection, wherein the private registry is configured to communicate only with the computing environment; inspecting the object for a cybersecurity object in the computing environment; generating an inspection result based on detection of the cybersecurity object; sending the inspection result to the inspection environment, the inspection environment including a representation of the computing environment; and initiating a mitigation action based on the inspection result, the mitigation action generated in response to an instruction from the inspection environment.",
+  "patent_id": "US12381906-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1441",
+      "H04L 63/1416"
+    ],
+    "all": [
+      "H04L 63/1441",
+      "H04L 63/1416"
+    ],
+    "source": "converted"
+  }
+}

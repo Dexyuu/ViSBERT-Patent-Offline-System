@@ -1,0 +1,22 @@
+{
+  "title": "Image analysis for scanning optical patterns in a real scene at dynamic ranges",
+  "abstract": "To decode an optical pattern in a real scene, an optical pattern is detected in one or more images acquired by a camera, a distance from the optical pattern to the camera is estimated, the distance from the optical pattern to the camera is compared to a threshold value, acquiring an image of the optical pattern, down sampling the image, based on the distance from the optical pattern to the camera being less than the threshold value, to generate a down-sampled image, and the optical pattern is decoded in the down-sampled image.",
+  "claims": "1. A system for decoding optical patterns in a real scene, the system comprising: a camera; one or more processors; and one or more memory devices comprising instructions that, when executed, cause the one or more processors to perform the following steps: detecting first optical pattern in the real scene from one or more image frames acquired by the camera; estimating a distance from the first optical pattern to the camera; comparing the distance from the first optical pattern to the camera to a first threshold value; acquiring a first image of the first optical pattern, using the camera; down sampling the first image, based on the distance from the first optical pattern to the camera being less than the first threshold value, to generate a down-sampled image; decoding the first optical pattern in the down-sampled image; detecting a second optical pattern; estimating a distance from the camera to the second optical pattern; comparing the distance to the second optical pattern to a second threshold value; acquiring a second image of the second optical pattern at a second distance; cropping the second image based on the second distance being greater than the second threshold value; and decoding the second optical pattern in the second image, after cropping the second image.",
+  "patent_id": "US12380571-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/174",
+      "G06T 7/136",
+      "G06T 7/521",
+      "G06T 7/571"
+    ],
+    "all": [
+      "G06T 7/174",
+      "G06T 7/136",
+      "G06T 7/521",
+      "G06T 7/571"
+    ],
+    "source": "converted"
+  }
+}

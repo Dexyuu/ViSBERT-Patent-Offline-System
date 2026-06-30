@@ -1,0 +1,40 @@
+{
+  "application_id": "WO2017172947",
+  "application_id_fs": "WO2017172947",
+  "title": "Managed function execution for processing data streams in real time",
+  "abstract": "Managed function execution for processing data streams in real time may be. A function that describes one or more operations to be performed with respect to one or more data streams may be received via programmatic interface for a managed stream processing system. Stream processing nodes capable of applying the function may be determined and execution of the one or more operations may be initiated at the stream processing nodes as data records of the data stream are received. Results of the application of the processing function may be provided to one or more destinations specified for the function. Performance metrics may also be collected for the execution of the function and provided to a client that submitted the function.",
+  "claims": "Claims 1. A system, comprising: a plurality of compute nodes, respectively comprising at least one processor and a memory, wherein the plurality of compute nodes implement a managed stream processing system comprising a control plane and a plurality of stream processing nodes; the control plane, configured to: receive a request to apply a processing function to a data stream; identify one or more of the stream processing nodes to apply the processing function; configure the one or more stream processing nodes to apply the processing function; and initiate execution of the processing function at the one or more stream processing nodes such that the processing function is applied to data records of the data stream as the data records are received at the one or more stream processing nodes. 2. The system of claim 1, wherein the one or more stream processing nodes are configured to: request new data records for the data stream; upon receipt of the new data records: apply the processing function to update a state for the processing function; based on the state for the processing function, generate a result; and send the result to at least one result destination specified for the processing function. 3. The system of claim 1, wherein the processing function is received from a client of the managed stream processing system comprising, and wherein the control plane is further configured to: collect one or more performance metrics for the execution of the processing function at the one or more processing nodes; and send the one or more performance metrics to the client. 4. The system of claim 1, wherein the managed stream processing system is a network based service implemented as part of a provider network and wherein the data stream is produced by another network-based service implemented as part of the provider network. 5. A method, comprising: performing, by one or more computing devices: receiving, via a programmatic interface, a function for a data stream that specifies one or more operations to be performed upon data records of a data stream; determining one or more stream processing nodes configured to apply the function with respect to the data stream; and executing the function at the one or more stream processing nodes such that the one or more operations are performed upon the data records of the data stream as the data records are received at the one or more stream processing nodes. 6. The method of claim 5, wherein the one or more stream processing nodes are a plurality of stream processing nodes, and wherein the method further comprises determining a workload distribution scheme for executing the function at the plurality of stream processing nodes. 7. The method of claim 5, wherein the function is received as part of a request from a client, and wherein the request further specifies a distributed configuration for executing the function among the one or more stream processing nodes. 8. The method of claim 5, wherein executing the function at the one or more stream processing nodes comprises: sending, from the one or more stream processing nodes, a request for new data records for the data stream to a data stream source for the data stream; upon receiving the new data records for the data stream, performing, by the one or more stream processing nodes, the one or more operations of the function to generate a result; and sending, from the one or more stream processing nodes, the result to at least one result destination specified for the processing function. 9. The method of claim 5, wherein the function is received from a client, and wherein the method further comprises: collecting one or more performance metrics for the execution of the function at the one or more processing nodes; and sending the one or more performance metrics to the client. 10. The method of claim 9, further comprising: based, at least in part, on the one or more performance metrics, reconfiguring the execution of the function at the one or more processing nodes. 11. The method of claim 5, wherein the function specifies that the one or more operations are to be performed upon data records of another one or more data streams in addition to the data stream such that executing the function at the one or more stream processing nodes performs the one or more operations with respect to the data records of the additional one or more data streams. 12. The method of claim 11, wherein the one or more operations comprise an aggregation of attribute values from data records of the data stream and the additional one or more data streams. 13. The method of claim 5, wherein the programmatic interface for receiving the function is invoked by a graphical user interface (GUI). 14. A system comprising: one or more processors; and one or more memories, the one or more memories having stored thereon program instructions that when executed by the one or more processors cause the one or more processors to: receive, via a programmatic interface, a processing function for a data stream; provision one or more stream processing nodes capable of applying the processing function with respect to the data stream; initiate execution of the processing function at the one or more stream processing nodes such that the processing function is applied to data records of the data stream as the data records are received at the one or more stream processing nodes. 15. The system of claim 14, wherein the program instructions cause the one or more processors to further implement: prior to the execution of the processing function, evaluating data records of the data stream to determine a schema for the data records of the data stream, wherein one or more operations of the processing function are applied to the data records of the data stream according to the schema.",
+  "classifications": {
+    "ipc": [
+      "H04L 67/00",
+      "H04L 67/01",
+      "H04L 67/10",
+      "G06F 16/00",
+      "G06F 16/20",
+      "G06F 16/24",
+      "G06F 16/245",
+      "G06F 16/2455",
+      "G06F 16/27",
+      "H04L 65/00",
+      "H04L 65/60",
+      "H04L 65/61"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 67/00",
+      "H04L 67/01",
+      "H04L 67/10",
+      "G06F 16/00",
+      "G06F 16/20",
+      "G06F 16/24",
+      "G06F 16/245",
+      "G06F 16/2455",
+      "G06F 16/27",
+      "H04L 65/00",
+      "H04L 65/60",
+      "H04L 65/61"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017172947"
+}

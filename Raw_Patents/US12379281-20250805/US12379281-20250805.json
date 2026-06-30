@@ -1,0 +1,24 @@
+{
+  "title": "Computer-implemented method, device, computer program, and computer-readable medium for identifying a gearwheel that induces vibrations in a transmission",
+  "abstract": "A computer-implemented method for identifying a gearwheel (5) that induces vibrations in a transmission includes training a generic AI model with a training data set of a group of reference gearwheels (19). At least one reference profile of a surface (21) of the reference gearwheel (19) and a gearwheel category are provided for each reference gearwheel (19) of the group. The method also includes determining a profile of a surface (11) of a gearwheel (5) and assigning one of the gearwheel categories to the gearwheel (5) on the basis of the determined profile by the trained AI model.",
+  "claims": "1. A computer-implemented method for identifying a gearwheel ( 5 ) that induces vibrations in a transmission, the comprising: training a generic Al model with a training data set of a group of reference gearwheels ( 19 ), at least one reference profile of a surface ( 21 ) and a gearwheel category provided for each reference gearwheel ( 19 ) of the group, a first gearwheel category ( 23 ) of the gearwheel categories assigned to each reference gearwheel ( 19 ) of the group that induces a vibration in the transmission that is equal to a vibration threshold or above the vibration threshold, a second gearwheel category ( 25 ) of the gearwheel categories assigned to each reference gearwheel ( 19 ) that induces a vibration in the transmission that is below the vibration threshold; determining a profile of a surface ( 11 ) of a gearwheel ( 5 ); and assigning, by the trained Al model, one of the gearwheel categories to the gearwheel ( 5 ) based on the determined profile.",
+  "patent_id": "US12379281-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01M 13/021",
+      "G01H 1/003",
+      "G01M 13/028",
+      "F16H 2061/0068",
+      "F16H 2061/0071"
+    ],
+    "all": [
+      "G01M 13/021",
+      "G01H 1/003",
+      "G01M 13/028",
+      "F16H 2061/0068",
+      "F16H 2061/0071"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Method for positioning tea-bud picking points based on fused thermal images and RGB images",
+  "abstract": "A method for positioning tea-bud picking points based on fused thermal images and RGB images is provided and includes: firstly, image pairs of several tea buds are acquired by using an image acquisition device, and are each labeled to obtain a tea-bud object detection database and a tea-bud keypoint detection database; secondly, in order to obtain a trained object detection model and a trained keypoint detection model, the tea-bud object detection database and the tea-bud keypoint detection database are inputted into an object detection model and a keypoint detection model for training, respectively; finally, the trained object detection model and keypoint detection model are used to sequentially process the tea-bud image pairs to obtain tea-bud keypoint positions, and then tea-bud picking point positions are obtained in combination with the tea-bud growth characteristics. The positioning accuracy and efficiency of the tea-bud picking points can be improved.",
+  "claims": "1. A method for positioning tea-bud picking points based on fused thermal images and RGB images, wherein the method comprises the following steps: tea-bud image pairs, including tea-bud thermal images and tea-bud RGB images, of several tea buds are acquired; the tea-bud image pairs are each labeled to obtain a tea-bud object detection database and a tea-bud keypoint detection database; the tea-bud object detection database is inputted into an object detection model based on a deep convolutional neural network for training to obtain a trained object detection model; the tea-bud keypoint detection database is inputted into a keypoint detection model for training to obtain a trained keypoint detection model; the image pairs of tea buds to be picked are acquired by using an image acquisition device; tea-bud keypoint positions are obtained according to the image pairs and the trained object detection model and keypoint detection model; and tea-bud picking point positions are obtained based on the tea-bud keypoint positions and tea-bud growth characteristics.",
+  "patent_id": "US12380550-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/0004",
+      "G06T 5/50",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/20221",
+      "G06T 2207/30188"
+    ],
+    "all": [
+      "G06T 7/0004",
+      "G06T 5/50",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/20221",
+      "G06T 2207/30188"
+    ],
+    "source": "converted"
+  }
+}

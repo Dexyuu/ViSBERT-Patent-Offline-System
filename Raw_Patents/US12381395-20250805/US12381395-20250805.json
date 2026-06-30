@@ -1,0 +1,26 @@
+{
+  "title": "Smart load management apparatus and system for houses and buildings with solar system installations",
+  "abstract": "A solar system installed at a house or building, which may include solar panels and a solar inverter. When the solar system is installed at the house or building, the power load associated with the solar system might overload an electrical panel. This might force the owner of the house or building to spend thousands of dollars on an electrical panel upgrade. To avoid such an expensive upgrade, a smart load manager (SLM) is disclosed that can communicate with the solar inverter and can control it. The SLM can function as a real-time load shedding device, thereby avoiding the cost of a load center/panel upgrade, while enabling a safe and cost-effective solar system installation.",
+  "claims": "1. A smart load manager apparatus, the apparatus comprising: a real-time power management logic section configured to periodically calculate at least one of a house-wide available power value or a building-wide available power value, wherein: the real-time power management logic section is configured to control a plurality of power loads associated with the at least one of the house or the building; in an uncontrolled state, instantaneous power associated with the plurality of power loads exceeds a capacity of at least one electrical panel associated with the at least one of the house or the building; and in a controlled state, the real-time power management logic section is configured to control the plurality of power loads associated with the at least one of the house or the building such that the instantaneous power associated with the plurality of power loads does not exceed the capacity of the at least one electrical panel associated with the at least one of the house or the building, wherein: the real-time power management logic section is configured to cause to be stored a maximum installed power load value for the at least one of the house or the building; and the real-time power management logic section is configured to determine the at least one of the house-wide available power value or the building-wide available power value by subtracting an active power load value from the maximum installed power load value.",
+  "patent_id": "US12381395-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02J 3/14",
+      "G05B 19/0428",
+      "H02J 3/388",
+      "H02J 13/00007",
+      "G05B 2219/2639",
+      "H02J 2310/14"
+    ],
+    "all": [
+      "H02J 3/14",
+      "G05B 19/0428",
+      "H02J 3/388",
+      "H02J 13/00007",
+      "G05B 2219/2639",
+      "H02J 2310/14"
+    ],
+    "source": "converted"
+  }
+}

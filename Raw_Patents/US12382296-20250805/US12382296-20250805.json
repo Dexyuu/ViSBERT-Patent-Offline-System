@@ -1,0 +1,22 @@
+{
+  "title": "Spatial reuse for WLAN networks",
+  "abstract": "Techniques for improved spatial reuse for wireless local area network (WLAN) networks are described. An access point (AP) may win a contention to a wireless medium and obtain a transmission opportunity (TXOP). The AP may perform a procedure to identify a group of un-managed APs for participation in spatial reuse opportunities for synchronous transmission over the TXOP. The AP may perform the procedure using over-the-air signaling. The AP may transmit a spatial reuse (SR) poll frame to one or more un-managed APs of the network, either sequentially or as part of a multiple-AP procedure. The AP may receive an SR response frame, or directly measure potential interference of a station (STA) serviced by one or more un-managed APs, and select a group of APs for coordinated reuse over the TXOP. The AP may select the group of APs based on one or more criteria for coordinated reuse.",
+  "claims": "1. A first access point for wireless communication, comprising: at least one transceiver; a processing system that includes processor circuitry and memory circuitry that stores code, the processing system configured to cause the first access point to: transmit, via the at least one transceiver, a first poll comprising a first message to a wireless node, the first message comprising an indication for the wireless node to transmit a first communication to a set of one or more access points; transmit, via the at least one transceiver, a second poll to a second access point of the set of one or more access points; and receive, via the at least one transceiver and from the second access point after transmitting the second poll, a second communication comprising information associated with the first communication.",
+  "patent_id": "US12382296-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 16/02",
+      "H04W 24/10",
+      "H04W 74/06",
+      "H04W 84/12"
+    ],
+    "all": [
+      "H04W 16/02",
+      "H04W 24/10",
+      "H04W 74/06",
+      "H04W 84/12"
+    ],
+    "source": "converted"
+  }
+}

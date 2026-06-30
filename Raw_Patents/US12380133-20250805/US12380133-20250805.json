@@ -1,0 +1,18 @@
+{
+  "title": "Graph database system with parallelized graph partitioning",
+  "abstract": "A method and high-performance apparatus for creating an approximate maximum k-cut of a graph. In various embodiments, nodes and weighted edges in a graph are used to compute a partitioning of a graph such that the edge weight between partitions is maximized. In various embodiments, the method and apparatus use a greedy random construction of cuts for its first approximation, whose solutions are then subject to local search for better solutions, and local path-relinking for the final level of refinement. In various embodiments, one or more of the greedy random construction, local search, and path relinking are parallelized. A novel parallel algorithm is disclosed for perturbing the state of a cut to see if a better one is cheaply available.",
+  "claims": "1. A graph database system, comprising: a memory configured to store a graph comprising a plurality of nodes each connected to one or more other nodes via one or more relationships; and a processor coupled to the memory and configured to assign each node to one of k communities such that a total weight of connections between the communities is approximately maximized, at least in part by performing one or more of the following in parallel via a plurality of processing threads: making an initial assignment of each node to a community via greedy random construction; performing local optimization to increase total weight of connections between the communities by increasing the cut value associated with each of a plurality of nodes by moving the node to a different community; and performing path relinking to improve a current solution by making the current solution more like a previously-determined solution.",
+  "patent_id": "US12380133-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/284",
+      "G06F 16/9024"
+    ],
+    "all": [
+      "G06F 16/284",
+      "G06F 16/9024"
+    ],
+    "source": "converted"
+  }
+}

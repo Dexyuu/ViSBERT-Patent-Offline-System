@@ -1,0 +1,16 @@
+{
+  "title": "Discovery of source range partitioning information in data extract job",
+  "abstract": "Techniques are described for the discovery of source range partitioning information. An example method includes a device determining a partition boundary value for the data based at least in part on the following steps. The device can determine a first plurality of bounded value sets and a second plurality of bounded value sets. The device can calculate a first average value of a first value and a second average value. The device can determine a first deviation value of the first average value from the first value and a second deviation value of the second average value from a third value. The device can determine the first partition boundary value based at least in part on the first deviation value and the second deviation value, the first partition boundary value being the first candidate partition boundary value or the second candidate partition boundary value.",
+  "claims": "1. A method, comprising: receiving, by a computing device and from a source system, a first set of values from data to be transmitted to a target system and a second set of values from the data to be transmitted to the target system; determining, by the computing device, a partition boundary value for the data based at least in part on: determining, by the computing device, a first plurality of bounded value sets based at least in part on the first set of values and a second plurality of bounded value sets based at least in part on the second set of values; determining, by the computing device, a first deviation value based at least in part on a first upper boundary value of the first plurality of bounded value sets and a first value of the second plurality of bounded value sets; determining, by the computing device, a second deviation value based at least in part on a second upper boundary value of the second plurality of bounded value sets and a second value of the first plurality of bounded value sets; and determining, by the computing device, a first partition boundary value based at least in part on the first deviation value and the second deviation value; partitioning, by the computing device, the data based at least in part on the first partition boundary value; and transmitting, by the computing device, the partitioned data to the target system.",
+  "patent_id": "US12380126-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/27"
+    ],
+    "all": [
+      "G06F 16/27"
+    ],
+    "source": "converted"
+  }
+}

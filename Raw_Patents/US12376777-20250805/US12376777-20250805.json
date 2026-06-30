@@ -1,0 +1,18 @@
+{
+  "title": "Systems and methods for transforming electrocardiogram images for use in one or more machine learning models",
+  "abstract": "A system for transforming electrocardiogram images for use in one or more machine learning models, the system including at least a processor configured to receive paired data including a plurality of ECG images correlated to a plurality of standardized images, wherein each ECG image of the plurality of ECG images is correlated with each standardized image of the plurality of standardized images, train an ECG transformation model as a function of the paired data, wherein training the transformation model includes adjusting one or more parameter values of the ECG transformation model as a function of a comparison between at least one predicted standardized image and at least one standardized image of the plurality of standardized images, receive non-conforming data, generate standardized data as a function of the ECG transformation model and the non-conforming data and train an ECG machine learning model as a function of the standardized data.",
+  "claims": "1. A system for transforming electrocardiogram images for use in one or more machine learning models, the system comprising: at least a processor; and a memory communicatively connected to the at least a processor, the memory containing instructions configuring the at least a processor to: receive training data comprising paired data, wherein the paired data comprises a plurality of ECG images as inputs correlated to a plurality of standardized images as outputs, wherein each ECG image of the plurality of ECG images is correlated with each standardized image of the plurality of standardized images; sanitize the training data using a dedicated hardware unit comprising circuitry configured to perform signal processing operations, wherein sanitizing the training data comprises: determining by the dedicated hardware unit that at least one training data entry of the training data has a signal to noise ratio below a threshold value; and removing the at least one training data entry from the training data to create sanitized training data; train, iteratively, an ECG transformation model using the sanitized training data comprising the plurality of ECG images correlated to the plurality of standardized images, wherein training the ECG transformation model includes retraining the ECG transformation model with feedback from previous iterations of the ECG transformation model, wherein training the ECG transformation model further comprises: adjusting, iteratively, utilizing an optimization technique, one or more parameter values of the ECG transformation model as a function of a comparison between at least one predicted standardized image and at least one standardized image of the plurality of standardized images; receive non-conforming data; generate standardized data as a function of the trained ECG transformation model and the non-conforming data; and train an ECG machine learning model as a function of the standardized data.",
+  "patent_id": "US12376777-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 5/308",
+      "G06N 20/00"
+    ],
+    "all": [
+      "A61B 5/308",
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

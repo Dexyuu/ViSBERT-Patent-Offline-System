@@ -1,0 +1,22 @@
+{
+  "title": "Communications device and method for synchronising with a wireless access interface",
+  "abstract": "A method of operating a communications device comprises detecting a plurality of beams of radio signals each being transmitted periodically according to a time divided structure of a wireless access interface provided by a wireless communications network, selecting a first of the plurality of beams of radio signals for detecting a first version of a synchronisation signal transmitted with the first beam of radio signals, selecting a second of the plurality of beams of radio signals for detecting a second version of the synchronisation signal transmitted with the second beam of radio signals, and synchronising with the time divided structure of the wireless access interface from at least one of the first version of the synchronisation signal and the second version of the synchronisation signal.",
+  "claims": "1. Infrastructure equipment for forming part of a wireless communications network, the infrastructure equipment comprising: transmitter circuitry configured to transmit radio signals via a wireless access interface provided by the wireless communications network; receiver circuitry configured to receive radio signals transmitted via the wireless access interface; controller circuitry configured to control the transmitter circuity and the receiver circuitry; and an antenna array coupled in co-operation with the transmitter for transmitting the radio signals as a directional beam, wherein the controller circuitry is configured to control the transmitter circuitry with the antenna array to transmit a plurality of downlink beams of radio signals periodically according to a time divided structure of the wireless access interface provided by the wireless communications network in different spatial directions and at different times, each of the plurality of downlink beams carrying a different version of a synchronisation signal, and the controller circuitry is configured in combination with the receiver to detect on one of a plurality of uplink beams paired with one of the plurality of downlink beams an indication that a communications device has synchronised with a first of the downlink beams and a second of the downlink beams, the uplink beam on which the indication is received being paired with one of the first downlink beams or the second downlink beams, determine whether to transmit downlink data to the communications device using the first downlink beam or the second downlink beam, and transmit a response message on one of the first downlink beam or the second downlink beam depending on which of the first downlink beam or the second downlink beam is selected for communicating downlink data.",
+  "patent_id": "US12382409-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 56/0015",
+      "H04B 7/088",
+      "H04B 17/318",
+      "H04W 74/0833"
+    ],
+    "all": [
+      "H04W 56/0015",
+      "H04B 7/088",
+      "H04B 17/318",
+      "H04W 74/0833"
+    ],
+    "source": "converted"
+  }
+}

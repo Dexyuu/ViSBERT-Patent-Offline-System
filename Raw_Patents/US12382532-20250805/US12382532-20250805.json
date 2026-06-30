@@ -1,0 +1,24 @@
+{
+  "title": "Method and device for adapting link of V2X communication system",
+  "abstract": "According to the exemplary embodiment of the present disclosure, the method and the device for adapting a link of a V2X communication system acquires an appropriate parameter value to efficiently perform the link adaptation in the V2X communication system, thereby improving an average data transfer rate, determines an MCS level based on the state value (effective SNR) acquired in consideration of the device movement speed to build a V2X communication system which adaptively operates according to the state of the device.",
+  "claims": "1. A link adapting method of V2X communication system performed by a link adapting device which performs link adaptation based on information received from another link adapting device which is a communication target, the method comprising: receiving device state information from another link adapting device; and performing link adaptation with the other link adapting device based on the device state information, wherein the link adaptation is performed by: adjusting a modulation and coding scheme (MCS) based on the device state information, and acquiring the MCS level which satisfies a predetermined target block error rate (BLER) from a state value acquired based on the device state information, wherein in the performing of link adaptation: the state value is acquired using an offset value acquired based on response information received from the link adapting device which is the communication target, the offset value is acquired using a weight value acquired based on the device state information, device movement speed information is acquired based on the device state information and the weight value is acquired using the device movement speed information, and the weight value is acquired using the device movement speed information based on a predetermined maximum speed.",
+  "patent_id": "US12382532-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/23",
+      "H04L 1/0003",
+      "H04L 1/203",
+      "H04W 4/027",
+      "H04W 4/40"
+    ],
+    "all": [
+      "H04W 76/23",
+      "H04L 1/0003",
+      "H04L 1/203",
+      "H04W 4/027",
+      "H04W 4/40"
+    ],
+    "source": "converted"
+  }
+}

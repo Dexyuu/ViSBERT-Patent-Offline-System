@@ -1,0 +1,20 @@
+{
+  "title": "Device security for cable threat actors",
+  "abstract": "A system and method for hardening security within a physical location. At least one cable in the physical location is monitored for errors. In response to detecting an error on the cable a cable fault analysis procedure is performed to determine the location of the fault on the cable. A probability that the fault is caused by a threat actor is calculated based upon the location of the fault on the cable. The probability can be calculated using mixture modules of known nonthreat locations using supervised learning approaches. At least one security protocol at the physical location is implemented in response to the location of the fault having a probability that the fault location is related to a threat actor exceeding a threshold value.",
+  "claims": "1. A method for hardening security within a data center, the method comprising: monitoring a cable for errors; detecting an error within the cable; performing a cable fault analysis procedure to determine a location of a fault on the cable; determining whether the location of the fault is within a high-risk area of the cable located between two connectors located at two ends of the cable and not inside the two connectors; when the fault is within the high-risk area, calculating a probability that the fault is caused by a threat actor based upon the location of the fault on the cable being in the high-risk area; and implementing at least one security measure in the data center in response to the probability exceeding a threshold value.",
+  "patent_id": "US12380255-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/85",
+      "G06F 11/079",
+      "G06F 21/554"
+    ],
+    "all": [
+      "G06F 21/85",
+      "G06F 11/079",
+      "G06F 21/554"
+    ],
+    "source": "converted"
+  }
+}

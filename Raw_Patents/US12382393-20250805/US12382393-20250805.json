@@ -1,0 +1,20 @@
+{
+  "title": "Method for controlling terminal device, terminal device and network device",
+  "abstract": "Embodiments of the present application provide a method for controlling a terminal device, a terminal device and a network device which are applied to the field of communication technology. An embodiment of the present application includes: receiving first indication information sent by a network device, where the first indication information is used to indicate that a radio link between a terminal device and the network device is in an interrupted state; resetting a MAC entity and/or stopping N processes in the terminal device according to the first indication information, where N is an integer greater than or equal to 1.",
+  "claims": "1. A method for controlling a terminal device, comprising: receiving first indication information sent by a network device, in a connected state of the terminal device, wherein the first indication information is used to indicate that a radio link between a terminal device and the network device will be in an interrupted state; resetting a media access control (MAC) entity and/or stopping N processes in the terminal device according to the first indication information, wherein N is an integer greater than or equal to 1; wherein the method further comprises: receiving time indication information sent by the network device, wherein the time indication information comprises second time information of the radio link being in a connected state; wherein the second time information comprises at least one of the following: a starting time of the radio link being in the connected state, a time after the radio link is connected and within a duration of the connected state.",
+  "patent_id": "US12382393-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 52/0225",
+      "H04W 76/27",
+      "H04B 7/18513"
+    ],
+    "all": [
+      "H04W 52/0225",
+      "H04W 76/27",
+      "H04B 7/18513"
+    ],
+    "source": "converted"
+  }
+}

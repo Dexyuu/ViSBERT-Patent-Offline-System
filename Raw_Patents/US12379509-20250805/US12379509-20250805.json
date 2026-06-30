@@ -1,0 +1,20 @@
+{
+  "title": "Radiation detector, radiation imaging system, radiation image processing method, and storage medium",
+  "abstract": "A radiation detector includes a plurality of pixels configured to directly convert a radiation into an electric charge, a reading circuit configured to read pixel signals from the plurality of pixels for each frame, and a processing unit configured to process the pixel signals read by the reading circuit, wherein the processing unit is configured to determine a background component contained in a pixel signal of each of the plurality of pixels by using values of the pixel signals read from the plurality of pixels in a frame in which the pixel signal whose background component is to be determined is read.",
+  "claims": "1. A radiation detector comprising: a plurality of pixels configured to directly convert a radiation into an electric charge; a reading circuit configured to read pixel signals from the plurality of pixels frame by frame; and a processing unit configured to process the pixel signals read by the reading circuit, wherein, for each of the plurality of pixels as a target pixel, the processing unit is configured to determine a background component contained in a pixel signal of the target pixel (i) by using values of the pixel signals read from the plurality of pixels in a frame in which the pixel signal of the target pixel is read and (ii) by performing filter processing on pixel signals of pixels in a predetermined filter region including the target pixel, and wherein, in the filter processing, the processing unit is configured to determine a median of the pixel signals of the pixels in the filter region as a value of the background component for the target pixel in the frame.",
+  "patent_id": "US12379509-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01T 1/24",
+      "G01N 23/04",
+      "G01N 23/06"
+    ],
+    "all": [
+      "G01T 1/24",
+      "G01N 23/04",
+      "G01N 23/06"
+    ],
+    "source": "converted"
+  }
+}

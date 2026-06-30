@@ -1,0 +1,18 @@
+{
+  "title": "Interpolation methods for neural responses",
+  "abstract": "Methods and systems for using evoked neural response to inform aspects of deep brain stimulation therapy are disclosed. According to some embodiments, a series of evoked neural response signals are recorded, and one or more waveform features are extracted from each of the signals. The waveform features can be used as biomarkers and or control signals for informing aspects of the therapy, such as lead implantation/localization, optimization of stimulation parameters, and/or closed loop feedback for maintaining chronic therapy. Embodiments include a check to determine and classify if any of the recorded neural response signals or portions thereof are corrupted. In the event that any of the signals are corrupted, values for the waveform features for the corrupted signals are interpolated using uncorrupted neural response signals in the series and/or uncorrupted portions of the problem neural response signal.",
+  "claims": "1. A method of monitoring neural activity in a patient's brain and using the neural activity to configure electrical stimulation for treating Parkinson's Disease (PD), using one or more electrode leads in the patient's brain, wherein each electrode lead comprises a plurality of electrodes, each of which may be configured for stimulating or recording, the method comprising: using two or more of the electrodes as recording electrodes to record a plurality of signals each indicative of neural activity in the patient's brain, wherein each of the plurality of signals is recorded on a different recording electrode, for each recording electrode, determining if the signal recorded at that electrode is corrupted by converting the signal from a time domain signal to a frequency domain signal and determining if the frequency domain signal comprises one or more frequency components corresponding to frequency components characteristic of a known neural response, determining values for one or more waveform features for each of the plurality of signals recorded at recording electrodes that do not comprise corrupted signals, interpolating values for one or more waveform features for each of the corrupted signals, wherein the interpolating comprises using the waveform feature values determined for the non-corrupted signals recorded at recording electrodes that do not comprise corrupted signals, using the interpolated values to configure therapeutic stimulation for treating PD, and administering the therapeutic stimulation to the patient.",
+  "patent_id": "US12377274-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61N 1/36139",
+      "A61N 1/0534"
+    ],
+    "all": [
+      "A61N 1/36139",
+      "A61N 1/0534"
+    ],
+    "source": "converted"
+  }
+}

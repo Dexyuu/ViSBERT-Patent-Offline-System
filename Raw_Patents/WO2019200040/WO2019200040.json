@@ -1,0 +1,21 @@
+{
+  "application_id": "WO2019200040",
+  "application_id_fs": null,
+  "title": "System and method of ai assisted search",
+  "abstract": "A system for assisted expanded search can have a server, receiving from a user, a user search request to access semi-private data, and a controlled access non-transient memory storing at least the semi-private data. An expanded search engine can implement at least one algorithm to analyze semi-private metadata and semi-private correlated metadata related to the semi-private data to determine a primary response and an expanded response to the user search request. The system can also include a display providing the user the primary response and the expanded response.",
+  "claims": "Claims What is claimed is: 1. A method for assisted expanded search, comprising the steps of: receiving at a server, from a user, a user search request to access semi-private data, wherein the semi-private data resides on a controlled access non-transient memory; accessing semi-private metadata and semi-private correlated metadata related to the user search request and the semi-private data; analyzing, using a processor running instructions to implement at least one algorithm, the semi-private metadata and the semi-private correlated metadata to determine a primary response to the user search request; analyzing, using a processor running instructions to implement at least one algorithm, the semi-private metadata and the semi-private correlated metadata to determine an expanded response to the user search request; and providing, to the user, the primary response and the expanded response. 2. The method of claim 1, wherein the expanded response provides additional information related to the user search request different from the primary response. 3. The method of claim 2, wherein the additional information in the expanded response is not requested in the user search request. 4. The method of claim 2, wherein: the analyzing to determine the expanded response step further comprises the steps of: formulating, using a processor running instructions to implement the step, based on the analysis, an independent inquiry to an independent search engine; and acquiring, from the independent search engine, an independent search result related to the independent inquiry; and the providing step further comprises the step of providing the independent search result as part of the expanded response. 5. The method of claim 2, wherein the analyzing to determine the expanded response step further comprises the steps of: using image recognition to determine a plurality of features of image data within semi private data; and using one or more of the plurality of features as part of the determination of the expanded response. 6. A system for assisted expanded search, comprising: a server, receiving from a user, a user search request to access semi-private data; a controlled access non-transient memory storing at least the semi-private data; an expanded search engine implementing at least one algorithm to analyze semi-private metadata and semi-private correlated metadata related to the semi-private data to determine a primary response and an expanded response to the user search request; and a display providing the user the primary response and the expanded response.",
+  "classifications": {
+    "ipc": [
+      "G06F 17/30",
+      "G06Q 50/22",
+      "G06Q 50/24"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 17/30",
+      "G06Q 50/22",
+      "G06Q 50/24"
+    ],
+    "source": "csv"
+  }
+}

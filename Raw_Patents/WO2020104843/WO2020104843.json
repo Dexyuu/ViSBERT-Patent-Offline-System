@@ -1,0 +1,25 @@
+{
+  "application_id": "WO2020104843",
+  "application_id_fs": null,
+  "title": "Monitoring system for winemaking",
+  "abstract": "Aspects of a monitoring method and system for winemaking are provided. The system comprises at least two sensors, a controller, a wireless transmitter and a wireless receiver. One sensor measures a wine parameter, while the other sensor measures an ambient condition. The controller is able to generate an alarm based on the wine parameter and the ambient condition. The wireless transmitter is able to communicate the wine parameter and the ambient condition to a remote database. The wireless receiver is able to receive a modification to the firmware.",
+  "claims": "Claims CLAIMS What is claimed is: 1. A system for monitoring winemaking comprising: a first sensor operable to measure a wine parameter; a second sensor operable to measure an ambient condition; a controller operable according to firmware stored in a memory, wherein the controller is operable to generate an alarm according to the wine parameter and the ambient condition; a wireless transmitter operable to communicate the wine parameter and the ambient condition to a remote database; and a wireless receiver operable to receive a modification to the firmware. 2. The system according to claim 1, wherein the wine parameter is one of a pressure, a temperature, a density, a level, a turbidity, a color, a pH and an alcohol content. 3. The system according to claim 1, wherein the ambient condition is measured by a temperature probe that is external to a container that comprises the wine. 4. The system according to claim 1, wherein the ambient condition is measured by a hygrometer. 5. The system according to claim 1, wherein the ambient condition is measured by a lux sensor. 6. The system according to claim 1, wherein the system comprises an accelerometer. 7. The system according to claim 6, wherein the accelerometer is operable to calibrate an orientation of the system. 8. The system according to claim 6, wherein the accelerometer is operable to remotely indicate that the system is askew. 9. The system according to claim 1, wherein the controller is operable to receive a GPS signal to provide a position of the system. 10. The system according to claim 1, wherein the controller is operable to monitor a power supply of the system. 11. A method for monitoring winemaking comprising: measuring a wine parameter with a first sensor; measuring an ambient condition with a second sensor; wirelessly upgrading firmware of a controller; generating an alarm according to the wine parameter, the ambient condition and the controller firmware; and communicating the wine parameter and the ambient condition to a remote database. 12. The method according to claim 11, wherein the wine parameter is one of a pressure, a temperature, a density, a level, a turbidity, a color, a pH and an alcohol content. 13. The method according to claim 11, wherein the ambient condition is measured by a temperature probe that is external to a container that comprises the wine. 14. The method according to claim 11, wherein the ambient condition is measured by a hygrometer. 15. The method according to claim 11, wherein the ambient condition is measured by a lux sensor. 16. The method according to claim 11, wherein the remote database is a cloud storage. 17. The method according to claim 11, wherein the method comprises calibrating an orientation of the system using an accelerometer. 18. The method according to claim 11, wherein the method comprises remotely indicating that the system is askew according to an accelerometer. 19. The method according to claim 11, wherein the method comprises receiving a GPS signal to provide a position of the system. 20. The method according to claim 11, wherein the method comprises monitoring a power supply of the system.",
+  "classifications": {
+    "ipc": [
+      "C12G 1/02",
+      "C12H 1/22",
+      "C12L 11/00",
+      "G01D 21/02",
+      "G01N 33/14"
+    ],
+    "cpc": [],
+    "all": [
+      "C12G 1/02",
+      "C12H 1/22",
+      "C12L 11/00",
+      "G01D 21/02",
+      "G01N 33/14"
+    ],
+    "source": "csv"
+  }
+}

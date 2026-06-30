@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2025019629",
+  "application_id_fs": "WO2025019629",
+  "title": "Messaging protocol for near-real time transaction identification",
+  "abstract": "A messaging system configured to facilitate cross-border transactions between parties. A Requester, or associated agent, can transmit a request message to a request message platform that provides information indicating the Requester, a Requestee, and the requested transaction. The request message platform can perform various screenings regarding the parties and the requested transaction, including screenings based on regulations of the jurisdictions in which the parties, or their agents, are located. The request message platform can also convert the request message, or the associated request, to a pertinent messaging protocol used for such transactions in the corresponding jurisdictions, and assist in providing status updates regarding the transaction to the parties. The messaging system can also facilitate messaging to the Requestee, including messaging that can direct the Requestee to a landing page at which the Requestee can log into the system, receive information regarding the requested transaction, and accept or deny the request.",
+  "claims": "Claims CLAIMS WHAT IS CLAIMED IS: 1. A method for messaging communications for cross-border transactions, the method comprising: receiving a request message from a requester agent of a requester, the request message identifying a request being made by the requester for a requestee and providing information to identify the requester; screening the requester identified by information provided by the received request message with respect to one or more first regulations of at least one jurisdiction implicated by the request message; screening the requestee identified from the received request message with respect to one or more second regulations of the at least one jurisdiction; screening the request identified from the received request message with respect to one or more third regulations of the at least one jurisdiction; converting the request from the received request message to a request message protocol based on a request type of the request and the at least one jurisdiction; generating, in response to a result of the screenings of the requestee, requester, and the request, a signal to facilitate an electronic transmission of a request notification message to a requestee communication device of the requestee; and communicating, using the request message protocol, information regarding the request for viewing by the requestee on the requestee communication device. 2. The method of claim 1, wherein the request message protocol is a IS020022 message protocol. 3. The method of claim 2, wherein the one or more first regulations comprise a Know Your Customer requirement. 4. The method of claim 3, wherein the one or more third regulations comprise at least one of an anti-money laundering regulation and a counter-terrorist financing regulation. 5. The method of claim 4, wherein at screening of at least one of the requester and the requestee comprises a screening regarding sanctioned individuals or entities. 6. The method of claim 1, further comprising screening a payment instrument of the requester, wherein the payment instrument comprises an account of the requester with the requester agent. 7. The method of claim 1, wherein the request comprises a request for a transfer of funds from the requestee. 8. The method of claim 1, further comprising: receiving a first response message from the requester communication device of the requestee, the first response message providing an indication of the requestee agreeing to review a detail of the request; and communicating, using the request message protocol and in response to receipt of first response signal, additional information regarding the request for viewing on the requestee communication device. 9. The method of claim 8, further comprising receiving a second response signal from the requester communication device, the second response signal comprises a requester acceptance or a requester denial of the request. 10. The method of claim 9, further comprising: monitoring, in response to the second response signal being the requester acceptance of the request, receipt of a transaction confirmation signal from a requestee agent of the requestee; and generating, in response to an absence of a receipt of the transaction confirmation signal within a predetermined time period, a reminder communication for the requestee. 11. The method of claim 10, wherein the second response signal further comprises a modification of the request by the requestee, and wherein the method further comprises receiving a reply signal from at least one of a requester communication device of the requester or the requester agent, the reply signal comprising at least one of a requester acceptance or a requester denial of the modification of the request. 12. The method of claim 1 , further comprising: identifying, from information provided by the request message, the one or more jurisdictions, and determining from at least the identification of the one or more jurisdictions, the one or more first regulations, the one or more second regulations, and the one or more third regulations. 13. The method of claim 1, further comprising: identifying, from information provided by the request message, the one or more jurisdictions, and determining from at least the identification of the one or more jurisdictions, the request message protocol. 14. A messaging system for cross-border transactions, the messaging system comprising: request message platform comprising at least one historical database and a screening analyzer, the screening analyzer comprising at least one processor and a memory coupled with the at least one processor, the memory including instructions that when executed by the at least one processor cause the at least one processor to: receive a request message from a requester agent of a requester, the request message identifying a request being made by the requester for a requestee and providing information to identify the requester; screen the requester identified by information provided by the received request message with respect to one or more first regulations of at least one jurisdiction implicated by the request message; screen the requestee identified from the received request message with respect to one or more second regulations of the at least one jurisdiction; screen the request identified from the received request message with respect to one or more third regulations of the at least one jurisdiction; convert the request from the received request message to a request message protocol based on a request type of the request and the at least one jurisdiction; generate, in response to a result of the screenings of the requestee, requester, and the request, a signal to facilitate an electronic transmission of a request notification message to a requestee communication device of the requestee; and \n\n communicate, using the request message protocol, information regarding the request for viewing by the requestee on the requestee communication device. 15. The messaging system of claim 14, wherein the request message protocol is a IS020022 message protocol. 16. The messaging system of claim 15, wherein the one or more first regulations comprise a Know Your Customer requirement. 17. The messaging system of claim 16, wherein the one or more third regulations comprise at least one of an anti-money laundering regulation and a counter-terrorist financing regulation. 18. The messaging system of claim 17, wherein at screening of at least one of the requester and the requestee comprises a screening regarding sanctioned individuals or entities. 19. The messaging system of claim 14, further comprising screening a payment instrument of the requester, wherein the payment instrument comprises an account of the requester with the requester agent. 20. The messaging system of claim 14, wherein the request comprises a request for a transfer of funds from the requestee.",
+  "classifications": {
+    "ipc": [
+      "G06Q 20/00",
+      "G06Q 20/08",
+      "G06Q 20/10",
+      "G06Q 20/30",
+      "G06Q 20/32",
+      "G06Q 20/325",
+      "G06Q 20/3255",
+      "G06Q 20/38",
+      "G06Q 20/386",
+      "G06Q 20/40",
+      "G06Q 20/401",
+      "G06Q 20/4014",
+      "G06Q 20/42",
+      "G06Q 40/00",
+      "G06Q 40/02",
+      "G06Q 40/03"
+    ],
+    "cpc": [],
+    "all": [
+      "G06Q 20/00",
+      "G06Q 20/08",
+      "G06Q 20/10",
+      "G06Q 20/30",
+      "G06Q 20/32",
+      "G06Q 20/325",
+      "G06Q 20/3255",
+      "G06Q 20/38",
+      "G06Q 20/386",
+      "G06Q 20/40",
+      "G06Q 20/401",
+      "G06Q 20/4014",
+      "G06Q 20/42",
+      "G06Q 40/00",
+      "G06Q 40/02",
+      "G06Q 40/03"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025019629"
+}

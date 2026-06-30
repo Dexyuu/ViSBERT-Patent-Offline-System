@@ -1,0 +1,20 @@
+{
+  "title": "Dynamically generated local virtual events",
+  "abstract": "A game server provides game data of a location-based game to a plurality of client devices based on a first set of one or more game designs. First activity data associated with the location-based game is received from the plurality of client devices based on the first set of one or more game designs. The game server determines whether the first activity data from the plurality of client devices meets a predetermined starting condition associated with a local virtual event. The local virtual event is started for the plurality of client devices in response to determining that the first activity data meets the predetermined starting condition. The game server provides game data based on the local virtual event to the plurality of client devices. The virtual event has a second game design that is different from the first set of one or more game designs.",
+  "claims": "1. A computer-implemented method comprising: providing, by a game server, game data of a location-based game to a plurality of client devices based on a first set of one or more game designs; receiving, at the game server, first activity data associated with the location-based game from the plurality of client devices based on the first set or one or more game designs, the first activity data including geolocation data; detecting, at the game server and based on the geolocation data, a spontaneous trigger event indicating that at least a predetermined number of active client devices from among the plurality of client devices are within a predetermined geographic area, the spontaneous trigger event being detected by referencing a data structure storing multiple candidate spontaneous trigger events including the spontaneous trigger event, each candidate spontaneous trigger event specifying a minimum number of active players required to be within a corresponding predefined geographic area to trigger the candidate spontaneous trigger event; starting automatically, by the game server and responsive to detecting the spontaneous trigger event, a local virtual event of a shared augmented reality session for the predetermined number of active client devices; and providing, by the game server, game data of the local virtual event to the predetermined number of active client devices, the local virtual event having a second game design different from the first set of one or more game designs.",
+  "patent_id": "US12377346-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A63F 13/216",
+      "G06T 19/006",
+      "A63F 2300/8082"
+    ],
+    "all": [
+      "A63F 13/216",
+      "G06T 19/006",
+      "A63F 2300/8082"
+    ],
+    "source": "converted"
+  }
+}

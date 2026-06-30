@@ -1,0 +1,20 @@
+{
+  "title": "Multi-channel, intelligent conversational agent",
+  "abstract": "The disclosure relates to systems, methods, and computer-readable media for an artificial intelligence (AI) conversational agent configured for enhanced user interaction in multi-channel contact centers. An example method includes receiving a query regarding a particular property of an asset during a real-time conversation, classifying an intent of the query into a predefined category, triggering, based on the classifying of the intent, a finetuned large language model for the predefined category to answer the query, generating, by the finetuned large language model, a response to the query based on at least one of an information data model and a knowledge graph data store, and outputting the response to the query.",
+  "claims": "1. A method comprising: receiving a query regarding a respective property of a dental healthcare plan, wherein the respective property corresponds to user-specific information for the dental healthcare plan and a user, and wherein the query comprises a natural language query received during a real-time conversation with the user by a virtual conversational agent system; classifying an intent of the query into a predefined category of a plurality of predefined categories included in a domain-specific ontology associated with the dental healthcare plan; triggering, based on the classifying of the intent, a selected finetuned large language model (LLM) for the predefined category to answer the query, wherein the selected finetuned LLM has been domain-finetuned corresponding to the predefined category and the domain-specific ontology, and wherein the selected finetuned LLM is selected from a plurality of finetuned LLMs each having been domain-finetuned for a different category of the plurality of predefined categories; generating, using an additional LLM trained on a graph-structured data query modality, a cypher query representation of the natural language query; obtaining contextual information based executing the cypher query representation against a knowledge graph data store including contextual data of the dental healthcare plan stored according to the graph-structured data query modality, wherein the contextual user information includes at least a portion of the user-specific information for the dental healthcare plan; generating, by the selected finetuned LLM, a response to the query based on an information data model and the knowledge graph data store, wherein generating the response includes injecting the contextual user information into a prompt for the query provided to the selected finetuned LLM; and outputting the response to the query, based on using the selected finetuned LLM to process the prompt with the contextual user information and the query.",
+  "patent_id": "US12380146-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/3344",
+      "G06F 16/367",
+      "H04L 51/04"
+    ],
+    "all": [
+      "G06F 16/3344",
+      "G06F 16/367",
+      "H04L 51/04"
+    ],
+    "source": "converted"
+  }
+}

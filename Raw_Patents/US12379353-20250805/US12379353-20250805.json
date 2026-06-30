@@ -1,0 +1,24 @@
+{
+  "title": "Method and system for denoising high-frequency ultrasound based on multipath matching pursuit algorithm",
+  "abstract": "The present invention provides an improved method and system for denoising high-frequency ultrasound based on a multipath matching pursuit algorithm. The method includes: acquiring a high-frequency ultrasound detection signal of a to-be-tested sample; constructing a discrete overcomplete dictionary according to the high-frequency ultrasound detection signal, and training the discrete overcomplete dictionary; reconstructing the high-frequency ultrasound detection signal by using a trained dictionary and using a multipath matching pursuit algorithm, and obtaining a global optimal atom; performing interpolation on the global optimal atom, and constructing a consecutive atomic library; and reconstructing the high-frequency ultrasound detection signal in the consecutive atomic library according to a parameter of the global optimal atom, to complete signal denoising. In the present invention, a signal-to-noise ratio and detection precision of a high-frequency ultrasound signal are improved, so that a reflected signal and a position of a microdefect inside a sample can be observed more effectively.",
+  "claims": "1. An improved method for denoising high-frequency ultrasound based on a multipath matching pursuit algorithm, comprising: S1: acquiring a high-frequency ultrasound detection signal of a to-be-tested sample; S2: constructing a discrete overcomplete dictionary according to the high-frequency ultrasound detection signal, and training the discrete overcomplete dictionary; S3: reconstructing the high-frequency ultrasound detection signal by using a trained dictionary and using a multipath matching pursuit algorithm, and obtaining a global optimal atom; S4: performing interpolation on the global optimal atom, and constructing a consecutive atomic library; and S5: reconstructing the high-frequency ultrasound detection signal in the consecutive atomic library according to a parameter of the global optimal atom, to complete signal denoising, wherein the reconstructing the high-frequency ultrasound detection signal by using a trained dictionary and using a multipath matching pursuit algorithm, and obtaining a global optimal atom in step S3 specifically comprises steps of: S31: giving a dictionary D, a to-be-processed signal y, and a sparsity k, initializing a sparse coefficient α 0 =0 and a residual r 0 =y, and reconstructing an atom set Ω 0 =ϕ and an index set ω 0 =ϕ; S32: for a t th iteration, calculating a residual r t−1 , taking inner products of all atoms in the dictionary matrix D, finding G corresponding atoms with the largest inner products and corresponding indices, only keeping n paths according to each iteration, setting a threshold according to an inner product of a current optimal atom and the residual, and eliminating a selected atom if an inner product of the atom and a signal is less than the threshold; S33: updating an index set ω t and a corresponding reconstructed atom set Ω t :",
+  "patent_id": "US12379353-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01N 29/4463",
+      "G01N 29/28",
+      "G01N 29/4418",
+      "G01N 29/449",
+      "G01N 2291/0289"
+    ],
+    "all": [
+      "G01N 29/4463",
+      "G01N 29/28",
+      "G01N 29/4418",
+      "G01N 29/449",
+      "G01N 2291/0289"
+    ],
+    "source": "converted"
+  }
+}

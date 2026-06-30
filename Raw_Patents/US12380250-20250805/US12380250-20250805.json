@@ -1,0 +1,22 @@
+{
+  "title": "Method for securing logic circuits",
+  "abstract": "The invention is directed to securing/obfuscating the design and operation of a logic circuit using standard encryption algorithms. The invention transforms the logic of the circuit to crypto logic which is capable of accepting encrypted input, producing encrypted output or a combination of accepting encrypted input and producing encrypted output.",
+  "claims": "1. A method of securing a logic circuit having a logic transfer function defining a relationship between one or more inputs to and one or more outputs from the logic circuit, the method comprising: modifying the logic transfer function to cause the logic circuit to accept one or more of the inputs in encrypted form, produce one or more of the outputs in encrypted form, or a combination of taking one or more of the inputs in encrypted form and producing one or more of the outputs in encrypted form; wherein the logic circuit further comprises a stored state; and wherein the one or more inputs comprise a string of input bits and further wherein the one or more outputs comprise a string of output bits, the method further comprising: encrypting one or more bits of the string of input bits prior to inputting the string of input bits to the logic circuit; decrypting one or more bits of the string of output bits; and modifying the logic transfer function to cause the logic circuit to produce the stored state in plaintext form which must be encrypted before being used; wherein the logic transfer function is expressed in a programming language, a high-level description language, a structural netlist of gate-level functions, Boolean expressions, or a truth table.",
+  "patent_id": "US12380250-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/72",
+      "G06F 21/75",
+      "H04L 9/0631",
+      "H04L 9/14"
+    ],
+    "all": [
+      "G06F 21/72",
+      "G06F 21/75",
+      "H04L 9/0631",
+      "H04L 9/14"
+    ],
+    "source": "converted"
+  }
+}

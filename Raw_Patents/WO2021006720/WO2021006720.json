@@ -1,0 +1,23 @@
+{
+  "application_id": "WO2021006720",
+  "application_id_fs": null,
+  "title": "Method and system for updating database",
+  "abstract": "The present invention relates to a method and system for updating a database. The method (10) comprises the steps of creating a raw table in a distributed environment (11), copying one or more records along with corresponding timestamps from a source table to the raw table at a preset frequency (12), generating a final table from the raw table (13), and transferring the final table to a target location in the database (14). The system comprises an input module for receiving the records from the source table. A consolidating module creates the raw table and copies the received records to the raw table. A processing module generates the final table, and an output module transfers the final table to the target location.",
+  "claims": "Claims CLAIMS: 1. A method (10) for updating a database, comprising the steps of: i. creating at least one raw table in a distributed environment (11 ); ii. copying one or more records along corresponding timestamps from at least one source table to said raw table at a preset frequency (12); iii. generating at least one final table from said raw table (13); and iv. transferring said final table to a target location in said database (14), characterized in that the step of generating said final table (13) includes: - numerically tagging each record in said raw table, wherein similar records are tagged with same tag number; - selecting a latest record for each tag number; and - updating said selected records in said final table. 2. The method as claimed in claim 1 , wherein said distributed environment is a Hadoop environment. 3. The method as claimed in claim 1 , wherein said database is a Hadoop Distributed File System, HDFS. 4. The method as claimed in claim 1 , wherein said numerically tagging of each record in said raw table includes: - identifying at least one primary key of each record; - assigning a tag number to each primary key; and - tagging each record based on the corresponding primary key, wherein two or more records with same primary key are tagged with same tag number. 5. The method as claimed in claim 1 , wherein the step of updating said selected records in said final table includes: - partitioning each selected record into two or more segments; - identifying at least one segment differing from corresponding segment in said final table; and \n\n - updating the identified segment in said final table, wherein said identified segment is merged or overwritten in said final table. 6. A system (20) for updating a database (50), comprising: i. at least one input module (21 ) for receiving one or more records from at least one source table (1 ); ii. at least one consolidating module (22) creating at least one raw table (2) in a distributed environment and copying said received records along with corresponding timestamps to said raw table (2); iii. at least one processing module (23) generating at least one final table (3) from said raw table (2); and iv. at least one output module (24) for transferring said final table (3) to a target location in said database (50), characterized in that said processing module (23) includes: - at least one tag module for numerically tagging each record in said raw table (2), wherein similar records are tagged with same tag number; - at least one selection module for selecting a latest record for each tag number; and - at least one copying module for copying said selected records to said final table (3). 7. The system as claimed in claim 6, wherein said tag module is configured to identify at least one primary key of each record, assign a tag number to each primary key, and tag each record based on the corresponding primary key, wherein two or more records with same primary key are tagged with same tag number. 8. The system as claimed in claim 6, wherein said processing module (23) is configured to partition each selected record into two or more segments, identify at least one segment differing from corresponding segments in said final table (3), and update the identified segment in said final table (3), wherein said identified segment is merged or overwritten to said final table (3).",
+  "classifications": {
+    "ipc": [
+      "G06F 16/27",
+      "G06F 16/182",
+      "G06F 16/13",
+      "G06F 16/23"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 16/27",
+      "G06F 16/182",
+      "G06F 16/13",
+      "G06F 16/23"
+    ],
+    "source": "csv"
+  }
+}

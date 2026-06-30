@@ -1,0 +1,18 @@
+{
+  "title": "Fetal movement detection method from doppler ultrasound signal",
+  "abstract": "A method (100) of detecting fetal movements includes: deriving a plurality of peaks from the Doppler ultrasound signal acquired from a subject, each peak of the plurality of peaks being associated with an envelope of a signal segment of the Doppler ultrasound signal; calculating a density of the peaks as a function of a plurality of amplitude grids, the density indicating the number of peaks with amplitude in each amplitude grid; selecting a fetal movement threshold based on the calculated density, and determining whether a signal segment of the Doppler ultrasound signal includes a fetal movement by comparing the amplitude of the peak associating with the envelope of the signal segment with the fetal movement threshold.",
+  "claims": "1. A method of detecting fetal movements tuned for a specific fetus, comprising: deriving a plurality of peaks from a Doppler ultrasound signal received from the fetus, each peak of the plurality of peaks being associated with an envelope of one of a plurality of signal segments of the Doppler ultrasound signal; calculating a density of the peaks as a function of a plurality of peak amplitude grids, the density indicating the number of peaks with amplitude in each amplitude grid; selecting a fetal movement threshold, tuned to the specific fetus, as the peak amplitude of the peak amplitude grid at which the calculated density of the peaks is maximum; and determining that a Doppler ultrasound signal segment under test includes a fetal movement for the specific fetus by comparing the amplitude of a peak associating with the envelope of the Doppler ultrasound signal segment under test with the fetal movement threshold.",
+  "patent_id": "US12376823-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 8/0866",
+      "A61B 8/488"
+    ],
+    "all": [
+      "A61B 8/0866",
+      "A61B 8/488"
+    ],
+    "source": "converted"
+  }
+}

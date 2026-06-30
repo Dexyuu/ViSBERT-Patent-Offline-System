@@ -1,0 +1,26 @@
+{
+  "title": "System for and method of safety management based on cascade deep learning network",
+  "abstract": "The present disclosure relates to a system for safety management based on a cascade deep learning network, and the system for safety management based on the cascade deep learning network includes a camera module that captures image of an area to be monitored at an industrial site; and a processor that receives and analyzes image data captured by the camera module in real time.",
+  "claims": "1. A system for safety management based on a cascade deep learning network, the system comprising: a camera configured to capture images of areas to be monitored at an industrial site; and a processor configured to receive and analyze image data captured from the camera in real time by: applying an object recognition model to the image data to determine whether an accident occurs, in response to determination that the accident occurs, generating a response alarm, in response to determination that the accident does not occur, determining whether a worker is detected in the image data, in response to determination that the worker is detected in the image data, determining whether an intrusion of the worker is detected by calculating a major body portion or joint position corresponding to posture of the worker using a posture estimation model; in response to determination that the intrusion of the worker is detected, stopping an operation of a facility or a robot; in response to determination that the intrusion of the worker is not detected, estimating a motion of the worker recognized in the image data by applying a motion classification model to the worker detected by the object recognition model in the image data, as a result of estimating the motion of the worker, and outputs the response alarm through an alarm module in response to detection of a dangerous motion of the workers, and classifying the motion into a number of major movements common to each industrial site, and detects lying down and falling down movements as the dangerous motion among the plurality of major movements.",
+  "patent_id": "US12380788-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G08B 21/02",
+      "G06V 10/82",
+      "G06V 20/52",
+      "G06V 40/10",
+      "G06V 40/20",
+      "H04L 65/65"
+    ],
+    "all": [
+      "G08B 21/02",
+      "G06V 10/82",
+      "G06V 20/52",
+      "G06V 40/10",
+      "G06V 40/20",
+      "H04L 65/65"
+    ],
+    "source": "converted"
+  }
+}

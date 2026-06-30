@@ -1,0 +1,18 @@
+{
+  "title": "Continuous learning models across edge hierarchies",
+  "abstract": "Systems and methods are provided for continuous learning of models across hierarchies under a multi-access edge computing. In particular, an on-premises edge server, using a model, generates inference data associated with captured stream data. A data drift determiner determines a data drift in the inference data by comparing the data against reference data generated using a golden model. The data drift indicates a loss of accuracy in the inference data. A gateway model maintains one or more models in a model cache for update the model. The gateway model instructs the one or more servers to train the new model. The gateway model transmits the trained model to update the model in the on-premises edge server. Training the new model includes determining an on-premises edge server with computing resources available to train the new model while generating other inference data for incoming stream data in the data analytic pipeline.",
+  "claims": "1. A computer-implemented method for training models, comprising: receiving, by a first server from a second server of a plurality of servers, inference data generated based on a first model, wherein content of data captured by one or more sensor devices is evaluated by the second server based on the first model to generate the inference data, the inference data describes identifying an object in the content of the captured data, and the second server of the plurality of servers comprises less computing resources than the first server; determining, by the first server, a data drift in the received inference data generated based on the first model, wherein the data drift indicates a degree of inaccuracy of the inference data that identify the object in the content of the captured data; determining that the data drift exceeds a drift threshold; evaluating computing resources of each of the plurality of servers; determining whether the second server has sufficient computing resources to train a second model while continuing to generate inference data; in response to determining the second server does not have sufficient computing resources, determining at least a third server of the plurality of servers that has sufficient computing resources to train the second model; requesting at least the third server to train the second model; receiving the trained second model from the third server; and causing, by the first server, the first model to be updated with the trained second model on a graphics processing unit (GPU) of the second server of the plurality of servers, thereby causing the second server to execute an inference operation on the GPU using trained second model” and replace with the first model updated with the trained second model for improved accuracy of inferencing a subsequently captured sensor data.",
+  "patent_id": "US12380362-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 20/00",
+      "G06N 3/08"
+    ],
+    "all": [
+      "G06N 20/00",
+      "G06N 3/08"
+    ],
+    "source": "converted"
+  }
+}

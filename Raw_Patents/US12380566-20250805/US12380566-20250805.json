@@ -1,0 +1,20 @@
+{
+  "title": "Method of separating terrain model and object model from three-dimensional integrated model and apparatus for performing the same",
+  "abstract": "Provided is a method of separating a terrain model and an object model from a three-dimensional integrated model and an apparatus for performing the same. A separation method according to various example embodiments includes creating separation information about an integrated model based on a multi-viewpoint image including an object on a terrain, model information of the integrated model obtained by restoring the multi-viewpoint image in three dimensions, and information of an image shooting device shooting the multi-viewpoint image, and separating a terrain model and an object model from the integrated model based on the separation information.",
+  "claims": "1. A separation method, comprising: creating separation information about an integrated model based on a multi-viewpoint image including an object on a terrain, model information of the integrated model obtained by restoring the multi-viewpoint image in three dimensions, and information of an image shooting device shooting the multi-viewpoint image; and separating a terrain model and an object model from the integrated model based on the separation information; wherein the separating comprises: filling a hole on the separated terrain model corresponding to the separated object model; and mapping the filled hole with an orthogonal image of the integrated model; wherein the separation information is created based on at least one of first information and second information for estimating an area of the terrain model and an area of the object model in the integrated model, and the first information is created based on the model information, and the second information is created based on the information of the image shooting device; wherein the creating of the separation information comprises: projecting the integrated model on the multi-viewpoint image based on the information of the image shooting device; acquiring locations corresponding to the terrain model and the object model within the multi-viewpoint image on which the integrated model is projected; and creating the second information by comparing the locations corresponding to the terrain model and the object model with an object recognized through machine learning in the multi-viewpoint image; and wherein the separating further comprises: reflecting a weight input by a user to a first estimated value and a first confidence value included in the first information, and to a second estimated value and a second confidence value included in the second information, to create a final estimated value and a final confidence value; and adopting the final confidence value if the final confidence value exceeds a reference confidence value input by the user; wherein the final estimated value is obtained by multiplying each of the first estimated value and the second estimated value by a value between 0 and 1 to obtain a first estimated multiplied value and a second estimated multiplied value, and adding the first estimated multiplied value and the second estimated multiplied value.",
+  "patent_id": "US12380566-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/11",
+      "G06T 7/10",
+      "G06T 15/04"
+    ],
+    "all": [
+      "G06T 7/11",
+      "G06T 7/10",
+      "G06T 15/04"
+    ],
+    "source": "converted"
+  }
+}

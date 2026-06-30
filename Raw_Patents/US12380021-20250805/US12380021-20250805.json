@@ -1,0 +1,20 @@
+{
+  "title": "Memory system based on flash memory and method for managing meta data thereof",
+  "abstract": "A memory system which includes a flash memory including a meta block and a data block, and a memory controller including a meta data managing module managing meta data to be stored in the meta block. The meta block includes a plurality of pages. The meta data managing module compares a number of free pages of the plurality of pages with a preset number of free pages, and selects a write target page of the meta data by using one of a consecution meta write operation or a dirty meta write operation, depending on a result of the comparison.",
+  "claims": "1. A memory system comprising: a flash memory including a meta block and a data block, the meta block including a plurality of pages; and a memory controller including a meta data managing module configured to manage meta data to be stored in the meta block, wherein the meta data managing module is configured to compare a number of free pages from among the plurality of pages with a set free page count to provide a comparison result, and depending on the comparison result, select a write operation from a consecution meta write operation and a dirty meta write operation, and select a write target page of the meta data from among the free pages by using the selected write operation, wherein the consecution meta write operation is a write operation that uses all meta pages in round-robin manner regardless of changed meta pages, and the dirty meta write operation is a write operation that uses only changed meta pages.",
+  "patent_id": "US12380021-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 12/0246",
+      "G06F 12/0292",
+      "G06F 12/0882"
+    ],
+    "all": [
+      "G06F 12/0246",
+      "G06F 12/0292",
+      "G06F 12/0882"
+    ],
+    "source": "converted"
+  }
+}

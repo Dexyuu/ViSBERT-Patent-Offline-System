@@ -1,0 +1,50 @@
+{
+  "title": "Associating therapy adjustments with posture states using a stability timer",
+  "abstract": "The disclosure describes techniques for associating therapy adjustments with posture states using a timer. The techniques may include detecting a patient adjustment to electrical stimulation therapy delivered to the patient, sensing a posture state of the patient, and associating the detected adjustment with the sensed posture state if the sensed posture state is sensed within a first period following the detection of the adjustment and if the sensed posture state does not change during a second period following the sensing of the sensed posture state.",
+  "claims": "1. A system comprising: a stimulation generator configured to generate spinal cord stimulation deliverable to a patient; a sensor configured to sense a plurality of signals from the patient; and one or more processors configured to: control the stimulation generator to generate the spinal cord stimulation comprising a first set of stimulation pulses according to a first set of stimulation parameters interleaved with a second set of stimulation pulses according to a second set of stimulation parameters, the first set of stimulation parameters comprising a first amplitude and the second set of stimulation parameters comprising a second amplitude; receive the plurality of signals from the sensor, the plurality of signals comprising a first signal and a second signal; determine a change between the first signal and the second signal: responsive to determining the change, adjust, based on the change, the first amplitude of the first set of stimulation pulses and the second amplitude of the second set of stimulation pulses; and control the stimulation generator to generate subsequent pulses of the first set of stimulation pulses according to the adjusted first amplitude and generate subsequent pulses of the second set of stimulation pulses according to the adjusted second amplitude.",
+  "patent_id": "US12380983-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16H 20/30",
+      "A61B 5/103",
+      "A61B 5/1116",
+      "A61B 5/743",
+      "A61B 5/744",
+      "A61N 1/3605",
+      "A61N 1/37247",
+      "A61N 1/37264",
+      "G16H 20/40",
+      "G16H 40/60",
+      "G16H 40/63",
+      "G16Z 99/00",
+      "A61B 5/686",
+      "A61B 2560/0219",
+      "A61B 2562/0219",
+      "A61N 1/36071",
+      "A61N 1/36535",
+      "A61N 1/36542"
+    ],
+    "all": [
+      "G16H 20/30",
+      "A61B 5/103",
+      "A61B 5/1116",
+      "A61B 5/743",
+      "A61B 5/744",
+      "A61N 1/3605",
+      "A61N 1/37247",
+      "A61N 1/37264",
+      "G16H 20/40",
+      "G16H 40/60",
+      "G16H 40/63",
+      "G16Z 99/00",
+      "A61B 5/686",
+      "A61B 2560/0219",
+      "A61B 2562/0219",
+      "A61N 1/36071",
+      "A61N 1/36535",
+      "A61N 1/36542"
+    ],
+    "source": "converted"
+  }
+}

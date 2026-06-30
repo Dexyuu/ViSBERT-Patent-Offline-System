@@ -1,0 +1,28 @@
+{
+  "title": "Intra prediction method and device",
+  "abstract": "The present invention relates to an intra prediction method and apparatus. The image decoding method according to the present invention may comprise decoding information on intra prediction; and generating a prediction block by performing intra prediction for a current block based on the information on intra prediction. The information on intra prediction may include information on an intra prediction mode, and the intra prediction mode may include a curved intra prediction mode.",
+  "claims": "1. An image decoding method performed by an image decoding apparatus, the method comprising: obtaining, through a bitstream, image information comprising information on quantized transform coefficient levels; deriving transform coefficients of a current block based on the information on quantized transform coefficient levels; determining a transform set for a secondary inverse-transform based on an intra prediction mode of the current block; determining a transform kernel for the secondary inverse-transform based on the transform set and a size of the current block; deriving modified transform coefficients by performing the secondary inverse-transform based on the transform coefficients and the transform kernel for the secondary inverse-transform; deriving a reconstructed residual signal by performing a primary inverse-transform based on the modified transform coefficients; and generating a reconstructed current block based on the reconstructed residual signal, wherein the secondary inverse-transform is a non-separable inverse-transform, and the transform set includes a plurality of transform kernel candidates for the non-separable inverse-transform, and wherein based on whether the intra prediction mode is a non-directional prediction mode, the transform kernel for the secondary inverse-transform is determined differently.",
+  "patent_id": "US12382030-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/11",
+      "H04N 19/105",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/184",
+      "H04N 19/593",
+      "H04N 19/96"
+    ],
+    "all": [
+      "H04N 19/11",
+      "H04N 19/105",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/184",
+      "H04N 19/593",
+      "H04N 19/96"
+    ],
+    "source": "converted"
+  }
+}

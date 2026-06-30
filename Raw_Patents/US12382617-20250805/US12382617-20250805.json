@@ -1,0 +1,24 @@
+{
+  "title": "Cooling control device, cooling system, program, and control method",
+  "abstract": "A first cooling circuit is provided with a first coolant passage, and a second cooling circuit is provided with a second coolant passage. A connection path is provided between them. A cooling control device includes a current amount calculation part that calculates a required amount of current of an electric drive unit; a coolant temperature determination part that determines a necessary coolant temperature, which is a temperature of the coolant to flow in the second coolant passage, according to the required amount of current; and a system control part that acquires a temperature of the coolant before being supplied to the electric drive unit cooling part as a second coolant temperature, and, when the second coolant temperature is higher than the necessary coolant temperature, controls the path control device so that the coolant flows from the first coolant passage to the second coolant passage via the connection path.",
+  "claims": "1. A cooling control device configured to control a cooling system having a first cooling circuit that cools a cooling target and a second cooling circuit that cools an electric drive unit, the cooling system comprising: a first coolant passage provided in the first cooling circuit configured to circulate a coolant between a first cooling part configured to cool the cooling target and a first heat exchanger; a second coolant passage provided in the second cooling circuit configured to circulate a coolant between an electric drive unit cooling part configured to cool the electric drive unit and a second heat exchanger, the first heat exchanger and the second heat exchanger each being a device that releases heat from the coolant, and the first heat exchanger being configured to lower a temperature of the coolant so that the temperature of the coolant after releasing heat is lower than a temperature of the coolant whose heat has been released by the second heat exchanger; a connection path configured to connect the first coolant passage and the second coolant passage provided between the first coolant passage and the second coolant passage; a first path control device distributed in the first coolant passage and the connection path, the first path control device being configured to control a coolant flow in the connection path; and a second path control device provided in the second coolant passage, the second path control device being configured to control a coolant flow from the electric drive unit cooling part to the second heat exchanger, and the cooling control device comprising a processor and a memory storing a program, the processor executing the program to: calculate a required amount of current of the electric drive unit; determine a necessary coolant temperature, which is a temperature of the coolant to flow in the second coolant passage, according to the calculated required amount of current; acquire, as a second coolant temperature, a temperature of the coolant in the second coolant passage after being supplied from the second heat exchanger and before being supplied to the electric drive unit cooling part; when the second coolant temperature is higher than the determined necessary coolant temperature, control the first path control device so that the coolant flows from the first coolant passage to the second coolant passage via the connection path; acquire, as a first coolant temperature, a temperature of the coolant flowing in the first coolant passage; adjust a first coolant flow rate from the first coolant passage to the second coolant passage and a second coolant flow rate from the electric drive unit cooling part to the second heat exchanger based on (i) the necessary coolant temperature, (ii) the first coolant temperature, (iii) the second coolant temperature, and (iv) a flow map that defines at least relations of the necessary coolant temperature, the first coolant flow rate, and the second coolant flow rate; and control the first path control device based on the first coolant flow rate and the second path control device based on the second coolant flow rate.",
+  "patent_id": "US12382617-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H05K 7/20945",
+      "H05K 7/20927",
+      "B60K 1/00",
+      "B60K 2001/006",
+      "B60K 11/02"
+    ],
+    "all": [
+      "H05K 7/20945",
+      "H05K 7/20927",
+      "B60K 1/00",
+      "B60K 2001/006",
+      "B60K 11/02"
+    ],
+    "source": "converted"
+  }
+}

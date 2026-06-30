@@ -1,0 +1,18 @@
+{
+  "title": "Method and system for creating application user interface within integrated development environment",
+  "abstract": "A method and system of creating an application User Interface (UI) within an Integrated Development Environment (IDE) is disclosed. The system processes wireframes that outline the intended UI structure, identifies relevant functional components, and associates them with predefined elements in a functional repository. A coordinate-based tracing mechanism ensures precise placement of UI elements, facilitating seamless mapping to standard UI functionalities. The system subsequently generates corresponding UI code tailored to various frameworks, such as Angular, React, or Flutter. This approach enhances development efficiency by leveraging reusable UI components while accommodating customization needs, reducing manual effort, and maintaining consistency across applications.",
+  "claims": "1. A method for creating an application User Interface (UI) within an Integrated Development Environment (IDE), the method comprising: receiving, by a processing device, a wireframe comprising a plurality of functional components, in the IDE, for a current requirement of creating the application UI; identifying, by the processing device, a functionality corresponding to the wireframe from a plurality of functionalities within a functional repository, wherein the functionality comprises a plurality of predefined sub-functions; tracing, by the processing device and through a co-ordinate system, the plurality of functional components of the wireframe to identify locations of the plurality of functional components in the wireframe; mapping, by the processing device, the plurality of functional components to the plurality of predefined sub-functions of the functionality; and creating a hierarchal semantic tree of a plurality of semantics corresponding to functional components of the wireframes and storing the plurality of semantics into the functional repository; and automatically generating, by the processing device, a code for creating the application UI based on the mapping; receiving the requirement to create the application UI; and extracting the wireframe based on the requirement in the IDE.",
+  "patent_id": "US12379906-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 8/38",
+      "G06F 8/10"
+    ],
+    "all": [
+      "G06F 8/38",
+      "G06F 8/10"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Apparatus and method for oil production forecasting",
+  "abstract": "A method and apparatus for forecasting oil production from an oil well in a geological formation includes receiving a plurality of sets of predicted geological data, for each of the plurality of sets of predicted geological data, determining a probability for the predicted geological data of the formation, iteratively selecting one of the plurality of sets of predicted geological data using Monte Carlo sampling based on the determined probabilities, assigning the selected set of predicted geological data to a cluster of historical data, and for each set of historical data of the cluster generating a predicted oil production rate as a function of time utilizing a machine learning based oil model, generating, based on the predicted oil production rates, a forecasted oil production rate, determining, based on the forecasted oil production rate, a preferred operating parameter for the well, and operating based on the preferred operating parameter.",
+  "claims": "1. A method of producing oil in a steam-assisted gravity drainage (SAGD) system that includes at least one injector well and at least one producer well in a geological formation, the method comprising: i) training a machine learning based model to generate and output a predicted oil production rate as a function of time given predicted geological data for the geological formation and historical data as inputs, wherein the historical data comprises geological data and historical operational data from other geological formations geologically similar to the geological formation; ii) receiving a plurality of sets of predicted geological data for the geological formation and sets of historical data comprising the historical operational data, and clustering the sets of historical data into clusters based on geological similarity; iii) for each given set of predicted geological data of the plurality of sets of predicted geological data, determining a probability associated with the predicted geological data of the given set; iv) repeating for a number of iterations: a) selecting one set of the plurality of sets of predicted geological data using Monte Carlo sampling based on a probability distribution defined by probabilities for the plurality of sets of predicted geological data as determined in iii); b) assigning the selected one set of predicted geological data of a) to one cluster of the clusters of the historical data based on similarity of the one set of predicted geological data to geological data in the historical data in the one cluster; c) extracting the historical operational data and the geological data from the one cluster of historical data of b); and d) using the historical operational data and the geological data extracted from the one cluster of historical data in c) as input to the machine learning based model trained in i), which generates and outputs a predicted oil production rate as a function of time through the at least one producer well given the historical operational data and the geological data as inputs; v) generating a forecasted oil production rate at a particular time and an associated uncertainty from the predicted oil production rate of d) over the number of iterations of iv); and vi) operating the at least one injector well and the at least one producer well in the geological formation using at least one operational parameter determined from the forecasted oil production rate at the particular time and the associated uncertainty of v); wherein the operating of vi) includes injecting steam through the at least one injector well into the geological formation and producing oil extracted from the geological formation through the at least one producer well, and wherein the at least one operational parameter of vi) is selected from the group consisting of injector well bottom hole pressure, steam injection rate, or other operational parameter related to production of oil from the geological formation.",
+  "patent_id": "US12380261-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 30/27",
+      "E21B 43/128",
+      "E21B 43/24",
+      "E21B 47/008",
+      "E21B 47/06",
+      "E21B 49/00",
+      "G06N 20/20",
+      "E21B 2200/20",
+      "G06F 2111/08",
+      "G06N 5/01"
+    ],
+    "all": [
+      "G06F 30/27",
+      "E21B 43/128",
+      "E21B 43/24",
+      "E21B 47/008",
+      "E21B 47/06",
+      "E21B 49/00",
+      "G06N 20/20",
+      "E21B 2200/20",
+      "G06F 2111/08",
+      "G06N 5/01"
+    ],
+    "source": "converted"
+  }
+}

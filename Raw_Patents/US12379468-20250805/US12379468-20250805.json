@@ -1,0 +1,22 @@
+{
+  "title": "Radar clustering using machine learning",
+  "abstract": "A processor-implemented method for radar-based tracking of an object includes transmitting radio frequency (RF) signals. In response to the transmitted RF signals, one or more return RF signals are received. Features of the one or more return RF signals are extracted. A graph comprising multiple nodes is generated. Each node of the graph corresponds to the one or more return RF signals and indicates a potential target object detection. An existence of a plurality of edges is determined. Each edge connects a pair of nodes in the graph based on features of the return RF signals. The existence of each edge indicates that the pair of nodes connected correspond to a same target object.",
+  "claims": "1. A processor-implemented method performed by one or more processors, the processor-implemented method comprising: transmitting radio frequency (RF) signals to track a target object; receiving, in response to the transmitted RF signals, one or more return RF signals; extracting features of the one or more return RF signals; generating a graph comprising a plurality of nodes, each node corresponding to an RF return signal of the one or more return RF signals and indicating a potential target object detection; and determining, by a classifier, an existence of an edge between a pair of nodes of the plurality of nodes based on the features of corresponding return RF signals of the one or more return RF signals and a density of points in an area near each node of the plurality of nodes, the existence of the edge indicating that the pair of nodes connected by the edge correspond to a same target object, and the classifier being trained based on a set of prior examples including at least a negative example comprising a prior RF return signal from a different object than the target object that is closest in proximity to the target object.",
+  "patent_id": "US12379468-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 7/417",
+      "G01S 13/66",
+      "G06N 3/04",
+      "G06N 3/08"
+    ],
+    "all": [
+      "G01S 7/417",
+      "G01S 13/66",
+      "G06N 3/04",
+      "G06N 3/08"
+    ],
+    "source": "converted"
+  }
+}

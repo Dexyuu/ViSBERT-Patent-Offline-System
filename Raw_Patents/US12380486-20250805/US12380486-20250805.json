@@ -1,0 +1,24 @@
+{
+  "title": "Method, system, and medium for provisioning items",
+  "abstract": "The present disclosure describes a system that is capable of tracking user activities of the user across one or more distribution channels; selecting one or more item providers based at least in part on the geo-location of the client device associated with the user; and determining an inventory of items offered by the selected one or more item providers. The system may also be capable of selecting an item for providing to the user based at least in part on at least the tracked user activities of the user and the geo-location of the client device associated with the user; and providing the item to the user.",
+  "claims": "1. A method comprising: determining, by a computer-based system, a geo-location of a client device associated with a user; tracking, by the computer-based system, user activities of the user across one or more distribution channels; selecting, by the computer-based system, an item provider based on a correlation of the geo-location of the client device with a geo-location of the item provider; determining, by the computer-based system, an inventory of items offered by the item provider; provisioning, by the computer-based system, an item from the inventory of items to be provided to the user based at least in part on at least the tracked user activities and the correlation; in response to the provisioning, creating, by the computer-based system, a reservation with the item provider; and providing, by the computer-based system, the item to the user via a graphical user interface, wherein the providing further comprises: displaying a first window comprising textual information that corresponds to the item, wherein the textual information has a first location in the first window and a first scale; displaying a second window overlapping the first window, wherein the overlapping obscures the textual information, detecting the overlapping; calculating a first measure of an area of the first window; calculating a second measure of an area of the second window; calculating a scaling factor that is proportional to a difference between the first measure and the second measure; and in response to the overlapping being detected, rescaling the textual information using the scaling factor, and relocating the rescaled textual information to an unobscured portion of the first window to be viewable to the user; and detecting that the overlapping no longer exists; in response to the detecting that the overlapping no longer exists, returning the rescaled and relocated textual information to the first scale and the first location in the first window.",
+  "patent_id": "US12380486-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0633",
+      "G06Q 10/1095",
+      "G06Q 30/0261",
+      "G06Q 30/0631",
+      "G06Q 30/0255"
+    ],
+    "all": [
+      "G06Q 30/0633",
+      "G06Q 10/1095",
+      "G06Q 30/0261",
+      "G06Q 30/0631",
+      "G06Q 30/0255"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "application_id": "WO2018007096",
+  "application_id_fs": null,
+  "title": "System to process a high voltage antenna signal within an integrated circuit",
+  "abstract": "A system of an antenna (8) and an integrated circuit (9) with at least one input pin (10) to receive an antenna signal (11) with a carrier frequency and to demodulate data modulated within the antenna signal (11), which system comprises an antenna signal processing circuit (12) to process the antenna signal (11) from the antenna (8) and a demodulator (14) to demodulate the processed antenna signal (13) and to provide the received data wherein the antenna (8) is directly connected to the input pin (10) and that the antenna signal processing circuit (12) realized within the integrated circuit (9) comprises a passive resistor (15) with a first connection (16) connected to the input pin (10) to transfer the high voltage of the antenna signal (11) into a current domain antenna signal (17) at a second connection (18) of the passive resistor (15).",
+  "claims": "Claims 1. System of an antenna (8) and an integrated circuit (9) with at least one input pin (10) to receive an antenna signal (11) with a carrier frequency and to demodulate data modulated within the antenna signal (11), which system comprises an antenna signal processing circuit (12) to process the antenna signal (11) from the antenna (8) and a demodulator (14) to demodulate a processed antenna signal (13) and to provide the received data characterized in, that the antenna signal processing circuit (12) realized within the integrated circuit (9) comprises a passive resistor (15) with a first connection (16) connected to the input pin (10) to transfer the high voltage of the antenna signal (11) into a current domain antenna signal (17) at a second connection (18) of the passive resistor (15). 2. System according to claim 1, wherein the antenna (8) is directly connected to the input pin (10). 3. System according to claim 1 or claim 2, wherein the antenna signal processing circuit (12) comprises an oscillator (19) to provide an oscillator signal (20) with the frequency of the carrier signal and a mixer (21) connected to the second connection (18) of the passive resistor (15) to mix the current domain antenna signal (17) with the oscillator signal (20) and to provide a mixed current domain antenna signal (22) at a mixer output connection (23). 4. System according to claim 3, wherein the antenna signal processing circuit (12) comprises a DC cancellation stage (24) connected to the mixer output connection (23) and a filter stage (31) and an amplifier stage (32) to provide the processed antenna signal (13) to the demodulator (14). 5. System according to claim 4, wherein the DC cancellation stage (24) arranged in a loop comprises a trans-impedance amplifier (25) to transfer the mixed current domain antenna signal (22) from the mixer output connection (23) into a mixed voltage domain antenna signal (26) which signal processed by a low pass filter (27) is transferred back into a filtered mixed current domain antenna signal (28) by a trans-conductance amplifier (29) of the DC cancellation stage (24) with the loop closed by a subtraction stage (30) to subtract the filtered mixed current domain antenna signal (28) from the mixed current domain antenna signal (22). 6. System according to claim 5, wherein the DC cancellation stage (24) is connected to the filter stage (31) to provide the mixed voltage domain antenna signal (26) from the loop of the DC cancellation stage (24). 7. Method to receive an antenna signal (11) with a carrier frequency from an antenna (8) and to process it with an integrated circuit (9) to demodulate data modulated within the antenna signal (11), which method comprises the following steps: process the antenna signal (11) received from the antenna (8) and provide a processed antenna signal (13); demodulate the processed antenna signal (13) and provide the received data characterized in, that the method furthermore comprises the following steps: process the high voltage of the antenna signal (11) within the integrated circuit (9) by a transfer of the antenna signal (11) into the current domain. 8. Method according to claim 7, wherein the antenna signal (11) from the antenna (8) is directly fed to an input pin (10) of the integrated circuit (9). 9. Method according to claim 8, wherein the transfer of the antenna signal (11) into the current domain is realized by a passive resistor (15) connected to the input pin (10) and further processing of the antenna signal (11) in the current domain is realized by mixing it with an oscillator signal (20) with the frequency of the carrier signal. 10. Method according to claim 9, wherein a DC component of a mixed current domain antenna signal (22) is cut-off by a DC cancellation stage (12) in the voltage domain. 11. Reader (7) to demodulate an antenna signal (1 1) with a carrier frequency of 13,56MHz, characterized in that the reader (7) comprises a system of an antenna (8) and an integrated circuit (9) as claimed in any of the claims 1 to 6.",
+  "classifications": {
+    "ipc": [
+      "H04B 1/18",
+      "H04B 1/30",
+      "G06K 7/10",
+      "G06K 19/07",
+      "H01Q 1/22",
+      "G06K 7/00"
+    ],
+    "cpc": [],
+    "all": [
+      "H04B 1/18",
+      "H04B 1/30",
+      "G06K 7/10",
+      "G06K 19/07",
+      "H01Q 1/22",
+      "G06K 7/00"
+    ],
+    "source": "csv"
+  }
+}

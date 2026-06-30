@@ -1,0 +1,18 @@
+{
+  "title": "Optimizing a reservation user interface",
+  "abstract": "Various examples are described for optimizing a reservation workflow in a user interface. In a calendar user interface element, a user can move from a single day reservation to multi-day reservation without having to choose a multi-day reservation to begin the reservation workflow. Additionally, the user interface can instantly recover from an unavailable booking without requiring the user to navigate to another user interface to select an alternative booking.",
+  "claims": "1. A system, comprising: a computing device comprising at least one hardware processor; and program instructions stored in memory and executable in the computing device that, when executed, direct the computing device to: obtain a request to create a reservation for an item; generate a calendar user interface element within a user interface; obtain a first selection of a first date within the calendar user interface element, wherein the first date is a single calendar date on the calendar user interface element; in response to detecting the first selection of the first date and without selection of any other date on the calendar user interface element, generate a single day reservation confirmation user interface element within the user interface, wherein the single day reservation confirmation user interface element confirms a single day reservation in response to activating the single day reservation confirmation user interface element; obtain a second selection of a second date within the calendar user interface element; in response to detecting the second selection of the second date, determine whether the item is available for reservation for a duration between the first date and the second date; in response to determining that the item is available for reservation for the duration between the first date and the second date, replace the single day reservation confirmation user interface element with a multi-day reservation confirmation user interface element within the user interface upon the second selection of the second date and without further user interaction with the user interface, wherein the multi-date reservation confirmation user interface element confirms a multi-day reservation of the item for the duration between the first date and the second date in response to activating the multi-date reservation confirmation user interface element; and in response to determining that the item is not available for reservation for the duration between the first date and the second date, select an alternative item having one or more matching attributes with the item, the one or more matching attributes specified by a set of user-provided ordered preferences; and generate, within the user interface, an alternative item user interface element associated with initiating a multi-day reservation for the alternative item specified by the first date and the second date.",
+  "patent_id": "US12380371-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/02",
+      "G06F 3/0484"
+    ],
+    "all": [
+      "G06Q 10/02",
+      "G06F 3/0484"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2019046527",
+  "application_id_fs": "WO2019046527",
+  "title": "Entanglement of pages and guest threads",
+  "abstract": "Entanglement of pages and threads is disclosed. An indication is received of a stalling event caused by a requested portion of memory being inaccessible. It is determined that the requested portion of memory is an entangled portion of memory that is entangled with a physical node in a plurality of physical nodes. A type of the entangled portion of memory is determined. The stalling event is handled based at least in part on the determined type of the entangled portion of memory.",
+  "claims": "Claims 1. A system, comprising: a plurality of physical nodes; wherein an indication is received of a stalling event caused by a requested portion of memory being inaccessible; wherein it is determined that the requested portion of memory is an entangled portion of memory that is designated as entangled with a physical node in the plurality of physical nodes; wherein a type of the entangled portion of memory is determined; and wherein the stalling event is handled based at least in part on the determined type of the entangled portion of memory. 2. The system recited in claim 1 wherein it is determined that the entangled portion of memory is a portion of memory that is frequently accessed by a plurality of threads. 3. The system recited in claim 2 wherein based at least in part on the determination that the entangled portion of memory is a portion of memory that is frequently accessed by a plurality of the threads, the stalling event is handled at least in part by executing a temporary remote operation. 4. The system recited in claim 3 wherein executing the temporary remote operation comprises migrating a virtual processor to the physical node with which the portion of memory is entangled, wherein the virtual processor is migrated back to an originating node upon completion of an access to the portion of memory. 5. The system recited in claim 3 wherein executing the temporary remote operation comprises sending a remote operation by a virtual processor to the physical node with which the portion of memory is entangled. 6. The system recited in claim 2 wherein based at least in part on the determination that the entangled portion of memory is a portion of memory that is frequently accessed by a plurality of threads, the stalling event is handled at least in part by migrating the portion of memory to a second physical node in the plurality of physical nodes, wherein the portion of memory is accessed by a virtual processor on the second physical node, and wherein the portion of memory is migrated back to the physical node with which it is entangled upon completion of the access. 7. The system recited in claim 1 wherein it is determined that the entangled portion of memory is a portion of memory that is specific to a given thread. 8. The system recited in claim 7 wherein, based at least in part on the determination that the \n\n entangled portion of memory is specific to a given thread, it is determined that a thread context switch has occurred. 9. The system recited in claim 7 wherein the portion of memory comprises at least one of a thread state page and a top of stack page. 10. The system recited in claim 7 wherein based at least in part on the determination that the entangled portion of memory is a portion of memory that is specific to a given thread, the stalling event is handled at least in part by migrating a virtual processor to the physical node with which the portion of memory is entangled. 1 1. A method, comprising: receiving an indication of a stalling event caused by a requested portion of memory being inaccessible; determining that the requested portion of memory is an entangled portion of memory that is designated as entangled with a physical node in a plurality of physical nodes; determining a type of the entangled portion of memory; and handling the stalling event based at least in part on the determined type of the entangled portion of memory. 12. The method of claim 1 1 wherein it is determined that the entangled portion of memory is a portion of memory that is frequently accessed by a plurality of threads. 13. The method of claim 12 wherein based at least in part on the determination that the entangled portion of memory is a portion of memory that is frequently accessed by a plurality of the threads, the stalling event is handled at least in part by executing a temporary remote operation. 14. The method of claim 13 wherein executing the temporary remote operation comprises migrating a virtual processor to the physical node with which the portion of memory is entangled, wherein the virtual processor is migrated back to an originating node upon completion of an access to the portion of memory. 15. The method of claim 13 wherein executing the temporary remote operation comprises sending a remote operation by a virtual processor to the physical node with which the portion of memory is entangled. 16. The method of claim 12 wherein based at least in part on the determination that the entangled portion of memory is a portion of memory that is frequently accessed by a plurality of threads, the stalling event is handled at least in part by migrating the portion of memory to a second physical node in the plurality of physical nodes, wherein the portion of memory is accessed by a \n\n virtual processor on the second physical node, and wherein the portion of memory is migrated back to the physical node with which it is entangled upon completion of the access. 17. The method of claim 1 1 wherein it is determined that the entangled portion of memory is a portion of memory that is specific to a given thread. 18. The method of claim 17 wherein, based at least in part on the determination that the entangled portion of memory is specific to a given thread, it is determined that a thread context switch has occurred. 19. The method of claim 17 wherein the portion of memory comprises at least one of a thread state page and a top of stack page. 20. The method of claim 17 wherein based at least in part on the determination that the entangled portion of memory is a portion of memory that is specific to a given thread, the stalling event is handled at least in part by migrating a virtual processor to the physical node with which the portion of memory is entangled.",
+  "classifications": {
+    "ipc": [
+      "G06F 9/00",
+      "G06F 9/06",
+      "G06F 9/46",
+      "G06F 9/50",
+      "G06F 9/5061",
+      "G06F 9/5077",
+      "G06F 9/30",
+      "G06F 9/3009",
+      "G06F 9/3012",
+      "G06F 9/38",
+      "G06F 9/3836",
+      "G06F 9/44",
+      "G06F 9/455",
+      "G06F 2009/4557"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 9/00",
+      "G06F 9/06",
+      "G06F 9/46",
+      "G06F 9/50",
+      "G06F 9/5061",
+      "G06F 9/5077",
+      "G06F 9/30",
+      "G06F 9/3009",
+      "G06F 9/3012",
+      "G06F 9/38",
+      "G06F 9/3836",
+      "G06F 9/44",
+      "G06F 9/455",
+      "G06F 2009/4557"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019046527"
+}

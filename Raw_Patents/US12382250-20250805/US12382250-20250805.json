@@ -1,0 +1,24 @@
+{
+  "title": "Multi-computer processing system for dynamically executing response actions based on movement data",
+  "abstract": "Methods, computer-readable media, systems, and/or apparatuses for evaluating movement data to identify a user as a driver or non-driver passenger are provided. In some examples, movement data may be received from a mobile device of a user. The movement data may include sensor data including location data, such as global positioning system (GPS) data, accelerometer and/or gyroscope data, and the like. Additional data may be retrieved from one or more other sources. For instance, additional data such as usage of applications on the mobile device, public transportation schedules and routes, image data, vehicle operation data, and the like, may be received and analyzed with the movement data to determine whether the user of the mobile device was a driver or non-driver passenger of the vehicle. Based on the determination, the data may be deleted in some examples or may be further processed to generate one or more outputs.",
+  "claims": "1. A computing platform, comprising: a processing unit comprising a processor; and a memory unit storing computer-executable instructions, which when executed by the processing unit, cause the computing platform to: receive, from at least an accelerometer associated with a mobile device, sensor data associated with movement of the mobile device during a first time period; receive, from the mobile device, data corresponding to usage of mobile applications on the mobile device during the first time period; analyze the received sensor data and the data corresponding to usage of mobile applications to determine when the usage of the mobile applications includes usage of a first type of mobile applications that overlaps with movement determined by the sensor data during the first time period, a user of the mobile device is determined to be a driver of a vehicle during the first time period; and responsive to determining that the movement of the mobile device corresponds to the user being a driver of the vehicle during the first time period, analyze the received sensor data to evaluate driving behaviors of the user associated with operation of the vehicle and generate a first output, including a first offer for a product or service, associated with the driving behaviors of the user.",
+  "patent_id": "US12382250-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 4/027",
+      "G06F 18/22",
+      "G06V 20/593",
+      "H04W 4/029",
+      "H04W 4/44"
+    ],
+    "all": [
+      "H04W 4/027",
+      "G06F 18/22",
+      "G06V 20/593",
+      "H04W 4/029",
+      "H04W 4/44"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "System and method for deriving network address spaces affected by security threats to apply mitigations",
+  "abstract": "Described embodiments provide systems and methods for generating a network space to perform mitigation actions on a plurality of users. At least one server may determine a plurality of users of one or more levels of riskiness in a network environment, and network locations of the users. Using a plurality of clustering features, the at least one server may generate a network space comprising a cluster of network locations corresponding to a subset of the users of at least a defined level of riskiness. The at least one server may perform a mitigation action on the subset of users corresponding to the generated network space.",
+  "claims": "1. A method comprising: determining, by at least one server, a plurality of users of one or more levels of riskiness in a network environment, and network locations of the users; generating, by the at least one server using a plurality of clustering features and using a network space predictor, a network space comprising a cluster of network locations corresponding to a subset of the users of at least a defined level of riskiness, wherein the network space predictor generates metadata corresponding to the cluster of network locations that is used to define the network space; and performing, by the at least one server, a mitigation action on the subset of users corresponding to the generated network space, wherein the mitigation action comprises at least one of: performing an audit on the subset of users or logging off the subset of users.",
+  "patent_id": "US12381888-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1408",
+      "H04L 63/1433",
+      "H04L 63/1441",
+      "H04L 63/18",
+      "H04L 63/20"
+    ],
+    "all": [
+      "H04L 63/1408",
+      "H04L 63/1433",
+      "H04L 63/1441",
+      "H04L 63/18",
+      "H04L 63/20"
+    ],
+    "source": "converted"
+  }
+}

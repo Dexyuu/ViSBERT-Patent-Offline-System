@@ -1,0 +1,18 @@
+{
+  "title": "Optimal routing of payments",
+  "abstract": "Disclosed are various embodiments for optimal routing of payments. A global transaction router hosted by a supernetwork instance can receive a payment request, where the payment request specifies an identifier for a recipient institution. The global transaction router can identify a plurality of routes from the global transaction router to a plurality of respective destination network hubs associated with the recipient institution. The global transaction router can calculate a score for individual routes of the plurality of routes, where the score is based on a plurality of routing factors. The routing factors can be weighted based at least in part on routing preferences included with the payment request. The global transaction router can select one of the plurality of routes based on the score and cause the payment request to be provided to a destination network hub on the one of the plurality of routes.",
+  "claims": "1. A system, comprising: a computing device comprising a processor and a memory; and a global transaction router configured to route payment requests between network hubs and hosted by a first supernetwork instance, the global transaction router comprising machine-readable instructions stored in the memory that, when executed by the processor, cause the computing device to at least: receive a payment request from a source network hub connected to a first participant system within a first payment network and connected to the first supernetwork instance; identify a plurality of routes from the global transaction router to a plurality of respective destination network hubs; calculate a score for individual routes of the plurality of routes, the score being based at least in part on a plurality of routing factors; select one of the plurality of routes based at least in part on the score; and cause the payment request to be provided to a destination network hub using the one of the plurality of routes, the destination network hub being connected to a second participant system within a second payment network.",
+  "patent_id": "US12380457-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/405",
+      "G06Q 20/0855"
+    ],
+    "all": [
+      "G06Q 20/405",
+      "G06Q 20/0855"
+    ],
+    "source": "converted"
+  }
+}

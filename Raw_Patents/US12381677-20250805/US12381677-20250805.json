@@ -1,0 +1,18 @@
+{
+  "title": "Configuring physical resources for interference cancellation",
+  "abstract": "For supporting higher data rates, resource configuration includes: acquiring, by a terminal, a configuration of physical resources; and performing, by the terminal, transmission according to the configured physical resources, wherein performing, by the terminal, transmission according to the configured physical resources comprises one of: neither performing, by the terminal, uplink transmission nor performing downlink reception on the configured physical resources; performing, by the terminal, only downlink reception on the configured physical resources; and performing, by the terminal, only uplink transmission on the configured physical resources.",
+  "claims": "1. A method performed by a terminal supporting a full duplex mode in a wireless communication system, the method comprising: obtaining first information associated with a waveform, wherein the first information indicates whether transform precoding for orthogonal frequency division multiplexing (OFDM) is enabled or disabled; identifying second information on resource mapping for a downlink based on the first information; identifying third information on resource mapping for an uplink based on the first information; identifying fourth information on a resource allocation type for the uplink and fifth information on a resource allocation type for the downlink based on the first information, wherein the fourth information and the fifth information indicate whether a resource allocation in a frequency domain is continuous or not continuous; receiving, from a base station, a downlink signal based on the second information and the fifth information; and transmitting, to the base station, an uplink signal based on the third information and the fourth information.",
+  "patent_id": "US12381677-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/0048",
+      "H04W 72/04"
+    ],
+    "all": [
+      "H04L 5/0048",
+      "H04W 72/04"
+    ],
+    "source": "converted"
+  }
+}

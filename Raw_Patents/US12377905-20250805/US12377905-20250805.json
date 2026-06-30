@@ -1,0 +1,22 @@
+{
+  "title": "Steering system and control method for steering system",
+  "abstract": "In a steering system including a steering operation mechanism, a second actuator, a steering angle sensor, a steering torque sensor, and a steering operation control device and a control method for the steering system, only a drive assist target steered angle (first target steered angle) is reflected in a final target steered angle when a torque sensor value (actual steering torque) detected by the steering torque sensor is equal to or less than an intervention threshold. When the magnitude of the torque sensor value is more than the intervention threshold, the rate of reflection (distribution ratio) of a driver target steered angle (second target steered angle) in the final target steered angle is raised as the torque sensor value is increased, and the rate of reflection of the driver target steered angle in the final target steered angle is lowered as the magnitude of the torque sensor value is decreased.",
+  "claims": "1. A steering system comprising: a steering operation mechanism having a first actuator, the steering operation mechanism mechanically decoupled from a steering wheel and configured to steer steered wheels using the first actuator; a second actuator configured to rotate the steering wheel via a steering shaft; a steering angle sensor configured to detect a steering angle of the steering wheel; a steering torque sensor configured to detect steering torque that acts on the steering shaft; and an electronic control unit configured to: control a steered angle using a steered angle command value to be provided to the first actuator, execute a first process, a second process, a third process, a fourth process, a fifth process, and a sixth process, the first process being a process of receiving a first target steered angle for drive assist from outside the electronic control unit, the second process being a process of driving the second actuator in accordance with a steering angle command value obtained by converting the first target steered angle into a steering angle, the third process being a process of computing a second target steered angle obtained by converting an actual steering angle detected by the steering angle sensor into a steered angle, the fourth process being a process of reflecting only the first target steered angle in a final target steered angle in response to a magnitude of actual steering torque detected by the steering torque sensor being equal to or less than a threshold, and reflecting at least the second target steered angle in the final target steered angle in response to the magnitude of the actual steering torque being more than the threshold, the fifth process being a process of determining the steered angle command value based on the final target steered angle, and the sixth process being a process of varying a magnitude of the threshold in accordance with whether a steered wheel operation by the drive assist is below a predetermined threshold value or is at or above the predetermined threshold value; raise a rate of reflection of the second target steered angle in the final target steered angle as the magnitude of the actual steering torque is increased, and lower the rate of reflection as the magnitude of the actual steering torque is decreased, in response to the magnitude of the actual steering torque being more than the threshold; and provide an upper limit for an amount of variation per time in a distribution ratio as the rate of reflection of a driver target steered angle in the final target steered angle, the distribution ratio being a ratio of distribution between a drive assist target steered angle and the driver target steered angle in the final target steered angle.",
+  "patent_id": "US12377905-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B62D 5/006",
+      "B62D 5/0463",
+      "B62D 5/0469",
+      "B62D 6/008"
+    ],
+    "all": [
+      "B62D 5/006",
+      "B62D 5/0463",
+      "B62D 5/0469",
+      "B62D 6/008"
+    ],
+    "source": "converted"
+  }
+}

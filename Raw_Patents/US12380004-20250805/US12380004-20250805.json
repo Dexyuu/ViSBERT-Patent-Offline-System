@@ -1,0 +1,18 @@
+{
+  "title": "Dynamic multi-lane degrade capability to facilitate uninterrupted service",
+  "abstract": "A computer system, computer readable storage medium, and computer-implemented method for dynamically degrading a link between multiple processing devices to facilitate uninterrupted service between the multiple processing devices. The method includes determining a number of undegraded lanes within the link. The method also includes determining, subject to the number of undegraded lanes, a first operational degrade mode for the link. The method further includes initiating a retrain of the link to a second operational degrade mode. The method also includes dynamically, subject to the first degrade mode of operation, determining one or more message packet types to transmit through the link during the link retrain, thereby facilitating uninterrupted service between the multiple processing devices.",
+  "claims": "1. A computer system for dynamically degrading a link between multiple processing devices to facilitate uninterrupted service between the multiple processing devices comprising: a first node comprising a first plurality of processing devices; a second node comprising a second plurality of processing devices; a link communicatively coupling the first node to the second node, wherein the link comprises a plurality of lanes; and a link retrain control module operably coupled to the link, the link retrain control module configured to: determine a number of undegraded lanes of the plurality of lanes within the link; determine, subject to the number of undegraded lanes of the plurality of lanes, a first operational degrade mode for the link; initiate a retrain of the link to a second operational degrade mode; and dynamically, subject to the first degrade mode of operation, determine one or more message packet types to transmit through the link during the link retrain by executing a majority voting scheme, thereby facilitating uninterrupted service between the multiple processing devices, wherein executing the majority voting scheme comprises: collecting lane-related inputs directed toward the message packet type of the one or more message packet types for all of the undegraded lanes of the plurality of lanes of the link; determining that the link retrain is not in progress; determining, subject to the link retrain not in progress, the message packet type comprising: analyzing the collected lane-related inputs together, where a requested message packet type receives one vote per lane; and determining the message packet type that received more votes than any other message packet type; and receiving, for the message packet type with the most votes, a temporal priority for transmission through the link.",
+  "patent_id": "US12380004-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/187",
+      "G06F 11/165"
+    ],
+    "all": [
+      "G06F 11/187",
+      "G06F 11/165"
+    ],
+    "source": "converted"
+  }
+}

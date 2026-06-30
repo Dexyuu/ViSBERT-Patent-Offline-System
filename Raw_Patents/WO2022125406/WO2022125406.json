@@ -1,0 +1,27 @@
+{
+  "application_id": "WO2022125406",
+  "application_id_fs": null,
+  "title": "Self-stabilizing two-wheeled vehicle",
+  "abstract": "A system and method of stabilizing a two-wheeled vehicle are disclosed. In accordance with one aspect, a self-stabilizing two-wheeled vehicle having an articulated frame may generally comprise: a front wheel and a rear wheel substantially aligned along a longitudinal axis; a base frame portion coupled to the front wheel and to the rear wheel via respective front and rear suspension components; an operator frame portion to support an operator of the vehicle; a hinge assembly operably coupling the base frame portion and the operator frame portion; and a control unit to drive the hinge assembly causing the operator frame portion to rotate about a hinge axis as a function of inertial data and speed data.",
+  "claims": "Claims What is claimed is: 1 . A self-stabilizing two-wheeled vehicle comprising: a front wheel and a rear wheel substantially aligned along a longitudinal axis; a base frame portion coupled to the front wheel and to the rear wheel; an operator frame portion to support an operator of the vehicle; a hinge assembly operably coupling the base frame portion and the operator frame portion; and a control unit receiving, from an inertial sensor, inertial data related to deviation of the base frame portion from a vertical plane through the longitudinal axis and receiving, from a speed sensor, instantaneous speed data related to a rate of travel of the vehicle; wherein the control unit is operative to drive the hinge assembly causing the operator frame portion to rotate about a hinge axis as a function of the inertial data and the instantaneous speed data. 2. The vehicle of claim 1 wherein the hinge axis is substantially parallel to the longitudinal axis. 3. The vehicle of claim 1 wherein the hinge axis is substantially normal to the longitudinal axis. 4. The vehicle of claim 1 wherein the hinge assembly includes an actuator controlling an angle of a hinge. 5. The vehicle of claim 4 wherein the control unit computes an angle through which to rotate the operator frame portion and a torque to apply to the hinge. 6. The vehicle of claim 4 wherein the actuator is an hydraulic actuator. 7. The vehicle of claim 1 wherein the control unit receives the inertial data from a gyroscope. 8. The vehicle of claim 1 wherein the control unit receives the instantaneous speed data from a speedometer. 9. The vehicle of claim 1 wherein the control unit selectively ceases operation when the instantaneous speed data indicates that the rate of travel exceeds a threshold. 10. The vehicle of claim 1 wherein the control unit comprises a digital processing hardware component. 11 . A method of stabilizing a two-wheeled vehicle, the method comprising: \n\n coupling a base frame portion of the vehicle to a front wheel and to a rear wheel, wherein the front wheel and the rear wheel are substantially aligned along a longitudinal axis; coupling the base frame portion to an operator frame portion with a hinge having a hinge axis, wherein the operator frame portion is to support an operator of the vehicle and is selectively rotatable relative to the base frame portion about the hinge axis; receiving, from an inertial sensor, inertial data related to deviation of the base frame portion from a vertical plane through the longitudinal axis and receiving, from a speed sensor, instantaneous speed data related to a rate of travel of the vehicle; and responsive to the inertial data and the instantaneous speed data, selectively driving the hinge to cause the operator frame portion to rotate about the hinge axis. 12. The method of claim 11 wherein the receiving inertial data comprises utilizing a control unit to receive data from a gyroscope. 13. The method of claim 1 1 wherein the receiving instantaneous speed data comprises utilizing a control unit to receive data from a speedometer. 14. The method of claim 11 further comprising utilizing a control unit to compute, using the inertial data and the instantaneous speed data, an angle through which to rotate the operator frame portion and a torque to apply to the hinge. 15. The method of claim 14 wherein the selectively driving the hinge comprises utilizing output from the control unit. 16. The method of claim 11 wherein the hinge axis is substantially parallel to the longitudinal axis. 17. The method of claim 11 wherein the hinge axis is substantially normal to the longitudinal axis.",
+  "classifications": {
+    "ipc": [
+      "B62D 37/04",
+      "B60G 17/016",
+      "B62D 37/00",
+      "B62D 37/06",
+      "B62D 61/02",
+      "B62K 11/00"
+    ],
+    "cpc": [],
+    "all": [
+      "B62D 37/04",
+      "B60G 17/016",
+      "B62D 37/00",
+      "B62D 37/06",
+      "B62D 61/02",
+      "B62K 11/00"
+    ],
+    "source": "csv"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "User service processing method, system, and related device",
+  "abstract": "A user service processing method in a charging system is as follows: A charging trigger device provides initial quota application mode indication information for a charging processing device, so as to indicate an initial quota request mode previously applied by the charging trigger device for a user service. The charging processing device performs charging processing on the user service based on the indication information, and delivers a charging processing result to the charging trigger device, to enable the charging trigger device to change a charging operation on the user service. In this way, by changing a cooperation relationship between the charging processing device and the charging trigger device, a balance between performance of the charging system and a credit control risk, or between an access delay and a credit control risk is implemented.",
+  "claims": "1. A user service processing method executed by a charging processing device, the method comprising: obtaining initial quota request mode indication information of a user service, wherein the initial quota request mode indication information indicates that a charging trigger device applies a first initial quota request mode for the user service when receiving a first start request of the user service; and sending a charging processing result to the charging trigger device, wherein the charging processing result is a result of performing charging processing on the user service based on the initial quota request mode indication information, wherein the charging processing result comprises at least one of: an indication parameter indicating the charging trigger device to suspend quota management for the user service; or an indication parameter indicating the charging trigger device to terminate the user service, wherein, based on the first initial quota request mode being a non-blocking mode, the charging processing result comprises the indication parameter indicating the charging trigger device to suspend the quota management for the user service, and wherein the performing charging processing on the user service based on the initial quota request mode indication information comprises failing in granting a quota for the user service, and determining, based on the initial quota request mode indication information, that the charging trigger device is to suspend the quota management for the user service.",
+  "patent_id": "US12382258-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 4/24",
+      "H04W 8/18"
+    ],
+    "all": [
+      "H04W 4/24",
+      "H04W 8/18"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Mechanism for instruction fusion",
+  "abstract": "A compute node capable of enhanced performance and/or energy savings is proposed. The proposed compute node may check whether a last instruction of a first groupâretrieved in a first decode cycleâis potentially a fusible instruction. If so, the proposed compute node may refrain from decoding the last instruction in the first decode cycle. Instead, the proposed compute node may determine if a first instruction of a second group of instructions retrieved in a second decode cycle (subsequent to the first decode cycle) is fusible with the last instruction of the first group. If so, the two instructions may be fused to a single micro-operation.",
+  "claims": "1. A compute node, comprising: one or more cores configured to execute micro-operations (μops); and a decoder configured to, in a decode cycle, decode a group of instructions stored in an instruction queue into corresponding μops for execution by the one or more cores, the group of instructions comprising a plurality of N instructions, wherein the decoder is further configured to: determine, during a first decode cycle, whether a first-last instruction is potentially fusible with another instruction, the first-last instruction being a last instruction N of a first group of instructions stored in the instruction queue, the first-last instruction being last to be decoded among the first group of instructions; retrieve, during a second decode cycle subsequent to the first decode cycle, one or more instructions from the instruction queue when it is determined that the first-last instruction is the fusible instruction; determine, during the second decode cycle, whether the first-last instruction is fusible with a second instruction, the second instruction being one of the one or more instructions retrieved during the second decode cycle; and fuse the first-last instruction and the second instruction into a single μop for execution by at least one core of the one or more cores when it is determined that the first-last instruction is fusible with the second instruction.",
+  "patent_id": "US12379931-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/3818",
+      "G06F 9/30181"
+    ],
+    "all": [
+      "G06F 9/3818",
+      "G06F 9/30181"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Computerized systems and methods for dynamically controlling inputs and modifying user interface elements associated with a multi-screen POS device",
+  "abstract": "Computer-implemented systems and methods for dynamically controlling a multi-screen device such as a point-of-sale (POS) device are disclosed and may be configured to receive a first input; in response to receiving the first input, enable a first input mode by replacing one or more first input elements with one or more second input elements for display on at least one of a first touch display or a second touch display; receive a second input associated with at least one of the first touch display or the second touch display; determine whether the first input mode is enabled; and based on determining whether the first input mode is enabled, deny the second input.",
+  "claims": "1. A computer-implemented system for dynamically controlling a multi-screen device, the system comprising: one or more memory devices storing instructions; a first touch display configured to receive one or more touch inputs; a second touch display configured to receive one or more touch inputs; and one or more processors, communicatively coupled to the first touch display and the second touch display, configured to execute the instructions to perform operations comprising: receiving a first input via the first touch display; in response to receiving the first input, enabling a first input mode, wherein enabling the first input mode causes the one or more processors to: detect one or more first input elements displayed on at least one of the first touch display or the second touch display, wherein the first input elements include a continuous input field that requires continuous focus to receive input, and wherein a click or touch interaction on the first touch display or the second touch display outside of the continuous input field causes focus to leave the continuous input field and automatically causes subsequent inputs to not be input to the continuous input field; generate one or more second input elements, wherein the second input elements include a discrete input field that does not require continuous focus to receive input, and wherein a click or touch interaction on the first touch display or the second touch display outside of the discrete input field does not automatically cause subsequent inputs to not be input to the discrete input field; and replace the one or more first input elements with the generated one or more second input elements for display on at least one of the first touch display or the second touch display; receiving a second input associated with at least one of the first touch display or the second touch display; determining whether the first input mode is enabled; and based on determining whether the first input mode is enabled, denying the second input.",
+  "patent_id": "US12379885-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/1423",
+      "G06F 3/04886"
+    ],
+    "all": [
+      "G06F 3/1423",
+      "G06F 3/04886"
+    ],
+    "source": "converted"
+  }
+}

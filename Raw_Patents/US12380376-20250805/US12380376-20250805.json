@@ -1,0 +1,16 @@
+{
+  "title": "Support system and support method",
+  "abstract": "A support system according to the present invention is provided with a whereabouts identifying unit configured to identify the position where a person needing care is present, an area identifying unit configured to identify an affected area, in which there is a possibility that the line of movement of the person needing care and the line of movement of an approaching object approaching the person needing care cross each other, and a notification unit configured to output a care request to an output unit existing in the affected area.",
+  "claims": "1. An assistance system comprising circuitry configured to: automatically determine a location of an attention-requiring person via detection by a monitoring camera installed in a facility and/or a global positioning system of a mobile terminal carried by the attention-requiring person; determine, via the monitoring camera and/or the global positioning system, a movement of the attention-requiring person; predict, via an area determining unit comprising a processor, a flow line of the attention-requiring person based on the location and a movement direction of the attention-requiring person as determined by the monitoring camera and/or the global positioning system, and based on a movement history of the attention-requiring person, the movement history of the attention-requiring person being stored in an information storage unit; determine, via the area determining unit, an affected area based on the predicted flow line of the attention-requiring person; automatically, via a notification unit, output via the mobile terminal an attention request to an output unit comprising a display that is present in the affected area; and automatically identify, via the notification unit, a motorized automobile that will intersect the affected area, wherein the affected area includes a region extending from the location of the attention-requiring person and, the output unit being in a fixed location near the affected area and comprising a traffic signal, and the display of the traffic signal changes to stop the motorized automobile in response to the request to prevent intersection and/or overlap of a flow line of the motorized automobile with the affected area.",
+  "patent_id": "US12380376-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/06311"
+    ],
+    "all": [
+      "G06Q 10/06311"
+    ],
+    "source": "converted"
+  }
+}

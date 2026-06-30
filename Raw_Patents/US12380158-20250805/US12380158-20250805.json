@@ -1,0 +1,30 @@
+{
+  "title": "Automated image retrieval with image graph",
+  "abstract": "An image retrieval system receives an image for which to identify relevant images from an image repository. Relevant images may be of the same environment or object and features and other characteristics. Images in the repository are represented in an image retrieval graph by a set of image nodes connected by edges to other related image nodes with edge weights representing the similarity of the nodes to each other. Based on the received image, the image traversal system identifies an image in the image retrieval graph and alternatively explores and traverses (also termed âexploitsâ) the image nodes with the edge weights. In the exploration step, image nodes in an exploration set are evaluated to identify connected nodes that are added to a traversal set of image nodes. In the traversal step, the relevant nodes in the traversal set are added to the exploration set and a query result set.",
+  "claims": "1. A computer system for automated object retrieval, the computer system comprising: a processor configured to execute instructions; a non-transient computer-readable medium comprising instructions executable by the processor for: determining similarity scores for a query object for each other object of a set of other objects in the set of objects, the similarity scores based on similarity of an object descriptor of the query object and an object descriptor of the other object; connecting, in an object retrieval graph, a set of object nodes, which correspond to a subset of other objects selected based on the similarity scores, to a query node corresponding to the query object with connections having an edge weight based on inlier features that match between objects of the connected nodes; and identifying relevant objects to the query object based on traversal of the object retrieval graph from the query node based on edge weights between nodes in the object retrieval graph.",
+  "patent_id": "US12380158-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/583",
+      "G06F 16/5866",
+      "G06F 16/9024",
+      "G06F 16/9032",
+      "G06F 16/90348",
+      "G06V 10/751",
+      "G06V 10/764",
+      "G06V 10/84"
+    ],
+    "all": [
+      "G06F 16/583",
+      "G06F 16/5866",
+      "G06F 16/9024",
+      "G06F 16/9032",
+      "G06F 16/90348",
+      "G06V 10/751",
+      "G06V 10/764",
+      "G06V 10/84"
+    ],
+    "source": "converted"
+  }
+}

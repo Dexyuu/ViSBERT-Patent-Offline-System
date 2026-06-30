@@ -1,0 +1,22 @@
+{
+  "title": "Unified scene text detection and layout analysis",
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on a computer storage medium, for jointly performing text detection and layout analysis. In one aspect, a method comprises processing the image and a set of object queries to generate an encoded representation of the image and an encoded representation of the set of object queries; processing the encoded representation of the image and the encoded representation of the set of object queries to generate a set of text detection masks; processing the encoded representation of the set of object queries to generate layout relevance measures; processing the encoded representation of the set of object queries to generate textness scores for the text detection masks; generating a text detection output that defines respective areas of the image that include text items; and generating a layout analysis output that defines clusters of respective areas of the image identified by the text detection masks.",
+  "claims": "1. A computer-implemented method comprising: generating a set of text detection masks for an image, wherein each text detection mask identifies a respective area of the image that likely includes a text item; generating one or more layout relevance measures for the image, wherein each layout relevance measure is for a unique combination of two text detection masks in the set of text detection masks and specifies, for the two detection masks, a measure of relevance between text items identified by the two text detection masks; generating respective textness scores for the text detection masks, wherein each respective textness score represents a likelihood that a text item is present in the respective area of the image identified by a corresponding text detection mask; generating a text detection output that defines respective areas of the image that are determined to include text items, the text detection output being a selection of a proper subset of the set of text detection masks based on the respective textness scores; and generating, from the proper subset of the set of text detection masks and the one or more layout relevance measures, a layout analysis output that defines clusters of respective areas of the image identified by the text detection masks in the proper subset of the set of text detection masks.",
+  "patent_id": "US12380712-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 20/63",
+      "G06V 10/82",
+      "G06V 30/1448",
+      "G06V 30/414"
+    ],
+    "all": [
+      "G06V 20/63",
+      "G06V 10/82",
+      "G06V 30/1448",
+      "G06V 30/414"
+    ],
+    "source": "converted"
+  }
+}

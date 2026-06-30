@@ -1,0 +1,34 @@
+{
+  "title": "Systems and methods for managing a battery charge",
+  "abstract": "Systems and methods for managing a battery charge of a work machine are described herein. The battery charge is maintained using a source of power (or other source) while the work machine also uses the source of power to power the work machine and the systems associated with the work machine. In instances in which the source of power may be removed for use by the work machine, a modification request may be used to change the battery from primary mode of operation, where the battery charge is maintained at a lower level to maintain the life of the battery, to a secondary mode of operation where the battery is charged to a high charge. The higher charge can be used to accommodate work machine operations while the battery is removed from the source of power. The battery can thereafter be returned to the primary mode of operation.",
+  "claims": "1. A control system for managing a battery in a work machine, the system comprising: one or more processors; and one or more non-transitory computer-readable media storing computer-executable instructions that, when executed by the one or more processors, cause the one or more processors to perform acts comprising: operating an electrical system of the work machine in a primary power mode in which electrical power from an electrical power source is used by the electrical system to operate the work machine and a charge of the battery is maintained between a first setpoint and a second setpoint, wherein the second setpoint is greater than the first setpoint; receiving a modification request to change an operation of the work machine from the primary power mode to a secondary power mode; in response to receiving the modification request, increasing an amount of electrical power to the battery to charge the battery to a third setpoint of the charge, wherein the third setpoint is greater than the second setpoint; and operating the electrical system in the secondary power mode, wherein the charge of the battery is maintained between the third setpoint and a fourth setpoint, wherein the fourth setpoint is less than the third setpoint.",
+  "patent_id": "US12377833-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 20/13",
+      "B60L 50/10",
+      "B60L 50/61",
+      "B60L 58/13",
+      "B60L 2200/40",
+      "B60L 2240/549",
+      "B60W 2510/244",
+      "B60W 2530/18",
+      "B60W 2556/10",
+      "B60W 2710/244"
+    ],
+    "all": [
+      "B60W 20/13",
+      "B60L 50/10",
+      "B60L 50/61",
+      "B60L 58/13",
+      "B60L 2200/40",
+      "B60L 2240/549",
+      "B60W 2510/244",
+      "B60W 2530/18",
+      "B60W 2556/10",
+      "B60W 2710/244"
+    ],
+    "source": "converted"
+  }
+}

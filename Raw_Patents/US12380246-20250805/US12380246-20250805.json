@@ -1,0 +1,20 @@
+{
+  "title": "Automated anonymization of non-structured and semi-structured documents",
+  "abstract": "A method for anonymizing documents wherein, upon a user's request100for anonymization of a document10, firstly the document10is classified110by detecting11its format12. For standard content like Word, Excel, or raw text, plugins141, 142, 143extract the content directly. For image formats13, an OCR task130is initiated via plugin144and PDF documents14, with mixed content, are converted to images121and undergo the same OCR130process. After extraction140, content is fed into a prediction model that identifies PII in the text15using NLP and patterns. Based on PII labeling150, a redaction plugin16specific to the detected format12modifies the document using processes like masking. The anonymized modified document is then delivered17to the user via a GUI or API.",
+  "claims": "1. A computer-implemented method for anonymizing documents, the method comprising receiving an anonymization request of a document from a user, the method characterized by comprising the following steps executed by one or more processors: detecting a document format of the received document from a plurality of document formats; selecting a plugin from a plurality of plugins which are configured to extract content from documents, the plugin being selected based on the detected format of the received document; extracting content from the received document by means of the selected plugin; applying a natural language processing model to predict personal identifiable information within the extracted content; modifying the received document by at least pseudonymizing the predicted personal identifiable information; and sending the modified document to the user in response to the anonymization request.",
+  "patent_id": "US12380246-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/6254",
+      "G06F 40/295",
+      "G06F 40/40"
+    ],
+    "all": [
+      "G06F 21/6254",
+      "G06F 40/295",
+      "G06F 40/40"
+    ],
+    "source": "converted"
+  }
+}

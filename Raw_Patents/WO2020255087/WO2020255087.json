@@ -1,0 +1,21 @@
+{
+  "application_id": "WO2020255087",
+  "application_id_fs": null,
+  "title": "Memory module and processor contained in the memory module",
+  "abstract": "Memory module, computing device, and methods of reading and writing data to the memory module are disclosed. A memory module comprises one or more dynamic random-access memories, hereinafter termed DRAMs, and a processor configured to:-in a host mode, select a bus connectable to a Central Processing Unit, hereinafter termed CPU to communicate with the one or more DRAMs via a memory interface; and in a local mode, select the processor to communicate with the one or more DRAMs via said memory interface; wherein said memory interface is a double data rate interface.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1. A memory module, comprising : one or more dynamic random-access memories (DRAMs); and a processor configured to select a Central Processing Unit (CPU) or the Processor to communicate with the one or more DRAMs via a memory interface 2. The memory module of claim 1, wherein the interface is a double data rate 4 (DDR4) interface or double data rate 5 (DDRS) interface. 3. The memory module of claim 1, wherein each of the CPU and the processor has master memory interface and the DRAM has a slave memory interface, and the master memory interface and the slave memory interface communicate via the memory interface. 4. The memory module of claim 1, wherein the memory module has a local mode and a host mode. 5. The memory module of claim 4, wherein in the local mode, the processor writes or reads from the DRMAs 6. The memory module of claim 4, wherein in the host mode, the CPU writes or reads from the DRAMs. 7. The memory module of claim 4, further comprising one or more multiplexers for switching the memory module between the local mode and host mode. 8. The memory module of claim 7, wherein the processor is configured to control states of the multiplexers 9. The memory module of claim 7, wherein the multiplexers includes a first multiplexer for switching command, control, and address (CCA) signals and a second multiplexer for controlling access to the DRAM 10.The memory module of claim 1, further comprising a storage flash that has a storage capacity of less than 1 TB or greater than or equal to 1TB 11. The memory module of claim 1, further comprising a storage flash that has a storage capacity of 1 to 4 TB or more 12.The memory module of claim 1, wherein the memory module is used as a persistent memory module. 13. The memory module of claim 1, wherein the processor is a Field Programmable Gate Array (FPGA). 14.The memory module of claim 13, wherein the FPGA performs graphics processing unit (GPU) or co-processing functions. 15. The memory module of claim 13, wherein the FPGA is a master to communicate with the CPU. 16.The memory module of claim 13, wherein the FPGA is configured to infer data of a file when the CPU sends the file to the memory module. 17.The memory module of claim 15, wherein the FPGA includes Artificial Intelligence (AI) inferencing algorithms or models to perform AI inferencing. 18.The memory module of claim 1, wherein the memory module is a dual in line memory module (DIMM). 19. A computing device, comprising : one or more memory modules, each memory module comprising : one or more dynamic random-access memories (DRAMs); and a processor configured to select a central Processing Unit (CPU) or the Processor to communicate with the one or more DRAMs by via one or more memory interfaces. 20. A method of reading or writing data to a memory module, comprising : setting, by a processor of the memory module, the memory module to a local mode and one or more dynamic random-access memories (DRAMs) of the memory module to an idle mode; and reading or writing data, by the processor, from the one or more dynamic random-access memories (DRAMs) of the memory module, via one or more memory interfaces.",
+  "classifications": {
+    "ipc": [
+      "G06F 13/12",
+      "G06F 13/16",
+      "G06F 13/42"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 13/12",
+      "G06F 13/16",
+      "G06F 13/42"
+    ],
+    "source": "csv"
+  }
+}

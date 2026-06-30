@@ -1,0 +1,22 @@
+{
+  "title": "Methods and systems for analyzing seismic amplitude",
+  "abstract": "The identification of prospective hydrocarbon deposits within a subterranean formation suitable for exploration and production activities may be achieved with methods and systems that analyze seismic amplitude anomalies and identify prospective hydrocarbon deposits based on said analysis. For example, the methods and systems may generate and/or use a collection of seismic forward models that relate to the geological factors and seismic imaging artifacts that impact (or otherwise generate) seismic amplitude anomalies. The seismic forward models may be derived based on rock physics and petrophysics principles while also considering seismic imaging artifacts.",
+  "claims": "1. A method comprising: identifying a seismic amplitude anomaly in seismic data of a portion of a subterranean formation; associating geological-property data, geophysical-parameter data, or both corresponding to the seismic amplitude anomaly with the identified seismic amplitude anomaly; producing a one or more seismic forward models each based on a scenario that accounts for an actual seismic amplitude response for the seismic amplitude anomaly and the geological-property data and/or geophysical-parameter data, wherein at least one of the one or more seismic forward models includes at least one seismic imaging artifact; adjusting input parameters for each of the one or more seismic forward models so that a seismic amplitude response produced by the seismic forward model at least substantially matches the actual seismic amplitude response for the seismic amplitude anomaly; training a supervised neural network using the one or more seismic forward models and corresponding adjusted input parameters; and generating a synthetic seismic forward model with the trained neural network.",
+  "patent_id": "US12379513-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01V 1/282",
+      "G01V 1/301",
+      "G01V 1/306",
+      "G01V 2210/64"
+    ],
+    "all": [
+      "G01V 1/282",
+      "G01V 1/301",
+      "G01V 1/306",
+      "G01V 2210/64"
+    ],
+    "source": "converted"
+  }
+}

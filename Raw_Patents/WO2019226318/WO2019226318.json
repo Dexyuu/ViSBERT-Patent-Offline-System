@@ -1,0 +1,36 @@
+{
+  "application_id": "WO2019226318",
+  "application_id_fs": "WO2019226318",
+  "title": "Warming up index files",
+  "abstract": "The present disclosure provides a method, an apparatus and a search node for warming up index files during a search service. The search service is provided by at least one search node in a search system. A first index file is stored in a disk in the search node, and a first group of pages from the first index file is stored in a cache in the search node. A second index file is stored into the disk in the search node. A plurality of queries is received during the search service. At least one warm-up query is determined from the plurality of queries. A warm-up search is performed based on the second index file in response to the at least one warm-up query. A second group of pages in the second index file is stored into the cache based on a result of the warm-up search.",
+  "claims": "Claims 1. A method for warming up index files during a search service, wherein the search service is provided by at least one search node in a search system, a first index file is stored in a disk in the search node and a first group of pages from the first index file is stored in a cache in the search node, the method comprising: storing a second index file into the disk in the search node; receiving a plurality of queries during the search service; determining at least one warm-up query from the plurality of queries; in response to the at least one warm-up query, performing a warm-up search based on the second index file; and storing a second group of pages in the second index file into the cache based on a result of the warm-up search. 2. The method of claim 1, wherein the performing the warm-up search comprises: in response to the at least one warm-up query, performing the warm-up search in the second group of pages from the second index file stored in the cache. 3. The method of claim 2, wherein the storing the second group of pages into the cache comprises: if the result of the warm-up search is obtained through at least one page in the second group of pages, improving a ranking of the at least one page in the second group of pages in the cache. 4. The method of claim 2, wherein the performing the warm-up search comprises: if the result of the warm-up search is not obtained in the second group of pages, then in response to the at least one warm-up query, performing the warm-up search in the second index file stored in the disk. 5. The method of claim 4, wherein the storing the second group of pages into the cache comprises: if the result of the warm-up search is obtained through at least one page in the second index file, adding the at least one page in the second index file into the second group of pages stored in the cache. 6. The method of claim 1, further comprising: discarding the result of the warm-up search. 7. The method of claim 1, further comprising: in response to the at least one warm-up search, performing search in the first index file stored in the disk and/or in the first group of pages stored in the cache; and \n\n returning a result of the search. 8. The method of claim 1, further comprising: after the warming up is completed, returning search results during the search service through the second group of pages stored in the cache and/or the second index file stored in the disk. 9. The method of claim 1, wherein the determining the at least one warm-up query comprises: selecting the at least one warm-up query from the plurality of queries based on a query replication rate, wherein the query replication rate indicates a ratio of a number of the at least one warm-up query to a number of the plurality of queries. 10. The method of claim 9, wherein the query replication rate increases gradually during the warming up. 11. The method of claim 1, further comprising: determining completion of the warming up based on that a number of the at least one warm-up query reaches a predetermined number, or based on that a time duration for performing the at least one warm-up query reaches a predetermined time duration. 12. A search node for providing a search service in a search system, comprising: a disk, storing a first index file; a cache, storing a first group of pages from the first index file; and a processor, configured for: storing a second index file into the disk; receiving a plurality of queries during the search service; determining at least one warm-up query from the plurality of queries; in response to the at least one warm-up query, performing a warm-up search based on the second index file; and storing a second group of pages in the second index file into the cache based on a result of the warm-up search. 13. The search node of claim 12, wherein the processor is further configured for: in response to the at least one warm-up query, performing the warm-up search in the second group of pages from the second index file stored in the cache; and if the result of the warm-up search is obtained through at least one page in the second group of pages, improving a ranking of the at least one page in the second group of pages in the cache. 14. The search node of claim 13, wherein the processor is further configured for: \n\n if the result of the warm-up search is not obtained in the second group of pages, then in response to the at least one warm-up query, performing the warm-up search in the second index file stored in the disk; and if the result of the warm-up search is obtained through at least one page in the second index file, adding the at least one page in the second index file into the second group of pages stored in the cache. 15. An apparatus for warming up index files during a search service, wherein the search service is provided by at least one search node in a search system, a first index file is stored in a disk in the search node and a first group of pages from the first index file is stored in a cache in the search node, the apparatus comprising: an index file storing module for storing a second index file into the disk in the search node; a query receiving module for receiving a plurality of queries during the search service; a warm-up query determining module for determining at least one warm-up query from the plurality of queries; a warm-up search performing module for, in response to the at least one warm-up query, performing a warm-up search based on the second index file; and a page storing module for storing a second group of pages in the second index file into the cache based on a result of the warm-up search.",
+  "classifications": {
+    "ipc": [
+      "G06F 16/00",
+      "G06F 16/10",
+      "G06F 16/17",
+      "G06F 16/172",
+      "G06F 16/14",
+      "G06F 16/144",
+      "G06F 16/148",
+      "G06F 16/156",
+      "G06F 16/18",
+      "G06F 16/1847"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 16/00",
+      "G06F 16/10",
+      "G06F 16/17",
+      "G06F 16/172",
+      "G06F 16/14",
+      "G06F 16/144",
+      "G06F 16/148",
+      "G06F 16/156",
+      "G06F 16/18",
+      "G06F 16/1847"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019226318"
+}

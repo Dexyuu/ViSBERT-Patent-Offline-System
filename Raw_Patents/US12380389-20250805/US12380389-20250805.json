@@ -1,0 +1,16 @@
+{
+  "title": "Systems and methods for risk data navigation",
+  "abstract": "A computer implemented system, method, or computer readable medium for providing a interactive digital tool that permits users to investigate and evaluate financial, trade, and business-related risks. The system, method, or computer readable medium can be configured to include a software engine that identifies risk subgraphs or other subgraph features in accordance with automated traversal based on a set of rules.",
+  "claims": "1. A computer implemented system for providing an interactive software tool that permits users to investigate and evaluate financial, trade, and business-related risks, comprising: a computer system comprising a processor and non-transitory memory comprising computer-executable instructions to configure the computer system, wherein the computer system is configured to include: a database, stored in nonvolatile memory and configured to store graph data structures comprising a plurality of different types of nodes, edges, and related properties that are used by the system to build a graph, wherein the related properties assigned to nodes include one or more risk categories and allow one or more of the nodes to be designated as seeds, wherein each seed is associated with risk category; risk propagation engine that is configured to apply a process to the graph that assigns-a value for one of a plurality of assigned risk categories to a plurality of nodes, wherein the process comprises starting from individual seeds, traversing through the graph following one or more paths comprising connected nodes and edges, and determining an exposure score for the risk category at a node in the traversed path as a function of the value of the risk assigned to the starting seed and, in some instances, also as a function of one or more interrelationships between two or more risk categories; an interactive graphical interface that is configured to, display a visual workspace onto which the user can select to add one or more nodes, edges, or subgraphs, display an option for the user to select one or more risk categories in association with the visual workspace, in response to a user (i) selecting a node to add to the visual workspace and (ii) selecting of one or more of the risk categories, display a subgraph, determined by the process, illustrating one or more paths of a selected risk category from one or more of the seeds, through nodes and edges and ending at the selected node, wherein one or more nodes have assigned related properties that include more than one risk category, and wherein the system is configured to add or receive new nodes or updates to the graph database and automatically applies the rule propagation engine to adjust values for risk for the risk category determined at the nodes.",
+  "patent_id": "US12380389-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/0635"
+    ],
+    "all": [
+      "G06Q 10/0635"
+    ],
+    "source": "converted"
+  }
+}

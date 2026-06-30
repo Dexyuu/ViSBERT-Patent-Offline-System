@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2025027466",
+  "application_id_fs": "WO2025027466",
+  "title": "Systems and methods for multi-granularity based semantic segmentation",
+  "abstract": "Systems, methods and computer readable storage mediums are provided. Data comprising raw images and their corresponding pixel-level semantic labels can be obtained. The data can be preprocessed to remove noisy samples or to augment the data with the technique of data augmentation. The data can be split into training and validation sets. A model and loss functions can be designed so first and second level semantic information is leveraged to boost first-level semantic segmentation. The model can comprise main and auxiliary branches. The first level semantic information can be utilized in the main branch and the second level semantic information can be utilized by the auxiliary branch. The model can be trained by the training set to iteratively minimize the loss functions. Model parameters can be updated as the loss function is minimized. The auxiliary branch can be removed after the model is trained. Results can be predicted using the trained model on samples in the validation set. Predicting results can be configured to generate pixel-level semantic segmentation labels.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1. A system comprising: an image sensor configured to capture image data; and an image processor configured to: perform semantic segmentation with a model that is trained using first level and second level semantic information in a multi -granularity framework, output semantic segmentation results in a user defined format, and determine an action based on the segmentation results. 2. The system of claim 1, wherein the image processor configured to generate segmentation results for autonomous driving, robotic navigation, and/or to aid in piloting an airborne craft. 3. The system of claim 1, wherein the image processor configured to generate segmentation results on medical images for disease identification and/or surgery. 4. A method comprising: obtaining, using an image sensor, a set of data comprising raw images and their corresponding pixel-level semantic labels; preprocessing, using an image processor, the set of data to remove invalid or noisy samples; splitting, using the image processor, the set of data into a training set and a validation set; designing, using the image processor, a model and corresponding loss functions such that a first level and a second level of semantic information are leveraged substantially and simultaneously to boost first-level semantic segmentation, the model comprising a main branch and an auxiliary branch, the first level semantic information being utilized in the main branch and the second level semantic information being utilized by the auxiliary branch; training, using the image processor, the model by utilizing the training set to iteratively minimize the loss functions, wherein model parameters are updated as the loss function is minimized; and predicting, using the image processor, results using the trained model on samples in the validation set; wherein the auxiliary branch in the trained model is removed for prediction, and \n\n wherein the predicting results are configured to generate pixel-level semantic segmentation labels. 5. The method of claim 4, wherein the model comprises coarse-level semantic segmentation by multiple-granularity learning (SSMGL). 6. The method of claim 4, wherein the set of training and validation data comprises public labeled dataset sources or data captured with an image sensing device followed by manual annotation. 7. The method of claim 6, further comprising using a camera as the image sensing device. 8. The method of claim 4, wherein the first and second levels of semantic information comprise coarse-level and fine-level semantic information. 9. The method of claim 4, wherein the main branch and the auxiliary branch are trained substantially simultaneously to generate the trained model. 10. The method of claim 4, wherein the predicting is alternatively performed on a data set that comprises samples captured by a user. 11. The method of claim 4, wherein the method is invariant to network architecture. 12. The method of claim 4, wherein the auxiliary branch is supervised or unsupervised. 13. The method of claim 4, wherein a supervised auxiliary branch utilizes fine-grained labels for training. 14. The method of claim 13, wherein the loss function comprises L totai = (1 â ~)L main + L aux , wherein Lmain is a cross entropy loss in the main branch, Laux is a focal loss in the auxiliary branch, and is a tradeoff between loss in the main branch and loss in the auxiliary branch. 15. The method of claim 4, wherein the auxiliary branch is unsupervised. 16. The method of claim 15, wherein the auxiliary branch implements representation learning via a self-supervised consistency task. 17. The method of claim 16, wherein the self-supervised consistency task is based on the observations that segmentation is invariant to mild color distortions and local spatial transitions. 18. The method of claim 16, wherein: the self-supervised consistency task is implemented by maximizing mutual information between representations of raw pixels and representations of distorted pixels, and the distorted pixels are mild color distorted, spatially distorted, or both. 19. The method of claim 15, wherein the loss function comprises L totai = (1 â ~)L main + L aux , wherein Lmainis a cross entropy loss, Laux is a minimization of a minus mutual information between an original and distorted image, and lambda is a tradeoff between loss in the main branch and loss in the auxiliary branch. 20. A computer-readable storage medium containing program instructions for a method being executed by an application, the application comprising code for one or more components that are called by the application during runtime, wherein execution of the program instructions by one or more processors of a computer system causes the one or more processors to perform operations comprising: obtaining a set of data comprising raw images and their corresponding pixel-level semantic labels; preprocessing the set of data to remove invalid or noisy samples; splitting the set of data into a training set and a validation set; designing a model and corresponding loss functions so that a first level and a second level of semantic information are leveraged substantially simultaneously to boost first-level semantic segmentation, the model comprising a main branch and an auxiliary branch, the first level information being leveraged in the main branch, and the second level information being utilized by adding an auxiliary branch to the main branch; generating a trained model by minimizing the loss functions on the training set; and predicting results using the trained model on samples in the validation set, wherein the auxiliary branch in the trained model is removed for prediction, and wherein the predicting results is configured to generate pixel-level semantic segmentation labels.",
+  "classifications": {
+    "ipc": [
+      "G06V 10/00",
+      "G06V 10/70",
+      "G06V 10/77",
+      "G06V 10/774",
+      "G06V 10/20",
+      "G06V 10/26",
+      "G06V 10/72",
+      "G06V 10/776",
+      "G06V 10/82",
+      "G06V 20/00",
+      "G06V 20/70",
+      "G06V 2201/00",
+      "G06V 2201/03"
+    ],
+    "cpc": [],
+    "all": [
+      "G06V 10/00",
+      "G06V 10/70",
+      "G06V 10/77",
+      "G06V 10/774",
+      "G06V 10/20",
+      "G06V 10/26",
+      "G06V 10/72",
+      "G06V 10/776",
+      "G06V 10/82",
+      "G06V 20/00",
+      "G06V 20/70",
+      "G06V 2201/00",
+      "G06V 2201/03"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025027466"
+}

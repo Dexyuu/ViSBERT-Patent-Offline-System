@@ -1,0 +1,36 @@
+{
+  "title": "Staggered key frame video encoding",
+  "abstract": "One embodiment of the invention sets forth a mechanism for encoding video streams associated with the same digital content such that switch points staggered across two video streams occur at every offset temporal distance. The offset temporal distance is less than the distance between two consecutive key frames in a given video stream. This enables a content player to switch to a video stream having a playback quality up or down one level from a current video stream at the offset temporal distance from the most recently played key frame. In effect, the content player does not wait the entire key frame temporal distance before switching.",
+  "claims": "1. A computer-implemented method comprising: retrieving a first sequence header associated with a first video stream storing digital content encoded at a first playback quality, wherein the first video stream comprises a first plurality of segments that include a first plurality of switch points; retrieving a second sequence header associated with a second video stream storing the digital content encoded at a second playback quality, wherein the second video stream comprises a second plurality of segments that include a second plurality of switch points; and distributing at least one of the first video stream or the second video stream to a content player, wherein the first video stream includes a first segment for playback identified by the first sequence header, wherein the first segment is included in the first plurality of segments and includes a first switch point that is positioned at a first temporal distance from an immediately subsequent switch point in the first video stream, and wherein the second video stream includes a second segment for playback identified by the second sequence header, wherein the second segment is included in the second plurality of segments and includes a second switch point that is positioned less than the first temporal distance from the first switch point and is positioned at the first temporal distance from an immediately subsequent switch point in the second video stream, wherein a next segment immediately subsequent to the second segment in the second plurality of segments does not include a switch point.",
+  "patent_id": "US12382118-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/2387",
+      "H04N 19/114",
+      "H04N 19/172",
+      "H04N 21/233",
+      "H04N 21/234",
+      "H04N 21/23439",
+      "H04N 21/2365",
+      "H04N 21/26275",
+      "H04N 21/4383",
+      "H04N 21/4384",
+      "H04N 21/8456"
+    ],
+    "all": [
+      "H04N 21/2387",
+      "H04N 19/114",
+      "H04N 19/172",
+      "H04N 21/233",
+      "H04N 21/234",
+      "H04N 21/23439",
+      "H04N 21/2365",
+      "H04N 21/26275",
+      "H04N 21/4383",
+      "H04N 21/4384",
+      "H04N 21/8456"
+    ],
+    "source": "converted"
+  }
+}

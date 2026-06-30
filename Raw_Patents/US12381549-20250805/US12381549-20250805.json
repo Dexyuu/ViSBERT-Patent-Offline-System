@@ -1,0 +1,24 @@
+{
+  "title": "Protection for switched electronic devices",
+  "abstract": "An HS switching transistor is coupled between a high-side node and a switching node. An LS switching transistor is coupled between the switching node and a low-side node. An inductive load is coupled to the switching node in a way where one of the HS/LS switching transistors is freewheeling. In response to detection of a short circuit occurring at the switching node with the freewheeling switching transistor in the conductive state: an electrical signal at the switching node is sensed, a comparison is made between the sensed electrical signal and a threshold level, and a driving signal is provided to control freewheeling switching transistor to switch to the non-conductive state when the comparison indicates that the electrical signal has reached the threshold level.",
+  "claims": "1. A method, comprising: coupling a high-side switching transistor between a high-side reference node and a switching node, wherein the high-side switching transistor comprises a high-side control terminal configured to receive a high-side control signal and a current flow path therethrough between the high-side reference node and the switching node, wherein the high-side switching transistor is configured to be switched towards a conductive state in response to the high-side control signal having a first value, wherein the current flow path provides a high-side current flow line between the high-side reference node and the switching node; coupling a low-side switching transistor between the switching node and a low-side reference node, wherein the low-side switching transistor comprises a low-side control terminal configured to receive a low-side control signal and a current flow path therethrough between the switching node and the low-side reference node, wherein the low-side switching transistor is configured to be switched towards a conductive state in response to the low-side control signal having a first value, wherein the current flow path through the low-side switching transistor provides a current flow line between the switching node and the low-side reference node; coupling an inductive load to the switching node and a reference node, said reference node comprising one of the high-side reference node with the high-side switching transistor being freewheeling and the low-side reference node with the low-side switching transistor being freewheeling; and in response to a short circuit occurring at the switching node with the respective freewheeling switching transistor in the conductive state: sensing an electrical signal at the switching node; performing a comparison between the electrical signal sensed at the switching node and a threshold level; and providing a driving signal to the control node of the respective freewheeling switching transistor to switch the respective freewheeling switching transistor to the non-conductive state as a result of the comparison indicating that the electrical signal has reached the threshold level.",
+  "patent_id": "US12381549-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03K 17/0822",
+      "B60R 16/033",
+      "H02M 1/32",
+      "H03K 2217/0063",
+      "H03K 2217/0072"
+    ],
+    "all": [
+      "H03K 17/0822",
+      "B60R 16/033",
+      "H02M 1/32",
+      "H03K 2217/0063",
+      "H03K 2217/0072"
+    ],
+    "source": "converted"
+  }
+}

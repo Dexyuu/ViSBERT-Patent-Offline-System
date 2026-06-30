@@ -1,0 +1,18 @@
+{
+  "title": "Protection of a secret key",
+  "abstract": "A device multiplies a first public key by a first scalar value, generating an intermediate result. The first public key corresponds to a point on an elliptic curve of order n, n is an integer, and the first scalar value is equal to n/m where in is a largest prime integer factor of n. The device determines whether the intermediate result is equal to a value corresponding to a point O at infinity on the elliptic curve. In response to the determining indicating the intermediate result is different from the value corresponding to the point O, the device multiplies the intermediate result by a second scalar, generating a shared secret value. The device performs one or more processing operations using the generated shared secret value. Otherwise, the device may initiate error processing without generating the shared secret value.",
+  "claims": "1. A method, comprising: receiving, by a first processing device, a first public key, the first public key corresponding to a point on an elliptic curve of order n, where n is an integer; multiplying, by the first processing device, the first public key by a first scalar value, where the first scalar value is equal to n/m and in is a largest prime integer factor of n, the multiplying of the first public key by the first scalar value generating an intermediate result; determining, by the first processing device, whether the intermediate result is equal to a value corresponding to a point O at infinity on the elliptic curve; and in response to the determining indicating the intermediate result is different from the value corresponding to the point O at infinity on the elliptic curve: multiplying, by the first processing device, the intermediate result by a second scalar, the multiplying the intermediate result by the second scalar generating a shared secret value; and performing, by the first processing device, one or more processing operations using the generated shared secret value.",
+  "patent_id": "US12381729-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/3066",
+      "H04L 9/085"
+    ],
+    "all": [
+      "H04L 9/3066",
+      "H04L 9/085"
+    ],
+    "source": "converted"
+  }
+}

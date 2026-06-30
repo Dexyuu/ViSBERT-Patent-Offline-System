@@ -1,0 +1,24 @@
+{
+  "title": "Automatic circuit allocation of remote devices in a multi-power supply system",
+  "abstract": "A power transmission system is disclosed comprising a centralized power supply system having multiple DC power supply units and a controller coupled to the DC power supplies. Remote devices are coupled to the centralized power system via a power cable. In some embodiments, each of the DC power supply units transmit signal information to respective ones of the remote devices, and the remote devices may be configured to forward the signal information to the controller. In some embodiments, the controller module automatically allocates individual ones of the DC power supply units to the respective ones of the remote devices based on the forwarded signal information.",
+  "claims": "1. A power transmission system, comprising: a centralized power supply system comprising DC power supply units and a controller coupled to the DC power supply units; remote devices coupled to the centralized power supply system via a power cable, wherein each of the DC power supply units transmit a power signal to respective ones of the remote devices; and voltage monitoring (VM) devices coupled to the power cable that connects to respective ones of the remote devices, the VM devices measuring an input voltage value of at least a portion of the remote devices; wherein the controller is configured to: increase an output voltage of an individual one of the DC power supply units over the power cable; receive the input voltage value of each of the remote devices; compare the input voltage value of each of the remote devices and determine that a highest input voltage value differs by more than a predetermined value from other ones of the input voltage values; and automatically assign a correspondence between the individual one of the DC power supply units and a corresponding one of the remote devices having the highest input voltage value.",
+  "patent_id": "US12379760-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 1/263",
+      "H02M 1/325",
+      "H02M 3/158",
+      "H05K 7/14322",
+      "H05K 7/14324"
+    ],
+    "all": [
+      "G06F 1/263",
+      "H02M 1/325",
+      "H02M 3/158",
+      "H05K 7/14322",
+      "H05K 7/14324"
+    ],
+    "source": "converted"
+  }
+}

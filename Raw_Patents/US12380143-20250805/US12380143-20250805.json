@@ -1,0 +1,24 @@
+{
+  "title": "Systems and methods for training language models to reason over tables",
+  "abstract": "Systems and methods for pre-training and fine-tuning of neural-network-based language models to reason directly over tables without generating logical forms. In some examples, a language model can be pre-trained using masked-language modeling tasks synthetically generated from tables pulled from a knowledge corpus. In some examples, the language model may be further pre-trained using pairs of counterfactual statements generated from those tables, and/or one or more statements that compare selected data from those tables. The language model may then be fine-tuned using examples that include only a question, an answer, and a table, allowing fine-tuning examples to be harvested directly from existing benchmark datasets or synthetically generated.",
+  "claims": "1. A computer-implemented method of training a natural language processing (NLP) model, comprising: fine-tuning the NLP model, by one or more processors of a processing system, based on a plurality of fine-tuning examples each comprising a respective question, a respective answer, and a corresponding table, the fine-tunning including: generating, by the one or more processors, an estimated answer to the respective question of a fine-tuning example of the plurality of fine-tuning examples based on: the corresponding table of the fine-tuning example; one or more first predictions, by the NLP model, whether the respective answer is based on each cell of a plurality of cells of the corresponding table, the respective answer being scalar; and one or more second predictions, by the NLP model, whether the respective answer is based on each aggregation operation of a plurality of aggregation operations; generating, by the one or more processors, a first loss value based on the estimated answer; generating, by the one or more processors, a second loss value based on the one or more second predictions; and modifying, by the one or more processors, one or more parameters of the NLP model based at least on the first and second loss values, wherein the fine-tuned NLP model is configured to, responsive to a user query, reason directly over tables to provide an answer to the user query.",
+  "patent_id": "US12380143-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/3329",
+      "G06F 40/20",
+      "G06F 40/284",
+      "G06F 40/35",
+      "G06N 3/08"
+    ],
+    "all": [
+      "G06F 16/3329",
+      "G06F 40/20",
+      "G06F 40/284",
+      "G06F 40/35",
+      "G06N 3/08"
+    ],
+    "source": "converted"
+  }
+}

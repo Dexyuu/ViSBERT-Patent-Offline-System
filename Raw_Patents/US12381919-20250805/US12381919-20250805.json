@@ -1,0 +1,20 @@
+{
+  "title": "Communication session join modes and auto join",
+  "abstract": "Methods, machine-readable mediums, devices, and systems for joining a participant to a meeting in a modified join mode. A join mode comprises one or more configurable operational parameters within an network-based communication service that specifies the manner in which a participant is integrated into a network-based real-time interactive communication session such as a network-based meeting. Specifically, the join mode encompasses various privacy and visibility options that can be applied when a participant enters the meeting. One such option includes a presence concealment feature that, when activated, hides the joining participant's presence from one participant, one or more specific participants, or all participants within the meeting.",
+  "claims": "1. A method for modifying a network-based real-time interactive communication session, the method comprising: using one or more hardware processors: identifying that a first participant of a network-based real-time interactive communication session is to be joined to the network-based real-time interactive communication session; identifying a join mode rule created by the first participant of the network-based real-time interactive communication session; identifying metadata about the network-based real-time interactive communication session or status information describing a current status of an ongoing network-based real-time interactive communication session; determining a join mode for the first participant based on evaluating the join mode rule using the metadata or status information, wherein the determined join mode comprises an indication that the first participant is to be hidden from a second participant of the network-based real-time interactive communication session; and causing the first participant to be joined to the network-based real-time interactive communication session according to the determined join mode, wherein the determined join mode conceals the first participant's presence from the second participant by precluding a display of a participant tile for the first participant on a user interface of a computing device used by the second participant to display the network-based real-time interactive communication session, while the joining of the first participant enables the computing device of the first participant to receive real-time media of the network-based real-time interactive communication session.",
+  "patent_id": "US12381919-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 65/1093",
+      "H04L 12/1822",
+      "H04L 65/80"
+    ],
+    "all": [
+      "H04L 65/1093",
+      "H04L 12/1822",
+      "H04L 65/80"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Predictive adjustment of multi-camera surveillance video data capture",
+  "abstract": "Systems, video cameras, and methods for predictive adjustment of multi-camera surveillance video data capture are described. A plurality of networked video camera is deployed with known spatial relationships and non-overlapping fields of view among cameras. When a video event is detected from video data for one of the video cameras, a video capture update message is selectively sent to other video cameras to modify their video capture operations. For example, an object detected by one camera may trigger adjustment of video capture operating parameters for cameras in a direction of travel of the object before it has entered the field of view of those other cameras.",
+  "claims": "1. A system, comprising: a first video camera having a first field of view, wherein a plurality of networked video cameras includes the first video camera; and a controller in communication with the plurality of networked video cameras and configured to: receive video data from the first video camera; determine, from the video data, a first video event; determine, based on video event parameters for the first video event, at least one other video camera from the plurality of networked video cameras, wherein the at least one other video camera does not have an overlapping field of view with the first video camera; and send, to the at least one other video camera and based on the first video event, a video capture update message comprising at least one frame from video data corresponding to the first video event, wherein the at least one other video camera is configured to, responsive to the video capture update message: modify a video capture operation of the at least one other video camera; capture, using the at least one other video camera, video data based on the modified video capture operation; and process video data from the modified video capture operation through an object recognition model, wherein the object recognition model uses the at least one frame received in the video capture update message as object recognition reference data.",
+  "patent_id": "US12380701-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 20/52",
+      "G06V 20/44",
+      "H04N 5/783",
+      "H04N 23/90",
+      "G06V 2201/07"
+    ],
+    "all": [
+      "G06V 20/52",
+      "G06V 20/44",
+      "H04N 5/783",
+      "H04N 23/90",
+      "G06V 2201/07"
+    ],
+    "source": "converted"
+  }
+}

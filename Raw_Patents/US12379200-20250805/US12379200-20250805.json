@@ -1,0 +1,30 @@
+{
+  "title": "Peripheral edge processing apparatus, peripheral edge processing method, and computer-readable recording medium",
+  "abstract": "An apparatus includes: an capturing part that captures a peripheral edge portion of a substrate including a reference substrate and a workpiece substrate, so as to acquire captured images of the reference and workpiece substrates; a first calculation part that calculates a theoretical peripheral edge position of the reference substrate in the captured image of the reference substrate with reference to a center thereof; a second calculation part that calculates a theoretical peripheral edge position of the workpiece substrate in the captured image of the workpiece substrate based on the theoretical peripheral edge position of the reference substrate and the captured image of the workpiece substrate; a setting part that sets processing parameters for the peripheral edge portion of the substrate based on the theoretical peripheral edge position of the workpiece substrate; and a processing part that processes the peripheral edge portion of the substrate based on the processing parameters.",
+  "claims": "1. A peripheral edge processing apparatus, comprising: an image capturing device configured to capture a peripheral edge portion of a substrate, which includes a reference substrate and a workpiece substrate, so as to acquire a captured image of the reference substrate and a captured image of the workpiece substrate; a substrate processing unit including a substrate holder configured to process the peripheral edge portion of the substrate based on processing parameters; a controller configured to: receive the captured image of the reference substrate and the captured image of the workpiece substrate from the image capturing device; calculate a theoretical peripheral edge position of the reference substrate in the captured image of the reference substrate with reference to a center of the reference substrate; calculate a theoretical peripheral edge position of the workpiece substrate in the captured image of the workpiece substrate based on the theoretical peripheral edge position of the reference substrate and the captured image of the workpiece substrate; set the processing parameters for the peripheral edge portion of the substrate based on the theoretical peripheral edge position of the workpiece substrate, process the peripheral edge portion of the substrate based on the processing parameters; adjust a placement position of the workpiece substrate on the substrate holder of the substrate processing unit from a first placement position to a second placement position according to an eccentricity state of the workpiece substrate placed and processed on the substrate holder; perform a fourth process of calculating a peripheral edge position of the workpiece substrate based on the captured image of the workpiece substrate, and a fifth process of calculating the eccentricity state of the workpiece substrate based on the peripheral edge position of the workpiece substrate; and calculate the second placement position of the workpiece substrate to cancel an eccentricity amount of the workpiece substrate with respect to the substrate holder, generate a control signal for delivering the workpiece substrate to the substrate holder at the second placement position of the workpiece substrate, and output the control signal to a transfer arm; and the transfer arm configured to receive the control signal and, by the received control signal, deliver the workpiece substrate to the substrate holder at the second placement position of the workpiece substrate.",
+  "patent_id": "US12379200-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01B 11/022",
+      "G01B 11/03",
+      "G03F 7/2028",
+      "G03F 7/7085",
+      "G06T 7/13",
+      "G06T 7/62",
+      "G06T 7/74",
+      "G01B 2210/56"
+    ],
+    "all": [
+      "G01B 11/022",
+      "G01B 11/03",
+      "G03F 7/2028",
+      "G03F 7/7085",
+      "G06T 7/13",
+      "G06T 7/62",
+      "G06T 7/74",
+      "G01B 2210/56"
+    ],
+    "source": "converted"
+  }
+}

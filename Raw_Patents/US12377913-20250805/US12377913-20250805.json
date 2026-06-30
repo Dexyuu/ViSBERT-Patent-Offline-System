@@ -1,0 +1,30 @@
+{
+  "title": "Driver assist system for vehicle",
+  "abstract": "A driver assist system for avoiding hunting of an assist control. The driver assist system comprises: an edge line detector that detects edge lines of a predetermined lane; a limit steering angle detector that detects a limit steering angle at which a vehicle reaches the edge line in a predetermined time; an actual steering angle detector that detects an actual steering angle from a reference position; a comparator that compares the actual steering angle with the limit steering angle; a steering assistor that establishes a steering reaction force when the actual steering angle exceeds the limit steering angle; a determiner that determines a satisfaction of a condition relating to a lane width; and an adjustor that imaginarily sets the right edge line and the left edge line on the center of the lane, and calculate the limit steering angle based on the imaginary edge line upon the satisfaction of the condition.",
+  "claims": "1. A driver assist system for a vehicle that assists a driver to steer the vehicle so as to prevent deviation of the vehicle from a predetermined lane, comprising: a controller that controls a steering force, wherein the controller comprises: an edge line detector that detects a right edge line and a left edge line of the predetermined lane on which the vehicle travels; a limit steering angle detector that detects a right limit steering angle at which the vehicle reaches the right edge line in a predetermined time given that the vehicle travels at a current speed, and a left limit steering angle at which the vehicle reaches the left edge line in the predetermined time given that the vehicle travels at the current speed; an actual steering angle detector that detects an actual steering angle as an operating amount from a position at which the vehicle propels straight ahead; a comparator that compares the actual steering angle with the right limit steering angle and the left limit steering angle; a steering assistor that establishes a steering reaction force when the actual steering angle exceeds the right limit steering angle or the left limit steering angle, in a direction to reduce a difference between the actual steering angle and the right limit steering angle or the left limit steering angle exceeded by the actual steering angle; a determiner that determines a satisfaction of a predetermined condition relating to a width of the predetermined lane; and an adjustor that imaginarily sets the right edge line and the left edge line on a center of the predetermined lane in a width direction, and calculate the right limit steering angle and the left limit steering angle based on the right edge line and the left edge line set imaginarily so as to establish the steering reaction force by the steering assistor, when the satisfaction of the predetermined condition is determined by the determiner.",
+  "patent_id": "US12377913-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B62D 15/025",
+      "B60W 10/20",
+      "B60W 30/12",
+      "B60W 40/105",
+      "G06V 20/588",
+      "B60W 2420/403",
+      "B60W 2540/18",
+      "B60W 2552/53"
+    ],
+    "all": [
+      "B62D 15/025",
+      "B60W 10/20",
+      "B60W 30/12",
+      "B60W 40/105",
+      "G06V 20/588",
+      "B60W 2420/403",
+      "B60W 2540/18",
+      "B60W 2552/53"
+    ],
+    "source": "converted"
+  }
+}

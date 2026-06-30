@@ -1,0 +1,28 @@
+{
+  "title": "Automatic qubit calibration",
+  "abstract": "Methods and apparatus for automatic qubit calibration. In one aspect, a method includes obtaining a plurality of qubit parameters and data describing dependencies of the plurality of qubit parameters on one or more other qubit parameters; identifying a qubit parameter; selecting a set of qubit parameters that includes the identified qubit parameter and one or more dependent qubit parameters; processing one or more parameters in the set of qubit parameters in sequence according to the data describing dependencies, comprising, for a parameter in the set of qubit parameters: performing a calibration test on the parameter; and performing a first calibration experiment or a diagnostic calibration algorithm on the parameter when the calibration test fails.",
+  "claims": "1. A method performed by a qubit calibration system, the method comprising: monitoring, during a quantum computation performed by a quantum computing device that comprises multiple physical qubits, values of system parameters to identify a system parameter that is out of specification; selecting a set of system parameters that includes the identified system parameter and system parameters that depend on the identified system parameter, wherein the set of system parameters defines a directed graph comprising a node for each system parameter in the set, the identified system parameter corresponding to a root node, and a directed edge for each dependency; and calibrating parameters in the set of system parameters in sequence according to a node ancestry ordering for the directed graph, wherein the sequence begins with the root node, the calibrating comprising, for each parameter in the sequence: applying a set of waveforms to a physical qubit that corresponds to the parameter and measuring the physical qubit to obtain a respective set of measured qubit states; and updating the parameter based on the set of measured qubit states.",
+  "patent_id": "US12380355-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 10/40",
+      "G06F 11/00",
+      "G06F 11/2236",
+      "G06F 11/2247",
+      "G06F 11/2273",
+      "G06F 15/82",
+      "G06N 10/70"
+    ],
+    "all": [
+      "G06N 10/40",
+      "G06F 11/00",
+      "G06F 11/2236",
+      "G06F 11/2247",
+      "G06F 11/2273",
+      "G06F 15/82",
+      "G06N 10/70"
+    ],
+    "source": "converted"
+  }
+}

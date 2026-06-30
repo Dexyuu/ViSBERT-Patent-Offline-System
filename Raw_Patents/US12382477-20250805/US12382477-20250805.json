@@ -1,0 +1,24 @@
+{
+  "title": "Method and apparatus for PBCH payload in higher frequency ranges",
+  "abstract": "Apparatuses and methods for transmitting or receiving a synchronization signals and physical broadcast channel (SS/PBCH) block in a wireless communication system. A method of operating a user equipment (UE) includes receiving a SS/PBCH block, decoding a content of a PBCH in the SS/PBCH block, and determining whether the wireless communication system operates with shared spectrum channel access based on the content of the PBCH. The method further includes determining the content of the PBCH in a first manner based on determining that the wireless communication system operates with shared spectrum channel access or determining the content of the PBCH in a second manner based on determining that the wireless communication system operates without shared spectrum channel access.",
+  "claims": "1. A user equipment (UE) in a wireless communication system supporting a frequency range between 52.6 GHz and 71 GHz, the UE comprising: a transceiver configured to receive synchronization signal and physical broadcast channel (SS/PBCH) blocks, and a processor operably coupled to the transceiver, the processor configured to identify a parameter for quasi co-location (QCL) based on the SS/PBCH blocks, wherein the SS/PBCH blocks are QCLed within or across transmission windows when a value of ( l mod N SSB QCL ) is same among the SS/PBCH blocks, wherein l is a candidate SS/PBCH block index and N SSB QCL is the parameter for QCL, wherein the SS/PBCH blocks include at least one PBCH, and wherein a part of information in the at least one PBCH is interpreted differently by the UE for operation with shared spectrum channel access and operation without shared spectrum channel access.",
+  "patent_id": "US12382477-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/30",
+      "H04L 27/26025",
+      "H04W 16/14",
+      "H04W 56/001",
+      "H04W 72/53"
+    ],
+    "all": [
+      "H04W 72/30",
+      "H04L 27/26025",
+      "H04W 16/14",
+      "H04W 56/001",
+      "H04W 72/53"
+    ],
+    "source": "converted"
+  }
+}

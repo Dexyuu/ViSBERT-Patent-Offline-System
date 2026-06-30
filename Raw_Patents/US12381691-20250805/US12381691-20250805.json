@@ -1,0 +1,20 @@
+{
+  "title": "Network coding using feedback associated with feedback bins",
+  "abstract": "Various aspects of the present disclosure generally relate to wireless communication. In some aspects, a mobile station may transmit, from the mobile station to an encoding device, acknowledgement or negative acknowledgement (ACK-NACK) feedback based at least in part on a transmission by the encoding device, wherein the ACK-NACK feedback is associated with a feedback bin, and wherein the feedback bin is associated with a location of the mobile station. The mobile station may receive, at the mobile station from the encoding device, a network coding transport block, wherein the network coding transport block is formed based at least in part on the transmission and the ACK-NACK feedback associated with the feedback bin. Numerous other aspects are described.",
+  "claims": "1. An apparatus for wireless communication at a mobile station, comprising: one or more memories; and one or more processors, based at least in part on information stored in the one or more memories, configured to: transmit, to an encoding device, acknowledgement or negative acknowledgement (ACK-NACK) feedback based at least in part on a transmission by the encoding device, wherein the mobile station is included in a feedback bin that includes a plurality of mobile stations grouped together for feedback, and wherein an acknowledgement (ACK) received from one of the plurality of mobile stations of the feedback bin is changed to a negative acknowledgement (NACK) when at least one NACK is received for the feedback bin; and receive, from the encoding device, a network coding transport block that is formed based at least in part on ACK-NACK feedback associated with the plurality of mobile stations.",
+  "patent_id": "US12381691-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/0055",
+      "H04W 4/023",
+      "H04W 72/20"
+    ],
+    "all": [
+      "H04L 5/0055",
+      "H04W 4/023",
+      "H04W 72/20"
+    ],
+    "source": "converted"
+  }
+}

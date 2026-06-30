@@ -1,0 +1,24 @@
+{
+  "title": "Methods for application specific access control",
+  "abstract": "A method implemented on a UE includes determining an application class of an application, and permitting or barring access by the application to a communication network according to a comparison of the determined application with a rule to provide application class based access control. The application is classified into the determined application class. The application is classified into the determined application class by a home network. The application is classified into the determined application class by a 3GPP layer. The application is classified into the determined application class by a visited network. The visited network classifies the application into a further application class. The rule includes a list of applications for permitting or barring access by the applications according to the comparison of the determined application class with the rule.",
+  "claims": "1. A wireless transmit/receive unit (WTRU) comprising: a processor and memory, wherein the processor and the memory are configured to: receive a non-access stratum (NAS) message, the NAS message comprising application access control classification information for the WTRU, wherein the application access control classification information indicates that a first application is associated with a first application class for application-based access class barring based on a first combination of a first application identifier associated with the first application and at least one application specific parameter associated with the first application, wherein the at least one application specific parameter associated with the first application corresponds to a characteristic of the first application, and the application access control classification information indicates that a second application is associated with a second application class for application-based access class barring based on a second combination of a second application identifier associated with the second application and at least one application specific parameter associated with the second application, wherein the at least one application specific parameter associated with the second application corresponds to a characteristic of the second application; receive a system information broadcast, the system information broadcast indicating that at least a first application-based access control rule is activated in a cell for the first application class and a second application-based access control rule is activated in the cell for the second application class; determine that accessing the cell to communicate data associated with the first application is allowed based on the first application-based access control rule indicated by the system information broadcast and the association of the first application with the first application class based on the first combination of the first application identifier and the application specific parameter associated with the second first application indicated by the NAS message; and determine that accessing the cell to communicate data associated with the second application is barred based on the second application-based access control rule indicated by the system information broadcast and the association of the second application with the second application class based on the second combination of the second application identifier and the application specific parameter associated with the second application indicated by the NAS message.",
+  "patent_id": "US12382333-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 28/0268",
+      "A61B 10/0051",
+      "B01L 3/5023",
+      "H04W 4/50",
+      "B01L 2300/0609"
+    ],
+    "all": [
+      "H04W 28/0268",
+      "A61B 10/0051",
+      "B01L 3/5023",
+      "H04W 4/50",
+      "B01L 2300/0609"
+    ],
+    "source": "converted"
+  }
+}

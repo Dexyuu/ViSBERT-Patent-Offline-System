@@ -1,0 +1,20 @@
+{
+  "title": "Risk scoring system for vulnerability mitigation",
+  "abstract": "Apparatus, methods, and articles of manufacture or disclosed for implementing risk scoring systems used for vulnerability mitigation in a distributed computing environment. In one disclosed example, a computer-implemented method of mitigating vulnerabilities within a computing environment includes producing a risk score indicating at least one of: a vulnerability component, a security configuration component, or a file integrity component for an object within the computing environment, producing a signal score indicating a factor that contributes to risk for the object, and combining the risk score and the signal score to produce a combined risk score indicating a risk level associated with at least one vulnerability of the computing system object. In some examples, the method further includes mitigating the at least one vulnerability by changing a state of a computing object using the combined risk score.",
+  "claims": "1. A computer-implemented method of mitigating vulnerabilities within a computing environment, the method comprising: producing a risk score based at least in part on a vulnerability component for an object within the computing environment, wherein the vulnerability component comprises at least an age component, wherein the risk score follows a model of: from a minimum value for the age component, increasing to a local maxima as the age component reaches a first predetermined age, decreasing to a local minima as the age component approaches a second predetermined age from the first predetermined age, the second predetermined age being greater than the first predetermined age, and increasing as the age component increases past the second predetermined age, wherein the risk score indicates a risk level associated with at least one vulnerability of the computing system object; and mitigating, based on the risk score, a vulnerability in one or more of the object or the computing environment by changing a state of the object within the computing environment.",
+  "patent_id": "US12380222-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/577",
+      "G06F 17/11",
+      "G06F 2221/034"
+    ],
+    "all": [
+      "G06F 21/577",
+      "G06F 17/11",
+      "G06F 2221/034"
+    ],
+    "source": "converted"
+  }
+}

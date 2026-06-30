@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for improved payroll administration in a freelance workforce",
+  "abstract": "Systems and methods for improved payroll management in a freelance driven industry is provided. Payroll documents may be uploaded through a web portal to the payroll management system as a digital image. The document is then split into individual pages, each page representing a âformâ, and subjected to optical character recognition (OCR) to generate a machine readable document, which are then matched to one of many possible form types. This matching may rely upon keyword disambiguation and/or machine learning classifications. Data is extracted from the form using a coordinate identification system. The forms may be reconstituted as standardized forms. These standardized forms are then stitched together into packets by user, by employing logic. The hourly gross compensation for the user is calculated, responsive to constraints collected from many sources (including contractual constraints, statutory constraints, and union imposed constraints).",
+  "claims": "1. A computerized method for intelligent payroll management, the method comprising: ingesting a payroll document from a user; performing optical character recognition (OCR) on the document to generate at least one form; matching the at least one form to one of a plurality of form types; calibrating the at least one form by: identifying a keyword in the at least one form corresponding to the plurality of form types; resizing the at least one form by comparing the identified keyword size to an expected size; panning the at least one form based upon an expected coordinate of the identified keyword versus the identified keyword position; selecting a coordinate range based upon the form types; extracting data from the calibrated at least one form within the coordinate range for the data responsive to the matched form type as a JSON format; generating a standardized timecard for each calibrated at least one form using the extracted data; generating a packet of standardized timecards by stitching together each standardized timecard belonging to the user; and computing an hourly gross compensation for the user responsive to the packet.",
+  "patent_id": "US12380512-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 40/125",
+      "G06V 30/10",
+      "G06V 30/412"
+    ],
+    "all": [
+      "G06Q 40/125",
+      "G06V 30/10",
+      "G06V 30/412"
+    ],
+    "source": "converted"
+  }
+}

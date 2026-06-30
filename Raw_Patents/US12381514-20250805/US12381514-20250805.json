@@ -1,0 +1,24 @@
+{
+  "title": "Power management circuit supporting phase correction in an analog signal",
+  "abstract": "A power management circuit supporting phase correction in an analog signal is disclosed. The power management circuit includes a power amplifier circuit configured to amplify an analog signal having a time-variant power envelope based on a modulated voltage. The power management circuit also includes an envelope tracking (ET) integrated circuit (ETIC) configured to generate the modulated voltage and a modulated phase correction voltage to thereby cause a phase change in the analog signal. In embodiments disclosed herein, a correlation between the time-variant power envelope, the modulated voltage, and the modulated phase correction voltage is explored to thereby allow the ETIC to generate the modulated voltage and the modulated phase correction voltage based on the time-variant power envelope. As a result, it is possible to enable good time and phase alignment between the modulated voltage and the time-variant power envelope to thereby improve efficiency and linearity of the power amplifier circuit.",
+  "claims": "1. A power management circuit comprising: a power amplifier circuit configured to amplify an analog signal based on a modulated voltage; and an envelope tracking (ET) integrated circuit (ETIC) comprising: a voltage modulation circuit configured to: receive an envelope indication signal corresponding to a time-variant power envelope of the analog signal; and generate the modulated voltage based on the envelope indication signal; and a phase correction circuit configured to generate a modulated phase correction voltage based on the envelope indication signal to thereby cause a phase change in the analog signal.",
+  "patent_id": "US12381514-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03F 1/0222",
+      "H03F 3/195",
+      "H03F 3/245",
+      "H03F 2200/102",
+      "H03F 2200/451"
+    ],
+    "all": [
+      "H03F 1/0222",
+      "H03F 3/195",
+      "H03F 3/245",
+      "H03F 2200/102",
+      "H03F 2200/451"
+    ],
+    "source": "converted"
+  }
+}

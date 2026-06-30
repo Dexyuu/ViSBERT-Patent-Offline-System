@@ -1,0 +1,20 @@
+{
+  "title": "Connection destination server selection",
+  "abstract": "A communication control apparatus is configured to calculate a turnaround time per unit data amount between a server to be controlled and each of a plurality of servers including an other server, based on a required time from when the server to be controlled starts transmitting a signal to such other server until the server to be controlled receives a response to the signal from such other server, and a data size of the signal; determine, based on the turnaround time, a priority for selecting from among the plurality of servers a connection destination server to which the server to be controlled is to be connected; and select the connection destination server from among the plurality of servers based on the priority.",
+  "claims": "1. A communication control apparatus comprising: one or more memories storing one or more instructions; and one or more processors configured to execute the one or more instructions to: calculate a turnaround time per unit data amount between a server to be controlled and each of a plurality of servers including an other server, based on a required time from when the server to be controlled starts transmitting a signal to the other server until the server to be controlled receives a response to the signal from the other server, and a data size of the signal; weight the turnaround time in accordance with an elapsed time since the one or more processors calculate the turnaround time; determine, based on an average of the weighted turnaround time, a priority for selecting from among the plurality of servers a connection destination server to which the server to be controlled is to be connected; and select the connection destination server from among the plurality of servers based on the priority.",
+  "patent_id": "US12382381-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 48/18",
+      "H04W 72/56",
+      "H04W 24/08"
+    ],
+    "all": [
+      "H04W 48/18",
+      "H04W 72/56",
+      "H04W 24/08"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Tool head posture adjustment method, apparatus and readable storage medium",
+  "abstract": "A tool head posture adjustment method and apparatus, and a readable storage medium are disclosed. Distances to laser points are measured by laser distance sensors, and the laser points can construct at least one plane, thereby determining each plane corresponding to a site to be checked; and a comprehensive normal vector of each plane is calculated, and posture parameters of a tool head of a robot are calculated by using a posture expression, thereby adjusting the tool head posture.",
+  "claims": "1. A tool head posture adjustment method, applicable to a robot, comprising: controlling laser points of laser distance sensors to irradiate onto a site in a way that the laser points are not on a straight line, where there are more than two of the laser distance sensors; acquiring a distance measured by each of the laser distance sensors, an initial coordinate of each of the laser distance sensors and a laser direction of each of the laser distance sensors, where the distance is a distance between each laser distance sensor and the corresponding laser point; calculating a laser point coordinate of each of the laser points on the site based on the distance, the initial coordinate and the laser direction, and calculating a comprehensive plane normal vector of a plane determined by the laser point coordinates, where the comprehensive plane normal vector is obtained from a plane normal vector of the plane determined by the laser point coordinates; and calculating posture parameters of a tool head posture of the robot to be adjusted based on a preset posture expression, the distances and the comprehensive plane normal vector, and controlling a tool head of the robot to be adjusted to an adjusted posture based on the posture parameters; wherein the posture expression comprises an Euler angle, a quaternion, or a rotation matrix expression, and calculating posture parameters of the tool head posture of the robot to be adjusted based on a preset posture expression, the distances and the comprehensive plane normal vector comprises; assuming the obtained comprehensive plane normal vector to be V(v x , v y , v z ), with the convention that v z >0, where when v z <0, the comprehensive plane normal vector is multiplied by −1; presetting a formula M(α, β, γ)*[0, 0, 1] T =V norm T , where M(α, β, γ) is a rotation matrix in an Euler angle rotation formula, where V norm represents the comprehensive plane normal vector with modulo being 1, and α, β and γ respectively represent Euler angles, and obtaining the posture parameters based on the preset formula, the distances and the Euler angle rotation formula.",
+  "patent_id": "US12376922-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 34/32",
+      "A61B 18/06",
+      "A61H 39/08",
+      "B25J 13/089",
+      "A61B 2562/0257",
+      "A61H 2201/1659",
+      "A61H 2201/5064",
+      "A61H 2201/5092"
+    ],
+    "all": [
+      "A61B 34/32",
+      "A61B 18/06",
+      "A61H 39/08",
+      "B25J 13/089",
+      "A61B 2562/0257",
+      "A61H 2201/1659",
+      "A61H 2201/5064",
+      "A61H 2201/5092"
+    ],
+    "source": "converted"
+  }
+}

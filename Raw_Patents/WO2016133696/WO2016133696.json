@@ -1,0 +1,38 @@
+{
+  "application_id": "WO2016133696",
+  "application_id_fs": "WO2016133696",
+  "title": "Training systems and methods for sequence taggers",
+  "abstract": "Systems and methods for or training a sequence tagger, such as conditional random field model. More specifically, the systems and methods train a sequence tagger utilizing partially labeled data from crowd-sourced data for a specific application and partially labeled data from search logs. Further, the systems and methods disclosed herein train a sequence tagger utilizing only partially labeled by utilizing a constrained lattice where each input value within the constrained lattice can have multiple candidate tags with confidence scores. Accordingly, the systems and methods provide for a more accurate sequence tagging system, a more reliable sequence tagging system, and a more efficient sequence tagging system in comparison to sequence taggers trained utilizing at least some fully-labeled training data.",
+  "claims": "Claims 1. A method for training a sequence tagger utilizing machine learning techniques, the method comprising: obtaining partially labeled data from a first source for a specific application; obtaining partially labeled data from a second source, wherein the second source is search logs; merging the partially labeled data from the first source and from the search logs into a constrained lattice, wherein each input value within the constrained lattice has a plurality of candidate tags with confidence scores, and running a training algorithm based on the constrained lattice to estimate model parameters, wherein the method provides for a more accurate sequence tagger and a more reliable sequence tagger in comparison to sequence taggers that are trained with at least some fully-labeled data, and wherein the sequence tagger is a conditional random field. 2. A training system for a conditional random field, the training system comprising: a computing device including a processing unit and a memory, the processing unit implementing a constrained lattice system, the constrained lattice system is operable to: obtain partially labeled data from crowd-sourced data for a specific application; obtain partially labeled data from search logs; merge the partially labeled data from the crowd-sourced data and from the search logs into a constrained lattice, wherein each word within the constrained lattice has a plurality of candidate tags with confidence scores; run a training algorithm based on the constrained lattice to estimate model parameters. 3. The training system of claim 2, wherein the partially labeled data from the search logs is generated from unlabeled data from a commercial search engine. 4. The training system of claim 2, wherein when a word in the constrained lattice has an uncertain tag, the constrained lattice assigns all candidate tags from a schema to the word. 5. The training system of claim 2, wherein the constrained lattice is constrained because each word has a set of allowed candidate tag types and because the plurality of candidate tags is structured, and wherein the plurality of candidate tags is structured because some candidate tags types cannot follow certain other candidate tag types. 6. The training system of claim 2, wherein the training algorithm minimizes an energy gap between a candidate tag from the constrained lattice and a corresponding candidate tag from an unconstrained lattice. 7. The training system of claim 2, wherein the constrained lattice system creates a more accurate conditional random field and a more reliable conditional random field in comparison to conditional random fields that are trained with at least some fully- labeled data. 8. The training system of claim 2, wherein the training system builds a language understanding model without needing to obtain any fully-labeled data for the specific application. 9. The training system of claim 2, wherein the constrained lattice system is implemented on at least one of: a mobile telephone; a smart phone; a tablet; a smart watch; a wearable computer; a personal computer; a desktop computer; a gaming system; and a laptop computer. 10. The training system of claim 2, wherein the specific application is at least one of: a digital assistant application; a voice recognition application; an email application; a social networking application; a collaboration application; an enterprise management application; \n\n a messaging application; a word processing application; a spreadsheet application; a database application; a presentation application; a contacts application; a gaming application; an e-commerce application; an e-business application; a transactional application; an exchange application; and a calendaring application. 11. The method of claim 1, wherein when an input value in the constrained lattice has a missing or uncertain tag, the constrained lattice assigns all candidate tags from a schema to the input value. 12. The method of claim 1, wherein the constrained lattice is constrained because every input value has a set of allowed candidate tag types and because the plurality of candidate tags is structured, and wherein the plurality of candidate tags is structured because some candidate tags types cannot follow certain other candidate tag types. 13. The method of claim 1, wherein the training algorithm minimizes an energy gap between a candidate tag from the constrained lattice and a corresponding candidate tag from an unconstrained lattice. 14. The method of claim 1, wherein the method provides a platform for building language understanding models without needing any fully-labeled data for the specific application. 15. The method of claim 1, wherein the specific application is at least one of: a digital assistant application; a voice recognition application; an email application; a social networking application; a collaboration application; an enterprise management application; a messaging application; \n\n a word processing application; a spreadsheet application; a database application; a presentation application; a contacts application; a gaming application; an e-commerce application; an e-business application; a transactional application; an exchange application; and a calendaring application.",
+  "classifications": {
+    "ipc": [
+      "G06N 20/00",
+      "G06F 16/00",
+      "G06F 16/90",
+      "G06F 16/95",
+      "G06F 16/951",
+      "G06F 40/00",
+      "G06F 40/20",
+      "G06F 40/205",
+      "G06F 40/30",
+      "G06N 7/00",
+      "G06N 7/01"
+    ],
+    "cpc": [],
+    "all": [
+      "G06N 20/00",
+      "G06F 16/00",
+      "G06F 16/90",
+      "G06F 16/95",
+      "G06F 16/951",
+      "G06F 40/00",
+      "G06F 40/20",
+      "G06F 40/205",
+      "G06F 40/30",
+      "G06N 7/00",
+      "G06N 7/01"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2016133696"
+}

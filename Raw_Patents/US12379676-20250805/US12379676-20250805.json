@@ -1,0 +1,20 @@
+{
+  "title": "Package imaging for die location correction in digital lithography",
+  "abstract": "Actual physical locations of dies on a substrate package may be identified without using a full metrology scan of the substrate. Instead, one or more cameras may be used to efficiently locate the approximate location of any of the alignment features based on their expected positioning in the design file for the packages are substrate. The cameras may then be moved to locations where alignment features should be, and images may be captured to determine the actual location of the alignment feature. These actual locations of the alignment features may then be used to identify coordinates for the dies, as well as rotations and/or varying heights of the dies on the packages. A difference between the expected location from the design file and the actual physical location may be used to adjust instructions for the digital lithography system to compensate for the misalignment of the dies.",
+  "claims": "1. A system comprising: a first semiconductor processing station comprising: one or more cameras; and a first controller configured to perform first operations comprising: receiving first locations for a plurality of dies on a substrate from a design file of the substrate; causing the one or more cameras to capture images of the plurality of dies at the first locations; determining, based on the images of the dies at the first locations, second locations for the plurality of dies associated with actual locations of the plurality of dies on the substrate; and determining differences between the first locations and the second locations; and a second semiconductor processing station that is separate and distinct from the first semiconductor processing station and configured to receive the substrate after images are captured by the first semiconductor processing station, the second semiconductor processing station comprising: a digital lithography system; and a second controller configured to perform second operations comprising: generating or adjusting instructions for the digital lithography system to change trace routes between the plurality of dies to compensate for the differences between the first locations and the second locations; and causing the digital lithography system to execute a digital lithography process on the substrate using the instructions to form the trace routes between connections on first sides of the plurality of dies, wherein the first sides are opposite second sides of the plurality of dies that are mounted to the substrate.",
+  "patent_id": "US12379676-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G03F 9/7015",
+      "G01B 11/272",
+      "G03F 7/70441"
+    ],
+    "all": [
+      "G03F 9/7015",
+      "G01B 11/272",
+      "G03F 7/70441"
+    ],
+    "source": "converted"
+  }
+}

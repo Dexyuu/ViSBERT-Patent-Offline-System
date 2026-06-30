@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2025101827",
+  "application_id_fs": "WO2025101827",
+  "title": "Grammar-preserving text saliency modulation",
+  "abstract": "Some readers can find text difficult to consume. Summarization can address some of these difficulties by reducing the number of words in the text. However, summarization can omit information or context relevant to the reader, and the reader does not even know they are missing it unless they also read the entire original passage. One approach to addressing this problem is to instead modify how the original text is rendered to make important information more salient. In some embodiments, a method and corresponding system provide Grammar-Preserving Text Saliency Modulation (GP-TSM), a text rendering method able to determine which text of a passage to emphasize or de-emphasize. In some embodiments, GP-TSM employs a recursive sentence compression method to identify successive levels of detail beyond the core meaning of a passage, which are de-emphasized by rendering words in successively lighter but still legible gray text.",
+  "claims": "Claims CLAIMS What is claimed is: 1. A computer-implemented method for saliency-based text display, comprising: reading a source text comprising a plurality of tokens; providing the source text to a summarizer, the summarizer configured to summarize input text; receiving from the summarizer a first summarized text, the first summarized text being a summary of the source text; providing the first summarized text to the summarizer; receiving from the summarizer a second summarized text, the second summarized text being a summary of the first summarized text; and tagging each token of the source text based on the first and second summarized texts, said tagging comprising: applying a first tag to those tokens appearing in the source text but not the first or second summarized texts, applying a second tag to those tokens appearing in the source text and the first summarized text but not in the second summarized test, and applying a third tag to those tokens appearing in the source text, the first summarized text, and the second summarized text. 2. The method of Claim 1, wherein the summarizer is an extractive summarizer. 3. The method of Claim 1, wherein the summarizer is a stochastic summarizer. 4. The method of Claim 3, further comprising providing a summarization instruction to the stochastic summarizer with the source text, with the first summarized text, and with the second summarized text. 5. The method of Claim 1, wherein the summarizer comprises a large language model (LLM). 6. The method of Claim 5, further comprising providing a summarization prompt to the LLM with the source text, with the first summarized text, and with the second summarized text. 7. The method of Claim 5, further comprising providing a summarization prompt to the LLM with the source text to obtain a plurality of candidates for the first summarized text. 8. The method of Claim 7, further comprising selecting the first summarized text from its plurality of candidates based on a quality score. 9. The method of Claim 8, wherein the quality score is based on the grammatical correctness of each of the plurality of candidates. 10. The method of Claim 8, wherein the quality score is based on the presence of paraphrasing and/or substitutions in each of the plurality of candidates. 11. The method of Claim 8, wherein the quality score is based on semantic similarity between each of the plurality of candidates and the source text. 12. The method of Claim 8, wherein the quality score is based on a length each of the plurality of candidates. 13. The method of Claim 1, further comprising: comparing the first summarized text to the source text to identify any tokens appearing in the first summarized text but not in the source text, and removing any such tokens from the first summarized text. 14. The method of Claim 13, wherein removing such tokens comprises reversing any paraphrasing and/or term substitution created by the summarizer. 15. The method of Claim 1, further comprising receiving a sequence of additional summarized texts from the summarizer, each summarized text in the sequence being based on its predecessor in the sequence. 16. The method of Claim 15, further comprising terminating the sequence when a summarized text in the sequence is identical to its predecessor in the sequence. 17. The method of Claim 15, further comprising terminating the sequence when a summarized text in the sequence has a quality score below a predetermined threshold. 18. The method of Claim 17, wherein the quality score is based on grammatical correctness, presence of paraphrasing and/or substitutions, response length, or semantic similarity. 19. The method of Claim 1, further comprising: displaying the source text on a display, wherein each token in the source text includes a visual indicator of its associated tag. 20. The method of Claim 19, wherein the visual indicator comprises one or more of: highlight opacity, highlight color, font opacity, font hue, font size, font weight, font width, font style, typeface, case, or background color. 21. The method of Claim 20, further comprising: providing one or more interactive controls on the display, the one or more interactive controls operative by a user to update the visual indicator for the first, second, or third tag. 22. The method of Claim 21, wherein the one or more interactive controls are operable to apply the visual indicator associated with the second tag to tokens having the first tag and/or to apply the visual indicator associate with the third tag to tokens having the first or second tag. 23. The method of Claim 21, wherein the one or more interactive controls comprise on or more of: a slider or a natural language description. 24. A computer-implemented method for saliency-based text display, comprising: reading a source text comprising a plurality of tokens; providing the source text to a summarizer, the summarizer configured to summarize input text; receiving from the summarizer a first summarized text, the first summarized text being a summary of the source text; and tagging each token of the source text based on the first summarized text, said tagging comprising: applying a first tag to those tokens appearing in the source text but not the first text, and applying a second tag to those tokens appearing in the source text and the first summarized text. 25. A computer program product for saliency-based text display, the computer program product comprising a computer readable storage medium having program instructions embodied therewith, the program instructions executable by a processor to cause the processor to perform a method according to any one of Claims 1 to 24.",
+  "classifications": {
+    "ipc": [
+      "G06F 40/00",
+      "G06F 40/40",
+      "G06F 40/42",
+      "G06F 40/44",
+      "G06F 40/10",
+      "G06F 40/103",
+      "G06F 40/106",
+      "G06F 40/194",
+      "G06F 40/20",
+      "G06F 40/205",
+      "G06F 40/216",
+      "G06F 40/30",
+      "G06F 40/55",
+      "G06F 40/56"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 40/00",
+      "G06F 40/40",
+      "G06F 40/42",
+      "G06F 40/44",
+      "G06F 40/10",
+      "G06F 40/103",
+      "G06F 40/106",
+      "G06F 40/194",
+      "G06F 40/20",
+      "G06F 40/205",
+      "G06F 40/216",
+      "G06F 40/30",
+      "G06F 40/55",
+      "G06F 40/56"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025101827"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "User activity history experiences powered by a machine learning model",
+  "abstract": "Machine learning techniques are leveraged to provide personalized assistance on a computing device. In some configurations a timeline of a user's interactions with the computing device is generated. For example, screenshots and audio streams may be saved as entries in the timeline. Contextâthe state of the computing device when the entry is created, such as which documents and websites are openâis also stored. Entries in the timeline are processed by a model to generate embedding vectors. The timeline may be searched by finding the embedding vector that is closest to an embedding vector derived from a search query. The user may select a query result, causing the associated context to be restored. For example, if the query is âshow me all documents related to my upcoming trip to Japanâ, the query result may open documents and websites that were open when booking a flight to Japan.",
+  "claims": "1. A method comprising: providing a search query to a machine learning model; receiving a query embedding vector from the machine learning model that represents the search query in an embedding space; selecting an interaction embedding vector from a plurality of interaction embedding vectors based on a distance between the query embedding vector and the interaction embedding vector in the embedding space, wherein the interaction embedding vector represents, in the embedding space, a user interaction with a computing device at a previous point in time; retrieving a context of an application at the previous point in time based on the selected interaction embedding vector; and configuring the application based on the context.",
+  "patent_id": "US12380155-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/447",
+      "G06F 16/438"
+    ],
+    "all": [
+      "G06F 16/447",
+      "G06F 16/438"
+    ],
+    "source": "converted"
+  }
+}

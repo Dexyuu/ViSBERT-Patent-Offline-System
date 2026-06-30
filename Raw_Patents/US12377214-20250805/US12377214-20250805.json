@@ -1,0 +1,28 @@
+{
+  "title": "Systems and methods for controlled delivery of analgesic and hypnotic agents",
+  "abstract": "The invention involves the administration of clinical anesthesia. Particular embodiments provide systems and methods for controlled delivery of a combination of an analgesic agent and a hypnotic agent. More specifically, the invention involves closed-loop control systems/methods for automatically controlling the administration of a combination of a hypnotic agent and an analgesic agent in a clinical anesthesia setting which incorporate feedback based on one or more indirect measures/indicia of analgesia. The invention further includes such control systems/methods that account for limitations of such indirect measures/indicia of analgesia.",
+  "claims": "1. A method for controlling a first rate of infusion of a hypnotic agent uP into a subject and a second rate of infusion of an analgesic agent uR into the subject, the method comprising: receiving, at a computer processor, a measure representative of a depth of hypnosis (DOH) of the subject is selected from a group of indices consisting of a WAVCNS index or a BIS index; determining, by the computer processor, a first control signal (or value) for each of a first series of time steps to control the first rate of infusion of a hypnotic agent u P into the subject and determining a second control signal (or value) for each of a second series of time steps to control the second rate of infusion of the analgesic agent u R into the subject, wherein determining the first control signal and determining the second control signal are both based on the measure representative of the depth of hypnosis; and outputting, from the computer processor, the first control signal to a hypnotic agent administration actuator at each of the first series of time steps, to thereby control the hypnotic agent administration actuator to inject the hypnotic agent into the subject at the first rate of infusion of the hypnotic agent u P and outputting the second control signal to an analgesic agent administration actuator at each of the second series of time steps, to thereby control the analgesic agent administration actuator to inject the analgesic agent into the subject at the second rate of infusion of the analgesic agent u R ; wherein the first series of time steps is the same as the second series of time steps.",
+  "patent_id": "US12377214-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61M 5/172",
+      "A61B 5/4821",
+      "A61M 19/00",
+      "A61M 21/00",
+      "A61B 5/7203",
+      "A61M 5/14",
+      "A61M 2230/08"
+    ],
+    "all": [
+      "A61M 5/172",
+      "A61B 5/4821",
+      "A61M 19/00",
+      "A61M 21/00",
+      "A61B 5/7203",
+      "A61M 5/14",
+      "A61M 2230/08"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Layout extraction system for regional annotation of images",
+  "abstract": "A system may access an input image. The system may generate a plurality of segments based on one or more segmentation models and the input image, each segment from among the plurality of segments representing a corresponding salient object. The system may generate a depth map based on a depth estimation model. The system may layer the plurality of segments, based on the depth map and border regions between pairs of segments, to generate a plurality of ordered segments. The system may execute a vision-language model to generate a text annotation of the image based on the plurality of ordered segments.",
+  "claims": "21. A system, comprising: a processor programmed to: access an input image; generate a plurality of segments based on one or more segmentation models and the input image, each segment from among the plurality of segments representing a corresponding salient object; generate a depth map based on a depth estimation model; layer the plurality of segments, based on the depth map and border regions between pairs of segments, to generate a plurality of ordered segments, wherein to layer the plurality of segments, the processor is programmed to: generate a pairwise depth ordering of the plurality of segments that considers only the border region between each pair of segments and provides a relative ordering of segments in each pair with respect to one another; and perform global topological sorting based on the pairwise depth ordering, wherein the respective depth value of each is based on the global topological sorting; and execute a vision-language model to generate a text annotation of the image based on the plurality of ordered segments.",
+  "patent_id": "US12380569-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/11",
+      "G06F 40/40",
+      "G06T 5/70",
+      "G06T 7/50",
+      "G06T 2210/12"
+    ],
+    "all": [
+      "G06T 7/11",
+      "G06F 40/40",
+      "G06T 5/70",
+      "G06T 7/50",
+      "G06T 2210/12"
+    ],
+    "source": "converted"
+  }
+}

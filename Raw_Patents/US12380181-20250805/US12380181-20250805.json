@@ -1,0 +1,30 @@
+{
+  "title": "Information processing apparatus, information processing system, and method of processing information",
+  "abstract": "An information processing apparatus connectable with a terminal via a network to manage a license of a package including applications assignable to a device includes circuitry configured to display a first screen for displaying a device list, the license of the package being assignable to and cancellable from the device in response to receiving a first request, receive a selection of a specific device in the device list and any one of an operation of assigning and cancelling the license of the package, assign the license of the package to the selected specific device in response to receiving the selection of the specific device and the operation of assigning the license of the package, and cancel the license of the package from the selected specific device in response to receiving the selection of the specific device and the operation of cancelling the license of the package.",
+  "claims": "1. An information processing apparatus connectable with a terminal via a network to manage a license of a package including a plurality of applications assignable to a device, the information processing apparatus comprising: circuitry configured to: generate screen information that displays a first screen on the terminal including a plurality of identification information corresponding to a plurality of packages, each identification information identifying a package available to a tenant, and a plurality of first buttons and a plurality of second buttons corresponding to the plurality of identification information, respectively; receive, on the first screen, a selection of operation of a first button or a second button corresponding to a specific package among the plurality of packages; generate screen information that displays a second screen on the terminal in a case that the operation of the first button is received, wherein the second screen includes a device list including, among devices corresponding to the identification information, one or more devices to which the license of the specific package is not assigned and not including one or more devices to which the license of the specific package is assigned; generate screen information that displays a third screen on the terminal in a case that the operation of the second button is received, wherein the third screen includes a device list including, among the devices corresponding to the identification information, one or more devices to which the license of the specific package is assigned and not including one or more devices to which the license of the specific package is not assigned; send the screen information that displays the second screen or the third screen to the terminal; receive, from the terminal, a selection of a specific device from the one or more devices included in the device list displayed on the second screen or the third screen; in a case where the selection of the specific device is received, assign the specific license of the particular package to the specific device selected from the device list in the case that the operation of the first button was received in the case that the specific license of the particular package has not been assigned to the specific device; and cancel the specific license of the particular package from the specific device selected from the device list in the case that the operation of the second button was received.",
+  "patent_id": "US12380181-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/105",
+      "G06F 3/1203",
+      "G06F 3/1231",
+      "G06F 3/1232",
+      "G06F 21/10",
+      "H04N 1/00411",
+      "H04N 1/0097",
+      "H04N 2201/0094"
+    ],
+    "all": [
+      "G06F 21/105",
+      "G06F 3/1203",
+      "G06F 3/1231",
+      "G06F 3/1232",
+      "G06F 21/10",
+      "H04N 1/00411",
+      "H04N 1/0097",
+      "H04N 2201/0094"
+    ],
+    "source": "converted"
+  }
+}

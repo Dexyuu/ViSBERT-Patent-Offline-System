@@ -1,0 +1,24 @@
+{
+  "title": "Automated exception event handler for resolving shipping exceptions",
+  "abstract": "A system can include one or more processors and one or more non-transitory storage media storing computing instructions that, when executed on the one or more processors, cause the one or more processors to perform operations including: receiving an incoming message stream from one or more carriers; parsing respective content within each incoming message; retrieving a respective code identifying whether a respective delivery exception occurred; translating the respective code to determine whether to take respective corrective measures for the one or more carriers when respective delivery exceptions occur; determining one or more automated corrective measures that are available prior to soliciting feedback from a user; soliciting the feedback from the user to select at least one of the one or more automated corrective measures; and executing the at least one of the one or more automated corrective measures, as selected by the user. Other embodiments are disclosed herein.",
+  "claims": "1. A system comprising: a processor; and a non-transitory computer-readable medium storing computing instructions that, when executed on the processor, cause the processor to perform operations comprising: receiving an incoming message stream from one or more carriers; parsing respective content within each incoming message from the incoming message stream; retrieving, from the respective content in each incoming message, a respective code identifying whether a respective delivery exception occurred within each incoming message from the incoming message stream; translating the respective code within each incoming message, to determine whether to take one or more respective corrective measures for the one or more carriers when one or more respective delivery exceptions occur; prior to soliciting feedback from a user and in response to determining to take the one or more respective corrective measures, proactively determining one or more predetermined corrective measures that are available based on user preferences of the user, wherein the user comprises a recipient of a delivery, and wherein the one or more predetermined corrective measures comprise one or more specific types of corrective measures that are taken automatically in response to detecting corresponding one or more respective types of the one or more respective delivery exceptions in the incoming message stream; automatically executing the one or more predetermined corrective measures; soliciting the feedback from the user to select at least one additional corrective measure of the one or more respective corrective measures to resolve the one or more respective delivery exceptions, as identified to have occurred; and after receiving the feedback, executing the at least one additional corrective measure of the one or more respective corrective measures, as selected by the user.",
+  "patent_id": "US12380397-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/0835",
+      "G06F 3/048",
+      "G06Q 10/0832",
+      "G06Q 10/0833",
+      "H04W 4/35"
+    ],
+    "all": [
+      "G06Q 10/0835",
+      "G06F 3/048",
+      "G06Q 10/0832",
+      "G06Q 10/0833",
+      "H04W 4/35"
+    ],
+    "source": "converted"
+  }
+}

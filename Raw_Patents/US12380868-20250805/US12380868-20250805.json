@@ -1,0 +1,16 @@
+{
+  "title": "Voltage control circuit including a timing control module controlling whether a second voltage signal is outputted, and display panel",
+  "abstract": "A voltage control circuit comprises a timing control module; the timing control module comprises a first comparator, a second comparator, and an AND gate comparator, two input ends of the AND gate comparator are respectively connected to the output end of the first comparator and the output end of the second comparator, and the output end of the AND gate comparator is used for controlling the output of a second voltage signal; and the timing control module can implement control on the timing of the second voltage signal.",
+  "claims": "1. A voltage control circuit, comprising: an I2C control module, configured to convert a first input signal and a second input signal into a code signal; a digital-to-analog conversion module, configured to receive the code signal and convert the code signal into a first voltage signal; an amplification module, configured to amplify the first voltage signal into a second voltage signal; and a timing control module, comprising a first comparator, a second comparator, and an AND gate comparator, an output end of the first comparator and an output end of the second comparator being respectively connected to two input ends of the AND gate comparator, and an output end of the AND gate comparator being connected to the amplification module, wherein the timing control module is configured to control whether the second voltage signal is outputted, when the output end of the AND gate comparator is 1, the second voltage signal is outputted, and when the output end of the AND gate comparator is 0, the second voltage signal stops being outputted.",
+  "patent_id": "US12380868-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/3696"
+    ],
+    "all": [
+      "G09G 3/3696"
+    ],
+    "source": "converted"
+  }
+}

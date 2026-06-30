@@ -1,0 +1,22 @@
+{
+  "title": "Image forming apparatus, method for controlling image forming apparatus, and storage medium for controlling start of printing",
+  "abstract": "An image forming apparatus includes a reception unit and a controller. The reception unit is configured to receive a plurality of image data in a sequential manner. The controller is configured to perform control, in a case where first image data among the plurality of image data is received, so as not to start printing upon reception of the first image data in a case where the first image data has a different print setting from second image data received before the first image data, and perform control, in a case where third image data received after the first image data has a same print setting as the second image data, so as to arrange, in a main scan direction of a sheet, image data having the same print setting and including not the first image data but the second image data and the third image data to start printing.",
+  "claims": "1. An image forming apparatus comprising: a communication interface configured to receive a plurality of image data in a sequential manner; and a controller configured to perform control, in a case where first image data among the plurality of image data is received, so as not to start printing upon reception of the first image data in a case where the first image data has a different print setting from second image data received before the first image data, and perform control, in a case where third image data received after the first image data has a same print setting as the second image data, so as to arrange, in a main scan direction of a sheet, image data having the same print setting and including not the first image data but the second image data and the third image data to start printing, wherein the controller causes, in a case where currently received image data has a same print setting as first received image data and where the sheet has a margin that allows images represented by the currently received image data and image data having the same print setting and including the first received image data to be arranged and printed side by side in the main scan direction of the sheet, the currently received image data to be included in the image data arranged in the main scan direction of the sheet to start printing, and does not cause, in a case where the currently received image data has a same print setting as the first received image data and where the sheet does not have a margin that allows images represented by the currently received image data and the image data having the same print setting and including the first received image data to be arranged and printed side by side in the main scan direction of the sheet, the currently received image data to be included in the image data arranged in the main scan direction of the sheet to start printing.",
+  "patent_id": "US12379883-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/1267",
+      "G06F 3/1205",
+      "G06F 3/1208",
+      "H04N 1/00588"
+    ],
+    "all": [
+      "G06F 3/1267",
+      "G06F 3/1205",
+      "G06F 3/1208",
+      "H04N 1/00588"
+    ],
+    "source": "converted"
+  }
+}

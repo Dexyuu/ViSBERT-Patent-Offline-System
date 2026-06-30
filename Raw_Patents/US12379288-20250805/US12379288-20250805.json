@@ -1,0 +1,16 @@
+{
+  "title": "Systems and methods for testing damping modules",
+  "abstract": "A system for testing a damping module includes a test machine configured to test a damping module, and a control module in communication with the test machine. The control module is configured to create an engineered input based on vehicle data, activate the test machine to test the damping module, provide the created engineered input to the test machine to simulate the vehicle data on the damping module while the test machine is testing the damping module, and receive, from the test machine, an output response of the damping module based on the engineered input. Other examples systems and methods for testing a damping module are also disclosed.",
+  "claims": "1. A system for testing a damping module, the system comprising: a test machine configured to test a damping module, the test machine including a frame configured to receive the damping module; and a controller in communication with the test machine, the controller configured to: create an engineered input based on raw vehicle data measured from a moving vehicle, the engineered input including a waveform representing the raw vehicle data, the raw vehicle data including at least one of a measured force value of a damping module in the moving vehicle, a measured displacement value of the damping module in the moving vehicle, and a measured acceleration value of the damping module in the moving vehicle; activate the test machine to test the damping module; provide the created engineered input to the test machine to simulate the raw vehicle data on the damping module while the test machine is testing the damping module; receive, from the test machine, an output response of the damping module based on the engineered input, the output response including a waveform; determine a difference between the waveform of the output response and the waveform of the engineered input provided to the test machine; and in response to the difference between the waveform of the output response and the waveform of the engineered input exceeding a defined threshold, generate a signal to adjust a parameter of the damping module.",
+  "patent_id": "US12379288-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01M 17/04"
+    ],
+    "all": [
+      "G01M 17/04"
+    ],
+    "source": "converted"
+  }
+}

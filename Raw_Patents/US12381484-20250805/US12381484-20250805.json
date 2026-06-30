@@ -1,0 +1,20 @@
+{
+  "title": "Voltage regulating apparatus, chip, power supply and electronic device",
+  "abstract": "This application describes example voltage regulating apparatuses, chips, power supplies, and electronic devices. In one example, an apparatus includes: a voltage input interface (10), which is used to receive an input voltage; a current determination component (20), which is electrically connected to the voltage input interface (10) and is used for determining a regulating current according to the input voltage and the amount of change between the input voltage and an adjacent input voltage of a previous moment; a controller (30), which is electrically connected to the current determination component (20) and is used to output a control signal according to the regulating current; and a voltage output interface (40), which is electrically connected to the voltage input interface (10), the current determination component (20) and the controller (30) and is used to output a target voltage according to the control signal and the input voltage.",
+  "claims": "1. A voltage adjustment apparatus, comprising: a voltage input interface, configured to receive an input voltage; a current determination component, electrically connected to the voltage input interface, and to determine an adjustment current based on the input voltage and a change amount between the input voltage and an input voltage at an adjacent previous moment; a controller, electrically connected to the current determination component, and configured to output a control signal based on the adjustment current; and a voltage output interface, electrically connected to the voltage input interface, the current determination component, and the controller, wherein the voltage output interface is configured to receive the control signal from the controller and output a target voltage based on the control signal and the input voltage, wherein the adjustment current comprises a second adjustment current, the current determination component comprises a second determination subcomponent configured to determine the second adjustment current, and the second determination subcomponent comprises a current detector, a multiplier, and a current determination subcomponent, wherein the current detector is electrically connected to the voltage output interface, and configured to detect a load current and obtain a detection voltage based on the load current, wherein the multiplier is electrically connected to the current detector and the voltage input interface, and configured to multiply the input voltage and the detection voltage to obtain an intermediate voltage, and wherein the current determination subcomponent is electrically connected to the multiplier, and configured to determine the second adjustment current based on the intermediate voltage.",
+  "patent_id": "US12381484-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02M 3/158",
+      "H02M 1/0009",
+      "H02M 1/0022"
+    ],
+    "all": [
+      "H02M 3/158",
+      "H02M 1/0009",
+      "H02M 1/0022"
+    ],
+    "source": "converted"
+  }
+}

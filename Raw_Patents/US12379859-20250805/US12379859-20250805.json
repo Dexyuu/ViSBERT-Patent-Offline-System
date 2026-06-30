@@ -1,0 +1,20 @@
+{
+  "title": "Storage controller mapping physical function to virtual machine and method of operating electronic system including the same",
+  "abstract": "A storage controller for controlling a nonvolatile memory device is disclosed. The storage controller includes a buffer memory and a processor. The processor is configured to provide a plurality of physical functions having equivalent authorities to a host, and to allocate, in response to a resource allocation request received from the host via an arbitrary physical function among the plurality of physical functions, a namespace provided by the nonvolatile memory device and a buffer region included in the buffer memory to one or more target physical functions among the plurality of physical functions.",
+  "claims": "1. An electronic system comprising: a host including a virtual machine manager and a plurality of virtual machines; and a storage device connected to the host, and including a nonvolatile memory device and a storage controller configured to control the nonvolatile memory device, wherein the storage controller includes: a buffer memory; and a processor configured to: provide a plurality of physical functions having equivalent authorities to the host, and allocate, in response to a resource allocation request received from the host via an arbitrary physical function among the plurality of physical functions, a namespace provided by the nonvolatile memory device and a buffer region included in the buffer memory to a target physical function among the plurality of physical functions, wherein the plurality of virtual machines are configured to: request a resource allocation authority to the virtual machine manager, and provide the resource allocation request to each of the plurality of physical functions, and wherein the virtual machine manager is configured to: map the plurality of physical functions to the plurality of virtual machines, and provide the resource allocation authority to the plurality of virtual machines in response to the requested resource allocation authority from the plurality of virtual machines.",
+  "patent_id": "US12379859-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0631",
+      "G06F 3/0604",
+      "G06F 3/0656"
+    ],
+    "all": [
+      "G06F 3/0631",
+      "G06F 3/0604",
+      "G06F 3/0656"
+    ],
+    "source": "converted"
+  }
+}

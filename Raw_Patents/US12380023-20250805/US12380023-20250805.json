@@ -1,0 +1,20 @@
+{
+  "title": "Providing adaptive cache bypass in processor-based devices",
+  "abstract": "Providing adaptive cache bypass in processor-based devices is disclosed. In some aspects, a processor-based device comprises a processor that comprises a cache. The processor is configured to calculate a cache result rate based on a first one or more outcomes of a corresponding first one or more cache requests to a cache region of the cache during a sampling period. The processor is further configured to determine that the cache result rate fails to satisfy a cache result requirement. The processor is also configured to, responsive to determining that the cache result rate fails to satisfy the cache result requirement, restrict access to the cache region of the cache subsequent to the sampling period.",
+  "claims": "1. A processor-based device, comprising: a processor comprising a cache; the processor configured to: calculate a cache result rate based on a first one or more outcomes of a corresponding first one or more cache requests to a cache region of the cache during a sampling period, wherein the cache region comprises the entire cache; determine that the cache result rate fails to satisfy a cache result requirement; responsive to determining that the cache result rate fails to satisfy the cache result requirement, restrict access to the cache region of the cache subsequent to the sampling period by being configured to disable the cache; subsequent to a predetermined reset interval, re-enable the cache; and invalidate contents of the cache.",
+  "patent_id": "US12380023-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 12/0802",
+      "G06F 12/0888",
+      "G06F 2212/60"
+    ],
+    "all": [
+      "G06F 12/0802",
+      "G06F 12/0888",
+      "G06F 2212/60"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Generating a segment rebuild plan via a node of a database system",
+  "abstract": "A database system is operable to determine to generate a segment rebuild plan for rebuilding a first segment based on accessing first segment metadata for the first segment. A plurality of replicated part location data is determined for a plurality of parts of the first segment based on processing the first segment metadata and based on applying a deterministic segment part replica dispersal algorithm previously utilized to store the segment group. Nodes of the database system storing a corresponding plurality of sibling parts required to rebuild the plurality of parts of the first segment are determined based on the plurality of replicated part location data and based on storage location-to-node mapping data. The first segment is rebuilt based on applying the segment rebuild plan.",
+  "claims": "1. A method comprising: storing a set of segments of a segment group that includes a first segment and a set of sibling segments of the first segment via nodes of a database system; determining, via a first node of the database system, to rebuild the first segment of the segment group; based on determining to rebuild the first segment, generating, via the first node, a segment rebuild plan for rebuilding the first segment based on: accessing, via the first node, first segment metadata for the first segment indicating for each of a plurality of parts of the first segment, a corresponding sibling part replica type of a corresponding part of at least one sibling segment of the segment group; determining, via the first node, a plurality of part replication types for the plurality of parts of the first segment based on processing the first segment metadata, wherein a first non-null proper subset of the plurality of parts of the first segment are determined to have a first corresponding one of the plurality of part replication types corresponding to replication by copy as a copy of a corresponding sibling part of a sibling segment in the set of sibling segments of the segment group, wherein a second non-null proper subset of the plurality of parts of the first segment are determined to have a second corresponding one of the plurality of part replication types corresponding to replication by parity as erasure-coded parity data, and wherein the first non-null proper subset and the second non-null proper subset are mutually exclusive and collectively exhaustive with respect to the plurality of parts; determining, via the first node, a plurality of replicated part location data for the plurality of parts of the first segment based on the plurality of part replication types and based on applying a deterministic segment part replica dispersal algorithm previously utilized to store the segment group; and determining, via the first node, ones of a plurality of nodes of the database system storing a corresponding plurality of sibling parts required to rebuild the plurality of parts of the first segment based on the plurality of replicated part location data and based on storage location-to-node mapping data; and rebuilding, via the first node, the first segment based on applying the segment rebuild plan.",
+  "patent_id": "US12380101-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/24542",
+      "G06F 11/3409",
+      "G06F 16/27"
+    ],
+    "all": [
+      "G06F 16/24542",
+      "G06F 11/3409",
+      "G06F 16/27"
+    ],
+    "source": "converted"
+  }
+}

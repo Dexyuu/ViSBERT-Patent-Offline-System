@@ -1,0 +1,40 @@
+{
+  "title": "Methods and systems for using multiple data structures to process surgical data",
+  "abstract": "The present disclosure relates to processing data streams from a surgical procedure using multiple interconnected data structures to generate and/or continuously update an electronic output. Each surgical data structure is used to determine a current node associated with a characteristic of a surgical procedure and present relevant metadata associated with the surgical procedure. Each surgical data structure includes at least one node interconnected to one or more nodes of another data structure. The interconnected nodes between one or more data structures includes relational metadata associated with the surgical procedure.",
+  "claims": "1. A computer-implemented method comprising: accessing, by a processor, a surgical dataset associated with a surgical procedure, the surgical dataset comprising a surgical video of the surgical procedure being performed using a surgical tool; creating, by the processor, a surgical map of the surgical procedure by analyzing the surgical video using a trained machine learning algorithm that is trained using training data with pixel-level labels from a segmented procedure video stream, wherein the surgical map comprises at least: a first data structure that comprises a first plurality of nodes and a first plurality of edges, wherein a first node from the first data structure represents a procedural state in the surgical procedure; a second data structure that comprises a second plurality of nodes and a second plurality of edges, wherein a second node from the second data structure represents the surgical tool used in the surgical procedure; adding, by the processor, an interconnecting edge between the first node and the second node based on a surgical event detected in the surgical video, wherein the interconnecting edge is associated with a relational metadata representing a use of the surgical tool of the second node in the procedural state of the first node; augmenting, by the processor, the surgical video by including an electronic data to a portion of the surgical video comprising a set of pixels, the electronic data describing an operational note based at least on the procedural state of the first node, a data associated with the second node, and the relational metadata associated with the interconnecting edge between the first node and the second node, the portion comprising the use of the surgical tool of the second node in the procedural state of the first node; and outputting, by the processor, the electronic data during playback of the portion of the surgical video on a display.",
+  "patent_id": "US12380998-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16H 40/63",
+      "G06F 3/014",
+      "G06F 3/017",
+      "G06F 16/22",
+      "G06N 5/02",
+      "G06V 20/41",
+      "G06V 20/47",
+      "G09B 9/00",
+      "G09B 23/28",
+      "G16H 10/60",
+      "G16H 30/40",
+      "G16H 50/70",
+      "G06V 2201/10"
+    ],
+    "all": [
+      "G16H 40/63",
+      "G06F 3/014",
+      "G06F 3/017",
+      "G06F 16/22",
+      "G06N 5/02",
+      "G06V 20/41",
+      "G06V 20/47",
+      "G09B 9/00",
+      "G09B 23/28",
+      "G16H 10/60",
+      "G16H 30/40",
+      "G16H 50/70",
+      "G06V 2201/10"
+    ],
+    "source": "converted"
+  }
+}

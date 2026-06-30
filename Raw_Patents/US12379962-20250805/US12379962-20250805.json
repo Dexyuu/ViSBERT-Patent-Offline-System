@@ -1,0 +1,18 @@
+{
+  "title": "Storage array resource allocation based on feature sensitivities",
+  "abstract": "Aspects of the present disclosure relate to tuning resource allocations based on a storage array feature's impact on the array's global performance. In embodiments, one or more input/output (IO) features used by a storage array to process one or more IO workloads are determined. Additionally, each IO feature's impact for processing the IO workload within a threshold performance requirement can be determined. Further, at least one IO feature's resource allocation can be tuned based on its IO workload processing impact.",
+  "claims": "1. A method comprising: determining one or more input/output (IO) features used by a storage array to process one or more IO workloads by parsing a configuration element to identify hyperparameters across distinct logic and hardware layers of the storage array, wherein the storage array comprises a host adapter (HA), device adapter (DA), remote adapter (RA), and memory components communicatively coupled via internal communication channels; determining each IO feature's impact for processing the IO workload within a threshold performance requirement by: initializing saliency parameter values between predefined initialization values for the IO features; generating a searchable saliency data structure comprising IO processing depth parameters for read miss, device, async, message bus, thread, DA disk, and free slot operations; mapping the IO features to the saliency data structure that correlates each feature to its maximum IO processing load; and analyzing performance metrics using machine learning to determine each IO feature's relative global impact on the storage array's performance; and tuning at least one IO feature's resource allocation based on its IO workload processing impact by dynamically modifying resource allocations according to the determined global impact of each IO feature, wherein the resource allocations are modified across the distinct logic and hardware layers to improve overall storage array performance, wherein dynamically modifying resource allocations includes dynamically modifying the storage array's storage device, memory, and processor resources, and further dynamically modifying device arrival IO queue depths, quality of service (QOS) queue depths, async read-miss queue depths, logical device slice (TDAT) queue depths, copy request queue depths, and prefetch queue depths.",
+  "patent_id": "US12379962-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/5005",
+      "G06F 2209/501"
+    ],
+    "all": [
+      "G06F 9/5005",
+      "G06F 2209/501"
+    ],
+    "source": "converted"
+  }
+}

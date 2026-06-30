@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for image processing",
+  "abstract": "A method may include obtaining an image of an object; obtaining a target artifact identification model; determining target artifact feature information by inputting the image into the target artifact identification model, the target artifact feature information indicating a feature of one or more artifacts in the image; obtaining a target artifact extent determination model; determining target artifact extent indication information by inputting the image and the target artifact feature information into the target artifact extent determination model, the target artifact extent indication information indicating an influence extent of the one or more artifacts on an image quality of the image; in response to determining that the influence extent is greater than or equal to the extent threshold, outputting a notice of the one or more artifacts of the image.",
+  "claims": "1. A system for image processing, comprising: at least one storage device including a set of instructions; and at least one processor configured to communicate with the at least one storage device, wherein when executing the set of instructions, the at least one processor is configured to direct the system to perform operations including: obtaining an image of an object; obtaining a target artifact identification model; determining target artifact feature information by inputting the image into the target artifact identification model, the target artifact feature information indicating a feature of one or more artifacts in the image; obtaining a target artifact extent determination model; determining target artifact extent indication information by inputting the image and the target artifact feature information into the target artifact extent determination model, the target artifact extent indication information indicating an influence extent of the one or more artifacts on an image quality of the image; determining, based on the target artifact extent indication information, whether the influence extent is greater than or equal to an extent threshold; and in response to determining that the influence extent is greater than or equal to the extent threshold, outputting a notice of the one or more artifacts of the image, wherein the target artifact extent determination model is obtained by: obtaining a second training sample set including a plurality of second training samples, each of the plurality of second training samples including a second training sample image and training artifact extent indication information corresponding to the second training sample image; and obtaining the target artifact extent determination model by training, based on the second training sample set, a second preliminary model.",
+  "patent_id": "US12380556-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/0012",
+      "G06T 2207/20081",
+      "G06T 2207/30168"
+    ],
+    "all": [
+      "G06T 7/0012",
+      "G06T 2207/20081",
+      "G06T 2207/30168"
+    ],
+    "source": "converted"
+  }
+}

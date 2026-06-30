@@ -1,0 +1,40 @@
+{
+  "title": "Multi-modal acoustic imaging tool",
+  "abstract": "Systems and methods directed toward acoustic analysis can include a plurality of acoustic sensor arrays, each including a plurality of acoustic sensor elements, and a processor in communication with the plurality of acoustic sensor arrays. The processor can be configured to select one or more of the plurality of acoustic sensor arrays based on one or more input parameters, and generate acoustic image data representative of an acoustic scene based on received acoustic data from the selected one or more acoustic sensor arrays. Such input parameters can include distance information and/or frequency information. Different acoustic sensor arrays can share acoustic sensor elements in common or can be entirely separate from one another. Acoustic image data can be combined with electromagnetic image data from an electromagnetic imaging tool to generate a display image.",
+  "claims": "1. An acoustic analysis system comprising: a plurality of acoustic sensors configured to receive acoustic signals from an acoustic scene and output acoustic data based on the acoustic signals; and a processor in communication with the plurality of acoustic sensors, wherein the processor is configured to: receive input parameters that include: distance information representative of a distance from the plurality of acoustic sensors to a target in the acoustic scene, and frequency information representative of a frequency content of acoustic signals generated in the acoustic scene, wherein the frequency information is based on a frequency content of a previously-received acoustic signal or based on a desired or expected frequency content of an acoustic signal to be received from the acoustic scene; select a subset of acoustic sensors from the plurality of acoustic sensors, wherein the subset of acoustic sensors is selected based on a combination of both the distance information and the frequency information; receive acoustic data from the subset of acoustic sensors; and generate acoustic image data representative of the acoustic scene based on the acoustic data received from the subset of acoustic sensors.",
+  "patent_id": "US12379491-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 15/86",
+      "G01H 3/125",
+      "G01S 3/808",
+      "G01S 15/89",
+      "G06T 7/33",
+      "H04N 23/20",
+      "G01J 2005/0077",
+      "G01J 5/025",
+      "G01J 5/0265",
+      "G06T 2207/10024",
+      "G06T 2207/10048",
+      "G06T 2207/10132",
+      "G06T 2207/20221"
+    ],
+    "all": [
+      "G01S 15/86",
+      "G01H 3/125",
+      "G01S 3/808",
+      "G01S 15/89",
+      "G06T 7/33",
+      "H04N 23/20",
+      "G01J 2005/0077",
+      "G01J 5/025",
+      "G01J 5/0265",
+      "G06T 2207/10024",
+      "G06T 2207/10048",
+      "G06T 2207/10132",
+      "G06T 2207/20221"
+    ],
+    "source": "converted"
+  }
+}

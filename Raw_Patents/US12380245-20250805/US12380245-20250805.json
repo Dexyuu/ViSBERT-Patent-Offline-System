@@ -1,0 +1,24 @@
+{
+  "title": "Third-party platform for tokenization and detokenization of network packet data",
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on computer storage media, for securing data. One of the methods includes receiving one or more network data packets. The one or more network data packets include a token that identifies stored sensitive data. The one or more network data packets are desanitized, by: identifying and extracting, from the one or more network data packets, the token; requesting, from a distributed file system, the stored sensitive data, based upon the token; and receiving, in response to the request, the stored sensitive data as received stored sensitive data.",
+  "claims": "1. A network switch, configured to: receive, from a data source, a data packet to be sent to a data destination via the network switch, the data destination identified based upon a destination address provided in the data packet; identify criteria for tokenization, by accessing a configuration database of the network switch and identifying a subset of criteria in the configuration database that is associated with an address of the data source, the destination address, or both; determine, based upon the criteria for tokenization, whether at least a portion of the data packet should be tokenized; when at least a portion of the data packet should be tokenized: forward the data packet to a data tokenization service, causing the at least portion of the data packet to be tokenized prior to sending the data packet to the data destination; receive back, from the data tokenization service, the data packet with the at least portion of the data packet tokenized; and in response to receiving back the data packet with the at least portion of the data packet tokenized, provide the data packet with the at least portion of the data packet tokenized to the data destination indicated by the destination address; and otherwise, when no portion of the data packet should be tokenized, send data packet to the data destination indicated by the destination address, while refraining from forwarding the data packet to the data tokenization service.",
+  "patent_id": "US12380245-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/6254",
+      "H04L 9/0643",
+      "H04L 9/0894",
+      "H04L 9/3242",
+      "H04L 63/0421"
+    ],
+    "all": [
+      "G06F 21/6254",
+      "H04L 9/0643",
+      "H04L 9/0894",
+      "H04L 9/3242",
+      "H04L 63/0421"
+    ],
+    "source": "converted"
+  }
+}

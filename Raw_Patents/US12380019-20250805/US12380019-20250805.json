@@ -1,0 +1,16 @@
+{
+  "title": "System memory address decoding for interleaving addresses across physical regions of a system-on-chip (SOC) and across shared memory resources in a processor-based system",
+  "abstract": "System memory address decoding for interleaving addresses across physical regions of a system on hip (SOC) and across shared memory resources in a processor based system and related hashing circuits are disclosed. In exemplary aspects, the SoC is configured to discover, for every range of addresses, the number of physical regions and the number and/or size of the shared memory resources available including caches, snoop filters and memory interfaces within each physical region. The SoC may include a system memory address decoding circuit that is configured to adaptively decode a memory address based on the memory address range in which the system address resides and then direct such memory access request to the proper shared memory resource so that each address in the memory address range spans across all of the shared memory resource in the range.",
+  "claims": "1. A processor-based system for determining a target identification for a memory request comprising: a processor configured to determine at least one configuration parameter comprising a plurality of available shared memory resources on a system-on-chip (SoC) in one or more physical regions, each of the plurality of available shared memory resources associated with a target identifier, the at least one configuration parameter further comprising: a plurality of hashing regions for system memory addresses which are interleaved across the one or more physical regions and one or more of the plurality of available shared memory resources within a physical region of the one or more physical regions, each hashing region corresponding to a hash circuit and a unique combination of the one or more physical regions and one or more available memory resources; and in response to receiving the memory request having a system memory address: the processor is configured to determine a first hashing region of the plurality of hashing regions in which the system memory address resides; the processor is configured to hash the system memory address based on a first hash circuit corresponding to the first hashing region to identify a first physical region; the processor is configured to hash the system memory address based on a second hash circuit corresponding to the first hashing region to select a first available shared memory resource within the first physical region; the processor is configured to determine a first target identifier of the first available shared memory resource; and the processor is configured to route and perform the memory request to the first available shared memory resource based on the first target identifier.",
+  "patent_id": "US12380019-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 12/023"
+    ],
+    "all": [
+      "G06F 12/023"
+    ],
+    "source": "converted"
+  }
+}

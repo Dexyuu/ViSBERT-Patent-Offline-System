@@ -1,0 +1,38 @@
+{
+  "title": "Multi-state watermark detector",
+  "abstract": "A radio frequency (RF) receives a media broadcast including media items and embedded watermarks. A watermark detection module included in the RF receiver operates in a low-power state, during which the watermark detection module does not attempt to detect the embedded watermarks. The watermark detection circuitry is activated, thereby transitioning from the low-power state to an active state, in response to receiving an attention marker. during the active state the watermark detection circuitry attempts to detect the embedded watermarks in the media broadcast, and continues to do so until an indication that watermark detection is to be discontinued is received. In response to receiving the indication that the watermark detection is to be discontinued, the watermark detection module is again placed in the low-power state.",
+  "claims": "1. A method for use in a radio frequency (RF) receiver, the method comprising: receiving, by the RF receiver, a media broadcast including media items and embedded watermarks; operating a watermark detection module in a low-power state, wherein during the low-power state the watermark detection module does not attempt to detect the embedded watermarks; receiving at a marker detection module, from a source outside the RF receiver, an external signal including an attention marker associated with watermark detection; activating the watermark detection module from the low-power state to an active state by transmitting a marker-detected signal from the marker detection module to the watermark detection module in response to the marker detection module receiving the attention marker, wherein during the active state the watermark detection module attempts to detect the embedded watermarks; continuing to attempt detection of the embedded watermarks in the media broadcast until receiving an indication that watermark detection is to be discontinued; and placing the watermark detection module in the low-power state in response to receiving the indication that the watermark detection is to be discontinued.",
+  "patent_id": "US12382146-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/8358",
+      "H04N 21/41422",
+      "H04N 21/4334",
+      "H04N 21/4353",
+      "H04N 21/44008",
+      "H04N 21/44016",
+      "H04N 21/458",
+      "H04N 21/4622",
+      "H04N 21/6112",
+      "H04N 21/6131",
+      "H04N 21/812",
+      "H04N 21/858"
+    ],
+    "all": [
+      "H04N 21/8358",
+      "H04N 21/41422",
+      "H04N 21/4334",
+      "H04N 21/4353",
+      "H04N 21/44008",
+      "H04N 21/44016",
+      "H04N 21/458",
+      "H04N 21/4622",
+      "H04N 21/6112",
+      "H04N 21/6131",
+      "H04N 21/812",
+      "H04N 21/858"
+    ],
+    "source": "converted"
+  }
+}

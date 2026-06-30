@@ -1,0 +1,16 @@
+{
+  "title": "Providing notifications across user devices",
+  "abstract": "Notifications can be provided across user devices. A notification gateway can be configured to receive notification requests from a variety of publishers. The notification requests can identify a channel type over which notifications should be sent to user devices that an administrator uses. The notification gateway can deliver each notification request to a topic that is associated with the defined channel type. Dispatchers subscribed to the topics can receive the notification requests. Each dispatcher can use the content of a notification request to generate and send notifications over the respective channel type to each user device used by an administrator identified in the notification request.",
+  "claims": "1. A method for providing notifications across user devices associated with a first administrator, the method comprising: receiving, at a notification gateway, a notification request from a first publisher, the notification request identifying a first channel type over which a particular notification is to be sent and the first administrator to whom the particular notification is to be sent; providing, by the notification gateway, content of the notification request to a first dispatcher that is associated with the first channel type; identifying, by the first dispatcher, the user devices associated with the first administrator, and generating and sending, by the first dispatcher, the particular notification to each of the user devices associated with the first administrator via the first channel type such that the first administrator receives the particular notification at each of the user devices associated with the first administrator.",
+  "patent_id": "US12381840-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 51/224"
+    ],
+    "all": [
+      "H04L 51/224"
+    ],
+    "source": "converted"
+  }
+}

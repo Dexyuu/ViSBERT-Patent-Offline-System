@@ -1,0 +1,26 @@
+{
+  "title": "System and method for providing bounding box to fractured body parts in musculoskeletal X-ray",
+  "abstract": "The present disclosure relates to a system (100) and method for providing bounding box to fractured body parts in musculoskeletal X-ray images. The system (100) comprises a memory unit (203) and processor (201) with a data collection module (205) gathering input X-ray data (101). Additionally, it includes a fracture detection module (206) consisting of a segmentation model (207) and an object detection model (208). The segmentation model (207) determines segmentation scores to each pixel in the X-ray image and generates a segmentation mask (404) by comparing the segmentation score of each pixel (403) with a segmentation threshold of a fracture. Simultaneously, the object detection model (208) determines the rectangular coordinates of one or more body parts within the X-ray image (101). The fracture detection module (206) then overlaps the segmentation mask (404) with the body part coordinates, resulting in bounding boxes for each fractured body part.",
+  "claims": "1. A system ( 100 ) for providing one or more bounding boxes ( 501 ) to one or more fractured body parts in musculoskeletal X-ray image, characterized in that, the system ( 100 ) comprises: a memory ( 203 ); a processor ( 201 ) coupled with the memory ( 203 ), wherein the processor ( 201 ) is configured to execute programmed instructions stored in the memory ( 203 ); a data collection module ( 205 ), wherein a data collected by the data collection module ( 205 ) corresponds to an input x-ray image ( 101 ); a fracture detection module ( 206 ) for providing the one or more bounding boxes ( 501 ) to the one or more fractured body parts based on the collected data, using a segmentation model ( 207 ) and an object detection model ( 208 ) based on an artificial intelligence, wherein the segmentation model ( 207 ) and the object detection model ( 208 ) carried out by the processor ( 201 ), wherein the segmentation model ( 207 ) is configured to perform steps of: processing the input x-ray image ( 101 ) to determine a segmentation score for each pixel ( 403 ) of a plurality of pixels of the input x-ray image ( 101 ); comparing the segmentation score of each pixel ( 403 ) with a segmentation threshold of a fracture to generate a segmentation mask ( 404 ); wherein the object detection model ( 208 ) is configured to perform steps of: processing the input x-ray image ( 101 ) to determine a rectangular coordinates value ( 406 ) of one or more body parts in the input x-ray image ( 101 ); performing by an overlapping module ( 209 ), overlapping of the generated segmentation mask ( 404 ) and the rectangular coordinates value ( 406 ) of the one or more body parts to provide the one or more bounding boxes ( 501 ) to each of the one or more fractured body parts.",
+  "patent_id": "US12380691-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/82",
+      "G06V 10/26",
+      "G06V 10/764",
+      "G06V 40/10",
+      "G16H 15/00",
+      "G06V 2201/033"
+    ],
+    "all": [
+      "G06V 10/82",
+      "G06V 10/26",
+      "G06V 10/764",
+      "G06V 40/10",
+      "G16H 15/00",
+      "G06V 2201/033"
+    ],
+    "source": "converted"
+  }
+}

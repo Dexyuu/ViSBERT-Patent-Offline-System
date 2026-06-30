@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2018237204",
+  "application_id_fs": "WO2018237204",
+  "title": "SYSTEM AND METHOD FOR DIFFUSING THE POSITION OF LOW ALTITUDE OBJECTS",
+  "abstract": "A computer-implemented method comprises detecting, by one or more sensors, at least one object in an airspace to generate a detection output; for the at least one object being registered as a drone, obtaining, by an identification friend or foe (IFF) system, information associated with the at least one object, to generate an IFF output; based on the detection output and the IFF output, determining at least one of a class and an identity of the at least one object, to generate code information; and based on the code information, generating and transmitting a high power, long distance signal configured to be received by a high power, long distance aircraft.",
+  "claims": "Claims 1. A computer-implemented method, comprising: detecting, by one or more sensors, at least one object in an airspace to generate a detection output; for the at least one object being registered as a drone, obtaining, by an identification friend or foe (IFF) system, information associated with the at least one object, to generate an IFF output; based on the detection output and the IFF output, determining at least one of a class and an identity of the at least one object, to generate code information; and based on the code information, generating and transmitting a high power, long distance signal configured to be received by a high power, long distance aircraft. 2. The computer-implemented method of claim 1, wherein the high power, long distance signal comprises an automatic dependent surveillance-broadcast (ADS-B) broadcast signal that includes position, bearing, speed and altitude information, and the code information. 3. The computer-implemented method of claim 1, wherein the at least one object comprises a drone, a bird, or an anomaly. 4. The computer-implemented method of claim 1, wherein the one or more sensors comprises one or more of radar, acoustic, camera, LIDAR, and LADAR. 5. The computer-implemented method of claim 1, wherein the at least one object communicates with the IFF system by beacon, and the at least one object is a third party drone or a trusted enterprise drone in substantially constant communication with the IFF system, and the IFF system generates telemetry and GPS information associated with the at least one object, and authentication information associated with an operator of the at least one object. 6. The computer-implemented method of claim 1, further comprising providing a classifier configured to differentiate drones from other objects based on their trajectory without visual details based on collected and developed trajectory training sets for both drones and non-drones. 7. A non-transitory computer-readable medium including instructions stored in a storage and executed by a processor, the instructions comprising: detecting, by one or more sensors, at least one object in an airspace to generate a detection output; for the at least one object being registered as a drone, obtaining, by an identification friend or foe (IFF) system, information associated with the at least one object, to generate an IFF output; based on the detection output and the IFF output, determining at least one of a class and an identity of the at least one object, to generate code information; and based on the code information, generating and transmitting a high power, long distance signal configured to be received by a high power, long distance aircraft. 8. The non-transitory computer-readable medium of claim 7, wherein the high power, long distance signal comprises an automatic dependent surveillance-broadcast (ADS-B) broadcast signal that includes position, bearing, speed and altitude information, and the code information. 9. The non-transitory computer-readable medium of claim 7, wherein the at least one object comprises a drone, a bird, or an anomaly. 10. The non-transitory computer-readable medium of claim 7, wherein the one or more sensors comprises one or more of radar, acoustic, camera, LIDAR, and LADAR. 11. The non-transitory computer-readable medium of claim 7, wherein the at least one object communicates with the IFF system by beacon, and the at least one object is a third party drone or a trusted enterprise drone in substantially constant communication with the IFF \n\n system, and the IFF system generates telemetry and GPS information associated with the at least one object, and authentication information associated with an operator of the at least one object. 12. The non-transitory computer-readable medium of claim 7, further comprising providing a classifier configured to differentiate drones from other objects based on their trajectory without visual details based on collected and developed trajectory training sets for both drones and non-drones. 13. A system, comprising: At least one sensor configured to receive information indicative of a presence of an object in an airspace; An identification friend or foe (IFF) system configured to receive and process multi-factor authentication associated with the object in the airspace; A monitor system configured to receive first data from the at least one sensor and second data from the IFF system, estimate position and telemetry information associated with the object, determine a class of the object, and for the IFF system authenticating the object, and identification code of the object, and generate a signal including the estimated position and telemetry information, and the class of the object or the identification code of the object; and A transponder configured to transmit a long range, high power signal that includes the estimated position and telemetry information, and a code indicative of at least one of the class of the object and the identification code of the object. 14. The system of claim 13, wherein the high power, long distance signal comprises an automatic dependent surveillance-broadcast (ADS-B) broadcast signal that includes position, bearing, speed and altitude information, and the code information. 15. The system of claim 13, wherein the at least one object comprises a drone, a bird, or an anomaly. 16. The system of claim 13, wherein the one or more sensors comprises one or more of radar, acoustic, camera, LIDAR, and LADAR. 17. The system of claim 13, wherein the at least one object communicates with the IFF system by beacon, and the at least one object is a third party drone or a trusted enterprise drone in substantially constant communication with the IFF system, and the IFF system generates telemetry and GPS information associated with the at least one object, and authentication information associated with an operator of the at least one object. 18. The system of claim 13, further comprising classifier configured to differentiate drones from other objects based on their trajectory without visual details based on collected and developed trajectory training sets for both drones and non-drones.",
+  "classifications": {
+    "ipc": [
+      "G08G 5/00",
+      "G08G 5/20",
+      "G08G 5/26",
+      "G08G 5/50",
+      "G08G 5/55",
+      "G08G 5/70",
+      "G08G 5/72",
+      "G08G 5/727",
+      "H04B 7/00",
+      "H04B 7/14",
+      "H04B 7/15",
+      "H04B 7/185",
+      "G08G 5/57"
+    ],
+    "cpc": [],
+    "all": [
+      "G08G 5/00",
+      "G08G 5/20",
+      "G08G 5/26",
+      "G08G 5/50",
+      "G08G 5/55",
+      "G08G 5/70",
+      "G08G 5/72",
+      "G08G 5/727",
+      "H04B 7/00",
+      "H04B 7/14",
+      "H04B 7/15",
+      "H04B 7/185",
+      "G08G 5/57"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018237204"
+}

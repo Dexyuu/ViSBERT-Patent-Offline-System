@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for video processing",
+  "abstract": "Several systems and methods for processing of video frames based on one or more video formats are disclosed. In an embodiment, a video processing system comprises a memory and a video engine. The memory stores a plurality of video frames, a primary set of instructions and a plurality of secondary sets of processing instructions. Each secondary set of processing instructions is associated with a video format. The video engine is loaded with the primary set of instructions and is configured to fetch one or more video frames and a secondary set of processing instructions from the memory based on the loaded primary set of instructions. The fetched secondary set of processing instructions corresponds to a video format determined for processing of the one or more video frames. The video engine performs processing of the one or more video frames based on the secondary set of processing instructions.",
+  "claims": "1. A device, comprising: a first memory; a second memory; a memory access module coupled to the first memory and the second memory, wherein the memory access module is configured to: fetch a first set of instructions from the first memory, the first set of instructions being independent of a video compression/decompression format; load the first set of instructions in an instruction memory of the second memory; and a processing module coupled to the second memory, wherein the processing module is configured to process the first set of instructions, and in response to processing the first set of instructions, the processing module is configured to: determine a video compression/decompression format of a set of video frames; program the memory access module to fetch the set of video frames from the first memory and in response to the determining of a video compression/decompression format of the set of video frames, to select a second set of instructions from a plurality of second sets of instructions, the plurality of second sets of instructions corresponding to different video compression/decompression formats stored in the first memory, and to fetch the selected second set of instructions corresponding to the video compression/decompression format of the set of video frames; and process the set of video frames based on the selected second set of instructions.",
+  "patent_id": "US12382114-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/234309",
+      "H04N 19/12",
+      "H04N 19/136"
+    ],
+    "all": [
+      "H04N 21/234309",
+      "H04N 19/12",
+      "H04N 19/136"
+    ],
+    "source": "converted"
+  }
+}

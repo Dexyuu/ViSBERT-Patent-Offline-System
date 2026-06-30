@@ -1,0 +1,18 @@
+{
+  "title": "Graph spatial split",
+  "abstract": "A method for reducing latency and increasing throughput in a reconfigurable computing system includes receiving a compute graph for execution on a reconfigurable dataflow processor comprising a grid of compute units and grid of memory units interconnected with a switching array. The compute graph includes a node specifying an operation on a tensor. The node may be split into multiple nodes that each specify the operation on a distinctive portion of the tensor to produce a first modified compute graph. The first modified compute graph may be executed. In addition, the multiple nodes may be within a single meta-pipeline stage and may be processed in parallel. Furthermore, the compute graph may further comprise a separate node for gathering the distinctive portions of the tensor into a complete tensor, to produce a second modified compute graph.",
+  "claims": "1. A system for reducing latency and increasing throughput in reconfigurable dataflow processors, the system comprising: a host computer comprising a graph optimization module configured to conduct a method comprising: receiving a compute graph for execution on a reconfigurable dataflow computing system, the compute graph comprising a node specifying an operation on a tensor; splitting the node into multiple nodes that each specify the operation on a distinctive portion of the tensor to produce a first modified compute graph; and a reconfigurable dataflow processor (RDP) configured to execute the first modified compute graph.",
+  "patent_id": "US12380060-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 15/825",
+      "G06F 9/3867"
+    ],
+    "all": [
+      "G06F 15/825",
+      "G06F 9/3867"
+    ],
+    "source": "converted"
+  }
+}

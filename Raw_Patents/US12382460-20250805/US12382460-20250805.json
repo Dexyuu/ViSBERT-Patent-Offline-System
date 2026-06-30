@@ -1,0 +1,16 @@
+{
+  "title": "Apparatus and method for utilizing sequence-based PUCCH",
+  "abstract": "An system and a method are disclosed for sequence-based physical uplink control channels (PUCCHs). A method includes a UE determining an uplink control information (UCI) payload to be transmitted, determining, based on the UCI payload to be transmitted, a grouping of resource sets and sequences, each sequence corresponding to a resource set, selecting one or more resource sets and one or more sequences from among the determined grouping of resource sets and sequences, according to a mapping operation, for transmitting the UCI payload, and transmitting the selected one or more sequences as part of a UCI payload transmission.",
+  "claims": "1. A method performed by a user equipment (UE), the method comprising: determining an uplink control information (UCI) payload to be transmitted; determining, based on the UCI payload to be transmitted, a grouping of resource sets and sequences, each sequence corresponding to a resource set, wherein determining the grouping of resource sets and sequences comprises: selecting a set of sequence opportunities (SOs) from a pool of available SOs, wherein the pool of available SOs includes S, where the SOs in the pool are indexed from 1 to S, and wherein selecting the set of SOs from the pool of available SOs includes selecting N SOs from the pool, and determining the grouping of resource sets and sequences per resource set based on the selected set of SOs; separating the UCI payload into two parts N payload 1 +N payload 2 , such that",
+  "patent_id": "US12382460-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/21"
+    ],
+    "all": [
+      "H04W 72/21"
+    ],
+    "source": "converted"
+  }
+}

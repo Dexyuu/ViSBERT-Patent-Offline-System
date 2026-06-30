@@ -1,0 +1,40 @@
+{
+  "application_id": "WO2017069806",
+  "application_id_fs": "WO2017069806",
+  "title": "Flexible implementation of user lifecycle events for applications of an enterprise",
+  "abstract": "Users of organizations use many different third-party applications. The organizations use the services of a server to manage and interact with the third-party applications. In particular, the server provides a user lifecycle API that defines a set of user lifecycle events corresponding to changes of the users with respect to their organizations and/or the third- party applications that they use within the organizations. The server further has access to lifecycle code modules corresponding to the different third-party applications and defining how those third-party applications will respond to the user lifecycle events. When a user lifecycle event occurs for a particular user of a particular organization, the server determines the third-party applications to which the organization has given the user access uses the appropriate functionality of the lifecycle code modules of the corresponding third-party applications to implement the appropriate user changes for those applications.",
+  "claims": "Claims What is claimed is: 1. A computer-implemented method of a server, the method comprising: storing a plurality of lifecycle code modules corresponding to a plurality of third-party applications, the lifecycle code modules implementing user lifecycle functions defined by a user lifecycle application programming interface (API) for the plurality of third-party applications; identifying an occurrence of a user lifecycle event; identifying a first user of an organization associated with the user lifecycle event; mapping the user lifecycle event to a function of the user lifecycle API associated with the user lifecycle event; identifying, as a subset of the third-party applications, third-party applications to which the organization has granted the first user access; and for each third-party application of a plurality of the third-party applications of the identified subset: identifying a lifecycle code module corresponding to the third-party application, and calling a function of the identified lifecycle code module, thereby making a change to data of the user in the third-party application. 2. The computer-implemented method of claim 1, wherein the lifecycle code modules are received from a plurality of application creators that created the plurality of third-party applications. 3. The computer-implemented method of claim 1, wherein the user lifecycle event is triggered by a request of the first user in a user interface. 4. The computer-implemented method of claim 1, wherein the user lifecycle event is triggered by a request of an administrator of the organization. 5. The computer-implemented method of claim 1, wherein the user lifecycle event is triggered by a user password rotation policy evaluated by the server. 6. The computer-implemented method of claim 1, wherein the user lifecycle event is initiated by the server. 7. The computer-implemented method of claim 1, wherein the server identifies the user and the organization based on a prior login of the user into a user interface corresponding to the organization. 8. The computer-implemented method of claim 1, further comprising: identifying an occurrence of a second user lifecycle event associated with a second user different from the user; for a first application of the identified subset, calling a function of a second lifecycle code module corresponding to the first application, the second lifecycle code module being different from a first lifecycle code module for which the function was called for the first application and for the first user. 9. The computer-implemented method of claim 1, wherein calling the function comprises instantiating a virtualization container and executing the identified lifecycle code module within the virtualization container. 10. The computer-implemented method of claim 1, wherein calling a function of a user lifecycle code module comprises making an API call to a remote third-party application corresponding to the user lifecycle code module. 11. The computer-implemented method of claim 1, wherein the user lifecycle event is an addition of the first user, and the function is determining whether the first user already exists in the third-party applications. 12. A computer-implemented method of a server, the method comprising: accessing a plurality of lifecycle code modules corresponding to a plurality of third- party applications, the lifecycle code modules implementing user lifecycle functions defined by a user lifecycle application programming interface (API) for the plurality of third-party applications; identifying an occurrence of a user lifecycle event associated with a first user and an organization; \n\n mapping the user lifecycle event to a function of the user lifecycle API associated with the user lifecycle event; and for each third-party application of a plurality of the third-party applications: identifying a lifecycle code module corresponding to the third-party application, and calling a function of the identified lifecycle code module, thereby making a change to data of the user in the third-party application. 13. The computer-implemented method of claim 12, wherein the lifecycle code modules are received from a plurality of application creators that created the plurality of third-party applications. 14. The computer-implemented method of claim 12, wherein the user lifecycle event is triggered by a request of the first user in a user interface. 15. The computer-implemented method of claim 12, wherein the user lifecycle event is triggered by a request of an administrator of the organization. 16. The computer-implemented method of claim 12, wherein the user lifecycle event is triggered by a user password rotation policy evaluated by the server. 17. The computer-implemented method of claim 12, wherein the server identifies the user and the organization based on a prior login of the user into a user interface corresponding to the organization 18. The computer-implemented method of claim 12, further comprising: identifying an occurrence of a second user lifecycle event associated with a second user different from the user; for a first application of the plurality of third-party applications, calling a function of a second lifecycle code module corresponding to the first application, the second lifecycle code module being different from a first lifecycle code module for which the function was called for the first application and for the first user. 19. The computer-implemented method of claim 12, wherein calling the function comprises instantiating a virtualization container and executing the identified lifecycle code module within the virtualization container. 20. The computer-implemented method of claim 12, wherein calling a function of a user lifecycle code module comprises making a API call to a remote third-party application corresponding to the user lifecycle code module.",
+  "classifications": {
+    "ipc": [
+      "H04L 63/00",
+      "H04L 63/10",
+      "H04L 63/102",
+      "G06F 21/00",
+      "G06F 21/60",
+      "G06F 21/604",
+      "G06Q 10/00",
+      "G06Q 10/10",
+      "H04L 63/101",
+      "H04L 41/00",
+      "H04L 41/50",
+      "H04L 41/5041"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 63/00",
+      "H04L 63/10",
+      "H04L 63/102",
+      "G06F 21/00",
+      "G06F 21/60",
+      "G06F 21/604",
+      "G06Q 10/00",
+      "G06Q 10/10",
+      "H04L 63/101",
+      "H04L 41/00",
+      "H04L 41/50",
+      "H04L 41/5041"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017069806"
+}

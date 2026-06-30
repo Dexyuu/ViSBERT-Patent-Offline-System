@@ -1,0 +1,18 @@
+{
+  "title": "Frequency division multiple access (FDMA) support for wakeup radio (WUR) operation",
+  "abstract": "A wireless network interface of a first client station negotiates with an access point a first component channel of an operating channel via which the first client station is to receive wakeup frames from the access point. A wakeup radio of the first client station receives a wakeup packet from the access point. The wakeup packet spans the operating channel, which comprises at least four component channels, and one or more of the component channels within the operating channel are punctured so that the access point does not transmit the wakeup packet in the one or more component channels that are punctured. The wakeup packet includes a first wakeup frame for the first client station in the first component channel and one or more respective second wakeup frames for one or more second client stations in one or more respective second component channels.",
+  "claims": "1. A method for power saving in a wireless communication network, the method comprising: receiving, at a wakeup radio of a first client station, wakeup radio (WUR) beacon frames from an access point via a first component channel; determining, at the first client station, a second component channel via which the first client station is to receive wakeup frames from the access point, the second component channel different than the first component channel; receiving, at the wakeup radio of the first client station, a first wakeup frame corresponding to the first client station from the access point, the first wakeup frame received in the second component channel, wherein the first wakeup frame is included within a wakeup packet from the access point, the wakeup packet within an operating channel that comprises multiple component channels including the first component channel and the second component channel, and wherein the wakeup packet includes the first wakeup frame for the first client station in the second component channel and one or more respective second wakeup frames for one or more second client stations in one or more component channels of the operating channel different than the second component channel; and processing, by the wakeup radio of the first client station, the first wakeup frame received in the second component channel to determine whether a wireless network interface of the first client station is to exit a low power state.",
+  "patent_id": "US12382394-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 52/0229",
+      "H04W 84/12"
+    ],
+    "all": [
+      "H04W 52/0229",
+      "H04W 84/12"
+    ],
+    "source": "converted"
+  }
+}

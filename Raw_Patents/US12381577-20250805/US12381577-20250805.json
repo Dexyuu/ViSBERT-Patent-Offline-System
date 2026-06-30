@@ -1,0 +1,22 @@
+{
+  "title": "Stop criterion for decoding an LDPC code",
+  "abstract": "An LDPC decoding method is disclosed in which the LDPC code is defined by a parity matrix having a layered structure, and the method involves performing iterations until a stop criterion is satisfied. Each iteration involves the successive processing of the different layers. Processing a layer involves calculating variable messages (an,m), calculating parity check messages, calculating a posteriori estimation variables (Î³n), and calculating a partial syndrome. The evaluation of the stop criterion involves checking if, for a plurality of successive iterations, the number of iterations for which all the partial syndromes are zero, from which the number of iterations for which at least one of the partial syndromes is non-zero is subtracted, is greater than or equal to a predetermined stop threshold.",
+  "claims": "1. A method for decoding a codeword with a decoder of low-density parity-check code (LDPC) code, said LDPC code being defined by a binary parity matrix of size M×N stored in a memory of the decoder, M and N being positive integers, the parity matrix corresponding to a representation of a bipartite graph comprising connections between M parity check nodes and N variable nodes, each line of the parity matrix corresponding to a parity equation associated with a parity check node, each column of the parity matrix corresponding to a variable associated with a variable node, each non-zero element of the parity matrix corresponding to a connection between a parity check node and a variable node, the codeword to be decoded corresponding to a set of values respectively taken by said variables, the parity matrix presenting a layered structure, the method comprising the execution of one or more iterations by a processing unit until a stop criterion is met, each iteration comprising a successive processing of the layers of the parity matrix, the processing of one layer comprising: a calculation of variable messages, for the variable nodes involved in said layer, on the basis of a posteriori estimation variables of the codeword and on the basis of parity check messages calculated during the previous iteration, a calculation of parity check messages, for the parity check nodes involved in said layer, on the basis of the variable messages, wherein the parity check messages are stored in a first volatile memory of the decoder, a calculation of a posteriori estimation variables on the basis of the parity check messages, wherein the posteriori estimation variables are stored in a second volatile memory of the decoder, a calculation of a partial syndrome for said layer by applying the parity equations of said layer to the a posteriori estimation variables, wherein an evaluation of the stop criterion comprises checking, for a plurality of successive iterations, whether the number of iterations for which all the partial syndromes are zero subtracted by the number of iterations for which at least one of the partial syndromes is non-zero is greater than or equal to a predetermined stop threshold.",
+  "patent_id": "US12381577-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03M 13/1128",
+      "H03M 13/112",
+      "H03M 13/116",
+      "H03M 13/1177"
+    ],
+    "all": [
+      "H03M 13/1128",
+      "H03M 13/112",
+      "H03M 13/116",
+      "H03M 13/1177"
+    ],
+    "source": "converted"
+  }
+}

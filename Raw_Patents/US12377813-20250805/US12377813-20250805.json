@@ -1,0 +1,20 @@
+{
+  "title": "Method for identifying stolen vehicles",
+  "abstract": "The method for identifying stolen vehicles by an information management system includes using at least one centralized user data management server provided with data storage means, a processing unit and device for communicating data in and out of the server with a global network of the Internet type, and remote terminals held by users and provided with a dedicated software application for organizing and communicating input data.",
+  "claims": "1. A method for stolen vehicles, the method comprising the following steps: connecting at least one terminal of a plurality of remote terminals to a centralized user data management server of an information management system via a dedicated software application on the terminal, the server being comprised of a data storage, a processor, and a communicating data in and out of the server with a global network of an internet type; transmitting input data from the terminal to the server, said input data being comprised of identity of a stolen vehicle and identity of a user of the terminal who owns said stolen vehicle; sending a request to at least one dedicated server for official data, said official data being comprised of a list of identities of vehicles and a list of identities of users who own a corresponding vehicle of said identities of vehicles, the communicating data of the server sending the request to the dedicated server and receiving said official data from the dedicated server; comparing the input data and the official data with the processor of the server so as to determine matched data or unmatched data; storing of the input data and the matched data in the data storage; organizing and formatting the input data and the matched data for use by the software application with the processor of the server; transmitting identification data from a tracker terminal of the plurality of remote terminals to the server, the identification data being comprised of identity of a tracked vehicle; comparing the identification data and the matched data with the processor of the server so as to determine tracked data and untracked data; and transmitting an alert for the tracked data to at least one recipient in the storage means with the communicating data of the server.",
+  "patent_id": "US12377813-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60R 25/102",
+      "G08G 1/0175",
+      "G08G 1/205"
+    ],
+    "all": [
+      "B60R 25/102",
+      "G08G 1/0175",
+      "G08G 1/205"
+    ],
+    "source": "converted"
+  }
+}

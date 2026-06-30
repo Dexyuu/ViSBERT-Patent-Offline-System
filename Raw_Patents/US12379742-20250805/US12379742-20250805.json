@@ -1,0 +1,18 @@
+{
+  "title": "Snoop logic function streaming timers",
+  "abstract": "Embodiments of the present disclosure implement hardware-based snoop logic streaming timers for input/output (I/O) communications between a host and a shared network adapter in a computing system. The disclosed embodiments describe a hardware-based snoop logic and snoop logic timer function control of input/output (I/O) processor monitoring a defined memory area to detect a completion queue entry being written to a completion queue, and implementing streaming timers and interpacket timers, based on the completion queue entry and predefined configuration information for an associated host interface connection, to provide streaming data status, interpacket arrival times, and streaming timer expiration for the associated host interface connection.",
+  "claims": "1. A method comprising: monitoring, using hardware-based snoop logic, a completion queue entry (CQE) being written to a completion queue in a defined memory area, where the CQE includes an identifier of a host interface connection; configuring predefined events based on the CQE and predefined configuration information for the host interface connection; and initiating a streaming timer, based on the predefined events, to provide streaming data status and a streaming timer expiration for the host interface connection.",
+  "patent_id": "US12379742-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 1/14",
+      "G06F 13/36"
+    ],
+    "all": [
+      "G06F 1/14",
+      "G06F 13/36"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Frame-by-frame rendering for augmented or virtual reality systems",
+  "abstract": "One embodiment is directed to a user display device comprising a housing frame mountable on the head of the user, a lens mountable on the housing frame and a projection sub system coupled to the housing frame to determine a location of appearance of a display object in a field of view of the user based at least in part on at least one of a detection of a head movement of the user and a prediction of a head movement of the user, and to project the display object to the user based on the determined location of appearance of the display object.",
+  "claims": "1. A virtual image system, comprising: a display subsystem configured to present a plurality of frames being presented to an end user; and a processor configured to: for each of at least some of the plurality of frames being presented to the end user, determine a location of appearance of a virtual object in a field of view of the end user relative to an end user frame of reference; adjust a presentation of at least one subsequent frame based at least in part on the determined location of appearance of the virtual object in the field of view of the end users; predict an occurrence of a head movement of the end user based at least in part on the determined location of appearance of the virtual object in the field of view of the end user; estimate at least one value indicative of an estimated speed of the predicted head movement of the end user; determine at least one first value that at least partially compensates for the estimated speed of the predicted head movement of the end user; render the at least one subsequent frame based at least in part on the determined first value; and estimate at least one change in a speed in the predicted head movement of the end user, wherein the at least one change in the speed occurs between a start of the predicted head movement and an end of the predicted head movement, and wherein estimating the at least one value indicative of the estimated speed of the predicted head movement includes estimating the at least one value indicative of the estimated speed that at least partially accommodates for the at least one estimated change in the speed in the predicted head movement of the end user.",
+  "patent_id": "US12380662-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 19/006",
+      "G02B 27/0093",
+      "G02B 27/01",
+      "G02B 27/017",
+      "G02B 27/0172",
+      "G06F 3/011",
+      "G06F 3/012",
+      "G06F 3/013",
+      "G06T 1/60",
+      "G06T 7/70",
+      "G06T 19/00",
+      "G09G 3/007",
+      "G02B 2027/014",
+      "G02B 2027/0178",
+      "G02B 2027/0187",
+      "G06T 2219/024",
+      "G09G 2320/0266"
+    ],
+    "all": [
+      "G06T 19/006",
+      "G02B 27/0093",
+      "G02B 27/01",
+      "G02B 27/017",
+      "G02B 27/0172",
+      "G06F 3/011",
+      "G06F 3/012",
+      "G06F 3/013",
+      "G06T 1/60",
+      "G06T 7/70",
+      "G06T 19/00",
+      "G09G 3/007",
+      "G02B 2027/014",
+      "G02B 2027/0178",
+      "G02B 2027/0187",
+      "G06T 2219/024",
+      "G09G 2320/0266"
+    ],
+    "source": "converted"
+  }
+}

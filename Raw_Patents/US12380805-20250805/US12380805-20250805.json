@@ -1,0 +1,36 @@
+{
+  "title": "Traffic safety support system and storage medium",
+  "abstract": "A predictor62of a traffic safety support system includes a movement state information acquirer620configured to acquire movement state information of the prediction target, a surrounding state information acquirer621configured to acquire surrounding state information, a first movement state predictor624configured to predict a first predicted movement state on the basis of the movement state information, a second movement state predictor625configured to predict a second predicted movement state on the basis of the driver state information, a collision risk calculator626configured to calculate a first collision risk value for the first predicted movement state and a second collision risk value for the second predicted movement state, and a support controller65configured to execute support control for the prediction target in a case where at least one of the first and second collision risk values is greater than a predetermined threshold value.",
+  "claims": "1. A traffic safety support system supporting, when a moving body moving in a traffic area is defined, as a prediction target, safe traffic of the prediction target in the traffic area, comprising: a movement state information acquirer configured to acquire movement state information regarding a movement state of the prediction target; a surrounding state information acquirer configured to acquire surrounding state information regarding movement states of surrounding traffic participants around the prediction target in the traffic area; a driver state information acquirer configured to acquire driver state information regarding a state of a driver of the prediction target; a first movement state predictor configured to predict a first predicted movement state of the prediction target including a first predicted moving speed profile along a predicted traveling path from a current time to a predicted period ahead on a basis of the movement state information and the surrounding state information; a second movement state predictor configured to predict a second predicted movement state of the prediction target including a second predicted moving speed profile along the predicted traveling path from the current time to the predicted period ahead on the basis of the driver state information, and the surrounding state information, using an algorithm different from that of the first movement state predictor; a collision risk calculator configured to calculate a first collision risk value between the prediction target and the surrounding participants in the first predicted movement state and a second collision risk value between the prediction target and the surrounding participants in the second predicted movement state on the basis of the surrounding state information; and a support controller configured to execute support control for the prediction target in a case where at least one of the first collision risk value and the second collision risk value is greater than a predetermined threshold value, and wherein the support controller executes the support control to cause the prediction target to perform a first avoidance action to achieve the first predicted movement state when the first collision risk value is less than or equal to the threshold value and the second collision risk value is greater than the threshold value, executes the support control to cause the prediction target to perform a second avoidance action to achieve the second predicted movement state when the second collision risk value is less than or equal to the threshold value and the first collision risk value is greater than the threshold value, and executes the support control to cause the prediction target to perform a collision avoidance action to avoid a collision with the surrounding traffic participants or a collision damage reduction action to reduce damage from the collision when both the first collision risk value and the second collision risk value are greater than the threshold value.",
+  "patent_id": "US12380805-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G08G 1/164",
+      "B60W 30/09",
+      "B60W 50/14",
+      "G08G 1/0112",
+      "G08G 1/0116",
+      "G08G 1/0125",
+      "G08G 1/0145",
+      "G08G 1/052",
+      "G08G 1/166",
+      "B60W 2050/146",
+      "B60W 2556/45"
+    ],
+    "all": [
+      "G08G 1/164",
+      "B60W 30/09",
+      "B60W 50/14",
+      "G08G 1/0112",
+      "G08G 1/0116",
+      "G08G 1/0125",
+      "G08G 1/0145",
+      "G08G 1/052",
+      "G08G 1/166",
+      "B60W 2050/146",
+      "B60W 2556/45"
+    ],
+    "source": "converted"
+  }
+}

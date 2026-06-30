@@ -1,0 +1,20 @@
+{
+  "title": "In-vehicle radar signal control method, electronic device, and storage medium",
+  "abstract": "An in-vehicle radar signal control method includes: determining a target interference area of a first vehicle, a vehicle in the target interference area interfering with an in-vehicle radar signal of the first vehicle; determining vehicles in the target interference area as a first vehicle cluster, and determining strength of in-vehicle radar signals of vehicles in the first vehicle cluster; determining whether a new second vehicle enters the target interference area; and in response to a determination that the second vehicle enters the target interference area, obtaining an adjustment signal; the adjustment signal indicating one or more of: increasing or reducing strength of the in-vehicle radar signal of the first vehicle, adjusting a travel speed of the first vehicle, and adjusting a travel direction of the first vehicle.",
+  "claims": "1. An in-vehicle radar signal control method, comprising: determining a target interference area of a first vehicle, a vehicle in the target interference area interfering with an in-vehicle radar signal of the first vehicle; determining vehicles in the target interference area as a first vehicle cluster, and determining strength of in-vehicle radar signals of vehicles in the first vehicle cluster, the first vehicle cluster including the first vehicle and a vehicle other than the first vehicle in the target interference area; determining whether a new second vehicle enters the target interference area; and in response to a determination that the new second vehicle enters the target interference area, obtaining an adjustment signal, wherein the obtaining the adjustment signal further comprises: determining, based on strength of in-vehicle radar signals of vehicles in a second vehicle cluster and a second spatial volume occupied by the second vehicle cluster, second signal strength spatial density corresponding to the second vehicle cluster; determining, based on first signal strength spatial density and the second signal strength spatial density, impact of entry of the second vehicle into the target interference area on signal density in the target interference area; and generating the adjustment signal based on the impact of the entry of the second vehicle into the target interference area on the signal density in the target interference area, so that the impact of the entry of the second vehicle into the target interference area on the signal density in the target interference area facilitates driving safety of the first vehicle: the adjustment signal indicating one or more of: increasing or reducing strength of the in- vehicle radar signal of the first vehicle, adjusting a travel speed of the first vehicle, and adjusting a travel direction of the first vehicle; and the adjustment signal being generated based on the strength of the in-vehicle radar signals of the vehicles in the first vehicle cluster and strength of an in-vehicle radar signal of the second vehicle.",
+  "patent_id": "US12379459-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 7/0236",
+      "G01S 13/931",
+      "G01S 2013/9316"
+    ],
+    "all": [
+      "G01S 7/0236",
+      "G01S 13/931",
+      "G01S 2013/9316"
+    ],
+    "source": "converted"
+  }
+}

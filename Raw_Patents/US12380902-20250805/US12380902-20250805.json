@@ -1,0 +1,20 @@
+{
+  "title": "Vector quantizer correction for audio codec system",
+  "abstract": "A method comprises: vector quantizing input vectors representative of audio into an original sequence including indices of codewords of a codebook; generating candidate sequences including the indices of the codewords of the codebook by evaluating, for each candidate sequence, transition costs for transitions between the indices based on (i) transition probabilities of the transitions, and (ii) distances between the codewords represented by the indices and the input vectors that corresponds to the indices; determining a preferred candidate sequence of the candidate sequences to replace the original sequence based on the transition costs for each candidate sequence; and transmitting the preferred candidate sequence in place of the original sequence.",
+  "claims": "1. A method comprising: vector quantizing input vectors representative of audio into an original sequence including original indices of codewords of a codebook; generating candidate sequences including indices of the codewords and that have respective starting transitions from an initial index of the original sequence to respective ones of all possible indices, wherein generating includes evaluating, for each candidate sequence, transition costs for transitions between the indices based on linear combinations of (i) transition probabilities of the transitions, and (ii) distances between the codewords represented by the indices and the input vectors that correspond to the indices; summing the transition costs for each candidate sequence into a total transition cost, to produce total transition costs for corresponding ones of the candidate sequences; selecting a preferred candidate sequence of the candidate sequences that has a lowest total transition cost; and transmitting or storing the preferred candidate sequence in place of the original sequence.",
+  "patent_id": "US12380902-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 19/038",
+      "G10L 19/00",
+      "G10L 19/005"
+    ],
+    "all": [
+      "G10L 19/038",
+      "G10L 19/00",
+      "G10L 19/005"
+    ],
+    "source": "converted"
+  }
+}

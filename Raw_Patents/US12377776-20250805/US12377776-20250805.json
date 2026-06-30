@@ -1,0 +1,20 @@
+{
+  "title": "Turn signal assignment for complex maneuvers",
+  "abstract": "Provided are methods for turn signal assignment in complex maneuvers, which can include receiving position information associated with a position of a vehicle. Some methods described also include determining, hierarchically and based at least on the position information, whether to activate a turn signal of a vehicle prior to activation of the turn signal based on a turn of the vehicle at a roadway intersection. Some methods described also include determining a time to activate the turn signal prior to the turn of the vehicle at the roadway intersection. Some methods described also include transmitting a control signal to activate the turn signal at the determined time. Systems and computer program products are also provided.",
+  "claims": "1. A system comprising: at least one processor; and at least one memory storing instructions thereon that, when executed by the at least one processor, result in operations comprising: receiving position information associated with a position of a vehicle; hierarchically determining whether to activate a turn signal of the vehicle prior to activation of the turn signal based on a turn of the vehicle at a roadway intersection using a plurality of ordered determinations based on the position information, wherein a first determination of the plurality of ordered determinations is associated with activating the turn signal by assigning a steering-based turn signal based on a positive determination of the first determination, a second determination is associated with activating the turn signal by assigning a lane-based turn signal based on a negative determination of the first determination and a positive determination of the second determination, and a third determination is associated with activating the turn signal by assigning a trajectory-based turn signal based on a negative determination of the second determination and a positive determination of the third determination; determining, upon hierarchically determining to activate the turn signal and based at least on the position information, a time to activate the turn signal prior to the turn of the vehicle at the roadway intersection; and transmitting a control signal to activate the turn signal of the vehicle at the determined time.",
+  "patent_id": "US12377776-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60Q 1/507",
+      "B60Q 1/346",
+      "B60Q 2800/10"
+    ],
+    "all": [
+      "B60Q 1/507",
+      "B60Q 1/346",
+      "B60Q 2800/10"
+    ],
+    "source": "converted"
+  }
+}

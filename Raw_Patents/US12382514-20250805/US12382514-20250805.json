@@ -1,0 +1,26 @@
+{
+  "title": "Channel conflict processing method and apparatus",
+  "abstract": "The present disclosure relates to channel conflict processing methods and apparatus. In one example method, when a terminal device establishes a connection relationship with a source cell, and sends a connection request to or establishes a connection relationship with a target cell, the terminal device detects whether an uplink channel conflict occurs on an uplink channel of the source cell and an uplink channel of the target cell, where the source cell and the target cell are infra-frequency or intra-band contiguous inter-frequency. If the terminal device determines that an uplink channel conflict occurs, the terminal device sends a signal on an uplink channel with a higher priority between the uplink channel of the source cell and the uplink channel of the target cell.",
+  "claims": "1. A channel conflict processing method performed in a dual active protocol stack based (DAPS-based) handover process, wherein the method comprises: determining, by a terminal device before the terminal device successfully accesses a target cell, that a symbol-level conflict occurs between an uplink channel of a source cell and an uplink channel of the target cell, wherein the source cell and the target cell are intra-frequency or intra- band contiguous inter-frequency, and the terminal device uses two baseband processing (BBP) apparatuses, corresponding to a same radio frequency (RF) processing apparatus, to communicate with the source cell and the target cell; and in response to determining that the symbol-level conflict occurs between the uplink channel of the source cell and the uplink channel of the target cell, sending, by the terminal device, a signal on an uplink channel with a higher priority in the uplink channel of the source cell and the uplink channel of the target cell, wherein the uplink channel of the source cell comprises a physical uplink shared channel (PUSCH), a physical uplink control channel (PUCCH), or a sounding reference channel, and the uplink channel of the target cell is a random access-related channel.",
+  "patent_id": "US12382514-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 74/0858",
+      "H04L 5/0039",
+      "H04L 5/0053",
+      "H04W 36/185",
+      "H04W 52/367",
+      "H04W 72/569"
+    ],
+    "all": [
+      "H04W 74/0858",
+      "H04L 5/0039",
+      "H04L 5/0053",
+      "H04W 36/185",
+      "H04W 52/367",
+      "H04W 72/569"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "application_id": "WO2020188264",
+  "application_id_fs": null,
+  "title": "Method of measuring an article",
+  "abstract": "A method of measuring an article, comprises the steps of: a) providing a calibrated reference background; b) reproducing said background on a surface; c) recording a digital image of the article placed on said surface; d) processing the image to identify the background and to identify the article with reference to the background; e) determining a plurality of points where an edge of the article coincides with an identifiable feature of the background; f) aligning the plurality of points with the reference background; and g) obtaining from the aligned positions of the points on said reference background a set of parameters defining the article.",
+  "claims": "Claims 1. A method of measuring an article, comprising the steps of: a) providing a calibrated reference background; b) reproducing said background on a surface; c) recording a digital image of the article placed on said surface; d) processing the image to identify the background and to identify the article with reference to the background; e) determining a plurality of points where an edge of the article coin cides with an identifiable feature of the background; f) aligning the plurality of points with the reference background; and g) obtaining from the aligned positions of the points on said refer ence background a set of parameters defining the article. 2. A method according to Claim 1 , wherein the pattern of lines com prises a rectangular grid. 3. A method according to Claim 1 or 2, wherein the pattern of lines comprises a pseudo-random pattern of intersecting lines. 4. A method according to any preceding claim, wherein the article is an elastic O-ring. 5. A method according to Claim 4, wherein the processing step com prises applying a circular Hough transform to the digital image to detect the presence of the O-ring in the image and then using the information from the transform to crop the image around the O-ring for further processing. 6. A method according to Claim 5, comprising detecting and eliminat ing false points arising from noise or shadows in the image. 7. A method according to Claim 4, 5 or 6, wherein the set of parame ters comprises the internal and external diameter of the O-ring. 8. A method of selecting and supplying a replacement for an article from a range of different-sized articles, comprising obtaining using the method according to any preceding claim a set of parameters defining the article, com paring the set of parameters with a table of stored sets of parameters represent ing available replacement articles to identify the closest match, and displaying details of closest match article for supply. 9. A method according to Claim 8, wherein the displaying step com prises an offer to sell the closest match article.",
+  "classifications": {
+    "ipc": [
+      "G06T 7/00"
+    ],
+    "cpc": [],
+    "all": [
+      "G06T 7/00"
+    ],
+    "source": "csv"
+  }
+}

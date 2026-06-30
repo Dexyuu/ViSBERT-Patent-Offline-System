@@ -1,0 +1,18 @@
+{
+  "title": "Terminal apparatus, base station apparatus, and communication method",
+  "abstract": "A method by a user equipment (UE) is described. The method includes receiving, from a base station, a first radio resource control (RRC) parameter including a first list of one or more CSI trigger states, a second RRC parameter indicating a first total number of bits N_TS1for a first CSI request field of a first DCI format, a third RRC parameter including a second list of one or more CSI trigger states, and a fourth RRC parameter indicating a second total number of bits N_TS2for a second CSI request field of a second DCI format, determining a CSI trigger state in response to a CSI request field of a DCI format, wherein in a first case that a total number of the one or more CSI trigger states within the first list is greater than 2N_TS11, the processing circuitry is further configured to select one or more of the CSI trigger states out of the first list which are mapped to one or more codepoints of the first CSI request field of the first DCI format, in a second case that a total number of the one or more CSI trigger states within the second list is greater than 2N_TS2â1, the processing circuitry is further configured to select one or more of the CSI trigger states out of the second list which are mapped to one or more codepoints of the second CSI request field of the second DCI format.",
+  "claims": "1. A user equipment (UE), comprising: reception circuitry configured to receive, from a base station, a first radio resource control (RRC) parameter including a first list of one or more channel state information (CSI) trigger states, a second RRC parameter indicating a first total number of bits N_TS 1 for a first CSI request field of a first downlink control information (DCI) format, a third RRC parameter including a second list of one or more CSI trigger states, and a fourth RRC parameter indicating a second total number of bits N_TS 2 for a second CSI request field of a second DCI format; and processing circuitry configured to determine a CSI trigger state in response to a CSI request field of a DCI format, wherein: the reception circuitry is further configured to receive a medium access control (MAC) control element (CE), in a first case that a total number of the one or more CSI trigger states within the first list is greater than 2 N_TS1 −1, the processing circuitry is further configured to select at least one of the one or more CSI trigger states out of the first list which is mapped to one or more codepoints of the first CSI request field of the first DCI format, and the at least one of the one or more CSI trigger states out of the first list is selected based on the MAC CE including a 1-bit field being set to 0, and in a second case that a total number of the one or more CSI trigger states within the second list is greater than 2 N_TS2 −1, the processing circuitry is further configured to select at least one of the one or more CSI trigger states out of the second list which is mapped to one or more codepoints of the second CSI request field of the second DCI format, and the at least one of the one or more CSI trigger states out of the second list is selected based on the MAC CE including the 1-bit field being set to 1.",
+  "patent_id": "US12381692-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/0057",
+      "H04L 5/0048"
+    ],
+    "all": [
+      "H04L 5/0057",
+      "H04L 5/0048"
+    ],
+    "source": "converted"
+  }
+}

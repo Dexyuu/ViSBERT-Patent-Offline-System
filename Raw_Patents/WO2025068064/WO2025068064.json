@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2025068064",
+  "application_id_fs": "WO2025068064",
+  "title": "Traffic optimization for wireless networks with capacity limits",
+  "abstract": "This invention relates to a wireless mesh network for high-capacity backhauling of data traffic such as for telecommunications networks. Reliability is increased through resilience, i.e., data traffic can be transported via multiple paths between customer equipment (e.g., telecommunication cells) and fiber points. Depending on a network status, a node can choose to direct traffic via a different path, thus reducing the chance of packet drops. Once resilience is established, network traffic can be optimized to respond to variable natures of traffic density. By doing this, network reliability can be further increased and throughput optimized while minimizing costs.",
+  "claims": "Claims CLAIMS: 1. An apparatus for controlling network design of a wireless network (100) comprising at least one first type of network node (120), connected to a point of presence (20), and at least two second type of network nodes (140), connected to respective customer equipment (30), wherein the apparatus comprises a traffic orchestrator (31 to 34) configured to monitor real-time network performance and to evaluate and/or estimate a potential impact of routing decisions made by network nodes (110, 120, 140) of the wireless network (100) on network performance, wherein the traffic orchestrator is configured to evaluate and/or estimate the potential impact on network performance in a three-step process comprising a first step (S 101) in which a proposed set of virtual tunnel flips to respective tunnels with different priority is generated based on traffic metrics on link level, a second step (SI 02) in which an effect of the tunnel flips is simulated based on topology and running average or historic network traffic, and a third step (SI 03) in which overall network performance is evaluated based on overall network metrics of a pre-flip and post-flip situation. 2. The apparatus of claim 1, wherein the traffic orchestrator comprises at least one of a first orchestrator (31) configured to simulate scenarios by varying priorities of tunnels between network nodes (110, 120, 140) of the wireless network (100) and calculating effects on network metrics, a second orchestrator (32) configured to simulate scenarios by adding and/or changing tunnels between network nodes (110, 120, 140) of the wireless network (100), a third orchestrator (33) configured to simulate scenarios by adding and/or removing links between network nodes (110, 120, 140) of the wireless network (100), and a fourth orchestrator (34) configured to simulate scenarios by adding and/or moving and/or removing network nodes (110, 120, 140) of the wireless network (100). 3. The apparatus of claim 1, wherein the traffic orchestrator is configured to load different tunnel priorities into the network, effectively resulting in a rerouting of traffic through the network, in particular through tunnels, only if a resultant overall network performance metric improves. 4. The apparatus of any one of the preceding claims, wherein the traffic orchestrator (31 to 34) is configured to use a simulation of a behavior of a computergenerated model of the wireless network (100) based on actual or historical data obtained from the wireless network (100), from other networks, or from estimated values, to create a simulated set of overall network metrics. 5. The apparatus of any of the preceding claims, wherein at least some of the network nodes (110, 120, 140) of the wireless network (100) comprise a plurality of physically separated sectors configured to establish a plurality of links to other network nodes (110, 120, 140). 6. The apparatus of claim 5, wherein the wireless network (100) forms, in terms of a physical or link level of the network nodes (110, 120, 140), a ring structure that starts at one of the sectors of the first network node (120) and ends at another sector of the first network node (120), or a linear structure where network traffic is flowing between two first network nodes (120) and two second network nodes (140), or any combinations thereof. 7. The apparatus of any of the preceding claims, wherein timing levels of different optimization and deployment procedures used by the traffic orchestrator (31 to 34) range from once per 1-10 minutes through once per 1-10 days and once per 1-10 weeks to once per 1-10 months. 8. A network design system (10) comprising an apparatus according to claim 1. 9. The system of claim 8, wherein the system is configured to control the wireless network (100) based on feedback information received from the wireless network (100) and indicating the performance of the network, to design the wireless network (100) by at least one of transmitting and/or loading control information to the network nodes (100, 120, 140), setting a tunnel layout, and setting a class of service. 10. The system of claim 9, wherein the feedback information comprises network metrics and/or other performance parameters. 11. The system of any one of claims 8 to 10, wherein the network design system (10) is configured to provide a priority scheme by defining at least primary and secondary tunnels to allocate an order of priority for use of the tunnels, wherein a primary tunnel is used by the network nodes (110, 120, 140) as default tunnel for data transport unless an exceptional condition occurs. 12. A wireless network comprising a network design system according to claim 8 and at least one first network node (120), connected to a point of presence (20), and at least two second network nodes (140), connected to respective customer equipment (30). 13. A method of controlling network design of a wireless network (100) comprising at least one first type of network node (120), connected to respective points of presence (20), and at least two second type of network nodes (140), connected to respective customer equipment (30), wherein the method is configured to perform traffic orchestrating (31 to 34) by monitoring real-time network performance and evaluating and/or estimating a potential impact of routing decisions made by network nodes (110, 120, 140) of the wireless network (100) on network performance; wherein the method further comprising evaluating and/or estimating the potential impact on network performance in a three-step process comprising a first step (S 101) in which a proposed set of virtual tunnel flips to respective tunnels with different priority is generated based on traffic metrics on link level, a second step (SI 02) in which an effect of the tunnel flips is simulated based on topology and running average or historic network traffic, and a third step (SI 03) in which overall network performance is evaluated based on overall network metrics of a pre-flip and post-flip situation. 14. A computer program product comprising program code for producing the steps of claim 13 when run on a computer device.",
+  "classifications": {
+    "ipc": [
+      "H04L 41/00",
+      "H04L 41/08",
+      "H04L 41/0803",
+      "H04L 41/0823",
+      "H04L 41/0836",
+      "H04L 41/14",
+      "H04L 41/147",
+      "H04L 45/00",
+      "H04L 45/22",
+      "H04L 45/70",
+      "H04L 41/145",
+      "H04L 43/00",
+      "H04L 43/08",
+      "H04W 24/00",
+      "H04W 24/02",
+      "H04W 24/06"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 41/00",
+      "H04L 41/08",
+      "H04L 41/0803",
+      "H04L 41/0823",
+      "H04L 41/0836",
+      "H04L 41/14",
+      "H04L 41/147",
+      "H04L 45/00",
+      "H04L 45/22",
+      "H04L 45/70",
+      "H04L 41/145",
+      "H04L 43/00",
+      "H04L 43/08",
+      "H04W 24/00",
+      "H04W 24/02",
+      "H04W 24/06"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025068064"
+}

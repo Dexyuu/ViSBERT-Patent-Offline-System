@@ -1,0 +1,16 @@
+{
+  "title": "Digital twin systems and methods for transportation systems",
+  "abstract": "A method for updating one or more properties of one or more transportation system digital twins includes receiving a request to update the one or more transportation system digital twins; retrieving the one or more transportation system digital twins to fulfill the request from a digital twin datastore; and retrieving one or more dynamic models to fulfill the request from a dynamic model datastore. The method further includes selecting data sources from a set of available data sources for one or more inputs for the one or more dynamic models; retrieving data from the selected data sources; running the one or more dynamic models using the retrieved data as input data to determine one or more output values; and updating the one or more properties of the one or more transportation system digital twins based on the one or more output values of the one or more dynamic models.",
+  "claims": "1. A system for monitoring navigational route data through a transportation system having real-world elements disposed therein, comprising: a digital twin datastore and one or more processors; wherein the digital twin datastore includes a transportation system digital twin corresponding to the transportation system and a worker digital twin corresponding to a respective worker of a set of workers within the transportation system; wherein the one or more processors are configured to maintain, via the digital twin datastore, the transportation system digital twin to include contemporaneous positions for the set of workers within the transportation system, monitor movement of each worker in the set of workers via a sensor array, determine, in response to detecting the movement of the respective worker, navigational route data for the respective worker, update the transportation system digital twin to include indicia of the navigational route data for the respective worker, and move the worker digital twin along a route of the navigational route data, and wherein the one or more processors are further configured to determine existence of a conflict between the navigational route data and the transportation system digital twin, alter, in response to determining accuracy of the transportation system digital twin via the sensor array, the navigational route data for the respective worker, and update, in response to determining inaccuracy of the transportation system digital twin via the sensor array, the transportation system digital twin to thereby resolve the conflict.",
+  "patent_id": "US12380746-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G07C 5/0808"
+    ],
+    "all": [
+      "G07C 5/0808"
+    ],
+    "source": "converted"
+  }
+}

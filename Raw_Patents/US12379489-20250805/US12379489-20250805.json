@@ -1,0 +1,20 @@
+{
+  "title": "Proximity sensing using pulsed ultrasonic signals",
+  "abstract": "Techniques for proximity-sensing devices to detect movement of a person in an environment by emitting pulsed ultrasonic signals into the environment, and detecting a change in the energy measurements of the reflections of the pulsed ultrasonic signals off the person caused by the movement of the person relative to the proximity-sensing devices. In addition to detecting movement, and thus presence, of a person, the proximity-sensing devices may further perform techniques for identifying a direction of movement of the person, and also to perform techniques for identifying a number of people that are in the room. The use of pulsed ultrasonic signals, and monitoring changes in energy in reflections of the emitted signals over time, not only enables movement detection and tracking, but also requires less power and computing resources than continuous emission techniques.",
+  "claims": "1. A proximity-sensing device comprising: a microphone; a loudspeaker; one or more processors; and one or more computer-readable media storing computer-executable instructions that, when executed by the one or more processors, cause the one or more processors to: cause the loudspeaker to emit a first pulsed ultrasonic signal into an environment of the proximity-sensing device; receive, at the microphone, a first reflected signal of the first pulsed ultrasonic signal off an object in the environment; determine, using the first reflected signal, first energy of the first reflected signal; cause the loudspeaker to emit a second pulsed ultrasonic signal into the environment at a first time; receive, at a second time, a second reflected signal of the second pulsed ultrasonic signal off the object; determine, using the second reflected signal, second energy of the second reflected signal; determine, based at least in part on the first energy being different than the second energy, that the object is moving in the environment; and determine, based at least in part on a difference between the first time and the second time, and a speed of sound value, a distance between the proximity-sensing device and the object.",
+  "patent_id": "US12379489-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 15/101",
+      "G01S 15/003",
+      "G01S 15/62"
+    ],
+    "all": [
+      "G01S 15/101",
+      "G01S 15/003",
+      "G01S 15/62"
+    ],
+    "source": "converted"
+  }
+}

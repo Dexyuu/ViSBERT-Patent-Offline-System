@@ -1,0 +1,18 @@
+{
+  "title": "Beam control method and system of array antenna based on frequency diversity, and beam controller",
+  "abstract": "Provided is an improved beam control method of an array antenna based on frequency diversity. The method includes: signals from a transmitter are received by a receiving array which includes a first sub-array and a second sub-array, wherein the first sub-array includes M uniformly arranged array elements, the second sub-array includes N uniformly arranged array elements, M and N are coprime integers, and Nâ¥0; a signal received by each array element in the receiving array is input into a constructed model, and a covariance matrix is output after processing the signal via the model; a virtual array is constructed at a receiver, wherein a virtual array element in the virtual array is a second-order statistic calculated according to the covariance matrix; and a frequency is randomly selected for each virtual array element from a frequency set of the virtual array, so as to form a beam pattern.",
+  "claims": "1. A beam control method of an array antenna based on a frequency diversity, comprising: receiving signals from a transmitter by a receiving array which comprises a first sub-array and a second sub-array, wherein the first sub-array comprises M uniformly arranged array elements, the second sub-array comprises N uniformly arranged array elements, M and N are coprime integers, M≥0 and N≥0; inputting, into a constructed model, a signal received by each array element in the receiving array, and outputting a covariance matrix after processing the input signal via the model, wherein the model is related to a received signal vector, a steering vector and a target scattering power; constructing a virtual array at a receiver, wherein a virtual array element in the virtual array is a second-order statistic calculated according to the covariance matrix; and randomly selecting a frequency for each virtual array element from a frequency set of the virtual array, so as to form a beam pattern, wherein the frequency in the frequency set is a sum of a reference frequency and A times of unit frequency offset, A is selected from a difference set of a first array and a second array, the first array comprises E elements, the second array comprises F elements, E and F are coprime integers, and E≥0, and F≥0; wherein when Q irrelevent far-field point targets are comprised and a qth far-field point target is located in the two-dimensional polar coordinate system, and a far-field point target is located in the two-dimensional polar coordinate system and the virtual array is formed at another position by means of beam forming, the signal expression of the Ith virtual array element among the virtual array elements in the virtual array is:",
+  "patent_id": "US12381601-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 7/0408",
+      "H04B 7/0617"
+    ],
+    "all": [
+      "H04B 7/0408",
+      "H04B 7/0617"
+    ],
+    "source": "converted"
+  }
+}

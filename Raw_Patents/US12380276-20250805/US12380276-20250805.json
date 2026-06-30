@@ -1,0 +1,24 @@
+{
+  "title": "Capturing a subjective viewpoint of a financial market analyst via a machine-learned model",
+  "abstract": "Systems and methods herein provide for establishing a subjective viewpoint in text. In one embodiment, a method includes identifying intents and metrics in each of a plurality of texts, calculating a sentiment score for each text based on the identified intents and metrics of each text, and calculating a disfluency score for each text to weight the sentiment score of each text. The method also includes training the machine learning model with the texts, and processing a subsequent text through the trained machine learning model to determine a sentiment score of the subsequent text.",
+  "claims": "8. A system for establishing a subjective viewpoint of a text with a machine learning model, the system comprising: a database operable to store a plurality of texts that have each been labeled with identified intents and metrics; a natural language processor operable to calculate a sentiment score for each text of the plurality of texts based on the identified intent labels and metrics of each said text, calculate a disfluency score for each said text, weight the sentiment score of each said text based on the disfluency score, train the machine learning model with the plurality of texts, and process a subsequent text through the trained machine learning model to determine a subsequent text sentiment score of the subsequent text.",
+  "patent_id": "US12380276-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 40/30",
+      "G06N 5/022",
+      "G10L 15/1815",
+      "G10L 15/22",
+      "G06Q 40/06"
+    ],
+    "all": [
+      "G06F 40/30",
+      "G06N 5/022",
+      "G10L 15/1815",
+      "G10L 15/22",
+      "G06Q 40/06"
+    ],
+    "source": "converted"
+  }
+}

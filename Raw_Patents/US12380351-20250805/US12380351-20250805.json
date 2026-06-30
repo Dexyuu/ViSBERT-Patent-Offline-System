@@ -1,0 +1,18 @@
+{
+  "title": "Quantum circuit synthesis using CSP",
+  "abstract": "A method, system and product for synthesizing a quantum circuit using Constraint Satisfaction Problem (CSP). A functional-level representation of a quantum circuit that includes a first functional blocks and a second functional block is obtained. The functional-level representation defines a relationship between the first functional block and the second functional block. A CSP that is determined based on the functional-level representation, is automatically solved. The CSP is solved by identifying a first and second implementations to the first and second functional blocks that adhere to the CSP. A gate-level representation of the quantum circuit is synthesized using the first and second implementations.",
+  "claims": "1. A method comprising: obtaining a functional-level representation of a quantum circuit, the functional-level representation comprises a first functional blocks and a second functional block, the first functional block defining a first operation of the quantum circuit over at least two cycles, the second functional block defining a second operation of the quantum circuit over at least two cycles, wherein the functional-level representation defines a relationship between the first functional block and the second functional block; determining a Constraint Satisfaction Problem (CSP) based on the functional-level representation of the quantum circuit, wherein the CSP comprises one or more constraints based on the relationship between the first functional block and the second functional block; automatically solving the CSP to obtain a solution to the CSP, wherein said automatically solving comprises: identifying a first implementation to the first functional block that adheres to the one or more constraints; and identifying a second implementation to the second functional block that adheres to the one or more constraints; and synthesizing a gate-level representation of the quantum circuit using the first implementation and the second implementation.",
+  "patent_id": "US12380351-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 10/00",
+      "G06N 5/01"
+    ],
+    "all": [
+      "G06N 10/00",
+      "G06N 5/01"
+    ],
+    "source": "converted"
+  }
+}

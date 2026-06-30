@@ -1,0 +1,17 @@
+{
+  "application_id": "WO2020184645",
+  "application_id_fs": null,
+  "title": "Systems and methods for signaling viewpoint information in omnidirectional media",
+  "abstract": "To transmit information associated with an omnidirectional video, following three syntax elements are used. (See paragraph [0056] for details.) (1) First syntax element specifying a number of object identifiers for which a second syntax element and a third syntax element values are signaled. (2) Second syntax element specifying an object identifier for a m-th object. (3) Third syntax element specifying a description of an object identified by the second syntax element. (For example, object label.)",
+  "claims": "Claims ( 8 ) A method of signaling information associated with an omnidirectional video, the method comprising: signaling a first syntax element specifying a number of object identifiers for which a second syntax element and a third syntax element values are signaled; signaling the second syntax element specifying an object identifier for a m-th object; and signaling the third syntax element specifying a description of an object identified by the second syntax element. The method of claim 1, wherein the first syntax element is signaled by an 8-bit unsigned integer and is a number of object identifiers syntax element. The method of claim 1, wherein the second syntax element is an object identifier syntax element. The method of claim 1, wherein the third syntax element is a null-terminated UTF-8 string and is an object label syntax element. The method of claim 1, wherein the first syntax element, the second syntax element and the third syntax element are included in an object centre points correspondence timed metadata track. The method of claim 1, where an object element includes a physical object in a scene. A method of receiving information associated with an omnidirectional video, the method comprising: receiving a first syntax element specifying a number of object identifiers for which a second syntax element and a third syntax element values are received; receiving the second syntax element specifying an object identifier for a m-th object; and receiving the third syntax element specifying a description of an object identified by the second syntax element. A device comprising one or more processors configured to perform any and all combinations of the steps of claim 1.",
+  "classifications": {
+    "ipc": [
+      "H04N 21/235"
+    ],
+    "cpc": [],
+    "all": [
+      "H04N 21/235"
+    ],
+    "source": "csv"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Digital security violation system",
+  "abstract": "A computing system determines that a third party system has been exposed to a digital security violation. The computing system identifies a first user account of a user registered with the computing system that has a corresponding account associated with the third party system. The computing system determines that the first user account has stored a first set of user credentials for the corresponding account associated with the third party system at a storage location accessible by the computing system. The computing system launches a series of web browsers configured to access a first website associated with the third party system. The computing system executes, via a first web browser of the series of web browsers, a first automated script specific to the first website associated with the third party system. The computing system performs at least one of a plurality of remedial operations with respect to the corresponding account.",
+  "claims": "1. A method, comprising: determining, by a computing system, that a third party system has been exposed to a digital security violation; identifying, by the computing system, a first user account registered with the computing system that has a second account associated with the third party system; determining, by the computing system, that the first user account comprises an indication of a storage location comprising a set of user credentials stored therein, the set of user credentials used to authenticate the second account with the third party system; launching, by the computing system, a web browser to access a website associated with the third party system; executing, by the computing system via the web browser, an automated script specific to the website associated with the third party system, the automated script configured to access the second account with the third party system using the set of user credentials stored at the storage location; and performing, by the computing system via the web browser, at least one of a plurality of remedial operations with respect to the second account, wherein performing the at least one of the plurality of remedial operations with respect to the second account comprises altering a stored payment option associated with the second account by: generating a new obfuscated payment option, and replacing the stored payment option with the new obfuscated payment option.",
+  "patent_id": "US12381895-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1416",
+      "G06F 16/951",
+      "G06Q 20/383"
+    ],
+    "all": [
+      "H04L 63/1416",
+      "G06F 16/951",
+      "G06Q 20/383"
+    ],
+    "source": "converted"
+  }
+}

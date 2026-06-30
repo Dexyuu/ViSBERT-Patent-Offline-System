@@ -1,0 +1,20 @@
+{
+  "title": "Secure biometric data storage and retrieval system",
+  "abstract": "A computer system and method for storage and retrieval of encrypted biometric data which includes a biometric data intake device that selectively intakes original biometric data from a user and communicates with a biometric data management system. The biometric data management system has a resident data storage or a remote storage in communication therewith for the selective storage and retrieval of the encrypted biometric data. The system and method allow a user to originally encrypt biometric data such that the user solely possesses one of the necessary keys for later decryption of the stored and encrypted biometric data. The system and method will then doubly encrypt and store the user's biometric data in such a secure manner that the data can be stored on a public blockchain architecture, if desired. Full decryption of the original user biometric data for identity verification can only be performed with access to the user key.",
+  "claims": "1. A system for storage and retrieval of encrypted biometric data, comprising: a biometric data intake device configured to selectively intake original biometric data from a user, the biometric data intake device selectively communicably connected to a network and sending and receiving data thereacross; a biometric data management system connected to the network and in selective communication with the biometric data intake device, the biometric data management system in further communication with at least one data storage for the selective storage and retrieval of encrypted biometric data; wherein the biometric data management system is selectively configured to transmit a first encryption key to the biometric data intake device for original user biometric data intake; wherein the biometric data intake device receiving the first encryption key from the biometric data management system and further configured to: receive a user key from a user; create a second encryption key from the first encryption key and the user key; intake an original user biometric data from the user; encrypt the original user biometric data with the second encryption key to create a first encrypted user biometric data; transmit the first encrypted user biometric data to the biometric data management system; store the second encryption key at a device of the user; delete the second encryption key from the biometric data intake device; wherein the biometric data management system is further configured to: generate a third encryption key; further encrypt the first encrypted user biometric data with the third encryption key to create a second encrypted user biometric data; store the second encrypted user biometric data at a data storage; create a verification token; embed the verification token with the first encrypted user biometric data prior to encrypting the encrypted user biometric data with the third encryption key to become second encrypted user biometric data; and store the second encrypted user biometric data with the verification token embedded therein.",
+  "patent_id": "US12381733-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/3231",
+      "H04L 9/0819",
+      "H04L 9/3213"
+    ],
+    "all": [
+      "H04L 9/3231",
+      "H04L 9/0819",
+      "H04L 9/3213"
+    ],
+    "source": "converted"
+  }
+}

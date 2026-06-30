@@ -1,0 +1,26 @@
+{
+  "title": "System and method for deep learning based lane curvature detection from 2D images",
+  "abstract": "Methods and systems are provided to detect an instance of a line in a two-dimensional image captured by a vehicle and to determine whether the instance of the line is a lane boundary for a lane that will be used by the vehicle to traverse a route. An instance of a line in a two-dimensional image captured by a vehicle is detected using processing circuitry. The processing circuitry is used to determine that the instance of the line is a lane boundary for a lane associated with the vehicle. A curve fit for the lane boundary based on the instance of the line is determined using the processing circuitry. The processing circuitry is also used to determine a sinuosity of the lane based on the curve fit. Execution of a vehicle action is facilitated using the processing circuitry based on the determined sinuosity.",
+  "claims": "1. A method comprising: detecting, using processing circuitry, an instance of a line in a two-dimensional image captured by a vehicle; determining, using the processing circuitry, that the instance of the line is a lane boundary for a lane associated with the vehicle; determining, using the processing circuitry, a curve fit for the lane boundary based on the instance of the line; determining, using the processing circuitry, a sinuosity of the lane based on the curve fit by dividing a length of the curve fit by a distance of shortest path between a starting point and an ending point of the curve fit; and facilitating, using the processing circuitry, execution of a vehicle action based on the determined sinuosity.",
+  "patent_id": "US12380710-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 20/588",
+      "B60W 50/14",
+      "G06T 7/13",
+      "G06T 7/64",
+      "G06V 10/761",
+      "G06T 2207/30256"
+    ],
+    "all": [
+      "G06V 20/588",
+      "B60W 50/14",
+      "G06T 7/13",
+      "G06T 7/64",
+      "G06V 10/761",
+      "G06T 2207/30256"
+    ],
+    "source": "converted"
+  }
+}

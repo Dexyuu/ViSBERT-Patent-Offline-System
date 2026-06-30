@@ -1,0 +1,37 @@
+{
+  "application_id": "WO2019183134",
+  "application_id_fs": null,
+  "title": "Water-borne beacon detection system for missing persons",
+  "abstract": "A processor enabled method in a mobile device includes configuring a WiFi radio controller of the mobile device with a WiFi service set identifier of a search detector and configuring a Bluetooth connection configuration of a search detector. The method also includes responsive to a rescue trigger, enabling the device to exit a low power mode while awaiting a connection attempt from a Bluetooth radio via the configured Bluetooth connection configuration. The method also includes upon receiving the connection attempt, powering up the WiFi radio and attempting to connect to the configured WiFi service set identifier.",
+  "claims": "Claims CLAIMS What is claimed is: 1 . A processor enabled method in a mobile device, comprising: configuring a WiFi radio controller of the mobile device with a WiFi service set identifier of a search detector; configuring a Bluetooth connection configuration of a search detector; responsive to a rescue trigger, directing the device to exit a low power mode upon a connection attempt from a Bluetooth radio via the configured Bluetooth connection configuration; and upon receiving the connection attempt, causing the WiFi radio to power up and attempt to connect to the configured WiFi service set identifier. 2. The processor enabled method of claim 1 wherein the method comprises providing a user interface on a display of the mobile device and the rescue trigger is a user input directing the device to enable a rescue mode. 3. The processor enabled method of claim 1 wherein the rescue trigger comprises the mobile device being inactive for a time period. 4. The processor enabled method of claim 3 wherein the method comprises providing a user interface allowing a user to modify the inactivity conditions. 5. The processor enabled method of claim 1 wherein the method comprises providing a user interface on a display of the mobile device allowing the user to enter registration information uniquely identifying the mobile device to a rescue agency. 6. The processor enabled method of claim 5 wherein the method comprises transmitting the user registration information to the rescue agency. 7. A search system, comprising: a search beacon detector; and code configured to instruct a processor in a mobile device to execute steps of: configuring at least one of a plurality radios in the mobile device with a first connection profile associated with a search beacon detector; responsive to a rescue trigger, directing the device to exit a low power mode upon a connection attempt from the at least one of the plurality of radios; and upon receiving the connection attempt, causing at least the one and a second of the plurality of radios to power up, the second of the plurality of radios configured with a second connection profile associated with the search beacon detector; wherein the search beacon detector adapted to detect each connection request associated with the first and second connection profiles. 8. The search system of claim 7 wherein the code is configured to instruct the processor to provide a user interface on a display of the mobile device and the rescue trigger is a user input directing the device to enable a rescue mode. 9. The search system of claim 7 wherein the code is configured to allow the processor to enter low power mode after a period of inactivity of the mobile device. 10. The search system of claim 9 wherein the code is configured to instruct the processor to providing a user interface allowing a user to modify the inactivity conditions. 11. The search system of claim 7 wherein the code is configured to instruct the processor to providing a user interface on a display of the mobile device allowing the user to enter registration information uniquely identifying the mobile device to a rescue agency. 12. The search system of claim 7 wherein the at least one of the plurality of radios is a Bluetooth radio and the first connection profile is a Bluetooth connection profile. 13. The search system of claim 12 wherein the second of the plurality of radios is a WiFi radio and the second connection profile is a WiFi connection profile. 14. The search system of claim 13 wherein the second connection profile includes at least one SSID which is unique to a rescue agency. 15. The search system of claim 13 further including configuring the WiFi radio with a plurality of connection profiles including a plurality of SSIDs 16. The search system of claim 15 wherein the code is configured to instruct the processor to output a registration of the mobile device from the search subject to a data store of rescue agency. 17. A search system, comprising: providing an application executable on a processor of a mobile device, including code configured to instruct the processor to execute steps of: configuring at least one of a plurality radios in the mobile device with a first connection profile associated with a search beacon detector; responsive to a rescue trigger, directing the device to enter a low power mode while awaiting a connection attempt from the at least one of the plurality of radios; and upon receiving the connection attempt, powering up at least the one and a second of the plurality of radios, the second of the plurality of radios configured with a second connection profile associated with the search beacon detector; and a waterproof device container, the waterproof device container adapted to be coupled with a user of the mobile device and position the mobile device of a user at a location near the surface of water when the device and the container are in water. 18. The search system of claim 18 wherein the container is a pocket on a personal floatation device located in a position near the shoulder of a user wearing the device. 19. The search system of claim 18 wherein the container is a pouch tethered to a personal floatation device and adapted to position the device near the surface of the water. 20. The search system of claim 18 wherein the system further includes a solar charging panel and a connection allowing the mobile device to receive power from the solar charging panel.",
+  "classifications": {
+    "ipc": [
+      "G08B 5/36",
+      "G08B 25/00",
+      "G08B 25/01",
+      "H04W 64/00",
+      "G08B 21/02",
+      "B64C 39/02",
+      "B64D 47/08",
+      "G01S 19/17",
+      "G01S 19/51",
+      "G01S 5/00",
+      "G01S 5/02"
+    ],
+    "cpc": [],
+    "all": [
+      "G08B 5/36",
+      "G08B 25/00",
+      "G08B 25/01",
+      "H04W 64/00",
+      "G08B 21/02",
+      "B64C 39/02",
+      "B64D 47/08",
+      "G01S 19/17",
+      "G01S 19/51",
+      "G01S 5/00",
+      "G01S 5/02"
+    ],
+    "source": "csv"
+  }
+}

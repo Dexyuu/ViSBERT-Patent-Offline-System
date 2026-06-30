@@ -1,0 +1,24 @@
+{
+  "title": "Image processing apparatus, image processing method, and non-transitory computer-readable storage medium",
+  "abstract": "An image processing apparatus comprises an acquisition unit configured to acquire a probability distribution of a color in a teacher image group, a generation unit configured to generate, as an artificial teacher image, an image having a color sampled based on the probability distribution, and a learning unit configured to perform learning of a learning model for performing a demosaicking inference, by using the artificial teacher image.",
+  "claims": "1. An image processing apparatus, comprising: a processor; and a memory, including instructions stored thereon, which, when executed by the processor cause the apparatus to: acquire a probability distribution of a color in a teacher image group; correct a variance in a probability distribution for hue in the teacher image group to a larger variance than for luminance; generate, as an artificial teacher image, an image having a color sampled based on the corrected probability distribution; perform learning of a learning model for performing a demosaicking inference, by using the artificial teacher image, wherein the artificial teacher image has one or more connected regions having the same pixel value as a value sampled from the corrected probability distribution.",
+  "patent_id": "US12380532-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 3/4015",
+      "G06N 3/08",
+      "G06T 3/4046",
+      "G06T 5/50",
+      "G06T 2207/20224"
+    ],
+    "all": [
+      "G06T 3/4015",
+      "G06N 3/08",
+      "G06T 3/4046",
+      "G06T 5/50",
+      "G06T 2207/20224"
+    ],
+    "source": "converted"
+  }
+}

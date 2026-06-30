@@ -1,0 +1,22 @@
+{
+  "title": "Efficient and scalable computation of global feature importance explanations",
+  "abstract": "End-to-end explanation techniques, which efficiently explain the behavior (feature importance) of any machine learning model on large tabular datasets, are disclosed. These techniques comprise two down-sampling methods to efficiently select a small set of representative samples of a high-dimensional dataset for explaining a machine learning model by making use of the characteristics of the dataset or of an explainer of a machine learning model to optimize the explanation quality. These techniques significantly improve the explanation speed while maintaining the explanation quality of a full dataset evaluation.",
+  "claims": "1. A computer-implemented method of building a sample dataset for an explainer of feature importance for machine learning, comprising: for each sample size in a list of sample sizes that is ascending sorted, sequentially performing: a) randomly selecting a current subset of items from an original dataset, each item in the original dataset having values for a list of features, the current subset of items having a size that is said sample size, and b) applying a model explainer, which evaluates importance of the features in the list of features, to a machine learning model related to the list of features and the current subset of items to obtain a current explanation of feature importance for the list of features; ceasing said sequentially performing when a convergence criterion is satisfied; and transmitting the current subset or the current explanation of feature importance.",
+  "patent_id": "US12380357-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 20/00",
+      "G06F 18/211",
+      "G06N 5/04",
+      "G06N 5/045"
+    ],
+    "all": [
+      "G06N 20/00",
+      "G06F 18/211",
+      "G06N 5/04",
+      "G06N 5/045"
+    ],
+    "source": "converted"
+  }
+}

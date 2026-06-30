@@ -1,0 +1,20 @@
+{
+  "title": "Method and apparatus for dynamic dash picture-in-picture streaming",
+  "abstract": "A method and apparatus may be provided for dynamically signaling picture-in-picture video during media streaming. The method may include determining whether video data comprises a first main video stream and a second picture-in-picture video stream based on a first role value associated with the first main video stream and a second role value associated with the second picture-in-picture video stream; determining a preselection descriptor indicating that the second picture-in-picture video stream is selected to be signaled with the first main video stream in the DASH media streaming; merging the first main video stream with the second picture-in-picture video stream as a combined video stream using the preselection descriptor; and updating the preselection descriptor using an update media presentation descriptor (MPD).",
+  "claims": "1. A method for dynamically signaling picture-in-picture video during a dynamic adaptive streaming over HTTP (DASH) media streaming, the method being performed by one or more processors, the method comprising: determining whether video data comprises a first main video stream and a second picture-in-picture video stream based on a Role element associated with the first main video stream having a first value indicating a main video stream and a Role element associated with the second picture-in-picture video stream having a second value indicating a picture-in-picture video stream; determining whether the first main video stream and the second picture-in-picture video stream are to be grouped as a single experience based on a preselection descriptor in an adaptation set of the second picture-in-picture video stream referencing an adaptation set of the first main video stream; merging, subsequent to independent decoding of the first main video stream and the second picture-in-picture video stream, the first main video stream with the second picture-in-picture video stream as a combined video stream; and updating, when a resolution of the first main video stream and the second picture-in-picture video stream changes, a location of a second picture-in-picture video content in the combined video stream using an MPD update and inserting a new Period.",
+  "patent_id": "US12381997-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 5/45",
+      "H04L 65/61",
+      "H04L 67/02"
+    ],
+    "all": [
+      "H04N 5/45",
+      "H04L 65/61",
+      "H04L 67/02"
+    ],
+    "source": "converted"
+  }
+}

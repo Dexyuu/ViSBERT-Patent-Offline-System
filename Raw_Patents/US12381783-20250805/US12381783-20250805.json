@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for enforcement readiness verification",
+  "abstract": "Devices, systems, methods, and processes for determining enforcement readiness in a workload protection solution are described herein. Often, a user may desire to initiate enforcement on a network, but may not know if the various workloads, agents, or other components of the workload protection solution are in a condition to begin enforcement. As a result, embodiments described herein can generate an enforcement validation status or overall enforcement readiness determination by evaluating a plurality of different configurations, attributes, or other settings associated with any desired workloads subject to the policy to be enforced. Upon evaluation, a notification can be generated to the user in the form of a graphical user interface or other similar output device that is configured to show any determined error or issue preventing enforcement readiness. As a result, these can be addressed by a user until enforcement can be activated, easing the overall enforcement process.",
+  "claims": "20. A method of initiating workload enforcement, comprising: receiving an enforcement validation request; determining one or more workloads associated with the enforcement validation request; evaluating at least one configuration of each of the one or more workloads wherein the evaluation comprises at least determining if a policy has been approved for enforcement; generating an enforcement validation status based on the evaluated configuration of each of the one or more workloads; and displaying the enforcement validation status on a graphical user interface.",
+  "patent_id": "US12381783-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 41/0869",
+      "H04L 41/0894",
+      "H04L 41/22"
+    ],
+    "all": [
+      "H04L 41/0869",
+      "H04L 41/0894",
+      "H04L 41/22"
+    ],
+    "source": "converted"
+  }
+}

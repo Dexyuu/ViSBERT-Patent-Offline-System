@@ -1,0 +1,26 @@
+{
+  "title": "Pulse discrimination device and electrocardiogram analyzer",
+  "abstract": "A pulse discrimination device is configured to receive electrical signals from a plurality of positions of a living body to which a pacing device for outputting a pacing pulse to cause a heart to beat is attached, and is configured to discriminate the pacing pulse included in the electrical signals. The pulse discrimination device includes a differential processor configured to calculate a difference of the electrical signals received from the plurality of positions, a sum processor configured to calculate a sum of the electrical signals received from the plurality of positions, and a pulse discrimination unit configured to discriminate the pacing pulse included in the electrical signals based on the difference obtained by the differential processor and the sum obtained by the sum processor.",
+  "claims": "1. A pulse discrimination device configured to receive electrical signals from a plurality of positions of a living body to which a pacing device for outputting a pacing pulse to cause a heart to beat is attached, the pulse discrimination device comprising: a timer; at least one processor and memory collectively configured to: detect a rise and a fall of a pulse in the electrical signals; cause the timer to start a measurement when one of the rise and the fall is detected, and to cause the timer to stop the measurement of the timer when another one of the rise and the fall is detected, a time between the start and stop of the measurement being a pulse width of the detected pulse; compare the pulse width to a predetermined range; determine the pulse as being from the pacing pulse included in the electrical signals when the pulse width is within the predetermined range, and determine the pulse as noise or from an electrocardiogram signal when the pulse width is not within the predetermined range; and stop detecting the rise and the fall in the electrical signals until a predetermined time passes since a last detected pacing pulse, wherein the predetermined time is greater than the pulse width and is less than a time interval at which the pacing pulse is output from the pacing device, and wherein the electrical signals comprise the pacing pulse and the electrocardiogram signal.",
+  "patent_id": "US12377276-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61N 1/36507",
+      "A61B 5/316",
+      "A61B 5/33",
+      "A61B 5/339",
+      "A61B 5/7203",
+      "A61B 5/7217"
+    ],
+    "all": [
+      "A61N 1/36507",
+      "A61B 5/316",
+      "A61B 5/33",
+      "A61B 5/339",
+      "A61B 5/7203",
+      "A61B 5/7217"
+    ],
+    "source": "converted"
+  }
+}

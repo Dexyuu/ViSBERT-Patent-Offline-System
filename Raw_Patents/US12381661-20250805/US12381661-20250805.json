@@ -1,0 +1,34 @@
+{
+  "title": "Uplink grant for consecutive uplink subframes in a wireless device",
+  "abstract": "An uplink grant is received. The uplink grant comprises: a field indicating a number of consecutive uplink subframes; an assignment of resource blocks comprising subcarriers; and a power control command. A determination is made of a transmission power of transport blocks in each subframe of the consecutive uplink subframes based on the power control command. The transmission power in each subframe is adjusted based on a total transmit power in each subframe exceeding a power value in each subframe. Transport blocks are transmitted, using the transmission power, via the subcarriers across each of the consecutive uplink subframes.",
+  "claims": "1. A method comprising: transmitting, to a wireless device, an uplink grant message of Physical Uplink Shared Channel (PUSCH) transmission in a Licensed Assisted Access (LAA) cell, comprising: a field indicating a number of uplink subframes allocated for a PUSCH transmission; an assignment of resource blocks corresponding to the uplink subframes; and a power control command; receiving PUSCH transmission in each subframe of the uplink subframes, which is transmitted using the first transmission power in the each subframe if a first transmission power of the PUSCH transmission in the each subframe does not exceed a maximum allowed power value in the each subframe; and receiving PUSCH transmission in the each subframe, which is transmitted using a second transmission power which does not exceed the maximum allowed power value if the first transmission power in the each subframe exceeds the maximum allowed power value in the each subframe, wherein the first transmission power of the PUSCH transmission in the each subframe is determined based on the power control command.",
+  "patent_id": "US12381661-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 1/1822",
+      "H04L 1/1896",
+      "H04L 5/0053",
+      "H04L 27/0006",
+      "H04W 52/242",
+      "H04W 52/367",
+      "H04W 52/50",
+      "H04W 74/0808",
+      "H04L 5/0051",
+      "H04W 72/23"
+    ],
+    "all": [
+      "H04L 1/1822",
+      "H04L 1/1896",
+      "H04L 5/0053",
+      "H04L 27/0006",
+      "H04W 52/242",
+      "H04W 52/367",
+      "H04W 52/50",
+      "H04W 74/0808",
+      "H04L 5/0051",
+      "H04W 72/23"
+    ],
+    "source": "converted"
+  }
+}

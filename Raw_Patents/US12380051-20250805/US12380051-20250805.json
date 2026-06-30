@@ -1,0 +1,18 @@
+{
+  "title": "Dynamic platform selection and sensor management",
+  "abstract": "In an aspect of the disclosure, a method, a computer-readable medium, and an apparatus are provided. The apparatus may be a BMC. The BMC detects a platform type of a modular hardware system. The BMC searches for platform-specific files in a storage of the BMC based on the detected platform type. The BMC determines whether the platform-specific files are present in the storage of the BMC. When the platform-specific files are present in the storage of the BMC, the BMC reads the platform-specific files from the storage of the BMC, and the BMC initializes a service using the platform-specific files read from the storage of the BMC.",
+  "claims": "1. A method of operating a baseboard management controller (BMC), comprising: detecting, by the BMC, a platform type of a modular hardware system; searching, by the BMC, for platform-specific files in a storage of the BMC based on the detected platform type; determining, by the BMC, whether the platform-specific files are present in the storage of the BMC; and when the platform-specific files are present in the storage of the BMC: reading, by the BMC, the platform-specific files from the storage of the BMC; and initializing, by the BMC, a service using the platform-specific files read from the storage of the BMC.",
+  "patent_id": "US12380051-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 13/4081",
+      "G06F 13/4282"
+    ],
+    "all": [
+      "G06F 13/4081",
+      "G06F 13/4282"
+    ],
+    "source": "converted"
+  }
+}

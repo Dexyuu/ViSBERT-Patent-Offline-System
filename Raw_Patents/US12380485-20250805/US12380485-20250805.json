@@ -1,0 +1,22 @@
+{
+  "title": "Systems and methods for altering a graphical user interface based on a customer journey graph",
+  "abstract": "A system including one or more processors and one or more non-transitory computer readable media storing computing instructions that, when executed on the one or more processors, perform: receiving historical in-session user activity information; building a customer journey graph based on the historical in-session user activity information; generating suggested queries based on the customer journey graph; and in response to identifying an input query for a user session of a user: re-ranking the suggested queries; and displaying the suggested queries, as re-ranked, to the user via a graphical user interface (GUI). Other embodiments are described.",
+  "claims": "1. A system comprising: one or more processors; and one or more non-transitory computer-readable media storing computing instructions that, when executed on the one or more processors, perform: receiving historical in-session user activity information, wherein the historical in-session user activity information comprises: original queries input by one or more users; and subsequent queries input by the one or more users; building a customer journey graph based on the historical in-session user activity information, comprising: linking together the original queries and the subsequent queries based on one or more shared tokens; and generating a respective composite score for each of the subsequent queries based on a time period for the historical in-session user activity information, wherein generating the respective composite score for each of the subsequent queries based on the time period for the historical in-session user activity information comprises calculating the respective composite score by weighting different types of user interactions and normalizing the respective composite score based on a recency of user activity; generating suggested queries based on the customer journey graph, wherein generating the suggested queries based on the customer journey graph further comprises ranking the subsequent queries linked to the original queries based on the respective composite score for each of the subsequent queries to generate ranked subsequent queries, wherein generating the suggested queries further comprises modifying the ranked subsequent queries by: performing tokenization on the ranked subsequent queries; and generating the suggested queries based on the tokenization on the ranked subsequent queries; and in response to identifying an input query for a user session of a user: re-ranking the suggested queries; generating buttons that correspond to the suggested queries, as re-ranked, on a graphical user interface (GUI) of the user; and displaying the buttons, as generated, that correspond to the suggested queries, as re-ranked, to the user via the GUI.",
+  "patent_id": "US12380485-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0631",
+      "G06F 16/2425",
+      "G06Q 30/0201",
+      "G06Q 30/0625"
+    ],
+    "all": [
+      "G06Q 30/0631",
+      "G06F 16/2425",
+      "G06Q 30/0201",
+      "G06Q 30/0625"
+    ],
+    "source": "converted"
+  }
+}

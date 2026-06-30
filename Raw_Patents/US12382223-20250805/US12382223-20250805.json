@@ -1,0 +1,24 @@
+{
+  "title": "USB gaming headphone with dual-sound-card output",
+  "abstract": "The present invention provides a USB gaming headphone with dual-sound-card output, which includes a main chip, an headphone amplifier chip circuit, a microphone, and a total volume potentiometer, where the main chip is at least provided with 2 sound cards, and the main chip is also electrically connected to a mixing potentiometer and the microphone, and the mixing potentiometer adjusts the output of the sound cards proportionally, amplifies signals from left and right channels through the headphone amplifier chip circuit, and then performs electrical-sound conversion through a speaker. The present invention is provided with 2 output sound card devices in the main chip. By adjusting the proportion of two output channels through the mixing potentiometer.",
+  "claims": "1. A USB gaming headphone with dual-sound-card output, comprising a main chip having two sound cards configured to map to separate output devices on a computer, an headphone amplifier chip circuit, a microphone, a total volume potentiometer, and a mixing potentiometer electrically connected to the main chip through an RC filtering network and an analog-to-digital converter (ADC) input pin, wherein: a first terminal of the mixing potentiometer receives a 3.3V stabilized voltage from the main chip; a second terminal of the mixing potentiometer connects to ground, and a center tap of the mixing potentiometer outputs a voltage signal processed by the RC filtering network to eliminate AC ripple before ADC detection; an internal program in the main chip configured to distribute sound output ratios between the two sound cards based on a detected voltage magnitude; the headphone amplifier chip circuit with feedback resistors determining amplification factors and anti-oscillation capacitors receiving stereo signals from the main chip after internal DAC conversion; the total volume potentiometer implemented as dual potentiometers in a headphone amplifier circuit path; and the mixing potentiometer adjusts the output of the two sound cards proportionally, amplifies signals from left and right sound channels through the headphone amplifier chip circuit, and then performs electrical-sound conversion through a speaker, the headphone amplifier chip circuit outputs to the speaker using OV-output configuration without DC blocking capacitors.",
+  "patent_id": "US12382223-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04R 5/04",
+      "H04R 1/083",
+      "H04R 5/0335",
+      "H04R 2420/09",
+      "H04R 2430/01"
+    ],
+    "all": [
+      "H04R 5/04",
+      "H04R 1/083",
+      "H04R 5/0335",
+      "H04R 2420/09",
+      "H04R 2430/01"
+    ],
+    "source": "converted"
+  }
+}

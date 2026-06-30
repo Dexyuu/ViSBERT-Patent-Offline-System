@@ -1,0 +1,18 @@
+{
+  "title": "Restricted TWT enhanced information advertisement procedure for next generation WLAN",
+  "abstract": "Methods and apparatuses for enhancing advertisement of restricted target wake time (TWT) schedules by access points (APs) and improving selection of restricted TWT schedules by stations (STAs) in a wireless local area network. A wireless STA apparatus comprises a transceiver and a processor operably coupled to the transceiver. The transceiver is configured to receive, from an AP, a restricted TWT advertisement that includes a restricted TWT schedule and additional information about the restricted TWT schedule. The processor is configured to determine, based on the additional information, whether to refrain from requesting to become a member of the restricted TWT schedule.",
+  "claims": "1. A station device associated with a wireless network, the station device comprising: one or more memories; and one or more processors coupled to the one or more memories, the one or more processors configured to cause: receiving, from an access point (AP) device, an extremely high throughput (EHT) Capabilities element that includes a restricted TWT Support subfield, the restricted TWT Support subfield indicating whether the AP device supports restricted TWT operation, receiving, from the AP device, a broadcast target wake time (TWT) element including a restricted TWT parameter set field that includes a restricted TWT schedule full subfield, and determining whether to request to establish a new membership in a restricted TWT schedule advertised by the AP device based on the restricted TWT schedule full subfield, wherein the restricted TWT schedule full subfield is valid when the restricted TWT Support subfield indicates that the AP device supports restricted TWT operation.",
+  "patent_id": "US12382386-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 52/0206",
+      "H04W 84/12"
+    ],
+    "all": [
+      "H04W 52/0206",
+      "H04W 84/12"
+    ],
+    "source": "converted"
+  }
+}

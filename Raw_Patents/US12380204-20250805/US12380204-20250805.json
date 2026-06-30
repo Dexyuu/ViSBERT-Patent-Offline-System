@@ -1,0 +1,40 @@
+{
+  "title": "Indicator of security policy application for a portion of resources on a machine",
+  "abstract": "A computer stores, within a single user account, multiple supervised computing resources and multiple additional computing resources. The multiple supervised computing resources are associated with a security policy. The computer executes a first instance of a specified application that lacks read access and lacks write access to any and all of the multiple supervised computing resources. The computer executes, simultaneously with the first instance, a second instance of the specified application that accesses at least a portion of the multiple supervised computing resources. The computer applies rules from the security policy to the second instance of the specified application while foregoing applying the rules from the security policy to the first instance of the specified application.",
+  "claims": "1. A method comprising: storing, within a single user account at a computing machine, multiple unsupervised computing resources and multiple supervised computing resources, wherein the multiple supervised computing resources are associated with a security policy; receiving, from a user of the computing machine, a request to access a specified supervised computing resource from among the multiple supervised computing resources; providing access to the specified supervised computing resource locally on the computing machine and directly through a native computing environment of the computing machine; causing a display unit to display, at a display position related to a region of the display unit displaying the specified supervised computing resource, an indicator that the specified supervised computing resource is associated with the security policy, the indicator comprising a border for the region, the border occupying points outside the region that are within a distance of n or fewer pixels from the region unless those pixels are occupied by visual representations of other computing resources that are more dominant than the specified supervised computing resource in a computing resource stack, wherein n is a positive integer; and applying security rules from the security policy to the specified supervised computing resource.",
+  "patent_id": "US12380204-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/53",
+      "G06F 9/547",
+      "G06F 21/16",
+      "G06F 21/316",
+      "G06F 21/577",
+      "H04L 63/10",
+      "H04L 63/102",
+      "H04L 63/105",
+      "H04L 63/20",
+      "H04L 63/205",
+      "G06F 21/1063",
+      "G06F 2221/033",
+      "G06F 2221/2149"
+    ],
+    "all": [
+      "G06F 21/53",
+      "G06F 9/547",
+      "G06F 21/16",
+      "G06F 21/316",
+      "G06F 21/577",
+      "H04L 63/10",
+      "H04L 63/102",
+      "H04L 63/105",
+      "H04L 63/20",
+      "H04L 63/205",
+      "G06F 21/1063",
+      "G06F 2221/033",
+      "G06F 2221/2149"
+    ],
+    "source": "converted"
+  }
+}

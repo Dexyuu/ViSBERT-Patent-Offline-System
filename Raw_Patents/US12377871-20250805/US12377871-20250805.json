@@ -1,0 +1,20 @@
+{
+  "title": "Scheduling state transitions in an autonomous vehicle",
+  "abstract": "Scheduling state transitions in an autonomous vehicle, including: detecting a transition signal for transitioning from a first state associated with a first machine learning model to a second state associated with a second machine learning model; determining whether a precondition for generating output by the second machine learning model has been satisfied; and delaying, in response for the precondition not being satisfied, a transition from the first state to the second state.",
+  "claims": "1. A method, comprising: detecting a transition signal for transitioning from a first state associated with a first machine learning model to a second state associated with a second machine learning model, wherein an autonomous vehicle is configured to use the first machine learning model instead of the second machine learning model when in the first state, and wherein the autonomous vehicle is configured to use the second machine learning model instead of the first machine learning model when in the second state; detecting, subsequent to detecting the transition signal, that a precondition for generating output by the second machine learning model is unsatisfied, wherein the precondition comprises a predefined number of frames of image data input to the second machine learning model; and delaying, until the precondition for generating output by the second machine learning model is satisfied, use of the second machine learning model instead of the first machine learning model by delaying a transition from the first state to the second state.",
+  "patent_id": "US12377871-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 60/001",
+      "G06N 20/00",
+      "B60W 2420/403"
+    ],
+    "all": [
+      "B60W 60/001",
+      "G06N 20/00",
+      "B60W 2420/403"
+    ],
+    "source": "converted"
+  }
+}

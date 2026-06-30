@@ -1,0 +1,27 @@
+{
+  "application_id": "WO2020185703",
+  "application_id_fs": null,
+  "title": "Electric brake engagement system",
+  "abstract": "Disclosed embodiments include automatic braking actuation systems for a vehicle. Upon detection of an emergency situation such as a loss of vehicle power or a controller glitch, the system determines whether a brake control is in a braking position. If so, an emergency braking system is actuated. If the brake control is not in a braking position, the system starts a timer and may allow the vehicle to coast. Upon elapsing of the timer or, prior to elapsing of the timer if the brake control is placed into a braking position, the emergency braking system is actuated. In other embodiments, actuating the brake control may result in the service brakes being engaged, if available. In still other embodiments, the vehicle may be allowed to coast or the service brakes to be used until the vehicle speed drops below a predetermined threshold, after which the emergency braking system is actuated.",
+  "claims": "Claims CLAIMS  What is claimed is: 1. An emergency braking system for a vehicle, comprising: a brake control condition sensor to sense a brake command; a timer to signal the elapsing of a predetermined time; and a braking actuator coupled to the brake control condition sensor and timer, wherein the braking actuator, upon detection of an emergency condition, is configured to start the timer and actuate a braking mechanism upon the timer elapsing, and wherein the braking actuator is configured to immediately actuate the braking mechanism upon the brake control condition sensor indicating a brake command. 2. The emergency braking system of claim 1, wherein the brake control condition sensor is coupled to a vehicle tiller, the vehicle tiller having a first operation range where no brake is commanded, and a second operation range where a brake is commanded. 3. The emergency braking system of claim 2, wherein the braking actuator is comprised of a first relay and a second relay, wherein the first relay is to cause the braking mechanism to actuate upon the vehicle tiller being placed into the second operation range, and wherein the second relay is to cause the braking mechanism to actuate upon the timer elapsing. 4. The emergency braking system of claim 1, wherein the braking mechanism is applied via a spring, and is released via an electrically energized retractor, and wherein the braking mechanism automatically is applied if the retractor is deenergized. 5. The emergency braking system of claim 1, wherein the vehicle is a materials handlingvehicle. 6. A non-transitory computer-readable medium (CRM) comprising instructions executable by an apparatus that, when executed, cause the apparatus to: a brake control condition sensor to sense a brake command; a timer to signal the elapsing of a predetermined time; and a braking actuator coupled to the brake control condition sensor and timer, wherein the braking actuator, upon detection of an emergency condition, is configured to start the timer and actuate a braking mechanism upon the timer elapsing, and wherein the braking actuator is configured to immediately actuate the braking mechanism upon the brake control condition sensor indicating a brake command. 7. The CRM of claim 6, wherein the apparatus is part of a vehicle, and the instructions are to further cause the apparatus to set the predetermined time based upon the speed of the vehicle. 8. The CRM of claim 6, wherein the apparatus is part of a vehicle, and the instructions are to further cause the apparatus to set the predetermined time based upon the weight of the vehicle plus the weight of any load on the vehicle. 9. A vehicle, comprising: a brake control unit to sense a brake command; a timer to signal the elapsing of a predetermined time coupled to the brake control unit; and a braking actuator coupled to the brake control unit, \n\n wherein the braking control unit, upon detection of an emergency condition and no brake command, is configured to start the timer and signal the braking actuator to actuate an emergency braking mechanism upon the timer elapsing. 10. The vehicle of claim 9, wherein the braking control unit, upon detection of a brake command, is configured to apply service brakes of the vehicle. 11. The vehicle of claim 10, further comprising a tiller, wherein the brake control unit is coupled to the tiller, the tiller having a first operation range where no brake is commanded, and a second operation range where a brake is commanded. 12. The vehicle of claim 10, further comprising a vehicle speed sensor coupled to the brake control unit, and wherein the braking control unit is configured to actuate the emergency braking mechanism upon detection by the vehicle speed sensor that the vehicle is moving slower than a predetermined speed. 13. The vehicle of claim 9, wherein the emergency condition comprises a loss of power to a vehicle traction system or a fault in a vehicle controller.",
+  "classifications": {
+    "ipc": [
+      "B60T 7/12",
+      "B60T 8/32",
+      "B60T 17/18",
+      "B60W 30/09",
+      "B62B 5/04",
+      "B62B 5/06"
+    ],
+    "cpc": [],
+    "all": [
+      "B60T 7/12",
+      "B60T 8/32",
+      "B60T 17/18",
+      "B60W 30/09",
+      "B62B 5/04",
+      "B62B 5/06"
+    ],
+    "source": "csv"
+  }
+}

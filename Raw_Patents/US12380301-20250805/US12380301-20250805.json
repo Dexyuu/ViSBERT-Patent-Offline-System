@@ -1,0 +1,24 @@
+{
+  "title": "Method and apparatus for recognizing AVPS marker for localization based on AVPS marker",
+  "abstract": "The present disclosure provides a method for recognizing a coded marker including: obtaining a marker image including a coded marker from an input image and normalizing the marker image to obtain a normalized image detecting a region of interest in the normalized image; generating a first binarized image by performing binarization to classify each pixel of the normalized image into one of a foreground and a background; generating a second binarized image by dividing the normalized image into a plurality of partitions, performing binarization for pixel values for each partition to generate a binarized image for the each partition, and combining the binarized images for the each partition; generating an integrated binarized image according to a result of comparing pixel values at the same location in the first binarized image and the second binarized image; and obtaining identification data of the coded marker from the integrated binarized image.",
+  "claims": "1. An apparatus comprising: at least one processor; and a memory operably connected to the at least one processor, wherein the memory stores instructions for causing the at least one processor to perform operations in response to execution of the instructions by the at least one processor, the operations comprising: obtaining a marker image including a coded marker from an input image and normalizing the marker image to obtain a normalized image; detecting a region of interest in the normalized image; generating a first binarized image by performing binarization to classify each pixel of the normalized image into one of a foreground and a background; generating a second binarized image by dividing the normalized image into a plurality of partitions, performing binarization for pixel values for each partition to generate a binarized image for the each partition, and combining the binarized images for the each partition; generating an integrated binarized image according to a result of comparing pixel values at a same location in the first binarized image and the second binarized image; and obtaining identification data of the coded marker from the integrated binarized image.",
+  "patent_id": "US12380301-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06K 7/1443",
+      "G06T 7/11",
+      "G06V 10/25",
+      "G06V 10/751",
+      "G06V 10/764"
+    ],
+    "all": [
+      "G06K 7/1443",
+      "G06T 7/11",
+      "G06V 10/25",
+      "G06V 10/751",
+      "G06V 10/764"
+    ],
+    "source": "converted"
+  }
+}

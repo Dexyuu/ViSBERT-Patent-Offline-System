@@ -1,0 +1,20 @@
+{
+  "title": "North port interference mitigation in a full duplex (FDX) amplifier",
+  "abstract": "In some aspects, the disclosure is directed to methods and systems for interference mitigation and cancellation in full duplex amplifiers for cable modem or broadband communication systems. In many implementations, an interference canceller in the downstream path may be provided to equalize composite power on the FDX upstream subbands within a predetermined range of amplitude (e.g. X dB) from the desired downstream signal on the same subband, without affecting the downstream subbands.",
+  "claims": "11. A circuit, comprising: a first subcircuit configured to determine an amount of attenuation to apply to each of one or more frequency subbands of an input signal, the frequency subbands being FDX subbands, the input signal comprising data for retransmission and interference, the amount of attenuation being determined in response to an amount of energy of the input signal and a threshold, the threshold being determined from an amount of energy of a reference signal for the corresponding frequency subband, the threshold representing a desired amount of energy for the input signal at the corresponding frequency subband; a second subcircuit configured to apply the amount of attenuation to each of the one or more frequency subbands; and an output configured to retransmit an attenuated input signal.",
+  "patent_id": "US12381752-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 12/2801",
+      "H04L 1/08",
+      "H04L 5/1461"
+    ],
+    "all": [
+      "H04L 12/2801",
+      "H04L 1/08",
+      "H04L 5/1461"
+    ],
+    "source": "converted"
+  }
+}

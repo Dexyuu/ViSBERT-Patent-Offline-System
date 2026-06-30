@@ -1,0 +1,28 @@
+{
+  "title": "Training apparatus, training method, and medium",
+  "abstract": "A training apparatus is provided. The training apparatus acquires a mosaic image, generates a demosaic image by subjecting the mosaic image to a demosaicing process in which a neural network is used, and detects a low-image-quality portion in the demosaic image as a detected region. The training apparatus acquires a training image including a region having a hue similar to a hue of the detected region, and incrementally trains the neural network using the training image.",
+  "claims": "1. A convolutional neural network (CNN) based training apparatus for performing a demosaicing process comprising one or more processors and one or more memories storing one or more programs which cause the one or more processors to: acquire a mosaic image; generate a demosaic image by subjecting the mosaic image to the demosaicing process in which the convolutional neural network is used; detect, as a detected region, a region including a false pattern based on a minimum value of an intensity of a specific pattern detected by applying a spatial filter to each of RGB (Red, Green, and Blue) channels in the demosaic image, wherein positive and negative values are repeated alternately every other pixel in each of the vertical and horizontal directions in the spatial filter, the intensity being degree of the specific pattern in each of the RGB channels; acquire a training image including a region having a hue similar to a hue of the detected region including the false pattern; store the training image in a supervisory image storage unit; and incrementally train the convolutional neural network based on an error between the training image stored in the supervisory image storage unit and an output that is obtained by inputting, to the neural network, a mosaic image obtained by performing a sampling process on the training image.",
+  "patent_id": "US12380534-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 3/4046",
+      "G06T 3/4015",
+      "G06T 7/0002",
+      "G06T 2207/10024",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30168"
+    ],
+    "all": [
+      "G06T 3/4046",
+      "G06T 3/4015",
+      "G06T 7/0002",
+      "G06T 2207/10024",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30168"
+    ],
+    "source": "converted"
+  }
+}

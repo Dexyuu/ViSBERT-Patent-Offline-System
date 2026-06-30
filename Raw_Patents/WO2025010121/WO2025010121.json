@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2025010121",
+  "application_id_fs": "WO2025010121",
+  "title": "Low-emissions heating, cooling and hot water system",
+  "abstract": "A hydronic system, of the present disclosure, includes a control unit including a memory comprising stored instructions and a processor configured to execute the stored instructions to cause the control unit to perform at least monitoring, a volume of hot water in a hot storage tank via a first set of flowmeters, monitoring, a volume of chilled water in a cold storage tank via a second set of flowmeters, monitoring, a first outlet temperature of the hot water within the hot storage tank via a first temperature sensor and a second outlet temperature of the chilled water within the cold storage tank via a second temperature sensor, and operating, a heat pump unit for recharging the hot water and the chilled water within the hot storage tank and the cold storage tank respectively. The heat pump unit is operated when a respective predetermined limit reaches for anyone of identified parameters.",
+  "claims": "Claims What is claimed is: CLAIMS 1. A hydronic system, comprising: a control unit, comprising: a memory comprising stored instructions; and a processor configured to execute the stored instructions to cause the control unit to perform at least: monitoring, a volume of hot water in a hot storage tank via a first set of flowmeters; monitoring, a volume of chilled water in a cold storage tank via a second set of flowmeters; monitoring, a first outlet temperature of the hot water within the hot storage tank via a first temperature sensor and a second outlet temperature of the chilled water within the cold storage tank via a second temperature sensor; and operating, a heat pump unit for recharging the hot water and the chilled water within the hot storage tank and the cold storage tank respectively, the heat pump unit operated when a respective predetermined limit reaches for at least one of: the volume of the hot water, the volume of the chilled water, the first outlet temperature, and the second outlet temperature. 2. The hydronic system as claimed in claim 1, wherein the hot water and the chilled water is selectively routed to an enclosure via a pump fluidically coupled to the hot storage tank, the cold storage tank and the enclosure. 3. The hydronic system as claimed in claim 2, wherein the control unit is configured to determine a temperature of the hot water routed into the thermal distributor via a first temperature sensor configured in a conduit connecting the hot storage tank and the thermal distributor. 4. The hydronic system as claimed in claim 3, wherein the control unit is configured to operate the heat pump for recharging the hot water within the hot storage tank, when the temperature reaches a threshold limit. 5. The hydronic system as claimed in claim 1, wherein the control unit is configured to determine a temperature of the chilled water routed from an enclosure via a second temperature sensor configured in a conduit connecting the cold storage tank and the enclosure. 6. The hydronic system as claimed in claim 1, wherein the control unit is configured to operate the heat pump unit for recharging the chilled water within the cold storage tank, when the temperature reaches a threshold limit. 7. The hydronic system as claimed in claim 1, wherein the hot storage tank includes the hot water settled on a top portion of the hot storage tank and a cold water settled on a bottom portion, the cold water routed to the heat pump unit for generating the hot water, the hot water generated in the heat pump unit is routed to the top portion for recharging the hot water within the hot storage tank. 8. The hydronic system as claimed in claim 1, wherein the cold storage tank includes a lukewarm water settled on a top portion of the cold storage tank and the chilled water settled on a bottom portion of the cold storage tank, the lukewarm water is routed to the heat pump unit for generating the chilled water, the chilled water generated in the heat pump unit is routed to the bottom portion for recharging the chilled water within the cold water tank. 9. The hydronic system as claimed in claim 1, wherein the control unit is configured to determine a time period required for recharging the volume of hot water, the time period determined based on the volume of the hot water, the first outlet temperature and an operation cycle, the operation cycle being at least an on-peak operation cycle and an off-peak operation cycle, wherein the control unit is configured to: \n\n operate the heat pump unit instantaneously for recharging the hot water within the time period, when at least one of, the volume of hot water and the first outlet temperature have reached the predetermined limit and the operation cycle is in the on-peak operation cycle; and operate the heat pump unit selectively based on a cost and a schedule of operation of a power source for recharging the hot water, when at least one of the volume of hot water and the first outlet temperature have reached the predetermined limit, and the operation cycle it in the off-peak operation cycle, the cost and the schedule of operation of the power source is defined in a look-up table configured in a database communicably coupled to the control unit. 10. The hydronic system as claimed in claim 1, wherein the control unit is configured to determine a time period required for recharging the volume of chilled water, the time period determined based on the volume of the chilled water, the second outlet temperature and an operation cycle, the operation cycle being at least an on-peak operation cycle and an off-peak operation cycle, wherein the control unit is configured to: operate the heat pump instantaneously for recharging the chilled water within the time period, when at least one of the volume of chilled water and the second outlet temperature have reached the predetermined limit and the operation cycle is in the on-peak operation cycle; and operate the heat pump selectively based on a cost and a schedule of operation of a power source for recharging the chilled water, when at least one of the volume of chilled water and the second outlet temperature have reached the predetermined limit and the operation cycle is in the off-peak operation cycle, the cost and the schedule of operation of the power source is defined in a look-up table configured in a database communicably coupled to the control unit.",
+  "classifications": {
+    "ipc": [
+      "F24H 9/00",
+      "F24H 9/20",
+      "F24H 9/2007",
+      "F24H 9/2014",
+      "F24D 17/00",
+      "F24D 17/0089",
+      "F24D 17/02",
+      "F24D 19/00",
+      "F24D 19/10",
+      "F24D 19/1006",
+      "F24H 15/00",
+      "F24H 15/30",
+      "F24H 15/375"
+    ],
+    "cpc": [],
+    "all": [
+      "F24H 9/00",
+      "F24H 9/20",
+      "F24H 9/2007",
+      "F24H 9/2014",
+      "F24D 17/00",
+      "F24D 17/0089",
+      "F24D 17/02",
+      "F24D 19/00",
+      "F24D 19/10",
+      "F24D 19/1006",
+      "F24H 15/00",
+      "F24H 15/30",
+      "F24H 15/375"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025010121"
+}

@@ -1,0 +1,19 @@
+{
+  "application_id": "WO2018140659",
+  "application_id_fs": null,
+  "title": "Systems architecture for interconnection of multiple cabin aircraft elements",
+  "abstract": "Systems and methods are described for providing data and instruction exchange between disparate aircraft components. A communication subsystem is communicatively coupled to each of the aircraft components with a server communicatively coupled to the subsystem. An interconnectivity middle layer is disposed between the subsystem and server and configured to communicate with each of the aircraft components. Preferred systems utilize topic trees to organize data and facilitate communication.",
+  "claims": "Claims CLAIMS  What is claimed is: 1. A system for providing data and instruction exchange between aircraft components, comprising: a plurality of aircraft components, wherein each of the plurality of aircraft components is configured to receive or transmit information; a data collector communicatively coupled to each of the plurality of aircraft components via one or more interfaces; a server communicatively coupled to the data collector and configured to receive data from the plurality of aircraft components and send commands to the one or more components; a user interface communicatively coupled to the server and configured to allow data from the plurality of aircraft components to be viewed and instruct the commands to be sent to the one or more components; wherein the data collector comprises a set of topic trees configured to facilitate communication between the aircraft components and the data collector, and wherein the server is configured to organize data in a topic tree architecture using the set of topic trees. 2. The system of claim 1, wherein communication between the server and data collector is provided wirelessly. 3. The system of claim 1, wherein communication between the server and data collector is provided using a physical data link. 4. The system of any of claims 1 to 3, wherein the aircraft components are selected from the group consisting of a trolley, a galley insert, an in-flight entertainment system, a seat system, a lighting system, a flight attendant panel, a satellite feed translator, a satellite link, a cellular phone system link, and a database. 5. The system of any of claims 1 to 4, wherein the server further comprises a data representation middle layer. 6. The system of any of claims 1 to 5, wherein the server further comprises an authentication/permissions middle layer. 7. The system of any of claims 1 to 6, wherein the server further comprises a response/request queue or a publish/subscribe queue. 8. The system of any of claims 1 to 7, wherein the server is communicatively coupled with an external service. 9. The system of claim 1, wherein the topic tree is configured as a physical topic tree. 10. The system of claim 1, wherein the topic tree is configured as a logical topic tree. 11. The system of claim 1, wherein the topic tree is configured as a functional topic tree. 12. The system of any of claims 9 to 11, wherein the topic tree is encrypted. 13. The system of any of claims 9 to 12, wherein the topic tree facilitates communication between the aircraft when in flight and ground equipment.",
+  "classifications": {
+    "ipc": [
+      "H04L 29/08",
+      "H04L 29/06"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 29/08",
+      "H04L 29/06"
+    ],
+    "source": "csv"
+  }
+}

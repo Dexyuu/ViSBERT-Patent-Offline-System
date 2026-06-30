@@ -1,0 +1,26 @@
+{
+  "title": "AC-DC power converter with power factor correction",
+  "abstract": "The present invention relates to an AC-DC power converter which includes a resonant DC-DC converter and a charge pump circuit. The charge pump circuit is configured to perform power factor correction of the AC-DC power converter by drawing current pulses at a switching frequency of the converter from an AC line voltage such that electrical charges of the current pulses vary substantially proportionally with instantaneous amplitude of the AC line voltage.",
+  "claims": "1. An AC-DC power converter comprising: an AC rectification circuit configured to convert an AC line voltage into a rectified line voltage; a rectifying element connected between the rectified line voltage and a DC supply voltage of a resonant DC-DC converter, the resonant DC-DC converter including: a resonant inverter configured to convert the DC supply voltage into a resonant inverter voltage at a controllable switching frequency, an output rectification circuit configured to generate a DC output voltage or DC output current from the resonant inverter voltage for supply to a converter load, and a charge pump circuit connected to the rectified line voltage and the resonant inverter voltage, wherein the charge pump circuit is configured to draw current pulses at the controllable switching frequency from the AC line voltage, the charge pump circuit including: a smoothing capacitor connected to the DC supply voltage of the resonant DC-DC converter, and a pump/flying capacitor connected from the resonant inverter voltage to the rectified line voltage; and a voltage regulation loop or a current regulation loop configured to adjust the DC output voltage or DC output current by adjusting the controllable switching frequency of the resonant inverter voltage, and by adjusting the DC output voltage or DC output current by off/on duty cycle modulation of the controllable switching frequency of the resonant inverter voltage; wherein electrical charges of the current pulses vary proportionally to instantaneous amplitude of the AC line voltage; and wherein a capacitance of the smoothing capacitor and a capacitance of the pump/flying capacitor are selected such that the DC supply voltage of the resonant inverter is higher than the AC line voltage across an entire cycle of the AC line voltage.",
+  "patent_id": "US12381480-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02M 1/4241",
+      "H02M 1/0058",
+      "H02M 1/425",
+      "H02M 3/07",
+      "H02M 3/335",
+      "H02M 3/33576"
+    ],
+    "all": [
+      "H02M 1/4241",
+      "H02M 1/0058",
+      "H02M 1/425",
+      "H02M 3/07",
+      "H02M 3/335",
+      "H02M 3/33576"
+    ],
+    "source": "converted"
+  }
+}

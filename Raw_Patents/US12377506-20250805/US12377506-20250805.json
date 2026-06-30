@@ -1,0 +1,20 @@
+{
+  "title": "Workpiece machining device and machining control method",
+  "abstract": "A workpiece machining device includes a sensor unit that detects the passage of a moving workpiece W, a machining unit that performs machining using a predetermined machining tool in a state where the workpiece W is moved, and a machining control unit that controls the operation of the machining unit. The machining control unit issues an operation command signal SPto the machining unit at intervals of a predetermined control cycle T, measures a detection time TDtaken to receive a detection signal SDrelative to a cycle start time point of the control cycle T, stores various parameters including the detection time TD, a difference between the control cycle T and the detection time TDis defined as a response delay time, and modifies the operation command signal SPin each control cycle T on the basis of the response delay time TD.",
+  "claims": "1. A workpiece machining device, comprising: a sensor unit configured to transmit a detection signal upon detection of passage of a moving workpiece, a machining unit arranged after the sensor unit in a moving direction of the workpiece and configured to perform machining on the workpiece using a predetermined machining tool by activating a machining mechanism while the workpiece is moving, and a machining control unit configured to control an operation of the machining unit based on the detection signal from the sensor unit, wherein the machining control unit includes a main control unit configured to transmit an operation command signal to the machining mechanism of the machining unit at intervals of a unique control cycle of the main control unit, a timing unit configured to measure a detection time taken to receive the detection signal relative to a cycle start time point of the unique control cycle, and a memory that stores various parameters including the detection time, a difference between the cycle start time point of the unique control cycle and the detection time is defined as a response delay time, and the main control unit is configured to modify a command value of the operation command signal in each unique control cycle based on the response delay time.",
+  "patent_id": "US12377506-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B23Q 15/12",
+      "G05B 19/4189",
+      "G05B 2219/35191"
+    ],
+    "all": [
+      "B23Q 15/12",
+      "G05B 19/4189",
+      "G05B 2219/35191"
+    ],
+    "source": "converted"
+  }
+}

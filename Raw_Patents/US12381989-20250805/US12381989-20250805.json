@@ -1,0 +1,48 @@
+{
+  "title": "Systems and methods for mobile image capture and content processing of driver's licenses",
+  "abstract": "Systems and methods are provided for processing and extracting content from an image captured using a mobile device. In one embodiment, an image is captured by a mobile device and corrected to improve the quality of the image. The corrected image is then further processed by adjusting the image, identifying the format and layout of the document, binarizing the image and extracting the content using optical character recognition (OCR). Multiple methods of image adjusting may be implemented to accurately assess features of the document, and a secondary layout identification process may be performed to ensure that the content being extracted is properly classified.",
+  "claims": "1. A method comprising using at least one hardware processor to: receive an image of a document captured by a mobile device; by each of two or more different image-cropping methods, determine coordinates of proposed corners of the document in the image, wherein the two or more different image-cropping methods include rounded corner detection, and wherein the rounded corner detection comprises detecting edges in the image, determining connected points using contour tracing on the detected edges, detecting splines by scanning connected points in a local window, and identifying rounded corners from the detected splines; determine cropping parameters based on the coordinates of the proposed corners of the document determined by the two or more different image-cropping methods; crop the image using the determined cropping parameters; process the cropped image according to one or more image processing methods; and perform optical character recognition on the processed cropped image.",
+  "patent_id": "US12381989-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 1/00708",
+      "G06Q 20/3276",
+      "G06V 10/243",
+      "G06V 10/28",
+      "G06V 10/32",
+      "G06V 30/40",
+      "G06V 30/412",
+      "G07C 9/00",
+      "H04N 1/00718",
+      "H04N 1/00734",
+      "G06V 30/10",
+      "G07C 2209/41",
+      "H04N 1/00244",
+      "H04N 1/00307",
+      "H04N 2101/00",
+      "H04N 2201/001",
+      "H04N 2201/0084"
+    ],
+    "all": [
+      "H04N 1/00708",
+      "G06Q 20/3276",
+      "G06V 10/243",
+      "G06V 10/28",
+      "G06V 10/32",
+      "G06V 30/40",
+      "G06V 30/412",
+      "G07C 9/00",
+      "H04N 1/00718",
+      "H04N 1/00734",
+      "G06V 30/10",
+      "G07C 2209/41",
+      "H04N 1/00244",
+      "H04N 1/00307",
+      "H04N 2101/00",
+      "H04N 2201/001",
+      "H04N 2201/0084"
+    ],
+    "source": "converted"
+  }
+}

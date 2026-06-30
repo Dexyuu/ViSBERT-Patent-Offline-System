@@ -1,0 +1,20 @@
+{
+  "title": "Reshaping functions for HDR imaging with continuity and reversibility constraints",
+  "abstract": "Methods and systems for generating a set of forward and backward reshaping functions for the efficient coding of high-dynamic range (HDR) images are provided. Given an initial set of forward reshaping functions, output forward reshaping functions are constructed by a) using the forward reshaping functions to generate a first set of corresponding backward reshaping functions b) generating a second set of backward reshaping functions using a multi-segment polynomial representation with a common set of pivot points c) generating an output set of backward reshaping functions by optimizing the polynomial representation of the second set of backward reshaping functions to minimize gap values between consecutive segments and d) using the output set of backward reshaping functions to generate the output set of forward reshaping functions by minimizing the distance between original input HDR codewords and reconstructed HDR codewords.",
+  "claims": "1. A method for generating a reshaping function with a processor, the method comprising: accessing a first set of input images in a first dynamic range and a second set of input images in a second dynamic range, wherein corresponding pairs between the first set and the second set of input images represent an identical scene; accessing a first set of backward reshaping functions generated based on the first set of input images and the second set of input images, wherein each backward reshaping function of the first set of backward reshaping functions maps pixel codewords from a first codeword representation in the first dynamic range to a second codeword representation in the second dynamic range, and each backward reshaping function is characterized by a reshaping-index parameter and segment parameters for a segment-based representation of the backward reshaping functions with a set of common pivots; and adjusting the segment parameters in the first set of backward reshaping functions to generate an output set of backward reshaping functions with the same set of common pivots as the first set of backward reshaping functions but with adjusted segment-based polynomial representation, wherein adjusting the segment parameters in a backward reshaping function to generate updated polynomial coefficients comprises: for a segment of a backward reshaping function between a first pivot and a second pivot, wherein the segment is represented in an original polynomial representation by three original polynomial coefficients: i. accessing the three original polynomial coefficients of the segment; ii. initializing a distortion parameter to a first distortion value; and iii. for a new value for a first updated polynomial coefficient for the segment: a. solving specific equations for a second updated polynomial coefficient and a third updated polynomial coefficient for the segment based on (A) the first pivot and the second pivot, (B) the new value for the first updated polynomial coefficient, and (C) corresponding outputs for the first pivot and the second pivot according to the original polynomial representation of the segment; and b. upon satisfying a distortion criterion, updating an optimum set of polynomial coefficients for the segment with the updated polynomial coefficients, causing a reshaped image to be generated from an input image based at least in part on the backward reshaping function with the optimum set of polynomial coefficients.",
+  "patent_id": "US12382106-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/85",
+      "H04N 19/182",
+      "H04N 19/98"
+    ],
+    "all": [
+      "H04N 19/85",
+      "H04N 19/182",
+      "H04N 19/98"
+    ],
+    "source": "converted"
+  }
+}

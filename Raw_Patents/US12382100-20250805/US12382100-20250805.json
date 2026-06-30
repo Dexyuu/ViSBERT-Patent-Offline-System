@@ -1,0 +1,22 @@
+{
+  "title": "Techniques for constraint flag signaling for range extension with coding for last significant coefficient",
+  "abstract": "Aspects of the disclosure provide methods and apparatuses for video data processing. In some examples, an apparatus for video data processing includes processing circuitry. For example, the processing circuitry determines a first syntax element for coding control in a first scope of coded video data in a bitstream. The first syntax element is associated with a coding tool for coding a position of a last significant coefficient during an entropy coding of transform coefficients. Then, in response to the first syntax element being a first value indicative of disabling of the coding tool in the first scope, the processing circuitry decodes the first scope of coded video data in the bitstream that includes one or more second scopes of coded video data without invoking the coding tool.",
+  "claims": "1. A method of video decoding in a decoder, comprising: determining, by a processor, a first syntax element general_no_reverse_last_sig_coeff_constraint_flag in general constraint information (GCI) for coding control in all pictures in an output layer set of coded video data in a bitstream based on a syntax element in the GCI indicating that additional bits including the first syntax element are in the GCI, the output layer set including a plurality of coded layer video sequences (CLVSs), the first syntax element being associated with a coding tool using alternative reference coordinates for coding a position of a last significant coefficient during an entropy coding of transform coefficients; and when the first syntax element is a first value indicative of disabling the coding tool in the output layer set, decoding, by the processor, all the pictures in the output layer set of the coded video data in the bitstream without invoking the coding tool, wherein a number of the additional bits in the GCI is 5, and the GCI further includes a syntax element used to provide control of using an extended dynamic range for transform coefficients in scaling and transformation processes in the output layer set.",
+  "patent_id": "US12382100-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/70",
+      "H04N 19/174",
+      "H04N 19/176",
+      "H04N 19/46"
+    ],
+    "all": [
+      "H04N 19/70",
+      "H04N 19/174",
+      "H04N 19/176",
+      "H04N 19/46"
+    ],
+    "source": "converted"
+  }
+}

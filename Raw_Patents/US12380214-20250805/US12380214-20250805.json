@@ -1,0 +1,20 @@
+{
+  "title": "System and method of detecting tampering of an information handling system",
+  "abstract": "In one or more embodiments, one or more systems, one or more methods, and/or one or more processes may: provide a first chip select signal to a chip of an information handling system (IHS), which stores at least a portion of IHS firmware, while at least one processor of the IHS is executing processor instructions; determine that a second chip select signal is provided to the chip; provide, to an embedded controller of the IHS, a signal that indicates that the second chip select signal has been provided to the chip; receive a signal to boot the IHS; determine if the embedded controller has received the signal that indicates that the second chip select signal has been provided to the chip; if so, prevent the IHS from booting; and if not, permit the IHS to boot utilizing the at least the portion of the IHS firmware stored by the chip.",
+  "claims": "1. An information handling system, comprising: at least one processor; a platform controller hub communicatively coupled to the at least one processor; an embedded controller communicatively coupled to the at least one processor; a chip that stores at least a portion of information handling system firmware, which is executable by the at least one processor, communicatively coupled to the at least one processor, wherein the chip includes a serial peripheral interface (SPI) that is configured to communicate data with a SPI bus of the information handling system; and a circuit communicatively coupled to the embedded controller and to a chip select input of the chip; wherein the platform controller hub is configured to provide a first chip select signal to the chip in accordance with a SPI specification while the at least one processor is executing processor instructions; wherein the chip receives the first chip select signal from the platform controller hub in accordance with the SPI specification; wherein the circuit is configured to: determine that a second chip select signal is provided to the chip; and provide, to the embedded controller, a signal that indicates that the second chip select signal has been provided to the chip; and wherein the embedded controller is configured to: receive the signal that indicates that the second chip select signal has been provided to the chip; receive a signal to boot the information handling system; determine if the embedded controller has received the signal that indicates that the second chip select signal has been provided to the chip; if the embedded controller has received the signal that indicates that the second chip select signal has been provided to the chip, prevent the information handling system from booting; and if the embedded controller has not received the signal that indicates that the second chip select signal has been provided to the chip, permit the information handling system to boot utilizing the at least the portion of the information handling system firmware stored by the chip.",
+  "patent_id": "US12380214-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/575",
+      "G06F 21/71",
+      "G06F 2221/034"
+    ],
+    "all": [
+      "G06F 21/575",
+      "G06F 21/71",
+      "G06F 2221/034"
+    ],
+    "source": "converted"
+  }
+}

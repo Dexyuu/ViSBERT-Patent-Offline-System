@@ -1,0 +1,20 @@
+{
+  "title": "Image capturing circuit that can be applied to image capturing apparatus",
+  "abstract": "An image capturing circuit that can be applied to an image capturing apparatus, including a pixel array having photoelectric conversion elements arranged in a matrix, a row selection circuit capable of reading out still image data with a first resolution and LV moving image data with a second resolution lower than the first resolution from the pixel array, an image memory for storing the read still image data and the read LV moving image data, and a reduction circuit that converts the still image data to reduced image data with a third resolution lower than the first resolution. The still image data is read out from the memory and output after converted to the reduced still image data, and the still image data is also output without being converted. The LV moving image data is read out from the memory and output without being converted.",
+  "claims": "1. An image capturing circuit that can be applied to an image capturing apparatus, the image capturing circuit comprising: a pixel array including a plurality of photoelectric conversion elements arranged in a matrix; a readout section configured to read out first image data with a first resolution and second image data with a second resolution lower than the first resolution from the pixel array; a memory configured to store the first image data read out by the readout section from the pixel array; a conversion section configured to convert the first image data read out by the readout section from the pixel array to third image data with a third resolution lower than the first resolution; a first interface; a second interface; a control section configured to cause a display to display the second image data output using at least one of the first interface or the second interface or the third image data output using at least one of the first interface or the second interface, and configured to switch between a first transmission mode and a second transmission mode, when performing an operation of (i) inputting the first image data read out by the readout section from the pixel array to the conversion section while simultaneously writing the first image data into the memory, (ii) outputting the first image data read out from the memory and the second image data and the third image data read out by the readout section from the pixel array without being written into the memory, and (iii) causing the display to display the output second image data and the output third image data, wherein the first transmission mode is a mode for outputting the second image data and the third image data using both of the first interface and the second interface, and for outputting the first image data using both of the first interface and the second interface during a blanking period of the second image data or the third image data, and the second transmission mode is a mode for outputting the first image data using the first interface and outputting the second image data and the third image data using the second interface.",
+  "patent_id": "US12382200-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 25/78",
+      "G06T 3/4053",
+      "H04N 25/42"
+    ],
+    "all": [
+      "H04N 25/78",
+      "G06T 3/4053",
+      "H04N 25/42"
+    ],
+    "source": "converted"
+  }
+}

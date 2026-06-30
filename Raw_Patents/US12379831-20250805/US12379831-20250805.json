@@ -1,0 +1,24 @@
+{
+  "title": "Visual autocompletion for geospatial queries",
+  "abstract": "A computer system receives a natural language input directed to a data source. In response to receiving the natural language input, and in accordance with a determination that the natural language input specifies an incomplete natural language command directed to the data source, the computer system presents a map widget for selecting geospatial data points from the data source. The map widget includes a map having a plurality of predetermined geographic regions. The computer system receives user specification of a user-defined region in the map included in the map widget. In accordance with receiving the user specification and based on a coverage metric computed for the plurality of geographic regions, the computer system selects one or more geographic regions. The computer system completes the natural language command with the selected geographic regions. The computer system generates and displays a map data visualization according to the completed natural language command.",
+  "claims": "1. A method of visual analysis of datasets, comprising: at a computing system having a display, one or more processors and memory storing one or more programs configured for execution by the one or more processors: receiving a first natural language input directed to a data source; in response to receiving the first natural language input, and in accordance with a determination that the first natural language input specifies an incomplete natural language command directed to the data source: presenting a map widget in a first region of a user interface for selecting geospatial data points from the data source, the map widget including a map having a plurality of predetermined geographic regions; receiving user specification of a user-defined region in the map included in the map widget; and in accordance with receiving the user specification, and based on a coverage metric computed for each geographic region of the plurality of geographic regions, the coverage metric representing a confidence level of selecting a particular predetermined geographic region, wherein the coverage metric for each geographic region is computed based on (i) a respective number of data points included in the user-defined region for the respective geographic region and (ii) a respective total number of data points in the respective geographic region: identifying, by the computing system, one or more geographic regions of the plurality of predetermined geographic regions; completing the natural language command with the identified one or more predetermined geographic regions; generating and displaying a map data visualization, distinct from the map widget, according to the completed natural language command; and displaying the map data visualization in a second region of the user interface, distinct from the first region.",
+  "patent_id": "US12379831-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/04842",
+      "G06F 16/9537",
+      "G06F 40/205",
+      "G06F 40/284",
+      "G06F 3/0483"
+    ],
+    "all": [
+      "G06F 3/04842",
+      "G06F 16/9537",
+      "G06F 40/205",
+      "G06F 40/284",
+      "G06F 3/0483"
+    ],
+    "source": "converted"
+  }
+}

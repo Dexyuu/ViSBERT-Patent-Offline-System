@@ -1,0 +1,26 @@
+{
+  "title": "Self-checkout device that detects motion in video frames to register products present in the video",
+  "abstract": "A self-checkout device and a method implemented by the self-checkout device is provided. The self-checkout device includes a detection plate to allow placement of product(s) thereon, and one or more cameras positioned to have a Field-of-View encompassing the detection plate to provide a video footage. A motion detection module detects presence of motion in the video footage. A sequence selection module selects a sequence of video frames over a time interval corresponding to the detection of the presence of motion in the video footage. An appearance interpretation module registers one or more products present in the sequence of video frames and a billing module fetches prices of the registered one or more products. Total bill is generated based on the fetched prices, and a payment is processed for the total bill.",
+  "claims": "1. A self-checkout device comprising: a detection plate adapted to allow placement of products thereon; one or more cameras positioned to have a Field-of-View encompassing at least the detection plate, the one or more cameras configured to provide a video footage; a processor; and a memory communicably coupled to the processor and comprising processor instructions that when executed by the processor, wherein the processor comprises: a motion detection module configured to detect presence of motion in the video footage; a sequence selection module configured to select a sequence of video frames over a time interval corresponding to the detection of the presence of motion in the video footage; an appearance interpretation module configured to register one or more products present in the sequence of video frames, wherein the appearance interpretation module comprises: an object detection module configured to analyze the sequence of video frames to detect one or more objects therein; a cropping module configured to isolate the detected one or more objects in the sequence of video frames and to extract visual features of the detected one or more objects; an embedding module configured to convert the extracted visual features of the detected one or more objects into an embedded feature vector; and an expert system module configured to compare the embedded feature vector with pre-stored feature vectors in an embedding database, and to identify the detected one or more objects based on the comparison, wherein the identified one or more objects are registered as the one or more products; a billing module configured to fetch prices of the registered one or more products, generate a total bill based on the fetched prices, and process a payment for the total bill; and a controller module operatively connected to the one or more cameras and communicatively coupled with the motion detection module, the sequence selection module, the appearance interpretation module and the billing module to control operations thereof and facilitating communications therebetween.",
+  "patent_id": "US12380772-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G07G 1/0072",
+      "G06Q 20/201",
+      "G06Q 20/208",
+      "G06V 10/70",
+      "G06V 20/46",
+      "G06V 20/68"
+    ],
+    "all": [
+      "G07G 1/0072",
+      "G06Q 20/201",
+      "G06Q 20/208",
+      "G06V 10/70",
+      "G06V 20/46",
+      "G06V 20/68"
+    ],
+    "source": "converted"
+  }
+}

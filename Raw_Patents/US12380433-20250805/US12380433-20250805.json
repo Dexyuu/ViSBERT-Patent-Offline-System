@@ -1,0 +1,50 @@
+{
+  "title": "Implementing logic gate functionality using a blockchain",
+  "abstract": "The invention presents a solution in which blockchain transactions are created to implement the functionality of a logic gate. The invention may be implemented on the Bitcoin platform or an alternative blockchain platform. The transaction includes a locking script which comprises instructions to process Boolean inputs and implement the functionality of a logic gate, such as the XOR gate. When the script is executed, the inputs will be evaluated, using computing agents, to provide an output of TRUE or FALSE, and the output will be subsequently provided to an unlocking script associated with a second transaction attempting to spend the output associated with the locking script. The second transaction is transmitted to the blockchain network for validation and, if determined to be valid (evaluated to a TRUE output), it will be written to the blockchain. Thus, the locking script of the first transaction provides the functionality.",
+  "claims": "1. A computer-implemented control method comprising the steps of: providing a locking script in a first blockchain transaction, the locking script comprising at least one first instruction arranged to implement functionality of a logic gate and at least one second instruction arranged to process at least one input signal to obtain at least one Boolean input; providing a further blockchain transaction having an unlocking script configured to present the at least one input signal to the locking script of the first blockchain transaction; presenting the at least one input signal to the locking script of the first blockchain transaction by executing the unlocking script of the further blockchain transaction; processing the at least one input signal to obtain at least one Boolean input by executing the at least one second instruction in the locking script of the first blockchain transaction; implementing the functionality of the logic gate by using the at least one Boolean input to execute the at least one first instruction in the locking scripts of the first blockchain transaction; transmitting the further blockchain transaction to a blockchain network for validation; and providing a computing resource arranged to influence a behavior of an off-block process based upon: detection of the further blockchain transaction within a blockchain or blockchain network; and/or the validity of the further blockchain transaction.",
+  "patent_id": "US12380433-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/3678",
+      "G06F 9/22",
+      "G06F 9/30021",
+      "G06F 9/30029",
+      "G06F 21/602",
+      "G06F 21/6218",
+      "G06Q 20/3827",
+      "G06Q 20/3829",
+      "H04L 9/0637",
+      "H04L 9/0643",
+      "H04L 9/3066",
+      "H04L 9/321",
+      "H04L 9/3239",
+      "H04L 9/3242",
+      "H04L 9/3252",
+      "G06F 21/6236",
+      "H04L 9/50",
+      "H04L 2209/56"
+    ],
+    "all": [
+      "G06Q 20/3678",
+      "G06F 9/22",
+      "G06F 9/30021",
+      "G06F 9/30029",
+      "G06F 21/602",
+      "G06F 21/6218",
+      "G06Q 20/3827",
+      "G06Q 20/3829",
+      "H04L 9/0637",
+      "H04L 9/0643",
+      "H04L 9/3066",
+      "H04L 9/321",
+      "H04L 9/3239",
+      "H04L 9/3242",
+      "H04L 9/3252",
+      "G06F 21/6236",
+      "H04L 9/50",
+      "H04L 2209/56"
+    ],
+    "source": "converted"
+  }
+}

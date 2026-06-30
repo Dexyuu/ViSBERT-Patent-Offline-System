@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2019100167",
+  "application_id_fs": "WO2019100167",
+  "title": "Method and system for syntactic searching",
+  "abstract": "The disclosure is directed at a method and system for improved search functionality. By using natural language processing (NLP), individual words in a search term may be parsed and then individually stored. The relationships between the individual words of the search term may also be stored such that when the search is repeated, the previous results may be retrieved and, if not, a more accurate search may be performed.",
+  "claims": "Claims What is Claimed is: 1. A method for syntactic searching comprising: receiving search term from user input; parsing individual words in the search term using natural language processing (NLP); comparing the parsed individual words with words stored in a NLP database; and displaying search results based on comparison of words stored in the NLP database. 2. The method of Claim 1 wherein displaying search results comprises: retrieving previously stored search results if parsed individual words are stored in the NLP database; and displaying the previous search results. 3. The method of Claim 1 wherein displaying search results comprises: performing a search based on the search term if the parsed individual words are not stored in the NLP database to generate new search results; and displaying the new search results. 4. The method of Claim 3 further comprising: storing the parsed individual words in the NLP database; storing the new search results in the NLP database; and associating the new search results with the parsed individual words. 5. The method of Claim 1 further comprising: storing the search term in the database. 6. The method of Claim 1 wherein comparing the parsed individual words comprises: grouping the parsed individual words; and comparing the group of parsed individual words with the words in the NLP database. 7. The method of Claim 6 wherein comparing the group of parsed individual words comprises: comparing the parsed individual words with the words in the NLP database; and determining if the words in the NLP database have relationships with other words in the NLP database associated with the group of parsed individual words. 8. The method of Claim 7 wherein displaying search results comprises: retrieving previously stored search results if the words in the NLP database have identical relationships with other words in the NLP database associated with the group of parsed individual words; and displaying the previous search results. 9. The method of Claim 7 wherein displaying search results comprises: performing a new search based on the search term if the words in the NLP database do not have identical relationships with other words in the NLP database associated with the group of parsed individual words to generate new search results; and displaying the new search results. 10. A computer-readable medium having stored thereon computer executable instructions, that, if executed, cause a computer system to: receive a search term from user input; parse individual words in the search term using natural language processing (NLP); compare the parsed individual words with words stored in a NLP database; and display search results based on comparison of words stored in the NLP database. 1 1. The computer readable medium of Claim 10 wherein the display of search results comprises: retrieving previously stored search results if parsed individual words are stored in the NLP database; and displaying the previous search results. 12. The computer readable medium of Claim 10 wherein the display of search results comprises: performing a search based on the search term if the parsed individual words are not stored in the NLP database to generate new search results; and displaying the new search results. 13. The computer readable medium of Claim 12 further comprising computer executable instructions, that, if executed, cause the computer system to: store the parsed individual words in the NLP database; store the new search results in the NLP database; and associate the new search results with the parsed individual words. 14. The computer readable medium of Claim 10 further comprising computer executable instructions, that, if executed, cause the computer system to: store the search term in the database. 15. A method of improving online search functionality comprising: sensing user selection of a word within a search term; retrieving a list of words associated with the word based on natural language processing (NLP); and displaying the list of words to a user. 16. The method of Claim 15 further comprising: sensing user selection of a replacement word from the list of words; and replacing the word with the replacement word within the search term to generate a new search term. 17. The method of Claim 16 further comprising: performing a search based on the new search term. 18. The method of Claim 15 wherein the list of words are stored in a semantic tree.",
+  "classifications": {
+    "ipc": [
+      "G06F 16/00",
+      "G06F 16/30",
+      "G06F 16/33",
+      "G06F 16/3331",
+      "G06F 16/334",
+      "G06F 16/3344",
+      "G06F 16/31",
+      "G06F 16/338",
+      "G06F 16/35",
+      "G06F 16/353",
+      "G06F 40/00",
+      "G06F 40/20",
+      "G06F 40/205",
+      "G06F 40/211",
+      "G06F 40/30",
+      "G06F 40/40"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 16/00",
+      "G06F 16/30",
+      "G06F 16/33",
+      "G06F 16/3331",
+      "G06F 16/334",
+      "G06F 16/3344",
+      "G06F 16/31",
+      "G06F 16/338",
+      "G06F 16/35",
+      "G06F 16/353",
+      "G06F 40/00",
+      "G06F 40/20",
+      "G06F 40/205",
+      "G06F 40/211",
+      "G06F 40/30",
+      "G06F 40/40"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019100167"
+}

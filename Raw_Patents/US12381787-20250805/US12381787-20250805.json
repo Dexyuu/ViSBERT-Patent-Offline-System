@@ -1,0 +1,20 @@
+{
+  "title": "Data center monitoring and management operation for data unavailable/data loss (DU/DL) predictions, including service level agreement (SLA) failure prediction",
+  "abstract": "A system, method, and computer-readable medium for performing a data center management and monitoring operation to predict event failures, comprising taking time stamped telemetry metrics of data asset clusters; sampling the time stamped telemetry metrics; separating the sampled time stamped telemetry metrics into groups based on metric functionality; providing data of the groups into a residual neural network to learn patterns of the three groups; and concatenating output of the residual neural network of the groups, wherein concatenated output is feed back to the residual neural network to learn relationships of the three groups.",
+  "claims": "1. A computer-implementable method for performing a data center management and monitoring operation to predict event failures, comprising: taking time stamped telemetry metrics of data asset clusters; sampling the time stamped telemetry metrics; separating the sampled time stamped telemetry metrics into groups based on metric functionality; providing data of the groups into a residual neural network to learn patterns of three groups; and concatenating output of the residual neural network of the groups, wherein the concatenated output is feed back to the residual neural network to learn relationships of the three groups.",
+  "patent_id": "US12381787-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 41/147",
+      "H04L 41/16",
+      "H04L 43/022"
+    ],
+    "all": [
+      "H04L 41/147",
+      "H04L 41/16",
+      "H04L 43/022"
+    ],
+    "source": "converted"
+  }
+}

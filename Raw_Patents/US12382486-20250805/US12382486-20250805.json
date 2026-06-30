@@ -1,0 +1,20 @@
+{
+  "title": "Method and device for reporting SL HARQ feedback to base station in NR V2X",
+  "abstract": "A method for performing wireless communication by a first device and a device supporting same may be provided. The method may comprise the steps of: receiving, from a base station, information related to an uplink (UL) resource for reporting sidelink (SL) hybrid automatic repeat request (HARQ) feedback to the base station; transmitting first sidelink control information (SCI) to a second device through a physical sidelink control channel (PSCCH); transmitting second SCI and a medium access control protocol data unit (MAC PDU) to the second device through a physical sidelink shared channel (PSSCH) related to the PSCCH; determining a physical sidelink feedback channel (PSFCH) resource on the basis of an index of a sub channel and an index of a slot related to the PSSCH; and transmitting the SL HARQ feedback on the MAC PDU to the base station on the basis of the UL resource. A minimum time gap between the PSFCH resource and the UL resource may be determined on the basis of N, X, numerology of an SL bandwidth part (BWP), and numerology of a UL BWP, wherein N may be determined on the basis of a minimum value among the numerology of the SL BWP and the numerology of the UL BWP, and X may be determined on the basis of information related to a priority.",
+  "claims": "1. A method for performing wireless communication by a first device, the method comprising: receiving, from a base station, information related to an uplink (UL) resource for reporting sidelink (SL) hybrid automatic repeat request (HARQ) feedback to the base station; transmitting, to a second device, first sidelink control information (SCI) through a physical sidelink control channel (PSCCH); transmitting, to the second device, second SCI and a medium access control (MAC) protocol data unit (PDU) through a physical sidelink shared channel (PSSCH) related to the PSCCH; determining a physical sidelink feedback channel (PSFCH) resource based on an index of a subchannel and an index of a slot related to the PSSCH; and transmitting, to the base station, the SL HARQ feedback for the MAC PDU based on the UL resource, wherein a minimum time gap between the PSFCH resource and the UL resource is determined based on N, X, a numerology of a SL bandwidth part (BWP), and a numerology of a UL BWP, wherein N is determined based on a minimum value among the numerology of the SL BWP and the numerology of the UL BWP, and wherein X is determined based on information related to a priority.",
+  "patent_id": "US12382486-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/563",
+      "H04L 1/1812",
+      "H04W 72/25"
+    ],
+    "all": [
+      "H04W 72/563",
+      "H04L 1/1812",
+      "H04W 72/25"
+    ],
+    "source": "converted"
+  }
+}

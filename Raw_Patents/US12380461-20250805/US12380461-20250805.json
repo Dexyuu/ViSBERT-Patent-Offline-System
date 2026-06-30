@@ -1,0 +1,22 @@
+{
+  "title": "Sales and marketing assistance system using predictive analytics and method",
+  "abstract": "A sales and marketing assistance system using predictive analytics is provided for assisting sales by leveraging predictive analytics. The sales and marketing assistance system using predictive analytics may include a database, data warehouse, parse component, analytic component, insight component, dashboard component, mapping component, contact management component, review management component, campaign component, and messaging component. A method for assisting sales by leveraging predictive analytics using the sales and marketing assistance system using predictive analytics is also provided.",
+  "claims": "1. A sales and marketing assistance system comprising a non-transitory computer-readable storage medium, excluding transitory signal transmission, and comprising instructions that, in response to execution, cause the system comprising a processor to perform operations comprising: (a) retrieving data comprising raw data from a provider comprising information relating to a weather event, the data being storable in a database via a fetch component (b) generating extracted information from the data comprising the raw data indicative of a condition to increase a likelihood of conversion that a prospective customer will engage in a commercial transaction via a parse component, the extracted information comprising event information associated with an event identified from the data; (c) generating derived information from the data reflective of the prospective customer to build a prospective customer profile via an analytic component, the derived information being associated with the prospective customer identified from the data by applying analysis rules, the derived information being different from and supplemental to the data and the extracted information; (d) generating predictive information by determining a probability of correlation between the extracted information and the derived information indicative of a predictive correlation that the prospective customer has an elevated likelihood of conversion to engage in the commercial transaction via an insight component by applying machine learning trained with at least the extracted information and/or the derived information to detect patterns of predictable outcomes given various combinations of input conditions; (e) presenting the predictive information and facilitating the commercial transaction via a dashboard component, the dashboard component at least partially visualizing the predictive information via a display by visually presenting the derived information in the context of the extracted information via a map comprising a geographic boundary in which the prospective customer is located via a mapping component, wherein the geographic boundary of the event layer is at least partially generated using ray casting; wherein the machine learning operated by step (d) determines weighted assumptions about how the prospective customer would engage in the commercial transaction based on information accessed from the database comprising proximity to the weather event, relevant search activity by the prospective customer, and consumer spending data for the prospective customer to predict whether the prospective customer has the elevated likelihood of conversion; and wherein the weighted assumptions used by the machine learning are updated by the system to adjust weighting to reflect how performant outcomes of past assumptions of the machine learning were and improve future predictive capabilities based on updated weighted assumptions.",
+  "patent_id": "US12380461-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0205",
+      "G06N 20/00",
+      "G06Q 30/01",
+      "G06Q 30/0201"
+    ],
+    "all": [
+      "G06Q 30/0205",
+      "G06N 20/00",
+      "G06Q 30/01",
+      "G06Q 30/0201"
+    ],
+    "source": "converted"
+  }
+}

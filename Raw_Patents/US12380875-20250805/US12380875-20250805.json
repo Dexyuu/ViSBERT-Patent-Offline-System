@@ -1,0 +1,24 @@
+{
+  "title": "Speech synthesis with foreign fragments",
+  "abstract": "A method for synthesizing speech from a textual input includes receiving the textual input, the textual input including native words in a native language and foreign words in a foreign language, and processing the textual input to determine a phonetic representation of the textual input. The processing includes determining a native phonetic representation of the of the native words, and determining a nativized phonetic representation of the foreign words. Determining the nativized phonetic representation includes forming a foreign phonetic representation of the foreign words using a foreign phoneme set, and mapping the foreign phonetic representation to the nativized phonetic representation according to a model of a native speaker's pronunciation of foreign words.",
+  "claims": "1. A method for synthesizing speech from a textual input, the method comprising: receiving the textual input, the textual input including native words in a native language and foreign words in a foreign language; processing the textual input to determine a phonetic representation of the textual input, the processing including: determining a native phonetic representation of the of the native words, and determining a nativized phonetic representation of the foreign words, determining the nativized phonetic representation including: forming a foreign phonetic representation of the foreign words using a foreign phoneme set, and mapping the foreign phonetic representation to the nativized phonetic representation according to a model of a native speaker's pronunciation of foreign words; providing a combination of the native phonetic representation of the native words and the nativized phonetic representation of the foreign words to a waveform synthesizer for synthesis of a speech waveform; and providing the speech waveform for acoustic presentation to a user by a loudspeaker; wherein the nativized phonetic representation comprises a combination of phonemes from a native phoneme set and phonemes from the foreign phoneme set.",
+  "patent_id": "US12380875-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 13/086",
+      "G06F 40/263",
+      "G06F 40/279",
+      "G10L 13/047",
+      "G10L 13/06"
+    ],
+    "all": [
+      "G10L 13/086",
+      "G06F 40/263",
+      "G06F 40/279",
+      "G10L 13/047",
+      "G10L 13/06"
+    ],
+    "source": "converted"
+  }
+}

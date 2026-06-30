@@ -1,0 +1,18 @@
+{
+  "title": "Time marking chapters in media items at a platform using machine-learning",
+  "abstract": "Methods and systems for time marking of media items at a platform using machine-learning are provided herein. An indication of a identified media item is provided as input to a machine-learning model and one or more outputs of the machine-learning model is obtained. The one or more obtained outputs comprise time marks identifying each of the plurality of content segments of the media item. Each of the plurality of content segments is associated with a segment start indicator for a timeline of the media item. A resulting duration is determined of a combination of the plurality of content segments for which the time marks were obtained from the one or more of outputs of the machine-learning model. Responsive to determining that the resulting duration is less than the duration of the media item, one or more further inputs is provided to the machine learning model.",
+  "claims": "1. A method comprising: identifying a media item to be provided to one or more users of a platform; providing an indication of the identified media item as input to a machine-learning model, wherein the input to the machine-learning model comprises feature data of the media item and a chapter label indicative of a start time of a first content segment of the media item, wherein the machine-learning model is trained using different feature types of historical media items to predict, for a given media item, a plurality of content segments of the given media item each depicting, to the one or more users, a distinct section of the media item; obtaining one or more outputs of the machine-learning model, wherein the one or more obtained outputs comprise time marks identifying each of the plurality of content segments of the media item; associating each of the plurality of content segments with a segment start indicator for a timeline of the media item; determining a resulting duration of a combination of the plurality of content segments for which the time marks were obtained from the one or more of outputs of the machine-learning model; and responsive to determining that the resulting duration is less than the duration of the media item, providing, to the machine-learning model, one or more further inputs comprising the feature data and an updated chapter label indicative of a start time of a content segment following the plurality of content segments for which the time marks were obtained.",
+  "patent_id": "US12382139-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/47217",
+      "G11B 27/34"
+    ],
+    "all": [
+      "H04N 21/47217",
+      "G11B 27/34"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Communication apparatus capable of carrying out near field communication with a target apparatus, control method, and program",
+  "abstract": "A communication apparatus capable of performing near field communication acquires communication information of a target apparatus through the near field communication, determines whether or not the target apparatus is connected to an access point to which the communication apparatus is connected, on the basis of the communication information, and accepts the target apparatus as a target to which the communication apparatus is to be connected by using a peer-to-peer communication system, when it is determined that the target apparatus is not connected to the access point to which the communication apparatus is connected.",
+  "claims": "1. A control method for a communication apparatus, the control method comprising: executing first wireless communication with a target apparatus; transmitting, after the first wireless communication with the target apparatus is executed, a predetermined command to a predetermined network in which the communication apparatus is participating; executing, after the predetermined command is transmitted, second wireless communication to transmit predetermined information to the target apparatus by use of direct wireless connection between the communication apparatus and the target apparatus not via an external apparatus outside of the communication apparatus and outside of the target apparatus based on the communication apparatus having not detected a predetermined response received from the predetermined network based on transmitting the predetermined command and corresponding to address information about the target apparatus obtained by the first wireless communication with the target apparatus, the direct wireless connection being established based on communication information obtained by the first wireless communication with the target apparatus; and executing, after the predetermined command is transmitted, third wireless communication to transmit the predetermined information to the target apparatus by use of wireless connection between the communication apparatus and the target apparatus via the external apparatus based on the communication apparatus having detected the predetermined response, wherein the first wireless communication is executed by a near field communication method different from a communication method used for the second wireless communication and a communication method used for the third wireless communication.",
+  "patent_id": "US12379884-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/1292",
+      "G06F 3/1204",
+      "G06F 3/1236",
+      "H04W 4/80"
+    ],
+    "all": [
+      "G06F 3/1292",
+      "G06F 3/1204",
+      "G06F 3/1236",
+      "H04W 4/80"
+    ],
+    "source": "converted"
+  }
+}

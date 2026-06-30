@@ -1,0 +1,36 @@
+{
+  "title": "Decoder side motion derivation based on processing parameters",
+  "abstract": "One example method of video processing includes implementing, by a processor, a decoder-side motion vector derivation (DMVD) scheme for motion vector refinement during a conversion between a current video block and a bitstream representation of the current video block by deriving parameters based on a deriving rule. The conversion may include compressing the current video block into the bitstream representation or uncompressing the bitstream representation into pixel values of the current video block.",
+  "claims": "1. A method of processing video data, comprising: obtaining a refined motion information for a current video block of a video by implementing a decoder-side motion vector derivation (DMVD) scheme based on at least a weight parameter, wherein the weight parameter is applied to prediction blocks in a generation process for a final prediction block for the current video block; and performing a conversion between the current video block and a bitstream of the video at least using the refined motion information and the weight parameter, wherein a syntax element of the weight parameter is signaled using a Generalized Bi-Prediction (GBI) technique or a weighted prediction technique, wherein the weight parameter is derived using a Local Illumination Compensation (LIC) technique, wherein the weight parameter is associated with a reshaping process that maps a set of sample values to another set of sample values, and wherein the reshaping process is disabled for the prediction blocks generated with the refined motion information for the current video block.",
+  "patent_id": "US12382085-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/52",
+      "H04N 19/132",
+      "H04N 19/137",
+      "H04N 19/139",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/184",
+      "H04N 19/186",
+      "H04N 19/46",
+      "H04N 19/513",
+      "H04N 19/577"
+    ],
+    "all": [
+      "H04N 19/52",
+      "H04N 19/132",
+      "H04N 19/137",
+      "H04N 19/139",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/184",
+      "H04N 19/186",
+      "H04N 19/46",
+      "H04N 19/513",
+      "H04N 19/577"
+    ],
+    "source": "converted"
+  }
+}

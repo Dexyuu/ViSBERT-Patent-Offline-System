@@ -1,0 +1,20 @@
+{
+  "title": "Method and system for evaluating contract worthiness of performing artists",
+  "abstract": "A method and system for evaluating contract-worthiness of performing artists is disclosed. The method includes receiving consolidated data corresponding to each of a set of performing artists. The method further includes processing the consolidated data by classifying a set of topics in the text data into a plurality of categories through a ML classification model, determining user engagement behavior segments based on sentiment scores associated with the text data, and determining a plurality KPIs based on the plurality of metrics, the plurality of categories, and the user engagement behavior segments. Further, the method includes calculating a contract worthiness score for the set of performing artists based on the plurality of KPIs using a trained ML contract worthiness scoring model and evaluating one or more of the set of performing artists for their contract worthiness based on the contract worthiness score and a threshold contract worthiness score.",
+  "claims": "1. A method for evaluating contract worthiness of performing artists, comprising: extracting, by an evaluation device, web text data corresponding to a plurality of performing artists from a plurality of websites; applying, by the evaluation device, a predefined filtering criteria on the web text data to identify a set of performing artists from the plurality of performing artists; extracting, by the evaluation device, the web text data and a plurality of web metrics corresponding to each of the set of performing artists from the plurality of websites; extracting, by the evaluation device, social media text data and a plurality of social media metrics corresponding to each of the set of performing artists from a plurality of social media platforms; consolidating, by the evaluation device, for each of the set of performing artists, the web text data, the social media text data, the plurality of web metrics, and the plurality of social media metrics to obtain consolidated data; training, by the evaluation device, a machine learning (ML) classification model to classify keywords into relevant topics, based on a training dataset that comprises a plurality of keyword sets, wherein each of the plurality of keyword sets comprises a keyword description and associated relevant keywords; processing, by the evaluation device, the consolidated data by: providing, by the evaluation device, a set of topics in the web text data and the social media text data as input to the trained ML classification model; classifying, by the evaluation device, the set of topics into a plurality of categories based on an output of the trained ML classification model to the provided input; determining, by the evaluation device, for at least one of the plurality of categories, one or more user engagement behavior segments based on sentiment scores associated with the text data, wherein the sentiment scores are determined using an ML sentiment analysis model; and determining, by the evaluation device, a plurality of Key Performance Indicators (KPIs) based on the plurality of web metrics, the plurality of social media metrics, the plurality of categories, and the one or more user engagement behavior segments; calculating, by the evaluation device, a contract worthiness score for each of the set of performing artists based on the plurality of KPIs using a trained ML contract worthiness scoring model; and evaluating, by the evaluation device, each of the set of performing artists for contract worthiness based on a corresponding contract worthiness score and a threshold contract worthiness score, wherein the threshold contract worthiness score is determined based on a historical distribution of contract worthiness scores for the trained ML contract worthiness scoring model.",
+  "patent_id": "US12380391-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/06393",
+      "G06N 20/00",
+      "G06Q 50/01"
+    ],
+    "all": [
+      "G06Q 10/06393",
+      "G06N 20/00",
+      "G06Q 50/01"
+    ],
+    "source": "converted"
+  }
+}

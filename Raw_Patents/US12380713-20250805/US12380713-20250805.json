@@ -1,0 +1,28 @@
+{
+  "title": "System and method for smart recipe generation",
+  "abstract": "Methods and devices are provided where a wearable device may receive sensor data and activate a recipe building mode of the wearable device when the sensor data satisfies a commencement condition. An image sensor of the wearable device may capture images of a physical environment. A recognition engine of the wearable device may identify ingredients detected in the images, determine an amount of the ingredients, identify utensils detected in the images, track actions of a user based on the images, and determine the name of a recipe, in response to terminating the capture of the images. The wearable device may store the recipe, the recipe including the name of the recipe, the ingredients, the amount of ingredients, the utensils, the actions of the user, and the one or more images. The recipe may be annotated with captions and output on a display of the wearable device.",
+  "claims": "1. A method, comprising: capturing, by an image sensor of a wearable device, one or more images of a physical environment around the wearable device; identifying, based on at least one recognition engine of the wearable device, ingredients detected in the one or more images; determining an amount of each of the ingredients detected in the one or more images; identifying, based on the at least one recognition engine, utensils detected in the one or more images; identifying, based on the at least one recognition engine, actions of a user based on the one or more images; determining a time that each action of the actions is performed based on the one or more images; building a recipe based on the ingredients, the amount of each of the ingredients, the utensils, the actions of the user, and the time that each action is performed as captured in the one or more images and processed by the at least one recognition engine; determining a name for the recipe by the at least one recognition engine; annotating the recipe with captions on at least a portion of the one or more images including the name of the recipe, the ingredients, the amount of each of the ingredients, the utensils, the actions of the user and the time that each action is performed; and storing the recipe in a memory.",
+  "patent_id": "US12380713-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 20/68",
+      "G06V 10/82",
+      "G06V 20/50",
+      "G06V 20/70",
+      "G06V 40/20",
+      "G06F 3/011",
+      "G06F 3/14"
+    ],
+    "all": [
+      "G06V 20/68",
+      "G06V 10/82",
+      "G06V 20/50",
+      "G06V 20/70",
+      "G06V 40/20",
+      "G06F 3/011",
+      "G06F 3/14"
+    ],
+    "source": "converted"
+  }
+}

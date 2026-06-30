@@ -1,0 +1,20 @@
+{
+  "title": "Scanning and masking data at a source device",
+  "abstract": "In some implementations, an application server may receive an indication of one or more masking rules for identifying sensitive data at the application server. The application server may generate data that includes information associated with an application of the application server, where the data is associated with one or more destination devices. The application server may process the data based on the one or more masking rules to identify sensitive data included in the data, where processing the data includes masking any sensitive data included in the data to obtain masked data. The application server may generate output data that includes the data and the masked data in a first data format associated with a first destination device of the one or more destination devices. The application server may transmit, to the first destination device, the output data in the first data format.",
+  "claims": "1. A source device for scanning and masking data at the source device, the source device comprising: one or more memories; and one or more processors, communicatively coupled to the one or more memories, configured to: receive, from a management server, a masking configuration that indicates one or more code modules for scanning log data for sensitive information, wherein each of the one or more code modules identify code that enables the source device to intercept data that is to be transmitted to a first destination device of one or more destination devices, wherein each of the one or more code modules enable the source device to scan the data for the sensitive information and to mask identified sensitive information to generate masked data, wherein each of the one or more code modules generate a corresponding different masked data, each of the corresponding different masked data being configured in a corresponding different format unique to the corresponding different masked data wherein the each of the one or more code modules correspond to only one or more destination devices, and wherein each of the one or more code modules correspond to a different one of the one or more destination devices in accordance with a corresponding security level selected from a plurality of security levels determined for the each of the one or more destination devices; generate the log data that includes information associated with an application of the source device; scan the log data for the sensitive information based on the one or more code modules, wherein scanning the log data enables the source device to identify the sensitive information included in the log data; modify the log data to remove the sensitive information from the log data and to generate first masked log data if the sensitive information is identified in the log data based on scanning the log data, wherein modifying the log data includes replacing the sensitive information in the log data with a mask string; transmit, to the first destination device of the one or more destination devices, the first masked log data, wherein transmitting the first masked log data includes transmitting the first masked log data in a first data format associated with the first destination device; and transmit, to the management server, telemetry information that enables the management server to monitor use of the masking configuration, wherein the telemetry information further enables the management server to identify servers configured with the masking configuration, and wherein transmission of the telemetry information further enables a feedback loop of the telemetry information to be created that enables management of the usage of the masking configuration by multiple servers to enable the management server to verify that each of the multiple servers has a correct and intended masking configuration.",
+  "patent_id": "US12380241-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/6254",
+      "G06F 21/6227",
+      "G06N 20/00"
+    ],
+    "all": [
+      "G06F 21/6254",
+      "G06F 21/6227",
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

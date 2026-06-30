@@ -1,0 +1,46 @@
+{
+  "application_id": "WO2019036056",
+  "application_id_fs": "WO2019036056",
+  "title": "Immutable electronic platform for insurance selection",
+  "abstract": "Embodiments are provided for automating selection of insurance policies for physical assets via a distributed ledger. A computing device, which in some instances can be coupled to or associated with a physical asset, can determine that a distributed ledger maintained by a plurality of distributed nodes includes a first transaction that corresponds to a request for insurance associated with the physical asset being transported from a first location to a second location.. The computing device can also determine that the distributed ledger includes a set of second transactions that correspond to a set of insurance policies that each reference the first transaction, each transaction in the corresponding set of second transactions having insurance policy parameters that are determined based on the insurance request criteria. A transaction is generated for communication to a node for storage into the distributed ledger, where the generated transaction references an optimal insurance policy selected from the set of insurance policies based on predetermined weights.",
+  "claims": "Claims CLAIMS What is claimed is: 1. A computer-implemented method for automating selection of insurance policies for physical assets, the method comprising: determining, by a computing device, that a distributed ledger maintained by a plurality of distributed nodes includes a first transaction that corresponds to a request for insurance associated with a physical asset being transported from a first location to a second location, the request comprising a first set of parameters for the insurance request; determining, by the computing device, that the distributed ledger includes a set of second transactions that corresponds to a set of insurance policies that each reference the first transaction, each transaction in the corresponding set of second transactions having insurance policy parameters that are determined based on insurance request criteria; and generating, by the computing device, a transaction that is communicated to at least one node of the plurality of distributed nodes for storage into the distributed ledger, the generated transaction referencing an optimal insurance policy selected from the set of insurance policies based on predetermined weights. 2. The computer-implemented method of claim 1, wherein the first transaction further includes a digital token identifying the physical asset. 3. The computer-implemented method of claim 2, wherein the predetermined weights are predefined by the insurance request criteria. 4. The computer-implemented method of claim 1, wherein the generated transaction identifies at least one of the first transaction or the second transaction. 5. The computer-implemented method of claim 1, wherein the first transaction is digitally signed by a first unique key associated with a computing device associated with an entity either sending or receiving the physical asset. 6. The computer-implemented method of claim 1, wherein each second transaction is digitally signed by a second unique key associated with a computing device of an insurance provider. 7. The computer-implemented method of claim 1 , wherein the generated transaction is digitally signed with a third unique key associated with a computing device of an insurance selection platform. 8. A system comprising: one or more processors; and computer storage memory having computer-executable instructions stored thereon which, when executed by the processor, implement a method for automating selection of insurance policies for physical assets, the method comprising: determining, by a computing device, that a distributed ledger maintained by a plurality of distributed nodes includes a first transaction that corresponds to a request for insurance associated with a physical asset being transported from a first location to a second location, the request comprising criteria for the insurance request; determining, by the computing device, that the distributed ledger includes a set of second transactions that corresponds to a set of insurance policies that each reference the first transaction, each transaction in the corresponding set of second transactions having insurance policy parameters that are determined based on the insurance request criteria; and generating, by the computing device, a transaction that is communicated to at least one node of the plurality of distributed nodes for storage into the distributed ledger, the generated transaction referencing an optimal insurance policy selected from the set of insurance policies based on predetermined weights. 9. The system of claim 8, wherein the first transaction further includes digital token identifying the physical asset. 10. The system of claim 9, wherein the predetermined weights are predefined by the insurance request criteria. 1 1. The system of claim 8, wherein the generated transaction identifies at least one of the first transaction or the second transaction. 12. The system of claim 8, wherein the first transaction is digitally signed by a first unique key associated with a computing device of a sender. 13. The system of claim 8, wherein each second transaction is digitally signed by a second unique key associated with a computing device of an insurance provider. 14. The system of claim 8, wherein the generated transaction is digitally signed with a third unique key associated with an insurance selection platform. 15. The system of claim 8, wherein the physical asset is an IoT enabled parcel. 16. A computer-implemented method for automating selection of insurance policies for physical assets comprising: obtaining, by a computing device associated with a parcel, predefined criteria for a physical asset contained within the parcel, wherein the computing device is coupled to at least a first sensor operable to detect a state of the parcel; determining, by the computing device, that a present or future environmental condition of the parcel exceeds a threshold included in the obtained predefined criteria based on sensor data received from the first sensor; generating, by the computing device, a first transaction that includes an insurance request having insurance criteria and an indication of pre-authorization based on the obtained predefined criteria, wherein the generated first transaction is digitally-signed with a unique key associated with the parcel and is generated for communication to a node of a plurality of distributed nodes that collectively maintain a distributed ledger; determining, by the computing device, that the maintained distributed ledgers include a set of second transactions that each corresponds to one of a set of proposed insurance policies, each transaction in the set of transactions referencing the digitally-signed first transaction; and communicating, by the computing device, a generated third transaction that corresponds to an optimal insurance policy that is selected from the identified set of proposed insurance policies based on the predefined criteria, wherein the generated third transaction is digitally-signed with the unique key. 17. The computer-implemented method of claim 16, wherein the first sensor is physically coupled to the parcel. 18. The computer-implemented method of claim 16, wherein the state of the parcel is associated with an environmental condition of the parcel at a particular moment in time. 19. The computer-implemented method of claim 16, wherein an electronic communication is sent to a computing device associated with an entity sending or receiving the parcel that the second generated transaction has been communicated to the node. 20. The computer-implemented method of claim 16, wherein the indication of pre-authorization that are each defined by the obtained predefined criteria is associated with a third transaction of the distributed ledger, the third transaction comprising a digital-signature of an entity sending or receiving the parcel.",
+  "classifications": {
+    "ipc": [
+      "G06Q 40/00",
+      "G06Q 40/08",
+      "G06Q 10/00",
+      "G06Q 10/08",
+      "G06Q 10/083",
+      "H04L 9/00",
+      "H04L 9/32",
+      "H04L 9/3236",
+      "H04L 9/3239",
+      "H04L 9/3242",
+      "H04L 9/3247",
+      "H04L 9/3297",
+      "H04L 9/50",
+      "H04L 2209/00",
+      "H04L 2209/56"
+    ],
+    "cpc": [],
+    "all": [
+      "G06Q 40/00",
+      "G06Q 40/08",
+      "G06Q 10/00",
+      "G06Q 10/08",
+      "G06Q 10/083",
+      "H04L 9/00",
+      "H04L 9/32",
+      "H04L 9/3236",
+      "H04L 9/3239",
+      "H04L 9/3242",
+      "H04L 9/3247",
+      "H04L 9/3297",
+      "H04L 9/50",
+      "H04L 2209/00",
+      "H04L 2209/56"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019036056"
+}

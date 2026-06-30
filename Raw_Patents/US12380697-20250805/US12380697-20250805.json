@@ -1,0 +1,20 @@
+{
+  "title": "Apparatus and method for action detection",
+  "abstract": "Disclosed herein are a method and apparatus for action detection. The method for action detection includes extracting chunk-level features for respective video frame chunks from a streaming video ranging from a past time point to a current time point, based on RGB frames, generating elevated feature information based on a chunk-level feature corresponding to the current time point for each of the video frame chunks, and detecting an action corresponding to the current time point based on the elevated feature information.",
+  "claims": "1. A method for action detection, comprising: extracting chunk-level features for respective video frame chunks from a streaming video ranging from a past time point to a current time point, based on RGB frames; generating elevated feature information based on a chunk-level feature corresponding to the current time point for each of the video frame chunks; and detecting an action corresponding to the current time point based on the elevated feature information, wherein the extracting of the chunk-level features includes: generating a chunk-level feature sequence using single-chunk features corresponding to time points ranging from the past time point to the current time point; wherein the generating of the elevated feature information includes: generating a chunk-level feature sequence elevated in accordance with an action Instance at the current time point by sequentially inputting the single-chunk features corresponding to the chunk-level feature sequence, together with the single-chunk feature corresponding to the current time point, into information elevation units and by cyclically processing the input chunk features; and wherein the information elevation units include: a forget gage that operates to forget features with low relevancy based on past information and information at a specific time point; an elevation gate that generates elevated information for information related to the current time point by additionally providing information at the current time point, considering that the information forgotten by the forget gate may be related to the current time point; an input gate that determines and provides new information to be added based on past information and information at the specific time point; and an output gate that determines and provides information to be transferred to the subsequent stage from context information in which all generated information is reflected.",
+  "patent_id": "US12380697-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 20/46",
+      "G06V 20/44",
+      "G06V 20/49"
+    ],
+    "all": [
+      "G06V 20/46",
+      "G06V 20/44",
+      "G06V 20/49"
+    ],
+    "source": "converted"
+  }
+}

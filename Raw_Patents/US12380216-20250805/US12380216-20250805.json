@@ -1,0 +1,16 @@
+{
+  "title": "Securely closing system vulnerability window after extended down time",
+  "abstract": "Disclosed systems and methods address escalated vulnerability attributable to system down time. In at least one embodiment, a customer-selectable threshold of detection establishes the number of days a system is allowed to be âdownâ before forcing a secured update path as described herein. The threshold may represent a compromise and balance between inconvenience and security based on each customer's preference. Tracking of system down time or offline time may be managed via EC/SBIOS and a real time clock (RTC) timer. The system down time may then be compared to the customer setting, e.g., whenever the system is booted.",
+  "claims": "1. A method for ensuring security updates, the method comprising: determining, by an embedded controller (EC) of an information handling system, a down time of the information handling system, wherein the down time is indicative of a time interval since a most recent power off event; responsive to determining the down time exceeds a down time threshold, performing security update operations including: booting into a safe operating system (OS) boot environment; invoking a preboot network communication resource to download an application patch manifest including resources indicative of one or more security patches; applying the one or more security patches to corresponding applications; and rebooting the information handling system to an OS.",
+  "patent_id": "US12380216-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/575"
+    ],
+    "all": [
+      "G06F 21/575"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Method and apparatus for transmitting sounding reference signal in wireless communication system",
+  "abstract": "A method performed by a terminal in a TDD communication system is provided. The method includes identifying that the terminal supports half-DuplexTDD-CA-SameSCS capability, identifying that directionalCollisionHandling is configured as âenabledâ for a set of serving cells among multiple serving cells including a first serving cell and a second serving cell, in case that the terminal is not capable of simultaneous reception and transmission on the first and second serving cells, identifying that the terminal is not configured to monitor a PDCCH for DCI format 2_0 on any of the multiple serving cells, identifying a first carrier of the first serving cell not configured for a PUCCH/PUSCH, and in case that a SRS on the first carrier and a physical channel on a second carrier of the second serving cell collide and directionalCollisionHandling is configured as âenabledâ, applying a priority rule for the SRS transmission and then a procedure for the directional collision handling.",
+  "claims": "1. A method performed by a terminal in a time division duplex (TDD) communication system, the method comprising: identifying that the terminal indicates support of half-DuplexTDD-CA-SameSCS capability; identifying that directionalCollisionHandling is configured as ‘enabled’ for a set of serving cells among multiple serving cells including a first serving cell and a second serving cell, in case that the terminal is not capable of simultaneous reception and transmission on the first serving cell and the second serving cell; identifying that the terminal is not configured to monitor a physical downlink control channel (PDCCH) for downlink control information (DCI) format 2_0 on any of the multiple serving cells; identifying a first carrier of the first serving cell not configured for a physical uplink control channel (PUCCH) or a physical uplink shared channel (PUSCH) transmission; and in case that a sounding reference signal (SRS) transmission on the first carrier of the first serving cell and a physical channel transmission on a second carrier of the second serving cell collide and directionalCollisionHandling is configured as ‘enabled’ for the set of serving cells, applying a priority rule for the SRS transmission and then applying a procedure for directional collision handling.",
+  "patent_id": "US12381704-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/16",
+      "H04L 5/0048",
+      "H04L 25/0224",
+      "H04L 41/0681"
+    ],
+    "all": [
+      "H04L 5/16",
+      "H04L 5/0048",
+      "H04L 25/0224",
+      "H04L 41/0681"
+    ],
+    "source": "converted"
+  }
+}

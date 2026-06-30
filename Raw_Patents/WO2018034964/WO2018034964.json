@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2018034964",
+  "application_id_fs": "WO2018034964",
+  "title": "Control of the rate of actuation of tool mechanism based on inherent parameters",
+  "abstract": "A robotic surgical system including a control system that controls the movement of a robotic arm coupled to a tool assembly having an end effector is described. The control system can also assist with controlling either the articulation or rotation of the end effector. Furthermore, the control system can detect and monitor one or more properties (e.g., articulation, rotation, etc.), which can be used by the control system to determine one or more appropriate movement parameters of either the robotic arm (e.g., velocity of movement) or the tool assembly coupled to the robotic arm (e.g., rotational speed of the end effector). The control system can detect any number of characteristics related to the end effector and use such information to control a variety of movement parameters associated with either the robotic arm or the tool assembly.",
+  "claims": "Claims What is claimed is: 1. A robotic surgical system comprising: a robotic arm having a proximal end configured to be coupled to a support and having a driver at a distal end of the robotic arm, the driver including one or more motors; a tool assembly comprising a housing configured to releasably couple to the driver, the housing including a first actuator and a second actuator that are each actuated by at least one of the one or more motors; a shaft extending distally from the housing and operatively coupled to the first actuator such that actuation of the first actuator causes the shaft to rotate; and an end effector pivotally coupled to a distal end of the shaft, the end effector being configured to pivot upon actuation of the second actuator to form an angle between a first longitudinal axis of the end effector and a second longitudinal axis of the shaft; and a control system configured to control, based on the angle formed from a current positon of the end effector, a velocity of movement of the robotic arm, the velocity of movement being related to the angle. 2. The robotic surgical system of claim 1, wherein the control system further controls the velocity of movement of the robotic arm based on a rotational velocity of the shaft, wherein the velocity of movement is related to the rotational velocity of the shaft. 3. A robotic surgical system comprising: a robotic arm having a proximal end configured to be coupled to a support and having a driver at a distal end of the robotic arm, the robotic arm being movable relative to the support; a tool assembly comprising a housing configured to releasably couple to the driver, the housing including an actuator that is actuated by a motor associated with the driver; a shaft extending from the housing; and an end effector pivotally coupled to a distal end of the shaft and configured to pivot in response to the actuator thereby defining at least one window area, each of the at least one window area having a radius that is equal to a distance between a distal end of the end effector and a longitudinal axis of the shaft; and \n\n a control system configured to control, based on the radius of a current position of the end effector, a velocity of movement of the robotic arm, the velocity of movement being related to the radius. 4. The robotic surgical system of claim 3, wherein the control system further controls the velocity of movement of the robotic arm based on a moment of inertia of the end effector, wherein the velocity of movement is related to the moment of inertia of the end effector. 5. The robotic surgical system of claim 3, wherein the moment of inertia is defined by one or more of a mass of the end effector, a speed of rotation of the end effector, and the distance between the distal end of the end effector and the longitudinal axis of the shaft. 6. A method comprising: determining a first articulation angle of an end effector located at a distal end of a shaft of a tool assembly, the tool assembly being coupled to a robotic arm of a robotic surgical system; setting, based on the determined first articulation angle, a first maximum velocity of movement of the robotic arm; articulating the end effector; determining a second articulation angle of the end effector, the second articulation angle being larger than the first articulation angle; and setting, based on the determined second articulation angle, a second maximum velocity of movement of the robotic arm, the second maximum velocity of movement being less than the first maximum velocity of movement. 7. The robotic surgical system of claim 6, wherein the first and second articulation angles are each defined by an angle formed between the end effector and a longitudinal axis of the shaft. 8. The method of claim 6, further comprising rotating the end effector about a longitudinal axis of the shaft; and setting, based on the rotating of the end effector, a third maximum velocity of movement of the robotic arm, the third maximum velocity of movement being less than the second maximum velocity of movement. 9. A method comprising: \n\n determining a first window area defined by a distal end of an end effector rotated about a longitudinal axis of a shaft of a tool assembly, the tool assembly being coupled to a robotic arm of a robotic surgical system; setting, based on the determined first window area, a first maximum velocity of movement of the robotic arm; articulating the end effector; determining a second window area defined by the distal end of the end effector rotated about the longitudinal axis of the shaft, the second window area being larger than the first window area; and setting, based on the determined second window area, a second maximum velocity of movement of the robotic arm, the second maximum velocity of movement being less than the first maximum velocity of movement. 10. A method comprising: determining a first moment of inertia of an end effector located at a distal end of a shaft of a tool assembly, the tool assembly being coupled to a robotic arm of a robotic surgical system; setting, based on the determined first moment of inertia, a first maximum velocity of movement of the robotic arm; increasing at least one of a rotational speed of the end effector and an articulation angle of the end effector; determining a second moment of inertia of the end effector, the second moment of inertia being larger than the first moment of inertia; and setting, based on the determined second moment of inertia, a second maximum velocity of movement of the robotic arm, the second maximum velocity of movement being less than the first maximum velocity of movement. 11. The method of claim 10, wherein the moment of inertia is defined by one or more of a mass of the end effector, a speed of rotation of the end effector, and an articulation angle of the end effector.",
+  "classifications": {
+    "ipc": [
+      "A61B 34/00",
+      "A61B 34/30",
+      "A61B 34/37",
+      "A61B 34/70",
+      "A61B 34/74",
+      "B25J 9/00",
+      "B25J 9/02",
+      "B25J 9/04",
+      "A61B 2034/302",
+      "A61B 2034/305",
+      "A61B 2034/741",
+      "A61B 2034/742",
+      "A61B 2034/743",
+      "A61B 34/35"
+    ],
+    "cpc": [],
+    "all": [
+      "A61B 34/00",
+      "A61B 34/30",
+      "A61B 34/37",
+      "A61B 34/70",
+      "A61B 34/74",
+      "B25J 9/00",
+      "B25J 9/02",
+      "B25J 9/04",
+      "A61B 2034/302",
+      "A61B 2034/305",
+      "A61B 2034/741",
+      "A61B 2034/742",
+      "A61B 2034/743",
+      "A61B 34/35"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018034964"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Systems and methods for validating, maintaining, and visualizing security policies",
+  "abstract": "A method for updating a policy by a policy manager, that includes selecting, by the policy manager, a policy entry that includes an input and an implementation, performing a validation on the policy entry, making a first determination, based on the validation, that the implementation was not successful, and updating the policy, based on the first determination, to match the input.",
+  "claims": "1. A method for updating a policy by a policy manager, comprising: selecting, by the policy manager, a policy entry in the policy that comprises an input representative of user-specified criteria to identify network traffic and an implementation representative of actual criteria, to identify network traffic; determining whether or not to perform a validation of the policy entry by comparing the user-specified criteria of the policy entry and the actual criteria of the policy entry; in response to the user-specified criteria matching the actual criteria of the policy entry, updating the policy entry with a successful status without performing a validation of the policy and storing the updated policy entry in the policy; and in response to the user-specified criteria not matching the actual criteria of the policy entry: performing a validation of the policy entry; updating the policy entry with a status based on the validation; and storing the updated policy entry in the policy.",
+  "patent_id": "US12381917-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/205"
+    ],
+    "all": [
+      "H04L 63/205"
+    ],
+    "source": "converted"
+  }
+}

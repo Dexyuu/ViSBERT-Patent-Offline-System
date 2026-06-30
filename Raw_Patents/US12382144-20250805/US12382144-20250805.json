@@ -1,0 +1,20 @@
+{
+  "title": "Media program viewership measurement using blockchains",
+  "abstract": "A method, apparatus, and system for measuring consumption of content data having content for serially presentation is presented. The method comprises generating n random numbers, where n>0, generating a first value P1 at least in part from a cryptographic function of the n random numbers, publishing the first value P1 to a smart contract associated with a blockchain, embedding consumption monitoring data comprising the n random numbers in different temporal locations of the content data and transmitting the content data to a client device for consumption. A client device extracts each of the n random and transmits the extracted n random numbers to the smart contract associated with the blockchain. A smart contract verifies that the n random numbers match the embedded n random numbers and executes a transaction of the smart contract.",
+  "claims": "1. A method of measuring consumption of serially-presented content data, comprising: embedding consumption monitoring data in different temporal locations of the content data, the consumption monitoring data comprising random values by: generating n random numbers, where n>0; and embedding the consumption monitoring data comprising the n random numbers in the different temporal locations of the content data; transmitting the content data to a client device for consumption; generating a first value P 1 at least in part from a cryptographic function of the n random numbers; and publishing the first value P 1 to a smart contract associated with a blockchain; and wherein the client device: extracts the n random numbers only after a portion of the content data associated with a temporal location of the associated random numbers has been consumed; and transmits the extracted n random numbers to a smart contract associated with a blockchain; wherein the smart contract: verifies that the transmitted extracted n random numbers match the embedded random numbers from the published first value P 1 and a second value P 2 generated from the extracted n random numbers; and executes a transaction of the smart contract only if the n transmitted extracted random numbers match the n embedded random numbers.",
+  "patent_id": "US12382144-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/643",
+      "H04N 21/2347",
+      "H04N 21/8456"
+    ],
+    "all": [
+      "H04N 21/643",
+      "H04N 21/2347",
+      "H04N 21/8456"
+    ],
+    "source": "converted"
+  }
+}

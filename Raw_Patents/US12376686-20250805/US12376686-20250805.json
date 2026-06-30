@@ -1,0 +1,18 @@
+{
+  "title": "Diagnostics of bed and bedroom environment",
+  "abstract": "A data processing system is configured to sense a pressure readings of an air-mattress. If the pressure readings are below a target pressure value representing a desired pressure for the air-mattress, the data processing system can transmit, to an air-pump, first instructions to increase the air pressure of the air mattress and determine a replacement value representing the amount of air pumped into the air mattress by the air-pump. The data processing system can compare the replacement value to a slow-leak threshold and to a catastrophic-leak threshold. The data processing system can, responsive to a determination that the replacement value is greater than the slow-leak value and less than the catastrophic-leak value, transmit, to the air-pump, second instructions to increase the air pressure of the air mattress to replace air in the air mattress lost to a slow leak so as to maintain the desired pressure for the air-mattress.",
+  "claims": "1. A system comprising: a server system configured to: receive a list of peripheral devices associated with a bed; provide, to the bed in response to a request for the list of peripheral devices associated with the bed, the list of peripheral devices associated with the bed; the bed comprising: a controller comprising a computer memory and one or more processors, the controller configured to: request, from the server system, the list of peripheral devices associated with the bed; receive, from the server system, the list of peripheral devices associated with the bed; and responsive to receiving the list of peripheral devices associated with the bed, generate a data connection to each peripheral device in the list of peripheral devices associated with the bed.",
+  "patent_id": "US12376686-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A47C 27/082",
+      "A47C 27/083"
+    ],
+    "all": [
+      "A47C 27/082",
+      "A47C 27/083"
+    ],
+    "source": "converted"
+  }
+}

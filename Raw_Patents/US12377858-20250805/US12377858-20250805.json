@@ -1,0 +1,32 @@
+{
+  "title": "Real-time driver analysis and notification system",
+  "abstract": "Systems and methods are disclosed for determining a distraction level of a driver. A real-time driver analysis computer may receive sensor data from one or more driver analysis sensors. The real-time driver analysis computer may analyze the sensor data to determine a distraction level of a driver. Based on the distraction level, the real-time driver analysis computer may send one or more control signal to the vehicle and output one or more alerts to a mobile device associated with the driver.",
+  "claims": "1. A driver analysis computing device comprising: a processor; and a memory unit communicatively coupled to the processor and storing machine-readable instructions, wherein, when executed by the processor, the machine-readable instructions stored in the memory unit cause the processor to: receive user preferences; activate a first sensor of one or more driver sensors based on the user preferences, the first sensor configured to monitor movement of one of a body or eyes of a driver of a vehicle; de-activate a second sensor of the one or more driver sensors based on the user preferences, the second sensor configured to monitor movement of the other of the body or the eyes of the driver; receive driver sensor data from the one or more driver sensors, wherein the driver sensor data is captured by the one or more driver sensors while the driver is driving the vehicle, the one or more driver sensors configured to monitor and record a plurality of conditions of the driver, the plurality of conditions comprising at least movement of the body of the driver, movement of the eyes of the driver, or combinations thereof; analyze the driver sensor data to determine a distraction level of the driver; compare the distraction level to a threshold; determine, when the distraction level is above the threshold, that the driver is distracted; and responsive to a determination that the driver is distracted, output, to a vehicle control computer of the vehicle, one or more control signals to the vehicle.",
+  "patent_id": "US12377858-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 40/08",
+      "B60W 50/14",
+      "B60W 60/0051",
+      "G06V 20/597",
+      "B60W 2050/146",
+      "B60W 2540/225",
+      "B60W 2540/227",
+      "B60W 2540/229",
+      "B60W 2540/26"
+    ],
+    "all": [
+      "B60W 40/08",
+      "B60W 50/14",
+      "B60W 60/0051",
+      "G06V 20/597",
+      "B60W 2050/146",
+      "B60W 2540/225",
+      "B60W 2540/227",
+      "B60W 2540/229",
+      "B60W 2540/26"
+    ],
+    "source": "converted"
+  }
+}

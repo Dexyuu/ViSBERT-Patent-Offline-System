@@ -1,0 +1,28 @@
+{
+  "title": "Method for identifying human postures and gestures for interaction purposes and portable hand-held device",
+  "abstract": "A method of detecting and identifying postures and gestures of a human user generates a reference model from a reference image and obtains an image of action or gesture being performed. The image is of a user and his flexible and hand-held portable device, and the image comprises a second identification feature. A state of a second feature of the second identification feature in the reference model can generate posture identification. The state of the second feature comprises size, shape, and location of the second identification feature in the hands of the user. A portable device and a non-volatile storage medium of a computer are also disclosed.",
+  "claims": "1. A posture identification method configured to identify posture of a user while operating a portable device and comprising: generating a reference model according to a reference image; obtaining an action image by an image collector; wherein the action image is an image comprising the user and the portable device, and the action image comprises a second identification feature; and determining a second feature condition of the second identification feature in the reference model and generating posture identification information; and wherein the second feature condition comprises size, shape and location of the second identification feature; wherein the reference model is a reference coordinate system, the reference image comprises a first modeling feature, and the first modeling feature corresponds to a modeling entity feature on the portable device, wherein generating a reference model according to a reference image, comprises: determining a reference origin in the reference image; and establishing the reference coordinate system according to the reference origin and the first modeling feature; wherein determining a second feature condition of the second identification feature in the reference model and generating posture identification information, comprises: generating a comparison model according to the action image; overlapping the reference model and the comparison model; determining the second feature condition of the second identification feature in the reference model; wherein the second feature condition comprises shape and size of the second identification feature and positional relationship between the second identification feature and the reference origin; and generating the posture identification information according to the second feature condition.",
+  "patent_id": "US12380726-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 40/107",
+      "G06V 40/00",
+      "A63B 2024/0096",
+      "A63B 2208/02",
+      "A63B 2220/05",
+      "A63B 2220/833",
+      "A63B 2230/62"
+    ],
+    "all": [
+      "G06V 40/107",
+      "G06V 40/00",
+      "A63B 2024/0096",
+      "A63B 2208/02",
+      "A63B 2220/05",
+      "A63B 2220/833",
+      "A63B 2230/62"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Microcontroller with capacitors connected in series to suppress power fluctuation",
+  "abstract": "A power supply circuit is configured to supply electric power to a microcontroller. A power supply line and a GND line connect the power supply circuit with a component of the microcontroller. A capacitor portion has a series structure and connects the power supply line with the GND line. The capacitor portion is configured to suppresses a fluctuation in the supplied electric power.",
+  "claims": "1. A control device comprising: a microcontroller; an external power supply; a power supply circuit configured to supply electric power at a voltage, which is lower than a voltage of the external power supply, to the microcontroller; a power supply line and a GND line connecting the power supply circuit with a component of the microcontroller; and a capacitor portion having a series structure and connecting the power supply line with the GND line, the capacitor portion configured to suppresses a fluctuation in the supplied electric power; and a system connected to the microcontroller and configured to drive a motor, the system includes i) a drive device including a first drive circuit and a second drive circuit, the first drive circuit and the second drive circuit each having the same configuration and systematized into two respective systems with each system having a redundant configuration to drive the motor, and ii) a sensor device including a first sensor circuit and a second sensor circuit, the first sensor circuit and the second sensor circuit each having the same configuration and systematized into two respective systems with each system having a redundant configuration to detect rotation of the motor, the capacitor portion having the series structure includes a structure in which a plurality of capacitor elements, which are separate single bodies, are connected in series, or a structure in which a capacitor element, which is a single body, includes three or more internal electrodes that are arranged in series with a dielectric layer sandwiched therebetween, wherein the power supply circuit includes a GND terminal and a first power supply terminal, the GND terminal is at a ground potential, the first power supply terminal is configured to continuously apply a first voltage that is at a constant potential with respect to the ground potential, the capacitor portion is applied with the first voltage of the power supply circuit, and the microcontroller is configured to be supplied with the electric power from the power supply circuit and to be continuously applied with the first voltage at the constant potential, when one of the capacitor elements causes a short-mode failure or when two of the internal electrodes causes a short-mode failure.",
+  "patent_id": "US12379756-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 1/26",
+      "H02K 11/33",
+      "H02P 25/22",
+      "B62D 5/04"
+    ],
+    "all": [
+      "G06F 1/26",
+      "H02K 11/33",
+      "H02P 25/22",
+      "B62D 5/04"
+    ],
+    "source": "converted"
+  }
+}

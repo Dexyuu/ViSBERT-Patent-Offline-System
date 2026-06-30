@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2019057807",
+  "application_id_fs": "WO2019057807",
+  "title": "Harmonization of image noise in a camera device of a motor vehicle",
+  "abstract": "The invention relates to a method for operating a camera device (2) of a motor vehicle (1), including a) capturing an environment (4) of the motor vehicle (1) by a first camera unit (3a) of the camera device (2) and a second camera unit (3b) of the camera device 2); b) generating a first camera image representing the environment (4) captured by the first camera unit (3a), by the first camera unit (3a) and a second camera image representing the environment (4) captured by the second camera unit (3b), by the second camera unit (3b); c) predicting a first characteristic for image noise in the first camera image and a second characteristic for image noise in the second camera image by a computing unit (5) of the camera device (2) depending on a prediction model for the image noise recorded in the computing unit (5); d) matching the image noise of the first and the second camera image with each other depending on the characteristic respectively predicted for the image noise in the first and in the second camera image by the computing unit (5) by application of a respective noise filter to the first or second camera image; and e) generating an overall image (6) representing the environment (4) of the motor vehicle (1) based on the two camera images by the computing unit (5), to improve an appearance of the overall image (6) representing the environment (4) generated from multiple individual camera images.",
+  "claims": "Claims Claims Method for operating a camera device (2) of a motor vehicle (1 ) including a) capturing an environment (4) of the motor vehicle (1 ) by a first camera unit (3a) of the camera device (2) and a second camera unit (3b) of the camera device (2); b) generating a first camera image, which represents the environment (4) captured by the first camera unit (3a), by the first camera unit (3a) and a second camera image, which represents the environment (4) captured by the second camera unit (3b), by the second camera unit (3b); c) predicting a first characteristic for image noise in the first camera image and a second characteristic for image noise in the second camera image by a computing unit (5) of the camera device (2) depending on a prediction model for the image noise recorded in the computing unit (5); d) matching the image noise of the first and the second camera image with each other depending on the characteristic respectively predicted for the image noise in the first and the second camera image by the computing unit (5) by applying a respective noise filter to the first or second camera image; e) generating an overall image (6) representing the environment (4) of the motor vehicle (1 ) based on the two camera images by the computing unit (5). Method according to claim 1 , characterized in that the characteristics each include a spatial distribution of a relative intensity of the image noise and/or a measure of a spatial correlation of the image noise and/or a level value of the image noise. Method according to any one of the preceding claims, characterized in that a filter strength of the respective noise filter is preset independently of each other for different image areas of the respective camera image. 4. Method according to any one of the preceding claims, characterized in that the prediction model is dependent on a property of the respective camera unit (3a, \n\n 3b, 3c, 3d), in particular on a lens property, preferably a focal length, and/or on a position, in which the camera unit (3a, 3b, 3c, 3d) is disposed at the motor vehicle (1 ) in intended use. 5. Method according to any one of the preceding claims, characterized in that the prediction model is dependent on a setting of the respective camera unit (3a, 3b, 3c, 3d), in particular on an exposure setting and/or an image gain and/or a spectrum of exposure settings. 6. Method according to any one of the preceding claims, characterized in that the prediction model depends on a density map, which indicates how many pixels of the respective camera image are mapped to a pixel of the overall image (6). 7. Method according to any one of the preceding claims, characterized in that the respective noise filter includes a temporal noise filter, the filter strength of which is preset depending on the predicted characteristic for the respective image noise. 8. Method according to claim 7, characterized in that the filter strength of the temporal noise filter is set depending on a speed of the motor vehicle (1 ) and/or the exposure setting of the respective camera unit (3a, 3b, 3c, 3d). 9. Method according to any one of the preceding claims, characterized in that the respective noise filter includes a spatial noise filter, the filter strength of which is preset depending on the predicted characteristic for the respective image noise. 10. Method according to claim 9, characterized in that the filter strength of the spatial noise filter is set depending on the setting of the respective camera unit (3a, 3b, 3c, 3d), in particular the exposure setting and/or the \n\n image gain and/or the spectrum of exposure settings. 1 1 . Method according to any one of the preceding claims, characterized in that the first and/or the second camera unit (3a, 3b) comprise an additional spatial noise filter integrated in the respective camera unit (3a, 3b) and the filter strength of the respective, in particular the respective spatial, noise filter is set depending on a setting of the additional noise filter. 12. Method according to any one of the preceding claims, characterized in that at least one setting of the camera unit (3a, 3b, 3c, 3d) is set by the computing unit (5) in matching according to method step d) and/or the first and/or the second camera unit (3a, 3b) comprise the additional spatial noise filter integrated in the respective camera unit (3a, 3b), and a setting of the integrated spatial noise filter is set by the computing unit (5) in matching according to method step d). 13. Method according to any one of the preceding claims, characterized in that capturing the environment (4) according to method step a), generating the camera images according to method step b), matching the image noise according to method step d) and generating the overall image (6) according to method step e) are repeatedly performed, in particular also the prediction of the respective characteristic according to method step c). 14. Camera device (2) for a motor vehicle (1 ), including - a first and a second camera unit (3a, 3b) for capturing an environment (4) of the motor vehicle (1 ) and for generating a first camera image, which represents the environment (4) captured by the first camera unit (3a, 3b), as well as a second camera image, which represents the environment (4) captured by the second camera unit (3a, 3b) ; characterized by - a computing unit (5), which is formed to predict a first characteristic for image noise in the first camera image and a second characteristic for image noise in the second camera image depending on a prediction model for the image noise recorded in the \n\n computing unit (5), as well as to match the image noise of the first and the second camera image with each other depending on the characteristic respectively predicted for the image noise in the first and in the second camera image, namely by application of a respective noise filter to the first or second camera image, and further to generate an overall image (6) representing the environment (4) of the motor vehicle (1 ) based on the two camera images. 15. Motor vehicle (1 ) with a camera device (2) according to claim 14.",
+  "classifications": {
+    "ipc": [
+      "G06T 5/00",
+      "G06T 5/70",
+      "G06T 3/00",
+      "G06T 3/40",
+      "G06T 3/4038",
+      "G06T 5/50",
+      "H04N 23/00",
+      "H04N 23/60",
+      "H04N 23/698",
+      "H04N 25/00",
+      "H04N 25/60",
+      "G06T 2207/00",
+      "G06T 2207/20"
+    ],
+    "cpc": [],
+    "all": [
+      "G06T 5/00",
+      "G06T 5/70",
+      "G06T 3/00",
+      "G06T 3/40",
+      "G06T 3/4038",
+      "G06T 5/50",
+      "H04N 23/00",
+      "H04N 23/60",
+      "H04N 23/698",
+      "H04N 25/00",
+      "H04N 25/60",
+      "G06T 2207/00",
+      "G06T 2207/20"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019057807"
+}

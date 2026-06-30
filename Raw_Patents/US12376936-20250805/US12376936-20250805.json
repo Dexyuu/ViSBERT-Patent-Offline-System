@@ -1,0 +1,44 @@
+{
+  "title": "Torque-limiting screwdriver devices, systems, and methods",
+  "abstract": "Various torque-limiting screwdriver devices, systems, and methods are disclosed. The screwdriver can include a body, a motor that is configured to rotate a screw engaged with the screwdriver, and a processor configured to control operation of the screwdriver. The screwdriver can have torque-limiting functionality, such as by monitoring the amount of torque applied to the screw and reducing or stopping rotation of the screw when certain torque-limiting criteria are met. In some embodiments, the screwdriver can be switched between manual operation by a user, and automated operation by a motor within the screwdriver. In some embodiments, the screwdriver can be attached to a robotic arm.",
+  "claims": "1. A torque-limiting surgical device comprising: a body comprising a handle that is configured to be grasped by a user; a motor positioned in the body; a drive head configured to be rotated by the motor and to receive a bit that engages a screw; a battery positioned in the handle and configured to provide electric power to the motor; and a processor positioned in the body; wherein, under the control of the processor, the torque-limiting surgical device is configured to: drill the screw through an opening of a plate and into a bone of a subject; monitor current or voltage supplied to the motor as the screw is being driven into the bone; determine, using the current or voltage supplied to the motor, torque applied to the screw as the screw is being driven into the bone; determine that a first inflection point in the torque has occurred using a first plurality of torque values measured during a first time interval, said first inflection point indicative of said screw entering said bone; determine that a second inflection point in the torque has occurred at least partly by comparing a second plurality of torque values measured during a second time interval to a threshold, said second inflection point indicative of seating of the screw on said plate; determine that a third time interval has elapsed, wherein the third time interval begins when said second inflection point occurs; and responsive to determining that said second inflection point has occurred and that the third time interval has elapsed, limit rotation of the screw to inhibit stripping of the screw in said bone.",
+  "patent_id": "US12376936-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 90/03",
+      "A61B 17/1617",
+      "A61B 17/1626",
+      "A61B 17/8875",
+      "A61B 34/30",
+      "A61B 2017/00017",
+      "A61B 2017/00115",
+      "A61B 2017/00398",
+      "A61B 2017/00734",
+      "A61B 17/8057",
+      "A61B 17/863",
+      "A61B 2090/031",
+      "A61B 2090/062",
+      "A61B 2090/066",
+      "G16H 20/40"
+    ],
+    "all": [
+      "A61B 90/03",
+      "A61B 17/1617",
+      "A61B 17/1626",
+      "A61B 17/8875",
+      "A61B 34/30",
+      "A61B 2017/00017",
+      "A61B 2017/00115",
+      "A61B 2017/00398",
+      "A61B 2017/00734",
+      "A61B 17/8057",
+      "A61B 17/863",
+      "A61B 2090/031",
+      "A61B 2090/062",
+      "A61B 2090/066",
+      "G16H 20/40"
+    ],
+    "source": "converted"
+  }
+}

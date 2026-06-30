@@ -1,0 +1,24 @@
+{
+  "title": "Managing temporal dependencies between sets of foreign resources",
+  "abstract": "Techniques for managing temporal dependencies between sets of foreign resources are disclosed, including: allocating, in a runtime environment, a segment of foreign memory to a first memory session, the runtime environment being configured to use a garbage collector to manage memory in a heap, and the foreign memory including off-heap memory that is not managed by the garbage collector; opening, in the runtime environment, a second memory session that descends from the first memory session; while the second memory session is open, encountering a request to close the first memory session; responsive to encountering the request to close the first memory session, determining that the first memory session has at least one open descendant memory session; responsive to determining that the first memory session has at least one open descendant memory session, declining the request to close the first memory session.",
+  "claims": "13. A method comprising: allocating, in a runtime environment, a segment of foreign memory to a first memory session, the runtime environment being configured to use a garbage collector to manage memory in a heap, and the foreign memory comprising off-heap memory that is not managed by the garbage collector; opening, in the runtime environment, a second memory session that descends from the first memory session, wherein opening the second memory session that descends from the first memory session comprises: receiving, by a function that instantiates the second memory session, a function call with a parameter comprising a first reference to the first memory session; responsive to the function call: instantiating the second memory session; and storing a parent-child association between the first memory session and the second memory session; and returning, as an output of the function that instantiates the second memory session, a second reference to the second memory session; while the second memory session is open, encountering a first request to close the first memory session; responsive to encountering the first request to close the first memory session, determining that the first memory session has at least one open descendant memory session; and responsive to determining that the first memory session has at least one open descendant memory session, declining the first request to close the first memory session, wherein the method is performed by at least one device comprising one or more hardware processors.",
+  "patent_id": "US12379963-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/5016",
+      "G06F 9/5022",
+      "G06F 9/45558",
+      "G06F 2009/45583",
+      "G06F 12/0253"
+    ],
+    "all": [
+      "G06F 9/5016",
+      "G06F 9/5022",
+      "G06F 9/45558",
+      "G06F 2009/45583",
+      "G06F 12/0253"
+    ],
+    "source": "converted"
+  }
+}

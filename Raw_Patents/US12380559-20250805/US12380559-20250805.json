@@ -1,0 +1,26 @@
+{
+  "title": "Systems and methods for segmentation of anatomical structures for image-guided surgery",
+  "abstract": "A method for image segmentation comprises receiving volumetric image data for an anatomical region and generating a first volumetric patch from the volumetric image data. The method also comprises generating a second volumetric patch from the first volumetric patch by weighting a plurality of volumetric units in the first volumetric patch and receiving the second volumetric patch as an input to a convolutional neural network. The method also comprises conducting a down-sampling filter process and conducting an up-sampling filter process within the convolutional neural network.",
+  "claims": "1. A method for image segmentation, the method comprising: receiving volumetric image data for an anatomical region; generating a first volumetric patch from the volumetric image data; generating a second volumetric patch from the first volumetric patch by weighting a plurality of volumetric units in the first volumetric patch, wherein weighting the plurality of volumetric units includes applying a weight based on a patch significance for the first volumetric patch; receiving the second volumetric patch as an input to a convolutional neural network; within the convolutional neural network, conducting a down-sampling filter process; and within the convolutional neural network, conducting an up-sampling filter process.",
+  "patent_id": "US12380559-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/0012",
+      "A61B 34/10",
+      "A61B 34/20",
+      "G06T 7/12",
+      "A61B 2034/2065",
+      "G06T 2207/30101"
+    ],
+    "all": [
+      "G06T 7/0012",
+      "A61B 34/10",
+      "A61B 34/20",
+      "G06T 7/12",
+      "A61B 2034/2065",
+      "G06T 2207/30101"
+    ],
+    "source": "converted"
+  }
+}

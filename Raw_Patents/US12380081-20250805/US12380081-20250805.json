@@ -1,0 +1,28 @@
+{
+  "title": "Reducing requests using probabilistic data structures",
+  "abstract": "Techniques are disclosed relating to providing and using probabilistic data structures to at least reduce requests between database nodes. In various embodiments, a first database node processes a database transaction that involves writing a set of database records to an in-memory cache of the first database node. As part of processing the database transaction, the first database node may insert, in a set of probabilistic data structures, a set of database keys that correspond to the set of database records. The first database node may send, to a second database node, the set of probabilistic data structures to enable the second database node to determine whether to request, from the first database node, a database record associated with a database key.",
+  "claims": "1. A method, comprising: processing, by a first database node, a set of database transactions involving writing a set of records into an in-memory cache of the first database node, wherein the processing includes inserting keys of the set of records into a stack of filter structures; receiving, by the first database node and from a second database node, a record request for a first record, wherein the record request includes information that specifies a transaction commit number (XCN) associated with the second database node; generating, by the first database node, a record response indicating whether the first record is present in the in-memory cache, wherein the generating includes: incorporating into the record response, from the stack of filter structures, only those filter structures having a respective XCN that is indicative of a time later than the XCN associated with the second database node; sending, by the first database node and to the second database node, the record response, wherein a given filter structure included in the record response enables the second database node to determine whether to request a second record from the first database node; and subsequent to a flush XCN of the first database node being indicative of a time later than a first XCN of the given filter structure, the first database node purging the given filter structure from the first database node.",
+  "patent_id": "US12380081-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/2255",
+      "G06F 12/0802",
+      "G06F 16/1734",
+      "G06F 16/1865",
+      "G06F 16/908",
+      "H04L 9/3242",
+      "G06F 2212/163"
+    ],
+    "all": [
+      "G06F 16/2255",
+      "G06F 12/0802",
+      "G06F 16/1734",
+      "G06F 16/1865",
+      "G06F 16/908",
+      "H04L 9/3242",
+      "G06F 2212/163"
+    ],
+    "source": "converted"
+  }
+}

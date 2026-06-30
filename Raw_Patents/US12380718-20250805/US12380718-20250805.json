@@ -1,0 +1,22 @@
+{
+  "title": "Model generation system and model generation method",
+  "abstract": "Provided is a model generation system for generating a text line recognition model that recognizes a text line included in a text line image, the model generation system including a processor section, in which the text line recognition model includes a visual feature extractor and a language context relation network, the processor section determines a variable of the language context relation network by acquiring text data for training and thus training the language context relation network by using the acquired text data, determines a variable of the visual feature extractor by training the text line recognition model through the use of a labeled text line image while the variable of the language context relation network is fixed, and generates the text line recognition model while the variable of the language context relation network is set to the determined variable thereof and the variable of the visual feature extractor is set to the determined variable thereof.",
+  "claims": "1. A model generation system for generating a text line recognition model that recognizes a text line included in a text line image, the model generation system comprising: a memory; and a processor section, wherein the text line recognition model includes a visual feature extractor that, when executed by the processor section, outputs image feature values from the text line image, and a language context relation network that, when executed by the processor section, inputs the feature values outputted from the visual feature extractor, and outputs the text line, the processor section by executing a program stored in the memory that performs the following steps: (1) determining a variable of the language context relation network by acquiring text data for training and thus training the language context relation network by using the acquired text data, (2) determining a variable of the visual feature extractor by training the text line recognition model through use of an existing labeled text line image while the variable of the language context relation network is set according to step (1), and (3) generating the text line recognition model while the variable of the language context relation network is set according to step (1) and the variable of the visual feature extractor is set according to step (2), wherein the memory is configured to store the text line recognition model.",
+  "patent_id": "US12380718-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 30/19147",
+      "G06V 30/18",
+      "G06V 30/19133",
+      "G06V 30/262"
+    ],
+    "all": [
+      "G06V 30/19147",
+      "G06V 30/18",
+      "G06V 30/19133",
+      "G06V 30/262"
+    ],
+    "source": "converted"
+  }
+}

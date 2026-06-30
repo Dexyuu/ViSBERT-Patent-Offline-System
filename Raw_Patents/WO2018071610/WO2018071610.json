@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2018071610",
+  "application_id_fs": "WO2018071610",
+  "title": "Method for operating a wick-based volatile composition dispenser",
+  "abstract": "A method circulating a volatile composition throughout at least one room using an air handling device is provided. The volatile composition is delivered into the room from a volatile composition dispenser. The air handling device and the volatile composition dispenser are each communicably connectable with a central control unit. The volatile composition dispenser comprises a reservoir, a wick in fluid communication with the reservoir, and a heater disposed adjacent to the wick. The method includes a wick cleaning step where the heater is turned off for a duration of time of at least three hours.",
+  "claims": "Claims CLAIMS  What is claimed is: 1. A method of dispensing a volatile composition from a volatile composition dispenser, wherein the volatile composition dispenser is communicably connectable with a central control unit (CCU), the volatile composition dispenser comprising a reservoir, a wick in fluid communication with the reservoir, and a heater disposed adjacent to the wick, the method comprising the steps of: (a) sending a first outgoing instruction from the central control unit to the volatile composition dispenser to turn on the heater of the volatile composition dispenser; (b) sending a second outgoing instruction from the central control unit to the volatile composition dispenser to turn off the heater of the volatile composition dispenser in a wick cleaning mode for a duration of time of at least three hours between the hours of 10 p.m. and 4 a.m.; and (c) sending a third outgoing instruction from the central control unit to the volatile composition dispenser to turn on the heater of the volatile composition dispenser after a first setpoint is reached; and (d) optionally repeating steps (a) through (c). 2. The method of Claim 1 , wherein the volatile composition dispenser further comprises at least two reservoirs, each reservoir having a wick in fluid communication with the reservoir. 3. The method of Claim 2, wherein the volatile composition dispenser further comprises a heater adjacent to each wick, wherein the second outgoing instruction includes turning each heater off during the same duration of time. 4. The method of any of the preceding claims, wherein the volatile composition dispenser comprises an indicator, wherein the central control unit sends an instruction to the indicator to turn ON during the wick cleaning mode. 5. The method of Claim 4, wherein the indicator is a light or sound associated with the volatile composition dispenser. 6. The method of Claim 5, wherein the indicator is a notification on a user interface, wherein the user interface is selected from the group consisting of a phone, computer, tablet, or combination thereof. 7. The method of any of the preceding claims, wherein the volatile composition dispenser includes an end-of-life sensor, wherein the method includes the steps of: sending an end-of-life sensor level reading to the CCU; and sending a notification to a user interface that alerts a user of the status of the cartridge or reminds the user to purchase a new cartridge. 8. The method of any of the preceding claims, wherein the volatile composition dispenser includes an end-of-life sensor, wherein the method includes the steps of: sending an end-of-life sensor level reading to the CCU; and sending a third outgoing instruction to the CCU to order a replacement cartridge before the cartridge is depleted. 9. The method of any of the preceding claims, wherein the central communication unit uses an algorithm to determine the optimal volatile composition emission and air handling device profile. 10. The method of any of the preceding claims, wherein the volatile composition dispenser is communicably connectable with the central communication unit through a wireless communication link. 11. A method of dispensing a volatile composition from a volatile composition dispenser, wherein the volatile composition dispenser is communicably connectable with a central control unit (CCU), the volatile composition dispenser comprising a reservoir, a wick in fluid communication with the reservoir, and a heater disposed adjacent to the wick, the method comprising the steps of: (a) using the CCU to learn when a user is away from the room where the volatile composition dispenser is disposed for at least three hours during the day; \n\n (b) sending a first outgoing instruction from the central control unit to the volatile composition dispenser to turn on the heater of the volatile composition dispenser, wherein the central control unit is a learning central control unit; (c) sending a second outgoing instruction from the central control unit to the volatile composition dispenser to turn off the heater of the volatile composition dispenser in a wick cleaning mode for a duration of time of at least three hours when the user is away from the room where the volatile composition dispenser is disposed for at least three hours; and (d) sending a third outgoing instruction from the central control unit to the volatile composition dispenser to turn on the heater of the volatile composition dispenser after a first setpoint is reached; (e) optionally repeating any of steps (a) through (d). 12. The method of Claim 11, wherein the volatile composition dispenser comprises an indicator, wherein the central control unit sends an instruction to the indicator to turn ON during the wick cleaning mode, wherein the indicator is selected from the group consisting of a light, a sound, a notification to a user interface, and combinations thereof. 13. The method of Claim 11 or Claim 12, wherein the volatile composition dispenser includes an end-of-life sensor, wherein the method includes the steps of: sending an end-of-life sensor level reading to the CCU; and sending a notification to a user interface that alerts a user of the status of the cartridge or reminds the user to purchase a new cartridge. 14. The method of any of Claims 11 through 13, wherein the volatile composition dispenser includes an end-of-life sensor, wherein the method includes the steps of: sending an end-of-life sensor level reading to the CCU; and sending a third outgoing instruction to the CCU to order a replacement cartridge before the cartridge is depleted. 15. A method of replacing a cartridge of a volatile composition dispenser, the volatile composition dispenser comprising a heater, a cartridge, and an end-of-life sensor, the cartridge comprising a reservoir for containing a volatile composition and a wick in fluid communication with the reservoir, wherein the volatile composition dispenser is \n\n communicably connectable with a central control unit (CCU), the method comprising the steps of: (a) sending a first outgoing instruction from the central control unit to the volatile composition dispenser to turn on the heater of the volatile composition dispenser; (b) sensing the level of volatile composition in the reservoir using an end-of-life sensor; (c) sending the level details to the CCU; (d) notifying a user through a user interface that the volatile composition level is low or needs to be replenished, wherein the user interface is a phone, tablet, computer, or combination thereof; and (e) optionally repeating any of steps (a) through (d).",
+  "classifications": {
+    "ipc": [
+      "A61L 9/00",
+      "A61L 9/015",
+      "A61L 9/02",
+      "A61L 9/03",
+      "A61L 9/037",
+      "A61L 2209/00",
+      "A61L 2209/10",
+      "A61L 2209/11",
+      "A61L 2209/111",
+      "A61L 2209/13",
+      "A61L 2209/133",
+      "A61L 2209/135",
+      "A61L 2209/16",
+      "A61L 9/035"
+    ],
+    "cpc": [],
+    "all": [
+      "A61L 9/00",
+      "A61L 9/015",
+      "A61L 9/02",
+      "A61L 9/03",
+      "A61L 9/037",
+      "A61L 2209/00",
+      "A61L 2209/10",
+      "A61L 2209/11",
+      "A61L 2209/111",
+      "A61L 2209/13",
+      "A61L 2209/133",
+      "A61L 2209/135",
+      "A61L 2209/16",
+      "A61L 9/035"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018071610"
+}

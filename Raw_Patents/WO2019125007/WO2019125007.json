@@ -1,0 +1,52 @@
+{
+  "application_id": "WO2019125007",
+  "application_id_fs": "WO2019125007",
+  "title": "Display apparatus and method of operating the same",
+  "abstract": "A display apparatus and method of operating thereof are disclosed. The display apparatus includes a user input interface; a memory; and a processor configured to: receive a power input of the display apparatus via the user input interface, in response to receiving the power input, obtain operating time information of the display apparatus, the operating time information of the display apparatus comprising at least one of: information about one or more operation times of the display apparatus prior to receiving the power input and information about one or more waiting times of the display apparatus prior to receiving the power input, determine whether to perform a cold-booting operation based on the operating time information, and perform the cold-booting operation in response to determining to perform the cold-booting operation.",
+  "claims": "Claims ( 15 ) A display apparatus comprising: a user input interface; a memory storing one or more instructions; and a processor configured to execute the one or more instructions stored in the memory to: receive a power input of the display apparatus via the user input interface, in response to receiving the power input, obtain operating time information of the display apparatus, the operating time information of the display apparatus comprising at least one of: information about one or more operation times of the display apparatus prior to receiving the power input and information about one or more waiting times of the display apparatus prior to receiving the power input, determine whether to perform a cold-booting operation based on the operating time information, and perform the cold-booting operation in response to determining to perform the rebooting operation. The display apparatus of claim 1, further comprising: a volatile memory, wherein the cold-booting operation comprises: an operation of cold power-off the display apparatus in which power to the volatile memory is discontinued; and an operation of booting the display apparatus. The display apparatus of claim 2, wherein the power input comprises a first power input and a second power input, wherein the processor is further configured to execute the one or more instructions to: in response to receiving the second power input, obtain first time information indicating a time between the first power input and the second power input, determine whether the first time information corresponds to a predetermined first pattern, and determine whether to perform the rebooting operation of the display apparatus based on whether the first time information corresponds to the predetermined first pattern. The display apparatus of claim 3, wherein when the first power input is an input to power-off of the display apparatus and the second power input is an input to power-on of the display apparatus, the first time information indicates a waiting time of the display apparatus, and wherein when the first power input is an input to power-on of the display apparatus and the second power input is an input to power-off of the display apparatus, the first time information indicates an operation time of the display apparatus. The display apparatus of claim 3, wherein the processor is further configured to execute the one or more instructions to determine that the first time information corresponds to the predetermined first pattern when the first time information is less than a first threshold value. The display apparatus of claim 5, wherein the first threshold value is updatable by a server or according to a result determined by machine learning. The display apparatus of claim 2, wherein the power input comprises a first power input, a second power input, and a third power input, and wherein the processor is further configured to execute the one or more instructions to: in response to receiving the third power input, obtain first time information indicating a time between the first power input and the second power input and second time information indicating a time between the second power input and the third power input, determine at least one of: whether the first time information corresponds to a predetermined first pattern and whether the second time information corresponds to a predetermined second pattern, and determine whether to perform the rebooting operation of the display apparatus in accordance with a determination result as to whether the at least one of the first time information corresponds to the predetermined first pattern and the second time information corresponds to the predetermined second pattern. The display apparatus of claim 7, wherein the processor is further configured to execute the one or more instructions to determine to perform the rebooting operation when it is determined that the first time information is less than a first threshold value and the second time information is less than a second threshold value. The display apparatus of claim 7, wherein the processor is further configured to execute the one or more instructions to determine to perform the cold-booting operation when it is determined that the first time information is less than a first threshold value or the second time information is less than a second threshold value. The display apparatus of claim 2, wherein the power input comprises a first power input and a second power input, and wherein the processor is configured to execute the one or more instructions to: in response to receiving the first power input, switch to an information mode in which information is displayed on a display by executing a predetermined application set to be executed in correspondence to the first power input, and in response to receiving the second power input, switch to a normal mode in which an application that was being executed on the display apparatus before the first power input is continuously executed. The display apparatus of claim 1, wherein the processor is further configured to execute the one or more instructions to: receive a power on input of the electronic apparatus; obtain a time duration between the power on input and a power off input before the power on input; and perform a cold booting control or a warm booting control according to the obtained time duration. The display apparatus of claim 11, wherein the processor comprises a CPU and a microcomputer, and wherein the microcomputer is configured to: count the time duration between the power on input and a power off input before the power on input; determine whether the counted time duration is equal to or less than a threshold value; when it is determined that the time duration is equal to or less than the threshold value, block a power supply to a volatile memory and perform the cold booting control by instructing the CPU to perform a cold booting operation; and when it is determined that the time duration exceeds the threshold, perform the warm booting control by instructing the CPU to perform a warm booting operation. A method of operating a display apparatus, the method comprising: receiving a power input of the display apparatus; in response to receiving the power input, obtaining operating time information of the display apparatus, the operating time information of the display apparatus comprising at least one of: information about one or more operation times of the display apparatus prior to receiving the power input and information about one or more waiting times of the display apparatus prior to receiving the power input; determining whether to perform a cold-booting operation based on the operating time information; and performing the cold-booting operation in response to determining to perform the cold-booting operation. The method of claim 13, wherein the cold-booting operation comprises: an operation of a cold power-off the display apparatus in which power to a volatile memory of the display apparatus is discontinued; and an operation of booting the display apparatus. The method of claim 14, wherein the power input comprises a first power input and a second power input, and wherein the method further comprises: in response to receiving the second power input, obtaining first time information indicating a time between the first power input and the second power input; determining whether the first time information corresponds to a predetermined first pattern; and determining whether to perform the cold-booting operation of the display apparatus based on whether the first time information corresponds to the predetermined first pattern.",
+  "classifications": {
+    "ipc": [
+      "G09G 5/00",
+      "G09G 5/36",
+      "G09G 5/003",
+      "G09G 5/006",
+      "G06F 11/00",
+      "G06F 11/07",
+      "G06F 11/14",
+      "G06F 11/1402",
+      "G06F 11/1415",
+      "G06F 11/1417",
+      "G06F 2201/00",
+      "G06F 2201/81",
+      "G09G 2330/00",
+      "G09G 2330/02",
+      "G09G 2330/026",
+      "G09G 2330/027",
+      "G09G 2330/08",
+      "G09G 2354/00"
+    ],
+    "cpc": [],
+    "all": [
+      "G09G 5/00",
+      "G09G 5/36",
+      "G09G 5/003",
+      "G09G 5/006",
+      "G06F 11/00",
+      "G06F 11/07",
+      "G06F 11/14",
+      "G06F 11/1402",
+      "G06F 11/1415",
+      "G06F 11/1417",
+      "G06F 2201/00",
+      "G06F 2201/81",
+      "G09G 2330/00",
+      "G09G 2330/02",
+      "G09G 2330/026",
+      "G09G 2330/027",
+      "G09G 2330/08",
+      "G09G 2354/00"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019125007"
+}

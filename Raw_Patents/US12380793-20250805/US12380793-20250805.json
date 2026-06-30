@@ -1,0 +1,24 @@
+{
+  "title": "Systems, methods, and devices for automatic signal detection based on power distribution by frequency over time",
+  "abstract": "Systems, methods, and devices for automatic signal detection in an RF environment are disclosed. A sensor device in a nodal network comprises at least one RF receiver, a generator engine, and an analyzer engine. The at least one RF receiver measures power levels in the RF environment and generates FFT data based on power level data. The generator engine calculates a power distribution by frequency of the RF environment in real time or near real time, including a first derivative and a second derivative of the FFT data. The analyzer engine creates a baseline based on statistical calculations of the power levels measured in the RF environment for a predetermined period of time, and identifies at least one signal based on the first derivative and the second derivative of the FFT data in at least one conflict situation from comparing live power distribution to the baseline of the RF environment.",
+  "claims": "1. A system for signal detection or conflict detection in an electromagnetic environment, comprising: at least one electromagnetic receiver configured to measure activity in the electromagnetic environment; an analyzer engine; and an event manager; wherein the at least one electromagnetic receiver is configured to generate fast Fourier transform (FFT) data based on the measured activity in the electromagnetic environment; wherein the analyzer engine is operable to compare the FFT data to at least one baseline to identify at least one conflict; wherein the event manager is operable to use parameters of the at least one conflict to determine a course of action, wherein the course of action comprises creating an alarm or performing direction finding (DF); wherein the analyzer engine is operable to create the at least one baseline based on calculations of power levels of the measured activity over a period of time; and wherein the analyzer engine is configured to detect at least one signal associated with at least one drone based on a first derivative and a second derivative of the FFT data.",
+  "patent_id": "US12380793-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G08B 21/18",
+      "G08B 31/00",
+      "G08G 5/727",
+      "H04B 17/27",
+      "H04B 17/318"
+    ],
+    "all": [
+      "G08B 21/18",
+      "G08B 31/00",
+      "G08G 5/727",
+      "H04B 17/27",
+      "H04B 17/318"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Video picture decoding and encoding method and apparatus",
+  "abstract": "This application provides a video picture decoding and encoding method and a video picture decoding and encoding apparatus. When it is determined that a merge or skip mode is used, if it is determined through decoding that a merge mode with motion vector difference (MMVD) indicator is true, a triangle prediction unit (PU) indicator may not be coded. The triangle PU indicator is coded when it is determined through decoding that the MMVD indicator is false. This reduces a quantity of used coding resources, and can reduce bit overheads of a bitstream.",
+  "claims": "1. A method for transmitting an encoded bitstream of video data, the method comprising: receiving the encoded bitstream of video data, the encoded bitstream including: a representation of a residual block of a picture block, and indicator information for indicating a prediction mode for inter prediction of the picture block, wherein the indicator information comprises a fourth indicator, a fifth indicator when the fourth indicator indicates that a merge mode is used for the inter prediction of the picture block, and a sixth indicator when the fifth indicator indicates that a merge mode with motion vector difference (MMVD) is not used for the inter prediction of the picture block, wherein the sixth indicator is a picture block-level indicator and is a third value or a fourth value; and sending the encoded bitstream.",
+  "patent_id": "US12382026-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/109",
+      "H04N 19/132",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/52",
+      "H04N 19/70"
+    ],
+    "all": [
+      "H04N 19/109",
+      "H04N 19/132",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/52",
+      "H04N 19/70"
+    ],
+    "source": "converted"
+  }
+}

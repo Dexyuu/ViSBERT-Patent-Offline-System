@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2019001346",
+  "application_id_fs": "WO2019001346",
+  "title": "System and methods for object filtering and uniform representation for autonomous systems",
+  "abstract": "A computer-implemented method of controlling an autonomous system comprises: accessing, by one or more processors, sensor data that includes information regarding an area; disregarding, by the one or more processors, a portion of the sensor data that corresponds to objects outside of a region of interest; identifying, by the one or more processors, a plurality of objects from the sensor data; assigning, by the one or more processors, a priority to each of the plurality of objects; based on the priorities of the objects, selecting, by the one or more processors, a subset of the plurality of objects; generating, by the one or more processors, a representation of the selected objects; providing, by the one or more processors, the representation to a machine learning system as an input; and based on an output from the machine learning system resulting from the input, controlling the autonomous system.",
+  "claims": "Claims ( 20 ) AÂ computer-implementedÂ methodÂ ofÂ controllingÂ anÂ autonomousÂ system,Â comprising: accessing,Â byÂ oneÂ orÂ moreÂ processors,Â sensorÂ dataÂ thatÂ includesÂ informationÂ regardingÂ anÂ area; disregarding,Â byÂ theÂ oneÂ orÂ moreÂ processors,Â aÂ portionÂ ofÂ theÂ sensorÂ dataÂ thatÂ correspondsÂ toÂ objectsÂ outsideÂ ofÂ aÂ regionÂ ofÂ interestÂ includedÂ inÂ theÂ area; identifying,Â byÂ theÂ oneÂ orÂ moreÂ processors,Â aÂ pluralityÂ ofÂ objectsÂ fromÂ theÂ sensorÂ data; assigning,Â byÂ theÂ oneÂ orÂ moreÂ processors,Â aÂ priorityÂ toÂ eachÂ ofÂ theÂ pluralityÂ ofÂ objects; basedÂ onÂ theÂ prioritiesÂ ofÂ theÂ objects,Â selecting,Â byÂ theÂ oneÂ orÂ moreÂ processors,Â aÂ subsetÂ ofÂ theÂ pluralityÂ ofÂ objects; generating,Â byÂ theÂ oneÂ orÂ moreÂ processors,Â aÂ representationÂ ofÂ theÂ selectedÂ objects; providing,Â byÂ theÂ oneÂ orÂ moreÂ processors,Â theÂ representationÂ toÂ aÂ machineÂ learningÂ systemÂ asÂ anÂ input;Â and controllingÂ theÂ autonomousÂ systemÂ basedÂ onÂ anÂ outputÂ fromÂ theÂ machineÂ learningÂ systemÂ resultingÂ fromÂ theÂ input. TheÂ computer-implementedÂ methodÂ ofÂ claimÂ 1,Â wherein: theÂ regionÂ ofÂ interestÂ isÂ definedÂ byÂ aÂ sectorÂ mapÂ comprisingÂ aÂ pluralityÂ ofÂ sectors,Â eachÂ sectorÂ ofÂ theÂ sectorÂ mapÂ beingÂ definedÂ byÂ anÂ angleÂ rangeÂ andÂ aÂ distanceÂ fromÂ theÂ autonomousÂ vehicle. TheÂ computer-implementedÂ methodÂ ofÂ claimÂ 2,Â wherein,Â atÂ leastÂ twoÂ sectorsÂ ofÂ theÂ pluralityÂ ofÂ sectorsÂ areÂ definedÂ byÂ differentÂ distancesÂ fromÂ theÂ autonomousÂ system. TheÂ computer-implementedÂ methodÂ ofÂ claimÂ 1,Â wherein: theÂ regionÂ ofÂ interestÂ includesÂ aÂ segmentÂ forÂ eachÂ ofÂ oneÂ orÂ moreÂ lanes. TheÂ computer-implementedÂ methodÂ ofÂ claimÂ 4,Â wherein: theÂ disregardingÂ ofÂ theÂ sensorÂ dataÂ generatedÂ byÂ theÂ objectsÂ outsideÂ ofÂ theÂ regionÂ ofÂ interestÂ comprises: identifyingÂ aÂ pluralityÂ ofÂ objectsÂ fromÂ theÂ sensorÂ data; forÂ eachÂ ofÂ theÂ pluralityÂ ofÂ objects: identifyingÂ aÂ laneÂ basedÂ onÂ sensorÂ dataÂ generatedÂ fromÂ theÂ object;Â and associatingÂ theÂ identifiedÂ laneÂ withÂ theÂ object;Â and disregardingÂ sensorÂ dataÂ generatedÂ byÂ objectsÂ associatedÂ withÂ aÂ predeterminedÂ lane. TheÂ computer-implementedÂ methodÂ ofÂ claimÂ 1,Â furtherÂ comprising: basedÂ onÂ theÂ sensorÂ dataÂ andÂ aÂ setÂ ofÂ criteria,Â switchingÂ theÂ regionÂ ofÂ interestÂ fromÂ aÂ firstÂ regionÂ ofÂ interestÂ toÂ aÂ secondÂ regionÂ ofÂ interestÂ inÂ theÂ area,Â theÂ firstÂ regionÂ ofÂ interestÂ beingÂ definedÂ byÂ aÂ sectorÂ mapÂ comprisingÂ aÂ pluralityÂ ofÂ sectors,Â eachÂ sectorÂ ofÂ theÂ sectorÂ mapÂ beingÂ definedÂ byÂ anÂ angleÂ rangeÂ andÂ aÂ distanceÂ fromÂ theÂ autonomousÂ system,Â theÂ secondÂ regionÂ ofÂ interestÂ includingÂ aÂ segmentÂ forÂ eachÂ ofÂ oneÂ orÂ moreÂ lanes. TheÂ computer-implementedÂ methodÂ ofÂ claimÂ 1,Â furtherÂ comprising: basedÂ onÂ theÂ sensorÂ dataÂ andÂ aÂ setÂ ofÂ criteria,Â switchingÂ theÂ regionÂ ofÂ interestÂ fromÂ aÂ firstÂ regionÂ ofÂ interestÂ toÂ aÂ secondÂ regionÂ ofÂ interest,Â theÂ firstÂ regionÂ ofÂ interestÂ includingÂ aÂ segmentÂ forÂ eachÂ ofÂ oneÂ orÂ moreÂ lanes,Â theÂ secondÂ regionÂ ofÂ interestÂ beingÂ definedÂ byÂ aÂ sectorÂ mapÂ comprisingÂ aÂ pluralityÂ ofÂ sectors,Â eachÂ sectorÂ ofÂ theÂ sectorÂ mapÂ beingÂ definedÂ byÂ anÂ angleÂ rangeÂ andÂ aÂ distanceÂ fromÂ theÂ autonomousÂ system. TheÂ computer-implementedÂ methodÂ ofÂ claimÂ 1,Â wherein: theÂ regionÂ ofÂ interestÂ includesÂ aÂ height. TheÂ computer-implementedÂ methodÂ ofÂ claimÂ 1,Â whereinÂ theÂ selectingÂ ofÂ theÂ subsetÂ ofÂ theÂ pluralityÂ ofÂ objectsÂ comprisesÂ selectingÂ aÂ predeterminedÂ numberÂ ofÂ theÂ pluralityÂ ofÂ objects. TheÂ computer-implementedÂ methodÂ ofÂ claimÂ 9,Â whereinÂ theÂ selectingÂ ofÂ theÂ subsetÂ ofÂ theÂ pluralityÂ ofÂ objectsÂ comprisesÂ selectingÂ theÂ subsetÂ ofÂ theÂ pluralityÂ ofÂ objectsÂ havingÂ prioritiesÂ aboveÂ aÂ predeterminedÂ threshold. TheÂ computer-implementedÂ methodÂ ofÂ claimÂ 1,Â wherein: theÂ generatedÂ representationÂ isÂ aÂ uniformÂ representationÂ thatÂ matchesÂ aÂ representationÂ usedÂ toÂ trainÂ theÂ machineÂ learningÂ system;Â and theÂ uniformÂ representationÂ isÂ aÂ two-dimensionalÂ image. TheÂ computer-implementedÂ methodÂ ofÂ claimÂ 11,Â wherein: theÂ generatingÂ ofÂ theÂ two-dimensionalÂ imageÂ comprisesÂ encodingÂ aÂ pluralityÂ ofÂ attributesÂ ofÂ eachÂ selectedÂ objectÂ intoÂ eachÂ ofÂ aÂ pluralityÂ ofÂ channelsÂ ofÂ theÂ two-dimensionalÂ image. TheÂ computer-implementedÂ methodÂ ofÂ claimÂ 11,Â whereinÂ theÂ generatingÂ ofÂ theÂ two-dimensionalÂ imageÂ comprises: generatingÂ aÂ firstÂ two-dimensionalÂ image;Â and generatingÂ theÂ two-dimensionalÂ imageÂ fromÂ theÂ firstÂ two-dimensionalÂ imageÂ usingÂ aÂ topology-preservingÂ downsampling. TheÂ computer-implementedÂ methodÂ ofÂ claimÂ 1,Â wherein: theÂ representationÂ isÂ aÂ uniformÂ representationÂ thatÂ matchesÂ aÂ representationÂ usedÂ toÂ trainÂ theÂ machineÂ learningÂ system;Â and theÂ uniformÂ representationÂ isÂ aÂ vectorÂ ofÂ fixedÂ length. TheÂ computer-implementedÂ methodÂ ofÂ claimÂ 14,Â wherein: theÂ generatingÂ ofÂ theÂ vectorÂ ofÂ fixedÂ lengthÂ comprisesÂ addingÂ oneÂ orÂ moreÂ phantomÂ objectsÂ toÂ theÂ vector,Â eachÂ phantomÂ objectÂ beingÂ semanticallyÂ meaningful. TheÂ computer-implementedÂ methodÂ ofÂ claimÂ 15,Â whereinÂ eachÂ phantomÂ objectÂ hasÂ aÂ speedÂ attributeÂ thatÂ matchesÂ aÂ speedÂ ofÂ theÂ autonomousÂ system. AnÂ autonomousÂ systemÂ controllerÂ comprising: aÂ memoryÂ storageÂ comprisingÂ instructions;Â and oneÂ orÂ moreÂ processorsÂ inÂ communicationÂ withÂ theÂ memoryÂ storage,Â whereinÂ theÂ oneÂ orÂ moreÂ processorsÂ executeÂ theÂ instructionsÂ toÂ perform: accessingÂ sensorÂ dataÂ thatÂ includesÂ informationÂ regardingÂ anÂ area; disregardingÂ aÂ portionÂ ofÂ theÂ sensorÂ dataÂ thatÂ correspondsÂ toÂ objectsÂ outsideÂ ofÂ aÂ regionÂ ofÂ interestÂ includedÂ inÂ theÂ area; identifyingÂ aÂ pluralityÂ ofÂ objectsÂ fromÂ theÂ sensorÂ data; assigningÂ aÂ priorityÂ toÂ eachÂ ofÂ theÂ pluralityÂ ofÂ objects; basedÂ onÂ theÂ prioritiesÂ ofÂ theÂ objects,Â selectingÂ aÂ subsetÂ ofÂ theÂ pluralityÂ ofÂ objects; generatingÂ aÂ representationÂ ofÂ theÂ selectedÂ objects; providingÂ theÂ representationÂ toÂ aÂ machineÂ learningÂ systemÂ asÂ anÂ input;Â and controllingÂ theÂ autonomousÂ systemÂ basedÂ onÂ anÂ outputÂ fromÂ theÂ machineÂ learningÂ systemÂ resultingÂ fromÂ theÂ input. TheÂ autonomousÂ systemÂ controllerÂ ofÂ claimÂ 14,Â wherein: theÂ regionÂ ofÂ interestÂ isÂ definedÂ byÂ aÂ sectorÂ mapÂ comprisingÂ aÂ pluralityÂ ofÂ sectors,Â eachÂ sectorÂ ofÂ theÂ sectorÂ mapÂ beingÂ definedÂ byÂ anÂ angleÂ rangeÂ andÂ aÂ distanceÂ fromÂ theÂ autonomousÂ system. TheÂ autonomousÂ systemÂ controllerÂ ofÂ claimÂ 18,Â whereinÂ atÂ leastÂ twoÂ sectorsÂ ofÂ theÂ pluralityÂ ofÂ sectorsÂ areÂ definedÂ byÂ differentÂ distancesÂ fromÂ theÂ autonomousÂ system. AÂ non-transitoryÂ computer-readableÂ mediumÂ storingÂ computerÂ instructionsÂ forÂ controllingÂ anÂ autonomousÂ system,Â thatÂ whenÂ executedÂ byÂ oneÂ orÂ moreÂ processors,Â causeÂ theÂ oneÂ orÂ moreÂ processorsÂ toÂ performÂ stepsÂ of: accessingÂ sensorÂ dataÂ thatÂ includesÂ informationÂ regardingÂ anÂ area; disregardingÂ aÂ portionÂ ofÂ theÂ sensorÂ dataÂ thatÂ correspondsÂ toÂ objectsÂ outsideÂ ofÂ aÂ regionÂ ofÂ interestÂ includedÂ inÂ theÂ area; identifyingÂ aÂ pluralityÂ ofÂ objectsÂ fromÂ theÂ sensorÂ data; assigningÂ aÂ priorityÂ toÂ eachÂ ofÂ theÂ pluralityÂ ofÂ objects; basedÂ onÂ theÂ prioritiesÂ ofÂ theÂ objects,Â selectingÂ aÂ subsetÂ ofÂ theÂ pluralityÂ ofÂ objects; generatingÂ aÂ representationÂ ofÂ theÂ selectedÂ objects; providingÂ theÂ representationÂ toÂ aÂ machineÂ learningÂ systemÂ asÂ anÂ input;Â and basedÂ onÂ anÂ outputÂ fromÂ theÂ machineÂ learningÂ systemÂ resultingÂ fromÂ theÂ input,Â controllingÂ theÂ autonomousÂ system.",
+  "classifications": {
+    "ipc": [
+      "G06N 3/00",
+      "G06N 3/004",
+      "G06N 3/008",
+      "G06N 20/00",
+      "G06N 3/02",
+      "G06N 5/00",
+      "G06N 5/04",
+      "G06V 10/00",
+      "G06V 10/20",
+      "G06V 10/25",
+      "G06V 10/70",
+      "G06V 10/82",
+      "G06V 20/00",
+      "G06V 20/50",
+      "G06V 20/56",
+      "G06N 3/04",
+      "G06N 3/045"
+    ],
+    "cpc": [],
+    "all": [
+      "G06N 3/00",
+      "G06N 3/004",
+      "G06N 3/008",
+      "G06N 20/00",
+      "G06N 3/02",
+      "G06N 5/00",
+      "G06N 5/04",
+      "G06V 10/00",
+      "G06V 10/20",
+      "G06V 10/25",
+      "G06V 10/70",
+      "G06V 10/82",
+      "G06V 20/00",
+      "G06V 20/50",
+      "G06V 20/56",
+      "G06N 3/04",
+      "G06N 3/045"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019001346"
+}

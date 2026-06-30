@@ -1,0 +1,22 @@
+{
+  "title": "Method for estimating a position of an object",
+  "abstract": "The present disclosure relates to a method for estimating a position of an object by determining a distance from the object to a sensor module and determining a starting reference space indicative of a position estimate of the object. The method also includes performing a plurality of successive division operations of the starting reference space for improving the position estimate of the object until a predetermined criterion is met. A division operation includes dividing the current reference space into subspaces. Further, the method includes assigning, on each of the subspaces, a confidence factor indicating a confidence that the object is positioned in the respective subspace, and selecting a new reference space from the subspaces based on the confidence factors. The method further comprises determining the position of the object based on the new reference space according to the last division operation.",
+  "claims": "1. A method comprising: determining, for each of a plurality of sensor modules, a distance from an object to a respective sensor module of the plurality of sensor modules by exchanging signals between the object and the respective sensor module; determining a starting reference space indicative of a position estimate of the object based on a plurality of determined distances and positions measured by the plurality of sensor modules; performing a plurality of successive division operations of the starting reference space for improving the position estimate of the object until a predetermined criterion is met, each division operation comprising: dividing a current reference space into subspaces, each subspace indicating a possible position of the object; assigning, on each of the subspaces, a confidence factor indicating a confidence that the object is positioned in the respective subspace; and selecting a new reference space from the subspaces based on the confidence factors; and determining a position of the object based on the new reference space according to the last division operation.",
+  "patent_id": "US12379454-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 5/14",
+      "G01S 11/02",
+      "H04W 4/40",
+      "G01S 2205/01"
+    ],
+    "all": [
+      "G01S 5/14",
+      "G01S 11/02",
+      "H04W 4/40",
+      "G01S 2205/01"
+    ],
+    "source": "converted"
+  }
+}

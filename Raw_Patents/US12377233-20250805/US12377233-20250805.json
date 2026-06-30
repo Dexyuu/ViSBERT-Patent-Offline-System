@@ -1,0 +1,26 @@
+{
+  "title": "Process and devices for automatically specifying the frequency set point of a ventilator",
+  "abstract": "A process, a signal processing unit and to a ventilator automatically calculate a set point for a frequency, with which the ventilator performs ventilation strokes and thereby mechanically ventilates the patient. An alveolar or proximal minute volume is predefined. A lung time constant for the lungs of the patient is determined. The volume of a dead space in a fluid connection between the lungs and the ventilator is determined. A mandatory frequency set point (fset,mand) for the mandatory ventilation of the patient is calculated. An ideal frequency (fspon), with which the patient can achieve the minute volume by means of spontaneous breathing, is calculated. The ventilation frequency set point is calculated as a weighted average of the mandatory frequency set point (fset,mand) and of the ideal frequency (fspon). The averaging depends on a determined actual intensity of the spontaneous breathing of the patient.",
+  "claims": "1. A process for calculating a ventilation frequency set point as a required ventilation frequency for a ventilator, wherein a fluid connection is configured to be established between a patient's lungs to be mechanically ventilated and the ventilator and wherein the ventilator performs a series of ventilation strokes into the fluid connection as a function of a calculated ventilation frequency set point, the process comprising the steps of: predefining a value indicative of a desired volume flow into the lungs and out of the lungs of the patient; determining a lung time constant for the lungs of the patient as a function of measured values of at least one respiratory parameter of the patient; determining a volume of a dead space in the fluid connection, wherein the dead space occurs in the fluid connection between the ventilator and a region of the lungs of the patient, wherein the which region is suitable for an exchange of gases; calculating a mandatory frequency set point for a mandatory ventilation of the patient by the ventilator as a function of the predefined desired volume flow value, the determined lung time constant and the determined dead space volume, wherein the calculated mandatory frequency set point is a frequency with which the desired volume flow value is achieved solely by mechanical ventilation; calculating an ideal spontaneous breathing frequency for an intrinsic breathing activity of the patient as a function of the predefined desired volume flow value, the determined lung time constant and the determined dead space volume, wherein the calculated ideal spontaneous breathing frequency is a frequency with which the patient is capable of achieving the desired volume flow value solely by the patient's own intrinsic breathing activity; determining a value indicative of an actual intensity of the intrinsic breathing activity of the patient; calculating the ventilator frequency set point as a weighted average of the calculated mandatory frequency set point and the calculated ideal spontaneous breathing frequency, wherein weighting used in the weighted averaging depends on the determined value indicative of the intrinsic breathing activity, and performing, with the ventilator, a series of ventilation strokes into the fluid connection as a function of the calculated ventilation frequency set point.",
+  "patent_id": "US12377233-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61M 16/026",
+      "G16H 20/40",
+      "G16H 50/30",
+      "G16H 50/50",
+      "A61M 2205/3334",
+      "A61M 2230/46"
+    ],
+    "all": [
+      "A61M 16/026",
+      "G16H 20/40",
+      "G16H 50/30",
+      "G16H 50/50",
+      "A61M 2205/3334",
+      "A61M 2230/46"
+    ],
+    "source": "converted"
+  }
+}

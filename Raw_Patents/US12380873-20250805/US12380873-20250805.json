@@ -1,0 +1,24 @@
+{
+  "title": "Echo reference prioritization and selection",
+  "abstract": "Some implementations involve obtaining a plurality of echo references, the plurality of echo references including at least one echo reference for each audio device of a plurality of audio devices in an audio environment, each echo reference corresponding to audio data being played back by one or more loudspeakers of one audio device of the plurality of audio devices. Some examples involve making an importance estimation for each echo reference of the plurality of echo references. Making the importance estimation may involve determining an expected contribution of each echo reference to mitigation of echo by at least one echo management system of at least one audio device of the audio environment. Some implementations involve selecting, based at least in part on the importance estimation, one or more selected echo references and providing the one or more selected echo references to the at least one echo management system.",
+  "claims": "1. An audio processing method for managing echo by a first audio device of a plurality of audio devices of an audio system, wherein each audio device of the plurality of audio devices comprises one or more loudspeakers, wherein the first audio device further comprises a control system, wherein the control system comprises an echo management system comprising an acoustic echo canceller (AEC), an acoustic echo suppressor (AES), or both an AEC and an AES, the method comprising: obtaining, by the control system of the first audio device, a plurality of echo references, the plurality of echo references including at least one echo reference for each audio device of the plurality of audio devices, each echo reference corresponding to audio data being played back by the one or more loudspeakers of the corresponding audio device; making, by the control system, an importance estimation for each echo reference of the plurality of echo references, wherein making the importance estimation involves determining, by the echo management system of the first audio device, a measure of an expected improvement in performance of the echo management system in suppressing or cancelling echoes due to the inclusion of each particular echo reference; selecting, by the control system and based at least in part on the importance estimation, one or more echo references from the plurality of echo references; providing, by the control system, the one or more selected echo references to the echo management system; and suppressing or cancelling, by the echo management system of the first audio device, echoes based at least in part on the one or more selected echo references.",
+  "patent_id": "US12380873-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10K 11/17823",
+      "G10K 11/17873",
+      "G10K 2210/30231",
+      "G10K 2210/3027",
+      "G10K 2210/505"
+    ],
+    "all": [
+      "G10K 11/17823",
+      "G10K 11/17873",
+      "G10K 2210/30231",
+      "G10K 2210/3027",
+      "G10K 2210/505"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Responding to queries with voice recordings",
+  "abstract": "Implementations are provided for providing responsive audio recordings to user queries that are prerecorded by human beings, rather than generated automatically using speech synthesis processing. In various implementations, a query provided by a user at an input component of a computing device may be used to search a corpus of voice recordings. From the searching, a plurality of candidate responsive voice recordings may be identified and ranked based on measures of credibility associated with speakers that created the candidate responsive voice recordings. Based on the ranking, one or more of the plurality of candidate responsive voice recordings may be provided for presentation to the user at an output component of the same computing device or a different computing device.",
+  "claims": "1. A method implemented using one or more processors, comprising: receiving a query provided by a user at an input component of a computing device; searching a corpus of voice recordings based on the query; identifying, from the searching, a plurality of candidate responsive voice recordings; determining measures of credibility associated with respective speakers of the plurality of candidate responsive voice recordings, wherein the respective measure of credibility for each speaker is determined by grouping semantic embeddings generated from textual transcripts of voice recordings created by that speaker into one or more clusters, and analyzing the one or more clusters for semantic consistency between the textual transcripts; ranking the plurality of candidate responsive voice recordings based on the measures of credibility; and based on the ranking, selecting, for presentation to the user at an output component of the same computing device or a different computing device, one or more of the plurality of candidate responsive voice recordings.",
+  "patent_id": "US12380160-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/635",
+      "G10L 15/22",
+      "G10L 2015/223"
+    ],
+    "all": [
+      "G06F 16/635",
+      "G10L 15/22",
+      "G10L 2015/223"
+    ],
+    "source": "converted"
+  }
+}

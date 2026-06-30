@@ -1,0 +1,18 @@
+{
+  "title": "Method and apparatus for wireless network configuration, storage medium and processor",
+  "abstract": "Disclosed are a method and an apparatus for wireless network configuration, a storage medium and a processor. The method includes: monitoring an execution result of a network configuration step in a wireless network configuration process; determining a corresponding failure reason when the execution result of the network configuration step is failure; and executing an operation corresponding to the failure reason. The operation comprises one of the following: outputting prompt information containing the failure reason and adjusting parameters of a network configuration device.",
+  "claims": "1. A method for wireless network configuration, comprising: monitoring an execution result of a network configuration step in a wireless network configuration process; determining a corresponding failure reason when the execution result of the network configuration step is failure; and executing an operation corresponding to the failure reason, wherein the operation comprises one of the following: outputting prompt information containing the failure reason and adjusting parameters of a network configuration device, wherein the network configuration device comprises a mobile terminal and a wireless device, the mobile terminal is configured to send connection information of a wireless access point to the wireless device, and the wireless device is configured to be connected to the wireless access point based on the connection information and then be connected to a server through the wireless access point, wherein executing an operation corresponding to the failure reason comprises: judging whether the failure reason lies in the network configuration device itself; outputting the prompt information if the failure reason does not lie in the network configuration device itself; and adjusting the parameters of the network configuration device if the failure reason lies in the network configuration device itself.",
+  "patent_id": "US12382309-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 24/02",
+      "H04W 48/16"
+    ],
+    "all": [
+      "H04W 24/02",
+      "H04W 48/16"
+    ],
+    "source": "converted"
+  }
+}

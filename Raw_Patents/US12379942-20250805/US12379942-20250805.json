@@ -1,0 +1,16 @@
+{
+  "title": "Desired state management of software-defined data centers with a plurality of desired state configurations",
+  "abstract": "A method of managing configurations of SDDCs of a tenant includes the steps of: retrieving a base configuration document, a first supplemental configuration document of a first SDDC, and a second supplemental configuration document of a second SDDC; issuing, to the first SDDC, a first instruction to update a running configuration state thereof according to the base configuration document and the first supplemental configuration document; and issuing, to the second SDDC, a second instruction to update a running configuration state thereof according to the base configuration document and the second supplemental configuration document, wherein the base configuration document includes settings of first configuration properties common across all of the tenant's SDDCs, the first supplemental configuration document includes first settings of second configuration properties only applicable to the first SDDC, and the second supplemental configuration document includes second settings of the second configuration properties only applicable to the second SDDC.",
+  "claims": "1. A method of managing configurations of a software-defined data center (SDDC) of a tenant, the method comprising: storing in a database, a base configuration document, a first supplemental configuration document, and a second supplemental configuration document, wherein the base configuration document includes settings of first configuration properties, the first supplemental configuration document includes first settings of second configuration properties, and the second supplemental configuration document includes second settings of the second configuration properties; retrieving the base configuration document and the first supplemental configuration document from the database and issuing to the SDDC, a first instruction to update a running configuration state of the SDDC according to the base configuration document and the first supplemental configuration document; and retrieving the second supplemental configuration document from the database and issuing to the SDDC, a second instruction to update the running configuration state of the SDDC according to the second supplemental configuration document in place of the first supplemental configuration document, in response to a change in a condition of the SDDC.",
+  "patent_id": "US12379942-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/44505"
+    ],
+    "all": [
+      "G06F 9/44505"
+    ],
+    "source": "converted"
+  }
+}

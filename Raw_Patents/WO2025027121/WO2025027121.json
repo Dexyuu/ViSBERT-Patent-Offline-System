@@ -1,0 +1,46 @@
+{
+  "application_id": "WO2025027121",
+  "application_id_fs": "WO2025027121",
+  "title": "Apparatus for an optical imaging system, optical imaging system, method and computer program",
+  "abstract": "Examples relate to an apparatus (130) for an optical imaging system comprising one or more processors (134) and one or more storage devices (136). The apparatus is configured to obtain sensor data indicative of a reflectance measurement of a sample (110). The apparatus is further configured to convert the sensor data into reflectance spectral data indicative of a reflectance spectral signal. The reflectance spectral signal is a function of the concentration distribution of the sample. Further, the apparatus is configured to obtain fluorescence spectral data indicative of fluorescence spectral signal of a fluorescence measurement of the sample. The apparatus is further configured to combine the reflectance spectral data and the fluorescence spectral data to combined spectral data. Further, the apparatus is configured to determine the concentration distribution of the sample based on the combined spectral data.",
+  "claims": "Claims Claims 1. An apparatus (130) for an optical imaging system, comprising one or more processors (134) and one or more storage devices (136), wherein the apparatus (130) is configured to: obtain sensor data indicative of a reflectance measurement of a sample (110); convert the sensor data into reflectance spectral data indicative of a reflectance spectral signal, wherein the reflectance spectral signal is a function of a concentration distribution of the sample (110); obtain fluorescence spectral data indicative of a fluorescence spectral signal of a fluorescence measurement of the sample (110); combine the reflectance spectral data and the fluorescence spectral data to combined spectral data; and determine, based on the combined spectral data, the concentration distribution of the sample (110). 2. The apparatus (130) according to claim 1, wherein the apparatus (130) is configured to determine the reflectance spectral data using a logarithmic function. 3. The apparatus (130) according to any one of the preceding claims, wherein the apparatus (130) is configured to determine the combined spectral data by combining the reflectance spectral data and the fluorescence spectral data in a single vector. 4. The apparatus (130) according to any one of the preceding claims, wherein the apparatus (130) is configured to determine the concentration distribution using spectral unmixing. 5. The apparatus (130) according to claim 4, wherein the apparatus (130) is configured to perform spectral unmixing using at least one of linear transformation, independent component analysis, orthogonal subspace projection, minimum volume simplex analysis, convex cone analysis or fully constrained least squares. 6. An optical imaging system, comprising an apparatus (130) according to any one of the preceding claims. 7. The optical imaging system, further comprising a first sensor for acquisition of the sensor data; a second sensor for acquisition of second sensor data; and wherein the apparatus (130) is configured to control the first sensor and the second sensor such that the sensor data and the second sensor data are acquired at the same time. 8. A method (300) for an optical imaging system, comprising obtaining (310) sensor data indicative of a reflectance measurement of a sample; converting (320) the sensor data into reflectance spectral data indicative of a reflectance spectral signal, wherein the reflectance spectral signal is a function of a concentration distribution of the sample; obtaining (330) fluorescence spectral data indicative of a fluorescence spectral signal of a fluorescence measurement of the sample; combining (340) the reflectance spectral data and the fluorescence spectral data to combined spectral data; and determining (350), based on the combined spectral data, the concentration distribution of the sample. 9. A computer program with a program code for performing the method (300) according to claim 8 when the computer program is executed on a processor.",
+  "classifications": {
+    "ipc": [
+      "G01N 21/00",
+      "G01N 21/62",
+      "G01N 21/63",
+      "G01N 21/64",
+      "G01N 21/645",
+      "G01N 21/6456",
+      "G01N 21/6458",
+      "G01J 3/00",
+      "G01J 3/28",
+      "G01J 3/44",
+      "G01J 3/4406",
+      "G01N 21/17",
+      "G01N 21/55",
+      "G01N 2021/6417",
+      "G01N 2021/6421"
+    ],
+    "cpc": [],
+    "all": [
+      "G01N 21/00",
+      "G01N 21/62",
+      "G01N 21/63",
+      "G01N 21/64",
+      "G01N 21/645",
+      "G01N 21/6456",
+      "G01N 21/6458",
+      "G01J 3/00",
+      "G01J 3/28",
+      "G01J 3/44",
+      "G01J 3/4406",
+      "G01N 21/17",
+      "G01N 21/55",
+      "G01N 2021/6417",
+      "G01N 2021/6421"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025027121"
+}

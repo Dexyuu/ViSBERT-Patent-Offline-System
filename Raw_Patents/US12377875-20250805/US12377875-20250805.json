@@ -1,0 +1,20 @@
+{
+  "title": "Ego motion estimation on sensor in ambiguous velocity environment",
+  "abstract": "Various technologies described herein pertain to a radar sensor system that performs ego motion estimation. A radar sensor system can be utilized to generate an instantaneous three-dimensional ego motion estimate of a vehicle. The radar sensor system employs an algorithm that enables generating ego motion estimates for velocities of the vehicle that can be greater than, less then, or equal to the unambiguous maximum velocity of the radar sensor system. Moreover, a single radar sensor system of a vehicle can implement the approaches set forth herein and the techniques can be applicable regardless of modulation of the radar sensor system.",
+  "claims": "1. A radar sensor system, comprising: a transmit antenna configured to transmit a radar signal into an environment of the radar sensor system; a receive antenna configured to receive a return signal from the environment of the radar sensor system responsive to the radar signal; and radar processing circuitry that is configured to perform acts comprising: generating a radar frame based on the return signal received from the environment, the radar frame comprises detection points, each of the detection points having a radial velocity value and an azimuth angle value; concatenating the radar frame with at least one shifted radar frame to form a concatenated radar frame, the shifted radar frame comprises the detection points of the radar frame having respective radial velocity values shifted by a multiple of an unambiguous maximum velocity value of the radar sensor system; defining windows within the concatenated radar frame; selecting respective groups of detection points within the windows identified as likely corresponding to one or more static objects in the environment; generating potential ego motion estimations based on the groups of detection points within the windows; and selecting one of the potential ego motion estimations as an ego motion estimation of the radar sensor system.",
+  "patent_id": "US12377875-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 60/001",
+      "B60W 40/10",
+      "B60W 2420/408"
+    ],
+    "all": [
+      "B60W 60/001",
+      "B60W 40/10",
+      "B60W 2420/408"
+    ],
+    "source": "converted"
+  }
+}

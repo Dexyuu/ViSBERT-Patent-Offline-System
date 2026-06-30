@@ -1,0 +1,20 @@
+{
+  "title": "Communication method and apparatus, and device",
+  "abstract": "Embodiments of the present application provide a communication method and apparatus, and a device. The method includes: a terminal device receives network configuration information sent by the network device for acquiring a network device, wherein, the network configuration information includes multiple random access configurations, and time domain resources indicated by the multiple random access configurations are different; and the terminal device selects a specified random access configuration from the multiple random access configurations according to positioning capability of the terminal device to perform random access. RACH capacity is increased.",
+  "claims": "1. A communication method, comprising: acquiring, by a terminal device, multiple random access configurations of a network device, wherein the multiple random access configurations indicate different time domain resources; and selecting, by the terminal device, according to positioning capability thereof, a random access configuration from the multiple random access configurations to perform random access; wherein the multiple random access configurations comprise a first random access configuration and a second random access configuration, and time domain resources indicated by the first random access configuration are less than time domain resources indicated by the second random access configuration; and the selecting, by the terminal device, according to the positioning capability thereof, the random access configuration from the multiple random access configurations to perform random access comprises: performing, by the terminal device, random access according to the first random access configuration, when the terminal device does not have positioning capability; and performing, by the terminal device, random access according to the first random access configuration or the second random access configuration, when the terminal device has positioning capability: wherein the first random access configuration comprises following information: a first frequency domain resource configuration, or first indication information indicating the first frequency domain resource configuration; a first time domain resource configuration; and a first random access preamble configuration, or second indication information indicating the first random access preamble configuration; wherein the second random access configuration comprises following information: a second frequency domain resource configuration, or third indication information indicating the second frequency domain resource configuration; a second time domain resource configuration; and a second random access preamble configuration, or fourth indication information indicating the second random access preamble configuration; wherein, frequency domain resources indicated by the first frequency domain resource configuration partially overlap with frequency domain resources indicated by the second frequency domain resource configuration; and random access preambles of a first random access preamble group indicated by the first random access preamble configuration and a second random access preamble group indicated by the second random access preamble configuration are partially the same.",
+  "patent_id": "US12382436-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 74/0833",
+      "H04W 72/044",
+      "H04W 72/51"
+    ],
+    "all": [
+      "H04W 74/0833",
+      "H04W 72/044",
+      "H04W 72/51"
+    ],
+    "source": "converted"
+  }
+}

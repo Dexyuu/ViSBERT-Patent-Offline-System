@@ -1,0 +1,20 @@
+{
+  "title": "System and methods for observing medical conditions",
+  "abstract": "System for observing medical conditions and methods used therein include a processor and a memory connected to the processor, wherein the memory contains instructions configuring the processor to receive, from a data repository, a plurality of reference electronic health records and a plurality of reference cardiac data elements, generate medical training data, train at least an observation machine learning model using the generated medical training data, receive a query pertaining to a subject, wherein the query includes at least a query cardiac data element and at least a query electronic health record, and output at least an observation outcome as a function of the query using the at least an observation machine learning model.",
+  "claims": "1. A system for observing medical conditions, the system comprising: a processor; and a memory communicatively connected to the processor, wherein the memory contains instructions configuring the processor to: receive, from a data repository, a plurality of reference electronic health records (EHRs) and a plurality of reference cardiac data elements; generate medical training data comprising a plurality of reference features correlated with a plurality of reference factors, wherein generating the medical training data comprises: extracting the plurality of reference features from the plurality of reference cardiac data elements; isolating the plurality of reference factors from the plurality of reference EHRs; and correlating the plurality of reference features and the plurality of reference factors to generate the medical training data; train at least an observation machine learning model using the generated medical training data, wherein the at least an observation machine learning model comprises a transformer-based machine learning model that is configured to capture temporal interdependencies within the plurality of reference factors using attention mechanisms, wherein capturing the temporal interdependencies within the plurality of reference factors comprises generating an attention score as a function of at least a reference factor of the plurality of reference factors, wherein the observation machine learning model is further trained by: generating a plurality of diagnostic labels as a function of a plurality of correlations between the plurality of reference features and the plurality of reference factors; and updating the transformer-based machine learning model as a function of the attention score; receive a query pertaining to a subject, wherein the query comprises at least a query cardiac data element and at least a query EHR; and output at least an observation outcome as a function of the query using the at least an observation machine learning model, wherein outputting the at least an observation outcome comprises: selecting at least a diagnostic label by matching the query against the plurality of diagnostic labels; and outputting the at least an observation outcome as a function of at least a matched diagnostic label.",
+  "patent_id": "US12381008-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16H 50/20",
+      "G06N 3/04",
+      "G16H 10/60"
+    ],
+    "all": [
+      "G16H 50/20",
+      "G06N 3/04",
+      "G16H 10/60"
+    ],
+    "source": "converted"
+  }
+}

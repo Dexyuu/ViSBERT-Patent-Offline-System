@@ -1,0 +1,22 @@
+{
+  "title": "Methods for encoding and decoding pictures and associated apparatus",
+  "abstract": "A method for decoding a picture, a method for encoding a picture, an encoder, and a decoder are provided. The method for encoding a picture includes (i) determining a width and a height of a coding block in the picture; (ii) if the width and the height are equal to N, where N is a positive integer power of 2, determining a matrix-based intra prediction (MIP) size identifier indicating that an MIP prediction size equal to N; (iii) deriving a group of reference samples of the coding block; and (iv) deriving an MIP prediction of the coding block based on the group of reference samples and an MIP matrix corresponding to the MIP size identifier.",
+  "claims": "1. A method for decoding a picture, comprising: parsing a bitstream to determine a width, a height and a prediction mode of a coding block; when the prediction mode indicates a matrix-based intra prediction (MIP) mode is used in decoding the coding block, if the width and the height are equal to N, determining an MIP size identifier indicating that an MIP prediction size equal to N, wherein N is a positive integer power of 2; deriving a group of reference samples of the coding block; and deriving an MIP prediction of the coding block based on the group of reference samples and an MIP matrix corresponding to the MIP size identifier by: deriving the MIP prediction of the coding block based on following equations: oW =(1«( sW− 1))− fO *(Σ i=0 inSize-1 p[i ]) and predMip[ x][y ]=(((Σ i=0 inSize-1 mWeight[ i][y *predSize+ x]*p[i ])+ oW )» sW )+pTemp[0], for x from 0 to “predSize−1”, for y from 0 to “predSize−1”, wherein “sW” represents a shifting number parameter, “fO” represents a shifting offset parameter, “oW” represents a parameter based on the shifting offset parameter and the shifting number parameter, “inSize” represents a variable indicating the number of input samples used in deriving the MIP prediction, “p [i]” represents an input sample, “predMip[x][y]” represents the MIP prediction, “mWeight [i][j]” represents an MIP weighting matrix, “predSize” represents a size of the MIP prediction, “pTemp [0]” represents the 0-th value in a reference sample buffer, symbol “<<” represents a binary left shifting operator, and symbol “>>” represents a binary right shifting operator; determining the shifting number parameter and the shifting offset parameter; and deriving the MIP prediction of the coding block based on the group of reference samples, the shifting number parameter, the shifting offset parameter, and the MIP matrix according to the MIP size identifier, wherein different MIP size identifiers correspond to the same shifting number parameter, and different MIP size identifiers correspond to the same shifting offset parameter and the shifting offset parameter is a constant equal to 32.",
+  "patent_id": "US12382023-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/105",
+      "H04N 19/132",
+      "H04N 19/159",
+      "H04N 19/176"
+    ],
+    "all": [
+      "H04N 19/105",
+      "H04N 19/132",
+      "H04N 19/159",
+      "H04N 19/176"
+    ],
+    "source": "converted"
+  }
+}

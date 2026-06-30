@@ -1,0 +1,16 @@
+{
+  "title": "Method and system for using a forward calibration model to generate calibrated values for ambient parameters",
+  "abstract": "Embodiments herein generally relate to methods and systems for using a forward calibration model to generate calibrated values for ambient parameters. In at least one example, the method for calibrating a measured un-calibrated ambient parameter (AP) value, includes generating, using an optimization model, a predicted calibrated AP value corresponding to the un-calibrated ambient parameter (AP); inputting, into a trained forward calibration model: (i) the predicted calibrated AP value; and (ii) one or more accuracy-enhancing parameters; generating, using the trained forward calibration model, a predicted un-calibrated AP value; determining if an error difference between the predicted un-calibrated AP value and measured un-calibrated ambient parameter (AP) value, is below a pre-determined threshold; if not, using the optimization model, to generate an updated predicted calibrated AP value and iterating the method, and otherwise outputting the predicted calibrated AP value, as the calibrated AP value.",
+  "claims": "1. A method performed by a mobile platform comprising: measuring, by at least one gaseous component concentration sensor, an uncalibrated sensor value (s[k] un-calibrated (actual) ) that indicates a concentration of gas; receiving, by an analog to digital converter connected to a processor, an analog signal from the gaseous component concentration sensor that represents an uncalibrated sensor value (s[k] un-calibrated (actual) ), which indicates the measured concentration of gas or suspended particulate matter; detecting proximity to a stationary reference unit that is external to the mobile platform; determining one or more accuracy-enhancing parameters (p[k]) based on the proximity to the stationary reference unit; repeating a set of operations until a difference between the s[k] un-calibrated (actual) and a predicted un-calibrated sensor value (s[k] un-calibrated (predicted) ) is below a predetermined threshold, the set of operations comprising: i) generating, using an optimization model, a predicted calibrated sensor value (s[k] calibrated (predicted) ) based on the s[k] un-calibrated (actual) and the s[k] un-calibrated (predicted) ; wherein the optimization model utilizes an optimization algorithm selected from the group of dichotomous search, interval halving, Fibonacci search, and golden section search algorithm; ii) generating the s[k] un-calibrated (predicted) using a trained forward calibration model based on the s[k] calibrated (predicted) and the p[k]; and transmitting a message to a cloud server that indicates the s[k] calibrated (predicted) as a calibrated sensor value.",
+  "patent_id": "US12380330-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 3/08"
+    ],
+    "all": [
+      "G06N 3/08"
+    ],
+    "source": "converted"
+  }
+}

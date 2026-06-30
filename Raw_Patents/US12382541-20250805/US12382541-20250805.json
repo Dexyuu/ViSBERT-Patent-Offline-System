@@ -1,0 +1,22 @@
+{
+  "title": "Systems, methods, and devices for signaling for power saving",
+  "abstract": "Systems, Methods, Devices, and Apparatuses for power saving are provided. In at least one embodiment, a device may be configured for discontinuous reception (DRX) mode and further receive signaling indicating whether or not to wake and/or may receiving signaling indicating whether or not to go-to-sleep. The signaling may be implemented as group-specific signaling.",
+  "claims": "1. A processor configured to: receive a first configuration for a connected mode discontinuous reception (C-DRX) mode and a second configuration for receiving a wake-up indication in a first downlink control information (DCI) format on a physical downlink control channel (PDCCH), wherein the first DCI format includes a plurality of UE specific fields; monitor, based at least in part on the second configuration, for the first DCI format during an OFF/non-active state of the C-DRX mode, wherein one or more fields of the plurality of UE specific fields of the first DCI format include a 1 bit indication to indicate whether or not there is a wake up indication, wherein a first value of the 1 bit indication corresponds to a wake up signal being detected, and wherein a second value of the 1 bit indication corresponds to a wake up signal not being detected; and wake up, based at least in part on receiving the first DCI format with the 1 bit indication of the wake up indication, at a start of a next C-DRX ON duration associated with the first configuration, for downlink signal monitoring.",
+  "patent_id": "US12382541-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/28",
+      "H04W 52/0216",
+      "H04W 52/0235",
+      "H04W 72/23"
+    ],
+    "all": [
+      "H04W 76/28",
+      "H04W 52/0216",
+      "H04W 52/0235",
+      "H04W 72/23"
+    ],
+    "source": "converted"
+  }
+}

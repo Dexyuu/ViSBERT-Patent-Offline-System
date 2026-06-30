@@ -1,0 +1,21 @@
+{
+  "application_id": "WO2016167581",
+  "application_id_fs": null,
+  "title": "Method and apparatus for configuring timing relationship between harq-ack and pusch for mtc ue in wireless communication system",
+  "abstract": "A method and apparatus for transmitting a physical HARQ indicator channel (PHICH) in a wireless communication system is provided. A base station (BS) transmits multiple uplink (UL) grants for multiple user equipments (UEs), receives UL data from the multiple UEs, and transmits a group-common PHICH as a response to the UL data received from the multiple UEs.",
+  "claims": "Claims ( 14 ) A method for transmitting, by a base station (BS), a physical HARQ indicator channel (PHICH) in a wireless communication system, the method comprising: transmitting multiple uplink (UL) grants for multiple user equipments (UEs); receiving UL data from the multiple UEs; and transmitting a group-common PHICH as a response to the UL data received from the multiple UEs. The method of claim 1, wherein the group-common PHICH is transmitted via a dedicated subband. The method of claim 1, wherein the group-common PHICH is transmitted via a same subband in which a cell-specific search space (CSS) is transmitted. The method of claim 1, wherein the multiple UL grants are transmitted via different subbands or different times, respectively. The method of claim 1, wherein a starting subframe of the group-common PHICH is aligned with a starting subframe set of a UE-specific search space (USS). The method of claim 1, wherein the multiple UL grants are multiplexed. The method of claim 6, wherein a starting time of the UL data from the multiple UEs are aligned. The method of claim 6, wherein the group-common PHICH is transmitted by using a number of PHICH resources which is the same as the number of the multiple UL grants. The method of claim 8, wherein the PHICH resources are indicated by a bitmap which has a size of the number of PHICH resources. The method of claim 8, wherein a PHICH resource for each UE among the PHICH resources is determined as a first next starting subframe of a control channel after transmitting the UL data plus K subframes. The method of claim 1, wherein the group-common PHICH is transmitted per each subband where a UE expect to monitor a USS. The method of claim 1, wherein the group-common PHICH is transmitted per coverage enhancement (CE) level. The method of claim 1, wherein the group-common PHICH is common for all CE levels. A base station (BS) in a wireless communication system, the BS comprising: a memory; a transceiver; and a processor coupled to the memory and the transceiver, wherein the processor is configured to: control the transceiver to transmit multiple uplink (UL) grants for multiple user equipments (UEs), control the transceiver to receive UL data from the multiple UEs, and control the transceiver to transmit a group-common physical HARQ indicator channel (PHICH) as a response to the UL data received from the multiple UEs.",
+  "classifications": {
+    "ipc": [
+      "H04L 1/18",
+      "H04L 5/00",
+      "H04L 1/00"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 1/18",
+      "H04L 5/00",
+      "H04L 1/00"
+    ],
+    "source": "csv"
+  }
+}

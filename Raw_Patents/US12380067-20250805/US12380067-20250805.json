@@ -1,0 +1,20 @@
+{
+  "title": "Client-side hashset change detection",
+  "abstract": "The detection of a change to a shared file of a file hosting service communicating only through a file transfer protocol is performed on a client-side device. The client-side device obtains the metadata of each shared file of a directory at each periodic interval. The client-side device generates a hashset for the directory at each periodic interval where the hashset includes a hash value for each file's metadata. If the hash of a file at a current time t is contained in the immediately preceding hashset at tâ1 but not in the hashset of tâ2 then the file is determined to have changed.",
+  "claims": "1. A system comprising: one or more processors; and a memory that stores one or more programs that are configured to be executed by the one or more processors, the one or more programs including instructions to perform actions that: maintain a plurality of hashsets at a client device, wherein a hashset comprises a plurality of hash values of shared files of a directory of a remote file system, wherein each hashset is associated with a time point, wherein a hash value is associated with metadata of a shared file of the directory of the remote file system; obtain from the remote file system, via a network protocol, metadata of each shared file of the directory of the remote file system, wherein the network protocol comprises a file transfer protocol that differs from a web Application Programming Interface (API) and has no support for API access; compute a new hash value of a first shared file of the directory of the remote file system at a current time point t; search the plurality of hashsets for a hash value of the first shared file matching the new hash value from a hashset of time point t−1 and from a hashset of time point t−2; detect a change in the first shared file when the new hash value at time point t is not contained in the hashset of time point t−2 and is contained in the hashset of time point t−1; upon detection of the change to the first shared file, set a trigger to a workflow engine indicating the change to the first shared file; and upon receipt of the trigger by the workflow engine, initiate a specific workflow from pre-configured actions based on the changed first shared file, wherein the workflow is a series of automated operations to perform a task.",
+  "patent_id": "US12380067-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/176",
+      "G06F 16/152",
+      "G06F 16/183"
+    ],
+    "all": [
+      "G06F 16/176",
+      "G06F 16/152",
+      "G06F 16/183"
+    ],
+    "source": "converted"
+  }
+}

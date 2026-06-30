@@ -1,0 +1,25 @@
+{
+  "application_id": "WO2020123401",
+  "application_id_fs": null,
+  "title": "Systems and methods for identifying and processing of person-to-person payments",
+  "abstract": "Systems and methods for identifying and processing person-to-person payments are disclosed. In one embodiment, in an information processing apparatus comprising at least one computer processor, a method for processing a transaction may include: (1) receiving, from a third-party payment platform and via a card association and an acquirer, a transaction request comprising a person-to-person payment indicator in a pass-through field in the transaction request; (2) updating a token transaction characteristic value to contain a person-to-person payment flag; and (3) applying a business rule to the transaction request based on the person-to-person payment flag.",
+  "claims": "Claims CLAIMS  What is claimed is: 1. A method for processing a transaction, comprising: in an information processing apparatus comprising at least one computer processor: receiving, from a third-party payment platform and via a card association and an acquirer, a transaction request comprising a person- to-person payment indicator in a pass-through field in the transaction request; updating a token transaction characteristic value to contain a person-to-person payment flag; and applying a business rule to the transaction request based on the person-to-person payment flag. 2. The method of claim 1, wherein the pass-through field that comprises the person-to-person indicator is a transaction description field. 3. The method of claim 1, wherein the pass-through field that comprises the person-to-person indicator is a VT field. 4. The method of claim 1, wherein the business transaction rule comprises a transaction authorization rule. 5. The method of claim 1, wherein the business transaction rule comprises a cash advance limit. 6. The method of claim 1, wherein the business transaction rule comprises a charge-back rule. 7. The method of claim 1, wherein the business transaction rule comprises a settlement rule. 8. The method of claim 1, wherein the card association and the acquirer do not alter the indicator in the pass-through field. 9. A system for processing a transaction, comprising: a third-party payment platform; an acquirer; a card network; and an issuer; wherein: the acquirer receives, from the third-party payment platform, a transaction request comprising a person-to-person payment indicator in a pass-through field in the transaction request; the card network receives, from the acquirer, the transaction request with the person-to-person payment indicator in the pass through field in the transaction request; the issuer receives, from the card network, the transaction request with the person-to-person payment indicator in the pass through field in the transaction request; the issuer updates a token transaction characteristic value to contain a person-to-person payment flag; and the issuer applies a business rule to the transaction request based on the person-to-person payment flag. 10. The system of claim 9, wherein the pass-through field that comprises the person-to-person indicator is a transaction description field. 11. The system of claim 9, wherein the pass-through field that comprises the person-to-person indicator is a VT field. 12. The system of claim 9, wherein the business transaction rule comprises a transaction authorization rule. 13. The system of claim 9, wherein the business transaction rule comprises a cash advance limit. 14. The system of claim 9, wherein the business transaction rule comprises a charge-back rule. 15. The system of claim 9, wherein the business transaction rule comprises a settlement rule. 16. The system of claim 9, wherein the card association and the acquirer do not alter the indicator in the pass-through field.",
+  "classifications": {
+    "ipc": [
+      "G06Q 20/02",
+      "G06Q 20/40",
+      "G06Q 20/36",
+      "G06Q 20/34",
+      "G06Q 30/06"
+    ],
+    "cpc": [],
+    "all": [
+      "G06Q 20/02",
+      "G06Q 20/40",
+      "G06Q 20/36",
+      "G06Q 20/34",
+      "G06Q 30/06"
+    ],
+    "source": "csv"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Rapid development of malicious content detectors",
+  "abstract": "Methods and systems are described for developing a malicious content detector to identify new malicious text content, such as phishing messages, malicious documents, and/or malicious web content. A computing device is used to generate input data which contains an instruction, examples of content, and content to be analyzed. The examples include malicious and benign content samples, designed to recognize similar malicious content. The computing device feeds this input into a generative language model, which produces text labels that indicate the maliciousness of the content to be analyzed. The methods and systems enable rapid development of security protection by leveraging a small number of malicious samples, instead of training with a large dataset of new training samples.",
+  "claims": "1. A computerized method of detecting malicious content in text messages using generative natural language processing, the method comprising: generating, by a computing device, a number of sample text messages from a corpus of stored text messages by selecting first one or more text messages classified as malicious and selecting second one or more text messages classified as benign; identifying, by the computing device, one or more target text messages to be labeled as malicious or benign, the target text messages received from a remote device; providing, by the computing device, the number of sample text messages, the target text messages, and a task description to a generative natural language model programming interface in a format compatible as input to a generative natural language model, the model comprising a transformer-based neural network architecture trained to generate text output using an input prompt; causing, by the computing device, the generative natural language model to generate a predicted label for each of the target text messages by comparing one or more features of the target text messages to one or more features of the classified sample text messages, wherein the task description comprises an instruction to the generative natural language model to guide analysis of the sample text messages and generation of the predicted label for each of the target text messages; and executing, by the computing device, a security action directed to one or more of the target text messages when the predicted label for the target text message indicates that the target text message is malicious.",
+  "patent_id": "US12381893-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1416",
+      "G06F 40/279",
+      "G06F 40/58"
+    ],
+    "all": [
+      "H04L 63/1416",
+      "G06F 40/279",
+      "G06F 40/58"
+    ],
+    "source": "converted"
+  }
+}

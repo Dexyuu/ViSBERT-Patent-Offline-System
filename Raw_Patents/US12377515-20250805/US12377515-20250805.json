@@ -1,0 +1,18 @@
+{
+  "title": "Polishing apparatus and polishing method",
+  "abstract": "A polishing apparatus for performing polishing between a polishing pad and a semiconductor wafer disposed to face the polishing pad includes a polishing table for holding the polishing pad, a top ring for holding the semiconductor wafer, a swing arm for holding the top ring, and a swing shaft motor for causing the swing arm to swing. The polishing apparatus further includes an arm torque detection section that detects an arm torque imparted to the swing arm when the swing arm is swinging in a predetermined angle range, and an endpoint detection section that detects a polishing endpoint indicating the end of polishing on the basis of the arm torque detected by the arm torque detection section.",
+  "claims": "1. A polishing apparatus for performing polishing between a polishing pad and a polishing target disposed to face the polishing pad, comprising: a polishing table for holding the polishing pad; a top ring for holding the polishing target; a swing arm for holding the top ring; an arm drive motor for causing the swing arm to swing through an arm angle range; an arm torque detection circuitry configured to directly or indirectly detect arm torque imparted to the swing arm while the swing arm is swinging through a predetermined angle range, wherein the predetermined angle range is smaller than the arm angle range; and an endpoint detection circuitry configured to detect a polishing endpoint indicating an end of the polishing on a basis of the arm torque detected by the arm torque detection circuitry, wherein the arm torque detection circuitry is further configured to detect the arm torque at a plurality of angles, and the endpoint detection circuitry is further configured at least to: divide the arm torque detected at the plurality of angles only within the predetermined angle range for at least one cycle of swinging into an arm torque for each angle, wherein the at least one cycle of swinging comprises at least swinging from a predetermined angular position and back to the predetermined angular position; interpolate the arm torque between temporally adjacent arm torques among the divided arm torque for each angle of the plurality of angles only within the predetermined angle range; average the interpolated arm torque; detect the polishing endpoint indicating the end of polishing on a basis of the average of the interpolated arm torques; and end polishing when the polishing end point is detected.",
+  "patent_id": "US12377515-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B24B 37/30",
+      "B24B 37/042"
+    ],
+    "all": [
+      "B24B 37/30",
+      "B24B 37/042"
+    ],
+    "source": "converted"
+  }
+}

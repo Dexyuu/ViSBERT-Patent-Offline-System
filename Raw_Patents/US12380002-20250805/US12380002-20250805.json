@@ -1,0 +1,18 @@
+{
+  "title": "Storage device and recovery data backup method thereof",
+  "abstract": "Disclosed is a storage device comprises a non-volatile memory configured to store data; a storage controller configured to determine a time to back up recovery data when a sudden power-off occurs and to perform a data dump operation according to a dump level determined based on the determined time when a user data dump fails; and a power loss protection (PLP) integrated circuit configured to measure at least one of a discharge time or remaining time of an auxiliary power supply when the sudden power-off occurs and to provide at least one of discharge time information or remaining time information to the storage controller, wherein the storage controller is configured to determine a minimum recovery data backup time in case of a user data dump failure using the at least one of the discharge time information or the remaining time information.",
+  "claims": "1. A storage device comprising: a non-volatile memory configured to store data; a storage controller configured to determine a time to back up recovery data when a sudden power-off occurs and to perform a data dump operation according to a dump level determined based on the determined time in response to a user data dump failure during the sudden power-off; and a power loss protection (PLP) integrated circuit configured to measure at least one of a discharge time or remaining time of an auxiliary power supply when the sudden power-off occurs and to provide at least one of discharge time information or remaining time information to the storage controller, wherein the storage controller is configured to determine a minimum recovery data backup time in case of the user data dump failure using the at least one of the discharge time information or the remaining time information, wherein the user data dump failure includes a condition wherein data will be lost due to the determined time being greater than the discharge time or the remaining time, and wherein the data dump operation includes performing the data dump operation such that minimum essential recovery data is not included in the lost data.",
+  "patent_id": "US12380002-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/1469",
+      "G06F 11/0793"
+    ],
+    "all": [
+      "G06F 11/1469",
+      "G06F 11/0793"
+    ],
+    "source": "converted"
+  }
+}

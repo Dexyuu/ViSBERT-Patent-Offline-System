@@ -1,0 +1,40 @@
+{
+  "title": "Prioritized device actions triggered by device scan data",
+  "abstract": "Systems, methods, devices, server computers, storage media, and instructions for prioritized device action triggered by device scan data are described. In one embodiment, a mobile device performs a method that involves executing a messaging application with an image capture interface and a scanning input. An associated scanning mode comprises capture of scan data from a plurality of input/output modules of the first client device, analyzes the scan data to identify one or more scan data patterns by matching at least a portion of the scan data against a set of data patterns, and selects a priority system action based on the results of the matching of the portion of the scan data against the set of data patterns. In some embodiments, the priority system action is selected based on a priority ranking for identified scan data types.",
+  "claims": "1. A method comprising: causing to be displayed, by a client device, a user interface (UI) comprising indications of a plurality of system actions; causing, by one or more processors, a plurality of input devices to capture a plurality of scan data, the plurality of input devices comprising a camera and a microphone; analyzing, using one or more processors and a neural network, the plurality of scan data to identity one or more objects in the plurality of scan data; matching the identified one or more objects with a plurality of data patterns to identify a plurality of identified data patterns of the plurality of data patterns; selecting a first identified data pattern of the plurality of identified data patterns based on a pattern type ranking, wherein the plurality of identified data patterns is associated with the plurality of system actions, and wherein the first identified data pattern is associated with a first system action of the plurality of system actions, and wherein the pattern type ranking is based on a priority of the plurality of system actions; adjusting the plurality of system actions based on the first system action; and causing to be displayed, by the client device, the UI comprising the adjusted plurality of system actions comprising an indication of the first system action.",
+  "patent_id": "US12380159-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/5866",
+      "G06F 16/9038",
+      "G06F 18/24",
+      "G06N 3/04",
+      "G06N 3/045",
+      "G06N 3/08",
+      "G06T 1/0007",
+      "G06V 10/751",
+      "G06V 10/764",
+      "G06V 10/82",
+      "H04N 23/63",
+      "G06N 5/022",
+      "G06V 2201/09"
+    ],
+    "all": [
+      "G06F 16/5866",
+      "G06F 16/9038",
+      "G06F 18/24",
+      "G06N 3/04",
+      "G06N 3/045",
+      "G06N 3/08",
+      "G06T 1/0007",
+      "G06V 10/751",
+      "G06V 10/764",
+      "G06V 10/82",
+      "H04N 23/63",
+      "G06N 5/022",
+      "G06V 2201/09"
+    ],
+    "source": "converted"
+  }
+}

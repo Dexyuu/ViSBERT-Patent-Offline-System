@@ -1,0 +1,16 @@
+{
+  "title": "Fast diffusion-based image restoration workflow via sharing of initial diffusion steps",
+  "abstract": "A method of denoising a plurality of input images, including grouping the plurality of input images into a plurality of groups; determining, for each group of the plurality of groups, an initial representative image for the group; performing, for each group, a sequence of T1 denoising sampling steps using a diffusion-based probabilistic model, starting with the initial representative image for the group, to generate a corresponding sequence of representative images for the group, wherein T1 is an integer greater than or equal to 1; and for each input image in each group, performing a second sequence of T2 denoising sampling steps using the model to generate a final image that is a restored image corresponding to the input image, wherein T2 is an integer greater than or equal to 1, and T=T1+T2.",
+  "claims": "1. A method of denoising a plurality of input images, the method comprising: obtaining a diffusion-based probabilistic model that was trained, using at least one target image and at least one conditional image, to perform denoising over T steps, wherein T is an integer greater than or equal to two; grouping the plurality of input images into a plurality of groups; determining, for each group of the plurality of groups, an initial representative image for the group; performing, for each group using the obtained model, a sequence of T1 denoising sampling steps, starting with the initial representative image for the group, to generate a corresponding sequence of representative images for the group, wherein T1 is an integer greater than or equal to 1; and for each group of the plurality of groups, for each input image in the group: performing, using the obtained model, a second sequence of T2 denoising sampling steps, starting with a last one of the sequence of representative images for the group, to generate a final image that is a restored image corresponding to the input image, wherein T2 is an integer greater than or equal to 1, and T=T1+T2.",
+  "patent_id": "US12380540-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 5/70"
+    ],
+    "all": [
+      "G06T 5/70"
+    ],
+    "source": "converted"
+  }
+}

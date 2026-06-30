@@ -1,0 +1,18 @@
+{
+  "title": "Control apparatus, control method, image capturing apparatus, and image capturing system",
+  "abstract": "A control apparatus comprises a generation unit that generates a first synchronization signal and a second synchronization signal; and a control unit that controls the generation unit. The control unit controls the generation unit such that the first synchronization signal used to repeatedly readout a first image signal to be sequentially displayed on a display and the second synchronization signal used to display the first image signal on the display are output with a predetermined time difference. In a case where a second image signal is read out at a timing corresponding to a shooting instruction between readouts of the first image signals, the first and second synchronization signals are output with the predetermined time difference before and after the readouts of the second image signal.",
+  "claims": "1. A control apparatus comprising: a generation unit that generates a first synchronization signal to be provided to an image sensor for controlling readout timing of an image signal from the image sensor and a second synchronization signal to be provided to a display for controlling timing for displaying an image based on the readout image signal on the display; and a control unit that controls the generation unit, wherein the control unit controls the generation unit such that the first synchronization signal is repeatedly generated so as to read out a first image signal of each frame from the image sensor and the second synchronization signal is repeatedly generated so as to sequentially display images based on the first image signal on the display, the first synchronization signal and the second synchronization signal being generated with a predetermined time difference, and in a case where a shooting instruction is given by a user's operation and a second image signal is read out from the image sensor at a timing corresponding to the shooting instruction between readouts of the first image signal of frames, the predetermined time difference between the first synchronization signal and the second synchronization signal is maintained before and after the readout of the second image signal by changing the output timings of the first synchronization signal and the second synchronization signal based on a preparation period for acquiring the second image signal and a charge accumulation period for the second image signal, and wherein each unit is implemented by one or more processors, circuitry or a combination thereof.",
+  "patent_id": "US12382167-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 23/665",
+      "H04N 23/63"
+    ],
+    "all": [
+      "H04N 23/665",
+      "H04N 23/63"
+    ],
+    "source": "converted"
+  }
+}

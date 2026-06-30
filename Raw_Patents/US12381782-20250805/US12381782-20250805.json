@@ -1,0 +1,16 @@
+{
+  "title": "In-band sustainable packet management",
+  "abstract": "Devices and methods that incorporate sustainability data within a header of a data packet to allow for the generation of sustainable configurations for various network devices are disclosed. Power efficiency is obtained at a node-level by including metadata to existing network flows, in an in-band/in-situ configuration. This information may be used for optimum flow placement. Received data packets may be formatted with sustainability data within a metadata shim. The received data packets are processed, and a sustainable configuration is generated for the one or more network devices. The generated sustainable configuration is transmitted to the one or more network devices to enable efficient and effective management of network devices by incorporating sustainability data into the data packets.",
+  "claims": "1. A method of sustainably managing network devices, comprising: receiving a plurality of data packets from one or more network devices, wherein the plurality of data packets is formatted with sustainability data within a metadata shim; processing the received data packets; determining a current incorporation state; verifying if a triggering event has occurred; in response to determining that a desired period has occurred, incorporating the sustainability data into one or more of the data packets; generating a sustainable configuration for the one or more network devices, wherein the sustainable configuration comprises at least energy-efficient settings for the one or more network devices; and transmitting the generated sustainable configuration to the one or more network devices.",
+  "patent_id": "US12381782-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 41/0833"
+    ],
+    "all": [
+      "H04L 41/0833"
+    ],
+    "source": "converted"
+  }
+}

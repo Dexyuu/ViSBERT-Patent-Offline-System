@@ -1,0 +1,18 @@
+{
+  "title": "Sequencing of labeled packets",
+  "abstract": "Various example embodiments for supporting sequencing of labeled packets are presented herein. Various example embodiments for supporting sequencing of labeled packets may be configured to support sequencing of labeled packet based on use of a multiprotocol label switching sequence header. Various example embodiments for supporting sequencing of labeled packets may be configured to support sequencing of labeled packet based on use of a multiprotocol label switching sequence header that includes a source identifier of a source of a multiprotocol label switching packet sequence including the multiprotocol label switching packet, a sequence identifier of the multiprotocol label switching packet sequence, and a sequence number of the multiprotocol label switching packet. Various example embodiments for supporting sequencing of labeled packets may be configured to support sequencing of Multiprotocol Label Switching (MPLS) packets.",
+  "claims": "1. An apparatus, comprising: at least one processor; and at least one memory including instructions which, when executed by the at least one processor, cause the apparatus at least to: maintain, by an egress node of a multiprotocol label switching packet sequence, a queue for the multiprotocol label switching packet sequence and an indication of a maximum sequence number last flushed from the queue; receive, by the egress node, a multiprotocol label switching packet of the multiprotocol label switching packet sequence, wherein the multiprotocol label switching packet includes a multiprotocol label switching sequence header including a source identifier of a source of the multiprotocol label switching packet sequence, a sequence identifier of the multiprotocol label switching packet sequence, and a sequence number of the multiprotocol label switching packet configured to indicate a location of the multiprotocol label switching packet within the multiprotocol label switching packet sequence; and identify, by the egress node based on a determination that the sequence number of the multiprotocol label switching packet is less than the maximum sequence number last flushed from the queue, the multiprotocol label switching packet as being a duplicate packet of the multiprotocol label switching packet sequence.",
+  "patent_id": "US12381815-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 45/50",
+      "H04L 47/34"
+    ],
+    "all": [
+      "H04L 45/50",
+      "H04L 47/34"
+    ],
+    "source": "converted"
+  }
+}

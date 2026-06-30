@@ -1,0 +1,36 @@
+{
+  "title": "Adjoint transport for dose in treatment trajectory optimization for external beam radiation therapy",
+  "abstract": "A method of trajectory optimization for radiotherapy treatment includes providing a patient model having one or more regions of interest (ROIs), defining a delivery coordinate space (DCS), for each ROI, solving an adjoint transport to obtain an adjoint solution field from the ROI, for each vertex in the DCS, evaluating an adjoint photon fluence by performing ray tracing of the adjoint solution field, evaluating a dose of the ROI using the adjoint photon fluence, for each vertex in the DCS, evaluating a respective beam's eye view (BEV) score of each pixel of a BEV plane using the doses of the one or more ROIs, determining one or more BEV regions in the BEV plane based on the BEV scores, determining a BEV region connectivity manifold based on the BEV regions, and determining one or more optimal treatment trajectories based on the BEV region connectivity manifold.",
+  "claims": "1. A radiation therapy system, comprising: a processing device configured to: optimize a radiation beam trajectory on a patient model including one or more regions of interest (ROIs) by: defining a delivery coordinate space (DCS) having a set of candidate vertices, each respective candidate vertex defining a respective beam's eye view (BEV) plane; for each respective ROI of the one or more ROIs: solving an adjoint transport to obtain an adjoint solution field from the respective ROI; and for each respective candidate vertex in the DCS: for each pixel of the respective BEV plane defined by the respective candidate vertex: evaluating an adjoint photon fluence originating from a respective beamlet incident from the respective candidate vertex and passing through a respective pixel by performing ray tracing of the adjoint solution field; and evaluating a respective dose of the respective ROI from the respective beamlet using the adjoint photon fluence; for each respective candidate vertex in the DCS: for each pixel of the respective BEV plane defined by the respective candidate vertex: evaluating a respective BEV score of the respective pixel using the doses of the one or more ROIs evaluated for the respective beamlet incident from the respective candidate vertex and passing through a respective pixel; and determining one or more BEV regions in the respective BEV plane based on the BEV scores of the pixels of the BEV planes corresponding to the set of candidate vertices in the DOS; determining a BEV region connectivity manifold based on the BEV regions of the BEV planes of the set of candidate vertices in the DCS, the BEV region connectivity manifold representing connections between contiguous BEV regions between adjacent vertices; and determining one or more optimal treatment trajectories based on the BEV region connectivity manifold; and generate a treatment plan based on the one or more optimal treatment trajectories; and a controlling device configured to execute the treatment plan.",
+  "patent_id": "US12377287-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61N 5/1031",
+      "A61N 5/103",
+      "A61N 5/1037",
+      "A61N 5/1039",
+      "A61N 5/1045",
+      "A61N 5/1081",
+      "G06T 7/0012",
+      "A61N 2005/1034",
+      "G06T 2207/20072",
+      "G06T 2207/30004",
+      "G06T 2207/30241"
+    ],
+    "all": [
+      "A61N 5/1031",
+      "A61N 5/103",
+      "A61N 5/1037",
+      "A61N 5/1039",
+      "A61N 5/1045",
+      "A61N 5/1081",
+      "G06T 7/0012",
+      "A61N 2005/1034",
+      "G06T 2207/20072",
+      "G06T 2207/30004",
+      "G06T 2207/30241"
+    ],
+    "source": "converted"
+  }
+}

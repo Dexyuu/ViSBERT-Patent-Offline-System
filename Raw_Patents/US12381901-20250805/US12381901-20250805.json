@@ -1,0 +1,42 @@
+{
+  "title": "Unified storage for event streams in an anomaly detection framework",
+  "abstract": "Providing unified storage for event streams in an anomaly detection framework, including: receiving, by an event streaming platform, first event data encoded in a first file format; converting, by the event streaming platform, the first event data into second event data encoded in a second file format for storage in a first remote storage system; and providing, to the first remote storage system, a command to load the second event data into the first remote storage system.",
+  "claims": "1. A method of providing unified storage for event streams in an anomaly detection framework, the method comprising: receiving, by an event streaming platform, first event data encoded in a first file format; converting, by the event streaming platform, the first event data into second event data encoded in a second file format for storage in a first remote storage system, wherein converting the first event data into the second event data comprises combining the first event data with data from one or more other sources by performing one or more enrichment operations; providing, to the first remote storage system, a command to load the second event data into the first remote storage system; and providing a query layer for accessing data in the second file format across a plurality of data sources including the first remote storage system.",
+  "patent_id": "US12381901-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1425",
+      "G06F 9/455",
+      "G06F 9/545",
+      "G06F 16/9024",
+      "G06F 16/9038",
+      "G06F 16/9535",
+      "G06F 16/9537",
+      "G06F 21/57",
+      "H04L 43/045",
+      "H04L 43/06",
+      "H04L 63/10",
+      "H04L 67/306",
+      "H04L 67/535",
+      "G06F 16/2456"
+    ],
+    "all": [
+      "H04L 63/1425",
+      "G06F 9/455",
+      "G06F 9/545",
+      "G06F 16/9024",
+      "G06F 16/9038",
+      "G06F 16/9535",
+      "G06F 16/9537",
+      "G06F 21/57",
+      "H04L 43/045",
+      "H04L 43/06",
+      "H04L 63/10",
+      "H04L 67/306",
+      "H04L 67/535",
+      "G06F 16/2456"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Mobile authentification method via peer mobiles",
+  "abstract": "Embodiments include systems and techniques to perform secure transactions including processing registration information for each computing device of a plurality of computing devices having authority over a financial account. In one example, embodiments include receiving a pending transaction against the financial account from a computing device. Embodiments include executing an authentication protocol to determine the computing device is a member of the plurality of computing devices based upon the registration information, and processing data identifying another computing device within a configurable distance from the computing device. Embodiments further include the system to execute the authentication protocol to determine the other computing device is a member of the plurality of computing devices based upon the registration information and bypass a portion of a security procedure for authorizing execution of the pending transaction.",
+  "claims": "1. An apparatus, comprising: a processing circuit; and logic stored in computer memory and executed on the processing circuit, the logic operative to cause the processing circuit to: receive a transaction request against a user account, the transaction request being received from a first computing device; identify a second computing device within a configurable distance of the first computing device; determine that the first computing device and the second computing device are members of a group of computing devices; determine a security procedure to authenticate the transaction request by receiving data from the second computing device, the data from the second computing device being forwarded to the apparatus by the first computing device, wherein the data identifies the second computing device; and execute at least a first portion of the security procedure to authenticate the transaction request, the first portion including requiring a first factor of authentication in a multi-factor authentication process, and bypass at least a second portion of the security procedure, the second portion including requiring a second factor of authentication in the multi-factor authentication process; wherein the transaction request is a pending transaction against the user account; and wherein the pending transaction includes transaction information including one or more of the following a device identifier of the first computing device, an identifier of the user account, network information for the first computing device, location data for the first computing device, user credentials, or authentication information.",
+  "patent_id": "US12380448-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/4014",
+      "G06Q 20/308",
+      "G06Q 20/4015",
+      "H04W 4/023",
+      "H04W 12/06",
+      "H04W 12/63"
+    ],
+    "all": [
+      "G06Q 20/4014",
+      "G06Q 20/308",
+      "G06Q 20/4015",
+      "H04W 4/023",
+      "H04W 12/06",
+      "H04W 12/63"
+    ],
+    "source": "converted"
+  }
+}

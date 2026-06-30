@@ -1,0 +1,32 @@
+{
+  "title": "Gait motion assisting apparatus",
+  "abstract": "A gait motion assisting apparatus is provided, in which a thigh phase angle calculating unit has a latest data transmission process to transmit a thigh phase angle Ï(k) at sampling timing S(k) (k is an integer of 1 or more) to a gait motion timing calculating unit and store the same as a reference thigh phase angle Ïc. Also, a stored data transmission process transmits, instead of the thigh phase angle Ï(k), a currently stored reference thigh phase angle Ïc to the gait motion timing calculating unit and performs the stored data transmission process only when conditions are satisfied such that a thigh phase angle at one sampling timing is smaller than the currently stored reference thigh phase angle and an absolute value of a deviation therebetween is equal to or less than a predetermined threshold, and performs the latest data transmission process in other cases.",
+  "claims": "1. A gait motion assisting apparatus comprising: an actuator that imparts assisting force to a user's gait motion; a thigh orientation detecting unit that detects an angle-related signal that is related to a hip joint angle, which is a front-back swing angle of the user's thigh, at each sampling timing; a thigh phase angle calculating unit that calculates a thigh phase angle at each sampling timing based on the angle-related signal; a gait motion timing calculating unit that calculates a cycle gait motion timing that is a percentage relative to a gait cycle based on the thigh phase angle from the thigh phase angle calculating unit; an assisting torque calculating unit that has an output torque pattern defining a relationship between the cycle gait motion timing and a torque value to be outputted and applies the cycle gait motion timing transmitted from the gait motion timing calculating unit to the output torque pattern to calculate the torque value corresponding to the sampling timing; and an operational control unit that executes operational control on the actuator so as to output assisting force having the torque value calculated by the assisting torque calculating unit, wherein the thigh phase angle calculating unit has a latest data transmission process to transmit a thigh phase angle φ(k) calculated based on an angle-related signal at a kth (k is an integer of 1 or more) sampling timing S(k) during the gait cycle as the thigh phase angle at the sampling timing S(k) to the gait motion timing calculating unit and store the thigh phase angle φ(k) as a reference thigh phase angle φc and a stored data transmission process to transmit, instead of the thigh phase angle φ(k) calculated based on the angle-related signal at the kth sampling timing S(k) during the gait cycle, the currently stored reference thigh phase angle φc as the thigh phase angle at the sampling timing S(k) to the gait motion timing calculating unit and continuously store the currently stored reference thigh phase angle φc, and is configured to perform the stored data transmission process only when conditions are satisfied such that the thigh phase angle calculated based on the angle-related signal at the kth sampling timing is smaller than the currently stored reference thigh phase angle and an absolute value of a deviation therebetween is equal to or less than a predetermined threshold, and performs the latest data transmission process in other cases.",
+  "patent_id": "US12377007-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61H 1/0262",
+      "A61B 5/112",
+      "A61H 3/00",
+      "A61H 2201/018",
+      "A61H 2201/165",
+      "A61H 2201/5025",
+      "A61H 2201/5069",
+      "A61H 2201/5079",
+      "A61H 2201/5084"
+    ],
+    "all": [
+      "A61H 1/0262",
+      "A61B 5/112",
+      "A61H 3/00",
+      "A61H 2201/018",
+      "A61H 2201/165",
+      "A61H 2201/5025",
+      "A61H 2201/5069",
+      "A61H 2201/5079",
+      "A61H 2201/5084"
+    ],
+    "source": "converted"
+  }
+}

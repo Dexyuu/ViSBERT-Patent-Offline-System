@@ -1,0 +1,22 @@
+{
+  "title": "Automated program conversion for heterogeneous and FaaS computing with minimal human intervention",
+  "abstract": "Systems and methods are provided for implementing an iterative function deployment in a Function-as-a-Service (FaaS) computing environment. For example, the system may receive a request to execute a program and convert machine-readable code from the request into functions that are deployable in the FaaS computing environment. The system may determine a first deployment of the functions that defines scheduling and execution tasks, and also an execution metric by a trained prediction model. The system may adjust execution of the plurality of functions and also adjust the execution metric in a second deployment. The system may implement the second deployment at run-time, such that the machine-readable code from the request is executed by the computing components of the FaaS infrastructure in accordance with the second deployment.",
+  "claims": "1. A method comprising: receiving a request to execute a program comprising machine-readable code; converting, by a system comprising a hardware processor, the machine-readable code into a plurality of functions that are deployable in a Function-as-a-Service (FaaS) computing environment; determining, by the system, a first deployment of the plurality of functions in the FaaS computing environment, the first deployment defining scheduling and execution tasks for each function at run-time on computing components of the FaaS computing environment; determining, by a trained prediction model, an execution metric for the first deployment that corresponds with run-time operations of the first deployment; adjusting, by the system, execution of the plurality of functions and also adjusting the execution metric in a second deployment of the plurality of functions in the FaaS computing environment; and implementing the second deployment of the plurality of functions in the FaaS computing environment at run-time, the implementing causing execution of the machine-readable code by the computing components of the FaaS computing environment in accordance with the second deployment, wherein the first deployment and the second deployment are determined prior to run-time.",
+  "patent_id": "US12379909-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 8/447",
+      "G06F 9/4881",
+      "G06N 5/022",
+      "G06N 20/00"
+    ],
+    "all": [
+      "G06F 8/447",
+      "G06F 9/4881",
+      "G06N 5/022",
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

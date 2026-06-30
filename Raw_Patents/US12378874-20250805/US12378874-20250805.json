@@ -1,0 +1,28 @@
+{
+  "title": "Method of determining depths of wellbore reflectors",
+  "abstract": "This disclose relates to a robust method for automatic real-time monitoring or post-job evaluation of hydraulic fracturing operations based on predictive deconvolution of the wellhead pressure oscillations. Described are a method and system for determining depth of wellbore reflectors, implemented by performing a wellbore operation producing a pressure wave and its reflections from the wellbore reflectors; registering a pressure wave and its reflections; preprocessing the registered pressure wave and its reflections with a bandwidth filter; transforming the registered pressure wave and its reflections from the frequency domain into time-frequency representation with Short Time Fourier Transform (STFT); applying of a predictive deconvolution filter to STFT representation; identifying of a reflected signal on a plot in coordinates âreflection timeâphysical timeâ and determining the reflection time for the signal reflected from the wellbore reflector; determining the depth of wellbore reflector by multiplying the reflection time by pressure wave speed.",
+  "claims": "1. A method of determining depth of wellbore reflectors by analyzing a pressure signal at a wellhead, the method comprising: performing a wellbore operation producing a pressure wave and its reflections from the wellbore reflectors; registering the pressure wave and its reflections with a high-frequency pressure sensor at the wellhead; automatically preprocessing the registered pressure wave and its reflections by applying a linear combination of a zero frequency notch filter and a lowpass filter, wherein application of the linear combination is configured to preserve a periodic structure of a reflected signal; transforming the registered pressure wave and its reflections from a time domain representation into a frequency domain representation with a Short Time Fourier Transform (STFT); applying a predictive deconvolution filter to the frequency domain representation after transforming the registered pressure wave and its reflections into the frequency domain representation to produce a normalized intensity of wellbore reflectivity, wherein applying the predictive deconvolution filter comprises: generating a normalized intensity of wellbore reflectivity response; and tuning one or more expected two-way travel time intervals to improve a sensitivity of the predictive deconvolution filter; identifying the reflected signal on a plot in coordinates of reflection time as a function of physical time and determining a respective reflection time for a respective signal reflected from the wellbore reflectors; and determining a depth of a respective wellbore reflector by multiplying the respective reflection time by a pressure wave speed.",
+  "patent_id": "US12378874-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "E21B 47/04",
+      "E21B 43/26",
+      "E21B 47/06",
+      "E21B 47/095",
+      "G01B 5/18",
+      "G01B 13/14",
+      "G01V 1/48"
+    ],
+    "all": [
+      "E21B 47/04",
+      "E21B 43/26",
+      "E21B 47/06",
+      "E21B 47/095",
+      "G01B 5/18",
+      "G01B 13/14",
+      "G01V 1/48"
+    ],
+    "source": "converted"
+  }
+}

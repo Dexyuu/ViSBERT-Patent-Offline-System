@@ -1,0 +1,16 @@
+{
+  "title": "Dynamic detection of system hardware configuration with embedded controller",
+  "abstract": "A disclosed system includes a central processing unit (CPU), a system memory, an embedded controller (EC) and an encoder. The encoder is configured to receive a multi-bit indicator associated with a hardware resource and generate an analog signal indicative of the indicator. The EC is configured to receive and process the analog signal to obtain the indicator and to perform an action determined based on the indicator. The EC may include programmable I/O pins including one or more analog-to-digital converter (ADC) pins. In at least one embodiment, a single ADC pin of the EC is used to receive the analog signal. In at least one embodiment, the multi-bit indicator includes a minimum of three and a maximum of five bits. In these embodiments, the single pin of the EC is able to resolve 8 to 32 different values of the multi-bit indicator.",
+  "claims": "1. An information handling system, comprising: a central processing unit (CPU); a system memory, accessible to the CPU; an encoder configured to: receive a multi-bit indicator associated with a hardware resource; and generate an analog signal indicative of the multi-bit indicator; and an embedded controller (EC) coupled to the CPU wherein the EC is configured to: receive and process the analog signal to obtain the multi-bit indicator; and perform an action determined based on the multi-bit indicator; wherein the encoder includes a passive circuit configured to exhibit a distinct impedance for each permissible value of the multi-bit indicator, wherein the passive circuit comprises: a plurality of input nodes corresponding to each of a plurality of bits in the multi-bit indicator; and a plurality of internal nodes including an internal node corresponding to each input node.",
+  "patent_id": "US12380050-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 13/4068"
+    ],
+    "all": [
+      "G06F 13/4068"
+    ],
+    "source": "converted"
+  }
+}

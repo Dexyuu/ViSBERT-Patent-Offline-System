@@ -1,0 +1,20 @@
+{
+  "title": "Route search system and route search method",
+  "abstract": "An information processing apparatus comprises a controller configured to execute: acquiring operation information that is information related to operation of a bus; and generating a running route for a first vehicle that is a light vehicle on the basis of the operation information.",
+  "claims": "1. A route search system comprising: a user apparatus owned by a user of a first vehicle, which is a light vehicle, the user apparatus including a processor and a wireless communication interface; and an information processing apparatus including a controller configured to execute: acquiring operation information that is information related to operation of a bus, the operation information including road links on which the bus runs; calculating evaluation values for each of the road links on which the bus runs based on the operation information that has been acquired, each of the evaluation values having a magnitude that depends on a frequency of passage of the bus through a corresponding one of the road links associated with the evaluation value; generating a map in which the evaluation values that have been calculated are associated with the road links in the map; in response to receipt of a running route request transmitted via the wireless communication interface of the user apparatus, generating a running route for guiding the first vehicle from a departure place to a destination that are identified in the running route request, the controller generating the running route based on the map that has been generated, the running route connecting the departure place to the destination and passing through the road links having evaluation values that are indicative of a lower frequency of passage of the bus; and transmitting the running route that has been generated to the user apparatus via the wireless communication interface of the user apparatus, wherein the user of the first vehicle outputs the running route on the user apparatus to guide the first vehicle on the running route from the departure place to the destination.",
+  "patent_id": "US12379219-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01C 21/3461",
+      "G01C 21/3492",
+      "G01C 21/3676"
+    ],
+    "all": [
+      "G01C 21/3461",
+      "G01C 21/3492",
+      "G01C 21/3676"
+    ],
+    "source": "converted"
+  }
+}

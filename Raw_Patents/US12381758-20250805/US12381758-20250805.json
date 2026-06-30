@@ -1,0 +1,26 @@
+{
+  "title": "Enhanced network-link architecture for improved end-to-end latency in communication between different cloud environments",
+  "abstract": "Techniques are described for creating a network-link between a first virtual network in a first cloud environment and a second virtual network in a second cloud environment. The first virtual network in the first cloud environment is created to enable a user associated with a customer tenancy in the second cloud environment to access one or more services provided in the first cloud environment. The network-link is created based on one or more link-enabling virtual networks being deployed in the first cloud environment and the second cloud environment.",
+  "claims": "1. A method comprising: receiving, by a multi-cloud infrastructure, a request to create a network-link between a plurality of pairs of customer tenancies, wherein each pair of customer tenancies of the plurality of pairs of customer tenancies includes a first customer tenancy included in a first cloud environment and a second customer tenancy included in a second cloud environment, wherein the first cloud environment is provided by a first cloud services provider, and the second cloud environment is provided by a second cloud services provider, the first cloud environment being different than the second cloud environment; and for each pair of customer tenancy, creating the network-link by: instantiating a first link-enabling virtual network in the second cloud environment, the first link-enabling virtual network configured to encapsulate traffic received from the second customer tenancy in the second cloud environment, and instantiating a second link-enabling virtual network in the first cloud environment, the second link-enabling virtual network configured to decapsulate the traffic received from the first link-enabling virtual network, wherein the multi-cloud infrastructure includes a first portion deployed in the first cloud environment and a second portion deployed in the second cloud environment, the first portion and the second portion being deployed and controlled by the first cloud services provider.",
+  "patent_id": "US12381758-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 12/4633",
+      "H04L 41/0806",
+      "H04L 43/50",
+      "H04L 45/42",
+      "H04L 45/76",
+      "H04L 12/4641"
+    ],
+    "all": [
+      "H04L 12/4633",
+      "H04L 41/0806",
+      "H04L 43/50",
+      "H04L 45/42",
+      "H04L 45/76",
+      "H04L 12/4641"
+    ],
+    "source": "converted"
+  }
+}

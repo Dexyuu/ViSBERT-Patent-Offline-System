@@ -1,0 +1,32 @@
+{
+  "title": "Augmented reality display of surgical imaging",
+  "abstract": "An imaging sensor includes a radiation sensor. An imaging controller is configured to: (i) generate an imaging-datastream based on the sensed phenomena and (ii) transmit, to a central controller, the imaging-datastream. The central controller is configured to: receive the imaging-datastream; generate, from the imaging-datastream, a high-contrast videostream in which surgical tools and vascular tissue is represented with a dark color and in which surrounding tissue is represented with a light color, the dark color being darker than the light color; and transmit, to an augmented-reality controller, the high-contrast videostream. The augmented-reality controller is configured to: (i) receive the high-contrast videostream and (ii) instruct a head-worn display to render the high-contrast videostream such that the surgical tools and vascular tissue is rendered with the dark color. The head-worn display is configured to render the high-contrast videostream such that the surgical tools and vascular tissue is rendered with the dark color.",
+  "claims": "1. A system, comprising: a head-worn display comprising a view-area and a renderer configured to render onto the view-area; a central controller comprising a processor and memory; an augmented-reality controller comprising a processor and memory; an imaging sensor comprising a radiation sensor, the imaging sensor configured to sense phenomena in a patient's body based on a reception of radiation that has passed through the patient's body; and an imaging controller comprising a processor and memory, the imaging controller configured to: (i) generate an imaging-datastream formatted to contain gradient data having at least one range of values based on the sensed phenomena and (ii) transmit, to the central controller, the imaging-datastream, wherein the central controller is configured and programmed to: receive the imaging-datastream; automatically generate, from the imaging-datastream, a high-contrast videostream comprising monochromatic data having a selected value from a plurality of specified values by automatically converting the gradient data to the monochromatic data, wherein surgical tools and vascular tissue are represented with a dark monochromatic color corresponding to a first value of the plurality of specified values and surrounding non-vasculature tissue is represented with a light monochromatic color corresponding to a second value of the plurality of specified values, the dark monochromatic color being darker than the light monochromatic color; and transmit, to the augmented-reality controller, the high-contrast videostream, wherein the augmented-reality controller is configured to: (i) receive the high-contrast videostream and (ii) instruct the head-worn display to render the high-contrast videostream such that the surgical tools and the vascular tissue are rendered with the dark monochromatic color, and wherein the head-worn display is configured to display the high-contrast videostream such that: i) the surgical tools and the vascular tissue are rendered onto the view-area in the dark monochromatic color and ii) the surrounding non-vasculature tissue is rendered onto the view-area in the light monochromatic color, and wherein the light monochromatic color is transparent such that images of environments beyond the head-worn display transmit through the light monochromatic color to be visible by a wearer of the head-worn display.",
+  "patent_id": "US12376905-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 34/10",
+      "A61B 34/20",
+      "A61B 34/25",
+      "A61B 90/37",
+      "A61B 2034/102",
+      "A61B 2034/105",
+      "A61B 2034/2065",
+      "A61B 2090/365",
+      "A61B 2090/376"
+    ],
+    "all": [
+      "A61B 34/10",
+      "A61B 34/20",
+      "A61B 34/25",
+      "A61B 90/37",
+      "A61B 2034/102",
+      "A61B 2034/105",
+      "A61B 2034/2065",
+      "A61B 2090/365",
+      "A61B 2090/376"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Method for generating a lateral offset trajectory",
+  "abstract": "A method for generating a lateral offset trajectory for an at least partially automated mobile platform. The method includes: providing a target lateral offset; inverting a provided dynamic model of the mobile platform; providing at least one limit of a system variable of the dynamic model for determining the lateral offset trajectory; determining a time sequence of lateral offset trajectory points for the inverted dynamic model with a state variable filter, based on the limit(s) of the system variable, and the target lateral offset as an input signal; and determining a time sequence of values of at least one manipulated variable for the mobile platform, using the inverted dynamic model and the time sequence of the lateral offset trajectory points as an input signal for the inverted dynamic model, to generate the lateral offset trajectory.",
+  "claims": "1. A method for an at least partially automated mobile platform, the method comprising the following steps: transforming a target lateral offset into sets of flat coordinates, each set corresponding to a respective one of a plurality of moments in time and being a respective set of values for each of a predefined set of state parameters, the values of the set thereby representing a state into which the mobile platform is targeted to be placed at the respective moment in time, wherein: the plurality of moments in time form a period in which the mobile platform is to achieve the desired lateral offset; the sets of flat coordinates form a continuous sequence representing a smooth trajectory over the period; the transformation is performed under a filter (I) that smooths physical transitions of the mobile platform following the trajectory over the period and (II) that applies predefined constraints with respect to a plurality of mobile platform state limitations and a plurality of mobile platform control constraints, the sequence of the sets of flat coordinates thereby being a smoothed and constrained trajectory; and the transformation, with respect to each of the plurality of moments in time respectively, is performed analytically without an iterative optimization; and performing control signal generation by inputting the continuous sequence of the sets of flat coordinates into an inverted dynamic model that directly converts the input sequence into corresponding input control signals that are used for achieving the respective sequence of states represented by the sequence of flat coordinates, causing the mobile platform to follow the smoothed and constrained trajectory.",
+  "patent_id": "US12377840-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 30/095",
+      "B60W 10/18",
+      "B60W 10/20",
+      "B60W 30/0953",
+      "B60W 40/114",
+      "B62D 15/0265",
+      "B60W 2050/0033",
+      "B60W 2520/125",
+      "B60W 2520/14",
+      "B60W 2520/20",
+      "B60W 2710/182",
+      "B60W 2710/207"
+    ],
+    "all": [
+      "B60W 30/095",
+      "B60W 10/18",
+      "B60W 10/20",
+      "B60W 30/0953",
+      "B60W 40/114",
+      "B62D 15/0265",
+      "B60W 2050/0033",
+      "B60W 2520/125",
+      "B60W 2520/14",
+      "B60W 2520/20",
+      "B60W 2710/182",
+      "B60W 2710/207"
+    ],
+    "source": "converted"
+  }
+}

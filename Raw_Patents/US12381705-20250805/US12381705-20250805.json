@@ -1,0 +1,18 @@
+{
+  "title": "Fast multicast convergence for time synchronization in a network",
+  "abstract": "A system for providing fast multicast convergence for Precision Time Protocol (PTP) at a switch is provided. During operation, the system can receive a multicast control message based on a multicast protocol used for PTP from a respective neighbor switch. The multicast control message can indicate neighbor information associated with the multicast protocol. The system can then determine a role associated with the PTP for a remote switch from the control message. Upon receiving a register message for a multicast group associated with the PTP, the system can determine whether a multicast path from the switch to a PTP source includes a device with a role of a boundary clock (BC) of PTP. If the multicast path includes a device with a role of a BC, the system can send a gratuitous register-stop message for the multicast group toward the PTP source in absence of a native path.",
+  "claims": "1. A method comprising: receiving, by a switch, a multicast control message based on a multicast protocol used for Precision Time Protocol (PTP) from a respective neighbor switch coupled to the switch, wherein the multicast control message indicates neighbor information associated with the multicast protocol; determining, by the switch, a role associated with the PTP for a remote switch from the control message; in response to receiving a register message for a multicast group associated with the PTP, determining whether a multicast path from the switch to a PTP source includes a device with a role of a boundary clock (BC) of PTP, wherein the BC provides a time reference for synchronizing a local clock of the switch using PTP; and in response to the multicast path including a device with a role of a BC, proactively, in absence of a native path to the PTP source, sending a gratuitous register-stop message for the multicast group toward the PTP source.",
+  "patent_id": "US12381705-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 7/0012",
+      "H04L 45/16"
+    ],
+    "all": [
+      "H04L 7/0012",
+      "H04L 45/16"
+    ],
+    "source": "converted"
+  }
+}

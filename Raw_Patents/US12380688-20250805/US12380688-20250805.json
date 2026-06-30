@@ -1,0 +1,20 @@
+{
+  "title": "Neural network construction method and apparatus, and image processing method and apparatus",
+  "abstract": "This application discloses a neural network construction method and apparatus, and an image processing method and apparatus in the field of artificial intelligence. The neural network construction method includes: constructing a search space based on an application requirement of a target neural network, where the search space includes M elements, the M elements are used to indicate M network structures, each of the M elements includes a quantity of blocks in a stage in a corresponding network structure and a channel quantity of each block, and M is a positive integer; and selecting a target network structure from the M network structures based on a distribution relationship among unevaluated elements in the search space. According to the method, a neural network satisfying a performance requirement can be efficiently constructed.",
+  "claims": "1. A neural network construction method, comprising: constructing a search space based on an application requirement of a target neural network, wherein the search space comprises M elements, the M elements are used to indicate M network structures, each of the M elements comprises a quantity of blocks in a stage in a corresponding network structure and a channel quantity of each block, and M is a positive integer; selecting a target network structure from the M network structures based on a distribution relationship among unevaluated elements in the search space, wherein selecting the target network structure is performed by determining K elements in the unevaluated elements based on the distribution relationship among the unevaluated elements, wherein K is a positive integer less than M, evaluating K network structures indicated by the K elements, to obtain evaluation results of evaluated elements, wherein the evaluation results of the evaluated elements comprise evaluation results of the K network structures, and selecting the target network structure from the M network structures based on the K elements, and based on the evaluation results of the evaluated elements, by performing modeling on first unevaluated elements based on the evaluation results of the evaluated elements, to obtain models of the first unevaluated elements, wherein the first unevaluated elements comprise elements other than the evaluated elements in the search space; selecting the target network structure from the M network structures based on the models of the first unevaluated elements; determining that the target structure is the network structure based on an accuracy or a precision of at least one network structure in the K network structures indicated by the K elements satisfying a preset requirement; and constructing the neural network based on the target structure.",
+  "patent_id": "US12380688-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/82",
+      "G06N 3/04",
+      "G06V 10/764"
+    ],
+    "all": [
+      "G06V 10/82",
+      "G06N 3/04",
+      "G06V 10/764"
+    ],
+    "source": "converted"
+  }
+}

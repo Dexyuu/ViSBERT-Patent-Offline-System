@@ -1,0 +1,26 @@
+{
+  "title": "Shed state detection model system and method",
+  "abstract": "A method includes training a shed state prediction model using a library of data associated with poultry, the shed state prediction model associated with desired shed state goals, receiving realtime information associated with a plurality of poultry from at least one sensor and at least one imaging device in a shed, autonomously performing at least one action on a shed environment of the shed, determining an impact of the at least one action on a shed environment of the shed by determining at least one change of the at least one bird of the plurality of poultry in the shed environment, and improving the shed state prediction model based on the impact of the at least one action on the shed environment.",
+  "claims": "1. A method comprising: training, by at least one processor, a shed state prediction model using a library of data associated with poultry from a first farm and a second plurality of farms by executing pre-training using a pretrained model based on the second plurality of farms and performing transfer learning on the first farm, the shed state prediction model associated with desired shed state goals for the first farm; receiving, by the at least one processor, realtime information associated with a plurality of poultry from at least one sensor and at least one imaging device in a shed on the first farm; autonomously performing, by the at least one processor, at least one action on a shed environment of the shed, the at least one action comprising at least one of directing at least one lighting device to point to at least one particular location in the shed, generating at least one sound in at least one particular location in the shed, providing food to at least one bird of the plurality of poultry in the shed, modifying a temperature in the shed, modifying a humidity in the shed, and modifying an overall level of light in the shed; determining, by the at least one processor, an impact of the at least one action on a shed environment of the shed at the first farm by determining at least one change of the at least one bird of the plurality of poultry in the shed environment; and improving, by the at least one processor, and continuously refining the shed state prediction model using continuous learning with the library of data from the first farm and the second plurality of farms based on the impact of the at least one action on the shed environment at the first farm.",
+  "patent_id": "US12376569-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A01K 29/005",
+      "G06V 20/20",
+      "G06V 40/10",
+      "G10L 17/26",
+      "G10L 25/66",
+      "H04N 23/695"
+    ],
+    "all": [
+      "A01K 29/005",
+      "G06V 20/20",
+      "G06V 40/10",
+      "G10L 17/26",
+      "G10L 25/66",
+      "H04N 23/695"
+    ],
+    "source": "converted"
+  }
+}

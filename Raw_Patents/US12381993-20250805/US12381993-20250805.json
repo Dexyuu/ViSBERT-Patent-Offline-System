@@ -1,0 +1,24 @@
+{
+  "title": "Distributed command execution in multi-location studio environments",
+  "abstract": "A distributed studio management system includes a computing system having a computer readable memory and a processor. The computing system is associated with a first production facility that is remote to a second production facility. The processor is configured to perform the operations of receiving a set of device commands having commands targeting first and second devices in the first production facility and where the set of device commands are related to the second production facility, enqueuing a first command from the device commands into a first command queue assigned to the first device and a second command from the device commands into a second command queue assigned to the second device according to each device command's synchronized execution times, and causing the first and second devices to execute commands from their respective command queues relative to each other according to the commands' respective synchronized execution times.",
+  "claims": "1. A computer-based filming production system comprising: at least one non-transitory computer-readable memory storing software instructions; and at least one processor coupled with the at least one memory and that performs the following operations upon execution of the software instructions: defining at least one filming volume; monitoring a movement of at least one autonomous device moving through the at least one filming volume; generating a set of commands controlling the movement of the at least one autonomous device within the at least one filming volume; enqueueing the set of commands into at least one command queue according to synchronized execution times; identifying potential conflicts in the at least one filming volume based on the set of commands controlling the movement the at least one autonomous device; and controlling the movement of the at least one autonomous device while avoiding the potential conflicts within the at least one filming volume via execution of the set of commands according to their synchronized execution times.",
+  "patent_id": "US12381993-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 5/2228",
+      "G06F 9/4881",
+      "G06F 9/546",
+      "G06Q 10/101",
+      "G06F 2209/548"
+    ],
+    "all": [
+      "H04N 5/2228",
+      "G06F 9/4881",
+      "G06F 9/546",
+      "G06Q 10/101",
+      "G06F 2209/548"
+    ],
+    "source": "converted"
+  }
+}

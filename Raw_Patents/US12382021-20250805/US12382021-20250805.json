@@ -1,0 +1,24 @@
+{
+  "title": "Intra prediction method on basis of MPM list and apparatus therefor",
+  "abstract": "An image decoding method performed by a decoding apparatus according to the present disclosure comprises the steps of: obtaining intra prediction information including at least one of MPM flag information, MRL index information, and planner flag information from a bitstream; checking the MPM flag information; checking the MRL index information on the basis of a case where the MPM flag information indicates that the MRL index information is checked; checking the planner flag information on the basis of a case where a value of the MRL index information is 0; deriving an intra prediction mode for a current block on the basis of the check for the planner flag information; deriving prediction samples for the current block on the basis of the intra prediction mode for the current block; and generating a reconstructed picture on the basis of the prediction samples.",
+  "claims": "1. An image decoding method performed by a decoding apparatus, comprising: obtaining most probable mode (MPM) flag information related to whether an intra prediction mode for a current block is derived based on MPM candidates for the current block and multi-reference line (MRL) index information for at least one reference sample line for intra prediction of the current block from a bitstream; deriving the intra prediction mode for the current block based on the MPM flag information and the MRL index information; deriving prediction samples for the current block based on the intra prediction mode for the current block; and generating a reconstructed picture based on the prediction samples, wherein based on a value of the MRL index information being equal to 0, the MPM flag information is obtained from the bitstream, wherein based on a value of the MPM flag information being equal to 1 and the value of the MRL index information being equal to 0, planar flag information indicating whether the intra prediction mode for the current block is a planar mode is obtained from the bitstream, and wherein the intra prediction mode of the current block is derived based on a value of the planar flag information.",
+  "patent_id": "US12382021-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/105",
+      "H04N 19/132",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/46"
+    ],
+    "all": [
+      "H04N 19/105",
+      "H04N 19/132",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/46"
+    ],
+    "source": "converted"
+  }
+}

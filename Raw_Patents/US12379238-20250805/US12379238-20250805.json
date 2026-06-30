@@ -1,0 +1,18 @@
+{
+  "title": "Mass flow controller with advanced back streaming diagnostics",
+  "abstract": "A diagnostics system comprising a controller for controlling operations of a mass flow controller. The controller is communicable coupled to at least one sensor and to a valve and tuned to control the valve based on a predetermined set point value and communication from the at least one sensor. The controller determines at least one predetermined value associated with a reverse flow of a fluid and either cause the controller to enter a hard fault or a safe state. The predetermined value of the flow is either a percentage of total flow or a percentage of total flow over a time period. The controller can log the date, time, and a device identifier in response to determining the at least one predetermined value. In addition, the diagnostics system can include a centralized controller configured to receive diagnostics data from a plurality of controllers and control operation of the controllers.",
+  "claims": "1. A mass flow controller comprising: an inlet configured to receive fluid; a flow path in which the fluid passes; a valve configured to regulate a forward flow of the fluid out of an outlet of the mass flow controller; at least one sensor configured to monitor fluid through the flow path and valve operations; and a controller communicably coupled to the at least one sensor and to the valve, the controller tuned to control the valve based on a predetermined set point value and communication from the at least one sensor, the controller further comprises a diagnostics system configured to: monitor a reverse flow of a fluid through the flow path; compare the reverse flow to a predetermined reverse flow; in response to determining that the reverse flow exceeds the predetermined reverse flow, log the date, time, and a device identifier; and control operation of the mass flow controller based on the comparison.",
+  "patent_id": "US12379238-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01F 25/0092",
+      "G05D 7/0635"
+    ],
+    "all": [
+      "G01F 25/0092",
+      "G05D 7/0635"
+    ],
+    "source": "converted"
+  }
+}

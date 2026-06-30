@@ -1,0 +1,20 @@
+{
+  "title": "Dual distanced sensing method for passive range finding",
+  "abstract": "In various embodiments, image sensors are configured for detecting object distance based on images captured by the image sensors. In those embodiments, parameters within the images are analyzed to determine a distance of the object relative to the image sensors. In some implementations, techniques for distance detecting object distance in accordance with the present disclosure are deployed within a vehicle. In those implementations, the distance sensing in accordance with the present disclosure can be used to aid various driving scenario, such as different levels of autonomous self-driving by the vehicle. In some implementations, the distance sensing can be employed in robotic equipment such as unmanned underwater devices to aid distance sensing of certain underwater objects of interest. In some implementations, the distance sensing can be employed in monitoring or surveillance for detecting or measuring object distance relative to a reference point.",
+  "claims": "1. A distance measuring method, the method being implemented electronically by a processor, and the method comprising: storing parameters regarding image sensors; receiving images captured by the image sensors, the images capturing a same scene, wherein the image sensors include a first image sensor located on a first location of a vehicle, and a second image sensor located on a second location of the vehicle, and wherein the first image sensor is configured to capture a first image at a first time point and the second image sensor is configured to capture a second image at a second time point; extracting image parameters from the images; analyzing the image parameters to determine one or more attributes about an object in the scene; receiving a first position of the first image sensor from a position sensor; receiving a second position of the first image sensor from the position sensor; determining a distance change by the first image sensor based on the first position and the second position; and determining a distance of the object relative to the image sensors based on the first image, the second image, the distance change by the first image sensor, and the one or more attributes about the object.",
+  "patent_id": "US12380595-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/74",
+      "G06V 10/60",
+      "G06T 2207/30252"
+    ],
+    "all": [
+      "G06T 7/74",
+      "G06V 10/60",
+      "G06T 2207/30252"
+    ],
+    "source": "converted"
+  }
+}

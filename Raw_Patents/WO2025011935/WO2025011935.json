@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2025011935",
+  "application_id_fs": "WO2025011935",
+  "title": "Approximating implicit neural representation through learnt dictionary atoms",
+  "abstract": "In one implementation, we model the information content in the signal as a composition of the global and local information. The global information is common and shared for all the natural signals, and this can be learned from a large collection of data. However, the local information is specific to each signal. By leveraging the compositional properties of neural networks, we propose to decompose the INR network into head and tail layers, where the head layers are responsible for the global information and tail for the local information. The weights of the head layers are approximated through the dictionary basis, and this dictionary is learnt from a large collection of the data and known to both encoder and decoder. Thus, we need to transmit only the weights of the tail layers plus some extra information about the head layers.",
+  "claims": "Claims 1. A method of decoding video data representative of an image or a 3D scene, comprising: decoding a set of sparse coefficients; obtaining a dictionary corresponding to a first set of layers of an INR (Implicit Neural Representation) network, said INR network including said first set of layers and a second set of layers; decoding parameters of said first set of layers of said INR network, based on said set of sparse coefficients and said dictionary; decoding parameters of said second set of layers of said INR network; and performing inference to decode said image or 3D scene based on said INR network. 2. The method of claim 1, wherein said image or 3D scene includes a plurality of partitions, and said decoding a set of sparse coefficients, said decoding parameters of said first set of layers and said performing inference are performed for each of said plurality of partitions. 3. A method for encoding video data representative of an image or a 3D scene, comprising: obtaining parameters representing an INR (Implicit Neural Representation) network used to encode said image or 3D scene; decomposing said INR network into a first set of layers and a second set of layers; obtaining a dictionary corresponding to said first set of layers; obtaining a set of sparse coefficients to represent said first set of layers based on said parameters for said first set of layers and said dictionary; encoding said set of sparse coefficients; and encoding parameters of said second set of layers of said INR network. 4. The method of claim 3, wherein said image or 3D scene includes a plurality of partitions, and said obtaining a set of sparse coefficients, said encoding said set of sparse coefficients, and said encoding parameters of said second set of layers are performed for each of said plurality of partitions. 5. The method of any one of claims 1-4, wherein parameters for said dictionary are not transmitted from an encoder to a corresponding decoder. 6. The method of any one of claims 1-5, wherein one or more parameters for said first set of layers are transmitted from an encoder to a corresponding decoder. 7. The method of any one of claims 1-6, wherein said first set of layers corresponds to global information of said image or 3D scene and said second set of layers corresponds to local information of said image or 3D scene. 8. The method of any one of claims 1-7, wherein said dictionary includes a set of atoms, wherein each layer in said first set of layers is represented using a sparse linear combination of said set of atoms of said dictionary. 9. An apparatus for decoding video data representative of an image or a 3D scene, comprising one or more processors and at least one memory, wherein said one or more processors are configured to: decode a set of sparse coefficients; obtain a dictionary corresponding to a first set of layers of an INR (Implicit Neural Representation) network, said INR network including said first set of layers and a second set of layers; decode parameters of said first set of layers of said INR network, based on said set of sparse coefficients and said dictionary; decode parameters of said second set of layers of said INR network; and perform inference to decode said image or 3D scene based on said INR network. 10. The apparatus of claim 9, wherein said image or 3D scene includes a plurality of partitions, and said one or more processors are configured to decode a set of sparse coefficients, to decode parameters of said first set of layers and to perform inference for each of said plurality of partitions. 11. An apparatus for encoding video data representative of an image or a 3D scene, comprising one or more processors and at least one memory, wherein said one or more processors are configured to: obtain parameters representing an INR (Implicit Neural Representation) network used to encode said image or 3D scene; decompose said INR network into a first set of layers and a second set of layers; \n\n obtain a dictionary corresponding to said first set of layers; obtain a set of sparse coefficients to represent said first set of layers based on said parameters for said first set of layers and said dictionary; encode said set of sparse coefficients; and encode parameters of said second set of layers of said INR network. 12. The apparatus of claim 11, wherein said image or 3D scene includes a plurality of partitions, and wherein said one or more processors are configured to obtain a set of sparse coefficients, to encode said set of sparse coefficients, and to encode parameters of said second set of layers for each of said plurality of partitions. 13. The apparatus of any one of claims 9-12, wherein parameters for said dictionary are not transmitted from an encoder to a corresponding decoder. 14. The apparatus of any one of claims 9-13, wherein one or more parameters for said first set of layers are transmitted from an encoder to a corresponding decoder. 15. The apparatus of any one of claims 9-14, wherein said first set of layers corresponds to global information of said image or 3D scene and said second set of layers corresponds to local information of said image or 3D scene. 16. The apparatus of any one of claims 9-15, wherein said dictionary includes a set of atoms, wherein each layer in said first set of layers is represented using a sparse linear combination of said set of atoms of said dictionary. 17. A signal comprising video data representative of an image or a 3D scene, formed by performing the method of any one of claims 3-8. 18. A computer readable storage medium having stored thereon instructions for encoding or decoding video data according to the method of any one of claims 1-8.",
+  "classifications": {
+    "ipc": [
+      "H04N 19/00",
+      "H04N 19/90",
+      "H04N 19/10",
+      "H04N 19/85",
+      "H04N 19/94",
+      "G06N 3/00",
+      "G06N 3/02",
+      "G06N 3/04",
+      "G06N 3/045",
+      "G06N 3/0495",
+      "G06T 9/00",
+      "G06T 9/002",
+      "G06T 9/008"
+    ],
+    "cpc": [],
+    "all": [
+      "H04N 19/00",
+      "H04N 19/90",
+      "H04N 19/10",
+      "H04N 19/85",
+      "H04N 19/94",
+      "G06N 3/00",
+      "G06N 3/02",
+      "G06N 3/04",
+      "G06N 3/045",
+      "G06N 3/0495",
+      "G06T 9/00",
+      "G06T 9/002",
+      "G06T 9/008"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025011935"
+}

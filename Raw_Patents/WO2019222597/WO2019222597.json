@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2019222597",
+  "application_id_fs": "WO2019222597",
+  "title": "System and methods for pixel based model predictive control",
+  "abstract": "Techniques are disclosed that enable model predictive control of a robot based on a latent dynamics model and a reward function. In many implementations, the latent space can be divided into a deterministic portion and stochastic portion, allowing the model to be utilized in generating more likely robot trajectories. Additional or alternative implementations include many reward functions, where each reward function corresponds to a different robot task.",
+  "claims": "Claims 1. A method implemented by one or more processors, comprising: training a latent robot dynamics model using unsupervised robot trajectories, wherein each of the unsupervised robot trajectories includes a corresponding sequence of: partial robotic observations, each of the partial robotic observations being for a corresponding time step of the sequence, and robotic actions, each of the robotic actions being for a corresponding time step of the sequence; identifying supervised robot task trajectories for a robot task, wherein each of the supervised robot task trajectories includes a corresponding sequence of: partial task robotic observations during a corresponding performance of the robot task, task robotic actions during the corresponding performance of the robot task, and labeled task rewards for the corresponding performance of the robot task; training a reward function for the robot task using the supervised robot task trajectories; controlling a robot to perform the robot task, wherein controlling the robot to perform the robot task comprises: determining a sequence of actions for the robot using both the trained robot latent dynamics model and the trained reward function for the robot task; and controlling the robot by implementing the sequence of actions. 2. The method of claim 1, wherein the partial robotic observations of the unsupervised robot trajectories, and the partial task robotic observations of the supervised robot task trajectories, are each a corresponding image that captures a corresponding robot. 3. The method of claim 1 or claim 2, wherein the latent robot dynamics model is a deterministic belief state model (DBSM). 4. The method of claim 3, wherein the DBSM comprises an encoder network, a transition function, a posterior function, and a decoder network. 5. The method of claim 4, wherein training the DBSM comprises training the transition function using latent overshooting. 6. The method of claim 5, wherein the latent overshooting comprises performing a fixed number of open-loop predictions from a corresponding posterior at every time step. 7. The method of claim 6, wherein the latent overshooting further comprises determining a Kullback-Leibler divergence between the open-loop predictions and the corresponding posterior. 8. The method of any of claims 3 to 7, wherein training the DBSM comprises training the encoder network to deterministically update a deterministic activation vector at every time step. 9. The method of any preceding claim, wherein determining a sequence of actions for the robot using both the trained robot latent dynamics model and the trained reward function for the robot task comprises using model predictive control in view of the trained robot latent dynamics model and the trained reward function. 10. The method of any preceding claim, wherein training the reward function comprises training the reward function based on a first quantity of the supervised robot task trajectories, wherein the first quantity is less than a second quantity of the unsupervised robot trajectories on which the latent robot dynamics model is trained. 11. The method of claim 10, wherein the first quantity is less than one percent of the second quantity. 12. The method of claim 10, wherein the first quantity is less than fifty. IB. The method of claim 12, wherein the first quantity is less than twenty-five. 14. The method of any preceding claim, further comprising: identifying second supervised robot task trajectories for a second robot task, wherein each of the second supervised robot task trajectories includes a corresponding sequence of: second partial task robotic observations during a corresponding performance of the second robot task, second task robotic actions during the corresponding performance of the second robot task, and second labeled task rewards for the corresponding performance of the second robot task; training a second reward function for the second robot task using the supervised robot task trajectories; controlling a robot to perform the second robot task, wherein controlling the robot to perform the second robot task comprises: \n\n determining a second sequence of actions for the robot using both the trained robot latent dynamics model and the trained second reward function for the second robot task; and controlling the robot by implementing the second sequence of actions. 15. A method implemented by one or more processors, comprising: identifying unsupervised robot trajectories, wherein each of the unsupervised robot trajectories includes: observation images, each of the observation images capturing a corresponding robot and being for a corresponding time step of the sequence, and robotic actions, each of the robotic actions being for a corresponding time step of the sequence; training a latent robot dynamics model using the unsupervised robot trajectories; using the trained latent robot dynamics model in latent planning for one or more robotic control tasks through generation, at each of a plurality of time steps and using the trained robot dynamics model, of a corresponding deterministic activation vector. 16. The method of claim 15, wherein the latent robot dynamic model comprises an encoder network, a transition function, a posterior function, and a decoder network. 17. The method of claim 16, wherein training the latent robot dynamics model comprises training the transition function using latent overshooting. 18. The method of claim 17, wherein latent overshooting comprises performing a fixed number of open-loop predictions from a corresponding posterior at every time step. 19. The method of claim 18, wherein latent overshooting further comprises determining a Kullback- Leibler divergence between the open-loop predictions and the corresponding posterior. 20. The method of any of claims 16 to 19, wherein training the DBSM comprises training the encoder network to deterministically update the deterministic activation vector at every time step. 21. The method of any of claims 15 to 20, wherein a plurality of the unsupervised robot trajectories is generated in a simulated environment. 22. A robot, comprising: one or more actuators; memory storing a trained latent robot dynamics model and a trained reward function for a robot task; one or more processors configured to: use one or more latent state observations of the robot, the latent robot dynamics model, and the trained reward function, to determine a sequence of actions for performing the robot task; and control one or more of the actuators based on the determined sequence of actions to cause performance of the robot task. 23. A computer program comprising instructions that when executed by one or more processors of a computing system cause the comping system to perform the method of any one of claims 1 to 21. 24. A computer-readable storage medium storing instructions executable by one or more processors of a computing system to perform the method of any one of claims 1 to 21.",
+  "classifications": {
+    "ipc": [
+      "B25J 9/00",
+      "B25J 9/16",
+      "B25J 9/1602",
+      "B25J 9/161",
+      "B25J 9/1628",
+      "B25J 9/163",
+      "B25J 9/1656",
+      "B25J 9/1661",
+      "G05B 13/00",
+      "G05B 13/02",
+      "G05B 13/04",
+      "G05B 13/048",
+      "G06N 7/00",
+      "G06N 7/01",
+      "G05B 2219/00",
+      "G05B 2219/30",
+      "G05B 2219/39"
+    ],
+    "cpc": [],
+    "all": [
+      "B25J 9/00",
+      "B25J 9/16",
+      "B25J 9/1602",
+      "B25J 9/161",
+      "B25J 9/1628",
+      "B25J 9/163",
+      "B25J 9/1656",
+      "B25J 9/1661",
+      "G05B 13/00",
+      "G05B 13/02",
+      "G05B 13/04",
+      "G05B 13/048",
+      "G06N 7/00",
+      "G06N 7/01",
+      "G05B 2219/00",
+      "G05B 2219/30",
+      "G05B 2219/39"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019222597"
+}

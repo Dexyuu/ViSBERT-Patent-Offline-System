@@ -1,0 +1,22 @@
+{
+  "title": "Switch system for operating a controlled device",
+  "abstract": "Systems and methods for operating a controlled device via an activation accessory of a wearable device that includes a movable actuator, a sensor, and a communication element. The sensor is coupled to a controller, which has an output coupled to a control signal interface. The controller is programmed to receive and evaluate input signals from the sensor that are responsive to movements of the movable actuator to determine whether or not they represent a command for the controlled device by assessing the input signals for a signal pattern indicative of a plurality of volitional actions of a wearer of the activation accessory. If/when the processor determines that the input signals represent the command, then it decodes the command and transmits an associated control signal to the controlled device via the control signal interface.",
+  "claims": "1. A wearable device, comprising: an activation accessory for a controlled device, the activation accessory being integrated into or attached to the wearable device and including a moveable actuator having a range of travel between a fully extended position and fully compressed position, the moveable actuator being biased open from a detection portion of the activation accessory such that when the wearable device is worn on a person the moveable actuator touches the person's body and partially compresses along its length of travel with respect to the detection portion, wherein the detection portion of the activation accessory comprises a sensor responsive to movements of said moveable actuator, and the activation accessory further includes including: controller communicably coupled to receive signals from said sensor, said controller having a first output coupled to a control signal interface and including a processor and a memory coupled to the processor and storing processor-executable instructions, which instructions when executed by the processor cause the processor to perform steps including: receiving, from the sensor, an initial signal generated as a result of partial compressing of the moveable actuator to a position between its fully extended position and fully compressed position when the person dons the wearable device, so as to provide for subsequent adequate movement of the moveable actuator with respect to the detection portion in order to generate commands for the controlled device upon the position of the moveable actuator being affected by volitional actions of the person, receiving, from the sensor, first input signals produced as outputs of the sensor responsive to movements of said moveable actuator, evaluating the first input signals to determine whether or not the first input signals represent a command for said controlled device by assessing said first input signals for a signal pattern indicative of the command, and if said processor determines that the first input signals represent the command, then decoding the command and transmitting an associated control signal to the control signal interface, otherwise not transmitting the control signal and proceeding to evaluate second input signals from the sensor in a like manner as the first input signals; and a communication element coupled to the control signal interface and adapted to transmit the control signal from the processor to the controlled device, wherein the communication element is one of: a cable having a plug configured to mate with a jack at the controlled device, and a transmitter adapted for radio frequency communication with a receiver at the controlled device.",
+  "patent_id": "US12380798-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G08C 17/02",
+      "G08C 19/00",
+      "G08C 2200/00",
+      "G08C 2201/30"
+    ],
+    "all": [
+      "G08C 17/02",
+      "G08C 19/00",
+      "G08C 2200/00",
+      "G08C 2201/30"
+    ],
+    "source": "converted"
+  }
+}

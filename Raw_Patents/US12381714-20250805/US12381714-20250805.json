@@ -1,0 +1,20 @@
+{
+  "title": "Data compression and encryption algorithm",
+  "abstract": "A method for a compression scheme comprising encryption, comprising: receiving, as input, data comprising a plurality of data elements; constructing a Huffman tree coding representation of the input data based on a known encryption key, wherein the Huffman tree comprises nodes that are compression codes having compression code lengths corresponding to respective occurrence probabilities of the data elements, and wherein the encryption key specifies a subset of the nodes to be selected for an encryption process; selecting the subset of nodes in the Huffman tree for the encryption process, based on the encryption key; applying, to each sub-tree of the Huffman tree that is rooted at one of the nodes in the subset, a specified transformation, based on the encryption key; and generating an output data file based, at least in part, on the applying.",
+  "claims": "1. A system comprising: at least one hardware processor; and a non-transitory computer-readable storage medium having stored thereon program instructions, the program instructions executable by the at least one hardware processor to: receive, as input, data comprising a plurality of data elements, construct a Huffman tree coding representation of said input data based on a known encryption key, wherein said Huffman tree comprises nodes that are compression codes having compression code lengths corresponding to respective occurrence probabilities of said data elements, and wherein said encryption key specifies a subset of said nodes to be selected for an encryption process, select said subset of nodes in said Huffman tree for said encryption process, based on said encryption key, apply, to each sub-tree of said Huffman tree that is rooted at one of said nodes in said subset, a specified transformation, based on said encryption key, generate an output data file based, at least in part, on applying said encryption key on said encryption process; and wherein said specified transformation is a level-swap transformation, comprising applying swaps to one or more pairs of adjacent nodes within a same level of the Huffman tree, wherein said one or more pairs of adjacent nodes are not siblings.",
+  "patent_id": "US12381714-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/0825",
+      "H03M 7/40",
+      "H04L 9/3073"
+    ],
+    "all": [
+      "H04L 9/0825",
+      "H03M 7/40",
+      "H04L 9/3073"
+    ],
+    "source": "converted"
+  }
+}

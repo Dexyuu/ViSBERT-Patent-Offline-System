@@ -1,0 +1,20 @@
+{
+  "title": "Adjustable timer component for semiconductor devices",
+  "abstract": "Systems, apparatuses, and methods related to an adjustable timer component are described. A memory device includes, a memory controller coupled to the memory device comprising an adjustable timer component. The adjustable timer component is configured to receive a timer generation request and, responsive to receiving the request, store in a cache an active timer entry corresponding to a particular first address, generate a timer corresponding to an active timer entry and the particular first address, and monitor the timer to determine when the timer expires. Responsive to the expiration of the timer, dequeue the timer entry and invalidate the timer entry stored in the cache. The memory device can also include command logic configured to, prior to issuing a second command, query the cache of the adjustable timer component to determine if the cache includes an active timer entry corresponding to the particular second address.",
+  "claims": "1. An apparatus, comprising: a memory device; and a memory controller coupled to the memory device, the memory controller comprising: an adjustable timer component configured to: receive a timer generation request associated with a first command, the first command corresponding to a particular first address of the memory device; responsive to receiving the timer generation request: store, in a cache of the adjustable timer component, an active timer entry corresponding to the particular first address; and generate a timer corresponding to the active timer entry and to the particular first address by enqueuing, in timer logic of the adjustable timer component, the active timer entry, a time stamp, and corresponding address information; responsive to expiration of the timer: dequeue the active timer entry; and invalidate the active timer entry stored in the cache; and command logic configured to, prior to issuing a second command to a particular second address of the memory device for execution, query the cache of the adjustable timer component to determine if the cache includes the active timer entry corresponding to the particular second address, and issue the particular second command to the memory device responsive to the query occurring at a time in which a sum of the timestamp of the active timer entry and a timer value of the active timer entry is greater than or equal to an amount of time that has passed since a time counter of the adjustable timer component started tracking a clock signal, wherein the active timer entry is generated prior to the query occurring.",
+  "patent_id": "US12379844-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0611",
+      "G06F 3/0655",
+      "G06F 3/0679"
+    ],
+    "all": [
+      "G06F 3/0611",
+      "G06F 3/0655",
+      "G06F 3/0679"
+    ],
+    "source": "converted"
+  }
+}

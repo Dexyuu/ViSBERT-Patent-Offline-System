@@ -1,0 +1,22 @@
+{
+  "title": "Time series forecasting for pre-deduplication of snapshots",
+  "abstract": "For a source device with an activated snapshot, time series-based prediction of source device write IO operations is implemented, on a per-extent basis, to predict a subset of the source device extents that are likely to be hot (receive write IO operations) during an upcoming time window. Snapshot tracks corresponding to tracks of the predicted hot extents are pre-deduplicated, to accelerate write IO operations on the source device. In instances where the time series-based prediction correctly predicts write IO operations on tracks of an extent, and the tracks of the extent of the source device are pre-deduplicated on the snapshot, it is possible to implement the write IO operations as a redirect on write operation, without first replicating the original track of source data for use by the snapshot. Write IO operations on tracks that are not pre-deduplicated are implemented as copy on write operations.",
+  "claims": "1. A method of time series-based pre-deduplication of a snapshot of a source device, comprising: providing a source device, the source device being divided into a plurality of extents, each extent having a plurality of tracks, each track having a corresponding backend disk allocation of storage on storage resources; activating a snapshot on the source device, the snapshot having a plurality of extents corresponding to the plurality of extents of the source device, and each extent of the snapshot having a plurality of tracks corresponding to respective tracks of the corresponding extent of the source device; predicting write IO operations on tracks of the source device on a per-extent basis for an upcoming time window; selecting a percentage of the extents of the source device with a largest number of predicted write IO operations for the upcoming time window, the selected percentage being less than 100% of the extents of the source device; and creating a deduplication relationship between tracks of the selected extents of the source device and corresponding tracks of corresponding snapshot extents, to cause the tracks of the corresponding snapshot extents to reference backend disk allocations of storage on storage resources allocated to the corresponding tracks of the selected extents of the source device; receiving a write IO operation on a first track of the source device; and determining whether a first backend allocation of the first track of the source device is in a first deduplication relationship with a corresponding track of the snapshot; in response to a determination that the first backend allocation of the first track of the source device is in a first deduplication relationship with a corresponding track of the snapshot, implementing the write IO operation as a redirect on write IO operation; and in response to a determination that the first backend allocation of the first track of the source device is not in a first deduplication relationship with a corresponding track of the snapshot, implementing the write IO operation as a copy on write IO operation.",
+  "patent_id": "US12380065-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/128",
+      "G06F 11/3409",
+      "G06F 16/1727",
+      "G06F 16/1748"
+    ],
+    "all": [
+      "G06F 16/128",
+      "G06F 11/3409",
+      "G06F 16/1727",
+      "G06F 16/1748"
+    ],
+    "source": "converted"
+  }
+}

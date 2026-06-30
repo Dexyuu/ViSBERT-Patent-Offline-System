@@ -1,0 +1,26 @@
+{
+  "title": "Method for zero touch provisioning of an operational node for a virtualized network",
+  "abstract": "An autonomous distributed wise area network (AD-WAN) includes several nodes, where each node connects a local area network to an open wide area network, and provides tunnels over the open wide area network to other nodes in the AD-WAN so that computing resources behind each node can communicate as if they were located on a common intranet. Each node has a blockchain wallet and receives updates to a private permissioned blockchain ledger for that AD-WAN. The updates are provided by a control node. Set up, and subsequent change to the AD-WAN are commenced via a customer portal which provides order information to the control node, where the control node processes the order information and generates a blockchain update that informs the affected nodes in the AD-WAN as to what changes are to be made. As a result, the blockchain provides both control plane and order management operation of the AD-WAN.",
+  "claims": "1. A method for zero touch provisioning of operational nodes in a virtualized network of an entity over an open wide area network, comprising: configuring a computing device with a provisioning seed software program, thereby providing an unprovisioned operational node, wherein the provisioning seed software program allows the unprovisioned operational node to contact a control node of the virtualized network over the open wide area network; providing the unprovisioned operational node to the entity at a premises of the entity; connecting the unprovisioned operational node to the open wide area network at the premises of the entity; responsive to connecting the unprovisioned operational node, the unprovisioned operational node contacting the control node over the open wide area network agnostic of the virtualized network and authenticating the unprovisioned operational node to the control node; responsive to successfully authenticating the unprovisioned operational node to the control node, the control node providing a software package to the unprovisioned operational node; responsive to receiving the software package, the unprovisioned operational node installing the software package and instantiating a provisioned software build at the unprovisioned operational node thereby transforming the unprovisioned operational node to a provisioned operational node that is capable of communicating with at least one other operational node of the entity using the virtualized network to simulate an intranet between the provisioned operational node and the at least one other operational node, and wherein only provisioned operational nodes of the entity are able to access the virtualized network of the entity; and the control node whitelisting the provisioned operational node in the virtualized network on a permissioned blockchain associated with the virtualized network, wherein the provisioned operational node is thereafter capable of accessing the permissioned blockchain associated with the virtualized network, and wherein the at least one other operation node obtains network information of the provisioned operational node from the permissioned blockchain.",
+  "patent_id": "US12381748-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/50",
+      "H04L 9/3263",
+      "H04L 41/08",
+      "H04L 41/20",
+      "H04L 41/40",
+      "H04L 67/34"
+    ],
+    "all": [
+      "H04L 9/50",
+      "H04L 9/3263",
+      "H04L 41/08",
+      "H04L 41/20",
+      "H04L 41/40",
+      "H04L 67/34"
+    ],
+    "source": "converted"
+  }
+}

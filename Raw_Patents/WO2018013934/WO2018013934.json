@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2018013934",
+  "application_id_fs": "WO2018013934",
+  "title": "Digital asset architecture",
+  "abstract": "A computer system (100) comprising: a global synchronization log (112) that stores public data associated with private data wherein the private data is stored in one or more private data stores (132, 134) separate from the global synchronization log (112, 114); and one or more nodes (102) operable in a mode as a writer node (102) that has access to write the public data associated with private data to the global synchronization log (112). A reader node (120) may verify the public data on the global synchronization log (112, 114) with private data stored in one or more private data stores (132, 134).",
+  "claims": "Claims CLAIMS: 1. A computer system comprising: a global synchronization log that stores public data associated with private data wherein the private data is stored in one or more private data stores separate from the global synchronization log; and one or more nodes operable in a mode as a writer node that has access to write the public data associated with private data to the global synchronization log. 2. A computer system according to claim 1 further comprising: the one or more private data stores. 3. A computer system according to claim 2, wherein the one or more nodes are in communication with respective one or more private data stores, and wherein the writer nodes receive private data to execute a function to determine the corresponding public data to write to the global synchronization log. 4. A computer system according to claim 3, wherein the public data includes a hash value and wherein the function is a cryptographic hash function that produces the hash value from the private data, and wherein it is computationally infeasible to reconstruct the private data from the hash value. 5. The computer system according to any of the preceding claims, wherein computer system further comprises: one or more nodes operable in a mode as a reader node, wherein the reader node receives corresponding private data and wherein the corresponding private data in the one or more private data stores are not accessible to an unauthorized participant. 6. The computer system of claim 5 wherein at least one of the nodes operable in a mode as a reader node does not have access to perform write operations on the global synchronization log. 7. The computer system of claim 5 or 6 wherein a reader node can verify the public data available on the global synchronization log based on the corresponding private data available to the reader node in the one or more private data stores. 8. The computer system according to any of the preceding claims wherein the global synchronization log is an append-only distributed ledger. 9. The computer system of any of the preceding claims wherein the global synchronization log is a blockchain. 10. The computer system of any of the preceding claims wherein the private data store is a private contract store configured to store one or more contract parameters corresponding to a participant's contracts. 1 1. The computer system of any of the preceding claims further comprising: one or more auditor nodes that can inspect the global synchronization log to ensure that the global synchronization log is an accurate representation of transactions that have taken place by accessing and comparing with information in one or more private data stores. 12. A computer system with two or more nodes comprising: at least one a private data store that stores private data; a global synchronization log that stores public data associated with private data in the private data stores, wherein the private data is stored in a plurality of data stores separate from the global synchronization log; a first node operable in a mode as a writer node, wherein the first node is associated with a first private data store that stores first private data, and wherein the first node \n\n has access to the global synchronization log to write first public data associated with the first private data and a second mode as a reader node; and a second node operable in a mode as a writer node, wherein the second node is associated with a second private data store that stores second private data, and wherein the second node has access to the global synchronization log to write second public data associated with the second private data 13. A computer system according to claim 12, wherein: the first node is operable as a reader node to verify the public data, including the first public data, available on the global synchronization log based on comparison with the first private data available to the first node in the first private data store; and the second node is operable as a reader node to verify the public data, including the second public data, available on the global synchronization log based on comparison with the second private data available to the second node in the second private data store. 14. A writer node comprising: an execution engine; an application; an internal fault tolerant communication channel; and one or more replicas of at least part of the system that execute a consensus protocol over the internal fault tolerant communication channel, wherein on receiving a request for data from a node, the request may be served by any one of the replicas. 15. The writer node of claim 14, wherein the internal fault tolerant communication channel is a byzantine fault tolerant communication channel. 16. The writer node of claim 14 or 15, wherein the replicas replicate a proof of execution and wherein on receiving a request for event details from the reader node, the request may be forwarded to a writer node that generated the proof of execution. 17. A computer system of any one of the preceding claims of claims 1 to 13 including a writer node according to any one of the claims 14 to 16. 18. A computer-implemented method performed by a reader node, the method comprising: - reading public data on a global synchronization log written by a writer node, wherein the public data is associated with private data and the private data is stored in one or more private data stores; - receiving corresponding private data from one or more private data stores; - verifying the public data from the global synchronization log with the corresponding private data, and - based on verifying the public data is verified with the corresponding private data, determining that the corresponding private data is synchronized with the private data. 19. A computer-implemented method according to claim 18, wherein if the public data is not verified with the corresponding private data, the method further comprises: - initiating a request for updated private data from the one or more nodes; - receiving the updated private data from the one or more nodes; - verifying the public data from the global synchronization log with the updated private data; and - based on verifying the public data with the updated private data, determining the updated private data is synchronized with the private data.",
+  "classifications": {
+    "ipc": [
+      "G06Q 40/00",
+      "G06Q 40/12",
+      "G06F 16/00",
+      "G06F 21/00",
+      "G06F 21/60",
+      "G06F 21/62",
+      "G06F 21/6218",
+      "G06F 21/6245",
+      "G06Q 50/00",
+      "G06Q 50/10",
+      "G06Q 50/18",
+      "G06Q 50/184",
+      "H04L 9/00",
+      "H04L 9/32",
+      "H04L 9/3236",
+      "H04L 9/3239",
+      "H04L 9/50"
+    ],
+    "cpc": [],
+    "all": [
+      "G06Q 40/00",
+      "G06Q 40/12",
+      "G06F 16/00",
+      "G06F 21/00",
+      "G06F 21/60",
+      "G06F 21/62",
+      "G06F 21/6218",
+      "G06F 21/6245",
+      "G06Q 50/00",
+      "G06Q 50/10",
+      "G06Q 50/18",
+      "G06Q 50/184",
+      "H04L 9/00",
+      "H04L 9/32",
+      "H04L 9/3236",
+      "H04L 9/3239",
+      "H04L 9/50"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018013934"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Method and apparatus for supporting allocation of transmission resource for sidelink relay discovery message in wireless communication system",
+  "abstract": "Methods and apparatuses for a sidelink relay discovery message are provided in a wireless communication system. The method of user equipment (UE) comprises identifying a resource pool configured by a base station (BS), including at least one of a shared resource pool or a dedicated resource pool, determining a resource for the sidelink relay discovery message based on the identified resource pool and performing, based on the determined resource, transmission or reception of the sidelink relay discovery message.",
+  "claims": "1. A method, performed by a relay user equipment (UE) in a wireless communication system, the method comprising: obtaining configuration information including sidelink configuration information, wherein the sidelink configuration information includes a sidelink resource pool; identifying whether the sidelink configuration information includes a dedicated resource pool for a sidelink discovery message, in case that the sidelink configuration information includes the dedicated resource pool for the sidelink discovery message, selecting the dedicated resource pool for the sidelink discovery message as a resource pool for the sidelink discovery message; in case that the sidelink configuration information does not include the dedicated resource pool for the sidelink discovery message, selecting the sidelink resource pool as the resource pool for the sidelink discovery message; and transmitting, to a remote UE, the sidelink discovery message based on the resource pool for the sidelink discovery message.",
+  "patent_id": "US12382272-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 8/005",
+      "H04W 72/12",
+      "H04W 76/14",
+      "H04W 88/04"
+    ],
+    "all": [
+      "H04W 8/005",
+      "H04W 72/12",
+      "H04W 76/14",
+      "H04W 88/04"
+    ],
+    "source": "converted"
+  }
+}

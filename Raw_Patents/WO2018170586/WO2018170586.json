@@ -1,0 +1,34 @@
+{
+  "application_id": "WO2018170586",
+  "application_id_fs": "WO2018170586",
+  "title": "Method and system for a distributed camera network",
+  "abstract": "A method at an image capture apparatus, the method including receiving, at the image capture apparatus, a trigger to begin image capture; based on the trigger, starting image capture for a fixed duration; and providing image capture data to a processing service.",
+  "claims": "Claims 1 . A method at an image capture apparatus, the method comprising: receiving, at the image capture apparatus, a trigger to begin image capture; based on the trigger, starting image capture for a fixed duration; and providing image capture data to a processing service. 2. The method of claim 1 , wherein the trigger is data from a sensor on the image capture apparatus or associated with the image capture apparatus. 3. The method of claim 1 , wherein the trigger is a message from a central server. 4. The method of claim 1 , wherein the trigger is a message from a second image capture apparatus. 5. The method of claim 4, wherein the trigger includes one or more information elements selected from: an event identifier; a device identifier for the second image capture apparatus; a position of the second image capture apparatus; a range around the second image capture apparatus for which image capture data is needed; an alert type; an endpoint to report information to; a time of an event; the fixed duration; or a report timeslot. 6. The method of claim 5, further comprising: determining a location of the image capture apparatus; finding whether the image capture apparatus is within the range around the second image capture apparatus based on the location of the second device; and if the image capture apparatus is within the range, starting the image capture. 7. The method of claim 1 , wherein the providing the image capture data to the processing service further includes providing at least one information item selected from: a device identifier for the image capture apparatus; an event identifier; a position of the \n\n image capture apparatus; and a bearing for an image sensor on the image capture apparatus. 8. The method of claim 1 , further comprising: determining whether to relay the trigger to another image capture apparatus; and if the trigger should be relayed, sending the trigger to the another image capture apparatus. 9. The method of claim 8, wherein the another image capture apparatus is within a predetermined distance of the image capture apparatus. 10. The method of claim 1 , wherein the image capture apparatus is affixed to a trailer or shipping container as part of a fleet management system. 1 1 . The method of claim 1 , wherein the image capture apparatus further reports a location of the image capture apparatus to the processing service. 12. The method of claim 1 1 , wherein the trigger is received based on the reported location of the image capture apparatus. 13. An image capture apparatus comprising: a processor; a communications subsystem; and at least one sensor for capturing images, wherein the image capture apparatus is configured to: receive, at the image capture apparatus, a trigger to begin image capture; based on the trigger, start image capture for a fixed duration; and provide image capture data to a processing service. 14. The image capture apparatus of claim 13, wherein the trigger is data from a sensor on the image capture apparatus or associated with the image capture apparatus. 15. The image capture apparatus of claim 13, wherein the trigger is a message from a central server. 1 6. The image capture apparatus of claim 13, wherein the trigger is a message from a second image capture apparatus. 17. The image capture apparatus of claim 1 6, wherein the trigger includes one or more information elements selected from: an event identifier; a device identifier for the second image capture apparatus; a position of the second image capture apparatus; a range around the second image capture apparatus for which image capture data is needed; an alert type; an endpoint to report information to; a time of an event; the fixed duration; or a report timeslot. 18. The image capture apparatus of claim 17, wherein the image capture apparatus is further configured to: determine a location of the image capture apparatus; find whether the image capture apparatus is within the range around the second image capture apparatus based on the location of the second device; and if the image capture apparatus is within the range, start the image capture. 19. The image capture apparatus of claim 13, wherein image capture apparatus is further configured to provide the image capture data to the processing service by providing at least one information item selected from: a device identifier for the image capture apparatus; an event identifier; a position of the image capture apparatus; and a bearing for an image sensor on the image capture apparatus. 20. The image capture apparatus of claim 13, wherein the image capture apparatus is further configured to: determine whether the trigger needs to be relayed to another image capture apparatus; and \n\n if the trigger needs to be relayed, send the trigger to the another image capture apparatus. 21 . The image capture apparatus of claim 20, wherein the another image capture apparatus is within a predetermined distance of the image capture apparatus. 22. The image capture apparatus of claim 13, wherein the image capture apparatus is affixed to a trailer or shipping container as part of a fleet management system. 23. The image capture apparatus of claim 13, wherein the image capture apparatus further reports a location of the image capture apparatus to the processing service. 24. The image capture apparatus of claim 23, wherein the trigger is received based on the reported location of the image capture apparatus. 25. A computer readable medium for storing program instructions, which, when executed by a processor of an image capture apparatus, cause the image capture apparatus to: receive, at the image capture apparatus, a trigger to begin image capture; based on the trigger, start image capture for a fixed duration; and provide image capture data to a processing service.",
+  "classifications": {
+    "ipc": [
+      "H04N 7/00",
+      "H04N 7/18",
+      "H04N 7/188",
+      "H04N 23/00",
+      "H04N 23/60",
+      "H04N 23/66",
+      "H04N 23/661",
+      "H04N 7/181",
+      "H04N 23/662"
+    ],
+    "cpc": [],
+    "all": [
+      "H04N 7/00",
+      "H04N 7/18",
+      "H04N 7/188",
+      "H04N 23/00",
+      "H04N 23/60",
+      "H04N 23/66",
+      "H04N 23/661",
+      "H04N 7/181",
+      "H04N 23/662"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018170586"
+}

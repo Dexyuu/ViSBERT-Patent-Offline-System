@@ -1,0 +1,22 @@
+{
+  "title": "Controlling operating system upgrades based on usage data of client device",
+  "abstract": "Systems and methods for selectively allowing or blocking operating system upgrades based on probabilities that the upgraded operating system may result in a fault condition. In an example, the technology may perform a method that includes receiving usage data from a client device to evaluate providing an operating system upgrade for the client device; accessing a root-cause factor that is likely to lead to a fault condition with the operating system upgrade; based on the usage data, identifying a fault probability for the root-cause factor; comparing the fault probability to a fault threshold for the root-cause factor; based on the comparison of the fault probability and the fault threshold, performing one of: blocking the operating system upgrade from being installed on the client device; or providing the operating system upgrade for installation on the client device.",
+  "claims": "1. A system for providing operating system updates, the system comprising: at least one processor; and memory storing instructions that, when executed by the at least one processor cause the system to perform operations comprising: receiving application launch data from a client device to evaluate providing an operating system upgrade to the client device, the application launch data including a frequency of launches of a particular application over a pre-determined time period that occurs before the operating system upgrade is provided to the client device; accessing a set of root-cause factors that are likely to lead to a fault condition with the operating system upgrade, the set of root-cause factors including at least a first root-cause factor and a second root-cause factor; based on the application launch data, identifying a first fault probability for the first root-cause factor and a second fault probability for the second root-cause factor; comparing the first fault probability to a first fault threshold for the first root-cause factor; comparing the second fault probability to a second fault threshold for the second root-cause factor; based on the comparison of the first fault probability and the first fault threshold and the comparison of the second fault probability and the second fault threshold, performing one of: blocking the operating system upgrade from being installed on the client device; or providing the operating system upgrade for installation on the client device.",
+  "patent_id": "US12379914-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 8/65",
+      "G06F 11/0706",
+      "G06F 11/076",
+      "G06F 11/079"
+    ],
+    "all": [
+      "G06F 8/65",
+      "G06F 11/0706",
+      "G06F 11/076",
+      "G06F 11/079"
+    ],
+    "source": "converted"
+  }
+}

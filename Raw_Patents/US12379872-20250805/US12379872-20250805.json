@@ -1,0 +1,26 @@
+{
+  "title": "Program detection method and apparatus",
+  "abstract": "A program detection method includes receiving a program provided by a user, and obtaining, based on a query parameter and the program, a result of the program running in a weak memory environment. The query parameter indicates a maximum interval between two operations on which reordering occurs and that are of the program.",
+  "claims": "1. A program detection method, comprising: receiving, from a user, a program running in a weak memory environment; calculating a first interval between a first operation in a first thread of the program and a second operation in the first thread, and a second interval between a third operation in a second thread of the program and a fourth operation in the second thread, wherein the first operation and the third operation are a first pair of read and write operations performed on a first variable, wherein the second operation and the fourth operation are a second pair of read and write operations performed on a second variable, wherein the first operation and the second operation are operations performed on different variables, and wherein the third operation and the fourth operation are operations performed on different variables; and obtaining, based on a query parameter, the first interval, the second interval, and the program, a result of the program, wherein the query parameter indicates a maximum interval between two operations on which reordering occurs and that are of the program.",
+  "patent_id": "US12379872-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0659",
+      "G06F 3/0604",
+      "G06F 3/0673",
+      "G06F 8/433",
+      "G06F 9/467",
+      "G06F 11/3632"
+    ],
+    "all": [
+      "G06F 3/0659",
+      "G06F 3/0604",
+      "G06F 3/0673",
+      "G06F 8/433",
+      "G06F 9/467",
+      "G06F 11/3632"
+    ],
+    "source": "converted"
+  }
+}

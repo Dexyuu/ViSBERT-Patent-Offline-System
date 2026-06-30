@@ -1,0 +1,22 @@
+{
+  "title": "Image encoding apparatus, image decoding apparatus, image encoding method, image decoding method, and non-transitory computer-readable storage medium",
+  "abstract": "An image is divided into rectangular regions each including at least one block row, and the image is divided into rectangular slices or slices to be processed in raster order. In a case where the image is divided into the rectangular slices, based on first information for specifying a rectangular region to be processed first and second information for specifying a rectangular region to be processed last, the rectangular regions in the rectangular slice is specified. Based on the number of blocks in a vertical direction in each of the specified rectangular regions, the number of pieces of information for specifying a start position of coded data of the block row in the rectangular slice is specified. A bitstream in which at least the pieces of information, the first and second information, and the coded data are multiplexed is generated.",
+  "claims": "1. An image encoding apparatus for encoding an image including a rectangular region including at least one block row formed from a plurality of blocks, comprising: an encoding unit configured to encode, into a bitstream, a first flag related to enablement of parallel processing, first information used for identifying a rectangular region to be processed first among a plurality of rectangular regions included in a target slice which is a slice in the image, second information used for identifying a rectangular region to be processed last among the plurality of rectangular regions, and third information corresponding to the number of blocks, in a vertical direction, of the rectangular region in the image; and an identifying unit configured to identify, for the target slice, the number of syntax elements each of which is used to identify a start position of coded data of a block row, based on the first information, the second information, and the third information, in a state where a value of the first flag is 1, a second flag, which is in a picture parameter set of the bitstream and is related to a mode of a slice, indicates that a mode in which a slice is rectangular is used, and the target slice in the image includes a plurality of rectangular regions in a horizontal direction or a vertical direction, wherein fourth information for determining a size of each of blocks forming the block row is encoded into a sequence parameter set of the bitstream, and the syntax elements, the number of which is the number identified by the identifying unit, are included in a slice header of the bitstream, and wherein fifth information corresponding to a height of the image is encoded into the bitstream.",
+  "patent_id": "US12382040-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/119",
+      "H04N 19/129",
+      "H04N 19/174",
+      "H04N 19/176"
+    ],
+    "all": [
+      "H04N 19/119",
+      "H04N 19/129",
+      "H04N 19/174",
+      "H04N 19/176"
+    ],
+    "source": "converted"
+  }
+}

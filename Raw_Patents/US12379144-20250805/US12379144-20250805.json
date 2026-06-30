@@ -1,0 +1,38 @@
+{
+  "title": "Ice maker and system and method for monitoring water filter of the ice maker",
+  "abstract": "In an ice maker, a controller is operatively connected to the ice maker's water system to determine a parameter indicative of a total amount of water filtered by a replaceable filter cartridge. Based on the determined parameter, the controller can provide a numerical indication of the total amount of water filtered by the replaceable filter cartridge. Based on the determined parameter, the controller can determine that the replaceable filter cartridge requires replacement. The parameter can be determined based on the amount of time a water inlet valve is opened and/or a water pressure signal. The controller can take action when it determines that the water filter needs replacement, for example, by making a local alarm indication, pushing a remote notification, or making an automated purchase transaction for a new filter cartridge.",
+  "claims": "1. An ice maker comprising: an ice formation device; a refrigeration system for cooling the ice formation device; a water system supplying water to the ice formation device, the water system including a water inlet valve and a water filter, the water inlet valve configured to be selectively opened to supply water to the ice maker, the water filter configured to filter the water supplied to the ice maker, the water filter including a replaceable filter cartridge, the refrigeration system configured to cool the ice formation device such that at least some of the filtered water from the water system forms into ice on the ice formation device; and a controller operatively connected to the water system, the controller configured to: determine a parameter indicative of a total amount of water filtered by the replaceable filter cartridge; and based on the determined parameter, (i) provide a numerical indication of the total amount of water filtered by the replaceable filter cartridge; and (ii) determine that the replaceable filter cartridge requires replacement and output an alarm indication in response; wherein the water inlet valve has a fixed volumetric flow rating such that volumetric flow rate through the water inlet valve when opened is substantially constant at constant water supply pressure; wherein the controller is configured to determine an amount of time that the water inlet valve is opened and the controller is configured to determine the parameter based on the amount of time that the water inlet valve is opened; wherein the ice maker further comprises a memory having at least a first register for the total amount of time that the water inlet valve is open and a second register for the numerical indication of the total volume of water filtered by the replaceable filter cartridge, the controller configured to toll the amount of time that the water inlet valve is open in the first memory register, to calculate the numerical indication of the total volume of water filtered by the replaceable filter cartridge as a function of the first register, and to store the numerical indication of the total volume of water filtered by the replaceable filter cartridge in the second register.",
+  "patent_id": "US12379144-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "F25C 1/25",
+      "B01D 35/1435",
+      "C02F 1/003",
+      "C02F 1/008",
+      "B01D 2201/56",
+      "C02F 2201/005",
+      "C02F 2201/006",
+      "C02F 2209/03",
+      "C02F 2209/40",
+      "C02F 2209/445",
+      "F25C 2600/04",
+      "F25C 2700/00"
+    ],
+    "all": [
+      "F25C 1/25",
+      "B01D 35/1435",
+      "C02F 1/003",
+      "C02F 1/008",
+      "B01D 2201/56",
+      "C02F 2201/005",
+      "C02F 2201/006",
+      "C02F 2209/03",
+      "C02F 2209/40",
+      "C02F 2209/445",
+      "F25C 2600/04",
+      "F25C 2700/00"
+    ],
+    "source": "converted"
+  }
+}

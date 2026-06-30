@@ -1,0 +1,18 @@
+{
+  "title": "Method and system for managing application logs",
+  "abstract": "Embodiment herein provides a method for managing application logs by an system (100). The method includes detecting, by the system (100), event associated with application stored in the system (100) and creating, by the system (100), application log file while the event associated with the application is performed at the system (100). The application log file includes a URL used to call API associated with the application while the event is performed, a response received through the API associated with the application while the event is performed from an application server (1000) and a payload. The method also includes determining, by the system (100), that the event associated with the application is completed; and automatically uploading, by the system (100), the application log file and information associated with the system (100) to an application server (1000) corresponding to the application.",
+  "claims": "1. A method for managing application logs by a system ( 100 ), wherein the method comprises: detecting, by the processor ( 180 ) of the system ( 100 ), at least one event associated with at least one application stored in the system ( 100 ); creating, by the processor ( 180 ), at least one application log file while the at least one event associated with the at least one application is performed at the system ( 100 ), wherein the at least one application log file comprises a uniform resource locator (URL) used to call at least one application program interface (API) associated with the at least one application while the at least one event is performed, a response received through the at least one API associated with the at least one application while the at least one event is performed from an application server ( 1000 ) and a payload associated with the at least one event; determining, by the processor ( 180 ), that the at least one event associated with the at least one application is completed; and automatically uploading, by the processor ( 180 ), the at least one application log file and at least one information associated with the system ( 100 ) to the application server ( 1000 ) corresponding to the at least one application.",
+  "patent_id": "US12379979-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/542",
+      "G06F 9/541"
+    ],
+    "all": [
+      "G06F 9/542",
+      "G06F 9/541"
+    ],
+    "source": "converted"
+  }
+}

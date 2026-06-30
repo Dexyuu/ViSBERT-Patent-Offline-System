@@ -1,0 +1,20 @@
+{
+  "title": "Training of speech recognition systems",
+  "abstract": "A method may include obtaining first audio data of a first communication session between a first and second device and during the first communication session, obtaining a first text string that is a transcription of the first audio data and training a model of an automatic speech recognition system using the first text string and the first audio data. The method may further include in response to completion of the training, deleting the first audio data and the first text string and after deleting the first audio data and the first text string, obtaining second audio data of a second communication session between a third and fourth device and during the second communication session obtaining a second text string that is a transcription of the second audio data and further training the model of the automatic speech recognition system using the second text string and the second audio data.",
+  "claims": "1. A method comprising: obtaining a model of an automatic speech recognition system; obtaining first audio data of a first communication session between a first device of a first user and a second device of a second user; training a first copy of the model based on the first audio data; obtaining second audio data of a second communication session between a third device of a third user and a fourth device of a fourth user; training a second copy of the model based on the second audio data; determining a set of acoustic parameters using both the trained first copy of the model and the trained second copy of the model; updating the model using the set of acoustic parameters; after updating the model, obtaining third audio data of a third communication session between a fifth device of a fifth user and a sixth device of a sixth user, wherein the third user and the fourth user are both separate and distinct from the first user and the second user and the fifth and sixth users are both separate and distinct from the first, second, third, and fourth users; and generating, during the third communication session, a transcription of the third audio data by applying the updated model.",
+  "patent_id": "US12380877-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 15/063",
+      "G10L 15/26",
+      "G10L 2015/0631"
+    ],
+    "all": [
+      "G10L 15/063",
+      "G10L 15/26",
+      "G10L 2015/0631"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "System, method, and computer program for testing the accuracy of software that identifies user interface elements on a webpage",
+  "abstract": "The present disclosure relates to a system, method, and computer program for testing the accuracy of software that identifies user interface (UI) elements on a webpage (âthe auto-identifier softwareâ). The system enables a user to tag UI elements on a webpage with labels. The system creates a normalized specification for the webpage, where the specification includes a mapping of UI elements to normalized labels. The system uses the auto-identifier software to identify UI elements on the webpage. The system evaluates the performance of the auto-identifier software with respect to the webpage using the specification. The system displays diagnostics related to the performance of the auto-identifier software. In certain embodiments, the method is used for testing the accuracy of autofill software on a webform. In certain embodiments, the method is used for testing the accuracy of cart-scraper software on a checkout page.",
+  "claims": "1. A method, performed by a computer system, for testing the accuracy of software that identifies UI elements on a webpage (“the auto-identifier software”), the method comprising: enabling a user to tag UI elements on a webpage with labels, wherein the UI elements are checkout cart fields and wherein the auto-identifier software is designed to automatically scrape checkout cart data from a webpage; creating and storing a normalized specification for the webpage, wherein the specification is created by a browser extension automatically tagging checkout cart fields with a label and a user correcting or adding one or more labels to their corresponding checkout cart field(s) to create and store a representation of all possible UI elements on the webpage plus relevant metadata in the specification, wherein the relevant metadata does not include metadata related to styling or behavior, and wherein the specification includes a mapping of UI elements to normalized labels; using the auto-identifier software to identify UI elements on the webpage; evaluating the performance of the auto-identifier software with respect to the webpage using the stored specification, wherein evaluating the performance of the auto-identifier software comprises determining whether the auto-identifier software scraped the cart data it is tasked to scrape and ignored the cart data it is tasked to ignore; and displaying diagnostics related to the performance of the auto-identifier software, wherein displaying diagnostics comprises displaying statistics related to the performance of the software for a select UI element across a plurality of webpages.",
+  "patent_id": "US12380270-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 40/174",
+      "G06F 16/951",
+      "G06F 16/957",
+      "G06F 16/958",
+      "G06F 40/117",
+      "G06F 40/169",
+      "G06F 11/321"
+    ],
+    "all": [
+      "G06F 40/174",
+      "G06F 16/951",
+      "G06F 16/957",
+      "G06F 16/958",
+      "G06F 40/117",
+      "G06F 40/169",
+      "G06F 11/321"
+    ],
+    "source": "converted"
+  }
+}

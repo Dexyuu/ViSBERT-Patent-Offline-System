@@ -1,0 +1,22 @@
+{
+  "title": "Memory bank protection",
+  "abstract": "Systems, apparatuses, and methods related to memory bank protection are described. A quantity of errors within a single memory bank is determined and the determined quantity can be used to further determine whether to access other memory banks to correct the determined quantity. The memory bank protection described herein avoids a single memory bank of a memory die being a single point of failure (SPOF).",
+  "claims": "14. A method, comprising: performing an error detection operation on first host data retrieved from a first bank of a group of memory banks using first error detection data; and responsive to the error detection operation indicating a quantity of errors within the first host data and exceeding a threshold quantity, performing an error correction operation using: first error correction data to correct the quantity of errors exceeding the threshold quantity; and second host data that are retrieved from one or more banks of the group of memory banks that is different from the first bank.",
+  "patent_id": "US12379993-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/1068",
+      "G06F 11/076",
+      "G06F 11/0772",
+      "G06F 11/1004"
+    ],
+    "all": [
+      "G06F 11/1068",
+      "G06F 11/076",
+      "G06F 11/0772",
+      "G06F 11/1004"
+    ],
+    "source": "converted"
+  }
+}

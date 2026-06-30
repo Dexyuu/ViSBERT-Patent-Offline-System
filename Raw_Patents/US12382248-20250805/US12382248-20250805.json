@@ -1,0 +1,22 @@
+{
+  "title": "Determination and tracking of trajectories of moving objects in wireless applications",
+  "abstract": "Implementations disclosed describe techniques and systems for efficient determination and tracking of trajectories of objects in an environment of a wireless device. The disclosed techniques include, among other things, determining multiple sets of sensing values that characterize one or more radio signals received, during a respective sensing event, from an object in an environment of the wireless device. Multiple likelihood vectors may be obtained using the sensing values and characterizing a likelihood that the object is at a certain distance from the wireless device. A likelihood tensor may be generated, based on the likelihood vectors, that characterizes a likelihood that the object is moving along one of a set of trajectories. The likelihood tensor may be used to determine an estimate of the trajectory of the object.",
+  "claims": "1. A method comprising: determining, by a wireless device, a plurality of sets of sensing values, each set of sensing values characterizing one or more radio signals emitted by the wireless device during a respective one of a plurality sensing events and reflected from an object located in an environment of the wireless device; obtaining a plurality of likelihood vectors (LVs), wherein each LV of the plurality of LVs is obtained using a respective set of the plurality of sets of sensing values and characterizes a probability distribution that the object is located, during a corresponding sensing event, at a set of distances from the wireless device; generating, using two or more LVs of the plurality of LVs, a likelihood tensor (LT), wherein the LT is defined on a location-velocity space that comprises one or more distance dimensions and one or more velocity dimensions, and wherein the LT characterizes a likelihood that the object is moving along one of a set of trajectories; and determining, using the LT, an estimated trajectory of the object.",
+  "patent_id": "US12382248-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 4/027",
+      "G01S 5/0294",
+      "H04W 4/023",
+      "H04W 4/029"
+    ],
+    "all": [
+      "H04W 4/027",
+      "G01S 5/0294",
+      "H04W 4/023",
+      "H04W 4/029"
+    ],
+    "source": "converted"
+  }
+}

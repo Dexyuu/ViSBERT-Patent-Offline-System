@@ -1,0 +1,18 @@
+{
+  "title": "Torque obtaining method and device, motor controller, and readable storage medium",
+  "abstract": "Embodiments of this application provide a torque obtaining method and device, a motor controller, and a readable storage medium. The torque obtaining method includes: obtaining a rotation speed of a motor; obtaining a current of the motor; obtaining a flux linkage of the motor; determining an electromagnetic torque of the motor based on the current and the flux linkage; and inputting the rotation speed and the electromagnetic torque into a preset status observer, and obtaining an observed value of an actual output torque of the motor, where the observed value is output by the status observer. The obtaining method is intended to obtain the actual output torque effectively, simply, and accurately.",
+  "claims": "1. A method for obtaining a torque of a motor, comprising: obtaining a rotation speed of the motor; obtaining a current of the motor, the current comprising a q-axis current and a d-axis current; obtaining a flux linkage of the motor, the flux linkage comprising a q-axis flux linkage and a d-axis flux linkage, and obtaining the flux linkage of the motor comprising: obtaining an internal resistance of a winding of the motor; determining a q-axis voltage based on the q-axis current and a preset q-axis current, and determining a d-axis voltage based on the d-axis current and a preset d-axis current; and determining the d-axis flux linkage based on the internal resistance of the winding, the rotation speed, and the q-axis voltage, and determining the q-axis flux linkage based on the internal resistance of the winding, the rotation speed, and the d-axis voltage; determining an electromagnetic torque of the motor based on the current and the flux linkage; and inputting the rotation speed and the electromagnetic torque into a preset status observer, and obtaining an observed value of an actual output torque of the motor, wherein the observed value is output by the status observer.",
+  "patent_id": "US12379270-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01L 5/00",
+      "G01R 19/0092"
+    ],
+    "all": [
+      "G01L 5/00",
+      "G01R 19/0092"
+    ],
+    "source": "converted"
+  }
+}

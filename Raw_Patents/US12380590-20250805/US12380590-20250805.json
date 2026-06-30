@@ -1,0 +1,36 @@
+{
+  "title": "Layout mapping based on paths taken in an environment",
+  "abstract": "Disclosed herein are apparatuses and methods for iteratively mapping a layout of an environment. The implementations include receiving a visual stream from a camera installed in the environment, wherein the visual stream depicts a view of the environment, and wherein positional parameters of the camera and dimensions of the environment are set to arbitrary values. The implementations include monitoring a plurality of persons in the visual stream. For each person in the plurality of persons, the implementations further includes identifying a respective path that the person moves along in the view, updating the dimensions of the environment captured in the view, based on an estimated height of the person and movement speed along the respective path, and updating the positional parameters of the camera based on the updated dimensions of the environment. The implementations further includes mapping a layout of the environment captured in the view of the camera.",
+  "claims": "1. A method for iteratively mapping a layout of an environment, comprising: receiving a visual stream from a camera installed in the environment, wherein the visual stream depicts a view of the environment, and wherein positional parameters of the camera, comprising camera installation height and tilt angle, and dimensions of the environment are set to arbitrary values; monitoring a plurality of persons in the visual stream; and for each person in the plurality of persons: identifying a respective path that the person moves along in the view; updating the dimensions of the environment captured in the view based on an estimated height and movement speed of the person along the respective path, wherein the dimensions comprise a length, width, and height of the environment; updating the positional parameters of the camera based on the updated dimensions of the environment; mapping a layout of the environment captured in the view of the camera based on the updated positional parameters and the updated dimensions.",
+  "patent_id": "US12380590-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/70",
+      "G06T 7/20",
+      "G06T 7/60",
+      "G06T 7/80",
+      "H04N 7/183",
+      "G06T 2207/10016",
+      "G06T 2207/20081",
+      "G06T 2207/30196",
+      "G06T 2207/30232",
+      "G06T 2207/30241",
+      "G06T 2207/30244"
+    ],
+    "all": [
+      "G06T 7/70",
+      "G06T 7/20",
+      "G06T 7/60",
+      "G06T 7/80",
+      "H04N 7/183",
+      "G06T 2207/10016",
+      "G06T 2207/20081",
+      "G06T 2207/30196",
+      "G06T 2207/30232",
+      "G06T 2207/30241",
+      "G06T 2207/30244"
+    ],
+    "source": "converted"
+  }
+}

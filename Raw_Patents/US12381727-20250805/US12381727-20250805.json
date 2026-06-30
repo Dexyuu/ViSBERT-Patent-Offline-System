@@ -1,0 +1,46 @@
+{
+  "title": "MBS security in UE mobility",
+  "abstract": "In response to a UE in a wireless network leaving a multicast group to which the user equipment belonged or switching between multiple access nodes belonging to the multicast group, sending by an access node a rekeying token for UE(s) in the multicast group to use to access data for the multicast group. The access node generates key(s) based at least on the rekeying token. The access node multicasts traffic to the UE(s) in the multicast group using the key(s). In response to an other UE in a wireless network leaving a multicast group to which a UE belongs or switching by the UE between multiple access nodes belonging to the multicast group, receiving, at the UE from an access node, a rekeying token to use. The UE generates key(s) based at least on the rekeying token and receives multicast traffic using the key(s).",
+  "claims": "1. A method, comprising: in a user equipment belonging to a multicast group in a wireless network and in response to an other user equipment in the wireless network leaving the multicast group, receiving, at the user equipment from an access node, a rekeying token for the user equipment in the multicast group to use to access data for the multicast group; generating by the user equipment multiple keys based at least on the rekeying token, the generating the multiple keys comprising generating a first key for encrypting multicast traffic and generating a second key for integrity protection of the multicast traffic, wherein: generating the first key for encrypting the multicast traffic comprises generating the first key using an algorithm distinguisher for encryption algorithms, an identifier that identifies which algorithm is to be used for encryption, the rekeying token, and an identifier to identify the multicast group; and generating the second key for encrypting the multicast traffic comprises generating the second key using an algorithm distinguisher for integrity algorithms, an identifier that identifies which algorithm is to be used for integrity, the rekeying token, and the identifier to identify the multicast group; receiving, by the user equipment from the access node, the multicast traffic using the multiple keys; and decrypting the received multicast traffic that has been encrypted using the first key and decrypting the received multicast traffic that has been integrity protected using the second key.",
+  "patent_id": "US12381727-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/0891",
+      "H04L 9/0833",
+      "H04L 9/0861",
+      "H04L 63/104",
+      "H04W 4/06",
+      "H04W 12/041",
+      "H04W 12/0431",
+      "H04W 12/0433",
+      "H04W 36/0007",
+      "H04W 36/0038",
+      "H04L 63/065",
+      "H04L 63/068",
+      "H04L 2209/80",
+      "H04W 4/08",
+      "H04W 12/08",
+      "H04W 12/106"
+    ],
+    "all": [
+      "H04L 9/0891",
+      "H04L 9/0833",
+      "H04L 9/0861",
+      "H04L 63/104",
+      "H04W 4/06",
+      "H04W 12/041",
+      "H04W 12/0431",
+      "H04W 12/0433",
+      "H04W 36/0007",
+      "H04W 36/0038",
+      "H04L 63/065",
+      "H04L 63/068",
+      "H04L 2209/80",
+      "H04W 4/08",
+      "H04W 12/08",
+      "H04W 12/106"
+    ],
+    "source": "converted"
+  }
+}

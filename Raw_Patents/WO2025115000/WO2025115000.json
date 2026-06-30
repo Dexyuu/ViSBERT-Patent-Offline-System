@@ -1,0 +1,36 @@
+{
+  "application_id": "WO2025115000",
+  "application_id_fs": "WO2025115000",
+  "title": "Service operations for application programming interfaces (apis)",
+  "abstract": "Various aspects of the present disclosure relate to service operations for Application Programming Interfaces (APIs). A first network equipment (NE) transmits, to a second NE, a request message for a service operation, the request message including a resource Uniform Resource Identifier (URI) for a Hypertext Transfer Protocol (HTTP) POST method, and the service operation includes one or more of an initial Application Programming Interface (API) configuration, an API configuration update, or an API invocation associated with an API provider. The first NE receives, from the second NE, a response message including a result of the service operation.",
+  "claims": "Claims CLAIMS What is claimed is: 1. A first network equipment (NE) for wireless communication, comprising: at least one memory; and at least one processor coupled with the at least one memory and configured to cause the first NE to: transmit, to a second network equipment, a request message for a service operation, the request message comprising a resource Uniform Resource Identifier (URI) for a Hypertext Transfer Protocol (HTTP) POST method, and the service operation comprising an Application Programming Interface (API) invocation associated with an API provider; and receive, from the second NE, a response message comprising a result of the service operation. 2. The first NE of claim 1 , wherein the request message further comprises one or more data types for the request message. 3. The first NE of claim 2, wherein the one or more data types comprise information pertaining to one or more of an identifier for a network slice for which the API invocation is requested or authorization information for the API invocation. 4. The first NE of claim 1, wherein the resource URI comprises {apiRoot}/nsce- sai/<apiVersion>/ApiInvoc. 5. The first NE of claim 1, wherein the first NE comprises a Vertical Application Layer (VAL) server. 6. The first NE of claim 5, wherein the second NE comprises a Network Slice Capability Exposure (NSCE) Server. 7. The first NE of claim 1 , wherein the service operation pertains to invocation of one or more network slice APIs. 8. The first NE of claim 1, wherein the response message comprises one or more of a result of the API invocation or an indication of one or more configuration errors. 9. A second network equipment (NE) for wireless communication, comprising: at least one memory; and at least one processor coupled with the at least one memory and configured to cause the second NE to: receive, from a first NE, a request message for a service operation, the request message comprising a resource Uniform Resource Identifier (URI) for a Hypertext Transfer Protocol (HTTP) POST method, and the service operation comprising an Application Programming Interface (API) invocation associated with an API provider; perform the service operation; and transmit, to the first NE, a response message comprising a result of the service operation. 10. The second NE of claim 9, wherein the request message further comprises one or more data types for the request message. 11. The second NE of claim 10, wherein the one or more data types comprise information pertaining to one or more of an identifier for a network slice for which the API invocation is requested or authorization information for the API invocation. 12. The second NE of claim 11, wherein the at least one processor is configured to cause the second NE to one or more of: verify, based at least in part on the information of the one or more data types, an identity of the first network equipment; or \n\n determine, based at least in part on the information of the one or more data types, whether the first network equipment is authorized to request the API invocation. 13. The second NE of claim 9, wherein the response comprises {apiRoot}/nsce- sai/<apiVersion>/ApiInvoc. 14. The second NE of claim 9, wherein to perform the service operation, the at least one processor is configured to cause the second network equipment to translate the API invocation to a service API invocation. 15. The second NE of claim 14, wherein to translate the API invocation to the service API invocation, the at least one processor is configured to cause the second network equipment to map a network slice for the API invocation to the service API. 16. The second NE of claim 9, wherein the first NE comprises a Vertical Application Layer (VAL) server, and the second NE comprises a Network Slice Capability Exposure (NSCE) Server. 17. The second NE of claim 9, wherein the service operation pertains to invocation of one or more network slice APIs. 18. The second NE of claim 9, wherein the response message comprises one or more of a result of the API invocation or an indication of one or more configuration errors. 19. A method performed by a first network equipment (NE), the method comprising: transmitting, to a second NE, a request message for a service operation, the request message comprising a resource Uniform Resource Identifier (URI) for a Hypertext Transfer Protocol (HTTP) POST method, and the service operation comprising an Application Programming Interface (API) invocation associated with an API provider; and receiving, from the second NE, a response message comprising a result of the service operation. 20. A method performed by a second NE, the method comprising: receiving, from a first NE, a request message for a service operation, the request message comprising a resource Uniform Resource Identifier (URI) for a Hypertext Transfer Protocol (HTTP) POST method, and the service operation comprising an Application Programming Interface (API) invocation associated with an API provider; performing the service operation; and transmitting, to the first NE, a response message comprising a result of the service operation.",
+  "classifications": {
+    "ipc": [
+      "H04L 67/00",
+      "H04L 67/01",
+      "H04L 67/02",
+      "H04L 63/00",
+      "H04L 63/08",
+      "H04L 63/0892",
+      "H04L 67/50",
+      "H04L 67/51",
+      "H04L 63/16",
+      "H04L 63/168"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 67/00",
+      "H04L 67/01",
+      "H04L 67/02",
+      "H04L 63/00",
+      "H04L 63/08",
+      "H04L 63/0892",
+      "H04L 67/50",
+      "H04L 67/51",
+      "H04L 63/16",
+      "H04L 63/168"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025115000"
+}

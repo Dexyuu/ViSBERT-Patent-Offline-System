@@ -1,0 +1,25 @@
+{
+  "application_id": "WO2021249957",
+  "application_id_fs": null,
+  "title": "Generation of metadata from graphical inlays inserted in video frames",
+  "abstract": "A method and a system for generating metadata from graphical inlays inserted in a video stream are disclosed. A graphical inlay is extracted from a video stream. The graphical inlay includes one or more objects. A contour is determined for each object of the one or more objects. A boundary is identified for the determined contour of each object. Metadata is then determined for each object based on the identified boundaries.",
+  "claims": "Claims 1. A method, comprising: providing a graphical inlay extracted from a video stream, wherein the graphical inlay includes one or more objects; determining a contour for each object of the one or more objects; identifying a boundary for the determined contour of each object; and determining metadata for each object based on the identified boundaries. 2. The method of claim 1, wherein the determined metadata comprises at least one of position data, rotation data and size data for each object in the graphical inlay. 3. The method of claim 1 or 2, wherein the one or more objects comprise at least one of text, punctuation symbols, numbers and logos. 4. The method of any one of claims 1 to 3, wherein the contour for object comprises a list of 2D coordinate points on a border thereof. 5. The method of any one of claims 1 to 4, wherein the contour for each object is determined using an edge extraction algorithm. 6. The method of any one of claims 1 to 5, wherein the boundary for the determined contour of each object is identified using one of an ellipse and a rectangle. 7. The method of any one of claims 1 to 6, further comprising: positioning a binary mask over the identified boundary for each object; and combining two or more of the binary masks into a binary word mask using a morphological calculation. 8. A device, comprising at least one processor, configured to: provide a graphical inlay extracted from a video stream, wherein the graphical inlay includes one or more objects; determine a contour for each object of the one or more objects; identify a boundary for the determined contour of each object; and determine metadata for each object based on the identified boundaries. 9. The device of claim 8, wherein the determined metadata comprises at least one of position data, rotation data and size data for each object in the graphical inlay. 10. The device of claim 8 or 9, wherein the one or more objects comprise at least one of text, punctuation symbols, numbers and logos. 11. The device of any one of claims 8 to 10, wherein the contour for each object comprises a list of 2D coordinate points on a border thereof. 12. The device of any one of claims 8 to 11, wherein the contour for each object is determined using an edge extraction algorithm. 13. The device of any one of claims 8 to 12, wherein the boundary for the determined contour of each object is identified using one of an ellipse and a rectangle. 14. The device of any one of claims 8 to 13, further comprising: positioning a binary mask over the identified boundary for each object; and combining two or more of the binary masks into a binary word mask using a morphological calculation. 15. A computer program product comprising instructions which when executed cause a processor to implement the method of any one of claims 1 to 7.",
+  "classifications": {
+    "ipc": [
+      "G06K 9/34",
+      "G06K 9/32",
+      "G06K 9/38",
+      "G06K 9/46",
+      "G06K 9/00"
+    ],
+    "cpc": [],
+    "all": [
+      "G06K 9/34",
+      "G06K 9/32",
+      "G06K 9/38",
+      "G06K 9/46",
+      "G06K 9/00"
+    ],
+    "source": "csv"
+  }
+}

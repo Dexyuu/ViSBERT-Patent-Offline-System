@@ -1,0 +1,19 @@
+{
+  "application_id": "WO2016139546",
+  "application_id_fs": null,
+  "title": "Mapping of short reads in sequencing in platforms",
+  "abstract": "The present disclosure relates to a scalable hardware accelerator for mapping and alignment of short reads with a reference genome that incorporates a mapper in the architecture with masks designed for identifying absolute match, single mismatch, two mismatches, and the like, in a three stage datapath. It is possible to map the short reads for any number of mismatches depending on the requirement with corresponding number of stages in the datapath and corresponding masks. Availability of multiple masks does away with need for multiple indexing steps on reference genome, corresponding to mask selection and corresponding storage of voluminous data. In another aspect adequate parallelism is incorporated to speed up the mapping process.",
+  "claims": "Claims A system for mapping and aligning a short read with a reference genome comprising: a streaming module configured to stream said short read and said reference genome through a system hardware; a mapping module configured to map said short read with said reference genome based on one time indexing of said reference genome to generate a reference index table, wherein said mapping module incorporates a plurality of masks to map said short read with said reference index table in a single pass; and an alignment module to align a mapped short read with said reference genome. The system of claim 1, wherein said plurality of masks comprise one or a combination of absolute match, single mismatch, two mismatches, three mismatches and the like. The system of claim 1, wherein said short read is checked for mapping across entire length of said reference genome. The system of claim 1, wherein said system comprises multiple data paths in parallel, and wherein each of said parallel data paths comprises a mapping module followed by an alignment module. A method for mapping and aligning a short read with a reference genome comprising: streaming said short read and said reference genome through a system hardware; mapping said short read with said reference genome based on one time indexing of said reference genome to generate a reference index table, wherein a plurality of masks are configured to map said short read with said reference index table in a single pass; and aligning a mapped short read with said reference genome. The method of claim 5, wherein said plurality of masks comprise one or a combination of absolute match, single mismatch, two mismatches, three mismatches and the like. 7. The method of claim 5, wherein said short read is checked for mapping across entire length of said reference genome. 8. The method of claim 5, wherein said system comprises multiple data paths in parallel, and wherein each of said parallel data paths comprises a mapping module followed by an alignment module. 9. A hardware accelerator for mapping and aligning a short read with a reference genome comprising: a streaming interface configured to enable streaming of said short read and said reference genome; a mapper configured to map said short read with said reference genome based on one time indexing of said reference genome to generate a reference index table, wherein said mapper incorporates a plurality of masks to map said short read with said reference index table in a single pass; and an aligner a mapped short read with said reference genome. 10. The hardware accelerator of claim 9, wherein said plurality of masks comprise one or a combination of absolute match, single mismatch, two mismatches, three mismatches and the like.",
+  "classifications": {
+    "ipc": [
+      "G06F 19/10",
+      "G06F 19/22"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 19/10",
+      "G06F 19/22"
+    ],
+    "source": "csv"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Numerical control system",
+  "abstract": "According to the present invention, a numerical control device3moves a plurality of machine elements of a machine tool2along a plurality of control axes on the basis of a moving pulse and performs an interference check calculation between two machine elements forming a prescribed set to be checked. The numerical control device3comprises: an orientation dependence information storage unit53which stores orientation dependence information that depends on shape and orientation and does not depend on the position of each of the two machine elements forming the set to be checked; an interference check unit36which performs an interference check calculation on the basis of pieces of position information and the pieces of the orientation dependence information about the machine elements; and an orientation dependence information update unit52which acquires pieces of shape information and pieces of orientation information about the machine elements, and updates the pieces of orientation dependence information on the basis of the pieces of shape information and the pieces of orientation information, wherein the orientation dependence information update unit52does not update the pieces of orientation dependence information, when the pieces of orientation information do not change.",
+  "claims": "1. A numerical control system that causes a plurality of machine elements of a machine tool to move along a plurality of axes based on a movement command and performs an interference check computation between two machine elements constituting a predetermined check target set, the numerical control system comprising: an attitude dependency information storage unit that stores attitude dependency information which is information dependent on a shape and an attitude of each of the two machine elements constituting the check target set; an interference check unit that acquires position information of each of the machine elements and performs the interference check computation based on the position information and the attitude dependency information stored in the attitude dependency information storage unit; and an attitude dependency information update unit that acquires shape information and attitude information of each of the machine elements and updates the attitude dependency information based on the shape information and the attitude information, the attitude dependency information update unit being configured to not update the attitude dependency information when the attitude information does not change.",
+  "patent_id": "US12379706-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05B 19/4061",
+      "G05B 2219/49157"
+    ],
+    "all": [
+      "G05B 19/4061",
+      "G05B 2219/49157"
+    ],
+    "source": "converted"
+  }
+}

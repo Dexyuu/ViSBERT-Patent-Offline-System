@@ -1,0 +1,20 @@
+{
+  "title": "Determining a sensitivity of a target variable of a rolling material from an operating variable of a hot rolling mill",
+  "abstract": "A control device for a section of a hot rolling mill is supplied with respective primary data for a plurality of rolling materials and respective preliminary target values for the target variables of the respective rolling material. The respective primary data describes the respective rolling material before being supplied to the section of the hot rolling mill. The respective preliminary target values of the target variables describe a desired target state of the respective rolling material after passing through the section of the hot rolling mill. At least one of the target variables is a particular target variable, whereby the control device determines a respective final target value in such a way that it changes the respective preliminary target value by a respective offset. The respective offset is determined independently of the primary data and the other particular target variables and the normal target variables for the respective rolling material.",
+  "claims": "1. An operating method for a portion of a hot rolling mill, comprising: supplying a control device for the portion of the hot rolling mill with respective primary data for a plurality of rolling materials and respective provisional setpoints for target variables of the respective rolling material, the respective primary data describing the respective rolling material before being supplied to the portion of the hot rolling mill, and the respective provisional setpoints of the target variables describing a desired nominal state of the respective rolling material after passing through the portion of the hot rolling mill; determining, by the control device, operating values for the portion of the hot rolling mill such that the respective rolling material, after passing through the portion of the hot rolling mill, approaches or reaches definitive setpoints of the target variables; and operating, by the control device during processing of the respective rolling material, the portion of the hot rolling mill according to the determined operating values; wherein at least one of the target variables is a particular target variable, and the remaining target variables are normal target variables; wherein the particular target variable is at least one of: a reeling temperature defining a target temperature for the respective rolling material after passing through a cooling line; a material property of the respective rolling material comprising at least one of a proof stress, a yield strength, and a breaking strength; and a macroscopic material property of the respective rolling material comprising at least one of a tensile strength, a yield strength, and a ductile yield; wherein the control device determines the respective definitive setpoint for the particular target variable by changing the respective provisional setpoint by a respective offset which is determined independently of the primary data and the normal target variables for the respective rolling material, and also independently of the operating values of the hot rolling mill determined for processing the respective rolling material; wherein further offsets, with respect to the respective particular target variable are provided for others of the plurality of rolling materials, have multiple different values when all the rolling materials are viewed as a whole; and wherein the control device, for the normal target variables, uses the respective provisional setpoint unchanged as the respective definitive setpoint.",
+  "patent_id": "US12377453-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B21B 37/76",
+      "B21B 37/16",
+      "B21B 37/58"
+    ],
+    "all": [
+      "B21B 37/76",
+      "B21B 37/16",
+      "B21B 37/58"
+    ],
+    "source": "converted"
+  }
+}

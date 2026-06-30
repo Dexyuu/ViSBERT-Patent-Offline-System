@@ -1,0 +1,20 @@
+{
+  "title": "Sensor assembly outputting a condition of a sensor",
+  "abstract": "A sensor assembly includes a sensor generating a sensor signal, an output unit and a condition unit receiving the sensor signal output from the sensor, and a test line connected to the sensor and the condition unit. The output unit outputs a signal output representative of a state detected by the sensor. The condition unit outputs a condition output representative of a condition of the sensor. The test line is bidirectional and outputs the condition output.",
+  "claims": "1. A sensor assembly, comprising: a sensor generating a sensor signal; an output unit generating: a main signal based upon the sensor signal; a baseline signal created by filtering or delaying the sensor signal; and a signal output representative of a state detected by the sensor based on the sensor signal, the output unit compares the main signal and the baseline signal to determine the state detected by the sensor; a condition unit receiving the sensor signal output from the sensor and outputting a condition output representative of a condition of the sensor, the condition output is independent of the signal output and represents one of a normal condition, a marginal condition, and a failure condition of the sensor, the condition unit compares the sensor signal to a plurality of thresholds to determine whether the condition of the sensor is the normal condition, the marginal condition, or the failure condition; and a test line connected to the sensor and the condition unit, the test line is bidirectional and outputs the condition output.",
+  "patent_id": "US12379403-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01R 19/0038",
+      "G01R 1/0408",
+      "G01R 19/0007"
+    ],
+    "all": [
+      "G01R 19/0038",
+      "G01R 1/0408",
+      "G01R 19/0007"
+    ],
+    "source": "converted"
+  }
+}

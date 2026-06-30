@@ -1,0 +1,40 @@
+{
+  "title": "Automated touchless registration for surgical navigation",
+  "abstract": "Systems and methods are disclosed for an automated touchless registration of patient anatomy for surgical navigation systems. An example method includes: acquiring a plurality of images of the patient; determining relevant objects from a plurality of poses; and processing the received images through a photogrammetry module. The photogrammetry module may provide camera calibration and facilitate camera registration. As such, manual movement or robotic movement capabilities of the camera head, and digital visualization capabilities of a digital surgical microscope disclosed herein can be extended to allow near-automated or fully automated touchless registration for traditional surgical navigation.",
+  "claims": "1. A surgical navigation system for patient registration comprising: a moveable arm; a visualization camera connected to the moveable arm, the visualization camera including at least one navigation camera trackable target mounted to a housing of the visualization camera; a navigation camera; and a computer system communicatively coupled to the visualization camera and the navigation camera, the computer system configured to: receive images of patient anatomy; solve for one or more camera parameters and one or more correction coefficients; for each received image, store, in a localizer space, a pose of the at least one navigation camera trackable target and a patient target, respectively as a Localizer_T_Camera-Target i transform and a Patient-Target_T_Localizer i transform; extract a model of the patient anatomy described in a photogrammetry reference frame using a photogrammetry module; solve for a camera optical reference frame pose relative to a photogrammetry reference frame to store as a Photogrammetry_T_Camera-Optical i transform; detect a target within the received image and use said target to set a scale; match the extracted model of the patient anatomy with a patient anatomy representation in patient data to obtain a Photogrammetry_T_Patient Data transform; and calculate, for each of the respective poses associated with the received image, a Patient-Target_T_Patient_Data i transform using the Patient-Target_T_Localizer i transform, the Localizer_T_Camera-Target i transform, a Camera-Target_T_Camera-Optical transform, the Photogrammetry_T_Camera-Optical i transform, and the Photogrammetry_T_Patient Data transform; average some or all of the Patient-Target_T_Patient_data i transforms of each of the respective poses associated with each of the received images to determine a single Patient-Target_T_Patient_Data transformation; and display, using the Patient-Target_T_Patient_Data i transformation, the patient data overlaid on live surgical images recorded by the visualization camera.",
+  "patent_id": "US12376915-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 34/20",
+      "A61B 34/10",
+      "A61B 34/32",
+      "G06T 7/0014",
+      "G06T 7/75",
+      "G06T 7/85",
+      "G06T 11/00",
+      "H04N 13/246",
+      "A61B 2034/105",
+      "A61B 2034/2057",
+      "G06T 2207/10012",
+      "G06T 2207/30004",
+      "G06T 2210/41"
+    ],
+    "all": [
+      "A61B 34/20",
+      "A61B 34/10",
+      "A61B 34/32",
+      "G06T 7/0014",
+      "G06T 7/75",
+      "G06T 7/85",
+      "G06T 11/00",
+      "H04N 13/246",
+      "A61B 2034/105",
+      "A61B 2034/2057",
+      "G06T 2207/10012",
+      "G06T 2207/30004",
+      "G06T 2210/41"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Optimized machining condition determination device",
+  "abstract": "The purpose of the present invention is to provide an assistance device that can more easily find optimal machining conditions. This assistance device comprises: a program management unit that associates verification results, which are obtained by verifying machining conditions using a plurality of verification functions, with a machining program and stores the verification results in a verification result storage unit; a determination unit that determines whether the verification results meet a target time value for a workpiece; and an advice unit that, if any of the verification results do not meet the target time value for the workpiece, proposes an adjustment to the machining conditions on the basis of the machining condition-associated information that pertains to the machining conditions for the workpiece, the verification results, and the verification functions.",
+  "claims": "1. An assistance device for determining machining conditions of a workpiece in an industrial machine that machines the workpiece based on a machining program, the assistance device comprising: a processor; and a memory, wherein the processor is configured to: store verification results verifying the machining conditions by a plurality of verification functions in the memory to be associated with the machining program; determine whether each verification result satisfies a time target value of the workpiece for machining the workpiece; and present a correction of the machining condition, based on machining condition-associated information related to the machining conditions of the workpiece, the verification result and the verification function, in a case of any of respective verification results not satisfying the time target values of the workpiece, wherein the memory stores the verification function corresponding to the verification result not satisfying the time target value of the workpiece and information prompting correction of the machining conditions corresponding to this verification function, to be associated as the machining condition-associated information, and wherein the processor is configured to control to output correction of machining conditions on a display based on the verification function corresponding to the verification result not satisfying the time target value of the workpiece and the information prompting correction of the machining conditions corresponding to this verification function, in the case of any of the respective verification results not satisfying the time target value of the workpiece.",
+  "patent_id": "US12379709-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05B 19/4068",
+      "G05B 2219/35012"
+    ],
+    "all": [
+      "G05B 19/4068",
+      "G05B 2219/35012"
+    ],
+    "source": "converted"
+  }
+}

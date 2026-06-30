@@ -1,0 +1,24 @@
+{
+  "title": "Image segmentation for anonymization for image processing",
+  "abstract": "An input image is divided into segments. The segments may be reassembled to reform the input image. The order of the segments may be stored in an encrypted database for which approved applications have the decryption key but users do not. This allows the approved applications to determine the order and reform the input image without allowing users to do the same. To further increase the difficulty of reforming the input image, the segments may be transformed. Example transformations include rotation and mirroring. The encrypted database may store an indication of the transformation applied to each segment. The effort of reforming the input image without access to the database is increased substantially. The reformed input image may be stored in transient memory only, without being stored to long-term storage. Thus, the reformed image cannot be accessed from a file system by unauthorized users.",
+  "claims": "1. A method comprising: accessing, by one or more processors, an image; segmenting, by the one or more processors, the image into a plurality of image segments, the plurality of image segments being usable to generate the image according to an original order, the plurality of image segments comprising a first image segment and a second image segment; transforming the first image segment using a first transformation; transforming the second image segment using a second transformation different than the first transformation; storing the image using a modified order of the plurality of image segments; and storing encrypted data indicating the original order of the plurality of image segments, the encrypted data indicating that the first transformation was applied to the first image segment and that the second transformation was applied to the second image segment.",
+  "patent_id": "US12380243-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/6254",
+      "G06F 21/6209",
+      "G06T 7/11",
+      "G06T 11/60",
+      "G06T 2207/20021"
+    ],
+    "all": [
+      "G06F 21/6254",
+      "G06F 21/6209",
+      "G06T 7/11",
+      "G06T 11/60",
+      "G06T 2207/20021"
+    ],
+    "source": "converted"
+  }
+}

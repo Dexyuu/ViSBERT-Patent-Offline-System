@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2025013015",
+  "application_id_fs": "WO2025013015",
+  "title": "System and method for selecting an online charging system (ocs)",
+  "abstract": "The present invention relates to a system (108) and a method (500) for selecting an Online charging System (OCS) (228) in a network (106). The method (500) includes steps of, identifying a user's home domain at an Internet Protocol Multimedia Subsystem Media Gateway (IPSMGW) (222) in a received Short Message Service (SMS). The method (400) further includes steps of, populating utilizing the IPSMGW (222) a request message with the identified user's home domain. The method (400) further includes steps of, transmitting utilizing the IPSMGW (222), the request message to the OCS (228) via a Diameter Routing Agent (DRA) (226), thereby routing the request to the OCS (228). The invention ensures accurate charging of user by seamlessly routing the request to the appropriate OCS, simplifying the charging process and reducing the manual intervention.",
+  "claims": "Claims We Claim: 1. A method (500) for selecting an Online Charging System (OCS), the method (500) comprises the steps of: identifying, by one or more processors (202), a user's home domain at an Internet Protocol Multimedia Subsystem Media Gateway (IPSMGW) (222) in a received Short message service (SMS); populating, by the one or more processors (202), utilizing the IPSMGW (222), a request message with the identified user's home domain; and transmitting, by the one or more processors (202), utilizing the IPSMGW (222), the request message to the OCS via a Diameter Routing Agent (DRA) (226), thereby routing the request to the OCS (228). 2. The method (500) as claimed in claim 1, wherein the one or more processors (202), identifies the user's home domain based on: receiving, the SMS from a user; transmitting, the received SMS to a Serving Call Session Control Function (SCSCF) (224); determining, utilizing the SCSCF (224), the user's home IPSMGW(222) based on the user's assigned home circle; transmitting, the SMS to the IPSMGW (222) via the (Session Initiation Protocol) SIP message; and identifying, the user's home domain at the IPSMGW (222). 3. The method (500) as claimed in claim 1, wherein the one or more processors (202) utilizing the SCSCF (224) facilitates at least one of, a call session control and routing within the telecom network (106). 4. The method (500) as claimed in claim 1, wherein the OCS (228) is a real-time charging and billing system within the telecom network (106), wherein the OCS \n\n (228) calculates charges for various services, including at least one of, SMS messages. 5. The method (500) as claimed in claim 1, wherein the one or more processors (202), enables the IPSMGW (222) to connect with the OCS (228) over an interface based on at least one of, a diameter protocol. 6. The method (500) as claimed in claim 1, wherein the one or more processors (202) integrates the IPSMGW (222) with the SCSCF (224) over an IP Service Control (ISC) interface. 7. The method (500) as claimed in claim 1, wherein the user's home domain is identified at the IPSMGW (222) based on the International Mobile Subscriber Identity (IMSI) which is received in the header of the SIP message in response to transmitting the SMS to the IPSMGW (222) via the SIP message. 8. The method (500) as claimed in claim 7, wherein the one or more processors (202) extracts the IMSI at the IPSMGW (222) from the header of the SIP message. 9. The method (500) as claimed in claim 1, wherein the request message includes a destination -realm Attribute Value Pair (A VP) which contains the realm of an operator domain, wherein the destination realm AVP is addressed with a domain address of a corresponding public Uniform Resource Identifier (URI). 10. A system (108) for selecting an Online Charging System (OCS), the system (108) comprising: an identification unit (206), configured to, identify, a user's home domain at an Internet Protocol Multimedia Subsystem Media Gateway (IPSMGW) (222) in a received Short message service (SMS); \n\n a populating unit (208), configured to, populate, utilizing the IPSMGW (222), a request message with the identified user's home domain; and a transceiver (210), configured to, transmit, utilizing the IPSMGW (222), the request message to the OCS (228) via a Diameter Routing Agent (DRA) (226), thereby routing the request to the OCS (228). 11. The system (108) as claimed in claim 10, wherein the identification unit (206) identifies the user's home domain based on: receiving, the SMS from a user; transmitting, the received SMS to a Serving Call Session Control Function (SCSCF) (224); determining, utilizing the SCSCF (224), the user's home IPSMGW (222) based on the user's assigned home circle; transmitting, the SMS to the IPSMGW (222) via the (Session Initiation Protocol) SIP message; and identifying, the userâs home domain at the IPSMGW (222). 12. The system (108) as claimed in claim 10, wherein a managing unit (212) of the system (108) utilizes the SCSCF (224) to facilitate at least one of, a call session control and routing within the telecom network (106). 13. The system (108) as claimed in claim 10, wherein the OCS (228) is a real-time charging and billing system within the telecom network (106), wherein the OCS (228) calculates charges for various services, including at least one of, SMS messages. 14. The system (108) as claimed in claim 10, wherein a connection establishing unit (216) of the system (108) enables the IPSMGW (222) to connect with the OCS (228) over an interface based on at least one of, a diameter protocol. 15. The system (108) as claimed in claim 10, wherein an integration unit (218) of the system (108) integrates the IPSMGW (222) with the SCSCF (224) over an IP Service Control (ISC) interface. 16. The system (108) as claimed in claim 10, wherein the user's home domain is identified at the IPSMGW (222) based on the International Mobile Subscriber Identity (IMSI) which is received in the header of the SIP message in response to transmitting the SMS to the IPSMGW (222) via the SIP message. 17. The system (108) as claimed in claim 16, wherein the identification unit (206) extracts the IMSI at the IPSMGW (222) from the header of the SIP message. 18. The system (108) as claimed in claim 10, wherein the request message includes a destination -realm Attribute Value Pair (A VP) which contains the realm of an operator domain, wherein the destination realm AVP is addressed with a domain address of a corresponding public Uniform Resource Identifier (URI). 19. A User Equipment (UE) (102), comprising: one or more primary processors (302) communicatively coupled to one or more processors (202), the one or more primary processors (302) coupled with a memory (304), wherein said memory (304) stores instructions which when executed by the one or more primary processors (302) causes the UE (102) to: transmit, the SMS by the user via a user interface (306) to the one or more processors (202) in order to avail one or more services; and wherein the one or more processors (202) is configured to perform the steps as claimed in claim 1. 20. A non-transitory computer-readable medium having stored thereon computer- readable instructions that, when executed by a processor (202), causes the processor (202) to: \n\n identify, a user's home domain at an Internet Protocol Multimedia Subsystem Media Gateway (IPSMGW) (222) in a received Short message service (SMS); populate, utilizing the IPSMGW (222), a request message with the identified user's home domain; and transmit, utilizing the IPSMGW (222), the request message (CCR) to the OCS (228) via a Diameter Routing Agent (DRA) (226), thereby routing the request to the OCS (228).",
+  "classifications": {
+    "ipc": [
+      "H04W 4/00",
+      "H04W 4/24",
+      "H04L 12/00",
+      "H04L 12/02",
+      "H04L 12/14",
+      "H04L 12/1425",
+      "H04M 15/00",
+      "H04M 15/57",
+      "H04M 15/63",
+      "H04M 15/64",
+      "H04M 15/80",
+      "H04M 15/8044",
+      "H04M 15/82",
+      "H04M 15/8221"
+    ],
+    "cpc": [],
+    "all": [
+      "H04W 4/00",
+      "H04W 4/24",
+      "H04L 12/00",
+      "H04L 12/02",
+      "H04L 12/14",
+      "H04L 12/1425",
+      "H04M 15/00",
+      "H04M 15/57",
+      "H04M 15/63",
+      "H04M 15/64",
+      "H04M 15/80",
+      "H04M 15/8044",
+      "H04M 15/82",
+      "H04M 15/8221"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025013015"
+}

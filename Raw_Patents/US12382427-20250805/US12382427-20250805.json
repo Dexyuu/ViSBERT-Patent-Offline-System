@@ -1,0 +1,22 @@
+{
+  "title": "Paging method and apparatus",
+  "abstract": "A paging method, includes: in response to determining that user equipment (UE) to which a Subscriber Identification Module (SIM) card to be paged belongs is multi-SIM user equipment and multiple SIM cards of the multi-SIM UE belong to a same network operator's network, determining a first base station accessed by the connected SIM card of the multi-SIM user equipment; and sending paging signaling for paging the SIM card to be paged to the first base station.",
+  "claims": "1. A paging method, applied to a core network device and comprising: receiving, by the core network device, User Equipment (UE) information of multi-SIM UE from a base station accessed by the multi-SIM UE, the UE information of the multi-SIM UE being firstly received by the base station from the multi-SIM UE through access stratum signaling; recording, by the core network device, the UE information of the multi-SIM UE in a local database; querying, by the core network device, a Subscriber Identification Module (SIM) card to be paged from the local database in response to determining that there is a need to page the SIM card to be paged; in case that the SIM card to be paged is found, determining, by the core network device, that UE to which the SIM card to be paged belongs is the multi-SIM UE and that multiple SIM cards of the multi-SIM UE belong to a same network operator's network; determining, by the core network device, a first base station currently being accessed by the multi-SIM UE; and sending, by the core network device to the first base station and an adjacent base station of the first base station, paging signaling for paging the SIM card to be paged; wherein the local database records the UE information of the multi-SIM UE of which multiple SIM cards belong to the same network operator's network; and the UE information of the multi-SIM UE comprises at least one of: International Mobile Subscriber Identification Numbers (IMSIs) of the SIM cards of the multi-SIM UE, or International Mobile Equipment Identities (IMEIs) corresponding to the SIM cards.",
+  "patent_id": "US12382427-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 68/005",
+      "H04W 8/26",
+      "H04W 28/0861",
+      "H04W 68/02"
+    ],
+    "all": [
+      "H04W 68/005",
+      "H04W 8/26",
+      "H04W 28/0861",
+      "H04W 68/02"
+    ],
+    "source": "converted"
+  }
+}

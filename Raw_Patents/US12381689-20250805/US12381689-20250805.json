@@ -1,0 +1,20 @@
+{
+  "title": "Interlaced feedback for sidelink communications via unlicensed channels",
+  "abstract": "Methods, systems, and devices for wireless communications are described. Multiple transmitting user equipments (UEs) may send sidelink data transmissions. Receiving sidelink UEs may map sidelink feedback interlaces corresponding to detected sidelink data transmissions to sidelink feedback resources of a common sidelink feedback symbol according to an interlace mapping rule (e.g., defining which contiguous or non-contiguous frequency resources the UE is to use for transmitting sidelink feedback for the received sidelink data messages). The receiving UEs may map one or more replicas of initial interlaces of sidelink feedback resources to additional available resources of the sidelink feedback resources in the common feedback symbol.",
+  "claims": "1. An apparatus for wireless communications at a user equipment (UE), comprising: one or more processors; one or more memories coupled with the one or more processors; and instructions stored in the one or more memories and executable by the one or more processors to cause the apparatus to: detect a first sidelink message on an unlicensed channel, the first sidelink message sharing a common sidelink feedback symbol; map a first set of sidelink feedback resources for a first interlace of one or more interlaces for each sidelink feedback associated with the first sidelink message according to an interlace mapping rule associated with sidelink feedback resources of the common sidelink feedback symbol; determine whether to allocate a second set of sidelink feedback resources for a second interlace of the one or more interlaces for sidelink feedback associated with the first sidelink message, wherein the second interlace is a replica of the first interlace associated with the first sidelink message, and wherein the first sidelink message is addressed to the UE; map the replica of the first interlace for the sidelink feedback associated with the first sidelink message to a second set of sidelink feedback resources of the common sidelink feedback symbol according to a replica mapping rule; transmit, during the common sidelink feedback symbol, sidelink feedback associated with the first sidelink message via the first interlace; and transmit, during the common sidelink feedback symbol, the sidelink feedback associated with the first sidelink message via the replica of the first interlace based at least in part on the determining.",
+  "patent_id": "US12381689-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/0053",
+      "H04W 16/14",
+      "H04W 92/18"
+    ],
+    "all": [
+      "H04L 5/0053",
+      "H04W 16/14",
+      "H04W 92/18"
+    ],
+    "source": "converted"
+  }
+}

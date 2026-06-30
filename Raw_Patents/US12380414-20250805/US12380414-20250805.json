@@ -1,0 +1,20 @@
+{
+  "title": "Method and apparatus for remittance service",
+  "abstract": "A method and apparatus for a remittance service are disclosed. An operation method of a server providing a remittance service includes receiving, from a remitter participating in an anonymous chatroom by using a first temporary profile, a request for a remittance to a second temporary profile participating in the anonymous chatroom, verifying a remittance qualification of an account of the remitter, generating remittance transaction information for remitting an amount corresponding to the remittance request to an account of a remittee corresponding to the second temporary profile, and transmitting, to the account of the remittee a remittance notification including information on the first temporary profile as remitter information.",
+  "claims": "1. An operation method of a server providing a remittance service between obfuscated participants of an anonymous chatroom of an instant messaging application, the operation method comprising: providing the anonymous chatroom to a first user device associated with a first user and a second user device associated with a second user by: assigning, to the first user device and for the anonymous chatroom, a first temporary profile comprising a first temporary name; assigning, to the second user device and for the anonymous chatroom, a second temporary profile comprising a second temporary name; causing the first user device to display the anonymous chatroom, wherein the anonymous chatroom is configured to associate messages sent from the first user device with the first temporary name; and causing the second user device to display the anonymous chatroom, wherein the anonymous chatroom is configured to associate messages sent from the second user device with the second temporary name; receiving, from the first user device and via the anonymous chatroom, a remittance request that comprises a selection of the second temporary name; identifying, based on the remittance request and based on mappings between temporary profiles and user accounts of the instant messaging application, a first user account corresponding to the first user and a second user account corresponding to the second user; verifying, based on authenticating the first user account corresponding to the first user, a remittance qualification of the first user; generating remittance transaction information, corresponding to the first temporary profile and the second temporary profile, that permits remittance of an amount corresponding to the remittance request; and transmitting, to the second user device, a remittance notification comprising information on the first temporary profile.",
+  "patent_id": "US12380414-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/10",
+      "G06Q 20/383",
+      "G06Q 20/4014"
+    ],
+    "all": [
+      "G06Q 20/10",
+      "G06Q 20/383",
+      "G06Q 20/4014"
+    ],
+    "source": "converted"
+  }
+}

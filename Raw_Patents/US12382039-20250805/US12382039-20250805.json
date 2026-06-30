@@ -1,0 +1,22 @@
+{
+  "title": "Coding process for geometric partition mode",
+  "abstract": "The present disclosure provides a method of coding implemented by a decoding device, the method comprising: obtaining a value of a splitting mode index for a current coding block; obtaining a value of an angle index for the current coding block according to the value of the splitting mode index value and a pre-stored table; setting a value of an index partIdx according to the value of the angle index; and storing motion information for the current coding block according to the value of the index partIdx.",
+  "claims": "1. A method of coding implemented by a decoding device, comprising: obtaining, by bypass, a value of a splitting mode index for a current coding block, wherein the splitting mode index is merge_gpm_partition_idx; obtaining a value of an angle index for the current coding block according to the value of the splitting mode index and a pre-defined table; setting a value of an index according to the value of the angle index; and storing motion information for the current coding block according to the value of the index.",
+  "patent_id": "US12382039-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/119",
+      "H04N 19/136",
+      "H04N 19/176",
+      "H04N 19/46"
+    ],
+    "all": [
+      "H04N 19/119",
+      "H04N 19/136",
+      "H04N 19/176",
+      "H04N 19/46"
+    ],
+    "source": "converted"
+  }
+}

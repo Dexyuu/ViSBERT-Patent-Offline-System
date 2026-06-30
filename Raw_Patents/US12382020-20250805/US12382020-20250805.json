@@ -1,0 +1,22 @@
+{
+  "title": "Image decoding method for deriving weight index information for biprediction, and device for same",
+  "abstract": "According to the disclosure of the present document, when the inter-prediction type of the current block indicates biprediction, weight index information for a candidate in a merge candidate list or sub-block merge candidate list can be derived, and coding efficiency can be raised.",
+  "claims": "1. An image decoding method performed by a decoding apparatus, the image decoding method comprising: receiving image information including inter prediction mode information through a bitstream; deriving an inherited affine candidate and a constructed affine candidate based on a neighboring block of a current block, based on the inter prediction mode information; generating a merge candidate list of the current block based on the inherited affine candidate and the constructed affine candidate; selecting one candidate from among candidates included in the merge candidate list; deriving motion information on the current block based on the selected candidate; generating L0 prediction samples and L1 prediction samples of the current block based on the motion information; and generating prediction samples of the current block based on the L0 prediction samples, the L1 prediction samples, and weight information, wherein the weight information is weight information for a bi-prediction and is derived based on a weight index for the selected candidate, wherein the constructed affine candidate includes control point motion vectors (CPMVs), and wherein based on a case that the constructed affine candidate is generated based on {CP0, CP1, CP3}, a weight index for the constructed affine candidate is derived based on a weight index for the CP0, wherein the CP0 is related to a top-left corner of the current block, the CP1 is related to a top-right corner of the current block and the CP3 is related to a bottom-right corner of the current block.",
+  "patent_id": "US12382020-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/105",
+      "H04N 19/132",
+      "H04N 19/159",
+      "H04N 19/176"
+    ],
+    "all": [
+      "H04N 19/105",
+      "H04N 19/132",
+      "H04N 19/159",
+      "H04N 19/176"
+    ],
+    "source": "converted"
+  }
+}

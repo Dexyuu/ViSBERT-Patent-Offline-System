@@ -1,0 +1,36 @@
+{
+  "title": "Systems and methods of using an artificially intelligent database management system and interfaces for mobile, embedded, and other computing devices",
+  "abstract": "Systems, devices, methods, and interfaces generally for use with database management systems (DBMSs) and DBMS interfaces (i.e. user interfaces, input interfaces, search interfaces, operating interfaces, etc.). In some aspects, the systems, devices, methods, and interfaces include using artificial intelligence (i.e. machine learning and/or anticipation functionalities, etc.) to learn a user's use of a DBMS or DBMS interface, store this âknowledgeâ in a knowledgebase, and anticipate the user's future operating intentions. In other aspects, the systems, devices, methods, and interfaces include disassembling user or other input into various types of portions (i.e. text, numbers, etc.) and determining one or more instructions for performing operations on a DBMS or DBMS interface based on the various types of portions. In further aspects, the systems, devices, methods, and interfaces include associative DBMS command construction. Other systems, devices, methods, interfaces, and features are also disclosed.",
+  "claims": "1. A system comprising: one or more processors; and one or more non-transitory machine readable media storing machine readable code that, when executed by the one or more processors, causes the one or more processors to implement at least a portion of a database management system (DBMS) interface, wherein the at least the portion of the DBMS interface is configured to: receive a user input for performing at least one DBMS operation; disassemble a first portion of the user input, the first portion of the user input including a text; disassemble a second portion of the user input, the second portion of the user input including a number; anticipate a first instruction set of a plurality of instruction sets for performing DBMS operations, wherein the anticipating the first instruction set is performed at least in response to a determination that: the first instruction set includes a portion comprising at least a plurality of characters of the text in the first portion of the user input, and the first instruction set includes a portion comprising a number that is less than, equal to, or greater than the number in the second portion of the user input; and at least in response to the anticipating the first instruction set, cause one or more DBMS operations at least partly defined by the first instruction set.",
+  "patent_id": "US12380116-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/24575",
+      "G06F 3/0481",
+      "G06F 3/04842",
+      "G06F 3/167",
+      "G06F 16/21",
+      "G06F 16/2379",
+      "G06F 16/252",
+      "G06F 16/284",
+      "G06F 16/8358",
+      "G06N 5/02",
+      "G06N 5/022"
+    ],
+    "all": [
+      "G06F 16/24575",
+      "G06F 3/0481",
+      "G06F 3/04842",
+      "G06F 3/167",
+      "G06F 16/21",
+      "G06F 16/2379",
+      "G06F 16/252",
+      "G06F 16/284",
+      "G06F 16/8358",
+      "G06N 5/02",
+      "G06N 5/022"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2025071934",
+  "application_id_fs": "WO2025071934",
+  "title": "Systems and methods for transmission and consumption of image data",
+  "abstract": "A system includes first integrated circuitry (52) to obtain first image data from a first camera (16), obtain second image data from a second camera (16), compress the first image data, and combine one or more frames of the second image data into a single frame (100). The first integrated circuitry (52) transmits the first image data in a compressed form (66) and transmits the second image data in an uncompressed form via the single frame via an image data transfer protocol connection. The system includes second integrated circuitry (54) configured to receive the first image data in the compressed form from the first integrated circuitry (52), decrypt the first image data, use the first image data for display on an electronic display coupled to the second integrated circuitry (54), receive the second image data via the single frame via the image data transfer protocol connection, and perform user authentication using the second image data.",
+  "claims": "Claims 1. A system comprising: first integrated circuitry configured to: obtain first image data from a first camera; obtain second image data from a second camera; compress the first image data; combine one or more frames of the second image data into a single frame; transmit the first image data in a compressed form; and transmit the second image data in an uncompressed form via the single frame via an image data transfer protocol connection; and second integrated circuitry configured to: receive the first image data in the compressed form from the first integrated circuitry; decrypt the first image data; use the first image data for display on an electronic display coupled to the second integrated circuitry; receive the second image data via the single frame via the image data transfer protocol connection; and perform user authentication using the second image data. 2. The system of claim 1, wherein the image data transfer protocol connection comprises a Low Power DisplayPort (LPDP) connection. 3. The system of claim 1, wherein the second image data corresponds to biometric data. 4. The system of claim 3, wherein the biometric data comprises iris identification data, continuity data, anti-spoofing data, or any combination thereof. 5. The system of claim 1, wherein the first image data comprises gaze tracking data. 6. The system of claim 1, wherein the first integrated circuitry is configured to combine the one or more frames of the second image data into the single frame via a compositor. 7. The system of claim 1, wherein each of the one or more frames of the second image data is encrypted to include a security signature. 8. The system of claim 7, comprising the second integrated circuitry configured to decrypt the security signature and perform authentication based on the second image data. 9. The system of claim 1, wherein the single frame comprises metadata, grid data, matting data, a gap, red, green, or blue (RGB) pixel arrangement data, or any combination thereof, associated with the second image data. 10. The system of claim 1, wherein the second camera is configured to operate in a security mode that causes the second camera to output a secure frame of the second image data comprising a security signature. 11. The system of claim 1, wherein the second image data is associated with one or both eyes. 12. First integrated circuitry comprising: a first camera configured to capture first image data; a second camera configured to capture second image data; a first image data transfer interface configured to receive the first image data and transmit a first portion of the first image data to streaming encoding or decoding circuitry and a second portion of the first image data to a compositor; and a second image data transfer interface configured to receive the second image data and transmit a first portion of the second image data to the streaming encoding or decoding circuitry and a second portion of the second image data to the compositor. 13. The first integrated circuitry of claim 12, wherein the streaming encoding or decoding circuitry is configured to compress the first portion of the first image data and the first portion of the second image data. 14. The first integrated circuitry of claim 13, wherein the streaming encoding or decoding circuitry is configured to transmit the compressed first portion of the first image data and the compressed first portion of the second image data to second integrated circuitry. 15. The first integrated circuitry of claim 12, wherein the compositor is configured to arrange one or more frames of the second portion of the first image data and one or more frames of the second portion of the second image data in a single frame. 16. The first integrated circuitry of claim 15, wherein the compositor is configured to transmit the single frame to second integrated circuitry via a Low Power DisplayPort (LPDP) connection. 17. The first integrated circuitry of claim 12, wherein the first portion of the first image data and the first portion of the second image data comprise gaze tracking data. 18. The first integrated circuitry of claim 12, wherein the second portion of the first image data and the second portion of the second image data comprise continuity data. 19. A system comprising: first integrated circuitry configured to: receive image data; obtain biometric data from the image data; transmit the image data via streaming encoding or decoding circuitry in a compressed form; and transmit the biometric data in an uncompressed form via a single frame. 20. The system of claim 19, wherein the single frame comprises two or more frames of the biometric data.",
+  "classifications": {
+    "ipc": [
+      "G06F 3/00",
+      "G06F 3/01",
+      "G06F 3/011",
+      "G06F 3/013",
+      "G06F 21/00",
+      "G06F 21/30",
+      "G06F 21/31",
+      "G06F 21/32",
+      "G06T 5/00",
+      "G06T 5/50",
+      "G06T 9/00",
+      "G06V 40/00",
+      "G06V 40/10",
+      "G06V 40/18",
+      "G06V 40/197",
+      "G06T 2207/00",
+      "G06T 2207/20"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 3/00",
+      "G06F 3/01",
+      "G06F 3/011",
+      "G06F 3/013",
+      "G06F 21/00",
+      "G06F 21/30",
+      "G06F 21/31",
+      "G06F 21/32",
+      "G06T 5/00",
+      "G06T 5/50",
+      "G06T 9/00",
+      "G06V 40/00",
+      "G06V 40/10",
+      "G06V 40/18",
+      "G06V 40/197",
+      "G06T 2207/00",
+      "G06T 2207/20"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025071934"
+}

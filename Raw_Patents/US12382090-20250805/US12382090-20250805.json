@@ -1,0 +1,36 @@
+{
+  "title": "Parameter map for machine-learned video compression",
+  "abstract": "A compression system trains a machine-learned compression model that includes components for an encoder and decoder. In one embodiment, the compression model is trained to receive parameter information on how a target frame should be encoded with respect to one or more encoding parameters, and encodes the target frame according to the respective values of the encoding parameters for the target frame. In particular, the encoder of the compression model includes at least an encoding system configured to encode a target frame and generate compressed code that can be transmitted by, for example, a sender system to a receiver system. The decoder of the compression model includes a decoding system trained in conjunction with the encoding system. The decoding system is configured to receive the compressed code for the target frame and reconstruct the target frame for the receiver system.",
+  "claims": "1. A method of encoding a video including a set of source frames, the method comprising: receiving, by a machine-learned compression model, a frame to be coded and a parameter map for the frame, the machine-learned compression model to output compressed code at a codelayer, wherein at least a portion of the machine-learned compression model is configured as a neural network including the codelayer; iteratively performing, for each current frame in the set of source frames: obtaining a respective parameter map for the current frame, and applying at least a portion of the machine-learned compression model including the codelayer to the current frame and the respective parameter map for the current frame to generate compressed code for the current frame, wherein the compressed code is generated at the same codelayer for different values of the parameter map; transmitting the compressed codes generated for the set of source frames to a receiver system; and performing an interpolation operation to generate the parameter map for the current frame that represents an interpolated value for an encoding parameter between the one or more values of the encoding parameter.",
+  "patent_id": "US12382090-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/52",
+      "G06N 3/04",
+      "G06N 3/08",
+      "H04N 19/105",
+      "H04N 19/114",
+      "H04N 19/149",
+      "H04N 19/166",
+      "H04N 19/172",
+      "H04N 19/176",
+      "H04N 19/30",
+      "H04N 19/65"
+    ],
+    "all": [
+      "H04N 19/52",
+      "G06N 3/04",
+      "G06N 3/08",
+      "H04N 19/105",
+      "H04N 19/114",
+      "H04N 19/149",
+      "H04N 19/166",
+      "H04N 19/172",
+      "H04N 19/176",
+      "H04N 19/30",
+      "H04N 19/65"
+    ],
+    "source": "converted"
+  }
+}

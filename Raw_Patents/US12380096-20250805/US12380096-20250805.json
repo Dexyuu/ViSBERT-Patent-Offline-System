@@ -1,0 +1,18 @@
+{
+  "title": "Natural language API for security graph exploration",
+  "abstract": "Disclosed are techniques for identifying security vulnerabilities in cloud computing resources. To investigate the configuration of cloud resources, a cloud map query is constructed based on a natural language sentence. In some configurations, a machine learning (ML) model converts the sentence to a structured sentence that conveys the intention of the natural language sentence but in machine readable form. The structured sentence is validated to ensure it represents a legal arrangement of cloud resources. The validated structured sentence is then used to generate a cloud map query. The cloud map query retrieves information about a client's cloud resources. In some configurations, query results are analyzed to identify security vulnerabilities and/or follow-up queries are suggested.",
+  "claims": "1. A method comprising: receiving a sentence expressed at least in part with natural language, wherein the sentence refers to a cloud resource of a cloud service; providing the sentence and a prompt context as input to a machine learning model, wherein the prompt context lists cloud resources and cloud resource connections available on the cloud service; receiving, from the machine learning model, a structured sentence derived from the sentence, wherein the structured sentence includes a reference to a cloud resource or a cloud resource connection listed in the prompt context; converting the structured sentence to a query that targets a cloud map, wherein the cloud map models a collection of cloud resources of the cloud service; and performing the query on the cloud map.",
+  "patent_id": "US12380096-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/243",
+      "G06F 16/2365"
+    ],
+    "all": [
+      "G06F 16/243",
+      "G06F 16/2365"
+    ],
+    "source": "converted"
+  }
+}

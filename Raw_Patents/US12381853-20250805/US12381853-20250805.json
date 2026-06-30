@@ -1,0 +1,20 @@
+{
+  "title": "System and method for protecting non-public information from malicious users",
+  "abstract": "A system for protecting non-public information from a malicious user determines a set of input data entered into a web application. The system determines whether each input data is associated with non-public information. In this process, the system compares each input data with each of a set of keywords that are known to be associated with non-public information. In response to determining that input data corresponds to a keyword, the system determines that the input data comprises non-public information. In response, the system masks the input data and tags an authentication instruction to the masked input data. The system may receive a request to unmask the masked input data. In response to receiving the request, the system executes the authentication instruction.",
+  "claims": "1. A system for protecting non-public information from a malicious user, comprising: a memory configured to store a keyword that is known to be associated with non-public information; a processor operably coupled with the memory, and configured to: determine that a set of input data is entered on a web application, wherein the set of input data comprises at least one of text or a number and wherein the set of input data comprises a first input data entered at a first data field of the web application; for at least the first input data from among the set of input data: extract a first feature from the first input data, wherein the first feature comprises an indication of a meaning of the first input data; extract a second feature from the keyword, wherein the second feature comprises an indication of a meaning of the keyword; compare the first feature to the second feature; determine that the first feature corresponds to the second feature; in response to determining that the first feature corresponds to the second feature: classify, by executing an artificial intelligence module, the first input data into a non-public data class based at least in part upon a tag associated with the first data field of the web application, wherein the tag designates the first data field to receive the non-public information; in response to classifying the first input data into a non-public data class, determine that the first input data corresponds to the non-public information; mask the first input data, wherein masking the first input data comprises preventing the first input data from being displayed; tag an authentication instruction to the masked first input data, such that when the authentication instruction is executed, the authentication instruction prompts a user to provide credentials; detect a request to unmask the masked first input data; and in response to detecting the request, execute the authentication instruction.",
+  "patent_id": "US12381853-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/0421",
+      "H04L 63/083",
+      "H04L 63/102"
+    ],
+    "all": [
+      "H04L 63/0421",
+      "H04L 63/083",
+      "H04L 63/102"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2017209863",
+  "application_id_fs": "WO2017209863",
+  "title": "Selective rule management based on traffic visibility in a tunnel",
+  "abstract": "One embodiment of the present invention provides a switch. The switch includes a storage device, a rule management module, an inner packet module, and a packet processor. During operation, the rule management module obtains a rule associated with a data flow within tunnel encapsulation of a tunnel. This rule indicates how the flow is to be processed at the switch. The rule management module then applies an initial rule to a respective line card of the switch. The initial rule is derived from a virtual network identifier, which is associated with the tunnel, of the obtained rule. The inner packet module determines that a first inner packet, which is encapsulated with a first encapsulation header, belongs to the flow without decapsulating the first encapsulation header. The rule management module applies the obtained rule to a line card associated with an ingress port of the encapsulated first inner packet.",
+  "claims": "Claims What Is Claimed Is: 1. A switch, comprising: rule management circuitry configured to: obtain a rule associated with a data flow within tunnel encapsulation of a tunnel, wherein the rule indicates how the flow is to be processed at the switch; and apply an initial rule to a respective line card of the switch, wherein the initial rule is derived from a virtual network identifier of the obtained rule, and the virtual network identifier associated with the tunnel; and inner packet circuitry configured to determine that a first inner packet, which is encapsulated with a first encapsulation header, belongs to the flow without decapsulating the first encapsulation header; and wherein the rule management circuitry is further configured to apply the obtained rule to a line card associated with an ingress port of the encapsulated first inner packet. 2. The switch of claim 1, wherein the rule management circuitry is further configured to: determine a previous hop for the encapsulated first inner packet from a local routing table; and identify a port associated with the previous hop as the ingress port from a local forwarding table. 3. The switch of claim 1 , wherein the rule management circuitry is further configured to select the first inner packet in response to matching the virtual network identifier. 4. The switch of claim 1, wherein the tunnel is a virtual extensible local area network (VXLAN) tunnel and the virtual network identifier is a VXLAN network identifier (VNI). 5. The switch of claim 1, wherein the switch is a member of a network of interconnected switches, which is identified based on a fabric identifier, wherein the network of interconnected switches operates as a tunnel endpoint for the tunnel. 6. The switch of claim 1, wherein obtaining the rule includes: inspecting an inner header of a second inner packet encapsulated with a second encapsulation header without decapsulating the second encapsulation header, wherein the \n\n encapsulation header is associated with the tunnel, and wherein the second inner packet belongs to the flow; and providing information associated with the inner header to a management entity capable of generating the rule. 7. The switch of claim 6, wherein the rule management circuitry is further configured to select the second inner packet for inspecting the inner header by sampling packets of the flow. 8. The switch of claim 6, wherein the rule management circuitry is further configured to incorporate information associated with the second inner packet in a tunnel information table. 9. The switch of claim 6, wherein the management entity is one of: a management application, an application virtual machine, and a controller of a software defined network (SDN). 10. The switch of claim 1, wherein the rule is one of: an access control list (ACL) applicable to a port of the switch; and a flow definition specifying how a flow is to be processed in the SDN, wherein the flow definition is provided by a controller of the SDN. 11. A method, comprising : obtaining, by a switch, a rule associated with a data flow within tunnel encapsulation of a tunnel, wherein the rule indicates how the flow is to be processed at the switch; applying an initial rule to a respective line card of the switch, wherein the initial rule is derived from a virtual network identifier of the obtained rule, and the virtual network identifier associated with the tunnel; determining that a first inner packet, which is encapsulated with a first encapsulation header, belongs to the flow without decapsulating the first encapsulation header; and applying the obtained rule to a line card associated with an ingress port of the encapsulated first inner packet. 12. The method of claim 11, further comprising: determining a previous hop for the encapsulated first inner packet from a local routing table; and identifying a port associated with the previous hop as the ingress port from a local \n\n forwarding table. 13. The method of claim 11, further comprising selecting the first inner packet in response to matching the virtual network identifier. 14. The method of claim 11, wherein the tunnel is a virtual extensible local area network (VXLAN) tunnel and the virtual network identifier is a VXLAN network identifier (VNI). 15. The method of claim 11, wherein the switch is a member of a network of interconnected switches, which is identified based on a fabric identifier, wherein the network of interconnected switches operates as a tunnel endpoint for the tunnel. 16. The method of claim 11, wherein obtaining the rule includes: inspecting an inner header of a second inner packet encapsulated with a second encapsulation header without decapsulating the second encapsulation header, wherein the encapsulation header is associated with the tunnel, and wherein the second inner packet belongs to the flow; and providing information associated with the inner header to a management entity capable of generating the rule. 17. The method of claim 16, further comprising selecting the second inner packet for inspecting the inner header by sampling packets of the flow. 18. The method of claim 16, further comprising incorporating information associated with the second inner packet in a tunnel information table. 19. The method of claim 16, wherein the management entity is one of: a management application, an application virtual machine, and a controller of a software defined network (SDN). 20. The method of claim 11, wherein the rule is one of: an access control list (ACL) applicable to a port of the switch; and a flow definition specifying how a flow is to be processed in the SDN, wherein the flow definition is provided by a controller of the SDN.",
+  "classifications": {
+    "ipc": [
+      "H04L 49/00",
+      "H04L 49/30",
+      "H04L 49/3009",
+      "H04L 12/00",
+      "H04L 12/28",
+      "H04L 12/46",
+      "H04L 12/4633",
+      "H04L 41/00",
+      "H04L 41/08",
+      "H04L 41/0894",
+      "H04L 41/0895",
+      "H04L 12/4604",
+      "H04L 2012/4629"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 49/00",
+      "H04L 49/30",
+      "H04L 49/3009",
+      "H04L 12/00",
+      "H04L 12/28",
+      "H04L 12/46",
+      "H04L 12/4633",
+      "H04L 41/00",
+      "H04L 41/08",
+      "H04L 41/0894",
+      "H04L 41/0895",
+      "H04L 12/4604",
+      "H04L 2012/4629"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017209863"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Core status management at power failure",
+  "abstract": "Embodiments herein relate to a power control unit (PCU) of an electronic device. The PCU may be configured to receive a power failure interrupt from an interrupt control block of the electronic device. The power failure interrupt may be generated based on or related to a power failure of the electronic device. In response to receipt of the power failure interrupt, and when a threshold number of processor cores related to the power failure is different than a number of awake processor cores of a set of processor cores of the electronic device, the PCU may transition a subset of processor cores of the set of processor cores to an awake state or a sleep state so that the number of awake processor cores is same as the threshold number of processor cores. Other embodiments may be described and/or claimed.",
+  "claims": "11. An electronic device comprising: an interrupt control block; a plurality of processor cores; and a power control unit (PCU) communicatively coupled with the interrupt control block and the plurality of processor cores, wherein the PCU is to: receive a power failure interrupt from the interrupt control block, wherein the power failure interrupt is generated based on a power failure of the electronic device; and in response to receipt of the power failure interrupt, and when a threshold number of processor cores related to the power failure is different than a number of awake processor cores of a set of processor cores of the electronic device, transition a subset of processor cores of the set of processor cores to an awake state or a sleep state so that the number of awake processor cores is same as the threshold number of processor cores.",
+  "patent_id": "US12379765-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 1/3287",
+      "G06F 1/30",
+      "G06F 1/3206"
+    ],
+    "all": [
+      "G06F 1/3287",
+      "G06F 1/30",
+      "G06F 1/3206"
+    ],
+    "source": "converted"
+  }
+}

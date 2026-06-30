@@ -1,0 +1,24 @@
+{
+  "title": "Method and apparatus for transmitting or receiving wireless signal in wireless communication system",
+  "abstract": "The present invention relates to a wireless communication system and, more particularly, to a method and an apparatus for same, the method comprising the steps of: receiving one or more first data in a first slot group; receiving one or more second data in a second slot group, wherein the first slot group and the second slot group are different from each other; receiving downlink control information including first information relating to a slot group for which A/N feedback is required; and transmitting, through an uplink control channel, A/N information relating to a slot group, indicated by the first information, among the first slot group and the second slot group.",
+  "claims": "1. A method performed by a base station, the method comprising: transmitting Downlink Control Information (DCI) scheduling a Physical Downlink Shared Channel (PDSCH) related to a first PDSCH group, wherein the DCI includes i) first information related to the first PDSCH group and ii) second information related to a number of PDSCH groups requiring a Hybrid Automatic Repeat Request ACKnowledgement (HARQ-ACK) feedback; transmitting the PDSCH based on the DCI; and receiving, through an uplink channel, first HARQ-ACK information related to the first PDSCH group based on the first information, wherein, based on the second information being related to a first value, only the first HARQ-ACK information related to the first PDSCH group, among the first HARQ-ACK information related to the first PDSCH group and second HARQ-ACK information related to the second PDSCH group, is received through the uplink channel, and wherein, based on the second information being related to a second value, the first HARQ-ACK information related to the first PDSCH group and the second HARQ-ACK information related to the second PDSCH group are received through the uplink channel.",
+  "patent_id": "US12382453-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/1273",
+      "H04L 5/0053",
+      "H04W 72/0446",
+      "H04W 72/20",
+      "H04W 72/21"
+    ],
+    "all": [
+      "H04W 72/1273",
+      "H04L 5/0053",
+      "H04W 72/0446",
+      "H04W 72/20",
+      "H04W 72/21"
+    ],
+    "source": "converted"
+  }
+}

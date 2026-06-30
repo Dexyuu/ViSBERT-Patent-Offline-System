@@ -1,0 +1,28 @@
+{
+  "application_id": "WO2025029506",
+  "application_id_fs": "WO2025029506",
+  "title": "Thread-local garbage collection",
+  "abstract": "Techniques are described herein for performing thread-local garbage collection. The techniques include automatic profiling and separation of private and shared objects, allowing for efficient reclamation of memory local to threads. In some embodiments, threads are assigned speculatively-private heaps within memory. Unless there is a prior indication that an allocation site yields shared objects, then a garbage collection system may assume and operate as if such allocations are private until proven otherwise. Object allocations in a private heap may violate the speculative state of the heap when reachable outside of the thread. When violations to the speculative state are detected, an indication may be generated to notify the garbage collection system, which may prevent thread-local memory reclamation operations until the speculative state is restored. The garbage collection system may learn from the violations to reduce the allocation of invalidly private objects and increase the efficiency of the garbage collection system.",
+  "claims": "Claims CLAIMS What is claimed is: 1. A method comprising: performing an object allocation within a private heap associated with a thread; detecting that the object allocation violates a speculative state where a garbage collection system operates as if objects in private heap are only reachable by the thread; responsive to detecting that the object allocation violates the speculative state, generating an indication that notifies the garbage collection system that the speculative state is violated; detecting a trigger for performing a thread-local garbage collection to reclaim memory from at least one private heap; responsive to detecting the trigger, determining, by the garbage collection system, whether to initiate the thread-local garbage collection based at least in part on the indication. 2. The method of Claim 1, wherein detecting that the object allocation violates the speculative state comprises: detecting that a pointer to a target object in the private heap does not originate from a source object in the private heap or from a thread associated with the private heap. 3. The method of Claim 1, wherein generating the indication comprises updating a global variable that indicates when the speculative state has been violated. 4. The method of Claim 3, wherein determining, by the garbage collection system, whether to initiate the thread-local garbage collection based at least in part on the indication comprises: determining whether to initiate the thread-local garbage collection based on a current value of the global variable; wherein a recovery process is configured to update the global variable when the speculative state has been restored. 5. The method of Claim 1, further comprising: adding allocation context information associated with the object allocation to a record of shared allocation sites; detecting a subsequent object allocation that has matching allocation context information stored in the record of shared allocation sites; and responsive to detecting that the subsequent allocation has matching allocation context information, performing the subsequent object allocation on a shared heap area. 6. The method of Claim 5, wherein the allocation context information includes at least one bytecode index and at least one method of a caller context extracted from one or more stack frames. 7. The method of Claim 5, wherein the allocation context information includes at least one program counter associated with an allocation site associated with the object allocation. 8. The method of Claim 1, wherein the at least one private heap is a different private heap than the private heap associated with the thread; wherein the indication notifies the garbage collection system that the speculative state is violated across multiple threads. 9. The method of Claim 1, further comprising: executing a recovery process that moves objects on the private heap that are not private to shared heap memory; and after executing the recovery process, updating the indication to restore the speculative state; and executing the thread-local garbage collection based at least in part on the indication that the speculative state is restored. 10. The method of Claim 9, wherein the thread-local garbage collection reclaims memory from a terminated thread from an associated private heap. 11. One or more computer-readable media storing instructions which, when executed by one or more hardware processors, cause performance of operations as recited in any of Claims 1-10. 12. A system comprising at least one hardware processor and configured to perform operations as recited in any of Claims 1-10. 13. A system comprising means for performing operations as recited in any of Claims 1-10.",
+  "classifications": {
+    "ipc": [
+      "G06F 12/00",
+      "G06F 12/02",
+      "G06F 12/0223",
+      "G06F 12/023",
+      "G06F 12/0253",
+      "G06F 12/0269"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 12/00",
+      "G06F 12/02",
+      "G06F 12/0223",
+      "G06F 12/023",
+      "G06F 12/0253",
+      "G06F 12/0269"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025029506"
+}

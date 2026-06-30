@@ -1,0 +1,18 @@
+{
+  "title": "Bridging between source applications and authorization systems",
+  "abstract": "Bridging between source applications and authorization systems is disclosed, including: monitoring an update across a set of source application servers; translating the update into a synthetic message using source application information associated with the set of source application servers and an attribute associated with a target authorization system; and sending the synthetic message to the target authorization system, wherein the target authorization system is configured to instruct an authorization action to be performed at one or more of the set of source application servers.",
+  "claims": "1. A system, comprising: a database configured to store source application information associated with a set of source application servers; and one or more processors configured to: monitor an update across the set of source application servers, wherein the update comprises a set of changes across two or more application servers; translate the update into a synthetic message using the source application information and an attribute associated with a target authorization system, wherein to translate the update comprises to: determine the set of changes comprises a pattern; and generate a cross-application synthetic message that combines the set of changes across the two or more application servers; and send the synthetic message to the target authorization system, wherein the target authorization system is configured to instruct an authorization action to be performed at one or more of the set of source application servers.",
+  "patent_id": "US12381882-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/102",
+      "H04L 63/20"
+    ],
+    "all": [
+      "H04L 63/102",
+      "H04L 63/20"
+    ],
+    "source": "converted"
+  }
+}

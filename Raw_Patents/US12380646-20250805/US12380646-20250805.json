@@ -1,0 +1,24 @@
+{
+  "title": "Accessing primitive data using tessellated primitive ID",
+  "abstract": "A method of generating identifiers (IDs) for primitives and optionally vertices during tessellation. The IDs include a binary sequence of bits that represents the sub-division steps taken during the tessellation process and so encodes the way in which tessellation has been performed. Such an ID may subsequently be used to generate a random primitive or vertex and hence recalculate vertex data for that primitive or vertex.",
+  "claims": "1. A tessellation unit configured to perform tessellation in a computer graphics system, the tessellation unit comprising hardware logic arranged to: generate a primitive ID for each primitive obtained by sub-dividing an initial patch, wherein the primitive ID encodes data comprising a sequence of bits, wherein each bit in the sequence of bits indicates which branch was taken at a respective one of a plurality of sub-division steps to generate the primitive during tessellation, and wherein each of the plurality of sub-division steps corresponds to a respective, single bit in the sequence of bits.",
+  "patent_id": "US12380646-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 17/20",
+      "G06T 15/005",
+      "G06T 17/005",
+      "G06T 17/10",
+      "G06T 2200/28"
+    ],
+    "all": [
+      "G06T 17/20",
+      "G06T 15/005",
+      "G06T 17/005",
+      "G06T 17/10",
+      "G06T 2200/28"
+    ],
+    "source": "converted"
+  }
+}

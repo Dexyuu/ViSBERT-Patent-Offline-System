@@ -1,0 +1,36 @@
+{
+  "application_id": "WO2025012715",
+  "application_id_fs": "WO2025012715",
+  "title": "Sub-mesh zippering",
+  "abstract": "A new SEI message for the V-DMC standard is described herein, the zippering SEI. The zippering SEI message can be used by the decoder for the mesh reconstruction, where in the case of multiple sub-meshes, the zippering SEI provides ways to reduce common artifacts caused by independent sub-mesh encoding, such as holes and cracks on the mesh surface.",
+  "claims": "Claims C L A I M S What is claimed is: 1. A method programmed in a non-transitory memory of a device comprising: determining one or more border points in one or more sub-meshes; selecting a zippering implementation from a plurality of mesh zippering implementations; and merging each of the one or more border points with a corresponding point based on the selected mesh zippering implementation. 2. The method of claim 1 wherein the plurality of mesh zippering implementations comprise: a defined search distance implementation; a maximum distance in all sub-meshes and all frames implementation; a maximum distance per frame implementation; a maximum distance per sub-mesh implementation; a maximum distance of each boundary vertex; and a matching index between two boundary vertices. 3. The method of claim 2 wherein the defined search distance implementation uses a user- defined search distance. 4. The method of claim 2 wherein the defined search distance implementation uses a computer-generated search distance using artificial intelligence and machine learning. 5. The method of claim 2 wherein the defined search distance implementation, the maximum distance in all sub-meshes and all frames implementation, the maximum \n\n distance per frame implementation, the maximum distance per sub-mesh implementation, and the maximum distance of each boundary vertex each include limiting a scope of a search for the point based on distance. 6. The method of claim 5 wherein the distance is a radius of a spherical search area. 7. The method of claim 1 wherein determining the one or more border points in the one or more sub-meshes includes determining each point on an edge that does not have two triangles connected to the edge. 8. An apparatus comprising: a non-transitory memory for storing an application, the application for: determining one or more border points in one or more sub-meshes; selecting a zippering implementation from a plurality of mesh zippering implementations; and merging each of the one or more border points with a corresponding point based on the selected mesh zippering implementation; and a processor coupled to the memory, the processor configured for processing the application. 9. The apparatus of claim 8 wherein the plurality of mesh zippering implementations comprise: a defined search distance implementation; a maximum distance in all sub-meshes and all frames implementation; a maximum distance per frame implementation; a maximum distance per sub-mesh implementation; \n\n a maximum distance of each boundary vertex; and a matching index between two boundary vertices. 10. The apparatus of claim 9 wherein the defined search distance implementation uses a user- defined search distance. 11. The apparatus of claim 9 wherein the defined search distance implementation uses a computer-generated search distance using artificial intelligence and machine learning. 12. The apparatus of claim 9 wherein the defined search distance implementation, the maximum distance in all sub-meshes and all frames implementation, the maximum distance per frame implementation, the maximum distance per sub-mesh implementation, and the maximum distance of each boundary vertex each include limiting a scope of a search for the point based on distance. 13. The apparatus of claim 12 wherein the distance is a radius of a spherical search area. 14. The apparatus of claim 8 wherein determining the one or more border points in the one or more sub-meshes includes determining each point on an edge that does not have two triangles connected to the edge. 15. A system comprising: an encoder configured for encoding content; and a decoder configured for: determining one or more border points in one or more sub-meshes; selecting a zippering implementation from a plurality of mesh zippering implementations; and \n\n merging each of the one or more border points with a corresponding point based on the selected mesh zippering implementation. 16. The system of claim 15 wherein the plurality of mesh zippering implementations comprise: a defined search distance implementation; a maximum distance in all sub-meshes and all frames implementation; a maximum distance per frame implementation; a maximum distance per sub-mesh implementation; a maximum distance of each boundary vertex; and a matching index between two boundary vertices. 17. The system of claim 16 wherein the defined search distance implementation uses a user- defined search distance. 18. The system of claim 16 wherein the defined search distance implementation uses a computer-generated search distance using artificial intelligence and machine learning. 19. The system of claim 16 wherein the defined search distance implementation, the maximum distance in all sub-meshes and all frames implementation, the maximum distance per frame implementation, the maximum distance per sub-mesh implementation, and the maximum distance of each boundary vertex each include limiting a scope of a search for the point based on distance. 20. The system of claim 19 wherein the distance is a radius of a spherical search area. 1. The system of claim 15 wherein determining the one or more border points in the one or more sub-meshes includes determining each point on an edge that does not have two triangles connected to the edge.",
+  "classifications": {
+    "ipc": [
+      "G06T 9/00",
+      "G06T 9/001",
+      "H04N 19/00",
+      "H04N 19/10",
+      "H04N 19/102",
+      "H04N 19/117",
+      "H04N 19/169",
+      "H04N 19/17",
+      "H04N 19/172",
+      "H04N 19/70"
+    ],
+    "cpc": [],
+    "all": [
+      "G06T 9/00",
+      "G06T 9/001",
+      "H04N 19/00",
+      "H04N 19/10",
+      "H04N 19/102",
+      "H04N 19/117",
+      "H04N 19/169",
+      "H04N 19/17",
+      "H04N 19/172",
+      "H04N 19/70"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025012715"
+}

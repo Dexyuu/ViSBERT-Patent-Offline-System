@@ -1,0 +1,24 @@
+{
+  "title": "Correlations between workload characteristics and elapsed times",
+  "abstract": "In some examples, a system receives a first collection of tokens relating to characteristics of workloads for a computing system. The system encodes the first collection of tokens, the encoding including computing weights representing relationships among tokens of the first collection of tokens, and generating a representation of the first collection of tokens based on the weights. The system determines, based on the representation, a correlation between the first collection of tokens and a second collection of tokens relating to elapsed times in executing the workloads.",
+  "claims": "1. A non-transitory machine-readable storage medium comprising instructions that upon execution cause a system to: receive a first collection of tokens relating to characteristics of workloads for a computing system; encode, by an encoder, the first collection of tokens to compute first weights representing relationships among tokens of the first collection of tokens; generate, by the encoder, a representation of the first collection of tokens based on the first weights; decode, by a decoder, a second collection of tokens to compute second weights representing relationships among tokens of the second collection of tokens, the second collection of tokens relating to elapsed times in executing the workloads; generate, by the decoder, a representation of the second collection of tokens based on the second weights; apply an attention function based on the representation of the first collection of tokens and the representation of the second collection of tokens, to produce third weights representing relationships among tokens of the first collection of tokens and tokens of the second collection of tokens; and determine, based on the third weights, relationships between the elapsed times and the characteristics of the workloads for resource allocation of resources of the computing system when executing the workloads.",
+  "patent_id": "US12381942-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 67/1008",
+      "G06F 11/3428",
+      "G06N 3/045",
+      "H04L 67/1027",
+      "H04L 67/1029"
+    ],
+    "all": [
+      "H04L 67/1008",
+      "G06F 11/3428",
+      "G06N 3/045",
+      "H04L 67/1027",
+      "H04L 67/1029"
+    ],
+    "source": "converted"
+  }
+}

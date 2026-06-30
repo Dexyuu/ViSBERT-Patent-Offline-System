@@ -1,0 +1,22 @@
+{
+  "title": "Moderation of user-generated content",
+  "abstract": "A system and method for updating and correcting facts that receives proposed values for facts from users and determines a correctness score which is used to automatically accept or reject the proposed values.",
+  "claims": "1. A computer-implemented method for moderating user-generated content, the method comprising: obtaining, by a computing system comprising one or more processors, proposed user-generated content for inclusion in an online database that is accessed from a web-based application; obtaining, by the computing system, metadata associated with a user providing the proposed user-generated content; processing, by the computing system, the proposed user-generated content with a reliability engine to generate a value unreliability score, wherein the reliability engine comprises one or more machine-learned models, wherein the value unreliability score is indicative of a probability that unreliable information has been provided; determining, by the computing system, the value unreliability score exceeds one or more thresholds; and in response to determining, by the computing system, the value unreliability score meets the one or more thresholds, storing, by the computing system, the proposed user-generated content in the online database.",
+  "patent_id": "US12380349-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 5/048",
+      "G06F 16/00",
+      "G09B 29/106",
+      "H04W 12/40"
+    ],
+    "all": [
+      "G06N 5/048",
+      "G06F 16/00",
+      "G09B 29/106",
+      "H04W 12/40"
+    ],
+    "source": "converted"
+  }
+}

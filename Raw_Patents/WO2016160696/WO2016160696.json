@@ -1,0 +1,46 @@
+{
+  "application_id": "WO2016160696",
+  "application_id_fs": "WO2016160696",
+  "title": "Pipe tracking system for drilling rigs",
+  "abstract": "A system for a drilling rig, a computer-readable medium, and a method for tracking an oilfield tubular. The method includes applying a tag to the oilfield tubular, the tag including a readable tag identifier, determining a physical parameter of the oilfield tubular, storing data representing the physical parameter in association with the tag identifier in a database, reading the tag identifier from the tag applied to the oilfield tubular, prior to deploying the oilfield tubular into a wellbore, and generating a pipe tally comprising data representing a plurality of oilfield tubulars, including the oilfield tubular, connected together and deployed into the wellbore using a drilling rig.",
+  "claims": "Claims CLAIMS What is claimed is: 1. A method for tracking an oilfield tubular, comprising: applying a tag to the oilfield tubular, the tag comprising a readable tag identifier; determining a physical parameter of the oilfield tubular; storing data representing the physical parameter in association with the tag identifier in a database; reading the tag identifier from the tag applied to the oilfield tubular, prior to deploying the oilfield tubular into a wellbore; and generating a pipe tally comprising data representing a plurality of oilfield tubulars, including the oilfield tubular, connected together and deployed into the wellbore using a drilling rig. 2. The method of claim 1, wherein applying the tag comprises applying the tag when the oilfield tubular is being moved from a pipe rack to a top drive of the drilling rig. 3. The method of claim 1, further comprising: removing the tag from the oilfield tubular after reading the tag identifier; and deploying the oilfield tubular into the wellbore, after removing the tag. 4. The method of claim 1, wherein reading the tag identifier comprises reading the tag identifier prior to connecting the oilfield tubular to the plurality of oilfield tubulars deployed into the wellbore. 5. The method of claim 1, wherein the tag is non-ruggedized, such that the tag is configured to be rendered inoperative when the oilfield tubular is in the wellbore. 6. The method of claim 1, further comprising: deploying the oilfield tubular into the wellbore after reading the tag identifier; removing the oilfield tubular from the wellbore; applying a second tag to the oilfield tubular after removing the oilfield tubular from the wellbore; reading a second tag identifier from the second tag; and replacing the tag identifier with the second tag identifier in the database. 7. The method of claim 1, wherein constructing the pipe tally comprises identifying each oilfield tubular in sequence relative to others of the plurality of oilfield tubulars deployed into the wellbore. 8. The method of claim 1, wherein the tag comprises a radiofrequency identification tag, and wherein applying the tag comprises adhering the tag to the oilfield tubular, prior to attaching the oilfield tubular to the plurality of oilfield tubulars. 9. The method of claim 1 , wherein applying the tag comprises painting a portion of the oilfield tubular. 10. The method of claim 1, wherein applying the tag comprises magnetizing a portion of the oilfield tubular. 11. The method of claim 1, wherein applying the tag comprises engraving the oilfield tubular. 12. The method of claim 1, wherein the oilfield tubular comprises a drill pipe. 13. The method of claim 1, further comprising determining a position of the oilfield tubular in the wellbore based on the pipe tally and a geometry of the wellbore, wherein the physical parameter comprises at least one parameter selected from the group consisting of: fatigue life, running time in the wellbore, and a loading condition of the oilfield tubular in the wellbore. 14. The method of claim 13, wherein the determining the physical parameter comprises calculating the physical parameter based at least in part on the position of the pipe in the wellbore. 15. The method of claim 14, further comprising: selecting a position for the pipe in a drill string based on the fatigue life associated therewith; and determining an order for the pipe in a second string of tubulars based on the fatigue life. 16. The method of claim 13, further comprising: comparing the fatigue life to a threshold; and retiring the oilfield tubular when the fatigue life exceeds the threshold. 17. A system for a drilling rig, the system comprising: one or more processors; and a memory system comprising one or more non-transitory, computer-readable media storing instructions that, when executed by at least one of the one or more processors, cause the system to perform operations, the operations comprising: applying a tag to the oilfield tubular, the tag comprising a readable tag identifier; determining a physical parameter of the oilfield tubular; storing data representing the physical parameter in association with the tag identifier in a database; reading the tag identifier from the tag applied to the oilfield tubular, prior to deploying the oilfield tubular into a wellbore; and generating a pipe tally comprising data representing a plurality of oilfield tubulars, including the oilfield tubular, connected together and deployed into the wellbore using the drilling rig. 18. The system of claim 17, wherein the operations further comprise: deploying the oilfield tubular into the wellbore after reading the tag identifier; removing the oilfield tubular from the wellbore; \n\n applying a second tag to the oilfield tubular after removing the oilfield tubular from the wellbore; reading a second tag identifier from the second tag; and replacing the tag identifier with the second tag identifier in the database. 19. The system of claim 17, wherein the operations further comprise determining a position of the oilfield tubular in the wellbore based on the pipe tally and a geometry of the wellbore, wherein the physical parameter comprises at least one parameter selected from the group consisting of: fatigue life, running time in the wellbore, and a loading condition of the oilfield tubular in the wellbore, and wherein determining the physical parameter comprises calculating the physical parameter based at least in part on the position of the pipe in the wellbore. 20. The system of claim 19, wherein the operations further comprise: selecting a position for the pipe in a drill string based on the fatigue life associated therewith; and determining an order for the pipe in a second string of tubulars based on the fatigue life. 21. The system of claim 20, wherein the operations further comprise: comparing the fatigue life to a threshold; and retiring the oilfield tubular when the fatigue life exceeds the threshold. 22. A non-transitory computer-readable medium storing instructions that, when executed by one or more processors of a computing system, cause the computing system to perform operations, the operations comprising: applying a tag to the oilfield tubular, the tag comprising a readable tag identifier; determining a physical parameter of the oilfield tubular; storing data representing the physical parameter in association with the tag identifier in a database; reading the tag identifier from the tag applied to the oilfield tubular, prior to deploying the oilfield tubular into a wellbore; and \n\n generating a pipe tally comprising data representing a plurality of oilfield tubulars, including the oilfield tubular, connected together and deployed into the wellbore using a drilling rig.",
+  "classifications": {
+    "ipc": [
+      "G01V 15/00",
+      "E21B 17/00",
+      "E21B 17/006",
+      "E21B 41/00",
+      "E21B 40/00",
+      "E21B 47/00",
+      "E21B 47/04",
+      "E21B 21/00",
+      "E21B 21/08",
+      "E21B 44/00",
+      "E21B 44/02",
+      "E21B 44/04",
+      "E21B 7/00",
+      "E21B 7/04",
+      "G06K 19/00"
+    ],
+    "cpc": [],
+    "all": [
+      "G01V 15/00",
+      "E21B 17/00",
+      "E21B 17/006",
+      "E21B 41/00",
+      "E21B 40/00",
+      "E21B 47/00",
+      "E21B 47/04",
+      "E21B 21/00",
+      "E21B 21/08",
+      "E21B 44/00",
+      "E21B 44/02",
+      "E21B 44/04",
+      "E21B 7/00",
+      "E21B 7/04",
+      "G06K 19/00"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2016160696"
+}

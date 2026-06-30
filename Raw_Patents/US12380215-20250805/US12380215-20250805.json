@@ -1,0 +1,18 @@
+{
+  "title": "Cyber security boot status markers",
+  "abstract": "Boot status markers record historical boot processes performed by a computer system. Each time the computer system boots, an operating system performs a boot process and interfaces with an antimalware driver. The antimalware driver determines the boot status markers that were set during previous boot processes. The antimalware driver may then classify other drivers based on the boot status markers set during the previous boot processes. The antimalware driver may then report driver classifications to the operating system. The operating system may then block, or allow, the drivers based on the driver classifications.",
+  "claims": "1. A method that classifies a boot-start driver, comprising: determining, by an antimalware driver during a current boot process associated with an operating system, a boot status marker set during a previous boot process; determining, by the antimalware driver during the current boot process, a driver classification associated with the boot-start driver, the driver classification based on the boot status marker set during the previous boot process; and reporting, by the antimalware driver during the current boot process, the driver classification to the operating system.",
+  "patent_id": "US12380215-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/575",
+      "G06F 2221/033"
+    ],
+    "all": [
+      "G06F 21/575",
+      "G06F 2221/033"
+    ],
+    "source": "converted"
+  }
+}

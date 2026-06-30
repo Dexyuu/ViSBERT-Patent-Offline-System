@@ -1,0 +1,22 @@
+{
+  "title": "Audio automatic mixer with frequency weighting",
+  "abstract": "A method is provided that is performed at a system including multiple speech collectors to collect speech from a talker to produce corresponding ones of multiple audio signals that each convey speech energy: for each audio signal: separating high-frequency speech energy from low-frequency speech energy; and determining a first energy level of the high-frequency speech energy; and determining a preferred audio signal among the multiple audio signals for subsequent processing at least based on the first energy level of each audio signal.",
+  "claims": "1. A method comprising: at a controller of a system that includes speech collectors to convert speech from a talker to corresponding ones of audio signals that each convey speech energy: performing signal processing on each audio signal by: filtering the speech energy into high-frequency speech energy and low-frequency speech energy; determining a high-frequency energy level of the high-frequency speech energy; determining a low-frequency energy level of the low-frequency speech energy; normalizing the high-frequency energy level with respect to a first sum of the high-frequency speech energy across the audio signals, to produce a normalized high-frequency energy level; normalizing the low-frequency energy level with respect to a second sum of the low-frequency speech energy across the audio signals, to produce a normalized low-frequency energy level; weighting each of the normalized high-frequency energy level and the normalized low-frequency energy level to produce a weighted normalized high-frequency energy level and a weighted normalized low-frequency energy level; and summing the weighted normalized high-frequency energy level and the weighted normalized low-frequency energy level to produce an individual energy level; and selecting as a preferred audio signal whichever of the audio signals has a highest individual energy level for encoding into a data packet.",
+  "patent_id": "US12380912-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 21/0308",
+      "G10L 25/18",
+      "H04R 3/005",
+      "H04R 5/04"
+    ],
+    "all": [
+      "G10L 21/0308",
+      "G10L 25/18",
+      "H04R 3/005",
+      "H04R 5/04"
+    ],
+    "source": "converted"
+  }
+}

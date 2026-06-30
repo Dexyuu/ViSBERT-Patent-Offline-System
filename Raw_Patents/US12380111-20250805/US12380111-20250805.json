@@ -1,0 +1,20 @@
+{
+  "title": "Fingerprints for database queries",
+  "abstract": "In some examples, a system identifies sub-portions of a database query, assigns identifiers to the identified sub-portions, and adds the identifiers to a data structure. The system generates a fingerprint representing the database query based on applying a fingerprint function on the data structure including the identifiers.",
+  "claims": "1. A method, comprising: parsing a first database query into sub-portions; assigning identifiers to the sub-portions; applying a function to the identifiers, wherein the function is based on at least one of: a fingerprint function; a hash function; a cryptographic hash function; or a randomization function; generating a fingerprint unique to the first database query based on an outcome of applying the function; identifying a second identical database query based on the generated fingerprint; and performing a process associated with the second identical database query.",
+  "patent_id": "US12380111-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/24561",
+      "G06F 11/3414",
+      "G06F 16/2425"
+    ],
+    "all": [
+      "G06F 16/24561",
+      "G06F 11/3414",
+      "G06F 16/2425"
+    ],
+    "source": "converted"
+  }
+}

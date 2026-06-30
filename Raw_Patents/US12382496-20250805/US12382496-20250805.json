@@ -1,0 +1,18 @@
+{
+  "title": "Unslotted CSMACA optimization method and devices in Wi-SUN using reinforcement learning",
+  "abstract": "An unslotted CSMA/CA optimization device includes a variable initializing unit performing variable initialization used in an algorithm for unslotted CSMA/CA optimization; an exploration and exploitation selecting unit determining exploration/exploitation using an epsilon greedy algorithm; an action selecting unit selecting an action having the best Q-value, among actions, when exploitation is selected, and randomly selecting an action when exploration is selected; a channel information collecting unit executing backoff when an action (backoff time) is selected, repeatedly executing CCA during the backoff time, and counting the number of times a channel is idle and the number of times the channel is busy; a success rewarding unit transmitting a packet when the channel is idle and rewarding success when acknowledge (Ack) is received; and a Q-table updating unit checking the received reward and updating a Q-table based on an action, a state, and a reward.",
+  "claims": "1. An unslotted CSMA/CA optimization device in a wireless smart utility network (Wi-SUN) using reinforcement learning, the unslotted CSMA/CA optimization device comprising: a variable initializing unit performing variable initialization used in an algorithm for unslotted CSMA/CA optimization; an exploration and exploitation selecting unit determining exploration/exploitation using an epsilon greedy algorithm; an action selecting unit selecting an action having a best Q-value, among actions, when exploitation is selected, and randomly selecting an action when exploration is selected; a channel information collecting unit executing backoff when an action (backoff time) is selected, repeatedly executing channel clear access (CCA) during the backoff time, and counting a number of times a channel is idle and a number of times the channel is busy; a success rewarding unit transmitting a packet when the channel is idle and rewarding success when acknowledge (Ack) is received; and a Q-table updating unit checking the received reward and updating a Q-table based on an action, a state, and a reward, wherein, a state is determined by an accumulation of Ni (the number of channel idle) and Nb (the number of channel busy) and is a value calculated when continuous CCA is performed, and each agent (each node) obtains usage information of a channel at a timing for transmitting a packet as macIdleSum=macIdleSum/2+Ni/2 and macBusySum=macBusySum/2+Nb/2, wherein Ni is the number of idle times of the channel measured from CCA performed during backoff time, Nb is the number of channel busy times measured from CCA performed during backoff time, macIdleSum is the number of channel idle times updated and maintained through Ni in the device, and macBusySum is the number of channel busy times updated and maintained through Nb in the device, and wherein the state has a total of 11 states from 0 to 10, and a size of the Q-Table is action(64)*state(11), and is defined as",
+  "patent_id": "US12382496-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 74/0816",
+      "H04W 24/02"
+    ],
+    "all": [
+      "H04W 74/0816",
+      "H04W 24/02"
+    ],
+    "source": "converted"
+  }
+}

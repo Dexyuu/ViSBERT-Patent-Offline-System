@@ -1,0 +1,30 @@
+{
+  "title": "Modified demura algorithm for display panels",
+  "abstract": "An example method includes measuring, from a device having a display panel, a plurality of luminance values for a plurality of pixels located along a cross-section of the display panel. The method includes selecting, based on the measured luminance values, a target luminance value. The method includes determining a luminance compensation profile for the input gray level at the given refresh rate. The luminance compensation profile comprises ratios of the measured plurality of luminance values to the target luminance value. The method includes storing, at the device, the luminance compensation profile. Subsequent to the storing, the device is configured to adjust input display data using the luminance compensation profile for an input gray level when the display panel is providing a display. The luminance compensation profile maintains a color uniformity of the display.",
+  "claims": "1. A method comprising: measuring, from a device having a display panel and for an input gray level at a given refresh rate, a plurality of luminance values of the display panel for a plurality of pixels located along a cross-section of the display panel; selecting, based on the measured plurality of luminance values, a target luminance value for the display panel; determining a luminance compensation profile for the input gray level at the given refresh rate, wherein the luminance compensation profile comprises ratios of the measured plurality of luminance values to the target luminance value; and storing, at the device, the luminance compensation profile for the input gray level at the given refresh rate, wherein subsequent to the storing, the device is configured to adjust input display data using the luminance compensation profile for the input gray level when the display panel is providing a display, and wherein the luminance compensation profile maintains a color uniformity of the display.",
+  "patent_id": "US12380828-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/2003",
+      "G09G 2320/0233",
+      "G09G 2320/0242",
+      "G09G 2320/0247",
+      "G09G 2320/0673",
+      "G09G 2340/0435",
+      "G09G 2360/144",
+      "G09G 2360/16"
+    ],
+    "all": [
+      "G09G 3/2003",
+      "G09G 2320/0233",
+      "G09G 2320/0242",
+      "G09G 2320/0247",
+      "G09G 2320/0673",
+      "G09G 2340/0435",
+      "G09G 2360/144",
+      "G09G 2360/16"
+    ],
+    "source": "converted"
+  }
+}

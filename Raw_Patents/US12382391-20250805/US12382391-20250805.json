@@ -1,0 +1,20 @@
+{
+  "title": "Method for operating terminal when DCI is not detected",
+  "abstract": "According to the present specification, a fallback operation for when a terminal has not detected a DCI is newly proposed.",
+  "claims": "1. A method comprising: performing, by a user equipment (UE) to which a primary cell and multiple secondary cells are configured, monitoring for downlink control information (DCI), wherein the DCI includes a wake-up indication, wherein the DCI is scrambled by a power saving-radio network temporary identifier (PS-RNTI); and performing, by the UE, a default operation for the multiple secondary cells based on that the DCI is not detected by the monitoring, wherein a higher layer signal received by the UE from a network informs the UE of the default operation which is operated per each of the multiple secondary cells, wherein the default operation is configured for each of the multiple secondary cells, wherein the default operation is a dormancy operation or a non-dormancy operation, and wherein based on that the DCI is not detected by the monitoring, the UE skips an aperiodic channel state information (CSI) report on a first secondary cell in which the dormancy operation is configured as the default operation among the multiple secondary cells, and performs the aperiodic CSI report on a second secondary cell in which the non-dormancy operation is configured as the default operation among the multiple secondary cells.",
+  "patent_id": "US12382391-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 52/0225",
+      "H04W 72/23",
+      "H04W 76/28"
+    ],
+    "all": [
+      "H04W 52/0225",
+      "H04W 72/23",
+      "H04W 76/28"
+    ],
+    "source": "converted"
+  }
+}

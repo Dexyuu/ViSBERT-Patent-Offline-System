@@ -1,0 +1,18 @@
+{
+  "title": "Method, computing device, and computer-readable medium for providing guide information on contour information of object included in image in crowdsourcing",
+  "abstract": "The present invention relates to a method, a computing device, and a computer-readable medium for providing guide information on contour information of an object included in an image in crowdsourcing, and more particularly, to a method, a computing device, and a computer-readable medium for providing guide information on contour information of an object included in an image in crowdsourcing, in which guide information for a region set by a worker is generated and displayed on an image when the worker receiving the image corresponding to a work through the crowdsourcing performs labeling of setting the region of the object included in the image, thereby providing a guide on an accurate level required to be set for the region of the object.",
+  "claims": "1. A method of providing guide information on contour information of an object included in an image provided as a work in crowdsourcing performed on a computing device including at least one processor and at least one memory, the method comprising: an image display step of displaying an image including at least one unit task; a contour information input step of receiving, from a user, contour information of the object corresponding to the unit task included in the image, wherein the contour information received by the user is displayed as a closed curve; a guide information generation step of generating guide information corresponding to a shape of the closed curve of the contour information based on a preset guide generation value; and a guide information display step of displaying the guide information inside the contour information inputted for the object, wherein the guide information generation step includes generating guide information having a closed curve identical to the shape of the closed curve displayed as the contour information, and an area value of a closed curve according to the following [Equation 1]: Area value of closed curve=area value of closed curve displayed as the contour information*guide generation value (wherein,0<guide generation value<1).  [Equation 1]",
+  "patent_id": "US12380668-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/46",
+      "G06T 7/62"
+    ],
+    "all": [
+      "G06V 10/46",
+      "G06T 7/62"
+    ],
+    "source": "converted"
+  }
+}

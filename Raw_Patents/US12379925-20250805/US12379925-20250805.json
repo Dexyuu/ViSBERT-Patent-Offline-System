@@ -1,0 +1,22 @@
+{
+  "title": "Exposing valid byte lanes as vector predicates to CPU",
+  "abstract": "A streaming engine employed in a digital data processor specifies a fixed read only data stream. Once fetched data elements in the data stream are disposed in lanes in a stream head register in the fixed order. Some lanes may be invalid, for example when the number of remaining data elements are less than the number of lanes in the stream head register. The streaming engine automatically produces a valid data word stored in a stream valid register indicating lanes holding valid data. The data in the stream valid register may be automatically stored in a predicate register or otherwise made available. This data can be used to control vector SIMD operations or may be combined with other predicate register data.",
+  "claims": "1. A device comprising: a register file configured to store a first set of data values; a predicate register file; a set of functional units coupled to the register file and the predicate register file; and a memory control circuit coupled to the set of functional units, the register file, and the predicate register file, wherein: the set of functional units is configured to: perform a first operation on the first set of data values; based on the first operation, store a first predicate value in the predicate register file; and request a second set of data values from the memory control circuit; and the memory control circuit is configured to, based on the requesting by the set of functional units: provide a third set of data values; and cause a second predicate value to be stored in the predicate register file, wherein the second predicate value specifies whether the third set of data values includes a valid portion of the second set of data values.",
+  "patent_id": "US12379925-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/30038",
+      "G06F 9/3004",
+      "G06F 9/30072",
+      "G06F 9/3013"
+    ],
+    "all": [
+      "G06F 9/30038",
+      "G06F 9/3004",
+      "G06F 9/30072",
+      "G06F 9/3013"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Machine learning based media content annotation",
+  "abstract": "Systems and techniques are described herein for annotating media content. For example, a process can include obtaining media content and generate, use one or more machine learning models, a metadata file for at least a portion of the media content. The metadata file includes one or more metadata descriptions. The process can include generating a text description of the media content based on the one or more metadata descriptions of the metadata file. The process can include annotating the media content use the text description.",
+  "claims": "13. A system for annotating media content, including: a memory; and one or more processors coupled to the memory and configured to: obtain media content; generate, using one or more machine learning models, a metadata file for at least a portion of the media content, the metadata file including one or more metadata descriptions; generate a plurality of sentences using the one or more metadata descriptions; determine, using a machine learning model, a corresponding sentiment associated with each sentence of the plurality of sentences; compare the corresponding sentiment associated with each sentence of the plurality of sentences to a sentiment associated with at least the portion of the media content; determining a subset of sentences from among the plurality of sentences to generate a text description of a scene, wherein the subset of sentences are within a sentiment threshold of the sentiment associated with at least the portion of the media content; and annotate the media content use the text description of the scene of the media content.",
+  "patent_id": "US12382115-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/2353",
+      "G06N 20/00",
+      "G06V 20/47",
+      "H04N 21/26603"
+    ],
+    "all": [
+      "H04N 21/2353",
+      "G06N 20/00",
+      "G06V 20/47",
+      "H04N 21/26603"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Mitigating malicious network traffic",
+  "abstract": "Disclosed herein are system, method, and computer program product embodiments for mitigating malicious network traffic. A computing device (e.g., a network management device, a control device, etc.) may receive indications of data/information communicated by one or more devices within a network and cause the one or more devices to implement measures to block malicious traffic resulting from multi-vector cyberattacks.",
+  "claims": "1. A computer-implemented method for mitigating malicious network traffic, comprising: determining, by a computing device, a respective source address for each data packet of a plurality of data packets; blocking, based on the respective source address for each data packet of a first portion of the plurality of data packets indicating a prohibited source address, the first portion of the plurality of data packets; blocking, based on a source address indicated by each data packet of a second portion of the plurality of data packets and a communication request threshold, the second portion of the plurality of data packets; blocking, based on a respective destination address of each data packet of a third portion of the plurality of data packets and an access control list, the third portion of the plurality of data packets; blocking, based on a respective size of each data packet of a fourth portion of the plurality of data packets and a packet size threshold, the fourth portion of the plurality of data; blocking, based on respective content of each data packet of a fifth portion of the plurality of data packets indicating a restricted content type, the fifth portion of the plurality of data packets; causing, based on a destination address of other data packets of the plurality of data packets, the other data packets to be sent to a user device; and causing, based on traffic profile information and a parameter indicated by a header of a data packet of the other data packets, the user device to block the data packet.",
+  "patent_id": "US12381898-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1425",
+      "H04L 63/0236",
+      "H04L 63/1416",
+      "H04L 63/145"
+    ],
+    "all": [
+      "H04L 63/1425",
+      "H04L 63/0236",
+      "H04L 63/1416",
+      "H04L 63/145"
+    ],
+    "source": "converted"
+  }
+}

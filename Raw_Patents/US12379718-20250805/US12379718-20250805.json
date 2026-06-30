@@ -1,0 +1,22 @@
+{
+  "title": "Model predictive maintenance system for building equipment",
+  "abstract": "A model predictive maintenance (MPM) system for building equipment includes an operational cost predictor configured to predict a cost of operating the building equipment over a duration of an optimization period, a maintenance cost predictor configured to predict a cost of performing maintenance on the building equipment over the duration of the optimization period, and an objective function optimizer configured to optimize an objective function to predict a total cost associated with the building equipment over the duration of the optimization period. The objective function includes the predicted cost of operating the building equipment and the predicted cost of performing maintenance on the building equipment. The MPM system includes an equipment controller configured to operate the building equipment to affect a variable state or condition in a building in accordance with values of one or more decision variables obtained by optimizing the objective function.",
+  "claims": "1. A model predictive maintenance system for equipment, the model predictive maintenance system comprising: one or more processors; and one or more non-transitory computer-readable media containing program instructions that, when executed by the one or more processors, cause the one or more processors to perform operations comprising: performing an optimization of an objective function to generate, as a result of the optimization, operating decisions for the equipment and a set of maintenance decisions indicating a service time during a time period at which to perform maintenance on the equipment and a specific type of maintenance activity to be performed at the service time from a set of multiple different types of maintenance activities, the objective function comprising: a first cost of performing maintenance on the equipment over the time period defined as a first function of the set of maintenance decisions, wherein the first function causes the first cost to increase, responsive to adding a decision to perform maintenance on the equipment to the set of maintenance decisions, by different amounts depending on which of the multiple different types of maintenance activities is added to the set of maintenance decisions; and a second cost of operating the equipment over the time period defined as a second function of the set of maintenance decisions, wherein the second function causes the second cost to decrease, responsive to adding the decision to perform maintenance on the equipment to the set of maintenance decisions, by different amounts depending on which of the multiple different types of maintenance activities is added to the set of maintenance decisions; causing the specific type of maintenance activity to be performed on the equipment at the service time in accordance with the set of maintenance decisions; and controlling the equipment by generating electronic control signals based on the operating decisions for the equipment and causing the equipment to affect a variable state or condition in a building using the electronic control signals.",
+  "patent_id": "US12379718-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05B 23/0283",
+      "G05B 23/0294",
+      "G06Q 10/20",
+      "G06Q 30/0206"
+    ],
+    "all": [
+      "G05B 23/0283",
+      "G05B 23/0294",
+      "G06Q 10/20",
+      "G06Q 30/0206"
+    ],
+    "source": "converted"
+  }
+}

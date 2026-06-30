@@ -1,0 +1,22 @@
+{
+  "title": "Three-component codebook based CSI reporting",
+  "abstract": "A method performed by a UE for providing CSI feedback in the form of CSI reports in a wireless communication system includes receiving, from a gNB, higher layer configurations of one or more downlink reference signals, and CSI report configurations associated with the downlink reference signal configurations, and a radio signal including the downlink reference signals according to the one or more downlink reference signal configurations, the downlink reference signals provided over a configured number of frequency domain resources, time domain resources and one or more ports; determining, for each CSI report, a precoding matrix based on the downlink reference signals and two codebooks, and one or more non-zero combining coefficients for complex combining of one or more spatial domain and delay domain basis vectors; and reporting to the network node the CSI reports for the CSI report configurations.",
+  "claims": "1. A method performed by a user equipment (UE) for providing channel state information (CSI) feedback in the form of one or more CSI reports in a wireless communication system (A), the method comprising: receiving, from a network node (gNB) higher layer configurations of one or more downlink reference signals, and one or more CSI report configurations associated with the downlink reference signal configurations, and a radio signal, the radio signal including the downlink reference signals according to the one or more downlink reference signal configurations, the downlink reference signals being provided over a configured number of frequency domain resources, time domain resources and one or more ports; determining, for each CSI report, a precoding matrix based on the downlink reference signals and two codebooks, the two codebooks including: a spatial codebook comprising one or more spatial domain (SD) basis components of the precoder; and a delay codebook comprising one or more delay domain (DD) basis components of the precoder;",
+  "patent_id": "US12381610-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 7/0626",
+      "H04B 7/0456",
+      "H04L 5/0048",
+      "H04W 72/23"
+    ],
+    "all": [
+      "H04B 7/0626",
+      "H04B 7/0456",
+      "H04L 5/0048",
+      "H04W 72/23"
+    ],
+    "source": "converted"
+  }
+}

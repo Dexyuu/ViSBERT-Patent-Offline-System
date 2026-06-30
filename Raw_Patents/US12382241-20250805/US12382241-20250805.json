@@ -1,0 +1,22 @@
+{
+  "title": "Geo-fence alarm method and system for providing the method",
+  "abstract": "A geo-fence alarm system determines an entry of a moving object into a destination zone or an exit of the moving object from the destination zone and generates an alarm message. In particular, the system includes: a mobile terminal which generates a geo-fence boundary line of the destination zone according to a predetermined setting reference and maps the generated geo-fence boundary line to a first map, generates an inbound boundary line and an outbound boundary line, each of which is spaced apart from the geo-fence boundary line, and maps at least one of the inbound boundary line or the outbound boundary line to the first map. The mobile terminal determines whether the moving object enters or exits the destination zone based on the inbound and outbound boundary lines and location information of the moving object, and generates an alarm message corresponding to the entry or exit of the moving object.",
+  "claims": "1. A system comprising: a plurality of mobile terminals equipped in a plurality of moving objects respectively, wherein each of the plurality of mobile terminals is configured to: generate a geo-fence boundary line corresponding to a boundary line of a destination zone based on a predetermined setting reference and map the generated geo-fence boundary line to a first map, wherein each of the plurality of mobile terminals is configured to receive a first setting message including information about the predetermined setting reference from a user of a corresponding moving object of the plurality of moving objects, and generate the geo-fence boundary line based on the first setting message, generate an inbound boundary line spaced apart inwardly from the geo-fence boundary line by a predetermined interval and an outbound boundary line spaced apart outwardly from the geo-fence boundary line by a predetermined interval, and map at least one of the inbound boundary line or the outbound boundary line to the first map, determine whether the corresponding moving object enters the destination zone based on the inbound boundary line and location information of the moving object, and determine whether the corresponding moving object exits from the destination zone based on the outbound boundary line and the location information of the corresponding moving object, generate an alarm message corresponding to the entry of the corresponding moving object or the exit of the corresponding moving object, a server configured to: receive information about inbound boundary lines and outbound boundary lines corresponding to a plurality of geo-fence boundary lines from the plurality of mobile terminals, respectively, and map the inbound boundary lines and the outbound boundary lines to a second map based on the received information; and a manager terminal configured to access the server and provide the second map to a manager, wherein the manager terminal is configured to: receive first correction information about one or more of the inbound boundary line and the outbound boundary line corresponding to each of the plurality of geo-fence boundary lines from the manager, and transmit a first correction message including the first correction information to the server, and wherein the first correction information includes information about at least one of a movement direction and a movement distance, a reduced interval, an enlarged interval, or a correction position for at least one of the inbound boundary line and the outbound boundary line.",
+  "patent_id": "US12382241-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 4/021",
+      "G01C 21/3804",
+      "H04W 4/023",
+      "H04W 4/029"
+    ],
+    "all": [
+      "H04W 4/021",
+      "G01C 21/3804",
+      "H04W 4/023",
+      "H04W 4/029"
+    ],
+    "source": "converted"
+  }
+}

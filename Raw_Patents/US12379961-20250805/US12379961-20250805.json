@@ -1,0 +1,20 @@
+{
+  "title": "Service instance scheduling method, an electronic device, and a storage medium",
+  "abstract": "Embodiments of the present disclosure provide a service instance scheduling method and apparatus, an electronic device, and a storage medium. A microservice access data for a target service is obtained in a bypass mode based on a service mesh, where the microservice access data represents access records of at least two upstream services of the target service with respect to a service instance of the target service. An evaluation indicator of at least one service instance corresponding to the target service is obtained according to the microservice access data, where the evaluation indicator represents a health degree of the service instance. The service instance is fused according to the evaluation indicator of the service instance.",
+  "claims": "1. A service instance scheduling method, comprising: obtaining, based on a service mesh, microservice access data for a target service in a bypass mode, wherein the microservice access data represents access records of at least two upstream services of the target service with respect to a service instance of the target service; obtaining an evaluation indicator of at least one service instance corresponding to the target service according to the microservice access data, wherein the evaluation indicator represents a health degree of the service instance; and fusing the service instance according to the evaluation indicator of the service instance based on a current fusing amount corresponding to the target service being less than a preset threshold, wherein the fusing the service instance involves removing the service instance, wherein the obtaining, based on a service mesh, microservice access data for the target service in the bypass mode comprises: obtaining, in the bypass mode, initial access data of the upstream services through the service mesh, wherein the initial access data represents access records for the target service, performing, through the service mesh, service discovery, accessing a first microservice component, and transmitting the initial access data to the first microservice component, and performing, by the first microservice component, a consistent hashing calculation on the initial access data to obtain the microservice access data.",
+  "patent_id": "US12379961-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/4881",
+      "G06F 11/3409",
+      "H04L 9/0643"
+    ],
+    "all": [
+      "G06F 9/4881",
+      "G06F 11/3409",
+      "H04L 9/0643"
+    ],
+    "source": "converted"
+  }
+}

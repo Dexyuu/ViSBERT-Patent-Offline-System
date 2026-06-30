@@ -1,0 +1,22 @@
+{
+  "title": "Dynamic provisioning of multiple RSS engines",
+  "abstract": "An approach for a dynamic provisioning of multiple RSS engines is provided. In an embodiment, a method comprises monitoring a CPU usage of hardware queues implemented in a plurality of RSS pools, and determining whether a CPU usage of any hardware queue, implemented in a particular RSS pool of the plurality of RSS pools, has increased above a threshold value. In response to determining that a CPU usage of a particular hardware queue, implemented in the particular RSS pool, has increased above the threshold value, it is determined whether the particular RSS pool includes an unused hardware queue (a queue with light CPU usage). If such an unused hardware queue is presented, then an indirection table that is associated with the particular RSS pool is modified to remap one or more data flows from the particular hardware queue to the unused hardware queue.",
+  "claims": "1. A method for managing a plurality of queues of a network interface card (NIC) of a host computer, the method comprising: monitoring a plurality of RSS pools comprising at least first and second RSS pools, each respective RSS pool corresponding to a respective plurality of hardware queues of the NIC; assigning flows to the hardware queues of the first and second RSS pools by (i) mapping each flow to one of a first table and a second table respectively associated with the first and second RSS pools, (ii) computing a hash from each flow's set of one or more header values, and (iii) mapping each flow's computed hash value to a record, in the table mapped to the flow, that identifies a hardware queue of the table's associated first or second pool; determining an association between the hardware queues and a logical queue using at least a hardware queue identifier that is associated with a hash value, the hash value being computed based on values of selected fields of a data packet; determining that (i) usage of at least one of the hardware queues corresponding to the first RSS pool has increased above a threshold usage value and (ii) the hardware queues of the second RSS pool are underutilized; based on the determination of the usage and an underutilization, reallocating at least a particular hardware queue from the second RSS pool to the first RSS pool by modifying an indirection table of the second RSS pool associated with a reassignment of the hardware queues; creating a record in the first table associated with the first RSS pool that maps a set of hash values to the particular hardware queue; and resizing the first RSS pool and the second RSS pool by adjusting a number of hardware queues based on load metrics.",
+  "patent_id": "US12381831-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 47/6255",
+      "H04L 43/0894",
+      "H04L 45/023",
+      "H04L 45/7453"
+    ],
+    "all": [
+      "H04L 47/6255",
+      "H04L 43/0894",
+      "H04L 45/023",
+      "H04L 45/7453"
+    ],
+    "source": "converted"
+  }
+}

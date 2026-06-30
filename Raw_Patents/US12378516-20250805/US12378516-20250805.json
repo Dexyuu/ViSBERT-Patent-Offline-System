@@ -1,0 +1,26 @@
+{
+  "title": "Passage timing calculation device, passage timing calculation method, and recording medium for recording program",
+  "abstract": "A passage timing calculation device includes a processor and a memory encoded with instructions executed by the processor, wherein the instructions causing the processor to perform operations comprising calculating a time change in an area occupied by an extraction target region that is a region in which a striated pattern appears from a plurality of images of pluripotent stem cells captured at different times, detecting a change point of the time change in an area occupied by the extraction target region, and calculating a passage timing of the pluripotent stem cells on the basis of the change point.",
+  "claims": "1. A passage timing calculation device comprising: a processor; a memory encoded with instructions executed by the processor, the instructions causing the processor to perform operations comprising: extracting a colony region of pluripotent stem cells from a plurality of images of pluripotent stem cells captured over time in a process of culturing the pluripotent stem cells; extracting, as an extraction target region, a high-contrast region in which contrast in a gap between the plurality of pluripotent stem cells becomes higher during a transition state between a colony immature state and a mature state, the high-contrast region being a region in which a striated pattern is present in the plurality of images due to the higher contrast; calculating a time change in a ratio of an area occupied by the extraction target region to a colony region from the plurality of images of pluripotent stem cells captured over time; and calculating a passage timing of the pluripotent stem cells based on the time change.",
+  "patent_id": "US12378516-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "C12M 41/46",
+      "C12M 41/36",
+      "C12M 41/48",
+      "C12N 5/0696",
+      "C12M 31/10",
+      "C12M 33/00"
+    ],
+    "all": [
+      "C12M 41/46",
+      "C12M 41/36",
+      "C12M 41/48",
+      "C12N 5/0696",
+      "C12M 31/10",
+      "C12M 33/00"
+    ],
+    "source": "converted"
+  }
+}

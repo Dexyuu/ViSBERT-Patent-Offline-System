@@ -1,0 +1,32 @@
+{
+  "title": "Picture prediction method and related apparatus",
+  "abstract": "A picture prediction method and a related apparatus are disclosed. A picture prediction method includes: determining K1 pixel samples in a picture block x, and determining a candidate motion information unit set corresponding to each pixel sample in the K1 pixel samples, where the candidate motion information unit set corresponding to each pixel sample includes at least one candidate motion information unit; determining a merged motion information unit set i including K1 motion information units, where each motion information unit in the merged motion information unit set i is selected from at least a part of motion information units in candidate motion information unit sets corresponding to different pixel samples in the K1 pixel samples; and predicting a pixel value of the picture block x by using a non-translational motion model and the merged motion information unit set i.",
+  "claims": "1. A method for determining a merged motion information unit set i for a picture block x in a case of multiple reference frames in video encoding or video decoding, the method comprising: determining K1 pixel samples of the picture block x; determining a candidate motion information unit set associated with each pixel sample in the K1 pixel samples, wherein the candidate motion information unit set associated with each pixel sample comprises one candidate motion information unit, and K1 is an integer that is greater than or equal to 2; and determining the merged motion information unit set i comprising K1 motion information units, wherein the K1 motion information units in the merged motion information unit set i are selected from the candidate motion information units of the candidate motion information unit sets associated with the K1 pixel samples, wherein each motion information unit comprises a motion vector whose prediction direction is forward and/or a motion vector whose prediction direction is backward, and wherein the merged motion information unit set i meets a third condition that reference frame indexes associated with the K1 motion information units in the merged motion information unit set i are the same; wherein the merged motion information unit set i is associated with an identifier.",
+  "patent_id": "US12382081-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/51",
+      "H04N 19/103",
+      "H04N 19/105",
+      "H04N 19/147",
+      "H04N 19/176",
+      "H04N 19/182",
+      "H04N 19/537",
+      "H04N 19/567",
+      "H04N 19/172"
+    ],
+    "all": [
+      "H04N 19/51",
+      "H04N 19/103",
+      "H04N 19/105",
+      "H04N 19/147",
+      "H04N 19/176",
+      "H04N 19/182",
+      "H04N 19/537",
+      "H04N 19/567",
+      "H04N 19/172"
+    ],
+    "source": "converted"
+  }
+}

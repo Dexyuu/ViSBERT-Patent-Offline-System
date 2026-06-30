@@ -1,0 +1,23 @@
+{
+  "application_id": "WO2019199680",
+  "application_id_fs": null,
+  "title": "Dynamic filter",
+  "abstract": "The current invention is intended to render artifacts, which are introduced by changes in coefficients in an FIR filter, inaudible by applying a window to the filtered signal that results in the output of the filter (e.g. FIR filter), in which the coefficients are being changed, supplying little or none of the total output while the output of the filter, in which the coefficients are stable, supplies most or all of the total output.",
+  "claims": "Claims 1. A signal filter system for use in a contact hearing system, the signal filter system comprising: a signal input connected to a first filter and a second filter; a first coefficient input connected to the first filter; a second coefficient input connected to the second filter; a coefficient update and window logic connected to the first and second coefficient inputs; a first window generator connected to the coefficient update and window logic; a second window generator connected to the coefficient update and window logic; a first multiplier receiving inputs from the first filter and the first window generator; a second multiplier receiving inputs from the second filter and the second window generator; and a summing circuit receiving inputs from the first and second multiplier circuits. 2. A signal filter system according to claim 1, wherein the first and second filters are FIR filters. 3. A method for filtering a signal in a contact hearing system, wherein the method comprises the steps of: providing the signal simultaneously to a first filter and a second filter; providing the first filter with a first coefficient for use in filtering the input signal, wherein the first coefficient is provided to the first filter at a first time; providing the second filter with a second coefficient for use in filtering the input signal at a second time, wherein the second time is after the first time; multiplying an output of the first filter by a first window value to get a first filter value; multiplying an output of the second filter by a second window value to get a second filter value; and adding the first filter value to the second filter value. 4. A method according to claim 3, wherein the first time occurs when the first window value is at or near a minimum value. 5. A method according to claim 4, wherein the first time occurs when the first window value is substantially equal to zero. 6. A method according to claim 3, wherein the second time occurs when the second window value is at or near a minimum value. 7. A method according to claim 6, wherein the second time occurs when the second window value is substantially equal to zero. 8. A method according to claim 3, wherein the first time occurs when the first window value is less than the second window value. 9. A method according to claim 8, wherein the second time occurs when the second window value is less than the first window value. 10. A method for filtering a signal in a contact hearing system, wherein the method comprises the steps of: providing the signal simultaneously to a first filter and a second filter; changing at least one coefficient in the first filter to a first coefficient, wherein the first coefficient is changed in the first filter at a first time; changing at least one coefficient in the second filter to a second coefficient, wherein the second coefficient it changed in the second filter at a second time, and wherein the second time is after the first time; multiplying an output of the first filter by a first window value to get a first filter value; multiplying an output of the second filter by a second window value to get a second filter value; and adding the first filter value to the second filter value.",
+  "classifications": {
+    "ipc": [
+      "H03G 3/00",
+      "H04B 15/00",
+      "H04R 1/10",
+      "H04R 3/00"
+    ],
+    "cpc": [],
+    "all": [
+      "H03G 3/00",
+      "H04B 15/00",
+      "H04R 1/10",
+      "H04R 3/00"
+    ],
+    "source": "csv"
+  }
+}

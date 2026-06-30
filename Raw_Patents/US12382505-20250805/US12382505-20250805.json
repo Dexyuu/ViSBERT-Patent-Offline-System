@@ -1,0 +1,22 @@
+{
+  "title": "Random access preamble sending method and communication apparatus",
+  "abstract": "In the field of communication technologies, a random access preamble sending method and a communication apparatus are provided to avoid a problem that a conflict exists between a PRACH time-frequency resource occupied by a terminal device for sending a random access preamble and a PUSCH time-frequency resource occupied by another terminal device for sending uplink data, and consequently a network device cannot normally receive the random access preamble and the uplink data. The method includes: a terminal device receives configuration information sent by a network device, where the configuration information includes configuration information of a PRACH time-frequency resource set and configuration information of a PUSCH time-frequency resource set. The terminal device determines, in the PRACH time-frequency resource set, a PRACH time-frequency resource that does not conflict with the PUSCH time-frequency resource set. The terminal device sends a random access preamble on the determined PRACH time-frequency resource.",
+  "claims": "1. A random access preamble sending method, comprising: receiving, by a communication apparatus, configuration information from a network device, wherein the configuration information comprises configuration information of a physical random access channel (PRACH) time-frequency resource set; receiving, by the communication apparatus, indication information from the network device, wherein the indication information indicates one or more valid PRACH time-frequency resources in the PRACH time-frequency resource set that do not conflict with a PUSCH time-frequency resource set, wherein the indication information comprises an index number, wherein the index number indicates an entry in a PRACH time-frequency resource table, and wherein any entry in the PRACH time-frequency resource table defines a PRACH time-frequency resource that is valid in time domain and that is in one or more PRACH time-frequency resources in the PRACH time-frequency resource set; and sending, by the communication apparatus, a random access preamble on one of the valid PRACH time-frequency resources.",
+  "patent_id": "US12382505-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 74/0841",
+      "H04W 72/0446",
+      "H04W 72/0453",
+      "H04W 74/0866"
+    ],
+    "all": [
+      "H04W 74/0841",
+      "H04W 72/0446",
+      "H04W 72/0453",
+      "H04W 74/0866"
+    ],
+    "source": "converted"
+  }
+}

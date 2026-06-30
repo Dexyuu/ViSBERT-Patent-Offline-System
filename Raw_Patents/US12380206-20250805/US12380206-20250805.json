@@ -1,0 +1,18 @@
+{
+  "title": "Detection of model attacks in distributed AI",
+  "abstract": "A method for detecting an attack on a distributed artificial intelligence deployment comprising a plurality of worker devices. Each of the plurality of worker devices comprises a local machine learning model. Each local machine learning model comprises a plurality of layers. The method comprises calculating a first inference from first input data using a first machine learning model comprising layers of the plurality of layers of one or more of the local machine learning models and calculating additional inferences from the first input data using one or more additional machine learning models. Each of the additional machine learning models comprises at least one of the layers used in the first machine learning model and at least one layer from the pluralities of layers of the one or more local machine learning models that is not used by the first machine learning model. The method further comprises calculating differences between the first inference and each of the one or more additional inferences.",
+  "claims": "1. A method, comprising: calculating a local inference from first input data using a first machine learning model of a first worker device, the first machine learning model including first layers of a plurality of layers of local machine learning models of a distributed artificial intelligence deployment, the distributed artificial intelligence deployment including a plurality of worker devices that include the local machine learning models, the first input data being collected by the first worker device; calculating a plurality of distributed inferences from the first input data using all possible distributed machine learning models including an input layer, an output layer, and a sequence of intermediate layers, the input layer and the output layer being included in the first machine learning model, the intermediate layers being included in other machine learning models of other worker devices included in the worker devices, the other machine learning models including a plurality of layers of local machine learning models that is not used by the first machine learning model, wherein the input layer and the output layer are from a same machine learning model; calculating a plurality of differences between the local inference and the distributed inferences, wherein a difference of the differences exceeding a threshold indicates that at least one of the layers of the local machine learning models is included in a worker device that has been attacked; and determining, based on which of the calculated differences exceeds the threshold, whether or not each of the worker devices is attacked, wherein which of the worker devices has been attacked is identified from which of the local machine learning models includes layers in all of the distributed machine learning models with which distributed inferences differ from the local inference by more than the threshold.",
+  "patent_id": "US12380206-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/554",
+      "G06N 20/00"
+    ],
+    "all": [
+      "G06F 21/554",
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

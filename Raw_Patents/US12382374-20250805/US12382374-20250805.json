@@ -1,0 +1,24 @@
+{
+  "title": "Improving uplink performance avoiding parameter conflicts in a wireless network",
+  "abstract": "The invention refers to a method performed by a performance recommender for a wireless network, obtaining (2010) for a plurality of cells input data, the input data comprising actual cell configuration parameter values; applying (2030) a machine-learning model to the input data to generate, for at least a portion of the cells, one or more recommendations for changes to the cell configuration parameter values to improve uplink, UL, performance in the respective cells; and based on identifying conflicts between recommendations for different cells, partitioning (2040) the plurality of cells into a plurality of interaction areas of neighboring cells; resolving (2050) conflicts in recommendations for respective cells within each of the interaction areas and across different interaction areas; and for at least a portion of the cells, determining (2060) preferred values for the cell configuration parameters to improve UL performance in the respective cells; the invention further relates to a corresponding performance recommender and a corresponding computer program.",
+  "claims": "1. A computer-implemented method performed by a performance recommender system for a wireless network, the method comprising: for each of a plurality of cells in the wireless network, obtaining input data comprising actual values for one or more cell configuration parameters; applying a machine-learning model to the input data to generate, for at least a portion of the cells, one or more recommendations for changes to the cell configuration parameter values to improve uplink (UL) performance in the respective cells; based on identifying conflicts between recommendations for different cells, partitioning the plurality of cells into a plurality of interaction areas of neighboring cells; resolving conflicts in recommendations for respective cells within each of the interaction areas and across different interaction areas; and for at least a portion of the cells, determining preferred values for the cell configuration parameters to improve UL performance in the respective cells.",
+  "patent_id": "US12382374-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 48/16",
+      "H04W 28/18",
+      "H04W 72/0453",
+      "H04W 72/23",
+      "H04W 72/542"
+    ],
+    "all": [
+      "H04W 48/16",
+      "H04W 28/18",
+      "H04W 72/0453",
+      "H04W 72/23",
+      "H04W 72/542"
+    ],
+    "source": "converted"
+  }
+}

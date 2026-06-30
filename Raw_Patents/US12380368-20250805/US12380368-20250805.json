@@ -1,0 +1,18 @@
+{
+  "title": "Machine learning model error detection",
+  "abstract": "A system includes a memory having instructions therein and at least one processor in communication with the memory. The at least one processor is configured to execute the instructions to determine a global-level importance magnitude value for a global-level importance of an explainable feature of a machine learning base model based on a first prediction of the machine learning base model. The at least one processor is also configured to execute the instructions to determine a global-level importance direction label for the global-level importance of the explainable feature based on the first prediction. The at least one processor is also configured to execute the instructions to generate a communication for presentation to a user based on a second prediction of the machine learning base model, based on the global-level importance magnitude value, and based on the global-level importance direction label.",
+  "claims": "1. A method for correcting an erroneous prediction of a machine learning base model for a user, the method comprising: determining a plurality of global-level importance magnitude values representing a global-level importance of a plurality of explainable features of the machine learning base model to the machine learning base model; determining a plurality of global-level importance direction labels representing the global-level importance of the explainable features of the machine learning base model to the machine learning base model; ranking the explainable features according to their associated global level importance magnitudes; generating a communication for presentation to the user comprising one or more highest-ranked explainable features of the ranked explainable features, and the global-level importance direction labels associated with the highest-ranked explainable features; and calculating a local erroneousness score for one or more new predictions by the machine learning base model based on one or more erroneous global-level importance direction labels associated with the one or more highest-ranked explainable features.",
+  "patent_id": "US12380368-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 20/00",
+      "G06N 5/02"
+    ],
+    "all": [
+      "G06N 20/00",
+      "G06N 5/02"
+    ],
+    "source": "converted"
+  }
+}

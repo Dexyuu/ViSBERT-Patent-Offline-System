@@ -1,0 +1,22 @@
+{
+  "title": "Method and system of adaptably detecting dirt, occlusion and smudge on camera lens and image sensor",
+  "abstract": "A method of adaptably detecting dirt, occlusion and smudge on camera lens and image sensor includes capturing an image; subjecting original pixels of the image to sampling to result in sampled pixels; excluding outliers of the sampled pixels to result in retained pixels; obtaining an average value of the retained pixels; obtaining a tolerance value according to luminance values of the retained pixels; generating a threshold value for determining dirt, occlusion and smudge on camera lens and image sensor in the image according to the tolerance value and the average value of the retained pixels; and comparing a luminance value of at least one pixel of the image with a corresponding threshold value.",
+  "claims": "1. A method of adaptably detecting dirt, occlusion and smudge on a camera lens and image sensor, comprising: capturing an image; subjecting original pixels of the image to sampling to result in sampled pixels; excluding outliers of the sampled pixels to result in retained pixels; obtaining an average value of the retained pixels; obtaining a tolerance value according to luminance values of the retained pixels; generating a threshold value for determining dirt, occlusion and smudge on the camera lens and image sensor in the image according to the tolerance value and the average value of the retained pixels; and comparing a luminance value of at least one pixel of the image with a corresponding threshold value; wherein the step of excluding outliers of the sampled pixels comprises: sorting the sampled pixels from smallest to largest according to luminance values, thereby resulting in sorted pixels; and removing a predetermined first percentage of the sorted pixels with smallest luminance values from the sorted pixels, and removing a predetermined second percentage of the sorted pixels with largest luminance values from the sorted pixels, thereby obtaining the retained pixels.",
+  "patent_id": "US12380548-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/0002",
+      "G06T 7/13",
+      "H04N 23/80",
+      "G06T 2207/30168"
+    ],
+    "all": [
+      "G06T 7/0002",
+      "G06T 7/13",
+      "H04N 23/80",
+      "G06T 2207/30168"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Reducing inference time processing deep learning models",
+  "abstract": "Various embodiments are provided herein for decreasing a central processing unit (CPU) inference time, thereby shortening processing time of a deep learning model for which run-time complexity is proportional to an output sequence length. A compacted sequence is developed that is used to train the deep learning model. An output of the trained model becomes the compacted sequence on which a post-processing method operates to create an uncompacted version of a predicted sequence.",
+  "claims": "1. A method for decreasing a central processing unit (CPU) inference time, thereby shortening processing time of a deep learning model for which run-time complexity is proportional to an output sequence length, comprising: receiving a structured query language (SQL) query; and based on the SQL query, developing a compacted sequence that is used to train the deep learning model, wherein the developing further comprises transforming the SQL query by converting and compressing SQL statement components into a short-length pseudo-SQL sequence, wherein the converting and compressing further comprises automatically replacing at least one of a column name, a value in question, and a command by a shorter one of a column name, a shorter value in question, and a shorter command during training, and automatically reversing the shorter one of the column name, the shorter value in question, and the shorter command with the at least one of the column name, the value in question, and the command during inference, wherein an output of the trained model becomes the compacted sequence on which a post-processing method operates to create an uncompacted version of a predicted sequence.",
+  "patent_id": "US12380106-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/24547",
+      "G06F 16/2433"
+    ],
+    "all": [
+      "G06F 16/24547",
+      "G06F 16/2433"
+    ],
+    "source": "converted"
+  }
+}

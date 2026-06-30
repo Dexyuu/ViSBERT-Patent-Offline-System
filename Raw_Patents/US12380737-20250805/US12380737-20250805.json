@@ -1,0 +1,26 @@
+{
+  "title": "Method for detecting forgery in facial recognition and computer readable medium and vehicle for performing such method",
+  "abstract": "A method for detecting forgery in facial recognition is disclosed that comprises selecting (110) an illumination pattern including at least three illumination intensities; controlling (120) a light-emitting device (220) to emit light pulses, according to the illumination pattern; capturing (130) with a camera (210) a respective image of an eye region (15) of a face (10) during each emitted light pulse; determining (140) whether a glint (20) is present in the eye region (15) of each captured image; measuring (150) a glint intensity of each determined glint (20); extracting (160) a respective numerical feature for each captured image, the numerical feature representing a curve of all measured glint intensities at the glint intensity of the respective image; and outputting (180) a signal that the face (10) is forged, if one or more of the extracted numerical features does not correspond to a reference numerical feature. Furthermore, a computer-readable medium storing instructions to perform the method, and a vehicle (1) comprising a processor (250) capable of performing such method.",
+  "claims": "1. A method for detecting forgery in facial recognition, the method comprising: selecting an illumination pattern including at least three illumination intensities; controlling a light-emitting device to emit light pulses, according to the illumination pattern; capturing with a camera a in a set of captured images having at least three captured images of an eye region of a face during each emitted light pulse; determining whether a glint is present in the eye region of each captured image of the set of captured images; measuring a glint intensity of each determined glint; extracting a respective numerical feature for each captured image of the set of captured images, the numerical feature representing a curve of all measured glint intensities at the glint intensity of the respective image; and outputting a signal that the face is forged, if one or more of the extracted numerical features does not correspond to a reference numerical feature, wherein extracting the numerical feature comprises: determining an intensity level of the glint in each of the at least three captured images of the set of captured images, or determining a normalised intensity level of the glint in each of the at least three captured images; and computing a gradient of the curve defined by the determined intensity levels or the determined normalised intensity levels of the at least three captured images, or computing a curvature of the curve defined by the determined intensity levels or the determined normalised intensity levels of the at least three captured images.",
+  "patent_id": "US12380737-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 40/45",
+      "B60W 30/00",
+      "G06V 40/171",
+      "G06V 40/172",
+      "G06V 40/193",
+      "B60W 2420/403"
+    ],
+    "all": [
+      "G06V 40/45",
+      "B60W 30/00",
+      "G06V 40/171",
+      "G06V 40/172",
+      "G06V 40/193",
+      "B60W 2420/403"
+    ],
+    "source": "converted"
+  }
+}

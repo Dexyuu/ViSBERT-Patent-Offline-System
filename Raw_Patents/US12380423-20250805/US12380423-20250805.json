@@ -1,0 +1,18 @@
+{
+  "title": "Short-range transmission of receipt data without contact identifiers",
+  "abstract": "There are provided systems and methods for short-range transmission of receipt data without contact identifiers. A user may engage in a transaction with another user, such as a purchase of goods, services, or other items from a merchant at a physical merchant location. The merchant may provide options to receive a receipt, where conventional digital receipt transmission would require the user to enter their contact information, such as an email address or phone number. Instead, the user may be provided with an option to receive a digital version of the receipt via short-range wireless communications without entering contact information. A message may be generated having a webpage address or another identifier allowing for retrieval of the digital receipt from a storage system, and the message may then be broadcast locally to the user's device. The broadcast may the cause the user's device to load and present the digital receipt.",
+  "claims": "1. A system comprising: a non-transitory memory; and one or more hardware processors coupled to the non-transitory memory and configured to read instructions from the non-transitory memory to cause the system to perform operations comprising: receiving transaction data for a transaction processed by the system using payment data associated with a user; generating a digital receipt for the transaction based on the transaction data and the payment data; generating a data file for a webpage where the digital receipt will be accessible from; determining a webpage address for the webpage that provides access to the digital receipt, wherein the webpage address allows a retrieval of the data file for the digital receipt from an online receipt storage system; storing the data file for the digital receipt in association with the webpage address with the online receipt storage system, wherein the online receipt storage system enables the data file to be accessed via the webpage; determining an executable command based on a near field communications (NFC) protocol usable to transmit an electronic message associated with the digital receipt to a mobile device, wherein the executable command enables an automatic navigation to the webpage address in a browser application on the mobile device; generating the electronic message comprising an encoding of the webpage address embedded in at least one field of the electronic message and the executable command embedding in the at least one field; and broadcasting, within a proximity range of the system via an NFC transceiver connectable with the system independent of utilizing user contact information for the user, the electronic message using an active component of the NFC transceiver and an NFC protocol for short-range wireless communications.",
+  "patent_id": "US12380423-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/3255",
+      "G06Q 20/3278"
+    ],
+    "all": [
+      "G06Q 20/3255",
+      "G06Q 20/3278"
+    ],
+    "source": "converted"
+  }
+}

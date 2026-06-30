@@ -1,0 +1,36 @@
+{
+  "title": "Techniques for generating a configuration for electrically isolating fault domains in a data center",
+  "abstract": "A computer system may receive a layout of a data center, the layout of the data center identifying physical locations of a plurality of server racks, electrical distribution feeds, and uninterruptible power supplies. The computer system may receive a fault domain configuration for the datacenter, the fault domain configuration identifying virtual locations of a plurality of logical fault domains for distributing one or more instances so that the instances are stored on independent physical hardware devices within a single availability fault domain. The computer system may determine the configuration for the data center by assigning the plurality of fault domains to a plurality of electrical zones, wherein each electrical zone provides a redundant electrical power supply across the plurality of logical fault domains in an event of a failure of one or more electrical distribution feeds. The computer system may display the configuration for the data center on a display.",
+  "claims": "1. A method, comprising: assigning, a first fault domain to a first electrical zone of a data center comprising a first power supply and a second power supply configured to provide a first redundant electrical power supply for the first electrical zone, wherein the first fault domain comprises a first virtual location for distributing a first compute instance; wherein based on assigning the first fault domain to the first electrical zone, the first compute instance executes on a first set of hardware components that share a first single point of failure with respect to the first electrical zone; detecting, via an event stream, an event associated with a power sensor indicative of a power outage of the first power supply corresponding to the first electrical zone of the data center, wherein the power outage of the first power supply renders the first electrical zone unprotected by electrical power supply redundancy; determining, based at least on a fault domain configuration for the data center indicating that the first fault domain is assigned to the first electrical zone, that the power outage of the first power supply renders the first fault domain unprotected by electrical power supply redundancy; and based at least on the power outage rendering the first fault domain unprotected by electrical power supply redundancy, assigning the first fault domain to a second electrical zone of the data center, wherein the second electrical zone provides a second redundant electrical power supply to the first fault domain, wherein based on assigning the first fault domain to the second electrical zone, the first compute instance executes on a second set of hardware components that receive the second redundant electrical power supply of the second electrical zone.",
+  "patent_id": "US12380258-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 30/20",
+      "G06F 1/263",
+      "G06F 1/28",
+      "G06F 1/30",
+      "G06F 11/2015",
+      "G06F 30/10",
+      "G06F 30/18",
+      "G06F 2113/02",
+      "G06F 2117/02",
+      "G06F 2119/02",
+      "G06F 2119/06"
+    ],
+    "all": [
+      "G06F 30/20",
+      "G06F 1/263",
+      "G06F 1/28",
+      "G06F 1/30",
+      "G06F 11/2015",
+      "G06F 30/10",
+      "G06F 30/18",
+      "G06F 2113/02",
+      "G06F 2117/02",
+      "G06F 2119/02",
+      "G06F 2119/06"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "application_id": "WO2020222917",
+  "application_id_fs": null,
+  "title": "Organizational-based language model generation",
+  "abstract": "Provided is a system and method for acquiring training data and building an organizational-based language model based on the training data. In one example, the method may include collecting organizational data that is generated via one or more applications associated with an organization, aggregating the collected organizational data with previously collected organizational data to generate aggregated organizational training data, training an organizational-based language model for speech processing based on the aggregated organizational training data, and storing the trained organizational-based language model.",
+  "claims": "Claims 1. A computing system comprising: a processor configured to collect organizational data that is generated via one or more applications associated with an organization, aggregate the collected organizational data with previously collected organizational data to generate aggregated organizational training data, and train an organizational-based language model for speech processing based on the aggregated organizational training data; and a storage configured to store the trained organizational-based language model. 2. The computing system of claim 1, wherein the processor prevents a piece of data of the organization from being collected in response to the processor detecting that a source of the piece of data is a private data source. 3. The computing system of claim 1, wherein the processor is configured to train a statistical machine learning model to leam organization-specific terms based on the aggregated organizational training data. 4. The computing system of claim 1, wherein the processor is configured to collect text content from one or more of an email application, a word processor application, and a meeting application, hosted by a cloud platform where the organization is a tenant. 5. The computing system of claim 1, wherein the processor is further configured to clean the aggregated organizational training data to remove data duplicates and remove data that is older than a predetermined period of time. 6. The computing system of claim 1, wherein the processor is configured to tag a piece of data within the organizational data with a respective channel identification. 7. The computing system of claim 6, wherein the processor is further configured to detect that the channel identification has been changed from public to private, and in response, remove the piece of data from the aggregated organizational training data. 8. The computing system of claim 1, wherein the processor is configured to receive organization data from a user device where the organization data is generated. 9. The computing system of claim 1, wherein the processor is further configured to execute a speech recognition application based on the trained organizational- based language model.",
+  "classifications": {
+    "ipc": [
+      "G06F 40/20",
+      "G10L 15/14",
+      "G06Q 10/10"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 40/20",
+      "G10L 15/14",
+      "G06Q 10/10"
+    ],
+    "source": "csv"
+  }
+}

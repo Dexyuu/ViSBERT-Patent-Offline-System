@@ -1,0 +1,20 @@
+{
+  "title": "Zero-trust multi-hop authentication and authorization",
+  "abstract": "A process and mechanism, such as a system and/or computer-implemented method, for establishing verified and trusted communications between an upstream and a downstream node in a network or across many nodes in a multi-hop fashion, without needing direct communications from the downstream node to a central authority. Only a single node needs direct communications with the central authority, which may be the central authority itself acting in this capacity. Any other node in the network can connect to a node that is already verified, establish mutual trust, and itself become âupstreamâ to a new node or set of nodes. This process and mechanism can apply to any two nodes that are configured to communicate given the same set of conditions without any explicit or implicit multi-hop capability, however, the present process and mechanism is most applicable in multi-hop systems.",
+  "claims": "1. A computer-implemented method for establishing verified and trusted communications between an upstream node and a downstream node in a network, the method comprising: granting, by a central authority, a credential to each of the upstream node and the downstream node, the credential being configured to allow the upstream node and the downstream node to cryptographically sign messages; passing, by the downstream node to the upstream node, a cryptographically signed message containing a nonce; contacting, by the upstream node, the central authority using the nonce; validating, by the central authority, the nonce from the downstream node using a validation mechanism configured for validating the signature on the nonce based on the credential and signature type; if validated, issuing, by the central authority, a new cryptographically signed message for the upstream node to present to the downstream node, the new cryptographically signed message containing the nonce associated with the downstream node; and verifying, by the upstream node and the downstream node, that the credentials of both nodes are valid according to the central authority.",
+  "patent_id": "US12381738-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/3247",
+      "H04L 9/3226",
+      "H04L 9/3268"
+    ],
+    "all": [
+      "H04L 9/3247",
+      "H04L 9/3226",
+      "H04L 9/3268"
+    ],
+    "source": "converted"
+  }
+}

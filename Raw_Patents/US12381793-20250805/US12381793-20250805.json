@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for predicting undetectable flows in deep packet inspection",
+  "abstract": "Wireless communications and/or systems (e.g.,100) and/or methods (e.g.,200, 300, 400) may be provided for predicting of potential undetected flows in a DPI system using a machine learning (ML) model. The system may include an input packet module which may be configured for verifying packet parameters from a network traffic flow, and a processor which can be configured for processing the extracted parameters to identify whether the network traffic flow is potentially detectable or undetectable using a trained machine learning (ML) model based on at least the extracted parameters and perform DPI processing for the detectable flows. Thus, the system may provide an optimized DPI flow processing for high rate traffic networks with decreasing processing time.",
+  "claims": "1. A system for performing deep packet inspection (DPI) processing to detect at least one defined application flow in network traffic, comprising: an analytics module, comprising circuitry, configured to: collect data including erroneous flow detection results for network traffic flows and flow detection results from a live network traffic flow, and train and update a machine learning (ML) model based on the collected data; an input packet module, comprising circuitry, configured to extract a plurality of parameters from a first set of data packets from a network traffic flow; and at least one processor, comprising processing circuitry, configured to: determine whether the network traffic flow is potentially detectable or undetectable under the DPI processing using the ML model based on the extracted plurality of parameters, in accordance with a determination that the network traffic flow is potentially detectable under the DPI processing, perform the DPI processing for the detectable network traffic flow, and in accordance with a determination that the network traffic flow is undetectable under the DPI processing, abort the DPI processing for the undetectable network traffic flow, wherein the erroneous flow detection results comprise at least one of: flows marked as detectable by the ML model and eventually undetected by the DPI processing with parameter metric as a false positive case, or flows marked as undetectable by the ML model and eventually detected by the DPI processing with parameter metric as a false negative case.",
+  "patent_id": "US12381793-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 43/028",
+      "G06N 7/01",
+      "H04L 41/16"
+    ],
+    "all": [
+      "H04L 43/028",
+      "G06N 7/01",
+      "H04L 41/16"
+    ],
+    "source": "converted"
+  }
+}

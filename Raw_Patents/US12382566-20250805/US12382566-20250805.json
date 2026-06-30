@@ -1,0 +1,36 @@
+{
+  "title": "System and method for controlling a light source for illuminating a scene of interest",
+  "abstract": "The invention relates to a method for controlling a light source (7), the method using (a) at least one pose estimate (1) of a camera (8) configured to capture one or more images of a scene of interest (13) which comprises at least one landmark (9), as said light source is operated to emit light which illuminates said scene of interest, (b) a landmark map (2) comprising at least 3D location information of a plurality of landmarks comprising the at least one landmark in the scene of interest, (c) an illumination model (3) describing a relationship between an emission illumination power and reflection illumination power, wherein said emission illumination power is the power of light emitted by the light source (7) to illuminate said scene of interest, and said reflection illumination power is the illumination power of light reflected by one or more landmarks in said scene of interest and received by the camera, and (d) a predefined threshold reflection illumination power (4). The method comprises the following steps: (a) determining (5), for at least one of the plurality of landmarks, at least one optimized emission illumination power of light (6) to be emitted by the light source, and an illumination time course (6) during which the light source should be operated to emit light which has an emission illumination power which is equal to the at least one optimized emission illumination power, using (i) the at least one pose estimate (1) of the camera, (ii) the 3D location information of the at least one of the plurality of landmarks, (iii) the illumination model (3), and (iv) the predefined threshold reflection illumination power (4); and (b) operating the light source (7) to emit light which has an emission illumination power which is equal to the at least one optimized emission illumination power (6), for a time period which is equal to the determined illumination time course (6).",
+  "claims": "1. Method for controlling a light source, the method using (a) at least one pose estimate of a camera configured to capture one or more images of a scene of interest which comprises at least one landmark, as said light source is operated to emit light which illuminates said scene of interest, (b) a landmark map comprising at least 3D location information of a plurality of landmarks comprising the at least one landmark in the scene of interest, (c) an illumination model describing a relationship between an emission illumination power and a reflection illumination power, wherein said emission illumination power is the power of light emitted by the light source to illuminate said scene of interest, and said reflection illumination power is the illumination power of light reflected by one or more landmarks in said scene of interest and received by the camera, and (d) a predefined threshold reflection illumination power, wherein the method comprises the following steps: (1) determining, for at least one of the plurality of landmarks, at least one optimized emission illumination power of light to be emitted by the light source, wherein the optimized emission illumination power is a solution to an optimization problem for energy of the emitted light delivered in the predefined illumination time course, and an illumination time course during which the light source should be operated to emit light which has an emission illumination power which is equal to the at least one optimized emission illumination power, using (i) the at least one pose estimate of the camera, (ii) the 3D location information of the at least one of the plurality of landmarks, (iii) the illumination model, and (iv) the predefined threshold reflection illumination power; and (2) operating the light source to emit light which has an emission illumination power which is equal to the at least one optimized emission illumination power, for a time period which is equal to the determined illumination time course.",
+  "patent_id": "US12382566-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H05B 47/115",
+      "B64D 47/04",
+      "G01C 21/206",
+      "G06T 7/73",
+      "B64U 10/13",
+      "B64U 20/87",
+      "B64U 2101/00",
+      "B64U 2101/30",
+      "B64U 2101/70",
+      "G06T 2207/30204",
+      "G06T 2207/30244"
+    ],
+    "all": [
+      "H05B 47/115",
+      "B64D 47/04",
+      "G01C 21/206",
+      "G06T 7/73",
+      "B64U 10/13",
+      "B64U 20/87",
+      "B64U 2101/00",
+      "B64U 2101/30",
+      "B64U 2101/70",
+      "G06T 2207/30204",
+      "G06T 2207/30244"
+    ],
+    "source": "converted"
+  }
+}

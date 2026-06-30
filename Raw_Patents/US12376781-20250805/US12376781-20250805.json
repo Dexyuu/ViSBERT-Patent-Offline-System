@@ -1,0 +1,26 @@
+{
+  "title": "Brain wave analysis device, brain wave analysis system, and brain wave analysis program",
+  "abstract": "The present disclosure provides a brain wave analysis device with a computation section configured to compute a first ratio and a second ratio from a spectrum obtained by performing frequency analysis on time-series data of brain waves measured at a predetermined location of a head of a subject.",
+  "claims": "1. A brain wave analysis device comprising: no more than one sensing electrode; and no more than one reference electrode, a computation section configured to compute a first ratio and a second ratio from a spectrum obtained by performing frequency analysis on time-series data of brain waves measured at a predetermined location of a head of a subject using the sensing electrode, the first ratio being either: a ratio, of a feature value that is a strength of a first wave in a first sub-band of a first frequency band with respect to a feature value that is a strength of a second wave in a second sub-band of the first frequency band wherein the first wave is generated in a stress-induced state of the subject, and wherein the second sub band is higher than the first sub-band, or a ratio of a feature value that is a strength of a third wave in the first frequency band with respect to a feature value that is a strength of a fourth wave in a second frequency band, wherein the fourth wave is generated in an awake state of the subject, and the second ratio being a ratio of a feature value that is a strength of a fifth wave in a third frequency band, wherein the fifth wave is generated in a sleeping state of the subject with respect to a feature value that is a strength of a sixth wave in the second frequency band, wherein the sixth wave is generated in an awake state of the subject; an inference section configured to infer a state of the subject based on the first ratio, a first reference value set using the first ratio, the second ratio, and a second reference value set using the second ratio: wherein the state of the subject is either an attentive state in which the first ratio is larger than the first reference value and the second ratio is smaller than the second reference value, a focused state in which both the first ratio and the second ratio are respectively smaller than the first reference value and the second reference value, or a distracted state in which the second ratio is larger than the second reference value; the first frequency band includes gamma waves; the second frequency band includes beta waves; and the third frequency band theta and delta waves.",
+  "patent_id": "US12376781-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 5/383",
+      "A61B 5/374",
+      "A61B 5/4809",
+      "A61B 5/4824",
+      "A61B 5/7203",
+      "A61B 2560/02"
+    ],
+    "all": [
+      "A61B 5/383",
+      "A61B 5/374",
+      "A61B 5/4809",
+      "A61B 5/4824",
+      "A61B 5/7203",
+      "A61B 2560/02"
+    ],
+    "source": "converted"
+  }
+}

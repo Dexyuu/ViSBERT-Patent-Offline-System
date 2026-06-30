@@ -1,0 +1,30 @@
+{
+  "title": "Semiconductor device verifying signal supplied from outside",
+  "abstract": "Disclosed herein is a semiconductor device that includes an access control circuit generating an internal command based on a verification result signal and an external command. The external command indicates at least one of a first command that enables the access control circuit to access a first circuit and a second command that enables the access control circuit not to access the first circuit or enables the access control circuit to maintain a current state of the first circuit. The access control circuit, when the verification result signal indicates a first logic level, generates the internal command based on the external command. The access control circuit, when the verification result signal indicates a second logic level, generates the internal command that corresponds to a second command even if the external command indicates a first command.",
+  "claims": "1. A controller comprising: an output circuit having; a plurality of first terminals for providing command signals; a second terminal for providing a chip select signal; a third terminal for providing a verification signal; and a verification circuit for generating the verification signal based on the command signals; and a data processing circuit having a data terminal for providing a write data signal and receiving a read data signal wherein the controller generates a verification signal based on a selected one of a plurality of bits in an address signal and a plurality of bits in a control signal and the controller supplies the chip select signal, the command signal, the address signal, and the verification signal to a memory device wherein controller receives an alert signal based on the verification signal and the selected one of the plurality of bits in the address signal and the plurality of bits in the control signal from the memory device.",
+  "patent_id": "US12380942-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G11C 11/409",
+      "G11C 7/24",
+      "G11C 11/4063",
+      "G11C 11/4076",
+      "G11C 11/4078",
+      "G11C 11/408",
+      "G11C 29/52",
+      "G11C 8/12"
+    ],
+    "all": [
+      "G11C 11/409",
+      "G11C 7/24",
+      "G11C 11/4063",
+      "G11C 11/4076",
+      "G11C 11/4078",
+      "G11C 11/408",
+      "G11C 29/52",
+      "G11C 8/12"
+    ],
+    "source": "converted"
+  }
+}

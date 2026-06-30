@@ -1,0 +1,26 @@
+{
+  "title": "Power supply system",
+  "abstract": "A power supply system includes a power factor correction converter circuit and an isolated power converter circuit, wherein the power factor correction converter circuit corrects the power factor of a rectified power to generate a first output power, and the isolated power converter circuit converts the first output power to generate a second output power. The isolated power converter circuit includes a transformer, and the transformer includes a primary winding, a secondary winding, and an auxiliary winding. The auxiliary winding generates an auxiliary voltage which is related to the second output power. When the auxiliary voltage is lower than a disabled threshold, indicating that the voltage of the second output power is lower than a threshold, the power factor correction converter circuit provides a bypassing connection from the rectified power to the first output power and stops correcting the power factor of the rectified power.",
+  "claims": "1. A power supply system, comprising: a power factor correction converter circuit, configured to correct a power factor of a rectified power to generate a first output power; and an isolated power converter circuit, configured to convert the first output power to generate a second output power, the isolated power converter circuit comprising: a transformer, comprising a primary winding, a secondary winding, and an auxiliary winding which are coupled to one another, wherein the auxiliary winding is configured to generate an auxiliary voltage and the auxiliary voltage is relevant to the second output power; a primary side switching circuit, coupled to the primary winding and the first output power; and a secondary side switching circuit, coupled to the secondary winding and the second output power; wherein, when the auxiliary voltage is lower than a disable threshold, indicating that a voltage of the second output power is lower than an output voltage threshold, and indicating that a power of the second output power is lower than an output power threshold, the power factor correction converter circuit provides a bypassing connection from the rectified power to the first output power and stops correcting the power factor of the rectified power, thereby reducing a power consumption of the power supply system; wherein the isolated power converter circuit complies with a power supply specification, so that the second output power has an output current upper limit, wherein the output voltage threshold is calculated from the output power threshold and the output current upper limit.",
+  "patent_id": "US12381470-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02M 1/0032",
+      "H02M 1/007",
+      "H02M 1/10",
+      "H02M 1/4225",
+      "H02M 3/33523",
+      "H02M 3/33569"
+    ],
+    "all": [
+      "H02M 1/0032",
+      "H02M 1/007",
+      "H02M 1/10",
+      "H02M 1/4225",
+      "H02M 3/33523",
+      "H02M 3/33569"
+    ],
+    "source": "converted"
+  }
+}

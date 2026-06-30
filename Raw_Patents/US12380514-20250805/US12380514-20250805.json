@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for modeling disease severity",
+  "abstract": "Example embodiments provide systems and methods for simulating a disease outbreak based on a limited number of input parameters. In one embodiment, a disease severity level is computed based on a relationship between leaf wetness duration and average temperature during a wetness period. The resulting model can be a physical, deterministic model that accepts hourly weather data as input and outputs the most significant severity event of disease infection during a specified period.",
+  "claims": "1. A non-transitory computer-readable medium storing instructions that, when executed by one or more processors of a computing device, cause the one or more processors to: receive, at the computing device, an input comprising weather data for a time period; conduct, using the computing device, a simulation using a disease severity model at predefined intervals for the time period, the simulation adjusting a canopy moisture budget for a plant at each of the predefined intervals; determine, using the computing device, a leaf wetness duration based on the canopy moisture budget, the leaf wetness duration representing a time interval during which leaves of the plant are assumed to be wet; determine, using the computing device, an average air temperature based on the leaf wetness duration; compute, using the computing device, a disease severity level based on the leaf wetness duration and the average air temperature; generate, at the computing device, an output comprising the disease severity level for the time period; and transmit, using the computing device, an instruction to a treatment system based at least partially on the disease severity level, wherein the treatment system is to utilize a treatment device that applies an amount of treatment to the plants.",
+  "patent_id": "US12380514-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 50/02",
+      "G01W 1/06",
+      "G16Z 99/00"
+    ],
+    "all": [
+      "G06Q 50/02",
+      "G01W 1/06",
+      "G16Z 99/00"
+    ],
+    "source": "converted"
+  }
+}

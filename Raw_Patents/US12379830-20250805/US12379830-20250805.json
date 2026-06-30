@@ -1,0 +1,28 @@
+{
+  "title": "Electronic apparatus",
+  "abstract": "An object determination method includes outputting a virtual scene image of a virtual scene. The virtual scene image includes a stereoscopic virtual image of at least one virtual object in the virtual scene. The method further includes, based on a selection operation on the virtual object in the virtual scene image, determining an operation point coordinate of the selection operation in a display area. The display area is configured to display the virtual scene image. The method further includes determining a reference coordinate position in the virtual scene, determining a spatial coordinate of the operation point coordinate of the selection operation mapped into the virtual scene, and determining at least one candidate virtual object for a user to select from the virtual scene in connection with the reference coordinate position and the spatial coordinate.",
+  "claims": "1. A method for object determination, comprising: outputting a virtual scene image of a virtual scene, the virtual scene image including a stereoscopic virtual image of at least one virtual object in the virtual scene; based on a selection operation on the virtual object in the virtual scene image, determining an operation point coordinate of the selection operation in a display area, the display area being configured to display the virtual scene image; determining a reference coordinate position in the virtual scene; determining a spatial coordinate of the operation point coordinate of the selection operation mapped into the virtual scene; determining at least one to-be-determined virtual object in a target sight direction area from the virtual scene by using the reference coordinate position as a viewpoint position, the target sight direction area being a direction area including a sight direction from the viewpoint position to the spatial coordinate; determining an associated virtual object associated with the at least one to-be-determined virtual object from the virtual scene based on an attribute feature of the at least one to-be-determined virtual object; and determining at least one candidate virtual object for the user to select from the virtual scene in connection with the at least one to-be-determined virtual object and the associated virtual object associated with the at least one to-be-determined virtual object, the at least one candidate virtual object comprising the associated virtual object and one or more of the at least one to-be-determined virtual object.",
+  "patent_id": "US12379830-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/04842",
+      "G06F 3/011",
+      "G06T 7/593",
+      "G06T 7/74",
+      "G06T 15/06",
+      "G06T 2200/24",
+      "G06T 2210/21"
+    ],
+    "all": [
+      "G06F 3/04842",
+      "G06F 3/011",
+      "G06T 7/593",
+      "G06T 7/74",
+      "G06T 15/06",
+      "G06T 2200/24",
+      "G06T 2210/21"
+    ],
+    "source": "converted"
+  }
+}

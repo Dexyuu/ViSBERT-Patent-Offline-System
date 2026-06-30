@@ -1,0 +1,26 @@
+{
+  "title": "Stitching quality assessment for surround view systems",
+  "abstract": "Stitching of multiple images into a composite representation can be performed using a set of stitching parameters determined based, at least in part, upon a subjective stitching quality assessment value. A stitched image can be compared against its constituent images to obtain one or more objective quality metrics. These objective quality metrics can be fed, as input, to a trained classifier, which can infer a subjective quality assessment metric for the stitched (or otherwise composited) image. This subjective quality assessment metric can be used to adjust one or more compositing parameter values in order to provide at least a minimum subjective quality assessment value for composited images.",
+  "claims": "1. A computer-implemented method, comprising: obtaining a plurality of constituent images of an environment; stitching, using one or more color values for pixels of the constituent images and based on at least one stitching parameter, the constituent images together to generate a composite image, the one or more color values blended by applying one or more blending weights to one or more respective color channels, the blending weights determined based in part on content represented in the constituent images; calculating a plurality of objective quality metrics for one or more differences in the composite image with respect to the constituent images; inferring a subjective quality metric for the stitching, using a trained classifier that utilizes the plurality of objective quality metrics comprising a structural similarity index measure, a blend width, and actual object size values, as input; and adjusting, based at least in part on the subjective quality metric, the at least one stitching parameter for use in stitching a subsequent set of constituent images, wherein the subjective quality metric for the subsequent set at least satisfies a threshold condition.",
+  "patent_id": "US12382180-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 23/698",
+      "G06T 7/0002",
+      "H04N 5/265",
+      "H04N 7/181",
+      "H04N 23/90",
+      "G06T 2207/30168"
+    ],
+    "all": [
+      "H04N 23/698",
+      "G06T 7/0002",
+      "H04N 5/265",
+      "H04N 7/181",
+      "H04N 23/90",
+      "G06T 2207/30168"
+    ],
+    "source": "converted"
+  }
+}

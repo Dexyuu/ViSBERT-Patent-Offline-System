@@ -1,0 +1,32 @@
+{
+  "title": "Systems and methods for transparent object segmentation using polarization cues",
+  "abstract": "A computer-implemented method for computing a prediction on images of a scene includes: receiving one or more polarization raw frames of a scene, the polarization raw frames being captured with a polarizing filter at a different linear polarization angle; extracting one or more first tensors in one or more polarization representation spaces from the polarization raw frames; and computing a prediction regarding one or more optically challenging objects in the scene based on the one or more first tensors in the one or more polarization representation spaces.",
+  "claims": "1. A computer-implemented method comprising: receiving one or more polarization raw frames of a scene having one or more objects that are transparent or partially transparent; computing, from the one or more polarization raw frames, a plurality of input images comprising an angle of linear polarization (AOLP) image, a degree of linear polarization image (DOLP), and an intensity image; processing the plurality of input images using different respective neural network backbones, wherein each neural network backbone is a convolutional neural network that generates a respective output tensor; generating a fused tensor from the respective outputs of the neural network backbones; and providing the fused tensor as input to a prediction model that generates a prediction of the objects in the scene.",
+  "patent_id": "US12380568-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/60",
+      "B25J 9/1697",
+      "G06V 10/26",
+      "G06V 10/764",
+      "G06V 10/7715",
+      "G06V 10/774",
+      "G06V 10/82",
+      "G06V 20/50",
+      "G06V 20/60"
+    ],
+    "all": [
+      "G06V 10/60",
+      "B25J 9/1697",
+      "G06V 10/26",
+      "G06V 10/764",
+      "G06V 10/7715",
+      "G06V 10/774",
+      "G06V 10/82",
+      "G06V 20/50",
+      "G06V 20/60"
+    ],
+    "source": "converted"
+  }
+}

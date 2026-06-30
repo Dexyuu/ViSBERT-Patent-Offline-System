@@ -1,0 +1,18 @@
+{
+  "title": "Item tracking using radio frequency identification filtering",
+  "abstract": "Systems and techniques are provided for wireless communications. A Radio Frequency Identification (RFID) observation can be obtained based on an energizing signal and a plurality of backscatter signals from a plurality of RFID tags. Each backscatter signal can indicate an identifier of a respective RFID tag uniquely associated with a particular item of a plurality of items. Expected background noise information, indicative of a subset of the plurality of items for the RFID observation, can be determined based on comparing a location of a wireless communication device and item placement information for the plurality of items. The RFID observation can be filtered using the expected background noise information to exclude information associated with the subset of the plurality of items. A basket content estimation can be determined from the filtered RFID observation, wherein the basket content estimation is indicative of one or more collected items of the plurality of items.",
+  "claims": "1. A wireless communication device, comprising: at least one memory; and at least one processor coupled to the at least one memory and configured to: obtain a Radio Frequency Identification (RFID) observation corresponding to a plurality of backscatter signals from a plurality of RFID tags and based on an energizing signal, wherein each backscatter signal of the plurality of backscatter signals is indicative of an identifier of a respective RFID tag uniquely associated with a particular item of a plurality of items; determine expected background noise information corresponding to the RFID observation, wherein the expected background noise information is indicative of a subset of the plurality of items based on a comparison between a location of the wireless communication device and item placement information for the plurality of items; filter the RFID observation based on the expected background noise information, wherein a filtered RFID observation does not include information associated with the subset of the plurality of items indicated in the expected background noise information; and determine a basket content estimation based on the filtered RFID observation, wherein the basket content estimation is indicative of one or more collected items of the plurality of items.",
+  "patent_id": "US12380304-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06K 17/0029",
+      "G06K 17/00"
+    ],
+    "all": [
+      "G06K 17/0029",
+      "G06K 17/00"
+    ],
+    "source": "converted"
+  }
+}

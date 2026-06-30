@@ -1,0 +1,24 @@
+{
+  "title": "Systems and methods for dynamic edge computing device assignment and reassignment",
+  "abstract": "A system described herein may identify a particular service provided by a first Edge Computing (âECâ) device to a particular User Equipment (âUEâ), and may monitor performance information associated with the first EC device and/or a second EC device. The system may determine, based on the monitoring, that the second EC device should provide the service to the particular UE in lieu of the first EC device; and may accordingly cause the service to be provided to the particular UE by the second EC device in lieu of the first EC device. The system may notify the first EC device that the second EC device has been selected to provide the service to the particular UE in lieu of the first EC device, and/or may notify the second EC device that the second EC device has been selected to provide the service to the particular UE.",
+  "claims": "1. A device, comprising: a non-transitory memory device storing a plurality of processor-executable instructions; and one or more processors configured to execute the plurality of processor-executable instructions, wherein executing the processor-executable instructions causes the one or more processors to: identify a particular service provided by a first Edge Computing (“EC”) device to a particular User Equipment (“UE”); determine a location of the particular UE; monitor performance information associated with at least one of: the first EC device, or a second EC device, wherein monitoring the performance information associated with the first EC device includes: determining a measure of latency associated with the first EC device, wherein determining the measure of latency associated with the first EC device includes determining a first measure of latency that is associated with the location of the particular UE, wherein the first EC device is associated with at least a second measure of latency that is associated with one or more other locations, or determining a measure of throughput associated with the first EC device, wherein determining the measure of throughput associated with the first EC device includes determining a first measure of throughput that is associated with the location of the particular UE, wherein the first EC device is associated with at least a second measure of throughput that is associated with one or more other locations; determine, based on monitoring the performance information, that the second EC device should provide the service to the particular UE in lieu of the first EC device; and cause, based on the determining, the service to be provided to the particular UE by the second EC device in lieu of the first EC device, wherein causing the service to be provided by the second EC device includes at least one of: notifying the first EC device that the second EC device has been selected to provide the service to the particular UE in lieu of the first EC device, or notifying the second EC device that the second EC device has been selected to provide the service to the particular UE in lieu of the first EC device.",
+  "patent_id": "US12382383-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 48/18",
+      "H04W 4/02",
+      "H04W 4/50",
+      "H04W 24/08",
+      "H04W 24/10"
+    ],
+    "all": [
+      "H04W 48/18",
+      "H04W 4/02",
+      "H04W 4/50",
+      "H04W 24/08",
+      "H04W 24/10"
+    ],
+    "source": "converted"
+  }
+}

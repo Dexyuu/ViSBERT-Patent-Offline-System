@@ -1,0 +1,18 @@
+{
+  "title": "Technique for authenticating operators of wireless terminal devices",
+  "abstract": "A technique of authenticating an operator of a wireless terminal device is presented, wherein the first terminal device comprises a subscriber identity module (SIM) and wherein a subscription identifier is stored in the SIM. A method aspect of this technique comprises receiving the subscription identifier or a temporary identifier associated with the subscription identifier. The method aspect also comprises receiving a first set of biometric data of the operator, wherein the first set of biometric data has been entered by the operator at the terminal device, and sending a database request towards a subscriber database in a core network domain of a wireless communication system, the database request including the subscription identifier or the temporary identifier. The method further comprises receiving, in response to the database request, a second set of biometric data associated in the subscriber database with the subscription identifier or the temporary identifier, and authenticating the first set of biometric data on the basis of the second set of biometric data so as to obtain a first authentication result.",
+  "claims": "1. A method of authenticating an operator of a wireless first terminal device performed by a network node, the first terminal device comprising a subscriber identity module (SIM), wherein a subscription identifier is stored in the SIM, the method comprising: the network node receiving the subscription identifier or a temporary identifier associated with the subscription identifier; the network node receiving from a communication endpoint a trigger for triggering the network node to trigger an authentication request prompting the operator to enter a first set of biometric data, wherein the first set of biometric data is received responsive to the authentication request, the first terminal device is communicating or starting to communicate with the communication endpoint that is located opposite to the first terminal device, and the communication endpoint is one of a second terminal device and a web server; the network node receiving the first set of biometric data of the operator, wherein the first set of biometric data has been entered by the operator at the first terminal device; the network node sending a first database request towards a subscriber database in a core network domain of a wireless communication system, the first database request including the subscription identifier or the temporary identifier; the network node receiving, in response to the first database request, a second set of biometric data associated in the subscriber database with the subscription identifier or the temporary identifier; and the network node authenticating the first set of biometric data on the basis of the second set of biometric data so as to obtain a first authentication result.",
+  "patent_id": "US12382285-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 12/06",
+      "H04W 12/72"
+    ],
+    "all": [
+      "H04W 12/06",
+      "H04W 12/72"
+    ],
+    "source": "converted"
+  }
+}

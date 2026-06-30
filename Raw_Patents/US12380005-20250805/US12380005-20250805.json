@@ -1,0 +1,26 @@
+{
+  "title": "Failover for pooled memory",
+  "abstract": "An embodiment of an electronic apparatus may comprise one or more substrates, and a controller coupled to the one or more substrates, the controller to allocate a first secure portion of a pooled memory to a first instantiation of an application on a first node, and circuitry coupled to the one or more substrates and the controller, the circuitry to provide a failover interface for a second instantiation of the application on a second node to access the first secure portion of the pooled memory in the event of a failure of the first node. Other embodiments are disclosed and claimed.",
+  "claims": "1. An electronic apparatus, comprising: one or more substrates; and a controller coupled to the one or more substrates, the controller to allocate a first secure portion of a pooled memory to a first instantiation of an application on a first node; and circuitry coupled to the one or more substrates and the controller, the circuitry to: detect an initiation of a second instantiation of the application at a second node, wherein the initiation is based on a failure of the first node; provide a failover interface at the second node; and with the failover interface: receive, from an operating system at the second node, an identifier of the application, wherein the failover interface is to receive the identifier based on an authentication request from the second instantiation to the operating system; send the identifier from the second node to a failover manager at the pooled memory, wherein, based on the identifier, an authentication of the second instantiation is to be performed with the failover manager and a trusted server; and based on the authentication, receive authentication information from the failover manager, the authentication information comprising an address of metadata in the pooled memory, wherein the second node is to execute the second instantiation with the metadata and the first secure portion of the pooled memory.",
+  "patent_id": "US12380005-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/2023",
+      "G06F 9/44505",
+      "G06F 9/5016",
+      "G06F 11/1441",
+      "G06F 12/1425",
+      "G06F 12/1466"
+    ],
+    "all": [
+      "G06F 11/2023",
+      "G06F 9/44505",
+      "G06F 9/5016",
+      "G06F 11/1441",
+      "G06F 12/1425",
+      "G06F 12/1466"
+    ],
+    "source": "converted"
+  }
+}

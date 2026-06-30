@@ -1,0 +1,32 @@
+{
+  "title": "Method and apparatus for solar powered and navigationally optimized hydrofoil autonomous vessel",
+  "abstract": "An unmanned ocean vehicle apparatus having a hull, solar array, hydrofoil, and electric thruster is operable on a surface of a body of water to travel from one point to another with long range capabilities. The unmanned ocean vehicle can further be placed in a more compact configuration, incorporating a mechanism to alternate between operational mode and collapsed storage mode to facilitate physical storage or shipment of the vehicle. Methods are described for optimizing travel and determining favorable movements of the unmanned ocean vehicle by calculating current and predicted conditions at certain waypoints using a combination of a sensor, a computer, and a control system. The physical support of hydrofoils, a drag reducing system, capsize-prevention technique, and a three-dimensional arrangement of solar panels provides efficient power management, optimal route strategy, and sustainability of the vehicle's high speeds in wildly varying ocean conditions.",
+  "claims": "16. A method for operation of an unmanned ocean vehicle for operating on a surface of a body of water, the method comprising: providing an unmanned ocean vehicle comprising a hull, a plurality of hydrofoils, a solar panel, a battery electrically coupled to the solar panel, a rudder, one or more electric thrusters, a sensor assembly, one or more hinges positioned on the vehicle to allow the plurality of hydrofoils to be folded inward towards a center of the vehicle to substantially collapse the vehicle, a satellite link, and a controller assembly configured to control the rudder and one or more electric thrusters; receiving information from the sensor assembly and the satellite link including information indicating a travel time and a power usage; generating a route having a plurality of waypoints between a starting position and a destination to move the vehicle from the starting position to the destination using information received from the satellite link; calculating the travel time from the starting position and the at least one of the plurality of waypoints; calculating the power usage from the starting position to at least one of the plurality of waypoints; determining, based at least in part on the travel time and the power usage calculated, at least one duration of time to control the rudder and the one or more electric thrusters to move the vehicle along the route to the destination, wherein controlling the rudder and the one or more electric thrusters includes providing power to the electric thruster, based at least in part on the information indicating the travel time and the power usage, to propel the vehicle at a speed such that the plurality of hydrofoils lift the hull of the vehicle out of the water as the vehicle moves along the route for at least part of the route; measuring, using a pressure sensor positioned on the plurality of hydrofoils, pressure of the water; analyzing, using a light detection system, water in front of the vehicle; measuring, using an ultrasonic imaging system, a height of the vehicle above the water; receiving, by the controller assembly, information from the pressure sensor, the light detection system, and the ultrasonic imaging system; controlling, by the controller assembly, the one or more electric thrusters based at least in part on the information from the pressure sensor, the light detection system, and the ultrasonic imaging system, wherein controlling the one or more electric thrusters includes controlling the one or more electric thrusters to propel the vehicle at a speed such that the plurality of hydrofoils lifts the hull out of the water; detecting an oncoming wave using the ultrasonic imaging system, and controlling, by the controller assembly, the one or more electric thrusters and the rudder based at least in part on information from the ultrasonic imaging system of the oncoming wave; determining, by the controller assembly using information from the pressure sensor, that the vehicle has capsized; and controlling, by the controller assembly, the rudder and the one or more electric thrusters to move the vehicle to an upright position.",
+  "patent_id": "US12377946-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B63H 1/34",
+      "B63B 1/24",
+      "B63B 1/246",
+      "B63B 1/30",
+      "B63B 79/40",
+      "B63H 21/17",
+      "B63H 25/42",
+      "G05D 1/48",
+      "B63H 2021/171"
+    ],
+    "all": [
+      "B63H 1/34",
+      "B63B 1/24",
+      "B63B 1/246",
+      "B63B 1/30",
+      "B63B 79/40",
+      "B63H 21/17",
+      "B63H 25/42",
+      "G05D 1/48",
+      "B63H 2021/171"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Systems and methods for determining situational interpretation information",
+  "abstract": "Techniques for determining situational interpretation information are discussed herein. A vehicle computing device associated with an autonomous vehicle can receive sensor data associated with an autonomous vehicle traversing an environment. The vehicle computing device can determine, based at least in part on the sensor data a planned trajectory usable to control the autonomous vehicle in the environment. The vehicle computing device can determine, based at least in part on the planned trajectory, situational information associated with the planned trajectory. The rationalization component can determine one or more indicators representing the situational information associated with the autonomous vehicle. A display device can display the one or more indicators.",
+  "claims": "1. A system comprising: one or more processors; and one or more non-transitory computer-readable media storing instructions executable by the one or more processors, wherein the instructions, when executed, cause the system to perform operations comprising: receiving sensor data associated with an autonomous vehicle traversing an environment; determining, based at least in part on the sensor data, an object proximate the vehicle; determining, based at least in part on the object, a planned trajectory for the autonomous vehicle, the planned trajectory associated with an intended maneuver; controlling the autonomous vehicle according to at least a portion of the planned trajectory; determining a first indicator representative of the intended maneuver; determining a second indicator representative of the object; determining, based at least in part on the planned trajectory, an upcoming maneuver associated with the autonomous vehicle, the upcoming maneuver comprising a maneuver to be executed at a future time, after completion of the intended maneuver; determining a third indicator representative of the upcoming maneuver; displaying, via a display device in the autonomous vehicle, the first indicator, the second indicator, and the third indicator; receiving a command from an operator to control the autonomous vehicle; determining a fourth indicator indicating that the autonomous vehicle is in a manual mode and a fifth indicator requesting a disengagement report; and displaying, via the display device in the autonomous vehicle, the fourth indicator and the fifth indicator.",
+  "patent_id": "US12377869-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 50/14",
+      "B60W 60/0015",
+      "G07C 5/02",
+      "B60W 2050/143",
+      "B60W 2050/146",
+      "B60W 2554/4026",
+      "B60W 2554/4029"
+    ],
+    "all": [
+      "B60W 50/14",
+      "B60W 60/0015",
+      "G07C 5/02",
+      "B60W 2050/143",
+      "B60W 2050/146",
+      "B60W 2554/4026",
+      "B60W 2554/4029"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Image generation using surface-based neural synthesis",
+  "abstract": "Aspects of the present disclosure involve a system and a method for performing operations comprising: receiving a two-dimensional continuous surface representation of a three-dimensional object, the continuous surface comprising a plurality of landmark locations; determining a first set of soft membership functions based on a relative location of points in the two-dimensional continuous surface representation and the landmark locations; receiving a two-dimensional input image, the input image comprising an image of the object; extracting a plurality of features from the input image using a feature recognition model; generating an encoded. feature representation of the extracted features using the first set of soft membership functions; generating a dense feature representation of the extracted features from the encoded representation using a second set of soft membership functions; and processing the second set of soft membership functions and dense feature representation using a neural image decoder model to generate an output image.",
+  "claims": "1. A method comprising: receiving a two-dimensional (2D) input image depicting a person in a first pose; receiving a target image corresponding to a second pose; processing the 2D input image to generate soft feature pooling features, the soft feature pooling features comprising a matrix of a collection of features extracted from the 2D input image that are arranged based on expected locations of different joints; processing the target image to generate target soft intrinsic distances, the target soft intrinsic distances representing a likelihood that pixel values in the 2D input image correspond to a particular joint in the target image; and decoding features of the 2D input image based on a combination of the soft feature pooling features and target soft intrinsic distances to generate a decoded image that depicts the person in the second pose.",
+  "patent_id": "US12380611-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 11/001",
+      "G06F 17/18",
+      "G06F 18/22",
+      "G06F 18/253",
+      "G06T 5/50",
+      "G06V 10/74",
+      "G06V 10/806",
+      "G06V 20/647",
+      "G06V 40/103",
+      "G06T 2207/20084"
+    ],
+    "all": [
+      "G06T 11/001",
+      "G06F 17/18",
+      "G06F 18/22",
+      "G06F 18/253",
+      "G06T 5/50",
+      "G06V 10/74",
+      "G06V 10/806",
+      "G06V 20/647",
+      "G06V 40/103",
+      "G06T 2207/20084"
+    ],
+    "source": "converted"
+  }
+}

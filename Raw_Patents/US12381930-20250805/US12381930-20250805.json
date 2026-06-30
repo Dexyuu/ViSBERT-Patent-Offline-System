@@ -1,0 +1,28 @@
+{
+  "title": "Initial bitrate for real time communication",
+  "abstract": "A method for determining an initial bitrate for a communication includes receiving a communication request to establish a digital communication between a first user device and a second user device associated with a plurality of features including a geographical identifier identifying a geographical location associated with the first user device, a first network type connection associated with the first user device, a second network type connection associated with the second user device, and an average bitrate for a previous digital communication of the first user device. The method includes determining, using an initial bitrate predictor model configured to receive the plurality of features as feature inputs, an initial bitrate for the digital communication between the first user device and the second user device, and establishing the digital communication between the first user device and the second user device at the determined initial bitrate.",
+  "claims": "1. A computer-implemented method when executed by data processing hardware causes the data processing hardware to perform operations comprising: receiving a communication request to establish a digital communication between a first user device and a second user device, the communication request associated with one or more features associated with the first user device; determining, using an initial bitrate predictor model configured to receive the one or more features associated with the first user device as feature inputs, an initial bitrate for the digital communication between the first user device and the second user device, the initial bitrate predictor model comprising a neural network, a lookup table derived from the neural network, or a function derived from the neural network; and establishing the digital communication between the first user device and the second user device at the determined initial bitrate, the digital communication causing the first user device to transmit communication data to the second user device at the determined initial bitrate.",
+  "patent_id": "US12381930-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 65/80",
+      "G06F 16/285",
+      "H04L 65/762",
+      "H04N 19/149",
+      "H04N 21/2662",
+      "H04W 4/029",
+      "H04W 28/0967"
+    ],
+    "all": [
+      "H04L 65/80",
+      "G06F 16/285",
+      "H04L 65/762",
+      "H04N 19/149",
+      "H04N 21/2662",
+      "H04W 4/029",
+      "H04W 28/0967"
+    ],
+    "source": "converted"
+  }
+}

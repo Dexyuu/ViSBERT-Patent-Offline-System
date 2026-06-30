@@ -1,0 +1,16 @@
+{
+  "title": "Encryption system and method",
+  "abstract": "A computing system uses Advanced Encryption Standard XEX Based Tweaked Codebook Mode with Ciphertext Stealing (AES-XTS) encryption to encrypt a block of data using a tweak key, a data key, a modified tweak value, and the block of data to thereby generate an encrypted block of data. The modified tweak value is computed according to the expression DEC(0, CONST KEY), where DEC is an AES decryption algorithm, and CONST KEY is the tweak key. The encrypted block of data is thereby formatted according to the Advanced Encryption Standard with no extended mode and not according to the XEX Based Tweaked Codebook Mode with Ciphertext Stealing.",
+  "claims": "1. A computing system, comprising: processing circuitry configured to execute an Advanced Encryption Standard XEX Based Tweaked Codebook Mode with Ciphertext Stealing (AES-XTS) encryption subsystem configured to: encrypt a block of data using an AES-XTS encryption module configured to receive as inputs a tweak key, a data key, a modified tweak value, and the block of data, to thereby generate an encrypted block of data, wherein the modified tweak value is computed according to the expression DEC(0, CONST KEY), wherein DEC is an AES decryption algorithm, and CONST KEY is the tweak key; and the encrypted block of data is thereby formatted according to the Advanced Encryption Standard (AES) with no extended mode and not according to the XEX Based Tweaked Codebook Mode with Ciphertext Stealing, thereby emulating the AES encryption with Electronic Code Book (ECB) mode and no extended mode using the AES-XTS encryption subsystem, wherein the modified tweak value is computed outside of the AES-XTS encryption subsystem.",
+  "patent_id": "US12381711-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/0631"
+    ],
+    "all": [
+      "H04L 9/0631"
+    ],
+    "source": "converted"
+  }
+}

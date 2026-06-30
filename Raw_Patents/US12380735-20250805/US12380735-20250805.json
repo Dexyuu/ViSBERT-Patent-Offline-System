@@ -1,0 +1,26 @@
+{
+  "title": "Systems and methods for biometric identification using patterns and blood flow characteristics of the outer eye",
+  "abstract": "The present invention relates to biometric identification using a combination of static pattern characteristic unique to an individual and a measure of a dynamically changing blood flow characteristic for the individual. Images are acquired of the microvasculature of the outer eye (e.g. the sclera) which presents a unique pattern for each individual which can be determined using image processing and artificial intelligence (AI) techniques. A series of images are acquired of the microvasculature of the outer eye (e.g. the sclera) at a higher magnification thereby allowing for the determination of blood flow (e.g. velocity) characteristics using computer vision and AI techniques. The pattern and blood flow characteristics are used in combination to determine the identity of the individual.",
+  "claims": "1. A computer implemented method for artificial intelligence (AI) enabled biometric identification of individuals, the computer implemented method comprising: controlling a first visible light camera to obtain a first image of at least a portion of the vasculature of the scleral tissue of the outer eye of an individual; controlling a second visible light camera to obtain a series of second images of the vasculature of the scleral tissue of the outer eye, the second images obtained at a higher magnification than the first image, the series of second images capturing blood flow through at least one blood vessel segment of the scleral tissue of the outer eye of the individual; transmitting the first image and series of second images to an AI processing module; receiving from the AI processing module, identity information associated with the individual, wherein the AI processing module employs at least one machine learning algorithm trained on pattern and flow characteristics of the vasculature of the scleral tissue of the outer eye, wherein the identity information is determined by the AI processing module by: a) determining at least one pattern characteristic of the vasculature from the first image; b) determining at least one blood flow characteristic from the series of second images; c) comparing the at least one pattern characteristic and the at least one blood flow characteristic with a database of previously established pattern characteristics and blood flow characteristics for a plurality of individuals; d) determining identity information for the individual when the comparison results in a match exceeding a match threshold; and providing an authorization indication based on the identity information, the authorization indication granting or denying the user access to at least one of a location, a device, and information.",
+  "patent_id": "US12380735-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 40/197",
+      "A61B 5/0261",
+      "A61B 5/1171",
+      "G06Q 30/0269",
+      "G06V 40/145",
+      "G06V 40/19"
+    ],
+    "all": [
+      "G06V 40/197",
+      "A61B 5/0261",
+      "A61B 5/1171",
+      "G06Q 30/0269",
+      "G06V 40/145",
+      "G06V 40/19"
+    ],
+    "source": "converted"
+  }
+}

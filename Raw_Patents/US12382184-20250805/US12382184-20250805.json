@@ -1,0 +1,20 @@
+{
+  "title": "Display device and method of driving the same",
+  "abstract": "A display device includes: a display panel including a first display area having a first light transmittance and a second display area having a second light transmittance that is higher than the first light transmittance; a camera module under the second display area that is configured to output a raw image signal; a compensation module configured to: activate in response to a compensation control signal; receive the raw image signal; and compensate the raw image signal through a compensation program utilizing a learning data-based deep learning algorithm to generate a compensation image signal; and a control module configured to control operations of the display panel, the camera module, and the compensation module.",
+  "claims": "1. A display device comprising: a display panel including a first display area having a first light transmittance and a second display area having a second light transmittance that is higher than the first light transmittance; a camera module under the second display area that is configured to output a raw image signal; a compensation module configured to: receive the raw image signal; and compensate, in response to a user input setting signal input by a user, the raw image signal through a compensation program utilizing a learning data-based deep learning algorithm to generate a compensation image signal; and a control module configured to control one or more operations of the display panel, the camera module, and the compensation module, wherein the compensation module comprises: a parameter storage unit storing a parameter including information on the second display area; a point spread function detection unit generating a point spread function based on the parameter; a prediction image generation unit predicting and generating a flare image of a target image by using the point spread function; a learning data output unit generating learning data by using the target image and the flare image; and an image compensation unit receiving the raw image signal from the camera module and compensating the raw image signal using the learning data to generate the compensation image signal.",
+  "patent_id": "US12382184-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 23/76",
+      "H04N 23/57",
+      "H04L 65/403"
+    ],
+    "all": [
+      "H04N 23/76",
+      "H04N 23/57",
+      "H04L 65/403"
+    ],
+    "source": "converted"
+  }
+}

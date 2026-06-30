@@ -1,0 +1,24 @@
+{
+  "title": "Quantizer design",
+  "abstract": "A method, computer program, and computer system for video coding is provided. Video data including one or more quantized coefficients is received. One or more index values associated with the quantized coefficients are mapped to one or more step values based on an exponential mapping. The video data is decoded based on the one or more step values.",
+  "claims": "1. A method for decoding video data, executable by a processor, comprising: receiving video data comprising one or more quantized coefficients; mapping one or more quantization index values associated with the quantized coefficients to one or more quantization step sizes based on a piecewise exponential mapping from a quantization index value to a corresponding quantization step size, wherein the piecewise exponential mapping comprises two or more portions applying different respective exponential mappings; and decoding the video data by performing an inverse quantization based on the one or more quantization step sizes.",
+  "patent_id": "US12382043-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/124",
+      "G06N 3/02",
+      "H04N 19/119",
+      "H04N 19/184",
+      "H04N 19/189"
+    ],
+    "all": [
+      "H04N 19/124",
+      "G06N 3/02",
+      "H04N 19/119",
+      "H04N 19/184",
+      "H04N 19/189"
+    ],
+    "source": "converted"
+  }
+}

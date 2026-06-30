@@ -1,0 +1,36 @@
+{
+  "title": "Control circuitry for data security apparatus",
+  "abstract": "A data security apparatus has an analog component and control circuitry. The control circuitry receives an incoming digital message and converts it to or from encrypted form using the analog component. The control circuitry drives the analog component with drive signals and receives back a digital representation of what the analog component's sensor outputs. It uses this in making a digital keystream. In operation, the control circuitry makes the drive signals by encrypting a nonce-based value with a key. It can encrypt the digital representation of the sensor outputs that resulted from the drive signal, with the same key. The control circuitry also can also encrypt the nonce-based value with a different key, and then combine this with the encrypted sensor output to generate the digital keystream that is uses in the conversion.",
+  "claims": "1. A data security apparatus, comprising: an analog component, configured to provide a sensor output; control circuitry comprising a circuit configured to perform predefined operations; the predefined operations comprising: obtaining a plaintext message M; generating an analog component input for the analog component, the analog component input being based on a nonce N; sending the analog component input to the analog component as drive signals to drive the analog component to provide the sensor output; digitally representing the sensor output to obtain an analog component output A o ; generating a digital keystream S based on the analog component output A o ; generating a ciphertext C based on the digital keystream S and on the plaintext message M; and outputting the ciphertext C and the nonce N.",
+  "patent_id": "US12380813-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09C 1/00",
+      "G02F 1/1313",
+      "G02F 1/133524",
+      "G02F 1/134309",
+      "G02F 1/13439",
+      "H04L 9/0618",
+      "H04L 9/0631",
+      "H04L 9/0637",
+      "H04L 9/0866",
+      "G02F 1/133723",
+      "H04L 2209/12"
+    ],
+    "all": [
+      "G09C 1/00",
+      "G02F 1/1313",
+      "G02F 1/133524",
+      "G02F 1/134309",
+      "G02F 1/13439",
+      "H04L 9/0618",
+      "H04L 9/0631",
+      "H04L 9/0637",
+      "H04L 9/0866",
+      "G02F 1/133723",
+      "H04L 2209/12"
+    ],
+    "source": "converted"
+  }
+}

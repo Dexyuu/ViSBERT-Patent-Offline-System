@@ -1,0 +1,26 @@
+{
+  "title": "Video decoding method and apparatus, video encoding method and apparatus, device, and storage medium",
+  "abstract": "Video decoding and encoding methods and apparatuses are provided. The decoding method includes: obtaining a first parameter set corresponding to a to-be-decoded video frame; determining an effective quantization matrix (QM) according to syntax elements included in the first parameter set, the effective QM being a QM actually used for inversely quantizing quantized transform coefficients during decoding of the to-be-decoded video frame; and decoding the effective QM.",
+  "claims": "1. A video encoding method, performed by at least one processor, the video encoding method comprising: obtaining an input video; determining an effective quantization matrix (QM) for quantizing transform coefficients used to encode a video frame included in the input video; selecting a first flag syntax element based on the effective QM, wherein the first flag syntax element indicates whether a chroma QM needs to be decoded generating a first parameter set corresponding to the video frame based on the first flag syntax element, the first parameter set comprising related syntax elements used for defining a quantization matrix (QM); and encoding the input video based on the first parameter set, wherein a value of the first flag syntax element is determined according to a sampling rate of a chroma component relative to a luma component, and wherein, based on the sampling rate of the chroma component relative to the luma component being 4:0:0, elements of the chroma QM are determined to be 16, and the value of the first flag syntax element is determined to be 0, indicating that the chroma QM does not need to be decoded.",
+  "patent_id": "US12382077-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/44",
+      "H04N 19/122",
+      "H04N 19/159",
+      "H04N 19/196",
+      "H04N 19/70",
+      "H04N 19/96"
+    ],
+    "all": [
+      "H04N 19/44",
+      "H04N 19/122",
+      "H04N 19/159",
+      "H04N 19/196",
+      "H04N 19/70",
+      "H04N 19/96"
+    ],
+    "source": "converted"
+  }
+}

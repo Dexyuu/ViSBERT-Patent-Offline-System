@@ -1,0 +1,18 @@
+{
+  "title": "Contextually relevant user-based product recommendations based on scene information",
+  "abstract": "Systems, devices, and methods are provided for determining contextually relevant user-based product recommendations based on scene information. In at least one embodiment, techniques described herein may be used to determine, using a first machine-learning model, first information associated with a first object within a first image of digital content, determine, using a second machine-learning model, similarity scores between the first object and a first plurality of products of an online purchasing system, detect, in association with the first image of the digital content, performance of a first computer-based action by a user, determine, using a third machine-learning model and based on contextual data of the user, one or more affinity scores for the user, select a first product based on the one or more affinity scores, and present a recommendation to the user to perform a second computer-based action in association with the first product.",
+  "claims": "1. A system, comprising: one or more processors; and memory storing executable instructions that, as a result of execution by the one or more processors, cause the system to: parse a scene in a video content to identify a first object in multiple frames of the scene, the multiple frames including a first frame; determine first information associated with the first object; determine, using a second machine-learning model and based on the first information, similarity scores between the first object and one or more products of an online purchasing system, wherein the second machine-learning model is trained on a database of product images including images for the one or more products; detect, in association with the first frame, performance of a first computer-based action by a user; determine, based on contextual data of the user, one or more affinity scores for the user, wherein a first affinity score associated with a first product of the one or more products indicates a likelihood the user is to perform a second computer-based action in association with the first product; select the first product based on the one or more affinity scores; encode the video content to include an annotation associated with the first object, the annotation including third information associated with the first product; and transmit the encoded video content to a user device.",
+  "patent_id": "US12380484-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0631",
+      "G06N 20/00"
+    ],
+    "all": [
+      "G06Q 30/0631",
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

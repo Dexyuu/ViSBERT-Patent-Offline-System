@@ -1,0 +1,16 @@
+{
+  "title": "Building and using attestation model in confidential computing",
+  "abstract": "A computer-implemented method for building and using a multi-party Attestation Model for controlling operation of a multi-tenant cloud infrastructure which includes providing a trusted execution environment (TEE) within the multi-tenant cloud infrastructure, receiving a set of requirements from each of a plurality of tenants of the multi-tenant cloud infrastructure, building an Attestation Model according to the sets of requirements, and deploying the Attestation Model within the TEE. In response to a determination that a change does not satisfy the Attestation Model for each of the plurality of tenants, a function is performed to separate components shared between tenants for which the change satisfies the Attestation Model from components shared between tenants for which the change does not satisfy the Attestation Model, and the change is deployed on the multi-tenant cloud infrastructure for the tenants for which the change satisfies the Attestation Model.",
+  "claims": "1. A computer-implemented method for building and using a multi-party Attestation Model for controlling operation of a multi-tenant cloud infrastructure, the method comprising: providing a trusted execution environment (TEE) within the multi-tenant cloud infrastructure; receiving a set of requirements from each of a plurality of tenants of the multi-tenant cloud infrastructure; building an Attestation Model according to the set of requirements; deploying the Attestation Model within the TEE; in response to detecting at least one change within the multi-tenant cloud infrastructure, simulating an effect of the at least one change within the Attestation Model; in response to a determination that the at least one change does not satisfy the Attestation Model for each of the plurality of tenants, performing a function to separate components shared between tenants for which the at least one change satisfies the Attestation Model from components shared between tenants for which the at least one change does not satisfy the Attestation Model; and deploying the at least one change on the multi-tenant cloud infrastructure for the tenants for which the at least one change satisfies the Attestation Model.",
+  "patent_id": "US12381856-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/0428"
+    ],
+    "all": [
+      "H04L 63/0428"
+    ],
+    "source": "converted"
+  }
+}

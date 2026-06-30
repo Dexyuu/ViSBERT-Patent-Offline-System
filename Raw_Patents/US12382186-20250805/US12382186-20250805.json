@@ -1,0 +1,24 @@
+{
+  "title": "Imaging apparatus having controlled movement of focus position, control method for imaging apparatus, and storage medium",
+  "abstract": "An image capturing apparatus includes an image sensor that captures an image of an object formed by an imaging optical system, at least one processor, and a memory coupled to the at least one processor. The memory stores instructions that, when executed by the at least one processor, cause the at least one processor to execute noise reduction processing on a first image captured by the image sensor based on a plurality of second images, acquire an evaluation value indicating contrast of the first image on which the noise reduction processing has been executed, and control movement of a focus position of the imaging optical system based on the evaluation value. The movement is controlled so that the movement is stopped for a time period having a length corresponding to an intensity of the noise reduction processing in a case where a predetermined condition is satisfied.",
+  "claims": "1. An image capturing apparatus comprising: an image sensor that captures an image of an object formed by an imaging optical system; at least one processor; and a memory coupled to the at least one processor, the memory storing instructions that, when executed by the at least one processor, cause the at least one processor to: execute noise reduction processing on a first image captured by the image sensor based on a plurality of second images; acquire an evaluation value indicating contrast of the first image on which the noise reduction processing has been executed; and control movement of a focus position of the imaging optical system based on the evaluation value, wherein the movement of the focus position is controlled so that the movement of the focus position is stopped for a time period having a length corresponding to an intensity of the noise reduction processing in a case where a predetermined condition is satisfied.",
+  "patent_id": "US12382186-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 23/81",
+      "G06T 7/0002",
+      "H04N 23/673",
+      "H04N 23/683",
+      "G06T 2207/30168"
+    ],
+    "all": [
+      "H04N 23/81",
+      "G06T 7/0002",
+      "H04N 23/673",
+      "H04N 23/683",
+      "G06T 2207/30168"
+    ],
+    "source": "converted"
+  }
+}

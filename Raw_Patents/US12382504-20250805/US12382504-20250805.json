@@ -1,0 +1,16 @@
+{
+  "title": "RACH response preamble reduction",
+  "abstract": "A method is disclosed for reducing processor utilization at a cellular base station, comprising: sending a number of random access preambles in a System Information Block (SIB) that may be less than 64; subtracting the number of random access preambles from 64 to obtain a ceiling of dedicated preambles; and using root sequences to generate a number of dedicated preambles less than or equal to the number of random access preambles, thereby reducing processor utilization relative to generating 64 preambles.",
+  "claims": "1. A method for reducing processor utilization at a cellular base station, comprising: sending a number of random access preambles in a System Information Block (SIB) that is less than 64; subtracting the number of random access preambles from 64 to obtain a ceiling of dedicated preambles; and using root sequences to generate a number of dedicated preambles less than or equal to the number of random access preambles, thereby reducing processor utilization relative to generating 64 preambles.",
+  "patent_id": "US12382504-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 74/0833"
+    ],
+    "all": [
+      "H04W 74/0833"
+    ],
+    "source": "converted"
+  }
+}

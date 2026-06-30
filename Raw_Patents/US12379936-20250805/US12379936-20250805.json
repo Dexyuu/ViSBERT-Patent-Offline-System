@@ -1,0 +1,22 @@
+{
+  "title": "Method and apparatus for identifying peripheral configuration of server, method and apparatus for laying out peripheral silkscreen, and server",
+  "abstract": "Disclosed are a method and apparatus for identifying peripheral configuration of server, a method and apparatus for laying out peripheral silkscreen, and a server. The method includes: determining a PCIE external interface of each central processing unit on the basis of configuration requirement information of a server to be identified; determining, in sequence according to a level state of each peripheral ID signal transmitted by each PCIE external interface, a peripheral type that is capable of being configured for a peripheral bandwidth corresponding to the peripheral ID signal, allocating corresponding serial numbers to peripherals of different peripheral types, generating a peripheral silkscreen including all peripheral sequences managed by the server to be identified; sending the peripheral silkscreen to a basic input output system and/or a baseboard management controller, and allowing the basic input output system and/or the baseboard management controller to unify respective default silkscreen into the peripheral silkscreen.",
+  "claims": "1. A method for identifying peripheral configuration of server, comprising: determining, on the basis of configuration requirement information of a server to be identified, a peripheral component interconnect express (PCIE) external interface of each central processing unit, wherein the server to be identified is configured with an anybay hard disk interface; and the configuration requirement information comprises at least configuration information of the central processing unit and design requirement information of the hard disk interface; determining, in sequence according to a level state of each peripheral identity (ID) signal transmitted by each PCIE external interface, a peripheral type that is capable of being configured for a peripheral bandwidth corresponding to the peripheral ID signal, allocating corresponding serial numbers to peripherals of different peripheral types, and generating a peripheral silkscreen comprising peripheral sequences of all the peripherals managed by the server to be identified; and sending the peripheral silkscreen to a basic input output system and/or a baseboard management controller, and allowing the basic input output system and/or the baseboard management controller to unify respective default silkscreen into the peripheral silkscreen.",
+  "patent_id": "US12379936-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/4411",
+      "G06F 13/102",
+      "B41J 3/4075",
+      "G06F 2213/0026"
+    ],
+    "all": [
+      "G06F 9/4411",
+      "G06F 13/102",
+      "B41J 3/4075",
+      "G06F 2213/0026"
+    ],
+    "source": "converted"
+  }
+}

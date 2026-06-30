@@ -1,0 +1,26 @@
+{
+  "title": "Method for improving EMC robustness of integrated capacitive sensors",
+  "abstract": "A method is provided for improving the EMC robustness of Integrated Capacitive Sensor systems with a sensor Signal-Conditioner (SSC). The SSC is connected with a capacitive integrating converter to convert a received signal into a bit stream. An oscillator provides a plurality of sampling frequencies. A counter connected with the capacitive integrating converter collects the bit stream and calculates the digital representative of the physical input which is than stored in an output register. The method includes performing some conversions with different sampling frequencies from the oscillator or a frequency divider by the capacitive integrating Signal-Converter; storing the results of the samplings and using the results in the following cycle to calculate for each sampling frequency a difference to the prior sampling of the same frequency; and calculating the digital representative of the input signal from the external sensing capacitor as the reverse weighted average of the samplings of the different frequencies.",
+  "claims": "1. A capacitive sensor signal-conditioner, comprising: a capacitive integrating converter, the capacitive integrating converter including an operational amplifier with a capacitive feedback coupled to receive a signal from an external capacitor representing a physical quantity to be sensed and an analog-to-digital converter (ADC) coupled to receive a signal from the operational amplifier, the capacitive integrating converter sampling the signal from the signal at different sampling frequencies and creating a bit stream; a controller coupled to the capacitive integrating converter and coupled to receive the different sampling frequencies, the controller configured to store the bit stream from each of the different sampling frequency samplings and to use the stored bitstream in the following sampling cycle to calculate, for each of the different sampling frequencies, a difference to the prior sampling of the same frequency and further configured to calculate a digital representative of the input signal from the external capacitor as a reverse weighted average of the samplings of the different sampling frequencies; and a result register coupled to the controller to store the reverse weighted average.",
+  "patent_id": "US12379231-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01D 5/24",
+      "G01D 3/032",
+      "G01R 27/2605",
+      "G01R 31/001",
+      "H03M 1/14",
+      "H03M 1/60"
+    ],
+    "all": [
+      "G01D 5/24",
+      "G01D 3/032",
+      "G01R 27/2605",
+      "G01R 31/001",
+      "H03M 1/14",
+      "H03M 1/60"
+    ],
+    "source": "converted"
+  }
+}

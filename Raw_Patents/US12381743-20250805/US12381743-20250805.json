@@ -1,0 +1,22 @@
+{
+  "title": "Systems and methods for generating and monitoring non-fungible token rights in a distributed network",
+  "abstract": "Systems, computer program products, and methods are described herein for generating and monitoring digital certificate rights in a distributed network. The present invention may be configured to receive a first request for certification of a first user, cause a first user device to display a first interface including one or more input fields for receiving information associated with the first user, receive data input by the first user to the one or more input fields of the first interface, and determine, based on the data, whether the first user satisfies requirements for the certification. The present invention may be configured to generate, based on determining that the first user satisfies the requirements for the certification, a non-fungible token certifying the first user, store the non-fungible token on a distributed ledger, and record, on the distributed ledger, the first user as owner of the non-fungible token.",
+  "claims": "1. A system for generating and monitoring non-fungible token (NFT) rights in a distributed network, the system comprising: at least one processing device; and at least one non-transitory storage device comprising computer-executable program code that, when executed by the at least one processing device, causes the at least one processing device to: receive, from a first user device associated with a first user, a first request for certification of the first user; cause, in response to receiving the first request, the first user device to display a first interface comprising one or more input fields for receiving information associated with the first user; receive, from the first user device, data input by the first user to the one or more input fields of the first interface; determine, based on the data, whether the first user satisfies requirements for the certification; generate, based on determining that the first user satisfies the requirements for the certification, a non-fungible token certifying the first user; store the non-fungible token on a distributed ledger; record, on the distributed ledger, the first user as owner of the non-fungible token; monitor the data over time to determine whether the first user satisfies the requirements for the certification; record, on the distributed ledger and based on determining that the first user does not satisfy the requirements for the certification, a null owner as the owner of the non-fungible token to revoke ownership of the first user of the non-fungible token; receive, from a second user device associated with a second user, a second request for information associated with at least one of the certification or the first user; determine, based on the second request and based on the distributed ledger, whether the first user owns the non-fungible token; and cause, based on determining that the first user owns the non-fungible token, the second user device to display a second interface comprising information confirming that the first user owns the non-fungible token.",
+  "patent_id": "US12381743-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/3263",
+      "H04L 9/3213",
+      "H04L 9/3236",
+      "H04L 9/3247"
+    ],
+    "all": [
+      "H04L 9/3263",
+      "H04L 9/3213",
+      "H04L 9/3236",
+      "H04L 9/3247"
+    ],
+    "source": "converted"
+  }
+}

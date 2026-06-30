@@ -1,0 +1,28 @@
+{
+  "title": "Systems and methods for managing financial transaction information",
+  "abstract": "A system includes at least one processor and at least one non-transitory computer-readable media communicatively coupled to the at least one processor. In an embodiment, the at least one non-transitory computer-readable media stores instructions which, when executed, cause the processor to perform operations including receiving a request to insure an item of personal property. The operations also include determining ownership of the item based on information stored on a distributed ledger. The operations also include determining authenticity of the item based on the information stored on the distributed ledger. The operations also include determining a value of the item based on the information stored on the distributed ledger. The operations also include generating an insurance policy for the item based at least in part on the ownership, the authenticity, the value, or any combination thereof.",
+  "claims": "1. A system, comprising: at least one processor; and at least one non-transitory computer-readable media communicatively coupled to the at least one processor, the at least one non-transitory computer-readable media storing instructions which, when executed, cause the processor to perform operations comprising: receiving a request to insure an item of personal property from a computing device associated with a user; accessing a distributed ledger stored on at least one computing device, wherein the distributed ledger is associated with the item of personal property, and wherein the distributed ledger comprises a blockchain comprising: a first data block including property information indicative of an appraisal value associated with the item of personal property; a second data block including a location history comprising a plurality of geographic locations of the item over time, wherein the plurality of geographic locations is generated via one or more geolocation devices associated with the item and is subsequently stored on the distributed ledger; and a third data block including an address of the user; determining ownership of the item via the distributed ledger, wherein determining ownership of the item comprises; retrieving, from the third block the address of the user corresponding to a first geographic location; retrieving, from the second data block, a second geographic location associated with the item; and based on the first geographic location matching the second geographic location, verifying that the owner of the item is the user; determining a value of the item based on the property information retrieved from the first data block of the distributed ledger; generating an insurance policy for the item based at least in part on the value in response to verifying that the owner of the item is the user; and sending a notification indicative of the insurance policy to the computing device, wherein the notification is configured to cause the computing device to display a visualization indicative of one or more properties of the insurance policy.",
+  "patent_id": "US12380509-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 40/08",
+      "G06F 16/2365",
+      "G06Q 10/087",
+      "G06Q 10/10",
+      "G06Q 30/0185",
+      "G06Q 30/0278",
+      "G06Q 40/12"
+    ],
+    "all": [
+      "G06Q 40/08",
+      "G06F 16/2365",
+      "G06Q 10/087",
+      "G06Q 10/10",
+      "G06Q 30/0185",
+      "G06Q 30/0278",
+      "G06Q 40/12"
+    ],
+    "source": "converted"
+  }
+}

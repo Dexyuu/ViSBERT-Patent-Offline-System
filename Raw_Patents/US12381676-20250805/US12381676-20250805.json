@@ -1,0 +1,52 @@
+{
+  "title": "Methods and devices for transmitting device capability information",
+  "abstract": "Apparatuses, methods, and systems are disclosed for transmitting device capability information. The method includes operating a device with multiple antenna port groups for communication between the device and a network. The method includes transmitting, by the device, device capability information to the network. The device capability information includes a number of antenna port groups of the multiple antenna port groups, a number of antenna ports for each of the antenna port groups, a maximum number of supported spatial layers for each of the antenna port groups, or some combination thereof.",
+  "claims": "1. An apparatus for wireless communication, the apparatus comprising: a processor; and a memory coupled to the processor, the processor configured to cause the apparatus to: transmit an indication of a physical uplink control channel (PUCCH) resource and a physical random access channel (PRACH) resource for a beam failure recovery request, wherein each of the PUCCH resource and the PRACH resource is associated with a downlink (DL) antenna port, wherein an association between the PUCCH resource, the PRACH resource, and the DL antenna port is based on the indication of the PUCCH resource and the PRACH resource for the beam failure recovery request, and wherein a first set of reference signals for radio link monitoring is measured; and transmit an indication of a second set of reference signals for the radio link monitoring, wherein a counter is reset in response to transmission of the indication of the second set of reference signals, and wherein the first set of reference signals is associated with a first set of DL antenna ports, the second set of reference signals is associated with a second set of DL antenna ports, and the first set of DL antenna ports is different from the second set of DL antenna ports.",
+  "patent_id": "US12381676-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/0048",
+      "H04B 7/0617",
+      "H04B 7/0628",
+      "H04B 7/063",
+      "H04B 7/0695",
+      "H04B 7/088",
+      "H04L 1/1854",
+      "H04L 5/0023",
+      "H04L 5/0091",
+      "H04W 8/22",
+      "H04W 16/28",
+      "H04W 24/10",
+      "H04W 56/001",
+      "H04W 72/046",
+      "H04B 7/0874",
+      "H04W 52/146",
+      "H04W 52/245",
+      "H04W 52/365",
+      "H04W 52/42"
+    ],
+    "all": [
+      "H04L 5/0048",
+      "H04B 7/0617",
+      "H04B 7/0628",
+      "H04B 7/063",
+      "H04B 7/0695",
+      "H04B 7/088",
+      "H04L 1/1854",
+      "H04L 5/0023",
+      "H04L 5/0091",
+      "H04W 8/22",
+      "H04W 16/28",
+      "H04W 24/10",
+      "H04W 56/001",
+      "H04W 72/046",
+      "H04B 7/0874",
+      "H04W 52/146",
+      "H04W 52/245",
+      "H04W 52/365",
+      "H04W 52/42"
+    ],
+    "source": "converted"
+  }
+}

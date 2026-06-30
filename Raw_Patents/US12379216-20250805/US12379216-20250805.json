@@ -1,0 +1,26 @@
+{
+  "title": "Anchoring systems and methods for marine vessels",
+  "abstract": "Systems and methods for conveniently providing anchoring assistance onboard a watercraft are provided herein. An example system includes a display and a processor in communication with a marine system. The processor is configured to receive marine data from the marine system and/or one or more user inputs and cause the display to show one or more anchoring locations with visual indications of the anchorage quality index based on at least the marine data and/or user inputs. The one or more anchoring locations may be shown as a heat map overlaid on a map. The system may use real-time marine data, environmental data, weather data, tide data, etc. to dynamically adjust the anchoring locations and anchorage quality index. The system may enable convenient and helpful suggestions and notifications to the user when anchoring a watercraft. Some examples provide automatic deployment of an anchoring system and monitoring of a current anchoring.",
+  "claims": "7. A system for monitoring an anchored marine vessel, the system comprising: a location sensor configured to detect a current location of the marine vessel; and a marine electronic device comprising a display, memory, and a processor configured to: receive real-time environmental data based on the current location of the marine vessel, determine boat profile data corresponding to the marine vessel, wherein the boat profile data includes at least one of a vessel length, bow height, a vessel draft, a number of anchors, an anchor type, a length of a line corresponding to the anchor, a scope ratio, or an allowable amount of swing; determine an anchorage quality at the current location of the marine vessel based on the real-time environmental data and the boat profile data, wherein the anchorage quality corresponds to an anchorage quality index indicating a level of suitability for safe anchoring the marine vessel at the current location, compare the determined anchorage quality at the current location to a predetermined threshold; generate an alert for the user if the determined anchorage quality at the current location is below the predetermined threshold; and receive one or more user inputs indicating another anchoring location.",
+  "patent_id": "US12379216-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01C 21/203",
+      "B63B 79/15",
+      "B63B 49/00",
+      "B63B 2211/00",
+      "B63G 8/38",
+      "G08G 3/00"
+    ],
+    "all": [
+      "G01C 21/203",
+      "B63B 79/15",
+      "B63B 49/00",
+      "B63B 2211/00",
+      "B63G 8/38",
+      "G08G 3/00"
+    ],
+    "source": "converted"
+  }
+}

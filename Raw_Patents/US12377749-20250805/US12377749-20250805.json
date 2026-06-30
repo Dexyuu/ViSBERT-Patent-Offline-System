@@ -1,0 +1,26 @@
+{
+  "title": "Coordinating vehicle access to power dispensers at a charging station",
+  "abstract": "Particular embodiments may provide a method for facilitating access to power dispensers at a charging station by a server. The server receives a request to charge an electric vehicle (EV) at a charging station that has one or more power dispensers. Then, the server identifies a target EV to request disconnection of the power dispenser connected to the target EV based on an assessment of the EVs connected to the power dispensers. The server facilitates communication with a device associated with the user of the target EV, wherein the communication includes transmission of a notification comprising a request to disconnect the power dispenser connected to the target EV. Based on a response indicating acceptance of the request to disconnect the power dispenser, the server transmits signals to stop the power dispenser from charging the target EV and to unlock a charge port of the target EV.",
+  "claims": "1. A method comprising, by a server computing device: receiving, at the server computing device from a first device associated with a first user, a request to charge a first electric vehicle (EV) at a charging station, the charging station comprising one or more power dispensers and associated charging connectors for delivering power to EVs, wherein the first user is associated with the first EV; identifying, by the server computing device based on an assessment, by the server computing device, of one or more EVs that are connected to the one or more power dispensers at the charging station at the time the request is received, a target EV from among the one or more EVs that are connected to the one or more power dispensers for which to request disconnection of a target power dispenser connected to the target EV; facilitating communication with a second device associated with a second user, wherein the second user is associated with the target EV, and wherein the communication includes transmission of a notification comprising a request to disconnect the power dispenser connected to the target EV; and based on a response received at the server computing device from the second device indicating acceptance of the request to disconnect the power dispenser: transmitting a first signal from the server computing device to the charging station that causes the target power dispenser to stop charging the target EV, and transmitting a second signal from the server computing device to the target EV that causes the target EV to unlock a charge port of the target EV so that the charging connector associated with the target power dispenser connected to the target EV may be disconnected from the target EV.",
+  "patent_id": "US12377749-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60L 53/66",
+      "B60L 53/65",
+      "B60L 58/12",
+      "H02J 7/00032",
+      "H02J 7/0013",
+      "H02J 7/0048"
+    ],
+    "all": [
+      "B60L 53/66",
+      "B60L 53/65",
+      "B60L 58/12",
+      "H02J 7/00032",
+      "H02J 7/0013",
+      "H02J 7/0048"
+    ],
+    "source": "converted"
+  }
+}

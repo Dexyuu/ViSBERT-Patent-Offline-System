@@ -1,0 +1,24 @@
+{
+  "title": "System and method of open-world semi-supervised satellite object detection",
+  "abstract": "A system and method of open-world semi-supervised satellite object detection involves a machine learning engine configured with a training component and an inference component. The method of object detection detects objects in satellite imagery represents a solution for difficult challenges of arbitrary orientations, wide variation in object sizes, large number of densely packed objects, and highly complex background. A transformer network detects unknown objects in the satellite image. The transformer network includes a rotation-aware pyramidal pseudo-labeling operation that captures scale-specific pyramidal features at oriented box regions for pseudo-labeling unknown objects in the satellite image. A semi-supervised learning pipeline learns a new set of object classes to be detected. A prediction head outputs the satellite image annotated with a predicted object class for an unknown object. The inference component obtains object queries for a test satellite image, predicts labels for objects from known classes, predicts oriented boxes for the objects.",
+  "claims": "1. A semi-supervised satellite image object detection system, comprising: an input device to input at least one satellite image; processing circuitry of a machine learning engine configured with a satellite object detection training component and an object detection inference component, wherein the object detection training component includes a transformer network that detects at least one unknown object in the at least one satellite image, wherein the transformer network includes: a rotation-aware pyramidal pseudo-labeling operation that captures scale-specific pyramidal features at oriented box regions for pseudo-labeling unknown objects in the at least one satellite image; a semi-supervised learning pipeline to learn, by incremental learning, a new set of object classes to be detected; and a prediction head that outputs the at least one satellite image annotated with a predicted object class for an unknown object, wherein the input device receives a test satellite image, and the object detection inference component obtains object queries for the test satellite image, predicts labels for objects from known classes, and predicts oriented boxes for the objects; and an output device that outputs the predicted labels and corresponding oriented boxes.",
+  "patent_id": "US12380677-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/764",
+      "G06V 10/52",
+      "G06V 10/766",
+      "G06V 10/82",
+      "G06V 10/84"
+    ],
+    "all": [
+      "G06V 10/764",
+      "G06V 10/52",
+      "G06V 10/766",
+      "G06V 10/82",
+      "G06V 10/84"
+    ],
+    "source": "converted"
+  }
+}

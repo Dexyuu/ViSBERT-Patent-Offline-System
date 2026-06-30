@@ -1,0 +1,16 @@
+{
+  "title": "Circuit and method for testing a circuit",
+  "abstract": "According to various embodiments, a circuit is described including a plurality of scan flip-flops including a sequence of scan flip-flops, wherein at least some scan flip-flops of the sequence are wrapper scan flip-flops, and including, for each scan flip-flop of at least a subset of the scan flip-flops, at the wrapper scan flip-flop's test input a respective test input circuit configured to, when supplied with a mode control signal having a first value, connect the test input to the output of the preceding wrapper scan flip-flop such that the test input of the flip-flop is supplied with the content of the preceding wrapper scan flip-flop and when supplied with the mode control signal having a second value, connect the test input to an output of a part of the circuit such that the test input of the flip-flop is supplied with a value depending on a test result.",
+  "claims": "1. A circuit, comprising: a plurality of scan flip-flops including a sequence of scan flip-flops, wherein at least some scan flip-flops of the sequence of scan flip-flops are wrapper scan flip-flops, each scan flip-flop of the sequence of scan flip-flops having a D input, a test enable input, a test input and a data output, wherein the circuit comprises, for each scan flip-flop of at least a subset of the scan flip-flops of the sequence of scan flip-flops, at the scan flip-flop's test input a respective test input circuit comprising a plurality of logic gates, wherein the plurality of logic gates of the test input circuit is configured to, when supplied with a mode control signal having a first value indicating a shift mode, connect the test input to the output of the scan flip-flop preceding the scan flip-flop in the sequence such that the test input of the scan flip-flop is supplied with the content of the scan flip-flop preceding the scan flip-flop in the sequence and when supplied with the mode control signal having a second value indicating a capture mode, connect the test input to an output of a subcircuit of the circuit, wherein the subcircuit is under test, such that the test input of the flip-flop is supplied with a value depending on a test result provided by the subcircuit.",
+  "patent_id": "US12379411-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01R 31/2851"
+    ],
+    "all": [
+      "G01R 31/2851"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Transmission and reception point configuration for beam failure recovery",
+  "abstract": "Wireless communications may comprise communications between a base station and a wireless device. A wireless device may perform beam failure recovery (BFR). Based on an indication of completion of the BFR, the wireless device may determine resources for transmission of uplink signals.",
+  "claims": "1. A method comprising: receiving, by a wireless device, one or more messages comprising one or more configuration parameters for a downlink bandwidth part (BWP) of a cell, wherein the one or more configuration parameters indicate: two control resource set (CORESET) group indexes; one or more first reference signals (RSs) for beam failure detection; and one or more second RSs for beam failure recovery (BFR); transmitting, based on detecting a beam failure for the one or more first RSs, a BER medium access control (MAC) control element (CE) for a BFR procedure, wherein the BFR MAC CE indicates a candidate RS among the one or more second RSs; completing the BFR procedure successfully based on a physical downlink control channel (PDCCH) reception with a downlink control information (DCI) format indicating an uplink grant; and monitoring, after a number of symbols from a last symbol of the PDCCH reception, PDCCH using antenna port quasi-collocation parameters corresponding to: the candidate RS in a first CORESET with a first CORESET group index of the two CORESET group indexes; and an RS, indicated by a transmission configuration indication (TCI) state, in a second CORESET with a second CORESET group index of the two CORESET group indexes.",
+  "patent_id": "US12382461-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/21",
+      "H04B 7/0639",
+      "H04B 7/0695",
+      "H04W 52/146",
+      "H04W 76/18"
+    ],
+    "all": [
+      "H04W 72/21",
+      "H04B 7/0639",
+      "H04B 7/0695",
+      "H04W 52/146",
+      "H04W 76/18"
+    ],
+    "source": "converted"
+  }
+}

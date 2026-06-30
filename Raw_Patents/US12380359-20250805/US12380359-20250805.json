@@ -1,0 +1,26 @@
+{
+  "title": "Constraint sampling reinforcement learning for recommendation systems",
+  "abstract": "Systems and methods for sequential recommendation receive a user interaction history including interactions of a user with a plurality of items, select a constraint from a plurality of candidate constraints based on lifetime values observed for the candidate constraints, wherein the lifetime values are based on items predicted for other users using a recommendation network subject to the candidate constraints, and predict a next item for the user based on the user interaction history using the recommendation network subject to the selected constraint.",
+  "claims": "1. A method for sequential recommendation, comprising: receiving, at a policy component of a recommendation network, a user interaction history including interactions of a user with a plurality of media items, wherein the recommendation network comprises a reinforcement learning model; selecting, using a constraint component of the recommendation network, at least one constraint of a plurality of candidate constraints for each of a plurality of other users; predicting a media item from the plurality of media items for each of the plurality of other users using the recommendation network subject to the selected at least one constraint; observing interactions of each of the other users with the corresponding predicted media item, respectively; measuring lifetime values for the plurality of candidate constraints based on the observed interactions; selecting, using the constraint component of the recommendation network, a constraint from a plurality of candidate constraints based on the lifetime values observed for the candidate constraints, wherein the lifetime values are based on the media items predicted for the other users using the recommendation network subject to the candidate constraints, wherein at least one of the plurality of candidate constraints comprises a minimum variability value for a state-action pair; predicting, using the recommendation network, a next media item for the user based on the user interaction history and subject to the selected constraint; and presenting the next media item to the user.",
+  "patent_id": "US12380359-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 20/00",
+      "G06N 5/04",
+      "G06N 7/01",
+      "G06N 3/02",
+      "G06N 3/08",
+      "H04L 67/535"
+    ],
+    "all": [
+      "G06N 20/00",
+      "G06N 5/04",
+      "G06N 7/01",
+      "G06N 3/02",
+      "G06N 3/08",
+      "H04L 67/535"
+    ],
+    "source": "converted"
+  }
+}

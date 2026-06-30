@@ -1,0 +1,24 @@
+{
+  "title": "Proximity pairing techniques for an accessory device",
+  "abstract": "Embodiments of the present disclosure provide systems, methods, and computer-readable medium for pairing two proximate devices. An advertisement message associated with an accessory device may be received by a host device (e.g., a smart phone). The advertisement message may be communicated using a Bluetooth protocol (e.g., BLE). Payload data may be extracted from the advertisement message and utilized to obtain a media asset (e.g., an image, a video, an icon, etc.) associated with the accessory device. The media asset may be presented via a user interface at the host device. Input may be received indicating a request and/or an approval to perform a pairing procedure with the accessory device. In accordance with the input, the host device may execute the pairing procedure with the accessory device.",
+  "claims": "1. A computer-implemented method, comprising: receiving, by a computing device prior to pairing with an accessory device, an advertisement message from the accessory device, the advertisement message being received via a short-range communications transport corresponding to a short-range communications protocol; determining, by the computing device based at least in part on payload data from the advertisement message, identification information associated with the accessory device; determining, based at least in part on the identification information determined based on the payload data of the advertisement message received from the accessory device, whether a graphical representation of the accessory device is available, wherein the graphical representation is an image representing the accessory device; in response to determining that the graphical representation of the accessory device is available, obtaining, based at least in part on the identification information, the graphical representation of the accessory device; presenting, on the computing device, a pairing interface displaying the graphical representation of the accessory device to be paired with the computing device, the graphical representation obtained by the computing device based at least in part on the payload data from the advertisement message; receiving, via the pairing interface, a user input comprising a selection of the pairing interface displaying the graphical representation of the accessory device, the selection indicating approval to perform a pairing procedure to pair the computing device with the accessory device; and initiating, by the computing device, the pairing procedure.",
+  "patent_id": "US12382522-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/14",
+      "H04B 17/318",
+      "H04L 65/61",
+      "H04W 8/005",
+      "H04W 4/80"
+    ],
+    "all": [
+      "H04W 76/14",
+      "H04B 17/318",
+      "H04L 65/61",
+      "H04W 8/005",
+      "H04W 4/80"
+    ],
+    "source": "converted"
+  }
+}

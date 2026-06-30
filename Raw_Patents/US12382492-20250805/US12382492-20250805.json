@@ -1,0 +1,20 @@
+{
+  "title": "WLAN communication methods and devices",
+  "abstract": "Various embodiments of the teachings herein include a WLAN communication method. An example includes: receiving a polling request message at a client from an access point; checking whether the client is a polled client; if the client is the polled client, then sending a polling response message from the client to the access point; entering a function execution time window, and, when a moment for executing a function is reached in the function window, executing the function at the client. The function window starts when the client sends the polling response and ends before a retention time window starts. The retention time window begins with a safety time window and ends after it is expected that a polling response message will next be sent. The safety time window includes a period before a next polling cycle starts not less than an execution time of a function about to be executed.",
+  "claims": "1. A WLAN communication method, comprising: receiving a polling request message at a client from an access point; checking whether the client is a polled client in the polling request message; if the client is the polled client, then sending a polling response message from the client to the access point; entering a function execution time window, and, when a moment for executing a function is reached in the function execution time window, executing the function at the client; wherein the function execution time window starts when the client sends the polling response message and ends before a retention time window starts; the retention time window begins at a starting point of a safety time window and ends after a time when a next polling response message is expected to be sent; and the safety time window includes a period before a next polling cycle starts and is not less than an execution time of a function about to be executed.",
+  "patent_id": "US12382492-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 74/06",
+      "H04W 72/0446",
+      "H04W 84/12"
+    ],
+    "all": [
+      "H04W 74/06",
+      "H04W 72/0446",
+      "H04W 84/12"
+    ],
+    "source": "converted"
+  }
+}

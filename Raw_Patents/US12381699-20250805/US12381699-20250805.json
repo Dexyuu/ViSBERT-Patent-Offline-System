@@ -1,0 +1,18 @@
+{
+  "title": "Gap determining method and device",
+  "abstract": "A gap determining method includes: A terminal device receives first configuration information and second configuration information from a network device. The terminal device receives scheduling information from the network device. The terminal device determines a downlink gap of the first channel based on the first configuration information. The terminal device determines a first gap between the N transport blocks based on the second configuration information. When the terminal device determines that a preset condition is satisfied, the terminal device determines that a gap part that is included in the first gap and that overlaps with the downlink gap is postponed in time domain and that a gap part obtained through postponing does not overlap with the downlink gap; or when the first gap includes a gap part that overlaps with the downlink gap, the terminal device determines that the gap part belongs to the downlink gap.",
+  "claims": "1. A gap determining method, comprising: receiving first configuration information and second configuration information from a network device, wherein the first configuration information is used to indicate a gap of a transport channel, and the second configuration information is used to indicate a gap between transport blocks; receiving scheduling information from the network device, wherein the scheduling information is used to schedule N transport blocks carried on a first channel, and N is a positive integer; determining a downlink gap of the first channel based on the first configuration information; determining whether a first gap exists between the N transport blocks based on the second configuration information; and in response to determining that a preset condition is satisfied, determining that a first gap part that is included in the first gap and that overlaps with the downlink gap is postponed in a time domain and that a second gap part obtained through postponing does not overlap with the downlink gap, wherein the preset condition comprises that the first gap includes the first gap part that overlaps with the downlink gap; or in response to determining the first gap includes the first gap part that overlaps with the downlink gap, determining that the first gap part included in the first gap and that overlaps with the downlink gap belongs to the downlink gap.",
+  "patent_id": "US12381699-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/0098",
+      "H04L 5/0048"
+    ],
+    "all": [
+      "H04L 5/0098",
+      "H04L 5/0048"
+    ],
+    "source": "converted"
+  }
+}

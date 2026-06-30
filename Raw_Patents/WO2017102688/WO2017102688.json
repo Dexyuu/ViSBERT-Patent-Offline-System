@@ -1,0 +1,19 @@
+{
+  "application_id": "WO2017102688",
+  "application_id_fs": null,
+  "title": "Method of creating a unique patient reference",
+  "abstract": "A method to link instances expressed in at least two EHR systems by means of URIs constructed with different identifier sets by processing RDF data of said instances to link the instances by generating re-labeling statements and applying the re-labeling statements to the RDF data to consolidate the URIs with different identifier types to a single URI with a master identity.",
+  "claims": "Claims [CLAIMS] 1. A method to link instances expressed in at least two EHR systems by means of URIs constructed with different identifier sets comprising processing RDF data of said instances to link said instances by generating re-labeling statements and applying said re-labeling statements to said RDF data to consolidate said URIs with different identifier sets to a single URI with a general master identity. 2. A method according to Claim 1 wherein said re-labeling statements are generated at runtime. 3. A method according to Claim 2 wherein said re-labeling statements are generated with N3 rules. 4. A method according to Claim 2 where said re-labeling statements are generated with SQL scripts, together with a template. 5. A method according to Claim 1 wherein said re- labeling is performed on demand when exporting data from said EHR systems.",
+  "classifications": {
+    "ipc": [
+      "G06F 19/00",
+      "G06F 17/30"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 19/00",
+      "G06F 17/30"
+    ],
+    "source": "csv"
+  }
+}

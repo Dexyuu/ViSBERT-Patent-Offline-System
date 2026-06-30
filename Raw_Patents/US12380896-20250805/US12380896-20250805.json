@@ -1,0 +1,24 @@
+{
+  "title": "Audio speech signal analysis for fraud detection",
+  "abstract": "A device, system and method for analyzing audio speech signals to detect fraudulent calls to a contact center comprising splitting an audio recording of a call in real-time into a foreground speech signal attributed to a main speaker and a background audio signal, extracting audio features from the foreground speech signal and background audio signal, inputting the extracted audio features into an ensemble model comprising multiple different machine learning models co-trained to cumulatively detect fraud, wherein the multiple different machine learning models include: a speaker audio model to detect audio speech anomalies, a speaker intent model to classify intent of the main speaker, a synthetic voice detection model to identify a non-human entity, and a prosody model to detect voice intonation of the main speaker. A prediction may be output, by the ensemble model, indicating whether the call is fraudulent.",
+  "claims": "1. A method for analyzing audio speech signals to detect fraudulent calls to a contact center, the method comprising: splitting an audio recording of a call in real-time into a foreground speech signal attributed to a main speaker and a background audio signal; extracting audio features from the foreground speech signal and the background audio signal; inputting the extracted audio features into an ensemble model, wherein the ensemble model comprises multiple different machine learning models co-trained to cumulatively detect fraud, wherein the multiple different machine learning models include: a speaker audio model to detect audio speech anomalies in the foreground speech signal attributed by clustering to the main speaker, a speaker intent model to classify intent of the main speaker in the foreground speech signal using a large language model and call transcription, a synthetic audio model to detect if the main speaker is real or synthetic, and a prosody model to detect voice intonation of the main speaker in the foreground speech signal; and outputting, by the ensemble model, a prediction of whether the call is fraudulent.",
+  "patent_id": "US12380896-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 17/26",
+      "G06Q 20/407",
+      "G10L 15/1807",
+      "H04M 3/42221",
+      "H04M 3/58"
+    ],
+    "all": [
+      "G10L 17/26",
+      "G06Q 20/407",
+      "G10L 15/1807",
+      "H04M 3/42221",
+      "H04M 3/58"
+    ],
+    "source": "converted"
+  }
+}

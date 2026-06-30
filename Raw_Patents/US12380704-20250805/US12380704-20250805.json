@@ -1,0 +1,20 @@
+{
+  "title": "Method for training an artificial neural network",
+  "abstract": "A method for training an artificial neural network uses training data that include first image data of a first image and second image data of a second image of an infrastructure. The first image includes a first feature, and the second image includes a second feature corresponding to the first image. The training data include a relative desired translation and a relative desired rotation between the first feature and the second feature. The training includes extracting the first feature from the first image and extracting the second feature from the second image using the artificial neural network. The extracted first feature is represented by first feature data having a first volume of data. The extracted second feature is represented by second feature data having a second volume of data. The training further includes ascertaining a relative translation and a relative rotation between the extracted first feature and the extracted second.",
+  "claims": "1. A method for training an artificial neural network comprising: receiving training data signals comprising training data for training the artificial neural network, the training data comprises first image data of a first image of an infrastructure and second image data of a second image of the infrastructure, the first image comprises a first feature, and the second image comprises a second feature corresponding to the first image, the training data further comprises a relative target translation and a relative target rotation between the first feature and the second feature; training the artificial neural network based on the training data, the training comprises: extracting the first feature from the first image using the artificial neural network, and extracting the second feature from the second image using the artificial neural network, the extracted first feature is represented by first feature data having a first data volume, and the extracted second feature is represented by second feature data having a second data volume; ascertaining a relative translation and a relative rotation between the extracted first feature and the extracted second feature using the artificial neural network; and training the artificial neural network until a loss function that is dependent on a pose of the feature and on the first data volume and/or the second data volume is at a minimum or is less than or less than or equal to a predefined loss function threshold value.",
+  "patent_id": "US12380704-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 20/58",
+      "G06V 10/28",
+      "G06V 10/82"
+    ],
+    "all": [
+      "G06V 20/58",
+      "G06V 10/28",
+      "G06V 10/82"
+    ],
+    "source": "converted"
+  }
+}

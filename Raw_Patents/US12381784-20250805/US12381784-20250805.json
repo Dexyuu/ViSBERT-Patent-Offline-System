@@ -1,0 +1,20 @@
+{
+  "title": "System and method for intelligent transference of peripheral device operational configurations across peripheral device workspaces based on shared usage patterns",
+  "abstract": "A peripheral device workspace cloud orchestrator executing at a cloud-based information handling system comprises a hardware processor to execute code instructions to determine a usage category from operational telemetry data for a current peripheral device workspace having an anchor node and current peripheral devices operatively coupled at a location, the usage category defined by a previous peripheral device operational telemetry data, previous manifest of previous peripheral devices within a previous peripheral device workspace, and at least one previous functional capability and previous adjustable operational configuration of a previous peripheral device. The hardware processor to determine a functional capability for a current peripheral device sufficiently matches the previous functional capability for the usage category and instructs the anchor node to automatically configure the current peripheral device according to the previous adjustable operational configuration in that usage category.",
+  "claims": "1. A peripheral device workspace cloud orchestrator executing at a cloud-based information handling system comprising: a network interface device to receive a plurality of current peripheral device operational telemetry data readings for an information handling system node and a plurality of peripheral device nodes operatively coupled at a first identified location forming a defined current peripheral device workspace identified by a peripheral device workspace identification value; a hardware processor to execute code instructions for a clustering algorithm of the peripheral device workspace cloud orchestrator to determine a usage category defined by at least a portion of a previous manifest of previous peripheral devices within a previous peripheral device workspace with a previous peripheral device operational telemetry reading, and at least one previous functional capability and at least one previous adjustable operational configuration of a comparable, previous peripheral device in the previous peripheral device workspace; the hardware processor to execute code instructions to determine a first current peripheral device functional capability for a first peripheral device in the current peripheral device workspace matches the at least one previous functional capability; and the hardware processor to execute code instructions to instruct the anchor node to automatically configure the first peripheral device in the current peripheral device workspace according to the at least one previous adjustable operational configuration defined in the usage category.",
+  "patent_id": "US12381784-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 41/0886",
+      "H04L 41/0846",
+      "G06F 18/231"
+    ],
+    "all": [
+      "H04L 41/0886",
+      "H04L 41/0846",
+      "G06F 18/231"
+    ],
+    "source": "converted"
+  }
+}

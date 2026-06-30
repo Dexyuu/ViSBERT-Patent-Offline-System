@@ -1,0 +1,24 @@
+{
+  "title": "System and method for selecting instrumentation technique",
+  "abstract": "A computing environment determines whether one or more file systems associated with an application allow for modification of a file access time of an associated file and whether a kernel updates, in at least one case, the file access time upon accessing the associated file. The associated file is at least one file managed by the one or more file systems. The computing environment determines files accessed by the application using a technique selected based on whether the one or more file systems allow for modification of the file access time or whether the kernel updates, in the at least one case, the file access time upon accessing the associated file. The computing environment provides an output representing the files accessed by the application.",
+  "claims": "1. A computer-implemented method for improving computer security by monitoring application behavior, the method comprising: determining whether one or more file systems associated with an application allow for modification of a file access time of an associated file and whether a kernel updates, in at least one case, the file access time upon accessing the associated file, wherein the associated file is at least one file managed by the one or more file systems, wherein determining whether the one or more file systems allow for modification of the file access time comprises attempting to adjust an initialization time of the associated file, wherein determining whether the kernel updates, in the at least one case, the file access time upon accessing the associated file comprises: opening the associated file for reading, and making a non-zero-sized file read request; determining whether the file access time of the associated file is updated in response to the file read request; and determining that the kernel updates, in the at least one case, the file access time upon accessing the associated file in response to the file access time of the associated file being updated in response to the file read request; determining files accessed by the application using a technique selected based on whether the one or more file systems allow for modification of the file access time or whether the kernel updates, in the at least one case, the file access time upon accessing the associated file, wherein the technique is selected from a set comprising at least determining the files accessed by the application based on a file access time field; and providing an output representing the files accessed by the application, wherein the output enables improving computer security based on the files.",
+  "patent_id": "US12380066-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/164",
+      "G06F 11/3644",
+      "G06F 16/1734",
+      "G06F 16/18",
+      "G06F 2221/2137"
+    ],
+    "all": [
+      "G06F 16/164",
+      "G06F 11/3644",
+      "G06F 16/1734",
+      "G06F 16/18",
+      "G06F 2221/2137"
+    ],
+    "source": "converted"
+  }
+}

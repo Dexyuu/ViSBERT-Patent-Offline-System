@@ -1,0 +1,16 @@
+{
+  "title": "System and method for automatically detecting and repairing biometric crosslinks",
+  "abstract": "Systems and methods for repairing cross-linked biometric records receive a set of biometric records. Each biometric record contains at least one biometric sample in a non-textual modality. One or more of the biometric records in the set of biometric records is potentially a cross-linked biometric record having at least two biometric samples that are associated with different individuals. Crosslink resolution is performed on the set of biometric records by searching for a match between a biometric sample in a given non-textual modality of a given biometric record with each biometric sample of the same given non-textual modality in each of the other biometric records in the set of biometric records. During the crosslink resolution, biometric sample may be removed from one biometric record and merged with another biometric record.",
+  "claims": "1. A method to repair cross-linked biometric records to at least reduce a number of incorrect fields associated with a person, the person capable of having multiple records, comprising: receiving electronically, at at least one processor, a set of biometric records, each biometric record in the set of biometric records associated with at least one person, each biometric record containing a plurality of biometric samples stored in respective fields, each of the plurality of biometric samples being in one of a plurality of modalities, at least one biometric sample of the plurality of biometric samples being in a non-textual modality, one or more of the biometric records in the set of biometric records being a cross-linked biometric record having at least two biometric samples that are incorrectly associated with different individuals; automatically performing, at the at least one processor, cross-link resolution on the set of biometric records to reduce a number of incorrect biometric samples contained in record fields by searching for a match between a biometric sample, stored in a field of a first record, and a corresponding field in each of the other biometric records in the set of biometric records and, based on a matching threshold, declaring whether a match exists; automatically performing, at the at least one processor, and based on a number of matches, an action to reduce the number of incorrect fields, the action including removing one of the matching biometric samples from one of the first biometric record and a second biometric record, and adding the removed biometric sample to the other of the first and second biometric record; and outputting and storing at least one repaired biometric record.",
+  "patent_id": "US12380739-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 40/70"
+    ],
+    "all": [
+      "G06V 40/70"
+    ],
+    "source": "converted"
+  }
+}

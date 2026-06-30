@@ -1,0 +1,18 @@
+{
+  "title": "Systems and methods for flow configuration syncing between network infrastructure devices",
+  "abstract": "A networking device can use sync request packets to synchronize connection objects with a peer. Real or virtual flow misses occurring in the data plane while processing a network packet indicate that synchronization is needed. A virtual flow miss occurs when a data plane connection object is obsolete. A sync request packet containing connection metadata and the network packets is sent to the peer. The peer uses the connection metadata to create or update its version of the connection object then returns a sync ack packet that contains the network packet. Receiving a sync ack packet can indicate that the locally stored version of the connection object and the peer's version of the connection object are consistent. The network packet may be processed normally when the locally stored version of the connection object and the peer's version of the connection object are consistent.",
+  "claims": "14. A method comprising: storing a configuration object that includes a plurality of rules for processing a plurality of network flows; receiving a network packet of one of the network flows; determining that a connection object that a packet processing pipeline uses to process the one of the network flows is nonexistent or is obsolete; using the configuration object to produce a connection metadata and to create or update the connection object because the connection object is nonexistent or is obsolete; producing a sync request packet that includes the network packet and the connection metadata; sending the sync request packet to a peer; receiving a sync ack packet that includes the network packet and that is responsive to the sync request packet; producing, by the packet processing pipeline, a processed packet by using the connection object to process the network packet after the network packet is unpacked from the sync ack packet; and sending the processed packet to a network destination.",
+  "patent_id": "US12381709-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 7/10",
+      "H04L 49/3063"
+    ],
+    "all": [
+      "H04L 7/10",
+      "H04L 49/3063"
+    ],
+    "source": "converted"
+  }
+}

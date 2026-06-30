@@ -1,0 +1,20 @@
+{
+  "title": "Distributed radio system for combining legacy analog base station signals with packetized mid-haul signals of multiple operators and private networks",
+  "abstract": "A distributed radio system has one or more distributed radio processors that processes analog RF signals from a plurality of legacy base station transceivers (BTSs) as well as packetized digital mid-haul data (such as 7.2x data packets) from one or more baseband units. The system digitizes the RF signals and provides baseband frequency offsets to the I/Q time domain data processed from the digital mid-haul data such that each incoming signal is assigned a unique carrier baseband frequency offset so that none of the signals interferes with another. The digital signals are summed and transmitted to one or more remote units. For the uplink, the process is reversed. A supervisor module provides the offset frequencies to the relevant digital baseband signals.",
+  "claims": "1. A method for processing downlink signals from a plurality of base stations sharing a frequency band, comprising: receiving one or more analog Radio Frequency (RF) signals, each from a corresponding one or more legacy base station transceivers; receiving one or more packetized data streams, each packetized data stream corresponding to a digital output baseband processor; converting the one or more analog RF signals into a first digital baseband signal; converting the one or more packetized data streams into a corresponding one or more second digital baseband signals; applying one or more baseband frequency offset shifts to each of the corresponding one or more second digital baseband signals to generate one or more frequency offset baseband digital signals, each of the baseband frequency offsets having an offset frequency, wherein each of the baseband frequency offsets corresponds to an available carrier center frequency within the frequency band; digitally summing the first digital baseband signal and the one or more frequency offset baseband digital signals to generate a composite signal; and broadcasting the composite signal to one or more remote units.",
+  "patent_id": "US12382339-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 28/06",
+      "H04B 7/0413",
+      "H04W 24/02"
+    ],
+    "all": [
+      "H04W 28/06",
+      "H04B 7/0413",
+      "H04W 24/02"
+    ],
+    "source": "converted"
+  }
+}

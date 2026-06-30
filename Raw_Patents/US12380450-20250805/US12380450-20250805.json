@@ -1,0 +1,26 @@
+{
+  "title": "Person-based authorization for shared account systems",
+  "abstract": "Disclosed are various embodiments for person-based authorization for shared account systems. In one embodiment, a service receives a user request from a client device associated with an account to perform an action using an application. The service then identifies a user originating the user request. The service generates a token that includes an account identifier corresponding to the account and a person identifier corresponding to the user. The service sends the user request and the token to a provider of the application.",
+  "claims": "1. A non-transitory computer-readable medium embodying a program executable in at least one computing device, wherein when executed the program causes the at least one computing device to at least: receive a voice command from a client device associated with a shared account to perform an action using a third-party application, wherein the shared account is associated with a plurality of users, and the client device is authenticated for access to the shared account using a registration credential; identify a user originating the voice command based at least in part on performing a voice recognition on the voice command; generate a request, with an application programming interface (API), to determine that the third-party application uses personal data, wherein the personal data is stored in a data store; communicate the request to an application provider of the third-party application; obtain, in response to the request, application requirements regarding the personal data; determine that the application requires specific profile information about the user; verify that the application provider has permission to access the personal data for a person profile associated with the shared account based at least in part on a person identifier of a token being associated with the person profile; render, using a speaker on the client device, a question via speech synthesis, wherein the question requests consent from the user to share the personal data with the third-party application;",
+  "patent_id": "US12380450-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/40145",
+      "G06F 21/604",
+      "G06F 21/62",
+      "G06F 21/6254",
+      "G06Q 20/4093",
+      "G10L 17/22"
+    ],
+    "all": [
+      "G06Q 20/40145",
+      "G06F 21/604",
+      "G06F 21/62",
+      "G06F 21/6254",
+      "G06Q 20/4093",
+      "G10L 17/22"
+    ],
+    "source": "converted"
+  }
+}

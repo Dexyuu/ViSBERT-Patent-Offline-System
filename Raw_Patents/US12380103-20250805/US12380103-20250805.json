@@ -1,0 +1,18 @@
+{
+  "title": "Distributed limit processing in a database system",
+  "abstract": "A method for execution by at least one processor of a database system includes determining whether a first operator of a query execution plan is an input to a second operator of the query execution plan such that the second operator is trapped at a non-leaf level of the query execution plan. When the second operator is trapped at the non-leaf level of the query execution plan, the method further includes generating an updated query execution plan, wherein the updated query execution plan includes the first operator being distributed to produce a plurality of distributed first operators such that the second operator executes at a lower level than the non-leaf level of the query execution plan. The method further includes executing the updated query execution plan to produce a query resultant.",
+  "claims": "1. A method for execution by at least one processor of a database system, comprising: determining whether a first operator of a query execution plan is an input to a second operator of the query execution plan such that the second operator is trapped at a non-leaf level of the query execution plan; when the second operator is trapped at the non-leaf level of the query execution plan: generating an updated query execution plan, wherein the updated query execution plan includes the first operator being distributed to produce a plurality of distributed first operators such that the second operator executes at a lower level than the non-leaf level of the query execution plan; and executing the updated query execution plan to produce a query resultant.",
+  "patent_id": "US12380103-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/24542",
+      "G06F 16/24537"
+    ],
+    "all": [
+      "G06F 16/24542",
+      "G06F 16/24537"
+    ],
+    "source": "converted"
+  }
+}

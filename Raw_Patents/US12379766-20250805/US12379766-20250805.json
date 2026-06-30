@@ -1,0 +1,16 @@
+{
+  "title": "Switching method between running modes of application program, apparatus, electronic device and storage medium",
+  "abstract": "The embodiments of the present disclosure relate to a switching method and switching apparatus between running modes of an application program, an electronic device and a storage medium, wherein the switching method includes: acquiring application power-saving information preset by a user; acquiring remaining power of a terminal for installing the application program in a running process of the application program; and determining whether to switch from a current running mode of the application program to an application power-saving mode according to the application power-saving information and the remaining power of the terminal.",
+  "claims": "1. A switching method for switching between running modes of an application program, comprising: acquiring application power-saving information preset by a user, wherein the application power-saving information comprises a power-saving switching threshold and time when the application program enters an application power-saving mode, and the power-saving switching threshold refers to remaining power of a terminal corresponding to a triggering time of switching the application program to the application power-saving mode; acquiring remaining power of the terminal installing the application program in a running process of the application program; determining whether to switch from a current running mode of the application program to the application power-saving mode if the application power-saving information and the remaining power of the terminal meet an application program running mode switching condition, under which a current remaining power of the terminal is less than the power-saving switching threshold, and current time reaches the time preset by the user for the application program to enter the application power-saving mode; and after determining to switch from the current running mode of the application program to the application power-saving mode, adjusting running parameters of a target function associated with the application program, wherein the target function comprises a native function of the application program, and the native function of the application program comprises at least one of a network data transmission function, a data cleaning function, a multimedia data editing function, a multimedia data playing function, or a page rendering function.",
+  "patent_id": "US12379766-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 1/329"
+    ],
+    "all": [
+      "G06F 1/329"
+    ],
+    "source": "converted"
+  }
+}

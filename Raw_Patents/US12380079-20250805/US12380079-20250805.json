@@ -1,0 +1,16 @@
+{
+  "title": "Entry creation method and entry creation program",
+  "abstract": "A method for creating an entry is performed by a computer. The method includes: determining a first time width equal to or longer than a longest time width among time widths to be read based on a read request from each program to a key-value store that holds data that corresponds to time, as a time width to be associated with one entry in the key-value store; and creating the entry that corresponds to a plurality of data that belongs to a time range of the first time width based on the data for each time and storing the entry in the key-value store.",
+  "claims": "1. A method performed by a computer for creating an entry in a key-value store, the method comprising: receiving, in real time, time-series data items each of which includes a respective time stamp and a value; buffering the received time-series data items in a latest entry associated with a latest key in the key-value store, the key-value store storing a plurality of entries each of which includes a pair of a key and a value set, the key of each entry being set with a respective time range defined by a given time width, the value set of each entry including one or more of time-series data items; receiving, from a plurality of programs, a plurality of read requests to the key-value store, each read request of the plurality of read requests including a time width to which data to be read by the each read request belongs; determining a first time width based on a longest time width among time widths in the plurality of read requests, the first time width being a time width equal to or longer than the longest time width; and creating a first entry that includes a pair of a first key and a first value set to store the first entry to the key-value store, the first key being set with a first time range having the first time width, the first value set including a plurality of time-series data items that belongs to the first time range among the buffered time-series data items in the latest entry.",
+  "patent_id": "US12380079-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/2228"
+    ],
+    "all": [
+      "G06F 16/2228"
+    ],
+    "source": "converted"
+  }
+}

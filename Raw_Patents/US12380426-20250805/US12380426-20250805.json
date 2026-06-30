@@ -1,0 +1,26 @@
+{
+  "title": "Method of operating payment device for selectively enabling payment function according to validity of host",
+  "abstract": "A method of operating a payment device for selectively enabling a payment function according to the validity of a host is provided. The method relates to a method of operating the payment device which includes a near field communication controller (NFCC) and a host communicating with the NFCC. The method selectively enables the payment function according to the validity of the host, thereby preventing illegal or unwanted payment.",
+  "claims": "1. A method of operating a payment module configured to communicate with a near field communication controller (NFCC), the method comprising: receiving, using the payment module, an initialization message from the NFCC; generating, using the payment module, unique data in response to the initialization message and sending the unique data to the NFCC; receiving, using the payment module, signature data and verification data from the NFCC, the signature data based on the unique data and the verification data indicating validity of a host; verifying, using the payment module, the signature data; and selectively enabling, using the payment module, a payment function of the payment module according to a verification result of the signature data.",
+  "patent_id": "US12380426-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/3278",
+      "G06Q 20/3226",
+      "G06Q 20/3227",
+      "G06Q 20/3229",
+      "G06Q 20/3829",
+      "G06Q 20/405"
+    ],
+    "all": [
+      "G06Q 20/3278",
+      "G06Q 20/3226",
+      "G06Q 20/3227",
+      "G06Q 20/3229",
+      "G06Q 20/3829",
+      "G06Q 20/405"
+    ],
+    "source": "converted"
+  }
+}

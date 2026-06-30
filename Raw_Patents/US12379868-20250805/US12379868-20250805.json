@@ -1,0 +1,20 @@
+{
+  "title": "Data storage management techniques",
+  "abstract": "In at least one embodiment, processing can include: recording write operations as entries in a log; flushing the entries from the log, said flushing including persistently storing, on non-volatile storage, content written by the write operations; responsive to determining a system has a current workload below a specified workload threshold, performing first processing including: determining a first minimum number of free blocks of the non-volatile storage based on: i) an average number of free blocks expected to be consumed in connection with flushing the log in each time interval, ii) a constant, and iii) a second minimum number of blocks denoting an upper bound of a number of blocks of the non-volatile storage consumed by flushing the log in each time interval; and responsive to determining that a current number of free blocks is less than the first minimum number, performing garbage collection processing on the non-volatile storage.",
+  "claims": "1. A computer-implemented method comprising: receiving, at a storage system from one or more hosts, a plurality of write operations that write first content to a plurality of target logical addresses; recording, at the storage system, the plurality of write operations as a plurality of entries in a log; flushing, from the log, the plurality of entries denoting the plurality of write operations, wherein said flushing includes persistently storing, on non-volatile storage, the first content written by the plurality of write operations, wherein the non-volatile storage includes a plurality of storage devices; determining that the storage system has a current workload below a specified workload threshold; and responsive to determining that the storage system has the current workload below the specified workload threshold, performing first processing including: determining a first minimum number of free blocks of the non-volatile storage based on: i) a first quantity denoting an average number of free blocks expected to be consumed, within a time duration of a single time interval, in connection with flushing the log, ii) a first constant, and iii) a second minimum number of blocks denoting an upper bound of a number of blocks of the non-volatile storage consumed by flushing the log in a single time interval; and responsive to determining that a current number of free blocks of the non-volatile storage, that is available for storing content written by write operations having corresponding entries flushed from the log, is less than the first minimum number, performing garbage collection processing to increase the current number of free blocks of the non-volatile storage available for storing content written by write operations having corresponding entries flushed from the log.",
+  "patent_id": "US12379868-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0655",
+      "G06F 3/0604",
+      "G06F 3/0679"
+    ],
+    "all": [
+      "G06F 3/0655",
+      "G06F 3/0604",
+      "G06F 3/0679"
+    ],
+    "source": "converted"
+  }
+}

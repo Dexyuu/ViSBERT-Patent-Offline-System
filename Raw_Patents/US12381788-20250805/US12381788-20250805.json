@@ -1,0 +1,20 @@
+{
+  "title": "Traffic prediction method and apparatus, and storage medium",
+  "abstract": "A traffic prediction method includes performing traffic autonomous zone division on a to-be-predicted geographic area based on geographic information data of the geographic area and crowd flow data of the geographic area to obtain a plurality of sub-areas; determining, for any sub-area, a crowd flow motif in the sub-area based on geographic information data of the sub-area and crowd flow data of the sub-area, where the crowd flow motif indicates a multi-point crowd motion pattern in the sub-area; determining a crowd flow feature of the sub-area based on the crowd flow motif; and predicting data traffic of the sub-area based on the crowd flow feature of the sub-area to obtain a data traffic prediction result of the sub-area.",
+  "claims": "1. A method comprising: performing, based on first geographic information data of a geographic area and first crowd flow data of the geographic area, traffic autonomous zone division on the geographic area to obtain a plurality of sub-areas; determining a crowd flow feature map based on location information of a key landmark in a first sub-area of the sub-areas and second crowd flow data specific to the first sub-area, wherein the crowd flow feature map is a directed graph comprising a plurality of nodes and a connection line between the nodes, wherein the nodes indicate the key landmark, and wherein the connection line indicates a crowd flow direction between the nodes; extracting, for the first sub-area, a crowd flow motif by performing a fast frequent subgraph mining (FFSM) to the crowd flow feature map; determining a multi-point crowd motion pattern in the first sub-area based on extracted crowd flow motif, wherein the multi-point crowd motion pattern comprises a motion pattern of the second crowd flow data at multiple key landmarks within the first sub-area, wherein a first crowd flow feature of the first sub-area is based on the multi-point crowd motion pattern, and wherein the first crowd flow feature indicates an occurrence frequency of the crowd flow motif in the first sub-area; and predicting, based on the first crowd flow feature, data traffic of the first sub-area to obtain a data traffic prediction result of the first sub-area.",
+  "patent_id": "US12381788-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 41/147",
+      "H04L 41/16",
+      "H04L 43/0876"
+    ],
+    "all": [
+      "H04L 41/147",
+      "H04L 41/16",
+      "H04L 43/0876"
+    ],
+    "source": "converted"
+  }
+}

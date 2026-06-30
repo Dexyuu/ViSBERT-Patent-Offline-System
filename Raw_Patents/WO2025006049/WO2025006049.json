@@ -1,0 +1,46 @@
+{
+  "application_id": "WO2025006049",
+  "application_id_fs": "WO2025006049",
+  "title": "Providing block-based storage",
+  "abstract": "A method of providing block-based storage is described. The method comprises: creating a virtual storage system for storing a dataset, the virtual storage system including a virtual drive layer that includes a plurality of virtual drives for storing at least a portion of the dataset as block data; and a block storage backend layer for storing at least the portion of the dataset as block data, the block storage backend layer including one or more block-based storage devices; receiving an I/O operation with respect to the dataset; and based on the received I/O operation, storing, in the block storage backend layer, an update to the dataset.",
+  "claims": "Claims CLAIMS What is claimed is: 1. A method of providing block-based storage, the method comprising: creating a virtual storage system for storing a dataset, the virtual storage system including: a virtual drive layer that includes a plurality of virtual drives for storing at least a portion of the dataset as block data; and a block storage backend layer for storing at least the portion of the dataset as block data, the block storage backend layer including one or more block-based storage devices; receiving an I/O operation with respect to the dataset; and based on the received I/O operation, storing, in the block storage backend layer, an update to the dataset. 2. The method of claim 1, wherein creating the virtual storage system further comprises configuring one or more of the plurality of virtual drives with virtual drive logic for managing processing of I/O operations in the virtual storage system. 3. The method of claim 1, wherein the plurality of virtual drives have a first I/O performance capacity, and wherein the block-based storage devices of the block storage backend layer have a second I/O performance capacity that is less than the first I/O performance capacity. 4. The method of claim 1, wherein the plurality of virtual drives include cloud computing instances with local storage. 5. The method of claim 1, wherein creating the virtual storage system further comprises instantiating the one or more block-based storage devices as cloud-based solid state drives. 6. The method of claim 1, wherein receiving the I/O operation further comprises storing data for a received I/O operation in one or more of the plurality of virtual drives. 7. The method of claim 1, wherein storing, in the block storage backend layer, the update to the dataset further comprises transferring, from the virtual drive layer to the block storage backend layer, the data for the received I/O operation. 8. A virtual storage system within a cloud computing environment, the virtual storage system including: a virtual drive layer that includes a plurality of virtual drives for storing at least a portion of a dataset as block data; and a block storage backend layer for storing at least the portion of the dataset as block data, the block storage backend layer including one or more block-based storage devices; \n\n wherein the one or more virtual drives are configured to: receive an I/O operation with respect to the dataset; and based on the received I/O operation, store, in the block storage backend layer, an update to the dataset. 9. The virtual storage system of claim 8, wherein the one or more virtual drives are configured with virtual drive logic for managing processing of I/O operations in the virtual storage system. 10. The virtual storage system of claim 8, wherein the plurality of virtual drives have a first I/O performance capacity, and wherein the block-based storage devices of the block storage backend layer have a second I/O performance capacity that is less than the first I/O performance capacity. 11. The virtual storage system of claim 8, wherein the plurality of virtual drives have a first I/O performance capacity, and wherein the block-based storage devices of the block storage backend layer have a second I/O performance capacity that is less than the first I/O performance capacity. 12. The virtual storage system of claim 8, wherein the plurality of virtual drives include cloud computing instances with local storage. 13. The virtual storage system of claim 8, wherein the one or more virtual drives are configured to instantiate the one or more block-based storage devices as cloud-based solid-state drives. 14. The virtual storage system of claim 8, wherein the one or more virtual drives are configured to store data for a received I/O operation in one or more of the plurality of virtual drives. 15. The virtual storage system of claim 8, wherein the one or more virtual drives are configured to transfer, from the virtual drive layer to the block storage backend layer, the data for the received I/O operation. 16. A computer program product disposed on a non-transitory computer readable medium, the computer program product including computer program instructions that, when executed, carry out the steps of creating a virtual storage system for storing a dataset, the virtual storage system including: a virtual drive layer that includes a plurality of virtual drives for storing at least a portion of the dataset as block data; and a block storage backend layer for storing at least the portion of the dataset as block data, the block storage backend layer including one or more block-based storage devices; \n\n receiving an I/O operation with respect to the dataset; and based on the received I/O operation, storing, in the block storage backend layer, an update to the dataset. 17. The computer program product of claim 16 wherein the computer program product further comprises computer program instructions that, when executed, carry out the step of configuring one or more of the plurality of virtual drives with virtual drive logic for managing processing of I/O operations in the virtual storage system. 18. The computer program product of claim 16 wherein the computer program product further comprises computer program instructions that, when executed, carry out the step of instantiating the one or more block-based storage devices as cloud-based solid state drives. 19. The computer program product of claim 16 wherein the computer program product further comprises computer program instructions that, when executed, carry out the step of storing data for a received I/O operation in one or more of the plurality of virtual drives. 20. The computer program product of claim 16 wherein the computer program product further comprises computer program instructions that, when executed, carry out the step of transferring, from the virtual drive layer to the block storage backend layer, the data for the received I/O operation.",
+  "classifications": {
+    "ipc": [
+      "G06F 3/00",
+      "G06F 3/06",
+      "G06F 3/0601",
+      "G06F 3/0602",
+      "G06F 3/0604",
+      "G06F 3/061",
+      "G06F 3/0628",
+      "G06F 3/0638",
+      "G06F 3/064",
+      "G06F 3/0655",
+      "G06F 3/0659",
+      "G06F 3/0662",
+      "G06F 3/0665",
+      "G06F 3/0668",
+      "G06F 3/067"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 3/00",
+      "G06F 3/06",
+      "G06F 3/0601",
+      "G06F 3/0602",
+      "G06F 3/0604",
+      "G06F 3/061",
+      "G06F 3/0628",
+      "G06F 3/0638",
+      "G06F 3/064",
+      "G06F 3/0655",
+      "G06F 3/0659",
+      "G06F 3/0662",
+      "G06F 3/0665",
+      "G06F 3/0668",
+      "G06F 3/067"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025006049"
+}

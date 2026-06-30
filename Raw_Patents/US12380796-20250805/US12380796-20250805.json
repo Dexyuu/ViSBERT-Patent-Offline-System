@@ -1,0 +1,20 @@
+{
+  "title": "Methods for detecting gas alarms based on smart gas and internet of things (IoT) systems",
+  "abstract": "Embodiments of the present disclosure provide a method for detecting a gas alarm based on smart gas and an Internet of Things (IoT) system. The method comprises: determining a self-detection parameter and collecting gas monitoring data through the gas alarm; in response to determining that a collaborative verification request is received or a collaborative cycle is satisfied, determining whether the gas alarm has a fault based on the gas monitoring data and gas usage data of a user; in response to determining that the gas alarm has the fault, generating, based on the gas monitoring data, a fault data sequence of the gas alarm; and determining, based on the fault data sequence, a dispatching maintenance parameter of the gas alarm. The IoT system comprises a smart gas user platform, a smart gas service platform, a smart gas safety management platform, a smart gas indoor equipment sensor network platform, and a smart gas indoor equipment object platform. The smart gas safety management platform is configured to perform the method for detecting the gas alarm based on smart gas.",
+  "claims": "1. A method for detecting a gas alarm based on smart gas, comprising: determining a self-detection parameter and collecting gas monitoring data through the gas alarm, the self-detection parameter including a self-detection cycle and a transmission cycle, and the gas monitoring data including at least one of gas concentration data, ambient temperature data, and ambient humidity data; in response to determining that a collaborative verification request is received or a collaborative cycle is satisfied, determining whether the gas alarm has a fault based on the gas monitoring data and gas usage data of a user; in response to determining that the gas alarm has the fault, generating, based on the gas monitoring data, a fault data sequence of the gas alarm; and determining, based on the fault data sequence, a dispatching maintenance parameter of the gas alarm.",
+  "patent_id": "US12380796-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G08B 29/20",
+      "G08B 21/16",
+      "G08B 29/14"
+    ],
+    "all": [
+      "G08B 29/20",
+      "G08B 21/16",
+      "G08B 29/14"
+    ],
+    "source": "converted"
+  }
+}

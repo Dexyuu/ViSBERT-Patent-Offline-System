@@ -1,0 +1,28 @@
+{
+  "title": "Smart assist for repeated actions",
+  "abstract": "Systems and methods enable a computing system to recognize a sequence of repeated actions and offer to automatically repeat any such recognized actions. An example method includes determining a current sequence of user actions is similar to previous sequence of user actions, determining whether the previous sequence is reproducible and, when reproducible, initiating display of a prompt that requests approval for completing the current sequence based on the previous sequence and, responsive to receiving an indication of approval, completing the previous sequence. Another example method included determining that a first current sequence of user interactions is complete and is not similar to any saved sequence of user interactions, saving the first current sequence as a previous sequence, identifying a second sequence as satisfying a similarity threshold with the previous sequence, and initiating display of a prompt that requests approval for saving the previous sequence as a shortcut.",
+  "claims": "1. A method implemented by one or more processors comprising: identifying a current sequence of user actions of a user with a mobile application executing at least in part at a computing device of the user; identifying, based on the current sequence of user actions, a previous sequence of user actions of the user with the mobile application executing at least in part at the computing device of the user; determining a confidence score indicative of whether the previous sequence of user actions can be utilized to complete the current sequence of user actions; in response to determining that the confidence score fails to satisfy a first confidence threshold and a second confidence threshold: classifying the confidence score indicative of whether the previous sequence of user actions can be utilized to complete the current sequence of user actions as low; and based on classifying the confidence score indicative of whether the previous sequence of user actions can be utilized to complete the current sequence of user actions as low: refraining from storing the current sequence of actions; and refraining from prompting the user to utilize the previous sequence of user actions to complete the current sequence of user actions; in response to determining that the confidence score fails to satisfy the first confidence threshold but satisfies the second confidence threshold: classifying the confidence score indicative of whether the previous sequence of user actions can be utilized to complete the current sequence of user actions as medium; and based on classifying the confidence score indicative of whether the previous sequence of user actions can be utilized to complete the current sequence of user actions as medium: storing the current sequence of user actions in association with the previous sequence of user actions; and refraining from prompting the user to utilize the previous sequence of user actions to complete the current sequence of user actions; and in response to determining that the confidence score satisfies the first confidence threshold: classifying the confidence score indicative of whether the previous sequence of user actions can be utilized to complete the current sequence of user actions as high; and based on classifying the confidence score indicative of whether the previous sequence of user actions can be utilized to complete the current sequence of user actions as high: prompting, via the computing device of the user, the user to utilize the previous sequence of user actions to complete the current sequence of user actions.",
+  "patent_id": "US12379821-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/04817",
+      "G06F 3/0481",
+      "G06F 3/0482",
+      "G06F 9/451",
+      "G06Q 30/0601",
+      "G06Q 50/12",
+      "G06V 40/10"
+    ],
+    "all": [
+      "G06F 3/04817",
+      "G06F 3/0481",
+      "G06F 3/0482",
+      "G06F 9/451",
+      "G06Q 30/0601",
+      "G06Q 50/12",
+      "G06V 40/10"
+    ],
+    "source": "converted"
+  }
+}

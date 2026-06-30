@@ -1,0 +1,20 @@
+{
+  "title": "Reliable programming of one-time programmable (OTP) memory during device testing",
+  "abstract": "A method includes providing one or more signals to an electronic device for performing a test procedure that involves programming a One-Time Programmable (OTP) memory in the electronic device. A verification is made as to whether connection of the one or more signals to the electronic device is stable, by performing a sequence of one or more iterations, each iteration including (i) determining, from among a set of scratchpad addresses in the OTP memory, an address that is available for programming, (ii) writing a test value to the address, and then (iii) reading the test value from the address. If the read test value differs from the written test value, re-tuning of the connection of the one or more signals is initiated. Only when the connection is verified as stable by the sequence of iterations, the OTP memory is programmed in accordance with the test procedure.",
+  "claims": "1. A method for testing electronic devices, the method comprising: providing, by a test system, one or more external signals to an electronic device for performing a test procedure that involves programming of a One-Time Programmable (OTP) memory in the electronic device; verifying whether the one or more external signals are connected stably to the electronic device, by performing a sequence of one or more iterations, each iteration comprising: determining, from among a set of scratchpad addresses in the OTP memory, an address that is available for programming; writing a test value to the address, and then reading the test value from the address; and if the read test value differs from the written test value, initiating re-tuning of a connection of the one or more external signals; and only when the one or more external signals are verified by the sequence of iterations as connected stably to the electronic device, programming the OTP memory of the electronic device in accordance with the test procedure.",
+  "patent_id": "US12380962-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G11C 29/54",
+      "G06F 12/0238",
+      "G06F 2212/202"
+    ],
+    "all": [
+      "G11C 29/54",
+      "G06F 12/0238",
+      "G06F 2212/202"
+    ],
+    "source": "converted"
+  }
+}

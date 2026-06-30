@@ -1,0 +1,22 @@
+{
+  "title": "Point-to-point autonomous driving path generation and driving control method based on navigation route and high definition map",
+  "abstract": "A point-to-point autonomous driving path generation and driving control method based on a navigation route and a high definition map, which generates a point-to-point autonomous driving path by utilizing both of a route made with a navigation map (SD map) and a lane centerline of a high definition map (HD map). The point-to-point autonomous driving path generation and driving control method based on the navigation route and the high definition map includes a step of acquiring navigation route data; and a step of generating autonomous driving trajectory data on the basis of lane information of the high definition map matched with the navigation route data.",
+  "claims": "1. A point-to-point autonomous driving path generation and driving control method based on a navigation route and a high definition map, comprising: acquiring navigation route data; and generating autonomous driving trajectory data based on lane information of the high definition map matched with the navigation route data, wherein the generating the autonomous driving trajectory data comprises: collecting a candidate link group of a respective lane unit of all lane units of the high definition map matched with a link from a starting point to a goal point of a driving path; generating an overall route by processing an optimal link of candidate links of the collected candidate link groups by checking connectivity of each candidate link group from the starting point to the goal point of the driving path; giving priority for each link by considering connectivity of progress links at intersections and junctions; and generating the autonomous driving trajectory data to follow the priority for each link, and wherein the giving the priority comprises: when the lane information at the intersection and junction ahead is a lane connected to a right end lane for a right turn, the priority is given in order from a link of the right end lane to a link of a left end lane in the driving path, when the lane information at the intersection and junction ahead is a lane connected to a left lane for a left turn or a U turn, the priority is given in order from the link of the left end lane to the link of the right end lane in the driving path, and when the lane information is an intermediate lane, the priority is given in order links being away from the intermediate lane in the driving path.",
+  "patent_id": "US12379222-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01C 21/3658",
+      "B60W 60/0011",
+      "G01C 21/3667",
+      "B60W 2552/53"
+    ],
+    "all": [
+      "G01C 21/3658",
+      "B60W 60/0011",
+      "G01C 21/3667",
+      "B60W 2552/53"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Performing security functions using devices having embedded hardware security modules",
+  "abstract": "In some implementations, a host processor associated with a vehicle may select, from a plurality of devices that are configured to communicate with the host processor for performing security functions, a first device to serve as a primary device and a second device to serve as a secondary device. The first device may include a first memory with an embedded hardware security module and may be associated with a first set of nodes of the vehicle. The second device may include a second memory with an embedded hardware security module and may be associated with a second set of nodes of the vehicle. The host processor may determine, based on a signal, a failure associated with the first device or the second device. The host processor may initiate a remediation process based on the failure associated with the first device or the second device. Numerous other implementations are described.",
+  "claims": "1. A host processor associated with a vehicle, comprising: one or more components configured to: select, from a plurality of devices that are configured to communicate with the host processor for performing security functions, a first device to serve as a primary device and a second device to serve as a secondary device, wherein: the first device includes a first memory with an embedded hardware security module and is associated with a first set of nodes of the vehicle, the second device includes a second memory with an embedded hardware security module and is associated with a second set of nodes of the vehicle, the first memory and the second memory store information that enables security functions to be performed, in conjunction with the host processor, including one or more of: a node verification to verify that a node of the vehicle has not been tampered with, or a user authorization of a user that attempts to modify the node or replace the node or insert a new node in the vehicle, the first memory stores first information that enables the first device to perform security functions for the first set of nodes, and second information that enables the first device to perform security functions for the second set of nodes; the second memory stores the second information that enables the second device to perform security functions for the second set of nodes, and the second memory does not store the first information; determine, based on a signal received by the host processor, a failure associated with the first device or the second device; and initiate a remediation process based on the failure associated with the first device or the second device.",
+  "patent_id": "US12379915-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 8/65",
+      "G06F 21/57",
+      "G06F 21/86",
+      "H04W 4/40"
+    ],
+    "all": [
+      "G06F 8/65",
+      "G06F 21/57",
+      "G06F 21/86",
+      "H04W 4/40"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2018007784",
+  "application_id_fs": "WO2018007784",
+  "title": "Vector register access",
+  "abstract": "There is provided an apparatus that includes a set of vector registers, each of the vector registers being arranged to store a vector comprising a plurality of portions. The set of vector registers is logically divided into a plurality of columns, each of the columns being arranged to store a same portion of each vector. The apparatus also includes register access circuitry that comprises a plurality of access blocks. Each access block is arranged to access a portion in a different column when accessing one of the vector registers than when accessing at least one other of the vector registers. The register access circuitry is arranged to simultaneously access portions in any one of: the vector registers and the columns.",
+  "claims": "Claims An apparatus, comprising: a set of vector registers, each of the vector registers being arranged to store a vector comprising a plurality of portions, the set of vector registers being logically divided into a plurality of columns, each of the columns being arranged to store a same portion of each vector; and register access circuitry comprising a plurality of access blocks, wherein each access block is arranged to access a portion in a different column when accessing one of the vector registers than when accessing at least one other of the vector registers; and the register access circuitry is arranged to simultaneously access portions in any one of: the vector registers and the columns. An apparatus according to claim 1, wherein the set of vector registers comprises at least one section, where each section comprises different columns; and the apparatus comprises register access circuitry for each section, each register access circuitry arranged to access portions in the section associated with that register access circuitry. An apparatus according to claim 2, wherein each access block is arranged to access a portion in a different column when accessing one of the vector registers than when accessing a number of other vector registers equal to the number of columns comprised within each section minus one. An apparatus according to any preceding claim, wherein a first access block is arranged to access a first column of a first vector register and to access a second column of a second vector register; and a second access block is arranged to access the second column of the first vector register and to access the first column of the second vector register. \n\n An apparatus according to any one of claims 2-3, wherein each section is logically divided into N columns; the N columns are logically arranged into a nested structure having log 2 (N) levels, where N is greater or equal to 4 and an integer power of 2; at a first level, the N columns are split equally between a first set of at least one columns for the first level and a second set of at least one columns for the first level; each of the sets of at least one columns in each parent level is equally split again into a first set of at least one columns for a corresponding child level and a second set of at least one columns for that corresponding child level; each of the access blocks is configured, for each vector register, to visit one column, the one column being uniquely identified by the constraints of visiting, for each level, the first sets of at least one columns for half a predetermined number of vector registers before visiting the second sets of at least one columns for half a predetermined number of vector registers; and the predetermined number is equal to 2 , where X is different at each level and is in the range 1 to log 2 (N). An apparatus according to claim 5, wherein the set of vector registers comprises 2 sections; and N has the value 4. An apparatus according to any preceding claim, wherein the register access circuitry comprises read access circuitry to output data elements stored in the vector registers; and the register access circuitry comprises write access circuitry to input data elements to the vector registers. An apparatus according to claim 7, wherein the read access circuitry comprises one access block for each of the plurality of columns. An apparatus according to any one of claims 7-8, wherein \n\n the read access circuitry comprises at most one access block for each of the plurality of columns. An apparatus according to any one of claims 7-9, wherein the access blocks in the read access circuitry comprise multiplexers. An apparatus according to any one of claims 7-10, wherein the set of vector registers comprises at least one section, where each section comprises different columns; the apparatus comprises register access circuitry for each section, each register access circuitry being arranged to access portions in the section associated with that register access circuitry; and for each section the read access circuitry comprises rearrangement circuitry to rearrange outputs from each of the access blocks in the read access circuitry. An apparatus according to claim 11, wherein the rearrangement circuitry is a crossbar multiplexer. An apparatus according to claim 7, wherein the write access circuitry comprises one access block for each of the plurality of columns. An apparatus according to any one of claims 12-13, wherein the write access circuitry comprises at most one access block for each of the plurality of columns. An apparatus according to any one of claims 13-14, wherein the set of vector registers comprises at least one section, where each section comprises different columns; the apparatus comprises register access circuitry for each section, each register access circuitry being arranged to access portions in the section associated with that register access circuitry; and \n\n for each section the write access circuitry comprises rearrangement circuitry to rearrange inputs to each of the access blocks in the write access circuitry. 16. An apparatus according to claim 15, wherein the rearrangement circuitry is a crossbar multiplexer. 17. An apparatus according to any preceding claim, wherein the vector registers are 128-bit registers. 18. An apparatus according to any preceding claim, wherein each of the vector registers comprises a plurality of 32-bit registers. 19. A method of manufacturing an apparatus, the method comprising: providing a set of vector registers, each of the vector registers being arranged to store a vector comprising a plurality of portions, the set of vector registers being logically divided into a plurality of columns, each of the columns being arranged to store a same portion of each vector; and providing register access circuitry comprising a plurality of access blocks, wherein each access block is arranged to access a portion in a different column when accessing one of the vector registers than when accessing at least one other of the vector registers; and the register access circuitry is arranged to simultaneously access portions in any one of: the vector registers and the columns. 20. An apparatus, comprising: a set of vector register means each for storing a vector comprising a plurality of portions, the set of vector register means being logically divided into a plurality of columns, each of the columns being arranged to store a same portion of each vector; and register access means for simultaneously accessing portions in any one of: the vector register means and the columns, the register access means comprising a plurality of access block means for accessing a portion in a different column when accessing one \n\n of the vector register means than when accessing at least one other of the vector register means.",
+  "classifications": {
+    "ipc": [
+      "G06F 9/00",
+      "G06F 9/06",
+      "G06F 9/30",
+      "G06F 9/3012",
+      "G06F 9/3013",
+      "G06F 9/3004",
+      "G06F 9/34",
+      "G06F 9/345",
+      "G06F 9/3455",
+      "G06F 15/00",
+      "G06F 15/76",
+      "G06F 15/80",
+      "G06F 15/8053",
+      "G06F 17/00",
+      "G06F 17/10",
+      "G06F 17/16"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 9/00",
+      "G06F 9/06",
+      "G06F 9/30",
+      "G06F 9/3012",
+      "G06F 9/3013",
+      "G06F 9/3004",
+      "G06F 9/34",
+      "G06F 9/345",
+      "G06F 9/3455",
+      "G06F 15/00",
+      "G06F 15/76",
+      "G06F 15/80",
+      "G06F 15/8053",
+      "G06F 17/00",
+      "G06F 17/10",
+      "G06F 17/16"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018007784"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Electric compressor control device, electric compressor, and electric compressor control method",
+  "abstract": "This electric compressor control device comprises: a control unit of an inverter which controls a motor that drives a compressor; a physical quantity calculation unit which calculates, on the basis of one or a plurality of predetermined detection values acquired from the inverter, a physical quantity that varies depending on a workload of the compressor; a number-of-revolutions acquisition unit which acquires the number of revolutions of the motor; a storage unit which stores information representing a first threshold that varies depending on the number of revolutions of the motor, and defines whether or not the physical quantity is a normal value; and a refrigerant abnormality determination unit which determines whether or not there is an abnormality in a refrigerant system by comparing the calculated physical quantity with the first threshold, depending on the acquired number of revolutions.",
+  "claims": "1. An electric compressor control device comprising: a control unit of an inverter that controls a motor that drives a compressor; a physical quantity calculation unit that calculates a physical quantity that changes according to a workload of the compressor based on one or a plurality of predetermined detection values obtained from the inverter; a rotation speed acquisition unit that acquires a rotation speed of the motor; a storage unit that stores: information representing a first threshold value that changes according to the rotation speed of the motor and defines whether or not the physical quantity is a normal value; and information representing a second threshold value that changes according to the rotation speed of the motor and defines whether the physical quantity is a slight abnormality or severe abnormality in a case where the physical quantity is not normal; and a refrigerant abnormality determination unit that determines whether or not there is an abnormality in a refrigerant system by comparing the calculated physical quantity with the first threshold value according to the acquired rotation speed, wherein the refrigerant abnormality determination unit determines whether the refrigerant system is in a normality, slight abnormality, or severe abnormality by comparing the calculated physical quantity with the first threshold value and the second threshold value according to the acquired rotation speed, and in a case where determination is made to be the severe abnormality, the refrigerant abnormality determination unit determines that operation is not continuable when a time from the determination to be the slight abnormality to the determination to be the severe abnormality is shorter than a first time.",
+  "patent_id": "US12377713-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60H 1/3205",
+      "H02P 29/026",
+      "B60H 2001/3238",
+      "B60H 2001/3292"
+    ],
+    "all": [
+      "B60H 1/3205",
+      "H02P 29/026",
+      "B60H 2001/3238",
+      "B60H 2001/3292"
+    ],
+    "source": "converted"
+  }
+}

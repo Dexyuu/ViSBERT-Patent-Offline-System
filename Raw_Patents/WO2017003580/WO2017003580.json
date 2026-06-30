@@ -1,0 +1,40 @@
+{
+  "application_id": "WO2017003580",
+  "application_id_fs": "WO2017003580",
+  "title": "Mitigation of malware",
+  "abstract": "Particular embodiments described herein provide for an electronic device that can be configured to allow malware to execute in a system, record changes to the system caused by the execution of the malware, and create detection tasks for the detection of the malware in an electronic device, where the detection tasks are at least partially based on the changes to the system caused by the execution of the malware. The detection tasks can be used to identify an infected electronic device and to create mitigation tasks that mitigate the changes to the infected electronic device caused by the malware.",
+  "claims": "Claims CLAIMS: 1. At least one computer-readable medium comprising one or more instructions that when executed by at least one processor, cause the at least one processor to: allow malware to execute in a system; record changes to the system caused by the execution of the malware; and create detection tasks for the detection of the malware in an electronic device, wherein the detection tasks are at least partially based on the changes to the system caused by the execution of the malware. 2. The at least one computer-readable medium of Claim 1, wherein the detection tasks are created using one or more of pattern matching, global reputation analysis, program emulation, static analysis, and dynamic analysis of the malware. 3. The at least one computer-readable medium of any of Claims 1 and 2, further comprising one or more instructions that when executed by the at least one processor, cause the at least one processor to: identify a malware family associated with the malware, wherein the malware family includes family behavior and the detection tasks are partially based on the family behavior. 4. The at least one computer-readable medium of any of Claims 1-3, wherein the detection tasks are partially based on generic malware behavior. 5. The at least one computer-readable medium of any of Claims 1-4, further comprising one or more instructions that when executed by the at least one processor, cause the at least one processor to: identify an infected electronic device using the created detection tasks; and create mitigation tasks that mitigate the changes to the infected electronic device caused by the malware. 6. The at least one computer-readable medium of any of Claims 1-5, wherein the mitigation tasks are executed in a recovery environment. 7. The at least one computer-readable medium of any of Claims 1-6, wherein the mitigation tasks are executed using a secondary operating system on the infected electronic device. 8. The at least one computer-readable medium of any of Claims 1-7, wherein the secondary operating system is pushed on the infected electronic device as a boot disk. 9. An apparatus comprising: a pattern behavior generation module configured to: allow malware to execute in a system; record changes to the system caused by the execution of the malware; and create detection tasks for the detection of the malware in an electronic device, wherein the detection tasks are at least partially based on the changes to the system caused by the execution of the malware. 10. The apparatus of Claim 9, wherein the detection tasks are created using one or more of pattern matching, global reputation analysis, program emulation, static analysis, and dynamic analysis of the malware. 11. The apparatus of any of Claims 9 and 10, wherein the pattern behavior generation module is further configured to: identify a malware family associated with the malware, wherein the malware family includes family behavior and the detection tasks are partially based on the family behavior. 12. The apparatus of any of Claims 9-11, wherein the detection tasks are partially based on generic malware behavior. 13. The apparatus of any of Claims 9-12, wherein the pattern behavior generation module is further configured to: communicate the detection tasks to a security module, wherein the security module is configured to: identify an infected electronic device using the created detection tasks; and create mitigation tasks that mitigate the changes to the infected electronic device caused by the malware. 14. The apparatus of any of Claims 9-13, wherein the mitigation tasks are executed in a recovery environment. 15. The apparatus of any of Claims 9-14, wherein the mitigation tasks are executed using a secondary operating system on the infected electronic device. 16. The apparatus of any of Claims 9-15, wherein the secondary operating system is pushed on the infected electronic device as a boot disk. 17. A method comprising: executing malware in a system; recording changes to the system caused by the execution of the malware; and creating detection tasks for the detection of the malware in an electronic device, wherein the detection tasks are at least partially based on the changes to the system caused by the execution of the malware. 18. The method of Claim 17, wherein the detection tasks are created using one or more of pattern matching, global reputation analysis, program emulation, static analysis, and dynamic analysis of the malware. 19. The method of any of Claims 17 and 18, further comprising: \n\n identifying a malware family associated with the malware, wherein the malware family includes family behavior and the detection tasks are partially based on the family behavior. 20. The method of any of Claims 17-19, wherein the detection tasks are partially based on generic malware behavior. 21. The method of any of Claims 17-20, further comprising: identifying an infected electronic device using the created detection tasks; and creating mitigation tasks that mitigate the changes to the infected electronic device caused by the malware. 22. The method of any of Claims 17-21, wherein the mitigation tasks are executed in a recovery environment. 23. The method of any of Claims 17-22, wherein the mitigation tasks are executed using a secondary operating system on the infected electronic device. 24. A system for the remediation of malware, the system comprising: a pattern behavior generation module configured to: allow malware to execute in a system; record changes to the system caused by the execution of the malware; create detection tasks for the detection of the malware in an electronic device, wherein the detection tasks are at least partially based on the changes to the system caused by the execution of the malware; and a security module configured to: identify an infected electronic device using the created detection tasks; and create mitigation tasks that mitigate the changes to the infected electronic device caused by the malware. 25. The system of Claim 24, wherein the detection tasks are created using one or more of pattern matching, global reputation analysis, program emulation, static analysis, and dynamic analysis of the malware.",
+  "classifications": {
+    "ipc": [
+      "G06F 21/00",
+      "G06F 21/50",
+      "G06F 21/55",
+      "G06F 21/56",
+      "G06F 21/566",
+      "G06F 21/568",
+      "G06F 21/57",
+      "H04L 9/00",
+      "H04L 9/40",
+      "G06F 2221/00",
+      "G06F 2221/21",
+      "G06F 2221/2101"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 21/00",
+      "G06F 21/50",
+      "G06F 21/55",
+      "G06F 21/56",
+      "G06F 21/566",
+      "G06F 21/568",
+      "G06F 21/57",
+      "H04L 9/00",
+      "H04L 9/40",
+      "G06F 2221/00",
+      "G06F 2221/21",
+      "G06F 2221/2101"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017003580"
+}

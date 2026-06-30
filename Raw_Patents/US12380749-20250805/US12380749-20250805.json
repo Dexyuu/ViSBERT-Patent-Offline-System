@@ -1,0 +1,28 @@
+{
+  "title": "Electronic lock system",
+  "abstract": "A system includes a server having a communication device and a processing circuit. The communication device is configured to facilitate communication with electronic devices. The processing circuit is configured to receive permission from a first user device for a guest user to access an electronic lock using a second user device, provide a notification to the second user device regarding a guest user profile, receive an activation command from the second user device based on the notification, generate the guest user profile for the guest user in response to receiving the permission and the activation command, and transmit the guest user profile to the second user device. The guest user profile is usable to allow the guest user to unlock the electronic lock.",
+  "claims": "1. A method for monitoring locations of a plurality of portable locks, the method comprising: acquiring, by one or more processing circuits, location information regarding a plurality of locations of the plurality of portable locks, wherein a respective location of the plurality of locations is determined during a respective interaction between a respective portable lock of the plurality of portable locks and a respective user device, and wherein the respective location of the respective portable lock is a last known location of the respective portable lock during the respective interaction between the respective portable lock and the respective user device, and not a real-time location of the respective portable lock following the respective interaction; acquiring, by the one or more processing circuits, one or more parameters; and generating, by the one or more processing circuits, a mapping interface displaying one or more of the plurality of the locations of the plurality of portable locks based on the one or more parameters, wherein the one or more of the plurality of locations include the respective location of the respective portable lock from the respective interaction when the respective location fulfills the one or more parameters, and wherein the one or more of the plurality of locations do not include locations that do not fulfill the one or more parameters.",
+  "patent_id": "US12380749-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G07C 9/00309",
+      "G07C 9/00571",
+      "H04W 12/04",
+      "H04W 12/06",
+      "H04W 12/08",
+      "G07C 2009/00404",
+      "G07C 2009/00412"
+    ],
+    "all": [
+      "G07C 9/00309",
+      "G07C 9/00571",
+      "H04W 12/04",
+      "H04W 12/06",
+      "H04W 12/08",
+      "G07C 2009/00404",
+      "G07C 2009/00412"
+    ],
+    "source": "converted"
+  }
+}

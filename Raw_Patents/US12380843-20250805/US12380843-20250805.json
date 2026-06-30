@@ -1,0 +1,20 @@
+{
+  "title": "Display apparatus",
+  "abstract": "Provided is a display device. The display device includes a display panel configured to display an image; a driving unit including a data driver and a gate driver for driving the display panel; and a power supply unit configured to supply a power voltage for driving the driving unit using an input voltage; wherein the power supply unit controls the power voltage according to a load level of the driving unit.",
+  "claims": "1. A display device, comprising: a display panel configured to display an image; a driving unit including a data driver and a gate driver for driving the display panel; and a power supply unit configured to supply a power voltage for driving the driving unit using an input voltage, wherein the power supply unit controls the power voltage according to a load level of the driving unit, wherein the power supply unit includes: a power unit configured to generate the power voltage using the input voltage supplied to an input unit thereof and output the generated power voltage to an output terminal; and a power management circuit configured to control the power voltage according to a line resistance of a power line connected to the driving unit and the load level, and wherein the power management circuit includes: a line resistance input unit configured to receive the line resistance of the power line connected between an output terminal of the power supply unit and an input terminal of the driving unit, a load level determination unit configured to determine the load level according to a current mode of the power supply unit; an output voltage calculation unit configured to calculate an output voltage according to the line resistance and the load level; a comparation unit configured to output a result value according to a comparison result between the output voltage and a reference voltage; and a duty cycle changing unit configured to change a driving duty cycle of the first switch and the second switch according to the result value.",
+  "patent_id": "US12380843-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/3208",
+      "G09G 2320/0223",
+      "G09G 2330/021"
+    ],
+    "all": [
+      "G09G 3/3208",
+      "G09G 2320/0223",
+      "G09G 2330/021"
+    ],
+    "source": "converted"
+  }
+}

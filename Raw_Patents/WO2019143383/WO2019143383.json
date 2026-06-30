@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2019143383",
+  "application_id_fs": "WO2019143383",
+  "title": "Skill matching for control of an industrial production machine",
+  "abstract": "Automated skill matching is provided in industrial control. The interfaces (12, 17) and/or the production processes (13, 18) of the controller (16) and machine (11) are matched. The matching of the interfaces (12, 17) links parameters except for optional parameters to check for incompatibility. The matching of the production processes (13, 18) uses a cross-product of the process (13) of the machine (11) with the process (18) of the controller (16) to check for incompatibility. The skill checking guides manual confirmation of compatibility, reducing downtime and reducing engineering or programming time. The machine (11) is more likely to operate correctly with the controller (16) due to the automated skill matching.",
+  "claims": "Claims I (WE) CLAIM: 1. A system for skill matching in industrial control, the system comprising: a production machine (11 ) in an industrial production line (10), the production machine (11 ) having a production machine interface (12) responsive to a plurality of first parameters and having a production machine process (13) responsive to first information; a controller (16) of the production machine (11 ), the controller (16) having a controller interface (17) responsive to a plurality of second parameters and having a controller process (18) responsive to second information; and a matching processor (14, 19) configured to first match the first and second parameters and to second match synchronization of the production machine process (13) with the controller process (18) based on exchange of the first and second information between the controller (16) and the production machine (11 ), the matching processor (14, 19) configured to indicate an incompatibility of the production machine (11 ) with the controller (16) based on the first match, the second match, or both the first match and the second match. 2. The system of claim 1 wherein the production machine (11 ) comprises a machine in a manufacturing process. 3. The system of claim 1 wherein the controller (16) comprises a supervisor. 4. The system of claim 1 wherein the matching processor (14, 19) is part of the production machine (11 ). 5. The system of claim 1 wherein the matching processor (14, 19) is part of the controller (16). 6. The system of claim 1 wherein the first and second parameters each comprise a name, value, and unit, and wherein the matching processor (14, \n\n 19) is configured to perform the first match based on compatibility of the names and units of the first parameters with the names and units of the second parameters. 7. The system of claim 6 wherein the compatibility is based on all the first parameters linked to all the second parameters except for at least one of the first and second parameters labeled as optional. 8. The system of claim 6 wherein the first match is for the production machine interface (12). 9. The system of claim 6 wherein the matching processor (14, 19) is configured to perform the first match based on the names of the first and second parameters, names of linked variables, the units of the first and second parameters, and at least one substitute based on the names of the linked variables and/or the units. 10. The system of claim 9 wherein the matching processor (14, 19) is configured to store an indication of at least one substitute. 11. The system of claim 6 wherein the matching processor (14, 19) is configured to indicate the incompatibility as a missing name, value or unit, a mismatch of a name, value or unit, or combinations thereof. 12. The system of claim 1 wherein the production machine process (13) and the controller process (18) each comprise steps and synchronization points, the synchronization points of the production machine (11 ) responsive to the first information from the controller (16) and the synchronization points of the controller (16) responsive to the second information from the production machine (11 ), and wherein the matching processor (14, 19) is configured to perform the second match for the synchronization based on the steps and synchronization points. 13. The system of claim 12 wherein the matching processor (14, 19) is configured to perform the second match as a synchronous cross product of the controller process (18) with the production machine process (13). 14. The system of claim 13 wherein the matching processor (14, 19) is configured to perform the synchronous cross product based on starting points of the steps for the production machine process (13) and the controller process (18) and labeling of links between the steps as internal or the synchronization points. 15. The system of claim 13 wherein the matching processor (14, 19) is configured to indicate the incompatibility based on the second match where the synchronous cross product does not include one of the synchronization points of the production machine process (13) or the controller process (18) or does not include an end point of the production machine process (13) or the controller process (18). 16. A method for skill matching in an industrial control system, the method comprising: comparing (72), by a processor (14, 19), a process model of a controllable industrial equipment to a process model of a supervisor of the controllable industrial equipment; and identifying (74), by the processor (14, 19), an incompatibility of the process model of the controllable industrial equipment with the process model of the supervisor based on the comparing. 17. The method of claim 16 wherein comparing (72) comprises generating a synchronous graph of a cross product of the of the process model of the controllable industrial equipment with the process model of the supervisor. 18. The method of claim 16 wherein identifying (74) comprises identifying the incompatibility as a missing synchronization point of the process model of the controllable industrial equipment or the process model of the supervisor \n\n and/or identifying a missing termination of the process model of the controllable industrial equipment or the process model of the supervisor. 19. A method for skill matching in an industrial control system, the method comprising: comparing (62), by a processor (14, 19), parameters of an interface of a controllable industrial equipment to parameters of an interface of a supervisor of the controllable industrial equipment; and identifying (64), by the processor (14, 19), an incompatibility of the interface of the controllable industrial equipment with the interface of the supervisor based on the comparing. 20. The method of claim 19 wherein comparing (62) comprises comparing (62) names, variables, values, and units of the interface of a controllable industrial equipment with the names, variables, values, and units of the interface of a supervisor of the controllable industrial equipment, and wherein identifying (64) comprises identifying (64) names, variables, values or units of the interfaces (12, 17) that are missing in one of the interfaces (12, 17) or have different units between the interfaces (12, 17).",
+  "classifications": {
+    "ipc": [
+      "G05B 19/00",
+      "G05B 19/02",
+      "G05B 19/418",
+      "G05B 19/4183",
+      "G06F 11/00",
+      "G06F 11/30",
+      "G06F 8/00",
+      "G06F 8/10",
+      "G06F 9/00",
+      "G06F 9/06",
+      "G05B 2219/00",
+      "G05B 2219/30",
+      "G05B 2219/31"
+    ],
+    "cpc": [],
+    "all": [
+      "G05B 19/00",
+      "G05B 19/02",
+      "G05B 19/418",
+      "G05B 19/4183",
+      "G06F 11/00",
+      "G06F 11/30",
+      "G06F 8/00",
+      "G06F 8/10",
+      "G06F 9/00",
+      "G06F 9/06",
+      "G05B 2219/00",
+      "G05B 2219/30",
+      "G05B 2219/31"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019143383"
+}

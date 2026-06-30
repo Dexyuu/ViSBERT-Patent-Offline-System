@@ -1,0 +1,24 @@
+{
+  "title": "Baseline restorer circuit",
+  "abstract": "A baseline restorer circuit including a controller; a sample control circuit arranged to receive an input voltage signal that is output from a circuit stage comprising an amplifier, and configured to capture a sample of the input voltage signal at a sampling time in response to receiving a control signal from the controller; an analogue processing stage to receive the sample and a constant baseline reference voltage and selectively process the sample to provide an output voltage; a transconductance stage to convert the output voltage to a compensation current and supply the compensation current to an input of the circuit stage; and a change detector to monitor if the input voltage signal changes during a time interval around the sampling time, and if no change is detected in the input voltage signal during the time interval, the controller is configured to control the analogue processing stage to process the sample.",
+  "claims": "1. A baseline restorer circuit, the baseline restorer circuit comprising: a controller; a sample control circuit arranged to receive an input voltage signal that is output from a circuit stage comprising an amplifier, wherein the sample control circuit is configured to capture a sample of the input voltage signal at a sampling time in response to receiving a first control signal from the controller; an analogue processing stage arranged to receive the sample of the input voltage signal and a constant baseline reference voltage and selectively process the sample of the input voltage signal to provide an output voltage; a transconductance stage configured to convert the output voltage to a compensation current and supply the compensation current to an input of the circuit stage; and a change detector configured to monitor if the input voltage signal changes during a time interval around the sampling time, and if no change is detected in the input voltage signal during the time interval, the controller is further configured to transmit a second control signal to the analogue processing stage to control the analogue processing stage to process the sample of the input voltage signal, wherein the change detector comprises a change detector stage arranged to continuously receive the input voltage signal, and wherein commencement and expiry of the time interval is controlled by the controller transmitting a third control signal to the change detector.",
+  "patent_id": "US12381539-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03H 11/1217",
+      "H03F 3/456",
+      "H03H 11/1291",
+      "H03F 2200/261",
+      "H03F 2200/471"
+    ],
+    "all": [
+      "H03H 11/1217",
+      "H03F 3/456",
+      "H03H 11/1291",
+      "H03F 2200/261",
+      "H03F 2200/471"
+    ],
+    "source": "converted"
+  }
+}

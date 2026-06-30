@@ -1,0 +1,24 @@
+{
+  "title": "Fluid modeling with nano-scale pore size effects for a reservoir",
+  "abstract": "An equation state with a mixing rule that captures a multi-component layering within nanopores may be used to model (1) fluid mixture in the nanopores of the reservoir and (2) movement of fluid between the nanopores and large pores of the reservoir. Such modeling of fluid behavior in large pores and nanopores of the reservoir may enable more accurate simulation of the reservoir (e.g., for hydrocarbon recovery).",
+  "claims": "1. A system for modeling fluid behavior in a reservoir, the system comprising: one or more physical processors configured by machine-readable instructions to: obtain reservoir characteristic information, the reservoir characteristic information defining characteristics of a reservoir; determine an initial condition of the reservoir based on the reservoir characteristic information, the initial condition of the reservoir including initial condition of fluid inside large pores and nanopores of the reservoir; model fluid movement between the large pores and the nanopores of the reservoir using an equation of state to simulate changes from the initial condition of the reservoir, wherein a mixing rule for the equation of state captures a multi-component layering to model fluid mixture in the nanopores of the reservoir and assigns different densities to different types of fluid molecules based on different excess energy for the different types of fluid molecules, excess energy for a type of fluid molecule including additional energy for the type of fluid molecule due to surface interaction with the nanopores of the reservoir, further wherein the assigned densities are modified based on shift of distribution shape of surface-adsorbed fraction functions using a mixture density transition sharpness factor and the modified densities are used in modeling mixing of fluid molecules between multiple layers of surface adsorbed regions within the nanopores of the reservoir; perform simulation of fluid extraction from the reservoir to predict movement of hydrocarbons between the large pores and the nanopores of the reservoir based on the modeled fluid movement between the large pores and the nanopores of the reservoir and to predict extraction of the hydrocarbons from the reservoir based on the predicted movement of the hydrocarbons between the large pores and the nanopores of the reservoir; and perform production optimization in the reservoir based on the predicted extraction of the hydrocarbons from the reservoir.",
+  "patent_id": "US12378880-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "E21B 49/0875",
+      "E21B 47/26",
+      "G06F 30/28",
+      "G06F 30/3308",
+      "E21B 2200/20"
+    ],
+    "all": [
+      "E21B 49/0875",
+      "E21B 47/26",
+      "G06F 30/28",
+      "G06F 30/3308",
+      "E21B 2200/20"
+    ],
+    "source": "converted"
+  }
+}

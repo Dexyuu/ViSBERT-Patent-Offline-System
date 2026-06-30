@@ -1,0 +1,46 @@
+{
+  "application_id": "WO2016196186",
+  "application_id_fs": "WO2016196186",
+  "title": "Multi-capacitor kinetic energy generator",
+  "abstract": "A kinetic energy generator, system and method of transmitting data are described. The kinetic energy generator includes a piezoelectric element that receives kinetic energy initiated by a user, a rectifier connected with the piezoelectric element that rectifies voltage from the piezoelectric element, a capacitive system of capacitors formed from different materials connected with the piezoelectric element through the rectifier, a short-range transceiver connected with the capacitive system and activated in response to energy storage in the capacitive system reaching a threshold level, and a non-volatile memory that provides at least some of the data transmitted by the transceiver in response to a request from the transceiver. Below an inflection point, the capacitive system stores more energy than one system of one capacitor type and less energy than another system of another capacitor type arranged in the same manner as the capacitive system, and the reverse above the inflection point.",
+  "claims": "Claims CLAIMS  What is claimed is: 1. An energy generator comprising: an energy converter configured to receive external energy and generate a voltage dependent on the received external energy; a rectifier connected with the energy converter configured to rectify voltage from the energy converter to provide a DC voltage; and a plurality of different types of capacitors formed from different materials connected with the energy converter through the rectifier to receive the DC voltage. 2. The energy generator of claim 1 , wherein: the energy converter is a piezoelectric element configured to receive kinetic energy initiated by a user and generate a voltage dependent on the received kinetic energy, and the plurality of capacitors comprises ceramic capacitors and tantalum capacitors. 3. The energy generator of claim 1 or 2, wherein: the plurality of capacitors are connected in parallel such that an energy storage profile of a capacitive system formed by the plurality of capacitors has an intermediate substantially quadratic profile between energy storage profiles of the different types of capacitors throughout an entirety of a voltage range. 4. The energy generator of claim 3, wherein: the energy storage profile of the capacitive system has an inflection point at which the energy storage profile of one type of the capacitors dominates below the inflection point and the energy storage profile of another type of the capacitors dominates above the inflection point. 5. The energy generator of claim 1 or 2, further comprising: a load connected with the plurality of capacitors, the load configured to be activated in response to energy storage in the plurality of capacitors reaching a predetermined level. 6. The energy generator of claim 5, wherein: the load comprises a short-range transceiver configured to transmit data to an external device through an antenna in response to the energy storage in the plurality of capacitors reaching the predetermined level. 7. The energy generator of claim 6, wherein: the short-range transceiver is a Bluetooth transceiver. 8. The energy generator of claim 6, further comprising: a non-volatile memory configured to provide at least some of the data transmitted by the short-range transceiver in response to a request from the short-range transceiver. 9. The energy generator of claim 8, wherein: the non-volatile memory is configured to provide to the short-range transceiver static data that does not change between transmissions by the short- range transceiver and dynamic data that changes between transmission by the short-range transceiver. 10. The energy generator of claim 9, wherein: the static data includes data pertaining to an article of manufacture in which that does not change between transmissions by the short-range transceiver and dynamic data that changes between transmission by the short-range transceiver. 11. A system compri sing : a capacitive system comprising plurality of different types of capacitors formed from different materials and connected in parallel such that an overall energy storage profile of the capacitive system has an inflection point in which: \n\n below the inflection point the capacitive system stores more energy than a first capacitive system consisting of a first of the types of capacitors arranged in the same manner as the capacitive system and less energy than a second capacitive system consisting of a second of the types of capacitors arranged in the same manner as the capacitive system, and above the inflection point the capacitive system stores more energy than the second capacitive system and less energy than the first capacitive system; and a load connected with the capacitive system, the load configured to be provided energy by the capacitive system in response to the capacitive system storing a predetermined threshold energy below the inflection point. 12. The system of claim 11, wherein: the capacitive system comprises ceramic capacitors and tantalum capacitors. 13. The system of claim 11 or 12, further comprising: a detector coupled with the capacitive system configured to determine a voltage stored by the capacitive system and, in response to detecting that the energy stored by the capacitive system has reached the predetermined threshold energy, configured to trigger at least some of the stored energy in the capacitive system to be delivered to the load. 14. The system of claim 11 or 12, wherein: the load comprises a short-range transceiver configured to transmit data to an external device through an antenna in response to the energy storage in the plurality of capacitors reaching the predetermined level 15. The system of claim 14, further comprising: a non-volatile memory confi gured to provide at least some of the data transmitted by the short-range transceiver in response to a request from the short-range transceiver, wherein the data comprises: \n\n static data that does not change between transmissions by the short-range transceiver and dynamic data that changes between transmission by the short-range transceiver. 16. The system of claim 11 or 12, wherein: the system is disposed within a shoe. 17. A method of transmitting data, the method comprising: charging a capacitive system, the capacitive system comprising plurality of different types of capacitors formed from different materials and co nected in parallel such that an overall energy storage profile of the capacitive system has an inflection point in which: below the inflection point the capacitive sy stem stores more energy than a first capacitive system consisting of a first of the types of capacitors arranged in the same manner as the capacitive system and less energy than a second capacitiv e system consisting of a second of the types of capacitors arranged in the same manner as the capacitive system, and above the inflection point the capacitive system stores more energy than the second capacitive sy stem and less energy than the first capacitive system: detecting whether the capacitive system has been charged to a threshold voltage sufficient to activate a short-range transmitter; and in response to detecting that the voltage of the capacitive system, has reached the threshold voltage, transmitting the data. 18. The method of claim 17, further comprising: in response to detecting that the voltage of the capacitive system has reached the threshold voltage, requesting dynamic and static data, wherein the data transmitted comprises the dynamic and static data. 19. The method of claim 17 or 18, further comprising: continuing to intermittently transmit the data as long as the voltage of the capacitive system, continues to be above the threshold voltage; and in response to detecting that the voltage of the capacitive system has fallen below a minimum voltage, terminating transmission of the data and shutting down at least some electronics associated with the transmission.",
+  "classifications": {
+    "ipc": [
+      "H02N 2/00",
+      "H02N 2/18",
+      "H02N 2/181",
+      "A43B 3/00",
+      "A43B 3/34",
+      "A43B 3/38",
+      "A43B 3/42",
+      "A43B 3/48",
+      "H02N 2/183",
+      "H10N 30/00",
+      "H10N 30/30",
+      "H04W 4/00",
+      "H04W 4/80",
+      "H04W 88/00",
+      "H04W 88/02"
+    ],
+    "cpc": [],
+    "all": [
+      "H02N 2/00",
+      "H02N 2/18",
+      "H02N 2/181",
+      "A43B 3/00",
+      "A43B 3/34",
+      "A43B 3/38",
+      "A43B 3/42",
+      "A43B 3/48",
+      "H02N 2/183",
+      "H10N 30/00",
+      "H10N 30/30",
+      "H04W 4/00",
+      "H04W 4/80",
+      "H04W 88/00",
+      "H04W 88/02"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2016196186"
+}

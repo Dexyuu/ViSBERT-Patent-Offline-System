@@ -1,0 +1,28 @@
+{
+  "title": "Federated closed-loop system",
+  "abstract": "Systems, methods, and computer readable media are for providing a hand free interaction between a user and a dispenser device. A mobile communication device and a beacon device associated with the dispenser device (or the dispenser device operating as a beacon device) may perform mutual authentication with a federated platform. Once the entities are authenticated, the user is allowed to dispense the resource utilizing the dispenser device. Data associated with the interaction and related to the resource dispensed may be provided to the federated platform via the mobile communication device and the interaction data may be recorded. The federated platform may subsequently provide the interaction data to a resource provider to enable the resource provider to conduct a settlement process.",
+  "claims": "1. A method comprising: receiving, from a beacon device associated with a dispenser device, a broadcast signal that encodes a first credential associated with the beacon device, by a mobile communication device operated by a user; transmitting, by the mobile communication device, the first credential to a federated platform configured to manage a blockchain that stores public keys of a plurality of devices, respectively, and a plurality of digital signatures formed by the federated platform and respectively associated with the plurality of devices upon registration of the plurality of devices with the federated platform, wherein the first credential comprises a first public key of the beacon device and a first digital signature, wherein the federated platform determines if the beacon device is authentic by verifying whether the first digital signature corresponds to a digital signature that is associated with the beacon device and was stored in the blockchain upon registration of the beacon device with the federated platform, and generates a first confirmation message confirming an authenticity of the beacon device based on the determining that the beacon device is authentic; and transmitting, by the mobile communication device to the beacon device, a second credential for the mobile communication device based on the first confirmation message being received by the mobile communication device from the federated platform, the second credential comprising a second public key of the mobile communication device and a second digital signature, wherein the beacon device transmits the second credential to the federated platform that determines if the mobile communication device is authentic by verifying whether the second digital signature corresponds to a digital signature that is associated with the mobile communication device and was stored in the blockchain upon registration of the mobile communication device with the federated platform, generates a second confirmation message confirming the authenticity of the mobile communication device based on the determining that the mobile communication device is authentic, and transmits, to the beacon device, the second confirmation message indicating that the mobile communication device is authentic, wherein receiving the second confirmation message by the beacon device from the federated platform allows the dispenser device to dispense a resource for the user, and wherein the beacon device and the mobile communication device are included in the plurality of devices.",
+  "patent_id": "US12380441-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/3829",
+      "B67D 7/04",
+      "G06Q 20/027",
+      "G06Q 20/145",
+      "G06Q 20/3223",
+      "G06Q 20/40145",
+      "H04L 67/125"
+    ],
+    "all": [
+      "G06Q 20/3829",
+      "B67D 7/04",
+      "G06Q 20/027",
+      "G06Q 20/145",
+      "G06Q 20/3223",
+      "G06Q 20/40145",
+      "H04L 67/125"
+    ],
+    "source": "converted"
+  }
+}

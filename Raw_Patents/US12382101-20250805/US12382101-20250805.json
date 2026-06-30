@@ -1,0 +1,22 @@
+{
+  "title": "Adaptive application of generalized sample offset",
+  "abstract": "This disclosure relates to adaptive loop filtering (ALF) for cross-component sample offset (CCSO), local sample offset (LSO), and generalized sample offset (GSO). ALF uses reconstructed samples of a first color component as input (e.g., Y or Cb or Cr). At least one of the GSO, LSO, or CCSO is determined to be enabled for a frame based on a syntax value in a coded video stream. The coded video stream is decoded by applying the at least one of the GSO, the LSO, or the CCSO at a block level.",
+  "claims": "1. A method comprising: receiving a coded video stream comprising a syntax element indicating whether a sample offset filtering process is applied to a frame in the coded video stream at a block level; determining that at least one of: a generalized sample offset (GSO), a local sample offset (LSO), or a cross component sample offset (CCSO) is enabled for the frame at the block level based on the syntax element being a predefined value; receiving a block-level flag indicating that one of the GSO, the LSO, or the CCSO is enabled for a block of the frame, wherein the block-level flag also indicates that another of the GSO, the LSO, or the CCSO is enabled for the block; and decoding the coded video stream by applying the at least one of the GSO, the LSO, or the CCSO at the block level.",
+  "patent_id": "US12382101-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/70",
+      "H04N 19/176",
+      "H04N 19/186",
+      "H04N 19/46"
+    ],
+    "all": [
+      "H04N 19/70",
+      "H04N 19/176",
+      "H04N 19/186",
+      "H04N 19/46"
+    ],
+    "source": "converted"
+  }
+}

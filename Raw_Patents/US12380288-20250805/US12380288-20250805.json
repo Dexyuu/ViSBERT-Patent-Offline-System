@@ -1,0 +1,22 @@
+{
+  "title": "Multilingual unsupervised neural machine translation with denoising adapters",
+  "abstract": "Methods and systems for unsupervised training for a neural multilingual sequence-to-sequence (seq2seq) model. Denoising adapters for each of one or more languages is inserted into an encoder and/or a decoder of the seq2seq model. Parameters of the one or more denoising adapters are trained on a language-specific denoising task using monolingual text for each of the one or more languages. Cross-attention weights of the seq2seq model with the trained denoising adapter layers are fine-tuned on a translation task in at least one of the one or more languages with parallel data.",
+  "claims": "1. A method for translating a sequence, comprising: translating, by one or more processors, a new sequence in one or more languages using a neural multilingual sequence-to-sequence (seq2seq) model, wherein the seq2seq model is trained using an unsupervised training method comprising: inserting, in a memory accessed by one or more processors, one or more denoising adapters for each of one or more languages into an encoder and/or a decoder of the seq2seq model; training, by one or more processors, parameters of each of the one or more denoising adapters on a language-specific denoising task using monolingual text for each of the one or more languages; and fine-tuning, by one or more processors, cross-attention weights of the seq2seq model with the denoising adapter layers and the trained parameters on a translation task in at least one of the one or more languages with parallel data.",
+  "patent_id": "US12380288-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 40/58",
+      "G06F 40/126",
+      "G06F 40/47",
+      "G06N 3/088"
+    ],
+    "all": [
+      "G06F 40/58",
+      "G06F 40/126",
+      "G06F 40/47",
+      "G06N 3/088"
+    ],
+    "source": "converted"
+  }
+}

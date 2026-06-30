@@ -1,0 +1,22 @@
+{
+  "title": "Data processing method and apparatus and heterogeneous system",
+  "abstract": "A data processing method and apparatus, and a heterogeneous system, pertaining to the field of computer technologies are provided. The heterogeneous system includes a processor connected to an accelerator. A secondary memory is connected to the accelerator. The processor is configured to write to-be-processed data into the secondary memory and trigger the accelerator to access and process the to-be-processed data stored in the secondary memory according to a processing instruction. The accelerator is configured to write a processing result of the to-be-processed data into the secondary memory and to trigger the processor to read the processing result. Processing efficiency is enhanced by reducing the number of times of interaction between the processor and the accelerator and simplifying the procedure for data processing.",
+  "claims": "1. A heterogeneous system, comprising: a processor, a plurality of accelerators, and a plurality of secondary memories each connected to a corresponding one of the plurality of accelerators; wherein the processor is configured to: write to-be-processed data into a first secondary memory of the plurality of processors; trigger a first accelerator of the plurality of accelerators to process the to-be-processed data in the first secondary memory according to a processing instruction, wherein the processing instruction carries an identifier of the processor and an accelerator identifier identifying one of the plurality of accelerators that is configured to execute the processing instruction; wherein the first accelerator is configured to: when the accelerator identifier is not an identifier of the first accelerator, write the to-be-processed data into a second secondary memory connected to a second accelerator indicated by the accelerator identifier; and trigger the second accelerator to process the to-be-processed data according to the processing instruction; and wherein the second accelerator is configured to: process the to-be-processed data in the second secondary memory; write a processing result of the to-be-processed data into the second secondary memory connected to the secondary accelerator; and trigger, based on the identifier of the processor carried in the processing instruction, the processor to read the processing result from the second secondary memory connected to the secondary accelerator.",
+  "patent_id": "US12380028-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 12/0815",
+      "G06F 9/3877",
+      "G06F 2212/1016",
+      "G06F 2212/621"
+    ],
+    "all": [
+      "G06F 12/0815",
+      "G06F 9/3877",
+      "G06F 2212/1016",
+      "G06F 2212/621"
+    ],
+    "source": "converted"
+  }
+}

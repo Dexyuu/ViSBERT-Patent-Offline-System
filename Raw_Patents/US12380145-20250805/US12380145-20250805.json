@@ -1,0 +1,20 @@
+{
+  "title": "Methods, mediums, and systems for reusable intelligent search workflows",
+  "abstract": "Exemplary embodiments provide methods, mediums, and systems for performing a reusable, intelligent semantic search across a potentially large number of records. Embodiments may be particularly useful for responding to requests for information from regulatory agencies. In one embodiment, an embedding model is trained to embed queries in an embedding space. When a new query is received, the new query is embedded with the embedding model. A set of documents (e.g., previous responses to regulatory inquiries) may be searched using the embedded query and an indexing model that allows for efficient searches of embedding spaces. A number of results may be returned from the document store, and the results may be ranked by a ranking model. User feedback about the quality of the results may be received, and the ranking model may be retrained based on the feedback.",
+  "claims": "1. A computer-implemented method comprising, via at least one computing device comprising at least one processor and a memory storing instructions that, when executed by the at least one processor, cause the computing device to perform the computer-implemented method via: receiving a natural language search query pertaining to a request for information; accessing a set of documents, each document of the set of documents comprising a document query and a document response, each document query embedded in an embedding space according to an embedding model, wherein the set of documents are clustered into a plurality of cells based on the document query; creating a search query embedding of the search query using the embedding model; assigning the search query embedding to a cell of the plurality of cells; using the search query embedding to perform a semantic search on the embedding space of documents clustered in the cell; and returning at least one returned document of the set of documents as a search result based on a proximity of the document query from the at least one returned document to the search query in the embedding space, wherein the returned document along with metadata associated with the returned document includes an identifier for an individual that generated or approved the returned document is displayed in a graphical user interface (GUI).",
+  "patent_id": "US12380145-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/3338",
+      "G06F 16/3326",
+      "G06F 16/338"
+    ],
+    "all": [
+      "G06F 16/3338",
+      "G06F 16/3326",
+      "G06F 16/338"
+    ],
+    "source": "converted"
+  }
+}

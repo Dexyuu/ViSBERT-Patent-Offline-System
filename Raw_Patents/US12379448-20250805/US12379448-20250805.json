@@ -1,0 +1,24 @@
+{
+  "title": "Methods and apparatus for using received signal strength information in a wireless system",
+  "abstract": "Methods and apparatus for processing and using signals transmitted by a device, e.g., a low cost beacon transmitter device, to facilitate making location determinations with regard to the transmitting device and/or making a decision of when or how to use location information generated based on received signals are described. In accordance with some features the processing performed on the received signal strength measurements is based on whether or not the device from which the signals are received is in motion. The size of a sample period used as a processing window when determining device location is based, in some embodiments, on the rate of motion. When and/or how to use location determinations are performed is also based on motion in some embodiments. Machine learning updates of location determination parameters, based on received signals, are disabled when the signals are from devices determined to be in motion.",
+  "claims": "1. A method comprising: determining a measure of motion of a wireless device by determining one or more signal strength values of one or more signals from the wireless device; determining a duration of a time period for the determined signal strength values of the one or more signals, wherein the duration of the time period is based on the measure of motion; computing a measure of a location of the wireless device based on the determined signal strength values of the one or more signals corresponding to the determined duration of the time period; and communicating the computed measure of a location to a computing device to indicate the location of the wireless device.",
+  "patent_id": "US12379448-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 5/017",
+      "G06N 20/00",
+      "H04B 17/318",
+      "H04W 4/027",
+      "H04W 64/003"
+    ],
+    "all": [
+      "G01S 5/017",
+      "G06N 20/00",
+      "H04B 17/318",
+      "H04W 4/027",
+      "H04W 64/003"
+    ],
+    "source": "converted"
+  }
+}

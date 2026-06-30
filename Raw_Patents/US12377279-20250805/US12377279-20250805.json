@@ -1,0 +1,22 @@
+{
+  "title": "Wearable cardioverter defibrillator (WCD) system detecting QRS complexes in ECG signal by matched difference filter",
+  "abstract": "In embodiments, a wearable cardioverter defibrillator (WCD) system includes electrodes that render an ECG signal of the patient, and a processor that receives ECG data are derived from the rendered ECG signal. The processor may filter the received ECG data with a matched difference filter to detect QRS complexes, and compute a heart rate from the detected QRS complexes. The matched difference filter itself can have coefficient values associated with a baseline QRS complex, which improves detection.",
+  "claims": "1. A wearable monitoring device, comprising: a support structure configured to be worn by a patient; electrodes configured to obtain an electrocardiogram (ECG) signal of the patient while the patient is wearing the support structure, wherein the electrodes are dry electrodes; and a processor configured to: process the ECG signal to detect a QRS complex in the ECG signal using an adaptive matched filter, wherein the adaptive matched filter is configured to detect the QRS complex in the ECG signal having noise caused by friction between the patient and the dry electrodes; assess similarity between two or more QRS complexes in the ECG signal, and to provide an organization value based on the assessed similarity; and compute a heart rate of the patient based at least in part on the detected QRS complex and the organization value.",
+  "patent_id": "US12377279-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61N 1/3987",
+      "A61B 5/366",
+      "A61N 1/3904",
+      "A61N 1/3925"
+    ],
+    "all": [
+      "A61N 1/3987",
+      "A61B 5/366",
+      "A61N 1/3904",
+      "A61N 1/3925"
+    ],
+    "source": "converted"
+  }
+}

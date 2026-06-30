@@ -1,0 +1,18 @@
+{
+  "title": "Securing serverless computing workloads in a cold start",
+  "abstract": "A system can identify, by a control plane, that a base image has been registered to a first registry that is stored outside of the computing cluster. The system can identify, by the control plane, a trust bundle that corresponds to the base image. The system can send, by the control plane and to a secure pipeline that operates outside of the control plane, a message to update the base image. The system can create, by the secure pipeline, an updated image based on the base image and the trust bundle. The system can send, by the secure pipeline, the updated image to the control plane. The system can store, by the control plane, the updated image in a local registry that is stored on the computing cluster.",
+  "claims": "1. A system, comprising: a processor; and a memory coupled to the processor, comprising instructions that, in response to execution by the processor, cause the system to perform operations, comprising: identifying, by a control plane of a computing cluster, that a base image has been registered to a first registry that is stored outside of the computing cluster; identifying, by the control plane, a trust bundle that corresponds to the base image; sending, by the control plane and to a secure pipeline that operates outside of the control plane, a message to update the base image; creating, by the secure pipeline, an updated image based on the base image and the trust bundle; sending, by the secure pipeline, the updated image to the control plane; and storing, by the control plane, the updated image in a local registry that is stored on the computing cluster.",
+  "patent_id": "US12379917-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 8/65",
+      "G06F 8/63"
+    ],
+    "all": [
+      "G06F 8/65",
+      "G06F 8/63"
+    ],
+    "source": "converted"
+  }
+}

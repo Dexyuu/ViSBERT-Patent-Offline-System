@@ -1,0 +1,30 @@
+{
+  "title": "Central management server, unmanned cargo aircraft and unmanned delivery robot for delivering goods considering status of local delivery hub",
+  "abstract": "A central management server includes a determination module determining a landable local delivery hub among a plurality of local delivery hubs located within a preset radius centered around a destination, when a location information request for the landable local delivery hub is received from an unmanned cargo aircraft; and a control module configured to transmit a landing command including the location information of the determined landable local delivery hub to the unmanned cargo aircraft, and transmit a task execution command to cause the unmanned cargo aircraft to deliver goods to the destination. The determination module determines the landable local delivery hub, based on a combination of an expected landing standby period of the unmanned cargo aircraft, an expected battery consumption amount of the unmanned cargo aircraft, an expected delivery period of the unmanned delivery robot, and an expected battery consumption amount of the unmanned delivery robot.",
+  "claims": "1. A central management server for delivering goods considering a status of a local delivery hub, comprising: a determination module determining a landable local delivery hub among a plurality of local delivery hubs located within a preset radius centered around a destination, when a location information request for the landable local delivery hub is received from an unmanned cargo aircraft; and a control module configured to transmit a landing command including a location information of the determined landable local delivery hub to the unmanned cargo aircraft, and transmit a task execution command to cause an unmanned delivery robot to deliver goods loaded in the unmanned cargo aircraft to the destination, wherein the determination module determines the landable local delivery hub among the plurality of local delivery hubs, based on a combination of an expected landing standby period of the unmanned cargo aircraft for which the unmanned cargo aircraft should wait for landing, an expected battery consumption amount of the unmanned cargo aircraft to be consumed during the expected landing standby period, an expected delivery period of the unmanned delivery robot required to deliver the goods loaded in the unmanned cargo aircraft to the destination according to the task execution command, and an expected battery consumption amount of the unmanned delivery robot to be consumed during the expected delivery period.",
+  "patent_id": "US12380396-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/0832",
+      "B64U 10/13",
+      "G05D 1/0676",
+      "G05D 1/104",
+      "G06Q 10/08355",
+      "G06Q 10/0836",
+      "B64U 50/19",
+      "B64U 2101/60"
+    ],
+    "all": [
+      "G06Q 10/0832",
+      "B64U 10/13",
+      "G05D 1/0676",
+      "G05D 1/104",
+      "G06Q 10/08355",
+      "G06Q 10/0836",
+      "B64U 50/19",
+      "B64U 2101/60"
+    ],
+    "source": "converted"
+  }
+}

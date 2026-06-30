@@ -1,0 +1,26 @@
+{
+  "title": "Method for ascertaining a vehicle trajectory",
+  "abstract": "Technologies and techniques for ascertaining a vehicle trajectory, via a system that includes a motor vehicle and a network server. Individual trajectories of a plurality of motor vehicles being traversed, and secondary information linked to the individual trajectories are detected. The individual trajectories of the plurality of motor vehicles, and the linked secondary information may be transmitted to a network server. A swarm trajectory may be ascertained by a network server as an average of the individual trajectories using the individual trajectories and the linked secondary information, wherein the average may be weighted using the secondary information. The network server may transmit the swarm trajectory to at least one motor vehicle. An associated motor vehicle configured for the system and network server is further disclosed.",
+  "claims": "1. A method for ascertaining a vehicle trajectory, comprising: detecting, by a plurality of motor vehicles, traveled individual trajectories and secondary information linked to the individual trajectories, wherein the individual trajectories comprise position information and lane information linked thereto, and the secondary information includes data related to vehicle dynamics, road conditions, and/or traffic patterns as sensed by onboard sensors and processed to form the individual trajectories and associated secondary information; transmitting, by the plurality of motor vehicles, the individual trajectories and the secondary information linked thereto to a network server; aggregating and processing, by the network server, the received individual trajectories, including the position information and the secondary information linked thereto to ascertain a swarm trajectory, wherein the network server utilizes the secondary information to dynamically weight the individual trajectories based on varying road conditions, vehicle dynamics, and traffic patterns; configuring the swarm trajectory for transmission to at least one motor vehicle based on the aggregated position information and the secondary information; and transmitting, via wireless communication, the configured swarm trajectory to the at least one motor vehicle; and automatically adjusting, by the at least one motor vehicle using a driving system, its current trajectory based on the received swarm trajectory, resulting in modified vehicle steering, acceleration, or braking.",
+  "patent_id": "US12377880-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 60/00184",
+      "B60W 60/0051",
+      "B60W 2510/22",
+      "B60W 2552/40",
+      "B60W 2552/53",
+      "B60W 2554/4041"
+    ],
+    "all": [
+      "B60W 60/00184",
+      "B60W 60/0051",
+      "B60W 2510/22",
+      "B60W 2552/40",
+      "B60W 2552/53",
+      "B60W 2554/4041"
+    ],
+    "source": "converted"
+  }
+}

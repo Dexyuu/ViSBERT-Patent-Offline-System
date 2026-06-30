@@ -1,0 +1,20 @@
+{
+  "title": "Method and apparatus with neural network operation",
+  "abstract": "Provided is a method and apparatus with neural network operation. The method includes generating a first intermediate operation result by performing a first-order partial operation of a neural network layer on a first input line of a first area of a frame, generating a second intermediate operation result by performing another first-order partial operation of the neural network layer on a second input line of the first area, and generating an objective operation result of the neural network layer with respect to the first area based on a second-order partial operation performed on the first intermediate operation result and the second intermediate operation result.",
+  "claims": "1. A processor-implemented method, the method comprising: generating a first intermediate operation result by performing a first-order partial operation of a neural network layer on a first input line of a first area of a channel of a frame, and storing the first intermediate operation result in a buffer; generating a second intermediate operation result by performing another first-order partial operation of the neural network layer on a second input line of the first area; generating an objective operation result of the neural network layer with respect to the first area based on a second-order partial operation performed on the first intermediate operation result and the second intermediate operation result; reusing the buffer to store an intermediate operation result with respect to another area of the frame after the objective operation result is generated; and completing, before all pixel values of the frame are received, respective objective operation results of plural subsequent neural network layers dependent on the generated objective operation result of the neural network layer with respect to the first are a, wherein the neural network layer and the plural subsequent neural network layers are layers of a same neural network.",
+  "patent_id": "US12380322-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 3/063",
+      "G06F 9/5016",
+      "G06N 3/0464"
+    ],
+    "all": [
+      "G06N 3/063",
+      "G06F 9/5016",
+      "G06N 3/0464"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Complementary evidence identification in natural language inference",
+  "abstract": "Methods and apparatus for complementary evidence identification in natural language inference. A given question is obtained and a set of N passages is obtained from a database. A probability is determined, for each passage of the set of N passages, of a corresponding passage being a supportive passage for the given question and the set of N passages is ranked based on the determined probabilities. M passages that are ranked 1 to M of the set of N passages are selected. A set of L passages is selected based on a plurality of scores, each score assigned to a set of candidate passages of the set of N passages, each score being based on the determined probabilities, the selected M passages, and a weighted regulation parameter. The set of L passages is provided to a computerized machine learning system to answer the question based on the set of L passages.",
+  "claims": "1. A method for natural language inference, the method comprising: obtaining a given question for input to a hardware processor; obtaining, using the hardware processor, a set of N passages from an electronic database; determining, using the hardware processor, for each passage of the set of N passages, a probability of a corresponding passage being a supportive passage for the given question, including applying a BERT model to estimate the probability of the passage p; being supporting evidence to the given question q, where a concatenation of g and p; is input into the BERT model, and one or more hidden states of a last layer are used to represent q and p; in vector space, denoted as q and p i , respectively; wherein a fully connected layer f(⋅) followed by sigmoid activation is added to an end of the BERT model; and a scalar Prob(p i |q) is output to estimate a relevancy of passage p i to the given question q, wherein each passage of the set of N passages is designated as p j and the given question is designated as q; beam search ranking, using the hardware processor, the set of N passages based on the determined probabilities and a score function; selecting, using the hardware processor, M passages that are ranked 1 to M of the set of N passages, where M is a hyperparameter that corresponds to a beam size; selecting, using the hardware processor, a set of L passages based on a plurality of scores, each score assigned to a set of candidate passages of the set of N passages, each score being based on the determined probabilities, the selected M passages, and a weighted regulation parameter; providing, using the hardware processor, a set of M highest ranked passages of the set of L passages to a computerized machine learning system to answer the question based on the set of L passages; and answering the question with the computerized machine learning system, wherein the score function for finding a best passage is defined by a summation of: a summation of probabilities of a given passage given a specified question; a first hyperparameter multiplied by a cosine of a summation of multiplications of an encoded question vector and an encoded passage vector; and a second hyperparameter multiplied by a summation of losses between a first encoded passage vector and a second encoded passage vector.",
+  "patent_id": "US12380343-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 5/04",
+      "G06F 17/18",
+      "G06F 40/20",
+      "G06N 20/00"
+    ],
+    "all": [
+      "G06N 5/04",
+      "G06F 17/18",
+      "G06F 40/20",
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

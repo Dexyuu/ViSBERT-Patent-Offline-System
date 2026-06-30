@@ -1,0 +1,18 @@
+{
+  "title": "Method, apparatus, and system for character recognition using context",
+  "abstract": "A neural network-based optical character recognition (OCR) method, system, and apparatus may use context provided by a neural network-based language model (LM) to improve character recognition in images. In embodiments, a fuzzy OCR system receives an input image and uses aggregated classes of visually similar characters to identify a most probable aggregated class of visually similar characters. That aggregated class is used as an input to the LM, which, in embodiments, employs a portion of text, for example a word, a phrase, a sentence, or a paragraph, from the input image to provide sufficient context to identify the correct character from the aggregated class of visually similar characters.",
+  "claims": "1. A computer-implemented method comprising: responsive to an input scanned image, transcribing text from the image into a plurality of aggregated output classes; performing neural network based fuzzy optical character recognition (OCR), providing fuzzy OCR output comprising a further plurality of aggregated output classes of visually similar characters, and identifying a most probable aggregated output class from the plurality of aggregated output classes; using a neural network-based language model and the identified most probable aggregated output class, determining an amount of context in which to examine the identified most probable aggregated output class; responsive to the determined amount of context, examining the context to determine which of the visually similar characters in the identified most probable aggregated output class should be output; and responsive to the examining, outputting a selected one of the visually similar characters as recognized text.",
+  "patent_id": "US12380720-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 30/19173",
+      "G06V 10/82"
+    ],
+    "all": [
+      "G06V 30/19173",
+      "G06V 10/82"
+    ],
+    "source": "converted"
+  }
+}

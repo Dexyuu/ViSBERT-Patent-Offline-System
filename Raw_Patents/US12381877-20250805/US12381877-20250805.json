@@ -1,0 +1,22 @@
+{
+  "title": "User-defined network connectors between serverless functions and isolated cloud resources",
+  "abstract": "Systems and methods are described for facilitating network traffic between serverless function executions and isolated cloud resources within virtualized network environments. Virtualized network environments, by default, may be isolated such that external traffic is not permitted to enter the environment. Permissions for traffic that may enter the environment are often set on the basis of network addresses. In the context of serverless functions, such permissions may be difficult to establish because executions of serverless functions can occur on a dynamically selected environment without a fixed network address. The present disclosure provides for creation of user-defined connectors that facilitate routing of network traffic between executions of serverless functions and user virtualized network environments without requiring that routing occur on the bases of network addresses.",
+  "claims": "1. A cloud provider system to enable communication between serverless function executions and virtualized network environments via user-defined connectors, the system comprising: one or more computing devices hosting a user virtualized network environment containing one or more network accessible resources; a serverless computing system configured to: obtain a request to create a logical network connector enabling communication between executions of a serverless function and the user virtualized network environment, wherein the request specifies permissions permitting executions of the serverless function to access the logical network connector and permitting the logical network connector to join the user virtualized network environment; obtain invocation of the serverless function; initialize the logical network connector, wherein initializing the logical network connector comprises generating a first endpoint within the user virtualized network environment and a second endpoint within a second virtualized network environment corresponding to the serverless computing system and configuring a substrate physical network to route traffic between the first and second endpoints; initiate an execution of user-defined code representing the serverless function in an execution environment within the second virtualized network environment; obtain a network communication from the execution of the user-defined code at the first endpoint represented by the connector; and route the network communication to the user virtualized network environment subject to the permissions of the request to create the logical network connector.",
+  "patent_id": "US12381877-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/10",
+      "G06F 9/45558",
+      "H04L 63/0263",
+      "G06F 2009/45595"
+    ],
+    "all": [
+      "H04L 63/10",
+      "G06F 9/45558",
+      "H04L 63/0263",
+      "G06F 2009/45595"
+    ],
+    "source": "converted"
+  }
+}

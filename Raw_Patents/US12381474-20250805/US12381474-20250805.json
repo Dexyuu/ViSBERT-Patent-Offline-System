@@ -1,0 +1,30 @@
+{
+  "title": "Voltage generator with low clock feedthrough",
+  "abstract": "Voltage generators with relatively low clock feedthrough are disclosed. A voltage generator can include a charge pump with a first set of two switches arranged between two voltages, a second set of two switches arranged between one of the two voltages and an output node, and a fly capacitor connected to the first and second sets of two switches. The voltage generator can include a clock generation circuit to provide clock signals such that the two switches of the first set transition state and the two switches of the second set transition state at different times. In certain embodiments, the charge pump includes a p-type fly capacitor connected to an output node by way of an n-type transistor. In some embodiments, a level shifter can generate a level shifted clock signal for the charge pump and includes cross coupled transistors to receive a regulated voltage provided to the voltage generator.",
+  "claims": "1. A voltage generator with low noise, the voltage generator comprising: a charge pump including a first set of two switches arranged between two voltages, a second set of two switches arranged between one of the two voltages and an output node, and a fly capacitor connected to the first set of two switches and the second set of two switches; and a clock generation circuit configured to provide clock signals to the charge pump such that (i) the two switches of the first set transition state at different times and (ii) the two switches of the second set transition state at different times, the clock generation circuit including a level shifter configured to generate a level shifted clock signal of at least one of the clock signals, the level shifter including cross coupled transistors.",
+  "patent_id": "US12381474-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02M 1/096",
+      "H02M 1/0022",
+      "H02M 1/44",
+      "H02M 3/071",
+      "H02M 3/1586",
+      "H03K 17/6871",
+      "H03K 19/01855",
+      "H02M 1/0006"
+    ],
+    "all": [
+      "H02M 1/096",
+      "H02M 1/0022",
+      "H02M 1/44",
+      "H02M 3/071",
+      "H02M 3/1586",
+      "H03K 17/6871",
+      "H03K 19/01855",
+      "H02M 1/0006"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Resolving fake collision issue in full duplex communication",
+  "abstract": "A wireless IEEE 802.11 communication protocol under CSMA/CA for enhanced full duplex (FD) station (STA) operations. PPDU preambles are configured to incorporate STA identification and corresponding resource unit (RU) or multiple resource unit (MRU) information. An FD AP indicates STA identification and corresponding RU/MRU index of a transmission destination in the FD preamble of a downlink (DL) PPDU; while a FD non-AP STA indicates its own STA identification and corresponding RU/MRU index in the FD preamble of a uplink (UL) PPDU. The disclosed technology mitigates many issues in regard to fake collisions, partial RU fake collisions, and real collisions, toward improving communications and efficiency and reducing latencies.",
+  "claims": "1. An apparatus for wireless communication in a network, the apparatus comprising: (a) a wireless communication circuit, as a station (STA), operating as an access point (AP) or non-AP STA, wirelessly communicating in full duplex (FD) mode with other STAs on a wireless local area network (WLAN) in an IEEE 802.11 protocol configured for supporting carrier sense multiple access/collision avoidance (CSMA/CA); (b) a processor of said STA; (c) a non-transitory memory storing instructions executable by the processor for communicating with other STAs and fulfilling different roles of a communications protocol; and (d) wherein said instructions, when executed by the processor, perform one or more steps of preamble-based collision detection comprising: (i) incorporating STA identification and corresponding resource unit (RU) or multiple resource unit (MRU) information into FD preambles of physical layer protocol data units (PPDUs); (ii) wherein when operating as a FD AP the STA indicates STA identification and corresponding RU/MRU index of a transmission destination in the FD preamble of a downlink (DL) PPDU; and (iii) wherein when operating as a FD non-AP STA, the STA indicates its own STA identification and corresponding RU/MRU index in the FD preamble of a uplink (UL) PPDU.",
+  "patent_id": "US12382498-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 74/0816"
+    ],
+    "all": [
+      "H04W 74/0816"
+    ],
+    "source": "converted"
+  }
+}

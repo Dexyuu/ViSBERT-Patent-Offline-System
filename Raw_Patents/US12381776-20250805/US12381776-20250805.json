@@ -1,0 +1,16 @@
+{
+  "title": "Network device management",
+  "abstract": "Techniques are described for managing network devices by defining a service chain that includes a plurality of network devices, such that the service chain identifies a position of each network device with respect to other network devices. The techniques further detect a new network device becoming active on a network and identify a logical model associated with the new network device. The new network device is programmed based on the service chain and other devices already active in the service chain.",
+  "claims": "1. A service chain component comprising: one or more processors; and one or more non-transitory computer-readable media storing computer-executable instructions that, when executed by the one or more processors, cause the one or more processors to perform operations comprising: defining a service chain that includes a plurality of network devices, wherein the service chain identifies a position of each network device with respect to other network devices; generating a logical model representing the service chain, the logical model representing a backend pool of a load balancer that includes a first network device and a second network device that are of a same network device type; storing the logical model at a storage location associated with the service chain component; detecting a new network device becoming active on a network, wherein an identity of the network device and a network location at which the new network device belongs is unknown to the service chain component; determining, using the logical model that the identity of the new network device is the second network device in the logical model; determining, using the identity and the logical model, that the network location at which the new network device belongs is in the backend pool of the load balancer; and based at least in part on the network location of the new network device being represented in the logical model as in the backend pool of the load balancer: automatically adding the new network device to the backend pool as a target for the load balancer such that network traffic is communicated to the new network device by the load balancer.",
+  "patent_id": "US12381776-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 41/0803"
+    ],
+    "all": [
+      "H04L 41/0803"
+    ],
+    "source": "converted"
+  }
+}

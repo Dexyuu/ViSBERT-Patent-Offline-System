@@ -1,0 +1,20 @@
+{
+  "title": "Method of unlocking an operation of a device with a tiny RFID tag embedded on an integrated circuit",
+  "abstract": "A method includes reading data encoded on a tiny RFID tag that is embedded in an integrated circuit. The RFID tag has an area of 0.1 mm2or less and, alternatively, of 0.05 mm2or less. When the data satisfies predetermined criteria, a capability of a device or system is unlocked. The method may be used in conjunction with artificial intelligence (AI) for identification and authentication, fraud detection, behavioral analysis, predictive analytics, and/or access control, for example. The method may also be used in credit and/or debit card transactions, in which the tiny RFID tag and integrated circuit are on a credit and/or debit card. In another embodiment, the RFID tag and IC are incorporated into a label. The label may optionally be on a good for sale.",
+  "claims": "1. A method of unlocking an operation of a device, the method comprising: presenting an integrated circuit to the device, the device having a Radio Frequency Identification (RFID) reader, the device having a capability that is in a locked state; the integrated circuit having a first tiny RFID tag embedded therein, the first tiny RFID tag having an area of 0.05 mm 2 or less, the first tiny RFID tag being a primarily digital tiny tag that is implemented using portable digital IP blocks, the first tiny RFID tag utilizing dual-phase RF-only logic; wherein power supply transistors are shared across a chip that comprises the integrated circuit and the first tiny RFID tag, and a foundry standard cell library is used in manufacturing the first tiny RFID tag; reading RFID data, by the RFID reader, from the first tiny RFID tag; verifying that the RFID data that has been read meets criteria for unlocking the device; and after verifying the RFID data, unlocking the capability of the device for operation; the method further comprising connecting the device to a computer network; the RFID data is encoded solely at a foundry and is not user-programmable, wherein the method further comprising encoding the first tiny RFID tag with the RFID data at the foundry; the method further comprises interacting between the device and the integrated circuit in conjunction with unlocking the operation of the device, such that at least one of the device and the integrated circuit interrogates and receives a reply from the other before the device is unlocked.",
+  "patent_id": "US12380292-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06K 7/10297",
+      "G06F 21/6218",
+      "G06K 19/0723"
+    ],
+    "all": [
+      "G06K 7/10297",
+      "G06F 21/6218",
+      "G06K 19/0723"
+    ],
+    "source": "converted"
+  }
+}

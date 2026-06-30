@@ -1,0 +1,28 @@
+{
+  "title": "Pixel driving circuit and driving method therefor, and array substrate and display apparatus",
+  "abstract": "A pixel driving circuit (31) includes: a driving sub-circuit (311), a first light-emission control sub-circuit (312), a second light-emission control sub-circuit (313), a data write sub-circuit (314), a compensation sub-circuit (315) and a first reset sub-circuit (316). The driving sub-circuit (311) includes a control terminal, a first terminal and a second terminal; and in an initialization phase (t1) in one display frame of the pixel driving circuit (31), a voltage difference between the control terminal of the driving sub-circuit (311) and the first terminal of the driving sub-circuit (311) is fixed. A pulse width of the signal of the first reset signal control terminal is adjustable.",
+  "claims": "1. A pixel driving circuit, comprising: a driving sub-circuit, a first light-emission control sub-circuit, a second light-emission control sub-circuit, a data write sub-circuit, a compensation sub-circuit and a first reset sub-circuit, wherein the driving sub-circuit includes a control terminal, a first terminal and a second terminal; in an initialization phase of a display frame of the pixel driving circuit, the control terminal of the driving sub-circuit and the first terminal of the driving sub-circuit have a fixed voltage difference therebetween; the first light-emission control sub-circuit is coupled to a first light-emission signal control terminal, a first voltage terminal and the first terminal of the driving sub-circuit, and is configured to drive a light-emitting element to emit light in response to a signal of the first light-emission signal control terminal; the second light-emission control sub-circuit is coupled to a second light-emission signal control terminal and the second terminal of the driving sub-circuit and is configured to be coupled to a first electrode of the light-emitting element, and is configured to drive the light-emitting element to emit light in response to a signal of the second light-emission signal control terminal; the data write sub-circuit is coupled to a first signal control terminal, a data signal terminal and the first terminal of the driving sub-circuit, and is configured to write a data signal of the data signal terminal into the first terminal of the driving sub-circuit in response to a signal of the first signal control terminal; the compensation sub-circuit is coupled to a compensation signal control terminal, the second terminal of the driving sub-circuit and the control terminal of the driving sub-circuit, and is configured to perform threshold compensation on the driving sub-circuit in response to a signal of the compensation signal control terminal; and the first reset sub-circuit is coupled to a first reset signal control terminal and coupled between a second voltage terminal and the control terminal of the driving sub-circuit, and is configured to write a signal of the second voltage terminal into the control terminal of the driving sub-circuit in response to a signal of the first reset signal control terminal, so as to reset the control terminal of the driving sub-circuit; a pulse width of the signal of the first reset signal control terminal is adjustable, wherein in the initialization phase of the display frame, a level of the signal of the first reset signal control terminal is controlled to be a first level, a level of the signal of the compensation signal control terminal is controlled to be a second level, a level of the signal of the first signal control terminal is controlled to be the second level, a level of the signal of the first light-emission signal control terminal is controlled to be the first level, and a level of the signal of the second light-emission signal control terminal is controlled to be the second level; in a data writing phase of the display frame, the level of the signal of the first reset signal control terminal is controlled to be the second level, the level of the signal of the compensation signal control terminal is controlled to be the second level, the level of the signal of the first signal control terminal is controlled to be the first level, the level of the signal of the first light-emission signal control terminal is controlled to be the second level, and the level of the signal of the second light-emission signal control terminal is controlled to be the second level; and in a light-emitting phase of the display frame, the level of the signal of the first reset signal control terminal is controlled to be the second level, the level of the signal of the compensation signal control terminal is controlled to be the first level, the level of the signal of the first signal control terminal is controlled to be the second level; the level of the signal of the first light-emission signal control terminal is controlled to be the first level, and the level of the signal of the second light-emission signal control terminal is controlled to be the first level.",
+  "patent_id": "US12380851-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/3233",
+      "G09G 2300/0426",
+      "G09G 2300/0819",
+      "G09G 2300/0842",
+      "G09G 2300/0861",
+      "G09G 2310/08",
+      "G09G 2320/0257"
+    ],
+    "all": [
+      "G09G 3/3233",
+      "G09G 2300/0426",
+      "G09G 2300/0819",
+      "G09G 2300/0842",
+      "G09G 2300/0861",
+      "G09G 2310/08",
+      "G09G 2320/0257"
+    ],
+    "source": "converted"
+  }
+}

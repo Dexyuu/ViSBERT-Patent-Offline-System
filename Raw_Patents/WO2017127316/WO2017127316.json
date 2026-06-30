@@ -1,0 +1,40 @@
+{
+  "application_id": "WO2017127316",
+  "application_id_fs": "WO2017127316",
+  "title": "Configurable generic language understanding models",
+  "abstract": "Examples of the present disclosure describe systems and methods of configuring generic language understanding models. In aspects, one or more previously configured schemas for various applications may be identified and collected. A generic schema may be generated using the collected schemas. The collected schemas may be programmatically mapped to the generic schema. The generic schema may be used to train on ore more models. An interface may be provided to allow browsing the models. The interface may include a configuration mechanism that provides for selecting on or more of the models. The selected models may be bundled programmatically, such that the information and instructions needed to implement the models are configured programmatically. The bundled models may then be provided to a requestor.",
+  "claims": "Claims 1. A system comprising: at least one processor; and memory coupled to the at least one processor, the memory comprising computer executable instructions that, when executed by the at least one processor, performs a method for configuring language understanding models, the method comprising: receiving, at a server device, a request, the request comprising information associated with one or more language understanding models; based on the information, collecting schema data associated with the one or more language understanding models; generating a generic schema using the collected schema data; training one or more language understanding models using the generic schema; and providing an interface to view the one or more trained language understanding models. 2. The system of claim 1, wherein collecting the schema data comprises: generating one or more data requests using the information; transmitting the one or more data requests to one or more data stores; and receiving schema data associated with the one or more data requests from the one or more data stores. 3. The system of claim 2, wherein generating one or more data requests comprises: identifying, on the server device, mapping information, the mapping information indicating a relationship between one or more data sources and schema data known to be accessible by the one or more data sources; and based on the mapping information, generating one or more specific data requests for the schema data known by the one or more data sources. 4. The system of claim 3, wherein training one or more language understanding models comprises providing as input to the one or more language understanding models at least one of: the generic schema, data used to generate the generic schema, and the received schema data. 5. The system of claim 1, wherein generating the generic schema comprises: organizing the collected schema data by one or more categories; converting the organized schema data into multi-dimensional representations of the schema data; \n\n clustering the multi-dimensional representations into generic schema elements; and mapping the clustered generic schema elements to the generic schema. 6. The system of claim 5, wherein converting the organized schema data comprises applying canonical correlation analysis (CCA) to the organized schema data. 7. The system of claim 5, wherein clustering the multi-dimensional representations comprises applying a &-means clustering algorithm to the multi-dimensional representations. 8. The system of claim 5, wherein clustering the multi-dimensional representations comprises: identifying one or more terms in one or more multi-dimensional representations; determining a generic term corresponding to the one or more terms; and designating the generic term as a generic schema element. 9. The system of claim 1, wherein the interface further provides for navigating, selecting and bundling at least one of the one or more trained language understanding models. 10. The system of claim 9, wherein bundling the one or more trained language understanding models comprises: adding the one or more trained language understanding models to a bundle; and adding instructions for automatically implementing the one or more trained language understanding models to the bundle. 11. A method for configuring language understanding models, the method comprising: receiving, at a server device, a request, the request comprising information associated with one or more language understanding models; based on the information, collecting schema data associated with the one or more language understanding models; generating a generic schema using the collected schema data; training one or more language understanding models using the generic schema; and providing an interface to view the one or more trained language understanding models. 12. The method of claim 11, wherein training one or more language understanding models comprises providing a first portion of the input to a first language understanding model and a second portion of the input to a second language understanding model. 13. The method of claim 12, wherein the first language understanding model uses the first portion of the input to determine a first set of predictive relationships and the second \n\n language understanding model uses the second portion of the input to determine a second set of predictive relationships. 14. The method of claim 11, wherein the interface further provides for navigating, selecting and bundling at least one of the one or more trained language understanding models, wherein the bundling comprises: adding the one or more trained language understanding models to a bundle; and adding to the bundle instructions for automatically implementing the one or more trained language understanding models. 15. A computer-readable media storing computer executable instructions that when executed cause a computing system to perform a method of configuring language understanding models, the method comprising: receiving, at a server device, a request, the request comprising information associated with one or more language understanding models; based on the information, collecting schema data associated with the one or more language understanding models, wherein collecting schema data comprises: generating one or more data requests using the information; transmitting the one or more data requests to one or more data stores; and receiving schema data associated with the one or more data requests from the one or more known data stores; generating a generic schema using the collected schema data, wherein generating the generic schema comprises: clustering the collected schema data into generic schema elements; and mapping the clustered generic schema elements to the generic schema; training one or more language understanding models using the generic schema; and providing an interface to bundle the one or more trained language understanding models.",
+  "classifications": {
+    "ipc": [
+      "G06F 40/00",
+      "G06F 40/40",
+      "G06F 40/58",
+      "G06F 16/00",
+      "G06F 16/20",
+      "G06F 16/21",
+      "G06F 16/211",
+      "G06F 16/212",
+      "G06F 40/30",
+      "G06N 20/00",
+      "G10L 15/00",
+      "G10L 15/22"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 40/00",
+      "G06F 40/40",
+      "G06F 40/58",
+      "G06F 16/00",
+      "G06F 16/20",
+      "G06F 16/21",
+      "G06F 16/211",
+      "G06F 16/212",
+      "G06F 40/30",
+      "G06N 20/00",
+      "G10L 15/00",
+      "G10L 15/22"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017127316"
+}

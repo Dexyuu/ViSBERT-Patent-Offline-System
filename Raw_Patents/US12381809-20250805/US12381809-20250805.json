@@ -1,0 +1,24 @@
+{
+  "title": "Detecting and communicating with silent hosts in software-defined networks",
+  "abstract": "Systems, methods, and computer-readable media for discovering silent hosts in a software-defined network and directing traffic to the silent hosts in a scalable and targeted manner include determining interfaces of a fabric device that are connected to respective one or more endpoints, where the fabric device is configured to connect the endpoints to a network fabric of the software-defined network. At least a first interface is identified, where an address of a first endpoint connected to the first interface is not available at the fabric device. A first notification is transmitted to a control plane of the software-defined network based on identifying the first interface, where the control plane may create a flood list which includes the fabric device. Traffic intended for the first endpoint from the network fabric is received by the fabric device can be based on the flood list.",
+  "claims": "10. A system comprising: one or more processors; and a computer-readable medium comprising instructions stored therein, which when executed by the one or more processors, cause the one or more processors to: identify an interface of a fabric device that connects endpoints to a network fabric of a software-defined network; determine that an address of an endpoint connected to the interface is unavailable at the fabric device; determine that the endpoint is a silent host based on a determination that the address of the endpoint is unavailable at the fabric device; and route traffic, that is intended for the endpoint through the network fabric, from the endpoint to the fabric device in response to determining that the host is the silent host.",
+  "patent_id": "US12381809-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 45/02",
+      "H04L 12/18",
+      "H04L 45/16",
+      "H04L 45/32",
+      "H04L 45/64"
+    ],
+    "all": [
+      "H04L 45/02",
+      "H04L 12/18",
+      "H04L 45/16",
+      "H04L 45/32",
+      "H04L 45/64"
+    ],
+    "source": "converted"
+  }
+}

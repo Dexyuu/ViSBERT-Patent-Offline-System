@@ -1,0 +1,18 @@
+{
+  "title": "Error rate measurement apparatus and error rate measurement method",
+  "abstract": "In an error detector 4, a symbol mask generation unit 27 generates a mask pattern, an error detection unit 30 detects and counts an error in a portion corresponding to Flit in a PAM4 signal from a device under test W, and a Flit error detection unit 31 detects and counts an FEC symbol error in a portion corresponding to Flit for each ECC group, and determines in which the number of FEC symbol errors exceeds a threshold value to be a Flit error.",
+  "claims": "1. An error rate measurement apparatus comprising: an operation unit that performs a setting; and an error detector that receives a pulse amplitude modulation 4 (PAM4) signal based on bit string data of a Flit pattern transmitted from a device under test and that detects an error, wherein the operation unit sets one period of a Flit pattern including an electrical idle exit ordered set (EIEOS) according to the number of lanes defined in a high-speed bus standard, and a skip ordered set (SKP OS), a Flit length according to the number of lanes, a mask pattern length for masking a portion corresponding to the SKP OS, a mask pattern period corresponding to a repetition period of the SKP OS, a threshold value for determining a Flit error, a mask pattern length for masking a portion corresponding to the EIEOS, an insertion period of the EIEOS, and a pattern leading of the Flit pattern, and the error detector includes a symbol mask generation unit that generates a mask pattern based on the mask pattern length for masking the portion corresponding to the SKP OS, the mask pattern period corresponding to the repetition period of the SKP OS, the mask pattern length for masking the portion corresponding to the EIEOS, and the insertion period of the EIEOS, an error detection unit that detects and counts an error in a portion corresponding to Flit by masking portions corresponding to the EIEOS and the SKP OS in the PAM4 signal received from the device under test with the mask pattern, a Flit error detection unit that detects a forward error correction (FEC) symbol error in the portion corresponding to the Flit for each error correction code (ECC) group, counts the number of FEC symbol errors, and determines an ECC group in which the number of FEC symbol errors exceeds the threshold value, to be the Flit error, and a synchronization state management unit that gives an instruction to reacquire the pattern leading of the Flit pattern when an amount of the error in the portion corresponding to the Flit, which is detected by the error detection unit, exceeds a synchronization condition threshold value.",
+  "patent_id": "US12381576-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03M 13/015",
+      "H03M 13/33"
+    ],
+    "all": [
+      "H03M 13/015",
+      "H03M 13/33"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2019018295",
+  "application_id_fs": "WO2019018295",
+  "title": "Method to set up and tear down cloud environments based on a schedule obtained from one or more hosted calendars",
+  "abstract": "Described embodiments automatically and dynamically deploy and undeploy virtual computing environments by using a schedule obtained from a user's personal, work, or shared team calendars. By using data such as out-of-office or auto-reply statuses, calendar items marked as \"Out of Office\", and calendar items with specific keywords, the system may dynamically determine when a user is likely to be \"present\" (or capable of accessing or likely to access a virtual computing environment) or \"absent\" (or incapable of accessing or unlikely to access the virtual computing environment). The virtual computing environment may be dynamically deployed or undeploy ed responsive to and/or in anticipation of a user's presence or absence, providing cost savings and reduced bandwidth, power, and processor consumption, without increasing user frustration or requiring extra tasks.",
+  "claims": "Claims CLAIMS What is claimed is: 1. A method for calendar-based cloud deployment, comprising: receiving, by a deployment scheduler operated by a device, authentication information for a user of a calendar service; retrieving, by the deployment scheduler from the calendar service, calendar information for the user, using the received authentication information; identifying, by the deployment scheduler in the retrieved calendar information, a first calendar event indicating a period in which a deployable resource is to be accessible to the user via a computing device; determining, by the deployment scheduler, that the first calendar event corresponds with a present time or location of the user; and responsive to the determination, transmitting a request to a deployment engine to take a deployment action for the deployable resource. 2. The method of claim 1, wherein identifying the first calendar event indicating the period in which the deployable resource is to be accessible to the user further comprises extracting, from the retrieved calendar data, an end time of an out-of-office period. 3. The method of claim 1, wherein identifying the first calendar event indicating the period in which the deployable resource is to be accessible to the user further comprises extracting, from the retrieved calendar data, metadata of the first calendar event comprising a first predetermined string. 4. The method of claim 1, further comprising: identifying, by the deployment scheduler, a second calendar event indicating a period in which the deployable resource is to be inaccessible to the user; determining, by the deployment scheduler, that the second calendar event corresponds with a second present time or location of the user; and responsive to the determination, transmitting a request to the deployment engine to take an undeployment action for the deployable resource. 5. The method of claim 4, wherein identifying the second calendar event indicating the period in which the deployable resource is to be inaccessible to the user further comprises extracting, from the retrieved calendar data, a start time of an out-of-office period. 6. The method of claim 4, wherein identifying the second calendar event indicating the period in which the deployable resource is to be inaccessible to the user further comprises extracting, from the retrieved calendar data, metadata of the second calendar event comprising a second predetermined string. 7. The method of claim 1, further comprising receiving, by the deployment scheduler, configuration information of a virtual processing environment. 8. The method of claim 7, wherein transmitting the request to the deployment engine to take the deployment action further comprises transmitting the configuration information to the deployment engine. 9. The method of claim 7, wherein transmitting the request to the deployment engine to take the deployment action further comprises selecting a first processing service provider from a plurality of processing service providers, according to an identification of the first processing service provider in the configuration information. 10. The method of claim 1, wherein retrieving calendar information for the user is repeated periodically. 11. A system for calendar-based cloud deployment, comprising: a deployment scheduler executable by a processor of a device, in communication with a second device providing a calendar service and a deployment engine; wherein the deployment scheduler is configured to: receive authentication information for a user of the calendar service, retrieve, from the calendar service, calendar information for the user, using the received authentication information, identify, in the retrieved calendar information, a first calendar event indicating a period in which a deployable resource is to be accessible to the user, \n\n determine that the first calendar event corresponds with a present time or location of the user, and responsive to the determination, transmit a request to a deployment engine to take a deployment action for the deployable resource. 12. The system of claim 11, wherein the deployment scheduler is further configured to extract, from the retrieved calendar data, an end time of an out-of-office period. 13. The system of claim 11, wherein the deployment scheduler is further configured to extract, from the retrieved calendar data, metadata of the first calendar event comprising a first predetermined string. 14. The system of claim 11, wherein the deployment scheduler is further configured to: identify a second calendar event indicating a period in which the deployable resource is to be inaccessible to the user; determine that the second calendar event corresponds with a second present time or location of the user; and responsive to the determination, transmit a request to the deployment engine to take an undeployment action for the deployable resource. 15. The system of claim 14, wherein the deployment scheduler is further configured to extract, from the retrieved calendar data, a start time of an out-of-office period. 16. The system of claim 14, wherein the deployment scheduler is further configured to extract, from the retrieved calendar data, metadata of the second calendar event comprising a second predetermined string. 17. The system of claim 11, wherein the deployment scheduler is further configured to receive configuration information of a virtual processing environment. 18. The system of claim 17, wherein the deployment scheduler is further configured to transmit the configuration information to the deployment engine. 19. The system of claim 17, wherein the deployment scheduler is further configured to select a first processing service provider from a plurality of processing service providers, according to an identification of the first processing service provider in the configuration information. 20. The system of claim 11, wherein the deployment scheduler is further configured to periodically retrieve the calendar information.",
+  "classifications": {
+    "ipc": [
+      "G06F 9/00",
+      "G06F 9/06",
+      "G06F 9/46",
+      "G06F 9/48",
+      "G06F 9/4806",
+      "G06F 9/4843",
+      "G06F 8/00",
+      "G06F 8/60",
+      "G06F 8/61",
+      "G06F 8/62",
+      "G06Q 10/00",
+      "G06Q 10/06",
+      "G06Q 10/063",
+      "G06Q 10/0631",
+      "G06F 21/00",
+      "G06F 21/30",
+      "G06F 21/31"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 9/00",
+      "G06F 9/06",
+      "G06F 9/46",
+      "G06F 9/48",
+      "G06F 9/4806",
+      "G06F 9/4843",
+      "G06F 8/00",
+      "G06F 8/60",
+      "G06F 8/61",
+      "G06F 8/62",
+      "G06Q 10/00",
+      "G06Q 10/06",
+      "G06Q 10/063",
+      "G06Q 10/0631",
+      "G06F 21/00",
+      "G06F 21/30",
+      "G06F 21/31"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019018295"
+}

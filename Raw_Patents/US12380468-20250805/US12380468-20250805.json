@@ -1,0 +1,20 @@
+{
+  "title": "Method for identifying potential investors in real estate properties",
+  "abstract": "Described is a novel method to identify potential investors proximal to a target real estate property (âTarget Property,â) the method identifies investors having a high probability of purchasing the Target Property with a tenant already in place. The method also ranks identified potential investors, based on their calculated potential interest in the purchase, and identifies communication channels with the potential investors to automate and facilitate presentation of the opportunity to purchase the Target Property.",
+  "claims": "1. A method for targeting investors having a high probability of purchasing a Target Property with a tenant already in place using a portal platform, the method comprising the steps of: inputting an address of the Target Property into the portal platform, the portal platform using mapping software to locate the Target Property; using the mapping software to select a perimeter area around the Target Property; converting the perimeter area to a georeferenced grid of coordinates; the portal platform identifying nearby properties within the georeferenced grid of coordinates using the mapping software; the portal platform identifying owners of the identified nearby properties within the georeferenced grid of coordinates; the portal platform cross-referencing the identified owners and identified nearby properties with one or more third party real estate property databases using an Application Programming Interface to connect to the one or more third party real estate property databases and extract additional parameters regarding the identified owners and the identified nearby properties; the portal platform sorting, processing, filtering, and ranking the identified nearby properties using artificial intelligence; the portal platform executing another cross query with one or more additional third party databases to extract additional parameters regarding the identified nearby properties; the portal platform sorting and filtering the identified nearby properties; the portal platform generating a Property Score for each of the remaining identified nearby properties and the identified owners using a scoring system based on a numerical analysis of each of the remaining identified nearby properties, and a standard deviation of each of the remaining identified nearby properties from the Target Property, with regular and weighted averages applied based on a trained machine learning algorithm; the portal platform analyzing the Property Score to calculate an Investor Score for each identified owner measuring a likelihood of each of the identified owners of purchasing the Target Property; the portal platform comparing market prices and rent estimates of the identified nearby properties to the Target Property and assigning an Investable Score to the Target Property based on said comparison; the portal platform identifying and ranking potential investors from among the identified owners based on their calculated potential interest in purchasing the Target Property by applying a machine learning protocol to the Property Score, Investor Score and Investable Score; the portal platform identifying and selecting communication channels with the potential investors from the additional parameters cross-referenced from the one or more third party real estate property databases; and the portal platform generating automated contact requests and presenting to the potential investors, through the identified communication channels, an opportunity to purchase the Target Property.",
+  "patent_id": "US12380468-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0255",
+      "G06Q 30/0269",
+      "G06Q 50/16"
+    ],
+    "all": [
+      "G06Q 30/0255",
+      "G06Q 30/0269",
+      "G06Q 50/16"
+    ],
+    "source": "converted"
+  }
+}

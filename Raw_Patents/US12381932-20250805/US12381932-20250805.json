@@ -1,0 +1,26 @@
+{
+  "title": "Transaction management of multiple networked resources",
+  "abstract": "A method for managing multiple representational state transfer (REST) requests using a transaction management process coupled to a cluster of computer-executed server processes. The method receives a first request to start a transaction associated with a data access process coupled to a database. The method acquires a database connection in an open state and a unique transaction identifier for the transaction. The method receives a plurality of REST queries, each of the plurality of REST queries associated with a corresponding transaction identifier. The method determines that, for at least one of the plurality of REST queries, the corresponding transaction identifier does not match the unique transaction identifier and proxy the corresponding REST queries to a selected server process. The method receives a second request to end the transaction. In response to the second request, the method completes the transaction and change the database connection to a closed state.",
+  "claims": "1. A computer-implemented method by one or more computing devices associated with a transaction management process that is communicatively coupled to a cluster of computer-executed server processes, the method comprising: receiving from a browser process a first request to start a transaction associated with a data access process, the data access process implementing representational state transfer (REST) and being communicatively coupled to a database; acquiring a database connection from the data access process and storing the database connection in an open state; generating and storing a unique transaction identifier for the transaction in association with the storing of the database connection at a first point in time; receiving from the browser process a plurality of REST queries, each of the plurality of REST queries being associated with a corresponding particular transaction identifier , and determining the particular transaction identifier of each of two or more first REST queries of the plurality of REST queries matches the unique transaction identifier; while the database connection is in the open state, determining that, for a second REST query among the plurality of REST queries, the corresponding particular transaction identifier does not match the unique transaction identifier, and in response to the determination, proxying the second REST query to a selected server process among the cluster of computer-executed server processes based on matching of the corresponding particular transaction identifier of the second REST query with another transaction identifier associated with the selected server process; receiving a second request from the browser process to end the transaction, and in response to the second request, determining whether the two or more first REST queries have been executed for the transaction; and only in response to determining that the two or more first REST queries have been executed for the transaction, programmatically completing the transaction in communication with the data access process, and changing the database connection to a closed state.",
+  "patent_id": "US12381932-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 67/02",
+      "G06F 11/1471",
+      "G06F 16/27",
+      "H04L 67/1097",
+      "H04L 67/561",
+      "G06F 2201/80"
+    ],
+    "all": [
+      "H04L 67/02",
+      "G06F 11/1471",
+      "G06F 16/27",
+      "H04L 67/1097",
+      "H04L 67/561",
+      "G06F 2201/80"
+    ],
+    "source": "converted"
+  }
+}

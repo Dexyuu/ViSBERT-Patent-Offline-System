@@ -1,0 +1,22 @@
+{
+  "title": "Power supply switching circuit and memory",
+  "abstract": "Embodiments provide a power supply switching circuit, which generates a first control signal jointly by utilizing a first input signal and a first drive signal opposite in phase to a second control signal, and generates the second control signal jointly by utilizing a second input signal and a second drive signal opposite in phase to the first control signal, such that time (i.e., overlap time) required for simultaneously turning on or off a first output subcircuit and a second output subcircuit is greatly reduced or even eliminated, effective output of an output node is implemented, and reliability of a device is improved. Furthermore, compared with eliminating the overlap time by means of delay, eliminating the overlap time by means of the power supply switching circuit is simple and reliable in control logic and is insensitive to process, which further improves the reliability of the device.",
+  "claims": "1. A power supply switching circuit comprising: a first output subcircuit configured to provide a first power supply voltage signal to an output node in response to a first control signal; a first control subcircuit coupled to the first output subcircuit, the first control subcircuit being configured to generate the first control signal in response to a first drive signal and a first input signal; a second output subcircuit configured to provide a second power supply voltage signal to the output node in response to a second control signal; and a second control subcircuit coupled to the second output subcircuit, the second control subcircuit being configured to generate the second control signal in response to a second drive signal and a second input signal; wherein the first input signal is opposite in phase to the second input signal, the first drive signal is opposite in phase to the second control signal, and the second drive signal is opposite in phase to the first control signal; wherein the first control subcircuit comprises a first logic gate circuit configured to perform logic AND operation on the first input signal and the first drive signal.",
+  "patent_id": "US12380941-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G11C 11/4074",
+      "H03K 17/687",
+      "H03K 19/00323",
+      "H03K 19/20"
+    ],
+    "all": [
+      "G11C 11/4074",
+      "H03K 17/687",
+      "H03K 19/00323",
+      "H03K 19/20"
+    ],
+    "source": "converted"
+  }
+}

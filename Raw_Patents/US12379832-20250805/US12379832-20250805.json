@@ -1,0 +1,36 @@
+{
+  "title": "Intelligent zoning",
+  "abstract": "Systems and methods for grouping telematics vehicle data in one or more zones are provided herein. Systems and methods for generating zones and providing vehicle information associated with the one or more zones are also provided. Systems and methods for parallelizing zone generation and addressing zones disposed adjacent a boundary of a geographical are also provided.",
+  "claims": "1. A method of generating zones with a telematics system, the method comprising: obtaining telematics data from one or more telematics devices associated with one or more vehicles, the telematics data including GPS data associated with one or more trips taken by the one or more vehicles; identifying stops in the telematics data; identifying a first cluster of stops and a second cluster of stops using a clustering algorithm; creating a first polygon containing the first cluster of stops and creating a second polygon containing the second cluster of stops; outputting each of the first polygon and the second polygon as a zone to a user; determining whether the first polygon and the second polygon overlap; determining whether a percentage of overlapping area between the first polygon and the second polygon exceeds a threshold percentage of overlapping area in response to determining that the first polygon and the second polygon overlap; based on the determination of whether the percentage of overlapping area between the first polygon and the second polygon exceeds the threshold percentage of overlapping area, merging the first polygon and the second polygon into a merged polygon; and outputting the merged polygon as a merged zone to the user.",
+  "patent_id": "US12379832-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/04842",
+      "G06F 16/285",
+      "G06F 16/29",
+      "G06F 16/904",
+      "G06F 18/231",
+      "G06F 18/2321",
+      "G06T 11/206",
+      "G07C 5/008",
+      "G07C 5/06",
+      "G08G 1/13",
+      "G08G 1/20"
+    ],
+    "all": [
+      "G06F 3/04842",
+      "G06F 16/285",
+      "G06F 16/29",
+      "G06F 16/904",
+      "G06F 18/231",
+      "G06F 18/2321",
+      "G06T 11/206",
+      "G07C 5/008",
+      "G07C 5/06",
+      "G08G 1/13",
+      "G08G 1/20"
+    ],
+    "source": "converted"
+  }
+}

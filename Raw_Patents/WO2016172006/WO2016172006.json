@@ -1,0 +1,32 @@
+{
+  "application_id": "WO2016172006",
+  "application_id_fs": "WO2016172006",
+  "title": "Well planning service",
+  "abstract": "A method can include receiving well plan information that includes a reservoir target associated with a reservoir of a subterranean environment; based at least in part on characteristics of the subterranean environment, determining well trajectory metrics that comprise a geometrical metric; determining a weighted metric based at least in part on weighting of the well trajectory metrics; and, based at least in part on an assessment of the weighted metric, outputting directional drilling information for a well trajectory to the reservoir target.",
+  "claims": "Claims CLAIMS What is claimed is: 1 . A method comprising: receiving well plan information that comprises a reservoir target associated with a reservoir of a subterranean environment; based at least in part on characteristics of the subterranean environment, determining well trajectory metrics that comprise a geometrical metric; determining a weighted metric based at least in part on weighting of the well trajectory metrics; and based at least in part on an assessment of the weighted metric, outputting directional drilling information for a well trajectory to the reservoir target. 2. The method of claim 1 wherein the geometrical metric comprises a well trajectory curvature metric. 3. The method of claim 1 wherein the geometrical metric comprises a well trajectory length metric. 4. The method of claim 1 wherein the geometrical metric comprises a depth at which a well trajectory deviates from vertical metric. 5. The method of claim 1 wherein the well trajectory metrics comprise an anti- collision metric. 6. The method of claim 1 wherein the well trajectory metrics comprise at least one member selected from a group consisting of a friction metric, a geomechanical metric and a hydraulics metric; wherein the friction metric accounts for friction between drillpipe and a bore wall defined by characteristics of the subterranean environment, wherein the geomechanical metric accounts for pore pressure in the subterranean environment, and wherein the hydraulics metric accounts for transport of drill bit cuttings in a bore in the subterranean environment. 7. The method of claim 1 wherein the assessment comprising comparing the weighted metric to one or more other weighted metrics. 8. The method of claim 1 wherein the weighted metric comprises a summation of individually weighted values for each of the well trajectory metrics. 9. The method of claim 1 wherein the determining well trajectory metrics comprises parallel processing. 10. The method of claim 1 comprising repeating the determining based at least in part on the assessment of the weighted metric. 1 1 . A system comprising: one or more processors; memory operatively coupled to the one or more processors; processor-executable instructions stored in the memory and executable by at least one of the processors to instruct the system to receive well plan information that comprises a reservoir target associated with a reservoir of a subterranean environment; based at least in part on characteristics of the subterranean environment, determine well trajectory metrics that comprise a geometrical metric; determine a weighted metric based at least in part on weighting of the well trajectory metrics; and based at least in part on an assessment of the weighted metric, output directional drilling information for a well trajectory to the reservoir target. 12. The system of claim 1 1 wherein the well trajectory metrics comprise at least one member selected from a group consisting of an anti-collision metric, a friction metric, a geomechanical metric and a hydraulics metric. 13. The system of claim 1 1 wherein the directional drilling information comprises points defined in a three-dimensional coordinate system in a region of the subterranean environment. 14. The system of claim 1 1 comprising processor-executable instructions stored in the memory and executable by at least one of the processors to instruct the system to render a graphical user interface to a display wherein the graphical user interface comprises a well trajectory editor. 15. The system of claim 14 wherein the graphical user interface comprises a graphical control that is selectable to call for optimization of an edited well trajectory. 16. The system of claim 1 1 comprising processor-executable instructions stored in the memory and executable by at least one of the processors to instruct the system to determine at least two of the well trajectory metrics at least in part simultaneously via parallel processing. 17. One or more computer-readable storage media comprising computer- executable instructions executable to instruct a computing system to: receive well plan information that comprises a reservoir target associated with a reservoir of a subterranean environment; based at least in part on characteristics of the subterranean environment, determine well trajectory metrics that comprise a geometrical metric; determine a weighted metric based at least in part on weighting of the well trajectory metrics; and based at least in part on an assessment of the weighted metric, output directional drilling information for a well trajectory to the reservoir target. 18. The one or more computer-readable storage media of claim 17 comprising computer-executable instructions executable to instruct a computing system to output the directional drilling information at least in part as points defined in a three- dimensional coordinate system. 19. The one or more computer-readable storage media of claim 17 comprising one or more additional well trajectory metrics. 20. The one or more computer-readable storage media of claim 17 comprising computer-executable instructions executable to instruct a computing system to receive one or more weights that weigh at least one of the well trajectory metrics.",
+  "classifications": {
+    "ipc": [
+      "E21B 44/00",
+      "E21B 41/00",
+      "E21B 40/00",
+      "E21B 43/00",
+      "E21B 43/30",
+      "E21B 7/00",
+      "E21B 7/04",
+      "G06F 30/00"
+    ],
+    "cpc": [],
+    "all": [
+      "E21B 44/00",
+      "E21B 41/00",
+      "E21B 40/00",
+      "E21B 43/00",
+      "E21B 43/30",
+      "E21B 7/00",
+      "E21B 7/04",
+      "G06F 30/00"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2016172006"
+}

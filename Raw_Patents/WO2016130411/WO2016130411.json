@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2016130411",
+  "application_id_fs": "WO2016130411",
+  "title": "Marking tank obstructions using an electronic level gauge",
+  "abstract": "An obstruction marking method (600) includes generating (608) a first echo curve (510) using an electronic level gauge (ELG) (140) coupled to a tank (110) from a first reflected signal (echo signal) received when a material (120) in the tank is at a first level. The ELG includes a radar-based obstruction detection algorithm (143a) stored in a memory (142) coupled thereto. A processor (141) implementing the obstruction detection algorithm identifies at least a first feature in the first echo curve to provide at least one suspected obstruction (410) along with its position (first feature position) (546). A second echo curve (540) is generated (612) from a second reflected signal when the material is at a second level. A third echo curve (530) is generated (614) from a third reflected signal when the material is at a third level. The suspected obstruction at the first feature position is stored (616) in the memory as a verified obstruction (346) with its first feature position.",
+  "claims": "Claims 1. An obstruction marking method (600) for radar-based level finding, comprising: generating (608) a first echo curve (510) using an electronic level gauge (ELG) (140) coupled to a tank (110) from a first reflected signal received when a material (120) in said tank is at a first level, said ELG including a transceiver (145) coupled to a processor (141) implementing a radar-based obstruction detection algorithm (obstruction detection algorithm) (143a) stored in an associated non-transitory memory (memory) (142) coupled thereto, said obstruction detection algorithm: identifying (610) at least a first feature in said first echo curve to provide at least one suspected obstruction (410) along with its position (first feature position) (546); generating (612) a second echo curve (540) from a second reflected signal when said material is at a second level in said tank that passes through said first feature position so that an amplitude of said second reflected signal at said first feature position is above its amplitude in said first reflected signal; generating (614) a third echo curve (530) from a third reflected signal when said material is at a third level in said tank that is above said first level sufficiently so that an amplitude of said third reflected signal at said first feature position is below its amplitude in said first reflected signal; identifying said suspected obstruction as a verified obstruction (346) being located at said first feature position, and storing (616) said verified obstruction with said first feature position in said memory. 2. The method of claim 1, further comprising: summing said first echo curve, said second echo curve and said third echo curve to generate a combined echo curve (460); and identifying within said combined echo curve at least one peak amplitude. 3. The method of claim 2, wherein said at least one peak amplitude corresponds to said suspected obstruction at said first feature position. 4. The method of claim 1, further comprising: subtracting said first echo curve, said second echo curve and said third echo curve from each other to generate a combined echo curve (470); and identifying from said first, second, third and combined echo curves at least one minimum amplitude. 5. The method of claim 4, wherein said minimum amplitude corresponds to said verified obstruction at said first feature position. 6. The method of claim 1, further comprising: level finding by said ELG during operation of said tank using a radar-based level detection algorithm (level detection algorithm) (143b), wherein said level detection algorithm automatically utilizes said verified obstniction with said first feature position in calculating a material level. An electronic level gauge (ELG) for coupling to a tank, comprising: \n\n a transceiver (145) coupled to a processor (141) implementing a radar-based obstruction detection algorithm (obstruction detection algorithm) (143a) and a radar-based level detection algorithm (level detection algorithm) (143b) both stored in an associated non- transitory memory (memory) (142) coupled thereto, said obstruction detection algorithm causing said processor to: generate (608) a first echo curve (510) from a first reflected signal received when a material (120) in said tank (1 0) is at a first level; identify (610) at least a first feature in said first echo curve to provide at least one suspected obstruction (410) along with its position (first feature position) (546); generate (612) a second echo curve (540) from a second reflected signal when said material is at a second level in said tank that passes through said first feature position so that an amplitude of said second reflected signal at said first feature position is above its amplitude in said first reflected signal; generate (614) a third echo curve (530) from a third reflected signal when said material is at a third level in said tank that is above said first level sufficiently so that an amplitude of said third reflected signal at said first feature position is below its amplitude in said first reflected signal; and store (616) said suspected obstruction and said first feature position in said memory as a verified obstruction (346) along with said first feature position. 8. The ELG of claim 7, wherein said obstruction detection algorithm further causes said processor to: sum said first echo curve, said second echo curve and said third echo curve to generate a combined echo curve (460); and identify within said combined echo curve at least one peak amplitude. 9. The ELG of claim 8, wherein said at least one peak amplitude corresponds to said suspected obstruction at said first feature position, 10. The ELG of claim 7, wherein said obstruction detection algorithm further causes said processor to: subtract said first echo curve, said second echo curve and said third echo curve from each other to generate a combined echo curve (470); and identify from said first, second, third and combined echo curves at least one minimum amplitude. 11. The ELG of claim 10, wherein said minimum amplitude corresponds to said verified obstruction at said first feature position. 12. The ELG of claim 7, wherein said radar level algorithm causes said processor to: level find during operation of said tank, wherein said level detection algorithm automatically utilizes said verified obstruction with said first feature position in calculating a material level.",
+  "classifications": {
+    "ipc": [
+      "G01S 13/00",
+      "G01S 13/02",
+      "G01S 13/06",
+      "G01S 13/08",
+      "G01S 13/10",
+      "G01F 23/00",
+      "G01F 23/22",
+      "G01F 23/28",
+      "G01F 23/284",
+      "G01S 13/88",
+      "G01S 7/00",
+      "G01S 15/00",
+      "G01S 17/00",
+      "G01S 7/02",
+      "G01S 7/40",
+      "G01S 7/41"
+    ],
+    "cpc": [],
+    "all": [
+      "G01S 13/00",
+      "G01S 13/02",
+      "G01S 13/06",
+      "G01S 13/08",
+      "G01S 13/10",
+      "G01F 23/00",
+      "G01F 23/22",
+      "G01F 23/28",
+      "G01F 23/284",
+      "G01S 13/88",
+      "G01S 7/00",
+      "G01S 15/00",
+      "G01S 17/00",
+      "G01S 7/02",
+      "G01S 7/40",
+      "G01S 7/41"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2016130411"
+}

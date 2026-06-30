@@ -1,0 +1,21 @@
+{
+  "application_id": "WO2019070107",
+  "application_id_fs": null,
+  "title": "Method and apparatus for controlling packet duplication",
+  "abstract": "Provided is a method for generating a packet by a user equipment (UE). The method may include: receiving a threshold for packet duplication, from a base station; when a number of duplicated packets for a certain time does not satisfy the threshold for the packet duplication, generating a second packet by duplicating a first packet; and transmitting the generated second packet.",
+  "claims": "Claims ( 15 ) A method for generating a packet by a user equipment (UE), the method comprising: receiving a threshold for packet duplication, from a base station; when a number of duplicated packets for a certain time does not satisfy the threshold for the packet duplication, generating a second packet by duplicating a first packet; and transmitting the generated second packet. The method of claim 1, when the number of duplicated packets for the certain time satisfies the threshold for the packet duplication, the UE does not generate the second packet. The method of claim 1, further comprising: when the number of duplicated packets for the certain time satisfies the threshold for the packet duplication in a first carrier, selecting a second carrier which allows the packet duplication. The method of claim 1, wherein the threshold for the packet duplication is defined per a carrier. The method of claim 1, wherein the threshold for the packet duplication is defined per a CBR value. The method of claim 5, further comprising: measuring the CBR value of a pool of a carrier, wherein the threshold for the packet duplication is related to the measured CBR value of the pool of the carrier. The method of claim 5, further comprising: receiving the CBR value of a pool of a carrier from the base station, wherein the threshold for the packet duplication is related to the received CBR value of the pool of the carrier. The method of claim 1, wherein the threshold for the packet duplication is defined per a reliability level. The method of claim 8, wherein the reliability level is ProSe Per Packet Reliability (PPPR). The method of claim 8, wherein the threshold for the packet duplication is related to the reliability level of the first packet. The method of claim 1, wherein the threshold for the packet duplication is defined per a destination identity, a service identity or a priority level. The method of claim 1, wherein the second packet is duplicated PDCP PDU. The method of claim 1, further comprising: transmitting the first packet which is original PDCP PDU. A method for transmitting a threshold for packet duplication by a base station, the method comprising: transmitting the threshold for the packet duplication, to a user equipment (UE), wherein the UE generates a second packet by duplicating a first packet and transmits the generated second packet, when a number of duplicated packets for a certain time does not satisfy the threshold for the packet duplication. A user equipment (UE) for generating a packet, the UE comprising: a memory; a transceiver; and a processor connected with the memory and the transceiver, wherein the processor is configured to: control the transceiver to receive a threshold for packet duplication, from a base station, when a number of duplicated packets for a certain time does not satisfy the threshold for the packet duplication, generate a second packet by duplicating a first packet, and control the transceiver to transmitting the generated second packet.",
+  "classifications": {
+    "ipc": [
+      "H04W 28/06",
+      "H04W 28/02",
+      "H04W 74/08"
+    ],
+    "cpc": [],
+    "all": [
+      "H04W 28/06",
+      "H04W 28/02",
+      "H04W 74/08"
+    ],
+    "source": "csv"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "application_id": "WO2016164071",
+  "application_id_fs": "WO2016164071",
+  "title": "Restricting movement of a mobile robot during autonomous floor cleaning with a removable pad",
+  "abstract": "A robot includes a body that is movable relative to a surface one or more measurement devices within the body to output information based on an orientation of the body at an initial location on the surface, and a controller within the body to determine an orientation of the body based on the information and to restrict movement of the body to an area by preventing movement of the body beyond a barrier that is based on the orientation of the body and the initial location.",
+  "claims": "Claims What is claimed is: 1 . A robot comprising: a body that is movable relative to a surface; one or more measurement devices within the body to output information based on an orientation of the body at an initial location on the surface; and a controller within the body to determine an orientation of the body based on the information, and to restrict movement of the body to an area by preventing movement of the body beyond a barrier that is based on the orientation of the body and the initial location. 2. The robot of claim 1 , wherein the barrier extends through a doorway, and the initial position of the robot is within the doorway. 3. The robot of claim 1 , wherein the body comprises a front and a back; and wherein the barrier extends along a line that is parallel to the back of the robot. 4. The robot of claim 3, wherein the line is tangential to the back of the robot. 5. The robot of claim 3, wherein the line intersects the body of the robot at a location indicated by a visual indicator on the robot. 6. The robot of claim 1 , wherein the body comprises a front and a back; and wherein the barrier comprises a first line that extends parallel to the back of the robot and a second line that extends perpendicular to the back of the robot. 7. The robot of claim 6, wherein the initial location of the robot places the back of the body adjacent to the first line and a side of the body adjacent to the second line. 8. The robot of claim 6, wherein the controller is programmed to restrict movement of the body by controlling the body to perform operations comprising: rotating at an angle relative to the initial orientation; and traversing the area of the surface along paths that are substantially parallel to the barrier. 9. The robot of claim 1 , wherein the controller is programmed to restrict movement of the body by performing operations comprising: generating a map that represents an area to be cleaned; and designating a virtual barrier on the map that indicates a location that the robot is prohibited from crossing. 10. The robot of claim 8, wherein the barrier is designated by designating coordinates corresponding to the barrier as non-traversable. 11 . The robot of claim 1 , wherein determining the orientation and restricting the movement are performed upon entry into a handshake mode, the controller being programmed to recognize the handshake mode in response to one or more user-initiated operations on the robot. 12. A robot comprising: a body that is movable along a surface below the body; a camera that faces upward relative to the surface, the camera configured to capture one or more images of markers fixed to a structure; and a controller within the body to identify locations of the markers based on the one or more images, and to prevent movement of the body to an area of the surface that is beyond a barrier defined by the locations of the markers at least until one or more conditions is met. 13. The robot of claim 12, wherein the markers comprise infrared image markers, and the camera is an infrared camera. 14. The robot of claim 12, wherein the markers include machine-readable information representing a name of a location corresponding to the structure, a name of the structure, or a both the name of the location corresponding to the structure and the name of the structure. 15. The robot of claim 14, wherein at least one of the name of the location and the name of the structure is transmitted to and displayed on a mobile device. 16. The robot of claim 12, wherein the controller is programmed to perform operations comprising: generating a map that represents at least part of the surface; identifying the markers on the map based on the locations of the markers; storing the map in computer memory; and storing, in computer memory, data indicating to prohibit movement of the body to the area of the surface that is beyond the locations of the markers on the map. 17. The robot of claim 12, further comprising: a transmitter to communicate with a computer network wirelessly to send the map over the computer network to one or more remote computing devices. 18. The robot of claim 12, wherein the controller is programmed to identify locations of the markers based on more than one image of the markers, and to prevent movement of the body to the area of the surface that is beyond the locations of the markers as identified based on the more than one image. 19. The robot of claim 12, wherein the controller is programmed to, upon satisfaction of the one or more conditions, to permit movement of the body to the area of the surface that is beyond the barrier defined by the locations of the image markers and to prevent movement of the body back across the barrier at least until one or more conditions is met. 20. The robot of claim 12, wherein the one or more conditions comprises the robot traversing at least a percentage of an area of the surface that is within the barrier. 21 . The robot of claim 12, wherein the one or more conditions comprises the robot traversing, two or more times, at least a percentage of an area of the surface that is within the barrier. 22. A method of generating an occupancy grid of at least part of an environment that is traversable by a robot, the method comprising: \n\n determining, by a controller within the robot, a location and orientation of the robot within the environment; and populating, by the controller, the occupancy grid with a barrier of non- traversable cells, wherein the barrier of non-traversable cells is based at least on the location and the orientation of the robot. 23. A method of generating an occupancy grid for a robot in an environment, the method comprising: detecting, by a camera of the robot, one or more features of one or more removable markers on one or more structures in the environment; and indicating, by a controller on the robot, on the occupancy grid that a line of cells is non-traversable based on the one or more features. 24. The method of claim 23, further comprising: generating one or more images of the one or more features; applying an affine transformation to the one or more images to produce one or more transformed images; and confirming that the one or more transformed images sufficiently match one or more stored images; wherein indicating is performed in response to confirming that the one or more transformed images sufficiently match the one or more stored images.",
+  "classifications": {
+    "ipc": [
+      "G05D 1/00",
+      "G05D 1/02",
+      "G05D 1/021",
+      "G05D 1/0268",
+      "G05D 1/0274",
+      "B25J 9/00",
+      "B25J 9/16",
+      "B25J 9/1656",
+      "B25J 9/1664",
+      "B25J 9/1666",
+      "B25J 5/00",
+      "B25J 9/1694",
+      "B25J 9/1697",
+      "G05D 1/0231",
+      "G05D 1/0234"
+    ],
+    "cpc": [],
+    "all": [
+      "G05D 1/00",
+      "G05D 1/02",
+      "G05D 1/021",
+      "G05D 1/0268",
+      "G05D 1/0274",
+      "B25J 9/00",
+      "B25J 9/16",
+      "B25J 9/1656",
+      "B25J 9/1664",
+      "B25J 9/1666",
+      "B25J 5/00",
+      "B25J 9/1694",
+      "B25J 9/1697",
+      "G05D 1/0231",
+      "G05D 1/0234"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2016164071"
+}

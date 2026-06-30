@@ -1,0 +1,16 @@
+{
+  "title": "Address setting system, address setting method, address setting management device and program",
+  "abstract": "A location information transmitter transmits location information within a prescribed area. An IoT terminal receives the location information and transmits the location information and a device identifier. An address setting management device receives the location information and the device identifier and sets an IP address to be assigned to the IoT terminal on the basis of the location information and the device identifier and transmits the IP address to the IoT terminal. The IoT terminal sets the IP address received from the address setting management device for itself.",
+  "claims": "1. An address setting system, comprising: a location information transmitter configured to transmit location information within a prescribed area; an Internet of Things (IoT) terminal configured to receive the location information and transmit the location information and a device identifier; and an address setting management device configured to receive the location information and the device identifier, determine an Internet Protocol (IP) address to be assigned to the IoT terminal on a basis of the location information and the device identifier, and transmit the IP address to the IoT terminal, wherein: the address setting management device comprises: a receiver configured to receive location information and a device identifier from the IoT terminal: a location information database including a collection of associations between location information and IP addresses; a device information database including a collection of associations between device identifiers and IP addresses: a processor configured to determine the IP address to be assigned to the IoT terminal on the basis of the received location information and device identifier by referring to the location information database and the device information database; and a transmitter configured to transmit the IP address to the IoT terminal; and the IoT terminal is configured to set the IP address received from the address setting management device for itself.",
+  "patent_id": "US12382280-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 8/26"
+    ],
+    "all": [
+      "H04W 8/26"
+    ],
+    "source": "converted"
+  }
+}

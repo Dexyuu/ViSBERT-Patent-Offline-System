@@ -1,0 +1,24 @@
+{
+  "title": "Optical sensor device for determining distance to object and velocity of the object, and identifying the shape and structure of the object",
+  "abstract": "A miniature optical sensing device for determining distance to an object and velocity of the object, and identifying the shape and structure of the object, for example, a solid-state LIDAR, and a method for determining distance to an object and velocity of the object, and identifying the shape and structure of the object by using the optical sensing device is provided. The sensing device includes optically coupled one laser radiation source, at least one optical collimator, a beam-splitter, a light reflector, an optical beam guide, at least one detector for detecting radiation reflected from the object, as well as a controller, wherein the at least one detector corresponding to the respective at least one laser radiation source forms individually functioning and individually adjustable measuring channels with the possibility of providing data about the object, and the controller is configured to ensure the simultaneous or selective operation of the measuring channels.",
+  "claims": "1. An optical sensing device for identifying distance to an object and a velocity of the object, and identifying a shape and a structure of the object, the optical sensing device comprising: at least one laser radiation source configured to emit a beam; at least one optical collimator which is located on the at least one laser radiation source, and configured to pass the beam; a beam-splitter configured to split the beam into a reference beam and a measuring beam; a light reflector configured to reflect the reference beam; an optical beam guide configured to direct the measuring beam toward the object; at least one detector configured to detect the reference beam reflected from the light reflector and the measuring beam reflected from the object; and a processor connected respectively to the at least one detector and the at least one laser radiation source, wherein, between the at least one laser radiation source and the at least one detector, at least one individually functioning and individually adjustable measuring channel is formed, the at least one measuring channel configured to provide object data based on the reference beam and the measuring beam, and wherein the processor is configured to: perform operational control of radiation parameters of the at least one laser radiation source, depending on a required operational range resolution during an operation of the optical sensing device, and process and analyze the object data sensed by the at least one detector through the at least one measuring channel for performing identification of a distance L to the object and identification of a velocity V of the object, and identification of the shape and structure of the object, simultaneously, wherein the identification of the shape and structure of the object is performed based on a pattern of a distribution of a reflection coefficient of the at least one measuring beam reflected from the object.",
+  "patent_id": "US12379493-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 17/06",
+      "G01B 11/24",
+      "G01S 7/4815",
+      "G01S 7/4816",
+      "G01S 17/58"
+    ],
+    "all": [
+      "G01S 17/06",
+      "G01B 11/24",
+      "G01S 7/4815",
+      "G01S 7/4816",
+      "G01S 17/58"
+    ],
+    "source": "converted"
+  }
+}

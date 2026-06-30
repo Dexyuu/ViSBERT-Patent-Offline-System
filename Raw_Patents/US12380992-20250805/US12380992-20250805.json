@@ -1,0 +1,34 @@
+{
+  "title": "System and method for interpretation of multiple medical images using deep learning",
+  "abstract": "A method is disclosed of processing a set of images. Each image in the set has an associated counterpart image. One or more regions of interest (ROIs) are identified in one or more of the images in the set of images. For ROI identified, a reference region is identified in the associated counterpart image. ROIs and associated reference regions are cropped out, thereby forming cropped pairs of images 1 . . . n1, that are fed to a deep learning model trained to make a prediction of probability of a state of the ROI, e.g., disease state, which generates a prediction Pi-, (i=1 . . . n) for each cropped pair. The model generates an overall prediction P from each of the predictions Pi. A visualization of the set of medical images and the associated counterpart images including the cropped pair of images is generated.",
+  "claims": "1. A method of processing a set of medical images, wherein each image in the set has an associated counterpart image, comprising the steps of: a) identifying one or more regions of interest in one or more of the images in the set of images; b) for each region of interest identified in step a), identifying a reference region in the associated counterpart image; c) cropping out the regions of interest and the reference regions identified in step b) from the counterpart images, thereby forming cropped pairs of images 1 . . . n; d) feeding the cropped pairs of images from step c) to a deep learning model trained to make a prediction of probability of disease state and generating a prediction Pi, (i=1 . . . n) for each cropped pair, wherein the deep learning model comprises a self-attention mechanism that allows the deep learning model to jointly attend to information from different representation subspaces at different positions, and wherein the deep learning model comprises a deep convolutional neural network which includes a concatenation of information as to a global location of the region of interest to thereby inject global context information into the generation of the prediction P i ; e) generating an overall disease prediction P from each of the predictions Pi; and f) generating a visualization of the set of medical images and the associated counterpart images including portions of the images corresponding to the cropped pair of images.",
+  "patent_id": "US12380992-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16H 30/40",
+      "G06T 7/0014",
+      "G06V 10/22",
+      "G06V 10/82",
+      "G16H 50/20",
+      "G06T 2207/10081",
+      "G06T 2207/20084",
+      "G06T 2207/20132",
+      "G06T 2207/30061",
+      "G06T 2207/30068"
+    ],
+    "all": [
+      "G16H 30/40",
+      "G06T 7/0014",
+      "G06V 10/22",
+      "G06V 10/82",
+      "G16H 50/20",
+      "G06T 2207/10081",
+      "G06T 2207/20084",
+      "G06T 2207/20132",
+      "G06T 2207/30061",
+      "G06T 2207/30068"
+    ],
+    "source": "converted"
+  }
+}

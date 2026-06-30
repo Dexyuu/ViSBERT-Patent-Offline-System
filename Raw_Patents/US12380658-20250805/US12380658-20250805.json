@@ -1,0 +1,18 @@
+{
+  "title": "Deep inertial prediction system and methods",
+  "abstract": "A system configured to determine poses of a tracked device in a physical environment and to utilize the poses as an input to control or manipulate a virtual environment or mixed reality environment. In some cases, the system may include a fall back tracking system for when the main tracking system loses visual tracking of the tracked device.",
+  "claims": "1. A method comprising: initializing, based at least in part on data associated with a prior pose of a tracked device, an Extended Kalman Filter of a deep inertial prediction system; inputting a window of inertial measurement unit (IMU) measurements into a machine learned network, the IMU measurements associated with the tracked device; receiving, by the Extended Kalman Filter and from the machine learned network, a linear velocity and uncertainty data associated with the linear velocity; and determining, by the Extended Kalman Filter, a current pose of the tracked device based at least in part on the linear velocity and the uncertainty data.",
+  "patent_id": "US12380658-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 19/006",
+      "G06F 3/011"
+    ],
+    "all": [
+      "G06T 19/006",
+      "G06F 3/011"
+    ],
+    "source": "converted"
+  }
+}

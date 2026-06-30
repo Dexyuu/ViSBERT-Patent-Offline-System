@@ -1,0 +1,18 @@
+{
+  "title": "Reliable multicast transmission with compact protocol stack",
+  "abstract": "Apparatus and methods are provided for reliable multicast transmission with compact protocol stack. In one novel aspect, compact protocol stacks are configured for the UE and the base station handling both the PTM RB and the PTP RB. The compact protocol stack is either configured a compact RLC entity or a compact PDCP entity. The UE monitors a PTM LCH and a PTP LCH and sends feedback to the network with the PTP RB. The base station transmits MBS data packets in the PTM mode to the one or more subscriber UE, monitors feedback report from each subscriber UEs through corresponding PTP RB, and retransmits MBS data packets to one or more UEs through corresponding PTP RBs based on corresponding feedback reports. PTM-to-PTP and PTP-to-PTM mode switches are performed when triggering events are detected. The mode switch notification is sent to UEs via MAC CE or RLC control PDU.",
+  "claims": "15. A user equipment (UE), comprising: a transceiver that transmits and receives radio frequency (RF) signal in a wireless network; a memory; and a processor coupled to the memory, the processor configured to configure a MBS with a network entity in the wireless network, wherein the MBS is configured with a point-to-multipoint (PTM) radio bearer (RB) and an associated point-to-point (PTP) RB; establish a compact UE protocol stack for data reception of MBS data packets from both the PTM RB and the associated PTP RB; monitor a PTM logical channel (LCH) for PTM data packets and a PTP LCH for PTP data packets, wherein the PTM LCH and the PTP LCH are independent; assemble data packets from the PTM LCH and the PTP LCH at one UE protocol entity of the compact UE protocol stack; and provide uplink feedback for MBS data reception status through the associated PTP RB using a cell radio network temporary identifier (C-RNTI).",
+  "patent_id": "US12382545-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/40",
+      "H04L 1/1685"
+    ],
+    "all": [
+      "H04W 76/40",
+      "H04L 1/1685"
+    ],
+    "source": "converted"
+  }
+}

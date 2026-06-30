@@ -1,0 +1,20 @@
+{
+  "title": "Host-to-device CXL communication including multi-fabric bridging, also over NVLink, UALink, and ethernet",
+  "abstract": "Embodiments for communicating between a Compute Express Link (CXL) host and a CXL device. A CXL Endpoint receives, from the host, first messages conforming to a first CXL.io protocol and second messages conforming to a first non-CXL.io protocol. A CXL Root Port receives, from the device, third messages conforming to a second CXL.io protocol and fourth messages conforming to a second non-CXL.io protocol. A computer terminates the first CXL.io protocol, processes at least some of the first messages without translating and sending corresponding translated first messages to the device, terminates the first non-CXL.io protocol, translates at least a quarter of the second messages, and makes the translated second messages available to the CXL Root Port for communication with the device. Optionally, each of the first and second non-CXL.io protocols is selected from at least one of CXL.mem or CXL.cache.",
+  "claims": "1. An apparatus configured to enable communication between a host and a device, comprising: a Compute Express Link (CXL) Endpoint configured to receive, from a host, first messages conforming to a first CXL.io protocol and second messages conforming to a first non-CXL.io protocol; a CXL Root Port configured to receive, from a device, third messages conforming to a second CXL.io protocol and fourth messages conforming to a second non-CXL.io protocol; and a computer configured to: terminate the first CXL.io protocol; process at least some of the first messages in a manner that does not necessitate translating and sending corresponding translated first messages to the device; terminate the first non-CXL.io protocol; translate at least a quarter of the second messages (translated second messages); and make the translated second messages available to the CXL Root Port for communication with the device.",
+  "patent_id": "US12380046-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 13/387",
+      "G06F 13/409",
+      "G06F 13/4282"
+    ],
+    "all": [
+      "G06F 13/387",
+      "G06F 13/409",
+      "G06F 13/4282"
+    ],
+    "source": "converted"
+  }
+}

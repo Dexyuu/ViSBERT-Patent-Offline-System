@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2018005384",
+  "application_id_fs": "WO2018005384",
+  "title": "Data security in a cloud network",
+  "abstract": "Particular embodiments described herein provide for an electronic device that can be configured to store data in a secure domain in a cloud network, create encryption keys, where each encryption key is to provide a different type of access to the data, and store the encryption keys in a secure domain key store in the cloud network. In an example, each encryption key provides access to a different version of the data. In another example, a counter engine stores the location of each version of the data in the cloud network.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1. At least one machine readable medium comprising one or more instructions that when executed by at least one processor, cause the at least one processor to: store data in a secure domain in a cloud network; create encryption keys, wherein each encryption key is to provide a different type of access to the data; and store the encryption keys in a secure domain key store in the cloud network. 2. The at least one machine readable medium of Claim 1, wherein each encryption key provides access to a different version of the data. 3. The at least one machine readable medium of any one of Claims 1 and 2, wherein a generator of the data creates the encryption keys and communicates the encryption keys to the secure domain key store. 4. The at least one machine readable medium of any one of Claims 1 and 2, wherein an access control engine controls access to the encryption keys. 5. The at least one machine readable medium of any one of Claims 1 and 2, wherein a counter engine stores the location of each version of the data in the cloud network. 6. An apparatus comprising: an access engine, wherein the access engine is configured to: store data in a secure domain in a cloud network; create encryption keys, wherein each encryption key is to provide a different type of access to the data; and store the encryption keys in a secure domain key store in the cloud network. 7. The apparatus of Claim 6, wherein each encryption key provides access to a different version of the data. 8. The apparatus of any one of Claims 6 and 7, wherein a generator of the data creates the encryption keys and communicates the encryption keys to the access engine. 9. The apparatus of any one of Claims 6 and 7, further comprising a counter engine, wherein the counter engine is configured to: store the location of each version of the data in the cloud network. 10. The apparatus of any one of Claims 6 and 7, wherein the counter engine is located in a second secure domain that is separate from the secure domain where the data is stored. 11. A method comprising: storing data in a secure domain in a cloud network; creating encryption keys, wherein each encryption key is to provide a different type of access to the data; and storing the encryption keys in a secure domain key store in the cloud network. 12. The method of Claim 11, wherein each encryption key provides access to a different version of the data. 13. The method of any one of Claims 11 and 12, wherein a generator of the data creates the encryption keys and communicates the encryption keys to the secure domain key store. 14. The method of any one of Claims 11 and 12, wherein an access control engine controls access to the encryption keys. 15. The method of any one of Claims 11 and 12, wherein a counter engine stores the location of each version of the data in the cloud network. 16. A system for providing data security in a cloud network, the system comprising: an access engine, wherein the access engine is configured to: store data in a secure domain in a cloud network; create encryption keys, wherein each encryption key is to provide a different type of access to the data; and store the encryption keys in a secure domain key store in the cloud network. 17. The system of Claim 16, wherein each encryption key provides access to a different version of the data. 18. The system of any one of Claims 16 and 17, wherein a generator of the data creates the encryption keys and communicates the encryption keys to the access engine. 19. The system of any one of Claims 16 and 17, further comprising a counter engine, wherein the counter engine is configured to: store the location of each version of the data in the cloud network. 20. The system of any one of Claims 16 and 17, wherein the counter engine is located in a second secure domain that is separate from the secure domain where the data is stored.",
+  "classifications": {
+    "ipc": [
+      "H04L 9/00",
+      "H04L 9/08",
+      "H04L 9/0816",
+      "G06F 21/00",
+      "G06F 21/60",
+      "G06F 21/62",
+      "G06F 21/6218",
+      "H04L 63/00",
+      "H04L 63/06",
+      "H04L 9/0861",
+      "H04L 9/088",
+      "H04L 9/0894",
+      "H04L 9/14"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 9/00",
+      "H04L 9/08",
+      "H04L 9/0816",
+      "G06F 21/00",
+      "G06F 21/60",
+      "G06F 21/62",
+      "G06F 21/6218",
+      "H04L 63/00",
+      "H04L 63/06",
+      "H04L 9/0861",
+      "H04L 9/088",
+      "H04L 9/0894",
+      "H04L 9/14"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018005384"
+}

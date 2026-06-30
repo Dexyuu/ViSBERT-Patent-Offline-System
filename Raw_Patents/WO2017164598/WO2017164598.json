@@ -1,0 +1,33 @@
+{
+  "application_id": "WO2017164598",
+  "application_id_fs": null,
+  "title": "Wireless power transmission system using multiple coils",
+  "abstract": "A wireless power transmission system using multiple coils comprises a transmitter; and a receiver, wherein the transmitter includes a module for receiving a predetermined voltage, and a primary coil for generating a primary resonance frequency in accordance with the received voltage. The receiver spaced apart from the transmitter includes a load for emitting light, capacitors connected in series or in parallel in accordance with an equivalent resistance of the load, and a secondary coil for generating a secondary resonance frequency greater than the primary resonance frequency.",
+  "claims": "Claims ( 10 ) A wireless power transmission system using multiple coils, comprising: a transmitter; and a receiver, wherein the transmitter includes: a module for receiving a predetermined voltage, and a primary coil for generating a primary resonance frequency in accordance with the received voltage, and wherein the receiver, spaced apart from the transmitter, includes: a load for emitting light, capacitors connected in series or in parallel in accordance with an equivalent resistance of the load, and a secondary coil for generating a secondary resonance frequency greater than the primary resonance frequency. The wireless power transmission system according to claim 1, wherein: the secondary coil and the capacitors are connected with each other in series if the equivalent resistance of the load is less than a predetermined first threshold value, the secondary coil and the capacitors are connected with each other in parallel if the equivalent resistance of the load exceeds a predetermined second threshold value, the second threshold value being greater than the first threshold value, and the capacitors are comprised of two capacitors and respectively connected with the secondary coil in series and in parallel if the equivalent resistance of the load is the predetermined first threshold value or more and the predetermined second threshold value or less. The wireless power transmission system according to claim 1, wherein the secondary resonance frequency is twice or more than the primary resonance frequency. The wireless power transmission system according to claim 1, wherein the module included in the transmitter includes an inverter for converting a DC power to an AC power and supplying the converted AC power to the primary coil. The wireless power transmission system according to claim 4, wherein the module controls the inverter by using the secondary resonance frequency. The wireless power transmission system according to claim 4, wherein the module starts to be driven at a frequency higher than the secondary resonance frequency, continuously receives the predetermined voltage if an operation point is detected while the frequency is lowered to reach the secondary resonance frequency, and stops reception of the predetermined voltage if the operation point is not detected while the frequency is lowered to reach the secondary resonance frequency. The wireless power transmission system according to claim 6, wherein the operation point includes at least one of a case that a phase difference between a current applied to the primary coil and a frequency for driving the inverter corresponds to a specific phase difference and a case that a current applied to the inverter corresponds to a specific current value. The wireless power transmission system according to claim 1, wherein the wireless power transmission system is included in a refrigerator, the receiver corresponds to a rack which is detachably provided inside the refrigerator, the transmitter is arranged at a side of the refrigerator spaced apart from the rack at a predetermined distance, and the load corresponds to a light emitting diode (LED). The wireless power transmission system according to claim 8, wherein the module receives the predetermined voltage if opening of a door of the refrigerator is sensed, and stops reception of the predetermined voltage if closing of a door of the refrigerator is sensed. The wireless power transmission system according to claim 1, wherein at least one of the primary coil and the secondary coil includes Mn-Zn based ferrite.",
+  "classifications": {
+    "ipc": [
+      "H02J 50/12",
+      "F25D 23/02",
+      "F25D 25/02",
+      "F25D 29/00",
+      "H01F 38/14",
+      "H01F 5/00",
+      "H02J 50/60",
+      "H02J 7/02",
+      "H02M 7/48"
+    ],
+    "cpc": [],
+    "all": [
+      "H02J 50/12",
+      "F25D 23/02",
+      "F25D 25/02",
+      "F25D 29/00",
+      "H01F 38/14",
+      "H01F 5/00",
+      "H02J 50/60",
+      "H02J 7/02",
+      "H02M 7/48"
+    ],
+    "source": "csv"
+  }
+}

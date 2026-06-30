@@ -1,0 +1,22 @@
+{
+  "title": "Alert management in data processing systems",
+  "abstract": "Several aspects are provided for dynamically updating an alert-management system that uses a master ruleset to match alerts in a data processing system with automata for handling the alerts. A method comprises training a machine learning model to correlate the alerts with the automata using a training dataset comprising alerts which were successfully handled by the automata. The machine learning model is then applied to correlate unmatched alerts with the automata, wherein the unmatched alerts were not matched to the automata by the master ruleset. The method further comprises analyzing operation of the machine learning model in relation to correlation of the unmatched alerts to define a new ruleset for matching the unmatched alerts with the automata and outputting the new ruleset for auditing of each rule in the new ruleset. In response to approval of an audited rule, the audited rule is added to the master ruleset.",
+  "claims": "1. A computer-implemented method for dynamically updating a master ruleset used by an alert management system that matches alerts in a data processing system with automated processes (“automata”) for handling the alerts, the method comprising: training, by one or more processors, a machine learning model to correlate the alerts with the automata using a training dataset comprising matched alerts successfully handled by the automata, wherein the automata includes archiving logs in response to capacity alerts and removing zombie processes, wherein the machine learning model comprises a tree-ensemble model; applying, by the one or more processors, the machine learning model to correlate unmatched alerts with the automata, wherein the unmatched alerts were not matched to the automata by the master ruleset; responsive to exceeding a number of unmatched alerts, analyzing, by the one or more processors, an operation of the machine learning model in relation to correlation of the unmatched alerts, further comprising: generating, by the one or more processors, a new tree based on features of paths through trees in the tree-ensemble model via which the unmatched alerts were correlated with the automata, wherein the new tree defines the new ruleset; and pruning, by the one or more processors, the paths in dependance on a number on unmatched alerts correlated with automata via respective paths while retaining the paths with a higher number of unmatched alerts; based on the analyzing, defining, by the one or more processors, a new ruleset for matching the unmatched alerts with the automata; outputting, by the one or more processors, the new ruleset in a graphical user interface for auditing of each rule in the new ruleset; responsive to approval of an audited rule of the new ruleset, adding, by the one or more processors, the audited rule to the master ruleset; and responsive to matching the automata, deploying, by one or more processors, the automata.",
+  "patent_id": "US12380342-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 5/04",
+      "G06F 16/2379",
+      "G06N 5/01",
+      "G06N 20/20"
+    ],
+    "all": [
+      "G06N 5/04",
+      "G06F 16/2379",
+      "G06N 5/01",
+      "G06N 20/20"
+    ],
+    "source": "converted"
+  }
+}

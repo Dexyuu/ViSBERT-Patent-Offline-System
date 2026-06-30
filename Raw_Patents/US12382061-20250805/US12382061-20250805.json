@@ -1,0 +1,22 @@
+{
+  "title": "Predictive and residual coding of sparse signals for weight update compression",
+  "abstract": "An apparatus comprising: at least one processor; and at least one non-transitory memory storing instructions that, when executed by the at least one processor, cause the apparatus at least to: receive a signal, the signal comprising a sparse signal; perform residual coding on the signal; perform predictive coding on the signal; determine a residual, the residual comprising a residual of the signal and a base signal or a residual of an approximation and the base signal, the approximation being an approximation of the signal; and determine whether to transmit the residual or the signal over a communication channel.",
+  "claims": "1. An apparatus comprising: at least one processor; and at least one memory storing instructions that, when executed by the at least one processor, cause the apparatus at least to: receive a signal, the signal comprising a sparse signal; perform residual coding on the signal; perform predictive coding on the signal; determine a residual, the residual comprising a residual of the signal and a base signal or a residual of an approximation and the base signal, the approximation being an approximation of the signal; determine whether to transmit the residual or the signal over a communication channel; determine a first signal value based on a signal fitness of the signal, or determine the first signal value based on a rate distortion analysis of the residual and the signal; determine a second signal value based on a signal fitness of the residual, or determine the second signal value based on the rate distortion analysis of the residual and the signal; compare the first signal value to the second signal value; wherein the determining of whether to transmit the signal or the residual over the communication channel is based on the comparison of the first signal value to the second signal value; determine whether to select a lossless path, the lossless path being when an element does not affect bitstream accuracy; in response to selecting the lossless path, the first signal value is determined based on the signal fitness of the signal, and the second signal value is determined based on the signal fitness of the residual; and in response to not selecting the lossless path, the first signal value is determined based on the rate distortion analysis of the residual and the signal, and the second signal value is determined based on the rate distortion analysis of the residual and the signal.",
+  "patent_id": "US12382061-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/147",
+      "H04N 19/105",
+      "H04N 19/12",
+      "H04N 19/50"
+    ],
+    "all": [
+      "H04N 19/147",
+      "H04N 19/105",
+      "H04N 19/12",
+      "H04N 19/50"
+    ],
+    "source": "converted"
+  }
+}

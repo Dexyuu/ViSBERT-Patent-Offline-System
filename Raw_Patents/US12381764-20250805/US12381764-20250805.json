@@ -1,0 +1,26 @@
+{
+  "title": "Method and device for quantizing data representative of a radio signal received by a radio antenna of a mobile network",
+  "abstract": "A method for quantizing data representative of a radio signal received by a radio antenna of a mobile network. The method includes: demodulating the radio signal received by the antenna, providing a demodulated signal; scalar quantizing each value of the demodulated signal using a quantization table selected according to a channel coding level used to transmit the radio signal, providing a quantized demodulated signal; and transmitting the quantized demodulated signal to a channel decoding module.",
+  "claims": "1. A method implemented by a device of a mobile network and comprising: receiving a radio signal from a radio antenna of the mobile network; demodulating said radio signal received by said antenna, providing a demodulated signal; performing a scalar quantization of each value of said demodulated signal using a quantization table selected according to a channel coding level used to transmit said radio signal, providing a quantized demodulated signal; transmitting said quantized demodulated signal to a channel decoding module; and before performing the scalar quantization, determining, for each channel coding level, at least one scalar quantization table from a set of learning radio signals, wherein the determining said at least one scalar quantization table comprises: estimating a distribution of an absolute value of the values of the demodulated radio signal, and, for at least one quantization level corresponding to a representation of the quantized values of the demodulated signal quantized on a determined number of bits, calculating quantization intervals from said estimated distribution, each quantization interval comprising a same number of values of the demodulated radio signal.",
+  "patent_id": "US12381764-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 25/4927",
+      "H03M 1/007",
+      "H04L 1/0002",
+      "H04L 1/0006",
+      "H04L 1/0045",
+      "H04L 1/0075"
+    ],
+    "all": [
+      "H04L 25/4927",
+      "H03M 1/007",
+      "H04L 1/0002",
+      "H04L 1/0006",
+      "H04L 1/0045",
+      "H04L 1/0075"
+    ],
+    "source": "converted"
+  }
+}

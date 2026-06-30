@@ -1,0 +1,16 @@
+{
+  "title": "Storage circuit, chip, data processing method, and electronic device",
+  "abstract": "A storage circuit, a chip, a data processing method, and an electronic device are disclosed. The storage circuit includes: an input control circuit and a memory. The input control circuit is configured to: receive n input data and an input control signal; perform first data processing on the n input data based on the input control signal to obtain n intermediate data corresponding to the n input data one by one; and write the n intermediate data and a sign signal corresponding to the n input data into the memory; the memory is configured to store the n intermediate data and the sign signal; different values of the sign signal respectively represent different processing processes of the first data processing, and n is a positive integer.",
+  "claims": "1. A storage circuit, comprising: an input control circuit, a memory, and an output control circuit, the input control circuit is configured to perform first data processing on n input data based on input control signal to obtain n intermediate data corresponding to the n input data one by one; the memory is configured to store the n intermediate data and the sign signal, wherein the sign signal comprises a sequence of values, different values in the sign signal respectively represent different types of data processing, n is a positive integer, and the memory comprises an output data interface; and the output control circuit is configured to perform second data processing on the n intermediate data based on the sign signal to obtain n output data corresponding to the n intermediate data one by one, wherein the output control circuit comprises n output sub-circuits corresponding to the n intermediate data one by one, the output data interface comprises n output data bits corresponding to the n output sub-circuits one by one, and for each output sub-circuit of the n output sub-circuits, a first input terminal of the output sub-circuit is connected to an output data bit in the output data interface corresponding to the output sub-circuit to receive intermediate data corresponding to the output sub-circuit, a second input terminal of the output sub-circuit receives the sign signal, an output terminal of the output sub-circuit outputs output data corresponding to the intermediate data, and the output sub-circuit is configured to perform second data processing on the intermediate data based on the sign signal to obtain the output data corresponding to the intermediate data.",
+  "patent_id": "US12380025-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 12/0802"
+    ],
+    "all": [
+      "G06F 12/0802"
+    ],
+    "source": "converted"
+  }
+}

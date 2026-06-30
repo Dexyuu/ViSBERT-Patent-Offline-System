@@ -1,0 +1,22 @@
+{
+  "title": "Method and system or device for recognizing an object in an electronic image",
+  "abstract": "A method is provided for machine vision and image analysis for recognizing an object in an electronic image, which is captured with the aid of an optical sensor. A reference image of the object to be recognized is trained during a learning phase and compared with the image of the scene during a working phase, the pattern comparison between the object and the scene takes place with the aid of a modified census transform, using a determination of maximum and which must exceed a threshold value for a positive statement on a degree of correspondence.",
+  "claims": "1. A method for machine vision and image analysis for recognizing an object in an electronic image, in which a scene is captured with the aid of an optical sensor and an electronic image of the scene is generated, and the electronic image of the scene is checked for the presence of the object with the aid of a correlation method, in that the electronic image of the scene is compared with a reference image of the object using the correlation method, the method comprising: transforming, in a learning phase, a reference image of the object to be recognized via a modified census transform and binarizing the reference image, in that pixels of the transformed reference image are compared with a mean value of the transformed reference image formed from these pixels, and the value of a pixel is set to 1 if it is greater than the mean value and is set to 0 if it is less than the mean value; and storing the result of the transformation in a transformed, binarized reference vector; capturing, in a working phase, an image of a scene via an optical sensor that is to be checked for a presence of the object to be recognized; transforming the image of the scene or image sections of the image via a modified census transform and binarizing such that pixels of the transformed image or image section are compared with the mean value of the transformed image or image section formed from these pixels, the value of a pixel being set to 1 if it is greater than the mean value and being set to 0 if it is less than the mean value; and comparing the results of this scene transformation as transformed, binarized scene vectors with the transformed binarized reference vector, in that Hamming distances between the transformed, binarized scene vectors and the transformed, binarized reference vector are determined as a measure of the correspondence, and the transformed, binarized scene vector is determined which has the highest correspondence with the transformed, binarized reference vector; and classifying the object to be recognized as having been recognized in the scene if the degree of the correspondence of the transformed, binarized scene vector having the highest correspondence with the transformed, binarized reference vector exceeds a predefined threshold value.",
+  "patent_id": "US12380672-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/753",
+      "G06V 10/26",
+      "G06V 10/764",
+      "G06V 10/774"
+    ],
+    "all": [
+      "G06V 10/753",
+      "G06V 10/26",
+      "G06V 10/764",
+      "G06V 10/774"
+    ],
+    "source": "converted"
+  }
+}

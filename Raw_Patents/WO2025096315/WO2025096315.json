@@ -1,0 +1,34 @@
+{
+  "application_id": "WO2025096315",
+  "application_id_fs": "WO2025096315",
+  "title": "Managing lower layer triggered mobility configuration and reconfiguration",
+  "abstract": "Network nodes, such as distributed units (DUs) and central units (CUs) of distributed base stations, perform methods for managing lower layer triggered mobility configuration and reconfiguration. An example method, performed by a DU, includes: communicating, with a user equipment (UE), using a serving DU configuration; transmitting, to the CU, a first lower layer triggered mobility (LTM) DU configuration for the UE; receiving, from the CU, radio resource information; and generating, based on the radio resource information and the first LTM DU configuration, a second LTM DU configuration.",
+  "claims": "Claims What is claimed is: 1. A method implemented in a distributed unit (DU) communicatively coupled with a central unit (CU) and operating in a distributed base station, the method comprising: communicating, with a user equipment (UE), using a serving DU configuration; transmitting, to the CU, a first lower layer triggered mobility (LTM) DU configuration for the UE; receiving, from the CU, radio resource information; and generating, based on the radio resource information and the first LTM DU configuration, a second LTM DU configuration. 2. The method of claim 1, wherein the serving DU configuration is a first serving DU configuration, the method further comprising: generating a second serving DU configuration. 3. The method of claim 2, further comprising: transmitting the second serving DU configuration and the second LTM DU configuration to the CU. 4. The method of claim 2, further comprising: determining, based on a CU-to-DU message in which the radio resource information was received, whether to update the first LTM DU configuration in response to the receiving the CU-to-DU message. 5. The method of claim 4, wherein the determining includes: determining to update the first LTM DU configuration when the CU-to-DU message includes LTM information; and determining to refrain from updating the first LTM DU configuration when the CU- to-DU message does not include the LTM information. 6. The method of any of claims 1-4, further comprising: receiving, from the CU, LTM information; wherein the generating of the second LTM DU configuration is further based on the LTM information. 7. The method of any one of claims 1-4, wherein a CU-to-DU message that includes the radio resource information excludes LTM information. 8. The method of claim 1, wherein: the radio resource information is received in a first CU-to-DU message; the method further comprising: transmitting, to the CU and in response to the first CU-to-DU message, the serving DU configuration; receiving, from the CU, a second CU-to-DU message including LTM information; wherein the generating of the second LTM DU configuration based on the radio resource information is in response to determining that the second CU-to-DU message does not include a second radio resource information. 9. A method implemented in a central unit (CU) of a distributed base station that also includes a distributed unit (DU), the method comprising: receiving, from the DU, a serving DU configuration for a user equipment (UE); performing a UE context setup procedure with the DU for the UE; receiving, while performing the UE context setup procedure, an LTM DU configuration for the UE from the DU; and transmitting, to the UE, the serving DU configuration. 10. The method of claim 9, wherein the transmitting includes: transmitting, to the UE via the DU, the serving DU configuration. 11. The method of claim 9, wherein the transmitting includes: transmitting, to the UE via a radio access network (RAN) node other than the DU, the serving DU configuration. 12. The method of any one of claims 9-11, wherein the UE context setup procedure is a second UE context setup procedure, the method further comprising: performing a first UE context setup procedure with the DU for the UE; \n\n wherein the receiving of the serving DU configuration occurs while performing the first UE context procedure. 13. The method of any one of claims 9-11, further comprising: transmitting, to the UE, the LTM DU configuration. 14. The method of claim 13, wherein the transmitting the LTM DU configuration includes: transmitting, to the UE via the DU, the LTM DU configuration. 15. The method of claim 13, wherein the transmitting the LTM DU configuration includes: transmitting, to the UE via a radio access network (RAN) node other than the DU, the LTM DU configuration. 16. An apparatus comprising at least a transceiver and processing hardware configured to implement a method according to any one of the preceding claims. I l l",
+  "classifications": {
+    "ipc": [
+      "H04W 36/00",
+      "H04W 36/08",
+      "H04W 36/087",
+      "H04W 36/0005",
+      "H04W 36/0055",
+      "H04W 36/0069",
+      "H04W 88/00",
+      "H04W 88/08",
+      "H04W 88/085"
+    ],
+    "cpc": [],
+    "all": [
+      "H04W 36/00",
+      "H04W 36/08",
+      "H04W 36/087",
+      "H04W 36/0005",
+      "H04W 36/0055",
+      "H04W 36/0069",
+      "H04W 88/00",
+      "H04W 88/08",
+      "H04W 88/085"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025096315"
+}

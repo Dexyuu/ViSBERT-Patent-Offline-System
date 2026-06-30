@@ -1,0 +1,38 @@
+{
+  "application_id": "WO2018022394",
+  "application_id_fs": "WO2018022394",
+  "title": "Roaming to share a communication channel",
+  "abstract": "A computing device is able to communicate wirelessly with other devices using different types of wireless networks, such as infrastructure networks and peer-to-peer networks. Situations can arise in which a computing device is connected to different types of networks at the same time. In such situations a check is made as to whether the computing device can connect to a first of the wireless networks using the same channel as is used by the computing device to connect to a second of the wireless networks. If so, then the computing device connects to the first wireless network using the same channel as is used by the computing device to connect to the second wireless network, resulting in the computing device sharing the same channel for the multiple wireless networks.",
+  "claims": "Claims Claims 1. A method implemented in a computing device, the method comprising: determining that the computing device is connected to a first wireless network; determining that the computing device is connected to a second wireless network; identifying one of multiple channels of the second wireless network that the computing device is using to connect to the second wireless network; determining whether the computing device can connect to the first wireless network using the one channel without communicating with another device on the first wireless network for the other device to change to using the one channel; and connecting, in response to determining that the computing device can connect to the first wireless network using the one channel, the computing device to the first wireless network using the one channel. 2. The method as recited in claim 1, the first wireless network comprising an infrastructure network. 3. The method as recited in claim 2, the infrastructure network including multiple access points, at least two of the multiple access points transmitting and receiving signals using different channels. 4. The method as recited in any one of claims 1 to 3, the second wireless network comprising a peer-to-peer network. 5. The method as recited in any one of claims 1 to 4, further comprising repeating at regular or irregular intervals, in response to determining that the computing device cannot connect to the first wireless network using the one channel, determining whether the computing device can connect to the first wireless network using the one channel. 6. The method as recited in any one of claims 1 to 5, the determining whether the computing device can connect to the first wireless network using the one channel comprising determining whether an access point of the first wireless network is within communication range of the computing device and is transmitting and receiving signals on the one channel. 7. The method as recited in claim 6, the determining whether the computing device can connect to the first wireless network using the one channel further comprising determining whether signals received from the access point are at least a threshold signal strength. 8. The method as recited in any one of claims 1 to 7, the determining whether the computing device can connect to the first wireless network using the one channel \n\n comprising determining whether the computing device can connect to the first wireless network without receiving a notification or request from another device on the first wireless network to switch to the one channel. 9. The method as recited in any one of claims 1 to 8, further comprising connecting, in response to determining that the computing device cannot connect to the first wireless network using the one channel, the computing device to the first wireless network using another channel resulting in improved capacity of data transmission on the first wireless network and/or the second wireless network. 10. A computing device comprising: a transceiver configurable to transmit and receive signals on any of multiple different channels; and a wireless channel management system including a shared channel determination module and a channel switching module, the shared channel determination module configured to determine that the computing device is connected to both a first wireless network and a second wireless network, to identify one of the multiple different channels the computing device is using to connect to the second wireless network, and to determine whether the computing device can connect to the first wireless network using the one channel without communicating with another device on the first wireless network for the other device to change to using the one channel, the channel switching module configured to, in response to the shared channel determination module determining that the computing device can connect to the first wireless network using the one channel, coordinate with the transceiver for the computing device to connect the first wireless network using the one channel. 11. The computing device as recited in claim 10, the first wireless network comprising an infrastructure network. 12. The computing device as recited in claim 10 or claim 11, the second wireless network comprising a peer-to-peer network. 13. The computing device as recited in any one of claims 10 to 12, the shared channel determination module further configured to repeat at regular or irregular intervals, in response to determining that the computing device cannot connect to the first wireless network using the one channel, determining whether the computing device can connect to the first wireless network using the one channel. 14. The computing device as recited in any one of claims 10 to 13, wherein to determine whether the computing device can connect to the first wireless network using \n\n the one channel is to determine whether an access point of the first wireless network is within communication range of the computing device and is transmitting and receiving signals on the one channel. 15. The computing device as recited in any one of claims 10 to 14, wherein to determine whether the computing device can connect to the first wireless network using the one channel is to determine whether the computing device can connect to the first wireless network without receiving a notification or request from another device on the first wireless network to switch to the one channel.",
+  "classifications": {
+    "ipc": [
+      "H04L 67/00",
+      "H04L 67/01",
+      "H04L 67/10",
+      "H04L 67/104",
+      "H04W 76/00",
+      "H04W 76/10",
+      "H04W 76/15",
+      "H04W 76/14",
+      "H04W 88/00",
+      "H04W 88/02",
+      "H04W 88/06"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 67/00",
+      "H04L 67/01",
+      "H04L 67/10",
+      "H04L 67/104",
+      "H04W 76/00",
+      "H04W 76/10",
+      "H04W 76/15",
+      "H04W 76/14",
+      "H04W 88/00",
+      "H04W 88/02",
+      "H04W 88/06"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018022394"
+}

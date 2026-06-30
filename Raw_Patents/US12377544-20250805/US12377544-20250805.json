@@ -1,0 +1,28 @@
+{
+  "title": "Redundant robot power and communication architecture",
+  "abstract": "An electronic circuit for a surgical robotic system includes a central power node, a first voltage bus that electrically couples a first power source to the node, a second voltage bus that electrically couples a second power source to the node, and several robotic arms, each arm is electrically coupled to the node via an output circuit breaker and is arranged to draw power from the node. Each bus is arranged to provide power from a respective power source to the node and each bus has an input circuit breaker that is arranged to limit a first output current flow from the node and into the bus. Each breaker that is arranged to limit a second output current flow from the node and into a respective arm. A breaker is arranged to open in response to a fault occurring within the respective arm, while the other breakers remain closed.",
+  "claims": "1. A surgical robotic system comprising: a robotic component; and a redundant power architecture that manages and distributes power from a first power source and a second power source to the robotic component, the redundant power architecture comprising: a circuit breaker coupled to the first power source, the second power source, and the robotic component, a first controller and a second controller, and a logic circuit that communicatively couples the circuit breaker to the first controller and the second controller, wherein the redundant power architecture is configured to: distribute power from at least one of the first power source and the second power source to the robotic component responsive to one of the first controller and the second controller signaling the logic circuit to cause the circuit breaker to remain closed, and cease distribution of power from the at least one of the first power source and the second power source to the robotic component responsive to both of the first controller and the second controller signaling the logic circuit to cause the circuit breaker to open.",
+  "patent_id": "US12377544-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B25J 9/1682",
+      "A61B 34/30",
+      "B25J 9/0084",
+      "B25J 9/161",
+      "H02H 7/00",
+      "H02H 7/0856",
+      "A61B 2017/00477"
+    ],
+    "all": [
+      "B25J 9/1682",
+      "A61B 34/30",
+      "B25J 9/0084",
+      "B25J 9/161",
+      "H02H 7/00",
+      "H02H 7/0856",
+      "A61B 2017/00477"
+    ],
+    "source": "converted"
+  }
+}

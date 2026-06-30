@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2018009734",
+  "application_id_fs": "WO2018009734",
+  "title": "Engine performance modeling based on wash events",
+  "abstract": "One example aspect of the present disclosure is directed to a method for measuring engine performance. The method includes receiving first parameters related to engine performance prior to an engine wash event. The method includes receiving second parameters related to engine performance after the engine wash event. The method includes determining an engine performance prior to the engine wash event based on the first parameters. The method includes determining an engine performance after the engine wash event based on the second parameters. The method includes determining an effectiveness of the engine wash event based on the engine performance prior to the engine wash event and the engine performance after the engine wash event.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1 A system comprising: one or more memory devices; and one or more processors configured to: receive first parameters related to engine performance prior to an engine wash event; receive second parameters related to engine performance after the engine wash event; determine an engine performance prior to the engine wash event based on the first parameters; determine an engine performance after the engine wash event based on the second parameters; and determine an effectiveness of the engine wash event based on the engine performance prior to the engine wash event and the engine performance after the engine wash event. 2. The system of claim 1, wherein the one or more processors are further configured to: receive third parameters related to engine performance prior to a second engine wash event; receive fourth parameters related to engine performance after the second engine wash event; determine an engine performance prior to the second engine wash event based on the third parameters; determine an engine performance after the second engine wash event based on the fourth parameters; and determine an effectiveness of the second engine wash event based on the engine performance prior to the second engine wash event and the engine performance after the second engine wash event. 3. The system of claim 2, wherein the one or more processors are further configured to model the effectiveness of engine wash events based, at least in part, on the effectiveness of the first engine wash event and the effectiveness of the second engine wash event. 4. The system of claim 2, wherein the one or more processors are further configured to model the effectiveness of engine wash events based, at least in part, on the effectiveness of the first engine wash event. 5. The system of claim 4 wherein the one or more processors are further configured to revise the model based, at least in part, on the effectiveness of the second engine wash event. 6. The system of claim 1, wherein the one or more processors are further configured to receive one or more engine wash event attributes. 7. The system of claim 6, wherein determining an effectiveness of the engine wash event further comprises categorizing the engine wash event into at least one category based, at least in part, on the one or more engine wash event attributes. 8. The system of claim 7, wherein the one or more engine wash event attributes comprise one or more of the following: a wash date, a wash time, a wash station, a washer, a washer skill level, a worker experience level, a worker training level, a number of washers, an engine, a fleet, a number of wash cycles, a total dissolved solvents measurement at each cycle, a total suspended solvents measurement at each cycle, a number of rinses, a total dissolved solids, or an equipment type. 9. The system of claim 1, wherein determining an engine performance prior to the engine wash event based on the first parameters further comprises generating a first regression line based on a first scatter plot, wherein one or more of the first parameters are used to create at least one point in the first scatter plot. 10. The system of claim 9, wherein determining an engine performance after the engine wash event based on the second parameters further comprises generating a second regression line based on a second scatter plot, wherein one or more of the second parameters are used to create at least one point in the second scatter plot. 11. The system of claim 10, wherein determining an effectiveness of the engine wash event further comprises comparing the first regression line with the second regression line. 12. The system of claim 9, wherein generating a first regression line based on a first scatter plot further comprises removing one or more outlier points from the first scatter plot. 13. The system of claim 1, wherein the first parameters comprises at least one of: an Exhaust Gas Temperature, an Exhaust Gas Temperature Hot Day Margin, fuel bum, or modular efficiency. 14. A method for measuring engine performance comprising: receiving, by one or more computing devices, first parameters related to engine performance prior to an engine wash event; receiving, by the one or more computing devices, second parameters related to engine performance after the engine wash event; determining, by the one or more computing devices, an engine performance prior to the engine wash event based on the first parameters; determining, by the one or more computing devices, an engine performance after the engine wash event based on the second parameters; and determining, by the one or more computing devices, an effectiveness of the engine wash event based on the engine performance prior to the engine wash event and the engine performance after the engine wash event. 15. The method of claim 14, comprising: receiving, by the one or more computing devices, third parameters related to engine performance prior to a second engine wash event; receiving, by the one or more computing devices, fourth parameters related to engine performance after the second engine wash event; determining, by the one or more computing devices, an engine performance prior to the second engine wash event based on the third parameters; determining, by the one or more computing devices, an engine performance after the second engine wash event based on the fourth parameters; and determining, by the one or more computing devices, an effectiveness of the second engine wash event based on the engine performance prior to the second engine wash event and the engine performance after the second engine wash event. 16. The method of claim 15, further comprising modeling the effectiveness of engine wash events based, at least in part, on the effectiveness of the first engine wash event and the effectiveness of the second engine wash event. 17. The method of claim 15, further comprising modeling the effectiveness of engine wash events based, at least in part, on the effectiveness of the first engine wash event. 18. The method of claim 17, further comprising revising the model based, at least in part, on the effectiveness of the second engine wash event. 19. The method of claim 14, further comprising receiving one or more engine wash event attributes. An aerial vehicle comprising: one or more memory devices; and one or more processors configured to: receive first parameters related to engine performance prior to an engine wash event; receive second parameters related to engine performance after the engine wash event; determine an engine performance prior to the engine wash event based on the first parameters; determine an engine performance after the engine wash event based on the second parameters; and determine an effectiveness of the engine wash event based on the engine performance prior to the engine wash event and the engine performance after the engine wash event.",
+  "classifications": {
+    "ipc": [
+      "G06Q 10/00",
+      "G06Q 10/06",
+      "G01M 15/00",
+      "G01M 15/04",
+      "G01M 15/10",
+      "G01M 15/102",
+      "F01D 25/00",
+      "F01D 25/002",
+      "F02C 3/00",
+      "F02C 3/04",
+      "F05D 2220/00",
+      "F05D 2220/30",
+      "F05D 2220/32",
+      "F05D 2220/323",
+      "F05D 2270/00",
+      "F05D 2270/30",
+      "F05D 2270/303"
+    ],
+    "cpc": [],
+    "all": [
+      "G06Q 10/00",
+      "G06Q 10/06",
+      "G01M 15/00",
+      "G01M 15/04",
+      "G01M 15/10",
+      "G01M 15/102",
+      "F01D 25/00",
+      "F01D 25/002",
+      "F02C 3/00",
+      "F02C 3/04",
+      "F05D 2220/00",
+      "F05D 2220/30",
+      "F05D 2220/32",
+      "F05D 2220/323",
+      "F05D 2270/00",
+      "F05D 2270/30",
+      "F05D 2270/303"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018009734"
+}

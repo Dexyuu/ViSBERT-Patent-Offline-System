@@ -1,0 +1,25 @@
+{
+  "application_id": "WO2016063795",
+  "application_id_fs": null,
+  "title": "Method for transforming a noisy speech signal to an enhanced speech signal",
+  "abstract": "A method transforms a noisy speech signal to an enhanced speech signal, by first acquiring the noisy speech signal from an environment. The noisy speech signal is processed by an automatic speech recognition system (ASR) to produce ASR features. The the ASR features and noisy speech spectral features are processed using an enhancement network having network parameters to produce a mask. Then, the mask is applied to the noisy speech signal to obtain the enhanced speech signal.",
+  "claims": "Claims [CLAIMS] [Claim 1] A method for transforming a noisy speech signal to an enhanced speech signal, comprising steps: acquiring the noisy speech signal from an environment; processing the noisy speech signal by an automatic speech recognition system (ASR) to produce ASR features; processing the ASR features and noisy speech spectral features using an enhancement network having network parameters to produce a mask; and applying the mask to the noisy speech signal to obtain the enhanced speech signal, wherein the steps are performed in a processor. [Claim 2] The method of claim 1 , wherein the enhancement network is a Deep Recurrent Neural Network (DRNN). [Claim 3] The method of claim 1, wherein the parameters are learned during training. [Claim 4] The method of claim 1 , wherein the enhanced speech is fed back to the ASR to update the ASR features, and iterating the processing the noisy speech signal, the processing the ASR features and noisy speech spectral features, and applying the mask until a termination condition is reached. [Claim 5] The method of claim 3, wherein the training further comprising: storing the noisy speech and of clean speech in a data base; \n\n determining an objective function that quantifies a difference between the enhanced speech and the clean speech; and minimizing the objective function during the training. [Claim 6] The method of claim 5, further comprising: performing joint recognition and enhancement on the noisy speech. [Claim 7] The method of claim 6, wherein the objective function for the enhancement is mask approximation (MA), magnitude spectrum approximation (MSA) or phase-sensitive spectrum approximation (PSA), and for the recognition task, the objective function is a a cross-entropy cost function. [Claim 8] The method of claim 7, wherein the enhanced speech and alignments from reference text are fed back as additional features to the enhancement network.",
+  "classifications": {
+    "ipc": [
+      "G10L 25/30",
+      "G10L 21/0208",
+      "G10L 25/03",
+      "G10L 21/0324",
+      "G06N 3/02"
+    ],
+    "cpc": [],
+    "all": [
+      "G10L 25/30",
+      "G10L 21/0208",
+      "G10L 25/03",
+      "G10L 21/0324",
+      "G06N 3/02"
+    ],
+    "source": "csv"
+  }
+}

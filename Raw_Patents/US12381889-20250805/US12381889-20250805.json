@@ -1,0 +1,24 @@
+{
+  "title": "Cloud environment security tool",
+  "abstract": "Various examples are directed to systems and a method for managing security at a public cloud platform deployment. A landscape service may determine a landscape score for an application instance executing at the public cloud platform deployment. An access frequency service may determine an access frequency score for the application instance. A last access service may determine a last access score for the application instance. The public cloud platform deployment may determine a total risk score for the application instance using the landscape score for the application instance, the access frequency score for the application instance, and the last access score for the application instance. Responsive to determining that the total risk score for the application instance is greater than a threshold value, an alert message may be sent to an administrative user account for the public cloud platform deployment.",
+  "claims": "1. A cloud security system, comprising: a public cloud platform deployment comprising one or more elements implemented by cloud hyperscaler hardware, the public cloud platform deployment executing an application instance for a first tenant of the public cloud platform deployment, the application instance comprising a landscape service, an access frequency service, and a last access service, the public cloud platform deployment being programmed to perform operations comprising: determining, by the landscape service, a plurality of landscape components to communicate with the application instance, the plurality of landscape components comprising at least one of a private cloud component or an on-premise component; determining, by the landscape service, a landscape score for the application instance, the landscape score describing the plurality of landscape components to communicate with the application instance; determining, by the access frequency service, an access frequency score for the application instance, the access frequency score based at least in part on access frequencies for a plurality of users of the first tenant; determining, by the last access service, a last access score for the application instance, the last access score based at least in part on last access times for the plurality of users; determining a total risk score for the application instance using the landscape score for the application instance, the access frequency score for the application instance, and the last access score for the application instance; and responsive to determining that the total risk score for the application instance is greater than a threshold value, sending an alert message to an administrative user account for the public cloud platform deployment.",
+  "patent_id": "US12381889-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1416",
+      "H04L 63/102",
+      "H04L 63/105",
+      "H04L 63/145",
+      "H04L 63/20"
+    ],
+    "all": [
+      "H04L 63/1416",
+      "H04L 63/102",
+      "H04L 63/105",
+      "H04L 63/145",
+      "H04L 63/20"
+    ],
+    "source": "converted"
+  }
+}

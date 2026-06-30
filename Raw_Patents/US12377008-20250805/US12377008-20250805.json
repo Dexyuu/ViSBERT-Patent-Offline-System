@@ -1,0 +1,26 @@
+{
+  "title": "Method for real-time adjustment of gait training parameter",
+  "abstract": "A method for real-time adjustment of gait training parameter includes steps: (a) collecting the muscle relaxation gait data of the first user measured during gait training in a muscle relaxation state and the active force output gait data of a first user measured during the gait training in the first user's active force output state, and establishing a standard motion model based on the ratio of the first user's active force output gait data to the first user's muscle relaxation gait data; (b) obtaining the muscle relaxation gait data of a second user in a state of muscle relaxation, and estimating the personalized training model by combining the muscle relaxation gait data of the second user with the standard motion model; (c) determining the second user meets the standard of the personalized training model, then adjusting the personalized training model, and providing an auxiliary training model.",
+  "claims": "1. A method for real-time adjustment of gait training parameter applicable to a gait training equipment, said gait training equipment comprising a sensing unit, a training unit and a control unit, said control unit being electrically connected to said sensing unit and said training unit and controlling the operation of said training unit, said method for real-time adjustment of gait training parameter comprising the steps of: (a) said sensing unit collects a muscle relaxation gait data of at least one first user measured during gait training in a muscle relaxation state and an active force output gait data of said at least one first user measured during the gait training in the first user's active force output state, and then said control unit establishes a standard motion model based on the ratio of the first user's active force output gait data to the first user's muscle relaxation gait data; (b) said control unit obtains a motion model of a second user, which comprises the muscle relaxation gait data of the second user measured during the gait training under the muscle relaxation state of the second user, then estimate at least one personalized training model by combining the second user's muscle relaxation gait data with said standard motion model; and (c) said control unit determines whether an actual training state of the second user conforms to the standard of said at least one personalized training model, and then adjusts said at least one personalized training model and provides an auxiliary training model, and the control unit is configured to control an output of the training unit to move the second user based on the auxiliary training model.",
+  "patent_id": "US12377008-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61H 1/0262",
+      "G16H 20/30",
+      "A61H 2201/5007",
+      "A61H 2201/5061",
+      "A61H 2201/5071",
+      "A61H 2230/605"
+    ],
+    "all": [
+      "A61H 1/0262",
+      "G16H 20/30",
+      "A61H 2201/5007",
+      "A61H 2201/5061",
+      "A61H 2201/5071",
+      "A61H 2230/605"
+    ],
+    "source": "converted"
+  }
+}

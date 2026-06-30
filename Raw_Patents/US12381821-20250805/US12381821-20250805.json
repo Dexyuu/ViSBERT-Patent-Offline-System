@@ -1,0 +1,18 @@
+{
+  "title": "Automatic policy configuration for packet flows",
+  "abstract": "Techniques are disclosed for providing automatic policy configuration for packet flows. For example, a computing device comprises a virtual node and one or more virtual execution elements coupled to the virtual node. The computing device may also comprise one or more processors configured to: receive a packet originating from an application workload hosted on the one or more virtual execution elements and destined for a remote destination device; determine the packet is part of a new packet flow; in response, configure, by a kernel of the computing device and without sending the packet to a user space of the computing device, a policy for a forward packet flow for the new packet flow; configure, by the kernel, a policy for a reverse packet flow associated with the forward packet flow; and send the packet toward the remote destination device in accordance with the policy for the forward packet flow.",
+  "claims": "1. A method comprising: receiving, by a computing device, a packet originating from an application workload and destined for a destination device; determining, by the computing device, the packet is part of a packet flow; determining, by the computing device, the application workload is locally hosted on the computing device; based on determining the packet is part of the packet flow and determining the application workload is locally hosted on the computing device, configuring, by a kernel of the computing device and without sending the packet to a user space of the computing device, a policy for a forward packet flow for the packet flow, wherein the policy for the forward packet flow is configured outside the user space by the kernel; and sending, by the computing device, the packet toward the destination device in accordance with the policy for the forward packet flow.",
+  "patent_id": "US12381821-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 45/745",
+      "H04L 45/38"
+    ],
+    "all": [
+      "H04L 45/745",
+      "H04L 45/38"
+    ],
+    "source": "converted"
+  }
+}

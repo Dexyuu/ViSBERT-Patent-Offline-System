@@ -1,0 +1,26 @@
+{
+  "title": "Power budget calculation using power headroom",
+  "abstract": "Methods and computer software are disclosed for determining a power budget for physical channels in a system. The method may include, obtaining a mean and variance of a previously computed power component; determining an estimate of a current power component in a current frame based on the mean and variance of the previously computed power component; and computing a power budget in a current frame using the estimate of the current power component.",
+  "claims": "1. A method for determining a power budget for physical channels in a downlink system, comprising: receiving, at a transmit processing chain of a base station in the downlink system, power data from a base station scheduler; obtaining a mean and a variance of a previously computed power component of at least one immediately previous frame; determining an estimate of a current power component in a current frame based on the mean and the variance of the previously computed power component, and a Gaussian probability distribution function; and computing a power budget in a current frame using the estimate of the current power component.",
+  "patent_id": "US12382401-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 52/246",
+      "H04W 52/241",
+      "H04W 72/0446",
+      "H04W 72/23",
+      "H04W 72/52",
+      "H04W 72/54"
+    ],
+    "all": [
+      "H04W 52/246",
+      "H04W 52/241",
+      "H04W 72/0446",
+      "H04W 72/23",
+      "H04W 72/52",
+      "H04W 72/54"
+    ],
+    "source": "converted"
+  }
+}

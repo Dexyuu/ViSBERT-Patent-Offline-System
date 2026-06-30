@@ -1,0 +1,18 @@
+{
+  "title": "Security rule matching over structurally deduplicated network data",
+  "abstract": "Various embodiments include systems and methods pertaining to a security service platform that detects security threats based on a security service that operates on structurally deduplicated network data. The security service performs a security analysis that includes rule matching to detect threats to a network, where the rule matching operates on the structurally deduplicated data. The security service may compile one or more rulesets into an executable binary that efficiently operates over the format of the structurally deduplicated data.",
+  "claims": "1. A method comprising: receiving, by one or more cloud services, structurally deduplicated data indicative of event data, wherein a format of the structurally deduplicated data is based on a structure of a data model used to store event data associated with network data; determining an executable file for rule matching, wherein the executable file is based on a compiled ruleset; identifying, using the executable file and based on a single rule matching a single instance of event data indicated by the structurally deduplicated data, one or more network events indicative of a cyberattack; in response to identifying that the one or more network events are indicative of the cyberattack; reconstructing, based on the structurally deduplicated data comprising deduplicated event data, an instance of a network event associated with the cyberattack; determining, based on the instance of the network event, one or more remediation operations; and generating an alert indicative of the cyberattack and the one or more remediation operations.",
+  "patent_id": "US12381892-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1416",
+      "H04L 63/20"
+    ],
+    "all": [
+      "H04L 63/1416",
+      "H04L 63/20"
+    ],
+    "source": "converted"
+  }
+}

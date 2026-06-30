@@ -1,0 +1,18 @@
+{
+  "title": "Systems and methods for training and modifying a computer-based model to perform classification",
+  "abstract": "Methods and systems are presented for a computer-based models enhancing by iteratively evaluating and modifying a computer-based model configured to perform data classifications. A model development system builds a computer-based model under an initial configuration. The model development system may evaluate the performance of the computer-based model under the initial configuration using a partial area under the curve technique. The model development system may re-configure the computer-based model under a different configuration. The different configuration may specify a different number of input parameters for the computer-based model, different input parameters, different hyper-parameters, and/or different weights assigned to the training data. The model development system may continue to re-configure the computer-based models under different configurations and evaluate the computer-based models under the different configurations to determine an optimal configuration for deploying the computer-based model.",
+  "claims": "1. A system, comprising: a non-transitory memory; and one or more hardware processors coupled with the non-transitory memory and configured to read instructions from the non-transitory memory to cause the system to perform operations comprising: configuring a machine learning model to perform data classifications using a first model configuration, wherein the first model configuration specifies a first number of input features; processing a set of data records using the machine learning model based on a plurality of cutoff values; generating a first graph comprising a first curve that represents a performance of the machine learning model with respect to the plurality of cutoff values based on the processing the set of data records; determining a first area in the first graph under a portion of the first curve; iteratively (i) modifying the machine learning model to include an increased number of input features, (ii) determining a performance of the modified machine learning model based on an area under a corresponding curve, and (iii) determining a performance comparison between the modified machine learning model and a previous iteration of the machine learning model, wherein the iteratively modifying is performed in a subsequent iteration when the performance comparison shows a first pattern and is aborted when the performance comparison shows a second pattern different from the first pattern; determining, for the machine learning model, a second model configuration based on the iteratively modifying the machine learning model, wherein the second model configuration specifies a second number of input features; re-configuring the modified machine learning model using the second model configuration; classifying, using the re-configured machine learning model, a transaction request as a legitimate transaction, a possible fraudulent transaction, or a fraudulent transaction; and processing the transaction request based on the classifying, wherein the processing the transaction comprises authorizing the transaction, denying the transaction, or requesting additional information from a device.",
+  "patent_id": "US12380358-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 20/00",
+      "G06N 5/04"
+    ],
+    "all": [
+      "G06N 20/00",
+      "G06N 5/04"
+    ],
+    "source": "converted"
+  }
+}

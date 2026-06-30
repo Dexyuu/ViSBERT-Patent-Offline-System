@@ -1,0 +1,28 @@
+{
+  "title": "Continuous surface and depth estimation",
+  "abstract": "Disclosed are systems, methods, and non-transitory computer-readable media for continuous surface and depth estimation. A continuous surface and depth estimation system determines the depth and surface normal of physical objects by using stereo vision limited within a predetermined window.",
+  "claims": "1. A method comprising: detecting a number of matching features within a first image and a second image that depict an object; determining the number of matching features is below a threshold value; identifying a known surface plane responsive to the determining that the number of matching features is below the threshold value; performing ray casting upon the known surface plane; determining a depth value for the object based on the ray casting; and causing presentation of media content based on the depth value.",
+  "patent_id": "US12380583-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/593",
+      "G06T 7/73",
+      "G06T 15/00",
+      "H04N 13/128",
+      "H04N 13/204",
+      "G06T 2207/10012",
+      "H04N 2013/0081"
+    ],
+    "all": [
+      "G06T 7/593",
+      "G06T 7/73",
+      "G06T 15/00",
+      "H04N 13/128",
+      "H04N 13/204",
+      "G06T 2207/10012",
+      "H04N 2013/0081"
+    ],
+    "source": "converted"
+  }
+}

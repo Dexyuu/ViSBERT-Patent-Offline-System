@@ -1,0 +1,28 @@
+{
+  "title": "Media aware content placement",
+  "abstract": "The disclosed computer-implemented method includes accessing cluster hardware information that identifies at least two different types of storage media within a cluster and provides an indication of a respective amount of data throughput for each identified type of storage media. The method next includes accessing popularity information for digital content that is to be stored in the cluster. The popularity information indicates how often the digital content is predicted to be accessed over a specified future period of time. The method also includes allocating the digital content on the different types of storage media within the cluster according to the popularity information. Accordingly, digital content predicted to have higher popularity is placed on storage media types with higher throughput amounts, and digital content predicted to have lower popularity is placed on storage media types with lower throughput amounts. Various other methods, systems, and computer-readable media are also disclosed.",
+  "claims": "1. A computer-implemented method comprising: accessing real-time usage information that indicates, for a plurality of different digital content items that have been allocated to a data storage cluster, how often each digital content item is being requested and served by the data storage cluster; accessing current cluster hardware information that identifies at least two different types of storage media within the data storage cluster and provides an indication of a respective amount of data throughput capability for each identified type of storage media; and reallocating the digital content items on the at least two different types of storage media within the data storage cluster according to the real-time usage information, in a manner that is proportionate to the data throughput capability of the at least two different types of storage media, such that a determined percentage of the digital content items proportional to the throughput capability of a first, higher-throughput media type is maintained on the first media type and a second determined percentage proportional to the throughput capability of a second, lower-throughput media type is maintained on the second media type.",
+  "patent_id": "US12382109-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/23103",
+      "G06F 3/0613",
+      "G06F 3/0647",
+      "G06F 3/0688",
+      "G06F 3/0689",
+      "H04N 21/2181",
+      "H04N 21/2312"
+    ],
+    "all": [
+      "H04N 21/23103",
+      "G06F 3/0613",
+      "G06F 3/0647",
+      "G06F 3/0688",
+      "G06F 3/0689",
+      "H04N 21/2181",
+      "H04N 21/2312"
+    ],
+    "source": "converted"
+  }
+}

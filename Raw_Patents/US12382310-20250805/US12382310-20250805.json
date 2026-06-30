@@ -1,0 +1,20 @@
+{
+  "title": "Optimization of long term evolution/fifth generation service through conformity-based recommendations",
+  "abstract": "A method performed by a processing system including at least one processor includes grouping a plurality of nodes of a telecommunications network into a plurality of reference groups, based on a plurality of configuration attributes and on a plurality of load, mobility, radio frequency attributes for the plurality of nodes, selecting a first reference group of the plurality of reference groups, where the first reference group includes a subset of the plurality of nodes, selecting a first configuration parameter of the first reference group to be tuned, identifying a first value for the first configuration parameter that is most prevalent among the subset of the plurality of nodes, and setting the first configuration parameter for all nodes in the subset of the plurality of nodes to the first value.",
+  "claims": "1. A method comprising: grouping, by a processing system including at least one processor, a plurality of nodes of a telecommunications network into a plurality of reference groups, based on a plurality of configuration attributes and on a plurality of load, mobility, radio frequency attributes for the plurality of nodes, wherein the plurality of configuration attributes is selected using a supervised machine learning technique and the plurality of load, mobility, radio frequency attributes is selected using an unsupervised machine learning technique; selecting, by the processing system, a first reference group of the plurality of reference groups, where the first reference group includes a subset of the plurality of nodes; selecting, by the processing system, a first configuration parameter of the first reference group to be tuned, wherein values of a setting for the first configuration parameter vary over the subset of the plurality of nodes, and wherein the first configuration parameter is at least one of: a minimum required receive frequency level in a cell of the telecommunications network, a threshold for inter-radio access technology measurements, a threshold for inter-frequency measurements, a threshold for received signal reference power for a serving cell of the telecommunications network, a threshold for received signal reference power of the serving cell for a start of inter-frequency measurements, a threshold for received signal reference power of intra-frequency of a neighboring cell, or a maximum output power of the cell per antenna; identifying, by the processing system, a first value that occurs most frequently within the values; determining, by the processing system, that an observable performance improvement in the telecommunications network is attributed to the first configuration parameter being set to the first value; and setting, by the processing system, the first configuration parameter for all nodes in the subset of the plurality of nodes to the first value.",
+  "patent_id": "US12382310-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 24/02",
+      "H04W 28/0226",
+      "H04W 36/0072"
+    ],
+    "all": [
+      "H04W 24/02",
+      "H04W 28/0226",
+      "H04W 36/0072"
+    ],
+    "source": "converted"
+  }
+}

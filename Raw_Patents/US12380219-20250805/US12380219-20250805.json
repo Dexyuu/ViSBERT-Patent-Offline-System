@@ -1,0 +1,16 @@
+{
+  "title": "Asset risk assessment method, apparatus, computer device, and storage medium",
+  "abstract": "An asset risk assessment method, an apparatus, a computer device, and a storage medium are provided. The asset risk assessment method includes: receiving an alert message of an asset to be assessed; obtaining an attack depth of the alert message based on the alert message, and the attack depth being a degree to which the asset to be assessed is subjected to attack; obtaining a security feature value of the asset to be assessed; obtaining a feature weight of the security feature value based on the attack depth; and performing a risk assessment of the asset to be assessed based on the security feature value and the feature weight thereof, to obtain a risk assessment result.",
+  "claims": "1. An asset risk assessment method, implemented by a computer device, wherein the computer device may include a processor and a memory that stores computer program instructions, and the method comprises: receiving an alert message of an asset to be assessed; obtaining an attack depth of the alert message based on the alert message, wherein the attack depth is a degree to which the asset to be assessed is subjected to attack; obtaining a security feature value of the asset to be assessed; obtaining a feature weight of the security feature value based on the attack depth; and performing a risk assessment of the asset to be assessed based on the security feature value and the feature weight thereof, to obtain a risk assessment result; obtaining the attack depth of the alert message based on the alert message further comprises: dividing the alert information into attack chains based on a content of the alert information and an attack method; and obtaining the attack depth of the alert message based on the attack chains, wherein each alert message is hidden danger data obtained after detection of the corresponding asset.",
+  "patent_id": "US12380219-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/577"
+    ],
+    "all": [
+      "G06F 21/577"
+    ],
+    "source": "converted"
+  }
+}

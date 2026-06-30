@@ -1,0 +1,26 @@
+{
+  "title": "Structure-based deep generative model for binding site descriptors extraction and de novo molecular generation",
+  "abstract": "In some aspects, the present disclosure describes a method of sampling a ligand. In some embodiments, the method comprises receiving a target descriptor. In some embodiments, the method comprises generating, in an engineered chemical space, a latent descriptor, based at least in part on the target descriptor. In some embodiments, the method comprises generating a ligand descriptor, based at least in part on the latent descriptor.",
+  "claims": "1. A computer-implemented method of generating a candidate ligand that is predicted to bind with a target, comprising: (a) receiving a target descriptor representing the target; (b) generating, in an engineered chemical space, a latent descriptor of the candidate ligand using a neural network, wherein the generating is performed based at least in part on processing the target descriptor using the neural network, wherein the neural network is trained to incorporate at least two sources of chemical information into the engineered chemical space, and wherein the at least two sources of chemical information comprise (i) a plurality of target structures of a plurality of targets and (ii) a plurality of ligand structures of a plurality of ligands that bind to the plurality of targets; and (c) generating a ligand descriptor of the candidate ligand, based at least in part on processing the latent descriptor using the neural network; wherein the engineered chemical space comprises a unified embedding for the at least two sources of chemical information, wherein the unified embedding comprises (i) a plurality of target latent descriptors for the plurality of targets and (ii) a plurality of ligand latent descriptors for the plurality of ligands, wherein the generating in (b) is performed at least in part by using an encoder, and wherein the generating in (c) is performed at least in part by using a decoder, and wherein the neural network comprises a bottleneck architecture comprising the encoder and the decoder, and wherein at least the encoder is trained at least in part by using contrastive learning, wherein the contrastive learning is based at least in part on a contrastive loss computed between pairs formed between the target latent descriptors and the ligand latent descriptors from a training data, and wherein the contrastive loss comprises at least: L ( p,f )=[ a −sim( p,f )+sim( p,f ′)] + +[a −sim( p,f )+sim( p′,f )] + wherein L(p,f) denotes the contrastive loss, a is a margin parameter, p is a first target latent descriptor in a training data, f is a first ligand latent descriptor in the training data, p′ is a second target latent descriptor in the training data that is least similar to the first ligand latent descriptor, f′ is a second ligand latent descriptor from the training data that is least similar to the first target latent descriptor, sim is a similarity function computed between its parentheticals, and [x] + max(x,0).",
+  "patent_id": "US12380329-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 3/08",
+      "G06F 40/126",
+      "G06F 40/40",
+      "G06N 3/0442",
+      "G16B 15/00",
+      "G16B 40/20"
+    ],
+    "all": [
+      "G06N 3/08",
+      "G06F 40/126",
+      "G06F 40/40",
+      "G06N 3/0442",
+      "G16B 15/00",
+      "G16B 40/20"
+    ],
+    "source": "converted"
+  }
+}

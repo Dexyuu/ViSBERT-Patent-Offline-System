@@ -1,0 +1,20 @@
+{
+  "title": "Network node and method performed therein for providing an application in a communication network",
+  "abstract": "Embodiments herein provide e.g. a method performed by a network node (13) for providing an application to a user equipment, UE, (10) in a communication network. The network node (13) obtains location information indicating a location of the UE (10); and determines an anchor point for the UE (10) based on the obtained location information and a configuration of an edge connectivity service associated with the application.",
+  "claims": "1. A method performed by a network node for providing an application to service a user equipment, UE, in a communication network, wherein the network node corresponds to an edge service interface function (ESIF) other than a session management function (SMF) node, the method comprising obtaining, by the ESIF, information indicating a location of the UE; determining, by the ESIF, a second anchor point for the UE based on the obtained information and a configuration of an edge connectivity service associated with the application, wherein the edge connectivity service defines a connectivity service provided for the application to service the UE, wherein determining the second anchor point is taking a mapping into account, wherein the mapping maps tracking areas indicating locations to data network access identifiers (DNAIs) corresponding to anchor points according to measurements of metrics, the measurements of metrics comprising an average latency between clients belonging to at least one of the tracking areas and at least one of the DNAIs; determining, by the ESIF, a change of an anchor point from a first anchor point to the second anchor point, wherein determining the change of the anchor point from the first anchor point to the second anchor point is in response to: comparing a current tracking area of the UE with a current DNAI of the UE; determining, based at least on comparing the current tracking area of the UE with the current DNAI of the UE, that the current tracking area of the UE belongs to another DNAI service area according to a defined edge connectivity service policy; and in response to determining that the current tracking area of the UE belongs to another DNAI service area according to the defined edge connectivity service policy, triggering an inter-edge handover for the UE to a target DNAI; upon determining, by the ESIF, the change of an anchor point from a first anchor point to the second anchor point: updating, by the ESIF, an edge connectivity selection policy for at least one alternative deployment, wherein updating the edge connectivity selection policy comprises adding the determined second anchor point corresponding to a data network node as an allowed DNAI for the edge connectivity service for the application; sending, by the ESIF, a request to an application server providing at least part of the application, for approval of a handover of the UE from the first anchor point to the second anchor point; and receiving, by the ESIF, an approval or a rejection of the request, from the application server.",
+  "patent_id": "US12381957-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 67/148",
+      "H04L 41/0893",
+      "H04L 67/52"
+    ],
+    "all": [
+      "H04L 67/148",
+      "H04L 41/0893",
+      "H04L 67/52"
+    ],
+    "source": "converted"
+  }
+}

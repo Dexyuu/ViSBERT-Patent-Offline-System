@@ -1,0 +1,30 @@
+{
+  "title": "Maintenance induction for aircraft",
+  "abstract": "An apparatus for predicting structural degradation and performing maintenance induction for a plurality of in-service aircraft is provided. The apparatus identifies maintenance requirements for the plurality of in-service aircraft and receives fatigue metric values on historical usage and structural health condition of the plurality of in-service aircraft. The apparatus predicts levels of structural degradation to the plurality of in-service aircraft based on the fatigue metric values and assigns maintenance priorities to the plurality of in-service aircraft based on the levels of structural degradation. The apparatus generates an instruction to route an aircraft of the plurality of in-service aircraft to a maintenance facility for maintenance based on a maintenance priority of the maintenance priorities assigned to the aircraft.",
+  "claims": "1. An apparatus for predicting structural degradation and performing maintenance induction for a plurality of in-service aircraft, the apparatus comprising: a memory configured to store computer-readable program code; and processing circuitry configured to access the memory, and execute the computer-readable program code to cause the apparatus to at least: receive fatigue metric values on historical usage and structural health condition of the plurality of in-service aircraft, wherein the fatigue metric values are received using a plurality of onboard sensors of the plurality of in-service aircraft; receive a list including a plurality of maintenance facilities that are available to perform maintenance on the plurality of in-service aircraft, wherein different maintenance facilities of the plurality of maintenance facilities have different capabilities, expertise, and/or specialized equipment pertaining to performing maintenance on different common load bearing joint areas selected from a plurality of common load bearing joint areas of the plurality of in-service aircraft; determine, for each aircraft of the plurality of in-service aircraft, a plurality of sub-group scores of structural degradation corresponding to a plurality of common load bearing joint areas of the in-service aircraft by determining, for each sub-group score of structural degradation, a difference between a predicted quantity of flight hours for a common load bearing joint area, and an actual quantity of flight hours for the common load bearing joint area, wherein the predicted quantity of flight hours is determined by applying a fatigue metric value for the common load bearing joint area to a regression model, and wherein different regression models are used for different common load bearing joint areas; determine, for each aircraft of the plurality of in-service aircraft, a total score of structural degradation based on the plurality of sub-group scores of structural degradation determined for the aircraft, wherein the total score of structural degradation is the sum of the plurality of sub-group scores of structural degradation determined for the aircraft, and wherein aircraft with higher total scores of structural degradation are determined to be more fatigued than aircraft with lower total scores of degradation; and generate an instruction to route an aircraft of the plurality of in-service aircraft to a maintenance facility selected from the plurality of maintenance facilities for maintenance based on the determined total score of structural degradation of the aircraft, and the capabilities, expertise, and/or specialized equipment of the maintenance facility to perform maintenance on common load bearing joint areas of the aircraft having determined sub-group scores indicating a highest fatigue of the plurality of sub-group scores of structure degradation determined for the aircraft.",
+  "patent_id": "US12380742-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G07C 5/006",
+      "B64F 5/60",
+      "G06F 17/16",
+      "G06F 17/18",
+      "G06F 30/20",
+      "G07C 5/0808",
+      "G07C 5/0841",
+      "G06F 2111/10"
+    ],
+    "all": [
+      "G07C 5/006",
+      "B64F 5/60",
+      "G06F 17/16",
+      "G06F 17/18",
+      "G06F 30/20",
+      "G07C 5/0808",
+      "G07C 5/0841",
+      "G06F 2111/10"
+    ],
+    "source": "converted"
+  }
+}

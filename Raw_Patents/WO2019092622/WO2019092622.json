@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2019092622",
+  "application_id_fs": "WO2019092622",
+  "title": "Concurrent modification of shared cache line by multiple processors",
+  "abstract": "A shared cache line is concurrently modified by multiple processors of a computing environment. The concurrent modification is performed based, at least, on receiving one or more architected instructions (Fetch due to Non- Coherent Store instructions) that permit multiple processors to concurrently update the shared cache line absent obtaining a lock or having exclusive ownership of the data.",
+  "claims": "Claims 1. A computer-implemented method for facilitating processing within a computing environment, the method comprising: obtaining, from a plurality of processors of the computing environment, a plurality of store requests to store to a shared cache line, the plurality of store requests being of a concurrent store type; and storing concurrently, based on the plurality of store requests, data to the shared cache line. 2. The method of claim 1 , wherein the method further comprises setting a cache directory state associated with the shared cache line to shared-modifiable indicating multiple store requests by multiple processors are permissible. 3. The method of either of the preceding claims, wherein the data comprises an update to a global shared- modifiable structure maintained in the shared cache line. 4. The method of claim 3, wherein the global shared-modifiable structure is used by multiple processors of the plurality of processors. 5. The method of any of the preceding claims, wherein the method further comprises: obtaining a fetch request requesting access to the shared cache line, the fetch request being different from the concurrent store type; performing serialization for the shared cache line based on the fetch request; and reading the data from the shared cache line, based on completing the serialization. 6. The method of claim 5, wherein the performing serialization comprises: stopping outstanding stores to the shared cache line; and synchronizing data of the shared cache line. 7. The method of either of claims 5 or 6, wherein the method further comprises changing ownership state of the shared cache line, based on the fetch request, from shared-modifiable to another state. 8. The method of claim 7, wherein the other state is exclusive or read-only, based on the fetch request. 9. The method of any of the preceding claims, wherein the obtaining the plurality of store requests comprises receiving a plurality of fetch due to non-coherent store requests from the plurality of processors, the plurality of fetch due to non-coherent store requests being architecturally defined to allow non-blocking modifications to the shared cache line. 10. The method of any of the preceding claims, wherein the storing comprises storing the data directly to the shared cache line absent storing the data in one or more private caches of the plurality of processors. 11. A computer system for facilitating processing within a computing environment, the computer system comprising: a memory; and at least one processor in communication with the memory, wherein the computer system is configured to perform a method, said method comprising: obtaining, from a plurality of processors of the computing environment, a plurality of store requests to store to a shared cache line, the plurality of store requests being of a concurrent store type; and storing concurrently, based on the plurality of store requests, data to the shared cache line. 12. The system of claim 11 , wherein the method further comprises setting a cache directory state associated with the shared cache line to shared-modifiable indicating multiple store requests by multiple processors are permissible. 13. The system of either of claims 11 or 12, wherein the data comprises an update to a global shared- modifiable structure maintained in the shared cache line. 14. The system of claim 13, wherein the global shared-modifiable structure is used by multiple processors of the plurality of processors. 15. The system of any of claims 11 to 14, wherein the method further comprises: obtaining a fetch request requesting access to the shared cache line, the fetch request being different from the concurrent store type; performing serialization for the shared cache line based on the fetch request; and reading the data from the shared cache line, based on completing the serialization. 16. The system of claim 15, wherein the performing serialization comprises: stopping outstanding stores to the shared cache line; and synchronizing data of the shared cache line. 17. The system of either of claims 15 or 16, wherein the method further comprises changing ownership state of the shared cache line, based on the fetch request, from shared-modifiable to another state. 18. The system of claim 17, wherein the other state is exclusive or read-only, based on the fetch request. 19. The system of any of claims 11 to 18, wherein the obtaining the plurality of store requests comprises receiving a plurality of fetch due to non-coherent store requests from the plurality of processors, the plurality of fetch due to non-coherent store requests being architecturally defined to allow non-blocking modifications to the shared cache line. 20. The computer system of claims 11 to 19, wherein the storing comprises storing the data directly to the shared cache line absent storing the data in one or more private caches of the plurality of processors. 21. A computer program product for facilitating processing within a computing environment, the computer program product comprising: a computer readable storage medium readable by a processing circuit and storing instructions for execution by the processing circuit for performing a method according to any of claims 1 to 10. 22 A computer program stored on a computer readable medium and loadable into the internal memory of a digital computer, comprising software code portions, when said program is run on a computer, for performing the method of any of claims 1 to 10. 23. A computer-implemented method of facilitating processing within a computing environment, the computer- implemented method comprising: obtaining, from a plurality of processors of the computing environment, a plurality of store requests to store to a shared cache line, the plurality of store requests being of a concurrent store type; and storing concurrently, based on the plurality of store requests, data to the shared cache line. 24. The computer-implemented method of claim 16, further comprising setting a cache directory state associated with the shared cache line to shared-modifiable indicating multiple store requests by multiple processors are permissible. 25. The computer-implemented method of claim 16, further comprising: obtaining a fetch request requesting access to the shared cache line, the fetch request being different from the concurrent store type; performing serialization for the shared cache line based on the fetch request; and reading the data from the shared cache line, based on completing the serialization. 26. The computer-implemented method of claim 16, wherein the obtaining the plurality of store requests comprises receiving a plurality of fetch due to non-coherent store requests from the plurality of processors, the plurality of fetch due to non-coherent store requests being architecturally defined to allow non-blocking modifications to the shared cache line. 27. The computer-implemented method of claim 16, wherein the storing comprises storing the data directly to the shared cache line absent storing the data in one or more private caches of the plurality of processors.",
+  "classifications": {
+    "ipc": [
+      "G06F 12/00",
+      "G06F 12/02",
+      "G06F 12/08",
+      "G06F 12/0802",
+      "G06F 12/0806",
+      "G06F 12/0815",
+      "G06F 12/0817",
+      "G06F 12/0828",
+      "G06F 12/084",
+      "G06F 2212/00",
+      "G06F 2212/10",
+      "G06F 2212/1016",
+      "G06F 2212/1024"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 12/00",
+      "G06F 12/02",
+      "G06F 12/08",
+      "G06F 12/0802",
+      "G06F 12/0806",
+      "G06F 12/0815",
+      "G06F 12/0817",
+      "G06F 12/0828",
+      "G06F 12/084",
+      "G06F 2212/00",
+      "G06F 2212/10",
+      "G06F 2212/1016",
+      "G06F 2212/1024"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019092622"
+}

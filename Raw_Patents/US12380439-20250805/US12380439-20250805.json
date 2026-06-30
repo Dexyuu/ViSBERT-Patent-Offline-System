@@ -1,0 +1,22 @@
+{
+  "title": "Authenticated cross-subnet communication",
+  "abstract": "Various aspects of the subject technology relate to systems, methods, and machine-readable media for cross-chain communication in a blockchain platform. Various aspects may include accepting, at a first blockchain, a first transaction including a message and a message payload. Aspects may also include validating, at the first blockchain, the message by signing the message using signature keys of one or more validators in a first set of validators of the first blockchain. Aspects may also include generating an aggregate signature based on the signature keys of the one or more validators in a first set of validators. Aspects may also include submitting a second transaction on to a second blockchain, the second transaction including the message and the aggregate signature. Aspects may include validating, at the second blockchain, the second transaction based on a shared registry.",
+  "claims": "1. A computer-implemented method for cross-chain communication, the method comprising: receiving a transaction including a message and an aggregate signature, the aggregate signature generated based on signature keys corresponding to one or more validators of a source blockchain that signed the message; identifying the one or more validators of the source blockchain based on the aggregate signature; determining, based on a shared registry, whether the one or more validators comprise a stake threshold percentage of validators of the source blockchain; validating the transaction based on the one or more validators comprising the stake threshold percentage of validators; and transmitting a receipt message to the source blockchain indicating a successful delivery of the message.",
+  "patent_id": "US12380439-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/3825",
+      "G06Q 20/3829",
+      "G06Q 20/401",
+      "H04L 9/3247"
+    ],
+    "all": [
+      "G06Q 20/3825",
+      "G06Q 20/3829",
+      "G06Q 20/401",
+      "H04L 9/3247"
+    ],
+    "source": "converted"
+  }
+}

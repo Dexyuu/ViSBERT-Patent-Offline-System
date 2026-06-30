@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2025046168",
+  "application_id_fs": "WO2025046168",
+  "title": "Computer-implemented method for communication network planning in area",
+  "abstract": "Disclosed is a computer-implemented method for a communication network planning in an area (202, 306) comprising residential buildings (204). The method comprises: determining locations of residential buildings in area; identifying locations of customer stationary network devices (206) of operator in area, customer stationary network devices comprise fixed network devices (208) and stationary mobile devices (210); identifying first residential buildings with one or more customer stationary network devices and a second residential buildings without customer stationary network devices; based on determined second residential buildings, determining non-customer residential area; calculating first size of non-customer residential area (214, 302, 304) at first moment of time; calculating second size of non-customer residential area at second moment of time; identifying change of size of non-customer residential area between first and second moment of time; and managing a deployment of the communication network within the area, based on the identified change of the size.",
+  "claims": "Claims 1. A computer-implemented method for a communication network planning in an area (202, 306) comprising residential buildings (204), the method comprising determining locations of residential buildings in the area; identifying locations of customer stationary network devices (206) of an operator in the area, wherein the customer stationary network devices comprise fixed network devices (208) and stationary mobile devices (210); identifying, based on the determined locations of the residential buildings and the identified locations of the customer stationary network devices, a first residential buildings with one or more customer stationary network devices, and a second residential buildings without customer stationary network devices; based on the determined second residential buildings without customer stationary network devices, determining a non-customer residential area; calculating a first size of the non-customer residential area (214, 302, 304) at a first moment of time; calculating a second size of the non-customer residential area at a second moment of time; identifying a change of a size of the non-customer residential area between the first moment of time and the second moment of time by comparing the first size and the second size; and managing a deployment of the communication network within the area, based on the identified change of the size. 2. The method according to claim 1, wherein determining locations of residential buildings (204) in the area (202, 306) comprises obtaining a \n\nmap data of the area, the map data comprising location data of the residential buildings and identification data of the residential buildings. 3. The method according to claim 1 or 2, wherein identifying the locations of the customer stationary network devices (206) comprises collecting customer data of one or more operators of the stationary network, wherein the customer data comprises at least one of subscription details, a mobile network usage data, support interactions, user preferences, network performance data, device information; obtaining network usage data of the stationary network; and obtaining user device data of the stationary network. 4. The method according to any of the preceding claims, wherein identifying locations of the customer stationary mobile devices (210) comprises identifying locations of mobile devices, which based on the mobile network usage data are not moving and consume more than the predetermined amount of data. 5. The method according to claim 4, wherein the mobile devices are deemed not to be moving if a number of handovers from one cell to another is less than predetermined number of handovers over a period of time. 6. The method according to any of the preceding claims, wherein calculating the first size of the non-customer residential area (214, 302, 304) and the second size of the non-customer residential area comprises calculating a total number of second residential buildings without customer stationary network devices (206) in the residential area, determining a spatial arrangement of the calculated total number of second residential buildings without customer stationary network devices relative to each other, and determining a type of the residential buildings (204). 7. The method according to any of the preceding claims, wherein determining the spatial arrangement comprises determining neighbouring residential buildings (204) without customer stationary network devices. 8. The method according to any of the preceding claims, wherein the method further comprises comparing distances between the neighbouring second residential buildings without customer stationary network devices. 9. The method according to any of the preceding claims, wherein the method further comprises combining the determined locations of the first residential buildings with one or more customer stationary network devices (206) and the determined locations of the second residential buildings without customer stationary network devices with the map data. 10. The method according to any of the preceding claims, wherein the method further comprises pre-determining a threshold and comparing if the change of the size of the non-customer residential area (214, 302, 304) over time is above or below the threshold. 11. The method according to any of the preceding claims, wherein the size of the non-customer residential areas is determined by defining a radius around the location of each of the residential building (204), wherein the radius is average distance between two base stations within the area (202, 306). 12. The method according to any of the preceding claims, wherein the method comprises selecting the customer stationary mobile devices (210) depending on if the stationary mobile user's serving site is close to the user's address information based on mobile network customer data. 13. A data processing system for a communication network planning in an area (202, 306) comprising residential buildings (204), the system comprising means for carrying out the method of any one of claims 1-12. 14. A computer program for a communication network planning in an area (202, 306) comprising residential buildings (204), the computer program comprising instructions which, when the program is executed by a data processing system, cause the data processing system to carry out the method of any one of claims 1-12. 15. A computer-readable storage medium comprising instructions for a communication network planning in an area (202, 306) comprising residential buildings (204), which when executed by a data processing system, cause the data processing system to carry out the method of any one of claims 1-12.",
+  "classifications": {
+    "ipc": [
+      "H04L 41/00",
+      "H04L 41/08",
+      "H04L 41/0803",
+      "H04L 41/0806",
+      "H04L 41/14",
+      "H04L 41/145",
+      "H04W 16/00",
+      "H04W 16/18",
+      "H04W 24/00",
+      "H04W 24/02",
+      "H04L 41/22",
+      "H04L 43/00",
+      "H04L 43/08",
+      "H04Q 3/00",
+      "H04Q 3/0016",
+      "H04Q 3/0062",
+      "H04Q 3/0083"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 41/00",
+      "H04L 41/08",
+      "H04L 41/0803",
+      "H04L 41/0806",
+      "H04L 41/14",
+      "H04L 41/145",
+      "H04W 16/00",
+      "H04W 16/18",
+      "H04W 24/00",
+      "H04W 24/02",
+      "H04L 41/22",
+      "H04L 43/00",
+      "H04L 43/08",
+      "H04Q 3/00",
+      "H04Q 3/0016",
+      "H04Q 3/0062",
+      "H04Q 3/0083"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025046168"
+}

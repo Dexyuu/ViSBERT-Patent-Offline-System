@@ -1,0 +1,20 @@
+{
+  "title": "System and method for multilayer security using multiple codebooks",
+  "abstract": "A system and method for implementing multilayer security in documents using multiple codebooks. The system encodes different sections of a document using codebooks associated with specific security clearance levels. Users can only access sections of the document for which they have appropriate clearance, with unauthorized sections appearing redacted. The system provides granular, section-level security while also offering data compression benefits. Additional features include dynamic reclassification, hierarchical codebooks, expiring access, multi-factor authentication, and user-specific watermarking.",
+  "claims": "1. A system for implementing multilayer security using multiple codebooks, comprising: a computing device comprising at least a memory and a processor; a plurality of programming instructions stored in the memory and operable on the processor, wherein the plurality of programming instructions, when operating on the processor, cause the computing device to: receive a document for encoding, the document comprising a plurality of sections; analyze the document to identify security levels required for each section; select, for each section, an appropriate codebook from a plurality of codebooks, each codebook associated with a specific security clearance level; encode each section using its selected codebook; generate metadata for each encoded section, including an associated codebook identifier and security level; combine the encoded sections and their metadata into a secure document structure; receive a request from a user to access the secure document; authenticate the user and determine their security clearance level; for each section of the secure document: compare the user's clearance level to the section's required security level; if the user's clearance level is sufficient, decode the section using the associated codebook; if the user's clearance level is insufficient, replace the section with a redaction marker; present the decoded document to the user, with authorized sections decoded and unauthorized sections redacted; and maintain an audit trail of all encoding, decoding, and access activities.",
+  "patent_id": "US12381575-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03M 7/3059",
+      "G06N 20/00",
+      "H03M 7/6005"
+    ],
+    "all": [
+      "H03M 7/3059",
+      "G06N 20/00",
+      "H03M 7/6005"
+    ],
+    "source": "converted"
+  }
+}

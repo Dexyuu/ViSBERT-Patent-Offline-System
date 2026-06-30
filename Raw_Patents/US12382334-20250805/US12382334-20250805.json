@@ -1,0 +1,20 @@
+{
+  "title": "Method and apparatus for radio link flow control",
+  "abstract": "The present disclosure relates to methods and apparatuses. According to some embodiments of the disclosure, a method includes: receiving, at a communication device, a configuration message including a threshold to configure the communication device; and transmitting, from the communication device, a congestion indication if an occupied buffer size of the communication device is equal to or greater than the threshold.",
+  "claims": "1. A method performed by a user equipment (UE), the method comprising: transmitting, from the UE to at least one of a base station and a parent node of the UE and during a setup procedure of the UE, a total buffer size of the UE, wherein the total buffer size of the UE is included in a capability information element for the UE; receiving, from the at least one of the base station and the parent node, a configuration message including a threshold to configure the UE; and transmitting, from the UE, a congestion indication if an occupied buffer size of the UE is equal to or greater than the threshold, wherein the congestion indication is transmitted via a message in an adaptation layer, the adaptation layer being configured by a central unit of the base station.",
+  "patent_id": "US12382334-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 28/0278",
+      "H04W 28/0284",
+      "H04W 80/02"
+    ],
+    "all": [
+      "H04W 28/0278",
+      "H04W 28/0284",
+      "H04W 80/02"
+    ],
+    "source": "converted"
+  }
+}

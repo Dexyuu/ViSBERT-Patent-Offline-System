@@ -1,0 +1,18 @@
+{
+  "title": "LED driving apparatus, microcontroller, and control method for LED module",
+  "abstract": "An LED driving apparatus, a microcontroller, and a control method for an LED module are provided. The LED driving apparatus includes a power supply module, a switch module, and a control module. The power supply module is configured to supply power to the LED module, in which the power supply module determines whether to trigger an overcurrent protection based on whether an output current exceeds a threshold current. The control module is configured to receive an overcurrent detection signal to control a conduction state of the switch module, so as to affect the current amount of the LED module. When the overcurrent detection signal indicates the output current exceeds the threshold current, the control module outputs a first control signal based on the overcurrent detection signal to control the switch module, to prevent the overcurrent protection from being triggered.",
+  "claims": "1. An LED driving device for driving an LED module, comprising: a power supply module, configured to supply power to the LED module and having an overcurrent protection function, detect an output current provided to the LED module, wherein the power supply module determines whether to trigger the overcurrent protection function based on whether the output current exceeds a threshold current; a switch module, connected in series with the LED module; and a control module, coupled to the power supply module and the switch module, configured to receive an overcurrent detection signal indicating whether the output current exceeds the threshold current, and control a conduction state of the switch module based on the overcurrent detection signal to adjust a current passing through the LED module; wherein when the overcurrent detection signal indicates that the output current exceeds the threshold current, the control module outputs a first control signal based on the overcurrent detection signal to control the switch module to prevent the overcurrent protection function from being triggered.",
+  "patent_id": "US12382561-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H05B 45/50",
+      "H05B 45/46"
+    ],
+    "all": [
+      "H05B 45/50",
+      "H05B 45/46"
+    ],
+    "source": "converted"
+  }
+}

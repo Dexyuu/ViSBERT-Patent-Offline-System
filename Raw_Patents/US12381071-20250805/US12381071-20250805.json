@@ -1,0 +1,28 @@
+{
+  "title": "Plasma processing method and plasma processing apparatus",
+  "abstract": "A process of detecting a thickness of a film layer to be processed or a depth of etching by using a result of detection of a signal indicating intensity of interference light having a plurality of wavelengths formed by being reflected on a surface of a wafer at a plurality of time instants from when plasma is formed to when the etching is completed. A start time instant is detected by using an amount of change in the intensity of the interference light. Then, a remaining film thickness or the etching amount at an arbitrary time instant is detected from a result of comparing actual data indicating the intensity of the interference light at the arbitrary time instant during the processing after the start time instant with a plurality of pieces of data for detection of the intensity of the interference light obtained in advance and associated with values of the film thicknesses or the depths of etching.",
+  "claims": "1. A plasma processing method comprising: arranging a wafer having a layer to be processed on a surface thereof in a processing chamber inside a vacuum container: forming plasma in the processing chamber and etching a film formed in advance on a surface of the wafer; receiving interference light reflected on the surface of the wafer at a plurality of time instants from when the plasma is formed to when the etching is completed; determining an etching start time instant of the wafer based on data indicating amounts of change per a time period between two of the plurality of time instants in signals, the signals indicating an intensity of the interference light corresponding to each of the plurality of time instants after the plasma is formed and the layer to be processed is exposed to the plasma; detecting a film thickness or determining reaching an end point of the processing of the wafer using a signal indicating the intensity of the interference light obtained at the plurality of time instants after the determined etching start time; and controlling the etching of the wafer in accordance with the determined etching start time and the detected film thickness or the determined end point of the processing, wherein the signal indicating the intensity of the interference light includes a spectral waveform, and the etching start time instant is determined by calculating differences between the spectral waveforms at the two of the plurality time instants, and a time instant when a sum of the differences per the time period between the two of the plurality time instants becomes equal to or more than a predetermined threshold value is determined as the etching start time instant.",
+  "patent_id": "US12381071-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H01J 37/32972",
+      "G01B 11/06",
+      "H01J 37/32743",
+      "H01L 21/32136",
+      "H01L 22/26",
+      "H01J 2237/24578",
+      "H01J 2237/334"
+    ],
+    "all": [
+      "H01J 37/32972",
+      "G01B 11/06",
+      "H01J 37/32743",
+      "H01L 21/32136",
+      "H01L 22/26",
+      "H01J 2237/24578",
+      "H01J 2237/334"
+    ],
+    "source": "converted"
+  }
+}

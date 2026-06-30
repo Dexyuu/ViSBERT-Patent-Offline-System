@@ -1,0 +1,16 @@
+{
+  "title": "Compressed fixed-point SIMD macroblock rotation systems and methods",
+  "abstract": "Various techniques are provided for efficient bilinear interpolation of rotated pixels. In one example, a method includes identifying a rotation angle for an image; performing a vector load of pixel positions for the image at the rotation angle; performing a vector load of rows of pixels associated with the pixel positions; performing a vector selection of a subset of pixels from the rows of pixels based on the identified pixel positions; performing a vector load of a set of coefficients at the rotation angle; and applying the set of coefficients to the subset of pixels to determine an updated value for the image. Additional methods and systems are also provided.",
+  "claims": "1. A method comprising: identifying a rotation angle for an input image comprising first pixels; and determining second pixels of a rotated image obtained by rotating the input image by the rotation angle; wherein for at least a block of pixels, determining the second pixels in the block comprises a bilinear interpolation of each second pixel in the block from corresponding first pixels, the bilinear interpolation comprising a bilinear interpolation process performed to determine a plurality of the second pixels, the bilinear interpolation process comprising: performing a vector load of pixel positions from which the plurality of the second pixels will be interpolated, the pixel positions being at least partially defined by the rotation angle; performing a vector load of rows of first pixels associated with the pixel positions; performing a vector selection of a subset of pixels from the rows of first pixels based on the pixel positions; performing a vector load of a set of interpolation coefficients at least partially defined by the rotation angle; and applying the set of interpolation coefficients to the subset of pixels to determine the plurality of the second pixels.",
+  "patent_id": "US12380666-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/242"
+    ],
+    "all": [
+      "G06V 10/242"
+    ],
+    "source": "converted"
+  }
+}

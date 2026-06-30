@@ -1,0 +1,18 @@
+{
+  "title": "Power supply system, moving object including power supply system, and control method of power supply system",
+  "abstract": "When the supply of DC power from a first power generation device to a first power supply circuit is cut off, a control device disconnects the first power generation device from the first power supply circuit and a connection circuit using a contactor device, thereafter connects the first power supply circuit and a second power supply circuit to each other, causes electric power to be supplied from a second power generation device to between the first power generation device and the contactor device via a precharge circuit, and determines whether or not a short circuit has occurred between the first power generation device and the contactor device.",
+  "claims": "1. A power supply system comprising: a first power supply circuit configured to supply, to a first load device, electric power output from a first power generation device, the electric power being direct current electric power; a second power supply circuit configured to supply, to a second load device, electric power output from a second power generation device, the electric power being direct current electric power; a connection circuit including a connection device configured to connect the first power supply circuit and the second power supply circuit to each other; a contactor device configured to disconnect the first power generation device from the first power supply circuit and the connection circuit; a precharge circuit configured to connect the first power generation device to the first power supply circuit and the connection circuit via a precharge resistor while bypassing the contactor device; and one or more processors that execute computer-executable instructions stored in a memory, wherein, in a case where supply of the electric power from the first power generation device to the first power supply circuit is cut off, the one or more processors execute the computer-executable instructions to cause the power supply system to: disconnect the first power generation device from the first power supply circuit and the connection circuit using the contactor device; thereafter execute, on the connection device, connection control for connecting the first power supply circuit and the second power supply circuit to each other via the connection circuit; cause the electric power to be supplied from the second power generation device to between the first power generation device and the contactor device via the precharge circuit; and determine whether or not a short circuit has occurred between the first power generation device and the contactor device.",
+  "patent_id": "US12381400-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02J 3/38",
+      "B64D 27/35"
+    ],
+    "all": [
+      "H02J 3/38",
+      "B64D 27/35"
+    ],
+    "source": "converted"
+  }
+}

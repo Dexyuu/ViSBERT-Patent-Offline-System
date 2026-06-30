@@ -1,0 +1,18 @@
+{
+  "title": "Noise detection for multi-channel and multi-protocol communications",
+  "abstract": "Techniques for quickly and accurately determining whether a channel is being used for transmission of data using one of a plurality of communications protocols for low power signals using random data of a packet are disclosed. The techniques increase sensitivity and reduce the false alarm rate for a wide range of signal and noise levels. A noise detection technique uses an adaptive window size for fast noise detection that increases the rate of scanning channels during a signal identification period. In a BLE1M detection mode, detection of clusters of zero frequency deviation are used to reduce the false detection rate. Adaptive Zigbee symbol detection improves detection sensitivity beyond â97 dBm. The techniques use a chip-based differential to generate frequency deviation samples for Zigbee detection or data filtering frequency deviation samples generated using sample-based differentials based on an oversampled received signal to improve the signal-to-noise ratio.",
+  "claims": "1. A method for detecting data transmitted using one of a plurality of communications protocols, the method comprising: determining whether data transmitted using one of the plurality of communications protocols is absent from a window of frequency deviation samples of a received signal based on a comparison of each frequency deviation sample of the window to a predetermined threshold frequency deviation, the window having an adaptive number of frequency deviation samples.",
+  "patent_id": "US12382494-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 74/0808",
+      "H04B 17/309"
+    ],
+    "all": [
+      "H04W 74/0808",
+      "H04B 17/309"
+    ],
+    "source": "converted"
+  }
+}

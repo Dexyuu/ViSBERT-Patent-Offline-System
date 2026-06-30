@@ -1,0 +1,18 @@
+{
+  "title": "Self-adaptive, intelligent carrier aggregation within mobile networks",
+  "abstract": "Aspects of the subject disclosure may include, for example, identifying a number of radio resources of a mobile device, detecting activity of an application, and determining a data communication requirement of the application. The data communication requirement is compared to a first component carrier capacity and responsive to it exceeding the first component carrier capacity, a number of secondary component carriers providing secondary capacities are identified according to the data communication requirement, wherein a combination of the first capacity and the number of secondary capacities is not less than the data communication requirement. A group of the radio resources is configured according to the number of secondary component carriers, wherein a number of the group of the radio resources does not exceed the maximum number of the radio resources, and wherein the data communication requirement is accommodated by the combination of the first and secondary capacities. Other embodiments are disclosed.",
+  "claims": "1. A method, comprising: determining, by a processing system including a processor, an application requirement of a mobile application of a mobile device having a maximum component carrier capacity; comparing, by the processing system, the application requirement to a primary component capacity of a primary component carrier to determine a minimum number of component carriers that meets the application requirement in order to improve bandwidth utilization and reduce battery consumption of the mobile device; and responsive to the application requirement exceeding the primary component capacity: identifying, by the processing system and according to the application requirement, a first number of secondary component carriers providing a number of secondary component capacities, wherein a combination of the primary component capacity and the number of secondary component capacities is needed to accommodate the application requirement of the mobile application; and configuring, by the processing system, a second number of radio resources of a plurality of radio resources of the mobile device according to the first number of secondary component carriers to obtain a number of configured radio resources, wherein the number of configured radio resources does not exceed the maximum component carrier capacity, wherein the primary component carrier and the first number of secondary component carriers share data communications during a carrier aggregation operational period such that the application requirement of the mobile application is accommodated jointly by the primary component carrier and the first number of secondary component carriers.",
+  "patent_id": "US12382480-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/52",
+      "H04L 5/001"
+    ],
+    "all": [
+      "H04W 72/52",
+      "H04L 5/001"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Non-transitory computer-readable storage medium storing image processing program, image processing system, image processing apparatus, and image processing method",
+  "abstract": "An exemplary image processing system first writes normal line information and color information into the G buffer and depth information into the depth buffer for a first object. Next, at a time of writing the normal line information into the G buffer for a second object, the exemplary image processing system calculates a difference between the depth information of a first object and the depth information of the second object, and blends the normal line information of the first object with the normal line information of the second object based on the difference, and writes the blended normal line information into the G buffer. The exemplary image processing system then renders an image in a frame buffer based on information stored in the G buffer and light source information.",
+  "claims": "1. A non-transitory computer-readable storage medium storing an image processing program configured to cause a computer of an information processing apparatus to generate an image of an object in a virtual space based on deferred rendering, wherein the image processing program causes the computer to: perform first processing including at least writing of depth information of a first object into a depth buffer, writing of normal line information of the first object into a first buffer, and writing of color information of the first object into a second buffer; after the first processing, perform a depth test on a second object in the virtual space and second processing including at least writing of the depth information of the second object into the depth buffer, writing of the normal line information of the second object into the first buffer, and writing of the color information of the second object into the second buffer; at a time of writing the normal line information of the second object into the first buffer in the second processing, write the normal line information of the second object into the first buffer so that, based on a difference between the depth information of the second object and the depth information already stored in the depth buffer, the normal line information of the second object is blended with the normal line information already stored in the first buffer for a portion where the difference is small; and generate an image by rendering based on information stored in at least the first buffer and the second buffer.",
+  "patent_id": "US12380529-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 1/60",
+      "G06T 15/503"
+    ],
+    "all": [
+      "G06T 1/60",
+      "G06T 15/503"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "application_id": "WO2018226433",
+  "application_id_fs": "WO2018226433",
+  "title": "Microwave horn antennas-based transducer system for cui inspection without removing the insulation",
+  "abstract": "The present disclosure is directed to methods and systems for inspecting insulated equipment for any corrosion under insulation (CUI). The system includes a device comprising transmitter and receiver horn antennas, a vector network analyzer operatively connected to the antennas, and an infrared detector. In the method, a location for inspection of the equipment is identified. A metal jacket surrounding the location is removed without stripping the insulation. Microwaves are transmitted by the transmitted horn antenna at the location, and provide heating at the location. The microwaves are received by the receiver horn antenna after reflection off the equipment. The vector network analyzer analyzes the microwaves. The infrared detector detects infrared waves emitted from the location and develops an infrared image of the inner surface of the equipment. Based on the analysis of the microwaves and the developed image, a programmed processor determines whether CUI exists at the location.",
+  "claims": "Claims What is claimed is: 1. A method for inspecting insulated equipment for corrosion under insulation using a portable, dual detection device comprising an infrared detector, a transmitter horn antenna, and a receiver horn antenna, the two horn antennas being operatively connected to a vector network analyzer, a controller having a memory storing instructions in the form of code, and a processor configured by executing the instructions therein, the method comprising: identifying a location on the insulated equipment that is suspected of corrosion under insulation; removing a metal jacket surrounding the insulated equipment at the identified location without stripping the insulation from the equipment; transmitting, with the transmitter horn antenna, microwaves towards the insulated equipment at the identified location, wherein the transmitted microwaves provide heating at the identified location; receiving, with the receiver horn antenna, the transmitted microwaves after reflection of the microwaves off the insulated equipment; analyzing, with the vector network analyzer, the transmitted and reflected microwaves; detecting, with the infrared detector, infrared waves emitted from the identified location of the insulated equipment; developing, with the infrared detector, an image of an inner surface of the insulated equipment underneath the insulation at the identified location based on the detected infrared waves; and determining, with the processor, based on the analysis of the transmitted and reflected microwaves and the developed image, whether any corrosion under insulation exists at the identified location. 2. The method of claim 1, wherein the step of analyzing comprises: measuring the power of the microwaves at the time of transmission by the transmitting horn antenna and at the time of reception by the receiving horn antenna; and \n\n determining a power difference in the microwaves at the time of transmission versus at the time of reception. 3. The method of claim 1, wherein the step of analyzing further comprises: determining the length of the signal path of the microwave from the transmitter horn antenna to the receiver horn antenna. 4. The method of claim 3, further comprising the step of: comparing the determined power difference and the length of the signal at the identified location with a power difference and a length of signal for a calibrated reference insulated equipment to determine an amount of wall thickness loss at the identified location. 5. The method of claim 1, wherein the two horn antennas are maintained at a fixed distance from the identified location on the insulated equipment during the steps of transmitting and receiving. 6. The method of claim 1, wherein the insulated equipment is a pipe. 7. The method of claim 1, wherein the transmitting, receiving, and analyzing steps occur substantially simultaneously with the detecting and developing steps. 8. The method of claim 1, further comprising the step of: reinstalling a metal jacket around the insulated equipment at the identified location. 9. The method of claim 1, wherein the microwaves are radio waves. 10. The method of claim 1, wherein the microwaves have a frequency in the range of approximately 30 MHz to approximately 300 GHz. 11. The method of claim 1, wherein the power of the received microwaves is a function of a distance between the transmitter horn antenna and the receiver horn antenna, a frequency of the transmitted microwaves, a power of the transmitter horn antenna, and a gain of the transmitter horn antenna. 12. The method of claim 1, wherein the developed image of the surface of insulated equipment at the identified location shows the geometry of the inner surface of the insulated equipment underneath the insulation. 13. A portable, dual system for inspecting insulated equipment for corrosion under insulation, the system comprising: a transmitter horn antenna configured to transmit microwaves toward the insulated equipment at a selected location on the insulated equipment; a receiver horn antenna configured to receive the transmitted microwaves after reflection from the insulated equipment at the selected location; a vector network analyzer operatively connected to the transmitter and receiver horn antennas, wherein the vector network analyzer is configured to analyze the power of the transmitted and received microwaves; an infrared detector configured to detect infrared waves emitted from the insulated equipment and to develop an image of the inner surface of the insulated equipment at the selected location based on the detected infrared waves; and a controller having a memory storing instructions in the form of code, and a processor configured by executing the instructions therein, wherein the controller is configured to enable operations of the transmitter and receiver horn antennas, the vector network analyzer, and the infrared detector. 14. The system of claim 13, wherein the transmitter and receiver horn antennas are operatively connected to the vector network analyzer via waveguide cables. 15. The system of claim 13, wherein the vector network analyzer comprises a directional coupler, wherein the directional coupler is configured to focus the transmitted microwaves at the selected location. 16. The system of claim 13, further comprising: a time-of-flight microwave camera configured to capture microwaves in flight from the transmitter horn antenna and develop time -resolved imaging and/or 3D imaging based on the captured microwaves. 17. The system of claim 13, further comprising: \n\n a scanning holder operatively connected to the transmitter and receiver horn antennas, and configured to maintain the transmitter and receiving horn antennas at respective fixed distances from the selected location. 18. The system of claim 13, wherein the system components are housed on an unmanned aerial vehicle (UAV). 19. The system of claim 18, wherein the UAV comprises a rangefinder configured to measure the depth of the UAV and maintain the UAV at a fixed position relative to the selected location. 20. The system of claim 13, wherein the vector network analyzer is further configured to determine the length of a signal path of the microwaves from the transmitter horn antenna to the receiver horn antenna. 21. The system of claim 13, wherein the insulated equipment is a pipe. 22. The system of claim 13, wherein the microwaves are radio waves. 23. The system of claim 13, wherein the microwaves have a frequency in the range of approximately 30 MHz to approximately 300 GHz. 24. The system of claim 13, wherein the transmitting and receiving horn antennas are aligned to face one another to form a line-of-sight configuration, and wherein the vector network analyzer is configured to perform free space dielectric measurements on the insulated equipment at the selected location.",
+  "classifications": {
+    "ipc": [
+      "G01N 17/00",
+      "G01N 17/04",
+      "G01N 21/00",
+      "G01N 21/17",
+      "G01N 21/25",
+      "G01N 21/31",
+      "G01N 21/35",
+      "G01N 21/3563",
+      "G01N 22/00",
+      "G01N 22/02",
+      "G01N 22/04",
+      "G01N 25/00",
+      "G01N 25/72",
+      "G01R 27/00",
+      "G01R 27/28"
+    ],
+    "cpc": [],
+    "all": [
+      "G01N 17/00",
+      "G01N 17/04",
+      "G01N 21/00",
+      "G01N 21/17",
+      "G01N 21/25",
+      "G01N 21/31",
+      "G01N 21/35",
+      "G01N 21/3563",
+      "G01N 22/00",
+      "G01N 22/02",
+      "G01N 22/04",
+      "G01N 25/00",
+      "G01N 25/72",
+      "G01R 27/00",
+      "G01R 27/28"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018226433"
+}

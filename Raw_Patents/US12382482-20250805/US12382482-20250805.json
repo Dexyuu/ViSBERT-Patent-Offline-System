@@ -1,0 +1,18 @@
+{
+  "title": "Transmission configuration indicator state mode switching",
+  "abstract": "Methods, systems, and devices for wireless communications are described. A user equipment (UE) may identify a transmission configuration indicator (TCI) state to use for communications with a network entity after switching between TCI modes (e.g., a joint TCI state mode and a separate TCI states mode for uplink transmission and downlink reception). A UE may autonomously switch between the TCI modes based on a trigger event, and may send an indication to a network entity of the trigger event prior to communicating. A UE may identify a TCI configuration with unconfigured power control parameters. The UE may determine a common power control configuration for communicating with a network entity based on applying a rule to the TCI configuration to determine the power control parameters.",
+  "claims": "1. A method for wireless communications at a user equipment (UE), comprising: identifying a transmission configuration indicator configuration having unconfigured power control parameters in a list of power control parameters and being associated with a transmission configuration indicator mode, the list of power control parameters including a single power control configuration, the transmission configuration indicator mode supporting at least one of a joint transmission configuration indicator state for an uplink transmission and a downlink reception and separate transmission configuration indicator states for the uplink transmission and the downlink reception; applying, prior to receiving an indication of an association between transmission configuration indicator configurations and power control parameters, a rule to determine a common power control configuration based at least in part on the identifying, wherein the rule is applied to the transmission configuration indicator configuration to determine one or more power control parameters of the unconfigured power control parameters; and communicating based at least in part on the common power control configuration.",
+  "patent_id": "US12382482-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/535",
+      "H04W 52/14"
+    ],
+    "all": [
+      "H04W 72/535",
+      "H04W 52/14"
+    ],
+    "source": "converted"
+  }
+}

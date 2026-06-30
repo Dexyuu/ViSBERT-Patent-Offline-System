@@ -1,0 +1,22 @@
+{
+  "title": "Method and apparatus for performing communication in wireless communication system",
+  "abstract": "Methods and apparatuses for performing communication in a wireless communication system. A user equipment (UE) receives first satellite ephemeris information related to a first satellite and information related to a first validity duration corresponding to the first satellite from a base station; and restarts a first validity timer, based on second satellite ephemeris information related to the first satellite being received from the base station while the first validity timer having the first validity duration is running. The UE obtains a first TA for the first satellite based on the first satellite ephemeris information before the first validity timer restarts, expires, or stops after starting based on the first validity duration, and the UE obtains a second TA for the first satellite based on the second satellite ephemeris information before the first validity timer expires or stops after restarting based on a second validity duration.",
+  "claims": "1. A method performed by a user equipment (UE), the method comprising: receiving, from a base station, a system information block (SIB) including first configuration information related to non-terrestrial network (NTN) access, wherein the first configuration information including first satellite ephemeris information related to a first satellite, information related to a first validity duration during which the UE can apply the first satellite ephemeris information for a first validity timer and information related to an epoch time related to the first satellite ephemeris information; and starting or restarting the first validity timer with a timer value set to the first validity duration from the epoch time related to the first satellite ephemeris information, wherein the UE obtains a first timing advance (TA) for the first satellite based on the first satellite ephemeris information before receiving another satellite ephemeris information, and wherein the SIB includes second configuration information related to NTN access for at least one neighbor cell.",
+  "patent_id": "US12382410-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 56/0045",
+      "G01S 19/256",
+      "G01S 19/258",
+      "H04W 84/06"
+    ],
+    "all": [
+      "H04W 56/0045",
+      "G01S 19/256",
+      "G01S 19/258",
+      "H04W 84/06"
+    ],
+    "source": "converted"
+  }
+}

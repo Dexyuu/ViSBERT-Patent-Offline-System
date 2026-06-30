@@ -1,0 +1,18 @@
+{
+  "title": "Safety circuit, device and method",
+  "abstract": "A safety circuit for a Personal Alert Safety System (PASS) device includes a safety logic circuit and an alarm circuit. The safety logic circuit is communicably coupled to the PASS device. The safety logic circuit includes a timer configured to determine a time elapsed since the timer has been last reset. The safety logic circuit is configured to switch from an off state to an on state upon receiving an activation signal from the PASS device and reset the timer upon switching to the on state, generate a trigger signal in response to the timer exceeding a time threshold, and reset the timer upon receiving a reset signal from the PASS device before the timer exceeds the time threshold. The alarm circuit is communicably coupled to the safety logic circuit and configured to generate an alarm signal upon receiving the trigger signal from the safety logic circuit.",
+  "claims": "1. A safety circuit for a Personal Alert Safety System (PASS) device, the safety circuit comprising: a safety logic circuit communicably coupled to the PASS device, the safety logic circuit having at least an off state and an on state, the safety logic circuit comprising a timer configured to determine a time elapsed since the timer has been last reset, the safety logic circuit being configured to operate at least in a normal condition and a damage condition, the safety logic circuit configured to: switch from the off state to the on state upon receiving an activation signal from the PASS device, wherein the activation signal is indicative of the switching of the PASS device from a PASS off state to a PASS on state; reset the timer upon switching to the on state; generate a trigger signal in response to the timer exceeding a time threshold in the damage condition, wherein the damage condition corresponds to a physical or a thermal damage of the PASS device; and reset the timer upon receiving a reset signal from the PASS device before the timer exceeds the time threshold in the normal condition; and an alarm circuit communicably coupled to the safety logic circuit, wherein the alarm circuit is configured to generate an alarm signal upon receiving the trigger signal from the safety logic circuit.",
+  "patent_id": "US12380795-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G08B 25/016",
+      "G08B 21/0438"
+    ],
+    "all": [
+      "G08B 25/016",
+      "G08B 21/0438"
+    ],
+    "source": "converted"
+  }
+}

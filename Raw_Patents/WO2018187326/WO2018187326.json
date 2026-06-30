@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2018187326",
+  "application_id_fs": "WO2018187326",
+  "title": "Miniature magnetic field detector",
+  "abstract": "Aspects are generally directed to a compact and low-noise magnetic field detector, methods of operation, and methods of production thereof. In one example, a magnetic field detector includes a proof mass, a magnetic dipole source coupled to the proof mass, and a substrate having a substrate offset space defined therein, the proof mass being suspended above the substrate offset space. The magnetic field detector further includes a sense electrode disposed on the substrate within the substrate offset space and positioned proximate the proof mass, the sense electrode being configured to measure a change in capacitance relative to the proof mass from movement of the proof mass in response to a received magnetic field at the magnetic dipole source. The magnetic field detector includes a control circuit coupled to the sense electrode and configured to determine a characteristic of the magnetic field based on the measured change in capacitance.",
+  "claims": "Claims What is claimed is: CLAIMS 1. A magnetic field detector comprising: a proof mass; a magnetic dipole source coupled to the proof mass; a substrate having a substrate offset space defined therein, wherein the proof mass is suspended above the substrate offset space; a first sense electrode disposed on the substrate within the substrate offset space and positioned proximate the proof mass, the first sense electrode being configured to measure a change in capacitance relative to the proof mass from torsional movement of the proof mass in response to a received magnetic field at the magnetic dipole source; and a control circuit coupled to the first sense electrode and configured to determine a characteristic of the magnetic field based on the measured change in capacitance. 2. The magnetic field detector of claim 1, further comprising a counterbalance coupled to the proof mass, wherein the magnetic dipole source is coupled to a first surface of the proof mass and the counterbalance is coupled to a second surface of the proof mass distal the magnetic dipole source. 3. The magnetic field detector of claim 1, further comprising a second sense electrode coupled to the control circuit, wherein the second sense electrode is disposed on the substrate, and wherein the first sense electrode and the second sense electrode are configured to provide a differential capacitance measurement based on the change in capacitance from the torsional movement of the proof mass. 4. The magnetic field detector of claim 3, further comprising at least one drive electrode coupled to the control circuit and positioned proximate the proof mass, wherein the at least one drive electrode is configured to produce a feedback torque on the proof mass. 5. The magnetic field detector of claim 4, wherein the at least one drive electrode is positioned on the substrate and within the substrate offset space. 6. The magnetic field detector of claim 5, further comprising a plurality of guard rings, each guard ring positioned to substantially surround a corresponding one of the first sense electrode or the at least one drive electrode. 7. The magnetic field detector of claim 1, wherein the magnetic dipole source is formed from at least one of a static permanent magnet and an electromagnet. 8. The magnetic field detector of claim 1, further comprising at least one support coupled to the proof mass and configured to suspend the proof mass above the substrate offset space. 9. The magnetic field detector of claim 8, further comprising a structure wafer, wherein at least the proof mass and the at least one support are defined in the structure wafer. 10. The magnetic field detector of claim 9, wherein the structure wafer is a Silicon-on- Insulator (SOI) wafer having a flexure layer, a handle layer, and an oxide layer, the oxide layer being interposed between the flexure layer and the handle layer, and wherein the proof mass and the at least one support are defined in the flexure layer. 11. The magnetic field detector of claim 1, further comprising a levitation suspension system configured to levitate the proof mass relative to the substrate. 12. The magnetic field detector of claim 11, wherein the levitation suspension system includes at least one levitation forcer positioned proximate the proof mass and configured to apply a force to maintain the proof mass at a null point, and wherein the at least one levitation forcer is an electrostatic forcer or a magnetic forcer. 13. The magnetic field detector of claim 1, wherein the magnetic dipole source is configured to generate a dynamic magnetic dipole, the control circuit being configured to provide an induced voltage to vary the dynamic magnetic dipole. 14. The magnetic field detector of claim 1, further comprising an auxiliary sensor coupled to the control circuit and configured to measure an external parameter, the external parameter including at least one of noise, a vibration, and an ambient temperature, and wherein the control circuit is configured to adjust the characteristic of the magnetic field to compensate for an effect of the measured external parameter on the characteristic of the magnetic field. 15. The magnetic field detector of claim 1, wherein the control circuit includes a preamplifier, a demodulator, and a baseband filter, and wherein the preamplifier is configured to provide a carrier signal amplitude-modulated by the magnetic field and the demodulator is configured to receive the amplitude-modulated carrier signal, and wherein the baseband filter is configured to extract the characteristic of the magnetic field from an output of the demodulator. 16. The magnetic field detector of claim 1, wherein the control circuit is further configured to apply a bias voltage and create a negative spring force on the proof mass. 17. A magnetic field transduction method comprising: generating a magnetic dipole on a proof mass, the proof mass being suspended above a substrate offset space in a substrate relative to a first sense electrode disposed on the substrate; measuring a change in capacitance between the first sense electrode and the proof mass from torsional movement of the proof mass in response to receiving a magnetic field at the proof mass; and determining a characteristic of the magnetic field based on the measured change in capacitance. 18. The method of claim 17, further comprising providing a differential capacitance measurement from the first sense electrode and a second sense electrode based on the change in capacitance from the torsional movement of the proof mass. 19. The method of claim 17, further comprising suspending the proof mass relative to the first sense electrode with at least one of one or more supports, one or more rotational bearings, an electrostatic suspension, or a magnetic suspension. 20. The method of claim 19, further comprising providing a feedback torque on the proof mass with one or more drive electrodes positioned proximate the proof mass. 21. The method of claim 17, wherein generating the magnetic dipole includes forming the magnetic dipole on the proof mass with a permanent magnet or an electromagnet. 22. A method of fabricating a magnetic field detector comprising: defining at least one substrate offset space in a substrate wafer; forming a first sense electrode on the substrate wafer and within the substrate offset space; defining a proof mass and at least one support in a structure wafer and suspending the proof mass by the at least one support to allow torsional movement of the proof mass; providing a magnetic dipole source on the proof mass; and coupling the substrate wafer and the structure wafer to position the proof mass proximate the substrate offset space of the substrate wafer and within capacitive communication with at least the first sense electrode. 23. The method of claim 22, further comprising providing the structure wafer, wherein the structure wafer includes a flexure layer, a handle layer, and an oxide layer, the oxide layer being interposed between the flexure layer and the handle layer, and wherein defining the proof mass and the at least one support in the structure wafer includes etching the flexure layer to form the proof mass and the at least one support. 24. The method of claim 23, further comprising applying a metallic layer to one or more holes defined in the flexure layer to electrically couple the flexure layer and the handle layer of the structure wafer. 25. The method of claim 22, further comprising forming a second sense electrode, a first drive electrode, and a second drive electrode on the substrate wafer and within the substrate offset space.",
+  "classifications": {
+    "ipc": [
+      "G01R 33/00",
+      "G01R 33/0047",
+      "G01V 3/00",
+      "G01V 3/08",
+      "G01V 3/081",
+      "A61B 5/00",
+      "A61B 5/24",
+      "G01R 1/00",
+      "G01R 13/00",
+      "G01R 31/00",
+      "G01R 1/02",
+      "G01R 1/04",
+      "G01R 33/0023",
+      "G01R 33/0052",
+      "G01R 33/12",
+      "G01R 33/1261"
+    ],
+    "cpc": [],
+    "all": [
+      "G01R 33/00",
+      "G01R 33/0047",
+      "G01V 3/00",
+      "G01V 3/08",
+      "G01V 3/081",
+      "A61B 5/00",
+      "A61B 5/24",
+      "G01R 1/00",
+      "G01R 13/00",
+      "G01R 31/00",
+      "G01R 1/02",
+      "G01R 1/04",
+      "G01R 33/0023",
+      "G01R 33/0052",
+      "G01R 33/12",
+      "G01R 33/1261"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018187326"
+}

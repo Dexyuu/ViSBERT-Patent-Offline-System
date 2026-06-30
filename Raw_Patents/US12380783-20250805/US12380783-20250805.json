@@ -1,0 +1,28 @@
+{
+  "title": "Facility surveillance systems and methods",
+  "abstract": "Systems and methods for surveillance of a facility including facility elements. The system includes a central computing unit providing a digital model of the facility providing topological or logical or functional relationships of the facility elements, surveillance sensors adapted for surveillance of a plurality of the facility elements and for generation of surveillance data, communication means for transmitting data from the surveillance sensors to the central computing unit, and state derivation means configured to analyse the surveillance data and derive a state of a respective facility element. The central computing unit is configured to record a state pattern by combining states of at least one facility element based on at least one relationship of the facility element provided by the facility model, provide a state pattern critical-noncritical classification model which considers relationships provided by the facility model, and perform a criticality-classification based on the relationship.",
+  "claims": "1. A surveillance system for surveillance of a facility, the surveillance system comprising: a mobile surveillance robot having a body, a drive system for moving of the body, and an action controller for controlling actions of the robot, the actions comprising the moving of the body or acquisition of surveillance data by the mobile surveillance robot, the surveillance system further comprising: at least a first surveillance sensor designed to acquire first surveillance data of at least one object of the facility, a state detector configured to detect at least one state associated with the object based on the first surveillance data, wherein the state detector is configured to: notice a state ambiguity of the state which indicates an uncertainty of a state detection, trigger an action of the mobile surveillance robot by the action controller in case a state ambiguity is noticed, the triggered action adapted to generate state verification information about the object, the state verification information being suitable to verify or falsify the detected state and therewith resolve the state ambiguity, and resolve the state ambiguity considering the state verification information.",
+  "patent_id": "US12380783-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G08B 13/19613",
+      "G06F 18/2431",
+      "G06N 3/02",
+      "G06V 20/35",
+      "G06V 20/52",
+      "G08B 13/1968",
+      "G08B 13/19682"
+    ],
+    "all": [
+      "G08B 13/19613",
+      "G06F 18/2431",
+      "G06N 3/02",
+      "G06V 20/35",
+      "G06V 20/52",
+      "G08B 13/1968",
+      "G08B 13/19682"
+    ],
+    "source": "converted"
+  }
+}

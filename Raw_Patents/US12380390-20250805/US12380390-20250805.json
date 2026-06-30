@@ -1,0 +1,32 @@
+{
+  "title": "Change management system and method",
+  "abstract": "A method, computer program product, and computing system for gathering transition information from a user concerning a business process transition event; and processing the transition information to generate a bespoke journey concerning the business process transition event.",
+  "claims": "1. A computer-implemented method, executed on a computing device, comprising: gathering transition information from a user concerning a business process transition event, wherein the business process transition event includes a business process transition event from a first business process to a second business process; processing the transition information to generate a plurality of bespoke journeys concerning the business process transition event relative to a plurality of recipients based upon, at least in part, each respective recipient's role and one or more functionalities associated with the second business process, wherein generating each bespoke journey includes populating the bespoke journey with a plurality of subevents selected to guide the plurality of recipients through the business process transition event from the first business process to the second business process for the respective recipient's role, and wherein the plurality of subevents include one or more training subevents selected to train the respective recipient with the functionalities associated with the second business process that concern the respective recipient's role; providing the plurality of bespoke journeys concerning the business process transition event to each of the plurality of recipients, wherein each bespoke journey includes one or more subevents configured to guide the respective recipient through the business process transition event for their role and the one or more functionalities associated with the second business process, wherein providing the plurality of bespoke journeys concerning the business process transition event includes: populating a user interface associated with a respective recipient with the plurality of subevents associated with the respective recipient's role and the one or more functionalities associated with the second business process, receiving one or more selections of subevents to access within the user interface; and prompting the respective recipient in real-time to complete the plurality of subevents associated with the respective recipient using a virtual bot; wherein prompting the respective recipient using the virtual bot includes: gathering information concerning the plurality of subevents associated with the respective recipient using the virtual bot, wherein gathering information from the plurality of subevents includes iteratively prompting the respective recipient with the virtual bot via the user interface until the virtual bot determines that no further information is needed; performing sentiment analysis on the information gathered concerning the plurality of subevents associated with the respective recipient using the virtual bot to gauge sentiment concerning a particular subevent by performing sentiment analysis on the information gathered from the respective recipient concerning the particular subevent using a machine learning model to define a sentiment metric for the particular subevent, wherein the machine learning model extracts one or more key words from the information gathered from the respective recipient and flags the one or more key words as: positive, negative, or neutral; in response to defining a negative sentiment metric for the particular subevent, adapting subsequent prompting of the respective recipient using the virtual bot based upon, at least in part, the sentiment analysis on the information gathered concerning the plurality of subevents associated with the respective recipient, wherein the virtual bot provides one or more follow up questions to the respective recipient; and in response to defining the negative sentiment metric for the particular subevent, modifying content of a subevent of the plurality of subevents within the bespoke journey that is provided to at least the respective recipient as part of the bespoke journey based upon, at least in part, the negative sentiment metric for the particular subevent.",
+  "patent_id": "US12380390-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/0637",
+      "G06F 40/30",
+      "G06Q 10/06313",
+      "G06Q 10/06315",
+      "G06Q 10/06316",
+      "G06Q 10/0635",
+      "G06Q 10/06375",
+      "G06Q 10/105",
+      "H04L 51/02"
+    ],
+    "all": [
+      "G06Q 10/0637",
+      "G06F 40/30",
+      "G06Q 10/06313",
+      "G06Q 10/06315",
+      "G06Q 10/06316",
+      "G06Q 10/0635",
+      "G06Q 10/06375",
+      "G06Q 10/105",
+      "H04L 51/02"
+    ],
+    "source": "converted"
+  }
+}

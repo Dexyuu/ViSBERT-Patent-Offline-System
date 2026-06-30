@@ -1,0 +1,18 @@
+{
+  "title": "Data storage and querying",
+  "abstract": "Computer-implemented methods, apparatus, and systems for data storage and data query are described. During data storage, the number of neighboring graph nodes in each starting graph node in directed graph graph data to be stored is determined, and a data storage mode is determined according to the number of neighboring graph nodes. When the data storage mode is not an ultra-large node data storage, node data, neighbor information, outgoing edge index feature information, and outgoing edge data of the starting graph node are stored in the same data fragment. When the data storage mode is an ultra-large node data storage, node data, neighbor information, outgoing edge index feature range information, and outgoing edge data are stored in a starting graph node data fragment, and the outgoing edge data and outgoing edge data storage address information of the starting graph node are stored in at least two outgoing edge data fragments.",
+  "claims": "1. A computer-implemented method for data storage, comprising: determining the number of neighboring graph nodes of each starting graph node in directed graph graph data to be stored; determining a data storage mode is an ultra-large node data storage mode or not based on the number of neighboring graph nodes of each starting graph node; for a first starting graph node, when the data storage mode is not the ultra-large node data storage mode, storing node data, neighbor information, outgoing edge index feature information, and outgoing edge data of the first starting graph node to a first starting graph node data fragment of a first data storage medium, wherein: the outgoing edge index feature information comprises outgoing edge index feature information of all outgoing edges of the first starting graph node, and each outgoing edge index feature has a mapping relationship with an outgoing edge data index that is used for indexing corresponding outgoing edge data stored in the first starting graph node data fragment; or for a second starting graph node, when the data storage mode is the ultra-large node data storage mode, storing node data, neighbor information, outgoing edge index feature range information, and outgoing edge data fragment index of the second starting graph node in a second starting graph node data fragment in a second data storage medium, wherein the outgoing edge index feature range information comprises multiple outgoing edge index feature ranges having a mapping relationship with the outgoing edge data fragment index, and storing outgoing edge data and outgoing edge data storage address information of the second starting graph node in at least two outgoing edge data fragments in a third data storage medium, wherein the outgoing edge data storage address information comprises a two-dimensional array that comprises an outgoing edge index feature of the outgoing edge data and a relative storage address of the outgoing edge data in an outgoing edge data fragment.",
+  "patent_id": "US12380164-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/9024",
+      "G06F 16/90335"
+    ],
+    "all": [
+      "G06F 16/9024",
+      "G06F 16/90335"
+    ],
+    "source": "converted"
+  }
+}

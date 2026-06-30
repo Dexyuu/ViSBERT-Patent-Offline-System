@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2019108477",
+  "application_id_fs": "WO2019108477",
+  "title": "Body mountable robot",
+  "abstract": "A body mountable robot may include a set of stages disposed in a parallel configuration. The body mountable robot may include a set of actuating joints, wherein an actuating joint, of the set of actuating joints, is configured to rotate with respect to a corresponding stage of the set of stages. The body mountable robot may include at least one actuator, wherein the at least one actuator is configured to actuate at least one actuating joint of the set of actuating joints. The body mountable robot may include a set of scissor mechanisms, wherein a scissor mechanism, of the set of scissor mechanisms, that is coupled to the actuating joint, is supported by the corresponding stage, and wherein the scissor mechanism is configured to translate with respect to the corresponding stage.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1. A body mountable robot, comprising: a set of stages disposed in a parallel configuration; a set of actuating joints, wherein an actuating joint, of the set of actuating joints, is configured to rotate with respect to a corresponding stage of the set of stages; at least one actuator, wherein the at least one actuator is configured to actuate at least one actuating joint of the set of actuating joints; and a set of scissor mechanisms, wherein a scissor mechanism, of the set of scissor mechanisms, that is coupled to the actuating joint, is supported by the corresponding stage, wherein the scissor mechanism is configured to translate with respect to the corresponding stage. 2. The body mountable robot of claim 1, wherein the scissor mechanism, the actuating joint, and the corresponding stage combine to provide two degrees of freedom of motion for a receptacle supported by the scissor mechanism, the actuating joint, and the corresponding stage. 3. The body mountable robot of claim 2, wherein another scissor mechanism, of the set of scissor mechanisms, another actuating joint, of the set of actuating joints, and another stage, of the set of stages, combine to provide another two degrees of freedom for the receptacle, such that the receptacle has four degrees of freedom of motion. 4. The body mountable robot of claim 2, wherein the receptacle supports a needle guide. 5. The body mountable robot of claim 4, wherein the needle guide is rotatable by an angular range of between -30 degrees and 30 degrees of an initial position. 6. The body mountable robot of claim 1, further comprising: \n\n an optical encoder to provide feedback information identifying a motion of at least one of: the at least one actuator, the set of actuating joints, the set of stages, or the set of scissor mechanisms. 7. The body mountable robot of claim 1, further comprising: a robot control system to control at least one of: the at least one actuator, the set of actuating joints, the set of stages, or the set of scissor mechanisms. 8. The body mountable robot of claim 1, wherein components of the body mountable robot are composed of a magnetic resonance imaging (MRI)-compatible material. 9. The body mountable robot of claim 1, further comprising: a base to support at least one of the at least one actuator, the set of actuating joints, the set of stages, or the set of scissor mechanisms. 10. The body mountable robot of claim 9, wherein the base is configured to be securely mounted to a portion of a human body. 11. The body mountable robot of claim 9, further comprising: an integrated magnetic resonance imaging (MRI) coil to perform MRI imaging. 12. A system, comprising: a body mountable robot configured for use within an MRI machine, comprising: a set of stages disposed in a parallel configuration, a set of actuating joints, at least one actuator, a set of scissor mechanisms, a needle guide, and a robot control system to control the body mountable robot to move the needle guide with regard to four degrees of freedom of movement; and \n\n a control device to transmit control signals to the robot control system based on imaging information from the MRI machine. 13. The system of claim 12, wherein a scissor mechanism, of the set of scissor mechanisms, includes a plurality of connected link bars, wherein the plurality of connected link bars are connected by at least one spherical joint. 14. The system of claim 12, wherein the body mountable robot further comprises a base, and wherein the at least one actuator is connected to the base, and wherein at least one power or data cable is connected to the at least one actuator at the base. 15. The system of claim 12, wherein the control device is configured to transmit the control signals to guide a percutaneous intervention. 16. The system of claim 15, wherein the percutaneous intervention is an arthrography procedure. 17. A control device, comprising: one or more memories; and one or more processors, communicatively coupled to the one or more memories, to: determine to position a needle guide, wherein the needle guide is supported by an upper stage and a lower stage of a body mountable robot, wherein the upper stage includes a first actuating joint to move about the upper stage, a first actuator to move the first actuating joint, and a first scissor mechanism to move about the upper stage, wherein the lower stage includes a second actuating joint to move about the lower stage, a second actuator to move the second actuating joint, and a second scissor mechanism to move about the lower stage; \n\n determine a set of commands for the first actuator or the second actuator to position the needle guide; and transmit the set of commands to a robot control system of the body mountable robot to cause the first actuator or the second actuator to move at least one of the first actuating joint, the first scissor mechanism, the second actuating joint, or the second scissor mechanism to reposition the needle guide. 18. The control device of claim 17, wherein the one or more processors are further to: receive input indicating that the needle guide is to be moved from a first location to a second location. 19. The control device of claim 17, wherein the first actuator is a first piezoelectric motor and the second actuator is a second piezoelectric motor. 20. The control device of claim 19, wherein the one or more processors are further to: receive magnetic resonance imaging of a patient; determine, based on the magnetic resonance imaging, an initial position of the needle guide; determine, based on the magnetic resonance imaging, a target position of the needle guide; and wherein the one or more processors, when determining to reposition the needle guide, are to: determine to move the needle guide from the initial position to the target position.",
+  "classifications": {
+    "ipc": [
+      "A61B 90/00",
+      "A61B 1/00",
+      "A61B 50/00",
+      "A61B 90/10",
+      "A61B 90/11",
+      "A61B 34/00",
+      "A61B 34/30",
+      "A61B 34/32",
+      "A61B 17/00",
+      "A61B 17/34",
+      "A61B 17/3403",
+      "A61B 2017/3405",
+      "A61B 2017/3409",
+      "A61B 90/36",
+      "A61B 90/37",
+      "A61B 2090/374"
+    ],
+    "cpc": [],
+    "all": [
+      "A61B 90/00",
+      "A61B 1/00",
+      "A61B 50/00",
+      "A61B 90/10",
+      "A61B 90/11",
+      "A61B 34/00",
+      "A61B 34/30",
+      "A61B 34/32",
+      "A61B 17/00",
+      "A61B 17/34",
+      "A61B 17/3403",
+      "A61B 2017/3405",
+      "A61B 2017/3409",
+      "A61B 90/36",
+      "A61B 90/37",
+      "A61B 2090/374"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019108477"
+}

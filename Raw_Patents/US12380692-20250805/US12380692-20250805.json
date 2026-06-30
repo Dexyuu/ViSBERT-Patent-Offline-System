@@ -1,0 +1,26 @@
+{
+  "title": "Abandoned object detection",
+  "abstract": "System and techniques for abandoned object detection are described herein. a fence is established about a person and an object is detected within the fence. An entry is created in an object-person relationship data structure to establish a relationship between the person and the object within the fence. Then, the position of the object is monitored until an indication that the fence is terminated is received. If it is detected that the object is outside the fence during the monitoring, the person is alerted.",
+  "claims": "1. A device comprising: an interface to a sensor, the interface arranged to collect sensor data, wherein the sensor includes a camera; a memory including instructions; and processing circuitry that, when in operation, is configured by the instructions to: establish a fence about a person; detect, from the sensor data, an object within the fence, wherein, to detect the object within the fence, the processing circuitry uses sensor data from the camera to detect and classify the object; create an entry in an object-person relationship data structure to establish a relationship between the person and the object within the fence; monitor a position of the object until an indication is received that the fence is terminated, wherein, to monitor the position of the object, the processing circuitry repeatedly: shuts down the camera used to detect the object; uses at least one of an accelerometer, a motion sensor, or a pressure sensor to detect a change in state of an environment about the person; and activates the camera to detect the object again and measure a distance between the person and the object; detect, from the monitoring, that the object is outside of the fence; and alert the person that the object is outside of the fence.",
+  "patent_id": "US12380692-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 20/00",
+      "G06T 7/70",
+      "G08B 21/182",
+      "G08B 21/22",
+      "H04N 7/185",
+      "H04N 7/188"
+    ],
+    "all": [
+      "G06V 20/00",
+      "G06T 7/70",
+      "G08B 21/182",
+      "G08B 21/22",
+      "H04N 7/185",
+      "H04N 7/188"
+    ],
+    "source": "converted"
+  }
+}

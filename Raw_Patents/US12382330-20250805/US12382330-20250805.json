@@ -1,0 +1,36 @@
+{
+  "title": "Method, product and apparatus for treating master cell group, MCG, failure and radio link failure, RLF, reporting",
+  "abstract": "A method (400) for reporting radio link failure, RLF, information. The method includes a user equipment, UE, detecting (s402) an RLF with respect to a master cell group, MCG. The method also includes, in response to detecting the RLF with respect to the MCG, the UE storing (s404) RLF information. The method also includes the UE sending (s406) a first message comprising MCG failure information, e.g., the RLF information, and activating a timer. The method also includes the UE receiving (s408) a second message after sending the first message and activating the timer. The method also includes the UE, in response to receiving the second message, determining (s410) that a condition is satisfied, wherein determining that the condition is satisfied comprises at least determining that the timer is still running. The method also includes, as a result of determining that the condition is satisfied, the UE deleting (s412) the RLF information.",
+  "claims": "1. A method for reporting radio link failure (RLF) information, the method comprising: a user equipment (UE) detecting an RLF with respect to a master cell group (MCG); in response to detecting the RLF with respect to the MCG, the UE storing RLF information; the UE sending a first message comprising MCG failure information and starting a timer; after sending the first message and starting the timer, the UE receiving a second message; the UE, in response to receiving the second message, determining that the timer is still running; and as a result of determining that the that the timer is still running, the UE deleting the RLF information, wherein the second message is one of: an RRC message containing a reconfiguration with synchronization indicator; a MobilityFromEUTRA message; a MobilityFromNR message; or an RRCConnectionReconfigurationMessage with mobilityControlInfo.",
+  "patent_id": "US12382330-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 24/10",
+      "H04W 24/08",
+      "H04W 36/0069",
+      "H04W 36/305",
+      "H04W 76/19",
+      "H04W 76/38",
+      "H04W 84/02",
+      "H04W 88/02",
+      "H04W 88/08",
+      "H04W 92/02",
+      "H04W 92/10"
+    ],
+    "all": [
+      "H04W 24/10",
+      "H04W 24/08",
+      "H04W 36/0069",
+      "H04W 36/305",
+      "H04W 76/19",
+      "H04W 76/38",
+      "H04W 84/02",
+      "H04W 88/02",
+      "H04W 88/08",
+      "H04W 92/02",
+      "H04W 92/10"
+    ],
+    "source": "converted"
+  }
+}

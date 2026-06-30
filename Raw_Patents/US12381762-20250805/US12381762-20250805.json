@@ -1,0 +1,18 @@
+{
+  "title": "Channel estimation using machine learning",
+  "abstract": "A method for performing multiple-input and multiple-output channel estimation includes: generating, using a first machine-learning model, an initial set of estimated channel information from a first input set of channel information, wherein the first input set of channel information corresponds to a first plurality of radio-frequency chains, and wherein the estimated set of channel information corresponds to the first plurality of radio-frequency chains and a second plurality of radio-frequency chains; generating, using a second machine-learning model, a set of estimated channel phases from the initial set of estimated channel information and a second input set of channel information, wherein the second set of input channel information corresponds to the second plurality of radio-frequency chains; and combining the initial set of estimated channel information and the set of estimated channel phases to generate an enhanced set of estimated channel information.",
+  "claims": "1. A method comprising: generating, using a first machine-learning model, an initial set of estimated channel information from a first input set of channel information obtained from a set of radio-frequency signals, wherein the first input set of channel information corresponds to measurements from a first plurality of radio-frequency chains, and wherein the estimated set of channel information corresponds to the first plurality of radio-frequency chains and a second plurality of radio-frequency chains; generating, using a second machine-learning model, a set of estimated channel phases from the initial set of estimated channel information and a second input set of channel information, wherein the second set of input channel information corresponds to measurements from the second plurality of radio-frequency chains; and combining the initial set of estimated channel information and the set of estimated channel phases to generate an enhanced set of estimated channel information, wherein the enhanced set of estimated channel information corresponds to the first plurality of radio-frequency chains and the second plurality of radio-frequency chains.",
+  "patent_id": "US12381762-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 25/0254",
+      "H04L 25/0204"
+    ],
+    "all": [
+      "H04L 25/0254",
+      "H04L 25/0204"
+    ],
+    "source": "converted"
+  }
+}

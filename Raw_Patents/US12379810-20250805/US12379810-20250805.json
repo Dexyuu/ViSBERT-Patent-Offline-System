@@ -1,0 +1,26 @@
+{
+  "title": "Pen and sensor controller",
+  "abstract": "An integrated circuit for a pen includes reception circuitry configured to receive an uplink signal generated according to a first protocol and transmission circuitry configured to transmit, according to the first protocol, a downlink signal based on a reception timing of the uplink signal and a command included in the uplink signal. In a case where the reception circuitry receives the uplink signal that is in a normal state (uplink signal NUS) in a first period, the transmission circuitry transmits the downlink signal including data according to the command included in the uplink signal NUS. In a case where the reception circuitry receives the uplink signal that is in a special state (uplink signal SUS) in a second period subsequent to the first period, the transmission circuitry transmits the downlink signal including data according to the command included in the uplink signal NUS received in the first period.",
+  "claims": "1. An integrated circuit for a pen, the integrated circuit comprising: reception circuitry configured to receive an uplink signal generated according to a first protocol; and transmission circuitry configured to transmit, according to the first protocol, a downlink signal based on a reception timing of the uplink signal and a command included in the uplink signal, wherein, in a case where the reception circuitry receives the uplink signal that is in a normal state (uplink signal NUS) in a first period, the transmission circuitry transmits the downlink signal including data according to the command included in the uplink signal NUS, and in a case where the reception circuitry receives the uplink signal that is in a special state (uplink signal SUS) in a second period subsequent to the first period, the transmission circuitry transmits the downlink signal including data according to the command included in the uplink signal NUS received in the first period.",
+  "patent_id": "US12379810-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0441",
+      "G06F 3/03545",
+      "G06F 3/038",
+      "G06F 3/0416",
+      "G06F 3/0442",
+      "H04L 1/0061"
+    ],
+    "all": [
+      "G06F 3/0441",
+      "G06F 3/03545",
+      "G06F 3/038",
+      "G06F 3/0416",
+      "G06F 3/0442",
+      "H04L 1/0061"
+    ],
+    "source": "converted"
+  }
+}

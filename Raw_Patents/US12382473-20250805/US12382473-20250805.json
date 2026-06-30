@@ -1,0 +1,22 @@
+{
+  "title": "Method for transmitting/receiving data in wireless communication system, and device therefor",
+  "abstract": "The present specification relates to a method for a base station transmitting/receiving data in a wireless communication system. More specifically, a terminal receives, from the base station, configuration information for configuring a control resource set (CORESET). Then, on the basis of the configuration information, the terminal receives first downlink control information (DCI) and second DCI for generating an ACK/NACK using a dynamic method. The terminal receives, on a resource scheduled by the first DCI, a first physical downlink shared channel (PDSCH) and a second PDSCH, and transmits a first Ack/Nack for the first PDSCH and an Ack/Nack for the second PDSCH.",
+  "claims": "1. A method performed by a base station (BS) in a wireless communication system, the method comprising: transmitting, to a user equipment (UE), configuration information including a first index of a first control resource set (CORESET) group associated with a first CORESET and a second index of a second CORESET group associated with a second CORESET; transmitting, to the UE, first downlink control information (DCI) based on the first CORESET; transmitting, to the UE, a first Physical Downlink Shared channel (PDSCH) scheduled by the first DCI; and receiving, from the UE, first Hybrid Automatic Repeat Request-Acknowledgement (HARQ-ACK) information corresponding to the first PDSCH, wherein the second CORESET is for a second DCI scheduling a second PDSCH related to a second HARQ-ACK information, and wherein based on the first index of the first CORESET group associated with the first CORESET being configured differently from the second index of the second CORESET group associated with the second CORESET, the first HARQ-ACK information and the second HARQ-ACK information are separate.",
+  "patent_id": "US12382473-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/23",
+      "H04L 1/1819",
+      "H04L 5/0053",
+      "H04W 72/1273"
+    ],
+    "all": [
+      "H04W 72/23",
+      "H04L 1/1819",
+      "H04L 5/0053",
+      "H04W 72/1273"
+    ],
+    "source": "converted"
+  }
+}

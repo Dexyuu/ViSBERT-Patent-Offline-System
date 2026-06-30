@@ -1,0 +1,18 @@
+{
+  "title": "Load shedding for a vehicle",
+  "abstract": "A method is provided that includes determining whether to perform a load shed operation for a vehicle. The method further includes responsive to determining to perform the load shed operation, issuing a command to a device to perform the load shed operation. The method further includes determining whether the device performed the load shed operation. The method further includes responsive to determining that the device failed to perform the load shed operation, opening a relay associated with the device to prevent power from being delivered to the device.",
+  "claims": "1. A method comprising: selecting a selected load shed operation from one of three initial load shed operations, wherein the selecting is based at least in part on an operating condition of the vehicle; responsive to determining to perform the selected load shed operation, issuing, by the controller, a command to a device to perform the selected load shed operation; determining, by the controller, whether the device performed the selected load shed operation based at least in part on an available energy and an available power, wherein the available energy is how much power is available over a period of time expressed in amp hours (Ah), and wherein the available power is how much power is available at a particular time expressed in watts (W); responsive to determining that the selected load shed operation was not effective, implementing an additional load shed operation other than the three initial load shed operations; and responsive to determining that the device failed to perform the selected load shed operation or that the additional load shed operation was not effective, opening a relay associated with the device to prevent power from being delivered from the battery to the device.",
+  "patent_id": "US12377746-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60L 53/63",
+      "B60L 53/14"
+    ],
+    "all": [
+      "B60L 53/63",
+      "B60L 53/14"
+    ],
+    "source": "converted"
+  }
+}

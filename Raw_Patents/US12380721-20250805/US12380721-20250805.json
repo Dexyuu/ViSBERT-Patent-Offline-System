@@ -1,0 +1,24 @@
+{
+  "title": "Handwriting recognition method and apparatus, and electronic device and storage medium",
+  "abstract": "A handwriting recognition method and apparatus, and an electronic device and a storage medium are provided. The method includes: acquiring a text image containing handwritten text; inputting the text image into a convolutional neural network, and extracting a CNN feature and a HOG feature of the text image; and extracting the handwritten text in text image according to the CNN feature and the HOG feature.",
+  "claims": "1. A handwriting recognition method, comprising: acquiring a text image containing handwritten text; inputting the text image to a convolutional neural network and extracting a Convolutional Neural Network feature of the text image; dividing the text image into a plurality of text subimages according to a preset size, and extracting directional gradient features of the plurality of text subimages; acquiring a histogram of oriented gradient feature of the text image according to the directional gradient features; and extracting the handwritten text from the text image according to the Convolutional Neural Network feature and the histogram of oriented gradient feature; wherein extracting the handwritten text from the text image according to the Convolutional Neural Network feature and the histogram of oriented gradient feature comprises: generating a target image feature according to the Convolutional Neural Network feature and the histogram of oriented gradient feature and dividing the target image feature into a plurality of time steps; encoding the target image feature by an encoding layer in a recognition model, so as to obtain an image encoding feature corresponding to each of the time steps in the target image feature; sequentially inputting the image encoding feature corresponding to each of the time steps to a decoding layer in the recognition model for decoding, so as to obtain an image decoding feature corresponding to each of the time steps; inputting the image decoding feature corresponding to each of the time steps to a classification layer in the recognition model, so as to obtain a handwritten text recognition result corresponding to each of the time steps; and recognizing the handwritten text according to the handwritten text recognition result; wherein sequentially inputting the image encoding feature corresponding to each of the time steps to the decoding layer in the recognition model for decoding, so as to obtain an image decoding feature corresponding to each of the time steps comprises: determining whether a currently input image encoding feature is a first image encoding feature; on the condition that the currently input image encoding feature is not the first image encoding feature, acquiring an image decoding feature corresponding to a previously input image encoding feature; generating an image decoding feature corresponding to the currently input image encoding feature according to the currently input image encoding feature and the image decoding feature corresponding to the previously input image encoding feature; and on the condition that the currently input image encoding feature is the first image encoding feature, acquiring a corresponding image decoding feature according to the currently input image encoding feature.",
+  "patent_id": "US12380721-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 30/194",
+      "G06V 10/82",
+      "G06V 30/1831",
+      "G06V 30/1916",
+      "G06V 30/274"
+    ],
+    "all": [
+      "G06V 30/194",
+      "G06V 10/82",
+      "G06V 30/1831",
+      "G06V 30/1916",
+      "G06V 30/274"
+    ],
+    "source": "converted"
+  }
+}

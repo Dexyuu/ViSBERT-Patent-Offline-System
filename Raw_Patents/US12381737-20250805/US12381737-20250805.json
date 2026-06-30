@@ -1,0 +1,16 @@
+{
+  "title": "Verification method and information processing apparatus",
+  "abstract": "An information processing apparatus acquires a first verifiable credential (VC) that proves the validity of attribute information of a holder by a first signature verifiable by verification procedures of a first decentralized identifiers (DID) infrastructure and a second VC that proves the validity of the attribute information of the holder by a second signature verifiable by verification procedures of a second DID infrastructure. Next, the information processing apparatus verifies the second signature contained in the second VC by the verification procedures of the second DID infrastructure. Further, the information processing apparatus transmits a verification request for verifying the first signature contained in the first VC to a verification device capable of verifying the first signature contained in the first VC by the verification procedures of the first DID infrastructure, and then acquires, from the verification device, verification results of the first signature contained in the first VC.",
+  "claims": "1. A non-transitory computer-readable recording medium storing therein a computer program that causes a computer to execute a process comprising: acquiring a first verifiable credential (VC) that proves validity of attribute information of a holder by a first signature verifiable by verification procedures of a first decentralized identifiers (DID) infrastructure and a second VC that proves the validity of the attribute information of the holder by a second signature verifiable by verification procedures of a second DID infrastructure that has different signature and verification schemes from the first DID infrastructure; verifying the second signature contained in the second VC by the verification procedures of the second DID infrastructure; selecting, from a verifier list enumerating the plurality of verification devices, a predetermined number of verification devices capable of verifying the first signature contained in the first VC by the verification procedures of the first DID infrastructure; transmitting a verification request for verifying the first signature contained in the first VC to the selected verification devices; acquiring, from the selected verification devices, verification results of the first signature contained in the first VC; determining that no fraud has taken place in the issuance procedures of the second VC responsive to acquiring, from a number of verification devices equal to or greater than a threshold, the verification results indicating that the attribute information has been verified to be valid by the first signature; and determining that there has been fraud in the issuance procedures of the second VC responsive to acquiring, from a number of verification devices less than the threshold, the verification results indicating that the attribute information has been verified to be valid by the first signature.",
+  "patent_id": "US12381737-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/3247"
+    ],
+    "all": [
+      "H04L 9/3247"
+    ],
+    "source": "converted"
+  }
+}

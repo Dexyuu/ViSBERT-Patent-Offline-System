@@ -1,0 +1,20 @@
+{
+  "title": "Table scan predicate with integrated semi-join filter",
+  "abstract": "A system and method is provided for implementing a table scan predicate with integrated semi-join filter. The method includes receiving a query including a request to join first data from a first dimension table and second data from a second dimension table with fact data from a fact table. The method includes applying a first dynamic predicate to the first data by collecting the first data based on a first expression of the query and filtering the first column. The method also includes applying a second dynamic predicate to the second data by collecting the second data based on a second expression of the query and filtering the second column. The method also includes executing the query by at least scanning the fact table based on the query, the first filtered column, and the second filtered column.",
+  "claims": "1. A system, comprising: at least one data processor; and at least one memory storing instructions that, when executed by the at least one data processor, result in operations comprising: receiving a query including a request to join first data from a first dimension table and second data from a second dimension table with fact data from a fact table, the query further including: a first predicate including a first expression associated with the first data and a first reference to a first column associated with the fact data from the fact table, a second predicate including a second expression associated with the second data and a second reference to a second column associated with the fact data from the fact table, and a third predicate for use in a table scan of the fact table; applying a first dynamic predicate associated with the first dimension table to at least the first data by at least: collecting the first data based on the first expression, wherein collecting the first data comprises parallelizing the first data and merging the first data by uniquifying the first data after collecting the first data, and filtering the first column based on a first value identifier mapped to at least one vector of data representing the collected first data, wherein uniquifying the first data comprises removing duplicate values from the at least one vector of data representing the collected first data, the first dynamic predicate including a transformation of the first predicate for execution of the query; applying a second dynamic predicate associated with the second dimension table to at least the second data by at least: collecting the second data based on the second expression, wherein collecting the second data comprises parallelizing the second data and merging the second data by uniquifying the second data after collecting the second data, and filtering the second column based on a second value identifier mapped to at least one vector of data representing the collected second data, wherein uniquifying the second data comprises removing duplicate values from the at least one vector of data representing the collected second data, the second dynamic predicate including a transformation of the second predicate for execution of the query; and executing the query by at least scanning the fact table based on the first predicate, the second predicate, the first filtered column, and the second filtered column.",
+  "patent_id": "US12380110-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/2456",
+      "G06F 16/215",
+      "G06F 16/24544"
+    ],
+    "all": [
+      "G06F 16/2456",
+      "G06F 16/215",
+      "G06F 16/24544"
+    ],
+    "source": "converted"
+  }
+}

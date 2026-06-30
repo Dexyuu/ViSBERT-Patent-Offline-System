@@ -1,0 +1,30 @@
+{
+  "title": "Systems and methods for managing assets",
+  "abstract": "Systems, devices and methods for monitoring and managing parts, enterprise resources and other assets, and alleviating risks, in a complex collaboration environment are provided. According to some example aspects of the invention, a device with a hardware- and software-based control system creates unique asset-related information for use in a manufacturing, maintenance and/or tracking process. In other example aspects, the system records that asset-specific information (e.g., using secure network(s) and/or a blockchain), providing it for later access and modification by a number of trusted users, to track and control manufacturing-, maintenance-relevant or other factors. In other aspects, an enterprise resource planning system both outputs information to, and receives information from, the control system, reconciling changes in the data in accordance with a ranking algorithm.",
+  "claims": "1. A system for managing a plurality of assets, comprising: a control system, comprising a processor, a memory and software, and wherein said control system is configured to: create a first unique asset identifier of an asset; receive other asset information, wherein the other asset information is information about the asset other than the first asset identifier; provide an authentication and/or authorization protocol implementing two-factor authentication including at least two layers of control system implemented security, at least one of said layers being implemented through an auxiliary computer unit, over a secure network, as a precondition to recording; record, when said precondition is satisfied, said data into said memory, wherein said data includes and/or reflects at least some of the first asset identifier and/or the asset information; and deconflict pre-existing data changes from new data changes, created after said pre-existing data changes, based on determining whether the pre-existing data changes differ from the new data changes due to a presentation issue or and determining whether the pre-existing data changes differ from the new data changes due to an authority issue.",
+  "patent_id": "US12380504-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 40/06",
+      "G06F 18/22",
+      "G06K 19/07758",
+      "G08B 13/2405",
+      "G08B 13/2442",
+      "G08B 13/2454",
+      "H04L 9/0643",
+      "H04L 9/50"
+    ],
+    "all": [
+      "G06Q 40/06",
+      "G06F 18/22",
+      "G06K 19/07758",
+      "G08B 13/2405",
+      "G08B 13/2442",
+      "G08B 13/2454",
+      "H04L 9/0643",
+      "H04L 9/50"
+    ],
+    "source": "converted"
+  }
+}

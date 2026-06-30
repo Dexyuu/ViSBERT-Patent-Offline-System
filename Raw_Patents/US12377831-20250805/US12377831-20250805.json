@@ -1,0 +1,32 @@
+{
+  "title": "Method for operating a vehicle brake system, and brake system",
+  "abstract": "A method for operating a vehicle brake system, wherein the brake system has at least one friction brake and at least one regenerative brake. A defined switching pattern is specified for switching between a self-cleaning operating mode for cleaning the friction brake and a normal operating mode of the brake system. The method includes determining information describing the state of the at least one friction brake, determining the state of the at least one friction brake from the information, determining whether the state satisfies a specific switching criterion, and, if the self-cleaning operating mode is to be activated according to the switching pattern and the state of the friction brake does not satisfy the switching criterion, suppressing activation of the self-cleaning operating mode and maintaining the normal operating mode.",
+  "claims": "1. A method of operating a vehicle brake system comprising at least one friction brake and at least one regenerative brake, the method comprising: determining information which describes at least one friction brake; determining a state of at least one friction brake based on the information; determining according to a switching pattern that the state satisfies a specific switching criterion for switching between a self-cleaning operating mode for cleaning the at least one friction brake and a normal operating mode of the vehicle brake system, wherein the switching pattern is based on at least one of a timer interval between successive activations of the self-cleaning operating mode, a maximum number of braking operations between successive activations of the friction brake, and environmental conditions in the region of the vehicle; switching to the self-cleaning operating mode for cleaning the at least one friction brake according to defined parameters when the state of the at least one friction brake does satisfy the switching criterion, wherein the switching criterion is a threshold of a deceleration effect of the at least one brake; and suppressing activation of the self-cleaning operating mode and maintaining the normal operating mode when the state of the at least one friction brake does not satisfy the switching criterion.",
+  "patent_id": "US12377831-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60T 13/586",
+      "B60L 7/24",
+      "B60T 17/221",
+      "B60T 2201/124",
+      "B60T 2210/20",
+      "B60T 2210/30",
+      "B60T 2250/00",
+      "B60T 2250/04",
+      "B60T 2270/604"
+    ],
+    "all": [
+      "B60T 13/586",
+      "B60L 7/24",
+      "B60T 17/221",
+      "B60T 2201/124",
+      "B60T 2210/20",
+      "B60T 2210/30",
+      "B60T 2250/00",
+      "B60T 2250/04",
+      "B60T 2270/604"
+    ],
+    "source": "converted"
+  }
+}

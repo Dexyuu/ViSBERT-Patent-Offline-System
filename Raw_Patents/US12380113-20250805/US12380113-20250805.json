@@ -1,0 +1,20 @@
+{
+  "title": "Processing formatted record data with fixed and variable lengths",
+  "abstract": "A record processing and storage system operates by: receiving formatted row data that includes a fixed-length batch section and a temporary variable-length batch section; storing, in a compressed data format, at least one variable-length data value of each of a plurality of temporary variable-length row sections of each of the plurality of formatted row data; generating a plurality of modified formatted row data from the plurality of formatted row data by, for each formatted row data, replacing a fixed-length offset value for each variable-length field stored in the compressed data format with a key value utilized to access the corresponding variable-length data value in the compressed data format; and truncating the each formatted row data to remove inclusion of the temporary variable-length batch section; and storing the plurality of modified formatted row data as a plurality of pages in a page storage system.",
+  "claims": "1. A method for execution by a record processing and storage system, comprising: sending, via a communication network, data formatting requirements to a data source; receiving, via the communication network, a plurality of formatted row data from the data source in accordance with the data formatting requirements, wherein each formatted row data of the plurality of formatted row data includes: a fixed-length batch section that includes a plurality of fixed-length row sections corresponding to a plurality of records of the each formatted row data, wherein each of the plurality of fixed-length row sections includes: at least one fixed-length data value of a corresponding one of the plurality of records for at least one fixed-length field; and at least one fixed-length offset value for at least one variable-length field of the corresponding one of the plurality of records; a temporary variable-length batch section, separate from the fixed-length batch section, that includes a plurality of temporary variable-length row sections corresponding to the plurality of records of the each formatted row data, wherein each of the plurality of variable-length row sections includes: at least one variable-length data value of a corresponding one of the plurality of records for at least one variable-length field, wherein the fixed-length offset value for the corresponding one of the plurality of records indicates an offset of the at least one variable-length data value in the each formatted row data; storing, in a compressed data format, the at least one variable-length data value of each of the plurality of temporary variable-length row sections of each of the plurality of formatted row data; generating a plurality of modified formatted row data from the plurality of formatted row data by, for each formatted row data, replacing the fixed-length offset value for each variable-length field stored in the compressed data format with a key value utilized to access the corresponding variable-length data value in the compressed data format; and truncating the each formatted row data to remove inclusion of the temporary variable-length batch section; storing the plurality of modified formatted row data as a plurality of pages in a page storage system.",
+  "patent_id": "US12380113-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/24573",
+      "G06F 16/221",
+      "G06F 16/2455"
+    ],
+    "all": [
+      "G06F 16/24573",
+      "G06F 16/221",
+      "G06F 16/2455"
+    ],
+    "source": "converted"
+  }
+}

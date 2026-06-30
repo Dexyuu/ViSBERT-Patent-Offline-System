@@ -1,0 +1,18 @@
+{
+  "title": "Bit vector-based content matching for third-party digital assistant actions",
+  "abstract": "Matching content to third-party digital assistant actions using a bit vector is provided. A system receives an application with voice-assistant compatible actions. The system identifies the actions in the application. The system identifies content items provided by third-party computing devices. The system generates, via a machine learning model and performance data for the content items, bit vectors or the actions. The system selects, responsive to a request for content from a client device that executes an action of the application, a content item based on the bit vector that corresponds to the action.",
+  "claims": "1. A system, comprising: a data processing system comprising memory and one or more processors to: receive an application from an application developer that is configured with voice assistant-compatible actions; identify a plurality of actions the application is configured to perform responsive to voice input; identify a plurality of content items provided by a plurality of third-party computing devices; generate, via a machine learning model and performance data for the plurality of content items, a plurality of bit vectors corresponding to the plurality of actions, the plurality of bit vectors indicating a plurality of candidate content items for each action of the plurality of actions; and select, responsive to a request for content for a computing device that executes an action of the application, a content item based on a bit vector of the plurality of bit vectors that corresponds to the action.",
+  "patent_id": "US12380885-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 15/22",
+      "G06F 16/3329"
+    ],
+    "all": [
+      "G10L 15/22",
+      "G06F 16/3329"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Remote grouping operations to perform queries for distinct values",
+  "abstract": "Remote grouping operations may be used to perform queries for distinct values. A query may be received at a query engine that includes a request for distinct items from a data set stored in a data store. To perform the query, a request may be made to the data store to group items from the data set by value when returned from the data store to the query engine. The query engine may then evaluate the items grouped by value that are returned from the data store to determine distinct items as part of performing the query.",
+  "claims": "1. A database system, comprising: at least one processor; and a memory, storing program instructions that when executed by the at least one processor cause the database system to: receive, at a query engine, a query directed to a database table stored in a remote data store that includes a request for distinct items from a column of the database table as part of a predicate for the query, wherein individual ones of the distinct items have values different from other ones of the distinct items; generate, by the query engine, a distributed query plan to perform the query, wherein the distributed query plan comprises one or more remote operations to be performed by a query processor of the remote data store and a plurality of local operations to be performed by the query engine to distribute parallel processing of the query among the query engine and the query processor of the remote data store, and wherein an operation of the one or more remote operations is configured to return to the query engine items from the column grouped by respective values of the items; execute the distributed query plan to generate a result for the query, wherein to execute the distributed query plan the query engine executes the plurality of local operations comprising operations to: send a request, via a parallel operation session opened with the remote data store, to the query processor of the remote data store to perform the operation of the one or more remote operations, to obtain the items from the column grouped by the respective values of the items when returned from the remote data store-instead of returning a data page from the remote data store; and perform at least a portion of the plurality of local operations to evaluate the requested items returned from the query processor of the remote data store via the parallel operation session and grouped by value to determine the distinct items according to the predicate for the query, wherein the distinct items requested by the query comprise one item from each of a plurality of groups of items, wherein individual groups of the plurality of groups of items comprise items having respective same distinct item values, wherein a group of the plurality of groups comprises a plurality of items having a same distinct item value, and wherein to determine the distinct items requested by the query the database system comprises: eliminating a portion of the plurality of items having the same distinct item value from the group that does not satisfy a different portion for the query predicate; return, by the query engine, the result for the query.",
+  "patent_id": "US12380099-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/24532",
+      "G06F 16/2282",
+      "G06F 16/244",
+      "G06F 16/24539",
+      "G06F 16/24542"
+    ],
+    "all": [
+      "G06F 16/24532",
+      "G06F 16/2282",
+      "G06F 16/244",
+      "G06F 16/24539",
+      "G06F 16/24542"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Density unevenness correction data creation method, density unevenness correction data creation apparatus, printing system, program, test chart, and test chart data creation apparatus",
+  "abstract": "Provided are a density unevenness correction data creation method, a density unevenness correction data creation apparatus, a printing system, a program, a test chart, and a test chart data creation apparatus in which density unevenness correction with high accuracy is implemented. A captured image of a test chart including a density step pattern, an alignment mark, and a line mark is acquired, and in a case of acquiring correspondence relationship information between a theoretical position and an imaging position from the captured image, a rough correspondence relationship is acquired by using positional information of the alignment mark, a detailed correspondence relationship is acquired by using positional information of the line mark estimated by using the rough correspondence relationship, and density unevenness correction data is created by estimating a density value of each position of the density step pattern by using the detailed correspondence relationship.",
+  "claims": "1. A density unevenness correction data creation method of creating density unevenness correction data applied to printing of a single-pass method in which a line head in which a plurality of recording elements are disposed along a first direction is used, the density unevenness correction data creation method comprising: a test chart captured image acquisition step of acquiring a test chart captured image obtained by imaging a first test chart that includes a density step pattern including one or more density patterns corresponding to one or more density values, a plurality of alignment marks having different shapes from each other, and a plurality of line marks having shapes extending in a second direction orthogonal to the first direction, and that is printed on a print medium; a correspondence relationship information acquisition step of acquiring correspondence relationship information representing a correspondence relationship between a theoretical position in the first test chart and an imaging position in the test chart captured image for the first direction and the second direction; and a density unevenness correction data creation step of creating the density unevenness correction data by using information on a density of the density step pattern in the test chart captured image, wherein, in the correspondence relationship information acquisition step, a rough correspondence relationship representing the correspondence relationship between the theoretical position and the imaging position in the first direction is acquired by using information on a position of each alignment mark in the first direction specified based on the shape of each alignment mark, and a detailed correspondence relationship between the theoretical position and the imaging position in the first direction, which represents a more detailed correspondence relationship than the rough correspondence relationship, is acquired by using information on a position of each of the plurality of line marks estimated by using the acquired rough correspondence relationship, and in the density unevenness correction data creation step, the density unevenness correction data is created by estimating the density value of each position of the density step pattern in the first direction by using the detailed correspondence relationship in the first direction.",
+  "patent_id": "US12377660-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B41J 2/2146",
+      "B41J 2/12",
+      "B41J 2/2056"
+    ],
+    "all": [
+      "B41J 2/2146",
+      "B41J 2/12",
+      "B41J 2/2056"
+    ],
+    "source": "converted"
+  }
+}

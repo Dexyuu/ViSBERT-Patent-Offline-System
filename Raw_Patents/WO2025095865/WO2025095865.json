@@ -1,0 +1,38 @@
+{
+  "application_id": "WO2025095865",
+  "application_id_fs": "WO2025095865",
+  "title": "Binary feature matching methods and systems",
+  "abstract": "Binary feature matching methods and systems are described A feature matching method of matching a query binary feature descriptor with a reference binary feature descriptor comprises: allocating reference binary feature descriptors to bins corresponding to leaf nodes of a balanced binary search tree based on bit values of selected bit positions of the reference binary feature descriptors; traversing the binary search tree using the query binary feature descriptor to reach a leaf node and identifying a reference binary feature descriptor allocated to a bin corresponding to the leaf node; and matching the query binary feature descriptor to the identified reference binary feature descriptor if a distance measure between the query binary feature descriptor and the identified reference binary feature descriptor is less than a threshold.",
+  "claims": "Claims 1 . A feature matching method of matching a query binary feature descriptor with a reference binary feature descriptor, the method comprising: allocating reference binary feature descriptors to bins corresponding to leaf nodes of a balanced binary search tree based on bit values of selected bit positions of the reference binary feature descriptors; traversing the binary search tree using the query binary feature descriptor to reach a leaf node and identifying a reference binary feature descriptor allocated to a bin corresponding to the leaf node: and matching the query binary feature descriptor to the identified reference binary feature descriptor if a distance measure between the query binary feature descriptor and the identified reference binary feature descriptor is less than a threshold. 2. The method according to claim 1 , further comprising storing the allocated reference binary feature descriptors for each respective bin. 3. The method according to claim 2, wherein descriptor values corresponding to the selected bit positions are removed prior to storing the allocated reference binary feature descriptors for each respective bin. 4. The method according to any preceding claim, wherein the balanced binarysearch tree has a pre-defined number of levels and a corresponding pre-defined number of leaf nodes and wherein any reference binary feature descriptors exceeding bin sizes of leaf nodes are discarded. 5. The method according to any preceding claim, wherein the reference binaryfeature descriptors are allocated to the bins by selecting indices of the reference binary feature descriptors which have a probability of a binary value 1 closest to 0.5 at each level of the balanced binary search tree. 6. The method according to any preceding claim, wherein the reference binary feature descriptors and query binary feature descriptor are image feature descriptors. 7. The method according to any preceding ciaim, wherein the distance measure is threshoided by performing a ratio test. 8. The method according to ciaim 7, wherein the ratio test comprises performing a multiplication by 0.5 which is performed by a one-bit shift operation. 9. The method according to any preceding claim, wherein the distance measure is a Hamming distance measure. 10. A feature matching system for matching a query binary feature descriptor with a reference binary feature descriptor, the system comprising: a binary search tree module configured to allocate reference binary feature descriptors to bins corresponding to leaf nodes of a balanced binary search tree based on bit. values of selected bit positions of the reference binary feature descriptors; and to traverse the binary search tree using the query binary feature descriptor to reach a leaf node and identify a reference binary feature descriptor allocated to a bin corresponding to the leaf node: and matching module configured to match the query' binary feature descriptor to the identified reference binary feature descriptor if a distance measure between the query binary feature descriptor and the identified reference binary feature descriptor is less than a threshold. 11. The feature matching system according to claim 10 provided as an integrated circuit. 12. The feature matching system according to claim 10 or 11 , wherein the binary search tree module is further configured to store the allocated reference binary feature descriptors for each respective bin. 13. The feature matching system according to claim 12, wherein the binary search tree module is further configured to remove descriptor values corresponding to the selected bit positions prior to storing the allocated reference binary feature descriptors for each respective bin. 14. The feature matching system according to any one of ciaims 10 to 13, wherein the balanced binary search tree has a pre-defined number of levels and a corresponding pre-defined number of leaf nodes and the binary search tree module is further configured to discard any reference binary feature descriptors exceeding bin sizes of leaf nodes. 15. The feature matching system according to any one of claims 10 to 14, wherein the binary' search tree module is further configured to allocate reference binary feature descriptors to the bins by selecting indices of the reference binary feature descriptors which have a probability of a binary value 1 closest to 0.5 at each level of the balanced binary search tree. 16. The feature matching system according to any one of claims 10 to 15, wherein the reference binary feature descriptors and query binary feature descriptor are image feature descriptors. 17. The feature matching system according to any one of claims 10 to 16, wherein the distance measure is thresholded by performing a ratio test. 18. The feature matching system according to claim 17, wherein the ratio test comprises performing a multiplication by 0.5 which is performed by a one-bit shift operation. 19. The feature matching system according to any one of claims 10 to 18, wherein the distance measure is a Hamming distance measure.",
+  "classifications": {
+    "ipc": [
+      "G06V 10/00",
+      "G06V 10/70",
+      "G06V 10/74",
+      "G06V 10/75",
+      "G06V 10/757",
+      "G06F 18/00",
+      "G06F 18/20",
+      "G06F 18/24",
+      "G06F 18/243",
+      "G06V 10/761",
+      "G06V 10/764"
+    ],
+    "cpc": [],
+    "all": [
+      "G06V 10/00",
+      "G06V 10/70",
+      "G06V 10/74",
+      "G06V 10/75",
+      "G06V 10/757",
+      "G06F 18/00",
+      "G06F 18/20",
+      "G06F 18/24",
+      "G06F 18/243",
+      "G06V 10/761",
+      "G06V 10/764"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025095865"
+}

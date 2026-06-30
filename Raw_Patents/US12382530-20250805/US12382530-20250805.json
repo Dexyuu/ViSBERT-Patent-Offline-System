@@ -1,0 +1,22 @@
+{
+  "title": "Method and apparatus for operating buffer state report in wireless communication system",
+  "abstract": "A method of supporting a buffer status report (BSR) associated with a device-to-device (D2D) communication includes: establishing a radio resource control (RRC) connection with an evolved NodeB (eNB) and receiving configuration information associated with a D2D communication from the eNB, the configuration information including information of a resource allocation mode for a D2D data transmission and information of a timer associated with a BSR for a D2D data transmission; determining, by a user equipment (UE), a radio link failure (RLF), the RLF being associated with a connection problem of the RRC connection; initializing a re-establishment process for the RRC connection; canceling all BSRs for a D2D data transmission in response to the determined RLF, the canceled BSRs for a D2D data transmission being associated with a D2D data transmission scheduled by the eNB; and initializing the timer associated with a BSR for a D2D data transmission.",
+  "claims": "1. A method of operating a base station comprising: transmitting, to a wireless device, CommTxPoolExceptional information indicating resource pool information for direct data transmission in an exceptional case; transmitting, to the wireless device, one or more messages comprising information of a resource allocation mode for direct data transmission between the wireless device and another wireless device; and transmitting, to the wireless device, one or more resource allocation messages for the direct data transmission between the wireless device and the another wireless device, wherein, upon the wireless device determining a radio link failure (RLF) associated with a problem of a radio resource control (RRC) connection with the base station, and the wireless device further determining that the resource pool information for the direct data transmission in the exceptional case has been received from the base station cause the wireless device to cancel a buffer status report (BSR) to the base station for the direct data transmission between the wireless device and the another wireless device with resources allocated by the base station and perform the direct data transmission in the exceptional case.",
+  "patent_id": "US12382530-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/19",
+      "H04W 76/14",
+      "H04W 76/27",
+      "H04W 28/0278"
+    ],
+    "all": [
+      "H04W 76/19",
+      "H04W 76/14",
+      "H04W 76/27",
+      "H04W 28/0278"
+    ],
+    "source": "converted"
+  }
+}

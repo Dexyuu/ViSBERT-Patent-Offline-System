@@ -1,0 +1,24 @@
+{
+  "title": "Summarization for attention management and recall",
+  "abstract": "In an approach for assisting a user to remain focused on a task, a processor collects a plurality of information regarding one or more digital activities of a user. A processor tokenizes the plurality of information into one or more vectorized embeddings. Responsive to determining that the user has engaged a focus mode, a processor intercepts one or more communications. A processor synthesizes, utilizing a large language model and the one or more vectorized embeddings, one or more natural language responses to the one or more communications. A processor transmits the one or more natural language responses to one or more originating users of the one or more communications. Responsive to determining that the user has ended the focus mode, a processor displays a summary of the one or more communications and the one or more natural language responses transmitted while the user was in the focus mode.",
+  "claims": "1. A computer-implemented method comprising: collecting, by one or more processors, a plurality of information regarding one or more digital activities of a user; tokenizing, by the one or more processors, the plurality of information into one or more vectorized embeddings and storing the one or more vectorized embeddings in a vector database; responsive to determining that the user has engaged a focus mode, intercepting, by the one or more processors, one or more communications to be presented to the user based on one or more filters; synthesizing, by the one or more processors, utilizing a large language model and the one or more vectorized embeddings, one or more natural language responses to the one or more communications; transmitting, by the one or more processors, the one or more natural language responses to one or more originating users of the one or more communications based on a policy; and responsive to determining that the user has ended the focus mode, displaying, by the one or more processors, a summary of the one or more communications and the one or more natural language responses transmitted while the user was in the focus mode.",
+  "patent_id": "US12380283-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 40/40",
+      "G06F 16/3344",
+      "G06F 40/166",
+      "G06F 40/284",
+      "G06N 3/0455"
+    ],
+    "all": [
+      "G06F 40/40",
+      "G06F 16/3344",
+      "G06F 40/166",
+      "G06F 40/284",
+      "G06N 3/0455"
+    ],
+    "source": "converted"
+  }
+}

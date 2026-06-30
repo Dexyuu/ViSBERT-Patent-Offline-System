@@ -1,0 +1,20 @@
+{
+  "title": "Traffic monitoring device and traffic monitoring method",
+  "abstract": "A traffic monitoring device includes an identification unit that identifies a flow of a packet received from a monitoring target network into a flow of a first flow group and a second flow group other than the first flow group on the basis of a rule table in which a predetermined rule is registered, a traffic aggregation unit that aggregates a traffic amount of the first flow group for each flow, an occurrence probability calculation unit that calculates an occurrence probability of each flow on the basis of a result of sampling at least some of the flow of the packet received, and a traffic estimation unit that estimates a traffic amount of each flow of the second flow group by multiplying the occurrence probability of each flow by the total value of the traffic amount of the second flow group.",
+  "claims": "1. A traffic monitoring device, the device comprising: one or more processors; and a storage device storing a program to be executed by the one or more processors, the program including instructions for: identifying a flow of each packet of a plurality of packets received from a monitoring target network as a first flow of a first flow group or a second flow of a second flow group different from the first flow group based on a rule table in which a predetermined rule is registered; aggregating a traffic amount of each of the first flows of the first flow group; calculating an occurrence probability of each flow based on a result of sampling the flows of the plurality of packets; and estimating the traffic amount of each of the second flows of the second flow group by multiplying a total value of the traffic amount of the second flow group by the occurrence probability of each of the second flows of the second flow group.",
+  "patent_id": "US12381801-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 43/0876",
+      "H04L 43/026",
+      "H04L 43/022"
+    ],
+    "all": [
+      "H04L 43/0876",
+      "H04L 43/026",
+      "H04L 43/022"
+    ],
+    "source": "converted"
+  }
+}

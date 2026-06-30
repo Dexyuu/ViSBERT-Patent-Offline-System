@@ -1,0 +1,22 @@
+{
+  "title": "Network attack detection with targeted feature extraction from exploit tools",
+  "abstract": "The present application discloses a method, system, and computer system for detecting malicious SQL or command injection strings. The method includes obtaining an SQL or command injection string and determining whether the command injection string is malicious based at least in part on a machine learning model.",
+  "claims": "1. A system, comprising: one or more processors configured to: obtain an SQL or command injection string; extract a set of features for the SQL or command injection string, the set of features comprising a first subset of features corresponding to a set of defined regex patterns, and a second subset of features corresponding to a term frequency-inverse document frequency (TF-IDF) analysis; determine whether the SQL or command injection string is malicious based at least in part on a machine learning model and the set of features for the SQL or command injection string; in response to determining that the SQL or command injection string is malicious, update a blacklist of SQL or command injection strings that are deemed to be malicious, the blacklist of SQL or command injection strings being updated to include an identifier corresponding to the obtained SQL or command injection string; and a memory coupled to the one or more processors and configured to provide the one or more processors with instructions.",
+  "patent_id": "US12381910-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1466",
+      "G06N 20/10",
+      "H04L 63/1416",
+      "H04L 63/20"
+    ],
+    "all": [
+      "H04L 63/1466",
+      "G06N 20/10",
+      "H04L 63/1416",
+      "H04L 63/20"
+    ],
+    "source": "converted"
+  }
+}

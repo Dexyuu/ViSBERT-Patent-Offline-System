@@ -1,0 +1,20 @@
+{
+  "title": "Optimized file storage strategy for increasing usability of key files",
+  "abstract": "An information handling system includes a storage and a processor. The storage stores a key file in a partition of the storage. The processor receives a request for the key file and determines whether the key file is located within the partition of the storage. In response to the key file not being within the partition of the storage, the processor retrieves metadata for the key file. The processor determines a physical location for the key file based on the metadata. Based on the physical location, the processor retrieves segments of the key file from the partition of the storage. The processor downloads segments of the key file from a backend server. The processor re-creates the key file based on the segments of the key file retrieved from the partition of the storage and on the segments of the key file downloaded from the backend server.",
+  "claims": "1. An information handling system comprising: a storage configured to store a key file in a partition of the storage; and a processor to communicate with the storage, the processor to: receive a request for the key file; determine whether the key file is located within the partition of the storage; in response to the key file not being within the partition of the storage, the processor to: retrieve metadata for the key file; determine a physical location for the key file based on the metadata, wherein the determining of the physical location for the key file includes: based on the metadata, determine an entry in a master file table associated with the key file; and based on the entry in the master file table, determine virtual cluster number for key file and a logical cluster number for the key file; based on the physical location, retrieve one or more segments of the key file from the partition of the storage; download one or more segments of the key file from a backend server; and re-create the key file based on the segments of the key file retrieved from the partition of the storage and on the segments of the key file downloaded from the backend server.",
+  "patent_id": "US12379863-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0644",
+      "G06F 3/0619",
+      "G06F 3/0679"
+    ],
+    "all": [
+      "G06F 3/0644",
+      "G06F 3/0619",
+      "G06F 3/0679"
+    ],
+    "source": "converted"
+  }
+}

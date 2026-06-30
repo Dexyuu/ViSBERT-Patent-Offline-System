@@ -1,0 +1,20 @@
+{
+  "title": "Clock syntonization using network effect and/or adaptive stochastic control",
+  "abstract": "Systems and methods are disclosed herein for syntonizing machines in a network. A coordinator accesses probe records for probes transmitted at different times between pairs of machines in the mesh network. For different pairs of machines, the coordinator estimates the drift between the pair of machines based on the transit times of probes transmitted between the pair of machines as indicated by the probe records. For different loops of at least three machines in the mesh network, the coordinator calculates a loop drift error based on a sum of the estimated drifts between pairs of machines around the loop and adjusts the estimated absolute drifts of the machines based on the loop drift errors. Here, the absolute drift is defined relative to a drift of a reference machine.",
+  "claims": "1. A non-transitory computer-readable medium comprising memory with instructions encoded thereon, the instructions, when executed, causing one or more processors to perform operations, the instructions comprising instructions to: estimate parameters of a given machine in a network of machines, the estimated parameters being relative to a reference clock; access an adaptive filter bank that comprises a plurality of candidate filters, each corresponding to a different level of state noise; select a filter from the plurality of candidate filters having a highest best fit probability of the plurality of candidate filters; and filter the estimated parameters using the selected filter to generate filtered parameters, wherein the filtered parameters are used by a controller to generate an adjustment signal for adjusting a local clock of the given machine to align to the reference clock.",
+  "patent_id": "US12381708-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 7/033",
+      "G06N 20/10",
+      "H03L 7/087"
+    ],
+    "all": [
+      "H04L 7/033",
+      "G06N 20/10",
+      "H03L 7/087"
+    ],
+    "source": "converted"
+  }
+}

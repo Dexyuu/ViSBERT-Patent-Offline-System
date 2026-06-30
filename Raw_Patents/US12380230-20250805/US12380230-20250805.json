@@ -1,0 +1,16 @@
+{
+  "title": "System and method for guiding privacy-enhancing transformations",
+  "abstract": "A system and method for guiding privacy-enhancing transformations are described. The system and method include a recommendation engine configured to identify sets of transformations to mitigate a privacy risk below a user specified threshold specified in-terms of privacy-risk score for a given input dataset while keeping the utility of the dataset above the user-specified utility threshold specified in-terms of utility score. A simulation engine configured to simulate the identified set of transformations from the recommendation engine on the dataset to determine the optimal application of the plurality of transformations for maximizing the utility of the dataset, and output device to provide the optimized dataset with the privacy risk score and utility score.",
+  "claims": "1. A system for guiding privacy-enhancing transformations to manage privacy risk and analytical utility, wherein privacy risk is the risk that an individual or entity is capable of being identified or an attribute is capable of being inferred about the individual or entity and analytical utility defines analytical usefulness of transformed data in terms of the use cases it can support and/or similarity of outputs produced relative to the original data, the system comprising: a recommendation engine executed by a processor coupled to a memory, the recommendation engine configured to identify a plurality of transformations to achieve an input level of privacy risk for a dataset identified as a privacy risk score by performing the plurality of transformations on the dataset while maximizing the analytical utility of the dataset identified as an analytical utility score; a simulation engine executed by the processor coupled to the memory, the simulation engine configured to process the identified plurality of transformations from the recommendation engine on the dataset to determine the optimal application of the plurality of transformations; and an output device to provide the optimized dataset with the privacy risk and analytical utility.",
+  "patent_id": "US12380230-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/604"
+    ],
+    "all": [
+      "G06F 21/604"
+    ],
+    "source": "converted"
+  }
+}

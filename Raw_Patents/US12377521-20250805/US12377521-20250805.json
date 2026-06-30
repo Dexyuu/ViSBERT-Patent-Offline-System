@@ -1,0 +1,32 @@
+{
+  "title": "Autonomous modification of waterjet cutting systems",
+  "abstract": "Systems and methods for providing real-time modification of cutting process programs using feedback from one or more sensors which measure one or more operational parameters of a cutting process and/or cutting apparatus. The sensor readings may be used to provide real-time modification of a motion program after such motion program has been provided to a motion controller. Examples of such operational parameters may include waterjet pump supply pressure, the abrasive mass flow rate, the force of the waterjet on the target piece, etc. The systems and methods discussed herein also utilize a cutting algorithm or program to calculate actual cut quality based on one or more sensor inputs, and to generate warnings or system shut-downs accordingly. The systems and methods discussed herein also utilize inspection devices to inspect coupons or first articles, and use the inspection data to autonomously modify motion programs and/or cutting process models without user intervention.",
+  "claims": "1. A method of autonomously controlling a fluid jet apparatus to cut a target object, the method comprising: inspecting in at least a first direction and a second direction, by at least one inspection device, a cut of a coupon which has been cut by the fluid jet apparatus moving in a third direction that is perpendicular to both the first direction and the second direction; receiving, by at least one processor, inspection data from the at least one inspection device based at least in part on the inspection of the cut of the coupon; modifying, by the at least one processor, at least one cutting process model based at least in part on the received inspection data, wherein modifying the at least one cutting process model includes modifying an orientation of the fluid jet apparatus relative to the target object with respect to both the first direction and the second direction; generating, by the at least one processor, a motion program based at least in part on the modified at least one cutting process model; and executing, by the at least one processor, the generated motion program to cause the fluid jet apparatus to cut the target object according to the generated motion program.",
+  "patent_id": "US12377521-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B24C 1/045",
+      "G05B 19/4097",
+      "G05B 2219/36046",
+      "G05B 2219/36053",
+      "G05B 2219/36056",
+      "G05B 2219/36505",
+      "G05B 2219/37576",
+      "G05B 2219/45036",
+      "G05B 2219/49012"
+    ],
+    "all": [
+      "B24C 1/045",
+      "G05B 19/4097",
+      "G05B 2219/36046",
+      "G05B 2219/36053",
+      "G05B 2219/36056",
+      "G05B 2219/36505",
+      "G05B 2219/37576",
+      "G05B 2219/45036",
+      "G05B 2219/49012"
+    ],
+    "source": "converted"
+  }
+}

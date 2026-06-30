@@ -1,0 +1,18 @@
+{
+  "title": "System and method for intermediating cellular voice communication",
+  "abstract": "A system including a transceiver, a modem, and a processor. The processor is configured to cause the transceiver to imitate a base transceiver station (BTS) such that a mobile communication terminal disconnects from an Nth-generation mobile communication network, which uses an Nth-generation communication standard, and connects to the transceiver. The processor is further configured to cause the terminal to switch to the Pth-generation communication standard, and to cause the modem to impersonate the terminal with respect to an Mth-generation mobile communication network. The processor is further configured to intermediate voice communication between the terminal and the Mth-generation mobile communication network exchanged between the modem and the Mth-generation mobile communication network.",
+  "claims": "7. A method, comprising: causing a transceiver to imitate a base transceiver station (BTS) such that a mobile communication terminal disconnects from the BTS of a mobile communication network, and connects to the transceiver, wherein the terminal connects to the transceiver in an original generation communication standard in use by the terminal prior to connection to the transceiver; subsequently to the terminal connecting to the transceiver, causing the terminal to switch to a lower generation communication standard, wherein the lower generation communication standard is less than the original generation communication standard and is at least one of: second generation (2G); third generation (3G); or fourth generation (4G); obtaining one or more generation keys of the lower generation communication standard used by the terminal to communicate in accordance with the lower generation communication standard; computing one or more higher generation keys, which are used by the terminal to communicate in accordance with a higher generation standard, wherein the higher generation communication standard is either the original generation communication standard or a generation communication standard that is higher than the original generation communication standard, and the higher communication is at least one of the following: 3G; 4G; or fifth generation (5G); subsequently to computing the one or more higher generation keys, causing the terminal to switch to the higher generation communication standard; and exchanging and intermediating voice communications as follows: between the terminal and the transceiver by using the higher generation keys, and encrypting and decrypting higher generation packets of the voice communication; and between the modem and the mobile communication network, wherein the modem impersonates the terminal with respect to the mobile communication network, by using the lower generation keys, and encrypting and decrypting lower generation packets of the voice communication.",
+  "patent_id": "US12381862-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/06",
+      "H04W 8/04"
+    ],
+    "all": [
+      "H04L 63/06",
+      "H04W 8/04"
+    ],
+    "source": "converted"
+  }
+}

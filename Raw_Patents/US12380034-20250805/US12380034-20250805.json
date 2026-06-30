@@ -1,0 +1,18 @@
+{
+  "title": "Extended attributes for shared page tables",
+  "abstract": "In accordance with the described techniques for extended attributes for shared page tables, a device includes an accelerator device and a memory management unit that maintains a first set of page tables and a second set of page tables. The second set of page tables includes extended attributes for accessing data that the accelerator device operates on. The memory management unit is configured to receive a virtual memory address, and translate the virtual memory address to a physical memory address using the first set of page tables. In addition, the memory management unit retrieves the extended attributes from the second set of page tables. In this way, data is accessed from the physical memory address based on the extended attributes.",
+  "claims": "1. A device, comprising: an accelerator device; and memory management circuitry to: maintain a first page table and a second page table allocated to a process that invokes the accelerator device, the second page table including one or more extended attributes specific to the accelerator device, the one or more extended attributes differing from one or more additional extended attributes of a third page table allocated to an additional process that invokes an additional accelerator device; receive a virtual memory address; retrieve, from the first page table, a physical memory address corresponding to the virtual memory address; and retrieve, from the second page table, the one or more extended attributes, wherein data is accessed from the physical memory address based on the one or more extended attributes.",
+  "patent_id": "US12380034-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 12/1009",
+      "G06F 12/1416"
+    ],
+    "all": [
+      "G06F 12/1009",
+      "G06F 12/1416"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Automated attribute scraping for security feature implementation prediction",
+  "abstract": "Automated attribute scraping for security feature implementation with a single trained machine model across security features improves prediction quality and efficiency of predictions. A security feature implementation prediction system (system) generates search engine queries for each security feature based on high importance tokens for the security feature. The system ranks URLs returned from each search engine query for relevance, then preprocess and inputs content for top-ranked URLs into the trained machine learning models. The system identifies implemented security features output based on confidence values output by the trained machine learning model and identifies sentences that describe the implementations in corresponding content for top-ranked URLs.",
+  "claims": "10. A non-transitory machine-readable medium having program code stored thereon, the program code comprising instructions to: based on detecting a target entity with unknown confidence of implementing one or more of a plurality of security features, generate a plurality of search engine queries corresponding to the plurality of security features and the target entity, wherein each of the plurality of search engine queries comprises tokens with high importance for corresponding security features in the plurality of security features and an identifier of the target entity; for each search engine query of the plurality of search engine queries, identify a subset of a plurality of URLs returned responsive to the search engine query with highest likelihood of relating to a security feature corresponding to the search engine query and the target entity; scrape the subset of the plurality of URLs for content; preprocess the content to generate feature values for each of the plurality of URLs; and input the feature values for each of the plurality of URLs into a trained machine learning model to obtain from output confidence values that the target entity implements each of the plurality of security features; and based on the confidence values output by the trained machine learning model, indicate the target entity as implementing or not implementing each of the plurality of security features.",
+  "patent_id": "US12380220-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/577",
+      "G06F 16/953",
+      "G06F 2221/034"
+    ],
+    "all": [
+      "G06F 21/577",
+      "G06F 16/953",
+      "G06F 2221/034"
+    ],
+    "source": "converted"
+  }
+}

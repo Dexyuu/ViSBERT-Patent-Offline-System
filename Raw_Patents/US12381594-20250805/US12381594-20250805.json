@@ -1,0 +1,22 @@
+{
+  "title": "Devices and methods for using separate advertisement streams in a single beacon device",
+  "abstract": "Devices and methods for using separate advertisement streams in a single beacon device are disclosed herein. An example beacon device includes at least one processor, a radio transceiver, and a memory. The memory may store instructions that, when executed by the at least one processor, cause the beacon device to receive a set of beacon information captured during a scan period. The instructions may further cause the beacon device to transmit a captured beacon stream (CBS) that includes beacon information from the set of beacon information. The instructions may further cause the beacon device to transmit, to a mobile device, a waypoint beacon stream (WBS) including a protocol data unit (PDU) data payload. The PDU data payload may encode a media access control (MAC) identifier adjacent to a type field indicative of a format for heartbeat data encoded in the PDU data payload.",
+  "claims": "1. A beacon device comprising: at least one processor; a radio transceiver; and a memory storing instructions that, when executed by the at least one processor, cause the beacon device to: receive, by the radio transceiver, a set of beacon information captured during a scan period, the set of beacon information including beacon information that is associated with an asset beacon disposed proximate to the beacon device, transmit, by the radio transceiver to a receiver device, a captured beacon stream (CBS), the CBS including a cycle of transmission loops, each transmission loop of the cycle of transmission loops including a set of chirps, and each chirp of the set of chirps including beacon information from the set of beacon information, and transmit, by the radio transceiver to a mobile device, a waypoint beacon stream (WBS) including a protocol data unit (PDU) data payload, wherein the PDU data payload encodes a media access control (MAC) identifier adjacent to a type field indicative of a format for heartbeat data encoded in the PDU data payload, wherein the PDU data payload is a first PDU data payload, the MAC identifier is a first MAC identifier associated with the beacon device, and the type field is indicative of a first type field value, and the CBS includes a second PDU data payload, the second PDU data payload encodes a second MAC identifier adjacent to the type field, the type field is indicative of a second type field value, the second type field value is indicative of the beacon information being encoded in the second PDU data payload, and the second MAC identifier is associated with the asset beacon disposed proximate to the beacon device.",
+  "patent_id": "US12381594-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 1/69",
+      "H04B 1/38",
+      "H04W 4/80",
+      "H04B 2001/6912"
+    ],
+    "all": [
+      "H04B 1/69",
+      "H04B 1/38",
+      "H04W 4/80",
+      "H04B 2001/6912"
+    ],
+    "source": "converted"
+  }
+}

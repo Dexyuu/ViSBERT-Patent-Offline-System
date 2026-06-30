@@ -1,0 +1,22 @@
+{
+  "title": "Method for efficient paging for user equipment to network relays",
+  "abstract": "A method performed by a relay wireless transmit/receive unit (WTRU) includes receiving an indication of a change in state of a remote WTRU having a paging link with the relay WTRU, receiving a paging message from a network. The paging message includes a system information (SI) change indication, wherein the SI change indication indicates an availability of updated SI information from the network for the remote WTRU. The relay WTRU transmits the updated SI information to the remote WTRU based on the received indication of a change in state of the remote WTRU.",
+  "claims": "1. A wireless transmit/receive unit, WTRU, comprising circuitry configured to: establish a connection with a relay WTRU; establish a connection with a network via the relay WTRU; receive a radio resource control, RRC, indication for a state change of the WTRU from a first RRC state to a second RRC state, wherein the first RRC state is different from the second RRC state; change state from the first RRC state to the second RRC state; in response to the state change, transmit paging information to the relay WTRU, wherein the paging information comprises WTRU discontinuous reception, DRX, cycle information when the second RRC state is either an RRC Idle state or an RRC Inactive state, wherein: when the second RRC state is the RRC inactive state, the transmitted DRX cycle information is a minimum value of (i) a non-access stratum configured DRX cycle of the WTRU, and (ii) an RRC configured DRX cycle of the WTRU, and when the second RRC state is the RRC idle state, the transmitted DRX cycle information is to be the non-access stratum configured DRX cycle of the WTRU.",
+  "patent_id": "US12382519-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/10",
+      "H04W 68/02",
+      "H04W 76/28",
+      "H04W 88/04"
+    ],
+    "all": [
+      "H04W 76/10",
+      "H04W 68/02",
+      "H04W 76/28",
+      "H04W 88/04"
+    ],
+    "source": "converted"
+  }
+}

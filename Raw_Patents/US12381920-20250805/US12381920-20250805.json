@@ -1,0 +1,20 @@
+{
+  "title": "Apparatuses, computer-implemented methods, and computer program products for generating content for presentation at a collaborative content interface based on a captured content source",
+  "abstract": "Methods, apparatuses, systems, and computer program products are disclosed for generating content for presentation at a collaborative content interface based on a captured content source. In example embodiments, an apparatus receives a collaborative content generation request associated with a captured content source defined by one of a source collaborative content document and an external networked location, the collaborative content generation request being associated with a collaborative content document; generates a collaborative content data object associated with the collaborative content document based on a source content data object accessed at the captured content source; stores the collaborative content data object at a system repository such that a collaborative content document data structure defining the collaborative content document includes the collaborative content data object; and causes rendering of a collaborative content interface associated with the collaborative content document based on the collaborative content document data structure and the collaborative content data object.",
+  "claims": "1. An apparatus for generating content for presentation at a collaborative content interface based on a captured content source, the apparatus comprising at least one processor and at least one memory, the at least one memory having computer-coded instructions therein, wherein the computer-coded instructions are configured to, in execution with the at least one processor, cause the apparatus to: receive a first collaborative content generation request associated with a captured content source identifier, the captured content source identifier being associated with a captured content source defined at least in part by an external networked location associated with an external resource, wherein: (i) the first collaborative content generation request comprises a collaborative content document identifier associated with a destination collaborative content document, (ii) the first collaborative content generation request is initiated based at least in part on a user selection of a source content data object at the captured content source, (iii) the captured content source and the destination collaborative content document define distinct computing locations, and (iv) wherein the source content data object is in a format defined by the external resource; generate a first collaborative content data object associated with the collaborative content document identifier based at least in part on the source content data object accessed based on the captured content source identifier, wherein the first collaborative content data object defines at least a portion of a collaborative content document data structure associated with the collaborative content document identifier; store the first collaborative content data object at a system repository associated with a collaborative content system such that the first collaborative content data object is stored in a format enabling rendering of the defined portion of the collaborative content document data structure via a collaborative content interface; and cause rendering of the collaborative content interface configured to display the destination collaborative content document associated with the collaborative content document identifier based at least in part on (i) the collaborative content document data structure, (ii) the first collaborative content data object, and (iii) one or more additional collaborative content data objects corresponding to additional portions of the collaborative content document data structure.",
+  "patent_id": "US12381920-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 65/4015",
+      "G06F 16/904",
+      "H04L 65/403"
+    ],
+    "all": [
+      "H04L 65/4015",
+      "G06F 16/904",
+      "H04L 65/403"
+    ],
+    "source": "converted"
+  }
+}

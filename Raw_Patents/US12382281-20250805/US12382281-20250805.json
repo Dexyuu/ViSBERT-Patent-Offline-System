@@ -1,0 +1,38 @@
+{
+  "title": "Systems and methods for uplink high efficiency location in a wireless network",
+  "abstract": "Uplink high efficiency location of a user equipment (UE) includes initiating periodic or triggered location in the UE by a location server (LS) in a wireless network. The UE enters an idle state and monitors for triggering events. After detecting an event, the UE transmits an uplink positioning signal (UPS) to a base station, where the UPS encodes UPS data comprising a UE ID, an ID for the LS, an authentication code (AC) and location measurements. UPS transmission occurs in an uplink positioning occasion shared with other UEs. The location measurements may be ciphered but other UPS data is unciphered. The base station obtains additional location measurements and transfers the UPS data and the location measurements to the LS. The LS authenticates the UE ID using the AC, determines the UE location using the location measurements and transfers the location to an external client.",
+  "claims": "1. A method of supporting location, performed by a base station in a wireless network, comprising: receiving an uplink positioning signal (UPS) in a cell for the base station, the UPS transmitted periodically by a user equipment (UE), the UE not having a signaling connection to the base station, the UPS indicative of an identity (ID) for the UE, wherein the ID for the UE is associated with an ID for a network entity (NE) in the wireless network, the network entity comprising a location server; obtaining at least one uplink (UL) location measurement for the UE based on the UPS, wherein the at least one UL location measurement comprises an UL Time of Arrival (TOA), an UL Receive-Transmit (Rx-Tx) time difference, a Received Signal Strength Indication (RSSI), a Reference Signal Received Power (RSRP), a Reference Signal Received Quality (RSRQ), or an angle of arrival (AOA); determining location information for the UE based on the UPS, wherein the location information is based at least in part on the at least one UL location measurement; and sending a message to the NE comprising the location information for the UE.",
+  "patent_id": "US12382281-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 12/02",
+      "H04W 12/04",
+      "H04W 12/06",
+      "H04W 24/10",
+      "H04W 52/0225",
+      "H04W 64/00",
+      "H04W 64/003",
+      "H04W 72/0473",
+      "H04W 74/08",
+      "H04L 63/0428",
+      "H04W 12/63",
+      "H04W 76/28"
+    ],
+    "all": [
+      "H04W 12/02",
+      "H04W 12/04",
+      "H04W 12/06",
+      "H04W 24/10",
+      "H04W 52/0225",
+      "H04W 64/00",
+      "H04W 64/003",
+      "H04W 72/0473",
+      "H04W 74/08",
+      "H04L 63/0428",
+      "H04W 12/63",
+      "H04W 76/28"
+    ],
+    "source": "converted"
+  }
+}

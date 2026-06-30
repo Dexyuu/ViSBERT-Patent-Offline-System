@@ -1,0 +1,26 @@
+{
+  "title": "Systems and methods for quantifying light flares in images",
+  "abstract": "Systems, methods, and computer-readable media are disclosed for identifying light flares in images. An example method may involve receiving an image from an imaging device, the image including data indicative of a flare artifact originating from a region of the image. The example method may also involve determining, based on the image data, a first array of pixels extending radially outwards from the region and a second array of pixels extending radially outwards from the region. The example method may also involve creating, based on the image data, a flare array, the flare array including the first array of pixels and the second array of pixels. The example method may also involve determining, based on the flare array, a peak flare artifact value indicative of a size of the flare artifact; and determining, based on the peak flare artifact value, a flare artifact score for the imaging device.",
+  "claims": "1. A system, comprising: a processor configured to: receive image data indicative of a flare artifact extending from a region of an image; generate a flare array including a first row of pixels and a second row of pixels based on the image data; generate a peak flare artifact value indicative of a size of the flare artifact based on the flare array and a first mean value of the first row of pixels and a second mean value of the second row of pixels; and generate a flare artifact score based on the peak flare artifact value.",
+  "patent_id": "US12380545-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/0002",
+      "G06T 3/60",
+      "G06T 7/70",
+      "G06T 11/60",
+      "G06T 2207/20076",
+      "G06T 2207/20224"
+    ],
+    "all": [
+      "G06T 7/0002",
+      "G06T 3/60",
+      "G06T 7/70",
+      "G06T 11/60",
+      "G06T 2207/20076",
+      "G06T 2207/20224"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Methods and apparatus for establishing a sidelink radio bearer",
+  "abstract": "One example method includes sending, by a first terminal device, a first request message to a network device, where the first request message is used to request to establish a sidelink radio bearer (SL RB) between the first terminal device and a second terminal device, where the first request message includes at least one of a parameter index or at least one parameter. The first terminal device can then receive a first response message from the network device, where the first response message includes one or more of admission control indication information, the at least one parameter, the parameter index, or first SL RB radio resource configuration information, where the admission control indication information indicates that the network device allows establishment of the SL RB, and where the first SL RB radio resource configuration information includes at least one of an SL RB identifier or protocol layer configuration information.",
+  "claims": "1. A sidelink communications method applied for a first terminal device or a chip for a first terminal device, comprising: sending a first request message to a network device, wherein the first request message is used to request to establish a sidelink radio bearer (SL RB) between the first terminal device and a second terminal device, the first request message comprises a parameter index and a first parameter, the first parameter comprises an address of the second terminal device and a communications type, and the parameter index is associated with the first parameter; receiving a first response message from the network device, wherein the first response message comprises the parameter index and first SL RB radio resource configuration information, the first SL RB radio resource configuration information comprises protocol layer configuration information; establishing the SL RB based on the first SL RB radio resource configuration information; sending a second request message to the second terminal device, wherein the second request message is used to request to establish the SL RB, and the second request message comprises the first SL RB radio resource configuration information; and receiving a second response message from the second terminal device, wherein the second response message indicates that the second terminal device successfully establishes the SL RB.",
+  "patent_id": "US12382344-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 28/24",
+      "H04W 4/40",
+      "H04W 8/28",
+      "H04W 72/21",
+      "H04W 72/23",
+      "H04W 72/25",
+      "H04W 72/40",
+      "H04W 72/543",
+      "H04W 76/11",
+      "H04W 76/14",
+      "H04W 76/30",
+      "H04W 76/36",
+      "H04W 4/44",
+      "H04W 4/46",
+      "H04W 76/23"
+    ],
+    "all": [
+      "H04W 28/24",
+      "H04W 4/40",
+      "H04W 8/28",
+      "H04W 72/21",
+      "H04W 72/23",
+      "H04W 72/25",
+      "H04W 72/40",
+      "H04W 72/543",
+      "H04W 76/11",
+      "H04W 76/14",
+      "H04W 76/30",
+      "H04W 76/36",
+      "H04W 4/44",
+      "H04W 4/46",
+      "H04W 76/23"
+    ],
+    "source": "converted"
+  }
+}

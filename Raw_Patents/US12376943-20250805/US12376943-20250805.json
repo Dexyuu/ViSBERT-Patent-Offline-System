@@ -1,0 +1,48 @@
+{
+  "title": "Methods and systems for forming a three-dimensional model of dentition",
+  "abstract": "Provided herein are systems and methods for optimizing a 3D model of an individual's teeth. A 3D dental model may be reconstructed from 3D parameters. A differentiable renderer may be used to derive a 2D rendering of the individual's dentition. 2D image(s) of an individual's dentition may be obtained, and features may be extracted from the 2D image(s). Image loss between the 2D rendering and the 2D image(s) can be derived, and back-propagation from the image loss can be used to calculate gradients of the loss to optimize the 3D parameters. A machine learning model can also be trained to predict a 3D dental model from 2D images of an individual's dentition.",
+  "claims": "1. A method of forming a three-dimensional (3D) model of an individual's dentition, the method comprising: obtaining one or more two-dimensional (2D) original images depicting at least a portion of the individual's dentition; extracting features from the one or more 2D original images; providing the extracted features to a trained neural network that is trained to construct a parametric 3D dental model using the extracted features and a set of network weights, wherein the network weights are based on results from a loss function comparing a plurality of 2D original images of historical patient dentitions with corresponding one or more 2D differentiable renderings generated based on 3D parameters associated with the patient dentitions; and outputting, from the trained neural network, the parametric 3D dental model of the individual's dentition.",
+  "patent_id": "US12376943-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61C 7/002",
+      "G06N 3/04",
+      "G06N 3/084",
+      "G06T 7/11",
+      "G06T 7/13",
+      "G06T 7/97",
+      "G06T 17/20",
+      "G06T 19/20",
+      "G16H 20/40",
+      "G16H 30/40",
+      "G16H 50/50",
+      "A61C 2007/004",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30036",
+      "G06T 2210/41",
+      "G06T 2210/56"
+    ],
+    "all": [
+      "A61C 7/002",
+      "G06N 3/04",
+      "G06N 3/084",
+      "G06T 7/11",
+      "G06T 7/13",
+      "G06T 7/97",
+      "G06T 17/20",
+      "G06T 19/20",
+      "G16H 20/40",
+      "G16H 30/40",
+      "G16H 50/50",
+      "A61C 2007/004",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30036",
+      "G06T 2210/41",
+      "G06T 2210/56"
+    ],
+    "source": "converted"
+  }
+}

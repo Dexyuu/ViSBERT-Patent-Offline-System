@@ -1,0 +1,28 @@
+{
+  "title": "Heavy equipment hazard warning apparatus and system and method for use of same",
+  "abstract": "A heavy equipment hazard warning apparatus for a piece of heavy equipment at a site and a system and method for use of the same are disclosed. In one embodiment of the heavy equipment hazard warning apparatus, the location of the heavy equipment is monitored by the heavy equipment warning apparatus and analyzed with reference to a hazard safety site plan of the site that identifies a hazard such as existing utilities, for example. An alert notification is initialized in response to the heavy equipment encroaching on a hazard geofence around the hazard. A shutdown notification is initialized in response to the heavy equipment being proximate to the hazard.",
+  "claims": "1. A method for warning about hazards to heavy equipment at a site, the method comprising: communicating with a heavy equipment hazard warning apparatus located on a piece of heavy equipment, the heavy equipment hazard warning apparatus having a processor, non-transitory memory, and a global positioning system unit communicatively interconnected in a busing architecture; receiving, at the heavy equipment hazard warning apparatus, a hazard safety site plan of the site, the hazard safety site plan being a site plan of the site augmented with locationing information for a hazard with a hazard geofence therearound, the hazard geofence being a virtual boundary around the hazard; monitoring, without data interaction with the hazard, a location of the heavy equipment with the global positioning system unit; analyzing, without data interaction with the hazard, the location of the heavy equipment with respect to the hazard safety site plan; initializing, without data interaction with the hazard, an alert notification at the heavy equipment in response to the heavy equipment encroaching on the hazard geofence; and controlling operation of the heavy equipment by automatically initiating at least a partial shutdown of the heavy equipment through an override output of the heavy equipment hazard warning apparatus when the analyzing indicates the heavy equipment is within a predetermined distance from the hazard.",
+  "patent_id": "US12378752-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "E02F 9/261",
+      "B60Q 9/00",
+      "B66C 15/06",
+      "B66C 15/065",
+      "B66F 17/003",
+      "E02F 9/24",
+      "E04G 21/24"
+    ],
+    "all": [
+      "E02F 9/261",
+      "B60Q 9/00",
+      "B66C 15/06",
+      "B66C 15/065",
+      "B66F 17/003",
+      "E02F 9/24",
+      "E04G 21/24"
+    ],
+    "source": "converted"
+  }
+}

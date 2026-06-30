@@ -1,0 +1,16 @@
+{
+  "title": "Network-on-chip system for optimizing data transfer",
+  "abstract": "The present invention relates a network-on-chip (NoC) system for optimizing data transfer, the system comprising a plurality of nodes including a source node and a destination node; characterized by a plurality of routers attached to the plurality of nodes that route a plurality of data packets from the source node to the destination node; wherein each of the plurality of packets is tagged with a routing information (RINFO), each node is assigned with a node unique identifier (ID) and each router is assigned with a router unique identifier (RID) for each horizontal and vertical routing direction for 2D and 3D interconnect topologies; wherein each of the router comprising at least a pair of ingress port and egress port, a route decoder and an arbiter to support a synchronous, an asynchronous and a source-synchronous operations. The present invention also relates to a method of optimizing data transfer using the NoC system.",
+  "claims": "1. A method of optimizing data transfer using a network-on-chip system, wherein the network-on-chip system comprises: a plurality of nodes including a source node and a destination node; wherein a plurality of routers are attached to the plurality of nodes that route a plurality of data packets from the source node to the destination node; wherein each of the plurality of data packets is tagged with a routing information, each node is assigned with a node unique identifier, and each router is assigned with a router unique identifier for each horizontal and vertical routing direction, for 2D and 3D interconnect topologies; and wherein each router comprises at least a pair of ingress port and egress port, a route decoder and an arbiter to support a synchronous, an asynchronous and a source-synchronous operations; the method comprises: tagging the plurality of data packets with the routing information; assigning each node with the node unique identifier and each router with the router unique identifier; clock crossing a source clock into a clock domain of the router by a clock-crosser; matching a value of the routing information and the router unique identifier by the route decoder to evaluate turn direction of each data packet from the source node to the destination node; encoding a desired data pattern in the data packets by the source node or the destination node to a node interface; and matching the value of the routing information and the router unique identifier for each data packet which ingresses from a horizontal link with a vertical router unique identifier using the route decoder.",
+  "patent_id": "US12380056-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 15/7825"
+    ],
+    "all": [
+      "G06F 15/7825"
+    ],
+    "source": "converted"
+  }
+}

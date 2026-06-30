@@ -1,0 +1,16 @@
+{
+  "title": "Asynchronous full-adder with majority or minority gates to generate sum false output",
+  "abstract": "Asynchronous full-adder circuit is described. The full-adder includes majority and/or minority gates some of which receive two first inputs (A.t, A.f), two second inputs (B.t, B.f), two carry inputs (Cin.t, Cin.f), third acknowledgement input (Cout.e), and fourth acknowledgement input (Sum.e), and generate controls to control gates of transistors, wherein the transistors are coupled to generate two carry outputs (Cout.t, Cout.e), two sum outputs (Sum.t, Sum.e), first acknowledgement output (A.e), second acknowledgement output (B.e), and third acknowledgement output (Cin.e). The majority and/or minority gates comprise CMOS gates or multi-input capacitive circuitries. The multi-input capacitive circuitries include capacitive structures that may comprise linear dielectric, paraelectric dielectric, or ferroelectric dielectric. The capacitors can be planar or non-planar. The capacitors may be stacked vertically to reduce footprint of the asynchronous full-adder circuit. Asynchronous full-adders coupled in series is used to implement a carry-ripple adder.",
+  "claims": "1. An apparatus comprising: a first data channel comprising two first inputs and a first acknowledgement output; a second data channel comprising two second inputs and a second acknowledgement output; a third data channel comprising two carry inputs and a third acknowledgement output; a fourth data channel comprising two carry outputs and a third acknowledgement input; a fifth data channel comprising two sum outputs and a fourth acknowledgement input; and a full-adder coupled to the first data channel, the second data channel, the third data channel, the fourth data channel, and the fifth data channel, wherein the full-adder comprises majority and/or minority gates some of which receive the two first inputs, the two second inputs, the two carry inputs, the third acknowledgement input, and the fourth acknowledgement input, and generate controls to control gates of transistors, wherein the transistors are coupled to generate the two carry outputs, the two sum outputs, the first acknowledgement output, the second acknowledgement output, and the third acknowledgement output, and wherein the full-adder comprises a circuitry to generate a sum false output of the two sum outputs.",
+  "patent_id": "US12379898-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 7/501"
+    ],
+    "all": [
+      "G06F 7/501"
+    ],
+    "source": "converted"
+  }
+}

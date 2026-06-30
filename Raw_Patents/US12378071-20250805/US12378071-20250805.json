@@ -1,0 +1,24 @@
+{
+  "title": "Methods, apparatuses and computer program products for dynamically generating a tote plan for movement of rectangular prisms through a multi-dimensional space",
+  "abstract": "Methods, apparatuses and computer program products for movement of rectangular prisms in a multi-dimensional space are provided.",
+  "claims": "1. A computer-implemented method for generating a tote plan comprising: determining a closest perpendicular peer smart rack to a current smart rack having a target rectangular prism; dynamically generating movement instructions related to the current smart rack having the target rectangular prism in the tote plan to cause the target rectangular prism in the current smart rack to be moved to the closest perpendicular peer smart rack in an instance in which the closest perpendicular peer smart rack has state information that is set to open; and dynamically generating one or more other movement instructions in the tote plan in an instance in which the closest perpendicular peer smart rack has state information that is set to occupied, wherein generating the one or more other movement instructions in the tote plan in the instance in which the closest perpendicular peer smart rack has the state information that is set to occupied further comprises: determining whether at least one peer smart rack other than the closest perpendicular peer smart rack and positioned adjacent to the closest perpendicular peer smart rack has state information set to open; and causing a rectangular prism occupying the closest perpendicular peer smart rack to be moved to a peer smart rack of the at least one peer smart rack other than the closest perpendicular peer smart rack that has the state information set to open.",
+  "patent_id": "US12378071-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B65G 1/0478",
+      "B65G 1/10",
+      "B65G 1/12",
+      "B65G 1/137",
+      "B65G 1/1373"
+    ],
+    "all": [
+      "B65G 1/0478",
+      "B65G 1/10",
+      "B65G 1/12",
+      "B65G 1/137",
+      "B65G 1/1373"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Assurance of policy based alerting",
+  "abstract": "Embodiments provide for assuring policy based alerting, via clustering, via a first neural network, operational data reported from a network into a plurality of anomalies organized into several clusters; correlating, via the first neural network, alerts received from devices in the network according to the several clusters; determining, via the second neural network, anomaly impacts in the several clusters from the filtered alerts; in response to determining that the anomaly impacts for a first cluster exceed an alerting threshold: identifying a first shared node in the first cluster; identifying a second cluster including a second shared node matching the first shared node that has not been determined to exceed the alerting threshold; and transmitting an alert for the first cluster and the second cluster; and in response to receiving a response to the alert, updating, via the second neural network, the first neural network.",
+  "claims": "1. A method, comprising: training a first neural network to cluster devices into geographic clusters based on physical location of the devices; training a second neural network, distinct from the first neural network, to cluster the devices into topological clusters based on connections between the devices in a network; training a third neural network, distinct from the first and second neural networks, to cluster devices into call flow clusters based on device type, wherein the first neural network, the second neural network, and the third neural network form an anomaly filtering engine; clustering, in real-time, using the anomaly filtering engine, devices in the network based on operational data reported from the network into a set of geographic clusters, a set topological clusters distinct from the set of geographic clusters, and a set of call flow clusters distinct from the set of geographic clusters and the set of topological clusters; correlating, in real-time, via the anomaly filtering engine, alerts received from devices in the network according to the set of geographic clusters, the set of topological clusters, and the set of call flow clusters; detecting, in real-time, via a fourth neural network, anomaly impacts in the set of geographic clusters, the set of topological clusters, and the set of call flow clusters from the alerts, wherein the anomaly impacts comprise network conditions affecting an operation of the network; in response to determining that the anomaly impacts for a first geographic cluster, of the set of geographic clusters, exceed an alerting threshold: identifying, in real-time, a first device of a first plurality of devices in the first geographic cluster, wherein the first device corresponds to a lowest-tiered device in a network topology of the network where communications pathways of the first plurality of devices in the first geographic cluster pass through the lowest-tiered device; identifying, in real-time, a first call flow cluster, of the set of call flow clusters, that includes the first device, wherein the anomaly impacts for the first call flow cluster have not been determined to exceed the alerting threshold, wherein the first call flow cluster comprises a second plurality of devices including the first device, wherein the second plurality of devices comprises at least one device outside of the first plurality of devices, and wherein communications pathways of the second plurality of devices in the first call flow cluster pass through the lowest-tiered device; and transmitting, in real-time, an alert indicating the anomaly impacts for both the first geographic cluster and the first call flow cluster; and in response to receiving a response to the alert, updating, in real-time, via the fourth neural network, the anomaly filtering engine wherein the updates to anomaly filtering engine adjust how the first neural network, the second neural network, and the third neural network identify clusters in the operational data.",
+  "patent_id": "US12380316-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 3/045",
+      "G06F 11/302",
+      "G06N 3/044",
+      "G06N 3/088",
+      "G08B 21/182"
+    ],
+    "all": [
+      "G06N 3/045",
+      "G06F 11/302",
+      "G06N 3/044",
+      "G06N 3/088",
+      "G08B 21/182"
+    ],
+    "source": "converted"
+  }
+}

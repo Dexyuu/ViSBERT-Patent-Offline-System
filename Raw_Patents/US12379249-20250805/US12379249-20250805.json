@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for differentiable programming for hyperspectral unmixing",
+  "abstract": "Various embodiments of a system for linear unmixing of spectral images using a dispersion model are disclosed herein.",
+  "claims": "1. A system, comprising: a spectral imaging device operable for measuring a measured spectra of one or more materials within a scanned region associated with a mixture; and a processor in operative communication with the spectral imaging device, the processor including instructions which, when executed, cause the processor to: receive spectrometer data from the spectral imaging device, the spectrometer data including a measured spectra b including emissivity values for one or more materials within a scanned region; process the measured spectra through a dispersion model to identify an endmember spectra present in the measured spectra, the endmember spectra representative of a spectrum of one or more materials of within the scanned region, wherein the dispersion model simulates realistic spectral variation to identify individual materials present in the mixture, wherein a set of parameters of the dispersion model are optimized by iteratively minimizing a loss between the measured spectra and a fitted endmember spectra with respect to the set of parameters; and identify an amount for each of the one or more materials to generate a set of amounts by iteratively minimizing a loss between the measured spectra and a fitted endmember spectra with respect to the set of amounts, wherein an amount for each of the one or more materials quantifies a presence of a respective material in the mixture.",
+  "patent_id": "US12379249-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01J 3/2823",
+      "G01J 2003/2826",
+      "G01J 2003/2843"
+    ],
+    "all": [
+      "G01J 3/2823",
+      "G01J 2003/2826",
+      "G01J 2003/2843"
+    ],
+    "source": "converted"
+  }
+}

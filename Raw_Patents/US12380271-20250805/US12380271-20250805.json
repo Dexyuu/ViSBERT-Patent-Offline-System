@@ -1,0 +1,18 @@
+{
+  "title": "Federated system and method for analyzing language coherency, conformance, and anomaly detection",
+  "abstract": "Aspects of the present disclosure involve systems and methods for evaluating a piece of text or document against many corpuses of text or documents located on sources which may be the same and/or different from the text of interest in a tensorized manner and aggregating the coherence/anomaly score against some or all of the entire corpus. This joining of multiple data sources for evaluating the given piece or text may be a âfederatedâ system as disparate data sources, each of which may contain confidential or otherwise private information, may be considered as a single repository of texts or documents. The systems and methods provide for a coherency and/or anomaly check of a piece of text of a document against similar pieces of text to determine a similarity of the piece of text to a large corpus of documents stored in disparate locations.",
+  "claims": "1. A system for processing an electronic document, the system comprising: a processor; and a memory comprising instructions that, when executed, cause the processor to: transmit an initial tensor generated from a text portion of an electronic document and a relative location of the text portion to a plurality of computing environments, each of the plurality of computing environments hosting a language coherency system remotely located separate from the processor and configured to calculate a comparison score based on a comparison of the initial tensor to a corpus of local electronic documents of a respective language coherency system; generate a distribution of comparison scores received from each of the language coherency systems; execute a risk scoring model to generate an assigned risk score of the initial tensor based on the comparison of the initial tensor to the corpus of local electronic documents, the assigned risk score associated with the comparison scores received from each of the language coherency systems; display, on a display device, the distribution of comparison scores for the initial tensor for comparison of the text portion to a plurality of corresponding tensors from the corpus of local electronic documents and the assigned risk score; and identify, based on the distribution of comparison scores, a similarity of the text portion of the electronic document to the corpus of local electronic documents of the respective language coherency systems while maintaining inaccessibility of the corpus of local electronic documents by the processor.",
+  "patent_id": "US12380271-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 40/237",
+      "G06F 16/35"
+    ],
+    "all": [
+      "G06F 40/237",
+      "G06F 16/35"
+    ],
+    "source": "converted"
+  }
+}

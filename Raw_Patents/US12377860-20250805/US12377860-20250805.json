@@ -1,0 +1,20 @@
+{
+  "title": "Method, system and apparatus for recognizing continuous driving style",
+  "abstract": "A method, system and apparatus for recognizing continuous driving style are provided, which involve the intelligent vehicles field. The method comprises: collecting multi-dimensional driving data from a plurality of drivers in daily driving scenarios, segmenting the driving data to obtain a plurality of driving segments, calculating statistical features of each driving segment to determine high-dimensional continuous driving statistical features, reducing dimensionality of the driving statistical features to generate common factors for each driving segment, representing each driving segment with a driving word based on the common factors, representing all the driving segments of a target driver as a driving word sequence, constructing a hierarchical latent model of driving behavior, and inputting the driving word sequence into the hierarchical latent model of driving behavior to determine the continuous driving style of the target driver.",
+  "claims": "1. A method for recognizing continuous driving style, comprising: collecting multi-dimensional driving data from a plurality of drivers in daily driving scenarios, wherein the multi-dimensional driving data comprises vehicle state data and driver operation data, wherein the vehicle state data comprises speed, longitudinal acceleration, lateral acceleration and yaw rate, and the driver operation data comprises throttle pedal position, brake pressure, and steering wheel angle; segmenting the multi-dimensional driving data to obtain a plurality of driving segments; calculating statistical features of the multi-dimensional driving data for each driving segment to determine high-dimensional continuous driving statistical features for all the driving segments; reducing dimensionality of the high-dimensional continuous driving statistical features to generate common factors for each driving segment; representing each driving segment with a driving word based on the common factors, and representing all the driving segments of a target driver as a driving word sequence based on driving words; wherein the driving words follow a first categorical distribution with basic driving styles as parameters, and the basic driving styles comprise an aggressive driving style and a moderate driving style; and inputting the driving word sequence into a hierarchical latent model of driving behavior, and outputting, by the hierarchical latent model, the continuous driving style of the target driver; wherein the hierarchical latent model of the driving behavior is constructed based on the basic driving styles and the driving word corresponding to each driving segment, and the continuous driving style is mixture proportions of the basic driving styles learned from the driving word sequence.",
+  "patent_id": "US12377860-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 40/09",
+      "G06F 17/18",
+      "B60W 2540/30"
+    ],
+    "all": [
+      "B60W 40/09",
+      "G06F 17/18",
+      "B60W 2540/30"
+    ],
+    "source": "converted"
+  }
+}

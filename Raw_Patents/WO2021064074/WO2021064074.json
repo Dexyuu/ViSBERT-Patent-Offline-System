@@ -1,0 +1,23 @@
+{
+  "application_id": "WO2021064074",
+  "application_id_fs": null,
+  "title": "Method for assisting parking of a vehicle",
+  "abstract": "A method for assisting parking of a vehicle is provided. First two parked vehicles and determining their positions with respect to said vehicle is determined. Parking information using wireless communication is exchanged between said vehicle and one of two parked vehicles, at two positions of said vehicle. Based on the time-of-flight of electromagnetic signals of said wireless communication, a first and a second distance between said parked vehicle and said vehicle at the first and a second position are determined. It is determined with which of the two parked vehicles said parking information was exchanged based on said first and second distance. The parking information is assigned to that parked vehicle. Parking of said vehicle is then assisted based on said assigned parking information.",
+  "claims": "Claims Patent claims 1. A method for assisting parking of a vehicle, comprising the steps of: detecting two parked vehicles and determining their positions with respect to said vehicle; exchanging parking information using wireless communication between said vehicle and one of said two parked vehicles, at a first position of said vehicle and at a second position of said vehicle; determining, based on the time-of-flight of electromagnetic signals of said wireless communication, of a first distance between said one parked vehicle and said vehicle at the first position and of a second distance between said one parked vehicle and said vehicle at the second position; determining with which of the two parked vehicles said parking information was exchanged based on said first and second distance, and assigning said parking information to that parked vehicle; assisting parking of said vehicle based on said assigned parking information. 2. Method according to claim 1 , wherein said parking information indicates whether said one of two parked vehicles is capable of fully autonomous parking, and/or a minimum parking distance between the parked vehicle and another parked vehicle. 3. Method according to claim 1 or 2, wherein said first and said second position are within 10 meters, or preferably within 5 meters distance, from said parked vehicles. 4. Method according to any of the preceding claims, wherein said wireless communication is based on WiFi or 5G technology. 5. Method according to any of the preceding claims, wherein said time of flight is determined based on a reflected signal, or on a response signal. 6. Vehicle with a park assist system, the vehicle comprising: - a detecting unit arranged for detecting two parked vehicles and determining their positions with respect to said vehicle; - a communication unit arranged for exchanging parking information using wireless communication between said vehicle and one of said two parked vehicles, at a first position of said vehicle and at a second position of said vehicle; - a measuring unit arranged for determining, based on the time-of-flight of electromagnetic signals of said wireless communication, a first distance between said one parked vehicle and said vehicle at the first position and of a second distance between said one parked vehicle and said vehicle at the second position; - an assigning unit arranged for determining with which of the two parked vehicles said parking information was exchanged based on said first and second distance, and assigning said parking information to that parked vehicle; and, - said park assist system arranged for receiving said assigned parking information and for assisting parking said vehicle based on said assigned parking information. 7. Vehicle according to claim 6, wherein said wireless communication is based on WiFi technology. 8. Vehicle according to claim 6 or 7, wherein said time of flight is determined based on a reflected signal, or on a response signal. 9. Vehicle according to any of claims 6-8, wherein said park assist system is further arranged for autonomously parking said vehicle based on said assigned parking information.",
+  "classifications": {
+    "ipc": [
+      "B62D 15/02",
+      "G01C 17/38",
+      "G05D 1/02",
+      "G08C 17/02"
+    ],
+    "cpc": [],
+    "all": [
+      "B62D 15/02",
+      "G01C 17/38",
+      "G05D 1/02",
+      "G08C 17/02"
+    ],
+    "source": "csv"
+  }
+}

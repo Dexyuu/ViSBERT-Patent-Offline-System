@@ -1,0 +1,22 @@
+{
+  "title": "In-loop filtering-based image coding device and method",
+  "abstract": "According to embodiments of the present document, information for performing in-loop filtering across boundaries can be efficiently signaled. For example, the boundaries may include boundaries of tiles, slices, and/or sub-pictures.",
+  "claims": "1. An image decoding method performed by a decoding apparatus, comprising: obtaining image information including subpicture-related information and residual information through a bitstream; dividing a current picture into at least one subpicture based on the subpicture-related information; generating reconstructed samples of the current picture based on the residual information; and generating modified reconstructed samples based on an in-loop filtering procedure for the reconstructed samples, wherein the at least one subpicture includes one or more rectangular slices, wherein the one or more rectangular slices are included in one or more tiles, wherein the image information includes in-loop filtering-related information, wherein whether the in-loop filtering procedure for the reconstructed samples is performed across at least one of a boundary of the one or more tiles or a boundary of the one or more rectangular slices in the current picture is determined based on the in-loop filtering-related information, wherein the image information includes a picture parameter set (PPS) referred by the current picture and a sequence parameter set (SPS) referred by the current picture, wherein the image information includes a tile boundary in-loop filtering available flag for the at least one subpicture in the current picture, wherein, based on the tile boundary in-loop filtering available flag for the at least one subpicture, whether the in-loop filtering procedure for the reconstructed samples is performed across the boundary of the one or more tiles in at least one subpicture is determined, wherein the image information includes a slice boundary in-loop filtering available flag for the one or more tiles in the current picture, wherein, based on the slice boundary in-loop filtering available flag for the one or more tiles, whether the in-loop filtering procedure for the reconstructed samples is performed across the boundary of the one or more rectangular slices in the one or more tiles is determined, and wherein tile boundary in-loop filtering available flags for at least two subpictures that contain the one or more rectangular slices that belong to a same tile are identical to each other.",
+  "patent_id": "US12382053-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/132",
+      "H04N 19/172",
+      "H04N 19/46",
+      "H04N 19/82"
+    ],
+    "all": [
+      "H04N 19/132",
+      "H04N 19/172",
+      "H04N 19/46",
+      "H04N 19/82"
+    ],
+    "source": "converted"
+  }
+}

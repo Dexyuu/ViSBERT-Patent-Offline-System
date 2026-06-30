@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2017105116",
+  "application_id_fs": "WO2017105116",
+  "title": "Method, storage medium and electronic apparatus for providing service associated with image",
+  "abstract": "An electronic apparatus for providing a service associated with images is provided. The electronic apparatus includes a memory, and a processor configured to acquire multiple images, acquire information associated with at least one of the multiple images, classify at least some of the multiple images into at least one group based on the information associated with the at least one of the multiple images, and provide a service based on information of the classification of the at least some of the multiple images.",
+  "claims": "Claims ( 15 ) An electronic apparatus for providing a service associated with images, the electronic apparatus comprising: a memory; and a processor configured to: acquire multiple images, acquire information associated with at least one of the multiple images, classify at least some of the multiple images into at least one group based on the information associated with the at least one of the multiple images, and provide a service, based on information of the classification of the at least some of the multiple images. The electronic apparatus of claim 1, wherein the processor is further configured to: acquire situation information representing a situation of the electronic apparatus, a situation of a user, or a photographing situation, and start photographing for images or adjust a photographing interval for images, based on a comparison result of the situation information and a preconfigured condition. The electronic apparatus of claim 1, wherein the processor is further configured to: perform at least one of detecting a value representing a motion of the electronic apparatus or a user, calculating a value representing quality of the image, and recognizing a scene or subject of the image, compare at least one of the value representing the motion, the value representing the quality of the image, and the recognition information on the scene or subject with at least one condition preconfigured in the electronic apparatus, and start photographing for the images or adjust a photographing interval for the images, based on a comparison result. The electronic apparatus of claim 3, wherein the processor is further configured to: compare a value representing a motion of the electronic apparatus or the user with a preconfigured first condition, compare a value representing the quality of the image with a preconfigured second condition when the value representing the motion of the electronic apparatus or the user satisfies the preconfigured first condition, compare the recognition information on a scene or subject with a preconfigured third condition when the value representing the quality of the image satisfies the preconfigured second condition, and photograph images or reduce a photographing interval for images when the recognition information on the scene or subject satisfies the preconfigured third condition. The electronic apparatus of claim 1, wherein the processor is further configured to: perform at least one of detecting a value representing a motion of the electronic apparatus or a user, calculating a value representing quality of the image, and recognizing a scene or subject of the image, compare at least one of the value representing the motion, the value representing the quality of the image, and the recognition information on the scene or subject with at least one condition preconfigured in the electronic apparatus, and activate or deactivate at least one component of the electronic apparatus, based on a comparison result. The electronic apparatus of claim 1, wherein the processor is further configured to: detect a subject entering an angle of view of a camera that is functionally connected to the electronic apparatus or a preconfigured area within the angle of view, and start photographing for images or adjust a photographing interval for the images in response to detection of the subject. The electronic apparatus of claim 1, wherein the processor is further configured to: detect a subject having a size larger than a preconfigured size through a camera that is functionally connected to the electronic apparatus, and start photographing for images or adjust a photographing interval for the images in response to detection of the subject. The electronic apparatus of claim 1, wherein the processor is further configured to: select at least one representative image for each group of the at least one group, based on at least one of a total photographing time of the images of each group, a number of total images of each group, a type of event corresponding to each group or a user input, and display the at least one representative image. The electronic apparatus of claim 1, wherein the processor is further configured to sequentially play the images of the at least one group, and wherein at least one of a playing time and playing speed of the images of each group is determined, based on at least one of a total photographing time of the images of each group, a number of total images of each group, a type of event corresponding to each group, and a user input. The electronic apparatus of claim 1, wherein the processor is further configured to: display a graphic element generated based on at least one image of the at least one group, and information associated with the at least one image, receive a response for the graphic element, and display a comparison result of the information associated with the at least one image and the response. A method of providing a service associated with images in an electronic apparatus, the method comprising: acquiring multiple images; acquiring information associated with at least one of the multiple images, classifying at least some of the multiple images into at least one group based on the information associated with the at least one of the multiple images, and providing a service based on information of the classification of the at least some of the multiple images. The method of claim 11, wherein the acquiring of the multiple images comprises: acquiring situation information representing a situation of the electronic apparatus, a situation of a user, or a photographing situation, and starting photographing for images or adjusting a photographing interval for the multiple images, based on a comparison result of the situation information and a preconfigured condition. The method of claim 11, wherein the acquiring of the multiple images comprises: performing at least one of detecting a value representing a motion of the electronic apparatus or a user, calculating a value representing quality of the at least one of multiple images, and recognizing a scene or subject of the at least one of the multiple images, comparing at least one of the value representing the motion, the value representing the quality of the image, and the recognition information on the scene or subject with at least one condition preconfigured in the electronic apparatus, and starting photographing for images or adjusting a photographing interval for the at least one of the multiple images, based on a comparison result. The method of claim 11, wherein the acquiring of the multiple images comprises: detecting a subject entering an angle of view of a camera that is functionally connected to the electronic apparatus or a preconfigured area within the angle of view, and starting photographing for images or adjusting a photographing interval for the at least one of the multiple images in response to detection of the subject. The method of claim 11, wherein the providing of the service comprises: sequentially playing images of the at least one group, and determining at least one of a playing time and playing speed of the images of each group, based on at least one of a total photographing time of images of each group, a number of total images of each group, a type of event corresponding to each group, and a user input.",
+  "classifications": {
+    "ipc": [
+      "G06V 20/00",
+      "G06V 20/20",
+      "G06F 16/00",
+      "G06F 16/50",
+      "G06F 16/58",
+      "G06F 16/53",
+      "G06F 16/70",
+      "G06F 16/73",
+      "G06F 16/738",
+      "G06F 16/739",
+      "G06V 20/40",
+      "G06V 20/46",
+      "G06V 20/47",
+      "G06V 20/70"
+    ],
+    "cpc": [],
+    "all": [
+      "G06V 20/00",
+      "G06V 20/20",
+      "G06F 16/00",
+      "G06F 16/50",
+      "G06F 16/58",
+      "G06F 16/53",
+      "G06F 16/70",
+      "G06F 16/73",
+      "G06F 16/738",
+      "G06F 16/739",
+      "G06V 20/40",
+      "G06V 20/46",
+      "G06V 20/47",
+      "G06V 20/70"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017105116"
+}

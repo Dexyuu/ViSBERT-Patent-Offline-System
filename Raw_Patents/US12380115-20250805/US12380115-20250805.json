@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for providing advanced personalization in query systems",
+  "abstract": "Systems and methods are provided for providing advanced personalization in query systems.",
+  "claims": "1. A computing system comprising: a processor; and a non-transitory computer-readable storage device storing computer-executable instructions, the instructions operable to cause the processor to perform operations comprising: receiving a user query from a user device; collecting historical data for a user associated with the user query; formatting the historical data and the user query as an input prompt; feeding the input prompt to a large language model (LLM); generating one or more tuning parameters via the LLM by analyzing the input prompt; updating a user profile of the user based on the one or more tuning parameters; identifying one or more matching user queries based on the received user query; generating, via a prediction engine, one or more personalized recommendations in response to the user query; updating the input prompt with the one or more personalized recommendations; feeding the updated input prompt to the LLM; generating, via the LLM, one or more final responses to the user query by analyzing the updated input prompt; and causing the one or more final responses to be displayed on the user device.",
+  "patent_id": "US12380115-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/24575",
+      "G06F 16/24539",
+      "G06F 16/24578"
+    ],
+    "all": [
+      "G06F 16/24575",
+      "G06F 16/24539",
+      "G06F 16/24578"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2025006304",
+  "application_id_fs": "WO2025006304",
+  "title": "Display tint layer driving",
+  "abstract": "An electronic device may include a display with a waveguide that directs image light to an eye box using an output coupler. The display may include an electrically adjustable tint layer overlapping the output coupler and driven by a driver. The driver may be coupled to the tint layer using wires or one or more flexible printed circuit tails. The driver may include different circuit architectures. The driver may overdrive or underdrive the tint layer to accelerate a transition time of the tint layer. The driver may be periodically floated relative to the electrodes to save power. The driver may drive the tint layer at multiple pairs of drive terminals around the periphery of the tint layer. A voltage sensor may measure voltage across the tint layer at sense terminals that are offset from the drive terminals.",
+  "claims": "Claims Claims What is Claimed is: 1. An electronic device comprising: a waveguide configured to propagate first light; an optical coupler on the waveguide and configured to couple the first light out of the waveguide; a tint layer overlapping the optical coupler and configured to pass second light to the waveguide, the tint layer having first and second electrodes and an electrochromic material between the first and second electrodes; and a driver configured to generate a voltage across the first and second electrodes, wherein the driver includes a first circuit configured to drive the first electrode based on a reference voltage, and a second circuit configured to drive the second electrode based on the reference voltage. 2. The electronic device of claim 1, wherein the first circuit comprises a buck converter. 3. The electronic device of claim 2, wherein the second circuit comprises a low- dropout (LDO) regulator and an inverter. 4. The electronic device of claim 2, wherein the second circuit comprises an additional buck converter. 5. The electronic device of claim 4, wherein the second circuit further comprises: a first transistor having a first source/drain terminal coupled to the second electrode and having a first gate terminal; a second transistor having a second source/drain terminal coupled to the first source/drain terminal, having a third source/drain terminal coupled to an output of the additional buck converter, and having a second gate terminal; and a third transistor having a fourth source/drain terminal coupled to an input of \n\nthe buck converter, the first gate terminal, and the second gate terminal. 6. The electronic device of claim 1, wherein the first circuit comprises a low- dropout (LDO) regulator, wherein the second circuit comprises an additional LDO regulator, wherein the first circuit comprises a digital-to-analog converter (DAC) and an analog buffer, and wherein the second circuit comprises an additional DAC and an additional analog buffer. 7. The electronic device of claim 1, wherein: the driver is configured to overdrive, underdrive, and float the voltage, and the driver is coupled to the first electrode over a first tail of a flexible printed circuit that is mounted to a first substrate of the tint layer and is coupled to the second electrode over a second tail of the flexible printed circuit that is mounted to a second substrate of the tint layer. 8. An electronic device comprising: a waveguide configured to propagate first light; an optical coupler on the waveguide and configured to couple the first light out of the waveguide; a tint layer overlapping the optical coupler and configured to pass second light to the waveguide, the tint layer having first and second electrodes and an electrochromic material between the first and second electrodes; and a driver configured to generate a voltage across the first and second electrodes, wherein the driver comprises a tunable circuit configured to drive both the first electrode and the second electrode. 9. The electronic device of claim 8, wherein the tunable circuit comprises a single inductor multiple output (SIMO) buck converter having a first output coupled to the first electrode and a second output coupled to the second electrode. 10. The electronic device of claim 9, further comprising: a first transistor having a first source/drain terminal coupled to the first electrode and the first output of the SIMO buck converter; and \n\n a second transistor having a second source/drain terminal coupled to the second electrode and the second output of the SIMO buck converter. 11. The electronic device of claim 8, wherein the tunable circuit comprises an analog buffer having an output coupled to the tint layer, a first input configured to receive a pulse width modulated (PWM) control signal, and a second input coupled to the output. 12. The electronic device of claim 8, wherein the tunable circuit comprises an H- bridge having a first output coupled to the first electrode and a second output coupled to the second electrode. 13. The electronic device of claim 12, wherein the tunable circuit further comprises: a digital-to-analog converter and an analog buffer coupled to an input of the H-bridge. 14. The electronic device of claim 12, wherein the tunable circuit further comprises: a low-dropout (LDO) regulator having an output coupled to an input of the H- bridge. 15. The electronic device of claim 12, wherein the tunable circuit further comprises: a tunable buck converter having an output coupled to an input of the H-bridge. 16. An electronic device comprising: a waveguide configured to propagate first light; an optical coupler on the waveguide and configured to couple the first light out of the waveguide; a tint layer overlapping the optical coupler and configured to pass second light to the waveguide, the tint layer having first and second electrodes and an electrochromic material between the first and second electrodes; \n\n a current driver configured to drive, at a first time, the tint layer using a drive current; and a voltage driver configured to drive, at a second time different than the first time, the tint layer using a voltage across the first and second electrodes. 17. The electronic device of claim 16, further comprising: switching circuitry that communicably couples the current driver and the voltage driver to the tint layer, wherein the switching circuitry is switchable between at least first and second switch states, the current driver is configured to drive the tint layer while the switching circuitry is in the first switch state, and the voltage driver is configured to drive the tint layer while the switching circuitry is in the second switch state. 18. The electronic device of claim 16, further comprising: a voltage sensor coupled to the first and second electrodes and configured to measure the tint layer at the first time; and a Coulomb counter coupled to the first electrode and configured to measure a charge of the tint layer at the second time. 19. The electronic device of claim 16, wherein the current driver comprises a current digital to analog converter (ID AC) and the voltage driver comprises a tunable buck converter. 20. The electronic device of claim 16, wherein the current driver is configured to generate one or more overdrive pulses in the drive current.",
+  "classifications": {
+    "ipc": [
+      "G02F 1/00",
+      "G02F 1/01",
+      "G02F 1/15",
+      "G02F 1/163",
+      "G02B 27/00",
+      "G02B 1/00",
+      "G02B 26/00",
+      "G02B 30/00",
+      "G02B 27/01",
+      "G02B 27/017",
+      "G02B 27/0172",
+      "G02B 27/0101",
+      "G02B 2027/0118",
+      "G02B 26/02"
+    ],
+    "cpc": [],
+    "all": [
+      "G02F 1/00",
+      "G02F 1/01",
+      "G02F 1/15",
+      "G02F 1/163",
+      "G02B 27/00",
+      "G02B 1/00",
+      "G02B 26/00",
+      "G02B 30/00",
+      "G02B 27/01",
+      "G02B 27/017",
+      "G02B 27/0172",
+      "G02B 27/0101",
+      "G02B 2027/0118",
+      "G02B 26/02"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025006304"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Method and apparatus of luma-chroma separated coding tree coding with constraints",
+  "abstract": "A method and apparatus for block partition are disclosed. If a cross-colour component prediction mode is allowed, the luma block and the chroma block are partitioned into one or more luma leaf blocks and chroma leaf blocks. If a cross-colour component prediction mode is allowed, whether to enable an LM (Linear Model) mode for a target chroma leaf block is determined based on a first split type applied to an ancestor chroma node of the target chroma leaf block and a second split type applied to a corresponding ancestor luma node. According to another method, after the luma block and the chroma block are partitioned using different partition tress, determine whether one or more exception conditions to allow an LM for a target chroma leaf block are satisfied when the chroma partition tree uses a different split type, a different partition direction, or both from the luma partition tree.",
+  "claims": "1. A method of video coding used by a video coding system, the method comprising: receiving input data associated with a current block in a current picture, wherein the input data comprise pixel data to be encoded at an encoder side or compressed data at a decoder side, and wherein the current block comprises a luma block and a chroma block; if separate partition trees are allowed for the luma block and the chroma block, partitioning the luma block into one or more luma leaf blocks using a luma partition tree and partitioning the chroma block into one or more chroma leaf blocks using a chroma partition tree; if a cross-colour component prediction mode is allowed, determining whether to enable an LM (Linear Model) mode for a target chroma leaf block based on a first split type applied to an ancestor chroma node of the target chroma leaf block and a second split type applied to a corresponding ancestor luma node, wherein: when the second split type corresponds to no split and the first split type corresponds to QT (quadtree) split, HorBT (horizontal binary tree) split with no further split, or HorBT split followed by VerBT (vertical binary tree) split, the LM mode for the target chroma leaf block is enabled; or when the second split type corresponds to QT (quadtree) split and the first split type corresponds to no split, or HorBT (horizontal binary tree) split with no further split, the LM mode for the target chroma leaf block is enabled; and encoding or decoding the target chroma leaf block using the LM mode if the LM mode is enabled for the target chroma leaf block.",
+  "patent_id": "US12382038-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/119",
+      "H04N 19/176",
+      "H04N 19/186",
+      "H04N 19/96"
+    ],
+    "all": [
+      "H04N 19/119",
+      "H04N 19/176",
+      "H04N 19/186",
+      "H04N 19/96"
+    ],
+    "source": "converted"
+  }
+}

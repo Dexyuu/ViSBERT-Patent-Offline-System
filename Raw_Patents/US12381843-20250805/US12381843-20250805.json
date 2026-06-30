@@ -1,0 +1,24 @@
+{
+  "title": "Techniques for templated domain management",
+  "abstract": "In various embodiments, a templated Domain Name System (DNS) nameserver respond to DNS to DNS requests, and a templated HyperText Transfer Protocol (HTTP) server respond to HTTP and Hypertext Transfer Protocol Secure (HTTPS) requests. The templated DNS nameserver responds to a DNS request with a predefined response specifying an Internet Protocol (IP) address associated with the templated HTTP server, based on a type of the DNS request. The templated HTTP server responds to an HTTP or HTTPS request with a redirection response specifying a default redirection Universal Resource Locator (URL), or a different URL if the default has been overridden. Domain management is simplified relative to conventional approaches using the templated DNS nameserver and the templated HTTP server. A new domain can simply be registered at a domain name registrar, and the templated DNS nameserver configured as an authoritative DNS nameserver at the domain name registrar.",
+  "claims": "1. A computer-implemented method, the method comprising: receiving a Domain Name System (DNS) request specifying a domain; and sending a response including a predefined Internet Protocol (IP) address that is based on a type of the DNS request, wherein the domain specified in the DNS request is not mapped to the predefined IP address.",
+  "patent_id": "US12381843-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 61/4511",
+      "G06F 16/9566",
+      "H04L 61/5007",
+      "H04L 63/0823",
+      "H04L 67/02"
+    ],
+    "all": [
+      "H04L 61/4511",
+      "G06F 16/9566",
+      "H04L 61/5007",
+      "H04L 63/0823",
+      "H04L 67/02"
+    ],
+    "source": "converted"
+  }
+}

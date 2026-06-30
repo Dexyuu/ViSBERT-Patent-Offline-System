@@ -1,0 +1,30 @@
+{
+  "title": "Apparatus and methods for thumbnail generation",
+  "abstract": "Apparatus and methods for thumbnail generation. In one embodiment, a thumbnail stream is generated where one or more bits are assigned to key frames and minimizes the number of bits assigned to delta frames. Each key frame may be used to extract a still image for use in thumbnails during trick mode operation (e.g., fast forward, rewind, pause, or random seek operation). When the encoded video file is given to a Just in Time Packager (JITP), the JITP extracts the image files (via the key frames). Information regarding how to reference these files is stored in generated manifest file and may be reformatted by the JITP to fit the needs of the current product. In a variant, the JITP reformats the image files extracted from the encoded video for operation on a number of devices.",
+  "claims": "18. Computerized packager apparatus, the computerized packager apparatus comprising: first data interface apparatus configured for data communication with a content distribution network and a computerized encoder apparatus; storage apparatus; and processor apparatus in data communication with the storage apparatus and the first data interface apparatus and configured to execute at least one computer program, the at least one computer program having a plurality of instructions which are configured to, when executed by the processor apparatus, cause the computerized packager apparatus to: receive a plurality of encoded data structures, the plurality of encoded data structures comprising: (i) a thumbnail stream, the thumbnail stream comprising a first plurality of key frames separated by null frames and comprising no delta frames; and (ii) a video stream, the video stream comprising a second plurality of key frames separated by delta frames, wherein at least portions of said first plurality of key frames and said second plurality of key frames are synchronized; receive data representative of a request from a computerized client device for one or more thumbnail images associated with at least a portion of the plurality of encoded data structures; and based, at least in part, on the receipt of the data representative of the request: extract a plurality of thumbnail images from the first plurality of key frames in the thumbnail stream; generate a manifest data structure comprising addresses of the extracted plurality of thumbnail images; and provide the manifest data structure to the computerized client device.",
+  "patent_id": "US12382148-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/8456",
+      "H04L 65/611",
+      "H04L 65/612",
+      "H04L 65/70",
+      "H04L 65/762",
+      "H04N 21/440218",
+      "H04N 21/8549",
+      "G11B 27/005"
+    ],
+    "all": [
+      "H04N 21/8456",
+      "H04L 65/611",
+      "H04L 65/612",
+      "H04L 65/70",
+      "H04L 65/762",
+      "H04N 21/440218",
+      "H04N 21/8549",
+      "G11B 27/005"
+    ],
+    "source": "converted"
+  }
+}

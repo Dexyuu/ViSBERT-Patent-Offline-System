@@ -1,0 +1,36 @@
+{
+  "title": "Vehicular trailering assist system with automatic trailer recognition",
+  "abstract": "A vehicular trailering assist system includes a camera disposed at a vehicle and viewing at least rearward of the vehicle. The vehicular trailering assist system transforms captured image data into a bird's-eye view of the hitch of the trailer, and accesses a plurality of stored trailer templates, with each respective trailer template being generated during a previous calibration of the system for a respective trailer. The vehicular trailering assist system generates a matching score based on a comparison between a stored trailer template and the transformed bird's-eye view. The vehicular trailering assist system, responsive to determining that the matching score for one of the plurality of stored trailer templates exceeds a threshold matching score, tracks a trailer angle of the trailer using the one plurality of stored trailer templates.",
+  "claims": "1. A vehicular trailering assist system, the vehicular trailering assist system comprising: a camera disposed at a vehicle equipped with the vehicular trailering assist system, the camera viewing at least rearward of the vehicle, wherein the camera is operable to capture frames of image data; wherein the camera comprises a CMOS imaging array, and wherein the CMOS imaging array comprises at least one million photosensors arranged in rows and columns; an electronic control unit (ECU) comprising electronic circuitry and associated software; wherein image data captured by the camera is transferred to and are processed at the ECU; wherein the vehicular trailering assist system, with a trailer hitched to the vehicle and with the camera viewing at least a hitch of the trailer that hitches the trailer to the vehicle, and via processing at the ECU of image data captured by the camera and transferred to the ECU, transforms image data captured by the camera into a transformed bird's-eye view of the hitch of the trailer; wherein the vehicular trailering assist system accesses a plurality of stored trailer templates, and wherein each respective stored trailer template of the plurality of stored trailer templates was generated during a previous calibration of the system for a respective trailer associated with the respective stored trailer template; wherein the vehicular trailering assist system, for at least one stored trailer template of the plurality of stored trailer templates, generates a matching score based on a comparison between the at least one stored trailer template and the transformed bird's-eye view of the hitch of the trailer; wherein the vehicular trailering assist system determines that the matching score for one of the at least one stored trailer template is greater than a threshold matching score; and wherein the vehicular trailering assist system, responsive to determining that the matching score for the one of the at least one stored trailer template is greater than the threshold matching score, tracks a trailer angle of the trailer using the one of the at least one stored trailer template.",
+  "patent_id": "US12377783-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60R 1/003",
+      "B60R 1/26",
+      "G06T 7/12",
+      "G06T 7/20",
+      "G06V 10/74",
+      "G06V 20/56",
+      "H04N 7/183",
+      "H04N 25/76",
+      "B60R 2300/10",
+      "B60R 2300/607",
+      "G06T 2207/30252"
+    ],
+    "all": [
+      "B60R 1/003",
+      "B60R 1/26",
+      "G06T 7/12",
+      "G06T 7/20",
+      "G06V 10/74",
+      "G06V 20/56",
+      "H04N 7/183",
+      "H04N 25/76",
+      "B60R 2300/10",
+      "B60R 2300/607",
+      "G06T 2207/30252"
+    ],
+    "source": "converted"
+  }
+}

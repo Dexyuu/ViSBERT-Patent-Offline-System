@@ -1,0 +1,20 @@
+{
+  "title": "Method and device for transmitting information related to slot pattern in NR V2X",
+  "abstract": "Proposed is an operation method of a first device (100) in a wireless communication system. The method may comprise the steps of: receiving TDD-UL-DL configuration information including information related to a first slot pattern and information related to a second slot pattern from a base station (300); determining a value related to granularity on the basis of i) a period of the first slot pattern, ii) a period of the second slot pattern, and iii) first subcarrier spacing related to SL communication; and transmitting a physical sidelink broadcast channel (PSBCH) including information related to a first UL resource and information related to a second UL resource to a second device (200).",
+  "claims": "1. A method for performing, by a first device, wireless communication, the method comprising: receiving a TDD-UL-DL configuration information, from a base station, including information related to a first slot pattern and information related to a second slot pattern, wherein the information related to the first slot pattern includes information related to a periodicity of the first slot pattern and information related to a first UL resource, and wherein the information related to the second slot pattern includes information related to a periodicity of the second slot pattern and information related to a second UL resource; determining a value related to granularity, based on i) the periodicity of the first slot pattern, ii) the periodicity of the second slot pattern and iii) a first subcarrier spacing (SCS) related to SL communication; and transmitting a physical sidelink broadcast channel (PSBCH), to a second device, including information related to the first UL resource and information related to the second UL resource, wherein the information related to the first UL resource and information related to the second UL resource are expressed based on a unit related to a second SCS, and wherein the second SCS is obtained based on a value obtained by dividing the first SCS by the value related to the granularity.",
+  "patent_id": "US12382440-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/0446",
+      "H04L 5/14",
+      "H04W 72/40"
+    ],
+    "all": [
+      "H04W 72/0446",
+      "H04L 5/14",
+      "H04W 72/40"
+    ],
+    "source": "converted"
+  }
+}

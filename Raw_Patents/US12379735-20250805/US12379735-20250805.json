@@ -1,0 +1,18 @@
+{
+  "title": "Reference voltage auto-switching mechanism used in regulator for saving more power in low-power mode",
+  "abstract": "The present invention provides a circuitry including a regulator and a control circuit is disclosed. The regulator is configured to receive an input signal to generate an output voltage. The control circuit is configured to select one of a first reference voltage and a second reference voltage to serve as an output reference voltage according to an output signal of the regulator, and generate a control signal according to the output reference voltage to control a voltage level of the output voltage of the regulator.",
+  "claims": "1. A circuitry, comprising: a regulator, configured to receive an input signal to generate an output voltage; a control circuit, coupled to the regulator, configured to select one of a first reference voltage and a second reference voltage to serve as an output reference voltage according to an output signal of the regulator, and generate a control signal according to the output reference voltage to control a voltage level of the output voltage of the regulator; wherein the output signal is the output voltage, and the control circuit comprises: a first comparator, configured to compare the output voltage with a third reference voltage to generate a first control signal; a second comparator, configured to compare the output voltage with a fourth reference voltage to generate a second control signal; a selection circuit, configured to select one of the first reference voltage and the second reference voltage to serve as the output reference voltage according to the first control signal and the second control signal; wherein the first reference voltage is greater than the second reference voltage, and the third reference voltage is greater than the fourth reference voltage; and when the output voltage is greater than the third reference voltage, the first comparator generates the first control signal to control the selection circuit to select the second reference voltage as the output reference voltage; and when the output voltage is lower than the fourth reference voltage, the second comparator generates the second control signal to control the selection circuit to select the first reference voltage as the output reference voltage.",
+  "patent_id": "US12379735-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05F 1/468",
+      "G06F 1/3296"
+    ],
+    "all": [
+      "G05F 1/468",
+      "G06F 1/3296"
+    ],
+    "source": "converted"
+  }
+}

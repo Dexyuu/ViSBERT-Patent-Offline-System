@@ -1,0 +1,18 @@
+{
+  "title": "Patch tracking image sensor",
+  "abstract": "An image sensor suitable for use in an augmented reality system to provide low latency image analysis with low power consumption. The augmented reality system can be compact, and may be small enough to be packaged within a wearable device such as a set of goggles or mounted on a frame resembling ordinary eyeglasses. The image sensor may receive information about a region of an imaging array associated with a movable object and selectively output imaging information for that region. The region may be updated dynamically as the image sensor and/or the object moves. Such an image sensor provides a small amount of data from which object information used in rendering an augmented reality scene can be developed. The amount of data may be further reduced by configuring the image sensor to output indications of pixels for which the measured intensity of incident light changes.",
+  "claims": "1. A device comprising: a support member; a sensor mechanically coupled to the support member, the sensor comprising a plurality of pixel cells generating image information for respective regions in a field of view of the sensor; at least one processor operatively coupled to the sensor and configured to: process image information from the sensor; dynamically modify a portion of the plurality of pixel cells included in a patch based on information indicating a position of the patch among the plurality of pixel cells at a first time and based on an estimated trajectory of the patch among the plurality of pixel cells subsequent to the first time; and in a time period subsequent to the first time: control the sensor to selectively provide for processing, by at least one of the at least one processor, image information from the portion of the plurality of pixel cells in the patch without providing image information from pixel cells of the plurality of pixel cells that are outside of the patch.",
+  "patent_id": "US12380609-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 11/00",
+      "H04N 25/707"
+    ],
+    "all": [
+      "G06T 11/00",
+      "H04N 25/707"
+    ],
+    "source": "converted"
+  }
+}

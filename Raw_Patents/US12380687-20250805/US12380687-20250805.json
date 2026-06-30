@@ -1,0 +1,24 @@
+{
+  "title": "Object detection method and apparatus, and computer storage medium",
+  "abstract": "This application provides example object detection methods and apparatuses. This application relates to the field of artificial intelligence, and specifically, to the field of computer vision. One example method includes obtaining a to-be-detected image and performing convolution processing on the to-be-detected image to obtain an initial image feature of a to-be-detected object in the to-be-detected image. Based on knowledge graph information, an enhanced image feature of the to-be-detected object is determined. A candidate frame and a classification of the to-be-detected object is determined based on the initial image feature and the enhanced image feature of the to-be-detected object. The enhanced image feature indicates semantic information of a different object category corresponding to another object associated with the to-be-detected object.",
+  "claims": "1. An object detection method, comprising: obtaining an image; performing convolution processing on the image to obtain an initial candidate frame of the image and an initial object category of an object of different objects, wherein the initial object category is determined based on an image feature corresponding to the initial candidate frame; extracting an initial image feature of the initial candidate frame; determining an enhanced image feature of the object based on knowledge graph information and classification parameters of object categories corresponding to different objects, wherein the knowledge graph information comprises values indicating similarities between the different object categories corresponding to the different objects, and the enhanced image feature indicates semantic information of an object category of the different object categories corresponding to another object of the different objects associated with the object; and determining, based on the initial image feature and the enhanced image feature, a final candidate frame in the image where the object is located and a final object category of the different object categories corresponding to the object.",
+  "patent_id": "US12380687-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/82",
+      "G06N 3/08",
+      "G06N 5/02",
+      "G06V 10/764",
+      "G06V 10/7715"
+    ],
+    "all": [
+      "G06V 10/82",
+      "G06N 3/08",
+      "G06N 5/02",
+      "G06V 10/764",
+      "G06V 10/7715"
+    ],
+    "source": "converted"
+  }
+}

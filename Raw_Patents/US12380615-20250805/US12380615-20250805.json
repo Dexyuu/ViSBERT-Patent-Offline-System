@@ -1,0 +1,18 @@
+{
+  "title": "Scene graph translation",
+  "abstract": "Media data of a first scene graph is received. The first scene graph is created based on a first scene graph format. The first scene graph format includes a plurality of description components indicating attributes of the first scene graph. A plurality of metadata identifiers associated with the first scene graph format and a plurality of metadata identifiers associated with a second scene graph format are determined based on a lookup table. The lookup table identifies metadata identifiers associated with the first and second scene graph formats. A plurality of description components of the second scene graph format that indicates the attributes of the first scene graph is determined based on (i) the plurality of description components of the first scene graph format, (ii) the plurality of metadata identifiers associated with the first scene graph format, and (iii) the plurality of metadata identifiers associated with the second scene graph format.",
+  "claims": "1. A method of media processing in an electronic device, comprising: receiving media data that includes a plurality of scene graphs, the plurality of scene graphs including a first scene graph that is created based on a first scene graph format of a plurality of scene graph formats that comprise attributes of the plurality of scene graphs, the first scene graph format including a plurality of description components that indicates attributes of the first scene graph; determining (i) a plurality of metadata identifiers associated with the first scene graph format, and (ii) a plurality of metadata identifiers associated with a second scene graph format of the plurality of scene graph formats based on an independent mapping space (IMS) lookup table, the IMS lookup table identifying metadata identifiers associated with each of the plurality of scene graph formats; determining a plurality of description components of the second scene graph format that indicates the attributes of the first scene graph based on (i) the plurality of description components of the first scene graph format, (ii) the plurality of metadata identifiers associated with the first scene graph format, and (iii) the plurality of metadata identifiers associated with the second scene graph format; and rendering the first scene graph based on the plurality of description components of the second scene graph format.",
+  "patent_id": "US12380615-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 11/206",
+      "G06T 2210/32"
+    ],
+    "all": [
+      "G06T 11/206",
+      "G06T 2210/32"
+    ],
+    "source": "converted"
+  }
+}

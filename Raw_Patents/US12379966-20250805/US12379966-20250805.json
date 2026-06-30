@@ -1,0 +1,20 @@
+{
+  "title": "Graph execution engine",
+  "abstract": "A method includes obtaining a graph that includes a plurality of nodes each representing a computational job and connected to one or more other nodes via edges. Each edge represents a dependency between two connected nodes. For each computing device of a distributed computing system, the method includes obtaining resource characteristics. The method includes slicing, based on the dependencies of connected nodes, the graph into a plurality of sub-graphs each including one or more nodes. For each respective sub-graph, the method includes determining a computational cost of the respective sub-graph and distributing, based on the computational cost and the resource characteristics, the respective sub-graph to the respective one of the computing devices. The method includes receiving a respective result from the respective one of the computing devices based on execution of the computational jobs. The method includes determining a total result based on each respective result.",
+  "claims": "1. A computer-implemented method when executed by data processing hardware causes the data processing hardware to perform operations comprising: for each of multiple computing devices of a distributed computing system, obtaining resource characteristics; obtaining a graph comprising a plurality of nodes, each node representing a computational job and connected to one or more other nodes via edges, each edge representing a dependency between two connected nodes, wherein a size of the graph is too large to fit within memory of any single computing device of the multiple computing devices; slicing, based on the dependencies of connected nodes, the graph into a plurality of sub-graphs, each sub-graph comprising one or more nodes of the plurality of nodes, each sub-graph of the plurality of sub-graphs comprising a size that is less than a threshold size limit; for each respective sub-graph of the plurality of sub-graphs: determining a computational cost of the respective sub-graph; distributing, based on the computational cost of the respective sub-graph and the resource characteristics obtained for each of the multiple computing devices of the distributed computing system, the respective sub-graph to a respective one of the computing devices; and receiving a respective result from the respective one of the computing devices, the respective result based on execution of the computational jobs of the one or more nodes of the sub-graph by the respective one of the computing devices; and determining a total result based on each respective result.",
+  "patent_id": "US12379966-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/5044",
+      "G06Q 40/06",
+      "G06F 2209/501"
+    ],
+    "all": [
+      "G06F 9/5044",
+      "G06Q 40/06",
+      "G06F 2209/501"
+    ],
+    "source": "converted"
+  }
+}

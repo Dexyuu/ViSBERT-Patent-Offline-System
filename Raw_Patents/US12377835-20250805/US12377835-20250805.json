@@ -1,0 +1,34 @@
+{
+  "title": "System and method in vehicle path prediction based on odometry and inertial measurement unit",
+  "abstract": "An apparatus includes an inertial measurement unit (IMU) configured to detect motion characteristics of a vehicle. The apparatus also includes an odometry system configured to detect a wheel speed of each wheel of the vehicle. The apparatus further includes at least one processor communicatively connected to the IMU and the odometry system, the at least one processor configured to determine first parameters for predicting a path of the vehicle, determine second parameters for predicting the path of the vehicle, and predict the path of the vehicle using a combination of the first parameters and the second parameters, wherein the combination is weighted based on a longitudinal acceleration of the vehicle obtained using the IMU.",
+  "claims": "1. An apparatus, comprising: an inertial measurement unit (IMU) configured to detect motion characteristics of a vehicle in motion; an odometry system configured to detect a wheel speed of each wheel of the vehicle in motion; at least one camera configured to capture an image of a traffic lane in front of the vehicle; a radar transceiver configured to detect one or more target vehicles proximate to the vehicle; and at least one processor communicatively connected to the IMU, the odometry system, the at least one camera, and the radar transceiver, the at least one processor configured to: determine first parameters for predicting a path of the vehicle in motion, determine second parameters for predicting the path of the vehicle in motion, wherein the first parameters comprise a front axle curvature and the second parameters comprise a rear axle curvature, merge the front axle curvature and the rear axle curvature to create a combination of the first parameters and the second parameters including a single representative curvature to account for wheel slippage; predict, during the motion of the vehicle, the path of the vehicle using the combination of the first parameters and the second parameters, wherein the combination is weighted according to a longitudinal acceleration of the vehicle obtained using the IMU; identify one of the one or more target vehicles as a closest in path vehicle based on the predicted path of the vehicle; and activate at least one of a braking control and a steering control based on a proximity of the identified closest in path vehicle.",
+  "patent_id": "US12377835-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 30/045",
+      "B60W 10/18",
+      "B60W 10/20",
+      "B60W 2420/403",
+      "B60W 2420/408",
+      "B60W 2520/06",
+      "B60W 2520/105",
+      "B60W 2520/14",
+      "B60W 2520/28",
+      "G01P 15/08"
+    ],
+    "all": [
+      "B60W 30/045",
+      "B60W 10/18",
+      "B60W 10/20",
+      "B60W 2420/403",
+      "B60W 2420/408",
+      "B60W 2520/06",
+      "B60W 2520/105",
+      "B60W 2520/14",
+      "B60W 2520/28",
+      "G01P 15/08"
+    ],
+    "source": "converted"
+  }
+}

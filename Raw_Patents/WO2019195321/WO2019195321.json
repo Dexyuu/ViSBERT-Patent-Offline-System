@@ -1,0 +1,38 @@
+{
+  "application_id": "WO2019195321",
+  "application_id_fs": "WO2019195321",
+  "title": "Methods and systems for order-sensitive computations in loan accounting",
+  "abstract": "The present disclosure provides methods for financial accounting, such as, for example, loan accounting. A method for loan accounting may comprise: detecting an action affecting a logical history of a loan managed by the loan accounting system; identifying a first series of events related to the logical history; calculating states of the loan based on a plurality of actions each associated with an event of the first series of events, wherein at least two of the actions have a causal relationship with one another; and updating a physical history of the loan based on the states calculated in (c), and the physical history comprises a second series of events that is different than the first series of events.",
+  "claims": "Claims CLAIMS  WHAT IS CLAIMED IS: 1. A computer-implemented method for regulating a loan managed by a loan accounting system, comprising: (a) detecting an action affecting a logical history of a loan managed by the loan accounting system; (b) identifying a first series of events related to the logical history; (c) calculating states of the loan based on a plurality of actions each associated with an event of the first series of events, wherein at least two of the actions have a causal relationship with one another; and (d) updating a physical history of the loan based on the states calculated in (c), wherein the physical history comprises a second series of events that is different than the first series of events. 2. The method of claim 1, wherein the action is stored in a data structure comprising a physical time, a logical time and information related to an associated event. 3. The method of claim 2, wherein the associated event is stored in a data structure comprising a physical time and an event type. 4. The method of claim 1, wherein (b) further comprises identifying the first series of events based on a mapping relationship between a given event of the first series of events and a given action of the plurality of actions. 5. The method of claim 1, wherein the first series of events are identified using a rewind algorithm. 6. The method of claim 1, wherein an action of the plurality of actions has a logical order relationship with another action of the plurality of actions. 7. The method of claim 1, wherein the logical history models events of the loan in a tree structure. 8. The method of claim 1, wherein the states of the loan are calculated using a replay algorithm. 9. A system comprising: a server; and a memory storing instructions configured to instruct the server to perform operations comprising: (a) detecting an action affecting a logical history of a loan managed by the loan accounting system; (b) identifying a first series of events related to the logical history; \n\n (c) calculating states of the loan based on a plurality of actions each associated with an event of the first series of events, wherein at least two of the actions have a causal relationship with one another; and updating a physical history of the loan based on the states calculated in (c), wherein the physical history comprises a second series of events that is different than the first series of events. 10. The system of claim 9, wherein the action is stored in a data structure comprising a physical time, a logical time and information related to an associated event. 11. The system of claim 10, wherein the associated event is stored in a data structure comprising a physical time and an event type. 12. The system of claim 9, wherein (b) further comprises identifying the first series of events based on a mapping relationship between a given event of the first series of events and a given action of the plurality of actions. 13. The system of claim 9, wherein the first series of events are identified using a rewind algorithm. 14. The system of claim 9, wherein an action of the plurality of actions has a logical order relationship with another action of the plurality of actions. 15. The system of claim 9, wherein the logical history models events of the loan in a tree structure. 16. The system of claim 9, wherein the states of the loan are calculated using a replay algorithm. 17. A non-transitory computer-readable storage medium including instructions that, when executed by at least one processor of a computing system, cause the computing system to perform operations comprising: (a) detecting an action affecting a logical history of a loan managed by the loan accounting system; (b) identifying a first series of events related to the logical history; (c) calculating states of the loan based on a plurality of actions each associated with an event of the first series of events, wherein at least two of the actions have a causal relationship with one another; and updating a physical history of the loan based on the states calculated in (c), wherein the physical history comprises a second series of events that is different than the first series of events. 18. The non-transitory computer-readable storage medium of claim 17, wherein the action is stored in a data structure comprising a physical time, a logical time and information related to an associated event. 19. The non-transitory computer-readable storage medium of claim 18, wherein the associated event is stored in a data structure comprising a physical time and an event type. 20. The non-transitory computer-readable storage medium of claim 17, wherein (b) further comprises identifying the first series of events based on a mapping relationship between a given event of the first series of events and a given action of the plurality of actions. 21. The non-transitory computer-readable storage medium of claim 17, wherein the first series of events are identified using a rewind algorithm. 22. The non-transitory computer-readable storage medium of claim 17, wherein an action of the plurality of actions has a logical order relationship with another action of the plurality of actions. 23. The non-transitory computer-readable storage medium of claim 17, wherein the logical history models events of the loan in a tree structure. 24. The non-transitory computer-readable storage medium of claim 17, wherein the states of the loan are calculated using a replay algorithm.",
+  "classifications": {
+    "ipc": [
+      "G06Q 40/00",
+      "G06Q 40/02",
+      "G06Q 40/03",
+      "G06F 16/00",
+      "G06F 16/20",
+      "G06F 16/23",
+      "G06F 16/2365",
+      "G06Q 40/12",
+      "H04L 67/00",
+      "H04L 67/50",
+      "H04L 67/535"
+    ],
+    "cpc": [],
+    "all": [
+      "G06Q 40/00",
+      "G06Q 40/02",
+      "G06Q 40/03",
+      "G06F 16/00",
+      "G06F 16/20",
+      "G06F 16/23",
+      "G06F 16/2365",
+      "G06Q 40/12",
+      "H04L 67/00",
+      "H04L 67/50",
+      "H04L 67/535"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019195321"
+}

@@ -1,0 +1,29 @@
+{
+  "application_id": "WO2017190033",
+  "application_id_fs": null,
+  "title": "Systems, methods, and devices for detection and diagnosis of brain trauma, mental impairment, or physical disability",
+  "abstract": "Systems, devices, and methods are disclosed which may be used to detect and determine the extent of brain trauma, mental impairment, physical disability, or other brain dysfunction by tracking one or more ocular responses.",
+  "claims": "Claims A method for determining risk of brain trauma, comprising providing a pupillometry device, the pupillometry device including: a digital camera; a light element; a user interface; a computer processor; and computer memory; orienting a patient's eye to receive ambient light, the patient's eye including a pupil; orienting the digital camera to view the patient's pupil; energizing the light element to emit a flash of light to the patient's pupil; capturing a series of images of the patient's pupil; determining the location and relative size of the patient's pupil in each image; determining, from the series of images and the relative size of the patient's pupil in each image, one or more rates of change of the size of the patient's pupil; comparing the rates of change of the size of the patient's pupil to one or more baseline rates of change; determining a risk level of brain trauma to the patient based on the deviation of the rates of change of the size of the patient's pupil from the one or more baseline rates of change; and indicating to the patient the risk level of brain trauma. The method of claim 1 , wherein the pupillometry device comprises a smartphone. The method of claim 1 , wherein the steps of energizing the light element, capturing a series of images of the patient's pupil, \n\n determining the location and size of the patient's pupil, and determining the rates of change in size of the patient's pupil, are repeated two additional times. The method of claim 1 , wherein the step of orienting the digital camera to view the patient's pupil includes orienting the digital camera such that the patient's pupil falls within a region of interest, the region of interest defining a portion of a field of view of the digital camera. The method of claim 4, wherein the step of orienting the digital camera to view the patient's pupil further includes: capturing an image; scanning the image for the patient's pupil; and notifying the patient that the patient's pupil has been detected. The method of claim 5, wherein the step of scanning the image for the patient's pupil includes: filtering pixels of the captured image based on one or more pixel values; identifying shapes defined by contours in the gradient of the remaining pixels; filtering shapes based on circularity and size threshold values; and verifying pupil detection by tracking the remaining shapes in a plurality of successive images. The method of claim 4, wherein the region of interest comprises a rectangle spanning across less than 10% of the field of view of the digital camera. The method of claim 1 , wherein the step of determining the location and size of the patient's pupil includes: filtering pixels of a captured image based on one or more pixel values; \n\n identifying shapes defined by contours in the gradient of the remaining pixels; filtering shapes based on circularity and size threshold values; and verifying pupil detection by tracking the remaining shapes in a plurality of successive images. 9. The method of claim 1 , wherein the digital camera comprises an infrared digital camera. 10. The method of claim 1 , wherein the user interface is a touch screen, and the digital camera is on the same side of the pupillometry device as the touch screen, such that a patient can orient the digital camera to view the patient's pupil while simultaneously viewing the screen. 1 1 . The method of claim 1 , wherein the pupillometry device further comprises a wireless receiver and a wireless transmitter configured to transmit data to a wireless communication hub.",
+  "classifications": {
+    "ipc": [
+      "A61B 3/00",
+      "A61B 3/02",
+      "A61B 3/10",
+      "A61B 3/11",
+      "A61B 3/113",
+      "A61B 3/12",
+      "A61B 3/14"
+    ],
+    "cpc": [],
+    "all": [
+      "A61B 3/00",
+      "A61B 3/02",
+      "A61B 3/10",
+      "A61B 3/11",
+      "A61B 3/113",
+      "A61B 3/12",
+      "A61B 3/14"
+    ],
+    "source": "csv"
+  }
+}

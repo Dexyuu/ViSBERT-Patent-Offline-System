@@ -1,0 +1,24 @@
+{
+  "title": "Load balancing among output ports",
+  "abstract": "Examples described herein relate to a network interface device that includes packet processing circuitry to detect usage of an egress port and report the usage of the egress port to a network interface device driver to cause reallocation of hash-based packet buckets to at least one egress port to provide an allocation of hash-based packet buckets to multiple active egress ports of the network interface device with retention of bucket-to-egress port mappings except for re-allocations of one or more buckets to one or more active egress ports. In some examples, usage of the egress port is based on a count of hash buckets assigned to packets to be transmitted from the egress port or a number of bytes of packets enqueued to be transmitted from the egress port.",
+  "claims": "1. An apparatus comprising: a network interface device comprising: packet processing circuitry to detect overflow of an active egress port and to cause reallocation of hash-based packet buckets from the overflowed active egress port to at least one other active egress port with retention of bucket-to-egress port mappings for the at least one other active egress port, detect non-overflow of the active egress port, and based on detected non-overflow of the active egress port, receive reallocation of hash-based packet buckets to utilize the active egress port.",
+  "patent_id": "US12381824-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 47/125",
+      "H04L 47/21",
+      "H04L 47/6225",
+      "H04L 47/762",
+      "H04L 47/781"
+    ],
+    "all": [
+      "H04L 47/125",
+      "H04L 47/21",
+      "H04L 47/6225",
+      "H04L 47/762",
+      "H04L 47/781"
+    ],
+    "source": "converted"
+  }
+}

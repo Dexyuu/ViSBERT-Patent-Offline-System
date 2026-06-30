@@ -1,0 +1,22 @@
+{
+  "title": "Object tracking apparatus, object tracking system, object tracking method, display control device, object detection device, and computer-readable medium",
+  "abstract": "An object tracking apparatus, method and computer-readable medium for detecting an object from output information of sensors, tracking the object on a basis of a plurality of detection results, generating tracking information of the object represented in a common coordinate system, outputting the tracking information, and detecting the object on a basis of the tracking information.",
+  "claims": "1. An object tracking system comprising: at least one memory storing instructions; and at least one processor configured to execute the instructions to perform: generating, via a first detector implemented by the at least one processor, a first detection result of an object from a first image; generating, via a second detector implemented by the at least one processor, a second detection result of the object from a second image, the second image being different from the first image; generating tracking information for the object, the tracking information including appearance information which represents appearance of the object from cameras capturing the first image and the second image; and controlling the first detector and the second detector based on the tracking information, wherein controlling the first detector and the second detector comprises controlling the first detector to set a first searching area for searching the object in the first image and controlling the second detector to set a second searching area for searching the object in the second image, and wherein the at least one processor is further configured to execute the instructions to perform: displaying the first searching area set by the first detector on the first image and displaying the second searching area set by the second detector on the second image.",
+  "patent_id": "US12380699-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 20/52",
+      "G06T 7/292",
+      "G06T 2207/30196",
+      "G06T 2207/30241"
+    ],
+    "all": [
+      "G06V 20/52",
+      "G06T 7/292",
+      "G06T 2207/30196",
+      "G06T 2207/30241"
+    ],
+    "source": "converted"
+  }
+}

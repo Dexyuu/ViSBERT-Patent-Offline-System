@@ -1,0 +1,40 @@
+{
+  "application_id": "WO2018033524",
+  "application_id_fs": "WO2018033524",
+  "title": "Fluid production network leak detection",
+  "abstract": "A method includes receiving measurement information from a hydrocarbon fluid production network where the measurement information includes pressure data and fluid flow data; receiving simulated information from a model-based framework for the hydrocarbon fluid production network that includes boundary conditions based at least in part on at least a portion of the measurement information; comparing the measurement information and the simulated information to detect a fluid leak in the hydrocarbon fluid production network; determining a location of the fluid leak in the hydrocarbon fluid production network; and outputting the location of the fluid leak in the hydrocarbon fluid production network.",
+  "claims": "Claims Claims 1 -15 with reference numerals in independent claims 1. A method (700) comprising: receiving measurement information from a hydrocarbon fluid production network wherein the measurement information comprises pressure data and fluid flow data (752); receiving simulated information from a model-based framework for the hydrocarbon fluid production network that comprises boundary conditions based at least in part on at least a portion of the measurement information (754); comparing the measurement information and the simulated information to detect a fluid leak in the hydrocarbon fluid production network (756); determining a location of the fluid leak in the hydrocarbon fluid production network (758); and outputting the location of the fluid leak in the hydrocarbon fluid production network (760). 2. The method of claim 1 comprising analyzing at least a portion of the measurement information to determine whether the hydrocarbon fluid production network is operating in a steady-state. 3. The method of claim 2 comprising, if the hydrocarbon fluid production network is not operating in a steady-state, receiving additional measurement information and based at least in part on the additional measurement information, determining a refined location of the fluid leak in the hydrocarbon fluid production network and outputting the refined location of the fluid leak in the hydrocarbon fluid production network. 4. The method of claim 1 comprising receiving additional measurement information and based at least in part on the additional measurement information, determining a refined location of the fluid leak in the hydrocarbon fluid production network and outputting the refined location of the fluid leak in the hydrocarbon fluid production network. 5. The method of claim 1 wherein the boundary conditions comprise a fluid flow boundary condition at an upstream location that is based on at least a portion of the fluid flow data and a pressure boundary condition at a downstream location that is based on at least a portion of the pressure data wherein the location of the fluid leak is intermediate the upstream location and the downstream location. 6. The method of claim 1 wherein the boundary conditions comprise a pressure boundary condition at an upstream location that is based on at least a portion of the pressure data and a fluid flow boundary condition at a downstream location that is based on at least a portion of the fluid flow data wherein the location of the fluid leak is intermediate the upstream location and the downstream location. 7. The method of claim 1 wherein the simulation information comprises at least one of pressure-flow model-based simulation information and flow-pressure model-based simulation information. 8. The method of claim 1 wherein the determining a location of the fluid leak comprises detecting a change in slope of a pressure profile of pressure with respect to a distance metric of the hydrocarbon fluid production network. 9. The method of claim 1 wherein the determining a location of the fluid leak comprises detecting a difference in slope between at least a portion of a measurement information-based pressure profile and at least a portion of a simulated information- based pressure profile with respect to a distance metric of the hydrocarbon fluid production network. 10. The method of claim 1 comprising receiving equipment information wherein the equipment information comprises operational data for at least one piece of equipment of the hydrocarbon fluid production network. 1 1 . The method of claim 1 wherein the measurement information comprises temperature data. 12. A system (450) comprising: a processor (456); memory (458) accessible by the processor (456); and processor-executable instructions stored in the memory (458) wherein the instructions comprise instructions to instruct the system (450) to: receive measurement information from a hydrocarbon fluid production network wherein the measurement information comprises pressure data and fluid flow data (753); receive simulated information from a model-based framework for the hydrocarbon fluid production network that comprises boundary conditions based at least in part on at least a portion of the measurement information (755); compare the measurement information and the simulated information to detect a fluid leak in the hydrocarbon fluid production network (757); determine a location of the fluid leak in the hydrocarbon fluid production network (759); and output the location of the fluid leak in the hydrocarbon fluid production network (761 ). 13. The system of claim 12 comprising processor-executable instructions stored in the memory to instruct the system to perform a method of any of claims 1 to 1 1. 14. One or more computer-readable storage media comprising computer-executable instructions executable by a computer, the instructions comprising instructions to: receive measurement information from a hydrocarbon fluid production network wherein the measurement information comprises pressure data and fluid flow data (753); \n\n receive simulated information from a model-based framework for the hydrocarbon fluid production network that comprises boundary conditions based at least in part on at least a portion of the measurement information (755); compare the measurement information and the simulated information to detect a fluid leak in the hydrocarbon fluid production network (757); determine a location of the fluid leak in the hydrocarbon fluid production network (759); and output the location of the fluid leak in the hydrocarbon fluid production network (761 ). 15. The one or more computer-readable storage media of claim 14 comprising computer-executable to perform a method of any of claims 1 to 1 1.",
+  "classifications": {
+    "ipc": [
+      "E21B 43/00",
+      "E21B 43/02",
+      "E21B 43/10",
+      "E21B 47/00",
+      "E21B 47/10",
+      "E21B 41/00",
+      "E21B 40/00",
+      "E21B 47/06",
+      "E21B 47/07",
+      "G01M 3/00",
+      "G01M 3/02",
+      "G01M 3/26"
+    ],
+    "cpc": [],
+    "all": [
+      "E21B 43/00",
+      "E21B 43/02",
+      "E21B 43/10",
+      "E21B 47/00",
+      "E21B 47/10",
+      "E21B 41/00",
+      "E21B 40/00",
+      "E21B 47/06",
+      "E21B 47/07",
+      "G01M 3/00",
+      "G01M 3/02",
+      "G01M 3/26"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018033524"
+}

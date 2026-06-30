@@ -1,0 +1,18 @@
+{
+  "title": "Information processing apparatus, operating method of information processing apparatus, and non-transitory computer readable medium",
+  "abstract": "A terminal apparatus includes a display and a controller. The controller is configured to form a virtual sound source outputting sound emitted by an object, at an intersection between a screen of the display and a straight line connecting a position, in real space, of a mouth of the object disposed in virtual space viewed from a virtual camera and a position of a head of a user facing the display.",
+  "claims": "1. A terminal apparatus comprising: a display; and a controller configured to form a virtual sound source outputting sound emitted by an object, at an intersection between a screen of the display and a straight line connecting a position, in real space, of a mouth of the object disposed in virtual space viewed from a virtual camera and a position, in the real space, of a head of a user of the terminal apparatus facing the display, wherein the controller is further configured to: identify a position of the mouth of the object in a three-dimensional coordinate system in the real space from a position of the mouth of the object in the virtual space, by converting a coordinate system in the virtual space into the three-dimensional coordinate system in the real space; identify a position of the head of the user in the three-dimensional coordinate system in the real space, based on a captured image of the user; identify a position of the intersection in the three-dimensional coordinate system in the real space, based on the identified position of the mouth of the object in the three-dimensional coordinate system in the real space, the identified position of the head of the user in the three-dimensional coordinate system in the real space, and a position of each pixel of the screen of the display in the three-dimensional coordinate system in the real space; and form the virtual sound source at the identified position of the intersection in the three-dimensional coordinate system in the real space.",
+  "patent_id": "US12382239-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04S 7/303",
+      "H04S 2400/11"
+    ],
+    "all": [
+      "H04S 7/303",
+      "H04S 2400/11"
+    ],
+    "source": "converted"
+  }
+}

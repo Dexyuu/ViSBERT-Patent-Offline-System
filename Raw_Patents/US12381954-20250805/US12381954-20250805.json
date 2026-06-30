@@ -1,0 +1,18 @@
+{
+  "title": "Smart control module for coin-operated device",
+  "abstract": "A smart control module for a coin-operated device includes a control board disposed with a processing unit, a back-end port, and a communication unit that are electrically connected to the processing unit. A front-end port is disposed on the control board and is adapted to receive a coin insertion signal outputted by a coin acceptor. The back-end port outputs the coin insertion signal in a bypassing way. When the communication unit receives a control signal from a service platform, the processing unit outputs a simulated coin insertion signal through the back-end port. Upon using the present invention, the front-end port and the back-end port are connected between the coin acceptor and a controller of the coin-operated device. The service platform could remotely control the back-end port to output the simulated coin insertion signal to the controller after receiving a malfunction reported by a user.",
+  "claims": "1. A smart control module for a coin-operated device, comprising: a control board; at least one front-end port disposed on the control board, and adapted to receive a coin insertion signal outputted by at least one coin acceptor; at least one back-end port disposed on the control board, electrically connected to the at least one front-end port, and adapted to output the coin insertion signal received by the at least one front-end port in a bypassing way; a communication unit disposed on the control board and being connected to a service platform located in an internet cloud; and a processing unit disposed on the control board and electrically connected to the communication unit and the at least one back-end port, wherein when the communication unit receives a control signal from the service platform, the processing unit outputs a simulated coin insertion signal corresponding to the control signal through the at least one back-end port; the simulated coin insertion signal simulates the coin insertion signal received by the at least one front-end port; wherein a smart phone is connected to the service platform through an internet to report a malfunction by running a platform application to scan a matrix two-dimensional barcode; the service platform outputs the control signal corresponding to the malfunction reported to the communication unit, and the processing unit outputs the simulated coin insertion signal, which corresponds to the malfunction reported, through the at least one back-end port.",
+  "patent_id": "US12381954-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 67/125",
+      "G06Q 30/015"
+    ],
+    "all": [
+      "H04L 67/125",
+      "G06Q 30/015"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2019097062",
+  "application_id_fs": "WO2019097062",
+  "title": "Method and device for inverse tone mapping",
+  "abstract": "A method for processing a current view extracted from a current immersive image following at least one previous view, comprising tone mapping the current view into a processed current view at a level which is a non-decreasing function of a luminance difference between said current view and said at least one previous view and weighted by a distance between said current view and said at least one previous view. Thank to this processing of consecutive views, blinding and eye strain of viewer's eyes are avoided.",
+  "claims": "Claims 1 ) A method for processing a current view ( v t ) extracted according to a current field of view from a current immersive image ( I t ) following at least one previous view (v^) extracted from the same current immersive image ( / t ) or from a previous immersive image ( I t -i), wherein said current view is extracted within an immersive image ( / t ) or ( / t-! ) larger than the current view, the method comprising: - tone mapping the current view ( v t ) into a processed current view ( v' t ) using a compression of luminance according to a non-decreasing function of a luminance difference ( 8L t ) between said current view ( v t ) and said at least one previous processed view weighted by a distance between said current view and said at least one previous processed view O t _i). 2) The method according to claim 1 wherein said compression of luminance is further weighted according to a coefficient ( C mcm ) representative of a maximal compression value during movements. 3) The method for processing according to claim 1 or 2, wherein: If said luminance difference ( 8L t ) is positive, said tone mapping is performed such that said processed current view ( v' t ) has a luminance evaluation inferior to the luminance evaluation of said current view ( v t ) ; If said luminance difference ( 8L t ) is not positive, no tone mapping is performed. 4) The method for processing according to any of claims 1 to 3, wherein each of said luminance evaluations is computed for its view as an average of luminance values of colors of pixels of this view. 5) The method for processing according to claim 4, wherein said luminance values used for computing said average does not include a given percentile of pixels of said view having the highest luminance values. 6) The method for processing according to any one of claims 1 to 5: wherein said tone mapping is performed by applying to luminance values (Y t ) of pixels of this current view v t a tone mapping function f(Y t , c t ) parametrized with a tone mapping parameter (c t ), which is a non-decreasing function of said luminance value (Y t ) and of said tone mapping parameter (c t ); wherein said tone mapping parameter ( c t ) is a non-decreasing function of said luminance difference ( 5L t ). \n\n 7) The method for processing according to claim 6 when depending on claims 4 or 5, further comprising computing (S5) said luminance difference ( 5L t ) from a difference between said luminance evaluation (L t ) of the current view v t and said luminance evaluation(s) (Z/ t _i) of a processed version(s) O i) of the at least one previous view wherein each processed version (V t -i) of a previous view (v^) is obtained by applying said tone mapping function f(X t - iâC t -i) to luminance values (Â¾_ ! ) of pixels of this previous view O t _i). 8) The method for processing according to claim 6 or 7, wherein the tone mapping parameter (c t ) is defined as a weighted sum of a non-decreasing function of the luminance difference ( 5L t ) and of a luminance stabilization coefficient (w stab ) representative of the stabilization of luminance evaluations over a plurality of consecutive previous views. 9) The method for processing according to any one of claims 6 to 8, wherein the tone mapping function f(Y t , c t ) is defined such that T = T t Ct . 10) An image processing unit comprising at least one processor configured to process a current view ( v t ) extracted according to a current field of view from a current immersive image ( I t ) following at least one previous view (v^) extracted from the same current immersive image ( / t ) or from a previous immersive image ( I t -i), wherein said current view is extracted within an immersive image ( I t ) or ( / (-! ) larger than the current view, wherein the current view ( v t ) is tone mapped (S7) into a processed current view ( v' t ) using a compression or expansion of luminance according to a non-decreasing function of a luminance difference ( 8L t ) between said current view ( v t ) and said at least one previous processed view weighted by a distance between said current view and said at least one previous processed view 1 1 ) The image processing unit of claim 10, wherein said compression of luminance is further weighted according to a coefficient ( C mcm ) representative of a maximal compression value during movements. 12) The image processing unit of claim 10 or 1 1 , wherein: If said luminance difference ( 8L t ) is positive, said tone mapping is performed such that said processed current view ( v' t ) has a luminance evaluation inferior to the luminance evaluation of said current view ( v t ) ; If said luminance difference ( 8L t ) is not positive, no tone mapping is performed. \n\n 13) The image processing unit according to any of claims 10 to 12, wherein each of said luminance evaluations is computed for its view as an average of luminance values of colors of pixels of this view. 14) A Head-mounted device comprising the image processing unit according to any of claims 10 to 13, a virtual image provider configured to deliver a sequence of immersive images to said image processing unit, and a display subsystem configured to display processed current view 0' t ) as processed by said image processing unit. 15) A non-transitory storage medium carrying instructions of program code for executing the image processing method of any one of claims 1 to 9, when said program is executed on a computing device.",
+  "classifications": {
+    "ipc": [
+      "G06T 5/00",
+      "G06T 5/90",
+      "G06T 5/92",
+      "G02B 27/00",
+      "G02B 1/00",
+      "G02B 26/00",
+      "G02B 30/00",
+      "G02B 27/01",
+      "G02B 27/017",
+      "G06F 3/00",
+      "G06F 3/01",
+      "G06F 3/011",
+      "G06F 3/012"
+    ],
+    "cpc": [],
+    "all": [
+      "G06T 5/00",
+      "G06T 5/90",
+      "G06T 5/92",
+      "G02B 27/00",
+      "G02B 1/00",
+      "G02B 26/00",
+      "G02B 30/00",
+      "G02B 27/01",
+      "G02B 27/017",
+      "G06F 3/00",
+      "G06F 3/01",
+      "G06F 3/011",
+      "G06F 3/012"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019097062"
+}

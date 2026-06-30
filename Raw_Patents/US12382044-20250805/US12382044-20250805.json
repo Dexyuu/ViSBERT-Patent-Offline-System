@@ -1,0 +1,28 @@
+{
+  "title": "Video decoding method and apparatus for obtaining quantization parameter, and video encoding method and apparatus for transmitting quantization parameter",
+  "abstract": "Provided is a video decoding method including: obtaining, from a picture parameter set, a quantization parameter (QP) initial value to be applied to a current picture, and picture header QP difference value information; when the picture header QP difference value information indicates that QP difference value information is present in a picture header of the current picture, obtaining a first QP difference value for the current picture from the picture header; determining a QP for a coding unit included in the current picture, by using the QP initial value and the first QP difference value; obtaining transform coefficients of the coding unit by performing inverse quantization on the coding unit by using the QP; and reconstructing the coding unit by using the transform coefficients.",
+  "claims": "1. A video decoding method comprising: obtaining, from a picture parameter set, a quantization parameter (QP) initial value to be applied to a current picture; obtaining, from the picture parameter set, a QP difference value flag indicating whether a QP difference value is present in a picture header of the current picture; when the QP difference value flag indicates that the QP difference value is present in the picture header of the current picture, obtaining a first QP difference value for the current picture from the picture-header, determining a first QP for at least one slice included in the current picture using the QP initial value and the first QP difference value obtained for the current picture, and performing inverse-quantization on transformation coefficients included in a first slice among the at least one slice using the first QP for the at least one slice; and when the QP difference value flag indicates that the QP difference value is not present in the picture header, obtaining a second QP difference value for a current slice included in the current picture from a slice header of the current-slice, determining a second QP for the current slice included in the current picture using the QP initial value and the second QP difference value obtained for the current slice, and performing inverse-quantization on transformation coefficients included in the current slice using the second QP for the current slice, wherein, when the first QP difference value is obtained from the picture header for the current picture according to the QP difference value flag, the second QP difference value for the current slice included in the current picture is not obtained from the slice header for the current slice and the second QP for the current slice included in the current picture is determined without the second QP difference value for the current slice.",
+  "patent_id": "US12382044-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/124",
+      "H04N 19/172",
+      "H04N 19/174",
+      "H04N 19/18",
+      "H04N 19/186",
+      "H04N 19/60",
+      "H04N 19/70"
+    ],
+    "all": [
+      "H04N 19/124",
+      "H04N 19/172",
+      "H04N 19/174",
+      "H04N 19/18",
+      "H04N 19/186",
+      "H04N 19/60",
+      "H04N 19/70"
+    ],
+    "source": "converted"
+  }
+}

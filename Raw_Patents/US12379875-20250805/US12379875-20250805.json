@@ -1,0 +1,22 @@
+{
+  "title": "Writing data to a shared write buffer",
+  "abstract": "A method for writing data to a shared write buffer, the method includes (i) receiving, by a processing circuit of a compute node of a storage system, a write request for writing to the shared write buffer an information unit associated with an accessing entity located outside the storage system; wherein the shared write buffer is stored in a non-volatile memory of a storage node of the storage system; the storage node is in communication with the compute node; (ii) determining, by the processing circuit whether to (a) store the information unit in a non-shared segment of the shared write buffer, or (b) store the information unit in a shared segment of the shared write buffer while applying a locking mechanism; wherein the determining is based on parameters, the parameters include a writing parameter of the accessing entity, a writing latency parameter associated with the accessing entity, and a locking timing parameter; and (iii) storing the information unit according to the determination.",
+  "claims": "1. A method for writing data to a shared write buffer, the method comprises: receiving, by a processing circuit of a compute node of a storage system, a write request for writing to the shared write buffer an information unit associated with an accessing entity located outside the storage system; wherein the shared write buffer is stored in a non-volatile memory of a storage node of the storage system; the storage node is in communication with the compute node; determining, by the processing circuit whether to (a) store the information unit in a non-shared segment of the shared write buffer, or (b) store the information unit in a shared segment of the shared write buffer while applying a locking mechanism; wherein the shared segment is used by multiple compute nodes of the storage system for storing information units, wherein the applying of the locking mechanism includes locking the shared segment before writing information units to the shared segment, wherein the determining is based on parameters, the parameters comprise a writing parameter of the accessing entity, a writing latency parameter associated with the accessing entity, and a locking timing parameter; wherein the writing parameter comprises an average number of pending write requests received from the accessing entity, and wherein the locking timing parameter is indicative of a contention time involved in locking the shared segment, wherein the determining is based on a ratio between (i) the contention time, and (ii) a product of the writing latency parameter multiplied by the average number of pending write requests of the accessing entity; and storing the information unit, by the processing circuit, in the non-shared segment of the shared write buffer when determining according to (a); and storing the information unit, by the processing circuit, in the shared segment of the shared write buffer when determining according to (b), wherein the storing includes locking the shared segment prior to writing the information unit in the shared segment.",
+  "patent_id": "US12379875-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0659",
+      "G06F 3/0604",
+      "G06F 3/0656",
+      "G06F 3/067"
+    ],
+    "all": [
+      "G06F 3/0659",
+      "G06F 3/0604",
+      "G06F 3/0656",
+      "G06F 3/067"
+    ],
+    "source": "converted"
+  }
+}

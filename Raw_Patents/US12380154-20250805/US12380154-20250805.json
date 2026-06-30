@@ -1,0 +1,16 @@
+{
+  "title": "Selecting balanced clusters of descriptive vectors",
+  "abstract": "A clustering machine can cluster descriptive vectors in a balanced manner. The clustering machine calculates distances between pairs of descriptive vectors and generates clusters of vectors arranged in a hierarchy. The clustering machine determines centroid vectors of the clusters, such that each cluster is represented by its corresponding centroid vector. The clustering machine calculates a sum of inter-cluster vector distances between pairs of centroid vectors, as well as a sum of intra-cluster vector distances between pairs of vectors in the clusters. The clustering machine calculates multiple scores of the hierarchy by varying a scalar and calculating a separate score for each scalar. The calculation of each score is based on the two sums previously calculated for the hierarchy. The clustering machine may select or otherwise identify a balanced subset of the hierarchy by finding an extremum in the calculated scores.",
+  "claims": "1. A computing device comprising: one or more processors; and tangible, non-transitory computer-readable storage medium comprising instructions that, when executed by the one or more processors, cause the computing device to perform operations comprising: determining one or more vector distances between one or more pairs of descriptive vectors; clustering the one or more pairs of descriptive vectors into a hierarchy of vector clusters based on the determined one or more vector distances; determining centroid vectors of one or more vector clusters in the hierarchy of vector clusters, wherein each centroid vector of the centroid vectors corresponds to a respective vector cluster; summing one or more inter-cluster vector distances between one or more pairs of the centroid vectors; summing one or more intra-cluster vector distances between the one or more pairs of descriptive vectors; determining a plurality of scores of the hierarchy of vector clusters by applying a plurality of weightings to the summed one or more inter-cluster vector distances and the summed one or more intra-cluster vector distances, wherein each score of the plurality of scores corresponds to a respective weighting of the plurality of weightings; selecting a subset of vector clusters in the hierarchy of vector clusters; and transmitting instructions that cause presentation of a notification associated with the selected subset of vector clusters to a user.",
+  "patent_id": "US12380154-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/41"
+    ],
+    "all": [
+      "G06F 16/41"
+    ],
+    "source": "converted"
+  }
+}

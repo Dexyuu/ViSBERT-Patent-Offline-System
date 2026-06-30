@@ -1,0 +1,28 @@
+{
+  "application_id": "WO2025068364",
+  "application_id_fs": "WO2025068364",
+  "title": "System for intrinsic safety of wireless devices",
+  "abstract": "Disclosed is a system (200) for intrinsic safety in wireless devices. The system includes a wireless communication module (110) powered by direct-current (DC) power (116). Connected to this module is a radio-frequency (RF) output circuit (120), which includes a series of filters (122, 124, 126) and an antenna (128). The system further includes a limiting unit (210), associated with the RF output circuit. The limiting unit includes a resistor (310) for limiting the DC power, and a capacitor (320) for establishing a low impedance path for high-frequency signals to the ground, thereby ensuring overall safety and efficiency of operations of the wireless devices.",
+  "claims": "Claims Claims 1. A system (200) for intrinsic safety of wireless devices, the system (200) comprising: a wireless communication module (110) powered by direct-current (DC) power (116); a radio-frequency (RF) output circuit (120) connected to the wireless communication module (110), the RF output circuit (120) including a series of filters (122, 124, 126) and an antenna (128); and a limiting unit (210) associated with the RF output circuit (120), the limiting unit (210) comprising a resistor (310) for limiting the DC power (116) and a capacitor (320) for establishing a low impedance path for high-frequency signals to the ground. 2. The system (200) as claimed in claim 1 further comprising a first ground plane (410) associated with the wireless communication module (110) and a second ground plane (420) associated with the RF output circuit (120), wherein the first ground plane (410) and the second ground plane (420) are implemented as a first Printed Circuit Board (PCB) layer (412) and a second PCB layer (422), respectively, separated from each other. 3. The system (200) as claimed in claim 2, wherein the limiting unit (210) is connected between the first ground plane (410) and the second ground plane (420). 4. The system (200) as claimed in claim 3, wherein the capacitor (320) of the limiting unit (210) is constituted by the first PCB layer (412) and the second PCB layer (422), and an isolation material (430) interposed between the first PCB layer (412) and the second PCB layer (422). 5. The system (200) as claimed in claim 3 or 4, wherein the resistor (310) of the limiting unit (210) is implemented as a surface-mounted resistance connected to the first PCB layer (412) and the second PCB layer (422) through one or more vias (432). 6. The system (200) as claimed in any of the claims 3 to 5, wherein the resistor (310) of the limiting unit (210) is split into multiple resistor (310)s distributed along the first PCB layer (412) and the second PCB layer (422). 7. The system (200) as claimed in claim 4, wherein a creepage distance (âdâ) between the first PCB layer (412) and the second PCB layer (422) is based on defined standard(s) for the intrinsic safety of the wireless devices. 8. The system (200) according to any of the preceding claims, wherein the wireless communication module (110) comprises a system (200) on chip (SoC) (112) having a radio with a sender and a receiver, and connected to a decoupling capacitor (320) (114). 9. The system (200) according to any of the preceding claims, wherein the RF output circuit (120) comprises a first PI filter (122) for impedance transformation, a rejection filter (124) for preventing spurious emissions, and a second PI filter (126) for further impedance matching to the antenna (128). 10. The system (200) according to any of the preceding claims, wherein the wireless communication module (110), with the RF output circuit (120) having the limiting unit (210) associated therewith, is adapted for use in explosive settings.",
+  "classifications": {
+    "ipc": [
+      "H04B 1/00",
+      "H04B 3/00",
+      "H04B 13/00",
+      "H04B 1/02",
+      "H04B 1/04",
+      "H04B 1/0458"
+    ],
+    "cpc": [],
+    "all": [
+      "H04B 1/00",
+      "H04B 3/00",
+      "H04B 13/00",
+      "H04B 1/02",
+      "H04B 1/04",
+      "H04B 1/0458"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025068364"
+}

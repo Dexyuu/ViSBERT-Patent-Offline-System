@@ -1,0 +1,20 @@
+{
+  "title": "Method and device for identifying face of one person among many and tracking same as the target",
+  "abstract": "A method for tracking a moving human target and a device, the target tracking device comprises radar unit and camera unit. The method first obtains first positional information of a target through the radar unit, then obtains a display area image comprising the target through the camera unit based on the first positional information. Upon determining the target as human, the method determines whether an initial position of face of the target is centered within the display area image. If not centered, compensation is continuously applied to the radar unit from calculations on information as to orientations and distances from the radar unit and the camera unit, the radar unit and the camera unit being controlled to conduct face tracking of the moving target.",
+  "claims": "1. A tracking method applied in a device, the device comprising a radar unit and a camera unit, the method comprising: obtaining first positional information of a target through the radar unit; obtaining an image of a display area comprising the target by the camera unit based on the first positional information; determining whether the target is a human body based on the image of the display area; obtaining an initial position of a face of the target in the image of the display area when the target is determined to be human body; determining whether the initial position is at a center position of the image of the display area; obtaining compensation information and apply the compensation information to the radar unit based on the initial position and the center position if the initial position is determined not at the center position of the image of the display area, wherein obtaining compensation information further comprises: obtaining horizontal field of view and vertical field of view of the camera unit; obtaining a default resolution of field of view of the camera unit; obtaining a distance d 2 , the orientation θ 2 between the camera unit and the target based on the first positional information; obtaining a size of a range of the field of view based on the distance d 2 , the orientation θ 2 , the horizontal field of view, and the vertical field of view; obtaining each horizontal pixel size and each vertical pixel size in the field of view based on the size of the range of the field of view and the default resolution of the field of view; obtaining a horizontal offset and a vertical offset of the face of the target relative to the center of the image of the display area based on the horizontal pixel size; obtaining a vertical offset distance based on the vertical pixel size and the vertical offset; obtaining a horizontal offset distance based on the horizontal pixel size and the horizontal offset; using the vertical offset distance and the horizontal offset distance as the compensation information; and controlling the radar unit and the camera unit to track the target based on the compensation information.",
+  "patent_id": "US12380574-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/20",
+      "G01S 13/06",
+      "G06V 40/161"
+    ],
+    "all": [
+      "G06T 7/20",
+      "G01S 13/06",
+      "G06V 40/161"
+    ],
+    "source": "converted"
+  }
+}

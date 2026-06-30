@@ -1,0 +1,24 @@
+{
+  "title": "Monitoring equipment health",
+  "abstract": "Systems and methods for monitoring operational health of an equipment unit. An example system may include a plurality of sensors operable to facilitate operational measurements indicative of operational status of the equipment unit, a video output device, and a processing device comprising a processor and a memory storing an executable program code. The processing device may be communicatively connected with the sensors and the video output device. The processing device may be operable to receive the operational measurements and determine a plurality of operational health indicators based at least partially on the operational measurements. Each operational health indicator may be indicative of operational health of the equipment unit with respect to a different operational health category. The processing device may then output the operational health indicators for display on the video output device.",
+  "claims": "11. An apparatus comprising: a system for monitoring operational health of an equipment unit in an assembly of equipment units operatively coupled to one or more controllers, wherein the system comprises: a plurality of sensors operable to facilitate operational measurements indicative of operational status of the equipment unit; a video output device; and a processing device comprising a processor and a memory storing an executable program code, wherein the processing device is communicatively connected with the sensors and the video output device, and wherein the processing device is operable to: receive the operational measurements; receive a first operating threshold value associated with the equipment unit, wherein the first operating threshold value is selected based on historical operational measurements indicative of the operational status of the equipment unit; receive a second operating threshold associated with the equipment unit, wherein the second operating threshold is selected based on a manufacturer recommended maximum value and wherein the second operating threshold is greater than the first operating threshold; determine a plurality of independent operational health indicators based on the operational measurements or a work order status, wherein a first of the plurality of operational health indicators is indicative of a fraction of an operational capacity of the equipment unit at which the equipment unit is operating, wherein a second of the plurality of operational health indicators is indicative of states of operation alarms associated with the equipment unit, wherein the operation alarms are indicative of the operational measurements being between the first operating threshold and the second operating threshold, and wherein a third of the plurality of operational health indicators is indicative of a percent of maintenance work orders completed for the equipment unit; and determine a cumulative operational health indicator based on the plurality of independent operational health indicators; and simultaneously output the independent operational health indicators and the cumulative operational health indicator for the equipment unit for display on the video output device.",
+  "patent_id": "US12379707-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05B 19/4065",
+      "G06F 3/14",
+      "G06Q 10/20",
+      "G06Q 50/08",
+      "G05B 2219/45129"
+    ],
+    "all": [
+      "G05B 19/4065",
+      "G06F 3/14",
+      "G06Q 10/20",
+      "G06Q 50/08",
+      "G05B 2219/45129"
+    ],
+    "source": "converted"
+  }
+}

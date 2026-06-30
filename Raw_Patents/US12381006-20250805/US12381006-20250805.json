@@ -1,0 +1,34 @@
+{
+  "title": "Systems and methods to process electronic images to identify diagnostic tests",
+  "abstract": "Systems and methods are disclosed for processing digital images to identify diagnostic tests, the method comprising receiving one or more digital images associated with a pathology specimen, determining a plurality of diagnostic tests, applying a machine learning system to the one or more digital images to identify any prerequisite conditions for each of the plurality of diagnostic tests to be applicable, the machine learning system having been trained by processing a plurality of training images, identifying, using the machine learning system, applicable diagnostic tests of the plurality of diagnostic tests based on the one or more digital images and the prerequisite conditions, and outputting the applicable diagnostic tests to a digital storage device and/or display.",
+  "claims": "1. A computer-implemented method for training a machine-learning system to determine an applicability of a diagnostic test, the method comprising: receiving, by one or more processors, one or more digital images associated with a pathology specimen; receiving, by the one or more processors, a set of patient data associated with the one or more digital images; identifying, by the one or more processors, at least one tissue region of interest for analysis in the one or more digital images; determining and removing at least one non-applicable region from the one or more digital images, the at least one non-applicable region comprising at least one area not identified as a tissue region of interest; providing, by the one or more processors, the at least one tissue region of interest and the set of patient data to a machine-learning model as training data, wherein the machine-learning model is trained using the at least one tissue region of interest and the set of patient data to identify one or more applicable diagnostic tests; generating, by the one or more processors, at least one threshold for each of the one or more applicable diagnostic tests; and generating, by the one or more processors, a set of parameters for each of the one or more applicable diagnostic tests, the set of parameters including the at least one threshold.",
+  "patent_id": "US12381006-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16H 50/20",
+      "G06F 18/214",
+      "G06T 7/0012",
+      "G06V 10/25",
+      "G06V 30/19147",
+      "G16H 10/20",
+      "G16H 30/40",
+      "G06T 2207/20081",
+      "G06T 2207/30004",
+      "G06V 2201/03"
+    ],
+    "all": [
+      "G16H 50/20",
+      "G06F 18/214",
+      "G06T 7/0012",
+      "G06V 10/25",
+      "G06V 30/19147",
+      "G16H 10/20",
+      "G16H 30/40",
+      "G06T 2207/20081",
+      "G06T 2207/30004",
+      "G06V 2201/03"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Controller for controlling electric motor module equipped with incremental encoder and operation method thereof",
+  "abstract": "A controller for controlling an electric motor module equipped with incremental encoder and operation method thereof are provided. The controller includes a quadruple frequency circuit, a driver circuit, a non-volatile memory (NVM) and a multi-phase control circuit. The multi-phase control circuit can perform multi-phase control with aid of the NVM, for example: reading an offset counter value from the NVM; executing an initial angle estimation procedure, generating an initial counter value according to an estimated initial angle and the offset counter value, and starting utilizing the driver circuit to directly control the electric motor to start with the estimated initial angle and utilizing a counter to perform counting operations; calculating a counter value error and clear the current counter value to be zero; and performing compensation corresponding to a predetermined compensation times count according to the counter value error, respectively, to control the rotor to reach a target angle.",
+  "claims": "1. A controller for controlling an electric motor module equipped with an incremental encoder, the electric motor module comprising an electric motor and the incremental encoder, the controller comprising: a quadruple frequency circuit, coupled to the incremental encoder, arranged to generate a quadruple frequency signal according to a first output signal and a second output signal output by the incremental encoder, wherein the first output signal and the second output signal have the same frequency, and a phase difference between the first output signal and the second output signal is equal to a predetermined phase difference; a driver circuit, coupled to the electric motor, arranged to generate at least one driving signal to drive the electric motor; a non-volatile memory, arranged to store information; and a multi-phase control circuit, coupled to the quadruple frequency circuit, the driver circuit and the non-volatile memory, arranged to perform multi-phase control corresponding to multiple phases with aid of the non-volatile memory, wherein the multiple phases comprise an automatic calibration phase and a direct start-up phase, and the multi-phase control circuit comprises: a counter, coupled to the quadruple frequency circuit, arranged to receive the quadruple frequency signal as a clock signal and perform counting operations according to the clock signal in the automatic calibration phase and the direct start-up phase respectively, for controlling the electric motor module; wherein operations corresponding to the direct start-up phase in the multi-phase control comprise: reading an offset counter value from the non-volatile memory, wherein the offset counter value is obtained in the automatic calibration phase; executing an initial angle estimation procedure to obtain an estimated initial angle of a rotor in the electric motor, generating an initial counter value according to the estimated initial angle and the offset counter value, for being written into the counter, and starting utilizing the driver circuit to control the electric motor to directly start with the estimated initial angle and utilizing the counter to perform counting operations; in response to an index signal output by the incremental encoder being active, calculating a difference between a current counter value of the counter and the offset counter value to be a counter value error of the initial counter value, and clearing the current counter value of the counter to be zero; and performing compensation corresponding to a predetermined compensation times count according to the counter value error, respectively, to control the rotor to reach a target angle, wherein the predetermined compensation times count represents a predetermined number of times of compensation.",
+  "patent_id": "US12379704-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05B 19/21",
+      "H02P 21/18",
+      "H02P 21/34",
+      "G05B 2219/33218"
+    ],
+    "all": [
+      "G05B 19/21",
+      "H02P 21/18",
+      "H02P 21/34",
+      "G05B 2219/33218"
+    ],
+    "source": "converted"
+  }
+}

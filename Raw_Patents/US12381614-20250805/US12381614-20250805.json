@@ -1,0 +1,22 @@
+{
+  "title": "Beam management for cells in wireless communications",
+  "abstract": "Wireless communications and beam failure recovery are described. A wireless device may send one or more messages associated with a beam failure recovery for one or more cells. The one or more message may comprise an indication that a candidate beam is not available. The one or more message may comprise at least one value to indicate information associated with a candidate beam.",
+  "claims": "1. A method comprising: receiving, by a wireless device, at least one configuration parameter for a beam failure recovery (BFR) procedure of a plurality of cells, wherein the at least one configuration parameter indicates: first candidate reference signals (RSs) for a first cell of the plurality of cells; and second candidate reference signals (RSs) for a second cell of the plurality of cells; and based on detection of beam failure of the plurality of cells, transmitting a BFR medium access control (MAC) control element (CE) indicating the detection of the beam failure of the plurality of cells, wherein the BFR MAC CE comprises: a first field associated with a candidate RS identifier (ID) indication, wherein the first field is for the first cell of the plurality of cells, and wherein a first value for the first field has a value of zero that indicates no candidate RS, among the first candidate RSs, has a reference signal received power (RSRP) equal to or higher than a first RSRP threshold; and a second field associated with a candidate RS ID indication, wherein the second field is for a second cell of the plurality of cells, and wherein a second value for the second field is configured to indicate information associated with a candidate RS, among the second candidate RSs, with an RSRP above a second RSRP threshold.",
+  "patent_id": "US12381614-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/19",
+      "H04B 17/327",
+      "H04W 72/1268",
+      "H04W 72/23"
+    ],
+    "all": [
+      "H04W 76/19",
+      "H04B 17/327",
+      "H04W 72/1268",
+      "H04W 72/23"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Method and apparatus for designing cache memory structure based on artificial intelligence",
+  "abstract": "Disclosed are a method for designing a cache memory structure of an artificial intelligence accelerator and an apparatus therefor. A method for designing a structure of a cache memory of an accelerator in a cache memory structure designing apparatus is a cache memory structure designing method including a memory access information extracting step of extracting a memory address of a cache memory accessed by a processing element array (PE array) at every time stamp for an application input to the accelerator, a memory access pattern determining step of determining a memory access pattern for the application based on the memory addresses of the cache memory accessed over time, and a cache structure design step of deriving a cache memory structure using a cache structure design model trained in advance based on a memory access pattern and generating cache structure design information for the cache memory structure.",
+  "claims": "1. A cache memory structure designing method for designing a structure of a cache memory of an accelerator, in a cache memory structure designing apparatus, the method comprising: a memory access information extracting step of extracting a memory address of a cache memory accessed by a processing element array (PE array) at every time stamp for an application input to the accelerator; a memory access pattern determining step of determining a memory access pattern for the application based on the memory addresses of the cache memory accessed over time; and a cache structure design step of deriving a cache memory structure using a cache structure design model trained in advance based on a memory access pattern and generating cache structure design information for the cache memory structure.",
+  "patent_id": "US12380031-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 12/0877",
+      "G06F 12/0893"
+    ],
+    "all": [
+      "G06F 12/0877",
+      "G06F 12/0893"
+    ],
+    "source": "converted"
+  }
+}

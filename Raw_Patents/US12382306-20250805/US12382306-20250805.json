@@ -1,0 +1,38 @@
+{
+  "title": "High availability network function architecture for a hybrid cellular network",
+  "abstract": "Various arrangements of a hybrid cellular network are presented. The hybrid cellular network includes multiple base stations. Multiple subnets are created within a region of a public cloud computing platform. Each subnet can be executed at a different data center of the public cloud computing platform. Cellular network functions are instantiated within the subnets in the region of the public cloud computing platform. Multiple virtual routers that manage the routing of packets for the cellular network functions are created within the subnets.",
+  "claims": "1. A hybrid cellular network system, comprising: a plurality of base stations, wherein each base station comprises a radio unit, an antenna, and a distributed unit; a plurality of subnets within a region of a public cloud computing platform, wherein each subnet of the plurality of subnets is executed at a different data center of the public cloud computing platform; a plurality of cellular network functions, wherein each cellular network function of the plurality of cellular network functions is executed within multiple subnets of the plurality of subnets within the region of the public cloud computing platform; and a plurality of virtual routers that manage routing of packets with the plurality of cellular network function in the plurality of subnets present within the region of the public cloud computing platform, wherein each virtual router of the plurality of virtual routers: is implemented as software on the public cloud computing platform; performs prioritization on received data for routing; routes received data to another virtual router located in a different subnet of the plurality of subnets; and utilizes an underlying native routing architecture of the public cloud computing platform to route received data.",
+  "patent_id": "US12382306-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 16/24",
+      "H04L 41/0895",
+      "H04L 45/50",
+      "H04L 45/586",
+      "H04L 45/76",
+      "H04L 47/125",
+      "H04L 63/0272",
+      "H04W 4/90",
+      "H04W 28/0861",
+      "H04W 40/02",
+      "H04W 48/18",
+      "H04W 88/16"
+    ],
+    "all": [
+      "H04W 16/24",
+      "H04L 41/0895",
+      "H04L 45/50",
+      "H04L 45/586",
+      "H04L 45/76",
+      "H04L 47/125",
+      "H04L 63/0272",
+      "H04W 4/90",
+      "H04W 28/0861",
+      "H04W 40/02",
+      "H04W 48/18",
+      "H04W 88/16"
+    ],
+    "source": "converted"
+  }
+}

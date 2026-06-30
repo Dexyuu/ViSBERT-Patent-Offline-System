@@ -1,0 +1,20 @@
+{
+  "title": "Method and apparatus of reporting automatic repeat request status in a communication system",
+  "abstract": "The disclosure relates to a method and a system of reporting Automatic Repeat Request (ARQ) status in a communication system by a receiver entity. The method comprising: receiving a bit sequence of an ARQ packet; determining a plurality of threads configured to run in parallel on at least one part of the bit sequence; detecting reception status of one or more bits in the at least one part of the bit sequence by running in parallel the plurality of threads on the at least one part of the bit sequence; compiling the reception status of one or more bits from the plurality of threads; and transmitting, by the receiver entity, a status report prepared based on compilation of the reception status of one or more bits from the plurality of threads to a lower layer.",
+  "claims": "1. A method of reporting automatic repeat request (ARQ) status in a communication system by a receiver entity, the method comprising: receiving, by the receiver entity, a bit sequence of an ARQ packet; determining, by the receiver entity, a plurality of threads configured to run in parallel on at least one part of the bit sequence; detecting, by the receiver entity, reception status of one or more bits in the at least one part of the bit sequence by running in parallel the plurality of threads on the at least one part of the bit sequence; compiling, by the receiver entity, the reception status of one or more bits from the plurality of threads; and transmitting, by the receiver entity, a status report prepared based on compilation of the reception status of one or more bits from the plurality of threads to a lower layer.",
+  "patent_id": "US12381664-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 1/1864",
+      "H04L 1/1822",
+      "H04L 1/1861"
+    ],
+    "all": [
+      "H04L 1/1864",
+      "H04L 1/1822",
+      "H04L 1/1861"
+    ],
+    "source": "converted"
+  }
+}

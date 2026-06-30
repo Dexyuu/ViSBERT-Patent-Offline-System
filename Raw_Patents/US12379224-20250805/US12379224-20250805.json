@@ -1,0 +1,24 @@
+{
+  "title": "Identifying vehicle filling stations and generating related visual indications",
+  "abstract": "Methods and systems for identifying vehicle filling stations and generating related visual indications are provided. In some examples, vehicle data is received that corresponds to a plurality of vehicles. From the vehicle data, a first subset of data is extracted that corresponds to location data and one of a fuel or charge level state change of each of the plurality of vehicles. One or more locations of one or more of the plurality of vehicles are identified, based on the location data, when the fuel or charge level state change corresponds to an increase in a fuel or charge level of the one or more of the plurality of vehicles. One or more visual indications are generated that correspond to the identified one or more locations.",
+  "claims": "1. A method, the method comprising: receiving vehicle data aggregated from sensors onboard a plurality of vehicles, the sensors including a global position system and a fuel or charge level reader, and the plurality of vehicles including a first vehicle and a second vehicle; extracting, from the vehicle data, a first subset of data corresponding to location data from the global positioning system and one of a fuel or charge level state change of each of the plurality of vehicles from the fuel or charge level reader; identifying a location of the first vehicle, based on the location data, when the fuel or charge level state change corresponds to an increase in a fuel or charge level of the first vehicle; comparing the identified location of the first vehicle to a database of one or more known locations of filling stations to determine that the identified location of the first vehicle is a new filling station location because the database of one or more known locations of filling stations does not include the identified location of the first vehicle; identifying a location of the second vehicle, based on the location data, to be at a known filling station based on the database of one or more known locations of filling stations because the database of one or more known locations of filling stations includes the location of the second vehicle; determining the known filling station at the location of the second vehicle is non-operational because, based on the vehicle data and the fuel or charge level state change data, the fuel or charge level state change of the second vehicle does not increase while the second vehicle is at the known filling station; updating the database of one or more known locations of fillings stations to include the identified location of the new filling station and an indication of the known filling station being non-operational; in response to the updating the database of one or more known locations of filling stations, generating a first visual indication corresponding to the identified location of the new filling station included in the updated database and a second visual indication corresponding to the known filling station being non-operational; and causing the first visual indication and the second visual indication to be displayed on a graphical user interface, thereby providing an indication to one or more users of the new filling station location and the known filling station being non-operational.",
+  "patent_id": "US12379224-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01C 21/3811",
+      "G01C 21/3469",
+      "G01C 21/3476",
+      "G01C 21/3848",
+      "G01C 21/3874"
+    ],
+    "all": [
+      "G01C 21/3811",
+      "G01C 21/3469",
+      "G01C 21/3476",
+      "G01C 21/3848",
+      "G01C 21/3874"
+    ],
+    "source": "converted"
+  }
+}

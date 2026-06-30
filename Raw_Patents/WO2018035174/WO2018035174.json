@@ -1,0 +1,32 @@
+{
+  "application_id": "WO2018035174",
+  "application_id_fs": "WO2018035174",
+  "title": "Analog coherent receiver for optical fiber communication links",
+  "abstract": "The technology disclosed in this patent document can be implemented as analog optical receiver module for coherent optical detection where the analog r optical receiver module receives the optical input from a fiber link, performs optical to electrical conversion and analog processing for carrier frequency compensation, optical phase noise compensation and polarization rotation, and generates an analog electrical output for subsequent signal processing for coherent optical detection. The analog processing for the polarization rotation is placed downstream from the analog processing for carrier frequency compensation, and in some implementations, downstream from the analog processing for optical phase noise compensation",
+  "claims": "Claims CLAIMS What is claimed is what is described and illustrated, including: 1. A coherent optical receiver for a fiber communication link, comprising an analog signal processing block as part of the optical receiver, wherein the analog signal processing block includes: an input port to receive electrical signals with a 90-degree phase shift based on an optical signal; a chromatic dispersion equalizer analog circuit to process the electrical signals to provide chromatic dispersion compensation in the optical signal; a carrier frequency compensation analog circuit to perform a carrier frequency compensation of a carrier frequency offset in the optical signal; an optical phase noise compensation analog circuit to perform a phase noise compensation to recover carrier phase of the optical signal; and a polarization rotation analog circuit downstream from the carrier frequency compensation analog circuit and optical phase noise compensation analog circuit to cause polarization rotation compensation in received signals. 2. The coherent optical receiver as in claim 1, wherein the carrier frequency compensation analog circuit is coupled downstream from the chromatic dispersion equalizer, the optical phase noise compensation analog circuit is coupled downstream from the carrier frequency compensation analog circuit. 3. The coherent optical receiver as in claim 1, wherein the analog signal processing block further includes a phase detection circuit that is coupled between the carrier frequency compensation analog circuit and an output port of the polarization rotation analog circuit to provide phase detection information to the carrier frequency compensation analog circuit; and a voltage controlled oscillator (VCO) circuit coupled to use the phase detection information from the phase detection circuit in operating the carrier frequency compensation analog circuit. 4. The coherent optical receiver as in claim 1, wherein the analog signal processing block further includes a phase detection circuit that is coupled between the optical phase noise compensation analog circuit and an output port of the polarization rotation analog circuit to provide phase detection information to the optical phase noise compensation analog circuit; and a voltage controlled oscillator (VCO) circuit coupled to use the phase detection information from the phase detection circuit in operating the optical phase noise compensation analog circuit. 4. The coherent optical receiver as in claim 1, wherein the analog signal processing block further includes a phase detection circuit that is coupled to an output port of the polarization rotation analog circuit to provide phase detection information to the carrier frequency compensation analog circuit and the optical phase noise compensation circuit; and a voltage controlled oscillator (VCO) circuit coupled to use the phase detection information from the phase detection circuit in operating the carrier frequency compensation analog circuit and the optical phase noise compensation circuit. 5. The coherent optical receiver as in claim 1, wherein the polarization rotation analog circuit is structured to implement a least mean square algorithm for analog processing. 6. A coherent optical receiver for a fiber communication link, comprising an analog signal processing block as part of the optical receiver, wherein the analog signal processing block includes: a chromatic dispersion equalizer analog circuit to receive signals that are from or derived from signals produced by a 90-degree hybrid analog block to provide chromatic dispersion compensation to the received signals; a carrier frequency compensation analog circuit to cause carrier frequency compensation in received signals; and a polarization rotation analog circuit coupled downstream from the carrier frequency compensation analog circuit to implement an analog least mean square algorithm for polarization rotation processing and to perform optical phase noise compensation to received signals from the carrier frequency compensation analog circuit. 7. The coherent optical receiver as in claim 6, wherein the analog signal processing block further includes a phase detection circuit that is coupled between the carrier frequency compensation analog circuit and an output port of the polarization rotation analog circuit to provide phase detection information to the carrier frequency compensation analog circuit; and a voltage controlled oscillator (VCO) circuit coupled to use the phase detection information from the phase detection circuit in operating the carrier frequency compensation analog circuit.",
+  "classifications": {
+    "ipc": [
+      "H04B 10/00",
+      "H04B 10/60",
+      "H04B 10/61",
+      "H04B 10/616",
+      "H04B 10/6165",
+      "H04B 10/6161",
+      "H04B 10/6162",
+      "H04B 10/6164"
+    ],
+    "cpc": [],
+    "all": [
+      "H04B 10/00",
+      "H04B 10/60",
+      "H04B 10/61",
+      "H04B 10/616",
+      "H04B 10/6165",
+      "H04B 10/6161",
+      "H04B 10/6162",
+      "H04B 10/6164"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018035174"
+}

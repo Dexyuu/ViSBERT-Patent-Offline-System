@@ -1,0 +1,24 @@
+{
+  "title": "Phase noise reduction by controlling biasing for adjustable oscillators with cross-coupled transistors",
+  "abstract": "Certain aspects of the present disclosure provide methods and apparatus for minimizing, or at least reducing, a bias noise contribution to phase noise in an oscillator circuit. One example oscillator circuit generally includes an oscillator configured to generate an oscillating signal, an adjustable bias circuit coupled to a bias input of the oscillator and configured to provide a bias signal to the oscillator, and a control circuit having an input coupled to an output of the oscillator and having an output coupled to a control input of the adjustable bias circuit. The control circuit is configured to control the adjustable bias circuit to adjust the bias signal with a control signal, to determine an impact of the adjusted bias signal on a parameter of the oscillating signal, and to determine a setting for the control signal based on the impact on the parameter of the oscillating signal.",
+  "claims": "1. An oscillator circuit comprising: an oscillator configured to generate an oscillating signal; an adjustable bias circuit coupled to a bias input of the oscillator and configured to provide a bias signal to the oscillator; a control circuit including an input coupled to an output of the oscillator and including an output coupled to a control input of the adjustable bias circuit, the control circuit being configured to control the adjustable bias circuit to adjust the bias signal with a control signal, to determine an impact of the adjusted bias signal on a parameter of the oscillating signal, and to determine a setting for the control signal based on the impact on the parameter of the oscillating signal; and an analog phase- or frequency-locked loop (PLL/FLL), wherein: the oscillator is part of the analog PLL/FLL; the input of the control circuit is coupled to the analog PLL/FLL; the oscillator comprises a voltage-controlled oscillator (VCO); the analog PLL/FLL comprises a phase-frequency detector (PFD), a charge pump including an input coupled to an output of the PFD, and a filter including an input coupled to an output of the charge pump and including an output coupled to a control input of the VCO; an output of the VCO is coupled to an input of the PFD; and the control circuit comprises: a replica charge pump including an input coupled to the output of the PFD; a shunt capacitive element coupled to an output of the replica charge pump; a comparator including a first input coupled to the output of the replica charge pump and including a second input coupled to a reference voltage node; a switch coupled between the first input and the second input of the comparator; logic including an input coupled to an output of the comparator; and a digital-to-analog converter including an input coupled to an output of the logic and an output coupled to the bias input of the oscillator.",
+  "patent_id": "US12381564-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03L 7/0991",
+      "H03B 5/12",
+      "H03L 7/093",
+      "H03L 7/099",
+      "H03L 2207/06"
+    ],
+    "all": [
+      "H03L 7/0991",
+      "H03B 5/12",
+      "H03L 7/093",
+      "H03L 7/099",
+      "H03L 2207/06"
+    ],
+    "source": "converted"
+  }
+}

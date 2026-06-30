@@ -1,0 +1,24 @@
+{
+  "application_id": "WO2025068004",
+  "application_id_fs": "WO2025068004",
+  "title": "Detection of hemodynamic instability",
+  "abstract": "Embodiments of the present disclosure relate to a method of detecting hemodynamic instability. The method includes obtaining a plurality of clinical parameters of a subject at a time point. Then, a plurality of prediction probabilities may be determined based on the plurality of clinical parameters, where each of the plurality of prediction probabilities is determined by a corresponding submodel of a plurality of sub-models in the machine learning model. The method also includes determining a combined prediction probability for the time point based on the plurality of prediction probabilities. The determined combined prediction probability is used to detect the hemodynamic instability. In accordance with embodiments of the present disclosure, the hemodynamic instability can be timely and precisely detected to alarm clinicians, thereby greatly reducing mortality and medical costs.",
+  "claims": "Claims CLAIMS: 1. A method of training a machine learning model for detecting hemodynamic instability, comprising: obtaining a plurality of sample clinical parameters of a plurality of sample subjects at a time point, the plurality of sample clinical parameters including at least two of vital sign data, lab measurement data, waveform feature data, and image data; determining a ratio of a number of positive samples in the plurality of sample subjects to a number of negative samples in the plurality of sample subjects; generating a plurality of sub-datasets, each sub-dataset including sample clinical parameters corresponding to the positive samples and sample clinical parameters corresponding to one portion of the negative samples, wherein the negative samples are divided into a number of portions based on the ratio, and the one portion of the negative samples for the each sub-dataset is different from each other; and training a plurality of sub-models in the machine learning model for detecting the hemodynamic instability based on the plurality of sub-datasets. 2. The method according to claim 1, wherein the machine learning model is one of a plurality of machine learning models, the plurality of machine learning models form a detection model for detecting the hemodynamic instability, and the method further comprises: obtaining a further plurality of sample clinical parameters of the plurality of sample subjects at a further time point different from the time point; and training a further machine learning model of the plurality of machine learning models based on the further plurality of sample clinical parameters. 3. The method according to claim 1, wherein obtaining a plurality of sample clinical parameters of a plurality of sample subjects at a time point comprises: determining whether a sample clinical parameter of the plurality of sample clinical parameters is null; in response to determining that the sample clinical parameter of the plurality of sample clinical parameters is null, determining whether latest data for the sample clinical parameter exists in a first filter time limit; and in response to determining that the latest data for the sample clinical parameter exists in the first filter time limit, updating the sample clinical parameter based on the latest data. 4. The method according to claim 3, wherein training a plurality of sub-models in the machine learning model for detecting the hemodynamic instability based on the plurality of sub-datasets comprises: obtaining a prediction probability of a sub-model of the plurality of sub-models by inputting a sub-dataset of the plurality of sub-datasets into the sub-model; and adjusting model parameters of the sub-model based on the prediction probability and a real result of hemodynamic instability. 5. An electronic device, comprising: at least one processor; and at least one memory having a plurality of instructions stored thereon, when executed by the at least one processor, cause the device to perform the method according to any of claims 1-4. 6. A computer readable medium having computer instructions stored thereon, the computer instructions, when executed a processor, causing the processor to perform the method according to any of claims 1-4.",
+  "classifications": {
+    "ipc": [
+      "G16H 50/00",
+      "G16H 50/20",
+      "G16H 50/30",
+      "G16H 50/70"
+    ],
+    "cpc": [],
+    "all": [
+      "G16H 50/00",
+      "G16H 50/20",
+      "G16H 50/30",
+      "G16H 50/70"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025068004"
+}

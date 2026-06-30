@@ -1,0 +1,24 @@
+{
+  "title": "Light sensing uniformity compensation method, method for generating light sensing uniformity compensation table, and display device",
+  "abstract": "Provided are a light sensing uniformity compensation method, a method for generating a light sensing uniformity compensation table, and a display device. According to each light sensing acquired value, a position of a light sensing module corresponding to each light sensing acquired value, and a relationship between the reference compensation values and the positions of the light sensing modules, a light sensing compensation value corresponding to each to-be-compensated light sense acquired value is determined, to correspondingly compensate for the to-be-compensated light sense acquired value. The plurality of compensated light sensing acquired values are output.",
+  "claims": "1. A light sense uniformity compensation method for compensating for a light sensing uniformity of a display panel, wherein the display panel comprises a plurality of light sensing modules arranged in an array in the display panel, and the light sensing uniformity compensation method comprises the following steps: receiving a plurality of to-be-compensated light sensing acquired values having a number corresponding to a number of the plurality of light sensing modules, and determining a position of one of the light sensing modules in the array corresponding to each of the plurality of to-be-compensated light sensing acquired values; loading pre-stored relationships between reference compensation values and each of the positions of the light sensing modules, which respectively correspond to a plurality of binding point planes; determining two target binding point planes from the plurality of binding point planes according to each of the to-be-compensated light sensing acquired values, wherein the to-be-compensated light sensing acquired value is between the reference light intensities corresponding to the two target binding point planes; and determining, as the two temporary compensation values, two reference compensation values in the two target binding point planes corresponding to the position of the one of the light sensing modules, according to the two target binding point planes and the position of the one of the light sensing modules corresponding to each of the to-be-compensated light sensing acquired value; and determining a light sensing compensation value corresponding to each of the to-be-compensated light sensing acquired values according to the two temporary compensation values corresponding to each of the to-be-compensated light sensing acquired values, to compensate for a corresponding to-be-compensated light sensing acquired value of the to-be-compensated light sensing acquired values, and outputting a plurality of compensated light sensing acquired values, wherein the relationships between the reference compensation values and the positions of the light sensing modules, which respectively correspond to the plurality of binding point planes, are obtained by calculating a difference between an initial light sensing acquired value and a light sensing expected value both for each of the positions of the light sensing modules at each of a plurality of reference light intensities, each of the binding point planes corresponds to a corresponding one of the reference light intensities, and the two corresponding temporary compensation values are acquired in two ones of the binding point planes according to the position of the light sensing module corresponding to each of the to-be-compensated light sensing acquired values.",
+  "patent_id": "US12380823-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/20",
+      "G09G 2320/0233",
+      "G09G 2320/0626",
+      "G09G 2360/141",
+      "G09G 2360/16"
+    ],
+    "all": [
+      "G09G 3/20",
+      "G09G 2320/0233",
+      "G09G 2320/0626",
+      "G09G 2360/141",
+      "G09G 2360/16"
+    ],
+    "source": "converted"
+  }
+}

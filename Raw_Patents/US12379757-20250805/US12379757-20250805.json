@@ -1,0 +1,20 @@
+{
+  "title": "Information processing apparatus, method for controlling information processing apparatus, and storage medium",
+  "abstract": "An information processing apparatus with a DC-DC converter, comprising: a calculation unit configured to calculate an impedance of a mobile battery attached to the information processing apparatus; and a control unit configured to control continuation or stop of a boost operation of the DC-DC converter on a basis of the impedance, wherein the control unit performs control to continue the boost operation of the DC-DC converter when the impedance is less than a threshold, and performs control to continue the boost operation by limiting some of functions of the information processing apparatus when the impedance is equal to or more than the threshold and less than a second threshold.",
+  "claims": "1. An information processing apparatus with a DC-DC converter, comprising: at least one processor circuit with a memory comprising machine-readable instructions that, when executed by the at least one processor circuit, cause the at least one processor circuit to at least: calculate an impedance of a mobile battery attached to the information processing apparatus; and control continuation or stop of a boost operation of the DC-DC converter on a basis of the calculated impedance, wherein the controlling the continuation or stop of the boost operation further comprises: performing control to continue the boost operation of the DC-DC converter when the calculated impedance is less than a threshold, performing control to continue the boost operation without limiting some of functions of the information processing apparatus in a case where the information processing apparatus determines that a permission is granted, and performs to continue the boost operation by limiting some of functions of the information processing apparatus in a case where the information processing apparatus does not determine that the permission is granted, when the calculated impedance is equal to or more than the threshold and less than a second threshold, and performing control to stop the boost operation of the DC-DC converter when the calculated impedance is equal to or more than the second threshold.",
+  "patent_id": "US12379757-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 1/26",
+      "H01M 10/48",
+      "H01M 2220/20"
+    ],
+    "all": [
+      "G06F 1/26",
+      "H01M 10/48",
+      "H01M 2220/20"
+    ],
+    "source": "converted"
+  }
+}

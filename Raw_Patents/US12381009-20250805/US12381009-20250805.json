@@ -1,0 +1,22 @@
+{
+  "title": "Systems and methods for artificial intelligence based standard of care support",
+  "abstract": "An AI-based system and method for supporting differential diagnosis and standard of care in healthcare. The method involves receiving patient information from various sources, including patient-reported symptoms, physician notes, and sensor data from medical devices. The patient information is preprocessed and analyzed using deep learning models to generate a ranked list of potential diagnoses, each associated with likelihood scores and key contributing factors. The potential diagnoses are provided to physicians via an interactive interface, and physician feedback is collected to fine-tune the AI models using reinforcement learning. The method aims to enhance physician decision-making, improve diagnostic efficiency, and ensure adherence to the standard of care by leveraging AI's ability to analyze vast amounts of data more effectively than human physicians.",
+  "claims": "1. A computing system for assisting a provider with differential diagnosis and standard of care, the computing system comprising: at least one computing processor; and memory comprising instructions that, when executed by the at least one computing processor, enable the computing system to: receive patient information including at least two of patient-reported symptoms, provider notes, patient records, or sensor data from a medical device; preprocess the patient information by extracting a set of features and storing the features in a standardized format; process the preprocessed patient information using at least one deep learning model to generate a ranked list of potential diagnoses and a likelihood score for each potential diagnosis; provide the ranked list of potential diagnoses, and the likelihood scores, to the provider via an interactive user interface; receive feedback from the provider indicating an appropriateness of the potential diagnoses and any additional insights; fine-tune the at least one deep learning model based on at least one of the received patient-reported symptoms, patient records, sensor data, provider notes, and received provider feedback using a reinforcement learning approach, wherein the reinforcement learning approach comprises: defining a reward function based on at least one of the appropriateness of the potential diagnoses and the efficiency of the diagnostic process, exploring alternative diagnostic strategies by perturbing the inputs to the at least one deep learning model, and updating the model parameters to maximize the expected cumulative reward over time; and update at least one of model parameters or training data for the at least one deep learning model based on at least one of the received patient-reported symptoms, patient records, sensor data, provider notes, and received provider feedback.",
+  "patent_id": "US12381009-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16H 50/20",
+      "G16H 10/60",
+      "G16H 20/00",
+      "G16H 80/00"
+    ],
+    "all": [
+      "G16H 50/20",
+      "G16H 10/60",
+      "G16H 20/00",
+      "G16H 80/00"
+    ],
+    "source": "converted"
+  }
+}

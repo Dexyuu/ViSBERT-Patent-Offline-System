@@ -1,0 +1,22 @@
+{
+  "title": "Power savings for voice services",
+  "abstract": "Certain aspects of the present disclosure provide a method for wireless communication by a user equipment (UE). The UE starts a first timer (such as a discontinuous reception (DRX) hybrid automatic repeat request (HARQ) round-trip-time (RTT) timer), after sending an uplink (UL) data transmission to a network entity. The UE then starts a second timer (such as a DRX retransmission timer) when the first timer expires. The UE then determines whether to wake up or sleep for a duration of the second timer based on a prior block error rate (BLER).",
+  "claims": "1. An apparatus for wireless communications at a user equipment (UE), comprising: memory comprising instructions; and one or more processors configured, individually or in any combination, to execute the instructions and cause the apparatus to: receive a downlink control information (DCI); and stop an inactivity timer, in response to determining that the DCI conveys an uplink (UL) grant or a downlink (DL) grant for a voice data packet, or detecting the voice data packet in an UL queue, wherein the inactivity timer was started earlier in response to another DCI indicating a non-voice data packet.",
+  "patent_id": "US12382397-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 52/0232",
+      "H04L 1/1819",
+      "H04L 1/203",
+      "H04W 72/23"
+    ],
+    "all": [
+      "H04W 52/0232",
+      "H04L 1/1819",
+      "H04L 1/203",
+      "H04W 72/23"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Nucleic acid sequencing methods and computer-readable media for practicing same",
+  "abstract": "Provided are methods of nucleic acid sequencing. The methods include producing a circularized DNA including a full-length cDNA and a known heterologous sequence, and performing rolling circle amplification using the circularized DNA as template to produce a concatemer including repeating segments including the full-length cDNA and the known heterologous sequence. The methods further include obtaining a raw sequencing read of the concatemer using a nanopore, identifying the repeating segments in the raw sequencing read, and producing a consensus sequence of the full-length cDNA based on the sequences of the repeating segments. Computer-readable media, computing devices, and systems that find use, e.g., in practicing the methods of the present disclosure are also provided.",
+  "claims": "1. A method of nucleic acid sequencing, comprising: producing a circularized double stranded DNA comprising a full-length cDNA, wherein the circularized double stranded DNA is produced from the full-length cDNA comprising a first heterologous sequence at its first end and a second heterologous sequence at its other end opposite the its first end, and a double stranded splint oligonucleotide comprising sequences complementary to the first heterologous sequence and the second heterologous sequence; producing a concatemer comprising repeating segments having the sequence of the full-length cDNA and the sequence of the splint oligonucleotide by performing a rolling circle amplification using the circularized double stranded DNA as a template obtaining a raw sequencing read of the concatemer using a nanopore sequencing device; identifying the repeating segments in the raw sequencing read; and producing a consensus sequence of the full-length cDNA based on the sequences of the repeating segments, wherein said identifying the repeating segments in the raw sequencing read comprises subjecting the raw sequencing read to a modified Smith-Waterman self-to-self alignment, and wherein said subjecting the raw sequencing read to the modified Smith-Waterman self-to-self alignment comprises: identifying the sequence of the splint oligonucleotide in the raw sequencing read of the concatemer.",
+  "patent_id": "US12378603-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "C12Q 1/6869",
+      "C12Q 2525/307",
+      "C12Q 2531/125",
+      "C12Q 2537/165",
+      "C12Q 2563/179",
+      "C12Q 2565/631"
+    ],
+    "all": [
+      "C12Q 1/6869",
+      "C12Q 2525/307",
+      "C12Q 2531/125",
+      "C12Q 2537/165",
+      "C12Q 2563/179",
+      "C12Q 2565/631"
+    ],
+    "source": "converted"
+  }
+}

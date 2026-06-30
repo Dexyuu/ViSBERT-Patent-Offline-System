@@ -1,0 +1,26 @@
+{
+  "title": "Luminance compensation method and device, readable storage medium, and display device",
+  "abstract": "The present disclosure provides a luminance compensation method and device therefor, a readable storage medium, and a display device, in the present disclosure, the luminance values of all the subpixels are obtained, and then the luminance value of the subpixel with the most serious aging degree among all the subpixels, that is, the minimum luminance value is obtained. Then, the minimum luminance value is compared with the standard luminance value to obtain the compensated luminance value, and then the compensated luminance value is used to drive all the subpixels, so that the uniformity of the luminance of the display device is improved.",
+  "claims": "1. A luminance compensation method, wherein the luminance compensation method comprises following steps: obtaining a luminance value of each of all subpixels when operation time is t; obtaining a minimum luminance value from luminance values of all the subpixels; obtaining a standard luminance value of the subpixels when the operation time is t; comparing the minimum luminance value with the standard luminance value to obtain a compensated luminance value; and driving all the subpixels according to the compensated luminance value, wherein the step of obtaining the luminance value of the each of all the subpixels when the operation time is t comprises following steps: dividing the operation time t of a subpixel into N time periods, wherein N is greater than or equal to 1; obtaining a driving current value I of the subpixel in each of the time periods, and obtaining a total of N driving current values of the subpixel in the N time periods, which are respectively I 1 , I 2 , . . . and I N ; converting the N driving current values into current stress values to obtain N current stress values, which are respectively stress I1 , stress I2 , . . . and stress IN ; stress IN =α×stress ref , wherein stress ref is a current stress value of the subpixel at a reference current I ref , α=I N /I ref or α=(I N /I ref ) b , b is a characteristic parameter of an organic light emitting device of the subpixel; adding the N current stress values to obtain an accumulated value sum stress ; and obtaining a luminance value L of the subpixel according to the accumulated value sum stress ,",
+  "patent_id": "US12380846-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/3233",
+      "G09G 2320/0233",
+      "G09G 2320/043",
+      "G09G 2320/0626",
+      "G09G 2330/021",
+      "G09G 2360/16"
+    ],
+    "all": [
+      "G09G 3/3233",
+      "G09G 2320/0233",
+      "G09G 2320/043",
+      "G09G 2320/0626",
+      "G09G 2330/021",
+      "G09G 2360/16"
+    ],
+    "source": "converted"
+  }
+}

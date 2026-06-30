@@ -1,0 +1,26 @@
+{
+  "title": "Adaptive path following algorithm for heavy-duty vehicles",
+  "abstract": "A method for controlling a heavy-duty vehicle to follow a reference path (P), comprising determining a goal point along the reference path to be used as a steering reference from a vehicle location in vicinity of the path, where the goal point is distanced along the path by a preview distance measured from a reference location associated with the vehicle location, determining a direction w1of a first flow field associated with the reference path, determining whether a lateral deviation of the vehicle location from the reference path exceeds a threshold lateral deviation, and controlling the vehicle in accordance with the direction w1of a first flow field if the lateral deviation exceeds the threshold lateral deviation, and otherwise controlling the vehicle in accordance with the direction wpipeof a pipe flow substantially parallel to the reference path or in accordance with an optimization-based path.",
+  "claims": "1. A method for controlling a heavy-duty vehicle to follow a reference path (P), the method comprising: obtaining the reference path (P) to be followed by the vehicle, determining a goal point (G) along the reference path (P) to be used as a steering reference from a vehicle location (x) in vicinity of the path (P), where the goal point (G) is distanced along the path (P) by a preview distance (Dp) measured from a reference location (x, G 0 ) associated with the vehicle location (x), determining, on the basis of the goal point (G), a direction w 1 of a first flow field associated with the reference path (P), determining whether a lateral deviation (y) of the vehicle location (x) from the reference path (P) exceeds a threshold lateral deviation (y max ), and controlling the vehicle in accordance with the direction w 1 of a first flow field if the lateral deviation (y) exceeds the threshold lateral deviation (y max ), and otherwise controlling the vehicle in accordance with the direction w pipe of a pipe flow substantially parallel to the reference path (P) or in accordance with an optimization-based path.",
+  "patent_id": "US12377845-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 30/12",
+      "B60W 30/045",
+      "B60W 2300/125",
+      "B60W 2510/20",
+      "B60W 2520/125",
+      "B60W 2552/30"
+    ],
+    "all": [
+      "B60W 30/12",
+      "B60W 30/045",
+      "B60W 2300/125",
+      "B60W 2510/20",
+      "B60W 2520/125",
+      "B60W 2552/30"
+    ],
+    "source": "converted"
+  }
+}

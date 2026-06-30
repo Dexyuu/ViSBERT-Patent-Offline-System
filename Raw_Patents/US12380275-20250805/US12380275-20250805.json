@@ -1,0 +1,26 @@
+{
+  "title": "Detecting the tone of text",
+  "abstract": "In an embodiment, the disclosed technologies are capable of detecting a tone in text. A detected tone may be used to inform a decision made by and/or output produced by a grammatical error correction system. A set of candidate tones may be presented to a user for feedback. User feedback on the candidate tones may be used to improve subsequent tone detections.",
+  "claims": "1. A computer-implemented method comprising: using a computer system, receiving, under digital program control, electronic digital data representing a first text sequence in a first language, the first text sequence comprising unstructured natural language text, and the first text sequence being among a plurality of text sequences of a document; by the computer system, determining syntactic structure data associated with the first text sequence; by the computer system, inputting the syntactic structure data associated with the first text sequence into a machine-learned model, the machine-learned model producing an output used to compute a first tone score associated with a predicted tone of the first text sequence among the plurality of text sequences of the document, the first tone score specifying a combination of any one or more of: an identity, a polarity, or an intensity of a tone of the first text sequence; computing a second tone score by using a set of digital lexicons to associate at least one word of the first text sequence with a first tone label; computing a third tone score by using a set of digital heuristics to associate syntactic structure data with a second tone label; using the first tone score, the second tone score, and the third tone score to determine the predicted tone of the first text sequence; modifying the first text sequence to result in creating and digitally storing a second text sequence in the first language, the modifying comprising executing a grammatical error correction determined based on the predicted tone of the first text sequence among the plurality of text sequences of the document, wherein the grammatical error correction includes at least one of: deleting text from the first text sequence in response to the predicted tone; adding text to the first text sequence in response to the predicted tone; modifying text of the first text sequence in response to the predicted tone; reordering text of the first text sequence in response to the predicted tone; adding a digital markup to the first text sequence, or associating a graphical control element indicative of the predicted tone with the first text sequence; and outputting the second text sequence in the first language to a user system for visual and/or audio presentation.",
+  "patent_id": "US12380275-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 40/289",
+      "G06F 40/211",
+      "G06F 40/253",
+      "G06F 40/35",
+      "G06N 3/049",
+      "G06N 20/00"
+    ],
+    "all": [
+      "G06F 40/289",
+      "G06F 40/211",
+      "G06F 40/253",
+      "G06F 40/35",
+      "G06N 3/049",
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

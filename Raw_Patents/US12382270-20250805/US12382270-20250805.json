@@ -1,0 +1,20 @@
+{
+  "title": "Providing additional time to user equipment for location determination before communicating an SMS message to an emergency number",
+  "abstract": "Systems, methods, and computer-readable media are provided for delaying communication of a short message service (SMS) message to an emergency number until a location of user equipment (UE) is determined. To do so, a timer is started as soon as the user hits send for SMS to an emergency number. The location is recalculated until the timer runs out or the desired location uncertainty is achieved. For example, if the timer is still running and the location uncertainty is greater than a pre-configured threshold, the UE keeps recalculating the location. Once the location uncertainty is equal to or below the pre-configured threshold, or the timer runs out, the location and the SMS message are communicated to the emergency number.",
+  "claims": "1. One or more non-transitory computer-readable media having computer-executable instructions embodied thereon that, when executed, perform a method for delaying communication of a short message service (SMS) message to an emergency number until a location of user equipment (UE) is determined, the method comprising: receiving, at the UE, an input that is intended to cause an SMS message to be communicated to an emergency number; initiating a timer at the UE, the timer delaying the communication of the SMS message to the emergency number; determining, at the UE, an uncertainty of a location determined by the UE; recalculating the location of the UE until: 1) the uncertainty is less than or equal to a desired uncertainty; or 2) the timer runs out; and causing the SMS message to be sent with the location of the UE.",
+  "patent_id": "US12382270-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 4/90",
+      "H04W 4/029",
+      "H04W 4/14"
+    ],
+    "all": [
+      "H04W 4/90",
+      "H04W 4/029",
+      "H04W 4/14"
+    ],
+    "source": "converted"
+  }
+}

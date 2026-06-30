@@ -1,0 +1,30 @@
+{
+  "title": "Slope brake pressure determining method and determining system, and vehicle",
+  "abstract": "The invention relates to a slope brake pressure determining method and system. The method includes: a pre-braking slope estimated value is determined according to a specified cycle, where a current pre-braking slope estimated value is determined and is used as a first slope estimated value aestimate1, and a pre-braking slope estimated value of a previous cycle that is latched prior to the establishment of brake pressure is used as a second slope estimated value aestimate2; an instantaneous vehicle speed vbrakeprior to the establishment of the brake pressure is latched, a vehicle traveling distance lbrakeand time tbrakeare accumulated, and an in-braking slope estimated value aslopis determined based on the instantaneous vehicle speed vbrake, the vehicle traveling distance lbrake, and the time tbrake; and pre-braking pressure p1and in-braking pressure p2are determined based on the second slope estimated value aestimate2and a third slope estimated value aestimate3, respectively, initial brake pressure p3is determined based on the pre-braking pressure p1and the in-braking pressure p2, and final brake pressure p4is determined based on the initial brake pressure p3. According to the invention, the brake pressure can be accurately determined.",
+  "claims": "1. A slope brake pressure determining method, comprising: a pre-braking slope determining step, in which a pre-braking slope estimated value is determined according to a specified cycle, wherein vehicle acceleration a wheel is determined based on a current vehicle speed, a slope measured value a measure is obtained based on a measured value of the vehicle acceleration, and a current pre-braking slope estimated value is determined based on the vehicle acceleration a wheel and the slope measured value a measure and is used as a first slope estimated value a estimate1 , and wherein a pre-braking slope estimated value of a previous cycle that is latched prior to the establishment of brake pressure is used as a second slope estimated value a estimate2 ; an in-braking slope determining step, in which an instantaneous vehicle speed v brake prior to the establishment of the brake pressure is latched, a vehicle traveling distance l brake and time t brake are accumulated, and an in-braking slope estimated value a slop is determined based on the instantaneous vehicle speed v brake prior to the establishment of the brake pressure and the vehicle traveling distance l brake and time t brake , wherein the instantaneous vehicle speed v brake is an instantaneous vehicle speed when a brake is applied, and the vehicle traveling distance l brake and time t brake are a vehicle traveling distance and time that have been accumulated from a moment at which the brake is applied, wherein, in the pre-braking slope determining step, on a premise of identifying a braking condition, the pre-braking slope estimated value of the previous cycle, namely the second slope estimated value a estimate2 , is latched prior to the establishment of the brake pressure, and wherein identifying the braking condition comprises identifying according to stop and deceleration commands from a vehicle brake switch or a vehicle main controller; and a brake pressure determining step, in which pre-braking pressure p 1 and in-braking pressure p 2 are determined based on the second slope estimated value a estimate2 and a third slope estimated value a estimate3 , respectively, initial brake pressure p 3 is determined based on the pre-braking pressure p 1 and the in-braking pressure p 2 , and final brake pressure p 4 is determined based on the initial brake pressure p 3 , wherein the third slope estimated value a estimate3 is a slope estimated value determined using an observer.",
+  "patent_id": "US12377826-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60T 8/171",
+      "B60T 17/221",
+      "B60T 2210/20",
+      "B60T 2220/04",
+      "B60T 2240/00",
+      "B60T 2250/00",
+      "B60T 2250/04",
+      "B60T 2270/88"
+    ],
+    "all": [
+      "B60T 8/171",
+      "B60T 17/221",
+      "B60T 2210/20",
+      "B60T 2220/04",
+      "B60T 2240/00",
+      "B60T 2250/00",
+      "B60T 2250/04",
+      "B60T 2270/88"
+    ],
+    "source": "converted"
+  }
+}

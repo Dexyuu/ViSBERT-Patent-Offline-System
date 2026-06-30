@@ -1,0 +1,20 @@
+{
+  "title": "Method and apparatus for data transfer between accessible memories of multiple processors in a heterogeneous processing system using two memory to memory transfer operations",
+  "abstract": "A heterogeneous processing system and method including a host processor with a host memory having allocated buffer space, first and second processors each with memory, multiple data transfer resources, and switch and bus circuitry that communicatively couples the processors and the transfer resources. The first processor executes a first part of an application generating first data stored into the first memory. A data transfer resource is programed to transfer the first data to the buffer space and to transfer the first data from the buffer space into the second memory. The second processor executes a second part of the application generating second data stored into the second memory. The data transfer resources may include a DMA engine in which the buffer space is DMA addressable. One of the first and second processors may be a reconfigurable processor, a compute engine, or a reconfigurable dataflow unit.",
+  "claims": "1. A heterogeneous processing system, comprising: switch and bus circuitry; a host processor coupled to a host memory accessible from the host processor without utilizing the switch and bus circuitry, wherein the host processor allocates buffer space within the host memory; a first processor coupled to a first memory accessible from the first processor without utilizing the switch and bus circuitry; a second processor coupled to a second memory accessible from the second processor without utilizing the switch and bus circuitry; a first direct memory access (DMA) engine incorporated within the first processor; and a second DMA engine incorporated within the second processor; wherein the switch and bus circuitry communicatively couples the host processor, the host memory, the first DMA engine of the first processor and the second DMA engine of the second processor; wherein the first processor is configured to execute a first node of a computation graph which creates and stores first data into the first memory without using the switch and bus circuitry; and wherein the host processor is configured to program the first DMA engine to transfer the first data from the first memory to a first location in the buffer space of the host memory through the switch and bus circuitry and to program the first DMA engine to transfer the first data from the first location in the buffer space of the host memory into the second memory through the switch and bus circuitry.",
+  "patent_id": "US12380041-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 13/1673",
+      "G06F 9/5016",
+      "G06F 13/28"
+    ],
+    "all": [
+      "G06F 13/1673",
+      "G06F 9/5016",
+      "G06F 13/28"
+    ],
+    "source": "converted"
+  }
+}

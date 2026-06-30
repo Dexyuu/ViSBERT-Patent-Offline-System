@@ -1,0 +1,20 @@
+{
+  "title": "Proactive preparation of repair service site",
+  "abstract": "Systems, methods and/or computer program products predictively automating configurations of modular service zones servicing physical assets, maximizing reuse of service zone(s) and optimizing time for servicing a plurality of physical assets. Digital twin models of physical assets are classified, and arranged into workflows for the service zones, sequencing services performed on physical assets arriving at service centers and preparing service zones based on types of services requested, the estimated time of arrival and similarities between classifications of different digital twins of physical assets. Based on sequences of the workflow, arrival times of physical assets and overlap between parts, tools, machines, etc., within various service zones, service center coordinates robotic systems to arrange service zones in a manner that minimizes waiting time between services, maximizes the number of physical assets repaired within a period of time and reduces rearrangement of service zones between the services provided to different physical assets.",
+  "claims": "1. A computer-implemented method for predictively automating configurations of a modular service zone within a service site, the computer-implemented method comprising: receiving, by a processor, service requests from a plurality of physical assets requesting performance of services on the physical assets at the service site, a location of the physical assets and an estimated time of arrival for each of the physical assets at the service site; analyzing, by the processor, a digital twin model corresponding to each of the plurality of physical assets; creating, by the processor, a maintenance profile for each type of physical asset, describing classifications of the services for a corresponding physical asset including one or more machines, tools or parts required to perform the services on the physical asset; based on maintenance profiles of the physical assets and commonality between the one or more machines, tools or parts required to perform the services, creating, by the processor, one or more modular service zones within the service site comprising at least one of the one or more machines, the tools and the parts required to perform the services on the physical asset; and instructing, by the processor, a robotic system positioned within the service site to create or modify the modular service zone by positioning the machines, the tools and the parts for conducting each of the services on the physical assets within the modular service zone prior to the estimated time of arrival of each of the physical assets at the service site; and creating, or modifying, by the robotic system, the modular service zone according to instructions from the processor by moving autonomously through the service site and by positioning the machines, the tools and the parts for conducting each of the services on the physical assets within the modular service zone, prior to the estimated time of arrival of each of the physical assets at the service site.",
+  "patent_id": "US12380410-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/20",
+      "G06Q 10/06315",
+      "G06Q 10/0633"
+    ],
+    "all": [
+      "G06Q 10/20",
+      "G06Q 10/06315",
+      "G06Q 10/0633"
+    ],
+    "source": "converted"
+  }
+}

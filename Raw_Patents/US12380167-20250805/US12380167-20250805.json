@@ -1,0 +1,16 @@
+{
+  "title": "Systems and methods for reducing usage of cache memory in connection with user queries",
+  "abstract": "In some embodiments, reducing usage of cache memory in connection with user queries may be facilitated. In some embodiments, in connection with a first query, (i) a first set of results received during a user session and (ii) a first output generated from the first set of results are stored in a session cache associated with the user session. In response to determining that a second query parameter of a second query corresponds to a first query parameter of the first query but fails to satisfy a match criterion: a cache lookup is performed on the session cache to retrieve a matching result subset of the first set of results, in lieu of retrieving the first output generated from the first set of results, where the matching result subset does not include a result corresponding to the first query parameter. A second output is then generated.",
+  "claims": "1. A system for reducing usage of cache memory in connection with user queries, the system comprising: one or more processors executing computer program instructions that, when executed, cause operations comprising: receiving an initial set of query results during a web session in connection with an initial user-specified query; storing (i) the initial set of query results received during the web session in a session cache associated with the web session and (ii) a first output generated from the initial set of query results in the session cache associated with the web session; subsequent to storing the initial set of query results, receiving a subsequent user-specified query during the web session; in response to determining that a subsequent query parameter of the subsequent user-specified query is for a same attribute as an initial query parameter of the initial user-specified query but fails to match the initial query parameter: performing a cache lookup on the session cache to retrieve a matching result subset of the initial set of query results, in lieu of retrieving the first output generated from the initial set of query results, wherein the matching result subset does not include a query result corresponding to the initial query parameter; and generating a second output based on (i) the matching result subset of the initial set of query results and (ii) a subsequent query result received in connection with the subsequent user-specified query.",
+  "patent_id": "US12380167-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/903"
+    ],
+    "all": [
+      "G06F 16/903"
+    ],
+    "source": "converted"
+  }
+}

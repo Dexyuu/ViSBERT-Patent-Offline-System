@@ -1,0 +1,22 @@
+{
+  "title": "Maneuver coordination service in vehicular networks",
+  "abstract": "Maneuver Coordination Services (MCS) may be used in various implementations of vehicular networks. Emergency Group Maneuver Coordination (EGMC) may be used for detected unexpected safety-critical situations (USCS) on the road. EGMC provides cooperative maneuver coordination among a group of vehicles to ensure safer collective actions in the case of USCS. An MCS and EGMC may utilize a Maneuver Coordination Message (MCM) based on procedures for the Generation and Transmission of MCM with reduced communication overhead.",
+  "claims": "1. An apparatus to provide Maneuver Coordination Service (MCS) by an Intelligent Transport System Station (ITS-S), the apparatus comprising: memory circuitry to store an MCS facility within a facilities layer of the ITS-S; and processor circuitry connected to the memory circuitry, the processor circuitry is to operate the MCS facility to: generate a Maneuver Coordination Message (MCM) to indicate a detected event for maneuver coordination; cause transmission or broadcast of the MCM to one or more other ITS-Ss proximate to the ITS-S; cause execution of one or more actions of an individual maneuver change based on the detected event when the individual maneuver change without coordination is determined to be sufficient for the detected event; and initiate group coordination for the detected event when the individual maneuver change is determined not to be sufficient for the detected event, wherein the group coordination involves a group of two or more other vehicles or ITS-Ss separate from the ITS-S, and wherein to initiate the group coordination, the processor circuitry is to operate the MCS facility to: determine whether a consensus is reached within the group coordination for acceptance or rejection of a set of candidate maneuver coordination strategies, select a maneuver coordination strategy from the set of candidate maneuver coordination strategies based on whether the consensus is reached within the group coordination, wherein: when the consensus is reached, the selected maneuver coordination strategy is a first candidate maneuver coordination strategy selected by the group, and when the consensus is not reached, the selected maneuver coordination strategy is another candidate maneuver coordination strategy that is selected by a leader of the group; and cause transmission or broadcast of another MCM to the one or more other ITS-Ss indicating the selected maneuver coordination strategy, to cause performance of one or more maneuver tasks of the selected maneuver coordination strategy.",
+  "patent_id": "US12377879-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 60/0016",
+      "B60W 30/0956",
+      "B60W 60/0017",
+      "B60W 2554/4049"
+    ],
+    "all": [
+      "B60W 60/0016",
+      "B60W 30/0956",
+      "B60W 60/0017",
+      "B60W 2554/4049"
+    ],
+    "source": "converted"
+  }
+}

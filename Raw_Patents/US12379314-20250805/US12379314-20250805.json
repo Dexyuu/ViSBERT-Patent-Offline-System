@@ -1,0 +1,22 @@
+{
+  "title": "Method and apparatus for measuring surface gloss and spectral reflectance",
+  "abstract": "A method includes controlling a gloss channel of a color measurement apparatus to measure a surface gloss of a color sample to generate a gloss value for the color sample. A color channel of the color measurement apparatus is controlled to measure a reflectance spectrum of the color sample to generate a first plurality of reflectance values for the color sample under a first measurement geometry. The first plurality of reflectance values are converted to a second plurality of reflectance values representing the reflectance spectrum of the color sample under a second measurement geometry, different from the first measurement geometry. The converting utilizes an adjustment that is a function of the gloss value.",
+  "claims": "1. A method, comprising: controlling, by a processing system including at least one processor, a gloss channel of a color measurement apparatus to measure a surface gloss of a color sample to generate a gloss value for the color sample; controlling, by the processing system, a color channel of the color measurement apparatus to measure a reflectance spectrum of the color sample to generate a first plurality of reflectance values for the color sample under a first measurement geometry, wherein the reflectance spectrum is measured indirectly under the first measurement geometry, wherein the controlling the color channel of the color measurement apparatus to measure the reflectance spectrum of the color sample comprises converting a channel response of a multi-band color sensor of the color channel into the first plurality of reflectance values using a transformation matrix that is derived during a calibration of the color measurement apparatus, and wherein the calibration utilizes a plurality of color calibration standards having known gloss values; and converting, by the processing system, the first plurality of reflectance values to a second plurality of reflectance values representing the reflectance spectrum of the color sample under a second measurement geometry, different from the first measurement geometry, wherein the converting comprises adjusting the first plurality of reflectance values by an amount that is calculated directly from the gloss value that is generated.",
+  "patent_id": "US12379314-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01N 21/57",
+      "G01N 21/251",
+      "G01N 2201/062",
+      "G01N 2201/127"
+    ],
+    "all": [
+      "G01N 21/57",
+      "G01N 21/251",
+      "G01N 2201/062",
+      "G01N 2201/127"
+    ],
+    "source": "converted"
+  }
+}

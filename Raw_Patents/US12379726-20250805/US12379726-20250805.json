@@ -1,0 +1,36 @@
+{
+  "title": "Systems and methods for evaluating autonomous vehicle software interactions for proposed trips",
+  "abstract": "An autonomous vehicle (AV) computing device including at least one processor may be provided. The at least processor may be programmed to (i) receive a proposed trip including a destination location and a departure time, (ii) determine environmental conditions data based on the destination location and the departure time, (iii) retrieve current software ecosystem data for the AV, (iv) retrieve aggregated data for a plurality of AVs, the aggregated data including a plurality of correlations, each correlation including a) an interaction between at least one software application and at least one environmental condition and b) an adverse performance outcome associated with the interaction, (v) compare the environmental conditions data for the proposed trip and the current software ecosystem data for the AV to the plurality of correlations to identify an adverse performance outcome, and (vi) execute a remedial action to avoid the adverse performance outcome.",
+  "claims": "1. A computing device associated with a vehicle and comprising at least one processor in communication with at least one memory device, the at least one processor configured to: retrieve environmental conditions data representing environment conditions associated with the vehicle; retrieve current software ecosystem data for the vehicle representing software applications currently onboard the vehicle; retrieve aggregated data for a plurality of other vehicles, the aggregated data including a plurality of correlations relating software ecosystem data and environmental conditions data for the plurality of other vehicles; identify an adverse performance outcome associated with an interaction between at least one of the software applications currently onboard the vehicle and at least one of the environmental conditions associated with the vehicle by comparing the environmental conditions data for the vehicle and the current software ecosystem data to the plurality of correlations; cause an alert message to be displayed on a display device within the vehicle; and in response to a remedial action being identified to avoid the adverse performance outcome, cause the remedial action to be executed.",
+  "patent_id": "US12379726-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05D 1/0214",
+      "B60W 50/045",
+      "G01C 21/3415",
+      "G05D 1/0285",
+      "G05D 1/247",
+      "G05D 1/617",
+      "G07C 5/008",
+      "B60W 2050/046",
+      "B60W 2555/20",
+      "B60W 2556/50",
+      "B60W 2556/65"
+    ],
+    "all": [
+      "G05D 1/0214",
+      "B60W 50/045",
+      "G01C 21/3415",
+      "G05D 1/0285",
+      "G05D 1/247",
+      "G05D 1/617",
+      "G07C 5/008",
+      "B60W 2050/046",
+      "B60W 2555/20",
+      "B60W 2556/50",
+      "B60W 2556/65"
+    ],
+    "source": "converted"
+  }
+}

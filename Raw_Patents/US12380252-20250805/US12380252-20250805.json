@@ -1,0 +1,20 @@
+{
+  "title": "System and method for fabric-independent in-band privacy for security commands on non-volatile memory express over fabrics (NVMe-oF)",
+  "abstract": "A method, computer program product, and computing system for receiving content for securely transmitting from an initiator device across a fabric to a target device. The content may be encrypted with a predefined encryption key, thus defining encrypted content. The encrypted content may be encapsulated in a Non-volatile Memory Express (NVMe) Over Fabrics (NVMe-oF) command, thus defining an encapsulated NVMe-oF security command. The encapsulated NVMe-oF security command may be transmitted across the fabric to the target device.",
+  "claims": "1. A computer-implemented method, executed on a computing device, comprising: initializing a request to transmit content from an initiator device across a fabric to a target device; receiving content for accessing a plurality of self-encrypting drives for securely transmitting from the initiator device across the fabric to the target device; encrypting the content with a predefined encryption key, thus defining encrypted content; encapsulating the encrypted content in a Non-volatile Memory Express (NVMe) Over Fabrics (NVMe-oF) command, wherein the NVMe-OF command is a standard security message from a NVMe Specification, thus defining an encapsulated NVMe-OF security command; and transmitting the encapsulated NVMe-OF security command across the fabric to the target device, wherein transmitting the content over the NVMe-oF command is independent of an operating system, any fabric type without requiring fabric-specific processing or fabric-specific encryption and any drive-specific functionality on the target device and on the fabric.",
+  "patent_id": "US12380252-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/78",
+      "G06F 15/17331",
+      "G06F 21/602"
+    ],
+    "all": [
+      "G06F 21/78",
+      "G06F 15/17331",
+      "G06F 21/602"
+    ],
+    "source": "converted"
+  }
+}

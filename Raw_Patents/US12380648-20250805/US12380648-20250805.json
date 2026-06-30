@@ -1,0 +1,26 @@
+{
+  "title": "Confidence score for depth map or 3D mesh",
+  "abstract": "Embodiments of devices and techniques of obtaining a three dimensional (3D) representation of an area are disclosed. In one embodiment, a two dimensional (2D) frame is obtained of an array of pixels of the area. Also, a depth frame of the area is obtained. The depth frame includes an array of depth estimation values. Each of the depth estimation values in the array of depth estimation values corresponds to one or more corresponding pixels in the array of pixels. Furthermore, an array of confidence scores is generated. Each confidence score in the array of confidence scores corresponds to one or more corresponding depth estimation values in the array of depth estimation values. Each of the confidence scores in the array of confidence scores indicates a confidence level that the one or more corresponding depth estimation values in the array of depth estimation values is accurate.",
+  "claims": "1. A method of obtaining a three dimensional (3D) representation of an area, comprising: obtaining a two dimensional (2D) frame of an array of pixels of the area; obtain a depth frame of the area, wherein: the depth frame includes an array of depth estimation values; each of the depth estimation values in the array of depth estimation values corresponds to one or more corresponding pixels in the array of pixels; generating an array of confidence scores based on a depth consistency between consecutive depth frames and a color variation in untextured regions, wherein: each confidence score in the array of confidence scores corresponds to one or more corresponding depth estimation values in the array of depth estimation values; and each of the confidence scores in the array of confidence scores indicates a confidence level that the one or more corresponding depth estimation value-values in the array of depth estimation values is accurate.",
+  "patent_id": "US12380648-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 17/205",
+      "G06T 7/50",
+      "G06V 10/25",
+      "G06T 2207/10024",
+      "G06T 2207/10028",
+      "G06T 2207/20164"
+    ],
+    "all": [
+      "G06T 17/205",
+      "G06T 7/50",
+      "G06V 10/25",
+      "G06T 2207/10024",
+      "G06T 2207/10028",
+      "G06T 2207/20164"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Learning apparatus, inference apparatus, and programmable logic device development toolchain",
+  "abstract": "A data acquisition unit acquires resource usage rate data for each technology of a programmable logic apparatus development toolchain and timing slack information during technology mapping. An inference unit outputs an iterative synthesis parameter for succeeding in place and route from the resource usage rate data for each technology and the timing slack information during the technology mapping that are acquired by the data acquisition unit using a learned model for inferring an iterative synthesis parameter given to the programmable logic apparatus development toolchain for succeeding in the place and route from the resource usage rate data for each technology and the timing slack information during the technology mapping.",
+  "claims": "1. A learning apparatus comprising: a data acquirer to acquire learning data including resource usage rate data for each technology of a programmable logic device development toolchain and timing slack information during technology mapping and including a target clock frequency of the programmable logic device development toolchain and an iterative synthesis parameter in the resource usage rate data for each technology and the timing slack information during the technology mapping; and a model generator to generate, using the learning data, a learned model for inferring the iterative synthesis parameter given to the programmable logic device development toolchain for succeeding in place and route from the resource usage rate data for each technology of the programmable logic device development toolchain and the timing slack information during the technology mapping.",
+  "patent_id": "US12380264-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 30/343",
+      "G06F 30/27",
+      "G06F 30/347",
+      "G06F 30/34"
+    ],
+    "all": [
+      "G06F 30/343",
+      "G06F 30/27",
+      "G06F 30/347",
+      "G06F 30/34"
+    ],
+    "source": "converted"
+  }
+}

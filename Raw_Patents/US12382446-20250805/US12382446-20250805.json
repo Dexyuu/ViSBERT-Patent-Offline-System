@@ -1,0 +1,22 @@
+{
+  "title": "HARQ transmission using timers for configured grants and discontinuous reception",
+  "abstract": "A method and apparatus for hybrid automatic repeat request (HARQ) transmission using timers for configured grants and discontinuous reception (DRX) is provided. A first wireless device operating in a wireless communication system receives, from a second wireless device, a sidelink HARQ feedback for a media access control (MAC) protocol data unit (PDU) on a physical sidelink feedback channel (PSFCH), and starts a DRX HARQ round trip time (RTT) timer for a HARQ process ID after end of reception of the sidelink HARQ feedback. Upon expiry of the DRX HARQ RTT timer, the first wireless device starts a DRX retransmission timer, and monitors a physical downlink control channel (PDCCH) carrying a sidelink retransmission grant during an active time including a time interval for which the DRX retransmission timer is running.",
+  "claims": "1. A method performed by a first wireless device, the method comprising: receiving, from a base station, a sidelink (SL) grant; associating a hybrid automatic repeat request (HARQ) process identifier (ID) corresponding to the SL grant to a sidelink process; constructing a media access control (MAC) protocol data unit (PDU); transmitting, to a second wireless device, the MAC PDU; receiving, from the second wireless device, a sidelink HARQ feedback corresponding to transmission of the MAC PDU, wherein the sidelink HARQ feedback is received on a physical sidelink feedback channel (PSFCH); starting a discontinuous (DRX) HARQ round trip time (RTT) SL timer for a corresponding HARQ process i) in a first symbol after an end of a physical uplink control channel (PUCCH) transmission carrying the sidelink HARQ feedback, or ii) at a first symbol after an end of a physical sidelink shared channel (PSSCH) transmission on which the MAC PDU is transmitted, based on whether a PUCCH resource is configured or not, wherein the DRX HARQ RTT SL timer informs a minimum duration before a SL retransmission grant is expected by a MAC entity; starting a DRX retransmission SL timer for the corresponding HARQ process based on i) expiry of the DRX HARQ RTT SL timer, and ii) a negative acknowledgement (NACK) as the sidelink HARQ feedback being transmitted on a PUCCH, wherein the DRX retransmission SL timer informs a maximum duration until the SL retransmission grant is received; and monitoring a physical downlink control channel (PDCCH) carrying the SL retransmission grant during an active time which includes time while the DRX retransmission SL timer is running.",
+  "patent_id": "US12382446-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/12",
+      "H04L 1/1812",
+      "H04L 1/188",
+      "H04W 76/28"
+    ],
+    "all": [
+      "H04W 72/12",
+      "H04L 1/1812",
+      "H04L 1/188",
+      "H04W 76/28"
+    ],
+    "source": "converted"
+  }
+}

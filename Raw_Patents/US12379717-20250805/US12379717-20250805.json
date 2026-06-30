@@ -1,0 +1,18 @@
+{
+  "title": "Systems and methods for monitoring and controlling industrial processes",
+  "abstract": "Aspects of the present invention provide methods, systems, and/or the like for: (1) determining temperature data for at least part of an article of manufacture in a manufacturing process; (2) analyzing the temperature data to identify a first portion of the article of manufacture having a temperature that deviates from a surrounding portion of the first portion, the first portion comprising: at least one hot spot, at least one hot streak, at least one cold spot, or at least one cold streak on the article of manufacture; (3) determining, for the first portion of the article of manufacture, a set of properties related to the temperature: (4) processing the set of properties using at least one of a rules-based model, a machine-learning model, or a classification model to produce a defect classification; and (5) providing an indication of the defect classification for display on a computing device.",
+  "claims": "1. A computer-implemented data processing method for identifying and classifying defects in a paper web produced by a manufacturing process, the method comprising: receiving, by computing hardware, current thermal imaging data for a paper web; analyzing, by the computing hardware, the thermal imaging data to identify a first portion of the paper web having a temperature that deviates from a surrounding portion of the paper web, the first portion comprising: at least one hot spot, at least one hot streak, at least one cold spot, or at least one cold streak on the paper web; determining, by the computing hardware for the first portion of the paper web, a set of properties for the first portion of the paper web, the set of properties comprising a cross-direction location of the first portion having the temperature deviation with respect to an edge of the paper web; processing, by the computing hardware, the set of properties for the first portion of the paper web using at least one of a rules-based model, a machine-learning model, or a classification model to produce a defect classification for the first portion of the paper web; generating, by the computing hardware based on the defect classification, a graphical user interface comprising defect map for the paper web, the defect map comprising at least the first portion of the paper web and a visual indication of the defect classification; providing, by the computing hardware, the graphical user interface for display on a computing device; and providing, by the computing hardware, the defect classification to at least one of a second machine-learning model or a second rules-based model to cause the second machine-learning model or the second rules-based model to generate a prediction as to an occurrence of a breakage event on the first portion of the paper web based on the defect classification.",
+  "patent_id": "US12379717-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05B 19/41875",
+      "G05B 2219/32368"
+    ],
+    "all": [
+      "G05B 19/41875",
+      "G05B 2219/32368"
+    ],
+    "source": "converted"
+  }
+}

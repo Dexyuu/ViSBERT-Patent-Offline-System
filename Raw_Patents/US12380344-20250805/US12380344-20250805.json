@@ -1,0 +1,32 @@
+{
+  "title": "Generating summary and next actions in real-time for multiple users from interaction records in natural language",
+  "abstract": "A system receives messaging, video and/or audio input streams including dialogue spoken by users at a group meeting. From these inputs, the system obtains single or multiple interaction records including natural language text memorializing content spoken by each speaker at a meeting, analyzes the content, and identifies single or multiple action item tasks in the interaction records. The system then generates summaries indicating the action item tasks for the users. From the dialogue content, the system further detects whether each action item is addressed, and whether the action item for a user has a solution, or not. The system further detects whether one action item is a precondition for resolving another action item by the user or in conjunction with another user. Using a pre-configured template, the system generates action item summaries, any associated solution, and any relationship or precondition between action items and presents the summary to a user.",
+  "claims": "1. A computer-implemented method comprising: receiving, at one or more processors, multiple interaction records of natural language text relating to a group of users attending a meeting; analyzing, using one or more classifier models, said text of said multiple interaction records to identify one or more action items from said text, an action item relating to a respective task to be performed; detecting, from said interaction records, a respective user assigned to perform the respective task; detecting, from said interaction records, whether each action item from the identified one or more action items is addressed with a solution for carrying out said task or not, said detecting, from said interaction records, whether each action item from the identified one or more action items is addressed with a solution for carrying out said task comprising: converting a detected action item into a question form; forming a question-answering task; and running a trained question-answering model for extracting spans from said interaction records, and determining whether an answer to the question exists from an extracted span; identifying, using a natural language processing (NLP) entailment model, whether any action item from the identified one or more action items is dependent upon another action item from the identified one or more action items, or whether an action item relating to a task is a precondition to performing another action item task from the identified one or more action items; and generating a text summary of a solution that addresses each action item for the user based upon the identifying and the determining that the answer to the question exists from the extracted span.",
+  "patent_id": "US12380344-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 5/04",
+      "G06F 40/174",
+      "G06F 40/186",
+      "G06F 40/279",
+      "G06N 20/00",
+      "G10L 15/22",
+      "G10L 15/26",
+      "G06F 40/205",
+      "G06F 40/30"
+    ],
+    "all": [
+      "G06N 5/04",
+      "G06F 40/174",
+      "G06F 40/186",
+      "G06F 40/279",
+      "G06N 20/00",
+      "G10L 15/22",
+      "G10L 15/26",
+      "G06F 40/205",
+      "G06F 40/30"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Avatar based mitigation of sporadic pixelation in digital video",
+  "abstract": "Systems and methods for detecting and/or mitigating video artifacts in a video. A processor in a computing device may be configured to receive the video from a video source (e.g., codec or from any other video source compressed or uncompressed) subtract pixel intensities from two consecutive frames in the video to generate a residual, analyze the residual to detect small rectangular shapes, and identifying a video artifact in the video based on a result of the analysis.",
+  "claims": "1. A method of detecting video artifacts in a video stream or broadcast, comprising: receiving, by a processor in a computing device, the video from a video source; subtracting pixel intensity values from two consecutive frames in the video to generate a residual that identifies differences between the two consecutive frames; identifying a video artifact in the video based on the generated residual; and integrating a generated avatar into the video frames that include the video artifact and generating a modified video stream or broadcast that includes the integrated avatar by: replacing artifacts on a background portion of video frame to generate an updated background portion; integrating the generated avatar and the updated background portion to create a composite image; and integrating the composite image into the video frames that include the video artifact.",
+  "patent_id": "US12380547-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/0002",
+      "G06T 7/50",
+      "G06T 11/00",
+      "G06V 10/70",
+      "G06V 20/40",
+      "G11B 27/036",
+      "G11B 27/10",
+      "G06T 2207/10016",
+      "G06T 2207/30168",
+      "G06T 2207/30201",
+      "G06V 40/161"
+    ],
+    "all": [
+      "G06T 7/0002",
+      "G06T 7/50",
+      "G06T 11/00",
+      "G06V 10/70",
+      "G06V 20/40",
+      "G11B 27/036",
+      "G11B 27/10",
+      "G06T 2207/10016",
+      "G06T 2207/30168",
+      "G06T 2207/30201",
+      "G06V 40/161"
+    ],
+    "source": "converted"
+  }
+}

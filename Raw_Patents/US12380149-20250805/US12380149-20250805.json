@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for document analysis to produce, consume and analyze content-by-example logs for documents",
+  "abstract": "Document analysis systems and methods for the generation of a content-by-example log that expresses withheld documents in terms of a set of disclosed documents are disclosed. Additionally, document analysis systems and methods for the analysis of such a content-by-example log to determine withheld documents of interest without access to those withheld documents are disclosed.",
+  "claims": "1. A method, comprising: receiving a corpus of documents for potential production to a receiving party; segregating, from within the corpus of documents, a first set of produced documents for production to the receiving party and a second set of non-produced documents for non-production to the receiving party; generating a log of a comparison between each document in the second set of non-produced documents and a plurality of documents in the first set of produced documents, wherein comparing a non-produced document to the plurality of documents in the first set of produced documents comprises: generating a feature vector for the non-produced document, generating feature vectors for the plurality of documents in the first set of produced documents, and using the feature vector of the non-produced document as a key to rank each of the plurality of documents in the first set of produced documents with respect to the non-produced document, wherein the ranking is based on the feature vectors of the plurality of documents in the first set of produced documents; storing the ranked documents as an entry in the log of comparison; and providing the log of comparison to the receiving party.",
+  "patent_id": "US12380149-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/35",
+      "G06F 40/10",
+      "G06F 40/289"
+    ],
+    "all": [
+      "G06F 16/35",
+      "G06F 40/10",
+      "G06F 40/289"
+    ],
+    "source": "converted"
+  }
+}

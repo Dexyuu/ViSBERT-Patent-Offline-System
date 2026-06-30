@@ -1,0 +1,20 @@
+{
+  "title": "Character recognition device, method, and non-transitory computer readable storage medium",
+  "abstract": "The information processing device acquires a probability image representing a probability of an existence of a character in each of pixels included in a target image including a plurality of characters based on the target image, estimates positions of respective character images included in the target image based on the acquired probability image, classifies the plurality of character images into a plurality of groups based on the estimated positions, acquires a plurality of recognition target images which is generated so as to correspond to the plurality of groups, and includes the plurality of character images respectively belonging to the corresponding groups, and recognizes the plurality of characters from each of the recognition target images.",
+  "claims": "1. An information processing device comprising: at least one processor; and at least one memory device that stores a plurality of instructions which, when executed by the at least one processor, causes the at least one processor to: acquire a probability image representing a probability of an existence of a character in each pixel included in a target image including a plurality of characters based on the target image; estimate positions of respective character images included in the target image based on the acquired probability image; classify, by k-means method, the plurality of character images into a plurality of groups based on a component in an arrangement direction of the estimated position of each of the plurality of character images; acquire a plurality of recognition target images which is generated so as to correspond to the plurality of groups, and includes the plurality of character images respectively belonging to the corresponding groups; recognize the plurality of characters from each of the recognition target images; output a connected character string obtained by connecting recognized character strings each formed of a plurality of characters recognized from each of the recognition target images; and identify a user by comparing the connected character string to an information input by the user.",
+  "patent_id": "US12380716-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 30/10",
+      "G06T 7/70",
+      "G06V 10/764"
+    ],
+    "all": [
+      "G06V 30/10",
+      "G06T 7/70",
+      "G06V 10/764"
+    ],
+    "source": "converted"
+  }
+}

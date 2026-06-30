@@ -1,0 +1,26 @@
+{
+  "title": "Method of augmenting human perception of the surroundings",
+  "abstract": "The present disclosure relates to a method of augmenting human perception of the surroundings, comprising: receiving a first set of data from a user device associated with the user, the first set of data comprising at least location information; receiving a second set of data from a local distributed database associated with the location information, the second set of data comprising a position of one or more entities; constructing a digital model representing the user and the one or more entities using the first and second set of data; projecting a respective course for the user and for the or each entity by inputting the digital model into a first machine learning algorithm (MLA) to infer one or more events; identifying at least one inferred event relevant to the user by inputting the one or more inferred events to the first MLA; and communicating the at least one relevant inferred event to the user.",
+  "claims": "1. A computer-implemented method of augmenting human perception of the surroundings to identify a risk and/or an opportunity, comprising: receiving a first set of data with respect to a user from a user device associated with the user, the first set of data comprising at least location information and a planned route, the user device comprising a display; receiving a second set of data from a local distributed database associated with the location information, the second set of data comprising a position of one or more entities associated with the location information; generating from the first set of data a respective motion vector for the user and generating from the second set of data a respective motion vector for the one or more entities, the motion vectors representing respective motion of the user and the one or more entities; constructing a digital model representing the user and the one or more entities using the first and second set of data, wherein the digital model comprises digital twins of the user and the one or more entities and the respective motion vectors of the user and the one or more entities, the digital twins replicating the positions, motions and behavioural patterns of the user and the one or more entities; projecting a respective course for the user and for the or each entity by inputting the digital model into a first machine learning algorithm (MLA) to infer one or more events involving the user in relation to the one or more entities; identifying at least one relevant inferred event from the one or more inferred events by inputting the one or more inferred events to the first MLA to identify a risk or an opportunity relevant to the user; communicating the at least one relevant inferred event to the user; determining at least one appropriate response specific to the user based on the first set of data by inputting into the first MLA the at least one relevant inferred event; and interacting with the user through the user device to assist the user in performing the at least one appropriate response, wherein interacting with the user comprises displaying the at least one relevant inferred event as a still image or a series of moving images on the user device and advising the user to take an alternative route.",
+  "patent_id": "US12379214-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01C 21/16",
+      "B60W 60/0017",
+      "G01C 21/3848",
+      "G01C 21/3885",
+      "G06N 20/20",
+      "G06V 20/52"
+    ],
+    "all": [
+      "G01C 21/16",
+      "B60W 60/0017",
+      "G01C 21/3848",
+      "G01C 21/3885",
+      "G06N 20/20",
+      "G06V 20/52"
+    ],
+    "source": "converted"
+  }
+}

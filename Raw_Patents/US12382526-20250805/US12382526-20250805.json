@@ -1,0 +1,20 @@
+{
+  "title": "Handling of collision between PDU session establishment and modification procedure",
+  "abstract": "A method for handling a collision of a UE-requested PDU session establishment procedure and a network-requested PDU session modification procedure is proposed. When a PDU SESSION ESTABLISHMENT REQUEST message indicates that the UE-requested PDU session establishment request procedure is to handover an existing PDU session between 5G 3GPP access and 5G non-3GPP access, UE and NW proceed with the UE-requested PDU session establishment procedure and abort the NW-requested PDU session modification procedure. When a PDU SESSION ESTABLISHMENT REQUEST message indicates that the UE-requested PDU session establishment request procedure is to establish user plane resources for an MA PDU session, UE and NW proceed with both the UE-requested PDU session establishment procedure and the NW-requested PDU session modification procedure.",
+  "claims": "1. A method, comprising: transmitting a protocol data unit (PDU) session establishment request message with a first PDU session ID (PSI) by a user equipment (UE) in a 5G system (5GS) to initiate a UE-requested PDU session establishment procedure for a PDU session; receiving a PDU session modification command message with a second PSI for a network-requested PDU session modification procedure, wherein the UE detects a collision between the establishment procedure and the modification procedure when the first PSI in the received PDU session modification command message is the same as the second PSI in the transmitted PDU session establishment request message; determining that the UE-requested PDU session establishment procedure is to perform a handover for the PDU session between 3GPP access and non-3GPP access; and proceeding with the UE-requested PDU session establishment procedure, wherein the UE aborts the network-requested PDU session modification procedure upon detecting the collision.",
+  "patent_id": "US12382526-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/18",
+      "H04W 76/12",
+      "H04W 80/10"
+    ],
+    "all": [
+      "H04W 76/18",
+      "H04W 76/12",
+      "H04W 80/10"
+    ],
+    "source": "converted"
+  }
+}

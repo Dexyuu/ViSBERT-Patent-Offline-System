@@ -1,0 +1,22 @@
+{
+  "title": "Computer-implemented systems and methods for generating enhanced motion data and rendering objects",
+  "abstract": "A computer-implemented system, the system comprising: at least one processor; and at least one non-transitory computer-readable medium storing instructions that are executed by the at least one processor to perform operations, comprising: receiving raw motion and/or physics data for a first object, the raw data being captured in a physical setting or provided by prerecorded, programmatically generated, or alternatively animated media sources and comprising data for a plurality of tracking points associated with the first object.",
+  "claims": "1. A computer-implemented system, the system comprising: at least one processor; and at least one non-transitory computer-readable medium storing instructions that are executed by the at least one processor to perform operations, comprising: receiving raw motion and/or physics data for a first object, the raw data being captured in a physical setting or provided by prerecorded, programmatically generated, or alternatively animated media sources and comprising data for a plurality of tracking points associated with the first object; rendering the first object in a virtualized setting based on the raw motion data; detecting, in the virtualized setting, a collision with a second object based on an entry of the second object within a trigger area associated with at least one tracking point of the first object; generating, in response to detecting the collision with the second object, enhanced motion data for the least one tracking point of the first object, wherein generating the enhanced motion data includes determining a displacement of the at least one tracking point of the first object based on at least a force vector of the second object during a collision phase between the first object and the second object; and further rendering, based on the enhanced motion data, the first object in the virtualized setting, wherein the operations performed by the at least one processor further comprise applying a physics engine to generate the enhanced motion data during a sequence of phases, including: a pre-collision phase prior to the entry of the second object into the trigger area; the collision phase, the collision phase initiating upon the entry of the second object into the trigger area and terminating upon a rendering of the first object with a maximum displacement resulting from the collision with the second object; and a recovery phase, the recovery phase initiating upon an end of the collision phase and terminating after a duration determined from a momentum decay function.",
+  "patent_id": "US12380621-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 13/40",
+      "G06T 7/246",
+      "G06T 15/00",
+      "G06T 2210/21"
+    ],
+    "all": [
+      "G06T 13/40",
+      "G06T 7/246",
+      "G06T 15/00",
+      "G06T 2210/21"
+    ],
+    "source": "converted"
+  }
+}

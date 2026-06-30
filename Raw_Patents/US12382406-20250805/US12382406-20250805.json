@@ -1,0 +1,16 @@
+{
+  "title": "Over the air antenna synchronization in wireless communication network",
+  "abstract": "An over the air, OTA, procedure derives a propagation delay (Formula I) of radio signals transmitted between a first radio network node (BS1) and a second radio network node (BS1) operative in a wireless communication system. Using this propagation delay, a two-step synchronization procedure accurately synchronizes, or time-aligns, antennas at the radio network nodes (BS1, BS2) for both transmission and reception. In a first step, each radio network node (BS1, BS2) is accurately calibrated, to obtain a total calibrated delay (Formula II) reflecting the sum of delays through a calibrated receiver path (Formula II) and a calibrated transmitter path (Formula III). In a second step, a pair of radio network nodes (BS1, BS2) separately align their antenna transmit and receive timings in a procedure in which a first radio network node (BS1) is a master and a second radio network node (BS2) is a slave.",
+  "claims": "1. A method of deriving a propagation delay of radio signals transmitted between a first radio network node having a first plurality of antenna elements and a second radio network node having a second plurality of antenna elements, both nodes being operative in a wireless communication system, comprising: obtaining a total calibrated delay equal to the sum of a calibrated receiver delay and a calibrated transmitter delay, for each of the first and second radio network nodes, the total calibrated delay being based on results of calibration processes that substantially equalize delays through transmitter paths to and including each antenna element, and delays through receiver paths from and including each antenna element, at each of the first and second radio network nodes; transmitting, from the first radio network node to the second radio network node, a first signal and saving a first timestamp indicating the time of transmission of the first signal; receiving, at the first radio network node from the second radio network node, a second signal including a processing delay of the second radio network node, and saving a second timestamp indicating the time of reception of the second signal; and deriving a propagation delay between the first and second radio network nodes based on the difference between the first and second timestamps and the obtained delays.",
+  "patent_id": "US12382406-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 56/001"
+    ],
+    "all": [
+      "H04W 56/001"
+    ],
+    "source": "converted"
+  }
+}

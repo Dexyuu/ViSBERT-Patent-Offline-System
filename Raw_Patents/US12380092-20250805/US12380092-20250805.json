@@ -1,0 +1,24 @@
+{
+  "title": "Ensuring globally consistent transactions",
+  "abstract": "The present technology proposes techniques for ensuring globally consistent transactions. This technology may allow distributed systems to ensure the causal order of read and write transactions across different partitions of a distributed database. By assigning causally generated timestamps to the transactions based on one or more globally coherent time services, the timestamps can be used to preserve and represent the causal order of the transactions in the distributed system. In this regard, certain transactions may wait for a period of time after choosing a timestamp in order to delay the start of any second transaction that might depend on it. The wait may ensure that the effects of the first transaction are not made visible until its timestamp is guaranteed to be in the past. This may ensure that a consistent snapshot of the distributed database can be determined for any past timestamp.",
+  "claims": "1. A distributed system having one or more processors and one or more storage devices, the distributed system comprising: one or more time masters; a time synchronization daemon in communication with the one or more time masters, the time synchronization daemon configured to synchronize local time by: periodically querying the one or more time masters; tracking round-trip delays associated with querying the one or more time masters, each round-trip delay indicating an amount of time between sending a query to one of the time masters and receiving a response to the query from the one of the time masters; and calculating a current-time interval based on the round-trip delays; and a library interface in communication with the one or more time masters and the time synchronization daemon, the library interface configured to provide applications with the current-time interval that contains a current true time for causally timestamping transactions occurring across different geographic locations.",
+  "patent_id": "US12380092-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/2379",
+      "G06F 9/466",
+      "G06F 16/148",
+      "G06F 16/2322",
+      "G06F 16/2477"
+    ],
+    "all": [
+      "G06F 16/2379",
+      "G06F 9/466",
+      "G06F 16/148",
+      "G06F 16/2322",
+      "G06F 16/2477"
+    ],
+    "source": "converted"
+  }
+}

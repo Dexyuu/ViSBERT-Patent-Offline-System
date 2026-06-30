@@ -1,0 +1,40 @@
+{
+  "title": "Wheel torque estimation for autonomous driving",
+  "abstract": "Devices, systems, and methods for estimating wheel torque in an autonomous vehicle include a method for controlling a vehicle includes using a dual filter framework to generate an updated estimate of a wheel torque, and controlling, based on the updated estimate of the wheel torque, the vehicle. A first filter of the dual filter framework is configured to generate a blended estimate of the wheel torque by combining a first estimate of the wheel torque that is generated based on a set of mechanical torque transfer models of at least a powertrain and a brake of the vehicle and a second estimate of wheel torque that is generated based on an inverted longitudinal dynamic model, and a second non-linear filter of the dual filter framework is configured to generate the updated estimate of a wheel torque and vehicle velocity based on a torque delivery damping process model on vehicle motion.",
+  "claims": "1. A method for controlling a vehicle, comprising: generating, based on a mechanical model of at least a transmission of the vehicle, a first estimate of a wheel torque; generating, based on a velocity and an acceleration of the vehicle, a second estimate of the wheel torque; generating, based on using a Kalman filter to combine the first estimate of the wheel torque and the second estimate of the wheel torque, a third estimate of the wheel torque; generating, based on applying an extended Kalman filter (EKF) with a damping process model to the third estimate of the wheel torque, a fourth estimate of the wheel torque; generating, based on dividing the fourth estimate of the wheel torque, a plurality of wheel torque components corresponding to a propulsion of an engine of the vehicle, a braking of the engine of the vehicle, and an air brake of the vehicle; and controlling, based on the plurality of wheel torque components, the vehicle.",
+  "patent_id": "US12377878-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 60/0015",
+      "B60W 40/076",
+      "B60W 40/107",
+      "B60W 40/13",
+      "B60W 50/00",
+      "H04L 12/40",
+      "B60W 2050/0052",
+      "B60W 2510/0657",
+      "B60W 2510/18",
+      "B60W 2530/10",
+      "B60W 2552/15",
+      "H04L 2012/40215",
+      "H04L 2012/40273"
+    ],
+    "all": [
+      "B60W 60/0015",
+      "B60W 40/076",
+      "B60W 40/107",
+      "B60W 40/13",
+      "B60W 50/00",
+      "H04L 12/40",
+      "B60W 2050/0052",
+      "B60W 2510/0657",
+      "B60W 2510/18",
+      "B60W 2530/10",
+      "B60W 2552/15",
+      "H04L 2012/40215",
+      "H04L 2012/40273"
+    ],
+    "source": "converted"
+  }
+}

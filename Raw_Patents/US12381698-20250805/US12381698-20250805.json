@@ -1,0 +1,20 @@
+{
+  "title": "Enhancing reference signal transmission in carrier aggregation",
+  "abstract": "Methods, systems, and devices for wireless communications are described. A user equipment (UE) may receive a first message that includes information indicative of an inter-band carrier aggregation configuration that identifies a set of cells for communication by the network node. The UE may receive a synchronization signal on a first cell of the set of cells via a wireless channel having a first set of channel properties. Based on a first set of quasi-colocation (QCL) parameters including the first set of channel properties, the UE may then receive one or more reference signals on the second cell of the set of cells. The UE may receive the one or more reference signals on the second cell based on the synchronization signal of the first cell being a first QCL source indicating use of the first set of QCL parameters to receive the one or more reference signals.",
+  "claims": "1. A network node for wireless communication, comprising: at least one memory; and at least one processor coupled to the at least one memory wherein the at least one processor is configured to: receive a first message that includes information indicative of an inter-band carrier aggregation configuration that identifies a set of cells for communication by the network node; receive a first synchronization signal on a first cell of the set of cells via a wireless channel having a first set of channel properties; receive, based on use of a first set of quasi-colocation (QCL) parameters that include the first set of channel properties, one or more reference signals on a second cell of the set of cells, wherein use of the first set of QCL parameters is based on the first synchronization signal of the first cell being a first QCL source that indicates that the first set of QCL parameters are for reception of the one or more reference signals; receive a second synchronization signal and a first reference signal of the one or more reference signals on a third cell of the set of cells, wherein the second synchronization signal of the third cell is the first QCL source that indicates that the first set of QCL parameters are for reception of the first reference signal; and receive one or more communications on the second cell of the set of cells, wherein the second synchronization signal is the first QCL source that indicates that the first set of QCL parameters are for reception of the one or more communications, or wherein the first reference signal is a second QCL source that indicates that a second set of QCL parameters are for reception the one or more communications.",
+  "patent_id": "US12381698-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/0098",
+      "H04W 56/001",
+      "H04W 72/0453"
+    ],
+    "all": [
+      "H04L 5/0098",
+      "H04W 56/001",
+      "H04W 72/0453"
+    ],
+    "source": "converted"
+  }
+}

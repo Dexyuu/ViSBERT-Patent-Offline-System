@@ -1,0 +1,22 @@
+{
+  "title": "Method and device for configuring communication channel using sidelink in wireless communication between nodes",
+  "abstract": "The present disclosure provides a method and device in nodes used for wireless communications. A first node first receives a first signaling, and then receives a second signaling in a first time-frequency resource set; the first signaling is used to indicate the first time-frequency resource set, and the second signaling occupies the first time-frequency resource set; the second signaling is used to configure a format of a first-type channel, the format of the first-type channel is related to a frequency bandwidth corresponding to a second-type channel associated with the first-type channel, or the format of the first-type channel is related to a first parameter of the first-type channel; the first signaling is a physical layer signaling. The present disclosure optimizes the configuration method of feedback channel on sidelink to improve the efficiency of spectrum on sidelink and the overall performance of the system.",
+  "claims": "1. A first node for wireless communications, comprising: a first transceiver configured to receive a first signaling, the first signaling being a physical layer signaling used to indicate a first time-frequency resource set; a first receiver configured to receive a second signaling that occupies the first time-frequency resource set; and a second transceiver configured to receive a target signal in a second-type channel and to transmit a target information group in a first-type channel; a format of the first-type channel carrying the target information group is configured according to the second signaling and (i) a frequency bandwidth of the target signal or (ii) a second parameter of the target information group, the format of the first-type channel is that one of a plurality of candidate formats, each having a respective associated candidate frequency bandwidth, associated with a frequency bandwidth corresponding to the second-type channel; and the target information group is used to determine whether the target signal is correctly received.",
+  "patent_id": "US12381695-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/0092",
+      "H04W 72/02",
+      "H04W 72/0446",
+      "H04W 72/0453"
+    ],
+    "all": [
+      "H04L 5/0092",
+      "H04W 72/02",
+      "H04W 72/0446",
+      "H04W 72/0453"
+    ],
+    "source": "converted"
+  }
+}

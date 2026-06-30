@@ -1,0 +1,32 @@
+{
+  "title": "Method and apparatus for encoding/decoding based on motion vector precision adjustment",
+  "abstract": "The present invention relates to a method for encoding/decoding a video. To this end, the method for decoding a video may include: deriving a spatial merge candidate from at least one of spatial candidate blocks of a current block, deriving a temporal merge candidate from a co-located block of the current block, and generating a prediction block of the current block based on at least one of the derived spatial merge candidate and the derived temporal merge candidate, wherein a reference picture for the temporal merge candidate is selected based on a reference picture list of a current picture including the current block and a reference picture list of a co-located picture including the co-located block.",
+  "claims": "1. An image decoding method performed by a decoding apparatus, the method comprising: obtaining, from a bitstream, image information comprising information related to motion compensation; determining a prediction mode for a current block; deriving motion information list including motion information candidates derived based on neighboring blocks of the current block; deriving motion information of the current block based on the motion information list; generating a predicted block of the current block based on the motion information; and generating a reconstructed block based on the predicted block, wherein the information related to the motion compensation includes precision information for a motion vector difference, wherein the precision information for the motion vector difference represents one of precision candidates including integer pel precision, quarter pel precision and eighth pel precision for the motion vector difference, and wherein the precision information for the motion vector difference represents the one of the precision candidates as a picture level parameter.",
+  "patent_id": "US12382062-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/159",
+      "H04N 19/105",
+      "H04N 19/126",
+      "H04N 19/13",
+      "H04N 19/176",
+      "H04N 19/463",
+      "H04N 19/513",
+      "H04N 19/593",
+      "H04N 19/96"
+    ],
+    "all": [
+      "H04N 19/159",
+      "H04N 19/105",
+      "H04N 19/126",
+      "H04N 19/13",
+      "H04N 19/176",
+      "H04N 19/463",
+      "H04N 19/513",
+      "H04N 19/593",
+      "H04N 19/96"
+    ],
+    "source": "converted"
+  }
+}

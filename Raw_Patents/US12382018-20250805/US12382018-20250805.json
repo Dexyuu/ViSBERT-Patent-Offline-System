@@ -1,0 +1,24 @@
+{
+  "title": "Context design for coding and decoding syntax elements in inter prediction modes",
+  "abstract": "This disclosure relates generally to video coding and particularly to methods and systems for determining context for coding and decoding various syntax elements of a video stream in inter prediction modes. Various example implementations are disclosed for limiting numbers of possible coding contexts for syntax elements related to the inter prediction mode, and for selecting coding contexts for a current block based on coding information of spatially neighboring blocks and temporal motion prediction information.",
+  "claims": "1. A method for decoding a current prediction block within a current coding block of a video stream, the method comprising: receiving a flag indicating that the current prediction block is subject to an inter prediction; deriving a first parameter for quantifying an extent to which the current prediction block shares reference frames with spatially neighboring prediction blocks of the current coding block; the first parameter, referred to as “nearest_match,” comprising a predetermined aggregation of a binary row reference frame matching indicator indicating whether there is a match in reference frame between the current prediction block and at least one spatially neighboring prediction block in a row of prediction blocks immediately above the current coding block and a binary column reference frame matching indicator indicating whether there is a match in reference frame between the current prediction block and at least one spatially neighboring prediction block in a column of prediction blocks immediately left of the current coding block; deriving a second parameter associated with utilization of motion vector prediction in the spatially neighboring prediction blocks of the current coding block, the second parameter, referred to as “newmv_count,” indicating a number of prediction blocks among the spatially neighboring prediction blocks of the current predication block having at least one motion vector that is predicted by at least one reference motion vector; and selecting coding contexts for at least one of a set of syntaxes associated with the inter prediction of the current prediction block according to the first parameter and the second parameter, wherein selecting the coding context is independent of any temporal motion vector prediction (TMVP) candidate blocks, the set of syntaxes comprising at least dynamic motion vector reference list (DRL) index and single reference inter prediction mode indicator.",
+  "patent_id": "US12382018-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/105",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/46",
+      "H04N 19/70"
+    ],
+    "all": [
+      "H04N 19/105",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/46",
+      "H04N 19/70"
+    ],
+    "source": "converted"
+  }
+}

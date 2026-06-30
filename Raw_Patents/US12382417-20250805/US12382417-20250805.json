@@ -1,0 +1,22 @@
+{
+  "title": "Parameters handling for SNPN-enabled UE",
+  "abstract": "A method of handling parameters of a subscribed network upon accessing a selected Stand-alone Non-Public Network (SNPN) using credentials from a credential holder is proposed. The UE selects an SNPN using a configured list of subscriber data, e.g., based on SNPN selection parameters contained in a selected entry of the list of subscriber data, or selects the SNPN based on SNPN selection parameters associated with a PLMN subscription of a USIM card. The UE accesses the selected SNPN using credentials supplied by a subscribed network, which is identified by the selected entry or by the USIM card. Upon successful registration to the selected SNPN, the UE applies a list of 3GPP PS_Data_Off exempt services that is different from a configured list of 3GPP PS_Data_Off exempt services associated with the selected entry, and evaluates a URSP that is different from the pre-configured URSP of the subscribed network.",
+  "claims": "1. A method, comprising: maintaining one or more sets of stand-alone non-public network (SNPN) selection parameters by a user equipment (UE), wherein the UE is enabled to access to SNPNs using credentials from a credential holder; selecting an SNPN by the UE based on a set of the one or more sets of SNPN selection parameters corresponding to selected subscription information of a subscribed network, wherein the selected subscription information has subscription parameters comprising a configured list of 3GPP PS_Data_Off exempt services associated with the selected subscription information to be used in the subscribed SNPN; successfully registering to the selected SNPN using credentials supplied by the selected subscription information; and establishing a PDU session with the selected SNPN, wherein the UE applies a first list of 3GPP PS_Data_Off exempt services to be used in a non-subscribed SNPN that is different from the configured list of 3GPP PS_Data_Off exempt services associated with the selected subscription information to be used in the subscribed SNPN.",
+  "patent_id": "US12382417-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 60/04",
+      "H04W 8/183",
+      "H04W 12/068",
+      "H04W 84/042"
+    ],
+    "all": [
+      "H04W 60/04",
+      "H04W 8/183",
+      "H04W 12/068",
+      "H04W 84/042"
+    ],
+    "source": "converted"
+  }
+}

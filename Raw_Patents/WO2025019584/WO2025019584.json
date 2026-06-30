@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2025019584",
+  "application_id_fs": "WO2025019584",
+  "title": "Scalable learned image compression with adaptive learned sparse image representation",
+  "abstract": "A method for performing scalable Learned Image Compression (LIC) with adaptive Learned Sparse Image Representation (LSLR). The method, implemented by a sending device, includes encoding an input image x by K input encoders of the sending device to generate K image feature tensors wherein K is an integer greater than 1; computing K sparse codebook-based latent features respectively based on the K image feature tensor and corresponding basis codebook; computing a weight map that provides information for weighted combining K decoded image embedding features, wherein the K decoded image embedding features is respectively based on the K sparse codebook-based latent features and the corresponding basis codebook; computing a compact weight map based on the weight map and a target compression rate; and transmitting the compact weight map and the K sparse codebook-based latent features to a receiving device",
+  "claims": "Claims Atty. Docket No.4502-81701 (6000635PCT02) CLAIMS What is claimed is: 1. A method implemented by a sending device, the method comprising: encoding an input image x by K input encoders of the sending device to generate K image feature tensors ^ ^^ , â¯ , ^ ^^ , wherein K is an integer greater than 1; computing K sparse codebook-based latent features ^ ^ ^ ^ ^ , â¯ , ^ ^^ respectively based on the K image feature tensor ^ ^^ , â¯ , ^ ^^ and corresponding basis codebook ^ ^ , â¯ , ^ ^ ; computing a weight map W that provides information for weighted combining K decoded image embedding features ^Ì ^^ , â¯ , ^Ì ^^ , wherein the K decoded image embedding features ^Ì ^^ , â¯ , ^Ì ^^ is respectively based on the K sparse codebook-based latent features ^ ^ ^ ^ ^ , â¯ , ^ ^^ and the corresponding basis codebook ^ ^ , â¯ , ^ ^ ; computing a compact weight map ^ ^ based on the weight map W and a target compression rate R; and transmitting the compact weight map ^ ^ and the K sparse codebook-based latent features ^ ^ ^ ^ , â¯ , ^ ^ ^ ^ to a receiving device. 2. The method according to claim 1, wherein computing the compact weight map ^ ^ based on the weight map W and the target compression rate R comprises: computing a masking rate ^ based on the target compression rate R; generating a weight mask M based on the masking rate ^; and computing the compact weight map ^ ^ based on the weight map W and the weight mask M. 3. The method according to claim 2, wherein the masking rate Ï is a ratio of masked-out weights against all weights. 4. The method according to any of claims 2-3, further comprising generating the weight mask \n\nAtty. Docket No.4502-81701 (6000635PCT02) M based on the masking rate ^ and a masking strategy. 5. The method according to any of claims 2-4, further comprising: computing a target bit count ^ ^^^^ based on the target compression rate R; and determining the masking strategy based on the target bit count ^ ^^^^ . 6. The method according to any of claims 2-5, further comprising transmitting the weight mask M to the receiver. 7. The method according to any of claims 1-6, further comprising: computing a distortion loss D measuring a distortion between the input image x and a reconstructed output image ^^, and/or between a target combined latent feature ^Ì ^ â and a combined latent feature ^Ì ^ , and modifying weights corresponding to non-masked-out pixels in the compact weight map ^ ^ to reduce the distortion loss D. 8. The method according to any of claims 1-7, further comprising: computing, based on a plurality of candidate masking strategies, a distortion loss D measuring a distortion between the input image x and a reconstructed output image ^^ , and/or between a target combined latent feature ^Ì ^ â and a combined latent feature ^Ì ^ , and selecting a masking strategy from the plurality of candidate masking strategies having a minimum distortion loss D. 9. A method implemented by a receiving device, the method comprising: receiving K sparse codebook-based latent features ^ ^ ^ ^ ^ , â¯ , ^ ^^ and a compact weight map ^ ^ from a sending device, wherein K is an integer greater than 1; computing K decoded image embedding features ^Ì ^^ , â¯ , ^Ì ^^ based on the K sparse \n\nAtty. Docket No.4502-81701 (6000635PCT02) codebook-based latent features ^ ^ ^ ^ ^ , â¯ , ^ ^^ ; computing a filled weight map ^ ^ ^^^^ based on the compact weight map ^ ^ and the K decoded image embedding features ^Ì ^^ , â¯ , ^Ì ^^ ; computing a combined latent feature ^Ì ^ based on the filled weight map ^ ^ ^^^^ and the K decoded image embedding features ^Ì ^^ , â¯ , ^Ì ^^ ; and computing a reconstructed output image ^^ based on the combined latent feature ^Ì ^ . 10. The method according to claim 9, wherein computing the filled weight map ^ ^ ^^^^ based on the compact weight map ^ ^ and the K decoded image embedding features ^Ì ^^ , â¯ , ^Ì ^^ comprises predicting weights for masked-out weights in the compact weight map ^ ^ . 11. The method according to any of claims 9-10, wherein computing the filled weight map ^ ^ ^^^^ based on the compact weight map ^ ^ and the K decoded image embedding features ^Ì ^^ , â¯ , ^Ì ^^ comprises predicting weights for unused basis codebooks in computing the K decoded image embedding features ^Ì ^^ , â¯ , ^Ì ^^ . 12. The method according to any of claims 9-10, wherein computing the filled weight map ^ ^ ^^^^ based on the compact weight map ^ ^ and the K decoded image embedding features ^Ì ^^ , â¯ , ^Ì ^^ computing a set of new weights for recovering a target combined latent feature ^Ì ^ â . 13. The method according to any of claims 9-12, further comprising computing, by a neural network model, the filled weight map ^ ^ ^^^^ based on the compact weight map ^ ^ and the K decoded image embedding features ^Ì ^^ , â¯ , ^Ì ^^ . 14. The method according to claim 13, wherein the neural network model is optimized for a masking strategy corresponding to the compact weight map ^ ^ . \n\nAtty. Docket No.4502-81701 (6000635PCT02) 15. The method according to any of claims 9-14, wherein computing the combined latent feature ^Ì ^ based on the filled weight map ^ ^ ^^^^ and the K decoded image embedding features ^Ì ^^ , â¯ , ^Ì ^^ comprises computing ^Ì ^,^ (^ = 1, â¦ , ^ ^ Ã â ^ ), for each pixel in ^Ì ^ as follows ^ ^Ì ^,^ = @ ^\" ^^^^ ^ ,^ â ^Ì ^^,^ ^#^ where ^\" ^^^^ ^ ,^ is a k-th weight corresponding to l-th pixel in the filled weight map ^ ^ ^^^^ . 16. An apparatus comprising: a memory or storage means configured to store instructions; and one or more processors or processing means coupled to the memory or the storage means and configured to execute the instructions to cause the apparatus to perform a method according to any of claims 1-8. 17. An apparatus comprising: a memory or storage means configured to store instructions; and one or more processors or processing means coupled to the memory or the storage means and configured to execute the instructions to cause the apparatus to perform a method according to any of claims 9-15. 18. A computer program product comprising computer-executable instructions stored on a non-transitory computer-readable storage medium, the computer-executable instructions when executed by one or more processors of an apparatus, cause the apparatus to perform a method according to any of claims 1-15.",
+  "classifications": {
+    "ipc": [
+      "H04N 19/00",
+      "H04N 19/10",
+      "H04N 19/134",
+      "H04N 19/146",
+      "H04N 19/147",
+      "G06N 3/00",
+      "G06N 3/02",
+      "G06N 3/04",
+      "G06N 3/045",
+      "H04N 19/102",
+      "H04N 19/117",
+      "H04N 19/169",
+      "H04N 19/17",
+      "H04N 19/172",
+      "H04N 19/90",
+      "H04N 19/85",
+      "H04N 19/94"
+    ],
+    "cpc": [],
+    "all": [
+      "H04N 19/00",
+      "H04N 19/10",
+      "H04N 19/134",
+      "H04N 19/146",
+      "H04N 19/147",
+      "G06N 3/00",
+      "G06N 3/02",
+      "G06N 3/04",
+      "G06N 3/045",
+      "H04N 19/102",
+      "H04N 19/117",
+      "H04N 19/169",
+      "H04N 19/17",
+      "H04N 19/172",
+      "H04N 19/90",
+      "H04N 19/85",
+      "H04N 19/94"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025019584"
+}

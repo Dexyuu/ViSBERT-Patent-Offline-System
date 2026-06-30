@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2025019509",
+  "application_id_fs": "WO2025019509",
+  "title": "Electric submersible pump automatic data driven setpoint management",
+  "abstract": "Systems and methods for automatically adapting operation of an electric drive system for an electric submersible pump (ESP). A control system for an electric drive receives live measurements of operating conditions of the ESP as the ESP is operating. The control system calculates adjustments to settings of the electric drive which generates output power that drives the ESP, where the adjustments are calculated based at least in part on the live measurements, and without user intervention. The control system thereby automatically controls the drive to modify the output power provided to the ESP, which in turn controls the operation of the ESP. The adjustments may increase the stability of the ESP's operation, improve the performance of the ESP, and adapt the ESP's operation to changing well conditions.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1 . An electric submersible pump (ESP) system comprising: one or more computer processors coupled to one or more data storage devices; the computer processors adapted to, during operation of the ESP, receive live measurements of one or more operating conditions of the ESP, and calculate, based at least in part on the live measurements and without user intervention, one or more adjustments to one or more settings of an electric drive that generates output power which drives the ESP, thereby controlling the electric drive to modify the output power. 2. The control system of claim 1 , wherein the one or more computer processors and the one or more data storage devices are integral to the electric drive. 3. The control system of claim 1 , wherein the control system is external to the electric drive, the control system further comprising: one or more input ports adapted to receive the live measurements from one or more corresponding sensors; and one or more output ports adapted to be coupled to the electric drive and to convey the one or more adjustments to the electric drive. 4. The control system of claim 3, the control system further comprising one or more input ports adapted to receive user input defining one or more settings of the electric drive. 5. The control system of claim 1 , wherein the control system is adapted to determine, based at least in part on the live sensor data, whether the ESP is operating in a stable manner and, in response to determining that the ESP is not operating in a stable manner, making corrective adjustments to one or more settings affecting stability of the ESP and thereafter re-determining whether the ESP is operating in a stable manner. 6. The control system of claim 5, wherein the control system is adapted to make additional corrective adjustments to the one or more settings affecting stability of the ESP until the ESP is operating in a stable manner. 7. The control system of claim 5, wherein the control system is adapted to, in response to determining that the ESP system is operating in a stable manner, make optimizing adjustments to one or more settings affecting performance of the ESP and determine a performance improvement resulting from the optimizing adjustments. 8. The control system of claim 7, wherein the control system is adapted to make additional optimizing adjustments to the one or more settings affecting performance of the ESP until no performance improvement results from the additional optimizing adjustments. 9. The control system of claim 1 , wherein the control system is adapted to: in a startup stage of operation: receive user input defining one or more initial settings of the electric drive, and begin operation of the electric drive using the initial settings; and in a post-startup stage of operation, receive the live measurements, and calculate the one or more adjustments to the one or more settings of the electric drive. 10. The control system of claim 1 , wherein the user input indicates an ESP operating mode and a set of parameters associated with the indicated ESP operating mode. 11 . The control system of claim 10, wherein the one or more data storage devices are adapted to store default parameters for one or more selectable ESP operating modes, and wherein the control system is adapted to, in response to receiving user input indicating a first one of the ESP operating modes, retrieve a corresponding set of the default parameters, the control system providing the first ESP operating mode and the corresponding set of default parameters to the electric drive. 12. The control system of claim 1 , wherein the control system is adapted to calculate the one or more adjustments to the one or more settings of the electric drive in response to detecting a change in the one or more operating conditions of the ESP as indicated by the live measurements. 13. The control system of claim 1 , wherein the control system is adapted to, in response to detecting a change in the one or more operating conditions of the ESP as indicated by the live measurements, generate a corresponding notification that is presented to a user. 14. The control system of claim 1 , wherein the control system is adapted to automatically adjust the one or more settings of the electric drive at configurable intervals. 15. A method for automatically adapting operation of an electric drive for an electric submersible pump (ESP), the method comprising: receiving, at a control system for an electric drive of an ESP, live sensor data for operating conditions of the ESP; and automatically adjusting, by the control system, one or more settings of the electric drive based at least in part on the live sensor data without intervention of a user. 16. The method of claim 15, further comprising determining, by the control system based at least in part on the live sensor data, whether the ESP is operating in a stable manner and, in response to determining that the ESP is not operating in a stable manner, making corrective adjustments to one or more settings affecting stability of the ESP and thereafter re-determining whether the ESP is operating in a stable manner. 17. The method of claim 16, further comprising repeating the making corrective adjustments to the one or more settings affecting stability of the ESP until the ESP is operating in a stable manner. 18. The method of claim 16, further comprising: in response to determining that the ESP system is operating in a stable manner, making optimizing adjustments to one or more settings affecting performance of the ESP and determining a performance improvement resulting from the adjusting; and repeating the making optimizing adjustments to the one or more settings affecting performance of the ESP until no performance improvement results from the making optimizing adjustments. 19. The method of claim 16, further comprising generating, in response to determining that the ESP is not operating in a stable manner, one or more corresponding notifications that are presented to a user. 20. The method of claim 15, wherein the control system is adapted to automatically adjust the one or more settings of the electric drive at configurable intervals.",
+  "classifications": {
+    "ipc": [
+      "E21B 47/00",
+      "E21B 47/008",
+      "E21B 43/00",
+      "E21B 43/12",
+      "E21B 43/121",
+      "E21B 43/128",
+      "F04B 47/00",
+      "F04B 47/06",
+      "G05B 13/00",
+      "G05B 13/02",
+      "G05B 13/0205",
+      "G05B 13/024",
+      "H02P 6/00",
+      "H02P 6/08",
+      "H02P 6/20",
+      "H02P 6/28"
+    ],
+    "cpc": [],
+    "all": [
+      "E21B 47/00",
+      "E21B 47/008",
+      "E21B 43/00",
+      "E21B 43/12",
+      "E21B 43/121",
+      "E21B 43/128",
+      "F04B 47/00",
+      "F04B 47/06",
+      "G05B 13/00",
+      "G05B 13/02",
+      "G05B 13/0205",
+      "G05B 13/024",
+      "H02P 6/00",
+      "H02P 6/08",
+      "H02P 6/20",
+      "H02P 6/28"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025019509"
+}

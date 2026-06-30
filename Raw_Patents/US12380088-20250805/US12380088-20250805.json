@@ -1,0 +1,28 @@
+{
+  "title": "Crowdsourced validation of electronic content",
+  "abstract": "Validating electronic content by users includes providing, by a data processing system, electronic content to users for rating the electronic content based on rating metric(s), receiving, by the data processing system, a rating of the electronic content by at least some of the users based on the rating metric(s), each rating being a raw rating having a default weight, cognitively adjusting, by the data processing system, the default weight for each raw rating based on one or more of pre-rating user behaviors, a user rating history and a user credibility rating to arrive at an adjusted rating, using, by the data processing system, the adjusted rating to arrive at a total rating, and providing the total rating to the users.",
+  "claims": "1. A computer-implemented method of validating electronic content, the method comprising: providing, by a data processing system, electronic content to a plurality of users; rating, by at least some of the plurality of users, the electronic content, wherein said rating is enabled by offering a user a set of ratings amongst which a user could select, said set of ratings comprising spin, trust, accuracy and relevance; receiving, by the data processing system, the ratings of the electronic content from the at least some users of the plurality of users based on the one or more rating metrics, each rating being a raw rating having a default weight; adjusting, by the data processing system, the default weight for each raw rating based on pre-rating user behaviors, a user rating history, and a user credibility rating to arrive at an adjusted rating, wherein the user rating history comprises a frequency of a user rating the electronic content as each of the set of ratings from which the user can select; using, by the data processing system, the adjusted rating to arrive at a total rating; making available to the plurality of users the total rating and one or more of each raw rating for the at least some of the users of the plurality of users and each adjusted rating for the at least some of the users of the plurality of users; and using, by the data processing system, the total rating to determine whether or not, or how often, to display the electronic content.",
+  "patent_id": "US12380088-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/2365",
+      "G06F 16/24578",
+      "G06F 16/9535",
+      "G06F 16/9536",
+      "G06Q 30/0203",
+      "G06Q 50/01",
+      "G06F 3/0484"
+    ],
+    "all": [
+      "G06F 16/2365",
+      "G06F 16/24578",
+      "G06F 16/9535",
+      "G06F 16/9536",
+      "G06Q 30/0203",
+      "G06Q 50/01",
+      "G06F 3/0484"
+    ],
+    "source": "converted"
+  }
+}

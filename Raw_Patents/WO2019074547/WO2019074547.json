@@ -1,0 +1,40 @@
+{
+  "application_id": "WO2019074547",
+  "application_id_fs": "WO2019074547",
+  "title": "Predictive load mitigation and control in a content delivery network (cdn)",
+  "abstract": "A computer-implemented method, in a content delivery (CD) network that delivers content on behalf of multiple content providers. The method includes, at a server in the CDN, wherein the server is currently processing at least one other request in at least one other session: receiving a connection request from a client, the connection request being associated with a corresponding content request; determining whether handling the content request will cause the server to become overloaded; and, based on the determining in (B) and on information about the content request, conditionally (i) accepting the content request, and (ii) terminating or throttling at least one session on the server.",
+  "claims": "Claims CLAIMS  I claim: 1. A computer-implemented method, in a content delivery (CD) network, wherein said CD network (CDN) delivers content on behalf of multiple content providers, the method comprising, at a server in said CDN, wherein said server is currently processing at least one other request in at least one other session: (A) receiving a connection request from a client, said connection request being associated with a corresponding content request; (B) determining whether handling said content request will cause said server to become overloaded; and (C) based on said determining in (B) and on information about said content request, conditionally (i) accepting said content request, and (ii) terminating or throttling at least one session on said server. 2. The method of claim 1 further comprising: (A)(2) accepting said connection request prior to said determining in (B). 3. The method of claim 1 wherein said determining in (B) is made based on information associated with the connection request. 4. The method of claim 3 wherein the determining in (B) is made without accepting the connection request. 5. The method of claim 1 wherein the determining in (B) is based on a predicted effect of the server processing the content request. 6. The method of claim 1 wherein the determining in (B) is based on at least one measure of then-current load or capacity of the server. 7. The method of claim 6 wherein the at least one measure of load or capacity of the server comprises a measure of one or more of: processor load; open ports; open connections; bandwidth; and disk usage. 8. The method of claim 1 wherein said content request is accepted even if it is determined, in (B), that handing said content request will cause said server to become overloaded. 9. The method of claim 8, wherein the content request is for content associated with a particular provider and wherein said content request is accepted based on a service arrangement with said particular provider. 10. The method of claim 9 wherein the service arrangement comprises a quality of service guarantee. 11. The method of claim 8 wherein said content request is accepted based on a size of the requested content. 12. The method of claim 1 wherein said accepting in (C) is based on whether a predicted overload is subject to override. 13. The method of claim 12 wherein whether said predicted overload is subject to override is based on said information about said content request. 14. The method of claim 1 wherein said information about said content request used in (C) comprises a network address associated with said content request. 15. The method of claim 14 wherein accepting said content request in (C) is based on prior activity associated with said network address. 16. The method of claim 1 wherein accepting said content request in (C) is based on capacity on one or more other servers in the CDN. 17. The method of claim 1 wherein throttling said at least one session on said server comprises reducing one or more resources allocated to said at least one session. 18. The method of claim 17 wherein said reducing one or more resources allocated to said at least one session comprises: reducing an amount of said one or more resources allocated per time period. 19. The method of claim 17 comprising terminating said at least one session when said one or more resources are reduced below a certain level. 20. An article of manufacture comprising a computer-readable medium having program instructions stored thereon, the program instructions, operable on a computer system in a content delivery network (CDN), said device \n\n implementing at least one content delivery (CD) service, wherein execution of the program instructions by one or more processors of said computer system causes the one or more processors to carry out the acts of: at a server in said CDN, wherein said server is currently processing at least one other request in at least one other session: (A) receiving a connection request from a client, said connection request being associated with a corresponding content request; (B) determining whether handling said content request will cause said server to become overloaded; and (C) based on said determining in (B) and on information about said content request, conditionally (i) accepting said content request, and (ii) terminating or throttling at least one session on said server. 21. A device in a content delivery network (CDN), wherein said CDN delivers content on behalf of at least one content provider, said device implementing a content delivery (CD) service, the device: wherein said device is currently processing at least one other request in at least one other session: (A) receiving a connection request from a client, said connection request being associated with a corresponding content request; (B) determining whether handling said content request will cause said server to become overloaded; and (C) based on said determining in (B) and on information about said content request, conditionally (i) accepting said content request, and (ii) terminating or throttling at least one session on said device.",
+  "classifications": {
+    "ipc": [
+      "H04L 67/00",
+      "H04L 67/01",
+      "H04L 67/10",
+      "H04L 67/1001",
+      "H04L 67/1004",
+      "H04L 67/1008",
+      "H04L 67/1012",
+      "H04L 67/1031",
+      "H04L 67/14",
+      "H04L 67/50",
+      "H04L 67/60",
+      "H04L 67/61"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 67/00",
+      "H04L 67/01",
+      "H04L 67/10",
+      "H04L 67/1001",
+      "H04L 67/1004",
+      "H04L 67/1008",
+      "H04L 67/1012",
+      "H04L 67/1031",
+      "H04L 67/14",
+      "H04L 67/50",
+      "H04L 67/60",
+      "H04L 67/61"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019074547"
+}

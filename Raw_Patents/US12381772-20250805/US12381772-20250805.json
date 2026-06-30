@@ -1,0 +1,18 @@
+{
+  "title": "Operation and maintenance management method and system for automatically and uniformly managing nodes of bastion host",
+  "abstract": "Disclosed is an operation and maintenance method and system for automatically and uniformly managing nodes of bastion host. No matter distribution of user permission, daily deployment of machine monitoring and network monitoring or batch management of daily operation and maintenance, the operation and maintenance method and system can be abstracted as follows: master control dispatches a Master of a certain area node to issue and execute a certain task, and unified management is naturally achieved; the design concept can be continued subsequently. A Master host in the node serves as a master controller of the node, and related contents including a tool script library, a crontab task and a configuration file are preset in a Redis of the node in advance; when a new machine is accessed to a certain node, the new machine is configured to perform Salt-Master access management of the node where the new machine is located, and the corresponding machine is controlled to complete the corresponding task through a takeover program; therefore, unified and automatic management is realized.",
+  "claims": "1. An operation and maintenance method for automatically and uniformly managing nodes of bastion host, the operation and maintenance method comprising: S 1 : setting an architecture of the bastion host; dividing according to independent network areas of respective business sites to treat each independent network environment in different regions as an independent node, and then in each node, planning a machine as a security entrance Login host of the node and a machine as an operation and maintenance management and control Master host of the node, the Master host being responsible for managing all business hosts of the node; setting a Central control server as a superior Master host of the Login host and the Master host of each node, wherein the Central control server is deployed with a system and has a build file and configuration information of a global system, and the Central control server regularly maintains synchronization of related data of the corresponding node with the Master host of the nodes; S 2 : issuing and executing, by the Central control server, a task to the Master host of a target area node, wherein the task comprises one of the tasks of issuing user permission management and control, machine monitoring, and daily operation and maintenance for a target machine of the target area node; S 3 : setting a sentinel program, by the Master host, to parse and complete operations for the corresponding task when the task is monitored.",
+  "patent_id": "US12381772-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 41/044",
+      "H04L 9/302"
+    ],
+    "all": [
+      "H04L 41/044",
+      "H04L 9/302"
+    ],
+    "source": "converted"
+  }
+}

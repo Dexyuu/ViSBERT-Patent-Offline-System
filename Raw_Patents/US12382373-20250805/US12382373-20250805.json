@@ -1,0 +1,30 @@
+{
+  "title": "Processing device, communication device, communication system, control circuit, storage medium, and information sharing method",
+  "abstract": "A processing device that is an edge computer connected to a base station communicatable with a vehicle in a service area includes: a request generation unit generating a first request including location information and a range from the location information specifying a region in which information sharing is requested, and an identifier from which a demander that requests the information sharing is identifiable; an accepted request holding unit holding a second request based on an information sharing demand from another processing device when shared information regarding the region is sendable in response to the second request; and a request location information inquiry unit generating the shared information including a cognitive event and the identifier held in the accepted request holding unit when location information indicating a cognitive event occurrence point acquired from the vehicle via the base station is included in a region specified by the second request information.",
+  "claims": "1. A processing device connected to a base station capable of communicating with a vehicle in a service area, the processing device comprising: request generation circuitry to generate a first request that is a request including location information and a range from the location information specifying a region in which information sharing is requested, and an identifier from which a demander that requests the information sharing is identifiable; accepted request holding circuitry to hold a second request that is a request based on an information sharing demand from another processing device in a case where shared information regarding the region is sendable in response to the second request; and request inquiry circuitry to generate the shared information in a case where location information indicating a point of occurrence of a cognitive event acquired from the vehicle via the base station is included in a region specified by the second request, the shared information including the cognitive event and an identifier held in the accepted request holding circuitry.",
+  "patent_id": "US12382373-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 48/14",
+      "H04L 5/0048",
+      "H04L 69/22",
+      "H04L 12/1446",
+      "H04L 67/1014",
+      "H04L 67/63",
+      "H04L 69/08",
+      "H04W 68/12"
+    ],
+    "all": [
+      "H04W 48/14",
+      "H04L 5/0048",
+      "H04L 69/22",
+      "H04L 12/1446",
+      "H04L 67/1014",
+      "H04L 67/63",
+      "H04L 69/08",
+      "H04W 68/12"
+    ],
+    "source": "converted"
+  }
+}

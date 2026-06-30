@@ -1,0 +1,44 @@
+{
+  "title": "Machine learning sparse computation mechanism for arbitrary neural networks, arithmetic compute microarchitecture, and sparsity for training mechanism",
+  "abstract": "An apparatus to facilitate processing of a sparse matrix for arbitrary graph data is disclosed. The apparatus includes a graphics processing unit having a data management unit (DMU) that includes a scheduler for scheduling matrix operations, an active logic for tracking active input operands, and a skip logic for tracking unimportant input operands to be skipped by the scheduler. Processing circuitry is coupled to the DMU. The processing circuitry comprises a plurality of processing elements including logic to read operands and a multiplication unit to multiply two or more operands for the arbitrary graph data and customizable circuitry to provide custom functions.",
+  "claims": "1. A graphics processor comprising: a data management unit (DMU) having a scheduler to schedule matrix operations; and a plurality of processing elements coupled to the DMU, the DMU configured to: determine a number of workgroups to launch; select a work group size for each of the number of workgroups; and launch the number of workgroups for execution via the plurality of processing elements, wherein the number of workgroups is determined based on a total number of hardware threads supported by the plurality of processing elements and a number of data elements associated with a hardware thread, each workgroup to configure a processing element of the plurality of processing elements to: obtain a first matrix and a second matrix, wherein the first matrix is a sparse matrix that is encoded in a compressed tensor representation and the second matrix a dense matrix; and offload the second matrix in a coalesced manner from memory to a shared local memory (SLM), wherein the number of work groups to launch is determined to reduce a number of redundant memory loads from a global memory to the SLM associated with the offload of the second matrix.",
+  "patent_id": "US12380326-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 3/063",
+      "G06F 7/52",
+      "G06F 9/4843",
+      "G06F 16/9024",
+      "G06F 17/16",
+      "G06F 18/214",
+      "G06N 3/04",
+      "G06N 3/044",
+      "G06N 3/045",
+      "G06N 3/08",
+      "G06N 3/084",
+      "G06N 20/00",
+      "G06T 1/20",
+      "G06T 15/005",
+      "G06N 3/047"
+    ],
+    "all": [
+      "G06N 3/063",
+      "G06F 7/52",
+      "G06F 9/4843",
+      "G06F 16/9024",
+      "G06F 17/16",
+      "G06F 18/214",
+      "G06N 3/04",
+      "G06N 3/044",
+      "G06N 3/045",
+      "G06N 3/08",
+      "G06N 3/084",
+      "G06N 20/00",
+      "G06T 1/20",
+      "G06T 15/005",
+      "G06N 3/047"
+    ],
+    "source": "converted"
+  }
+}

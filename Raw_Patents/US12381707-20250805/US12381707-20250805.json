@@ -1,0 +1,18 @@
+{
+  "title": "Data stream processing method and apparatus",
+  "abstract": "A method includes periodically inserting another AM into a data stream (DS) to obtain a second DS, and the first data stream includes a first alignment marker (AM); sending the second DS through physical lanes (PLs), where a quantity of the PLs is not equal to 2n, where the second AM's insertion period and each second AM's size is based on condition 1 or 2, where condition 1 is the quantity of the PLs, where condition 2 is condition 1 and a ratio of the second DS's rate to the first DS's rate, the second AM's insertion period and each second AM's size is an integer multiple of the quantity of the PLs, and where the second DS's rate is not less than the first DS's rate, and traffic per unit time corresponding to the rate of the second DS is an integer multiple of the quantity of the PLs.",
+  "claims": "1. A method, comprising: obtaining, by a first chip, a first data stream, wherein the first data stream comprises a first alignment marker; periodically inserting, by the first chip, a second alignment marker into the first data stream to obtain a second data stream; and sending, by the first chip, the second data stream through a plurality of physical lanes, wherein a quantity of the physical lanes is not limited to 2 n , wherein n is a positive integer, wherein a first insertion period of each second alignment marker and a size of the each second alignment marker are based on one or more of a first condition and a second condition, wherein the first condition is the quantity of the physical lanes, wherein the second condition is the quantity of the physical lanes and a ratio of a second rate of the second data stream to a first rate of the first data stream, wherein the first insertion period and the size of the each second alignment marker is an integer multiple of the quantity of the physical lanes, wherein the second rate is greater than or equal to the first rate, and wherein traffic per unit time that corresponds to the second rate is an integer multiple of the quantity of the physical lanes.",
+  "patent_id": "US12381707-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 7/0041",
+      "H04L 1/0041"
+    ],
+    "all": [
+      "H04L 7/0041",
+      "H04L 1/0041"
+    ],
+    "source": "converted"
+  }
+}

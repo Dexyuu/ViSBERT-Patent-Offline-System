@@ -1,0 +1,20 @@
+{
+  "title": "System and method for securely dispensing medication",
+  "abstract": "A system and method for securely dispensing medication are described herein. The system includes a telemedicine center that communicates with medical assistant station and a medication distribution station located at a correctional facility and a physician center remote to the correctional facility. The medical assistant station transmits a request for medication to the telemedicine center. The telemedicine center verifies an identity of the medical assistant requesting the medication and transmits the request to the physician center. When the telemedicine center receives a confirmation to dispense medicine from the physician center, an identity of the physician transmitting the confirmation is verified. The telemedicine center then verifies an identity of an inmate to receive the medication, by way of the medication distribution station, and allows the medication distribution station to dispense the medication.",
+  "claims": "1. A telemedicine system for a correctional facility, comprising: a telemedicine server comprising at least one processor and/or circuit configured to: receive a medication request to dispense medication for an inmate at the correctional facility; transmit the medication request to a physician center remote from the correctional facility for verification of the medication request; receive, from the physician center, a reply to the medication request indicating whether to dispense the medication; and verify an authenticity of the reply to the medication request by comparing a model number of a transmitting device with identity data of physicians; and a medication dispensing station comprising a processor and a medication dispensing device, wherein the processor is configured to: verify an identity of the inmate; determine whether the identity of the inmate corresponds to the medication request; and in response to the determination, generate instructions for a medical assistant associated with the medication dispensing station to load the medication in the medication dispensing device according to a distribution schedule; and control the medication dispensing device to dispense the medication to the inmate according to the distribution schedule based on the reply and the determination.",
+  "patent_id": "US12380523-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 50/26",
+      "G16H 20/13",
+      "G16H 40/67"
+    ],
+    "all": [
+      "G06Q 50/26",
+      "G16H 20/13",
+      "G16H 40/67"
+    ],
+    "source": "converted"
+  }
+}

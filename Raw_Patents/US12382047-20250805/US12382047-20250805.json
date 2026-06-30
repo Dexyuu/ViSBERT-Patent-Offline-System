@@ -1,0 +1,22 @@
+{
+  "title": "Methods and devices for quantization and de-quantization design in video coding",
+  "abstract": "A method for video encoding is provided. The method may be applied in an encoder and includes: determining, for a first coding block, a quantization parameter and a quantized level; deriving a scale value by scaling the quantization parameter by a scale factor; determining a plurality of parameters associated with a coding unit (CU); obtaining a plurality of bit-shifts by bit-shifting the plurality of parameters; and obtaining a plurality of coefficients associated with the CU based on the quantized level, the scale value, and the plurality of bit-shifts.",
+  "claims": "1. A method for video encoding, comprising: determining, for a first coding block, a quantization parameter and a quantized level; deriving a scale value by looking up a scale level table based on the quantization parameter; and in response to determining that the first coding block is coded in a transform skip mode, obtaining a residual sample for a sample in the first coding block based on the quantized level, the scale value and a plurality of bit-shifts by applying a first de-quantization operation, wherein the first de-quantization operation is also applied to obtain a reconstructed sample for an escape sample in a second coding block coded in a palette mode; and wherein parameters of the first de-quantization operation are determined without a block size of the first coding block or the second coding block.",
+  "patent_id": "US12382047-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/126",
+      "H04N 19/159",
+      "H04N 19/186",
+      "H04N 19/196"
+    ],
+    "all": [
+      "H04N 19/126",
+      "H04N 19/159",
+      "H04N 19/186",
+      "H04N 19/196"
+    ],
+    "source": "converted"
+  }
+}

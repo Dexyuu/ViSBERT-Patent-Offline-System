@@ -1,0 +1,30 @@
+{
+  "title": "System, method, and apparatus for providing optimized network resources",
+  "abstract": "Systems, methods, and apparatuses for providing optimization of network resources. The system is operable to monitor the electromagnetic environment, analyze the electromagnetic environment, and extract environmental awareness of the electromagnetic environment. The system extracts the environmental awareness of the electromagnetic environment by including customer goals. The system is operable to use the environmental awareness with the customer goals and/or user defined policies and rules to extract actionable information to help the customer optimize the network resources.",
+  "claims": "1. A system for spectrum management in an electromagnetic environment comprising: at least one sensor configured to detect signal information from the electromagnetic environment; at least one data analysis engine configured to analyze the detected signal information; wherein the detected signal information includes a center frequency and bandwidth of at least one signal; and wherein the at least one data analysis engine is configured to obtain statistical information and analyze possible interactions based on the center frequency and the bandwidth of each signal to create analyzed data; a Multi-Access Edge Computing (MEC) layer in a network slice, wherein the MEC layer is in communication with a radio access network (RAN) and a core network; a machine learning (ML) engine in communication with the at least one data analysis engine configured to make predictions about the electromagnetic environment based on the analyzed data; and a wireless network resource optimization application in the MEC layer configured to use the analyzed data from the at least one data analysis engine and the predictions about the electromagnetic environment from the ML engine to create actionable data for optimizing network resources.",
+  "patent_id": "US12382299-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 16/10",
+      "H04W 16/14",
+      "H04W 24/02",
+      "H04W 24/04",
+      "H04W 24/08",
+      "H04W 28/0925",
+      "H04W 28/0967",
+      "H04W 72/0453"
+    ],
+    "all": [
+      "H04W 16/10",
+      "H04W 16/14",
+      "H04W 24/02",
+      "H04W 24/04",
+      "H04W 24/08",
+      "H04W 28/0925",
+      "H04W 28/0967",
+      "H04W 72/0453"
+    ],
+    "source": "converted"
+  }
+}

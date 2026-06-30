@@ -1,0 +1,38 @@
+{
+  "title": "Written-modality prosody subsystem in a natural language understanding (NLU) framework",
+  "abstract": "Present embodiment include a prosody subsystem of a natural language understanding (NLU) framework that is designed to analyze collections of written messages for various prosodic cues to break down the collection into a suitable level of granularity (e.g., into episodes, sessions, segments, utterances, and/or intent segments) for consumption by other components of the NLU framework, enabling operation of the NLU framework. These prosodic cues may include, for example, source prosodic cues that are based on the author and the conversation channel associated with each message, temporal prosodic cues that are based on a respective time associated with each message, and/or written prosodic cues that are based on the content of each message. For example, to improve the domain specificity of the agent automation system, intent segments extracted by the prosody subsystem may be consumed by a training process for a ML-based structure subsystem of the NLU framework.",
+  "claims": "1. A method of operating a natural language understanding (NLU) framework, comprising: receiving, via a prosody subsystem of the NLU framework, a conversation log comprising a plurality of written messages; dividing, via the prosody subsystem, a subset of the conversation log into a plurality of sessions based at least in part on temporal prosodic cues of the plurality of written messages, written prosodic cues of the plurality of written messages, a threshold delay stored in a database, a threshold number of messages stored in the database, or any combination thereof, the temporal prosodic cues indicating whether a delay between written messages of the plurality of written messages exceeds the threshold delay, whether a number of written messages sent within a time window exceeds the threshold number of messages, or both; dividing, via the prosody subsystem, each of the plurality of sessions into a plurality of conversation segments based at least in part on the temporal prosodic cues of the plurality of written messages, the written prosodic cues of the plurality of written messages, or any combination thereof; and providing the plurality of sessions, the plurality of conversation segments, or any combination thereof, to a behavior engine of the NLU framework, wherein the behavior engine is configured to generate episodic context information based on the plurality of sessions, the plurality of conversation segments, or the combination thereof.",
+  "patent_id": "US12380277-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 40/30",
+      "G06F 40/205",
+      "G06F 40/211",
+      "G06N 5/022",
+      "G06N 20/00",
+      "G10L 15/19",
+      "G10L 15/22",
+      "G10L 15/16",
+      "G10L 15/1807",
+      "G10L 15/1822",
+      "G10L 2015/223",
+      "G10L 2015/225"
+    ],
+    "all": [
+      "G06F 40/30",
+      "G06F 40/205",
+      "G06F 40/211",
+      "G06N 5/022",
+      "G06N 20/00",
+      "G10L 15/19",
+      "G10L 15/22",
+      "G10L 15/16",
+      "G10L 15/1807",
+      "G10L 15/1822",
+      "G10L 2015/223",
+      "G10L 2015/225"
+    ],
+    "source": "converted"
+  }
+}

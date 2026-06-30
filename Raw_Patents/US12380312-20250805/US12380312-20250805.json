@@ -1,0 +1,18 @@
+{
+  "title": "Multi-task neural network by micro-structured parameter sharing for multi-quality loop filter",
+  "abstract": "Video processing with a multi-quality loop filter using a multi-task neural network is performed by at least one processor and includes generating a first set of masked weight parameters, based on an input and a plurality of quantization parameter values with a corresponding first set of masks and first plurality of weight parameters, for a first set of shared neural network layers, selecting a second set of task specific neural network layers for the plurality of quantization parameter values with a second plurality of weight parameters, based on the plurality of quantization parameter values, computing an inference output, based on the first set of masked weight parameters and the second plurality of weight parameters, and outputting the computed inference output as an enhanced result.",
+  "claims": "1. A method of processing a video with a multi-quality loop filter using a multi-task neural network, the method being performed by at least one processor, and the method comprising: generating a first set of masked weight parameters, based on an input and a plurality of quantization parameter values with a first set of masks and first plurality of weight parameters, for a first set of layers of a neural network; selecting a second set of layers of the neural network for the plurality of quantization parameter values with a second plurality of weight parameters, based on the plurality of quantization parameter values; computing an inference output, based on the first set of masked weight parameters and the second plurality of weight parameters; and outputting the computed inference output, wherein the neural network is trained by updating one or more of the first plurality of weight parameters that are not respectively masked by the first set of masks, to minimize a distortion loss that is determined based on the input, the inference output and a respective quantization parameter value, and wherein the neural network is further trained by: pruning the updated one or more of the first plurality of weight parameters not respectively masked by the first set of masks to obtain binary pruning masks indicating which of the first plurality of weight parameters are pruned; and updating at least one of the first plurality of weight parameters that are not respectively masked by the first set of masks and the obtained binary pruning masks, to minimize the distortion loss.",
+  "patent_id": "US12380312-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 3/04",
+      "G06N 3/082"
+    ],
+    "all": [
+      "G06N 3/04",
+      "G06N 3/082"
+    ],
+    "source": "converted"
+  }
+}

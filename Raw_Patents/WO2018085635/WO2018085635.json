@@ -1,0 +1,38 @@
+{
+  "application_id": "WO2018085635",
+  "application_id_fs": "WO2018085635",
+  "title": "Methods for efficient power saving for wake up radios",
+  "abstract": "Exemplary embodiments disclosed herein provide procedures for power efficient and rapid access point (AP) discovery using wake up radios. Additional embodiments provide procedures for securely waking up stations (STAs) using wake up radios (WURs). Methods are further described herein for coverage range detection and STA roaming for wake up radios. Further embodiments relate to procedures for coexistence for wake up radios and primary connectivity radios.",
+  "claims": "Claims CLAIMS  What is Claimed: 1. A method performed by a station (STA) equipped with a wake-up radio (WUR) and a primary connectivity radio (PCR), the method comprising: while the PCR is in a sleep state, receiving a wake-up frame on the WUR, wherein the wake-up frame includes a security field; determining whether the wake-up frame is valid based at least in part on information in the security field; and waking up the PCR only if a determination is made that the wake-up frame is valid. 2. The method of claim 1 , further comprising: before the PCR enters the sleep state, transmitting a challenge phrase from the PCR; wherein the waking up of the PCR is performed only if a response phrase in the security field corresponds to the transmitted challenge phrase. 3. The method of claim 1 , further comprising: before the PCR enters the sleep state, transmitting a security pass phrase from the PCR; wherein the wake-up frame is determined to be valid only if the security field includes the transmitted security pass phrase. 4. The method of claim 1 , wherein the wake-up frame further includes an SSID/BSSID, and wherein the waking up of the PCR is performed only if the SSID/BSSID in the wake-up frame is an SSID/BSSID of the STA. 5. The method of claim 1 , wherein the STA is an access point, wherein the wake-up frame includes an uplink/downlink indicator, and wherein the waking up of the PCR is performed only if the uplink/downlink indicator indicates an uplink transmission. 6. The method of claim 1 , wherein the STA is a non-access-point STA, wherein the wake-up frame includes an uplink/downlink indicator, and wherein the waking up of the PCR is performed only if the uplink/downlink indicator indicates a downlink transmission. 7. The method of claim 1 , wherein the STA is an access point associated with a responding schedule, and wherein the waking up of the PCR is performed only if the wake-up frame is received during a scheduled responding time for the access point in the responding schedule. 8. The method of claim 1 , wherein the STA is an access point associated with a responding schedule, and wherein the waking up of the PCR is performed only if (i) the wake-up frame is received during a scheduled responding time for the access point or (ii) an SSID/BSSID received in the wake-up frame is an SSID/BSSID of the access point. 9. The method of claim 1 , wherein the STA is an access point and the wake-up frame includes a received access point configuration sequence number (CSN), the method further comprising: in response to the wake-up frame, sending from the PCR an indication of whether the received CSN is a current CSN. 10. The method of claim 1 , further comprising, in response to the wake-up frame, sending a probe response frame from the PCR. 11. The method of claim 1 , further comprising, in response to the wake-up frame, transmitting a beacon from the PCR. 12. A station (STA) equipped with a wake-up radio (WUR) and a primary connectivity radio (PCR), the STA being configured to perform functions comprising: while the PCR is in a sleep state, receiving a wake-up frame on the WUR, wherein the wake-up frame includes a security field; determining whether the wake-up frame is valid based at least in part on information in the security field; and waking up the PCR only if a determination is made that the wake-up frame is valid. 13. The STA of claim 12, wherein the STA is further configured to perform functions comprising: before the PCR enters the sleep state, transmitting a challenge phrase from the PCR; wherein the waking up of the PCR is performed only if a response phrase in the security field corresponds to the transmitted challenge phrase. 14. The STA of claim 12, wherein the STA is further configured to perform functions comprising: before the PCR enters the sleep state, transmitting a security pass phrase from the PCR; wherein the wake-up frame is determined to be valid only if the security field includes the transmitted security pass phrase. 5. The STA of claim 12, wherein the wake-up frame further includes an SSID/BSSID, and wherein the waking up of the PCR is performed only if the SSID/BSSID in the wake-up frame is an SSID/BSSID of the access point.",
+  "classifications": {
+    "ipc": [
+      "H04W 52/00",
+      "H04W 52/02",
+      "H04W 52/0209",
+      "H04W 52/0225",
+      "H04W 52/0248",
+      "H04W 52/0229",
+      "H04W 52/0235",
+      "H04W 52/0251",
+      "H04W 52/0261",
+      "H04W 52/0274",
+      "H04W 52/028"
+    ],
+    "cpc": [],
+    "all": [
+      "H04W 52/00",
+      "H04W 52/02",
+      "H04W 52/0209",
+      "H04W 52/0225",
+      "H04W 52/0248",
+      "H04W 52/0229",
+      "H04W 52/0235",
+      "H04W 52/0251",
+      "H04W 52/0261",
+      "H04W 52/0274",
+      "H04W 52/028"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018085635"
+}

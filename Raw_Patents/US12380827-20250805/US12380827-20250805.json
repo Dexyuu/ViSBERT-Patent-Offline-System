@@ -1,0 +1,24 @@
+{
+  "title": "Display device and operation method thereof",
+  "abstract": "According to an embodiment, a display device includes a controller that performs conversion of RGB data of an input image based on an RGB curve, and a display that outputs an image with RGB data converted based on the RGB curve, wherein the controller may apply different RGB curves to each pixel according to saturation information of each of pixels of the input image.",
+  "claims": "1. A display device comprising: a controller configured to perform conversion of red green blue (RGB) data of an input image based on an RGB curve, the input image including a plurality of pixels; and a display configured to output an image with RGB data that has been converted based on the RGB curve, wherein the controller is further configured to apply pixel-specific RGB curves to each pixel of the plurality of pixels according to corresponding pixel-specific saturation information, wherein each of the pixel-specific RGB curves comprises one of: an RGB curve that is convex upward as saturation of a corresponding pixel decreases based on an x-axis of the RGB curve being an input and a y-axis of the RGB curve being an output, or an RGB curve in which an output is higher than an input as saturation of a corresponding pixel decreases.",
+  "patent_id": "US12380827-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/2003",
+      "G09G 2320/0242",
+      "G09G 2320/0666",
+      "G09G 2330/021",
+      "G09G 2360/16"
+    ],
+    "all": [
+      "G09G 3/2003",
+      "G09G 2320/0242",
+      "G09G 2320/0666",
+      "G09G 2330/021",
+      "G09G 2360/16"
+    ],
+    "source": "converted"
+  }
+}

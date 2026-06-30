@@ -1,0 +1,26 @@
+{
+  "title": "Image decoding method and device using DPB parameter for OLS",
+  "abstract": "An image decoding method performed by a decoding device according to the present document comprises the steps of: obtaining image information including an output layer set (OLS) decoded picture buffer (DPB) parameter index for a target OLS and DPB parameter information; deriving DPB parameter information for the target OLS on the basis of the OLS DPB parameter index; performing a picture management process on pictures of a DPB on the basis of the DPB parameter information for the target OLS; configuring a reference picture list for a current picture on the basis of the pictures of the DPB; and performing an inter prediction on a block in the current picture on the basis of the reference picture list.",
+  "claims": "1. An image decoding method performed by a decoding apparatus, the method comprising: obtaining image information including Decoded Picture Buffer (DPB) parameter syntax structures and an Output Layer Set (OLS) DPB parameter index for a target OLS; deriving DPB parameter syntax structure for the target OLS based on the OLS DPB parameter index; performing a picture management process for pictures of a DPB based on the DPB parameter syntax structure for the target OLS; constructing a reference picture list for a current picture based on the pictures of the DPB; and performing inter prediction for a block in the current picture based on the reference picture list, wherein the OLS DPB parameter index specifies the DPB parameter syntax structure for the target OLS among the DPB parameter syntax structures, wherein an OLS DPB parameter flag for whether the DPB parameter syntax structure for the target OLS is present in a Video Parameter Set (VPS) syntax is obtained, wherein the OLS DPB parameter syntax structure is obtained in the VPS syntax based on a value of the OLS DPB parameter flag, wherein the OLS DPB parameter flag is obtained based on a number of layers.",
+  "patent_id": "US12382022-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/105",
+      "H04N 19/132",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/46",
+      "H04N 19/70"
+    ],
+    "all": [
+      "H04N 19/105",
+      "H04N 19/132",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/46",
+      "H04N 19/70"
+    ],
+    "source": "converted"
+  }
+}

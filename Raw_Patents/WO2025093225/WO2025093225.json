@@ -1,0 +1,28 @@
+{
+  "application_id": "WO2025093225",
+  "application_id_fs": "WO2025093225",
+  "title": "Electronic circuit, positioning system, substrate handling apparatus and method for braking movement of a movable object",
+  "abstract": "The invention provides an electronic circuit for powering a coil or coil set of an electromagnetic motor. The electronic circuit comprises a normal operating circuit to be used during a normal operating mode, a braking circuit to be used during an emergency mode, and a switch device for switching between the normal operating mode and the emergency mode. In the normal operating mode, the electronic circuit is configured to supply a power to the coil or coil set. In the emergency mode, the electronic circuit is configured to short circuit the coil or coil set across the braking circuit. The braking circuit is arranged to create a negative resistance or negative impedance to increase the braking force.",
+  "claims": "Claims 1. An electronic circuit for powering a coil or coil set of an electromagnetic motor, wherein the electronic circuit comprises: a normal operating circuit to be used during a normal operating mode, a braking circuit to be used during an emergency mode, and a switch device for switching between the normal operating mode and the emergency mode, wherein in the normal operating mode, the electronic circuit is configured to supply a power to the coil or coil set, and in the emergency mode, the electronic circuit is configured to short circuit the coil or coil set across the braking circuit, wherein the braking circuit is arranged to create a negative resistance or negative impedance. 2. The electronic circuit of claim 1, wherein in the emergency mode the electronic circuit is configured as a negative impedance converter. 3. The electronic circuit of claim 1 or 2, wherein the normal operating circuit comprises a first amplifier to provide the power to the coil or coil set based on an input signal fed into an input of the first amplifier. 4. The electronic circuit of claim 3, wherein the switch device comprises a switch arranged to connect in the normal operating mode the first amplifier to the coil or coil set and to connect in the emergency mode the braking circuit to the coil or coil set. 5. The electronic circuit of claim 4, wherein the braking circuit comprises a second amplifier. 6. The electronic circuit of claim 2, wherein the electronic circuit comprises an amplifier configured to provide, in the normal operating mode, the power to the coil or coil set based on an input signal fed into an input of the amplifier, and to function, in the emergency mode, as amplifier of the negative impedance converter. 7. The electronic circuit of claim 6, wherein the switch device comprises a first switch and a second switch, wherein, in the normal operating mode, the first switch is arranged to connect the amplifier to an input device configured to provide the input signal to the input of the amplifier and the second switch is arranged to bypass a resistor of the negative impedance converter, and \n\n wherein, in the emergency mode, the first switch and second switch are arranged to create a negative impedance converter configuration. 8. The electronic circuit of any of the claims 1-7, wherein the switch device is configured to be arranged in the normal operating mode or the emergency mode in dependence of a switch device control signal provided by a controller, wherein the switch device is configured to switch from the normal operating mode to the emergency mode when the switch device control signal indicates an emergency. 9. The electronic circuit of any of the claims 1-8, wherein the switch device is arranged to have the emergency mode as default mode. 10. A positioning system for positioning a movable object, wherein the positioning system comprises an electromagnetic motor and the electronic circuit of any of the preceding claims for powering a coil or coil set of the electromagnetic motor. 11. The positioning system of claim 10, wherein the positioning system comprises a controller configured to provide a switch device control signal to control the switch device to switch between the normal operating mode and the emergency mode. 12. A substrate handling apparatus, for example a lithographic apparatus, comprising the positioning system of claim 10 or 11. 13. The substrate handling apparatus of claim 12, wherein the movable object is a substrate support, a patterning device support, a patterning device masking blade, or a substrate handler. 14. A method for braking movement of a movable object actuated by an electromagnetic motor, wherein the method comprises the step of: switching from a normal operating mode, in which an electronic circuit is configured to supply a power to a coil or coil set of the electromagnetic motor, to an emergency mode, in which the electronic circuit is configured to short circuit the coil or coil set across a braking circuit, wherein the braking circuit is arranged to create a negative resistance or negative impedance. 15. The method of claim 14, wherein the step of switching from the normal operating mode to the emergency mode is carried out in an emergency situation.",
+  "classifications": {
+    "ipc": [
+      "H02P 3/00",
+      "H02P 3/06",
+      "H02P 3/18",
+      "H02P 3/22",
+      "H02P 6/00",
+      "H02P 6/24"
+    ],
+    "cpc": [],
+    "all": [
+      "H02P 3/00",
+      "H02P 3/06",
+      "H02P 3/18",
+      "H02P 3/22",
+      "H02P 6/00",
+      "H02P 6/24"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025093225"
+}

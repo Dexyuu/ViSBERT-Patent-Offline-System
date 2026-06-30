@@ -1,0 +1,40 @@
+{
+  "title": "Pancreatic postoperative diabetes prediction system based on supervised deep subspace learning",
+  "abstract": "A pancreatic postoperative diabetes prediction system based on supervised deep subspace learning. A deep convolutional neural network and the MITK software are used to obtain postoperative residual pancreas area, so as to taken as the region-of-interest. Traditional image radiomics features and deep semantic features are extracted from the residual pancreas area, and a high-dimensional image feature set is constructed. Clinical factors related to diabetes, including pancreatic excision rate, fat and muscle tissue components, demographic information and living habits are extracted, and a clinical feature set is constructed. Based on a supervised deep subspace learning network, image and clinical features are represented and fused in subspace in dimensionality reduction, while a prediction model is trained to mine sensitive features highly relevant to the prediction risk of a patient suffering postoperative diabetes mellitus with a high degree of automation and discriminative accuracy.",
+  "claims": "1. A pancreatic postoperative diabetes prediction system based on supervised deep subspace learning, comprising a preoperative CT image data acquisition module, a residual pancreatic region of interest acquisition module, an image feature calculation module, a clinical feature calculation module and a deep subspace learning module; wherein the preoperative CT image data acquisition module is configured to acquire CT image data before a pancreatectomy, and input the CT image data into the residual pancreatic region of interest acquisition module and the image feature calculation module; wherein the residual pancreatic region of interest acquisition module is configured to input preoperative CT image data into a trained pancreas segmentation network to obtain a pancreas prediction region; in the pancreas prediction region, an excised edge of a pancreas is simulated by software to obtain a residual pancreatic region after the pancreatectomy, and input the residual pancreatic region, as a region of interest for a subsequent calculation of an image feature, into the image feature calculation module; wherein the image feature calculation module is configured to calculate a pancreatic image feature according to the preoperative CT image data and a region of interest of the image feature, and input the pancreatic image feature to the deep subspace learning module; wherein the clinical feature calculation module is configured to acquire clinical information related to postoperative diabetes of a patient, comprising demographic information, pancreatic volume resection rate, pancreatic residual volume and abdominal fat and muscle content features, perform feature concatenation to form a clinical feature, and input the clinical feature into the deep subspace learning module; and wherein the deep subspace learning module is configured to perform feature dimensionality reduction and fusion through a deep subspace learning network, the deep subspace learning network comprises an encoder, a latent spatial variable self-representative layer and a decoder, and for supervising a learning of the latent spatial variable self-representative layer; the deep subspace learning network inputs the pancreatic image feature and the clinical feature, outputs a latent spatial variable through the encoder, connects the latent spatial variable output by the encoder with a fully connected layer, and effects an activation function to obtain a predicted value of diabetes risk; a loss function of the deep subspace learning network in the deep subspace learning module is:",
+  "patent_id": "US12381007-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16H 50/20",
+      "A61B 6/50",
+      "A61B 6/5217",
+      "G06T 5/20",
+      "G06T 7/0016",
+      "G06T 7/11",
+      "G06T 7/13",
+      "A61B 6/032",
+      "G06T 2207/10081",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/20221",
+      "G06T 2207/30092"
+    ],
+    "all": [
+      "G16H 50/20",
+      "A61B 6/50",
+      "A61B 6/5217",
+      "G06T 5/20",
+      "G06T 7/0016",
+      "G06T 7/11",
+      "G06T 7/13",
+      "A61B 6/032",
+      "G06T 2207/10081",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/20221",
+      "G06T 2207/30092"
+    ],
+    "source": "converted"
+  }
+}

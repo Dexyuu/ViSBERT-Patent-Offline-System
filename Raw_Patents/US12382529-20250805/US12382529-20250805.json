@@ -1,0 +1,18 @@
+{
+  "title": "Type of radio bearer causing operations in wireless communication",
+  "abstract": "The present application discloses a method and a device for wireless communications, including detecting invalidation of a first bearer; the first bearer being associated with a first cell group; and as a response to the action of detecting invalidation of a first bearer, executing a first operation set, the first operation set being related to a type of the first bearer; and transmitting first information as a response to the action of detecting invalidation of a first bearer; the first information being used to indicate the invalidation of the first bearer; and transmitting a second message as a response to all conditions in a first condition set being satisfied; the second message indicating existence of available information. The present application helps network optimization by detecting invalidation of the first bearer and executing the first operation set, thus enhancing the communication reliability and avoiding interruption.",
+  "claims": "1. A first node for wireless communications, comprising: a first receiver, detecting invalidation of a first bearer, the first bearer being associated with a first cell group; and as a response to the action of detecting invalidation of the first bearer, executing a first operation set, the first operation set being related to a type of the first bearer; and a first transmitter, transmitting first information as the response to the action of detecting invalidation of the first bearer, the first information being used to indicate the invalidation of the first bearer, and transmitting a second message as a response to all conditions in a first condition set being satisfied, the second message indicating existence of available information, wherein the first cell group is a Master Cell Group (MCG); the first condition set comprises a first state variable storing the available information; the first operation set being related to a type of the first bearer comprises as follows; when the first bearer is a first-type bearer, the first operation set comprises at least one of re-establishing an Radio link Control (RLC) entity associated with the first bearer or storing information for the invalidation of the first bearer in the first state variable; when the first bearer is a second-type bearer, the first operation set comprises at least releasing an RLC entity associated with the first bearer, wherein the transmitting the first information occurs on a second bearer, wherein the second bearer is associated with the first cell group, wherein the first bearer is the second-type bearer using a sidelink, and the second bearer is the first-type bearer using a primary link, wherein an RLC entity associated with the first-type bearer is an RLC entity of a Uu interface, an RLC entity associated with the second-type bearer is an RLC entity of a PC5 interface, wherein a signaling radio bearer 1 (SRB1) of the first node is simultaneously associated with the first bearer and the second bearer.",
+  "patent_id": "US12382529-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/19",
+      "H04W 40/22"
+    ],
+    "all": [
+      "H04W 76/19",
+      "H04W 40/22"
+    ],
+    "source": "converted"
+  }
+}

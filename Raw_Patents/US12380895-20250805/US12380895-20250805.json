@@ -1,0 +1,34 @@
+{
+  "title": "Analysing speech signals",
+  "abstract": "A method of analysis of an audio signal comprises: receiving an audio signal representing speech; extracting first and second components of the audio signal representing first and second acoustic classes of the speech respectively; analyzing the first and second components of the audio signal with models of the first and second acoustic classes of the speech of an enrolled user. Based on the analyzing, information is obtained information about at least one of a channel and noise affecting the audio signal.",
+  "claims": "1. A method of analysis of an audio signal, the method comprising: receiving an audio signal representing speech of an enrolled user; extracting first and second components of the audio signal, the first component comprising first features exclusively representing a first acoustic classes of the speech, the second component comprising second features exclusively representing a second acoustic class of the speech, the first acoustic class of speech being different to the second acoustic class of speech; analysing the extracted first component of the audio signal with a first model of speech of an enrolled user in the first acoustic class and the extracted second component of the audio signal with a second model of speech of the enrolled user in the second acoustic class, wherein analysing the first and second components of the audio signal with the first and second models of the speech of the enrolled user comprises comparing magnitudes of the first and second components at a number of predetermined frequencies with magnitudes in the first and second models at the number of predetermined frequencies; based on said comparison, determining a frequency spectrum of a multiplicative disturbance component affecting the first and second components of said audio signal or a frequency spectrum of an additive disturbance component affecting the first and second components of said audio signal; and compensating the received audio signal for the frequency spectrum of the multiplicative disturbance component or the additive disturbance component to obtain a compensated received audio signal.",
+  "patent_id": "US12380895-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 17/22",
+      "G10L 17/00",
+      "G10L 17/02",
+      "G10L 17/06",
+      "G10L 25/48",
+      "G10L 25/51",
+      "G10L 25/84",
+      "G10L 25/18",
+      "G10L 25/30",
+      "G10L 25/93"
+    ],
+    "all": [
+      "G10L 17/22",
+      "G10L 17/00",
+      "G10L 17/02",
+      "G10L 17/06",
+      "G10L 25/48",
+      "G10L 25/51",
+      "G10L 25/84",
+      "G10L 25/18",
+      "G10L 25/30",
+      "G10L 25/93"
+    ],
+    "source": "converted"
+  }
+}

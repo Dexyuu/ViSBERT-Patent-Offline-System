@@ -1,0 +1,18 @@
+{
+  "title": "Data maximum/minimum value aggregation method and system for privacy protection",
+  "abstract": "The present disclosure provides a data maximum/minimum value (max/min) aggregation method and system for privacy protection. A Paillier cryptosystem is used to encrypt user data, so as to protect privacy and security of user health data. Further, time aggregation is implemented to help a control center obtain an overall health condition of a client in one aggregation period. By using a homomorphic property of the Paillier cryptosystem, the present disclosure implements aggregation of a max/min of privacy protection, and helps the control center obtain a max or a min of health data of the client in the aggregation period.",
+  "claims": "1. A data maximum/minimum value (max/min) aggregation method for privacy protection, comprising: generating, by a trusted authority, a public key (N, g) and a private key (λ, μ) of a Paillier cryptosystem, exposing the public key (N, g), and sending the private key (λ, μ) to a control center through a secure channel; encrypting, by a client, health data d of the client by using the public key (N, g), generating a health data report, and uploading the health data report to a fog node, over one or more aggregation periods, wherein in each aggregation period, the client uploads health data reports n times, an i th health data report received for an i th time is health data report c i , and c i =Enc(d i ); determining, by the fog node, whether the health data report c i received for the i th time is equal to a health data report c 1 received for a first time, wherein when the health data report c; received for the i th time is equal to the health data report c 1 received for the first time, a max/min report M of the health data is the health data report c 1 received for the first time; when the health data report c i received for the i th time is greater than or less than the health data report c 1 received for the first time, obtaining, by the fog node, encrypted data Enc(l), and uploading the encrypted data Enc(l) to the control center; decrypting, by the control center, the encrypted data Enc(l) by using the private key (λ, μ) to obtain decrypted data l, determining a value of a first generation number based on the decrypted data l, and sending the value of the first generation number to the fog node; when the value of the first generation number is equal to a value of a second generation number, determining, by the fog node, that the max/min report of the health data is the health data report c i received for the i th time, wherein the second generation number is a random number generated when the fog node obtains the encrypted data Enc(l); when the value of the first generation number is not equal to the value of the second generation number, determining, by the fog node, that the max/min report M of the health data is the health data report c 1 received for the first time; after each aggregation period ends, aggregating, by the fog node, the health data reports, to obtain an aggregated health data report C, and sending the aggregated health data report C and the max/min report M to the control center, wherein C=Π i=1 n c i , n is a total quantity of times of uploading the health data reports in one aggregation period; and decrypting, by the control center, the aggregated health data report C and the max/min report M by using the private key (λ, μ), to obtain a time aggregation result and a max/min result of the health data.",
+  "patent_id": "US12381724-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/0869",
+      "H04L 9/0825"
+    ],
+    "all": [
+      "H04L 9/0869",
+      "H04L 9/0825"
+    ],
+    "source": "converted"
+  }
+}

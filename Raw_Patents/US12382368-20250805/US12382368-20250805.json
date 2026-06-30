@@ -1,0 +1,22 @@
+{
+  "title": "Wireless access point proximity zones",
+  "abstract": "Techniques are described by which a network management system (NMS) is configured to generate and monitor an RSSI-based proximity zone for a wireless network using a user interface (UI). The NMS may generate a UI comprising UI elements representing access point (AP) devices configured to provide a wireless network at a site; receive, at the user interface, an indication of a user input selecting one or more UI elements representing selected AP devices; establish a proximity zone for each of the selected AP devices based on an RSSI threshold value; receive network data comprising proximity information of a client device relative to the selected AP devices; generate, based on proximity assessments using the proximity information and the RSSI threshold value of the proximity zone, one or more proximity events indicating the client device relation to the proximity zone; and invoke, based on the proximity events, one or more actions.",
+  "claims": "1. A network management system comprising: one or more processors; and a memory comprising instructions that when executed by the one or more processors cause the one or more processors to: generate data representative of a user interface (UI) for display on a display device, the data representative of the UI comprising UI elements overlaid on a site map, wherein the UI elements represent a plurality of access point (AP) devices configured to provide a wireless network at a site corresponding to the site map; receive, via the user interface on the display device, an indication of a user input selecting one or more of the UI elements overlaid on the site map, wherein the selected one or more UI elements represent selected AP devices of the plurality of AP devices at the site; receive, via the user interface on the display device, an indication of a user input specifying a received signal strength indicator (RSSI) threshold value for each of the selected AP devices; establish, based on the user input selecting the one or more UI elements representing the selected AP devices overlaid on the site map and the user input specifying the RSSI threshold value for each of the selected AP devices, a proximity zone for each of the selected AP devices; generate data representative of a proximity zone UI element representing the proximity zone for each of the selected AP devices; receive, from an AP device of the selected AP devices, network data comprising proximity information of a client device relative to the AP device; generate, based on one or more proximity assessments using the proximity information and the RSSI threshold value of a corresponding proximity zone for the AP device, one or more proximity events indicating the client device relation to the corresponding proximity zone; and invoke, based on the one or more proximity events, one or more actions, wherein the one or more actions comprise generating data representative of one or more UI elements overlaid on the site map representing the client device in relation to the corresponding proximity zone.",
+  "patent_id": "US12382368-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 48/08",
+      "H04B 17/318",
+      "H04W 4/023",
+      "H04W 48/16"
+    ],
+    "all": [
+      "H04W 48/08",
+      "H04B 17/318",
+      "H04W 4/023",
+      "H04W 48/16"
+    ],
+    "source": "converted"
+  }
+}

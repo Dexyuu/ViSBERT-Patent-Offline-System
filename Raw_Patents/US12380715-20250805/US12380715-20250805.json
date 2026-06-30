@@ -1,0 +1,24 @@
+{
+  "title": "Image data annotation and model training platform",
+  "abstract": "A platform for data collection, and in particular image collection, and model building therefrom is disclosed. In examples, received media content data, including image data, may be assigned a context category, and one or more context-specific models may be used to automatically annotate the image. Accuracy monitoring of the image annotations may indicate a need to manually annotate images for subsequent training. A priority may be assigned to one or more images, such that images may be queued for additional annotation. Such additional annotations may be used for model retraining. In some instances, a separate classification model may be used to identify a context category for image data from among predetermined contexts.",
+  "claims": "1. A method, comprising: receiving input media content data including input image data, the input image data comprising at least one image, wherein the at least one image has an associated context category; automatically assigning, based at least in part on the context category of the at least one image, one or more annotations to the at least one image; determining whether the at least one image requires additional annotation based on an observed annotation accuracy threshold; if the at least one image does not require additional annotation: storing the at least one image and its assigned annotations in a central database, wherein the central database is accessible to a plurality of enterprise users; if the at least one image requires additional annotation: assigning a priority to the at least one image, based on one or more enterprise factors, wherein the priority includes a position in a queue of a plurality of images, wherein each of the plurality of images requires additional annotation; assigning, according to the assigned priority, one or more additional annotations to the at least one image; and storing the at least one image and its assigned annotations and additional annotations in the central database.",
+  "patent_id": "US12380715-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 20/70",
+      "G06V 10/764",
+      "G06V 10/768",
+      "G06V 10/774",
+      "G06V 10/776"
+    ],
+    "all": [
+      "G06V 20/70",
+      "G06V 10/764",
+      "G06V 10/768",
+      "G06V 10/774",
+      "G06V 10/776"
+    ],
+    "source": "converted"
+  }
+}

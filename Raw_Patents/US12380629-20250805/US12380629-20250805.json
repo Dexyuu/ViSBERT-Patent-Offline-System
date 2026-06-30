@@ -1,0 +1,36 @@
+{
+  "title": "Automated registration method of 3D facial scan data and 3D volumetric medical image data using deep learning and computer readable medium having program for performing the method",
+  "abstract": "An automated registration method of 3D facial scan data and 3D volumetric medical image data using deep learning, includes extracting scan landmarks from the 3D facial scan data using a convolutional neural network, extracting volume landmarks from the 3D volumetric medical image data using the convolutional neural network and operating an initial registration of the 3D facial scan data and the 3D volumetric medical image data using the scan landmarks and the volume landmarks.",
+  "claims": "1. An automated registration method of 3D facial scan data and 3D volumetric medical image data using deep learning, the method comprising: obtaining 3D facial scan data and 3D volumetric medical image data from respective imaging devices; generating two-dimensional (2D) depth images from the 3D facial scan data and the 3D volumetric medical image data; extracting scan landmarks from both 2D depth images and the 3D facial scan data, using a convolutional neural network; extracting volume landmarks from both 2D depth images and the 3D volumetric medical image data using the convolutional neural network; wherein the convolutional neural network processes the data without requiring manual segmentation; operating an initial registration of the 3D facial scan data and the 3D volumetric medical image data by automatically aligning the scan landmarks and the volume landmarks; and refining the alignment by adapting sampling points between the 3D facial scan data and the 3D volumetric medical image data to achieve sub-threshold distances.",
+  "patent_id": "US12380629-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 15/08",
+      "G06T 7/50",
+      "G06V 10/60",
+      "G06V 10/761",
+      "G06V 40/171",
+      "G06T 2207/10028",
+      "G06T 2207/10081",
+      "G06T 2207/10088",
+      "G06T 2207/10104",
+      "G06T 2207/20084",
+      "G06T 2207/30201"
+    ],
+    "all": [
+      "G06T 15/08",
+      "G06T 7/50",
+      "G06V 10/60",
+      "G06V 10/761",
+      "G06V 40/171",
+      "G06T 2207/10028",
+      "G06T 2207/10081",
+      "G06T 2207/10088",
+      "G06T 2207/10104",
+      "G06T 2207/20084",
+      "G06T 2207/30201"
+    ],
+    "source": "converted"
+  }
+}

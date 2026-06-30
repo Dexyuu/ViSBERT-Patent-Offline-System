@@ -1,0 +1,26 @@
+{
+  "title": "Method and system for vehicle sideslip angle estimation based on event-triggered state estimation",
+  "abstract": "A method and a system for vehicle sideslip angle estimation based on event-triggered state estimation are provided. The method includes: setting an observation variable, and adopting a Kalman filtering algorithm for iteration aiming at estimation of a vehicle yaw rate; in the iteration, setting a parameter to 1, indicating that an event is triggered, when a calculation of the observation variable satisfies a predetermined condition, otherwise setting the parameter to 0, indicating that the event is not triggered; when the parameter is set and a GPS heading angle is updated, estimating a state variable according to a formula, and calculating a vehicle sideslip angle according to the vehicle yaw rate obtained by adopting the Kalman filtering algorithm; and when the parameter is 1 and the GPS heading angle is not updated yet, estimating the vehicle sideslip angle by fusing measurement data of both a GPS and an IMU.",
+  "claims": "1. A method for vehicle sideslip angle estimation based on event-triggered state estimation, comprising: setting z k+1 =[x k +ω z IMU ·T; ω z IMU ] as an observation variable, and adopting a Kalman filtering algorithm for iteration aiming at estimation of an estimated vehicle yaw rate, wherein ω z IMU is a vehicle yaw rate measured by an Inertial Measurement Unit (IMU), T is a sampling cycle, x k is an estimated state variable obtained in a k th iteration of the Kalman filtering algorithm; in the iteration: when (z k −z τ k−1 ) T (z k −z τ k−1 )<δ, ε k is set to 1, otherwise ε k is set to 0, wherein δ is a preset threshold value; when ε k is 0, a state variable is estimated according to x k+1 =x k+1|k +(1−ε k+1 )K k+1 (z k+1 −z k+1|k )+ε k+1 M k+1 (z r k −z k+1|k ), and a vehicle sideslip angle is calculated according to the estimated vehicle yaw rate obtained by the Kalman filtering algorithm, wherein",
+  "patent_id": "US12377861-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 40/12",
+      "B60W 50/00",
+      "B60W 2050/0031",
+      "B60W 2050/0052",
+      "B60W 2520/12",
+      "B60W 2520/14"
+    ],
+    "all": [
+      "B60W 40/12",
+      "B60W 50/00",
+      "B60W 2050/0031",
+      "B60W 2050/0052",
+      "B60W 2520/12",
+      "B60W 2520/14"
+    ],
+    "source": "converted"
+  }
+}

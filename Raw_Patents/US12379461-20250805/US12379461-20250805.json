@@ -1,0 +1,22 @@
+{
+  "title": "Multi-timescale doppler processing and associated systems and methods",
+  "abstract": "Multi-timescale Doppler processing and associated systems and methods are provided. In one example, a receiver receives radar return data, where the radar return data is associated with reflections, from a scene, of a plurality of transmitted radar signals. The radar return data is processed to obtain a plurality of sets of detection data, where each set of detection data of the plurality of sets of detection data is associated with a respective processing size. Target data associated with the scene is generated based at least in part on the plurality of sets of detection data. Related systems and methods are also provided.",
+  "claims": "1. A method comprising: receiving, by a receiver, radar return data, wherein the radar return data is associated with reflections, from a scene, of a plurality of transmitted radar signals, the radar return data comprising, for each transmitted radar signal, a range bin measurement for each of a plurality of range bins; performing a plurality of Doppler processing operations each of which provides Doppler information comprising frequency and/or velocity information for targets and/or potential targets; wherein each Doppler processing operation is performed on a corresponding set of range bin measurements obtained from a corresponding set of a corresponding number of the transmitted radar signals, wherein for at least two of the Doppler processing operations the corresponding numbers of the transmitted radar signals are different from each other; wherein at least one range bin measurement is used in at least two of the Doppler processing operations whose corresponding numbers of the transmitted radar signals are different from each other; for each number of the corresponding numbers of the transmitted radar signals, processing the Doppler information provided by all of the one or more Doppler processing operations corresponding to the number to obtain a corresponding set of detection data; and generating target data associated with the scene based at least in part on the sets of detection data.",
+  "patent_id": "US12379461-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 7/2883",
+      "G01S 13/04",
+      "G01S 13/505",
+      "G01S 13/726"
+    ],
+    "all": [
+      "G01S 7/2883",
+      "G01S 13/04",
+      "G01S 13/505",
+      "G01S 13/726"
+    ],
+    "source": "converted"
+  }
+}

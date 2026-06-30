@@ -1,0 +1,21 @@
+{
+  "application_id": "WO2019174902",
+  "application_id_fs": null,
+  "title": "Inspection tool and inspection method",
+  "abstract": "A method of inspecting a semiconductor sample is described, the sample comprising a structure having a plurality of openings in a top layer of the structure, the method comprising the steps of: - generating an image of the structure using a SEM; - inspecting an opening of the plurality of openings by: - determining a dimension of the opening based on the image; and - determining an open-state of the opening, based on a contrast of the image; - determining a quality of the opening based on both the determined dimension and the determined open-state of the opening.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1. A method of inspecting a semiconductor sample, the sample comprising a structure having a plurality of openings in a top layer of the structure, the method comprising the steps of: generating an image of the structure using a SEM; inspecting an opening or the plurality of openings by: determining a dimension of the opening or the plurality of openings based on the image; and determining an open-state of the opening or the plurality of openings, based on a contrast of the image; and determining a quality of the opening or the plurality of openings based on both the determined dimension and the determined open-state. 2. The method according to claim 1 , wherein the contrast comprises a difference in intensity observed inside the opening and outside the opening, on the image. 3. The method according to claim 1, wherein the dimension of the opening comprises a diameter of the opening and determining the diameter of the opening comprises applying an ellipse fitting algorithm to the image. 4. The method according to claim 1 , wherein the dimension of the opening comprises a diameter of the opening and wherein the diameter of the opening is determined based on an intensity distribution along a line across the image, the line crossing the opening on the image. 5. The method according to claim 1, wherein determining an open-state of the opening comprises comparing the contrast of the image with a threshold contrast. 6. The method according to claim 1, wherein the step of determining an open-state of the opening comprises: determining, for a plurality of openings, a contrast as a difference in intensity observed inside the opening and outside the opening; determining a contrast distribution of the plurality of contrasts obtained for the plurality of openings; and determining the open-state of the opening based on the distribution. 7. The method according to claim 5, further comprising the step of performing a curve fitting to the contrast distribution and determining the open-state of the opening based on the fitted curve. 8. The method according to claim 1, wherein the quality of the opening is deemed acceptable when the determined dimension is within a predetermined range and when the open-state is deemed acceptable. 9. The method according to claim 8, wherein the open-state of the opening is deemed acceptable when a contrast of the opening is within a predetermined range or above a predetermined threshold. 10. Inspection tool comprising: an object table configured to hold a sample, the sample comprising a structure having a plurality of openings in a top layer of the structure; an e-beam source configured to generate an e-beam; a beam manipulator configured to direct the electron beam onto the sample; a detector configured to detect a response signal of the sample caused by interaction of the electron beam with the sample; and a processing unit configured to: o receive the response signal from the detector; o generate an image of the structure based on the response signal; and o inspect an opening or the plurality of openings by: determining a dimension of the opening based on the image; and determining an open-state of the opening, based on a contrast of the image; and determining a quality of the opening based on both the determined dimension and the determined open-state of the opening.",
+  "classifications": {
+    "ipc": [
+      "G03F 7/20",
+      "G06T 7/00",
+      "H01L 21/66"
+    ],
+    "cpc": [],
+    "all": [
+      "G03F 7/20",
+      "G06T 7/00",
+      "H01L 21/66"
+    ],
+    "source": "csv"
+  }
+}

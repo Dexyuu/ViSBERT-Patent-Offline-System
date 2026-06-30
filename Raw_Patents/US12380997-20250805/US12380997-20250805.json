@@ -1,0 +1,30 @@
+{
+  "title": "Medical device update system",
+  "abstract": "A system and method for providing updates to medical devices is disclosed. In one example, the medical devices are configured to pull update files in response to the reception of an update message from a server. Once the update files are downloaded by a medical device, the update files can be installed. While the medical device pulls the update files, the medical device can continue with its normal operation. If desired, a user can select which medical devices should be updated, based on any desired factors, such as the physical location of the device, the model of the device, the type of device, and the way the device is being used.",
+  "claims": "1. A method of providing updates to a medication administering device, the method comprising: receiving an update message at a medication administering device, wherein the update message includes information relating to one or more update files available to the medication administering device; downloading one or more update files identified by the update message while the medication administering device is being used to administer medication; storing the one or more update files on the medication administering device in a first memory location for installation at a future time; storing a currently used device software file and a currently used drug library file of the medication administering device in a second memory location on the medication administering device for recovery purposes; prompting a user of the medication administering device to update the medication administering device; and upon the user accepting the update prompt, installing the one or more update files on the medication administering device; wherein the update files include one or more of updated device software and an updated drug library, and said prompting the user of the medication administering device to update the medication administering device comprises 1) prompting the user to install the updated device software, and then 2) prompting the user to install the updated drug library only upon successful installation of the updated device software.",
+  "patent_id": "US12380997-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16H 40/40",
+      "A61M 5/142",
+      "G06F 8/65",
+      "G16H 20/17",
+      "G16H 70/40",
+      "A61M 5/14212",
+      "A61M 2205/3561",
+      "G06F 8/61"
+    ],
+    "all": [
+      "G16H 40/40",
+      "A61M 5/142",
+      "G06F 8/65",
+      "G16H 20/17",
+      "G16H 70/40",
+      "A61M 5/14212",
+      "A61M 2205/3561",
+      "G06F 8/61"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Data processing method and system, encapsulation node, and de-encapsulation node",
+  "abstract": "Disclosed is a data processing method and system, an encapsulation node, and a de-encapsulation node. The data processing method comprises: obtaining at least two sets of data to be sent, wherein the data comprises prefix data and suffix data; obtaining public prefix data from the prefix data; obtaining a local index based on the public prefix data, and writing the local index and the public prefix data into a preset prefix table; writing the suffix data and the local index into a preset suffix table; and writing the data in the prefix table and the data in the suffix table into a preset data encapsulation table, and sending the data encapsulation table.",
+  "claims": "8. A data processing system, comprising: an encapsulation node, which comprises at least one process and a memory in communication with the at least one processor, wherein the memory stores instructions executable by the at least one processor, which instructions, when being executed by the at least one processor, cause the at least one processor to execute a data processing method, comprising: obtaining at least two sets of data to be sent, wherein the data comprises prefix data and suffix data; obtaining public prefix data from the prefix data; obtaining a local index based on the public prefix data, and writing the local index and the public prefix data into a preset prefix table; writing the suffix data and the local index into a preset suffix table; and writing the data in the prefix table and the data in the suffix table into a preset data encapsulation table, and sending the data encapsulation table; and a de-encapsulation node, which comprises at least one process and a memory in communication with the at least one processor, wherein the memory stores instructions executable by the at least one processor, which instructions, when being executed by the at least one processor, cause the at least one processor to execute a data processing method, comprising: receiving a data encapsulation table, wherein the data encapsulation table comprises public prefix data and suffix data; obtaining prefix data from a local data table; obtaining a local index based on the prefix data, and writing the local index into a preset public prefix table; and obtaining data from the data encapsulation table through data in the preset public prefix table, wherein the data comprises the public prefix data and the suffix data.",
+  "patent_id": "US12381820-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 45/745",
+      "H04L 2212/00"
+    ],
+    "all": [
+      "H04L 45/745",
+      "H04L 2212/00"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Transmitter circuit and receiver circuit of interface circuit and operating method thereof",
+  "abstract": "A transmitter circuit of an interface circuit includes a clock generating circuit, a pulse generating circuit, an overlapped multiplexing circuit, and an output circuit. The clock generating circuit generates a plurality of clocks having different phases. The pulse generating circuit generates a plurality of pulses based on the plurality of clocks. The overlapped multiplexing circuit receives a plurality of input signals in parallel, and sequentially outputs a plurality of overlapped signals based on the plurality of clocks, the plurality of input signals, and the plurality of pulses, and each overlapped signal includes bit values of two input signals among the plurality of input signals. The output circuit serially outputs bit values of the plurality of input signals in series based on the plurality of overlapped signal.",
+  "claims": "1. An interface circuit comprising: a transmitter circuit configured to receive a plurality of input signals, and output bit values of the plurality of input signals based on the plurality of input signals, wherein the transmitter circuit comprises: a clock generating circuit configured to generate a plurality of clocks having different phases; a pulse generating circuit configured to generate a plurality of pulses based on the plurality of clocks; an overlapped multiplexing circuit configured to receive the plurality of input signals in parallel, and sequentially output a plurality of overlapped signals based on the plurality of clocks, the plurality of input signals, and the plurality of pulses, each of the plurality of overlapped signals comprising bit values of two input signals among the plurality of input signals; and an output circuit configured to output the bit values of the plurality of input signals in series based on the plurality of overlapped signals, wherein the output circuit is configured to output 1-bit value based on two overlapped signals among the plurality of overlapped signals.",
+  "patent_id": "US12381593-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 1/40",
+      "H03K 3/037",
+      "H03K 5/14",
+      "H03K 5/2472",
+      "H03K 19/20",
+      "H03K 2005/00078"
+    ],
+    "all": [
+      "H04B 1/40",
+      "H03K 3/037",
+      "H03K 5/14",
+      "H03K 5/2472",
+      "H03K 19/20",
+      "H03K 2005/00078"
+    ],
+    "source": "converted"
+  }
+}

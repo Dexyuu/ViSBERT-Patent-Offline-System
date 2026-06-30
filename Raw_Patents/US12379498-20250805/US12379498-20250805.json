@@ -1,0 +1,22 @@
+{
+  "title": "LIDAR imaging system with FMCW type heterodyne detection comprising a device for correcting the phase of the reference signal",
+  "abstract": "The invention relates to a LIDAR imaging system of the FMCW type, comprising a light source (10), an optical projection device (20), an optical transmission device (30), an optical imaging device (40), and a matrix photodetector (50). It further comprises a phase correction device (60) comprising a spatial phase modulator (61) for applying a corrected spatial phase distribution to the reference signal, and a computation unit (62) for determining the corrected spatial phase distribution, by taking into account a spatial distribution representing a spatial intensity distribution of the backscattered object signal, so that the reference signal has a corrected spatial intensity distribution in the reception plane optimizing a spatial distribution of a parameter of interest representing the heterodyne signal.",
+  "claims": "1. A LIDAR imaging system of the FMCW type, comprising: a coherent light source configured to emit a continuous frequency modulated primary signal; an optical device for projecting part of the primary signal, called object signal, onto a scene to be instantaneously illuminated; an optical device for transmitting part of the primary signal, called reference signal, to an optical imaging device; the optical imaging device configured to receive part of the object signal backscattered by the scene, called backscattered object signal, having a speckle pattern; a matrix photodetector comprising a matrix of detection pixels, each intended to receive, in a reception plane conjugated with the scene by the optical imaging system, the backscattered object signal and the reference signal that form a heterodyne signal having a frequency, called beat frequency, representing a distance between the matrix photodetector and the illuminated scene; a phase correction device, comprising: a spatial phase modulator, arranged on the path of the reference signal upstream of the optical imaging device, configured to apply a spatial phase distribution, called corrected spatial phase distribution, to the reference signal; a computation unit connected to the matrix photodetector and to the spatial phase modulator and configured to: determine an optimal corrected spatial phase distribution to be applied to the reference signal by the spatial phase modulator, as a function of a first spatial distribution representing a spatial intensity distribution of the backscattered object signal in the reception plane, detected by the matrix photodetector, so that the reference signal has a spatial intensity distribution, called corrected spatial intensity distribution, in the reception plane optimizing a spatial distribution of a parameter of interest representing the heterodyne signal, selected from among the intensity of the heterodyne signal, an intensity of an alternating component of the heterodyne signal, or a signal-to-noise ratio.",
+  "patent_id": "US12379498-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 17/34",
+      "G01S 7/4817",
+      "G01S 7/4911",
+      "G01S 7/4917"
+    ],
+    "all": [
+      "G01S 17/34",
+      "G01S 7/4817",
+      "G01S 7/4911",
+      "G01S 7/4917"
+    ],
+    "source": "converted"
+  }
+}

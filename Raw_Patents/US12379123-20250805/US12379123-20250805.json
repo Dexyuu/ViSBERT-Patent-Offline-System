@@ -1,0 +1,22 @@
+{
+  "title": "Systems and methods for adjusting detected temperature for a climate control system",
+  "abstract": "Methods and related systems are disclosed for determining a temperature of an indoor space with a plurality of onboard sensors of a device of a climate control system. In an embodiment, the method includes detecting raw temperatures with the plurality of sensors. In addition, the method includes determining a combined temperature offset for a first sensor of the plurality of sensors based on outputs of a plurality of models. The plurality of models are to determine a plurality of temperature offsets for the first sensor based on different airflow directions relative to the device. Further, the method includes adjusting the raw temperature detected by the first sensor with the combined temperature offset.",
+  "claims": "1. A method of controlling a climate control system that includes HVAC equipment configured to provide conditioned air to a conditioned space, the HVAC equipment including a fan, a controller, and a processor, the processor being coupled to the fan and the controller, and the controller including a housing and a plurality of onboard sensors for determining a temperature of an indoor space of the climate control system, wherein each of the plurality of sensors is arranged and mounted at a different location within the housing, each of the different locations being selected while considering one or more of: a distance of each of the sensors relative to one or more heat generating components within the housing, a distance of each of the sensors relative to one or more air vents and a direction and magnitude of the airflow within the housing through the air vents, and a desired amount of exposed surface area of each of the sensors, the method comprising: detecting raw temperatures with the plurality of sensors coupled to the processor, the plurality of sensors being arranged and mounted at different locations within the controller so that, in response to the airflow within the controller, varied temperature responses are detected among the plurality of sensors; determining, via the processor, a first adjusted temperature based on a first detected raw temperature from a first sensor of the plurality of sensors and a plurality of models; determining, via the processor, a second adjusted temperature based on a second detected raw temperature from a second sensor of the plurality of sensors and the plurality of models, filtering, via the processor, the first adjusted temperature and the second adjusted temperature based on a difference between the first detected raw temperature and the second detected raw temperature to determine a selected adjusted temperature; controlling the fan, via the processor, to provide conditioned air based on the selected adjusted temperature; and presenting the selected adjusted temperature on a display, wherein determining the first adjusted temperature includes determining a first combined temperature offset as a first weighted average of a first set of outputs of the plurality of models based on comparing the first set of outputs of the plurality of models to a first predicted temperature of the indoor space, and wherein determining the second adjusted temperature includes determining a second combined temperature offset as a second weighted average of a second set of outputs of the plurality of models based on comparing the second set of outputs of the plurality of models to a second predicted temperature of the indoor space.",
+  "patent_id": "US12379123-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "F24F 11/63",
+      "G05B 13/048",
+      "G06F 17/18",
+      "F24F 2110/10"
+    ],
+    "all": [
+      "F24F 11/63",
+      "G05B 13/048",
+      "G06F 17/18",
+      "F24F 2110/10"
+    ],
+    "source": "converted"
+  }
+}

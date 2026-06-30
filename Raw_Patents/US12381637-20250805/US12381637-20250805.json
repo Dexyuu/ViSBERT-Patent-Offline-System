@@ -1,0 +1,18 @@
+{
+  "title": "Systems, methods, and computer-readable media of automatic network slicing of underwater acoustic communication system resources",
+  "abstract": "Systems, methods, and computer-readable media for managing underwater acoustic communications. An automatic network slicing method specifically designed for handling underwater acoustic communications is implemented to enable admission control, routing, and dynamic resource allocation based on service level agreement requirements.",
+  "claims": "1. A method for controlling underwater acoustic communications within an underwater acoustic communications system (UACS) comprising a controller positioned at or near a surface of a water body and a plurality of nodes that are distributed throughout the water body, wherein the controller and the plurality of nodes have bidirectional acoustic communications capability to establish underwater acoustic links (UALs), the method comprising: receiving a plurality of slice requests each comprising a source and a destination, the plurality of slice requests associated with service level agreement (SLA) requirements; nominating, for each of the plurality of slice requests, one or more routes between the source and the destination that satisfy the SLA requirements; determining for at least one route in the nominated routes, a reservation of a portion of network resources sufficient to satisfy the SLA requirements for another route in the nominated routes; based on the determining, accepting the at least one slice request; and executing underwater acoustic communications via the UACS in accordance with the accepted at least one slice request.",
+  "patent_id": "US12381637-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 11/00",
+      "H04B 13/02"
+    ],
+    "all": [
+      "H04B 11/00",
+      "H04B 13/02"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Robotic cleaner",
+  "abstract": "A robotic cleaning system may include a robotic cleaner configured to generate a map of an environment and a mobile device configured to communicatively couple to the robotic cleaner, the robotic cleaner configured to communicate the map to the mobile device. The mobile device may include a camera configured to generate an image of the environment, the image comprising a plurality of pixels, a display configured to display the image and to receive a user input while displaying the image, the user input being associated with one or more of the plurality of pixels, a depth sensor configured to generate depth data that is associated with each pixel of the image, an orientation sensor configured to generate orientation data that is associated with each pixel of the image, and a mobile controller configured to localize the mobile device within the map using the depth data and the orientation data.",
+  "claims": "1. A robotic cleaning system comprising: a robotic cleaner configured to generate a map of an environment; and a mobile device configured to communicatively couple to the robotic cleaner, the robotic cleaner configured to communicate the map to the mobile device, wherein the mobile device includes: a camera configured to generate an image of the environment, the image comprising a plurality of pixels; a display configured to display the image and to receive a user input while displaying the image, the user input being associated with one or more of the plurality of pixels; a depth sensor configured to generate depth data that is associated with each pixel of the image; an orientation sensor configured to generate orientation data that is associated with each pixel of the image; and a mobile controller configured to localize the mobile device within the map received from the robotic cleaner using the depth data and the orientation data; wherein the mobile controller is configured to recognize an object within the image; wherein the mobile controller localizes the recognized object within the map received from the robotic cleaner using the depth data and the orientation data; wherein the display is configured to display an augmented reality element associated with the recognized object.",
+  "patent_id": "US12376722-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A47L 11/4011",
+      "G05D 1/0038",
+      "G05D 1/0044",
+      "G05D 1/0274",
+      "A47L 2201/04"
+    ],
+    "all": [
+      "A47L 11/4011",
+      "G05D 1/0038",
+      "G05D 1/0044",
+      "G05D 1/0274",
+      "A47L 2201/04"
+    ],
+    "source": "converted"
+  }
+}

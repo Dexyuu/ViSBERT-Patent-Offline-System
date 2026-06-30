@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for monitoring a budget scope in real time",
+  "abstract": "Systems, methods, and apparatuses include a provider computing system including a network interface structured to facilitate data communication via a network and a processing circuit comprising a processor and memory. The processing circuit is structured to receive a scope and a budget. The processing circuit includes a management circuit structured to determine a scope merchant category for items offered for sale by a merchant that match the scope and wherein the management circuit is structured to interpret the budget to determine a maximum amount of funds for the purchase. The processing circuit receives a selected item. The management circuit determines a category in comparison to the scope and a cost item in comparison to the budget to determine if the cost of the item is less than the maximum amount of funds.",
+  "claims": "1. A computing system comprising one or more processors configured to: establish, via a network, a secure communication session with an application executing on a user device; receive, using the secure communication session via the network, a first scope and a budget from a user device, wherein the first scope and the budget relate to a purchase; determine a merchant category for items offered for sale by a merchant that match the first scope; receive, from the application using the secure communication session via the network, a selection of an item offered for sale by the merchant; determine a particular user associated with the selection of the item, wherein the particular user is at least one account holder associated with a multiple holder account determined by an account linkage circuit of the computing system; determine an item merchant category and compare the item merchant category of the item to the merchant category; determine a cost of the item and compare the cost of the item to the budget to determine if the cost of the item is less than or equal to a maximum amount of funds available for the purchase based on the budget; generate a warning if the cost of the item is greater than the maximum amount of funds available for the purchase; provide, to the application using the secure communication session via the network, a prompt that indicates a region associated with the first scope in a map of a location of the merchant presented in the application executed at the user device; and provide, to the application using the secure communication session via the network, responsive to an interaction at the application executed at the user device, a second prompt that indicates the maximum amount of funds available for the first scope has fallen below a threshold, the second prompt including an interactive interface element that, when interacted with, causes the computing system to move funds from a second scope into the first scope.",
+  "patent_id": "US12380482-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0627",
+      "G06Q 30/0641",
+      "G06Q 40/125"
+    ],
+    "all": [
+      "G06Q 30/0627",
+      "G06Q 30/0641",
+      "G06Q 40/125"
+    ],
+    "source": "converted"
+  }
+}

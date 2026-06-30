@@ -1,0 +1,28 @@
+{
+  "title": "Predicting tests based on change-list descriptions",
+  "abstract": "Training data may include change-lists and descriptions associated with the change-lists. A change-list may specify a set of changes to a design or a test case, or both. The descriptions may be specified in a natural language. A machine learning (ML) model may be trained based on the training data. A first change-list and a first description for a first design may be received. The trained ML model may be used to predict a first set of test cases for testing the first design based on the first change-list and the first description.",
+  "claims": "1. A method, comprising: receiving training data comprising change-lists and descriptions associated with the change-lists, wherein a change-list specifies a set of changes to a design or a test case, or both, and wherein the descriptions are specified in a natural language; and training, by a processor, a machine learning (ML) model based on the training data, wherein the ML model comprises a first neural network (NN), a second NN, and a third NN, wherein the first NN includes a first input layer and a first output layer, wherein the first input layer includes a first set of input nodes corresponding to an author name, a file name, and a set of vocabulary words or phrases, wherein the first output layer includes a first set of output nodes corresponding to a set of test categories, wherein the second NN includes a second input layer and a second output layer, wherein the second input layer includes a second set of input nodes corresponding to the author name, the file name, and a set of word or character positions in the descriptions, wherein the second output layer includes a second set of output nodes corresponding to the set of test categories, and wherein the third NN includes a third input layer and a third output layer, wherein the third input layer includes a third set of input nodes corresponding to the first set of output nodes and the second set of output nodes, and wherein the third output layer includes a third set of output nodes corresponding to the set of test categories; receiving a first change-list and a first description associated with the first change-list for a first design, wherein the first design is an integrated circuit design; using the trained ML model to select a first subset of test cases from a set of test cases for testing the first design based on the first change-list and the first description; and running the first subset of test cases on a testbench which simulates the first design.",
+  "patent_id": "US12380015-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/3684",
+      "G06F 11/2263",
+      "G06F 11/263",
+      "G06F 11/368",
+      "G06F 11/3688",
+      "G06F 11/3692",
+      "G06N 20/00"
+    ],
+    "all": [
+      "G06F 11/3684",
+      "G06F 11/2263",
+      "G06F 11/263",
+      "G06F 11/368",
+      "G06F 11/3688",
+      "G06F 11/3692",
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

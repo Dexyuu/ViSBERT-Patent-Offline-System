@@ -1,0 +1,23 @@
+{
+  "application_id": "WO2019129882",
+  "application_id_fs": null,
+  "title": "Network architecture providing for communication services of high quality",
+  "abstract": "This invention relates to a network architecture providing for : automatic deployment and configuration of customer terminals at customer's private branch exchange (PBX) (21, 22, 54), so as to access, through customer personalized session initialization protocol (SIP) trunking (31, 53), a cloud (1) integrating alone : unified communications as a service (UCaaS) (32, 33), with enterprise grade voice (2).",
+  "claims": "Claims 1. Network architecture providing for : automatic deployment and configuration of customer terminals at customerâs private branch exchange (PBX) (21, 22, 54), so as to access, through customer personalized session initialization protocol (SIP) trunking (31, 53), a cloud (1) integrating alone : o unified communications as a service (UCaaS) (32, 33), o with enterprise grade voice (2). 2. Network architecture according to claim 1, wherein it comprises : Cooperation of a redirect server and a deployment server to configure said customer terminal (7, 71, 72, 8, 81), including: o Determining, by said customer terminal (7, 71, 72, 8, 81), via said redirect server, said deployment server dedicated to said customer terminal (7, 71, 72, 8, 81), o Requesting, by said customer terminal (7, 71, 72, 8, 81), configuration made by said determined deployment server. 3. Network architecture according to any of preceding claims, wherein : said customer terminals (7, 71, 72, 8, 81) are connected to said cloud (1) via a specific carrier dedicated to said private branch exchange (21, 22, 54). 4. Network architecture according to any of preceding claims, wherein : unified communications as a service (32, 33) is performed with enterprise grade voice (2) by: o communicating between cloud (1) and private branch exchange (21, 22, 54) via a secure MPLS link, o tagging packets transferred over said secure MPLS link, \n\n o agreeing in advance SLAs with said secure MPLS link for VoIP traffic. 5. Network architecture according to claim 4, wherein predetermined amount of bandwidth is reserved in advance at least for critical real-time VoIP traffic. 6. Network architecture according to any of preceding claims, wherein a single cloud (1) integrates all services of unified communications as a service (32, 33) for several different private branch exchanges (21, 22, 54) preferably respectively for several different customers. 7. Method of implementing a communication system using a network architecture providing for : automatic deployment and configuration of customer terminals at customerâs private branch exchange (PBX) (21, 22, 54), so as to access, through customer personalized session initialization protocol (SIP) trunking (31, 53), a cloud (1) integrating alone : o unified communications as a service (UCaaS) (32, 33), o with enterprise grade voice (2). 8. Method of implementing a communication system using a network architecture according to claim 7, wherein it comprises : Cooperation of a redirect server and a deployment server to configure said customer terminal (7, 71, 72, 8, 81), including: o Determining, by said customer terminal (7, 71, 72, 8, 81), via said redirect server, said deployment server dedicated to said customer terminal (7, 71, 72, 8, 81), o Requesting, by said customer terminal (7, 71, 72, 8, 81), configuration made by said determined deployment server.",
+  "classifications": {
+    "ipc": [
+      "H04L 29/06",
+      "H04L 12/58",
+      "H04M 3/42",
+      "H04L 29/08"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 29/06",
+      "H04L 12/58",
+      "H04M 3/42",
+      "H04L 29/08"
+    ],
+    "source": "csv"
+  }
+}

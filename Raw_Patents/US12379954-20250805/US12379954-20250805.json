@@ -1,0 +1,32 @@
+{
+  "title": "Protected regions management of memory",
+  "abstract": "Apparatuses and methods related to managing regions of memory are described. Managing regions can include verifying whether an access command is authorized to access a particular region of a memory array, which may have some regions that have rules or restrictions governing access (e.g., so-called âprotected regionsâ). The authorization can be verified utilizing a key and a memory address corresponding to the access command. If an access command is authorized to access a region, then a row of the memory array corresponding to the access command can be activated. If an access command is not authorized to access the region, then a row of the memory array corresponding to the access command may not be activated.",
+  "claims": "1. An apparatus, comprising: a memory resource shared by a plurality of virtual machines (VMs) and a hypervisor, wherein the memory resource comprises a plurality of regions each allocated to respective ones of the plurality of VMs and the hypervisor; and wherein the memory resource, coupled to a host implementing the plurality of VMs and the hypervisor via an interface, is configured to: receive, from the hypervisor implemented by the host, an access command and a key associated with the access command for a region, of the plurality of regions, allocated to the hypervisor; compare the key associated with the access command to a key corresponding to the region of the plurality of regions that is allocated to the hypervisor; allow access to the region of the plurality of regions based at least in part on determining that the key associated with the access command matches the key corresponding to the region of the plurality of regions; and prevent access to the hypervisor based at least in part on determining that the key associated with the access command does not match the key corresponding to the region of the plurality of regions.",
+  "patent_id": "US12379954-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/45558",
+      "G06F 12/145",
+      "H04L 9/14",
+      "G06F 2009/45562",
+      "G06F 2009/45575",
+      "G06F 2009/45583",
+      "G06F 2009/45587",
+      "G06F 21/6245",
+      "G06F 2212/1052"
+    ],
+    "all": [
+      "G06F 9/45558",
+      "G06F 12/145",
+      "H04L 9/14",
+      "G06F 2009/45562",
+      "G06F 2009/45575",
+      "G06F 2009/45583",
+      "G06F 2009/45587",
+      "G06F 21/6245",
+      "G06F 2212/1052"
+    ],
+    "source": "converted"
+  }
+}

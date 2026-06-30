@@ -1,0 +1,24 @@
+{
+  "title": "Broadcasting vehicle capabilities to planning modules",
+  "abstract": "A vehicle capability broadcaster may receive information indicating a condition in an environment where an AV may operate. The vehicle capability broadcaster determines a first vehicle capability parameter and a second vehicle capability parameter based on the condition. The vehicle capability parameters may indicate capabilities of the AV for making different types of motions, e.g., limits of the AV making different motions. The vehicle capability broadcaster may transmit the first vehicle capability parameter to a first planning module and transmit the second vehicle capability parameter to a second planning module. The first planning module and the second planning module may plan one or more motions of the AV in the operation based on the vehicle capability parameters. The vehicle capability broadcaster may update a vehicle capability parameter and transmit the updated vehicle capability parameter to one of the planning modules after the one or more motions are planned.",
+  "claims": "1. A method, comprising: receiving information indicating an environmental condition for an operation of a vehicle, wherein the environmental condition is a condition in an environment where the operation of the vehicle is performed; determining a first vehicle capability parameter and a second vehicle capability parameter based on the environmental condition, the first vehicle capability parameter and the second vehicle capability parameter indicating capabilities of the vehicle for making different types of motions; transmitting the first vehicle capability parameter to a first planning module of the vehicle; and transmitting the second vehicle capability parameter to a second planning module of the vehicle, wherein the first planning module and the second planning module are to plan one or more motions of the vehicle in the operation based on the first vehicle capability parameter and the second vehicle capability parameter.",
+  "patent_id": "US12377874-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 60/001",
+      "B60W 40/02",
+      "B60W 2555/20",
+      "B60W 2556/45",
+      "B60W 2756/10"
+    ],
+    "all": [
+      "B60W 60/001",
+      "B60W 40/02",
+      "B60W 2555/20",
+      "B60W 2556/45",
+      "B60W 2756/10"
+    ],
+    "source": "converted"
+  }
+}

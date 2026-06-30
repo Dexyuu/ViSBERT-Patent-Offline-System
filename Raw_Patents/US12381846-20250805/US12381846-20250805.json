@@ -1,0 +1,22 @@
+{
+  "title": "Transceiver validation ports for network switches",
+  "abstract": "Systems and methods for validating transceivers comprise using a first controller to perform a validation prior to granting a second controller access to the transceiver to communicate in a data plane and, otherwise, restricting the second controller from accessing the transceiver and operating in the data plane to isolate the transceiver from the data plane and protect the second controller from an unqualified or rogue transceiver triggering a recovery procedure, reboot procedure, or similar that otherwise would require manual intervention by technical support personnel and increase equipment downtime and cost.",
+  "claims": "1. A method for validating a transceiver at a test port, the method comprising: in response to a transceiver being detected as having been inserted into or connected to a physical test port of an information handling system, which comprises a set of ports, using a first controller to perform a validation of the transceiver; in response to the validation of the transceiver being successful, authorizing use of the transceiver to communicate data via one or more of the ports of the set of ports of the information handling system; and in response to the validation of the transceiver not being successful, restricting the set of ports of the information handling system from operating using the transceiver, thereby, protecting the information handling system from a non-validated transceiver triggering at least one of a recovery procedure, an error, or a reboot procedure.",
+  "patent_id": "US12381846-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/0236",
+      "G06F 11/22",
+      "H04L 41/0873",
+      "H04L 63/08"
+    ],
+    "all": [
+      "H04L 63/0236",
+      "G06F 11/22",
+      "H04L 41/0873",
+      "H04L 63/08"
+    ],
+    "source": "converted"
+  }
+}

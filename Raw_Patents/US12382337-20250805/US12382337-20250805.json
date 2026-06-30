@@ -1,0 +1,22 @@
+{
+  "title": "Method for merging and transmitting, by network, VRU messages in wireless communication system supporting sidelink, and apparatus therefor",
+  "abstract": "Disclosed are a method for merging and transmitting, by a network, VRU messages and an apparatus therefor. The method comprises the steps of: receiving, through an uplink, a first VRU message including information on a first VRU; and transmitting, through a downlink at a preconfigured time point, a second VRU message in which a plurality of VRU messages received from a plurality of VRUs for a preconfigured time period are merged, wherein it is determined whether to merge the first VRU message with the second VRU message according to a mobility change calculated on the basis of previous mobility information on the first VRU and mobility information obtained from the first VRU message, and, when the mobility change is greater than or equal to a preconfigured threshold, the first VRU message is transmitted through the downlink without merging the first VRU message with the second VRU message.",
+  "claims": "1. A method by a network comprising: receiving a first message including first mobility information from a first device; calculating a first mobility change amount for the first device based on the first mobility information; determining whether to merge the first message with another message based on the first mobility change amount; and transmitting, to neighboring devices, a single merge message in which a plurality of messages received from a plurality of devices buffered during a preconfigured time period are merged, wherein, based on the first mobility change amount being greater than or equal to a preconfigured threshold, the first message is immediately transmitted to the neighboring devices through the network without merging with the single merge message, and wherein, based on the first mobility change amount being less than the preconfigured threshold, the first message is buffered for merging into the single merge message.",
+  "patent_id": "US12382337-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 28/06",
+      "H04W 4/40",
+      "H04W 72/51",
+      "H04W 92/10"
+    ],
+    "all": [
+      "H04W 28/06",
+      "H04W 4/40",
+      "H04W 72/51",
+      "H04W 92/10"
+    ],
+    "source": "converted"
+  }
+}

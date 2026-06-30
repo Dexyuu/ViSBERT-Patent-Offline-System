@@ -1,0 +1,20 @@
+{
+  "title": "User plane load balancing in a disaggregated broadband network gateway architecture",
+  "abstract": "A disaggregated broadband network gateway (DBNG) control plane system may be configured to receive a first initialization packet associated with a user device via a first user plane and a second initialization packet associated with the user device via a second user plane. The DBNG control plane system may be configured to determine, based on at least one of the first initialization packet or the second initialization packet, one or more load balancing parameters. The DBNG control plane system may be configured to cause, based on at least one of the one or more load balancing parameters, a communication session for the user device to be established via the first user plane and not via the second user plane.",
+  "claims": "1. A disaggregated broadband network gateway (DBNG) control plane system, comprising: one or more memories; and one or more processors to: receive a first initialization packet associated with a user device via a first user plane and a second initialization packet associated with the user device via a second user plane; determine, based on at least one of the first initialization packet or the second initialization packet, one or more load balancing parameters, wherein determining the one or more load balancing parameters comprises: determining, based on processing one or more entries in a data structure included in the DBNG control plane system that stores user plane utilization information, a first utilization rate parameter provided in terms of a percentage of a utilization of the first user plane and a second utilization rate parameter provided in terms of a percentage of a utilization of the second user plane; and cause, based on the first utilization rate parameter and the second utilization rate parameter, a communication session between the user device and the DBNG control plane system to be established via the first user plane and not via the second user plane.",
+  "patent_id": "US12381825-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 47/125",
+      "H04L 12/66",
+      "H04L 67/141"
+    ],
+    "all": [
+      "H04L 47/125",
+      "H04L 12/66",
+      "H04L 67/141"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Training and using a memory failure prediction model",
+  "abstract": "The disclosure herein describes training and using an uncorrectable error (UE) state prediction model based on telemetry error data. Sets of UE state labels and non-UE state labels are generated from a first set of collected telemetry data, wherein the UE state labels each reference a UE and telemetry data of an interval prior to the referenced UE. Statistical features are extracted from telemetry data of the sets of UE state labels and non-UE state labels, and the extracted statistical features are used to train a UE state prediction model. A second set of collected telemetry data is obtained, and a UE event is predicted based on the second set of collected telemetry data using the trained UE state prediction model. A preventative operation is performed on a memory page of the system based on the predicted UE event, whereby the predicted UE event is prevented from occurring.",
+  "claims": "8. A computerized method comprising: generating, by a processor, a set of uncorrectable error (UE) state labels based on a first set of collected telemetry data, wherein each UE state label references-includes a reference to a UE event and telemetry data of a time interval prior to the referenced UE event; generating, by the processor, a set of non-UE state labels based on the collected telemetry data, wherein each non-UE state label references-includes a reference to a correctable error (CE) event and telemetry data of a time interval, prior to the referenced CE event, that does not include a UE event; extracting, by the processor, statistical features from telemetry data of the set of UE state labels and from telemetry data of the set of non-UE state labels, wherein extracting the statistical features includes extracting statistical features associated with UE state labels and non-UE state labels based on a plurality of different memory hierarchy levels, wherein the plurality of memory hierarchy levels includes at least one of the following: memory page levels, memory row levels, or node levels; training, by the processor, a UE state prediction model using the set of UE state labels, the set of non-UE state labels, and the extracted statistical features; obtaining, by the processor, a second set of collected telemetry data; predicting, by the processor, a UE event based on the second set of collected telemetry data using the trained UE state prediction model, wherein the predicted UE event is associated with a memory page of a system; and performing, by the processor, a preventative operation on the memory page of the system, whereby the predicted UE event is prevented from occurring.",
+  "patent_id": "US12379983-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/073",
+      "G06F 11/0757",
+      "G06F 11/0772",
+      "G06F 18/214",
+      "G06N 3/008",
+      "G06N 20/00"
+    ],
+    "all": [
+      "G06F 11/073",
+      "G06F 11/0757",
+      "G06F 11/0772",
+      "G06F 18/214",
+      "G06N 3/008",
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

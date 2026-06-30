@@ -1,0 +1,18 @@
+{
+  "title": "Information processing apparatus, information processing method, and storage medium",
+  "abstract": "An apparatus includes an acquisition unit configured to acquire a pair of first data and second data, the first data being obtained by imaging an object under a first environment, the second data being obtained by imaging the object under a second environment, and a processing unit configured to generate a three-dimensional lookup table by using the pair of the first data and the second data, the three-dimensional lookup table holding a condition for image processing to convert the first data into the second data.",
+  "claims": "1. An apparatus comprising: one or more processors; and at least one memory coupled to the one or more processors storing instructions that, when executed by the one or more processors, cause the one or more processors to function as: an acquisition unit configured to acquire a pair of first data and second data, the first data being obtained by imaging an object under a first environment, the second data being obtained by imaging the object under a second environment; and a processing unit configured to determine values corresponding to each of grid points of a three-dimensional lookup table, perform search on whether pixels of the first data are located at positions surrounding a grid point of interest of the three-dimensional look up table and generate the three-dimensional lookup table by using the pair of the first data and the second data, the three-dimensional lookup table holding a condition for image processing to convert the first data into the second data, wherein, in a case where the pixels of the first data are located at positions surrounding the grid point of interest of the three-dimensional lookup table, the processing unit generates an interpolation point corresponding to the grid point of interest by interpolation processing using the values of the pixels surrounding the grid point of interest, wherein, in a case where pixels of the first data are not located at the positions surrounding the grid point of interest of the three-dimensional lookup table, the processing unit generates the interpolation point corresponding to the grid point of interest by interpolation processing using values of three neighboring pixels nearest to the grid point of interest, and wherein the processing unit generates the three-dimensional lookup table holding values of the interpolation point as values of a grid point.",
+  "patent_id": "US12382004-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 9/77",
+      "H04N 23/88"
+    ],
+    "all": [
+      "H04N 9/77",
+      "H04N 23/88"
+    ],
+    "source": "converted"
+  }
+}

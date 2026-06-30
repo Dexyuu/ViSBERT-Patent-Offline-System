@@ -1,0 +1,26 @@
+{
+  "title": "Selecting data for deep learning",
+  "abstract": "Systems and methods analyze a data set including a plurality of images. In one implementation, at least one processor receives a plurality of images acquired by one or more cameras associated with at least one vehicle; and analyzes the plurality of images using an active learning system configured to determine a relative priority ranking among the plurality of images. The relative priority ranking indicates an ordered sequence for the plurality of images, and is determined based on at least one indicator, determined for each of the plurality of images, of a complexity level and a diversity level associated with representations of one or more objects represented in the plurality of images. The at least one processor then outputs information indicating the relative priority ranking among the plurality of images.",
+  "claims": "1. A system for analyzing a data set including a plurality of images, the system comprising: at least one processor programmed to: receive a plurality of images acquired by one or more cameras associated with at least one vehicle; analyze the plurality of images using an active learning system configured to determine a relative priority ranking among the plurality of images, the active learning system including a trained machine learning model configured to receive the plurality of images as an input and to output, for each of the plurality of images, at least a priority ranking indicator based on a combination of a complexity indicator and a diversity indicator of the image, the relative priority ranking indicating an ordered sequence for the plurality of images; and select, based on the relative priority ranking among the plurality of images, a subset of the plurality of images for use in training a primary image analysis model, wherein the trained machine learning model is trained based at least in part on feedback from the primary image analysis model during training of the primary image analysis model, and wherein during training of the trained machine learning model and the primary image analysis model, the trained machine learning model converges before the primary image analysis model.",
+  "patent_id": "US12380709-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 20/588",
+      "G06F 18/2113",
+      "G06T 7/13",
+      "G06T 7/174",
+      "G06T 2207/20084",
+      "G06T 2207/30256"
+    ],
+    "all": [
+      "G06V 20/588",
+      "G06F 18/2113",
+      "G06T 7/13",
+      "G06T 7/174",
+      "G06T 2207/20084",
+      "G06T 2207/30256"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Batched and secure stake rewards calculation",
+  "abstract": "A method includes determining, by a stake account manager, to distribute rewards to one or more stake accounts of a stake pool, obtaining privately stored stake account information of the one or more stake accounts and a rewards balance of the stake pool, calculating a reward amount of the rewards balance owed to each stake account of the one or more stake accounts based on the privately stored stake account information, and performing a batched and secure calculation technique on the calculated reward amounts to produce a batched and secure rewards distribution summary. The batched and secure rewards distribution summary ensures that each reward amount is calculated correctly and that the privately stored stake account information remains private. The method further includes publishing the batched and secure rewards distribution summary to the blockchain. The publishing the batched and secure rewards distribution summary deposits reward amounts to the each stake account.",
+  "claims": "1. A method comprises: determining, by a stake account manager of a secure and trusted cryptocurrency acceptance system, to distribute rewards to one or more stake accounts of a stake pool of the secure and trusted cryptocurrency acceptance system, wherein a stake account of the one or more stake accounts is a smart contract on a blockchain, and wherein the stake account is associated with a trusted cryptocurrency wallet of the secure and trusted cryptocurrency acceptance system, and wherein one or more staking entities store network specific cryptocurrency in the stake account for purposes of backing financial transactions of the trusted cryptocurrency wallet within the secure and trusted cryptocurrency acceptance system; obtaining, by the stake account manager, privately stored stake account information of the one or more stake accounts and a rewards balance of the stake pool, wherein an amount of transaction fees deposited into the stake pool are converted into the network specific cryptocurrency to produce rewards of the rewards balance, and wherein a transaction fee of the amount of transaction fees deposited into the stake pool is deposited into the stake pool based on a successful financial transaction of the secure and trusted cryptocurrency acceptance system; calculating, by the stake account manager, a reward amount of the rewards balance owed to each stake account of the one or more stake accounts based on the privately stored stake account information; performing, by the stake account manager, a batched and secure calculation technique on the calculated reward amounts to produce a batched and secure rewards distribution summary, wherein the batched and secure rewards distribution summary ensures that each reward amount is calculated correctly and that the privately stored stake account information remains private; and publishing, by the stake account manager, the batched and secure rewards distribution summary to the blockchain, wherein the publishing the batched and secure rewards distribution summary deposits each reward amount to the each stake account.",
+  "patent_id": "US12380434-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/381",
+      "G06Q 20/0655",
+      "G06Q 20/223",
+      "G06Q 20/3678",
+      "G06Q 40/04",
+      "G06Q 20/10",
+      "G06Q 2220/00"
+    ],
+    "all": [
+      "G06Q 20/381",
+      "G06Q 20/0655",
+      "G06Q 20/223",
+      "G06Q 20/3678",
+      "G06Q 40/04",
+      "G06Q 20/10",
+      "G06Q 2220/00"
+    ],
+    "source": "converted"
+  }
+}

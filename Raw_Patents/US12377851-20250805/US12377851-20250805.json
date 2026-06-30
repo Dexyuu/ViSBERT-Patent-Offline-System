@@ -1,0 +1,38 @@
+{
+  "title": "Method for supporting a traction vehicle in the event of traction loss",
+  "abstract": "The disclosure relates to a method for assisting a towing vehicle in the event of a loss of traction via a trailer vehicle. The method includes determining a differential slip between a driven wheel and a driveless wheel of the towing vehicle via a brake control unit and generating an acceleration demand dependent on the determined differential slip. The method further includes transmitting the acceleration demand to a trailer brake control unit, generating an activation signal for an electric drive of the trailer vehicle in dependence upon the acceleration demand in the trailer brake control unit, transmitting an activation signal to the electric drive of the trailer vehicle and generating a drive torque via the electric drive in dependence upon the activation signal. The disclosure furthermore relates to a towing vehicle, a trailer vehicle, and a combination thereof for carrying out the method.",
+  "claims": "1. A method for assisting a towing vehicle in the event of a loss of traction via a trailer vehicle, the method comprising: determining a differential slip between at least one driven wheel and at least one driveless wheel of the towing vehicle via a brake control unit of the towing vehicle, wherein the differential slip lies above a predefined threshold value; generating an acceleration demand in a manner dependent upon the determined differential slip in the brake control unit mounted on the towing vehicle; transmitting the acceleration demand to a trailer brake control unit mounted on the trailer vehicle; generating an activation signal for an electric drive of the trailer vehicle in a manner dependent upon the acceleration demand in the trailer brake control unit; transmitting the activation signal from the trailer brake control unit to the electric drive of the trailer vehicle; generating at least one drive torque via the electric drive of the trailer vehicle in a manner dependent on the activation signal; determining a trailer vehicle differential slip between at least two wheels of the trailer vehicle which are driven via the electric drive; and, increasing an activation torque for generating the drive torque via the electric drive from a predefined starting value in stepped fashion or continuously up to a maximum torque value as long as the trailer vehicle differential slip of the driven wheels of the trailer vehicle lies below a further predefined threshold value; and, wherein the activation signal corresponds to or includes the maximum torque value.",
+  "patent_id": "US12377851-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 30/18172",
+      "B60R 16/0231",
+      "B62D 59/04",
+      "B60W 2300/14",
+      "B60W 2510/18",
+      "B60W 2520/22",
+      "B60W 2520/263",
+      "B60W 2520/266",
+      "B60W 2530/10",
+      "B60W 2530/203",
+      "B60W 2540/10",
+      "B60W 2710/083"
+    ],
+    "all": [
+      "B60W 30/18172",
+      "B60R 16/0231",
+      "B62D 59/04",
+      "B60W 2300/14",
+      "B60W 2510/18",
+      "B60W 2520/22",
+      "B60W 2520/263",
+      "B60W 2520/266",
+      "B60W 2530/10",
+      "B60W 2530/203",
+      "B60W 2540/10",
+      "B60W 2710/083"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Method and apparatus for generating a combined three-dimensional ultrasound image",
+  "abstract": "A method and an apparatus for generating a combined three-dimensional ultrasound image of a body portion are described. Therein, two ultrasound scans are preformed, using a relative tracking system, specifically an inertial tracking, and two partial volume images are generated therefrom. The first and second volumes have an overlapping volume containing a predetermined anatomical structure. Then, respective anatomical structure position data indicative of the position of the predetermined anatomical structure in the respective partial volume image are identified by image segmentation. Then, an initial spatial relationship between the first and second partial volume images is established, based on the identified first and second anatomical structure position data. Then a fine registration algorithm using the initial spatial relationship as an initial input is carried out; and the partial volume images are combined in the common volume using the fine-registered spatial relationship.",
+  "claims": "1. A method for generating a combined three-dimensional ultrasound image of a body portion, the method comprising: performing a first ultrasound scan of a first volume of the body portion using an ultrasound probe, whereby the ultrasound probe generates first ultrasound image data, and whereby a relative tracking system generates first relative displacement data by monitoring the relative displacement of the ultrasound probe; generating a first partial volume image from the first ultrasound image data and from the first relative displacement data; performing a second ultrasound scan of a second volume of the body portion using the ultrasound probe, whereby the ultrasound probe generates second ultrasound image data, and whereby the relative tracking system generates second relative displacement data by monitoring the relative displacement of the ultrasound probe, generating a second partial volume image from the second ultrasound image data and from the second relative displacement data, wherein the first and second volumes have an overlapping volume containing a predetermined anatomical structure of the body portion; identifying first anatomical structure position data indicative of the position of the predetermined anatomical structure in the first partial volume image by image segmentation; identifying second anatomical structure position data indicative of the position of the predetermined anatomical structure in the second partial volume image by image segmentation; and establishing an initial spatial relationship between the first and second partial volume images in a common volume, based on the identified first and second anatomical structure position data; adjusting the spatial relationship by a fine registration algorithm using the initial spatial relationship as an initial guess; and combining the first and second partial volume images in the common volume using the adjusted spatial relationship, wherein the relative tracking system is an inertial tracking system using at least one from a group comprising an accelerometer and a gyroscope, and wherein segmentation of the first partial volume image and the second partial image volume comprises classifying voxels of the first partial volume image and the second partial image volume as one of multiple classes, either by probability maps or by a class label for each voxel, and outputs a three-dimensional classification output.",
+  "patent_id": "US12376821-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 8/085",
+      "A61B 8/4245",
+      "A61B 8/483"
+    ],
+    "all": [
+      "A61B 8/085",
+      "A61B 8/4245",
+      "A61B 8/483"
+    ],
+    "source": "converted"
+  }
+}

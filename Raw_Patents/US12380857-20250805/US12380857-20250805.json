@@ -1,0 +1,24 @@
+{
+  "title": "Scan driver",
+  "abstract": "A scan driver includes a stage, wherein the stage includes: a first output controller including a first pull-up transistor and a first pull-down transistor, wherein the first pull-up transistor has a gate connected to a first control node, and the first pull-down transistor has a gate connected to a second control node; a second output controller including a second pull-up transistor and a second pull-down transistor, wherein the second pull-up transistor has a gate connected to the first control node, and the second pull-down transistor has a gate connected to the second control node; and a stabilizer configured to maintain the first control node at an off-voltage level based on the second control node being at an on-voltage level.",
+  "claims": "1. A scan driver comprising a plurality of stages, wherein each of the plurality of stages comprises: a first transistor connected between a first node and an input terminal configured to receive a start signal, and having a gate connected to a first clock terminal configured to receive a first clock signal; a first pull-up transistor having a gate connected to the first node, and configured to output scan signal of a first voltage level in response to the first node being in the first voltage level; a first pull-down transistor having a gate connected to a second node, and configured to output scan signal of a second voltage level in response to the second node being in the first voltage level; a second pull-down transistor having a gate connected to a third node, and configured to output scan signal of the second voltage level in response to the third node being in the first voltage level; and a node controller configured to control the second node and the third node to a third voltage level in response to the first node being in the first voltage level, and control the second node and the third node to the first voltage level in response to the first node being in the third voltage level.",
+  "patent_id": "US12380857-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/3266",
+      "G09G 3/3258",
+      "G09G 2310/0286",
+      "G09G 2310/08",
+      "G09G 2320/0223"
+    ],
+    "all": [
+      "G09G 3/3266",
+      "G09G 3/3258",
+      "G09G 2310/0286",
+      "G09G 2310/08",
+      "G09G 2320/0223"
+    ],
+    "source": "converted"
+  }
+}

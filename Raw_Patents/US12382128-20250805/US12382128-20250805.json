@@ -1,0 +1,18 @@
+{
+  "title": "Systems and methods of alternative networked application services",
+  "abstract": "The server system receives, from a respective remote physical client device, a digest of a segment of video content received by the respective remote physical client device, the segment of video content including a plurality of frames of video content. In response to receiving the digest, the server system sends a playback command to the respective remote physical device to playback one or more of the plurality of frames of video content in the segment. The plurality of frames of video content in the segment have a frame rate. The server system determines a graphical processing unit (GPU) overlay instruction for overlaying content of a frame buffer with a respective portion of the segment of video content and sends, asynchronously from the frame rate of the plurality of frames of video content, the GPU overlay instruction to the respective remote physical client device.",
+  "claims": "1. A method comprising: at a server system hosting one or more virtual client devices, each virtual client device corresponding to a remote physical client device that plays back video content received from a content server: receiving, from a respective remote physical client device, a digest of a segment of video content received by the respective remote physical client device, the segment of video content including a plurality of frames of video content; in response to receiving the digest: sending a playback command to the respective remote physical device to play back one or more of the plurality of frames of video content in the segment, wherein the plurality of frames of video content in the segment have a frame rate; determining a graphical processing unit (GPU) overlay instruction for overlaying content with a respective portion of the segment of video content; and sending the GPU overlay instruction to the respective remote physical client device, wherein a frame rate of the overlayed content is sent at a frame rate independent of the frame rate of the plurality of frames of video content and is variably determined by the server system.",
+  "patent_id": "US12382128-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/4316",
+      "H04N 21/47217"
+    ],
+    "all": [
+      "H04N 21/4316",
+      "H04N 21/47217"
+    ],
+    "source": "converted"
+  }
+}

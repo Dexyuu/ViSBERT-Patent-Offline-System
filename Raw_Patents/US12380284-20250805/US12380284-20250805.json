@@ -1,0 +1,22 @@
+{
+  "title": "Text translation method and apparatus, electronic device, and storage medium",
+  "abstract": "A text translation method is described that includes initially acquiring text. Thereafter, first text is determined in the initial text; and second text is determined according to the first text, where the second text is used for describing the first text. Additionally, initial text is translated to obtain initial translation text, and the second text is translated to obtain description translation text. Thereafter, the initial translation text is updated according to the description translation text to obtain target translation text of the initial text.",
+  "claims": "1. A text translation method, executed by an electronic device and comprising: acquiring initial text and determining first text in the initial text; determining second text according to the first text, wherein the second text is used for describing the first text; translating, using a neural network model, the initial text to obtain initial translation text and translating, using the neural network model, the second text to obtain description translation text; and updating, using the neural network model, the initial translation text according to the description translation text to obtain target translation text of the initial text; wherein translating, using the neural network model, the initial text to obtain the initial translation text and translating, using the neural network model, the second text to obtain the description translation text comprises: placing the initial text and the second text in a same statement in which the second text is placed behind the initial text and separating the initial text and the second text by a symbol separating pieces of text to obtain spliced text; and translating, using the neural network model, the spliced text to obtain spliced translation text, wherein the spliced translation text comprises the initial translation text and the description translation text; wherein in the spliced translation text, the initial translation text and the description translation text are placed in a same statement in which the description translation text is placed behind the initial translation text; and wherein in the spliced translation text, the initial translation text and the description translation text are separated by the symbol separating pieces of text; or wherein translating, using the neural network model, the initial text to obtain the initial translation text and translating, using the neural network model, the second text to obtain the description translation text comprises: placing the initial text and the second text in a same paragraph in which the second text is placed behind the initial text and separating the initial text and the second text by a symbol separating pieces of text to obtain spliced text; and translating, using the neural network model, the spliced text to obtain spliced translation text, wherein the spliced translation text comprises the initial translation text and the description translation text; wherein in the spliced translation text, the initial translation text and the description translation text are placed in a same paragraph in which the description translation text is placed behind the initial translation text; and wherein in the spliced translation text, the initial translation text and the description translation text are separated by the symbol separating pieces of text.",
+  "patent_id": "US12380284-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 40/47",
+      "G06F 40/166",
+      "G06F 40/30",
+      "G06F 40/247"
+    ],
+    "all": [
+      "G06F 40/47",
+      "G06F 40/166",
+      "G06F 40/30",
+      "G06F 40/247"
+    ],
+    "source": "converted"
+  }
+}

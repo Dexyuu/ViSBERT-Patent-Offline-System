@@ -1,0 +1,18 @@
+{
+  "title": "Signal-to-noise ratio-based bit error ratio calculation for reporting beyond a forward error correction threshold",
+  "abstract": "Signal-to-noise ratio (SNR)-based bit error ratio (BER) calculations for reporting beyond a forward error correction (FEC) threshold include measuring signal-to-noise ratio (SNR) of a first signal; extrapolating the SNR of a first signal to determine an SNR of a second signal; and determining a pre-FEC bit error rate (BER) for the second signal based on the determined SNR of the second signal. The process can further include reporting the determined pre-FEC BER. The measuring and extrapolating can be used when the second signal is beyond the FEC threshold.",
+  "claims": "1. A receiver comprising circuitry configured to: receive a signal, measure signal-to-noise ratio (SNR) of a first signal, wherein the first signal is a pilot or training signal associated with the received signal, extrapolate the SNR of the first signal to determine an SNR of a second signal, wherein the second signal is a data signal for the received signal, and determine a pre-forward error correction (FEC) bit error ratio (BER) for the second signal based on the determined SNR of the second signal, wherein the SNR is measured of the first signal and extrapolated to the second signal responsive to the second signal being beyond a FEC threshold.",
+  "patent_id": "US12381624-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 10/07953",
+      "H04L 1/0045"
+    ],
+    "all": [
+      "H04B 10/07953",
+      "H04L 1/0045"
+    ],
+    "source": "converted"
+  }
+}

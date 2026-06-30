@@ -1,0 +1,42 @@
+{
+  "title": "Structured data folding with transmutations",
+  "abstract": "A method of processing data includes at least one processor accessing a data storage unit, the data storage unit providing at least one input data object and at least one transmutation command to be performed on the at least one input data object. The at least one transmutation command operates in a forward mode on the at least one input data object to produce at least one output data object to be stored in a data storage unit.",
+  "claims": "1. A data processing system comprising: a memory configured to store a data storage structure, the data storage structure containing at least one data field including at least one input data object and at least one command field including a plurality of transmutation commands to be performed in a sequence specified in the data storage structure on a same one of the at least one input data object; and at least one processor configured to: access the data storage structure in the memory; operate in a forward traversal where each of the plurality of transmutation commands in the specified sequence is operated in a forward mode and the specified sequence is performed in a forward order on the at least one input data object to produce at least one output data object; and replace the at least one input data object in the at least one data field of the data storage structure with the at least one output data object while leaving the plurality of transmutation commands in the at least one command field of the data storage structure wherein the plurality of transmutation commands is configured to be applied to the at least one output data object to recover the at least one input data object.",
+  "patent_id": "US12380253-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/78",
+      "G06F 16/258",
+      "G06F 21/602",
+      "G06F 21/6227",
+      "H04L 9/0637",
+      "H04L 9/0643",
+      "H04L 9/085",
+      "H04L 9/0861",
+      "H04L 9/14",
+      "H04L 9/3226",
+      "H04L 9/3242",
+      "H04L 9/3247",
+      "H04L 63/0281",
+      "H04L 63/0442"
+    ],
+    "all": [
+      "G06F 21/78",
+      "G06F 16/258",
+      "G06F 21/602",
+      "G06F 21/6227",
+      "H04L 9/0637",
+      "H04L 9/0643",
+      "H04L 9/085",
+      "H04L 9/0861",
+      "H04L 9/14",
+      "H04L 9/3226",
+      "H04L 9/3242",
+      "H04L 9/3247",
+      "H04L 63/0281",
+      "H04L 63/0442"
+    ],
+    "source": "converted"
+  }
+}

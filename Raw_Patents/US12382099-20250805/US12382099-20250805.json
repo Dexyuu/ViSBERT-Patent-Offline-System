@@ -1,0 +1,26 @@
+{
+  "title": "Image data encoding/decoding method and apparatus",
+  "abstract": "Disclosed are methods and apparatuses for image data encoding/decoding. A method of decoding an image includes receiving a bitstream in which the image is encoded; obtaining index information for specifying a block division type of a current block in the image; and determining the block division type of the current block from a candidate group pre-defined in the decoding apparatus. The candidate group includes a plurality of candidate division types, including at least one of a non-division, a first quad-division, a second quad-division, a binary-division or a triple-division. The method also includes dividing the current block into a plurality of sub-blocks; and decoding each of the sub-blocks with reference to syntax information obtained from the bitstream.",
+  "claims": "1. A method of decoding an image with a decoding apparatus, comprising: receiving a bitstream in which the image is encoded; obtaining a current block by dividing the image; obtaining, from the bitstream, at least one among a single index for specifying a block division type of the current block in the image, a first flag specifying whether to perform horizontal binary-division and a second flag specifying whether to perform vertical binary-division; determining, based on at least one among the single index, the first flag and the second flag, the block division type of the current block from a candidate group pre-defined in the decoding apparatus, wherein the single index is used to select one candidate division types among a plurality of candidate division types included in the candidate group, wherein the plurality of candidate division types include a non-division, a first quad-division, a second quad-division, a binary-division and a triple-division, wherein the first quad-division is representative of dividing, based on one horizontal line and one vertical line, one coding block into four coding blocks, the second quad-division is representative of dividing, based on three horizontal lines or three vertical lines, one coding block into four coding blocks, the binary-division is representative of dividing one coding block into two coding blocks, and the triple-division is representative of dividing one coding block into three coding blocks, and wherein the binary-division includes the horizontal binary-division and the vertical binary-division, dividing, based on the determined block division type, the current block into a plurality of sub-blocks; and decoding each of the sub-blocks with reference to syntax information obtained from the bitstream, wherein the four coding blocks obtained by the second quad-division have the same size each other, and wherein the decoding each of the sub-blocks comprises selecting a prediction method from among a plurality of prediction methods including intra prediction and inter prediction, and generating a prediction block by performing the selected prediction method.",
+  "patent_id": "US12382099-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/597",
+      "G06T 3/16",
+      "H04N 13/139",
+      "H04N 13/161",
+      "H04N 19/70",
+      "H04N 2013/0085"
+    ],
+    "all": [
+      "H04N 19/597",
+      "G06T 3/16",
+      "H04N 13/139",
+      "H04N 13/161",
+      "H04N 19/70",
+      "H04N 2013/0085"
+    ],
+    "source": "converted"
+  }
+}

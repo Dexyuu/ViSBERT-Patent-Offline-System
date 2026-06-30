@@ -1,0 +1,22 @@
+{
+  "title": "Systems and methods for updating hydrocarbon reservoir parameters",
+  "abstract": "Techniques for updating hydrocarbon parameters include identifying well data associated with wells formed in subterranean formations of a hydrocarbon reservoir; determining a data density value for each well; assigning each well into a pressure grouping based on a wellbore pressure similarity of the well relative to an initial pattern well; generating a two-dimensional (2D) model of the hydrocarbon reservoir; converting the 2D model into a three-dimensional (3D) model of the hydrocarbon reservoir; and updating a permeability or a porosity associated with a grid cell of the 3D model.",
+  "claims": "1. A computer-implemented method of updating one or more hydrocarbon parameters, comprising: identifying, with a computing system, well data associated with a plurality of wells formed in one or more subterranean formations of a hydrocarbon reservoir, the well data comprising at least one recorded wellbore pressure associated with each well in the plurality of wells; determining, with the computing system, a data density value for each well of the plurality of wells, where the data density value comprises a number of time windows in which the well has a recorded wellbore pressure; determining, with the computing system, at least one well of the plurality of wells that has a data density value less than a threshold value; removing, with the computing system, the determined at least one well from the plurality of wells; assigning, with the computing system, each well of the plurality of wells into a pressure grouping of a plurality of pressure groupings based on a wellbore pressure similarity of the well relative to an initial pattern well that is defined by a maximum data density value, wherein the assigning comprises: determining, with the computing system, for each removed well, a differential between the recorded pressure data of the removed well and a pressure of each of the plurality of pressure groupings; and assigning, with the computing system, each removed well to a particular pressure grouping based on the differential between the recorded pressure data of the removed well and the pressure the particular pressure grouping being minimal; generating, with the computing system, a two-dimensional (2D) model of the hydrocarbon reservoir that comprises a plurality of grid cells, each grid cell assigned to one of the plurality of pressure groupings based on an assigned pressure grouping of a well of the plurality of wells that is located within or nearest the grid cell; converting, with the computing system, the 2D model into a three-dimensional (3D) model of the hydrocarbon reservoir by duplicating the assigned one of the plurality of pressure groupings of each grid cell along a column of vertical grid cells; and updating, with the computing system, at least one of a permeability or a porosity associated with a grid cell of the 3D model that is assigned to each of the plurality of pressure groupings based on a history match of the one or more wells production data or pressure data.",
+  "patent_id": "US12379515-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01V 1/282",
+      "G01V 2210/6244",
+      "G01V 2210/6246",
+      "G01V 2210/66"
+    ],
+    "all": [
+      "G01V 1/282",
+      "G01V 2210/6244",
+      "G01V 2210/6246",
+      "G01V 2210/66"
+    ],
+    "source": "converted"
+  }
+}

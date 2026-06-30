@@ -1,0 +1,20 @@
+{
+  "title": "Injection of user feedback into language model adaptation",
+  "abstract": "The present disclosure generally relates to updating a language model based on user feedback. Based on a user text input, a language model predicts a set of tokens and an action that will be taken by the user in response to the predicted set of tokens. If the predicted action does not match a detected actual user action, the language model is updated to reflect the user feedback by modifying an output token probability distribution based on the actual user action and updating the language model to converge with a target language model using the modified output token probability distribution.",
+  "claims": "1. An electronic device, comprising: one or more processors; a memory; and one or more programs, wherein the one or more programs are stored in the memory and configured to be executed by the one or more processors, the one or more programs including instructions for: receiving one or more input tokens, wherein the one or more input tokens are displayed in a text-input field of a user interface; in response to receiving the one or more input tokens, predicting, using a first output token probability distribution drawn from a first overall token probability distribution of a first language model, a first set of one or more output tokens; generating a predicted user action to be performed on the first set of one or more output tokens; providing an output including the first set of one or more output tokens; detecting a first user action responding to the first set of one or more output tokens; in accordance with a determination that the first user action does not match the predicted user action: generating a modified output token probability distribution based on the first user action; and based on the modified output token probability distribution, updating the first overall token probability distribution to converge to a second overall token probability distribution; receiving an additional one or more input tokens; in response to receiving the additional one or more input tokens, predicting, using the updated first overall token probability distribution, a second set of one or more output tokens; and providing a second output including the second set of the one or more output tokens.",
+  "patent_id": "US12380281-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 40/40",
+      "G06N 5/022",
+      "G06F 3/0482"
+    ],
+    "all": [
+      "G06F 40/40",
+      "G06N 5/022",
+      "G06F 3/0482"
+    ],
+    "source": "converted"
+  }
+}

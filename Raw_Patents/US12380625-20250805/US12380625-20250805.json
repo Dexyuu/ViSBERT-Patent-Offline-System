@@ -1,0 +1,20 @@
+{
+  "title": "Methods and apparatus for selection of rendering modes",
+  "abstract": "The present disclosure relates to graphics processing. An apparatus of the present disclosure may determine visibility streams corresponding to a target and a set of bins into which the target is divided. The apparatus may select one of a first rendering mode or a second rendering mode for the target based on the first visibility stream and based on the set of second visibility streams. When the first rendering mode is select, the apparatus may configure each of the set of bins into a first subset associated with a first type of rendering pass or a second subset associated with a second type of rendering pass. The apparatus may then render the target based on the selected one of the first rendering mode or the second rendering mode and, if applicable, based on the first rendering pass type or the second rendering pass type.",
+  "claims": "1. A method for determining a first visibility stream corresponding to a target based on a first visibility pass for the target; determining a set of second visibility streams respectively corresponding to a set of bins based on a set of second visibility passes for the set of bins, the target being divided into the set of bins; selecting one of a first rendering mode or a second rendering mode for the target based on the first visibility stream and based on the set of second visibility streams, the first rendering mode including rendering each of the set of bins and the second rendering mode including directly rendering the target; and rendering the target based on the selected one of the first rendering mode or the second rendering mode, wherein the selecting the one of the first rendering mode or the second rendering mode is further based on at least one configuration for concurrent resolves or concurrent unresolves associated with the rendering of the target.",
+  "patent_id": "US12380625-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 15/005",
+      "G06T 1/20",
+      "G06T 1/60"
+    ],
+    "all": [
+      "G06T 15/005",
+      "G06T 1/20",
+      "G06T 1/60"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2025024529",
+  "application_id_fs": "WO2025024529",
+  "title": "Stolen vehicle prevention using two-factor authentication",
+  "abstract": "A vehicle security system includes a vehicle system of a vehicle having an electronic control unit and a computer-readable medium. An immobilization system is configured to mobilize and demobilize an engine of the vehicle. The immobilization system is in communication with the vehicle system. A key having a transponder is in communication with the immobilization system. A cloud database is in communication with the vehicle system. The cloud database selectively sends a verification command to the immobilization system through the vehicle system. A user interface computer is in communication with the cloud. The user interface is configured to input a successful unique response into the user interface computer to activate the sending of the verification command.",
+  "claims": "Claims CLAIMS AIM: 1. A vehicle security system comprising: a vehicle system of a vehicle having an electronic control unit and a computer-readable medium; an immobilization system configured to mobilize and demobilize an engine of the vehicle, the immobilization system in communication with the vehicle system; a key having a transponder in communication with the immobilization system; a cloud database in communication with the vehicle system, the cloud database selectively sending a verification command to the immobilization system through the vehicle system; and a user interface computer in communication with the cloud, the user interface configured to input a successful unique response into the user interface computer to activate the sending of the verification command. 2. The vehicle security system of Claim 1, wherein the immobilization system includes the transponder and a frequency reader positioned in the vehicle. 3. The vehicle security system of Claim 2, wherein the transponder includes a chip with a code matching a code of the immobilization system. 4. The vehicle security system of Claim 3, wherein when the chip with the code matches the code of the immobilization system, a start request command is sent to the cloud database. 5. The vehicle security system of Claim 1, wherein the cloud sends a challenge to the user interface computer facilitating a response from the user interface computer. 6. The vehicle security system of Claim 5, wherein the challenge is a question 7. The vehicle security system of Claim 5, wherein the challenge is a code. 8. The vehicle security system of Claim 5, wherein the challenge is a physical token. 9. The vehicle security system of Claim 5, where the challenge is a user name and a password. 10. The vehicle security system of Claim 5, wherein the challenge is received on the user interface computer through an application. 11. The vehicle security system of Claim 5, wherein the challenge is received on the user interface computer through a text message or an email. 12. The vehicle security system of Claim 1, wherein the user interface computer is a mobile device. 13. The vehicle security system of Claim 1, wherein the verification command is sent to the immobilization system for a continuous interval of time. 14. The vehicle security system of Claim 13, wherein the verification command is sent to the immobilization system for a continuous interval of about two to four hours. 15. The vehicle security system of Claim 1, wherein verification command sent to the immobilization system permits the vehicle to be mobilized with the key. 16. The vehicle security system of Claim 1, wherein the key is a fob. 17. A method of mobilizing a vehicle with key and a two-factor authentication comprising the steps of: integrating an immobilization system in communication with an engine system of a vehicle, the immobilization system selectively mobilizing and demobilizing the engine system; and sending at least two verification commands to the immobilization system to permit mobilization of the engine system. 18. The method of Claim 17. wherein a first one of the at least two verification commands is sent from a key transponder and a second one of the at least two verification commands is sent from a cloud after a successfully completed response is sent to the cloud from a user interface computer corresponding to a user of the vehicle. 19. The method of Claim 18, wherein the cloud generates a challenge and sends the challenge to the user interface computer upon receiving a start request command from a vehicle system of the vehicle. 20. The method of Claim 19, wherein the start request command is sent to the cloud after the first one of the at least two verification commands is sent to the immobilization system.",
+  "classifications": {
+    "ipc": [
+      "G06F 21/00",
+      "G06F 21/70",
+      "G06F 21/88",
+      "B60R 25/00",
+      "B60R 25/20",
+      "B60R 25/24",
+      "G06F 21/30",
+      "G06F 21/31",
+      "G06F 21/34",
+      "G06F 21/35",
+      "G07C 9/00",
+      "B60R 2325/00",
+      "B60R 2325/20",
+      "B60R 2325/205",
+      "B60R 25/23",
+      "B60R 25/246"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 21/00",
+      "G06F 21/70",
+      "G06F 21/88",
+      "B60R 25/00",
+      "B60R 25/20",
+      "B60R 25/24",
+      "G06F 21/30",
+      "G06F 21/31",
+      "G06F 21/34",
+      "G06F 21/35",
+      "G07C 9/00",
+      "B60R 2325/00",
+      "B60R 2325/20",
+      "B60R 2325/205",
+      "B60R 25/23",
+      "B60R 25/246"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025024529"
+}

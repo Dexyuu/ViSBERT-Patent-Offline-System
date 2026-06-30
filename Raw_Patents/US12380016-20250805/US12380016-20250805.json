@@ -1,0 +1,18 @@
+{
+  "title": "Throttling test mode for browser-based web application load testing",
+  "abstract": "For each of a number of test commands of a test script for browser-based load testing of a web application hosted by a server device communicatively connected to the test device over a network, the test command is executed within a browser instance running on the test device and simulating usage of the web application by a user. In response to determining that the test command that has been executed is a browser operation command, that the test command executes for a minimum length of time is ensured in a throttling test mode in which the web application is tested via the browser instance.",
+  "claims": "1. A non-transitory computer-readable data storage medium storing program code executable by a processor of a test device to perform processing comprising: for each test command of a plurality of test commands of a test script for browser-based load testing of a web application hosted by a server device communicatively connected to the test device over a network: executing the test command within a browser instance running on the test device and simulating usage of the web application by a user; and in response to determining that the test command that has been executed is a browser operation command, ensuring that the test command executes for a minimum length of time in a throttling test mode in which the web application is tested via the browser instance, wherein the test script itself does not specify that the test command has to execute for the minimum length of time.",
+  "patent_id": "US12380016-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/3688",
+      "G06F 11/3692"
+    ],
+    "all": [
+      "G06F 11/3688",
+      "G06F 11/3692"
+    ],
+    "source": "converted"
+  }
+}

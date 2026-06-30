@@ -1,0 +1,26 @@
+{
+  "title": "Determining phase tracking reference signals in multiple transmission points",
+  "abstract": "A method for a UE in a multiple transmission points communication system, mTRP, scheme, is provided. The method includes receiving downlink control information, DCI, indicating at least two transmission points scheme for a scheduled data transmission on physical resource blocks, PRBs. The PRBs includes at least a first subsets of PRBs, associated with a first transmission point, and a second subset of PRBs, associated with a second transmission point. The method further includes determining a first PT-RS frequency density for the first set of PRBs based on the number of PRBs in the first set of PRBs and a second PT-RS frequency density based on the number of PRBs in the second set of PRBs. A UE, methods for a base station and a base station are also provided.",
+  "claims": "1. A method for a UE in a multiple transmission points communication system, mTRP, the method comprising: receiving a higher layer configuration of a mTRP scheme; receiving downlink control information, DCI, indicating a first Transmission Configuration Indicator, TCI, state and a second TCI state and at least one demodulation reference signal, DMRS, port in one Code Division Multiplexing, CDM, group for a physical downlink shared channel, PDSCH, transmission on physical resource blocks, PRBs, wherein the PRBs comprise at least a first subset of PRBs, associated with the first TCI state, and a second subset of PRBs, associated with the second TCI state; and determining a first Phase Tracking Reference Signal, PT-RS, frequency density for a PT-RS port in the first subset of PRBs based on a number of PRBs in the first subset of PRBs and a second PT-RS frequency density for the same PT-RS port in the second subset of PRBs based on a number of PRBs in the second subset of PRBs, wherein two PT-RS ports are configured for the UE and the UE receives only the single PT-RS port associated with a lowest indexed DM-RS port.",
+  "patent_id": "US12381690-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/0053",
+      "H04B 7/08",
+      "H04L 5/0023",
+      "H04L 5/0048",
+      "H04L 5/0094",
+      "H04W 72/23"
+    ],
+    "all": [
+      "H04L 5/0053",
+      "H04B 7/08",
+      "H04L 5/0023",
+      "H04L 5/0048",
+      "H04L 5/0094",
+      "H04W 72/23"
+    ],
+    "source": "converted"
+  }
+}

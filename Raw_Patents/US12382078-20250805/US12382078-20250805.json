@@ -1,0 +1,26 @@
+{
+  "title": "Phase detection data encoding techniques",
+  "abstract": "This disclosure provides systems, methods, and devices for image signal processing that support compression of phase detection (PD) data. In a first aspect, a method of image processing includes receiving image data and first phase detection data corresponding to the image data; determining a first channel of the first phase detection data and a second channel of the first phase detection data; and coding the first phase detection data to determine second phase detection data by separately coding the first channel and the second channel. Other aspects and features are also claimed and described.",
+  "claims": "1. A method, comprising: receiving image data and first phase detection data corresponding to the image data; determining a first channel of the first phase detection data and a second channel of the first phase detection data; and coding the first phase detection data to determine second phase detection data by separately coding the first channel and the second channel, wherein coding the first phase detection data comprises: determining a focus state; and based on at least one criteria involving the focus state, coding the first phase detection data by: coding at least one of the first channel or the second channel based on same-channel correlation; or coding the at least one of the first channel or the second channel based on cross-channel correlation.",
+  "patent_id": "US12382078-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/46",
+      "H04N 19/136",
+      "H04N 19/80",
+      "H04N 23/665",
+      "H04N 23/672",
+      "H04N 23/80"
+    ],
+    "all": [
+      "H04N 19/46",
+      "H04N 19/136",
+      "H04N 19/80",
+      "H04N 23/665",
+      "H04N 23/672",
+      "H04N 23/80"
+    ],
+    "source": "converted"
+  }
+}

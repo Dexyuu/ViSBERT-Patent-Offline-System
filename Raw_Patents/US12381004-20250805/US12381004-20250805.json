@@ -1,0 +1,26 @@
+{
+  "title": "Systems and methods for predicting health outcomes",
+  "abstract": "A system and method are disclosed for predicting short term health outcomes based on data collected by a wearable device such as an activity tracker or a smart watch. Artificial Intelligence (AI) algorithms are configured to process an input vector that includes monitored parameter data collected by the wearable device as well as embedding data obtained from health records corresponding to a user account registered to the wearable device. In particular, a framework is defined that includes a random forest model configured to classify a user based on the monitored parameter data and embedding data. Based on a positive health outcome classification, a minimum value is assigned to a health index value for the user or, based on a negative health outcome classification, a gradient boosting machine is configured to generate the health index value. Various operations can be performed based on the assigned health index value for the user.",
+  "claims": "1. A system for predicting health outcomes, the system comprising: a memory storing instructions; and one or more processors that, responsive to executing the instructions, are configured to: receive monitored parameter data from a wearable device; obtain embedding data corresponding to a user registered to the wearable device; process the monitored parameter data and the embedding data by a random forest model comprising a plurality of decision trees to generate a binary classification of the user, wherein each of the plurality of decision trees generates a decision tree classification based on the monitored parameter data and the embedding data, wherein the binary classification is a first classification based on a majority of the decision tree classifications being the first classification, and wherein the binary classification is a second classification based on a majority of the decision tree classifications being the second classification; based on the user being classified according to the first classification, process the monitored parameter data and the embedding data by a gradient boosting machine (GBM) model to generate an index value indicating a health of the user that is registered to the wearable device; based on the user being classified according to the second classification, assign the index value a minimum index value; and perform an operation based on the index value.",
+  "patent_id": "US12381004-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16H 50/20",
+      "G06F 40/40",
+      "G16H 10/60",
+      "G16H 40/20",
+      "G16H 40/67",
+      "G16H 50/30"
+    ],
+    "all": [
+      "G16H 50/20",
+      "G06F 40/40",
+      "G16H 10/60",
+      "G16H 40/20",
+      "G16H 40/67",
+      "G16H 50/30"
+    ],
+    "source": "converted"
+  }
+}

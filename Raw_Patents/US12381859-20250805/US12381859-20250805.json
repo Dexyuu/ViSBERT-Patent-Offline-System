@@ -1,0 +1,32 @@
+{
+  "title": "Content security at service layer",
+  "abstract": "Existing approaches to security within network, for instance oneM2M networks, are limited. For example, content might only be protected while the content is in transit between entities that trust each other. Here, the integrity and the confidentiality of content in an M2M network are protected. Such content may be âat rest,â such that the content is stored at a hosting node. Only authorized entities may store and retrieve the data that is stored at the hosting node, and the data may be protected from a confidentiality perspective and an integrity perspective.",
+  "claims": "1. An apparatus for a service supporting service capabilities through a set of Application Programming Interfaces (APIs), the service being provided as middleware between application protocols and a plurality of applications, the apparatus comprising circuitry configured to: receive, from an entity hosting an application of the plurality of applications via at least one of the set of APIs, a first request to create one or more credentials for encrypting or integrity protecting application content when stored at rest on a first service entity of the service; and send, based on the request and to the entity, the one or more credentials comprising a credential identifier obtained from a second service entity of the service, wherein the entity is configured to send, to the service, a second request to create a resource that stores application content that is encrypted or integrity protected by the service, the resource being a uniquely addressable element in a Resource Oriented Architecture (ROA) having representation that can be manipulated via RESTful methods, the second request comprising the one or more credential identifiers for encrypting or integrity protecting the application content.",
+  "patent_id": "US12381859-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/0435",
+      "H04L 63/0823",
+      "H04L 63/101",
+      "H04W 12/06",
+      "H04W 12/069",
+      "H04W 12/08",
+      "H04W 12/086",
+      "H04L 63/061",
+      "H04W 4/70"
+    ],
+    "all": [
+      "H04L 63/0435",
+      "H04L 63/0823",
+      "H04L 63/101",
+      "H04W 12/06",
+      "H04W 12/069",
+      "H04W 12/08",
+      "H04W 12/086",
+      "H04L 63/061",
+      "H04W 4/70"
+    ],
+    "source": "converted"
+  }
+}

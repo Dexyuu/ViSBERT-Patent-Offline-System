@@ -1,0 +1,49 @@
+{
+  "application_id": "WO2021204545",
+  "application_id_fs": null,
+  "title": "Positioning means for additive manufacturing",
+  "abstract": "The present invention relates to a positioning method for an additive build-up (12) on a pre-existing component (10). The method comprises, a), providing the pre-existing component (10) as a substrate for the build-up (12), b), forming surface alignment features (13) of predefined dimensions and co-ordinates on a substrate surface of the component (10), c), recording an image of the substrate surface (10), wherein the image includes a contour (15) of the surface (11) as well as the alignment features (13), d), scaling the recorded image to real dimensions based on the predetermined dimensions of the alignment features (13), e) providing a geometry of the build-up (12), and, f), aligning the geometry of the build-up (12) and the scaled geometry of the substrate surface (11) based on the predefined coordinates. Moreover, an according computer program product, an apparatus and a method of additively manufacturing the build-up are provided.",
+  "claims": "Claims Patent claims 1.Positioning method for an additive build-up (12) on a pre-existing component (10), comprising the following steps: - a) providing the pre-existing component (10) as a sub strate for the build-up (12), - b) forming surface alignment features (13) of predefined dimensions and coordinates on a substrate surface of the component (10), - c) recording an image of the substrate surface (10), wherein the image includes a contour (15) of the surface (11) as well as the alignment features (13), - d) scaling the recorded image to real dimensions based on the predetermined dimensions of the alignment fea tures (13), - e) providing a geometry of the build-up (12), and - f) aligning the geometry of the build-up (12) and the scaled geometry of the substrate surface (11) based on the predefined coordinates. 2.Method according to claim 1, wherein the alignment fea tures (13) are formed by laser ablation or engraving in the substrate surface (11). 3.Method according to claim 1 or 2, wherein the alignment features (13) are formed such that they provide high- contrast outlines at a level of the substrate surface (11). 4.Method according to one of the previous claims, wherein the image is recorded with a high-resolution optical cam era (100). 5.Method according to one of the previous claims, wherein the scaled image is converted (aa) into a design format, such as STL, which is processable for an additive manufac turing process. 6.Method according to claim 5, wherein manufacturing in structions (CAM) are generated from the provided geometry of the build-up (12) and the geometry of the substrate surface (11). 7.Method according to one claim 5 or 6, wherein the geometry of the build-up (12) and the geometry of the substrate surface (11) are exported in a single coordinate system (x,y,z), such as of an according manufacturing de vice (200) or build job preparation means. 8. Computer program product (CPP) comprising instructions which, when the program is executed by a data processing device (101), cause said device to carry out the steps of the method d) to f) according one of the previous claims. 9.Apparatus (100) comprising a data processing device (112) and a recording equipment (102), such as a high- resolution camera, coupled to said device (101), wherein the apparatus (100) is configured to carry out the method of one of claims 1 to 7. 10. Method of additive manufacturing a build-up (12) on a pre-existing component (10) comprising: - providing said pre-existing component (10) as a sub strate for the build-up (12), - applying the positioning method as claimed in one of claims 1 to 7 in order to align the geometry of the build-up to the component (10), and - executing a manufacturing process for the build-up by way of manufacturing instructions (CAM) generated from the provided geometry of the build-up (12) and the geome try of the substrate surface (11). 11. Method according to claim 10, wherein the pre-existing component (10) has been machined in order to provide an even substrate surface (11), and wherein the build-up (12) \n\nis manufactured by way of a powder-bed-fusion method, such as selective laser melting or electron beam melting. 12. Method according to claim 10 or 11, wherein the build- up (12) is manufactured out of a high-performance materi al, such as a superalloy for turbine applications and with a complex geometry, i.e. at least comprising a geometry with small feature sizes and/or a cavity, such as a cool ing channel (14).",
+  "classifications": {
+    "ipc": [
+      "B23K 15/00",
+      "B23K 26/342",
+      "B29C 64/153",
+      "B33Y 10/00",
+      "B33Y 40/10",
+      "B33Y 50/02",
+      "G01S 5/00",
+      "B22F 10/31",
+      "B22F 10/85",
+      "B22F 12/90",
+      "B23K 26/364",
+      "B23K 26/40",
+      "B23K 26/60",
+      "B29C 70/76",
+      "B22F 5/00",
+      "B22F 5/04",
+      "B23K 101/00"
+    ],
+    "cpc": [],
+    "all": [
+      "B23K 15/00",
+      "B23K 26/342",
+      "B29C 64/153",
+      "B33Y 10/00",
+      "B33Y 40/10",
+      "B33Y 50/02",
+      "G01S 5/00",
+      "B22F 10/31",
+      "B22F 10/85",
+      "B22F 12/90",
+      "B23K 26/364",
+      "B23K 26/40",
+      "B23K 26/60",
+      "B29C 70/76",
+      "B22F 5/00",
+      "B22F 5/04",
+      "B23K 101/00"
+    ],
+    "source": "csv"
+  }
+}

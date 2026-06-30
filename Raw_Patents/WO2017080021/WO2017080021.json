@@ -1,0 +1,52 @@
+{
+  "application_id": "WO2017080021",
+  "application_id_fs": "WO2017080021",
+  "title": "System and method for hardware multithreading to improve vliw dsp performance and efficiency",
+  "abstract": "A system and method of hardware multithreading in VLIW DSPs includes an instruction fetch and dispatch unit, a plurality of program control units coupled to the instruction fetch and dispatch unit, a plurality of function units coupled to the plurality of program control units, and a mode control unit coupled to the function units and the program control units, the mode control unit configured to dynamically organize the plurality of function units and the plurality of program control units into one or more threads, each thread comprising a program control of the plurality of program control units and a subset of the plurality of function units.",
+  "claims": "Claims ( 20 ) AÂ processorÂ comprising: anÂ instructionÂ fetchÂ andÂ dispatchÂ unitï¼ aÂ pluralityÂ ofÂ programÂ controlÂ unitsÂ coupledÂ toÂ theÂ instructionÂ fetchÂ andÂ dispatchÂ unitï¼ aÂ pluralityÂ ofÂ functionÂ unitsÂ coupledÂ toÂ theÂ pluralityÂ ofÂ programÂ controlÂ unitsï¼Â and aÂ modeÂ controlÂ unitÂ coupledÂ toÂ theÂ pluralityÂ ofÂ functionÂ unitsÂ andÂ theÂ pluralityÂ ofÂ programÂ controlÂ units,Â theÂ modeÂ controlÂ unitÂ configuredÂ toÂ dynamicallyÂ organizeÂ theÂ pluralityÂ ofÂ functionÂ unitsÂ andÂ theÂ pluralityÂ ofÂ programÂ controlÂ unitsÂ intoÂ oneÂ orÂ moreÂ threads,Â eachÂ threadÂ comprisingÂ aÂ programÂ controlÂ ofÂ theÂ pluralityÂ ofÂ programÂ controlÂ unitsÂ andÂ aÂ subsetÂ ofÂ theÂ pluralityÂ ofÂ functionÂ units. TheÂ processorÂ ofÂ claimÂ 1,Â whereinÂ theÂ pluralityÂ ofÂ functionÂ unitsÂ areÂ equallyÂ dividedÂ betweenÂ theÂ threads. TheÂ processorÂ ofÂ claimÂ 1,Â whereinÂ theÂ pluralityÂ ofÂ functionÂ unitsÂ areÂ unequallyÂ dividedÂ betweenÂ theÂ threads. TheÂ processorÂ ofÂ claimÂ 1,Â whereinÂ eachÂ ofÂ theÂ oneÂ orÂ moreÂ threadsÂ sharesÂ aÂ subsetÂ ofÂ theÂ functionÂ units. TheÂ processorÂ ofÂ claimÂ 1,Â furtherÂ comprisingÂ aÂ registerÂ file,Â theÂ modeÂ controlÂ unitÂ configuredÂ toÂ divideÂ theÂ registerÂ fileÂ amongÂ theÂ threads. TheÂ processorÂ ofÂ claimÂ 5,Â whereinÂ theÂ modeÂ controlÂ unitÂ isÂ configuredÂ toÂ equallyÂ divideÂ theÂ registerÂ fileÂ amongÂ theÂ threads. TheÂ processorÂ ofÂ claimÂ 5,Â whereinÂ theÂ modeÂ controlÂ unitÂ isÂ configuredÂ toÂ unequallyÂ divideÂ theÂ registerÂ fileÂ amongÂ theÂ threads. TheÂ processorÂ ofÂ claimÂ 1,Â whereinÂ eachÂ ofÂ theÂ threadsÂ comprisesÂ aÂ veryÂ longÂ instructionÂ wordÂ (VLIW)Â thread. TheÂ processorÂ ofÂ claimÂ 1,Â whereinÂ eachÂ ofÂ theÂ threadsÂ comprisesÂ singleÂ instruction,Â multipleÂ dataÂ (SIMD)Â functionÂ units. TheÂ processorÂ ofÂ claimÂ 1,Â whereinÂ eachÂ programÂ controlÂ unitÂ comprisesÂ anÂ interruptÂ controller. AÂ methodÂ ofÂ organizingÂ aÂ processorÂ comprising: selecting,Â byÂ aÂ modeÂ controlÂ unit,Â aÂ quantityÂ ofÂ threadsÂ intoÂ whichÂ toÂ divideÂ aÂ processorï¼ dividing,Â byÂ theÂ modeÂ controlÂ unit,Â functionÂ unitsÂ intoÂ functionÂ unitÂ groups,Â theÂ quantityÂ ofÂ functionÂ unitÂ groupsÂ beingÂ equalÂ toÂ theÂ quantityÂ ofÂ threadsï¼Â and allocating,Â byÂ theÂ modeÂ controlÂ unit,Â aÂ registerÂ fileÂ intoÂ aÂ pluralityÂ ofÂ threadÂ registerÂ files,Â eachÂ ofÂ theÂ threadÂ registerÂ filesÂ beingÂ allocatedÂ toÂ oneÂ ofÂ theÂ functionÂ unitÂ groups. TheÂ methodÂ ofÂ claimÂ 11,Â whereinÂ dividingÂ theÂ functionÂ unitsÂ comprisesÂ dividingÂ aÂ subsetÂ ofÂ theÂ functionÂ unitsÂ intoÂ functionÂ unitÂ groups. TheÂ methodÂ ofÂ claimÂ 11,Â whereinÂ oneÂ ofÂ theÂ functionÂ unitsÂ inÂ eachÂ ofÂ theÂ functionÂ unitÂ groupsÂ isÂ aÂ programÂ controlÂ unit. TheÂ methodÂ ofÂ claimÂ 11,Â whereinÂ theÂ functionÂ unitsÂ areÂ organizedÂ intoÂ oneÂ wideÂ thread. TheÂ methodÂ ofÂ claimÂ 11,Â whereinÂ theÂ functionÂ unitsÂ areÂ organizedÂ intoÂ aÂ pluralityÂ ofÂ narrowÂ threads. TheÂ methodÂ ofÂ claimÂ 11,Â whereinÂ dividingÂ theÂ functionÂ unitsÂ intoÂ functionÂ unitÂ groupsÂ comprisesÂ dividingÂ theÂ functionÂ unitsÂ dynamicallyÂ atÂ runÂ time. TheÂ methodÂ ofÂ claimÂ 16,Â whereinÂ dividingÂ theÂ functionÂ unitsÂ dynamicallyÂ atÂ runÂ timeÂ comprisesÂ scheduling,Â byÂ anÂ operatingÂ system,Â theÂ functionÂ unitsÂ forÂ theÂ functionÂ unitÂ groups. AÂ deviceÂ comprising: aÂ processorÂ comprisingÂ functionÂ unitsÂ andÂ aÂ registerÂ fileï¼Â and aÂ computer-readableÂ storageÂ mediumÂ storingÂ aÂ programÂ toÂ beÂ executedÂ byÂ theÂ processor,Â theÂ programÂ includingÂ instructionsÂ for: selectingÂ aÂ quantityÂ ofÂ threadsÂ intoÂ whichÂ toÂ divideÂ theÂ processorï¼ dividingÂ theÂ functionÂ unitsÂ intoÂ functionÂ unitÂ groups,Â theÂ quantityÂ ofÂ functionÂ unitÂ groupsÂ beingÂ equalÂ toÂ theÂ quantityÂ ofÂ threadsï¼Â and allocatingÂ theÂ registerÂ fileÂ intoÂ aÂ pluralityÂ ofÂ threadÂ registerÂ files,Â eachÂ ofÂ theÂ threadÂ registerÂ filesÂ beingÂ allocatedÂ toÂ oneÂ ofÂ theÂ functionÂ unitÂ groups. TheÂ deviceÂ ofÂ claimÂ 18,Â whereinÂ theÂ instructionÂ forÂ dividingÂ theÂ functionÂ unitsÂ intoÂ functionÂ unitÂ groupsÂ comprisesÂ instructionsÂ forÂ sharingÂ aÂ subsetÂ ofÂ theÂ functionÂ unitsÂ betweenÂ theÂ functionÂ unitÂ groups. TheÂ deviceÂ ofÂ claimÂ 18,Â whereinÂ oneÂ ofÂ theÂ functionÂ unitsÂ inÂ eachÂ ofÂ theÂ functionÂ unitÂ groupsÂ isÂ aÂ programÂ controlÂ unit.",
+  "classifications": {
+    "ipc": [
+      "G06F 9/00",
+      "G06F 9/06",
+      "G06F 9/30",
+      "G06F 9/38",
+      "G06F 9/3836",
+      "G06F 9/3851",
+      "G06F 9/3853",
+      "G06F 9/3885",
+      "G06F 9/3888",
+      "G06F 9/3889",
+      "G06F 9/3891",
+      "G06F 9/46",
+      "G06F 9/50",
+      "G06F 9/5005",
+      "G06F 9/5027",
+      "G06F 2209/00",
+      "G06F 2209/50",
+      "G06F 2209/507"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 9/00",
+      "G06F 9/06",
+      "G06F 9/30",
+      "G06F 9/38",
+      "G06F 9/3836",
+      "G06F 9/3851",
+      "G06F 9/3853",
+      "G06F 9/3885",
+      "G06F 9/3888",
+      "G06F 9/3889",
+      "G06F 9/3891",
+      "G06F 9/46",
+      "G06F 9/50",
+      "G06F 9/5005",
+      "G06F 9/5027",
+      "G06F 2209/00",
+      "G06F 2209/50",
+      "G06F 2209/507"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017080021"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Abnormality determination apparatus, abnormality determination method, and abnormality determination system",
+  "abstract": "An abnormality determination apparatus includes a data acquisition part that acquires position data indicating a plurality of positions to be measured of a standard gage used in a coordinate measuring apparatus, in association with apparatus identification information for identifying the coordinate measuring apparatus, a generation part that generates distance data indicating a distance to be measured that is a distance between the plurality of positions to be measured indicated by the position data, a storage that stores an appropriate range in which the distance data is determined to be appropriate, and a determination part that determines whether there is an abnormality in the coordinate measuring apparatus on the basis of whether or not the distance to be measured indicated by the distance data is included in the appropriate range, and outputs a determination result in association with the apparatus identification information.",
+  "claims": "1. An abnormality determination apparatus comprising: a data acquisition part that acquires position data at three or more different times, indicating a result of a measurement of a plurality of positions to be measured of a surface of at least one sphere of a plurality of spheres included in a standard gage measured by a coordinate measuring apparatus, in association with apparatus identification information for identifying the coordinate measuring apparatus; a generation part that generates distance data at three or more different times, indicating a distance to be measured that is a distance between centers of two spheres among the plurality of spheres included in the standard gage by calculating center positions of the two spheres based on the plurality of positions to be measured corresponding to each of the two spheres indicated by the position data; a storage that stores predetermined range information indicating a predetermined range in which the distance data is determined to be within predetermined threshold values, and reference pattern information indicating a reference pattern of an amount of change in the distance to be measured that may be caused by the aging of the coordinate measuring apparatus; and a determination part that determines whether there is an abnormality in a measurement accuracy of the coordinate measuring apparatus on the basis of whether or not the distance to be measured indicated by the distance data is included in the predetermined range included in the predetermined range information, and outputs a determination result in association with the apparatus identification information, wherein the determination part identifies the amount of change in the three or more distances to be measured and the period of time during which each of the three or more distances to be measured has been measured, to identify the amount of change in two or more distances to be measured corresponding to the amount of change in two or more periods of time, and determines that there is an abnormality in the coordinate measuring apparatus if the identified amount of change is not within a specified range from the reference pattern even if the distance to be measured is included in the predetermined range.",
+  "patent_id": "US12379197-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01B 5/0014",
+      "G01B 5/012"
+    ],
+    "all": [
+      "G01B 5/0014",
+      "G01B 5/012"
+    ],
+    "source": "converted"
+  }
+}

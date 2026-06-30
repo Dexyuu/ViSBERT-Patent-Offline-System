@@ -1,0 +1,30 @@
+{
+  "title": "Manufacturing methods and systems including digital twin managing process, lifecycle, and instance",
+  "abstract": "This disclosure provides techniques for manufacturing parts using digital twin(s) to manage various aspects of the manufacturing system. An example method may include representing a manufacturing system using a digital twin. In some cases, representing the manufacturing system includes modeling, in the digital twin, digital representations that correspond to a number of physical components of the manufacturing system. The physical components include at least: a manufacturing material, a working environment for deposition of the manufacturing material (e.g., for additive manufacturing), a tool to manipulate the manufacturing material between at least two matter states in the working environment, and sensors measuring behaviors of the tool, the working environment, and the manufacturing material. The method may further include receiving a manufacturing production task. The task may include a digital model of a part to be manufactured and default parameters for the manufacturing material(s), the working environment, and the tool.",
+  "claims": "1. A method for manufacturing parts, the method comprising: representing a manufacturing system using a digital twin, wherein representing the manufacturing system comprises modeling, in the digital twin, digital representations that respectively correspond to a plurality of physical components of the manufacturing system, the plurality of physical components including at least: a manufacturing material, a working environment for deposition of the manufacturing material, a tool to manipulate the manufacturing material between at least two matter states in the working environment, and a plurality of sensors respectively measuring behaviors of the tool, the working environment, and the manufacturing material, wherein at least one of the digital representations corresponding to the working environment models a building platform and ambient temperature control based on measurements by the plurality of sensors respectively measuring behaviors of the tool, the working environment, and the manufacturing material; receiving a manufacturing production task; performing, in the digital twin, a simulation of the manufacturing production task to identify one or more production parameters to apply in the working environment, the tool, or both; and executing the manufacturing production task using the tool in the working environment based on the one or more production parameters identified in the digital twin, wherein the digital twin represents the manufacturing system in a progression state including local representations of coalescence properties, and a global heat transfer state that includes a global representation of the manufacturing production task, both the local representation and the global representation in communication with a global state of an as-printed part of the manufacturing production task, the as-printed part monitored by the plurality of sensors and simulated in the digital twin.",
+  "patent_id": "US12377610-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B29C 64/393",
+      "B22F 10/85",
+      "B33Y 10/00",
+      "B33Y 30/00",
+      "B33Y 50/02",
+      "G05B 19/41885",
+      "B22F 10/28",
+      "B29C 64/153"
+    ],
+    "all": [
+      "B29C 64/393",
+      "B22F 10/85",
+      "B33Y 10/00",
+      "B33Y 30/00",
+      "B33Y 50/02",
+      "G05B 19/41885",
+      "B22F 10/28",
+      "B29C 64/153"
+    ],
+    "source": "converted"
+  }
+}

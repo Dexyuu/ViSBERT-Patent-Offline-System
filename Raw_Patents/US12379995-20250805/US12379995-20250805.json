@@ -1,0 +1,20 @@
+{
+  "title": "Data storage device including a solid state drive",
+  "abstract": "A data storage device comprises a disk array including a plurality of disks; and a redundant array of independent disks (RAID) controller configured to manage the disk array according to a RAID mode, wherein each of the plurality of disks includes: a nonvolatile memory device having a plurality of zones of which supports a sequential write operation; and a random write buffer associated to one of the plurality of zones, the random write buffer having a start address that is indicated by a write pointer, the write pointer indicating a location where a next write operation is to be performed.",
+  "claims": "1. A data storage device comprising: a disk array including a plurality of disks; and a redundant array of independent disks (RAID) controller configured to manage the disk array according to a RAID mode, wherein each of the plurality of disks includes: a nonvolatile memory device having a plurality of zones each of which supports a sequential write operation; and a random write buffer associated to one of the plurality of zones, the random write buffer having a start address that is indicated by a write pointer, the write pointer indicating a location where a next write operation is to be performed, wherein, when the RAID controller generates and stores a parity generated for a data chunk that is currently stored in one disk among the plurality of disks, the RAID controller retains a parity generated and stored for a data chunk that was previously stored in another disk among the plurality of disks.",
+  "patent_id": "US12379995-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/108",
+      "G06F 11/1084",
+      "G06F 13/1673"
+    ],
+    "all": [
+      "G06F 11/108",
+      "G06F 11/1084",
+      "G06F 13/1673"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Intelligent understanding system for real-time reconstruction of large-scale scene light field",
+  "abstract": "An intelligent understanding apparatus for real-time reconstruction of a large-scale scene light field includes the following. A data obtaining module obtains a 3D instance depth map, and obtain 3D voxels and voxel color information through simultaneous positioning and map generation. The model constructing module constructs and trains a real-time light field reconstruction network model using a ScanNet dataset. The real-time light field reconstruction network model extracts features of the 3D voxels and voxel color information, and obtain a semantic segmentation result and an instance segmentation result. The semantic segmentation module inputs the 3D voxel and voxel color information corresponding to the 3D instance depth map into the trained real-time light field reconstruction network model, and determine an output as a semantic segmentation result and an instance segmentation result corresponding to the 3D instance depth map.",
+  "claims": "1. An intelligent understanding apparatus for real-time reconstruction of a large-scale scene light field, comprising a processor configured to: obtain a three-dimensional (3D) instance depth map, and obtain 3D voxels and voxel color information of the 3D instance depth map through simultaneous positioning and map generation; construct a real-time light field reconstruction network model, and train the real-time light field reconstruction network model using a ScanNet dataset, wherein the real-time light field reconstruction network model is configured to extract features of the 3D voxels and voxel color information of the 3D instance depth map, and obtain a semantic segmentation result and an instance segmentation result of the depth map by performing semantic segmentation and instance segmentation; and input the 3D voxel and voxel color information corresponding to the 3D instance depth map into the trained real-time light field reconstruction network model, and determine an output as a semantic segmentation result and an instance segmentation result corresponding to the 3D instance depth map; wherein the real-time light field reconstruction network model comprises a sparse convolutional network and an online segmentation circuit; the sparse convolutional network is a UNet-like network, and the sparse convolutional network is configured to output a semantic probability and an instance embedding for each input point; the online segmentation circuit is configured to update a semantic category according to the semantic probability output by the sparse convolutional network, and at the same time, for each frame, obtain an instance result of a current depth map of the frame by clustering the instance embeddings obtained from the current depth map, and fuse current instance results into a global instance result; wherein the online segmentation circuit is further configured to: for semantic segmentation, update the semantic category of a current point using the semantic probability; for instance segmentation, cluster the instance embeddings obtained from the 3D instance depth map; and obtain similarities between the current instance and the global instances, obtain a mean embedding for the current instance by averaging the embeddings, and perform similarity comparison between the mean embedding and respective mean embedding of each global instance one by one.",
+  "patent_id": "US12380579-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/521",
+      "G06T 7/11",
+      "G06V 10/761"
+    ],
+    "all": [
+      "G06T 7/521",
+      "G06T 7/11",
+      "G06V 10/761"
+    ],
+    "source": "converted"
+  }
+}

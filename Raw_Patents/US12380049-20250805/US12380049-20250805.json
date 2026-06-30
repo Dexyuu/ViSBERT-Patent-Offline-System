@@ -1,0 +1,20 @@
+{
+  "title": "CXL fabric extensions",
+  "abstract": "One aspect of the instant application can provide a networking device. The networking device can include a set of Compute Express Link (CXL) ports, a set of non-CXL ports, a set of bridge circuits associated with the set of CXL ports, and an interconnect. A respective bridge circuit can include a packet-conversion subcircuit to convert a CXL packet received at a corresponding CXL port to a customized packet and a protocol-conversion subcircuit to convert a CXL protocol to a customized protocol implemented by the networking device. The interconnect can switch customized packets among the CXL and non-CXL ports based on the customized protocol.",
+  "claims": "1. A networking device, comprising: a set of Compute Express Link (CXL) ports; a set of non-CXL ports; a set of bridge circuits associated with the set of CXL ports, a respective bridge circuit comprising a packet-conversion subcircuit to convert a CXL packet received at a corresponding CXL port to a customized packet and a protocol-conversion subcircuit to convert a CXL protocol to a customized protocol implemented by the networking device by mapping one or more CXL message classes associated with the CXL packet to a traffic class defined by the customized protocol and mapping CXL ordering rules that specify execution orders of CXL messages to dependency relationships among traffic classes defined by the customized protocol; and an interconnect to switch customized packets among the CXL and non-CXL ports based on the customized protocol.",
+  "patent_id": "US12380049-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 13/4027",
+      "G06F 13/387",
+      "H04L 49/106"
+    ],
+    "all": [
+      "G06F 13/4027",
+      "G06F 13/387",
+      "H04L 49/106"
+    ],
+    "source": "converted"
+  }
+}

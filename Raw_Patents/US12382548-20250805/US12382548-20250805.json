@@ -1,0 +1,32 @@
+{
+  "title": "Collaboration among wireless devices operating over both long-range and short-range networks",
+  "abstract": "A communication device includes a long-rage transceiver, a short-range transceiver and a processor. The long-range transceiver is configured to communicate wirelessly with a Base Station (BS) of a cellular network. The short-range transceiver is configured to communicate wirelessly with one or more peer communication devices over a short-range network. The processor is configured to communicate with the peer communication devices via the short-range transceiver and with the BS via the long-range transceiver, so as to share resources between the communication device and the peer communication devices or the cellular network, for providing a communication service.",
+  "claims": "1. A communication device, comprising: a long-range transceiver, configured to communicate wirelessly with a Base Station (BS) of a cellular network; a short-range transceiver, configured to communicate wirelessly with one or more peer communication devices over a short-range network; and a processor, configured to: communicate with the peer communication devices via the short-range transceiver and with the BS via the long-range transceiver, so as to share resources between the communication device and the peer communication devices or the cellular network, for providing to a peer communication device a communication service that includes communication with the BS, wherein, to provide the communication service, the communication device is to: connect itself to the BS (i) on behalf of the peer communication device and (ii) by identifying itself to the BS by an identity of the peer communication device; receive from the peer communication device (i) a packet and (ii) metadata specifying transmission parameters for relaying the packet, the transmission parameters comprising one or more of a Modulation and Coding Scheme (MCS), a frequency and a timing; and based on the metadata, transmit to the BS a relayed packet that is identical to the packet received from the peer communication device, thereby rendering the cellular network unaware that the communication service is provided via the communication device.",
+  "patent_id": "US12382548-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 88/04",
+      "H04L 67/34",
+      "H04W 12/04",
+      "H04W 12/55",
+      "H04W 52/0225",
+      "H04W 56/0015",
+      "H04W 68/005",
+      "H04W 76/14",
+      "H04W 84/042"
+    ],
+    "all": [
+      "H04W 88/04",
+      "H04L 67/34",
+      "H04W 12/04",
+      "H04W 12/55",
+      "H04W 52/0225",
+      "H04W 56/0015",
+      "H04W 68/005",
+      "H04W 76/14",
+      "H04W 84/042"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "title": "XR rendering for 3D audio content and audio codec",
+  "abstract": "A device includes a memory configured to store instructions and also includes one or more processors configured to execute the instructions to obtain audio data corresponding to a sound source and metadata indicative of a direction of the sound source. The one or more processors are configured to execute the instructions to obtain direction data indicating a viewing direction associated with a user of a playback device. The one or more processors are configured to execute the instructions to determine a resolution setting based on a similarity between the viewing direction and the direction of the sound source. The one or more processors are also configured to execute the instructions to process the audio data based on the resolution setting to generate processed audio data.",
+  "claims": "25. A method comprising: receiving, at one or more processors included in a playback device, an audio bitstream including encoded audio data and metadata sent from another device, the encoded audio data corresponding to one or more sound sources, and the metadata indicative of one or more directions of the one or more sound sources; decoding, at the one or more processors, the encoded audio data of the audio bitstream to generate decoded audio data; obtaining, at the one or more processors, direction data at the playback device, indicating a viewing direction associated with a user of the playback device; obtaining motion sensor data, at the one or more processors, from one or more sensors coupled to the playback device; adjusting, to one or more adjusted directions at the one or more processors, the one or more directions of the one or more sound sources indicated in the metadata to compensate for the motion sensor data; determining, at the one or more processors, a resolution setting that indicates a number of de-quantization bits used for rendering the decoded audio data for a first sound source of the one or more sound sources, the resolution sitting for the first sound source based on a similarity between the viewing direction and a direction of the one or more adjusted directions corresponding to the first sound source; and rendering, at the one or more processors, the decoded audio data for the first sound source based on the motion sensor data and the resolution setting for the first sound source to generate rendered audio data for the first sound source.",
+  "patent_id": "US12382238-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04S 7/303",
+      "G02B 27/0093",
+      "G02B 27/017",
+      "G06F 3/013",
+      "G10L 19/008",
+      "H04R 5/04",
+      "G02B 2027/0147",
+      "H04S 2400/01",
+      "H04S 2400/11",
+      "H04S 2420/01"
+    ],
+    "all": [
+      "H04S 7/303",
+      "G02B 27/0093",
+      "G02B 27/017",
+      "G06F 3/013",
+      "G10L 19/008",
+      "H04R 5/04",
+      "G02B 2027/0147",
+      "H04S 2400/01",
+      "H04S 2400/11",
+      "H04S 2420/01"
+    ],
+    "source": "converted"
+  }
+}

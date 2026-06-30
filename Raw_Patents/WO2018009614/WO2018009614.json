@@ -1,0 +1,52 @@
+{
+  "application_id": "WO2018009614",
+  "application_id_fs": "WO2018009614",
+  "title": "Event-triggered model predictive control for embedded artificial pancreas systems",
+  "abstract": "The development of artificial pancreas (AP) technology for deployment in low-energy, embedded devices is contingent upon selecting an efficient control algorithm for regulating glucose in people with type 1 diabetes mellitus (T1DM). The energy consumption of the AP can be lowered by reducing updates of the control model: the number of times the decisionmaking algorithm is invoked to compute an appropriate insulin dose.",
+  "claims": "Claims 1. An artificial pancreas, comprising: a glucose sensor configured to output glucose data related to a concentration of glucose in the bloodstream of a subject; an insulin pump; a memory containing machine readable medium comprising machine executable code having stored thereon instructions for performing a method of delivering insulin; and a control system coupled to the memory comprising one or more processors, the control system configured to execute the machine executable code to cause the processor to: store, in the memory, a control action for determining an amount of insulin to inject; receive, from the glucose sensor, a set of glucose data; process the set of glucose data to determine whether an update event is triggered; update the control action if an event has been triggered; and send a command to the insulin pump to deliver an amount of insulin based on the updated control action. 2. The artificial pancreas of claim 1, wherein process the glucose data further comprises: determine whether a suspension event is warranted; suspend the insulin pump if the suspension event is warranted. 3. The artificial pancreas of claim 2, wherein if suspension is warranted, the control system does not trigger the update event. 4. The artificial pancreas of claim 1, wherein the control action is updated with a Model Predictive Control. 5. The artificial pancreas of claim 1, wherein the event is an IOB upper bound, and wherein if the IOB upper bound is reached, the pump is suspended and the event is not triggered. 6. The artificial pancreas of claim 1, wherein the event is triggered when an output estimation error norm exceeds a pre-specified threshold. 7. The artificial pancreas of claim 1, wherein the event is triggered after a first Â£max control actions in are implemented. 8. The artificial pancreas of claim 1, wherein the artificial pancreas is wearable/implantable in the human body. 9. A method of implementing an artificial pancreas using a control system with one or more processors, the method comprising: storing, in a memory, a sequence of control actions for an insulin delivery pump; receiving from a glucose sensor, at the control system, a set of glucose data; processing, by the control system, the set of glucose data to determine whether an event is triggered; if the event is triggered, updating, by the control system, the sequence of control actions for the insulin pump to output an updated sequence of control actions and storing the updated sequence of control actions in the memory; retrieving, from the memory, a next control action for the insulin pump; and sending the control action to the insulin pump. 10. The method of claim 9, wherein updating the control actions comprises processing the glucose data using a model predictive control. 11. The method of claim 9, wherein processing, by the control system, the set of glucose data to determine whether an event is triggered further comprises using a linear model to predict the blood glucose based at least on the set of glucose data. 12. The method of claim 9, wherein the memory is flash memory. 13. The method of claim 9, wherein the control system is on an embedded platform or mobile device. 14. The method of claim 9, wherein the control system is on an insulin pump.",
+  "classifications": {
+    "ipc": [
+      "A61M 5/00",
+      "A61M 5/14",
+      "A61M 5/168",
+      "A61M 5/172",
+      "A61M 5/1723",
+      "A61M 5/142",
+      "A61B 34/00",
+      "A61B 34/10",
+      "G16H 20/00",
+      "G16H 20/10",
+      "G16H 20/17",
+      "A61M 2005/1726",
+      "A61M 2205/00",
+      "A61M 2205/50",
+      "A61M 2205/52",
+      "A61M 2230/00",
+      "A61M 2230/20",
+      "A61M 2230/201"
+    ],
+    "cpc": [],
+    "all": [
+      "A61M 5/00",
+      "A61M 5/14",
+      "A61M 5/168",
+      "A61M 5/172",
+      "A61M 5/1723",
+      "A61M 5/142",
+      "A61B 34/00",
+      "A61B 34/10",
+      "G16H 20/00",
+      "G16H 20/10",
+      "G16H 20/17",
+      "A61M 2005/1726",
+      "A61M 2205/00",
+      "A61M 2205/50",
+      "A61M 2205/52",
+      "A61M 2230/00",
+      "A61M 2230/20",
+      "A61M 2230/201"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018009614"
+}

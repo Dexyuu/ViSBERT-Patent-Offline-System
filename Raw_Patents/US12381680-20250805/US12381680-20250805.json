@@ -1,0 +1,20 @@
+{
+  "title": "Puncturing indicator of a portion of a reference signal within an unpunctured portion of the reference signal",
+  "abstract": "Disclosed are techniques related to wireless communication system in which a network node (e.g., a base station, gNB, etc.) may be allowed to puncture a reference signal (RS) to deliver high priority data (e.g., URLLC data) to a user equipment (UE) that is not currently being served by the network node. The RS may comprise a puncturable subset and an unpuncturable subset. The puncturable subset may comprise resources of the RS that are allowed to be punctured, and the unpuncturable subset may comprise resources of the RS that are prohibited from being punctured. The network node may transmit the RS such that unpuncturable subset indicates whether or not the puncturable subset of the RS has or has not been punctured.",
+  "claims": "20. A user equipment (UE), comprising: means for receiving a reference signal (RS) comprising a puncturable subset and an unpuncturable subset, the puncturable subset comprising one or more resources of the RS that are allowed to be punctured, the unpuncturable subset comprising another one or more resources of the RS that are prohibited from being punctured; means for estimating a channel over which the RS is received based on a measurement of the unpuncturable subset; means for obtaining a measurement of the puncturable subset based on the estimated channel; means for determining whether or not the puncturable subset has been punctured by another physical layer signal based on the measurement of the puncturable subset; and means for processing the RS based on the determination of whether or not the puncturable subset has been punctured.",
+  "patent_id": "US12381680-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/0048",
+      "H04W 72/0466",
+      "H04W 72/54"
+    ],
+    "all": [
+      "H04L 5/0048",
+      "H04W 72/0466",
+      "H04W 72/54"
+    ],
+    "source": "converted"
+  }
+}

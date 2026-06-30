@@ -1,0 +1,18 @@
+{
+  "title": "Method and apparatus for performing configured grant based small data transmission by user equipment in wireless communication system",
+  "abstract": "A method for performing a configured grant based small data transmission (CG-SDT) in a Radio Resource Control (RRC) INACTIVE state by a user equipment (UE) in a wireless communication system is disclosed. The method comprises steps of performing an initial transmission for the CG-SDT on a configured grant (CG), wherein a configured grant timer (CGT) and a CG-SDT-retransmission timer (CG-SDT-RT) are started by performing the initial transmission; and based on a physical downlink control channel (PDCCH) related to the initial transmission not being received until the CG-SDT-RT expiring during the CGT is running, performing a retransmission of the initial transmission, wherein the CG-SDT-RT is re-started upon performing the retransmission of the initial transmission, wherein, based on the PDCCH related to the initial transmission not being received until the CGT expiring, a SDT failure handling procedure is triggered.",
+  "claims": "1. A method for performing a configured grant based small data transmission (CG-SDT) in a Radio Resource Control (RRC) INACTIVE state by a user equipment (UE) in a wireless communication system, the method comprising: performing an initial transmission for the CG-SDT on a configured grant (CG), wherein a configured grant timer (CGT) and a CG-SDT-retransmission timer (CG-SDT-RT) are started by performing the initial transmission; based on a physical downlink control channel (PDCCH) related to the initial transmission not being received until the CG-SDT-RT expiring, performing a retransmission of the initial transmission, wherein the CG-SDT-RT is re-started upon performing the retransmission of the initial transmission; and based on the CGT expiring, performing a subsequent initial transmission for the CG-SDT on the CG, wherein the CGT is re-started upon performing the subsequent initial transmission, wherein, based on the PDCCH related to the initial transmission not being received until the CGT expiring, a SDT failure handling procedure is triggered.",
+  "patent_id": "US12382536-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/27",
+      "H04W 72/23"
+    ],
+    "all": [
+      "H04W 76/27",
+      "H04W 72/23"
+    ],
+    "source": "converted"
+  }
+}

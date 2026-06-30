@@ -1,0 +1,22 @@
+{
+  "title": "Providing a hybrid generic attribute database",
+  "abstract": "In one aspect, an apparatus includes: a volatile memory to store a dynamic portion of a hybrid generic attribute (GATT) database structure; and a non-volatile memory coupled to the volatile memory to store a static portion of the hybrid GATT database structure, where the volatile memory is to store an attribute index array to identify whether an attribute datum of the hybrid GATT database structure is stored in the volatile memory or the non-volatile memory.",
+  "claims": "1. An apparatus comprising: a hybrid generic attribute (GATT) database structure of a wireless protocol stack, the hybrid GATT database structure comprising a static portion to be generated at design time and a dynamic portion to be dynamically generated during runtime of the apparatus, the hybrid GATT database structure to interface with a wireless protocol application programming interface of the wireless protocol stack and a generic access profile of the wireless protocol stack, the hybrid GATT database structure comprising: a volatile memory to store the dynamic portion, the dynamic portion comprising first attribute data stored in a first attribute data array of the volatile memory, wherein the first attribute data is dynamic attribute data that is dynamically added to the hybrid GATT database structure during the runtime; and a non-volatile memory coupled to the volatile memory to store the static portion, the static portion comprising second attribute data stored in a second attribute data array of the non-volatile memory, wherein the second attribute data is static attribute data generated at the design time, wherein the volatile memory is to store an attribute index array to identify whether an attribute datum of the hybrid GATT database structure is stored in the volatile memory or the non-volatile memory, wherein the first attribute data and the second attribute data comprise GATT service and characteristic information.",
+  "patent_id": "US12380134-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/285",
+      "G06F 16/2228",
+      "G06F 16/235",
+      "G06F 16/288"
+    ],
+    "all": [
+      "G06F 16/285",
+      "G06F 16/2228",
+      "G06F 16/235",
+      "G06F 16/288"
+    ],
+    "source": "converted"
+  }
+}

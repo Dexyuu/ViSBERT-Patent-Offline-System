@@ -1,0 +1,18 @@
+{
+  "title": "Control device, robot, control method, and program",
+  "abstract": "A control apparatus for a robot including a three-dimensional sensor includes an operation controller that controls the robot to shift a measurement range of the three-dimensional sensor in a scan area, and a map obtainer that updates map information based on a result of measurement performed by the three-dimensional sensor. The map information indicates a scan status at each of a plurality of points in the scan area. The operation controller performs first scanning in which the measurement range of the three-dimensional sensor is shifted to update map information about a local range in the scan area, and performs second scanning in which the measurement range of the three-dimensional sensor is shifted away from the local range to update map information about a range different from the local range for which the first scanning is performed to update map information.",
+  "claims": "1. A control apparatus for a robot including a three-dimensional sensor, the control apparatus comprising: an operation controller configured to control the robot to shift a measurement range of the three-dimensional sensor in a scan area; and a memory configured to store computer-executable instructions and a processor configured to execute the computer-executable instructions stored in the memory to cause the control apparatus to update map information based on a result of measurement performed by the three-dimensional sensor, the map information indicating a scan status at each of a plurality of points in the scan area, wherein the operation controller performs first scanning in which the measurement range of the three-dimensional sensor is shifted to update map information about a local range in the scan area, and performs second scanning in which the measurement range of the three-dimensional sensor is shifted away from the local range to update map information about a range different from the local range for which the first scanning is performed to update map information, the map information indicates, as the scan status, at least whether a subarea corresponding to each of the plurality of points in the scan area is a determined-subarea determined to include or determined not to include an object or an undetermined-subarea undetermined to include or undetermined not to include an object, the operation controller performs the first scanning in response to a degree of updating of the map information being greater than a threshold, and performs the second scanning in response to the degree of updating being less than or equal to the threshold, and the degree of updating includes a number of undetermined-subareas updated to determined-subareas.",
+  "patent_id": "US12377547-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B25J 9/1694",
+      "B25J 9/1664"
+    ],
+    "all": [
+      "B25J 9/1694",
+      "B25J 9/1664"
+    ],
+    "source": "converted"
+  }
+}

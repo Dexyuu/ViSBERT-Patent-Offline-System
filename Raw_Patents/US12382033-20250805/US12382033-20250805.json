@@ -1,0 +1,28 @@
+{
+  "title": "Image encoding/decoding method and apparatus using sample filtering",
+  "abstract": "There is provided an image encoding/decoding method and apparatus. The image encoding method of the present invention includes: determining whether or not to apply filtering to a filtering target sample; determining a filter type on the basis of the determination; and applying filtering to the filtering target sample by using the determined filter type.",
+  "claims": "1. A video decoding method comprising: determining a prediction sample of a current block based on an intra prediction mode of the current block; determining whether to filter the prediction sample of the current block; and in response that the prediction sample is determined to be filtered, filtering the prediction sample of the current block based on a position of the prediction sample, wherein whether to filter the prediction sample of the current block is determined based on a reference line index indicating a reference line referenced by the current block among at least one reference line near the current block, wherein the prediction sample of the current block is determined not to be filtered when the reference line index does not indicate a first reference line immediately adjacent to the current block, wherein the prediction sample of the current block is filtered based on a weighted sum of the prediction sample and at least one reference sample of the prediction sample, and the at least one reference sample is determined based on a position of the prediction sample, wherein the weighted sum is calculated by using weights that are applied to the prediction sample and the at least one reference sample, wherein a weight for a reference sample among the at least one reference sample decreases and a weight for the prediction sample increases as a distance between the prediction sample and the reference sample increases, and wherein a number of reference samples that are used for filtering of the prediction sample is determined based on the intra prediction mode of the current block and the position of the prediction sample.",
+  "patent_id": "US12382033-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/117",
+      "H04N 19/105",
+      "H04N 19/132",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/52",
+      "H04N 19/82"
+    ],
+    "all": [
+      "H04N 19/117",
+      "H04N 19/105",
+      "H04N 19/132",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/52",
+      "H04N 19/82"
+    ],
+    "source": "converted"
+  }
+}

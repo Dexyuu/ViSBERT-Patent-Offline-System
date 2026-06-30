@@ -1,0 +1,20 @@
+{
+  "title": "Display control apparatus, display control method, and non-transitory recording medium on which display control program is recorded",
+  "abstract": "A display control apparatus includes a processor, and the processor determines, in work on an object within a space, which one of a first picked-up image by a first image pickup device disposed at a first predetermined position within the space and a second picked-up image by a second image pickup device disposed at a second predetermined position different from the first predetermined position within the space is appropriate for confirmation of procedure in a state associated with the work on the object using a treatment instrument, outputs a determination result and controls display using at least one of the first picked-up image or the second picked-up image based on the determination result.",
+  "claims": "1. A display control apparatus comprising: a database configured to store information, for an operator who performs work on an object within a space outside the space, on characteristics of a posture or operation of basic work and characteristics of a posture or operation of confirmation work, and a processor; wherein the processor is configured to determine, in the work on the object within the space, which one of a first picked-up image by a first image pickup device disposed at a first predetermined position within the space and a second picked-up image by a second image pickup device disposed at a second predetermined position different from the first predetermined position within the space is appropriate for confirmation of procedure in a state associated with the work on the object using a treatment instrument, by detecting movement of the operator using an output of a third image pickup device configured to pick up an image of the operator who performs the work outside the space or an output of a sensor configured to detect movement of the operator, obtaining the characteristics of the posture or the operation of the basic work and the characteristics of the posture or the operation of the confirmation work based on the detection result, determining whether the operator is performing the basic work or the confirmation work by referring to the database using the characteristics obtained, and if it is determined that the operator is performing the confirmation work, determining which one of the first picked-up image and the second picked-up image is appropriate for confirmation of the procedure, and control display using at least one of the first picked-up image or the second picked-up image based on the determination result.",
+  "patent_id": "US12376732-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 1/0005",
+      "A61B 1/05",
+      "A61B 1/3132"
+    ],
+    "all": [
+      "A61B 1/0005",
+      "A61B 1/05",
+      "A61B 1/3132"
+    ],
+    "source": "converted"
+  }
+}

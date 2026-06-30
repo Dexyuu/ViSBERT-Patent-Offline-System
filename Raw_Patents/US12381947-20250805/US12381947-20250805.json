@@ -1,0 +1,22 @@
+{
+  "title": "Computer-implemented system and method for propagation and communication of data in a network such as a blockchain network",
+  "abstract": "A method of propagating data packets in a network of nodes is disclosed. The method, implemented at one of the nodes, includes: generating at least one data packet of a first type; collecting a set of data packets of the first type during a first time period, the set including the at least one generated data packet and one data packet of the first type received from one or more first nodes in the network; and for each data packet in the set: randomly select two or more neighbouring nodes connected to said one of the nodes; transmit, to each of the two or more selected neighbouring nodes: the data packet, wherein the two or more selected neighbouring nodes are configured to relay the data packet to one or more second nodes in the network using a mode of data propagation arbitrarily selected for that neighbouring node.",
+  "claims": "1. A node to propagate data packets in a network of nodes, each node in the network having one or more connections to other nodes, the node comprising: a processor; a network interface to provide network connectivity; and memory including processor-executable instructions that, when executed by the processor, cause the processor to: collect a set of data packets of a first type during a first time period arbitrarily select two or more neighbouring nodes connected to the node for each data packet in the set; and transmit each data packet in the set to the selected two or more neighbouring nodes, wherein the node is further configured to transmit a command to a receiving node to forward a data packet using a mode of propagation based at least in part on a weighted random selection to balance a level of anonymity protection for the node with an overall speed of propagation.",
+  "patent_id": "US12381947-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 67/108",
+      "G06Q 20/065",
+      "H04L 45/16",
+      "H04L 63/1441"
+    ],
+    "all": [
+      "H04L 67/108",
+      "G06Q 20/065",
+      "H04L 45/16",
+      "H04L 63/1441"
+    ],
+    "source": "converted"
+  }
+}

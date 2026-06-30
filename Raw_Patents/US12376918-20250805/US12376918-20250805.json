@@ -1,0 +1,26 @@
+{
+  "title": "Systems and techniques for providing multiple perspectives during medical procedures",
+  "abstract": "Provided are systems and techniques for providing multiple perspectives during medical procedures. In one aspect, a method includes positioning a plurality of cannulas in a plurality of anatomical quadrants of a patient, inserting first and second surgical tools coupled to corresponding robotic arms into the respective cannulas. The method may include inserting an articulatable camera coupled to another robotic arm into another of the cannulas, where the articulatable camera is capable of showing a first view including the first surgical tool in a first anatomical quadrant and articulating to show a second view including the second surgical tool in a second anatomical quadrant. The method may further involve performing a surgical procedure in at least one of the first anatomical quadrant or the second anatomical quadrant.",
+  "claims": "1. A system, comprising: a first robotic arm configured to be coupled to a first cannula positioned in a first anatomical location of a patient and drive an articulatable camera, the articulatable camera configured to be driven in a first number of degrees-of-freedom (DoFs); a second robotic arm configured to be coupled to a second cannula positioned in a second anatomical location of the patient and drive a first tool; a user input device configured to be manipulated by a user in a second number of DoFs; one or more processors; and memory storing computer-executable instructions to cause the one or more processors to: receive an image from the articulatable camera including a view of a target site in the patient, receive, via the user input device, a user command to drive the articulatable camera, and determine instructions to robotically drive the articulatable camera via the first robotic arm based on the user command, wherein at least one of the DoFs of the user input device is constrained so as to maintain orientation alignment between the first tool and the user input device, wherein, upon the user command to drive the articulatable camera, movement of a first handle of the user input device is mapped to translation and orientation of the articulatable camera, and the movement of the first handle is aligned with orientation of the first tool while being clutched off translation of the first tool.",
+  "patent_id": "US12376918-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 34/30",
+      "A61B 34/25",
+      "A61B 34/70",
+      "A61B 90/361",
+      "A61B 2034/302",
+      "A61B 90/37"
+    ],
+    "all": [
+      "A61B 34/30",
+      "A61B 34/25",
+      "A61B 34/70",
+      "A61B 90/361",
+      "A61B 2034/302",
+      "A61B 90/37"
+    ],
+    "source": "converted"
+  }
+}

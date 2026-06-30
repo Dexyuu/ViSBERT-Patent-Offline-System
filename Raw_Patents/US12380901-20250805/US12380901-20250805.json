@@ -1,0 +1,18 @@
+{
+  "title": "Encoder, decoder, encoding method and decoding method for frequency domain long-term prediction of tonal signals for audio coding",
+  "abstract": "An encoder for encoding a current frame of an audio signal depending on one or more previous frames of the audio signal is provided. The previous frames precede the current frame, each of the current frame and the one or more previous frames having one or more harmonic components of the audio signal, each of the current frame and the one or more previous frames having a plurality of spectral coefficients in a frequency domain or in a transform domain. To generate an encoding of the current frame, the encoder is to determine an estimation of two harmonic parameters for each of the harmonic components of a most previous frame of the previous frames. Moreover, the encoder is to determine the estimation of the two harmonic parameters for each of the harmonic components of the most previous frame using a first group of three or more of the plurality of spectral coefficients of each of the previous frames of the audio signal.",
+  "claims": "1. An apparatus, comprising: an encoder comprising instructions executed by a processor and configured to encode a current frame of an audio signal based on one or more previous frames of the audio signal, wherein the one or more previous frames of the audio signal precede the current frame, and, wherein each of the current frame and the one or more previous frames comprises one or more harmonic components and a plurality of spectral coefficients in a frequency domain or in a transform domain; wherein the encoder configured to: determine an encoding of the current frame that facilitates decoding by a decoder to reconstruct audio content of the current frame for playback via one or more loudspeakers; estimate two harmonic parameters for each of the one or more harmonic components of a most previous frame among the one or more previous frames; determine the estimation of the two harmonic parameters for each of the one or more harmonic components of the most previous frame based on a first group of three or more of the plurality of spectral coefficients from each of the one or more previous frames; compute a gain factor and a residual signal for encoding of the current frame, wherein the gain factor and the residual signal are determined based on a fundamental frequency of the one or more harmonic components of both the current frame and the one or more previous frames, as well as the estimated two harmonic parameters for each harmonic component of the most previous frame; and generate the encoding of the current frame, wherein the encoding of the current frame comprises the gain factor and the residual signal.",
+  "patent_id": "US12380901-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 19/0204",
+      "G10L 19/09"
+    ],
+    "all": [
+      "G10L 19/0204",
+      "G10L 19/09"
+    ],
+    "source": "converted"
+  }
+}

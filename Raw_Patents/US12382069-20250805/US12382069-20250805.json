@@ -1,0 +1,16 @@
+{
+  "title": "Microdosing for low bitrate video compression",
+  "abstract": "A system includes a machine learning (ML) model-based video encoder configured to receive an uncompressed video sequence including multiple video frames, determine, from among the multiple video frames, a first video frame subset and a second video frame subset, encode the first video frame subset to produce a first compressed video frame subset, and identify a first decompression data for the first compressed video frame subset. The ML model-based video encoder is further configured to encode the second video frame subset to produce a second compressed video frame subset, and identify a second decompression data for the second compressed video frame subset. The first decompression data is specific to decoding the first compressed video frame subset but not the second compressed video frame subset, and the second decompression data is specific to decoding the second compressed video frame subset but not the first compressed video frame subset.",
+  "claims": "1. A method for use by a machine learning (ML) model-based video decoder, the method comprising: receiving, by a degradation-aware block based Micro-Residual-Network (MicroRN) defined by a number of hidden channels and a number of degradation-aware blocks of the MicroRN, a first compressed video frame subset; receiving, by the MicroRN, first decompression data for the first compressed video frame subset; decoding, by the MicroRN, the first compressed video frame subset using the first decompression data; receiving, by the MicroRN, a second compressed video frame subset; receiving, by the MicroRN, second decompression data for the second compressed video frame subset; and decoding, by the MicroRN, the second compressed video frame subset using the second decompression data, without utilizing a residual network of a generative adversarial network (GAN) trained decoder.",
+  "patent_id": "US12382069-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/42"
+    ],
+    "all": [
+      "H04N 19/42"
+    ],
+    "source": "converted"
+  }
+}

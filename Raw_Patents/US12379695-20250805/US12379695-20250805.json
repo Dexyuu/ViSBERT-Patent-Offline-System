@@ -1,0 +1,18 @@
+{
+  "title": "Time-to-digital converters (TDC) employing a single-stage delay pair and noise shaping for wide input range and reduced quantization noise in a phase-locked loop (PLL)",
+  "abstract": "Time-to-digital converters (TDC) employing a single-stage delay pair for a wide input range and reduced quantization noise in a phase-locked loop (PLL) and related fabrication methods are disclosed. Aspects disclosed in the detailed description include a single-stage Vernier time-to-digital converter (TDC) which mitigates the device mismatch impact and therefore avoids possible spurious tones in a fractional-N PLL application. Combined with a delta-sigma noise shaping stage and a ring-oscillator based coarse TDC, the invention achieves a good trade-off between resolution, detection range and PLL locking speed.",
+  "claims": "1. A time-to-digital converter (TDC) circuit comprising: a first measurement circuit configured to: receive a start pulse signal and a stop pulse signal separated in time by a time period; determine an integer number of consecutive first time increments in the time period; and determine a time remainder of the time period smaller than one of the first time increments; and a second measurement circuit configured to: add the time remainder to a previously accumulated remainder to generate a current accumulated remainder; generate a fractional indicator indicating whether a magnitude of the current accumulated remainder is greater than half of the first time increment; in response to the fractional indicator indicating the magnitude of the current accumulated remainder is greater than half of the first time increment, generate a next accumulated remainder comprising a first difference between the first time increment and the current accumulated remainder; and in response to the fractional indicator indicating the magnitude of the current accumulated remainder is less than half of the first time increment, generate the next accumulated remainder comprising the current accumulated remainder.",
+  "patent_id": "US12379695-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G04F 10/005",
+      "H03L 7/085"
+    ],
+    "all": [
+      "G04F 10/005",
+      "H03L 7/085"
+    ],
+    "source": "converted"
+  }
+}

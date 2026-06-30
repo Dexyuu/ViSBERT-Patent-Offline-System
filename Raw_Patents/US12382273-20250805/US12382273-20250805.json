@@ -1,0 +1,22 @@
+{
+  "title": "Method and system for detection and autocorrection of stale session information",
+  "abstract": "A method, a network device, and a non-transitory computer-readable storage medium are described in relation to an detection and autocorrection of stale session information service. The detection and autocorrection service may include the addition of a header, which may indicate date and time information, with a message that has an origination timestamp header. The header may be added to the message by an intermediary network device relative to origin and destination network devices associated with a network procedure. The header may enable detection by a network device of stale session information. The header may enable the network device to determine whether to ignore the message as a duplicate message or use the message to carry out the network procedure. In this way, duplicate messages that may include the same origination timestamp header may be managed and stale information may be detected.",
+  "claims": "1. A method comprising: receiving, by a binding support device from a policy control device, a binding request; comparing, by the binding support device, the binding request to binding information stored at the binding support device; and determining, by the binding support device, whether to reject the binding request or overwrite the binding information based on a comparison of first timestamps included in the binding information and second timestamps included in the binding request, wherein to reject or to overwrite is a binary choice, and wherein a first timestamp of the first timestamps and a first timestamp of the second timestamps each include a timestamp generated and set by a session management function.",
+  "patent_id": "US12382273-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 8/005",
+      "H04W 8/02",
+      "H04W 8/18",
+      "H04W 76/14"
+    ],
+    "all": [
+      "H04W 8/005",
+      "H04W 8/02",
+      "H04W 8/18",
+      "H04W 76/14"
+    ],
+    "source": "converted"
+  }
+}

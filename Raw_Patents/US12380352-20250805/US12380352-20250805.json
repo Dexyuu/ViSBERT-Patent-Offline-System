@@ -1,0 +1,20 @@
+{
+  "title": "Auxiliary qubits analysis based on partial compilation of quantum programs",
+  "abstract": "An apparatus, product and method includes partially compiling a quantum circuit from an initial cycle and until one or more intermediate cycles. A partial executable quantum circuit and measurements regarding a group of candidate auxiliary qubits are obtained by executing the partial executable quantum circuit multiple times and classifying the group of candidate auxiliary qubits to a qubit class with respect to a target group of qubits. The qubit class indicates that the group of candidate auxiliary qubits is not entangled with the target group. The quantum circuit is modified to apply a cleaning process on the group of candidate auxiliary qubits, whereby a modified quantum circuit is obtained. The modified quantum circuit is compiled thus obtaining an executable quantum circuit.",
+  "claims": "1. A method comprising: partially compiling a quantum circuit, wherein the quantum circuit comprises a group of qubits that are being manipulated over a plurality of cycles, the plurality of cycles ordered in consecutive order, wherein the plurality of cycles comprise an initial cycle, one or more intermediate cycles and a final cycle, wherein the initial cycle is a first cycle in accordance with the consecutive order having no preceding cycles therebefore, wherein the final cycle is a last cycle in accordance with the consecutive order having no successive cycles thereafter, wherein the one or more intermediate cycles succeed the initial cycle and precede the final cycle in accordance with the consecutive order, wherein said partially compiling comprises compiling the quantum circuit from the initial cycle and until the one or more intermediate cycles, whereby obtaining a partial executable quantum circuit that excludes at least the final cycle; obtaining measurements regarding a group of a plurality of candidate auxiliary qubits, wherein the group of the plurality of candidate auxiliary qubits is comprised by members of the group of qubits, wherein said obtaining measurements comprises executing the partial executable quantum circuit multiple times; determining a state of the group of the plurality of candidate auxiliary qubits at the one or more intermediate cycles based on the measurements; classifying the group of the plurality of candidate auxiliary qubits to a qubit class with respect to a target group of one or more qubits, wherein members of the group of qubits comprise the target group of one or more qubits, wherein the qubit class indicates that the group of the plurality of candidate auxiliary qubits is not entangled with the target group of the one or more qubits; modifying the quantum circuit to apply after the one or more intermediate cycles a cleaning process on the group of the plurality of candidate auxiliary qubits, thereby obtaining a modified quantum circuit, wherein the cleaning process is a controlled propagation operation, wherein the controlled propagation operation is based on the state of the group of the plurality of candidate auxiliary qubits; and compiling the modifying quantum circuit, thereby obtaining an executable quantum circuit, the executable quantum circuit comprising the last cycle, wherein the executable quantum circuit is configured to apply the cleaning process on the group of the plurality of candidate auxiliary qubits at or after the one or more intermediate cycles, wherein the group of the plurality of candidate auxiliary qubits are configured to be stored on a quantum computing platform executing the executable quantum circuit.",
+  "patent_id": "US12380352-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 10/20",
+      "G06F 11/3624",
+      "G06F 11/3668"
+    ],
+    "all": [
+      "G06N 10/20",
+      "G06F 11/3624",
+      "G06F 11/3668"
+    ],
+    "source": "converted"
+  }
+}

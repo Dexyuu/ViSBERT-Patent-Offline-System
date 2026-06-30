@@ -1,0 +1,20 @@
+{
+  "title": "Memory device, operating method of memory device, and storage device",
+  "abstract": "A memory device includes a plurality of memory planes, each including a plurality of memory banks; one or more plane groups, each comprising at least two memory planes sharing at least one peripheral circuit; a plurality of compressing circuits, each connected to a corresponding memory bank and outputting compressed data by compressing data read from the corresponding memory bank; a plurality of merge circuits, each receiving compressed data and at least one output control signal corresponding to a merge group of a plurality of merge groups, each merge circuit outputting, in response to at least one output control signal, merged data obtained by merging compressed data corresponding to memory banks grouped in the merge group; and an output buffer circuit latching and outputting the merged data in response to at least one output control signal. The merge group comprises at least two memory banks in a same plane group.",
+  "claims": "12. A method of operating a memory device, the method comprising: generating compressed data obtained by compressing data read from a plurality of memory banks included in each of a plurality of memory planes; merging compressed data corresponding to memory banks grouped as a merge group in response to at least one of a plurality of output control signals corresponding to at least one of the memory banks; and outputting the merged data in response to at least one of the plurality of output control signals, wherein the plurality of memory planes are grouped into memory plane groups, wherein each memory plane group comprises at least two memory planes sharing at least one peripheral circuit, and wherein, in the merge group, at least some of the memory banks included in the same plane group are grouped.",
+  "patent_id": "US12380024-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 12/0802",
+      "G06F 2212/1044",
+      "G06F 2212/401"
+    ],
+    "all": [
+      "G06F 12/0802",
+      "G06F 2212/1044",
+      "G06F 2212/401"
+    ],
+    "source": "converted"
+  }
+}

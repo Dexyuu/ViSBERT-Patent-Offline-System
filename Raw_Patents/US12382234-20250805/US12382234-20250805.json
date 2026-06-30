@@ -1,0 +1,24 @@
+{
+  "title": "Perceptual optimization of magnitude and phase for time-frequency and softmask source separation systems",
+  "abstract": "A method comprises: obtaining softmask values for frequency bins of time-frequency tiles representing an audio signal; reducing, or expanding and limiting, the softmask values; and applying the reduced, or expanded and limited, softmask values to the frequency bins to create a time-frequency representation of an estimated target source. An alternative method comprises, for each time-frequency tile: obtaining softmask values; applying the softmask values to the frequency bins to create a time-frequency domain representation of an estimated target source; obtaining a panning parameter and a source concentration estimates for the target source; determining, using the panning parameter estimate and the softmask values, a magnitude for the time-frequency representation of the estimated target source; determining, using the panning parameter estimate and the source phase concentration estimate, a phase for the time-frequency representation of the estimated target source; and combining the magnitude and the phase.",
+  "claims": "1. A method comprising: obtaining softmask values for frequency bins of time-frequency tiles representing an audio signal, the audio signal including a target source and one or more backgrounds; reducing the softmask values; and applying the reduced softmask values to the frequency bins to create a time-frequency representation of an estimated target source,",
+  "patent_id": "US12382234-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04S 7/30",
+      "G10L 21/0308",
+      "G10L 25/18",
+      "H04S 1/007",
+      "H04S 2400/11"
+    ],
+    "all": [
+      "H04S 7/30",
+      "G10L 21/0308",
+      "G10L 25/18",
+      "H04S 1/007",
+      "H04S 2400/11"
+    ],
+    "source": "converted"
+  }
+}

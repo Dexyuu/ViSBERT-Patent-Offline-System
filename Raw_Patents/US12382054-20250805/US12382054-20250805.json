@@ -1,0 +1,18 @@
+{
+  "title": "Multilayer-based image coding method in video or image coding system",
+  "abstract": "An image decoding method performed by a decoding apparatus, according to the disclosure of the present document, comprises the steps of: obtaining, from a bitstream, image information including information related to a temporal sublayer and information related to a target OLS; generating prediction samples of a current block by performing prediction on the current block on the basis of the information related to the temporal sublayer; and generating a reconstructed picture on the basis of the prediction samples.",
+  "claims": "6. An image encoding method performed by an encoding apparatus, the method comprising: generating information related to temporal sub-layers; generating information related to a target output layer set (OLS); and encoding image information comprising the information related to the temporal sub-layers and the information related to the OLS; wherein the image information comprises a video parameter set (VPS) and sequence parameter set (SPS), wherein the information related to the temporal sub-layers comprises the information on a maximum number of the temporal sub-layers, wherein the information related to the target OLS comprises the number of the layers comprised in the target OLS, wherein the information on the maximum number of the temporal sub-layers is comprised in the VPS or the SPS, and wherein whether the information on the maximum number of the temporal sub-layers is information based on the VPS or information based on the SPS is determined based on the number of the layers comprised in the target OLS, and wherein based on the number of the layers comprised in the target OLS being equal to 1, the information on the maximum number of the temporal sub-layers is the information based on the SPS.",
+  "patent_id": "US12382054-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/132",
+      "H04N 19/176"
+    ],
+    "all": [
+      "H04N 19/132",
+      "H04N 19/176"
+    ],
+    "source": "converted"
+  }
+}

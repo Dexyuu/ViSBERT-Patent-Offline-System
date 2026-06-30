@@ -1,0 +1,40 @@
+{
+  "title": "Measuring oxygen saturation with quality metric reporting",
+  "abstract": "An oximeter probe determines an oxygen saturation for the tissue and determines a quality value for the oxygen saturation and associated measurements of the tissue. The quality value is calculated from reflectance data received at the detectors of the oximeter probe. The oximeter probe then displays a value for the oxygen saturation with the error value to indicate a quality level for the oxygen saturation and associated values used to calculate oxygen saturation.",
+  "claims": "1. A method comprising: providing an oximeter device; using the oximeter device comprises making an oxygen saturation measurement of a tissue comprising emitting light from a source of the oximeter device into the tissue, and receiving light reflected from the tissue at detectors of the oximeter device in response to the emitted light, wherein a plurality of detector responses is obtained for the reflected light; accessing data points for simulated reflectance curves stored in a memory of the oximeter device; fitting the detector responses to the data points for the simulated reflectance curves to determine an absorption coefficient value for the tissue; using the absorption coefficient value, determining an oxygen saturation value for the tissue; calculating an error value from the fitting of the detector responses to the data points of the simulated reflectance curves, and using the error value, determining a quality metric value for the oxygen saturation value; and displaying on a screen the oxygen saturation value and the quality metric value.",
+  "patent_id": "US12376769-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 5/14552",
+      "A61B 5/4848",
+      "A61B 5/7221",
+      "A61B 5/7275",
+      "A61B 5/742",
+      "A61B 5/743",
+      "A61B 5/7475",
+      "A61B 2560/0214",
+      "A61B 2560/0425",
+      "A61B 2560/0475",
+      "A61B 2562/0238",
+      "A61B 2562/0242",
+      "A61B 2562/046"
+    ],
+    "all": [
+      "A61B 5/14552",
+      "A61B 5/4848",
+      "A61B 5/7221",
+      "A61B 5/7275",
+      "A61B 5/742",
+      "A61B 5/743",
+      "A61B 5/7475",
+      "A61B 2560/0214",
+      "A61B 2560/0425",
+      "A61B 2560/0475",
+      "A61B 2562/0238",
+      "A61B 2562/0242",
+      "A61B 2562/046"
+    ],
+    "source": "converted"
+  }
+}

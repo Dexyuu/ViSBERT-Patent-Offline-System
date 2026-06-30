@@ -1,0 +1,18 @@
+{
+  "title": "Building a time dimension based on a time data model and creating an association relationship between the time dimension and a second data model for analyzing data in the time dimension",
+  "abstract": "A computer-implemented method according to one approach includes defining a time data model and building a time dimension based on the time data model. The method further includes defining a second data model. An association relationship is created between the time dimension and the second data model for thereafter analyzing data of the second data model in the time dimension. A computer program product according to another approach includes a computer readable storage medium having program instructions embodied therewith. The program instructions are readable and/or executable by a computer to cause the computer to perform the foregoing method. A system according to another approach includes a processor, and logic integrated with the processor, executable by the processor, or integrated with and executable by the processor. The logic is configured to perform the foregoing method.",
+  "claims": "1. A computer-implemented method, comprising: building a time dimension based on a defined time data model, wherein event driven data is not considered during the building of the time dimension based on the time data model; defining a second data model; creating an association relationship between the time dimension and the second data model; in response to detection of a first cyber-threat event, issuing a query for data stored according to the created association relationship; characterizing the first cyber-threat event using received data associated with the query, wherein the received data is defined according to the second data model; and initiating a fix, determined based on the received data, for recovering from the first cyber-threat event.",
+  "patent_id": "US12381900-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1425",
+      "G06F 16/288"
+    ],
+    "all": [
+      "H04L 63/1425",
+      "G06F 16/288"
+    ],
+    "source": "converted"
+  }
+}

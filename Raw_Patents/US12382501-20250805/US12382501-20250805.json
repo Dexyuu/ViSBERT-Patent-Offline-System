@@ -1,0 +1,16 @@
+{
+  "title": "Random access method and apparatus",
+  "abstract": "Embodiments of this application disclose a random access method and an apparatus. The method includes: A terminal device performs first-type random access in a first bandwidth part, where the first bandwidth part is an active uplink bandwidth part; the terminal device determines a first parameter, where the first parameter is duration for performing first-type random access in the first bandwidth part, or the first parameter is a quantity of times of sending a first-type random access message; and the terminal device performs random access in a second bandwidth part if the first parameter is greater than a first threshold, where the second bandwidth part is an uplink bandwidth part, and an identifier of the second bandwidth part is different from an identifier of the first bandwidth part. Through implementation of the method described in embodiments of this application, a success rate of random access can be improved, and the  terminal device can access a network in a timely manner.",
+  "claims": "1. A random access method, wherein the method comprises: performing, by a terminal device, first-type random access in a first bandwidth part, wherein the first bandwidth part is an active uplink bandwidth part; determining, by the terminal device, a first parameter, wherein the first parameter is a duration for performing the first-type random access in the first bandwidth part, or the first parameter is a quantity of times of sending a first-type random access message; and in response to determining that the first parameter is greater than a first threshold, performing, by the terminal device, random access in a second bandwidth part, wherein the second bandwidth part is an uplink bandwidth part, and the second bandwidth part is different from the first bandwidth part, wherein the first-type random access is one of grant-free random access, 2-step random access, or 4-step random access, wherein a random access message of the grant-free random access comprises uplink data carried on a physical uplink shared channel (PUSCH), a random access message of the 2-step random access comprises a preamble carried on a physical random access channel (PRACH) and uplink data carried on a PUSCH, and a random access message of the 4-step random access comprises a preamble carried on the PRACH.",
+  "patent_id": "US12382501-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 74/0833"
+    ],
+    "all": [
+      "H04W 74/0833"
+    ],
+    "source": "converted"
+  }
+}

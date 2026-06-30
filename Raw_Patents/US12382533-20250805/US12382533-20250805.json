@@ -1,0 +1,22 @@
+{
+  "title": "Method for controlling wireless backhaul link and apparatus",
+  "abstract": "The present disclosure relates to methods and apparatus for controlling wireless backhaul link. In one example method, a first device determines to manage a first radio link control (RLC) bearer on a wireless backhaul link between a first backhaul node and a second device, where the second device is a parent node of the first backhaul node, the first device is a centralized unit (CU) of a donor base station, and the second device is a distributed unit (DU) of the donor base station; the second device is a second backhaul node, and the first device is a donor base station; or the first device is a CU of a donor base station, and the second device is a second backhaul node. The first device sends a backhaul type indicator and management information of the first RLC bearer to the first backhaul node.",
+  "claims": "1. A method, comprising: determining, by a first device, to manage a first radio link control (RLC) bearer on a wireless backhaul link between a first backhaul node and a second device, wherein the second device is a parent node of the first backhaul node, and wherein: the first device is a centralized unit (CU) of a donor base station, and the second device is a distributed unit (DU) of the donor base station; the second device is a second backhaul node, and the first device is the donor base station; or the first device is the CU, and the second device is the second backhaul node; sending, by the first device, a backhaul type indicator and management information of the first RLC bearer to the first backhaul node, wherein the backhaul type indicator is used to indicate that a type of the first RLC bearer is a backhaul type, and the management information of the first RLC bearer is used to determine a radio bearer of a terminal mapped to the first RLC bearer or the management information of the first RLC bearer is used to determine an RLC bearer or a logical channel between the first backhaul node and a child node of the first backhaul node mapped to the first RLC bearer; sending, by the first device, the backhaul type indicator and the management information of the first RLC bearer to the second device; and in response to sending the backhaul type indicator and the management information of the first RLC bearer to the second device, receiving, by the first device from the second device, an identifier of a logical channel corresponding to the first RLC bearer or identification information of the first RLC bearer.",
+  "patent_id": "US12382533-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/25",
+      "H04B 7/15528",
+      "H04W 72/20",
+      "H04W 92/16"
+    ],
+    "all": [
+      "H04W 76/25",
+      "H04B 7/15528",
+      "H04W 72/20",
+      "H04W 92/16"
+    ],
+    "source": "converted"
+  }
+}

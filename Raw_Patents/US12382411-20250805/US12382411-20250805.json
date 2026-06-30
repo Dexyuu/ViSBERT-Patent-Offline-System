@@ -1,0 +1,20 @@
+{
+  "title": "Timing advance range extension in random access response",
+  "abstract": "A method may include sending, by a user equipment, a random access preamble message to a network element. The method may also include receiving an uplink grant in a random access response message in response to the random access preamble message. The method may further include adding an implicit timing advance offset to an uplink time domain resource allocation of the uplink grant to establish synchronization of radio transmissions between the user equipment and the network element. The method may also include transmitting a scheduled transmission message including the implicit timing advance offset to the network element. Further, the implicit timing advance offset may be added to the uplink time domain resource before the scheduled transmission message is transmitted.",
+  "claims": "1. A method, comprising: sending, by a user equipment, a random access preamble message to a network element; receiving an uplink grant in a random access response message in response to the random access preamble message, wherein the uplink grant includes a combination of a frequency allocation and a time allocation; determining an implicit timing advance based on the combination of the frequency allocation and the time allocation; adding the implicit timing advance offset to an uplink time domain resource allocation of the uplink grant to establish synchronization of radio transmissions between the user equipment and the network element, wherein the implicit timing advance offset is added to the uplink time domain resource before the scheduled transmission message is transmitted; and transmitting a scheduled transmission message including the implicit timing advance offset to the network element, wherein the combination of the frequency allocation and the time allocation is mapped to an additional timing advance offset to be added in the scheduled transmission message.",
+  "patent_id": "US12382411-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 74/0833",
+      "H04W 56/0045",
+      "H04W 74/0891"
+    ],
+    "all": [
+      "H04W 74/0833",
+      "H04W 56/0045",
+      "H04W 74/0891"
+    ],
+    "source": "converted"
+  }
+}

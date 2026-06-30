@@ -1,0 +1,20 @@
+{
+  "title": "Limiting identity space for voice biometric authentication",
+  "abstract": "Disclosed are systems and methods including computing-processes executing machine-learning architectures extract vectors representing disparate types of data and output predicted identities of users accessing computing services, without express identity assertions, and across multiple computing services, analyzing data from multiple modalities, for various user devices, and agnostic to architectures hosting the disparate computing service. The system invokes the identification operations of the machine-learning architecture, which extracts biometric embeddings from biometric data and context embeddings representing all or most of the types of metadata features analyzed by the system. The context embeddings help identify a subset of potentially matching identities of possible users, which limits the number of biometric-prints the system compares against an inbound biometric embedding for authentication. The types of extracted features originate from multiple modalities, including metadata from data communications, audio signals, and images. In this way, the embodiments apply a multi-modality machine-learning architecture.",
+  "claims": "1. A computer-implemented method comprising: generating, by a computer, for an enrollee-user, one or more enrollee biometric-prints by applying one or more corresponding biometric recognition engines of a machine-learning architecture on enrollee biometric data, and one or more enrollee context-prints by applying one or more metadata recognition engines of the machine-learning architecture on enrollment metadata, an enrollee context-print representative of a plurality of enrollment features having a plurality of feature-types extracted from the enrollment metadata; storing, by the computer, into an enrollee-record in a database, the one or more enrollee biometric-prints and the one or more enrollee context-prints; extracting, by the computer, an inbound context-print by applying the one or more metadata recognition engines on inbound metadata associated with an inbound user, and an inbound biometric-print by applying the one or more biometric recognition engines on inbound biometric data associated with the inbound user; selecting, by the computer, a set of enrollee-records from a plurality of enrollee-records stored in the database, the set of enrollee-records containing at least one enrollee context-print satisfying a threshold amount of distance from the inbound context-print; and identifying, by the computer, an enrollee biometric-print from the set of enrollee-records satisfying a threshold distance of similarity with the inbound biometric-print.",
+  "patent_id": "US12380892-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 17/04",
+      "G06F 21/32",
+      "G10L 17/22"
+    ],
+    "all": [
+      "G10L 17/04",
+      "G06F 21/32",
+      "G10L 17/22"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Linking system and linking control method",
+  "abstract": "A linking system includes a first linking control device which performs control such that a first building management system that manages building facilities provided in a first building and a first device connected to an internet to linked to realize a specific function, wherein the first linking control device includes a memory which memories linking procedure information indicating procedures for realizing the linking of the specific function; and a linking controller which controls (i) an output to the first device in response to an input from the first building management system or (ii) an output to the first building management system in response to an input from the first device so as to realize the specific function based on the linking procedure information stored in the memory.",
+  "claims": "1. A linking system, comprising: a first linking control device comprising a processor which performs control such that a first building management system that manages building facilities provided in a first building and a first device connected to an internet are linked to realize a specific function; and a memory, wherein the first linking control device performs operations comprising: storing, in the memory linking procedure information indicating procedures for realizing the linking of the specific function; and operation as a linking controller which controls (i) an output to the first device in response to an input from the first building management system or (ii) an output to the first building management system in response to an input from the first device so as to realize the specific function based on the linking procedure information stored in the memory, the linking procedure information includes corresponding command information indicating a command for requesting correspondence linking, and procedure instruction information indicating an instruction subject, a conditional operation, an execution subject, and an execution content, operation as the linking controller causes a device designated as the execution subject to execute a process specified as the execution content when a device designated as the instruction subject satisfies the conditional operation, the first building management system has a plurality of positional information processing systems that acquire positional information of objects in the first building, and a common map server that generates position assignment map information in which the positional information acquired by two or more predetermined positional information processing systems are plotted on a map, and the determination by the common map server that the positional information acquired by which positional information processing system should be plotted in the position assignment map information is processed based on information regarding a map processing request by one positional information processing system.",
+  "patent_id": "US12379122-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "F24F 11/58"
+    ],
+    "all": [
+      "F24F 11/58"
+    ],
+    "source": "converted"
+  }
+}

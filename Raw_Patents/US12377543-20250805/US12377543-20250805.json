@@ -1,0 +1,18 @@
+{
+  "title": "Path planning during execution of robot control",
+  "abstract": "A robot system include: a robot; and circuitry configured to: sequentially call a plurality of commands representing an operation path of the robot including an undetermined section; generate an additional path for the undetermined section; and operate the robot based on a command called from the plurality of commands and the additional path, wherein the circuitry is configured to generate the additional path based on surrounding environment information of the robot during operation of the robot based on the called command.",
+  "claims": "1. A robot system comprising: a robot; and circuitry configured to: sequentially call a plurality of operating commands representing an operation path of the robot including a predetermined section and an undetermined section, wherein the plurality of operating commands are pre-arranged and stored in advance of operating the robot and include one or more move commands that define the predetermined section, and an auto command that designates an arrival point of the undetermined section; operate the robot to move along the predetermined section in response to calling the one or more move commands; generate, in response to calling the auto command, an additional path to the arrival point of the undetermined section based on surrounding environment information of the robot, wherein the additional path is generated while operating the robot based on the one or more move commands; and operate the robot to move along the additional path toward the arrival point.",
+  "patent_id": "US12377543-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B25J 9/1666",
+      "B25J 9/1671"
+    ],
+    "all": [
+      "B25J 9/1666",
+      "B25J 9/1671"
+    ],
+    "source": "converted"
+  }
+}

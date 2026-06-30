@@ -1,0 +1,26 @@
+{
+  "title": "Recording device, recording system, and recording method for recording using curable ink",
+  "abstract": "A recording device includes a recording head including a nozzle row configured to discharge ink droplets that are to be cured when irradiated with light onto a recording medium, a drive unit configured to cause the recording head and the recording medium to move relative to each other, a plurality of irradiation parts configured to irradiate the recording medium with the light, a reception unit configured to receive an input of irradiation range data indicating an irradiation range of the light, and a control unit configured to control turning ON and OFF of the plurality of irradiation parts, to irradiate the recording medium with the light in accordance with the irradiation range, based on the irradiation range data.",
+  "claims": "1. A recording device comprising: a recording head including a nozzle row configured to discharge ink droplets that are to be cured when irradiated with light onto a recording medium; a drive unit configured to cause the recording head and the recording medium to move relative to each other; a plurality of irradiation parts configured to irradiate the recording medium with the light; a reception unit configured to receive an input of irradiation range data indicating an irradiation range of the light and an input of image data for obtaining a pattern of dots of the ink droplets, the irradiation range data including a plurality of pixels so as to have a resolution same as a resolution of the image data, and including irradiation state information indicating an irradiation state of the light in units of the pixels; and a control unit configured to control an operation of the drive unit and discharging of the ink droplets by the recording head, to form the pattern on the recording medium based on the image data, generate lighting control data by converting the irradiation range data in accordance with arrangement of the plurality of irradiation parts such that a resolution of the lighting control data is lower than the resolution of the irradiation range data, and control turning ON and OFF of the plurality of irradiation parts, to irradiate the recording medium with the light in accordance with the irradiation range, based on the lighting control data.",
+  "patent_id": "US12377663-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B41J 11/00212",
+      "B41J 2/0456",
+      "B41J 11/00214",
+      "B41J 11/00218",
+      "B41J 25/001",
+      "B41J 2002/14362"
+    ],
+    "all": [
+      "B41J 11/00212",
+      "B41J 2/0456",
+      "B41J 11/00214",
+      "B41J 11/00218",
+      "B41J 25/001",
+      "B41J 2002/14362"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "title": "System for identification of obfuscated electronic data through placeholder indicators",
+  "abstract": "Systems, computer program products, and methods are described herein for identification of obfuscated electronic data through placeholder indicators. The present invention is configured to electronically receive, from a computing device of a user, a request to obfuscate one or more data artifacts stored on a first database; retrieve, from a data obfuscation repository, one or more data obfuscation algorithms; implement the one or more data obfuscation algorithms on the one or more data artifacts; generate one or more placeholder indicators identifying the one or more data obfuscation algorithms implemented on the one or more data artifacts; create one or more data fields corresponding to the one or more masked data artifacts on the first database; store the one or more placeholder indicators in the one or more data fields; and update the first database with the one or more masked data artifacts and the one or more placeholder indicators.",
+  "claims": "1. A system for identification of obfuscated electronic data through placeholder indicators, the system comprising: at least one processing device; and at least one non-transitory storage device with computer-readable program code stored thereon and accessible by the at least one processing device, wherein the computer-readable code when executed is configured to cause the at least one processing device to: electronically receive, from a computing device of a user, a request to obfuscate one or more data artifacts stored on a first database; retrieve, from a data obfuscation repository, one or more data obfuscation algorithms, wherein the one or more obfuscation algorithms is associated with one or more computational complexity; determine that the one or more computational complexity of the one or more obfuscation algorithms does not meet one or more computational complexity requirements of the one or more data artifacts; determine a number of iterations of implementation required for each of the one or more data obfuscation algorithms such that the one or more computational complexity of the one or more data obfuscation algorithms meets the one or more computational complexity requirements of the one or more data artifacts to generate one or more masked data artifacts; iteratively implement the one or more data obfuscation algorithms on the one or more data artifacts according to the number of iterations of implementation to obfuscate the one or more data artifacts and generate the one or more masked data artifacts; generate one or more placeholder indicators identifying the one or more data obfuscation algorithms implemented on the one or more data artifacts; create one or more data fields corresponding to the one or more masked data artifacts on the first database; format the one or more placeholder indicators to resemble the one or more data artifacts for obfuscating the one or more data artifacts from an unauthorized user that accesses the first database; store the one or more placeholder indicators in the one or more data fields; update the first database with the one or more masked data artifacts and the one or more placeholder indicators; electronically receive, from the computing device of the user, a request to access the first database; and initiate a data deobfuscation engine on the first database in response to receiving the request, wherein the first database comprises data artifacts comprising different data types and exposure levels, wherein initiating further comprises: identifying one or more data deobfuscation algorithms corresponding to the one or more placeholder indicators; identifying the one or more masked data artifacts corresponding to the one or more placeholder indicators; implementing the one or more data deobfuscation algorithms on the one or more masked data artifacts corresponding to the one or more placeholder indicators; and unmasking the one or more masked data artifacts based on at least implementing the one or more data deobfuscation algorithms.",
+  "patent_id": "US12380137-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/287",
+      "G06F 16/1805",
+      "G06F 16/213",
+      "G06F 16/22",
+      "G06F 16/2255",
+      "G06F 16/235",
+      "G06F 16/24556",
+      "G06F 21/31",
+      "G06F 21/6218",
+      "G06F 21/6227"
+    ],
+    "all": [
+      "G06F 16/287",
+      "G06F 16/1805",
+      "G06F 16/213",
+      "G06F 16/22",
+      "G06F 16/2255",
+      "G06F 16/235",
+      "G06F 16/24556",
+      "G06F 21/31",
+      "G06F 21/6218",
+      "G06F 21/6227"
+    ],
+    "source": "converted"
+  }
+}

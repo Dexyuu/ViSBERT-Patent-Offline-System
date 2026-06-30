@@ -1,0 +1,34 @@
+{
+  "title": "Vehicle control device, vehicle control method, and storage medium",
+  "abstract": "A vehicle control device includes a decider configured to decide on a start and a cancelation of a travel mode in which a vehicle travels at or below a target speed set by a driver of the vehicle and a controller configured to control traveling of the vehicle in the travel mode in accordance with a decision result of the decider. The decider sets a state of the cancelation of the travel mode as a deferred state when the operation amount of a brake operation on a brake pedal of the vehicle is less than or equal to a threshold value if a cancelation operation is performed according to the brake operation when the start of the travel mode is decided on in accordance with a first start operation and the controller controls the traveling and decides to continue the travel mode when a second start operation different from the first start operation is performed in the deferred state.",
+  "claims": "1. A vehicle control device comprising a processor configured to execute computer-readable instructions to perform: deciding on a start and a cancelation of a travel mode in which a vehicle travels at or below a target speed set according to an operation performed on an operation unit by a driver of the vehicle; and controlling traveling of the vehicle in the travel mode in accordance with a decision result, wherein the processor is further configured to perform: setting a state of the cancelation of the travel mode as a deferred state when an operation amount of a brake operation on a brake pedal of the vehicle is less than or equal to a threshold value if a cancelation operation of canceling the travel mode is performed according to the brake operation when the start of the travel mode is decided on in accordance with a first start operation of starting the travel mode and controlling the traveling in the travel mode, deciding to continue the travel mode when a second start operation different from the first start operation is performed in the deferred state, and deciding to cancel the travel mode when the operation amount exceeds the threshold value, when no operation is performed within a prescribed period, which is at least one of a period until a prescribed period of time elapses from the time when the cancelation operation is performed and a period until traveling of a prescribed distance is performed, in the deferred state, or when the cancelation operation is performed again in the deferred state.",
+  "patent_id": "US12377855-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 30/182",
+      "B60W 30/143",
+      "B60W 50/082",
+      "B60W 50/14",
+      "B60W 2050/0083",
+      "B60W 2050/143",
+      "B60W 2050/146",
+      "B60W 2520/10",
+      "B60W 2540/106",
+      "B60W 2540/12"
+    ],
+    "all": [
+      "B60W 30/182",
+      "B60W 30/143",
+      "B60W 50/082",
+      "B60W 50/14",
+      "B60W 2050/0083",
+      "B60W 2050/143",
+      "B60W 2050/146",
+      "B60W 2520/10",
+      "B60W 2540/106",
+      "B60W 2540/12"
+    ],
+    "source": "converted"
+  }
+}

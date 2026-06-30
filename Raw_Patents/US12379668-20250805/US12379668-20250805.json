@@ -1,0 +1,22 @@
+{
+  "title": "Methods and systems for measurement of semiconductor structures with multi-pass statistical optimization",
+  "abstract": "Methods and systems for measuring physical properties of a specimen by iterative solution of an optimization function including both current and prior measurement information are described herein. In one aspect, a Maximum A Posteriori (MAP) estimation approach is employed to integrate prior measurement information with current measurement information in the optimization function. In some examples, prior measurement information associated with the measurement of a semiconductor structure is available from a number of exogenous sources. In a further aspect, prior measurement information includes current measurements of a semiconductor structure under measurement as part of a multiple pass measurement. Prior statistics are determined based on an initial set of values of parameters of interest. The prior statistics are included in a subsequent MAP analysis of the same measurement data set employed in a first measurement pass. In another aspect, prior statistics are tracked to determine their impact on current measurements.",
+  "claims": "1. A system comprising: an illumination source configured to provide an amount of illumination radiation directed to a measurement site on a surface of a semiconductor wafer; a detector configured to detect an amount of radiation collected from one or more structures disposed on the semiconductor wafer at the measurement site in response to the amount of illumination radiation; and a computing system configured to: generate an amount of measurement data characterizing the detected amount of radiation from the measurement site; and estimate values of one or more parameters of interest characterizing the one or more structures based on the amount of measurement data and an amount of prior measurement information, wherein the estimating of the values of the one or more parameters of interest involves a first iterative solution of an optimization function including a first term associated with the amount of measurement data and a term associated with the amount of prior measurement information.",
+  "patent_id": "US12379668-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G03F 7/70625",
+      "G01B 11/24",
+      "G03F 7/705",
+      "G01B 2210/56"
+    ],
+    "all": [
+      "G03F 7/70625",
+      "G01B 11/24",
+      "G03F 7/705",
+      "G01B 2210/56"
+    ],
+    "source": "converted"
+  }
+}

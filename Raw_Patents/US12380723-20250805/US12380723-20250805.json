@@ -1,0 +1,20 @@
+{
+  "title": "Person re-identification method of integrating global features and ladder-shaped local features and device thereof",
+  "abstract": "The present disclosure discloses a person re-identification method of integrating global features and ladder-shaped local features and a device thereof, comprising: extracting the image to be identified and the image-library image by using a pre-trained person re-identification network model, respectively, to obtain the person feature of the image to be identified and the person feature of the image-library image; matching the similarity between the person feature of the image to be identified and the person feature of the image-library image, and outputting the person images with the top N similarity as the person re-identification result; wherein a person re-identification network comprises a backbone network, an improved global feature branch and a ladder-shaped local feature extraction branch guided by a block weight; using a public data set to train the person re-identification network, and obtaining the trained person re-identification network model.",
+  "claims": "1. A person re-identification method, comprising: acquiring an image to be identified and a image-library image; extracting the image to be identified and the image-library image by using a pre-trained person re-identification network model, respectively, to obtain the person feature of the image to be identified and the person feature of the image-library image; matching the similarity between the person feature of the image to be identified and the person feature of the image-library image, and outputting the person images with the top N similarity as the person re-identification result; wherein the method for constructing the person re-identification network model comprises: constructing a person re-identification network, which comprises a backbone network, an improved global feature branch and a ladder-shaped local feature extraction branch guided by a block weight; wherein the backbone network is Resnet50, and a pre-training weight is loaded; the improved global feature branch is connected to the backbone network Conv5_x, comprises a channel attention module, a multi-receptive field integrating module, a GeM pooling layer and a fully connected layer, and is configured to extract the person global feature; after being connected to the backbone network Conv4_x, the ladder-shaped local feature extraction branch guided by the block weight comprises a ladder block layer, a pooling layer, a spatial attention module and a fully connected layer, and is configured to extract the person local feature; the person global feature and the person local feature are connected as the final person features; using a public data set to train the person re-identification network, and obtaining the trained person re-identification network model.",
+  "patent_id": "US12380723-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 40/10",
+      "G06V 10/42",
+      "G06V 10/454"
+    ],
+    "all": [
+      "G06V 40/10",
+      "G06V 10/42",
+      "G06V 10/454"
+    ],
+    "source": "converted"
+  }
+}

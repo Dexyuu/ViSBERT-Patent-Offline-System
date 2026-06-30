@@ -1,0 +1,20 @@
+{
+  "title": "Input sensing device and display device including the same",
+  "abstract": "An input sensing device includes first driving electrodes, second driving electrodes, and sensing electrodes, and a sensing driver that transmits a first driving signal to the first driving electrodes at a first frequency, transmits a second driving signal to the second driving electrodes at a second frequency, and determines a touch or approach of an external object based on sensing signals received from the sensing electrodes. The sensing driver includes analog front-end circuits that separate a sensing signal of the first frequency and a sensing signal of the second frequency that are received from the respective sensing electrodes, and generate digital sensing data based on a result of a recombination of the separated sensing signals.",
+  "claims": "1. An analog front-end circuit, comprising: a charge amplification component that includes a first input terminal that receives a first sensing signal, a second input terminal that receives a second sensing signal, a first output terminal, and a second output terminal, wherein the charge amplification component differentially amplifies the first sensing signal and the second sensing signal, and outputs a differentially amplified first differential signal to the first output terminal, and a differentially amplified second differential signal to the second output terminal; a filter component that includes a first band-pass filter and a second band-pass filter, wherein the first band-pass filter is connected to the first output terminal and the second output terminal and the second band-pass filter is connected to the first output terminal and the second output terminal; and a buffer component connected to the first band-pass filter and the second band-pass filter; wherein the first band-pass filter and the second band-pass filter are connected in parallel between the charge amplification component and the buffer component.",
+  "patent_id": "US12379807-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/04182",
+      "G06F 3/0446",
+      "G06F 3/0447"
+    ],
+    "all": [
+      "G06F 3/04182",
+      "G06F 3/0446",
+      "G06F 3/0447"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "System, apparatus and method for dynamic thermal distribution of a system on chip",
+  "abstract": "In one embodiment, a processor includes: a first plurality of intellectual property (IP) circuits to execute operations; and a second plurality of integrated voltage regulators, where the second plurality of integrated voltage regulators are oversubscribed with respect to the first plurality of IP circuits. Other embodiments are described and claimed.",
+  "claims": "10. A system comprising: a processor comprising a plurality of cores, a plurality of low dropout regulators to power the plurality of cores, and a plurality of thermal sensors, wherein a first low dropout regulator of the plurality of low dropout regulators comprises a plurality of power gates, and when a hot spot region is identified within a first core associated with the first low dropout regulator, at least some of the plurality of power gates of the first low dropout regulator are to be disabled; and a non-volatile fuse storage to store configuration information regarding the plurality of low dropout regulators, wherein: the configuration information comprises a respective indicators to indicate whether respective low dropout regulators of the plurality of low dropout regulators are to be enabled or disabled; the plurality of low dropout regulators are oversubscribed with respect to the plurality of cores; the respective indicators are to indicate that at least one low dropout regulator of the plurality of low dropout regulators is to be disabled; and when a temperature of a first region of the processor exceeds a thermal threshold: one or more of the plurality of low dropout regulators associated with the first region are to be disabled, and one or more others of the plurality of low dropout regulators located in a different region of the processor are to provide power to the first region.",
+  "patent_id": "US12379769-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 1/3296",
+      "G01K 7/021",
+      "G06F 1/3203",
+      "G06F 9/5094",
+      "H03K 17/082",
+      "Y02D 10/00"
+    ],
+    "all": [
+      "G06F 1/3296",
+      "G01K 7/021",
+      "G06F 1/3203",
+      "G06F 9/5094",
+      "H03K 17/082",
+      "Y02D 10/00"
+    ],
+    "source": "converted"
+  }
+}

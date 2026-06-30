@@ -1,0 +1,16 @@
+{
+  "title": "Radar system and a radar method for replay resistant radar operations",
+  "abstract": "There is described a radar system (100) and a corresponding method, the radar system (100) comprising i) a control unit (110), configured for generating a code (C) comprising a sequence of code symbols (211), wherein generating the code (C) comprises randomly selecting a plurality of code symbols (211) from a code symbol pool (310) comprising a plurality of code symbols (211), ii) a transmitter (120), configured for generating a signal (S) from the code (C), and further configured for transmitting the signal (S), iii) a receiver (130), configured for receiving an echo (E) of the signal (S), and iii) a correlator (140), configured for correlating each code symbol of the code (Câ²) of the received echo (E) of the signal (S) to a corresponding symbol template (R) associated with the correlator (140); wherein the radar system (100) is further configured for synchronizing the symbol template (R) to the code (C) of the signal (S). There is further described a method of using a sequence of randomly selected code symbols (211) in a radar application, in particular an UWB-based radar application, to prevent replay attacks.",
+  "claims": "1. A radar system, comprising: a control unit, configured for generating a code comprising a sequence of a plurality of code symbols, wherein generating the code comprises randomly selecting the plurality of code symbols from a code symbol pool; a transmitter, configured for generating a signal from the code, and further configured for transmitting the signal; a receiver, configured for receiving an echo of the signal; and a correlator, configured for correlating each code symbol of the code of the received echo of the signal to a code symbol of the code of the signal via a corresponding symbol template associated with the correlator, wherein a first symbol template corresponds to a first code symbol of the plurality of code symbols, and wherein a further symbol template corresponds to a subsequently transmitted second code symbol of the plurality of code symbols, wherein the radar system is further configured for synchronizing the corresponding symbol template to the code of the signal.",
+  "patent_id": "US12379457-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 7/02"
+    ],
+    "all": [
+      "G01S 7/02"
+    ],
+    "source": "converted"
+  }
+}

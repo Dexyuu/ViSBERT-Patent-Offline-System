@@ -1,0 +1,26 @@
+{
+  "title": "Method and system for seamless biometric system self-enrollment",
+  "abstract": "Disclosed herein are methods, apparatus, and systems for seamless biometric self-enrollment. The method including automatically: capturing, by a biometric capture device, biometric modality data for a user in response to a presentation of a user trusted credential for logical access or access to an object during an enrollment process, determining, by an enrollment system, whether biometric modalities for the user are stable, generating a biometric modality template for each unstable biometric modality, replacing a matched stored biometric modality template with the biometric modality template when the biometric modality template is qualitatively better than the matched stored biometric modality template, performing stability accounting when the matched stored biometric modality template is at least qualitatively equal to the biometric modality template, and initiating access processing when at least all biometric modalities are stable and verified.",
+  "claims": "1. A method for seamless biometric self-enrollment, the method comprising: capturing, by a biometric capture device, biometric modality data for a user in response to a presentation of a user trusted credential for access to a resource during an enrollment process, wherein the user trusted credential enables access to the resource while enrolling the user into the enrollment process which uses the captured biometric modality data to generate a biometric modality that the user can use to access the resource when the biometric modality is stable; determining, by an enrollment system during the enrollment process, whether one or more biometric modalities for the user are stable; generating, during the enrollment process, a biometric modality template from the captured biometric modality data for each unstable biometric modality; replacing, during the enrollment process, a matched stored biometric modality template with the biometric modality template when a first quality score of the biometric modality template is greater than a second quality score of the matched stored biometric modality template, wherein the first quality score and the second quality score are based on quality metrics associated with at least one biometric feature of the biometric modality; performing, during the enrollment process, at least one stability process when the second quality score is greater than or equal to the first quality score; repeating the capturing, the determining, the generating, the replacing, and the performing when the user attempts to access the resource by presenting the user trusted credential at each subsequent encounter during the enrollment process, wherein the enrollment process continues until a termination event occurs; and granting access with a biometric modality independent of the user trusted credential when a matched stored biometric modality template for the biometric modality is stable and verified, wherein stability indicates that a matched stored biometric modality template has not been replaced by a new biometric modality template for a defined number of access attempts by the user and the at least one stability process is a process for determining the stability of the matched stored biometric modality template.",
+  "patent_id": "US12380188-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/32",
+      "G06F 16/50",
+      "G06T 7/0002",
+      "G06V 40/70",
+      "G06T 2207/30168",
+      "G06T 2207/30201"
+    ],
+    "all": [
+      "G06F 21/32",
+      "G06F 16/50",
+      "G06T 7/0002",
+      "G06V 40/70",
+      "G06T 2207/30168",
+      "G06T 2207/30201"
+    ],
+    "source": "converted"
+  }
+}

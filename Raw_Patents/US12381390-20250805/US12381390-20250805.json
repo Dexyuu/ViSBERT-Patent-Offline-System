@@ -1,0 +1,22 @@
+{
+  "title": "Single-phase-to-ground protection method and system for active power distribution network",
+  "abstract": "Disclosed are a single-phase-to-ground protection method and system for an active power distribution network. The method includes: acquiring current and voltage data of a line in real time by means of a power distribution terminal, and calculating active power of the line; recording and storing the active power of the line to form an active power curve; performing data statistics according to the active power curve; calculating a direction compensation coefficient and a zero-sequence current compensation coefficient on the basis of statistical data; and detecting whether a single-phase-to-ground fault occurs to the line, where when the single-phase-to-ground fault occurs to the line, a transient-state zero-sequence direction and a steady-state zero-sequence direction are compensated, or a zero-sequence current is compensated, it is determined that the single-phase-to-ground fault occurs to the line when compensation results satisfy action conditions, and tripping is performed or an alarm is given.",
+  "claims": "1. A single-phase-to-ground protection method for an active power distribution network, comprising the following steps: acquiring a three-phase voltage, a three-phase current, a zero-sequence voltage and a zero-sequence current of a line in real time from a power distribution terminal, and calculating active power P of the line; recording and storing the active power of the line at a fixed time interval T smp to form an active power curve P i ; calculating statistical data according to the active power curve, wherein the statistical data comprise average daily active power, average night active power, all-day positive active time, all-day reverse active time, night positive active time and night reverse active time; calculating a single-phase-to-ground protection action direction compensation coefficient D p and a zero-sequence current compensation coefficient k i0 on the basis of the statistical data; and detecting whether a single-phase-to-ground fault occurs to the line, wherein when the single-phase-to-ground fault occurs to the line, a transient-state zero-sequence direction and a steady-state zero-sequence direction are compensated by using the single-phase-to-ground protection action direction compensation coefficient D p , or the zero-sequence current is compensated by using the zero-sequence current compensation coefficient k i0 , it is determined that the single-phase-to-ground fault occurs to the line when compensation results satisfy action conditions of the single-phase-to-ground protection, and the power distribution terminal trips or gives an alarm after delay.",
+  "patent_id": "US12381390-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02J 3/00125",
+      "G01R 31/52",
+      "G01R 31/58",
+      "H02J 3/0012"
+    ],
+    "all": [
+      "H02J 3/00125",
+      "G01R 31/52",
+      "G01R 31/58",
+      "H02J 3/0012"
+    ],
+    "source": "converted"
+  }
+}

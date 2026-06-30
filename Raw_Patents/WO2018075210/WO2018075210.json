@@ -1,0 +1,46 @@
+{
+  "application_id": "WO2018075210",
+  "application_id_fs": "WO2018075210",
+  "title": "Search engine using name clustering",
+  "abstract": "This disclosure relates to systems and methods for searching names using name clusters. A method includes receiving names, generating a plurality of phonetic cluster identifiers, forming a plurality of name clusters by grouping the names having an equivalent cluster id, removing names from the respective name clusters that differ from a root name by more than either a particular spelling of a phonetic sound or a specific member's reformulation according to a reformulation dictionary, and suggesting one or more names by generating a phonetic cluster id for the received name using the database of phonetic associations and returning names found in the name cluster that matches the phonetic cluster id.",
+  "claims": "Claims is claimed is: A system comprising: a machine-readable medium having instructions stored thereon, which, when executed by a processor, causes the processor to perform operations comprising: receiving a plurality of names; generating a plurality of phonetic cluster identifiers according to a phonetic spelling of the names using a database of phonetic associations and not including vowel sounds; forming a plurality of name clusters by grouping the names having an equivalent cluster id into a corresponding name cluster of the plurality of name clusters; removing names from respective name clusters that differ from a root name by more than either particular spelling of a phonetic sound or a specific member's reformulation according to a reformulation dictionary, and suggesting, in response to receiving a name from a member of an online social networking system, one or more names by generating a phonetic cluster id for the received name and returning names found in the name cluster that matches the phonetic cluster id. The system of claim 1, wherein the operations further comprise generating the reformulation dictionary and the database of phonetic associations using name spelling reformulations from members of the online social networking service. 3. The system of claim 2, wherein the operations further comprise removing an entry in the database of phonetic associations in response to the entry being determined from reformulations above a first threshold percentage or below a second threshold percentage. 4. The system of claim 1, wherein the name clusters are partitioned according to a source language for the names in the name clusters. 5. The system of claim 1 , wherein the name includes multiple terms, the first term matching the name cluster according to the phonetic cluster id and additional terms being stored in additional nodes linked to the first term. 6. The system of claim 1, wherein the indicating to keep one or more names in each name cluster is further based on the name being more than a threshold number of characters long and a character difference between the name and a root name for the respective name cluster being less than a threshold percentage of the threshold number of characters. 7. The system of claim 1, wherein the name clusters are structured to include a root name with other names in the respective name clusters linking in a tree structure from the root name. 8. A method comprising: receiving a plurality of names; generating a plurality of phonetic cluster identifiers according to a phonetic spelling of the names using a database of phonetic associations and not including vowel sounds; forming a plurality of name clusters by grouping the names having an equivalent cluster id; \n\n removing names from the respective name clusters that differ from a root name by more than either particular spelling of a phonetic sound or a specific member's reformulation according to a reformulation dictionary; and suggesting, in response to receiving a name from a member of an online social networking system, one or more names by generating a phonetic cluster id for the received name using the database of phonetic associations and returning names found in the name cluster that match the phonetic cluster id, 9. The method of claim 8, further comprising generating the reformulation dictionary and a database of phonetic associations using name spelling reformulations from members interactions with an online social networking service. 10. The method of claim 9, further comprising removing an entry in the database of phonetic associations in response to the entry being generated from reformulations above a first threshold percentage or being below a second threshold percentage. 11. The method of claim 8, wherein the name clusters are partitioned according to a source language for the names in the name clusters. 12. The method of claim 8, wherein the name includes multiple terms, the first term matching the name cluster according to the phonetic cluster id and additional terms being stored in additional nodes linked to the first term. 13. The method of claim 8, wherein the indicating to keep one or more names in each name cluster is further based on the name being more than a threshold number of characters long and a character difference between the name and a root name for the respective name cluster being less than a threshold percentage of the threshold number of characters. The method of claim 8, wherein the name clusters are structured to include a root name with other names in the respective name clusters linking in a tree structure from the root name. A machine-readable hardware medium having instructions stored thereon, which, when executed by a processor, cause the processor to perform: receiving a plurality of names; generating a plurality of phonetic cluster identifiers according to a phonetic spelling of the names using a database of phonetic associations and not including vowel sounds; forming a plurality of name clusters by grouping the names having an equivalent cluster id; removing names from the respective name clusters that differ from a root name by more than either particular spelling of a phonetic sound or a specific member's reformulation according to a reformulation dictionary; and suggesting, in response to receiving a name from a member of an online social networking system, one or more names by generating a phonetic cluster id for the received name using the database of phonetic associations and returning names found in the name cluster that matches the phonetic cluster id. The machine-readable hardware medium of claim 15, wherein the instructions further cause the processor to perform generating the reformulation dictionary and a database of phonetic associations using name spelling reformulations from members' interactions with an online social networking service. 17. The machine-readable hardware medium of claim 16, wherein the instructions further cause the processor to perform removing an entry in the database of phonetic associations in response to the entry having reformulations above an upper threshold percentage or being below a lower threshold percentage. 18. The machine-readable hardware medium of claim 15, wherein the name includes multiple terms, the first term matching the name cluster according to the phonetic cluster id and additional terms being stored in additional nodes linked to the first term. 19. The machine-readable hardware medium of claim 15, wherein the indicating to keep one or more names in each name cluster is further based on the name being more than a threshold number of characters long and a character difference between the name and a root name for the respective name cluster being less than a threshold percentage of the threshold number of characters. 20. The machine-readable hardware medium of claim 15, wherein the name clusters are partitioned according to a source language for the names in the name clusters.",
+  "classifications": {
+    "ipc": [
+      "G06F 16/00",
+      "G06F 16/90",
+      "G06F 16/95",
+      "G06F 16/953",
+      "G06F 16/9535",
+      "G06F 16/30",
+      "G06F 16/35",
+      "G06F 16/903",
+      "G06F 16/9032",
+      "G06F 16/9038",
+      "G06F 40/00",
+      "G06F 40/20",
+      "G06F 40/237",
+      "G06F 40/242",
+      "G06F 40/279"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 16/00",
+      "G06F 16/90",
+      "G06F 16/95",
+      "G06F 16/953",
+      "G06F 16/9535",
+      "G06F 16/30",
+      "G06F 16/35",
+      "G06F 16/903",
+      "G06F 16/9032",
+      "G06F 16/9038",
+      "G06F 40/00",
+      "G06F 40/20",
+      "G06F 40/237",
+      "G06F 40/242",
+      "G06F 40/279"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018075210"
+}

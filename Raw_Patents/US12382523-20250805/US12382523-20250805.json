@@ -1,0 +1,24 @@
+{
+  "title": "Control message for dynamic radio link control (RLC) entity selection",
+  "abstract": "This disclosure provides systems, methods and apparatuses for using a media access control (MAC) control element (CE) for dynamic RLC entities selection. In one aspect, a base station (BS) may generate and transmit the control message to a user equipment (UE) to identify active radio link control (RLC) entities, a primary RLC entity, or other parameters relating to packet data convergence protocol (PDCP) duplication-based communication. In this case, the UE may use the control message to select an RLC entity and may transmit protocol data units (PDUs) to the BS using a data radio bearer (DRB) and the selected RLC entity.",
+  "claims": "1. A method of wireless communication performed at a user equipment (UE), comprising: obtaining, from a network node, a control message, associated with packet data convergence protocol (PDCP) duplication-based communication via one or more data radio bearers (DRBs), the control message including: a first field, comprising a five-bit identifier, identifying the one or more DRBs, and a second field, after the first field, comprising one or more additional bits corresponding to a plurality of non-primary radio link control (RLC) entities associated with the one or more DRBs; and communicating, after receiving the control message, with the network node using at least one non-primary RLC entity of the plurality of non-primary RLC entities.",
+  "patent_id": "US12382523-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/15",
+      "H04L 1/1614",
+      "H04L 69/14",
+      "H04W 76/11",
+      "H04W 76/12"
+    ],
+    "all": [
+      "H04W 76/15",
+      "H04L 1/1614",
+      "H04L 69/14",
+      "H04W 76/11",
+      "H04W 76/12"
+    ],
+    "source": "converted"
+  }
+}

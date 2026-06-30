@@ -1,0 +1,24 @@
+{
+  "title": "Video coding method and device using motion compensation of decoder side",
+  "abstract": "A video coding method and device, according to the present invention, determine whether motion compensation is performed by sub-block unit, determine a search area for motion compensation of a current block, calculate a plurality of SAD candidates with respect to the search area, derive delta motion information of the current block on the basis of the plurality of SAD candidates, and can compensate for motion information of the current block by using pre-generated motion information and the delta motion information of the current block.",
+  "claims": "1. A method of decoding an image, comprising: determining, based on a pre-defined condition, whether to perform motion modification on a current block in the image; determining a search region for the motion modification of the current block; deriving delta motion information of the current block based on a plurality of SAD candidates for the search region; modifying initial motion information of the current block by using the delta motion information; and generating a prediction block of the current block based on the modified motion information, wherein the motion modification of the current block is performed only when a picture order count (POC) difference between a current picture including the current block and an L0 reference picture is the same as a POC difference between the current picture and an L1 reference picture, wherein the L0 reference picture and the L1 reference picture have different temporal directions, wherein, in response to a case where an initial SAD is less than a specific value, a search for the plurality of SAD candidates is not performed even though it is determined that the motion modification is performed on the current block, wherein the initial SAD is derived based on reference blocks specified by the initial motion information of the current block, and wherein the specific value is representative of a product of a width and height of the current block.",
+  "patent_id": "US12382073-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/44",
+      "H04N 19/105",
+      "H04N 19/132",
+      "H04N 19/176",
+      "H04N 19/513"
+    ],
+    "all": [
+      "H04N 19/44",
+      "H04N 19/105",
+      "H04N 19/132",
+      "H04N 19/176",
+      "H04N 19/513"
+    ],
+    "source": "converted"
+  }
+}

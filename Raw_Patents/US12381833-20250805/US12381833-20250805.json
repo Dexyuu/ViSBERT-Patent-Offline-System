@@ -1,0 +1,22 @@
+{
+  "title": "Distributed fair allocation of shared resources to constituents of a cluster",
+  "abstract": "Techniques are disclosed for allocating shared resources to nodes in a distributed computing network system. Nodes request a lock for each instance of a computing resource (e.g., a virtual IP address associated with a service provided by the distributed computing network system) from a distributed lock manager. The distributed lock manager maintains a queue of requests for each instance of the shared resource. Upon receiving a lock from the distributed lock manager, the receiving node performs a fairness allocation protocol to determine whether to accept the lock. If so determined, the shared computing resources associated with the lock is configured.",
+  "claims": "1. A method, comprising: receiving, at a first node of a cluster, a lock associated with a virtual internet protocol address as a result of a second node of the cluster going offline; determining a decrease in a membership of the cluster; waiting a specified period of time to preserve the lock associated with the virtual internet protocol address on behalf of the second node if the second node returns to the cluster before deciding whether to retain the lock associated with the virtual internet protocol address; determining that the second node of the cluster has returned to the cluster after the specified period of time has lapsed; determining that accepting the lock associated with the virtual internet protocol address would exceed a limit number of virtual internet protocol addresses for the first node associated with a fairness allocation protocol; and releasing, based on determining that accepting the lock would exceed the limit number of virtual internet protocol addresses, the lock associated with the virtual internet protocol address.",
+  "patent_id": "US12381833-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 47/827",
+      "H04L 9/40",
+      "H04L 47/821",
+      "H04L 67/1001"
+    ],
+    "all": [
+      "H04L 47/827",
+      "H04L 9/40",
+      "H04L 47/821",
+      "H04L 67/1001"
+    ],
+    "source": "converted"
+  }
+}

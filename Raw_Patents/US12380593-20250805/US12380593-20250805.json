@@ -1,0 +1,32 @@
+{
+  "title": "Automatic image cropping using a reference feature",
+  "abstract": "In some implementations, a device may receive the image of the document, the image of the document depicting the reference feature, and the reference feature being associated with one or more location parameters for a document type associated with the document. The device may detect a location of the reference feature as depicted in the image, the location being defined by bounds of the reference feature as depicted in the image. The device may detect a border of the document as depicted in the image based on identifying one or more edges of the document based on the bounds of the reference feature and the one or more location parameters. The device may modify the image of the document based on the border of the document to obtain a cropped image. The device may transmit, to a server device, the cropped image.",
+  "claims": "1. A system for automatic image cropping using a reference feature, the system comprising: one or more memories; and one or more processors, communicatively coupled to the one or more memories, configured to: obtain an image of a document, the image of the document depicting the reference feature, and the reference feature being associated with a defined location, size, and orientation for a document type associated with the document; obtain, via an output of an object detection model, an indication of a location of the reference feature as depicted in the image, the indication of the location including a bounding box; detect that the reference feature as depicted in the image is obfuscated based on comparing the bounding box to the defined location, size, and orientation; perform, based on detecting that the reference feature as depicted in the image is obfuscated, an action to modify the bounding box; detect an outline of the document as depicted in the image based on identifying one or more edges of the document by expanding the bounding box, as modified, based on the defined location, size, and orientation of the reference feature; crop the image of the document based on the outline of the document to obtain a cropped image; and provide, to a server device, the cropped image.",
+  "patent_id": "US12380593-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/70",
+      "G06T 7/13",
+      "G06T 7/62",
+      "G06V 10/242",
+      "G06V 10/25",
+      "G06V 10/267",
+      "G06V 10/761",
+      "G06T 2207/20132",
+      "G06T 2207/30176"
+    ],
+    "all": [
+      "G06T 7/70",
+      "G06T 7/13",
+      "G06T 7/62",
+      "G06V 10/242",
+      "G06V 10/25",
+      "G06V 10/267",
+      "G06V 10/761",
+      "G06T 2207/20132",
+      "G06T 2207/30176"
+    ],
+    "source": "converted"
+  }
+}

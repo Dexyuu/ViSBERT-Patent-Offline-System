@@ -1,0 +1,20 @@
+{
+  "title": "Predictive maintenance of dynamic leaf guide based on deep learning",
+  "abstract": "Systems and methods for detecting and diagnosing faults in a radiotherapy system, such as a fault related to a dynamic leaf guide (DLG), are discussed. An exemplary predictive maintenance system includes a processor configured to receive machine data indicative of configuration and operation of a DLG in a target radiotherapy machine, apply a trained deep learning model to the received machine data, and detect and diagnose a DLG fault. The predictive maintenance system can train the deep learning model using data sequences constructed from the received machine data of the one more normal DLGs and the one or more faulty DLGs. Diagnosis of the DLG fault in the target radiotherapy machine includes classifying the DLG faults into different fault types or different fault severities.",
+  "claims": "1. A computer-implemented method for detecting and diagnosing a fault in a radiotherapy machine, the method comprising: receiving machine data indicative of configuration and operation of a component of a particular type in a target radiotherapy machine; applying a trained deep learning model to the received machine data of the component in the target radiotherapy machine, the trained deep learning model being trained to establish a relationship between machine data collected from normal components and faulty components of the particular type in respective radiotherapy machines, and fault information, including fault presence or absence, and fault types, of the normal components and the faulty components; based on applying the trained deep learning model to the received machine data of the component in the target radiotherapy machine, detecting and diagnosing a fault associated with the component in the target radiotherapy machine, wherein diagnosing the fault includes, in response to a detection of fault presence, classifying the detected fault into one of a plurality of pre-determined distinct fault types associated with the component; and alerting a user of the detected and diagnosed fault and initiating predictive maintenance of the target radiotherapy machine in accordance with the detected and diagnosed fault.",
+  "patent_id": "US12377290-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61N 5/1075",
+      "A61N 5/1045",
+      "G06N 3/08"
+    ],
+    "all": [
+      "A61N 5/1075",
+      "A61N 5/1045",
+      "G06N 3/08"
+    ],
+    "source": "converted"
+  }
+}

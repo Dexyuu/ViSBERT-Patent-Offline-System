@@ -1,0 +1,22 @@
+{
+  "title": "Method and apparatus for processing intra prediction mode",
+  "abstract": "A method for processing an intra prediction mode includes: determining whether an intra prediction mode of each neighboring block in multiple neighboring blocks of a current block is applicable to the current block; and obtaining multiple mapped intra prediction modes of the current block according to a result of the determining, if it is determined that an intra prediction mode of a neighboring block is applicable to the current block, setting the intra prediction mode of the neighboring block as a mapped intra prediction mode of the current block, and if it is determined that the intra prediction mode of the neighboring block is not applicable to the current block, setting a specific intra prediction mode as the mapped intra prediction mode of the current block.",
+  "claims": "1. A method for processing an intra prediction mode, comprising: determining, by an apparatus, whether an intra prediction mode of a first neighboring block is the same as an intra prediction mode of a second neighboring block, wherein the first neighboring block is on a left side of a current block and the second neighboring block is on an upper side of the current block, wherein: in case that the intra prediction mode of the first neighboring block is the same as the intra prediction mode of the second neighboring block, and the intra prediction mode of the first neighboring block is direct current (DC) prediction mode or planar prediction mode, most probable modes (MPMs) include DC prediction mode and planar prediction mode; or in case that the intra prediction mode of the first neighboring block is the same as the intra prediction mode of the second neighboring block, and the intra prediction mode of the first neighboring block is not DC prediction mode and planar prediction mode, MPMs include directional intra prediction modes; and performing intra prediction for the current block based on an intra prediction mode of the MPMs.",
+  "patent_id": "US12382094-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/593",
+      "H04N 19/11",
+      "H04N 19/176",
+      "H04N 19/196"
+    ],
+    "all": [
+      "H04N 19/593",
+      "H04N 19/11",
+      "H04N 19/176",
+      "H04N 19/196"
+    ],
+    "source": "converted"
+  }
+}

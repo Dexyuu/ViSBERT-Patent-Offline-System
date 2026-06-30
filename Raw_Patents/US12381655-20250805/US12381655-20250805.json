@@ -1,0 +1,20 @@
+{
+  "title": "Method for determining hybrid automatic repeat request acknowledgement information",
+  "abstract": "A method for determining a hybrid automatic repeat request acknowledgement (HARQ-ACK) codebook, performed by a user equipment, including: determining an index parameter according to a number of at least one piece of downlink control information (DCI), in response to a network device scheduling the at least one piece of DCI, and each piece of DCI in the at least one piece of DCI scheduling at least one physical downlink shared channel (PDSCH); and determining the HARQ-ACK codebook corresponding to the at least one piece of DCI according to the index parameter.",
+  "claims": "1. A method for determining a hybrid automatic repeat request acknowledgement (HARQ-ACK) codebook, performed by a user equipment, comprising: determining an index parameter according to a number of at least one piece of downlink control information (DCI), in response to a network device scheduling the at least one piece of DCI, and each piece of DCI in the at least one piece of DCI scheduling at least one physical downlink shared channel (PDSCH); and determining the HARQ-ACK codebook corresponding to the at least one piece of DCI according to the index parameter, comprising: determining the HARQ-ACK codebook corresponding to the at least one piece of DCI according to the index parameter and a value that is less than a maximum number of PDSCHs schedulable by a single piece of DCI, comprising: determining that a number of HARQ-ACKs corresponding to each piece of DCI in the HARQ-ACK codebook corresponding to the at least one piece of DCI is the value.",
+  "patent_id": "US12381655-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 1/1607",
+      "H04L 1/1812",
+      "H04L 1/1861"
+    ],
+    "all": [
+      "H04L 1/1607",
+      "H04L 1/1812",
+      "H04L 1/1861"
+    ],
+    "source": "converted"
+  }
+}

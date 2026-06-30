@@ -1,0 +1,40 @@
+{
+  "title": "Method and apparatus for enhancing coverage of machine type communication (MTC) devices",
+  "abstract": "A method and apparatus are described for a low cost machine-type-communication (LC-MTC) wireless transmit/receive unit (WTRU) to enhance coverage. An example method for physical broadcast channel (PBCH) enhancement includes receiving system information on an enhanced PBCH (ePBCH). The ePBCH is located in a set of radio frames which is a subset of available radio frames, where the subset includes fewer than all the available radio frames. The ePBCH is received in at least one radio frame of the set of radio frames. An example method for physical random access channel (PRACH) enhancement includes receiving configuration of legacy PRACH resources and enhanced PRACH (ePRACH) resources. The WTRU selects one of legacy PRACH resources or ePRACH resources based on a coverage capability. Another example method for PRACH enhancement includes receiving configuration of ePRACH resources. The ePRACH resources include multiple ePRACH resource types, each ePRACH resource type being associated with a coverage capability.",
+  "claims": "1. A method implemented by a wireless transmit receive unit (WTRU), the method comprising: receiving control information, wherein the control information indicates one or more physical shared channel resources to be used for a physical shared channel transmission; receiving the physical shared channel transmission, wherein the physical shared channel transmission is received using the one or more physical shared channel resources; and transmitting ACK or NACK (A/N) feedback for the physical shared channel transmission, wherein the A/N feedback is sent using a set of A/N resources that is determined based on a function of an index of the one or more physical shared channel resources in which the physical shared channel transmission was received, wherein the set of A/N resources is determined based on a beginning resource of the one or more physical shared channel resources.",
+  "patent_id": "US12382475-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/30",
+      "H04B 17/318",
+      "H04L 1/1819",
+      "H04L 1/189",
+      "H04W 4/029",
+      "H04W 4/70",
+      "H04W 24/02",
+      "H04W 74/006",
+      "H04W 4/027",
+      "H04W 4/06",
+      "H04W 48/12",
+      "H04W 74/0833",
+      "Y02D 30/70"
+    ],
+    "all": [
+      "H04W 72/30",
+      "H04B 17/318",
+      "H04L 1/1819",
+      "H04L 1/189",
+      "H04W 4/029",
+      "H04W 4/70",
+      "H04W 24/02",
+      "H04W 74/006",
+      "H04W 4/027",
+      "H04W 4/06",
+      "H04W 48/12",
+      "H04W 74/0833",
+      "Y02D 30/70"
+    ],
+    "source": "converted"
+  }
+}

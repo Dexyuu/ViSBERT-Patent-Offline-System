@@ -1,0 +1,16 @@
+{
+  "title": "Data pipeline reconfiguration",
+  "abstract": "Techniques for reconfiguring a data pipeline in a computing environment are described. In operation, a request for modifying a transformation standard of a first data pipeline is received, where the first data pipeline exists between a data ingestion system and a first database instance of a computing environment, and the first data pipeline transforms the data received from the data ingestion system in accordance with the transformation standard. A second data pipeline is then established in parallel to the first data pipeline, the second data pipeline is established between the data ingestion system and the first database instance in response to the request for modifying the transformation standard, and the second data pipeline processes the data received from the data ingestion system in accordance with a modified transformation standard. The second data pipeline is then initiated to transform the data received from the data ingestion system. The first data pipeline is then disconnected from the data ingestion system and the first database instance.",
+  "claims": "1. A method implemented at a Computing Environment Management System (CEMS), the method comprising: receiving, by the CEMS, a request for modifying a transformation standard of a first data pipeline, the first data pipeline existing between a data ingestion system and a first database instance of a computing environment, and the first data pipeline transforming data received from the data ingestion system in accordance with the transformation standard, wherein the transformation standard is tenant-specific; establishing, by the CEMS, a second data pipeline in parallel to the first data pipeline, the second data pipeline being established between the data ingestion system and the first database instance in response to the request for modifying the transformation standard, and the second data pipeline processing the data received from the data ingestion system in accordance with a modified transformation standard; initiating, by the CEMS, the second data pipeline to transform the data received from the data ingestion system, wherein said initiating the second data pipeline comprises transmitting the data transformed by each of the first data pipeline and the second data pipeline for storage in the first database instance; modifying, by the CEMS, a first Application Programming Interface (API) to retrieve data transformed by both the first data pipeline and the second data pipeline upon receiving a request for providing the transformed data; and disconnecting, by the CEMS, the first data pipeline from the data ingestion system and the first database instance.",
+  "patent_id": "US12380123-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/252"
+    ],
+    "all": [
+      "G06F 16/252"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Integrated device and system for remote medications management",
+  "abstract": "The presently disclosed device includes a plurality of vials each bearing a unique identifier and in discrete locations in the device. An alignment assembly aligns one of the discrete locations with an access point for dispensing one of the vials. Computer executable instructions select a vial to be dispensed and store inventory information of the vials. The inventory information associates the unique identifiers with a status for each the plurality of vials indicating whether a vial is: loaded, dispensed, returned, or remaining undispensed in the device. The computer executable instructions also deactivate dispensing of the vials from the device based on at least one signal received from at least one environmental sensor configured to detect one of: location, temperature, humidity, vibration, shock, blood alcohol content (BAC), and light intrusion. A deactivation assembly deactivates dispensing of the vials based on the instructions.",
+  "claims": "1. A device for remote medications management comprising: a plurality of vials each bearing a unique identifier and in discrete locations in the device; an alignment assembly for aligning one of the discrete locations with an access point for dispensing one of the plurality of vials; a computer readable memory comprising executable instructions for: selecting a vial of the plurality of vials to be dispensed; storing inventory information of the plurality of vials, wherein the inventory information associates the unique identifiers with a status for each the plurality of vials, the status selected from among the group indicating whether a vial is: loaded, dispensed, returned, or remaining undispensed in the device; receiving at least one signal from at least one of: an environmental sensor configured to detect at least one of: location, temperature, humidity, vibration, shock, and light intrusion; and a user-wearable physiological monitoring device in communication with the remote medications management device that is configured to monitor at least one of: a blood alcohol content (BAC), a heart rate, a blood pressure (BP), and an oxygenation state (pO2), and; determining, based on the at least one signal, whether a trigger condition for deactivation is detected, wherein the trigger condition is a physiological indicator of distress including at least one of: the BAC above a threshold level, the heart rate above a threshold level, the BP above a threshold level, and the pO2 below a threshold level; and deactivating dispensing of the vials from the device upon detecting the trigger condition; a deactivation assembly for deactivating dispensing of the vials based on the instructions stored in the computer-readable memory; and a communications subsystem operatively coupled to the computer-readable memory and configured to transmit an alert or notification to a remote recipient upon detecting the trigger condition.",
+  "patent_id": "US12377025-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61J 7/0076",
+      "G07F 17/0092",
+      "G16H 20/13"
+    ],
+    "all": [
+      "A61J 7/0076",
+      "G07F 17/0092",
+      "G16H 20/13"
+    ],
+    "source": "converted"
+  }
+}

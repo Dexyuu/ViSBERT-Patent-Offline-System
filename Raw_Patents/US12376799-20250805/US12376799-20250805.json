@@ -1,0 +1,18 @@
+{
+  "title": "Signal-to-noise ratio targeting",
+  "abstract": "In an embodiment, a method (100) is described. The method comprises receiving (102) data corresponding to an ambient-corrected image of a subject illuminated by an illumination unit (206) providing temporally modulated illumination with a modulation frequency that is higher than a frame acquisition rate used by an imaging device (204) to obtain a set of images having a different spatial intensity modulation pattern in each image. The ambient-corrected image is constructed from the obtained set of images. The method (100) further comprises determining (104) a signal-to-noise ratio, SNR, of at least a portion of the ambient-corrected image. In response to determining that the SNR is below a target SNR, the method causes (106) an indication of an illumination parameter to be sent to the illumination unit to increase an amplitude modulation depth of the temporally modulated illumination used to illuminate the subject while the imaging device acquires a subsequent set of images for constructing a subsequent ambient-corrected image.",
+  "claims": "1. A computer-implemented method comprising: receiving data corresponding to an ambient-corrected image of a subject illuminated by an illumination unit providing temporally modulated illumination with a modulation frequency that is higher than a frame acquisition rate used by an imaging device to obtain a set of images having a different spatial intensity modulation pattern in each image due to the temporally modulated illumination and the imaging device operating in a rolling shutter mode, wherein pixel intensity information from the obtained set of images is used to construct the ambient-corrected image by determining, from the pixel intensity information, pixel intensity registered due to ambient lighting and the pixel intensity registered due to the temporally modulated illumination and constructing the ambient-corrected image based on the pixel intensity registered due to the temporally modulated illumination in the obtained set of images; determining a signal-to-noise ratio, SNR, of at least a portion of the ambient-corrected image; and in response to determining that the SNR is below a target SNR, causing an indication of an illumination parameter to be sent to the illumination unit to increase an amplitude modulation depth of the temporally modulated illumination used to illuminate the subject while the imaging device acquires a subsequent set of images for constructing a subsequent ambient-corrected image with increased SNR for at least a portion of the subsequent ambient-corrected image.",
+  "patent_id": "US12376799-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 5/7203",
+      "A61B 2560/0247"
+    ],
+    "all": [
+      "A61B 5/7203",
+      "A61B 2560/0247"
+    ],
+    "source": "converted"
+  }
+}

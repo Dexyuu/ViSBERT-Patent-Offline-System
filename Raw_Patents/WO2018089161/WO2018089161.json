@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2018089161",
+  "application_id_fs": "WO2018089161",
+  "title": "Processing chamber hardware fault detection using spectral radio frequency analysis",
+  "abstract": "A method of assigning faults to a processing chamber is described. Some embodiments include applying a radio frequency (RF) signal to a processing chamber to stimulate resonance in the chamber, measuring resonances of the applied RF signal in the chamber, extracting a fingerprint from the measured resonances, comparing the extracted fingerprint to a library of fingerprints, assigning a similarity index to combinations of the extracted fingerprint with at least one fingerprint in the fingerprint library, comparing each similarity index to a threshold, and if the similarity is greater than a threshold, then assigning a fault to the processing chamber using the library fingerprint.",
+  "claims": "Claims CLAIMS What is claimed is: 1. A method of assigning faults to a processing chamber comprising: applying a radio frequency (RF) signal to a processing chamber to stimulate resonance in the chamber; measuring resonances of the applied RF signal in the chamber; extracting a fingerprint from the measured resonances; comparing the extracted fingerprint to a library of fingerprints, each library fingerprint being associated with a processing chamber fault; assigning a similarity index to combinations of the extracted fingerprint with at least one library fingerprint in the fingerprint library to form plurality of similarity indices; comparing each similarity index to a threshold; if the similarity index is greater than a threshold, then assigning a fault to the processing chamber using the associated library fingerprint. 2. The method of Claim 1, wherein assigning a similarity index comprises assigning a similarity index for a plurality of library fingerprints and wherein comparing comprises comparing each of the similarity indexes to the threshold, the method further comprising ranking the library fingerprints based on a value of the similarity index. 3. The method of Claim 2, wherein assigning comprises assigning a fault for each of the ranked library fingerprints, the method further comprising assigning a priority to each of the assigned faults based on the ranking. 4. The method of Claim 1, further comprising rejecting any library fingerprint for which the similarity index is below the threshold. 5. The method of Claim 1, wherein the library of fingerprints is collected using controlled experiments applied to different chambers with different faults. 6. The method of Claim 1, further comprising establishing a threshold for a library fingerprint for a single processing chamber fault configuration by: \n\n collecting fingerprints for a single fault configuration of multiple processing chambers and multiple measurements; calculating similarity indices for different pairs of the collected fingerprints for the same fault configuration; and selecting the smallest value of the calculated similarity index as the threshold for the fault configuration. 7. The method of Claim 1, wherein the processing chamber faults comprise at least one of missing hardware components, dimensions of hardware components, and worn hardware components. 8. The method of Claim 1, wherein assigning a similarity index comprises determining correlation coefficients of a measured impedance and of a measured phase and combining the correlation coefficients. 9. The method of Claim 8, wherein combining the correlation coefficients comprises summing squared values of the correlation coefficients. 10. The method of Claim 1, wherein applying an RF signal comprises applying an RF sweep signal that sweeps through a frequency band and wherein measuring comprises measuring across the frequency band. 1 1. The method of Claim 1, wherein extracting a fingerprint comprises extracting a shape and a magnitude of impedance and phase over the frequency band. 12. The method of Claim 11 , further comprising converting the shape and magnitude into a matrix of two columns and a rows for each of a plurality of frequencies in the frequency band. 13. The method of Claim 1, wherein the resonances comprise impedance resonances. 14. A system for assigning faults to a processing chamber comprising: a network analyzer to apply a radio frequency (RF) signal to a processing chamber to stimulate resonance in the chamber and to measure resonances of the applied RF signal in the chamber; and \n\n a controller to extract a fingerprint from the measured resonances, to compare the extracted fingerprint to a library of fingerprints, each library fingerprint being associated with a processing chamber fault, to assign a similarity index to combinations of the extracted fingerprint with at least one library fingerprint in the fingerprint library to form plurality of similarity indices, to compare each similarity index to a threshold, and if the similarity index is greater than a threshold, then to assign a fault to the processing chamber using the associated library fingerprint. 15. The system of Claim 14, wherein assigning a similarity index comprises determining correlation coefficients of a measured impedance and of a measured phase and combining the correlation coefficients.",
+  "classifications": {
+    "ipc": [
+      "H01J 37/00",
+      "H01J 37/32",
+      "G01R 27/00",
+      "G01R 27/02",
+      "G01R 27/04",
+      "H01L 21/00",
+      "H01L 21/02",
+      "H01L 21/0226",
+      "H01J 2237/00",
+      "H01J 2237/32",
+      "H01J 2237/33",
+      "H01J 2237/332",
+      "H01J 2237/3321",
+      "H01J 2237/334"
+    ],
+    "cpc": [],
+    "all": [
+      "H01J 37/00",
+      "H01J 37/32",
+      "G01R 27/00",
+      "G01R 27/02",
+      "G01R 27/04",
+      "H01L 21/00",
+      "H01L 21/02",
+      "H01L 21/0226",
+      "H01J 2237/00",
+      "H01J 2237/32",
+      "H01J 2237/33",
+      "H01J 2237/332",
+      "H01J 2237/3321",
+      "H01J 2237/334"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018089161"
+}

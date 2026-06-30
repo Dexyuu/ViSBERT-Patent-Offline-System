@@ -1,0 +1,34 @@
+{
+  "title": "Loading lockout system",
+  "abstract": "A loading lockout system which takes an image of a vessel, recognizes the receiving opening of the vessel, and prevents the loading of material into the vessel until it determines that the discharge footprint of the material storage device is within the receiving opening of the vessel.",
+  "claims": "1. A method for determining the position of a vessel for loading from a material storage device defining a discharge footprint, the method comprising: by one or more cameras, taking or retrieving one or more images or videos of a vessel or a portion of a vessel; sending or providing the one or more images or videos to a computer or processor-based system adapted or configured to analyze the one or more images or videos based on a training set of data and set of algorithms to recognize a receiving opening of the vessel; preventing the discharge of material from the material storage device until determining that the discharge footprint is within the receiving opening of the vessel; predefining one or more improper items that should not be within the discharge footprint during loading; determining whether any of the predefined one or more improper items are within the discharge footprint; determining when the discharge footprint is within the receiving opening of the vessel so that material will fall properly into the vessel through the receiving opening when it is discharged from the material storage device; and preventing the discharge of material from the material storage device until determining that none of the predefined one or more improper items are within the discharge footprint.",
+  "patent_id": "US12378087-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B65G 69/006",
+      "B65G 67/04",
+      "G01S 17/89",
+      "G06T 7/0008",
+      "G06T 7/62",
+      "G06V 20/52",
+      "G06V 20/64",
+      "G06T 2207/20081",
+      "G06V 2201/06",
+      "G06V 2201/08"
+    ],
+    "all": [
+      "B65G 69/006",
+      "B65G 67/04",
+      "G01S 17/89",
+      "G06T 7/0008",
+      "G06T 7/62",
+      "G06V 20/52",
+      "G06V 20/64",
+      "G06T 2207/20081",
+      "G06V 2201/06",
+      "G06V 2201/08"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Nanoservice computing and architecture",
+  "abstract": "A nanoservice architecture allows a service to include multiple functions or features along with a common skeleton code. Each of the nanoservices in a service may be configured using a common configuration file. The configuration file may include a portion that configures requirements or resources common to all nanoservices and other portions that are specific to associated nanoservices.",
+  "claims": "1. A method, comprising: deploying a service that includes a skeleton component, a first nanoservice and a second nanoservice to a node operating in an environment, wherein the skeleton component includes skeleton code common to and used during execution of the first nanoservice and the second nanoservice; instantiating the first nanoservice and the second nanoservice on the node; processing a configuration file included in the skeleton code, wherein the configuration file includes a first portion that is relevant to the first nanoservice, a second portion that is relevant to the second nanoservice, and a third portion that is relevant to both the first nanoservice and the second nanoservice; configuring the first nanoservice and the second nanoservice in accordance with the configuration file; executing the first nanoservice and the second nanoservice on the node; and after deploying the service and executing the first and second nanoservices on the node, adding a third nanoservice to the service without adding to the skeleton code of the service, wherein the skeleton code is common to and used during execution of the third nanoservice, wherein the service is configured such that each of the first nanoservice, the second nanoservice, and the third nanoservice can be removed from the service without starting another instance of the service.",
+  "patent_id": "US12379938-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/44505",
+      "G06F 9/44521"
+    ],
+    "all": [
+      "G06F 9/44505",
+      "G06F 9/44521"
+    ],
+    "source": "converted"
+  }
+}

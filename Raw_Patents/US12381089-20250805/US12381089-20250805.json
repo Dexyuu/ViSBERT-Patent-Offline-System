@@ -1,0 +1,24 @@
+{
+  "title": "Information processing system, information processing method, program, and substrate processing apparatus",
+  "abstract": "A system includes a first artificial intelligence unit that predicts a performance value by using, as an input, each of a plurality of verification datasets including combinations of the parameter types that are same as the combinations of the parameter types at the time of learning; a selection unit that selects one set of parameter types from a plurality of sets of parameter types included in the plurality of verification datasets predicts performance values of a target substrate processing apparatus obtained by changing variable parameters among the parameters including the selected set of parameter types with, as an input, a fixed parameter intrinsically determined for a target substrate processing apparatus among parameters including the selected set of parameter types, and outputs a combination of parameter values yielding a performance value, among the predicted performance values, satisfying an extraction criterion.",
+  "claims": "1. An information processing system that provides a combination of parameter values of a substrate processing apparatus, the system comprising: at least one memory storing instructions; and at least one processor that, upon executing the instructions, causes the system at least to: collecting a plurality of first learning datasets from a plurality of substrate processing polishing apparatuses, each first learning dataset comprising sets of parameters used in the processing of substrates by the one or more substrate polishing apparatuses; perform learning of the system using the plurality of first learning datasets as input values, wherein the parameters in the sets of parameters are different from each other in a combination of parameter types and output values of which are corresponding performance values of the substrate processing apparatus, wherein after the learning uses, as an input, each of a plurality of verification datasets including combinations of the parameter types that are same as the combinations of the parameter types at the time of learning, the system predicts a performance value; select one set of parameter types from a plurality of sets of parameter types included in the plurality of verification datasets, by using at least one of a value indicating a percentage of correct answer of the predicted performance value, a time required for the learning, and a time required for predicting the performance value; and perform learning using a plurality of second learning datasets as an input value, the plurality of second learning datasets comprising a set of past parameter values including the selected set of parameter types and an output value corresponding to a past performance value, wherein after the second learning, the system predicts performance values of a target substrate processing apparatus obtained by changing variable parameters among the parameters including the selected set of parameter types with, as an input, a fixed parameter intrinsically determined for a target substrate processing apparatus among parameters including the selected set of parameter types, and outputs to the target substrate processing apparatus, wherein the target substrate processing apparatus processes a wafer with a combination of parameter values, wherein the combination of parameter values yields a performance value, among the predicted performance values, satisfying an extraction criterion.",
+  "patent_id": "US12381089-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H01L 21/30625",
+      "B24B 37/005",
+      "G06F 17/15",
+      "G06N 3/08",
+      "G06N 20/00"
+    ],
+    "all": [
+      "H01L 21/30625",
+      "B24B 37/005",
+      "G06F 17/15",
+      "G06N 3/08",
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

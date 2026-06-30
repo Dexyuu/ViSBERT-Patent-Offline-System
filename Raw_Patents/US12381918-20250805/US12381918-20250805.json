@@ -1,0 +1,22 @@
+{
+  "title": "Communication related to change of application server",
+  "abstract": "One disclosure of the present specification provides a communication method related to a change of an application server performed by an SMF node. The method may comprise: a step for transmitting a notification message related to a change of a user plane path to an AF node; a step for receiving a response message from the AF node in response to the notification message; and a step for transmitting a message including information on an IP address of the changed application server to a terminal through an AMF node.",
+  "claims": "1. A method comprising: receiving, by a first network entity related to a session management, a Non Access Stratum (NAS) message including capability information that a User Equipment (UE) is able to process information related to a changed application server, from the UE; determining relocation of a User Plane Function (UPF) for a Protocol Data Unit (PDU) (Protocol Data Unit) session of the UE; transmitting, by the first network entity related to the session management, a notification message related to the relocation of the UPF, to a second network entity related to application, wherein the second network entity manages one or more application servers, and wherein, based on that the capability information is received, the notification message includes information for requesting an IP address of the changed application server when the application server is changed; receiving, by the first network entity, a response message from the second network entity, wherein the response message includes information related to the IP address of the changed application server when the second network entity succeeded in changing the application server; and transmitting, by the first network entity, a message including information related to the IP address of the changed application server, to the UE through a third network entity related to mobility management.",
+  "patent_id": "US12381918-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 65/1063",
+      "H04W 8/08",
+      "H04W 8/26",
+      "H04W 68/00"
+    ],
+    "all": [
+      "H04L 65/1063",
+      "H04W 8/08",
+      "H04W 8/26",
+      "H04W 68/00"
+    ],
+    "source": "converted"
+  }
+}

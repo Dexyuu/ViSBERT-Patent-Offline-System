@@ -1,0 +1,26 @@
+{
+  "title": "Ophthalmic device",
+  "abstract": "An ophthalmic device includes a first light source configured to output first light, a second light source configured to output second light, a first interferometer configured to acquire a first tomographic image of a first range based on first interference light, a second interferometer configured to acquire a second tomographic image of a second range based on second interference light, and a controller. The controller may be configured to perform a specific scan on a subject eye that scans the first light and the second light simultaneously in a same plane, wherein the first tomographic image and the second tomographic image are obtained by performing the specific scan, calculate an amount of distortion of the first tomographic image, correct the first tomographic image based on the amount of distortion, and correct the second tomographic image based on the amount of distortion.",
+  "claims": "1. An ophthalmic device comprising: a first light source configured to output first light with which a subject eye is irradiated; a second light source configured to output second light with which the subject eye is irradiated; a first interferometer configured to acquire a first tomographic image of a first range of the subject eye based on first interference light obtained from reflected light of the first light; a second interferometer configured to acquire a second tomographic image of a second range of the subject eye based on second interference light obtained from reflected light of the second light, the second range being different from the first range; and a controller, wherein the controller is configured to: perform a specific scan on the subject eye that scans the first light and the second light simultaneously in a same plane, wherein the first tomographic image and the second tomographic image are obtained by performing the specific scan; perform the specific scan a plurality of times on the subject eye so that the first light and the second light pass through a specific position of the subject eye; perform the respective specific scans radially at different positions in a circumferential direction with the specific position of the subject eye being a center; calculate respective incident positions and incident angles of the first light at a plurality of parts included in the first range of the subject eye in the specific scan; calculate an amount of distortion of the first tomographic image based on the respective incident positions and incident angles, and respective refractive indexes of the plurality of the parts; correct the first tomographic image based on the amount of distortion of the first tomographic image; and correct the second tomographic image based on the amount of distortion of the first tomographic image calculated based on the first light having entered the specific position.",
+  "patent_id": "US12376743-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 3/102",
+      "A61B 3/0058",
+      "A61B 3/1005",
+      "A61B 3/117",
+      "A61B 3/12",
+      "A61B 3/103"
+    ],
+    "all": [
+      "A61B 3/102",
+      "A61B 3/0058",
+      "A61B 3/1005",
+      "A61B 3/117",
+      "A61B 3/12",
+      "A61B 3/103"
+    ],
+    "source": "converted"
+  }
+}

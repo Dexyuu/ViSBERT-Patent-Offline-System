@@ -1,0 +1,16 @@
+{
+  "title": "Using a digital badge to access managed devices",
+  "abstract": "Systems and methods are described for accessing a first user device using a digital badge from a second user device. The digital badge can include information that can be used to identify and authenticate a user profile. In an example, the first and second user devices can be enrolled in a system for managing user devices. A user can select to login to the first user device using a digital badge. The first user device can enable a wireless communication protocol and broadcast a digital badge request that is recognizable by other enrolled devices. The second user device can detect the broadcast and send its digital badge to the first user device. The first user device can send an access request and the digital badge to a server. The server can verify the digital badge, authenticate the user, and notify the first user device. The first user device can then grant the user access without the user inputting any credentials.",
+  "claims": "1. A method for granting access to a secured device based on a digital badge stored by a user device of a user, the method comprising: receiving a request for the user to access the secured device, wherein the secured device is enrolled for management by a unified endpoint management (UEM) server and wherein the secured device contains a security key received from the UEM server upon enrollment; in response to receiving the request to access the secured device, updating at least one discovery setting in the secured device to enable the secured device to communicate using a wireless communication protocol; sending, by the secured device, a broadcast message encrypted by the security key using the wireless communication protocol, wherein the broadcast message is decrypted by the user device using the security key, wherein the user device is enrolled for management with the UEM server and contains the security key received from the UEM server upon enrollment; establishing a communication channel between the secured device and the user device using the wireless communication protocol and then receiving the digital badge from the user device over the communication channel; sending, from the secured device to the UEM server, an access request for granting the user access to the secured device, the access request including the digital badge; in response to the access request, receiving, from the UEM server, an indication that the digital badge has been authenticated and a security policy associated with the user, wherein the UEM server retrieves the security policy based on the digital badge; and granting the user access to the secured device based on the indication and the security policy received from the UEM server.",
+  "patent_id": "US12380195-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/35"
+    ],
+    "all": [
+      "G06F 21/35"
+    ],
+    "source": "converted"
+  }
+}

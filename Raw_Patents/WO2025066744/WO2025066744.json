@@ -1,0 +1,24 @@
+{
+  "application_id": "WO2025066744",
+  "application_id_fs": "WO2025066744",
+  "title": "Starting a non-integrity timer in localized services in mobile communications",
+  "abstract": "Techniques pertaining to starting a non-integrity timer in localized services in mobile communications are described. In one scenario, an apparatus (e.g., a user equipment (UE)) receives a reject message without integrity protection and with a specific cause value. In response to the receiving, the apparatus starts a timer T3247 with a random value uniformly drawn from a range with respect to localized services in a standalone non-public network (SNPN). In another scenario, the apparatus adds an SNPN to a list of forbidden SNPNs. Then, the apparatus starts a timer T3245 in an event that the timer T3245 is not running.",
+  "claims": "Claims ( 12 ) AÂ method,Â comprising: receiving,Â byÂ aÂ processorÂ ofÂ aÂ userÂ equipmentÂ (UE)Â ,Â aÂ rejectÂ messageÂ withoutÂ integrityÂ protectionÂ andÂ withÂ aÂ specificÂ causeÂ value;Â and starting,Â byÂ theÂ processorÂ responsiveÂ toÂ theÂ receiving,Â aÂ timerÂ T3247Â withÂ aÂ randomÂ valueÂ uniformlyÂ drawnÂ fromÂ aÂ rangeÂ withÂ respectÂ toÂ localizedÂ servicesÂ inÂ aÂ standaloneÂ non-publicÂ networkÂ (SNPN)Â . TheÂ methodÂ ofÂ claimÂ 1,Â whereinÂ theÂ rangeÂ comprisesÂ aÂ rangeÂ betweenÂ aÂ startÂ timeÂ pointÂ ofÂ aÂ nextÂ validÂ timeÂ periodÂ forÂ theÂ localizedÂ servicesÂ inÂ theÂ SNPNÂ andÂ anÂ endÂ timeÂ pointÂ ofÂ theÂ nextÂ valueÂ timeÂ periodÂ forÂ theÂ localizedÂ servicesÂ inÂ theÂ SNPN. TheÂ methodÂ ofÂ claimÂ 2,Â whereinÂ theÂ specificÂ causeÂ comprisesÂ aÂ 5 th Â GenerationÂ MobilityÂ ManagementÂ (5GMM)Â causeÂ #74. TheÂ methodÂ ofÂ claimÂ 2,Â whereinÂ theÂ specificÂ causeÂ comprisesÂ aÂ 5 th Â GenerationÂ MobilityÂ ManagementÂ (5GMM)Â causeÂ #75. TheÂ methodÂ ofÂ claimÂ 2,Â whereinÂ theÂ rangeÂ comprisesÂ theÂ rangeÂ betweenÂ aÂ startÂ timeÂ pointÂ ofÂ aÂ nextÂ validÂ timeÂ periodÂ forÂ theÂ localizedÂ servicesÂ inÂ theÂ SNPNÂ andÂ anÂ endÂ timeÂ pointÂ ofÂ theÂ nextÂ valueÂ timeÂ periodÂ forÂ theÂ localizedÂ servicesÂ inÂ theÂ SNPNÂ inÂ anÂ eventÂ thatÂ theÂ nextÂ validÂ timeÂ periodÂ isÂ noÂ longerÂ thanÂ 30Â minutes. TheÂ methodÂ ofÂ claimÂ 2,Â whereinÂ theÂ rangeÂ comprisesÂ theÂ rangeÂ betweenÂ aÂ startÂ timeÂ pointÂ ofÂ aÂ nextÂ validÂ timeÂ periodÂ forÂ theÂ localizedÂ servicesÂ inÂ theÂ SNPNÂ andÂ anÂ endÂ timeÂ pointÂ ofÂ theÂ nextÂ valueÂ timeÂ periodÂ forÂ theÂ localizedÂ servicesÂ inÂ theÂ SNPNÂ inÂ anÂ eventÂ thatÂ theÂ nextÂ validÂ timeÂ periodÂ isÂ noÂ longerÂ thanÂ 60Â minutes. TheÂ methodÂ ofÂ claimÂ 1,Â whereinÂ theÂ rejectÂ messageÂ comprisesÂ aÂ REGISTRATIONÂ REJECTÂ messageÂ orÂ aÂ SERVICEÂ REJECTÂ message. TheÂ methodÂ ofÂ claimÂ 1,Â whereinÂ theÂ SNPNÂ wasÂ selectedÂ forÂ aÂ specificÂ accessÂ typeÂ forÂ \t\t\t\t\n\t\t\t\t\nwhichÂ theÂ rejectÂ messageÂ isÂ received. AÂ method,Â comprising: adding,Â byÂ aÂ processorÂ ofÂ aÂ userÂ equipmentÂ (UE)Â ,Â aÂ standaloneÂ non-publicÂ networkÂ (SNPN)Â toÂ aÂ listÂ ofÂ forbiddenÂ SNPNs;Â and starting,Â byÂ theÂ processorÂ responsiveÂ toÂ theÂ adding,Â aÂ timerÂ T3245Â inÂ anÂ eventÂ thatÂ theÂ timerÂ T3245Â isÂ notÂ running. TheÂ methodÂ ofÂ claimÂ 9,Â whereinÂ theÂ startingÂ ofÂ theÂ timerÂ T3245Â comprisesÂ startingÂ theÂ timerÂ T3245Â withÂ aÂ randomÂ valueÂ uniformlyÂ drawnÂ fromÂ aÂ rangeÂ betweenÂ 12Â hoursÂ andÂ 24Â hoursÂ responsiveÂ toÂ thereÂ beingÂ noÂ nextÂ validÂ timeÂ periodÂ forÂ theÂ SNPN. TheÂ methodÂ ofÂ claimÂ 9,Â whereinÂ theÂ startingÂ ofÂ theÂ timerÂ T3245Â comprisesÂ startingÂ theÂ timerÂ T3245Â withÂ aÂ randomÂ valueÂ uniformlyÂ drawnÂ fromÂ aÂ rangeÂ betweenÂ aÂ startÂ timeÂ pointÂ andÂ anÂ endÂ timeÂ pointÂ ofÂ aÂ nextÂ validÂ timeÂ periodÂ forÂ localizedÂ servicesÂ inÂ theÂ SNPNÂ responsiveÂ toÂ theÂ nextÂ validÂ timeÂ periodÂ existingÂ forÂ theÂ SNPN. TheÂ methodÂ ofÂ claimÂ 9,Â whereinÂ theÂ addingÂ ofÂ theÂ SNPNÂ toÂ theÂ listÂ ofÂ forbiddenÂ SNPNsÂ comprisesÂ addingÂ theÂ SNPNÂ toÂ aÂ \"permanentlyÂ forbiddenÂ SNPNsÂ forÂ accessÂ forÂ localizedÂ servicesÂ inÂ SNPN\"Â listÂ orÂ aÂ \"temporarilyÂ forbiddenÂ SNPNsÂ forÂ accessÂ forÂ localizedÂ servicesÂ inÂ SNPN\"Â listÂ whichÂ areÂ associatedÂ withÂ aÂ selectedÂ entryÂ ofÂ aÂ \"listÂ ofÂ subscriberÂ data\"Â orÂ aÂ selectedÂ publicÂ landÂ mobileÂ networkÂ (PLMN)Â subscriptionÂ forÂ aÂ 3 rd Â GenerationÂ PartnershipÂ ProjectÂ (3GPP)Â accessÂ orÂ aÂ non-3GPPÂ access.",
+  "classifications": {
+    "ipc": [
+      "H04W 60/00",
+      "H04W 8/00",
+      "H04W 8/18",
+      "H04W 8/186"
+    ],
+    "cpc": [],
+    "all": [
+      "H04W 60/00",
+      "H04W 8/00",
+      "H04W 8/18",
+      "H04W 8/186"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025066744"
+}

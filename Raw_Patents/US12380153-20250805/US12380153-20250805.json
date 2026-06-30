@@ -1,0 +1,30 @@
+{
+  "title": "Systems and methods for partitioning search indexes for improved efficiency in identifying media segments",
+  "abstract": "Systems and methods for identifying a media segment of audio or video content are described. The video segment is identified by deriving data from media content and comparing said data to a reference database in order to identify said video segment. Embodiments of the invention improve the speed and accuracy of the media identification process by advantageously partitioning the indexes in subdivisions where high value reference information is separated from the bulk information, for example.",
+  "claims": "1. A system comprising: one or more processors; and one or more non-transitory machine-readable storage media containing instructions which when executed on the one or more processors, cause the one or more processors to perform operations including: receiving a set of known media content, wherein the set of known media content includes associated known content identifiers; partitioning the known content identifiers associated with the set of known media content into a set of indexes; discarding, in response to determining that a first index of the set of indexes is full, the first index from the set of indexes; combining two or more of the remaining indexes of the set of indexes into a single combined index, wherein the single combined index excludes the first index; receiving an unknown content identifier corresponding to unknown media content being displayed by a media system; matching, using the single combined index, the unknown content identifier corresponding to the unknown media content to a known content identifier associated with known media content; and identifying the unknown media content as the known media content associated with the known content identifier.",
+  "patent_id": "US12380153-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/41",
+      "G06F 16/61",
+      "G06F 16/71",
+      "G06V 20/49",
+      "H04N 21/23418",
+      "H04N 21/6582",
+      "H04N 21/8352",
+      "H04N 21/8456"
+    ],
+    "all": [
+      "G06F 16/41",
+      "G06F 16/61",
+      "G06F 16/71",
+      "G06V 20/49",
+      "H04N 21/23418",
+      "H04N 21/6582",
+      "H04N 21/8352",
+      "H04N 21/8456"
+    ],
+    "source": "converted"
+  }
+}

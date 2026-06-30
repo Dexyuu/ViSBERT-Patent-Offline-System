@@ -1,0 +1,26 @@
+{
+  "title": "HTTP/3 and QUIC-based device and application characterization",
+  "abstract": "A system may include a first network device. The first network device may include a first processor configured to: obtain a copy of a first message sent from an application on a User Equipment device (UE); construct a signature based on the copy of the first message; and send a second message including the signature to a second network device. The second message may request the second network device to either train a classification model or to provide a device type of the UE or an application type of the application to the first network device.",
+  "claims": "1. A system comprising: a first network device comprising a first processor configured to: obtain a copy of a first message sent from an application on a User Equipment device (UE) to a network component different from the first network device; construct a signature based on the copy of the first message; and send a second message including the signature to a second network device, wherein the second message requests the second network device to provide, to the first network device, a device type of the UE or an application type of the application, wherein when the first processor constructs the signature, the first processor is configured to: extract values from fields of a header of the first message; and generate the signature by assembling the values, wherein the first message includes a QUIC Client hello message.",
+  "patent_id": "US12380179-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 18/24147",
+      "H04L 69/22",
+      "H04W 12/06",
+      "H04W 72/04",
+      "H04L 67/02",
+      "H04W 80/12"
+    ],
+    "all": [
+      "G06F 18/24147",
+      "H04L 69/22",
+      "H04W 12/06",
+      "H04W 72/04",
+      "H04L 67/02",
+      "H04W 80/12"
+    ],
+    "source": "converted"
+  }
+}

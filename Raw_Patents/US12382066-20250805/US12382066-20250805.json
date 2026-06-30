@@ -1,0 +1,28 @@
+{
+  "title": "Chroma from luma prediction using mapping and different types",
+  "abstract": "This disclosure relates to video processing that includes: determining that a chroma block is to be predicted in a Chroma from Luma (CfL) mode, wherein the chroma block corresponds to a luma block; mapping a plurality of luma samples of the luma block to a plurality of neighbor chroma samples in at least one neighbor chroma block that neighbors the chroma block; and performing a CfL prediction of the chroma block using the plurality of neighbor chroma samples as a plurality of prediction samples of the chroma block. This disclosure also relates to video processing that includes: determining a type of chroma from luma (CfL) prediction process from among a plurality of different types of CfL prediction processes; and performing a CfL prediction process according to the type of CfL prediction process.",
+  "claims": "1. A method of video decoding, the method comprising: determining that a chroma block is to be predicted in a Chroma from Luma (CfL) mode, wherein the chroma block corresponds to a luma block; determining a plurality of reconstructed neighbor luma samples by identifying a plurality of smallest-difference reconstructed neighbor luma samples of the luma block, including: identifying multiple smallest-difference reconstructed neighbor luma samples; selecting a target smallest-difference reconstructed neighbor luma sample from among the multiple smallest-different reconstructed neighbor luma samples in accordance with the target smallest-difference reconstructed neighbor luma sample having a smallest distance to the luma sample among the multiple smallest-difference reconstructed neighbor luma samples; and including the target smallest-difference reconstructed neighbor luma sample in the plurality of smallest-difference reconstructed neighbor luma samples: mapping the plurality of reconstructed luma samples of the luma block to a plurality of neighbor chroma samples in at least one neighbor chroma block that neighbors the chroma block; and performing a CfL prediction of the chroma block using the plurality of neighbor chroma samples as a plurality of prediction samples of the chroma block.",
+  "patent_id": "US12382066-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/186",
+      "H04N 19/105",
+      "H04N 19/11",
+      "H04N 19/132",
+      "H04N 19/176",
+      "H04N 19/593",
+      "H04N 19/70"
+    ],
+    "all": [
+      "H04N 19/186",
+      "H04N 19/105",
+      "H04N 19/11",
+      "H04N 19/132",
+      "H04N 19/176",
+      "H04N 19/593",
+      "H04N 19/70"
+    ],
+    "source": "converted"
+  }
+}

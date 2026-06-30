@@ -1,0 +1,22 @@
+{
+  "title": "Picture coding device, picture coding method, and picture coding program, picture decoding device, picture decoding method and picture decoding program",
+  "abstract": "A picture coding device, for coding a moving picture using inter prediction based on inter prediction information in units of blocks and forming a bitstream, includes a coding information storage unit configured to store inter prediction information used in the inter prediction of a coded block in a history-based motion vector predictor candidate list, a spatial merging candidate derivation unit configured to derive a spatial merging candidate from inter prediction information of a block spatially neighboring a coding target block and to add the spatial merging candidate to a merging candidate list, and a history-based merging candidate derivation unit configured to derive a history-based merging candidate from the inter prediction information stored in the history-based motion vector predictor candidate list and to add the history-based merging candidate to the merging candidate list.",
+  "claims": "1. A picture coding device for coding a moving picture using inter prediction based on inter prediction information in units of blocks and forming a bitstream, the picture coding device comprising: a coding information storage unit configured to store inter prediction information used in the inter prediction of a coded block in a history-based motion vector predictor candidate list; a spatial merging candidate derivation unit configured to derive a spatial merging candidate from inter prediction information of a block spatially neighboring a coding target block and to add the spatial merging candidate to a merging candidate list; a temporal merging candidate derivation unit configured to derive a temporal merging candidate from inter prediction information for a block located at a same position as or in a vicinity of the coding target block in a different picture from a picture which the coding target block belongs to, and to add the temporal merging candidate to the merging candidate list; and a history-based merging candidate derivation unit configured to derive a history-based merging candidate from the inter prediction information stored in the history-based motion vector predictor candidate list and to add the history-based merging candidate to the merging candidate list, wherein the history-based merging candidate derivation unit compares a predetermined number of inter prediction information elements from a back end within the inter prediction information stored in the history-based motion vector predictor candidate list with inter prediction information of the spatial merging candidate and sets the inter prediction information as the history-based merging candidate when at least one of values of an inter-prediction mode, reference indices of L0 and L1 and motion vectors of L0 and L1, which are components of the inter-prediction information, is different, and sets the inter prediction information prior to the predetermined number of the inter prediction information elements from the back end as the history-based merging candidate without making a comparison with the inter prediction information of the spatial merging candidate.",
+  "patent_id": "US12382058-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/137",
+      "H04N 19/105",
+      "H04N 19/159",
+      "H04N 19/176"
+    ],
+    "all": [
+      "H04N 19/137",
+      "H04N 19/105",
+      "H04N 19/159",
+      "H04N 19/176"
+    ],
+    "source": "converted"
+  }
+}

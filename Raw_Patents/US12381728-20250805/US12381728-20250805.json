@@ -1,0 +1,22 @@
+{
+  "title": "Accessory assisted account recovery",
+  "abstract": "Embodiments described herein enable a user to bypass the use of one-time keys or account recovery codes by providing techniques for accessory assisted account recovery. In various embodiments, accessory assisted account recovery makes use of an accessory device of a user, where the accessory device can be any device having a secure processor, cryptographic engine, public key accelerator, or is otherwise able to accelerate cryptographic operations or perform cryptographic operations in a secure execution environment. An account recovery key can be split into multiple portions. At least one portion of the recovery key is then encrypted. The accessory device is then configured to be uniquely capable of decrypting the encrypted portion of an account recovery key.",
+  "claims": "1. A method, the method comprising: at an electronic device having a processor and memory, the electronic device to facilitate recovery of a user account: receiving a first randomized value; generating a second randomized value; computing a cryptographic seed based on the first randomized value and the second randomized value; storing the cryptographic seed in storage on the electronic device; generating a key pair using the cryptographic seed and transmitting a public key from the key pair to a second electronic device associated with the user account; receiving an encrypted portion of an account recovery key from the second electronic device; determining whether the encrypted portion of the account recovery key is associated with the electronic device; in response to a determination that the encrypted portion of the account recovery key is associated with the electronic device, performing decryption of the encrypted portion of the account recovery key with a private key from the key pair; and sending, to the second electronic device, a portion of the account recovery key resulting from performing decryption.",
+  "patent_id": "US12381728-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/0894",
+      "H04L 9/0822",
+      "H04L 9/083",
+      "H04L 9/0869"
+    ],
+    "all": [
+      "H04L 9/0894",
+      "H04L 9/0822",
+      "H04L 9/083",
+      "H04L 9/0869"
+    ],
+    "source": "converted"
+  }
+}

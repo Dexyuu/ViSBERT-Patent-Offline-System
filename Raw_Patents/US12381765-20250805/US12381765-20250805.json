@@ -1,0 +1,18 @@
+{
+  "title": "Method and device for transmitting binary data",
+  "abstract": "A method for transmitting binary data using a M-ASK constellation divided into M/2 sets of two symbols is disclosed. Each set of index i comprises the ithand ith+M/2 symbols of the constellation and is associated with a probability pi of transmitting the first symbol of the set. First, mâ1 bits are obtained from an equiprobable binary source where m=log2M. A binary source is then selected in a plurality of binary sources responsive to said mâ1 bits, each binary source of index i being associated with a probability of outputting a bit zero equal to pi. A symbol of the M-ASK constellation is obtained that is associated with the binary word formed by the mâ1 bits as less significant bits and a bit obtained from the selected source as most significant bit. The symbol is finally transmitted to a receiver over a communication channel.",
+  "claims": "1. A method, in a transmitter, for transmitting binary data using a M-ASK (Amplitude-Shift Keying) constellation divided into M/2 sets of two symbols, each set of index i comprising the i th and i th +M/2 symbols of the M-ASK constellation, where iϵ[1;M/2], and being associated with a probability p i of transmitting the first symbol of the set and a probability 1−p i of transmitting the second symbol of the set and wherein each symbol of the M-ASK constellation is associated with a binary word defined using natural labelling, said method comprising: a) obtaining m−1 bits from an equiprobable binary source where m=log 2 M; b) selecting a binary source in a plurality of binary sources responsive to said m−1 bits, each binary source of index i being associated with a probability of outputting a bit zero equal to p i ; c) obtaining one bit from the selected source; d) obtaining a symbol of the M-ASK constellation associated with the binary word formed by the m−1 bits as less significant bits and the bit obtained from the selected source as most significant bit; e) transmitting said obtained symbol to a receiver over a communication channel.",
+  "patent_id": "US12381765-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 27/04",
+      "H04L 1/0042"
+    ],
+    "all": [
+      "H04L 27/04",
+      "H04L 1/0042"
+    ],
+    "source": "converted"
+  }
+}

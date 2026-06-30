@@ -1,0 +1,18 @@
+{
+  "title": "System and method for upgrading non-permitted operating systems on standalone computing systems",
+  "abstract": "A method includes receiving a request. The request is encrypted to generate an encrypted request. The encrypted request includes a version information for a first software package deployed in a standalone computing system, and a region information and a hardware information for the standalone computing system. The encrypted request is sent to a respective regional data center of a cloud computing system based on the region information of the first software package. A second software package is identified among software packages stored in the respective regional data center. The second software package corresponds to the hardware information of the first software package. The version information of the first software package is compared to a version information of the second software package. In response to identifying that the second software package is more recent than the first software package, the second software package is deployed to the standalone computing system.",
+  "claims": "1. A system comprising: a standalone computing system comprising: a first memory configured to store a first software package, wherein the first software package comprises: a first hardware management module; and a first client application; and a first processor communicatively coupled to the first memory, wherein the first processor is configured to: receive a request from a user; encrypt the request to generate an encrypted request, wherein the encrypted request comprises a version information for the first software package, a region information for the standalone computing system, and a hardware information for the standalone computing system; send the encrypted request to a respective regional data center of a cloud computing system based on the region information of the first software package; in response to sending the encrypted request, receive a second software package from the respective regional data center; and deploy the second software package; and the cloud computing system communicatively coupled to the standalone computing system, the cloud computing system comprising a plurality of regional data centers, wherein the respective regional data center comprises: a second memory configured to store a plurality of software packages, wherein each software package corresponds to a respective hardware configuration of the standalone computing system, and wherein each software package comprises: a hardware management module; and a client application; and a second processor communicatively coupled to the second memory, wherein the second processor is configured to: receive the encrypted request from the standalone computing system; identify the second software package among the plurality of software packages, wherein the second software package corresponds to the hardware information of the first software package; compare the version information of the first software package to a version information of the second software package; and in response to identifying that the second software package is more recent than the first software package, send the second software package to the standalone computing system.",
+  "patent_id": "US12379918-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 8/65",
+      "G06F 21/57"
+    ],
+    "all": [
+      "G06F 8/65",
+      "G06F 21/57"
+    ],
+    "source": "converted"
+  }
+}

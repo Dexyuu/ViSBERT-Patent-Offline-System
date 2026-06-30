@@ -1,0 +1,40 @@
+{
+  "application_id": "WO2018209048",
+  "application_id_fs": "WO2018209048",
+  "title": "Apparatus and method for smart material analysis",
+  "abstract": "A method of inspecting a structure including a photonic material using a movable inspection apparatus includes irradiating a section of the structure, receiving radiation diffracted from a photonic material in the section of the structure, determining a deformation of the photonic material as a function of at least one of i) an intensity of the radiation received ii) a position of the radiation received and iii) a wavelength of the radiation received, and determining if a magnitude of the deformation is higher than a threshold. If the magnitude of the deformation is higher than the threshold data is stored concerning the deformation of the photonic material; contrarily, if the magnitude of the deformation is not higher than the threshold: the inspection at the location of the photonic material is stopped and the inspection apparatus is moved in order to inspect another section of the structure.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1. A method of inspecting a structure including a photonic material using a movable inspection apparatus, the method comprising: irradiating a section of the structure; receiving radiation diffracted from a photonic material in the section of the structure; determining a deformation of the photonic material as a function of at least one of i) an intensity of the radiation received, ii) a position of the radiation received, and iii) a wavelength of the radiation received; and determining if a magnitude of the deformation is higher than a threshold; if the magnitude of the deformation is higher than the threshold: storing data concerning the deformation of the photonic material; if the magnitude of the deformation is not higher than the threshold: i) stopping the inspection at the location of the photonic material; and ii) moving the inspection apparatus to inspect another section of the structure. 2. The method of claim 1 , wherein the section of the photonic material is irradiated with monochromatic radiation and the deformation is determined as a function of an intensity of the radiation received. 3. The method of claim 2, wherein the inspection apparatus includes a radiation source and a radiation sensor, and the deformation is further determined as a function of (i) the wavelength emitted by the radiation source and (ii) a position of the radiation source with respect to the section of the structure irradiated, and (iii) a distance between the radiation source and the radiation sensor. 4. The method of claim 1 , wherein the section of the photonic material is irradiated with multi-chromatic radiation and the deformation is further determined as a function of the wavelength of the radiation received. 5. The method of claim 4, wherein the photonic material is three-dimensional and the deformation is further determined as a function of a measured wavelength stop band. 6. The method of claim 4, wherein the diffracted radiation is received by a camera sensor. 7. The method of claim 6, wherein the deformation is further determined as a function of position, at the camera sensor, of the wavelength received. 8. The method of claim 7, wherein the inspection apparatus includes a radiation source and the deformation is determined as a function of the wavelength of radiation and the position of the radiation received, wherein the position of the radiation received comprises a pixel position of captured radiation at the camera sensor, wherein the deformation is further determined as a function of (i) a radiation source position with respect to the section of the structure irradiated and (ii) a distance between the radiation source and the camera sensor. 9. The method of claim 6, wherein the camera sensor includes a plurality of pixel elements that respond to received radiation by expressing a hue, and wherein a wavelength of the received radiation is determined as a function of the expressed hue. 10. The method of claim 9, wherein the wavelength is determined as a linear function of the expressed hue. 11. The method of claim 4, wherein the multi-chromatic radiation is in the visible spectrum. 12. The method of claim 4, wherein at least a portion of the multi-chromatic radiation is outside of the visible spectrum. 13. A computer program product comprising a non-transitory computer readable medium comprising program code which when loaded into a computer controls the computer to perform the method of claim 1. 14. A movable apparatus for inspecting an object including a photonic material comprising: a radiation source for irradiating a section of the structure; a radiation sensor for receiving radiation diffracted from a photonic material in the section of the structure; \n\n a processor coupled to the sensor configured to determine a deformation of the photonic material as a function of at least one of i) an intensity ii) a position and iii) a wavelength of the radiation received, and to determine if a magnitude of the deformation is higher than a threshold; and a storage medium coupled to the processor; wherein if the magnitude of the deformation is higher than the threshold the processor directs data concerning the deformation of the photonic material to the storage medium; and wherein if the magnitude of the deformation is not higher than the threshold, the processor causes a stoppage of the inspection at the location of the photonic material, and transmits a signal causing the inspection apparatus to move and to inspect another section of the structure. 15. The apparatus of claim 14, wherein the radiation source emits monochromatic radiation and deformation of the photonic material is determined as a function of an intensity of the radiation received at the radiation sensor. 16. The apparatus of claim 14, wherein the radiation source emits multi-chromatic radiation and the deformation of the photonic material is determined as a function of the wavelength of the radiation received. 17. The apparatus of claim 16, wherein the multi-chromatic wavelength is in the visible spectrum and the radiation sensor comprises a camera having a plurality of pixel elements having distinct positions. 18. The apparatus of claim 17, wherein processor is configured to determine deformation as a function of (i) the wavelength of radiation received, (ii) a pixel element position of captured radiation at the camera sensor, (iii) a position of the radiation source with respect to the section of the structure irradiated, and (iv) a distance between the radiation source and the camera. 19. The apparatus of claim 18, wherein the plurality of pixel elements respond to received radiation by expressing a hue, and a wavelength of the received radiation is determined as a function of the expressed hue. 20. The apparatus of claim 14, wherein the photonic material is three-dimensional and the processor is configured to further determine deformation of the photonic material as a function of a measured wavelength stop band.",
+  "classifications": {
+    "ipc": [
+      "G01B 11/00",
+      "G01B 11/16",
+      "G01B 11/165",
+      "G01L 1/00",
+      "G01L 1/24",
+      "G01L 1/241",
+      "G01M 11/00",
+      "G01M 11/08",
+      "G01M 11/081",
+      "G01M 5/00",
+      "G01M 5/0075",
+      "G01M 5/0091"
+    ],
+    "cpc": [],
+    "all": [
+      "G01B 11/00",
+      "G01B 11/16",
+      "G01B 11/165",
+      "G01L 1/00",
+      "G01L 1/24",
+      "G01L 1/241",
+      "G01M 11/00",
+      "G01M 11/08",
+      "G01M 11/081",
+      "G01M 5/00",
+      "G01M 5/0075",
+      "G01M 5/0091"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018209048"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Techniques for sidelink power control and beta offset updates over shortened physical sidelink shared channel-based mini-slots",
+  "abstract": "This disclosure provides systems, methods and apparatus for partitioning a physical sidelink shared channel (PSSCH) into multiple shortened PSSCHs (sPSSCHs) within a slot and selecting a transmit power for each sPSSCH. In one aspect, a transmitting user equipment (UE) may select the transmit power for each sPSSCH in accordance with an open loop power control operation. In some examples, the transmitting UE may select a common transmit power for each sPSSCH. Alternatively, the transmitting UE may perform independent power control operations for each sPSSCH and may cap variation in transmit power across sPSSCHs as a result of employing lower and upper bound transmit powers. Additionally, or alternatively, the transmitting UE may provide a default beta offset for the set of receiving UEs via sidelink control information (SCI) part one (SCI-1) and may provide beta offset updates via each SCI part two (SCI-2) transmission in the multiple sPSSCHs.",
+  "claims": "1. An apparatus for wireless communication at a user equipment (UE), comprising: a first interface configured to: output, to a set of receiving UEs over a sidelink control channel, an indication of a sidelink shared channel within a slot, the sidelink shared channel being partitioned into a plurality of portions within the slot; a second interface configured to: obtain an indication of a nominal sidelink power parameter and a resource block parameter that are common for each portion of the sidelink shared channel and an indication of a nominal pathloss parameter that is common for the set of receiving UEs; a processing system configured to: select, for each portion of the sidelink shared channel, a transmit power using one or more communication parameters that are associated with the sidelink shared channel and that are common to the set of receiving UEs, the selecting the transmit power for each portion of the sidelink shared channel being in accordance with a lower bound transmit power and an upper bound transmit power and comprising: selecting a nominal transmit power for the sidelink shared channel using the nominal sidelink power parameter, the resource block parameter, and the nominal pathloss parameter; and selecting, for each portion of the sidelink shared channel, a second transmit power using the nominal sidelink power parameter, the resource block parameter, and an actual pathloss parameter associated with each UE of the set of receiving UEs; and the first interface configured to: output, to each UE of the set of receiving UEs over the sidelink shared channel, in accordance with the transmit power selected for each portion of the partitioned sidelink shared channel, the outputting to each UE of the set of receiving UEs over the sidelink shared channel further comprising outputting to a different UE of the set of receiving UEs over each portion of the partitioned sidelink shared channel.",
+  "patent_id": "US12382447-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/121",
+      "H04W 52/24",
+      "H04W 52/242",
+      "H04W 52/36",
+      "H04W 52/367",
+      "H04W 72/0446",
+      "H04W 72/20",
+      "H04W 92/18"
+    ],
+    "all": [
+      "H04W 72/121",
+      "H04W 52/24",
+      "H04W 52/242",
+      "H04W 52/36",
+      "H04W 52/367",
+      "H04W 72/0446",
+      "H04W 72/20",
+      "H04W 92/18"
+    ],
+    "source": "converted"
+  }
+}

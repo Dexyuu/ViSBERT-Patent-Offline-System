@@ -1,0 +1,28 @@
+{
+  "title": "Method and device for coding/decoding image using intra prediction",
+  "abstract": "A method and a device for encoding/decoding an image according to the present invention may determine a reference region for intra prediction of a current block, derive an intra prediction mode of the current block on the basis of a predetermined MPM candidate group, and perform intra prediction on the current block on the basis of the reference region and the intra prediction mode.",
+  "claims": "1. A method of decoding an image, comprising: determining a reference pixel line among a plurality of pixel lines for intra prediction of a current block; determining a first flag indicating whether an intra prediction mode of the current block is derived from a first MPM group or a second MPM group, wherein an MPM (Most Probable Mode) candidate group is divided into the first MPM group comprising one or more default intra prediction modes and the second MPM group comprising one or more non-default intra prediction modes that are derived from an intra prediction mode of a neighboring block adjacent to the current block; when the first flag is determined to be a first value, deriving an intra prediction mode of the current block based on a default intra prediction mode in the first MPM group; when the first flag is determined to be a second value, deriving the intra prediction mode of the current block based on a non-default intra prediction mode in the second MPM group that is selected by an MPM index; and performing the intra prediction on the current block based on the reference pixel line and the intra prediction mode, wherein the plurality of pixel lines at least include a first pixel line immediately adjacent to the current block, a second pixel line immediately adjacent to the first pixel line, and a third pixel line immediately adjacent to the second pixel line, wherein the first flag is determined by parsing a bitstream only when the reference pixel line of the current block is determined to be the first pixel line, and wherein the second MPM group includes a plurality of intra prediction modes based on whether an intra prediction mode of a left neighboring block of the current block is equal to an intra prediction mode of a top neighboring block of the current block.",
+  "patent_id": "US12382096-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/593",
+      "H04N 19/105",
+      "H04N 19/11",
+      "H04N 19/119",
+      "H04N 19/176",
+      "H04N 19/182",
+      "H04N 19/46"
+    ],
+    "all": [
+      "H04N 19/593",
+      "H04N 19/105",
+      "H04N 19/11",
+      "H04N 19/119",
+      "H04N 19/176",
+      "H04N 19/182",
+      "H04N 19/46"
+    ],
+    "source": "converted"
+  }
+}

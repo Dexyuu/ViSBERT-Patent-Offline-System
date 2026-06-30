@@ -1,0 +1,20 @@
+{
+  "title": "Robot firmware and hardware performance qualification tool",
+  "abstract": "In various examples, systems and methods for qualification of robotic firmware are described. In various examples, first firmware or first hardware may be deployed on a first set of robots and second firmware or second hardware may be deployed on a second set of robots. The first firmware may generate first log data and the second firmware may generate second log data during operation of the first and second set of robots during a first time period. A first value of a first performance metric may be determined using the first log data and a second value of the first performance metric may be determined using the second log data. The second firmware or the second hardware may be modified based at least in part on the first value and the second value.",
+  "claims": "1. A method comprising: deploying a plurality of robotic drive units across a plurality of robotic processing facilities, wherein the first set of robotic drive units have first firmware installed; installing second firmware on a first subset of the plurality of robotic drive units; generating log data for the plurality of robotic drive units over a first period of time, wherein the log data describes events associated with operation of the plurality of robots during the first period of time; determining a first event type of the log data, the first event type relating to a navigation error; determining a first number of instances of the first event type experienced by the first subset of the plurality of robotic drive units over the first period of time; determining a second number of instances of the first event type experienced by robotic drive units of the plurality of robotic drive units that are not in the first subset; determining, using the first number and the second number, that the first subset of the plurality of robotic drive units experienced a statistically significant increase in events of the first event type; and modifying the second firmware in response to the first subset of the plurality of robotic drive units experiencing a statistically significant increase in events of the first event type.",
+  "patent_id": "US12380014-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/3476",
+      "G06F 8/61",
+      "G06F 11/3452"
+    ],
+    "all": [
+      "G06F 11/3476",
+      "G06F 8/61",
+      "G06F 11/3452"
+    ],
+    "source": "converted"
+  }
+}

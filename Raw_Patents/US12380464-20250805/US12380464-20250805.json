@@ -1,0 +1,32 @@
+{
+  "title": "Real-time guaranteed campaign delivery optimization using broadcast schedules and historic viewing data",
+  "abstract": "In one aspect, an example method includes (i) determining an estimated number of replacement advertisement segment viewings remaining before an end date of a first advertising campaign; (ii) determining a number of impressions remaining for the first advertising campaign in order to reach a guaranteed total; (iii) determining, using the estimated number of replacement advertisement segment viewings and the number of impressions remaining, a first value of serving a first replacement advertising segment corresponding to the first advertising campaign to a content-presentation device; (iv) determining a second value of serving a second replacement advertisement segment corresponding to a second advertising campaign to the content presentation device; (v) selecting the first replacement advertisement segment rather than the second replacement advertisement segment based on the first value being greater than the second value; and (vi) causing the first replacement advertisement segment to be transmitted to the content-presentation device.",
+  "claims": "1. A method comprising: transmitting, by a computing system over a channel associated with a television broadcast provider, linear sequence of content segments to a content-presentation device of multiple content-presentation devices, wherein the linear sequence of content segments comprises an advertisement segment; determining, by the computing system, for each of the multiple content-presentation devices, a respective estimated number of content replacement operation opportunities remaining within the linear sequence of content segments before an end date of a first advertising campaign, wherein determining the respective estimated number of content-replacement operation opportunities for a given content-presentation device of the multiple content-presentation devices is initiated based on a request from the content-presentation device and comprises: determining a plurality of content replacement operation opportunities available on the channel before the end date of the first advertising campaign, wherein the plurality of content replacement operation opportunities comprises a content replacement opportunity in the linear sequence of content segments; determining, for a content replacement operation opportunity of the plurality of content replacement operation opportunities, a probability that the content-presentation device will be tuned to the channel at a time of the content replacement operation opportunity; and determining the respective estimated number of content replacement operation opportunities based on the probability; determining, by the computing system, an estimated number of replacement advertisement segment viewings remaining before the end date of the first advertising campaign based on the respective estimated numbers of content replacement operation opportunities; determining, by the computing system, a number of impressions remaining for the first advertising campaign in order to reach a guaranteed total of the first advertising campaign; determining, by the computing system using the estimated number of replacement advertisement segment viewings and the number of impressions remaining, a first value of serving a first replacement advertising segment corresponding to the first advertising campaign to the content-presentation device; determining, by the computing system, a second value of serving a second replacement advertisement segment corresponding to a second advertising campaign to the content-presentation device; selecting, by the computing system, the first replacement advertisement segment rather than the second replacement advertisement segment based on the first value being greater than the second value; and transmitting, by the computing system, the first replacement advertisement segment to the content-presentation device via a broadcast stream transmission, wherein the first replacement advertisement segment is configured to replace the advertisement segment in the linear sequence of content segments, wherein the broadcast stream transmission is different from the channel associated with the television broadcast provider.",
+  "patent_id": "US12380464-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0243",
+      "G06Q 30/0246",
+      "G06Q 30/0254",
+      "G06Q 30/0273",
+      "H04N 21/4383",
+      "H04N 21/44016",
+      "H04N 21/44218",
+      "H04N 21/44222",
+      "H04N 21/812"
+    ],
+    "all": [
+      "G06Q 30/0243",
+      "G06Q 30/0246",
+      "G06Q 30/0254",
+      "G06Q 30/0273",
+      "H04N 21/4383",
+      "H04N 21/44016",
+      "H04N 21/44218",
+      "H04N 21/44222",
+      "H04N 21/812"
+    ],
+    "source": "converted"
+  }
+}

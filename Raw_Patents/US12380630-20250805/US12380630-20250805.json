@@ -1,0 +1,22 @@
+{
+  "title": "Geometry-guided controllable 3D head synthesis",
+  "abstract": "Technologies are described and recited herein for producing controllable synthesized images include a geometry guided 3D GAN framework for high-quality 3D head synthesis with full control on camera poses, facial expressions, head shape, articulated neck and jaw poses; and a semantic SDF (signed distance function) formulation that defines volumetric correspondence from observation space to canonical space, allowing full disentanglement of control parameters in 3D GAN training.",
+  "claims": "1. A method for generating controllable three-dimensional (3D) synthesized images, comprising: conditioning, by a 3D model generator, 3D representations of a head geometry in a canonical space based on feature vectors and camera viewing parameters by: mapping control parameters for the head geometry, corresponding to an input, and a signed distance function (SDF) onto the head geometry to produce 3D point-to-point volumetric correspondences of points in an observation space to the head geometry in the canonical space; combining the 3D representations of the head geometry and the 3D point-to-point volumetric correspondences of points in the observation space to the head geometry in the canonical space to produce a 3D object; and synthesizing the 3D object to combine feature layers of the 3D object, wherein the 3D object is produced as a layered combination of an inner feature layer and an external feature layer, the inner feature layer corresponding to the 3D point-to-point volumetric correspondences of points in the observation space, and the external feature layer corresponding to the 3D representations of the head geometry.",
+  "patent_id": "US12380630-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 15/08",
+      "G06T 3/4046",
+      "G06T 3/4053",
+      "G06V 40/176"
+    ],
+    "all": [
+      "G06T 15/08",
+      "G06T 3/4046",
+      "G06T 3/4053",
+      "G06V 40/176"
+    ],
+    "source": "converted"
+  }
+}

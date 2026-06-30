@@ -1,0 +1,24 @@
+{
+  "title": "Methods and systems for providing information about a location with image analysis",
+  "abstract": "Systems and method for providing information about a location with image analysis are described herein. The method can include: retrieving, from a user's device, location information, receiving a digital image of an location captured by a digital camera connected to the user's device, analyzing the digital image to detect an identification feature, determining an identify of the location based on the location information and the identification feature, identifying a capture time of day at which the digital image was captured, determining a median rate of traffic at the establish at the identified capture time of day, calculating information based on the median rate of traffic at the capture time of day, the information related to how crowded the location is at the captured time of day, and providing, by a display on the user's device, the information.",
+  "claims": "1. A computer-implemented method, comprising: preloading a series of data models on a user's device; retrieving, from the user's device, location information; determining, using the user's device, a user's focus' axis; detecting, using the user's device, that a user pauses to look at an establishment for more than a predetermined amount of time; receiving a digital image of an establishment captured by a digital camera connected to the user's device; receiving a secondary digital image captured by the digital camera connected to the user's device; determining, from the user's device, secondary location information of an object in the secondary digital image; discarding the secondary digital image based on the secondary location information exceeding a threshold distance from the location information; analyzing the digital image to detect an identification feature, wherein the identification feature comprises at least one of a sign, words on a sign, logo, trademark, door, window, façade, or window display of the establishment; selecting a data model from the series of data models based on the location information, wherein the data model is a machine learning model configured for image analysis and trained with digital images associated with a location based on the location information; determining an identity of the establishment based on the location information and the at least one of the sign, the words on the sign, the logo, the trademark, the door, the window, the façade, or the window display of the establishment based on the data model; identifying a capture time of day at which the digital image was captured; determining a median rate of traffic at the establish at the identified capture time of day; calculating crowd information by determining a difference between a number of transactions that occurred at the identified capture time of day and the median rate of traffic at the capture time of day, the crowd information related to how crowded the location is at the captured time of day; and providing, by a display on the user's device, the crowd information.",
+  "patent_id": "US12380479-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0623",
+      "G06F 16/535",
+      "G06F 16/587",
+      "G06V 20/20",
+      "G06V 20/30"
+    ],
+    "all": [
+      "G06Q 30/0623",
+      "G06F 16/535",
+      "G06F 16/587",
+      "G06V 20/20",
+      "G06V 20/30"
+    ],
+    "source": "converted"
+  }
+}

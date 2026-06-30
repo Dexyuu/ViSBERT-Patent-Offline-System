@@ -1,0 +1,24 @@
+{
+  "title": "Gate drive circuit for switching circuit, module including the same, and switching power supply",
+  "abstract": "A gate drive circuit for a switching circuit including high-side and low-side transistors which are GaN-HEMTs (High Electron Mobility Transistors), includes: a high-side driver driving the high-side transistor; and a low-side driver driving the low-side transistor, wherein the low-side driver is configured to be capable of applying 0 V, a high-level voltage higher than a gate threshold voltage of the low-side transistor, and a bias voltage lower than the gate threshold voltage between a gate and a source of the low-side transistor, and the low-side driver is configured to apply the bias voltage between the gate and the source of the low-side transistor during a dead time inserted during transition from a high-level output state where the high-side transistor is turned on and the low-side transistor is turned off to a low-level output state where the high-side transistor is turned off and the low-side transistor is turned on.",
+  "claims": "1. A gate drive circuit for a switching circuit including a high-side transistor and a low-side transistor which are GaN-HEMTs (High Electron Mobility Transistors), comprising: a high-side driver configured to drive the high-side transistor; and a low-side driver configured to drive the low-side transistor, based on a low-side pulse and a control signal, wherein the low-side driver is further configured to be capable of applying 0 V, a high-level voltage higher than a gate threshold voltage of the low-side transistor, and a bias voltage lower than the gate threshold voltage and higher than 0 V between a gate and a source of the low-side transistor, wherein the low-side driver is further configured to apply the bias voltage between the gate and the source of the low-side transistor during a dead time inserted during transition from a high-level output state in which the high-side transistor is turned on and the low-side transistor is turned off to a low-level output state in which the high-side transistor is turned off and the low-side transistor is turned on, and wherein the low-side driver is further configured to start applying the bias voltage before transition from the high-level output state to the dead time by transitioning the control signal from 0 V to a high level voltage.",
+  "patent_id": "US12381550-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03K 17/102",
+      "H03K 17/063",
+      "H03K 17/687",
+      "H03K 2217/0063",
+      "H03K 2217/0072"
+    ],
+    "all": [
+      "H03K 17/102",
+      "H03K 17/063",
+      "H03K 17/687",
+      "H03K 2217/0063",
+      "H03K 2217/0072"
+    ],
+    "source": "converted"
+  }
+}

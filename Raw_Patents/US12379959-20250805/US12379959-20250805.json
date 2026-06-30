@@ -1,0 +1,26 @@
+{
+  "title": "Compute task state encapsulation",
+  "abstract": "One embodiment of the present invention sets forth a technique for encapsulating compute task state that enables out-of-order scheduling and execution of the compute tasks. The scheduling circuitry organizes the compute tasks into groups based on priority levels. The compute tasks may then be selected for execution using different scheduling schemes. Each group is maintained as a linked list of pointers to compute tasks that are encoded as task metadata (TMD) stored in memory. A TMD encapsulates the state and parameters needed to initialize, schedule, and execute a compute task.",
+  "claims": "1. A method for encapsulating and scheduling compute tasks in a streaming multiprocessor, the method comprising: allocating a first portion of memory for storing a plurality of metadata structures for a plurality of compute tasks, wherein a plurality of pointers to the plurality of metadata structures is stored in a linked list of pointers indicating an execution order associated with the plurality of compute tasks, wherein each metadata structure included in the plurality of metadata structures corresponds to a different compute task included in the plurality of compute tasks, and each pointer included in the plurality of pointers points to a different metadata structure included in the plurality of metadata structures, and wherein the linked list of pointers is stored in a second portion of memory that is separate from the first portion of memory; storing initialization parameters in a first metadata structure included in the plurality of metadata structures that configure the streaming multiprocessor to execute a first compute task included in the plurality of compute tasks; storing scheduling parameters in the first metadata structure that control the scheduling of the first compute task; storing execution parameters in the first metadata structure that control execution of the first compute task by the streaming multiprocessor; storing a first pointer and a counter overflow flag that is separate from the first pointer in the first metadata structure, wherein the first pointer points to a queue that stores input data associated with the first compute task and the counter overflow flag indicates when a data pointer pointing to an entry in the queue is to wrap to a beginning of the queue; and scheduling, based on the linked list of pointers and the scheduling parameters in the first metadata structure, the first compute task for execution in the streaming multiprocessor, wherein the first compute task executes in the streaming multiprocessor based on the execution parameters in the first metadata structure.",
+  "patent_id": "US12379959-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/4881",
+      "G06F 9/463",
+      "G06F 9/5005",
+      "G06F 9/5038",
+      "G06F 2209/483",
+      "G06F 2209/486"
+    ],
+    "all": [
+      "G06F 9/4881",
+      "G06F 9/463",
+      "G06F 9/5005",
+      "G06F 9/5038",
+      "G06F 2209/483",
+      "G06F 2209/486"
+    ],
+    "source": "converted"
+  }
+}

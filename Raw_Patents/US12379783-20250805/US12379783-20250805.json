@@ -1,0 +1,30 @@
+{
+  "title": "Proxy gesture recognizer",
+  "abstract": "An electronic device displays one or more views. A first view includes a plurality of gesture recognizers. The plurality of gesture recognizers in the first view includes one or more proxy gesture recognizers and one or more non-proxy gesture recognizers. Each gesture recognizer indicates one of a plurality of predefined states. A first proxy gesture recognizer in the first view indicates a state that corresponds to a state of a respective non-proxy gesture recognizer that is not in the first view. The device delivers a respective sub-event to the respective non-proxy gesture recognizer that is not in the first view and at least a subset of the one or more non-proxy gesture recognizers in the first view. The device processes the respective sub-event in accordance with states of the first proxy gesture recognizer and at least the subset of the one or more non-proxy gesture recognizers in the first view.",
+  "claims": "1. A method comprising: at an electronic device: detecting an input that includes a combination of eye movement and finger movement; and in response to detecting the input: processing the input with a first gesture recognizer that corresponds to an operating system user interface of an operating system application that is not within a current view, to determine whether the first gesture recognizer recognizes the input as a gesture; processing the input with a second gesture recognizer that corresponds to a first software application that is within the current view and is distinct from the operating system application, to determine whether the second gesture recognizer recognizes the input as a gesture; in accordance with a determination, based on the combination of eye movement and finger movement, that the first gesture recognizer recognizes the input, performing an operation defined by the operating system application and transitioning the second gesture recognizer into an event impossible state; and in accordance with a determination, based on the combination of eye movement and finger movement, and based on a third gesture recognizer that corresponds to a user interface that is within the current view, that the second gesture recognizer recognizes the input, delaying performance of an operation defined by the first software application for the input until the third gesture recognizer indicates that the input does not match a gesture definition of the first gesture recognizer, wherein the first software application is associated with the third gesture recognizer that has a state corresponding to a state of the first gesture recognizer; and processing the input with the second gesture recognizer includes determining the state of the third gesture recognizer and processing the input with the second gesture recognizer in accordance with the state of the third gesture recognizer.",
+  "patent_id": "US12379783-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/017",
+      "G06F 9/54",
+      "G06F 9/541",
+      "G06F 9/542",
+      "G06F 3/012",
+      "G06F 3/013",
+      "G06F 2209/545",
+      "G06F 2209/548"
+    ],
+    "all": [
+      "G06F 3/017",
+      "G06F 9/54",
+      "G06F 9/541",
+      "G06F 9/542",
+      "G06F 3/012",
+      "G06F 3/013",
+      "G06F 2209/545",
+      "G06F 2209/548"
+    ],
+    "source": "converted"
+  }
+}

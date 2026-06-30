@@ -1,0 +1,16 @@
+{
+  "title": "Hearing aids with parallel neural networks",
+  "abstract": "An apparatus (e.g., an ear-worn device such as a hearing aid) includes neural network circuitry and control circuitry. The neural network circuitry is configured to implement a neural network system comprising at least a first neural network and a second neural network operating in parallel. The control circuitry is configured to control the neural network system to receive a first input signal, process the first input signal using the first neural network to produce a first output and using the second neural network to produce a second output, combine the first output and the second output, reset one or more states of the first neural network, and reset one or more states of the second neural network at a different time than when the one or more states of the first neural network are reset.",
+  "claims": "1. A chip, comprising: neural network circuitry configured to implement a neural network system comprising at least a first neural network and a second neural network operating in parallel; and control circuitry configured to control the neural network system to: reset one or more states of the first neural network at a first time; receive a first input at a second time later than the first time; process the first input using the first neural network to produce a first output and using the second neural network to produce a second output; combine the first output and the second output using a first weight for the first output and a second weight for the second output, wherein the second weight is greater than the first weight; receive a second input at a third time later than the second time; process the second input using the first neural network to produce a third output and using the second neural network to produce a fourth output; combine the third output and the fourth output using a third weight for the third output and a fourth weight for the fourth output, wherein the third weight is greater than the first weight; and reset one or more states of the second neural network at a fourth time later than the third time.",
+  "patent_id": "US12382230-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04R 25/507"
+    ],
+    "all": [
+      "H04R 25/507"
+    ],
+    "source": "converted"
+  }
+}

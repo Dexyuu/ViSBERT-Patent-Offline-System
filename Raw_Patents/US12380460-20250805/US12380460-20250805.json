@@ -1,0 +1,18 @@
+{
+  "title": "Digital survey creation by providing optimized suggested content",
+  "abstract": "The present disclosure relates to a question recommendation system that intelligently optimizes a survey being created by a user by providing customized suggestions. For example, in one or more embodiments, the question recommendation system provides a suggested question based on questions previous added by a user while creating a survey. In particular, the question recommendation system provides various recommendations to the user to further optimize a survey being created. For instance, the question recommendation system provides recommendations with respect to improving question ordering, question phrasing, and question type as well as recommends removing potentially inefficient questions.",
+  "claims": "1. A computer-implemented method comprising: generating a survey graph comprising: a first node corresponding to a first encoded survey prompt representing a first survey question encoded into a vector space, the first encoded survey prompt comprising a first semantic label; and a plurality of additional nodes corresponding to additional encoded survey prompts representing additional survey questions encoded into the vector space; receiving, from an administrator client device, a user-generated survey prompt for a new digital survey; generating, from the user-generated survey prompt, a second encoded survey prompt comprising a second semantic label; determining that the second semantic label matches the first semantic label; based on determining that the second semantic label matches the first semantic label, determining to traverse the survey graph to identify a suggested survey prompt corresponding to an additional node of the plurality of additional nodes within the survey graph; providing, to the administrator client device, an option to use the suggested survey prompt; based on receiving an indication of an interaction with the option to use the suggested survey prompt, generating the new digital survey comprising the user-generated survey prompt and the suggested survey prompt; and providing, to a respondent client device, the new digital survey comprising the user-generated survey prompt and the suggested survey prompt.",
+  "patent_id": "US12380460-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0203",
+      "G06F 16/9024"
+    ],
+    "all": [
+      "G06Q 30/0203",
+      "G06F 16/9024"
+    ],
+    "source": "converted"
+  }
+}

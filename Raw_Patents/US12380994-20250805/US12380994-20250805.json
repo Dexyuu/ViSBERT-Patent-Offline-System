@@ -1,0 +1,34 @@
+{
+  "title": "Pharmaceutical manufacturing process control, support and analysis",
+  "abstract": "A computer apparatus and computer-implemented process for generating a batch record (BR) from a master batch record (MBR) during manufacture of a batch of pharmaceutical product. In the control software, a graphical analysis interface is provided for processing graphs of spectroscopic or chromatographic analysis. A group of fields in the MBR is assigned to the analysis. The operator wears an augmented reality headset and uses this to capture an image of a graph from an instrument display. The graph image is then processed to extract the graph and its metadata, and then further processed to find peaks and assign attribute labels to the peaks, and thus populate the analysis fields. Overlay images are then transmitted to AR headset to present to the operator the populated analysis fields. The operator then accepts or rejects the populated analysis fields by issuing user interface commands.",
+  "claims": "1. A computer apparatus configured to generate a batch record, BR, during manufacture of a batch of pharmaceutical product by populating a master batch record, MBR, the batch record generating computer apparatus comprising: at least one memory; and at least one processor in communication with the at least one memory to provide a process data structure defining a sequence of manufacturing process steps that are required to be carried out to manufacture a batch, the manufacturing process steps involving respective operator actions; provide an MBR comprising a plurality of content items and associated fields, wherein the fields are to be populated as an operator progresses through the operator actions; provide a mapping data structure that links operator actions to content items and associated fields; and provide a control module configured to: establish a data communication connection to a portable computer apparatus of an operator responsible for manufacturing the batch; transmit image data to the operator's portable computer apparatus, the image data presenting ones of the content items and associated fields to the operator in a way that follows the operator's progression through the operator actions as determined with reference to the mapping data structure and that is responsive to the operator populating the MBR fields; receive user interface commands from the operator's portable computer apparatus; and populate fields of the MBR, as presented to the operator in the image data, responsive to receipt of the user interface commands.",
+  "patent_id": "US12380994-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16H 40/20",
+      "G06F 16/9024",
+      "G06Q 10/06316",
+      "G06Q 10/06395",
+      "G06Q 10/103",
+      "G06Q 50/04",
+      "G06V 20/20",
+      "G16H 70/40",
+      "H04N 7/147",
+      "G06F 3/04847"
+    ],
+    "all": [
+      "G16H 40/20",
+      "G06F 16/9024",
+      "G06Q 10/06316",
+      "G06Q 10/06395",
+      "G06Q 10/103",
+      "G06Q 50/04",
+      "G06V 20/20",
+      "G16H 70/40",
+      "H04N 7/147",
+      "G06F 3/04847"
+    ],
+    "source": "converted"
+  }
+}

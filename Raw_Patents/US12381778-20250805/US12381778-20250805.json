@@ -1,0 +1,18 @@
+{
+  "title": "Multi-tiered reconciliation of network functions",
+  "abstract": "The present disclosure relates to systems, methods, and computer readable media for managing and maintaining deployments of configurations on network functions in a telecommunications network. In particular, examples herein relate to implementations of a configuration management system and reconciliation agents that cooperatively perform multi-tiered reconciliation of configuration states for deployments of network functions. The systems described herein can perform multiple levels of reconciliation checks on a plurality of network functions to ensure that configurations of the network functions are effectively maintained and consistent with a desired state (e.g., a goal state) of the deployment(s) of network functions.",
+  "claims": "1. A method for managing and maintaining deployments of configurations on network functions in a telecommunications network, the method comprising: receiving, at a network function, deployment instructions associated with deployment of the network function on the telecommunications network, the deployment instructions including configuration management instructions associated with a goal state of a deployment of the network function, the configuration management instructions being obtained from a hierarchical configuration model; performing a first level reconciliation check for the network function by confirming that the configuration management instructions associated with the goal state of the deployment have been received at the network function; and performing a second level reconciliation check for the network function by determining a current state of the deployment on the network function and verifying whether the current state of the deployment corresponds to the goal state of the network function.",
+  "patent_id": "US12381778-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 41/0806",
+      "H04W 24/02"
+    ],
+    "all": [
+      "H04L 41/0806",
+      "H04W 24/02"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Systems and methods for operating a math-based currency exchange",
+  "abstract": "Systems and methods utilized to protect data. One method includes receiving an exchange request and determining a current exchange rate for at least one different currency transaction. The method further includes determining an exchange sequence generating a first public and private key pair and a second public and private key pair. The method further includes receiving an exchange confirmation updating an account balance entry on an overlay ledger. The method further includes broadcasting the exchange request updating a blockchain associated with the exchange request.",
+  "claims": "1. A method of performing exchanges of a math-based currency (“MBC”), the method comprising: receiving, by a MBC transaction processor, an exchange request from a customer computing device for exchanging a first amount of a first currency for a second amount of a second currency; determining, by an exchange processor, a current exchange rate for at least one different currency transaction comprising at least one exchange rate for the first currency to the second currency; determining, by the exchange processor, an exchange sequence based on calculating a first value of the second currency when executing an exchange from the first currency to the second currency; generating, by the MBC transaction processor, a first public and private key pair for the exchange request and a second public and private key pair associated with an excess MBC amount returning to a MBC account, wherein the first public and private key pair comprises a public key comprising a first address to initiate a transfer between an exchange partner and a customer, and wherein the second public and private key pair is stored in a pooled MBC account database, wherein the pooled MBC account database stores a plurality of public and private key pairs corresponding with a total amount of one or more currencies; receiving, by the MBC transaction processor, an exchange confirmation from a computing system associated with the exchange partner; updating, by an account balance processor, an account balance entry on an overlay ledger, wherein the overlay ledger tracks an association of amounts of the one or more currencies with each of a plurality of MBC accounts; broadcasting, by the MBC transaction processor, the exchange request to at least one MBC verification node; and updating, by the MBC transaction processor, a blockchain associated with the exchange request, wherein the first public and private key pair is stored at the first address in the pooled MBC account database, and wherein the second public and private key pair is stored at a second address in the pooled MBC account database; wherein the overlay ledger comprises a plurality of MBC entries corresponding with a balance of MBC disassociated from the plurality of public and private key pairs of the pooled MBC account database, each of the plurality of MBC accounts correspond to an MBC entry of the plurality of MBC entries in the overlay ledger.",
+  "patent_id": "US12380498-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 40/04"
+    ],
+    "all": [
+      "G06Q 40/04"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Optimized functionality through interoperation of doppler and image based vessel differentiation",
+  "abstract": "An ultrasound-imaging system includes an ultrasound probe coupled with a console. Operations of the system can include detecting one or more blood vessels within the ultrasound image and identifying each blood vessel as a vein, an artery or other anatomic element using doppler ultrasound functionality of the ultrasound probe. Operations can also include determining a confidence for the blood vessel identification, and defining a window for doppler ultrasound operation. Operations can further include assessing a blood flow rate within blood vessels, and superimposing notifications atop the ultrasound image pertaining to the identity of the blood vessel including a confidence for the identity.",
+  "claims": "1. An ultrasound-imaging system, comprising: an ultrasound probe including an array of ultrasonic transducers, activated ultrasonic transducers of the array of ultrasonic transducers configured to emit generated ultrasound signals into a patient, receive reflected ultrasound signals from the patient, and convert the reflected ultrasound signals into corresponding electrical signals of the reflected ultrasound signals for processing into ultrasound image data and doppler ultrasound data; and a console configured to communicate with the ultrasound probe, the console including one or more processors and a non-transitory computer-readable medium having stored thereon logic that, when executed by the one or more processors, causes operations including: obtaining ultrasound image data of a predefined target area of the patient; defining an ultrasound image from the ultrasound image data; detecting one or more blood vessels within the ultrasound image; obtaining doppler ultrasound data pertaining to blood flow within the one or more blood vessels; determining a condition of the blood flow based at least partially on doppler ultrasound data; and identifying the one or more blood vessels as a vein or alternatively as an artery based at least partially on the condition of the blood flow within the one or more blood vessels, wherein: determining the condition of the blood flow includes determining a pulse timing difference between a first point in time of a blood flow pulse within a first blood vessel of the one or more blood vessels and a corresponding second point in time of the blood flow pulse within a second blood vessel of the one or more blood vessels based on the doppler ultrasound data; and the operations further include identifying (i) the first blood vessel as a vein, and (ii) the second blood vessel as an artery based at least partially on the pulse timing difference.",
+  "patent_id": "US12376817-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 8/06",
+      "A61B 8/488",
+      "A61B 8/0833"
+    ],
+    "all": [
+      "A61B 8/06",
+      "A61B 8/488",
+      "A61B 8/0833"
+    ],
+    "source": "converted"
+  }
+}

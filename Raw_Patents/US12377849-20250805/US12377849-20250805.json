@@ -1,0 +1,26 @@
+{
+  "title": "Vehicle control apparatus",
+  "abstract": "A vehicle control apparatus includes a microprocessor configured to perform: generating an action plan so that the subject vehicle moves from the first lane to the second lane according to a mode of the lane change when it is determined that the lane change is necessary. The target route includes a branching road in which the second lane is adjacent to the first lane from a first point to a second point ahead of the first point in a traveling direction and the second lane is separated from the first lane behind the second point. The deciding including deciding, based on a length from the first point to the second point, the mode of the lane change to be a first mode or a second mode having a different reference position for determining a start position of control of the lane change each other.",
+  "claims": "1. A vehicle control apparatus comprising: an input/output device configured to input and output information; and a microprocessor and a memory coupled to the microprocessor; the microprocessor is configured to perform: acquiring a target route of a subject vehicle traveling in a self-drive mode from map information based on a current position and a destination of the subject vehicle; determining based on the target route whether a lane change is necessary to change a traveling lane of the subject vehicle from a first lane in which the subject vehicle is currently traveling to a second lane; deciding a mode of the lane change; generating an action plan so that the subject vehicle moves from the first lane to the second lane according to the mode of the lane change when it is determined that the lane change is necessary; outputting via the input/output device recommendation information for recommending the lane change to an occupant of the subject vehicle when the mode of lane change is decided; and controlling a traveling actuator based on the action plan, when receiving an approval operation in response to the recommendation of the lane change from the occupant via the input/output device, wherein the target route includes a branching road in which the second lane is adjacent to the first lane from a first point to a second point ahead of the first point in a traveling direction and the second lane is separated from the first lane behind the second point, and the microprocessor is configured to perform: the deciding including deciding, when a section from the first point to the second point is smaller than a first predetermined distance, the mode of the lane change to be a first mode in which the lane change is started when the subject vehicle reaches the first point, and deciding, when the section is equal to or greater than the first predetermined distance, the mode of the lane change to be the second mode in which the lane change is started when the subject vehicle reaches a position ahead of the first point by a second predetermined distance; and the generating including, even though the mode of the lane change is decided to be the second mode, generating the action plan so that the subject vehicle continues to travel in the first lane when the approval operation is not received before the subject vehicle reaches an approval limit position set ahead of the first point and before the second point in the traveling direction.",
+  "patent_id": "US12377849-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 30/18163",
+      "B60W 60/005",
+      "B60W 2540/215",
+      "B60W 2552/05",
+      "B60W 2552/10",
+      "B60W 2556/40"
+    ],
+    "all": [
+      "B60W 30/18163",
+      "B60W 60/005",
+      "B60W 2540/215",
+      "B60W 2552/05",
+      "B60W 2552/10",
+      "B60W 2556/40"
+    ],
+    "source": "converted"
+  }
+}

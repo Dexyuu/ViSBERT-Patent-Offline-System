@@ -1,0 +1,52 @@
+{
+  "application_id": "WO2016139261",
+  "application_id_fs": "WO2016139261",
+  "title": "Wavelength band based passive infrared gas imaging",
+  "abstract": "Systems and methods disclosed herein, in accordance with one or more embodiments provide for imaging gas in a scene, the scene having a background and a possible occurrence of gas. In one embodiment, a method and a system adapted to perform the method includes : controlling a thermal imaging system to capture a gas IR image representing the temperature of a gas and a background IR image representing the temperature of a background based on a predetermined absorption spectrum of the gas, on an estimated gas temperature and on an estimated background temperature; and generating a gas-absorption-path-length image, representing the length of the path of radiation from the background through the gas, based on the gas image and the background IR image. The system and method may include generating a gas visualization image based on the gas-absorption-path-length image to display an output image visualizing a gas occurrence in the scene.",
+  "claims": "Claims 1. A method of imaging gas in a scene, the scene having a background and a possible occurrence of gas, the method comprising: - controlling a thermal imaging system to capture a gas IR image representing the temperature of a gas and a background IR image representing the temperature of a background based on a predetermined absorption spectrum of the gas, on an estimated gas temperature and on an estimated background temperature; - generating a gas-absorption-path-length image, representing the length of the path of radiation from the background through the gas, based on the gas image and the background IR image . 2. The method of claim 1, further comprising: - generating a gas visualization image based on the gas-absorption- path-length image. 3. The method of claim 1, further comprising: - controlling, for the capturing of the gas IR image, the thermal imaging system to capture radiation in a high absorption wavelength band A determined to include wavelengths with high absorption of radiation for the gas in the predetermined absorption spectrum; and/or - controlling, for the capturing of the background IR image, the thermal imaging system to capture radiation in a low absorption wavelength band B determined to include wavelengths with low absorption of radiation for the gas in the predetermined absorption spectrum. 4. The method of claim 3, wherein: - the high absorption wavelength band A is determined to include an absorption wavelength band G from the absorption spectrum of the gas; and/or - the low absorption wavelength band B is determined to at least partially overlaps the high absorption wavelength band A. 5. The method of claim 1, wherein: - estimating the gas temperature TG is based on a measured ambient air temperature retrieved from an ambient air temperature sensor and/or - estimating the gas temperature T G is based on a previously captured gas IR image. 6. The method of claim 1, wherein: - estimating the background temperature T B is based on a previously captured background IR image . 7. The method of claim 1, wherein: - generating a gas-absorption-path-length image is further based on a gas to background difference relation. 8. The method of claim 3, wherein determining the high absorption wavelength band A further comprises: - determining an absorption wavelength band G based on the absorption spectrum of the gas, wherein the absorption wavelength band G is determined to include at least a local minimum of the absorption spectrum; and - determining the high absorption wavelength band A as including the absorption wavelength band G and possibly a predetermined wavelength margin . 9. The method of the preceding claim, wherein the predetermined wavelength margin is a selection of : - a first wavelength margin G_ ARGIN1 applied to the lower endpoint of the absorption wavelength band G; and/or - a second wavelength margin G_ ARGIN2 applied to the higher endpoint of the absorption wavelength band G. 10. The method of claim 3, wherein determining the low absorption wavelength band b further comprises: - determining the low absorption wavelength band B as having a width greater than the high absorption wavelength band A, possibly within a predetermined wavelength margin. 11. The method of the preceding claim, wherein the predetermined wavelength margin is a selection of : - a first wavelength margin A_ ARGIN1 below the lower endpoint of high absorption wavelength band A; and/or - a second wavelength margin A_ ARGIN2 above the higher endpoint of high absorption wavelength band A. 12. The method of claim 3, further comprising: - obtaining an objective function indicative of contrast and dependent on pixel values of the gas-absorption-path-length image; - generating an optimized wavelength band B by evaluating the objective function on wavelength band B shifted within a band constraint and by selecting a shifted wavelength band B with an evaluated objective function value representing a local minimum as the optimized wavelength band B . 13. The method of claim 3, wherein: - determining the low absorption wavelength band B comprises excluding the absorption wavelength band G from the low absorption wavelength band B. 14. The method of claim 1, further comprising: - generating a visual presentation image based on pixel values of the gas-absorption-path-length image and a palette, wherein said palette comprises grayscales and/or colors associated to mutually exclusive ranges of pixel values . 15. The method of claim 3, further comprising: - determining a water wavelength band C to improve contrast in a generated gas-absorption-path-length image based on a predetermined water absorption spectrum, wherein the water wavelength band C includes at least a local minimum of the water absorption spectrum and preferably excludes the high absorption wavelength band A and/or the low absorption wavelength band B; - controlling, for capturing a water image, the thermal imaging system to capture radiation within the water wavelength band C; - generating the gas-absorption-path-length image further based on the water image. 16. A thermal imaging device for imaging gas comprising an infrared (IR) imaging system, a memory and a processor, being adapted to perform the steps and functions of method claims 1-15. 17. A computer-readable medium for imaging gas, comprising stored thereon : - non-transitory information for performing a method of any of claims 1-15; and/or - non-transitory information configured to control a processor/processing unit to perform any of the steps or functions of any of claims 1-15. 18. A computer program product for imaging gas, comprising code portions adapted to control a processor to perform any of the steps or functions of any of claims 1-15.",
+  "classifications": {
+    "ipc": [
+      "G01N 21/00",
+      "G01N 21/17",
+      "G01N 21/25",
+      "G01N 21/31",
+      "G01N 21/35",
+      "G01N 21/3504",
+      "G01J 3/00",
+      "G01J 3/02",
+      "G01J 3/0205",
+      "G01J 3/0208",
+      "G01J 3/28",
+      "G01J 3/2823",
+      "G01J 3/45",
+      "G01M 3/00",
+      "G01M 3/38",
+      "G01N 21/314",
+      "G01N 2021/1793",
+      "G01N 2021/3531"
+    ],
+    "cpc": [],
+    "all": [
+      "G01N 21/00",
+      "G01N 21/17",
+      "G01N 21/25",
+      "G01N 21/31",
+      "G01N 21/35",
+      "G01N 21/3504",
+      "G01J 3/00",
+      "G01J 3/02",
+      "G01J 3/0205",
+      "G01J 3/0208",
+      "G01J 3/28",
+      "G01J 3/2823",
+      "G01J 3/45",
+      "G01M 3/00",
+      "G01M 3/38",
+      "G01N 21/314",
+      "G01N 2021/1793",
+      "G01N 2021/3531"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2016139261"
+}

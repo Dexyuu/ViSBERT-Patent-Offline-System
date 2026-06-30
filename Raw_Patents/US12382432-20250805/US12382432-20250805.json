@@ -1,0 +1,28 @@
+{
+  "title": "Method and apparatus for selecting carrier in wireless communication system",
+  "abstract": "The present disclosure relates to 5G (5th generation) or pre-5G communication systems to support the higher data rate after 4G (4th generation) communication systems such as LTE (Long Term Evolution). The present disclosure provides an apparatus and a method for effectively selecting a transmission carrier in a wireless communication system. The present disclosure relates to an operating method of a terminal in a wireless communication system, which including receiving configuration information from a base station and selecting a transmission carrier and a resource pool on the basis of the configuration information.",
+  "claims": "1. A method performed by a user equipment (UE) in a wireless communication system, the method comprising: receiving, from a base station, a first channel busy ratio (CBR) threshold, a second CBR threshold, and information on a sidelink channel priority associated with the first CBR threshold and the second CBR threshold; identifying a first CBR for a serving carrier and a second CBR for at least one candidate carrier; selecting a carrier having a lowest CBR among the at least one candidate carrier, in case that the first CBR is higher than the first CBR threshold associated with the sidelink channel priority and the second CBR is lower than the second CBR threshold associated with the sidelink channel priority; and selecting at least one resource of a resource pool associated with the carrier.",
+  "patent_id": "US12382432-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/02",
+      "H04L 5/001",
+      "H04W 72/0453",
+      "H04W 74/0816",
+      "H04W 76/27",
+      "H04W 72/23",
+      "H04W 74/0808"
+    ],
+    "all": [
+      "H04W 72/02",
+      "H04L 5/001",
+      "H04W 72/0453",
+      "H04W 74/0816",
+      "H04W 76/27",
+      "H04W 72/23",
+      "H04W 74/0808"
+    ],
+    "source": "converted"
+  }
+}

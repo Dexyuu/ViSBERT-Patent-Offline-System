@@ -1,0 +1,22 @@
+{
+  "title": "System and method for performing transaction aggregation in a network-on-chip (NoC)",
+  "abstract": "System and methods are disclosed for aggregating identical requests sent to a target from multiple initiators through a network-on-chip (NoC). The requests are marked for aggregation. The NoC uses request aggregators (RA) as an aggregation point to aggregate the identical requests that are marked for aggregation. At the aggregation point, the identical requests are reduced to a single request. The single request is sent to the target. The process is repeated in a cascaded fashion through the NoC, possibly involving multiple request aggregators. When a response transaction is received back from the target, which is at the aggregation point closest to the target, the response transaction is duplicated and sent to every original requester, either directly or through other request aggregators, which further duplicate the already duplicated response transaction.",
+  "claims": "1. A system comprising: a plurality of initiator intellectual property (IP) blocks for generating request transactions; at least one target IP block for generating responses to the request transactions; and a network-on-chip (NoC) in communication with the plurality of initiator IP blocks and the at least one target IP block, the NoC including: a plurality of initiator network interface units, each connected to one of the plurality of initiator IP blocks; at least one target network interface unit connected to the at least one target IP block; a plurality of switches connected to the plurality of initiator network interface units and the target network interface unit; and a plurality of request aggregators in communication with the plurality of switches, wherein at least one request aggregator of the plurality of request aggregators receives a plurality of request transactions from a first plurality of initiators IP blocks of the plurality of initiator IP blocks, each of the plurality of request transactions being marked for aggregation using at least a special identifier and each of the plurality of request transactions being intended for the at least one target IP block, and the at least one request aggregator then aggregates the plurality of request transactions into an aggregated request transaction that is sent to the at least one target IP block.",
+  "patent_id": "US12380055-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 15/7825",
+      "H04L 45/245",
+      "H04L 49/103",
+      "H04L 49/109"
+    ],
+    "all": [
+      "G06F 15/7825",
+      "H04L 45/245",
+      "H04L 49/103",
+      "H04L 49/109"
+    ],
+    "source": "converted"
+  }
+}

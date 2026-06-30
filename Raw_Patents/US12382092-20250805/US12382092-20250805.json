@@ -1,0 +1,22 @@
+{
+  "title": "Video signal processing method and apparatus",
+  "abstract": "Disclosed are a video signal processing method and apparatus for encoding or decoding a video signal. In more detail, the video signal processing method includes receiving intra prediction mode information for a current block, wherein the intra prediction mode information indicates one of a plurality of intra prediction modes configuring an intra prediction mode set; and decoding the current block based on the received intra prediction mode information, wherein the intra prediction mode set comprises a plurality of angle modes, and the plurality of angle modes comprises a basic angle mode and an extended angle mode, wherein the extended angle mode is signaled based on the basic angle mode.",
+  "claims": "1. A method for processing a video signal comprising: receiving intra prediction mode information for a current block indicating one of a plurality of intra prediction modes including a basic angle mode corresponding to an angle within a preset angle range; determining an extended angle mode based on a sum of an index of the basic angle mode corresponding to the intra prediction mode information and a predetermined offset; and obtaining a prediction sample of the current block based on the extended angle mode, wherein the extended angle mode indicates a wide angle direction outside the preset angle range.",
+  "patent_id": "US12382092-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/593",
+      "H04N 19/11",
+      "H04N 19/136",
+      "H04N 19/176"
+    ],
+    "all": [
+      "H04N 19/593",
+      "H04N 19/11",
+      "H04N 19/136",
+      "H04N 19/176"
+    ],
+    "source": "converted"
+  }
+}

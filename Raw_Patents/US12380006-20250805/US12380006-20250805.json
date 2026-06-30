@@ -1,0 +1,24 @@
+{
+  "title": "Anti-entropy-based metadata recovery in a strongly consistent distributed data storage system",
+  "abstract": "A strongly consistent distributed data storage system comprises an enhanced metadata service that is capable of fully recovering all metadata that goes missing when a metadata-carrying disk, disks, and/or partition fail. An illustrative recovery service runs automatically or on demand to bring the metadata node back into full service. Advantages of the recovery service include guaranteed full recovery of all missing metadata, including metadata still residing in commit logs, without impacting strong consistency guarantees of the metadata. The recovery service is network-traffic efficient. In preferred embodiments, the recovery service avoids metadata service downtime at the metadata node, thereby reducing the impact of metadata disk failure on the availability of the system. The disclosed metadata recovery techniques are said to be âself-healingâ as they do not need manual intervention and instead automatically detect failures and automatically recover from the failures in a non-disruptive manner.",
+  "claims": "1. A computer-implemented method comprising: by a first storage service node configured in a system, wherein the first storage service node comprises a first storage resource that stores first metadata: executing a metadata service that performs metadata input/output, detecting that the first storage resource failed, determining that replica metadata corresponding to the first metadata is stored at one or more second storage service nodes of the system, which are distinct from the first storage service node, retrieving the replica metadata corresponding to the first metadata from at least one of the one or more second storage service nodes, reconstructing the first metadata at the first storage service node, based on integrating the replica metadata corresponding to the first metadata into one or more data structures that are stored in a second storage resource configured at the first storage service node, and performing metadata input to and output from the second storage resource without restarting the metadata service at the first storage service node; wherein the first storage service node is configured to retain, for the second storage resource, a system-wide resource identifier that is assigned to the first storage resource, wherein retaining the system-wide resource identifier enables the first storage service node to continue performing metadata input/output while the first storage resource is out of service.",
+  "patent_id": "US12380006-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/2058",
+      "G06F 11/1435",
+      "G06F 11/1464",
+      "G06F 11/1469",
+      "G06F 11/2082"
+    ],
+    "all": [
+      "G06F 11/2058",
+      "G06F 11/1435",
+      "G06F 11/1464",
+      "G06F 11/1469",
+      "G06F 11/2082"
+    ],
+    "source": "converted"
+  }
+}

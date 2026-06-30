@@ -1,0 +1,26 @@
+{
+  "title": "Driving assistance method and system",
+  "abstract": "A method of assisting driving a vehicle. The method is implemented by a system including an HMD and a positioning module mounted on the vehicle, wherein the HMD includes a screen and a pair of video cameras located on opposite sides of the screen along a main length direction of the screen.",
+  "claims": "1. A method of assisting driving a vehicle implemented by a system comprising a head mounted display (HMD) and a positioning module mounted on the vehicle, wherein the HMD comprises a screen and a pair of video cameras located on opposite sides of the screen along a main length direction of the screen, the method comprising the steps of: a. acquiring a pair of images by the HMD, each image being acquired by a respective camera of the HMD and framing a same portion of field of view, said same portion of field of view comprising a portion of road surface; b. estimating a position in a three-dimensional space of each point comprised in the same portion of field of view based on the pair of acquired images and the characteristics of the cameras; c. estimating a volume of interest of the three-dimensional space comprising the portion of the road surface based on the pair of images acquired and a position determined by the positioning module in the contiguity of the acquisition of the pair of images; d. selecting a subset of points comprised in the same portion of the field of view and comprised in the volume of interest; e. calculating a planar surface (RS) corresponding to the road surface based on the estimated position of the points comprised in the subset of selected points, and g. reproducing a two-dimensional image on the screen of the HMD so that it is arranged on the planar surface corresponding to the road surface calculated in step e.",
+  "patent_id": "US12380610-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 11/00",
+      "G06T 7/593",
+      "G06T 7/74",
+      "G06T 2207/10012",
+      "G06T 2207/30244",
+      "G06T 2207/30252"
+    ],
+    "all": [
+      "G06T 11/00",
+      "G06T 7/593",
+      "G06T 7/74",
+      "G06T 2207/10012",
+      "G06T 2207/30244",
+      "G06T 2207/30252"
+    ],
+    "source": "converted"
+  }
+}

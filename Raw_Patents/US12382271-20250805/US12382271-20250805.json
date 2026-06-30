@@ -1,0 +1,26 @@
+{
+  "title": "Apparatus and method of system information transmission and reception on a carrier supporting multiple bandwidth parts",
+  "abstract": "The present disclosure relates to a communication method and system for converging a 5th-Generation (5G) communication system for supporting higher data rates beyond a 4th-Generation (4G) system with a technology for Internet of Things (IoT). The present disclosure may be applied to intelligent services based on the 5G communication technology and the IoT-related technology, such as smart home, smart building, smart city, smart car, connected car, health care, digital education, smart retail, security and safety services. The method for transmitting system information by a base station in a wireless communication system, the method comprising identifying whether an active downlink (DL) bandwidth part (BWP) of a user equipment (UE) is configured with common search space, and transmitting, to the UE, an updated system information in a dedicated signaling when the active DL BWP of the UE is not configured with the common search space",
+  "claims": "1. A method performed by a terminal in a wireless communication system, the method comprising: receiving, from a base station, a radio resource control (RRC) message including information associated with a contention free random access (CFRA) resource; identifying whether a synchronization signal block (SSB) with synchronization signal-reference signal received power (SS-RSRP) above a first threshold among at least one SSB associated with the CFRA resource is available, based on the information associated with the CFRA resource including first information on the at least one SSB; in response to identifying that the SSB with the SS-RSRP above the first threshold among the at least one SSB associated with the CFRA resource is available, selecting the SSB with the SS-RSRP above the first threshold; in response to identifying that the SSB with the SS-RSRP above the first threshold among SSBs is not available, selecting an SSB among the at least one SSB associated with the CFRA resource; and transmitting, to the base station, a first random access preamble corresponding to the selected SSB for performing a CFRA procedure.",
+  "patent_id": "US12382271-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 4/90",
+      "H04W 48/12",
+      "H04W 68/02",
+      "H04W 72/23",
+      "H04W 76/27",
+      "H04W 76/28"
+    ],
+    "all": [
+      "H04W 4/90",
+      "H04W 48/12",
+      "H04W 68/02",
+      "H04W 72/23",
+      "H04W 76/27",
+      "H04W 76/28"
+    ],
+    "source": "converted"
+  }
+}

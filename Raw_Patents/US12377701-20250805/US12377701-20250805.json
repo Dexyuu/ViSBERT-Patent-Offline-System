@@ -1,0 +1,20 @@
+{
+  "title": "System and method for estimating lateral acceleration",
+  "abstract": "Methods are provided for controlling various systems in a vehicle based on input signals from at least one physical sensor and at least one model of a vehicle or a portion of the vehicle. The controller may rely preferentially on one or the other inputs based on the frequency of a motion of the vehicle and the state of the vehicle or one or more portions of the vehicle.",
+  "claims": "1. A method for estimating a lateral acceleration of a vehicle, the method comprising: generating a first signal based on a measurement from a sensor at time T; computing the lateral acceleration of the vehicle with a model at the time T; generating a second signal based on the computation at the time T; generating an error signal based on a difference between the first signal and the second signal at the time T; filtering the error signal to generate a filtered signal; and estimating the lateral acceleration based on a sum of the filtered signal and the second signal.",
+  "patent_id": "US12377701-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60G 17/0182",
+      "B60G 17/01908",
+      "B60G 2400/104"
+    ],
+    "all": [
+      "B60G 17/0182",
+      "B60G 17/01908",
+      "B60G 2400/104"
+    ],
+    "source": "converted"
+  }
+}

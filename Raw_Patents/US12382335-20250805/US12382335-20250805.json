@@ -1,0 +1,18 @@
+{
+  "title": "User equipment (UE) and method for controlling congestion",
+  "abstract": "According to an aspect of the present invention, a mobile terminal apparatus and an intra-core network apparatus do not enable congestion control during connection of a mobile terminal apparatus to a non-public network (NPN) in 5GS. Alternatively, during connection of the mobile terminal apparatus to the NPN in 5GS, the mobile terminal apparatus and the intra-core network apparatus enable congestion control only in a public land mobile network (PLMN) specific to the congestion control to provide a congestion control method in an NAS level to the mobile terminal apparatus being connected to the non-public network (NPN) and the intra-core network apparatus in 5GS.",
+  "claims": "1. A User Equipment (UE) comprising: a controller; and a transmission and reception circuitry, wherein the transmission and reception circuitry receives a 5G session management (5GSM) cause value #26 to start a timer T3396 for a Data Network Name (DNN) based congestion control, and receives a back-off timer value, the controller is configured to start the timer T3396 with the back-off timer value, the 5GSM cause value #26 indicates insufficient resources, and the timer T3396 is started on a per DNN and Stand-alone Non-Public Network (SNPN) basis after determining that the UE is in an SNPN.",
+  "patent_id": "US12382335-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 28/0289",
+      "H04W 76/20"
+    ],
+    "all": [
+      "H04W 28/0289",
+      "H04W 76/20"
+    ],
+    "source": "converted"
+  }
+}

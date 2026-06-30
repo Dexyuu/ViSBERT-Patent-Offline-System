@@ -1,0 +1,32 @@
+{
+  "title": "Antenna device, feed device, and feed method",
+  "abstract": "An antenna device includes circuitry to acquire, based on a second position, an elevation angle of a projected position that is obtained by projecting a first position onto a second plane including a first axis and a third axis, the elevation angle being relative to the third axis of the second plane. The circuitry controls a phase adjuster such that a direction of a beam defines the elevation angle for the second plane, based on phase data that is retrieved according to acquired elevation angle, and performs power ramping on at least one given transmission power signal.",
+  "claims": "1. An antenna device comprising: an array antenna including multiple antenna elements that are bidimensionally arranged along a first axis and a second axis; a phase adjuster configured to adjust phases of transmission power signals that are respectively supplied by the multiple antenna elements, with respect to a first axis direction; an image acquiring device configured to acquire an image through a fisheye lens; circuitry configured to convert a first position of a marker that is included in the acquired image, into a second position of polar coordinates on a first plane that includes the first axis and the second axis, the first position being used in the image acquiring device; and acquire, based on the second position, an elevation angle of a projected position that is obtained by projecting the first position onto a second plane including the first axis and a third axis, the elevation angle being relative to the third axis of the second plane; and a storage that stores multiple sets of phase data for respective elevation angles, the phase data indicating phases in which the transmission power signals are transmitted by the respective antenna elements to a power receiver that is situated at a position of the marker, the phases being adjusted such that the adjusted phases of the transmission power signals that are received by the antenna elements are matched, wherein the circuitry is configured to retrieve, from the storage, the phase data in association with the acquired elevation angle, and control the phase adjuster such that a direction of a beam, emitted by the array antenna based on the retrieved phase data, defines the elevation angle for the second plane; and perform power ramping on at least one given transmission power signal among the transmission power signals, in a case where the phase adjuster adjusts the phases of the transmission power signals.",
+  "patent_id": "US12381421-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02J 50/20",
+      "G06T 3/047",
+      "G06T 7/50",
+      "G06T 7/66",
+      "G06T 7/74",
+      "H01Q 3/2652",
+      "H01Q 21/061",
+      "H02J 50/402",
+      "G06T 2207/30204"
+    ],
+    "all": [
+      "H02J 50/20",
+      "G06T 3/047",
+      "G06T 7/50",
+      "G06T 7/66",
+      "G06T 7/74",
+      "H01Q 3/2652",
+      "H01Q 21/061",
+      "H02J 50/402",
+      "G06T 2207/30204"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Independent safety monitoring of an automated driving system",
+  "abstract": "An automated driving system includes a security companion subsystem to access data generated at a compute subsystem of the automated driving system, which indicates a determination by the compute subsystem associated with an automated driving task. The security companion subsystem determines whether the determination is safe based on the data. The security companion subsystem is configured to realize a higher safety integrity level than the compute subsystem.",
+  "claims": "1. An apparatus comprising: a security companion subsystem of an automated driving system of a vehicle, the security companion subsystem comprising: a first processor device; first memory; one or more interfaces to couple the security companion subsystem to a compute subsystem of the automated driving system; a safety monitor, executed by the first processor device, to: access data generated at the compute subsystem, wherein the data corresponds to a determination by the compute subsystem associated with an automated driving task to be performed by the vehicle as directed by the automated driving system, wherein the determination is made by an automated driving application executed by a second processor device on the compute subsystem, wherein the second processor device is separate and independent from the first processor device; detect a fault in the compute subsystem based on the data; and trigger an action, based on the fault, to cause the automated driving task to be safely performed, wherein an overall safety integrity rating for the security companion subsystem is higher than an overall safety integrity rating for the compute subsystem based on characteristics of hardware of the security companion subsystem.",
+  "patent_id": "US12377867-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 50/023",
+      "B60W 50/0205",
+      "G05D 1/0055",
+      "G05D 1/0088",
+      "G06F 11/1641",
+      "G07C 5/0816",
+      "B60W 2050/021"
+    ],
+    "all": [
+      "B60W 50/023",
+      "B60W 50/0205",
+      "G05D 1/0055",
+      "G05D 1/0088",
+      "G06F 11/1641",
+      "G07C 5/0816",
+      "B60W 2050/021"
+    ],
+    "source": "converted"
+  }
+}

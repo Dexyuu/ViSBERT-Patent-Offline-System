@@ -1,0 +1,26 @@
+{
+  "title": "Multi-lens video recording method and related device",
+  "abstract": "A multi-lens video recording method and a main control device are disclosed. The method includes: performing collaborative photographing through a plurality of cameras, determining a target camera movement mode based on main subject information in images obtained through photographing and motion information of the cameras, and then fusing, based on the target camera movement mode, the images obtained through photographing by using the plurality of cameras, to implement online camera movement fusion on the plurality of video stream images.",
+  "claims": "1. A multi-lens video recording method, comprising: obtaining a plurality of first images and a plurality of second images, wherein the plurality of first images and the plurality of second images are respectively obtained through photographing a same photographed object by using a first camera and a second camera, and at least one parameter is different between the first camera and the second camera; obtaining motion information of the first camera in a process of obtaining the plurality of first images through photographing; obtaining main subject information in each of the plurality of first images; determining a target camera movement mode based on the motion information of the first camera and the main subject information in each of the plurality of first images; and fusing the plurality of first images and the plurality of second images based on the target camera movement mode, to obtain the target video, wherein the determining a target camera movement mode based on the motion information of the first camera and the main subject information in each of the plurality of first images comprises: determining, based on the motion information of the first camera, whether the first camera is displaced in the process of obtaining the plurality of first images; determining the target camera movement mode based on the main subject information in each of the plurality of the first images after determining that the first camera is not displaced; and determining the target camera movement mode based on a motion manner of the first camera and the main subject information in each of the plurality of first images after determining that the first camera is displaced.",
+  "patent_id": "US12382172-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 23/683",
+      "H04N 5/265",
+      "H04N 23/61",
+      "H04N 23/667",
+      "H04N 23/681",
+      "H04N 23/95"
+    ],
+    "all": [
+      "H04N 23/683",
+      "H04N 5/265",
+      "H04N 23/61",
+      "H04N 23/667",
+      "H04N 23/681",
+      "H04N 23/95"
+    ],
+    "source": "converted"
+  }
+}

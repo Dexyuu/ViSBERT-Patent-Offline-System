@@ -1,0 +1,28 @@
+{
+  "title": "Systems and methods for customizing and compositing a video feed at a client device",
+  "abstract": "An embodiment of a process for providing a customized composite video feed at a client device includes receiving a background video feed from a remote server, receiving (via the communications interface) content associated with one or more user-specific characteristics, and determining one or more data elements based at least in part on the received content. The process includes generating a composite video feed customized to the one or more user-specific characteristics including by matching at least corresponding portions of the one or more data elements to corresponding portions of the background video feed, and displaying the composite video feed on a display device of the client device.",
+  "claims": "1. A device comprising: a communications interface; and a processor coupled to the communications interface, the processor configured to: receive a background video feed from a remote server, wherein the background video feed is associated with a sporting event; determine a first time stamp of a first frame of the background video feed; query a remote system for data elements, wherein the query includes a dynamic limitation on a quantity of data to be transmitted, wherein the dynamic limitation is based at least in part on the determined first time stamp and a bandwidth of a client device; generate a video feed customized to a user based at least in part on (i) the background video feed, and (ii) a user-specific data, including by selecting a target object included in the data elements based at least in part on the user-specific data; and provide the video feed customized to the user to be displayed on a display device connected to the client device.",
+  "patent_id": "US12382126-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/4312",
+      "H04N 5/272",
+      "H04N 21/2187",
+      "H04N 21/44",
+      "H04N 21/4532",
+      "H04N 21/472",
+      "H04N 21/8547"
+    ],
+    "all": [
+      "H04N 21/4312",
+      "H04N 5/272",
+      "H04N 21/2187",
+      "H04N 21/44",
+      "H04N 21/4532",
+      "H04N 21/472",
+      "H04N 21/8547"
+    ],
+    "source": "converted"
+  }
+}

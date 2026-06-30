@@ -1,0 +1,26 @@
+{
+  "title": "Method and apparatus for configuring transmission priority for direct communication in wireless communication system",
+  "abstract": "A method, performed by a user equipment (UE), in a wireless communication system includes: obtaining sidelink logical channel configuration information corresponding to a logical channel and including a sidelink logical channel priority (sl-priority) parameter; selecting a destination associated with one of unicast, groupcast, and broadcast, based on the sidelink logical channel configuration information and sl-priority configured for each of at least one logical channel including sidelink data available for transmission; allocating sidelink resources to at least one logical channel corresponding to the destination based on the sl-priority configured for each of the at least one logical channel corresponding to the destination; multiplexing sidelink data included in the at least one logical channel corresponding to the destination to a medium access control (MAC) protocol data unit (PDU); and transmitting the MAC PDU to another UE using the sidelink resources.",
+  "claims": "1. A method, performed by a user equipment (UE), in a wireless communication system, the method comprising: obtaining sidelink logical channel configuration for a plurality of logical channels including sidelink logical channel priority (sl-priority) information for the plurality of logical channels and allowed configured grant index information for one or more logical channels of the plurality of logical channels; selecting a destination associated with one of unicast, groupcast, or broadcast having a logical channel with a highest priority which is identified based on the sidelink logical channel configuration for the plurality of logical channels, for a sidelink grant; selecting at least one logical channel whose allowed configured grant index information is associated with the sidelink grant, among logical channels corresponding to the selected destination, based on the sidelink logical channel configuration for the plurality of logical channels; allocating sidelink resources for the sidelink grant to the at least one logical channel in a decreasing priority order; and transmitting sidelink data associated with the at least one logical channel using the allocated sidelink resource.",
+  "patent_id": "US12382485-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/56",
+      "H04W 28/0263",
+      "H04W 28/0268",
+      "H04W 76/14",
+      "H04W 80/02",
+      "H04W 92/18"
+    ],
+    "all": [
+      "H04W 72/56",
+      "H04W 28/0263",
+      "H04W 28/0268",
+      "H04W 76/14",
+      "H04W 80/02",
+      "H04W 92/18"
+    ],
+    "source": "converted"
+  }
+}

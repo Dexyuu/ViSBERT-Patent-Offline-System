@@ -1,0 +1,24 @@
+{
+  "title": "Joint failure of component carrier (CC) groups",
+  "abstract": "Certain aspects of the present disclosure provide techniques for beam failure detection and recovery. A method that may be performed by a user equipment (UE) includes monitoring one or more reference signals for beam failure detection for a plurality of component carriers (CCs), detecting a beam failure for a subset of one or more CCs of the plurality of CCs based on the one or more reference signals, generating a beam failure recovery request (BFRQ) indicating that a beam failure has occurred for the plurality of CCs in response to the detection of the beam failure for the subset of one or more CCs, and transmitting the BFRQ.",
+  "claims": "1. A method for wireless communication by a user-equipment (UE), comprising: determining a plurality of component carriers (CCs) for grouping based on UE capability, wherein the plurality of CCs are associated with a plurality of control resource sets (CORESETs) having quasi-co location (QCL) properties; transmitting an indication of the plurality of CCs that have been grouped to a network entity; monitoring one or more reference signals for beam failure detection for one or more subsets of CCs of the plurality of CCs that have distinct QCL properties; detecting a beam failure for each of the one or more subsets of CCs that have the distinct QCL properties based on the one or more reference signals, wherein the beam failure for each of the one or more subsets of CCs indicates a beam failure for the plurality of CCs; generating a beam failure recovery request (BFRQ) indicating that the beam failure has occurred for the plurality of CCs in response to the detection of the beam failure for the subset of CCs of the plurality of CCs; and transmitting the BFRQ.",
+  "patent_id": "US12382317-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 7/088",
+      "H04L 5/005",
+      "H04W 24/08",
+      "H04W 72/53",
+      "H04L 5/001"
+    ],
+    "all": [
+      "H04B 7/088",
+      "H04L 5/005",
+      "H04W 24/08",
+      "H04W 72/53",
+      "H04L 5/001"
+    ],
+    "source": "converted"
+  }
+}

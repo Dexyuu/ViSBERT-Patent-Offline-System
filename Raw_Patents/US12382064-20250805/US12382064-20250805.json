@@ -1,0 +1,42 @@
+{
+  "title": "Coding of significance maps and transform coefficient blocks",
+  "abstract": "A higher coding efficiency for coding a significance map indicating positions of significant transform coefficients within a transform coefficient block is achieved by the scan order by which the sequentially extracted syntax elements indicating, for associated positions within the transform coefficient block, as to whether at the respective position a significant or insignificant transform coefficient is situated, are sequentially associated to the positions of the transform coefficient block, among the positions of the transform coefficient block depends on the positions of the significant transform coefficients indicated by previously associated syntax elements. Alternatively, the first-type elements may be context-adaptively entropy decoded using contexts which are individually selected for each of the syntax elements dependent on a number of significant transform coefficients in a neighborhood of the respective syntax element, indicated as being significant by any of the preceding syntax elements.",
+  "claims": "1. An apparatus for decoding a transform coefficient block, the apparatus comprising: a decoder configured to extract, from a data stream, a significance map that indicates positions of significant transform coefficients within the transform coefficient block, and the significant transform coefficients within the transform coefficient block; and an associator configured to associate the significant transform coefficients with their respective positions in the transform coefficient block, wherein transform coefficients within each of a plurality of sub-blocks of the transform coefficient block are scanned in a position sub-scan order, and each sub-block includes information about a plurality of pixels, wherein the decoder is configured to use, in extracting the significant transform coefficients, context-adaptive entropy decoding such that each of the plurality of sub-blocks is entropy decoded using one or more contexts determined for that sub-block separately from the other of the plurality of sub-blocks, and wherein, for entropy decoding the significant transform coefficients of a sub-block of the plurality of sub-blocks, a selected set of contexts from a plurality of sets of contexts is determined based on a specific value related to one or more of the significant transform coefficients of a previously traversed sub-block of the transform coefficient block, wherein the specific value depends on a number of significant transform coefficients of all previously traversed sub-blocks in a predetermined neighborhood of the sub-block.",
+  "patent_id": "US12382064-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/18",
+      "H04N 19/124",
+      "H04N 19/129",
+      "H04N 19/13",
+      "H04N 19/136",
+      "H04N 19/139",
+      "H04N 19/176",
+      "H04N 19/46",
+      "H04N 19/50",
+      "H04N 19/51",
+      "H04N 19/59",
+      "H04N 19/61",
+      "H04N 19/70",
+      "H04N 19/91"
+    ],
+    "all": [
+      "H04N 19/18",
+      "H04N 19/124",
+      "H04N 19/129",
+      "H04N 19/13",
+      "H04N 19/136",
+      "H04N 19/139",
+      "H04N 19/176",
+      "H04N 19/46",
+      "H04N 19/50",
+      "H04N 19/51",
+      "H04N 19/59",
+      "H04N 19/61",
+      "H04N 19/70",
+      "H04N 19/91"
+    ],
+    "source": "converted"
+  }
+}

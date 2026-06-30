@@ -1,0 +1,26 @@
+{
+  "title": "Address generation method, blockchain information processing method, and related device",
+  "abstract": "Embodiments of this disclosure disclose an address generation method which includes: a first blockchain node generates a shared key based on a private key of a first blockchain node and a first public key of a second blockchain node, generates a temporary first public key address of the second blockchain node based on the shared key and first transaction content, and writes first transaction information into a blockchain, where the first transaction information includes a public key address of the first blockchain node, the first public key address, and first transaction content between the first blockchain node and the second blockchain node; and the first public key address needs to be verified by using the shared key, and a recipient may also generate the shared key by using a public key of the first blockchain node and a first private key of the second blockchain node, to verify the transaction information.",
+  "claims": "1. An address generation method performed by a computer processor of a first blockchain node, and the method comprises: generating a shared key based on a private key of the first blockchain node and a first public key of a second blockchain node; generating a first public key address of the second blockchain node based on the shared key and first transaction content; and writing first transaction information into a blockchain, wherein the first transaction information comprises a public key address of the first blockchain node, the first public key address, and the first transaction content, wherein the first transaction content is content of a transaction between the first blockchain node and the second blockchain node, the first transaction information written into the blockchain is verifiable based on the first public key address, the first public key address is verifiable based on the shared key, and the shared key is generatable based on a public key of the first blockchain node and a first private key of the second blockchain node, and wherein the first blockchain node and the second blockchain node each has one set of fixed keys comprising one long-term private key and one long-term public key, wherein the private key of the first blockchain node is a long-term private key of the first blockchain node in the one set of fixed keys of the first blockchain node, the first public key of the second blockchain node is a long-term public key of the second blockchain node in the one set of fixed keys of the second blockchain node, the public key of the first blockchain node is a long-term public key of the first blockchain node in the one set of fixed keys of the first blockchain node, and the first private key of the second blockchain node is a long-term private key of the second blockchain node in the one set of fixed keys of the second blockchain node; or the first blockchain node and the second blockchain node each has two sets of fixed keys comprising a first set of fixed keys and a second set of fixed keys, the first set of fixed keys comprises one long-term private key and one long-term public key, the second set of fixed keys comprises one scanning private key and one scanning public key, the private key of the first blockchain node is a long-term private key of the first blockchain node in the first set of keys of the first blockchain node, the first public key of the second blockchain node is a scanning public key of the second blockchain node in the second set of keys of the second blockchain node, the public key of the first blockchain node is a long-term public key of the first blockchain node in the first set of keys of the first blockchain node, and the first private key of the second blockchain node is a scanning private key of the second blockchain node in the second set of keys of the second blockchain node.",
+  "patent_id": "US12380442-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/3829",
+      "G06Q 20/02",
+      "G06Q 20/3827",
+      "H04L 9/0841",
+      "H04L 9/0861",
+      "H04L 9/50"
+    ],
+    "all": [
+      "G06Q 20/3829",
+      "G06Q 20/02",
+      "G06Q 20/3827",
+      "H04L 9/0841",
+      "H04L 9/0861",
+      "H04L 9/50"
+    ],
+    "source": "converted"
+  }
+}

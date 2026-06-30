@@ -1,0 +1,22 @@
+{
+  "title": "Modeling inverter outputs for PV systems",
+  "abstract": "A method may include receiving equipment parameters of the PV power plant including PV parameters of one or more PV arrays and inverter parameters of one or more inverters, and generating a prediction of the output of the PV power plant by generating a prediction of an output of the one or more PV arrays based on the PV parameters and environmental factors including solar irradiance and weather, selecting a first inverter response curve from a first set of inverter response curves and a second inverter response curve from a second set of inverter response curves, and generating, using the first inverter response curve, the second inverter response curve, the one or more of the environmental factors, and the prediction of the output of the one or more PV arrays, a prediction of the output of the one or more inverters.",
+  "claims": "1. A method for generating a prediction of an output of a photovoltaic (PV) power plant, the method comprising: determining a predicted output voltage of PV arrays of the PV power plant based on parameters of the PV arrays of the PV power plant, and environmental factors including a predicted irradiance on the PV arrays and a predicted ambient temperature; executing an inverter efficiency model using as input the predicted output voltage of the PV arrays, the predicted ambient temperature, and parameters of inverters of the PV power plant electrically coupled to the PV arrays to predict an output voltage and an output current of the inverters; executing an inverter derate model using as input the predicted output voltage and the predicted output current of the inverters of the PV power plant to generate derate factors for the inverters of the PV power plant; applying, by the inverter derate model, the derate factors for the inverters of the PV power plant to the predicted output voltage and the predicted output current of the inverters to predict a modified output voltage and a modified output current of the inverters; and controlling one or more operational parameters of the PV power plant based on the prediction of the modified output voltage and the modified output current of the inverters of the PV power plant.",
+  "patent_id": "US12381393-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02J 3/004",
+      "H02J 3/381",
+      "H02J 2203/20",
+      "H02J 2300/24"
+    ],
+    "all": [
+      "H02J 3/004",
+      "H02J 3/381",
+      "H02J 2203/20",
+      "H02J 2300/24"
+    ],
+    "source": "converted"
+  }
+}

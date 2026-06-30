@@ -1,0 +1,18 @@
+{
+  "title": "Downlink control channel monitoring in new radio unlicensed band",
+  "abstract": "A wireless device receives radio resource control messages including a first bitmap, of frequency allocation of a search space (SS), with each bit indicating whether frequency resources of the SS are mapped to a respective resource block (RB) set of RB sets of a bandwidth part. Based on the first bitmap indicating that the SS is mapped to first RB sets of the RB sets, a physical downlink control channel (PDCCH) is monitored via the SS in the first RB sets. A first downlink control information is received that includes a second bitmap, of RB set indication, with each bit indicating whether a respective RB set, of the RB sets, is available for downlink reception. Based on the first bitmap and based on the second bitmap indicating a second RB set of the first RB sets as being available for downlink reception, the PDCCH is monitored via the SS in the second RB set.",
+  "claims": "1. A method comprising: receiving, by a wireless device, radio resource control (RRC) messages comprising a first bitmap of frequency allocation of a search space (SS), wherein each bit of the first bitmap indicates whether frequency resources of the SS are mapped to a respective resource block (RB) set of RB sets of a bandwidth part (BWP); monitoring, based on the first bitmap indicating that the SS is mapped to first RB sets of the RB sets, a physical downlink control channel (PDCCH) via the SS on the first RB sets; receiving a first downlink control information (DCI) comprising a second bitmap of RB set indication, wherein each bit of the second bitmap indicates whether a respective RB set, of the RB sets, is available for downlink reception; and monitoring, based on the first bitmap and based on the second bitmap indicating a second RB set of the first RB sets as being available for downlink reception, the PDCCH via the SS on the second RB set.",
+  "patent_id": "US12382466-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/23",
+      "H04W 72/1273"
+    ],
+    "all": [
+      "H04W 72/23",
+      "H04W 72/1273"
+    ],
+    "source": "converted"
+  }
+}

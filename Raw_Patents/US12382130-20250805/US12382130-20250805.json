@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for decoding multiple symbols per clock cycle",
+  "abstract": "To improve video parser performance and reduce bottleneck, a video parser may parse a video stream to decode multiple symbols per clock cycle. By decoding multiple symbols per clock cycle, the video parser may decode symbols more quickly and efficiently compared to decoding one symbol per clock cycle, and thus may be less likely to act as a bottleneck for remaining video decoding operations.",
+  "claims": "1. An electronic device, comprising: a video parser configured to receive an encoded video bitstream; and a video decoder configured to receive the encoded video bitstream from the video parser and decode the encoded video bitstream, the video decoder comprising: a cumulative distribution function (CDF) lookup table; and multiple symbol decoders sharing access to the CDF lookup table and configured to use the CDF lookup table to decode multiple coefficient base symbols per clock cycle.",
+  "patent_id": "US12382130-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/4402",
+      "G06F 1/03",
+      "H04N 21/44008"
+    ],
+    "all": [
+      "H04N 21/4402",
+      "G06F 1/03",
+      "H04N 21/44008"
+    ],
+    "source": "converted"
+  }
+}

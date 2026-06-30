@@ -1,0 +1,24 @@
+{
+  "title": "3D generation of diverse categories and scenes",
+  "abstract": "A three-dimensional (3D) scene is generated from non-aligned generic camera priors by producing a tri-plane representation for an input scene received in random latent code, obtaining a camera posterior including posterior parameters representing color and density data from the random latent code and from generic camera priors without alignment assumptions, and volumetrically rendering an image of the input scene from the color and density data to provide a scene having pixel colors and depth values from an arbitrary camera viewpoint. A depth adaptor processes depth values to generate an adapted depth map that bridges domains of rendered and estimated depth maps for the image of the input scene. The adapted depth map, color data, and scene geometry information from an external dataset are provided to a discriminator for selection of a 3D representation of the input scene.",
+  "claims": "1. A method of generating a three-dimensional (3D) object or scene from non-aligned generic camera priors, the method comprising: producing, by a 3D scene generator, a tri-plane representation for an input scene received in random latent code; obtaining, by a camera generator, a camera posterior including posterior parameters representing color and density data from the random latent code and from generic camera priors without alignment assumptions of the generic camera priors; volumetrically rendering, by a volume renderer, an image of the input scene from the color and density data to provide a scene having pixel colors and depth values from an arbitrary camera viewpoint; processing, by a depth adaptor, the depth values to generate an adapted depth map that bridges domains of rendered and estimated depth maps for the image of the input scene; providing the adapted depth map and color data to a discriminator; providing external scene geometry information from an external dataset to the discriminator; and selecting, by the discriminator, a 3D representation of the input scene based on the color data, adapted depth map, and external scene geometry information.",
+  "patent_id": "US12380640-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 17/00",
+      "G06T 7/50",
+      "G06T 7/90",
+      "G06V 10/82",
+      "G06T 2207/10024"
+    ],
+    "all": [
+      "G06T 17/00",
+      "G06T 7/50",
+      "G06T 7/90",
+      "G06V 10/82",
+      "G06T 2207/10024"
+    ],
+    "source": "converted"
+  }
+}

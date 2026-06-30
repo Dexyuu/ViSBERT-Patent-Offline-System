@@ -1,0 +1,16 @@
+{
+  "title": "Transactionally deterministic high speed financial exchange having improved, efficiency, communication, customization, performance, access, trading opportunities, credit controls, and fault tolerance",
+  "abstract": "The disclosed embodiments relate to implementation of a trading system, which may also be referred to as a trading system architecture, having improved performance which further assures transactional determinism under increasing processing transaction loads while providing improved trading opportunities, fault tolerance, low latency processing, high volume capacity, risk mitigation and market protections with minimal impact, as well as improved and equitable access to information and opportunities.",
+  "claims": "1. A system comprising: a processor external to first and second hardware match engines and coupled therewith via an electronic communications network, each of the first and second hardware match engines comprising a database exclusively accessible by that hardware match engine and which stores data indicative of orders previously received thereby which remain unsatisfied, the processor further coupled with a memory which stores computer executable instructions which, when executed by the processor, cause the processor to: receive data indicative of each of the first and second hardware match engines' attempts to satisfy incoming orders received thereby for a transaction of at least one financial instrument, and store the received data in the memory as representative of all unsatisfied orders stored in the databases of the first and second hardware match engines; identify, using the data stored in the memory when the received data is indicative of one of the first and second hardware match engines being unable to fully satisfy an incoming order received thereby, data stored in the memory indicative of any unsatisfied orders stored in the database of one or more of the other of the first and second match engines, where a transaction between the incoming order and any of the identified unsatisfied orders would at least partially satisfy the incoming order; generate, based on the identification, at least one synthetic counter order for a transaction counter to the one or more of the identified unsatisfied orders, and communicate, via the electronic communications network, the generated at least one synthetic counter order to the one or more other of the first and second hardware match engines which is operative to process the synthetic counter order in a same manner as an incoming order received thereby, wherein the processing of the synthetic counter order against the one or more of the identified unsatisfied orders at least partially satisfies both the identified unsatisfied orders and the incoming order received by the one of the first and second hardware match engines; and communicate a notification to the one of the first and second hardware match engines comprising data indicative of the at least partial satisfaction of the incoming order received thereby by the identified unsatisfied orders.",
+  "patent_id": "US12380500-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 40/04"
+    ],
+    "all": [
+      "G06Q 40/04"
+    ],
+    "source": "converted"
+  }
+}

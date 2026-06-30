@@ -1,0 +1,16 @@
+{
+  "title": "Modeling cyberspace operations and operation effectiveness",
+  "abstract": "A method, system, and computer-readable media for modeling cyberspace operations and the effects thereof. Network and connectivity data for an operational environment model may be retrieved from a network scan. Likelihood data that a network element takes a plurality of possible configurations may be mapped. Determination of a probability of effect of a capability acting on the network element may be based on the likelihood data and uncertainties associated with the capability. Multiple attacks within the operational environment model may be modeled to determine an attack path therethrough. Functional modeling techniques to model functional impacts of attacks on an operational environment model are also disclosed.",
+  "claims": "1. One or more non-transitory computer-readable media storing computer-executable instructions that, when executed by at least one processor, perform a method of simulating a cyberspace operation on an operational environment model, comprising: receiving network and connectivity data for modeling the operational environment model, the operational environment model comprising a plurality of network elements, wherein each network element of the plurality of network elements comprises one or more possible configurations; calculating, based on a first likelihood of a network element having each of the one or more possible configurations, an effect probability for a capability acting on the network element; calculating, based on a second likelihood of a successive network element having each of the one or more possible configurations and on a state of a preceding network element, at least one additional effect probability for at least one successive network element to obtain a plurality of effect probabilities; calculating, based on the plurality of effect probabilities, a success probability for the cyberspace operation on the operational environment model; and generating an attack graph for the operational environment model based on the success probability, the attack graph comprising an attack path through the operational environment model corresponding to the success probability.",
+  "patent_id": "US12381903-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1433"
+    ],
+    "all": [
+      "H04L 63/1433"
+    ],
+    "source": "converted"
+  }
+}

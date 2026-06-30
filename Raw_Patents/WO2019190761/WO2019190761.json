@@ -1,0 +1,21 @@
+{
+  "application_id": "WO2019190761",
+  "application_id_fs": null,
+  "title": "Wireless satellite sensor",
+  "abstract": "A system including a plurality of sensors and a control unit. The plurality of sensors may each comprise a communication device and be configured to monitor information corresponding to a vehicle, generate data signals in response to the information and communicate the data signals. The control unit may be configured to receive the data signals from each of the sensors, interpret the data signals, determine a corrective measure in response to the data signals and generate output signals. The communication device may implement wireless communication. The control unit may receive the data signals wirelessly. The wireless communication may enable the control unit to receive the data signals from the plurality of sensors asynchronously.",
+  "claims": "Claims 1. A system comprising: a plurality of sensors each (a) comprising a communication device and (b) configured to (i) monitor information corresponding to a vehicle, (ii) generate data signals in response to said information and (iii) communicate said data signals; and a control unit configured to (i) receive said data signals from each of said sensors, (ii) interpret said data signals, (iii) determine a corrective measure in response to said data signals and (iv) generate output signals, wherein (a) said communication device implements wireless communication, (b) said control unit receives said data signals wirelessly and (c) said wireless communication enables said control unit to receive said data signals from said plurality of sensors asynchronously. 2. The system according to claim 1, wherein said control unit comprises a multi-channel input interface configured to receive said data signals asynchronously. 3. The system according to claim 1 , wherein each of said sensors comprise a wired connection to a power source. 4. The system according to claim 3, wherein (i) said vehicle provides a plurality of power sources and (ii) one or more of said sensors receive power from a nearest one of said power sources. 5. The system according to claim 3, wherein said wired connection to said sensors is only used for power. 6. The system according to any one of claims 1 to 5, wherein said wireless communication transmits said data signals faster than a wired protocol. 7. The system according to claim 6, wherein implementing said wireless communication reduces a power demand compared to said wired protocol. 8. The system according to claim 6, wherein said wired protocol is a Peripheral Sensor Interface 5 (PSI5) standard. 9. The system according to claim 6, wherein implementing said wireless communication reduces at least one of (a) a weight and (b) a wire routing complexity for communicating said data signals compared to said wired protocol. 10. The system according to claim 1 , wherein (i) said wireless communication prevents crosstalk when communicating said data signals and (ii) said crosstalk prevention improves a data integrity of said data signals. 11. The system according to claim 1 , wherein said wireless communication is implemented according to at least one of a 802.1 lac protocol, a 802.1 lb protocol, a Bluetooth protocol, a ZigBee protocol and a Z-Wave protocol. 12. The system according to claim 1, wherein said wireless communication enables transmission of said data signals at a rate of approximately 2MHz. 13. The system according to claim 1 , wherein said output signals are presented to one or more actuators configured to perform said corrective measure. 14. The system according to claim 1, wherein said sensors (i) implement peripheral satellite sensors for said vehicle and (ii) are configured to detect an impact. 15. The system according to any one of claims 7 to 14, wherein (i) each of said sensors is configured to initiate said wireless communication of said data signals to said control unit and (ii) said wireless communication reduces a number of input pins for said control unit.",
+  "classifications": {
+    "ipc": [
+      "H04W 4/48",
+      "H04L 29/08",
+      "B60R 16/023"
+    ],
+    "cpc": [],
+    "all": [
+      "H04W 4/48",
+      "H04L 29/08",
+      "B60R 16/023"
+    ],
+    "source": "csv"
+  }
+}

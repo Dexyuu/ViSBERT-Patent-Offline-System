@@ -1,0 +1,22 @@
+{
+  "title": "Processor interrupt expansion feature",
+  "abstract": "An embodiment of an integrated circuit may comprise a processor with one or more cores and circuitry coupled to the one or more cores, the circuitry to control one or more interrupts based on an interrupt expansion data structure, and report information derived from the interrupt expansion data structure to a software interrupt handler. Other embodiments are disclosed and claimed.",
+  "claims": "1. An integrated circuit, comprising: a processor to be coupled to a memory, the processor comprising one or more cores and circuitry coupled to the one or more cores, the circuitry to: receive a hardware interrupt comprising: a first vector which is to indicate a class or interrupts; and a first index which is to identify a bit location; and based on the hardware interrupt: access the memory, based on the first vector, to identify a first entry of one or more tables which are to comprise multiple entries which are each indexed based on a different respective vector, and which each indicate a respective one of multiple posted-interrupt data structures (PIDs) at the memory, wherein the multiple PIDs are each to comprise: a respective bitmap comprising bits which each correspond to a different respective one of multiple interrupt sources; and an identifier of a respective target processor of multiple processors; identify a first posted-interrupt data structure (PID) of the multiple PIDs based on the first entry, wherein the first PID comprises a first bitmap, and wherein the first PID identifies a first target processor; access a bit of the first bitmap based on the first index; deliver an interrupt to a software interrupt handler; and provide event information to the first target processor based on the bit of the first bitmap.",
+  "patent_id": "US12379956-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/4812",
+      "G06F 9/327",
+      "G06F 9/461",
+      "G06F 13/24"
+    ],
+    "all": [
+      "G06F 9/4812",
+      "G06F 9/327",
+      "G06F 9/461",
+      "G06F 13/24"
+    ],
+    "source": "converted"
+  }
+}

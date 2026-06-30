@@ -1,0 +1,16 @@
+{
+  "title": "Random access response method and apparatus",
+  "abstract": "Embodiments of this application provide a random access response method and an apparatus. The method includes: RARs associated with one RO are transmitted based on groups, so that a transport block size of RAR data transmitted each time is reduced, and N bits in DCI format 1_0 of CRC are scrambled by using a RA-RNTI to indicate scheduling information of N RAR groups in a PDSCH. Alternatively, DCI format 1_0 of CRC is scrambled by using identifiers of RAR groups, to correspondingly schedule the RAR groups in the PDSCH. According to this application, a problem of a large transport block caused by a large quantity of RARs being transmitted in a PDSCH can be avoided, so that a modulation order or a bit rate is reduced, and demodulation performance of a terminal device is improved.",
+  "claims": "1. A random access response (RAR) method, wherein the method comprises: receiving a first random access preamble from a first terminal device and a second random access preamble from a second terminal device, wherein the first terminal device and the second terminal device are separate devices; sending a first RAR to the first terminal device based on the first random access preamble, wherein the first RAR belongs to a first RAR group, and the first RAR is carried on a first physical downlink shared channel (PDSCH); and sending a second RAR to the second terminal device based on the second random access preamble, wherein the second RAR belongs to a second RAR group, and the second RAR is carried on a second PDSCH, wherein the first random access preamble and the second random access preamble correspond to a same random access occasion, wherein the first PDSCH and the second PDSCH are a same PDSCH, and wherein the first RAR and the second RAR are separate RARs.",
+  "patent_id": "US12382502-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 74/0833"
+    ],
+    "all": [
+      "H04W 74/0833"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Payment instrument adaptable for multiple central bank digital currencies",
+  "abstract": "Disclosed are various embodiments for a payment instrument, such as a payment card or a client device, that interfaces with multiple central bank digital currency (CBDC) networks associated with different countries and territories. In one non-limiting example, the system comprises a computing device that is configured to detect a location of a client device being outside of a territorial area for a first CBDC blockchain network and receive an authorization request from a merchant system for a purchase of an item. A token associated with the authorization request is identified and associated with the client device. The computing device determines that the token is authorized for use with a blockchain address for a second CBDC blockchain network for the purchase. A CBDC blockchain transfer is generated and the CBDC blockchain transfer is transmitted to the second CBDC blockchain network.",
+  "claims": "1. A system, comprising: a computing device comprising a processor and a memory; and machine-readable instructions stored in the memory that, when executed by the processor, cause the computing device to at least: detect that a location of a client device is outside of a territorial area for a first central bank digital currency (CBDC) blockchain network; receive an authorization request from a merchant system for a purchase of an item; identify a token for a second CBDC blockchain network based at least in part on the location of the client device, the token being associated with the client device and being identified from the authorization request; determine that the token is authorized to use a blockchain address for the second CBDC blockchain network for the purchase based at least in part on an authorization rule and a validation of a cryptogram associated with the authorization request; generate a CBDC blockchain transfer using a private key based at least in part on the authorization for the token to use the blockchain address, the CBDC blockchain transfer comprising a digital signature; and transmit the CBDC blockchain transfer for the purchase to the second CBDC blockchain network in response to the CBDC blockchain transfer having the digital signature.",
+  "patent_id": "US12380415-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/10",
+      "G06Q 20/20",
+      "G06Q 20/3678",
+      "G06Q 20/3825",
+      "G06Q 20/3829",
+      "G06Q 20/389",
+      "G06Q 20/4014",
+      "G06Q 20/4015"
+    ],
+    "all": [
+      "G06Q 20/10",
+      "G06Q 20/20",
+      "G06Q 20/3678",
+      "G06Q 20/3825",
+      "G06Q 20/3829",
+      "G06Q 20/389",
+      "G06Q 20/4014",
+      "G06Q 20/4015"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Image processing method and electronic device for improving display effects in photographing or visual recording",
+  "abstract": "This application relates to the field of photographing technologies, and discloses an image processing method and an electronic device, so as to dynamically adjust LUTs in a process of photographing or visual recording, and enrich display effects of photographing or visual recording. The electronic device obtains a first image, where the first image is an image captured by a camera of the electronic device, and the first image includes a first shot object; the electronic device determines a first scenario corresponding to the first image, where the first scenario is used to identify a scenario corresponding to the first shot object; the electronic device determines a first LUT based on the first scenario; and the electronic device processes the first image based on the first LUT to obtain a second image, and displays the second image, where a display effect of the second image corresponds to the first LUT.",
+  "claims": "1. An image processing method, wherein the method comprises: obtaining, by an electronic device, a first image captured by a camera of the electronic device; determining, by the electronic device, a first scenario identifying a scenario corresponding to a first shot object comprised in the first image; determining, by the electronic device, a first lookup table (LUT) based on the first scenario, comprising: running a preset artificial intelligence (AI) model by using indication information of the first scenario and the first image as inputs, to obtain a plurality of weighting coefficients of a plurality of LUTs, wherein a sum of the plurality of weighting coefficients is 1, and the plurality of LUTs have a one-to-one correspondence with the plurality of weighting coefficients; and determining the first LUT based on calculating a weighted sum of the plurality of LUTs by using the plurality of weighting coefficients; and processing, by the electronic device, the first image based on the first LUT to obtain a second image, and displaying the second image, wherein a display effect of the second image corresponds to the first LUT.",
+  "patent_id": "US12382187-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 23/84",
+      "H04N 23/611",
+      "H04N 23/617",
+      "H04N 23/632",
+      "H04N 23/633"
+    ],
+    "all": [
+      "H04N 23/84",
+      "H04N 23/611",
+      "H04N 23/617",
+      "H04N 23/632",
+      "H04N 23/633"
+    ],
+    "source": "converted"
+  }
+}

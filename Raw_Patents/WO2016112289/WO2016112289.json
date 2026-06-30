@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2016112289",
+  "application_id_fs": "WO2016112289",
+  "title": "Network of extremely high burst rate optical downlinks",
+  "abstract": "Traditional satellite-to-earth data transmission systems are constrained by inefficient relay schemes and/or short-duration data transfers at low data rates. Communication systems described herein achieve extremely high burst rate (e.g., 10 Gbps or greater) direct-to-Earth (DTE) data transmission over a free-space optical link between a spacecraft and a remote terminal, which may be a ground terminal or another space terminal. The optical link is established, for example, when the remote terminal is at an elevation of 20ã¬ with respect to a horizon of the remote terminal. In some embodiments, a data transmission burst contains at least 1 Terabyte of information, and has a duration of 6 minutes or less. The communication system can include forward error correction by detecting a degradation of a received free-space optical signal and re-transmitting at least a portion of the free-space optical signal.",
+  "claims": "Claims 1. A method of free-space optical communications, the method comprising; receiving data, from a spacecraft via a free-space optical channel, at a remote terminal at an altitude of less than about 100,000 feet at an average rate of at least 10 Tbit per day. 2. The method of claim 1, wherein receiving the data comprises receiving the data at an average rate of at least about 100 Tbit per day. 3. The method of claim 1, wherein receiving the data comprises receiving a free-space optical signal modulated at a rate of at least about 10 Gbps, 4. The method of claim. 1, wherein receiving the data, comprises receiving a free-space optical signal modulated at a rate of at least about 200 Gbps. 5. The method of claim 1, wherein the spacecraft is in low Earth orbit (LEO). 6. The method of claim. 1, wherein the spacecraft is in medium Earth orbit (MEO). 7. The method of claim 1, further comprising: storing the data in a buffer on the spacecraft at an average rate of at least about 300 Mbps. 8. The method of claim 1 , further comprising; storing the data in a buffer on the spacecraft at an average rate of at least about 1200 Mbps. 9. A method of free-space optical communications between an optical receiver based on Earth with an optical transmitter on a spacecraft in low Earth orbit (LEO), the method comprising: receiving, by the optical receiver, a free-space optical signal from the optical transmitter, the free-space optical signal comprising a burst modulated at a rate of at least about 10 Gigabits per second (Gbps). 10. The method of claim 9, wherein receiving the free-space optical signal comprises receiving information at a rate of at least about 40 Gbps. 11. The method of claim 9, wherein receiving the free-space optical signal comprises receiving information at a rate of at least about 100 Gbps. 12. The method of claim 9, wherein receiving the free-space optical signal comprises receiving at least about 1 Terabyte of information. 13. The method of claim 9, wherein receiving the free-space optical signal comprises receiving information for up to about 6 minutes. 14. The method of claim 9, wherein the free-space optical signal comprises a plurality of wavelength-division multiplexed (WDM) signals, and further comprising: de-multiplexing the WDM signals in the free-space optical signal. 15. The method of claim 9, further comprising; coherently demodulating the free-space optical signal at the optical receiver. 16. The method of claim 9, wherein the optical receiver has an elevation of angle of at least about 20 degrees above a horizon. 17. The method of claim 9, further comprising: detecting degradation of the free-space optical signal received by the optical receiver; and repeating transmission of at least a portion of the free-space optical signal in response to detection of the degradation. 18. A system for free-space optical communications, the system comprising: an optical transmitter, disposed on a spacecraft in low-Earth orbit, to transmit a free- space optical signal compri sing a burst modulated at a rate of at least about 10 Gigabits per second (Gbps); and a receiver, based on Earth and in optical communication with the optical transmitter, to receive the free-space optical signal. 19. The system of claim 18, wherein the optical transmitter is configured to modulate the burst at a rate of at least about 40 Gbps. 20. The system of claim 18, wherein the optical transmitter is configured to modulate the burst at a rate of at least about 100 Gbps. 21. The system of claim 18, wherein the optical transmitter is configured to transmit at least about 1 Terabyte of information in the burst. 22. The system of claim 18, wherein the optical transmitter is configured to transmit the burst over a duration of up to about 6 minutes. 23. The system of claim 18, wherein the optical transmitter is configured to transmit the burst in response to a signal from the receiver indicating that the optical transmitter is at an elevation of angle of at least about 20 degrees above the horizon of the Earth. 24. The system of claim 18, wherein the receiver is configured to coherently demodulate the free-space optical signal. 25. The system of claim 18, wherein the receiver is configured to detect degradation of the free-space optical signal received by the receiver and to cause the optical transmitter to repeat transmission of at least a portion of the free-space optical signal in response to detection of the degradation. 26. The system of claim 18, further comprising: a sensor, disposed on the spacecraft, to generate data at a rate of less than about 10 Gigabits per second (Gbps); and a buffer, disposed on the spacecraft and operably coupled to the sensor and to the optical transm itter, to store the data for transmission to the receiver by the optical transmitter. 27. The system of claim 18, further compri sing: a processor, operably coupled to the sensor and the buffer, to encode the data with a forward error correction code prior to storage of the data in the buffer.",
+  "classifications": {
+    "ipc": [
+      "H04B 10/00",
+      "H04B 10/11",
+      "H04B 10/118",
+      "H04B 10/112",
+      "H04B 10/1121",
+      "H04B 10/29",
+      "H04B 10/40",
+      "H04B 10/60",
+      "H04B 10/61",
+      "H04B 7/00",
+      "H04B 7/14",
+      "H04B 7/15",
+      "H04B 7/185",
+      "H04B 7/1851",
+      "H04J 14/00",
+      "H04J 14/02"
+    ],
+    "cpc": [],
+    "all": [
+      "H04B 10/00",
+      "H04B 10/11",
+      "H04B 10/118",
+      "H04B 10/112",
+      "H04B 10/1121",
+      "H04B 10/29",
+      "H04B 10/40",
+      "H04B 10/60",
+      "H04B 10/61",
+      "H04B 7/00",
+      "H04B 7/14",
+      "H04B 7/15",
+      "H04B 7/185",
+      "H04B 7/1851",
+      "H04J 14/00",
+      "H04J 14/02"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2016112289"
+}

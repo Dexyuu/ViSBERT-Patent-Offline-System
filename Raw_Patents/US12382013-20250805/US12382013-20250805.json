@@ -1,0 +1,30 @@
+{
+  "title": "Image or video coding based on palette coding",
+  "abstract": "According to the disclosure of the present document, a quantization parameter for a quantized escape value in a palette mode can be derived on the basis of minimum quantization parameter information about a conversion skip mode to perform a scaling process on the quantized escape value. Therethrough, the data amount that is required to be signaled for palette mode coding can be reduced, and the efficiency of escape coding in the palette mode can be enhanced.",
+  "claims": "1. A decoding apparatus for an image decoding, the decoding apparatus comprising: a memory; and at least one processor connected to the memory, the at least one processor configured to: obtain image information including quantized escape value information in a palette mode from a bitstream; derive an escape value for a current block based on the quantized escape value information and a quantization parameter; and generate reconstructed samples based on the escape value, wherein for the current block including at least one escape-coded sample, the quantized escape value information is obtained, wherein the image information includes minimum quantization parameter information for a transform skip mode, wherein the minimum quantization parameter information for the transform skip mode is a syntax element related to derivation of a minimum quantization parameter value and is signaled in a sequence parameter set (SPS), wherein the SPS includes information on whether the palette mode is enabled, and wherein based on a value of the information on whether the palette mode is enabled being equal to 1, the minimum quantization parameter information for the transform skip mode is signaled in the SPS, wherein the minimum quantization parameter value is derived by a predetermined equation based on the minimum quantization parameter information for the transform skip mode signaled in the SPS, and wherein the predetermined equation is given as 4 plus a value specified based on the minimum quantization parameter information for the transform skip mode signaled in the SPS, and wherein the quantization parameter is derived based on the derived minimum quantization parameter value, and the escape value is derived based on the quantization parameter.",
+  "patent_id": "US12382013-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/103",
+      "H04N 19/12",
+      "H04N 19/124",
+      "H04N 19/132",
+      "H04N 19/136",
+      "H04N 19/157",
+      "H04N 19/176",
+      "H04N 19/186"
+    ],
+    "all": [
+      "H04N 19/103",
+      "H04N 19/12",
+      "H04N 19/124",
+      "H04N 19/132",
+      "H04N 19/136",
+      "H04N 19/157",
+      "H04N 19/176",
+      "H04N 19/186"
+    ],
+    "source": "converted"
+  }
+}

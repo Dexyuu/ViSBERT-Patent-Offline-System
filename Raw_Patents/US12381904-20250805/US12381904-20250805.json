@@ -1,0 +1,24 @@
+{
+  "title": "Prioritization of reported messages",
+  "abstract": "Systems and methods for prioritization of reported messages and rewarding reporting users are disclosed. The systems and methods leverage knowledge and security awareness of the most informed users in an organization to protect an organization from serious harm from new malicious messages, give credit to the most informed users, and optimize threat triage and analysis. The system converts a reported malicious message to a defanged message. The system communicates the defanged message to a plurality of users. The system determines an impact score for the user based on interactions with the defanged message by the plurality of users, and with the impact score gives credit to the reporter and optimizes threat triage and analysis.",
+  "claims": "1. A method comprising: identifying, by one or more servers, that a message reported by a user as suspicious is a malicious message; converting, by the one or more servers, the malicious message to a defanged message that has benign elements; communicating, by the one or more servers, the defanged message to a plurality of users other than the user who received the message; determining, by the one or more servers, an impact score for the user based at least on one or more interactions with at least the benign elements of the defanged message by the plurality of users; and providing, by the one or more servers, a status to the user who reported the suspicious message based at least on the impact score.",
+  "patent_id": "US12381904-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1441",
+      "H04L 51/08",
+      "H04L 51/21",
+      "H04L 63/1433",
+      "H04L 63/20"
+    ],
+    "all": [
+      "H04L 63/1441",
+      "H04L 51/08",
+      "H04L 51/21",
+      "H04L 63/1433",
+      "H04L 63/20"
+    ],
+    "source": "converted"
+  }
+}

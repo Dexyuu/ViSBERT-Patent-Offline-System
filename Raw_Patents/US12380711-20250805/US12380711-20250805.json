@@ -1,0 +1,36 @@
+{
+  "title": "Monitoring system for one or more objects stored in a vehicle",
+  "abstract": "A method for monitoring cargo in a vehicle is presented. The method includes identifying a first object placed within the vehicle. The method also includes monitoring the first object during transportation of the first object, by the vehicle, from a first location to a second location. The method further includes predicting potential damage to the first object or a second object based on monitoring the first object. The method still further includes generating an alert based on predicting the potential damage.",
+  "claims": "1. A method for monitoring cargo in a vehicle, comprising: identifying, via one or more sensors associated with the vehicle, a first object placed within a storage location in the vehicle and a second object within the location; determining, at a trained machine learning model via one or more images of the first object, one or more first physical attributes of the first object, the one or more first physical attributes including one or more of a fragility, distribution of weight, or hardness of the first object, the one or more first physical attributes being determined at a first time period; determining, at the trained machine learning model via one or more images of the second object, one or more second physical attributes of the second object, the one or more second physical attributes including one or more of a fragility, distribution of weight, or hardness of the second object, the one or more second physical attributes being determined at a second time period; updating, at a third time period by the trained machine learning model, the one or more second physical attributes based on changes predicted to occur to the one or more second physical attributes over a period of time from the second time period to the third time period, the third time period being after the second time period; monitoring via the one or more sensors, the first object while the vehicle is traveling from a first location to a second location, a view of the first object being obscured from an occupant of the vehicle while the vehicle is traveling from the first location to the second location; predicting, based on monitoring the first object, a potential collision between the first object and a second object within the storage location; predicting, based on predicting the potential collision, potential damage to the second object in accordance with the one or more second physical attributes and the one or more first physical attributes; and generating an alert based on predicting the potential damage to the second object.",
+  "patent_id": "US12380711-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 20/59",
+      "B60W 50/16",
+      "G06T 7/251",
+      "G06T 7/75",
+      "G06V 10/82",
+      "G06V 20/64",
+      "B60W 2050/143",
+      "B60W 2050/146",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30268"
+    ],
+    "all": [
+      "G06V 20/59",
+      "B60W 50/16",
+      "G06T 7/251",
+      "G06T 7/75",
+      "G06V 10/82",
+      "G06V 20/64",
+      "B60W 2050/143",
+      "B60W 2050/146",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30268"
+    ],
+    "source": "converted"
+  }
+}

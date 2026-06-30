@@ -1,0 +1,38 @@
+{
+  "application_id": "WO2018184746",
+  "application_id_fs": "WO2018184746",
+  "title": "A method and apparatus for performing hierarchical entity classification",
+  "abstract": "A method for performing hierarchical entity classification of an entity mention within a context, wherein ontological classes are computed for the entity mention levelwise using a contextual representation of the con- text and a state representation obtained by running an end-to-end trained decoding recurrent neural network on a mention representation (m) of said entity mention.",
+  "claims": "Claims A method for performing hierarchical entity classifica Â¬ tion of an entity mention within a context, wherein ontological classes are computed for the entity mention levelwise using a contextual representation of the context and a state representation obtained by run Â¬ ning an end-to-end trained decoding recurrent neural net Â¬ work on a mention representation (m) of said entity mention. The method according to claim 1 wherein an input text is segmented (SI) into sentences, S, each comprising a set of words, w, and at least one entity mention within a sentence, S, of the segmented input text is extracted (S2) for performing a hierarchical entity classification of the extracted entity mention. The method according to claim 1 or 2 wherein the contextual representation of a left context and a right context around the extracted entity mention within the respective sentence, S, is calculated (S3) using a bidirectional re Â¬ current neutral network, RNN, receiving word vectors of words of the left context and the right context. The method according to any of the preceding claims 1 to 3 wherein the calculated context representation consists of contextual hidden state vectors, h, for each word, w, of the left context and the right context around the ex Â¬ tracted entity mention within the respective sentence, S. The method according to any of the preceding claims 1 to 4 wherein word vectors of words forming the entity men Â¬ tion are averaged to calculate (S4) as a mention repre Â¬ sentation a mention vector of said entity mention. \n\nThe method according to claim 5 wherein the calculated mention vector of the entity mention is mapped (S5) to a state vector of the decoding recurrent neural network us ing a feed-forward neural network. The method according to claim 6 wherein the state vector of the decoding recurrent neural network is aligned (S6) with each contextual hidden state vector, h, of said con text representation to provide aligned match vectors, e. The method according to claim 7 wherein an attention coefficient, oii j , for each contextual hidden state vector, h, of the context representation is calculated (S7) on the basis of the respective match vector, e j . The method according to claim 8 wherein a weighted average vector, cÂ±, of the contextual hidden state vectors, h, of the context representation is calculated (S8) de Â¬ pending on the associated calculated attention coeffi Â¬ cients, Oiij . The method according to claim 9 wherein the ontological classes, y, of the entity mention are computed levelwise (S9) on the basis of the calculated weighted average vec tor, Ci, and the current state vector of said decoding recurrent neural network, RNN. The method according to any of the preceding claims 1 to 10 wherein the computed ontological classes of the entity mention are stored (S10) along with the entity mention in a knowledge database. The method according to any of the preceding claims 1 11 wherein each entity mention comprises at least one noun word within a context of an input text. 13. The method according to any of the preceding claims 2 to 12 wherein the entity mention extracted from a segmented sentence is trimmed to a first maximum number of words and/or wherein the left context and right context around the extracted entity mention is trimmed to a second maxi Â¬ mum number of words. 14. The method according to any of the preceding claims 1 to 13 wherein a loss function used for training the decoding recurrent neural network is calculated. 15. A system for a hierarchical entity classification of entity mentions within a context of an input text, said system comprising a computation unit adapted to compute for each entity mention ontological classes, y, us Â¬ ing a contextual representation of the context and a state representation obtained by running an end-to-end trained recurrent neural network, RNN, of said system on a mention representation, m, of the respective entity mention .",
+  "classifications": {
+    "ipc": [
+      "G06F 40/00",
+      "G06F 40/20",
+      "G06F 40/279",
+      "G06F 40/289",
+      "G06F 40/295",
+      "G06F 40/30",
+      "G06N 3/00",
+      "G06N 3/02",
+      "G06N 3/04",
+      "G06N 3/044",
+      "G06N 3/045"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 40/00",
+      "G06F 40/20",
+      "G06F 40/279",
+      "G06F 40/289",
+      "G06F 40/295",
+      "G06F 40/30",
+      "G06N 3/00",
+      "G06N 3/02",
+      "G06N 3/04",
+      "G06N 3/044",
+      "G06N 3/045"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018184746"
+}

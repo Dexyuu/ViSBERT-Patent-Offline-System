@@ -1,0 +1,28 @@
+{
+  "title": "System, method, and apparatus for providing optimized network resources",
+  "abstract": "Systems, methods, and apparatuses for providing optimization of network resources. The system is operable to monitor the electromagnetic environment, analyze the electromagnetic environment, and extract environmental awareness of the electromagnetic environment. The system extracts the environmental awareness of the electromagnetic environment by including customer goals. The system is operable to use the environmental awareness with the customer goals and/or user defined policies and rules to extract actionable information to help the customer optimize the network resources.",
+  "claims": "1. A system for spectrum management in an electromagnetic environment comprising: at least one sensor configured to measure at least one signal from the electromagnetic environment to create measured data; at least one data analysis engine configured to analyze the measured data to create analyzed data; a Multi-Access Edge Computing (MEC) layer in a network slice, wherein the MEC layer is in communication with a radio access network (RAN); and an artificial intelligence (AI) agent in communication with the at least one data analysis engine; wherein the AI agent is operable configured to optimize a multiple inputs multiple outputs (MIMO) system based on a conditional entropy value of one signal from the electromagnetic environment based on interference from at least one second signal from the electromagnetic environment; wherein the MIMO system is a massive MIMO system; wherein the analyzed data is represented in a vector ensemble class for each signal in the electromagnetic environment; wherein the AI agent is configured to use the analyzed data and the optimized MIMO system for the equalization and mitigation of signal noise of the at least one signal from the electromagnetic environment in real-time as the electromagnetic environment changes; and wherein the AI agent is included in a RAN Intelligent Controller (RIC).",
+  "patent_id": "US12382297-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 16/10",
+      "H04W 24/02",
+      "H04W 24/08",
+      "H04W 28/0925",
+      "H04W 28/0967",
+      "H04W 72/0453",
+      "H04W 16/14"
+    ],
+    "all": [
+      "H04W 16/10",
+      "H04W 24/02",
+      "H04W 24/08",
+      "H04W 28/0925",
+      "H04W 28/0967",
+      "H04W 72/0453",
+      "H04W 16/14"
+    ],
+    "source": "converted"
+  }
+}

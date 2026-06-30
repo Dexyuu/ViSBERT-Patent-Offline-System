@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2019018292",
+  "application_id_fs": "WO2019018292",
+  "title": "Methods and systems for automated cementing and liner hanging",
+  "abstract": "A method for controlling a well completion operation may include providing a controller access to a model that determines a process parameter relating to the well completion operation and estimating an operation parameter while conducting the well completion operation by using a sensor. A parameter adjustment relating to the well completion operation may be determined with the controller by using the model and the estimated operation parameter. The controller may generate a command relating to the well completion operation based on the determined parameter adjustment relating to the well completion operation. A related apparatus may include a completion system for conducting the well completion operation, a sensor for estimating the operation parameter, and a controller for generating the command as described above.",
+  "claims": "Claims THE CLAIMS What is claimed is: 1. A method for controlling a well completion operation, characterized by: forming (72) at least one model configured to determine a process parameter relating to the well completion operation; conducting the well completion operation using a completion assembly (16); estimating (74) at least one operation parameter while conducting the well completion operation, the at least one operation parameter being estimated by at least one sensor (52, 54); determining (76) at least one parameter adjustment relating to the well completion operation, the determining being done with the controller (50), which uses the at least one model and the at least one estimated operation parameter; and generating a command relating to the well completion operation, the generating being done by the controller (50) based on the determined at least one parameter adjustment. 2. The method of claim 1, further characterized in that the model is based on historical information, the historical information relating to at least one of: (i) a pump (30), (ii) cement, (iii) a spacer fluid, (iv), a liner hanger assembly (20), (v) a formation (12), (vi) a drilling fluid, (vii) downhole pressure, (viii) a weak zone (36), (ix) a borehole (14). 3. The method of claim 1 , further characterized in that the operation parameter is selected from at least one of: (i) a pressure, (ii) a temperature, (iii) a flow rate, (iv) a pump rate, (v) a rotational speed, (vi) a vibration, (vii) a hook load, (viii) a torque, (ix) a weight, (x) cement channeling, and (xi) presence of mud cake. 4. The method of claim 1, further characterized in that the well completion operation is selected from at least one of: (i) setting a liner hanger assembly (20), (ii) pumping cement, (iii) rotating a liner (24), and (iv) setting a packer. 5. The method of claim 1 , further characterized in that the determined at least one parameter adjustment relating to the well completion operation is: (i) a rotational speed of the liner, (ii) a pumping rate, and (iii) a choice of a downhole device that is to be actuated. 6. The method of claim 5, further characterized in that the downhole device is one of: (i) a communication module, (ii) an electrical power source, and (iii) a hydraulic power source. 7. The method of claim 1 , further characterized by transmitting, by using the controller (50), at least one of: (i) a signal based on the command to an actuator, (ii) an advice to a human operator, and (iii) an alarm to a human operator. 8. The method of claim 7, further characterized by implementing the at least one parameter adjustment for the well completion operation by operating at least one tool one of: (i) a surface location, (ii) a downhole location, and (iii) the surface location and the downhole location. 9. An apparatus for controlling a well completion operation, characterized by: a completion assembly (16) configured to conduct the well completion operation; at least one sensor (52, 54) configured to estimate at least one operation parameter while conducting the well completion operation; a controller (50) having access to at least one model configured to determine a process parameter relating to the well completion operation, the controller (50) being configured to: \n\n - determine at least one parameter adjustment relating to the well completion operation using the at least one model and the at least one estimated operation parameter; and - generate a command relating to the well completion operation based on the determined at least one parameter adjustment relating to the well completion operation. 10. The apparatus of claim 9, further characterized in that the model is based on historical information, the historical information relating to at least one of:(i) a pump (30), (ii) cement, (iii) a spacer fluid, (iv), a liner hanger assembly (20), (v) a formation (12), (vi) a drilling fluid, (vii) downhole pressure, (viii) a weak zone (36), (ix) a borehole (14).. 1 1. The apparatus of claim 9, further characterized in that the operation parameter is selected from at least one of: (i) a pressure, (ii) a temperature, (iii) a flow rate, (iv) a pump rate, (v) a rotational speed, (vi) a vibration, (vii) a hook load, (viii) a torque, (ix) a weight, (x) cement channeling, and (xi) presence of mud cake. 12. The apparatus of claim 9, further characterized in that the well completion operation is selected from at least one of: (i) setting a liner hanger assembly (20), (ii) pumping cement, (iii) rotating a liner (24), and (iv) setting a packer. 13. The apparatus of claim 9, further characterized in that the determined at least one parameter adjustment relating to the well completion operation is: (i) a rotational speed of the liner, (ii) a pumping rate, and (iii) a choice of a downhole device that is to be actuated. 14. The apparatus of claim 13, further characterized in that the downhole device is one of: (i) a communication module, (ii) an electrical power source, and (iii) a hydraulic power source. 15. The apparatus of claim 9, further characterized in that the controller (50) is further configured to transmit at least one of: (i) a signal based on the command to an actuator, (ii) an advice to a human operator, and (iii) an alarm to a human operator.",
+  "classifications": {
+    "ipc": [
+      "E21B 41/00",
+      "E21B 40/00",
+      "E21B 33/00",
+      "E21B 33/10",
+      "E21B 33/13",
+      "E21B 33/14",
+      "E21B 43/00",
+      "E21B 43/02",
+      "E21B 43/10",
+      "E21B 47/00",
+      "E21B 47/005",
+      "E21B 23/00",
+      "E21B 23/06",
+      "E21B 47/06",
+      "E21B 47/07",
+      "E21B 47/10",
+      "E21B 49/00"
+    ],
+    "cpc": [],
+    "all": [
+      "E21B 41/00",
+      "E21B 40/00",
+      "E21B 33/00",
+      "E21B 33/10",
+      "E21B 33/13",
+      "E21B 33/14",
+      "E21B 43/00",
+      "E21B 43/02",
+      "E21B 43/10",
+      "E21B 47/00",
+      "E21B 47/005",
+      "E21B 23/00",
+      "E21B 23/06",
+      "E21B 47/06",
+      "E21B 47/07",
+      "E21B 47/10",
+      "E21B 49/00"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019018292"
+}

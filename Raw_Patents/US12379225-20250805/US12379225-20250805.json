@@ -1,0 +1,24 @@
+{
+  "title": "Safety-aware route recommendation system and method",
+  "abstract": "Various embodiments comprise systems, methods, architectures, mechanisms, and apparatus providing location safety management implemented by cooperating mobile devices that operate in a privacy-secured manner to identify respective proximate infectious areas, build corresponding local datasets of the infectious areas, and share the datasets or relevant portions thereof with each other, such as in response to hierarchical location-based requests for such data. The datasets may be used to adapt the operation of navigation applications and the like so as to avoid routes, seats or locations associated with infectious areas and/or persons.",
+  "claims": "1. A location safety management method configured for use by each of a plurality of cooperating mobile devices, the method comprising: at a mobile device within the plurality of cooperating mobile devices and configured to communicate via one or more networks, receiving from at least one other mobile device within the plurality of cooperating mobile devices data indicative of infectious locations proximate the mobile device and adding the received infectious locations data to an infectious location dataset stored locally at the mobile device; at the mobile device, in response to receiving an infectious locations request from another mobile device, confidentially transmitting at least a portion of the locally stored infectious location dataset toward the requesting mobile device; at the mobile device, in response to a need for updated infectious locations data, confidentially transmitting a hierarchically-descriptive infectious locations request toward at least one other mobile device within the plurality of cooperating mobile devices; at the mobile device, in response to receiving a response to the hierarchically-descriptive infectious locations request, adding any received data indicative of infectious locations to the infectious location dataset stored locally at the mobile device; and at the mobile device, using the infectious location dataset to adapt operation of a navigation application operable at the mobile device to display infectious locations proximate the mobile device.",
+  "patent_id": "US12379225-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01C 21/383",
+      "G16H 10/60",
+      "G16H 50/20",
+      "G16H 50/80",
+      "G16H 70/60"
+    ],
+    "all": [
+      "G01C 21/383",
+      "G16H 10/60",
+      "G16H 50/20",
+      "G16H 50/80",
+      "G16H 70/60"
+    ],
+    "source": "converted"
+  }
+}

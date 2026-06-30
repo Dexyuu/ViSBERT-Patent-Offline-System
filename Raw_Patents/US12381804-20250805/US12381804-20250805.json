@@ -1,0 +1,24 @@
+{
+  "title": "Apparatus, computer program and method",
+  "abstract": "A method of tracing messages through a network of nodes is provided, the method comprising receiving message information corresponding to a first outbound message, the message information comprising a first source identifier and a first destination identifier and determining whether the first source identifier is associated with a set of messages in a storage unit, whereby when the first source identifier is associated with a set of messages, the method comprises producing a trace request, the trace request comprising the first destination identifier and an identifier identifying the set of messages associated with the first source identifier.",
+  "claims": "1. A method of tracing messages through a network of nodes, the method comprising: receiving message information corresponding to a first outbound message, the message information comprising a first source identifier and a first destination identifier; in response to receiving the message information, looking up the first source identifier in a storage unit; determining, based on looking up the first source identifier, that the first source identifier is associated with a first set of messages in the storage unit, the first set of messages being associated with a first dispersion tree identifier; producing a first trace request, the first trace request comprising the first destination identifier and the first dispersion tree identifier; receiving a second trace request, the second trace request comprising a first account identifier and a second dispersion tree identifier, the second dispersion tree identifier identifying a second set of messages; and storing an association between the first account identifier and the second dispersion tree identifier identifying the second set of messages in the storage unit.",
+  "patent_id": "US12381804-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 43/10",
+      "G06Q 20/4016",
+      "G06Q 30/018",
+      "H04L 67/535",
+      "H04L 69/28"
+    ],
+    "all": [
+      "H04L 43/10",
+      "G06Q 20/4016",
+      "G06Q 30/018",
+      "H04L 67/535",
+      "H04L 69/28"
+    ],
+    "source": "converted"
+  }
+}

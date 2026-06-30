@@ -1,0 +1,20 @@
+{
+  "title": "Apparatus and method for implementing R1-O1 data models for O1 related services within a telecommunications network",
+  "abstract": "An apparatus for a non-real-time radio access network intelligence controller (NRT-RIC) framework in an O-RAN. The apparatus includes a memory storing instructions; and at least one processor configured to implement the NRT-RIC framework of an NRT-RIC by executing the instructions to: receive, from an rApp a first request for retrieving a configuration schema of a network element in the O-RAN, the first request comprising a first R1-O1 data model identifying the network element, and the first request being received via an R1 interface; and send, from the NRT-RIC framework, a first response to the requested configuration schema, the first response comprising a second R1-O1 data model identifying the network element and identifying a configuration management (CM) attribute of the network element, wherein the R1 interface enables the NRT-RIC framework and the rApp to produce and consume at least one O1 interface related R1 service in the NRT-RIC.",
+  "claims": "1. An apparatus for a non-real-time radio access network intelligence controller (NRT-RIC) framework in an open radio access network (O-RAN), the apparatus comprising: a memory storing instructions; and at least one processor configured to implement the NRT-RIC framework of an NRT-RIC by executing the instructions to: receive, from an rApp hosted by the NRT-RIC, a first request for retrieving a configuration schema of at least one network element in the O-RAN, the first request comprising a first R1-O1 configuration management (CM) data model identifying the at least one network element, and the first request being received via an R1 interface within the O-RAN architecture between rApps and the NRT-RIC framework; and send, from the NRT-RIC framework to the rApp via the R1 interface, a first response to the requested configuration schema, the first response comprising a second R1-O1 CM data model identifying the at least one network element and identifying at least one CM attribute of the at least one network element, wherein the R1 interface enables the NRT-RIC framework and the rApp to produce and consume at least one O1 interface related R1 service in the NRT-RIC.",
+  "patent_id": "US12382263-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 4/50",
+      "G06F 9/4451",
+      "H04W 24/02"
+    ],
+    "all": [
+      "H04W 4/50",
+      "G06F 9/4451",
+      "H04W 24/02"
+    ],
+    "source": "converted"
+  }
+}

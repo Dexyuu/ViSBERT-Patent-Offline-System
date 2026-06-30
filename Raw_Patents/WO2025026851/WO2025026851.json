@@ -1,0 +1,32 @@
+{
+  "application_id": "WO2025026851",
+  "application_id_fs": "WO2025026851",
+  "title": "Method of distributed partitioned-model monitoring",
+  "abstract": "The present application describes methods of data-driven AI/ML model signaling for efficient model monitoring with machine learning model operation in wireless mobile communication systems including base stations (e.g., gNB) and mobile stations (e.g., UE). The index-based model partitioning with model properties is used to reduce signaling overhead through distributed model monitoring when a model drift occurs.",
+  "claims": "Claims 1 . A Method of distributed monitoring in a wireless network, comprising the steps: â¢ Segmenting a target AI/ML model into multiple partitioned-models, â¢ Configuring a mapping relationship between the partitioned-models, the mapping relationship containing property information and index information for each of the partitioned-models, â¢ Receiving one of the partitioned-models and its associated property information and index information, â¢ Monitoring the received partitioned-model using the received property information, and â¢ Reporting of a model monitoring update, if the monitoring indicates a model drift for the received partitioned-model. 2. The method according to claim 1 , characterized in that the property information contains a model description information and/or attribute data and/or model monitoring information and/or reference data. 3. The method according to claim 1 or 2, characterized in that the mapping relationship is signaled from one node of the wireless network to another node of the wireless network. 4. The method according to claim 3, characterized in that the type of communication between the nodes of the wireless network is MEC-to-UE or UE-to-UE. 5. The method according to claim 2, characterized in that the partitioned-models are sent to multiple UEs and each of the UEs executes the one or more received partitioned-models with the model monitoring information. 6. The method according to any of the previous claims, characterized in that the target model is a paired model between multiple AI/ML models which are located in different nodes of the wireless network. 7. The method according to any of the previous claims, characterized in that a fix maximum number of partitioned-models are determined by one of the following methods: â¢ Determination, by the network side, of the fix maximum number of partitioned-models as an implementation-specific configuration, or â¢ Determination of the fix maximum number of partitioned-models according to a pre-defined specifications, or â¢ Determination of the fix maximum number based on a pre-configured target model type, format, functionality, and/or use case. 8. The method according to any previous claims, characterized in that the reporting of the model monitoring update or a signaling of the mapping relationship between nodes of the wireless network is signaled via L1 , L2, or L3 signaling, or a RRC re-configuration message. 9. The method according to any previous claims, characterized in that a preset model ID information is shared without a transfer of the partitioned-models, if the preset model ID is available for the partitioned-models. 10. An apparatus for distributed monitoring in a wireless network comprises a wireless transceiver, a processor coupled with a memory in which computer program instructions are stored, said instructions being configured to implement steps of the claims 1 to 9. 11 . A user equipment for distributed monitoring in a wireless network comprises an apparatus according to claim 10, characterized in that the steps of receiving one of the partitioned models and its associated property information and index information, monitoring the received partitioned-model, and reporting of the model monitoring update is proceeded. 12. A base station for distributed monitoring in a wireless network comprises an apparatus according to claim 11 , characterized in that the steps of segmenting the target AI/ML model, configuring the mapping relationship, and transmitting the partitioned-models and the mapping relationship to other nodes in the wireless network are proceeded. 13. A wireless communication system for distributed monitoring in a wireless network, comprises the base station according to claim 12 and the user equipment according to claim 11 , characterized in that the base station comprises a processor coupled with a memory in which computer program instructions are stored, said instructions being configured to implement steps of claims 1 to 9, wherein the user equipment comprises a processor coupled with a memory in which computer program instructions are stored, said instructions being configured to implement steps of the claims 1 to 9.",
+  "classifications": {
+    "ipc": [
+      "H04L 41/00",
+      "H04L 41/16",
+      "H04L 41/08",
+      "H04L 41/0803",
+      "H04L 41/0813",
+      "H04L 41/082",
+      "H04L 41/14",
+      "H04L 41/145"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 41/00",
+      "H04L 41/16",
+      "H04L 41/08",
+      "H04L 41/0803",
+      "H04L 41/0813",
+      "H04L 41/082",
+      "H04L 41/14",
+      "H04L 41/145"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025026851"
+}

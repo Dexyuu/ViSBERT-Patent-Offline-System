@@ -1,0 +1,16 @@
+{
+  "title": "System and method of performing a query processing in a database system using distributed in-memory technique",
+  "abstract": "A computer aided method of configuring a smart assistant for domain specific self-service; comprising receiving, through a user interface, a predefined domain specific dataset; generating, by a training engine, a set of positive and negative samples in equal ratio; validating the predefined dataset to remove a set of ambiguous data entries; indicating, a numerical representation and a query representation for the predefined dataset; creating a Domain representation using multiple connected layers and use it to process FAQ to understand the best contextual representation; identifying, an accuracy of the configured model by matching with ground truth labels and assigning a confidence score to each entry in the predefined domain specific dataset by creating a Domain representation using multiple connected layers and use it to process FAQ to understand the best contextual representation.",
+  "claims": "1. A method of performing a query processing in a database system using distributed in-memory technique, the method comprising: parsing a user query by a master node to access a metadata related to a table data; generating, by the master node, a physical plan with a set of atomic tasks for a set of worker nodes based on the user query and the metadata, wherein the metadata comprises a schema and a status of the table data; allocating, by the master node, the set of atomic tasks to the set of worker nodes, wherein the set of atomic tasks for in-memory operation are allocated corresponding to the table data stored on the set of worker nodes; receiving, by the master node, a result set collected by the set of worker nodes based on the in-memory operation; and aggregating, by the master node, the received result set for display in response to the user query.",
+  "patent_id": "US12380168-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/90335"
+    ],
+    "all": [
+      "G06F 16/90335"
+    ],
+    "source": "converted"
+  }
+}

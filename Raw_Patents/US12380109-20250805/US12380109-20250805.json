@@ -1,0 +1,22 @@
+{
+  "title": "Database join operations with early filtering",
+  "abstract": "Aspects of the disclosure are directed to early filtering of candidate rows for a join operator of a query statement before the join operator is evaluated to generate a result set. Early filtering, e.g., before execution of the join operator, reduces the number of candidate rows fetched from a database during a join operator, which can improve the rate at which queries including join operators are executed by a DBMS for the database. One or more Bloom filters or other probabilistic data structures can be produced and consumed according to different join conditions, allowing for early pruning of unqualified rows during a database scan operation.",
+  "claims": "1. A system comprising one or more processors, the one or more processors configured to: determine whether to perform early filtering of attributes input to a join operator before executing the join operator including: determining a ratio between qualified records to a total row count of data sources targeted by the join operator; and perform early filtering including: generating a list of outer and inner attributes targeted by the join operator; generating a producer filter map and a consumer filter map by using the list of outer and inner attributes; generating a filter for each attribute in the list of outer and inner attributes; storing one or more generated filters in the consumer filter map; storing a pointer of each of the one or more generated filters in the producer filter map and the consumer filter map; using the producer filter map to fill data into the one or more generated filters, wherein the producer filter map includes data associated with the list of outer and inner attributes; using the consumer filter map to search for one or more generated filters for one or more join conditions associated with the join operator, wherein the consumer filter map associates each of the one or more generated filters with the one or more join conditions; and applying the one or more generated filters as part of executing a scan operator, before executing the join operator.",
+  "patent_id": "US12380109-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/2456",
+      "G06F 11/3409",
+      "G06F 16/24537",
+      "G06F 16/24544"
+    ],
+    "all": [
+      "G06F 16/2456",
+      "G06F 11/3409",
+      "G06F 16/24537",
+      "G06F 16/24544"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2017167442",
+  "application_id_fs": "WO2017167442",
+  "title": "Spectrum modeling systems, methods, and devices for particle therapy treatment planning",
+  "abstract": "Systems, devices, and methods for non-Gaussian energy distribution modeling for treatment planning algorithms used in particle radiation therapy.",
+  "claims": "Claims CLAIMS: 1. A treatment planning module configured to determine an energy distribution for one or more particle beams, or portions thereof, from a particle therapy system, using a non-Gaussian model. 2. The treatment planning module of claim 1, wherein the non-Gaussian model comprises a combination of error functions. 3. The treatment planning module of claim 2, wherein the model is given by: where p is the distribution of energy E, a is a normalization constant, b is a width of the profile half, c is the mean energy, and d is a parameter defining the slope of the spectral boundaries. 4. The treatment planning module of claim 2, wherein the model is given by: where p is the distribution of energy E, a is a normalization constant, b and b 2 are widths of the profile halves, c is the mean energy, and d and d 2 are parameters defining the slope of the spectral higher and lower boundaries. 5. The treatment planning module of claim 1 , wherein the module is further configured to use the determined energy distribution to calculate a dose from the one or more particle beams, or portions thereof, within a medium. 6. The treatment planning module of claim 5, wherein the dose calculation employs an analytical function or a stochastic algorithm. 7. A particle therapy system comprising: \n\n a beam generation system for generating one or more particle beams; a beam transport system for conveying the one or more particle beams from the beam generation system; at least one treatment station for irradiating a medium/patient with one or more particle beams, the treatment station being coupled to the beam transport system to receive the conveyed one or more particle beams, or portions thereof; a treatment planning module that determines an irradiation plan for the medium/patient based on energy distribution of particles within said one or more particle beams, or portions thereof; and a controller configured to control at least the beam transport system and the treatment system to effect the irradiation plan, wherein the treatment planning module is configured to determine the energy distribution based on a non-Gaussian model. 8. The system of claim 7, wherein the treatment planning module is configured to use the determined energy distribution to calculate a dose from the one or more particle beams, or portions thereof, within the medium/patient. 9. The system of claim 8, wherein the dose calculation employs an analytical function or a stochastic algorithm. 10. The system of claim 7, wherein the non-Gaussian model comprises a combination of error functions. 1 1. The system of claim 10, wherein the model is given by: where p is the distribution of energy E, a is a normalization constant, b is a width of the \n\n profile half, c is the mean energy, and d is a parameter defining the slope of the spectral boundaries. 12. The system of claim 10, wherein the model is given by: where p is the distribution of energy E, a is a normalization constant, b and b 2 are widths of the profile halves, c is the mean energy, and d and d 2 are parameters defining the slope of the spectral higher and lower boundaries. 13. The system of claim 7, wherein the beam generation system comprises a cyclotron or a synchrotron. 14. The system of claim 7, wherein the beam transport system comprises an energy analysis and selection system. 15. The system of claim 14, wherein the energy analysis and selection system comprises at least one of a degrader and an energy defining slit. 16. A method comprising estimating energy distribution of particles in one or more particle beams, or portions thereof, from a particle accelerator using a non-Gaussian model. 17. The method of claim 16, further comprising, irradiating a medium/patient with the one or more particle beams, or portions thereof, based at least in part on the determined energy distribution. 18. The method of claim 17, further comprising calculating a dose from the one or more particle beams, or portions thereof, within the medium/patient based on the determined energy distribution. 19. The method of claim 18, wherein the calculating a dose employs an \n\n analytical function or a stochastic algorithm. 20. The method of claim 17, wherein the irradiating includes adjusting an energy of the one or more particle beams, or portions thereof, from a particle accelerator using at least one of a degrader and an energy defining slit. 21. The method of claim 16, wherein the non-Gaussian model comprises a combination of error functions. 22. The method of claim 21, wherein the model is given by: (E + b - c\\ - /Eâ b - c\\ J !) = a ^Erf (â j â) Erf (â 3 â ) j. where p is the distribution of energy E, a is a normalization constant, b is a width of the profile half, c is the mean energy, and d is a parameter defining the slope of the spectral boundaries. 23. The method of claim 21 , wherein the model is given by: â(*) = Â« (erf (* Â± ^) - Erf (^ )), where p is the distribution of energy E, a is a normalization constant, b and b 2 are widths of the profile halves, c is the mean energy, and d and d 2 are parameters defining the slope of the spectral higher and lower boundaries. 24. The method of any of claims 16-23, wherein the particle beam comprises protons, ions, or other charged particles. 25. A non-transitory computer readable medium comprising instructions for performing the method of any of claims 16-24. 26. The treatment planning module or the particle therapy system of any of claims 1-15, wherein the particle beam comprises protons, ions, or other charged particles.",
+  "classifications": {
+    "ipc": [
+      "A61N 5/00",
+      "A61N 5/10",
+      "A61N 5/103",
+      "A61N 5/1031",
+      "G16H 20/00",
+      "G16H 20/40",
+      "G16H 50/00",
+      "G16H 50/50",
+      "G16H 70/00",
+      "G16H 70/20",
+      "A61N 2005/1034",
+      "A61N 2005/1085",
+      "A61N 2005/1087",
+      "A61N 2005/109"
+    ],
+    "cpc": [],
+    "all": [
+      "A61N 5/00",
+      "A61N 5/10",
+      "A61N 5/103",
+      "A61N 5/1031",
+      "G16H 20/00",
+      "G16H 20/40",
+      "G16H 50/00",
+      "G16H 50/50",
+      "G16H 70/00",
+      "G16H 70/20",
+      "A61N 2005/1034",
+      "A61N 2005/1085",
+      "A61N 2005/1087",
+      "A61N 2005/109"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017167442"
+}

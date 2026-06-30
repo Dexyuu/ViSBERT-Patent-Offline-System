@@ -1,0 +1,20 @@
+{
+  "title": "Multiple virtual namespaces on a single physical namespace to avoid file system restarts and improve availability",
+  "abstract": "One example method includes defining a physical namespace, determining a number of virtual namespaces, virtualizing the physical namespace by defining the virtual namespaces on the physical namespace, and generating a modified lookup key that is a function of a name of one of the virtual namespaces. The modified lookup key may be moved between virtual namespaces without requiring interruption of a backup or restore process, and without requiring an associated file system to be taken offline. Movement of the modified lookup key may be transparent to a user and may permit preservation of scripts that were in place prior to the move.",
+  "claims": "1. A method, comprising: defining a physical namespace in a file system; determining a number of virtual namespaces; virtualizing the physical namespace by defining the virtual namespaces on the physical namespace; generating a lookup key for each file saved in each virtual namespace based on a name of each virtual namespace and a full key of each file of the physical namespace, wherein the physical namespace maps the lookup key to the full key of each file saved in the physical namespace and the full key includes direction information and file name information in the file system; when lookup keys in one virtual namespace are moved to another virtual namespace different from the one virtual namespace within the physical namespace, modifying the lookup keys of the one virtual namespace for the another virtual namespace based on a name of the another virtual namespace without requiring a restart of the file system, interruption of an ongoing data backup process, or data restore process; and performing a compaction process comprising copying all key-value pairs <K, V> from a sparse one of the virtual namespaces to a non-sparse virtual namespace of the virtual namespaces, wherein the non-sparse virtual namespace is selected based on current space usage in the non-sparse virtual namespace and a predicted growth of space usage in the non-sparse virtual namespace.",
+  "patent_id": "US12379998-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/1448",
+      "G06F 16/9017",
+      "G06N 20/00"
+    ],
+    "all": [
+      "G06F 11/1448",
+      "G06F 16/9017",
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

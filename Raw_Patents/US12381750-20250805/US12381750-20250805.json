@@ -1,0 +1,34 @@
+{
+  "title": "Deterministic assignment of overlay multicast traffic",
+  "abstract": "In an aspect, an embodiment of the present disclosure is directed to network control topology that implements a centralized network controller to deterministically assign, and reassign, underlay multicast groups according to one or more policies and/or parameterized intent of the network administrator. The centralized network controller, in some embodiments, comprises a map server-map resolver controller configured to provide deterministic and centralized allocation of LISP underlay multicast groups, e.g., to provide security, traffic engineering, network and resource management.",
+  "claims": "19. A non-transitory computer-readable medium having instructions stored thereon that, when executed by at least one processor, cause a device to: receive, from a controller of a first network, a request to assign an underlay multicast group of the first network according to a selectable policy of a network administrator, the first network having associated ingress/egress tunnel routers (xTRs), wherein the selectable policy includes at least one of an optimization priority policy, a multicast addressing scope, a security associated policy, a group switchover-based policy, or a time-of-day-based policy; retrieve overlay groups of a second network and the xTRs of the first network; identify the overlay groups of the second network having a same set of xTRs as the first network; generate a single underlay group by aggregating the identified overlay groups having the same set of xTRs as the first network; and transmit an assignment notification to the xTRs to cause the xTRs to change their respective underlay groups to the generated single underlay group.",
+  "patent_id": "US12381750-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 12/185",
+      "H04L 12/18",
+      "H04L 12/1886",
+      "H04L 41/0893",
+      "H04L 41/0894",
+      "H04L 41/0896",
+      "H04L 41/12",
+      "H04L 45/16",
+      "H04L 47/2441",
+      "H04L 41/0895"
+    ],
+    "all": [
+      "H04L 12/185",
+      "H04L 12/18",
+      "H04L 12/1886",
+      "H04L 41/0893",
+      "H04L 41/0894",
+      "H04L 41/0896",
+      "H04L 41/12",
+      "H04L 45/16",
+      "H04L 47/2441",
+      "H04L 41/0895"
+    ],
+    "source": "converted"
+  }
+}

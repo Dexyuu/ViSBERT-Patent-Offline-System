@@ -1,0 +1,20 @@
+{
+  "title": "Controller and drive circuit for electric motors",
+  "abstract": "A control system for an electric motor in a compressor system includes a processing system configured to control an inverter to supply variable frequency power to the electric motor from the inverter. The processing system is configured to determine when to transition from supplying variable frequency power to supplying line frequency power to the electric motor. The processing system is configured to engage a pressure equalization mechanism to at least partially reduce a pressure differential developed between a suction portion and a discharge portion of the compressor system. The processing system is configured to apply line frequency power to at least one winding of the electric motor.",
+  "claims": "1. A control system for an electric motor in a compressor system, the control system comprising: a motor controller coupled directly in communication with an inverter of the electric motor, a pressure equalization mechanism, and one or more switches, the motor controller configured to: control the inverter to supply variable frequency power to the electric motor from the inverter; determine when to transition from supplying variable frequency power to supplying line frequency power to the electric motor; estimate a maximum speed currently achievable by the electric motor based on at least one input parameter; if the estimated maximum speed does not meet a threshold speed for transitioning to supplying line power, engage the pressure equalization mechanism to at least partially reduce a pressure differential developed between a suction portion and a discharge portion of the compressor system during the transition from supplying variable frequency power to supplying line frequency power; and if the estimated maximum speed meets the threshold speed, control the one or more switches to apply line frequency power to at least one winding of the electric motor.",
+  "patent_id": "US12378969-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "F04D 27/00",
+      "F04D 27/009",
+      "H02P 27/06"
+    ],
+    "all": [
+      "F04D 27/00",
+      "F04D 27/009",
+      "H02P 27/06"
+    ],
+    "source": "converted"
+  }
+}

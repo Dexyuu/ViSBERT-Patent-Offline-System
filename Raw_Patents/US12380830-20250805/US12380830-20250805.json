@@ -1,0 +1,24 @@
+{
+  "title": "Electronic device",
+  "abstract": "An electronic device includes a level shifter and a gate driver. The level shifter includes a mode controller and a processor. The mode controller outputs first mode information and second mode information. The processor receives a switching signal, the first mode information, and the second mode information. The gate driver is electrically connected to the level shifter. The processor outputs the first mode information or the second mode information to the gate driver according to the switching signal.",
+  "claims": "1. An electronic device, comprising: a level shifter, comprising: a mode controller, configured to output first mode information and second mode information; and a processor, configured to receive a switching signal, the first mode information, and the second mode information; a gate driver, electrically connected to the level shifter; and multiple scan lines, electrically connected to the gate driver, wherein the multiple scan lines comprise: a first scan line; a second scan line not adjacent to the first scan line; and a third scan line, located between the first scan line and the second scan line and adjacent to the first scan line and the second scan line; wherein the processor outputs the first mode information or the second mode information to the gate driver according to the switching signal, and the gate driver outputs the first mode information or the second mode information to the multiple scan lines, wherein the first mode information enables the multiple scan lines to perform an alternate scan with a first scanning sequence, the second mode information enables the multiple scan lines to perform a cyclic scan with a second scanning sequence, and the first scanning sequence is different from the second scanning sequence; wherein the multiple scan lines perform the alternate scan while in an alternate scan mode in response to the gate driver outputting the first mode information, and the first scanning sequence of the alternate scan comprises scanning the first scan line first, followed by scanning the second scan line: wherein the multiple scan lines perform the cyclic scan mode in response to the gate driver outputting the second mode information, and the second scanning sequence of the cyclic scan comprises scanning the first line first, followed by scanning a third scan line, and then scanning the second scan line.",
+  "patent_id": "US12380830-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/2092",
+      "G09G 2310/0267",
+      "G09G 2310/0289",
+      "G09G 2310/0291",
+      "G09G 2320/041"
+    ],
+    "all": [
+      "G09G 3/2092",
+      "G09G 2310/0267",
+      "G09G 2310/0289",
+      "G09G 2310/0291",
+      "G09G 2320/041"
+    ],
+    "source": "converted"
+  }
+}

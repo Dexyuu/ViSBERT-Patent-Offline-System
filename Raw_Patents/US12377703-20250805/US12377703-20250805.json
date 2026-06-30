@@ -1,0 +1,22 @@
+{
+  "title": "Method for controlling variable damping suspensions",
+  "abstract": "A method for controlling a suspension system for a vehicle to obtain optimal parameters for the damping coefficients of the vehicle suspension that minimize acceleration along a heave axis, angular acceleration around a roll axis and angular acceleration around a pitch axis is provided. These parameters may be recorded during the tuning phase or may also be continuously obtained during use of the vehicle by an end user. Also disclosed is a suspension system for a vehicle configured to advantageously operate according to the method.",
+  "claims": "1. A method for controlling a suspension system for a vehicle, wherein the suspension system comprises: a plurality of semi-active dampers which are interposed each between a body and a respective wheel of the vehicle and are configured to change their damping coefficient in response to a control signal, wherein a damping force of each damper is a function of the respective damping coefficient and of the difference between a velocity of the body and a velocity of the respective wheel along a damping direction of the damper; sensors for acquiring a current measurement of an acceleration h(t=0) of the vehicle along a heave axis, of an angular acceleration r(t=0) of the vehicle around a roll axis and of an angular acceleration p(t=0) of the vehicle around a pitch axis; a memory module configured to store at least M+1 acceleration measurement values h(t=0, t=−1, . . . , t=−M), r(t=0, t=−1, . . . , t=−M), p(t=0, t=−1, . . . , t=−M) of the vehicle; a controller functionally connected with said dampers and with said memory module, the controller being configured to send a respective control signal to each damper to adjust the respective damping coefficient of the latter,",
+  "patent_id": "US12377703-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60G 17/08",
+      "B60G 2400/104",
+      "B60G 2400/106",
+      "B60G 2500/102"
+    ],
+    "all": [
+      "B60G 17/08",
+      "B60G 2400/104",
+      "B60G 2400/106",
+      "B60G 2500/102"
+    ],
+    "source": "converted"
+  }
+}

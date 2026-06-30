@@ -1,0 +1,24 @@
+{
+  "title": "Compression and decompression of sub-primitive presence indications for use in a rendering system",
+  "abstract": "A method and a compression unit are provided for compressing, into a block of compressed data, a block of sub-primitive presence indications for use in a rendering system. The block of sub-primitive presence indications is subdivided into a plurality of parent regions, each of the parent regions being subdivided into a plurality of child regions. A presence state is identified for each of the child regions based on the sub-primitive presence indications in the block of sub-primitive presence indications. A hierarchical representation of the block of sub-primitive presence indications is stored in the block of compressed data. For each of one or more parent regions whose child regions all have the same identified presence state, parent-level data is included in the hierarchical representation to represent the presence state of the parent region without child-level data for the child regions within the parent region being included in the hierarchical representation. For each of one or more parent regions whose child regions do not all have the same identified presence state, child-level data for the child regions within the parent region is included in the hierarchical representation to represent the presence states for the child regions within the parent region.",
+  "claims": "1. A method of compressing, into a block of compressed data, a block of sub-primitive presence indications for use in a rendering system, wherein the block of sub-primitive presence indications is subdivided into a plurality of parent regions, each of the parent regions being subdivided into a plurality of child regions, the method comprising: identifying a presence state for each of the child regions based on the sub-primitive presence indications in the block of sub-primitive presence indications; and storing, in the block of compressed data, a hierarchical representation of the block of sub-primitive presence indications, wherein: for each of one or more parent regions whose child regions all have the same identified presence state, parent-level data is included in the hierarchical representation to represent the presence state of the parent region without child-level data for the child regions within the parent region being included in the hierarchical representation, and for each of one or more parent regions whose child regions do not all have the same identified presence state, child-level data for the child regions within the parent region is included in the hierarchical representation to represent the presence states for the child regions within the parent region.",
+  "patent_id": "US12380606-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 9/001",
+      "G06T 9/00",
+      "G06T 9/40",
+      "G06T 15/06",
+      "G06T 2210/21"
+    ],
+    "all": [
+      "G06T 9/001",
+      "G06T 9/00",
+      "G06T 9/40",
+      "G06T 15/06",
+      "G06T 2210/21"
+    ],
+    "source": "converted"
+  }
+}

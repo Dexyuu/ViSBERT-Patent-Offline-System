@@ -1,0 +1,20 @@
+{
+  "title": "Adaptive algorithm for power efficient eye tracking",
+  "abstract": "Systems and techniques are provided for eye tracking. For instance, a computing device can obtain an image of an eye. The image of the eye includes a glint of light from a light source. The computing device can determine information associated with the glint of light based on the image of the eye. The computing device can obtain one or more target glint parameter values and can compare the information associated with the glint of light to the one or more target glint parameter values. The computing device can adjust an amount of power for the light source based on comparing the information associated with the glint of light and the one or more target glint parameter values.",
+  "claims": "1. A method for eye tracking, comprising: obtaining an image of an eye, the image of the eye including a glint of light from a light source; determining information associated with the glint of light based on the image of the eye, wherein the information associated with the glint of light is determined based on a gaussianized brightness of pixels associated with the glint, wherein the gaussianized brightness normalizes the brightness of pixels of the glint of light; obtaining target glint parameter values, the target glint parameter values including a set of threshold target values for the information associated with the glint of light; comparing the information associated with the glint of light to the target glint parameter values to determine whether the information associated with the glint of light is between threshold target values of the set of threshold target values; and adjusting an amount of power for the light source based on comparing the information associated with the glint of light and the target glint parameter values.",
+  "patent_id": "US12382183-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 23/74",
+      "H04N 23/56",
+      "H04N 23/71"
+    ],
+    "all": [
+      "H04N 23/74",
+      "H04N 23/56",
+      "H04N 23/71"
+    ],
+    "source": "converted"
+  }
+}

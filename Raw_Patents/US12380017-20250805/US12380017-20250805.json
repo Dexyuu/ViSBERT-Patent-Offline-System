@@ -1,0 +1,20 @@
+{
+  "title": "Method, apparatus and device for software testing, and computer-readable storage medium",
+  "abstract": "A method, an apparatus and a device for software testing, and a computer-readable storage medium are provided. The method includes: acquiring a first test case set for to-be-tested software, and dividing the first test case set into multiple first test sequences; loading, for each of the multiple first test sequences, a test case from the first test sequence to a test unit corresponding to the first test sequence at the beginning of the software testing, to execute test cases by multiple test units in parallel; and during the software testing, acquiring test progress information of the multiple first test sequences, and distributing outstanding test cases in the multiple first test sequences based on the acquired test progress information to modify the numbers of test cases in the respective first test sequences. The outstanding test case is a test case to be loaded into a corresponding test unit for execution.",
+  "claims": "1. A method for software testing, comprising: acquiring a first test case set for to-be-tested software, and dividing the first test case set into a plurality of first test sequences; loading, for each first test sequence of the plurality of first test sequences, a test case from the first test sequence to a test unit corresponding to the first test sequence at the beginning of the software testing, to execute the loaded test cases by the plurality of test units in parallel; and during the software testing, acquiring test progress information of the plurality of first test sequences, and distributing outstanding test cases in the plurality of first test sequences based on the acquired test progress information to modify the numbers of test cases in the respective first test sequences, wherein the outstanding test case is a test case to be loaded into a corresponding test unit for execution, wherein the method further comprising: after the loading, for each of the plurality of first test sequences, a test case from the first test sequence to a test unit corresponding to the first test sequence at the beginning of the software testing, to execute the loaded test cases by a plurality of test units in parallel, acquiring a second test case set for performing a second round of testing on the to-be-tested software after finishing a first round of testing on the to-be-tested software based on the first test case set; acquiring, for each of the plurality of test units, a case list of test cases executed by the test unit after finishing the first round of testing on the to-be-tested software based on the first test case set; dividing the second test case set based on the plurality of case lists to obtain a plurality of second test sequences; and loading, for each of the plurality of second test sequences, a test case from the second test sequence to the test unit corresponding to the second test sequence at the beginning of the second round of testing, to execute the loaded test cases by the plurality of test units in parallel.",
+  "patent_id": "US12380017-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/3688",
+      "G06F 9/50",
+      "G06F 11/3676"
+    ],
+    "all": [
+      "G06F 11/3688",
+      "G06F 9/50",
+      "G06F 11/3676"
+    ],
+    "source": "converted"
+  }
+}

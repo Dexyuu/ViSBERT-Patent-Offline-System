@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for valid subframe determination",
+  "abstract": "A system and method for valid subframe determination between a base station and user equipment based on transmission of an additional system information block are disclosed herein. In one embodiment, a method performed by a communication device includes: receiving a SystemInformationBlockType1 message in a first subframe of a frame from a communication node; receiving the SystemInformationBlockType1 message in a second subframe of the frame from the communication node based on communication device capability for processing the SystemInformationBlockType1 message in the second subframe; sending a radio resource control signal to the communication node based on the communication device capability for processing the SystemInformationBlockType1 message in the second subframe; and utilizing the second subframe as either a valid subframe or an invalid subframe based on the communication device capability for processing the SystemInformationBlockType1 message in the second subframe.",
+  "claims": "1. A method performed by a communication device, comprising: receiving a SystemInformationBlockType1 (SIB1) message in a first subframe of a frame from a communication node; receiving an additional SIB1 message in a second subframe of the frame containing the additional SIB1 message from the communication node based on a communication device capability for processing the additional SIB1 message; sending a radio resource control signal to the communication node based on the communication device capability for processing the additional SIB1 message in the second subframe of the frame containing the additional SIB1 message, wherein the radio resource control signal comprises an information element for indicating whether the communication device supports processing the additional SIB1 message in the second subframe containing the additional SIB1 message; and utilizing a second subframe of another frame not containing the additional SIB1 message as a valid subframe based on a confirmation information associated with the second subframe of the another frame not containing the additional SIB1 message received from the communication node, wherein: the frame comprises ten contiguous subframes when the additional SIB1 message is absent in the frame, and the second subframe is a fourth subframe out of the ten contiguous subframes.",
+  "patent_id": "US12382442-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/0446",
+      "H04L 5/0053",
+      "H04W 48/12"
+    ],
+    "all": [
+      "H04W 72/0446",
+      "H04L 5/0053",
+      "H04W 48/12"
+    ],
+    "source": "converted"
+  }
+}

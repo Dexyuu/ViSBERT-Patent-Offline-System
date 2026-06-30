@@ -1,0 +1,22 @@
+{
+  "title": "Efficient storage and query of schemaless data",
+  "abstract": "A method of storing semi-structured data includes receiving user data from a user of a query system where the user data includes semi-structured user data. The method also includes receiving an indication that the semi-structured user data fails to include a fixed schema. In response to the indication that the semi-structured user data fails to include the fixed schema, the method further includes parsing the semi-structured user data into a plurality of data paths and extracting a data type associated with each respective data path of the plurality of data paths. The method additionally includes storing the semi-structured user data as a row entry in a table of a database in communication with the query system wherein each column value associated with the row entry corresponds to a respective one of the plurality of data paths and the data type associated with the respective data path.",
+  "claims": "1. A computer-implemented method when executed by data processing hardware causes the data processing hardware to perform operations comprising: receiving schemaless data from a user of a query system; extracting, without user input, a schema for the schemaless data by: parsing the schemaless data into a plurality of data paths; and organizing, based on the plurality of data paths, one or more values of the schemaless data into a plurality of columns, the plurality of columns organized according to the schema; storing, using the extracted schema, the schemaless data as a row entry in a table of a database in communication with the query system; receiving, from the user of the query system, a query for data associated with the database; and in response to the query: determining, based on the extracted schema, a respective column of the table that is responsive to the query; generating, using the extracted schema, a query response comprising a respective value of the row entry corresponding to the respective column that is responsive to the query; and transmitting the query response to the user.",
+  "patent_id": "US12380163-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/86",
+      "G06F 16/2282",
+      "G06F 16/2452",
+      "G06F 16/258"
+    ],
+    "all": [
+      "G06F 16/86",
+      "G06F 16/2282",
+      "G06F 16/2452",
+      "G06F 16/258"
+    ],
+    "source": "converted"
+  }
+}

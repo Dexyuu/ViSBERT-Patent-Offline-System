@@ -1,0 +1,22 @@
+{
+  "title": "Pose estimation method and apparatus",
+  "abstract": "Various embodiments of the teachings herein include a computer implemented pose estimation method for providing poses of objects of interest in a scene. The scene comprises a visual representation of the objects of interest in an environment. The method comprising: conducting for each one of the objects of interest a pose estimation; determining edge data of the object of interest from the visual representation representing the edges of the respective object of interest; determining keypoints of the respective object of interest by a previously trained artificial neural keypoint detection network, wherein the artificial neural keypoint detection network utilizes the determined edge data of the respective object of interest Oi as input and provides the keypoints of the respective object of interest as output; and estimating the pose of the respective object of interest based on the respective object's keypoints provided by the artificial neural keypoint detection network.",
+  "claims": "13. An apparatus for providing pose information of one or more objects of interest in a scene, an apparatus comprising: a computer with a memory and a processor; wherein the memory stores a set of instructions, the set of instructions causing the processor to implement a pose estimation method for providing poses of objects of interest in a scene, wherein the scene comprises a visual representation of the objects of interest oi in environment, the method comprising: conducting for each one of the objects of interest pose estimation; determining edge data of the object of interest from the visual representation representing the edges of the respective object of interest; determining keypoints of the respective object of interest by previously trained artificial neural keypoint detection network, wherein the artificial neural keypoint detection network utilizes the determined edge data of the respective object of interest oi as input and provides the keypoints of the respective object of interest as output; estimating the pose of the respective object of interest based on the respective object's keypoints provided by the artificial neural keypoint detection network.",
+  "patent_id": "US12380594-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/73",
+      "G06T 7/13",
+      "G06T 2207/20081",
+      "G06T 2207/20084"
+    ],
+    "all": [
+      "G06T 7/73",
+      "G06T 7/13",
+      "G06T 2207/20081",
+      "G06T 2207/20084"
+    ],
+    "source": "converted"
+  }
+}

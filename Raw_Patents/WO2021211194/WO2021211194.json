@@ -1,0 +1,25 @@
+{
+  "application_id": "WO2021211194",
+  "application_id_fs": null,
+  "title": "Token-position handling for sequence based neural networks",
+  "abstract": "Embodiments of the present disclosure include a method for token-position handling comprising: processing a first sequence of tokens to produce a second sequence of tokens, wherein the second sequence of tokens has a smaller number of tokens than the first sequence of tokens; masking at least some tokens in the second sequence to produce masked tokens; moving the masked tokens to the beginning of the second sequence to produce a third sequence; encoding tokens in the third sequence into a set of numeric vectors in a first array; and processing the first array in a transformer neural network to determine correlations among the third sequence, the processing the first array producing a second array.",
+  "claims": "Claims 1. A computer system for improving natural language understanding comprising: a processor; and a memory having stored thereon program code that, when executed by the processor, causes the processor to: process a first sequence of tokens to produce a second sequence of tokens, wherein the second sequence of tokens has a smaller number of tokens than the first sequence of tokens; mask one or more tokens in the second sequence to produce masked tokens; move the masked tokens to the beginning of the second sequence to produce a third sequence; encode tokens in the third sequence into a set of numeric vectors in a first array; and process the first array in a transformer neural network to determine correlations among the third sequence, the processing the first array producing a second array, wherein the second array is compared to a known result set to train the transformer neural network for natural language understanding. 2. The computer system of claim 1, wherein the tokens are words. 3. The computer system of claim 1, wherein the processing the first sequence of tokens uses probabilities that tokens occur to drop tokens from the first sequence of tokens to produce the second sequence of tokens. 4. The computer system of claim 1, wherein the processing the first sequence of tokens uses a neural network to drop tokens from the first sequence of tokens to produce the second sequence of tokens. 5. The computer system of claim 1, wherein the masking uses inverse probabilities that tokens occur to mask the one or more tokens. 6. The computer system of claim 1, wherein the masking uses a neural network to mask the one or more tokens. 7. The computer system of claim 1, wherein the vectors in the first array are at least approximately orthogonal. 8. The computer system of claim 7, wherein the first array has a first \n\ndimension corresponding to a sequence length equal to a number of words in each sequence and a second dimension corresponding to a size of the numeric vector. 9. The computer system of claim 1, wherein the program code further causes the processor to: train the transformer neural network using the second array and a known result associated with the first sequence of tokens. 10. The computer system of claim 1, wherein the transformer neural network comprises an attention layer. 11. A method for improving natural language understanding comprising: processing a first sequence of tokens to produce a second sequence of tokens, wherein the second sequence of tokens has a smaller number of tokens than the first sequence of tokens; masking one or more tokens in the second sequence to produce masked tokens; moving the masked tokens to the beginning of the second sequence to produce a third sequence; encoding tokens in the third sequence into a set of numeric vectors in a first array; and processing the first array in a transformer neural network to determine correlations among the third sequence, the processing the first array producing a second array, wherein the second array is compared to a known result set to train the transformer neural network for natural language understanding. 12. The method of claim 11, wherein the tokens are words. 13. The method of claim 11, wherein the processing the first sequence of tokens uses probabilities that tokens occur to drop tokens from the first sequence of tokens to produce the second sequence of tokens. 14. The method of claim 11, wherein the processing the first sequence of tokens uses a neural network to drop tokens from the first sequence of tokens to produce the second sequence of tokens. 15. The method of claim 11, wherein the masking uses inverse probabilities that tokens occur to mask the one or more tokens.",
+  "classifications": {
+    "ipc": [
+      "G06F 40/284",
+      "G06F 40/216",
+      "G06F 40/44",
+      "G06N 3/08",
+      "G06N 3/04"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 40/284",
+      "G06F 40/216",
+      "G06F 40/44",
+      "G06N 3/08",
+      "G06N 3/04"
+    ],
+    "source": "csv"
+  }
+}

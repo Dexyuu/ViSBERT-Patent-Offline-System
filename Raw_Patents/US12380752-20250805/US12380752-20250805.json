@@ -1,0 +1,20 @@
+{
+  "title": "System, method and computer program product for automatically opening a gate of a public transport station",
+  "abstract": "A system for automatically opening a gate of a public transport station may comprise a plurality of transmitters (1201, 1301), a mobile device (1100) of a passenger reaching the plurality of gates and a plurality of gate control devices (1210, 1310) controlling the plurality of gates (1200, 1300). Each transmitter may be installed at one of a plurality of gates (1200, 1300) and may send a transmitter signal including a gate identifier identifying the respective gate. The passenger's mobile device (1100) may receive a plurality of transmitter signals from the plurality of transmitters (1201, 1301), select one of the plurality of received transmitter signals based on a signal characteristic of the received transmitter signals, read the gate identifier included in the selected transmitter signal, and transmit a validation signal including the gate identifier of the selected transmitter signal and a user identifier of the passenger's mobile device (1100) to the plurality of gate control devices (1210, 1310). Each gate control device (1200, 1300) may receive the validation signal from the passenger's mobile device (1100), compare the gate identifier included in the received validation signal with a gate identifier of the gate (1200, 1300) controlled by the gate control device (1210, 1310), and open the gate (1200, 1300) if the gate identifier included in the received validation signal corresponds to the gate identifier of the gate (1200, 1300) controlled by the gate control device (1210, 1310).",
+  "claims": "1. A gate system comprising a plurality of gates of a public transport station configured to open a gate automatically, the gate system comprising: a plurality of transmitters, each transmitter being installed at one of a plurality of gates and configured to send a transmitter signal including a gate identifier identifying the respective gate; a plurality of gate control devices, each gate control device configured to receive a validation signal from a passenger's mobile device, the validation signal including a gate identifier from a transmitter signal selected by the mobile device based on signal frequencies of a plurality of transmitter signals, compare the gate identifier included in the received validation signal with a gate identifier of the gate controlled by the gate control device, and open the gate if the gate identifier included in the received validation signal corresponds to the gate identifier of the gate controlled by the gate control device.",
+  "patent_id": "US12380752-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G07C 9/10",
+      "G07C 9/27",
+      "G07C 9/28"
+    ],
+    "all": [
+      "G07C 9/10",
+      "G07C 9/27",
+      "G07C 9/28"
+    ],
+    "source": "converted"
+  }
+}

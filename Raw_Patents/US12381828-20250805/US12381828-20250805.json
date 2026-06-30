@@ -1,0 +1,16 @@
+{
+  "title": "Downlink data stall optimization by addressing an out-of-order packet sequence",
+  "abstract": "Aspects of the present disclosure relate to optimization of packet processing when packets are received out of order in sequence. For example, a user equipment (UE) may determine whether a difference between a sequence number of a first packet and a sequence number of a second packet received subsequent to receiving the first packet exceeds a sequence jump threshold. The UE may disregard the second packet from processing in response to at least determining that the difference is greater than the sequence jump threshold. The UE may receive and process a plurality of packets respectively associated with a plurality of sequence numbers that are greater than the sequence number of the first packet and less than the sequence number of the second packet.",
+  "claims": "1. A method of packet processing by a user equipment (UE), comprising: determining whether a difference between a sequence number of a first packet and a sequence number of a second packet received subsequent to receiving the first packet exceeds a sequence jump threshold, prior to determining whether to process the second packet; disregarding the second packet from processing in response to at least determining that the difference is greater than the sequence jump threshold; and receiving and processing a plurality of packets respectively associated with a plurality of sequence numbers that are greater than the sequence number of the first packet and less than the sequence number of the second packet in response to at least determining that the difference is greater than the sequence jump threshold.",
+  "patent_id": "US12381828-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 47/34"
+    ],
+    "all": [
+      "H04L 47/34"
+    ],
+    "source": "converted"
+  }
+}

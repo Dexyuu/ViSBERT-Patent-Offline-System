@@ -1,0 +1,26 @@
+{
+  "title": "Virtual research platform",
+  "abstract": "Systems and methods for automated data curation and presentation are disclosed herein. The system can include a memory including a structured database and a plurality of storage bins. The system can include at least one server that can receive a packetized data file generated from a data file. This packetized data file can include a first packet generated from a content file of the data file, a second packet generated from metadata of the data file, and a third packet generated from a payload of the data file. The at least one server can automatically generate at least one tag for the packetized data file, which at least one tag is automatically generated based at least one key phrase identified in at least the targeted portion of the content file. The at least one server can index the packetized data file according to the at least one tag into a predetermined taxonomy, receive a data request including a plurality of parameters identifying attributes of packetized data, and deliver curated data selected according to the at least some of the plurality of parameters of the data request.",
+  "claims": "1. A system comprising: memory comprising a plurality of storage bins, each of the plurality of storage bins assigned to a content owner; a service layer configured to issue an encryption key to each content owner to which at least one of the plurality of storage bins is assigned; at least one processor configured to packetize a first data file comprising a first text file and a first image file, wherein packetizing the first data file comprises: deidentifying the first data file via extraction of a target portion from at least the first image file of the first data file, the targeted portions excluding personalized data; and creating the packetized first data file from the extracted target portion; and at least one server communicatingly coupled with the memory, wherein the at least one server is configured to: receive the packetized first data file; automatically generate at least one tag for the packetized first data file, wherein the at least one tag is automatically generated based at least one key phrase identified in at least a targeted portion of the first data file; index the packetized first data file according to the at least one tag into a predetermined taxonomy; select data in response to a user data request comprising parameters identifying at least one tag; and deliver the selected data.",
+  "patent_id": "US12381937-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 67/10",
+      "G06F 16/2228",
+      "G06F 16/285",
+      "H04L 12/66",
+      "H04L 67/1097",
+      "H04L 67/01"
+    ],
+    "all": [
+      "H04L 67/10",
+      "G06F 16/2228",
+      "G06F 16/285",
+      "H04L 12/66",
+      "H04L 67/1097",
+      "H04L 67/01"
+    ],
+    "source": "converted"
+  }
+}

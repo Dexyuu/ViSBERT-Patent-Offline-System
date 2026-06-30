@@ -1,0 +1,36 @@
+{
+  "application_id": "WO2025101422",
+  "application_id_fs": "WO2025101422",
+  "title": "Method of operating a camera arrangement",
+  "abstract": "The invention describes a method of operating a camera arrangement (1) of a mobile device (2), comprising the steps of operating a first camera (C1) of the camera arrangement (1) using a short exposure duration (D short ) and simultaneously actuating a flash unit (12) of the camera arrangement (1) to obtain a first image (11); operating a second camera (C2) of the camera arrangement (1) using a long exposure duration (D long ) to obtain a second image (12); processing the first image (11) to extract foreground image data (5); processing the second image (12) to obtain background image data (4); and overlaying the foreground image data (4) onto the background image data (5) to obtain a final image (6). The invention further describes a camera control arrangement (1) configured to perform the steps of the inventive method, and a camera arrangement (1) comprising such a camera control arrangement (1).",
+  "claims": "Claims 1 . A method of operating a camera arrangement (1) of a mobile device (2), which method comprises the steps of operating a first camera (C1) of the camera arrangement (1) using a short exposure duration (Dshort) and simultaneously actuating a flash unit (F) of the camera arrangement (1) to obtain a first image (11) of a low-light scene (3) comprising near-field and far-field elements; operating a second camera (C2) of the camera arrangement (1) using a long exposure duration (Diong) to obtain a second image (12) during which the flash unit (F) remains off, and wherein the long exposure duration (Di on g) is chosen to collect sufficient ambient light; processing the first image (11) to extract foreground image data (5); processing the second image (12) to obtain background image data (4); and overlaying the foreground image data (4) onto the background image data (5) to obtain a final image (6). 2. A method according to the preceding claim, comprising a step of removing image blur (12biur) from the second image (12). 3. A method according to any of the preceding claims, wherein the step of extracting foreground image data (5) from the first image (11) comprises a step of identifying an illuminated near-field object (32). 4. A method according to the preceding claim, wherein an illuminated near-field object (32) is identified using an image segmentation algorithm. 5. A method according to any of the preceding claims, comprising an initial step of determining the light level in the scene (3), and wherein the long exposure time (Di ong ) for the second camera (C2) is determined on the basis of the determined light level. 6. A method according to any of the preceding claims, wherein the step of actuating a flash unit of the camera arrangement (1 ) comprises selectively activating one or more emitters (FE) of a segmented flash (F). 7. A method according to any of the preceding claims, comprising an initial step of obtaining a depth map of the scene (3). 8. A method according to claim 6 or claim 7, wherein the emitters (FE) of the flash unit (F) are \n\nactuated on the basis of the depth map and/or on the basis of the first image (11 ) . 9. A method according to any of the preceding claims, comprising additional steps of operating the second camera (C2) using a short exposure time (Dshort) while actuating the flash unit (F) to obtain a third image (11 B); and extracting further near-field image data from the third image (11 B) for use in the final image (6). 10. A camera control arrangement (1) configured to perform the method according to any of claims 1 to 9, comprising a means for actuating the first camera (C1) of the camera arrangement (1) using a short exposure time (Dshort) and simultaneously actuating the flash unit (F) of the camera arrangement (1) to obtain a first image (11 ); a means for actuating the second camera (C2) of the camera arrangement (1) using a long exposure time (Di ong ) to obtain a second image (12); a foreground image processing module (105) configured to extract foreground image data (5) from the first image (11); a background image processing module (104) configured to extract background image data (4) from the second image (12); a composition module (6) configured to compose a final image (6) from the foreground image data (5) and the background image data (4). 11. A camera control arrangement according to the preceding claim, configured to determine the light level in the scene (3) and to compute an exposure time (Di ong , Dshort) on the basis of the determined light level. 12. A camera control arrangement according to claim 10 or claim 1 1 , configured to determine a depth map of the scene (3) and to compute an exposure time (Di ong , Dshort) on the basis of the depth map. 13. A camera arrangement (1 ) of a handheld mobile device (2), comprising a first camera (C1) including an image sensor (S1) and focussing optics (L1); a second camera (C2) including an image sensor (S2) and focussing optics (L2), wherein the field of view (FOV2) of the second camera (C2) is larger than the field of view (FOV1) of the first camera (C1); a segmented flash (F); and a camera control arrangement (1) according to any of claims 10 to 12. 14. A camera arrangement according to the preceding claim, wherein the first camera (C1) comprises a zoom lens (C1 ), and wherein the second camera (C2) comprises a wide angle lens (L2). 15. A camera arrangement according to claim 13 or claim 14, wherein the resolution of the first camera (C1) exceeds the resolution of the second camera (C2).",
+  "classifications": {
+    "ipc": [
+      "H04N 23/00",
+      "H04N 23/70",
+      "H04N 23/74",
+      "G06T 5/00",
+      "G06T 5/50",
+      "G06T 7/00",
+      "G06T 7/10",
+      "G06T 7/194",
+      "H04N 23/45",
+      "H04N 23/56"
+    ],
+    "cpc": [],
+    "all": [
+      "H04N 23/00",
+      "H04N 23/70",
+      "H04N 23/74",
+      "G06T 5/00",
+      "G06T 5/50",
+      "G06T 7/00",
+      "G06T 7/10",
+      "G06T 7/194",
+      "H04N 23/45",
+      "H04N 23/56"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025101422"
+}

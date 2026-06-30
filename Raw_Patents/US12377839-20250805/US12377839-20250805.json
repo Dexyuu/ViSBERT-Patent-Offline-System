@@ -1,0 +1,32 @@
+{
+  "title": "Driving assistance apparatus",
+  "abstract": "A driving assistance apparatus is configured to determine whether a preset deceleration assistance start condition is satisfied, start deceleration assistance for a driver's vehicle against a first deceleration-triggering object, determine whether a preset deceleration assistance termination condition is satisfied, issue a deceleration assistance termination notification to a driver of the driver's vehicle, determine whether a second deceleration-triggering object is detected ahead of the driver's vehicle, and determine whether a preset quick resumption condition is satisfied. The driving assistance apparatus is configured not to issue the deceleration assistance termination notification when the driving assistance apparatus determines that the quick resumption condition is satisfied, even in a case where the driving assistance apparatus determines that the deceleration assistance termination condition for the first deceleration-triggering object is satisfied.",
+  "claims": "1. A driving assistance apparatus comprising one or more processors configured to: execute first deceleration assistance for a driver's vehicle in accordance with information on a first object that is detected ahead of the driver's vehicle; display a deceleration assistance display while the first deceleration assistance is executed; and in response to terminating the first deceleration assistance in accordance with information on the first object: determine whether a second object is detected ahead of the driver's vehicle; upon determination that the second object is detected ahead of the driver's vehicle, determine a time that second deceleration assistance for the driver's vehicle will be executed based on a distance between the second object and the driver's vehicle and a relative speed between the second object and the driver's vehicle; (i) execute a change for a display mode of the deceleration assistance display in response to the time that the second deceleration assistance for the driver's vehicle will be executed being greater than or equal to a predetermined threshold; and (ii) suppress the change in response to the time that the second deceleration assistance for the driver's vehicle will be executed being less than the predetermined threshold.",
+  "patent_id": "US12377839-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 30/09",
+      "B60W 30/0956",
+      "B60W 30/16",
+      "B60W 50/14",
+      "B60W 2554/20",
+      "B60W 2554/4026",
+      "B60W 2554/4029",
+      "B60W 2554/802",
+      "B60W 2555/60"
+    ],
+    "all": [
+      "B60W 30/09",
+      "B60W 30/0956",
+      "B60W 30/16",
+      "B60W 50/14",
+      "B60W 2554/20",
+      "B60W 2554/4026",
+      "B60W 2554/4029",
+      "B60W 2554/802",
+      "B60W 2555/60"
+    ],
+    "source": "converted"
+  }
+}

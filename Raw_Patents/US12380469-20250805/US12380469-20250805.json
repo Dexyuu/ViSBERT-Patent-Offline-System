@@ -1,0 +1,20 @@
+{
+  "title": "Method, apparatus, and computer program product for predicting web browsing behaviors of consumers",
+  "abstract": "Embodiments of the present invention provide methods, systems, apparatuses, and computer program products for predicting consumer behavior. In one embodiment a method is provided comprising automatically creating a link graph comprising nodes representing webpages, links representing hyperlinks, and weights for each link representing a number of times a hyperlink associated with the respective link redirected the a user devices from a webpage associated with a first node connected to the link to a webpage associated with a second node connected to the link; and determining based on the link graph a programmatically expected path for a particular user, wherein the programmatically expected path identifies, at least, two or more webpages that the particular user is programmatically expected to visit and specifying a programmatically expected order at which the particular user will visit the webpages.",
+  "claims": "1. An apparatus comprising at least one processor and at least one non-transitory memory comprising program code, wherein the at least one non-transitory memory and the program code are configured to, with the at least one processor, cause the apparatus to: generate a link graph for a website comprising a plurality of webpages, the link graph comprising a plurality of nodes and a plurality of links, wherein a node of the plurality of nodes represents a webpage of the plurality of webpages and a link of the plurality of links represents a hyperlink of one or more hyperlinks; modify the link graph by eliminating those links of the plurality of links from the link graph that are associated with a desired computational expense below a first threshold or a desired accuracy below a second threshold; and generate a programmatically expected path for a particular user through the link graph based at least in part on a number of times each link associated with a first node was accessed.",
+  "patent_id": "US12380469-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0255",
+      "G06Q 30/0277",
+      "G06F 16/835"
+    ],
+    "all": [
+      "G06Q 30/0255",
+      "G06Q 30/0277",
+      "G06F 16/835"
+    ],
+    "source": "converted"
+  }
+}

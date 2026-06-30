@@ -1,0 +1,34 @@
+{
+  "title": "Map optimizing method, related electronic device and non-transitory computer readable storage medium",
+  "abstract": "A map optimizing method, applicable to an electronic device storing distance values and a map, includes: identifying, from the map, a first map point with a first estimated coordinate and a second map point with a second estimated coordinate generated based on a first marker and a second marker, respectively; generating, according to the first and second estimated coordinates, virtual cameras controlled by a virtual pose and with optical axes intersected at first and second intersection coordinates separated from each other by one of the distance values, in which the virtual cameras provide virtual frames indicating that the first and second markers are observed at the first and second intersection coordinates, respectively; and performing a global bundle adjustment to optimize the map, including adjusting the first and second estimated coordinates to reduce a sum of re-projection errors calculated according to real keyframes and the virtual frames.",
+  "claims": "1. A map optimizing method, applicable to an electronic device configured to store a plurality of distance values and a map, comprising: identifying, from the map, a first map point with a first estimated coordinate and a second map point with a second estimated coordinate generated based on a first marker and a second marker, respectively; generating, according to the first estimated coordinate and the second estimated coordinate, a plurality of virtual cameras controlled by a virtual pose and with optical axes intersected at a first intersection coordinate and a second intersection coordinate separated from each other by a first distance value of the plurality of distance values, wherein the plurality of virtual cameras provide a plurality of virtual frames indicating that the first marker and the second marker are observed at the first intersection coordinate and the second intersection coordinate, respectively; and performing a global bundle adjustment to optimize the map, comprising adjusting the first estimated coordinate and the second estimated coordinate to reduce a sum of re-projection errors calculated according to a plurality of real keyframes and the plurality of virtual frames, wherein the electronic device is configured to perform positioning according to the optimized map.",
+  "patent_id": "US12380588-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/70",
+      "G06T 7/50",
+      "G06T 7/55",
+      "G06T 7/97",
+      "G06V 10/225",
+      "G06V 10/245",
+      "G06V 20/20",
+      "H04N 13/111",
+      "G06T 2207/30204",
+      "G06T 2207/30244"
+    ],
+    "all": [
+      "G06T 7/70",
+      "G06T 7/50",
+      "G06T 7/55",
+      "G06T 7/97",
+      "G06V 10/225",
+      "G06V 10/245",
+      "G06V 20/20",
+      "H04N 13/111",
+      "G06T 2207/30204",
+      "G06T 2207/30244"
+    ],
+    "source": "converted"
+  }
+}

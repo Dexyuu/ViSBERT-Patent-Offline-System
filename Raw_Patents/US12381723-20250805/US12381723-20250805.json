@@ -1,0 +1,20 @@
+{
+  "title": "Distributed secret management",
+  "abstract": "A data platform provides for encryption of secrets. During operation, an application of the data platform receives a secret and communicates the secret to an encryption client of the data platform. The encryption client generates an encrypted secret using a Data Encryption Key (DEK) and the secret. The encryption client communicates the DEK to an encryption server of the data platform while retaining the encrypted secret. The encryption server generates an encrypted DEK using a Transit Encryption Key TEK. The encryption server communicates the encrypted DEK to the encryption client and the encryption client generates a binary large object (blob) using the retained encrypted secret and the encrypted DEK. The application stores the blob on a data storage device.",
+  "claims": "1. A method comprising: hosting, by a data platform, a plurality of encryption server instances, the plurality encryption server instances operating independently of each other; generating, by a key manager of the data platform, a Transit Encryption Key (TEK) version; storing the TEK version on a TEK storage device accessible to the plurality of encryption server instances; setting, by the key manager, a TEK version pointer object to point to the TEK version; and waiting, by the key manager, for each encryption server instance of the plurality of encryption server instances to load the TEK version before communicating the TEK version pointer object to the plurality of encryption server instances.",
+  "patent_id": "US12381723-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/0861",
+      "H04L 9/0819",
+      "H04L 9/0894"
+    ],
+    "all": [
+      "H04L 9/0861",
+      "H04L 9/0819",
+      "H04L 9/0894"
+    ],
+    "source": "converted"
+  }
+}

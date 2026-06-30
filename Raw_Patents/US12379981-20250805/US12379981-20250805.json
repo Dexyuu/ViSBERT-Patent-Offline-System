@@ -1,0 +1,18 @@
+{
+  "title": "Thread weave for cross-instruction set architectureprocedure calls",
+  "abstract": "The invention provides a method of initiating code including (i) storing an application having first, second and third functions, the first function being a main function that calls the second and third functions to run the application, (ii) compiling the application to first and second heterogeneous processors to create first and second central processing unit (CPU) instruction set architecture (ISA) objects respectively, (iii) pruning the first and second CPU ISA objects by removing the third function from the first CPU ISA objects and removing first and second functions from the second CPU ISA objects, (iv) proxy inserting first and second remote procedure calls (RPC's) in the first and second CPU ISA objects respectively, and pointing respectively to the third function in the second CPU ISA objects and the second function in the first CPU ISA objects, and (v) section renaming the second CPU ISA objects to common application library.",
+  "claims": "1. A method of executing an application comprising: executing a first function of an application that has first, second and third functions, the first function being a main function, on a first processor with at least one of first central processing unit (CPU) instruction set architecture (ISA) objects that are compiled to the first processor, the main function causing sequential execution of: a first remote proxy call (RPC) on the first processor with at least one of the first CPU ISA objects, the first function calling the first RPC while a second CPU is paused; the third function on a second processor with at least one of second CPU ISA objects that are compiled to the second processor, the first RPC calling the third function and pausing the first CPU; the second RPC on the second processor with at least one of the second CPU ISA objects, the third function calling the second RPC while a first CPU is paused; and the second function on the first processor with at least one of the first CPU ISA objects, wherein the application has a data structure that is used by functions of the first and second CPU ISA objects, the second RPC calling the second function and pausing the second CPU.",
+  "patent_id": "US12379981-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/547",
+      "G06F 8/47"
+    ],
+    "all": [
+      "G06F 9/547",
+      "G06F 8/47"
+    ],
+    "source": "converted"
+  }
+}

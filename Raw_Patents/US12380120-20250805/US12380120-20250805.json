@@ -1,0 +1,24 @@
+{
+  "title": "In-context and semantic-aware ensemble model for document retrieval",
+  "abstract": "A method, apparatus, non-transitory computer readable medium, and system for document retrieval include obtaining a query and a document. A prompt generator generates a prompt for a reasoning model based on the query and the document. The reasoning model generates a reasoning result based on the prompt. In some cases, the reasoning result indicates that the document answers the query. A machine learning model provides the document in response to the query based on the reasoning result.",
+  "claims": "1. A method of document retrieval, comprising: obtaining a query to a database and a document from the database; generating, using a prompt generator, a prompt for a reasoning model based on the query and the document; generating, using the reasoning model, a reasoning result by performing a self-attention mechanism on the prompt, wherein the reasoning result indicates that the document answers the query based on a query-document contrastive learning loss computed using a positive query-document pair and a negative query-document pair, the positive query-document pair includes a first query and a first document that includes enough information to answer the first query, and the negative query-document pair includes a second query and a second document that does not include enough information to answer the second query; and providing the document from the database in response to the query based on the reasoning result.",
+  "patent_id": "US12380120-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/24578",
+      "G06F 16/3347",
+      "G06F 16/93",
+      "G06F 16/951",
+      "G06N 20/20"
+    ],
+    "all": [
+      "G06F 16/24578",
+      "G06F 16/3347",
+      "G06F 16/93",
+      "G06F 16/951",
+      "G06N 20/20"
+    ],
+    "source": "converted"
+  }
+}

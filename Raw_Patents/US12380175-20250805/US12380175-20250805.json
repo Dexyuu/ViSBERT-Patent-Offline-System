@@ -1,0 +1,44 @@
+{
+  "title": "Dynamic radius threshold selection",
+  "abstract": "Methods and systems for selecting content for a computing device are described. In some embodiments, the method comprises: receiving, by one or more processors of a data processing system, from a client computing device, location data of the client computing device; identifying, by the data processing system, an entity around a location of the client computing device; identifying, by the data processing system, a radius threshold corresponding to the entity based on a performance metric criterion; determining, by the data processing system, that a distance between the client computing device and the entity is less than the radius threshold corresponding to the entity; and transmitting, by the data processing system, responsive to the determination, to the client computing device, a content item associated with the entity.",
+  "claims": "1. A method of selecting content for a computing device, comprising: receiving, by one or more processors of a data processing system, from a client computing device, location data of the client computing device; identifying, by the data processing system, an entity around a location of the client computing device; generating, by the data processing system, a database indicating a plurality of radius thresholds associated with a plurality of respective feature combinations, at least in part by (i) using a machine learning model to predict performance metric values associated with different distance values and different feature combinations and (ii) comparing the predicted performance metric values to a performance metric criterion to identify the radius thresholds; identifying, by the data processing system, a radius threshold corresponding to the entity based on (i) a particular feature combination associated with the entity and the client computing device and (ii) a particular radius threshold that is associated with the particular feature combination in the database; determining, by the data processing system, that a distance between the client computing device and the entity is less than the radius threshold corresponding to the entity; and transmitting, by the data processing system, responsive to the determination, to the client computing device, a content item associated with the entity.",
+  "patent_id": "US12380175-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/9537",
+      "G06F 16/2228",
+      "G06F 16/248",
+      "G06F 16/29",
+      "G06F 16/3331",
+      "G06F 16/954",
+      "G06F 40/205",
+      "G06N 20/00",
+      "G06Q 30/0256",
+      "G06Q 30/0261",
+      "H04L 43/16",
+      "H04L 51/222",
+      "H04L 67/52",
+      "H04W 4/021",
+      "H04W 4/025"
+    ],
+    "all": [
+      "G06F 16/9537",
+      "G06F 16/2228",
+      "G06F 16/248",
+      "G06F 16/29",
+      "G06F 16/3331",
+      "G06F 16/954",
+      "G06F 40/205",
+      "G06N 20/00",
+      "G06Q 30/0256",
+      "G06Q 30/0261",
+      "H04L 43/16",
+      "H04L 51/222",
+      "H04L 67/52",
+      "H04W 4/021",
+      "H04W 4/025"
+    ],
+    "source": "converted"
+  }
+}

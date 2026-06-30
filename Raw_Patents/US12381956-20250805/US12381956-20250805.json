@@ -1,0 +1,18 @@
+{
+  "title": "Loaning data connection capabilities for edge devices",
+  "abstract": "Provided are a method, system, and computer program product in which a connection management system is provided in multi-site target system. Resources for connections not needed at a point in time are loaned, from one entity to another in the connection management system.",
+  "claims": "1. A method, comprising: providing a connection management system in multi-site target system, wherein the multi-site target system is in a core or edge; and loaning resources for connections not needed at a point in time, from one entity to another in the connection management system, wherein: a storage management instance of a cloud locates hosts for site preferences and volume attachments, locates connections created from an individual site to target object identifier instances and creates a map of mutual exclusion of connections for the hosts which are on differential sites for host objects; and based on the map of mutual exclusion of connections for the hosts, the multi-site target system further locates connections that loan the resources to each other, wherein the method further comprises: initiating an initiator controller to load metadata, session information, and target details; loading data for session authentication and target connectivity details; and initializing a data structure to be used to maintain a queue depth enumerator.",
+  "patent_id": "US12381956-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 67/141",
+      "H04L 41/50"
+    ],
+    "all": [
+      "H04L 67/141",
+      "H04L 41/50"
+    ],
+    "source": "converted"
+  }
+}

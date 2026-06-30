@@ -1,0 +1,30 @@
+{
+  "title": "Display device, method of driving the same, and electronic apparatus including the same",
+  "abstract": "A display device includes a driving controller which generates output image data based on input image data, a data driver which generates data voltages based on the output image data, and a display panel which displays an image based on the data voltages. The driving controller may generate a plurality of edge values in a first direction for a plurality of blocks based on a plurality of luminance values for the plurality of blocks that are dividing the display panel, determine a boundary area in the first direction based on a continuity of edge blocks in a second direction crossing the first direction, the edge blocks being determined based on the plurality of edge values, and generate the output image data based on the input image data and compensation data for decreasing a luminance of the image corresponding to the boundary area.",
+  "claims": "1. A display device, comprising: a driving controller which generates output image data based on input image data; a data driver which generates data voltages based on the output image data; and a display panel which displays an image based on the data voltages, wherein the driving controller, generates a plurality of edge values in a first direction for a plurality of blocks dividing the display panel based on a plurality of luminance values for the plurality of blocks, wherein an edge value for a block among the plurality of blocks corresponds to a difference between a luminance value for the block during a frame period and a luminance value for a block adjacent to the block during the frame period, determines a boundary area, extending in the first direction and having a boundary line extending in a second direction, based on a continuity of edge blocks extending in the second direction crossing the first direction, wherein the edge blocks are determined based on the plurality of edge values among the plurality of blocks, and generates the output image data based on the input image data and compensation data for decreasing a luminance of the image corresponding to the boundary area, wherein the driving controller includes: a luminance generator which generates the plurality of luminance values based on the input image data; an edge generator which generates the plurality of edge values based on the plurality of luminance values; a determiner which determines the boundary area based on the plurality of edge values; a compensation data generator which generates the compensation data based on the boundary area; and a data compensator which generates the output image data based on the input image data and the compensation data, and wherein the determiner includes: a count generator which generates a plurality of count values for the plurality of blocks based on the plurality of edge values; and a boundary determiner which determines the edge blocks having a maximum count value among the plurality of blocks, and determines edge block columns as the boundary area, wherein the edge block columns are determined based on the continuity of the edge blocks in the second direction.",
+  "patent_id": "US12380829-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/2092",
+      "G09G 2300/0842",
+      "G09G 2310/0232",
+      "G09G 2320/0233",
+      "G09G 2320/0257",
+      "G09G 2320/0626",
+      "G09G 2320/0686",
+      "G09G 2330/021"
+    ],
+    "all": [
+      "G09G 3/2092",
+      "G09G 2300/0842",
+      "G09G 2310/0232",
+      "G09G 2320/0233",
+      "G09G 2320/0257",
+      "G09G 2320/0626",
+      "G09G 2320/0686",
+      "G09G 2330/021"
+    ],
+    "source": "converted"
+  }
+}

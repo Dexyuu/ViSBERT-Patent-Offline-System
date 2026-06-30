@@ -1,0 +1,18 @@
+{
+  "title": "Emergency alarm processing method and emergency alarm processing system",
+  "abstract": "The present disclosure provides an emergency alarm processing method and an emergency alarm processing system. The emergency alarm processing method includes: receiving an emergency access request; according to the access means of the emergency access request, storing the emergency access request into subqueues of a unified queuing queue, wherein the unified queuing queue includes at least two subqueues, each of the subqueues is used for storing the emergency access request of at least one access means, and the access means of the emergency access request stored in each of the subqueues are different; allocating an emergency access request in the unified queuing queue to a target alarm dispatching seat supporting a corresponding access means.",
+  "claims": "1. An emergency alarm processing method, comprising: receiving an emergency access request; according to access means of the emergency access request, storing the emergency access request into subqueues of a unified queuing queue, wherein the unified queuing queue comprises at least two subqueues, each of the subqueues is used for storing the emergency access request of at least one access means, and the access means of the emergency access request stored in each of the subqueues are different from each other; and allocating the emergency access request in the unified queuing queue to a target alarm dispatching seat supporting a corresponding access means; wherein the allocating the emergency access request in the unified queuing queue to the target alarm dispatching seat supporting the corresponding access means comprises: allocation mode I: determining a target alarm dispatching seat of an emergency access request to be received; selecting an emergency access request matching the access means supported by the target alarm dispatching seat from the unified queuing queue, and allocating a selected emergency access request to the target alarm dispatching seat; or allocation mode II: determining an emergency access request to be dequeued from the unified queuing queue; and selecting a target alarm dispatching seat supporting the access means of the emergency access request from a plurality of candidate alarm dispatching seats, and allocating the emergency access request to be dequeued to the target alarm dispatching seat.",
+  "patent_id": "US12381984-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04M 3/5238",
+      "H04M 2242/04"
+    ],
+    "all": [
+      "H04M 3/5238",
+      "H04M 2242/04"
+    ],
+    "source": "converted"
+  }
+}

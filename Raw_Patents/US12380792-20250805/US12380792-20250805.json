@@ -1,0 +1,16 @@
+{
+  "title": "Real-time worker location tracking system",
+  "abstract": "The real-time location tracking of workers on a transportation vehicle using a wearable sensor and wireless stations. Embarkment of workers on the transportation vehicle may include capturing an image of an identification document and performing optical character recognition on the document. The embarkment of workers may also include scanning a worker's wearable sensor using a sensor reader and capturing an image of the face of the worker using a camera on the transportation vehicle. The communication between the wearable sensor and wireless stations may be monitored, and the absence of communication over at time period used to indicate a missing worker.",
+  "claims": "1. A system for real-time worker location tracking on a transportation vehicle, comprising: a plurality of wireless stations each located at a different location on the transportation vehicle, the plurality of wireless stations operable to communicate over a low-power wireless network; a wearable sensor wearable by a worker and operable to communicate over the low-power wireless network, wherein the wearable sensor is configured to periodically communicate with the plurality of wireless stations, the wearable sensor comprising: a first processor; a first memory: a light source; and a photodetector, wherein the light source and photodetector are configured for a photoplethysmography determination; and a server located on the transportation vehicle and operable to communicate over the wireless network, wherein the server comprises a second processor and a second memory having executable code stored thereon, the executable code comprising a set of instructions that causes the second processor to perform operations comprising: monitoring the periodic communication between the wearable sensor and the plurality of wireless stations; detecting a lack of the periodic communication between the wearable sensor and the plurality of wireless stations within a time period; and initiating an alert in response to the detection, wherein the alert indicates an absence of the worker from the transportation vehicle.",
+  "patent_id": "US12380792-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G08B 21/18"
+    ],
+    "all": [
+      "G08B 21/18"
+    ],
+    "source": "converted"
+  }
+}

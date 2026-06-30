@@ -1,0 +1,28 @@
+{
+  "title": "Methods of video encoding and/or decoding with bidirectional optical flow simplification on shift operations and related apparatus",
+  "abstract": "A method of performing bi-directional optical flow, BDOF, processing for a video sequence of images, with each image including a plurality of blocks with bidirectional-predicted inter coding blocks, BPICBs. The method includes obtaining a shifted pair of refinement parameters per a subblock of a bidirectional-predicted inter coding block, wherein the shifted pair of refinement parameters includes a shifted first refinement parameter and a shifted second refinement parameter. The method includes determining a BDOF offset without performing any right shifting using at least the shifted pair of refinement parameters by, for each sample in each subblock within each bidirectional-predicted inter coding block, determining the BDOF offset using the shifted first refinement parameter, the shifted second refinement parameter, a first horizontal gradient block and a first vertical gradient block for a first prediction block, and a second horizontal gradient block and a second vertical gradient block for a second prediction block.",
+  "claims": "1. A method of performing bi-directional optical flow, BDOF, processing for a video sequence including a plurality of images, with each image of the plurality of images including a plurality of blocks, the plurality of blocks including bi-directional-predicted inter coding blocks with BDOF enabled, the method comprising: for each subblock of a bi-directional-predicted inter coding block with BDOF enabled, determining a shifted first refinement parameter and a shifted second refinement parameter; and for each sample in each subblock within each bi-directional-predicted inter coding block with BDOF enabled, determining a BDOF offset using the shifted first refinement parameter, the shifted second refinement parameter, a first horizontal gradient block and a first vertical gradient block for a first prediction block, and a second horizontal gradient block and a second vertical gradient block for a second prediction block, without performing any right-shifting.",
+  "patent_id": "US12382091-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/577",
+      "H04N 19/109",
+      "H04N 19/132",
+      "H04N 19/136",
+      "H04N 19/176",
+      "H04N 19/186",
+      "H04N 19/52"
+    ],
+    "all": [
+      "H04N 19/577",
+      "H04N 19/109",
+      "H04N 19/132",
+      "H04N 19/136",
+      "H04N 19/176",
+      "H04N 19/186",
+      "H04N 19/52"
+    ],
+    "source": "converted"
+  }
+}

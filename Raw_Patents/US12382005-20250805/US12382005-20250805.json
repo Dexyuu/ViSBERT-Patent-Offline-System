@@ -1,0 +1,24 @@
+{
+  "title": "Image processing apparatus, image processing method, and storage medium",
+  "abstract": "An image processing apparatus includes an acquisition unit configured to acquire line-of-sight information about a movement range of a line of sight of a subject imaged by a plurality of image capturing apparatuses, a determination unit configured to determine virtual viewpoint information indicating a virtual viewpoint related to a virtual viewpoint image that is based on a plurality of captured images acquired by the imaging by the plurality of image capturing apparatuses and that includes the movement range of the line of sight of the subject identified based on the line-of-sight information acquired by the acquisition unit, and an output unit configured to output the virtual viewpoint information determined by the determination unit.",
+  "claims": "1. An image processing apparatus comprising: one or more memories; and one or more processors in communication with the one or more memories, wherein the one or more processors and the one or more memories are configured to: acquire information about a line of sight of a subject imaged by a plurality of image capturing apparatuses, based on a face of the subject in a predetermined time range; determine a parameter including a position, orientation, and angle of view of a virtual camera; and generate a virtual viewpoint image based on the acquired information and the determined parameter, wherein the virtual viewpoint image is displayed with graphics indicating the line of sight or a line-of-sight range of the subject superimposed on the virtual viewpoint image, wherein the one or more processors and the one or more memories are further configured to acquire the information based on a plurality of movement loci of lines of sight that is respectively acquired in a first predetermined time range and a second predetermined time range each of which is the predetermined time range, wherein the one or more processors and the one or more memories are further configured to gradually change the parameter between a first parameter determined to correspond to the first predetermined time range and a second parameter determined to correspond to the second predetermined time range that is shifted by the predetermined time range from the first predetermined time range, wherein the one or more processors and the one or more memories are further configured to determine the parameter and the parameter for key frames, and determine the parameters to be complemented for each time obtained by dividing the predetermined time range by a number of frames for displaying the virtual viewpoint image, as the parameters to be changed gradually.",
+  "patent_id": "US12382005-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 13/111",
+      "G06T 7/20",
+      "H04N 5/272",
+      "G06T 2207/30196",
+      "G06T 2207/30221"
+    ],
+    "all": [
+      "H04N 13/111",
+      "G06T 7/20",
+      "H04N 5/272",
+      "G06T 2207/30196",
+      "G06T 2207/30221"
+    ],
+    "source": "converted"
+  }
+}

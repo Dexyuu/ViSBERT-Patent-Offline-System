@@ -1,0 +1,26 @@
+{
+  "title": "Electrode plate drying device and coating device",
+  "abstract": "Provided are an electrode plate drying device and a coating device, and relates to the technical field of batteries. The electrode plate drying device includes an oven, a first deflector roll, and a second deflector roll. The oven is configured to dry an electrode plate. The first deflector roll and the second deflector roll are disposed in the oven. The electrode plate winds around the first deflector roll and the second deflector roll. Positions of the first deflector roll and/or the second deflector roll in the oven are tunable so as to adjust a movement distance of the electrode plate in the oven.",
+  "claims": "1. An electrode plate drying device, comprising: an oven, configured to dry an electrode plate moving through the oven along a moving path from an inlet to an outlet of the oven; a first deflector roll and a second deflector roll, disposed in the oven along the moving path between the inlet and the outlet, wherein the electrode plate is in contact with the first deflector roll and the second deflector roll and is controlled to move in a direction from the first deflector roll to the second deflector roll; a driver connected to at least one of the first deflector roll and the second deflector roll through a connector, the driver configured to drive the at least one of the first deflector roll and the second deflector roll to move in the oven to a new position different from a current position; and a controller configured to: receive real-time dryness data indicating a weight loss rate of the electrode plate according to a formula: weight loss rate=(W1−W2)/W1, wherein W1 indicates a weight per unit area of a specimen taken off from the electrode plate after the electrode plate is immediately removed from the oven; and W2 indicates a weight per unit area of the specimen after the specimen is dried or heated for a period of time outside of the oven; compare the real-time dryness data with a predetermined reference range to determine a drying state of the electrode plate, wherein the reference range includes an upper limit and a lower limit, the drying state is an overdry state if the weight loss rate is less than the lower limit, the drying state of the electrode plate is an underdry state if the weight loss rate is more than the upper limit; cause the driver to drive the at least one of the first deflector roll and the second deflector roll to move in the oven to a new position; and adjust a total drying distance of the moving path of the electrode plate in the oven, based on the drying state of the electrode plate.",
+  "patent_id": "US12379158-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "F26B 13/08",
+      "F26B 13/002",
+      "F26B 13/12",
+      "F26B 13/18",
+      "F26B 25/22",
+      "F26B 25/225"
+    ],
+    "all": [
+      "F26B 13/08",
+      "F26B 13/002",
+      "F26B 13/12",
+      "F26B 13/18",
+      "F26B 25/22",
+      "F26B 25/225"
+    ],
+    "source": "converted"
+  }
+}

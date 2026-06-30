@@ -1,0 +1,28 @@
+{
+  "title": "Lossless privacy preserving data anonymation for ADAS/AD model development",
+  "abstract": "Methods and systems are provided for data processing that include cameras and processors. The cameras are configured to obtain data including frames. The processors are coupled to the cameras, and are configured to at least facilitate identifying, for each frame, regions of interest for privacy protection; extracting, for each region of interest, high level properties of the region of interest for the frame; generating a replacement image for each of the regions of interest, thereby protecting privacy while maintaining the high level properties of the region of interest; and updating the frame utilizing the replacement image for each of the one or more regions of interest, generating an updated frame that protects individual privacy.",
+  "claims": "1. A method comprising: obtaining data from one or more cameras, the data including one or more frames; identifying, for each frame of the one or more frames via one or more processors, one or more regions of interest for privacy protection, the one or more regions of interest pertain to a license plate of a vehicle; extracting, via the one or more processors for each region of interest of the one or more regions of interest, high level properties of the region of interest for the frame; generating, via the one or more processors, a replacement image for each of the one or more regions of interest, thereby protecting privacy while maintaining the high level properties of the region of interest, the replacement image comprising a synthetic license plate image having the high level properties of the license plate; comparing, via the one or more processors, the replacement image with a plurality of actual license plate images from other vehicles; and for each of the one or more frames, updating the frame utilizing the replacement image for each of the one or more regions of interest, generating an updated frame that protects individual privacy via the one or more processors, wherein the replacement image is utilized only when a match of statistical distribution is determined between the replacement image and the plurality of actual license plate images from the other vehicles.",
+  "patent_id": "US12380619-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 11/60",
+      "G06T 11/001",
+      "G06V 10/25",
+      "G06V 10/74",
+      "G06V 10/774",
+      "G06V 20/54",
+      "G06V 40/161"
+    ],
+    "all": [
+      "G06T 11/60",
+      "G06T 11/001",
+      "G06V 10/25",
+      "G06V 10/74",
+      "G06V 10/774",
+      "G06V 20/54",
+      "G06V 40/161"
+    ],
+    "source": "converted"
+  }
+}

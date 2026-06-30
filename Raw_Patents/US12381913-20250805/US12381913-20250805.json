@@ -1,0 +1,22 @@
+{
+  "title": "Systems and methods for utilizing contextual digital fingerprints to protect against browser-based malicious attacks",
+  "abstract": "The disclosed computer-implemented method for utilizing contextual digital fingerprints to protect against browser-based malicious attacks may include (i) detecting an execution of one or more fingerprinting application programming interface (API) calls utilized by a target website for providing access to a user, (ii) generating identity data comprising specific values for each of the fingerprinting API calls to create a contextual digital fingerprint, (iii) storing the contextual digital fingerprint for consecutive accesses to the target website, and (iv) performing a security action that, based on the identity data in the contextual digital fingerprint, protects against browser-based malicious attacks attempting to access the target website. Various other methods, systems, and computer-readable media are also disclosed.",
+  "claims": "1. A computer-implemented method for utilizing contextual digital fingerprints to protect against browser-based malicious attacks, at least a portion of the method being performed by one or more computing devices comprising at least one processor, the method comprising: detecting, by the one or more computing devices, an execution of one or more fingerprinting application programming interface (API) calls utilized by a target website for providing access to a user; generating, by the one or more computing devices, a contextual digital fingerprint that is specific to the target website by generating new values specific to the target website for each of the fingerprinting API calls; storing, by the one or more computing devices, the contextual digital fingerprint for consecutive accesses to the target website using the contextual digital fingerprint; and performing, by the one or more computing devices, a security action that, based on the contextual digital fingerprint, protects against browser-based malicious attacks attempting to access the target website.",
+  "patent_id": "US12381913-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1483",
+      "H04L 63/029",
+      "H04L 63/067",
+      "H04L 63/0281"
+    ],
+    "all": [
+      "H04L 63/1483",
+      "H04L 63/029",
+      "H04L 63/067",
+      "H04L 63/0281"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Robot controlling system",
+  "abstract": "A control system 4 includes an application processor that executes a first operating system to process an application, a sensor processor that executes a second operating system to process image data acquired by an image sensor, and a motion controlling processor that executes a third operating system to control motion of a movable part of a robot. The first operating system, the second operating system, and the third operating system are different from each other.",
+  "claims": "1. A system for controlling a robot, the system comprising: an application processor that executes a first operating system to process an application; a sensor processor that executes a second operating system to generate an image analysis result by processing image data acquired by an image sensor; and a motion controlling processor that executes a third operating system to control motion of a movable part of the robot, wherein: the first operating system, the second operating system, and the third operating system are different from one another, at least two of the application processor, the sensor processor, or the motion controlling processor are provided inside a housing of the robot, and the sensor processor is configured to: i. obtain posture information of the image sensor from the motion controlling processor; ii. add the posture information as metadata to the image analysis result; and iii. provide the image analysis result including the metadata to the application processor.",
+  "patent_id": "US12377548-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B25J 9/1697",
+      "B25J 9/0003",
+      "B25J 9/163",
+      "B25J 13/08",
+      "G06V 20/10"
+    ],
+    "all": [
+      "B25J 9/1697",
+      "B25J 9/0003",
+      "B25J 9/163",
+      "B25J 13/08",
+      "G06V 20/10"
+    ],
+    "source": "converted"
+  }
+}

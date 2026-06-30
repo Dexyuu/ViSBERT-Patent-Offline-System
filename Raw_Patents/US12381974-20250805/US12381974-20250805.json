@@ -1,0 +1,28 @@
+{
+  "title": "Automate-automated interface between call center agents and network orchestration systems via application programming interfaces (APIs)",
+  "abstract": "Novel tools and techniques are provided for implementing call center-based automated interface between call center agents and network orchestration systems, in some cases, via application programming interfaces (âAPIsâ). In various embodiments, an automated services platform may collect, from data sources, data associated with services provided by a service provider. The collected data may be autonomously analyzed to identify any issues with provisioning a service(s) to a customer. If so, one or more automation actions may be autonomously identified to address the determined issue(s). The automated services platform may autonomously send instructions to automation bots to perform the identified one or more automation actions, and may generate and present a UI on a user terminal operated by a user, the UI displaying information regarding at least one of the at least one issue, the affected service(s), the identified one or more automation actions, or the automation bots, and/or the like.",
+  "claims": "1. A method, comprising: collecting, using an automated services platform, data from each of a plurality of data sources, the collected data being associated with a plurality of services provided by a service provider; autonomously analyzing the collected data to identify any issues with provisioning one or more first services, among the plurality of services, to at least one first customer; based on a determination that at least one first issue affects provisioning of at least one first service among the one or more first services, autonomously identifying one or more first automation actions to address the determined at least one first issue; autonomously sending, using the automated services platform, one or more first instructions to one or more first automation bots, among a plurality of automation bots, to perform the identified one or more first automation actions; and generating and presenting, using the automated services platform, a user interface (“UI”) on a user terminal associated with or operated by a user, the UI displaying information regarding at least one of the at least one first issue, the at least one first service affected by the at least one first issue, the identified one or more first automation actions for addressing the at least one first issue, or the one or more first automation bots for performing the one or more first automation actions, wherein autonomously analyzing the collected data to identify any issues with provisioning the one or more first services to the at least one first customer and autonomously identifying the one or more first automation actions to address the determined at least one first issue comprises: sending, using the automated services platform, the collected data to a service action guidance engine (“SAGE”); autonomously analyzing, using the SAGE, the collected data to identify any issues with provisioning one or more first services, among the plurality of services, to the at least one first customer; autonomously identifying, using the SAGE, the one or more first automation actions from a plurality of automation actions contained within a library of automation actions that are stored in a database, to address the determined at least one first issue; and sending, using the SAGE, the identified one or more first automation actions to the automated services platform.",
+  "patent_id": "US12381974-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04M 3/2272",
+      "H04L 51/02",
+      "H04M 3/2263",
+      "H04M 3/4217",
+      "H04M 3/5191",
+      "G06F 3/0482",
+      "H04L 41/22"
+    ],
+    "all": [
+      "H04M 3/2272",
+      "H04L 51/02",
+      "H04M 3/2263",
+      "H04M 3/4217",
+      "H04M 3/5191",
+      "G06F 3/0482",
+      "H04L 41/22"
+    ],
+    "source": "converted"
+  }
+}

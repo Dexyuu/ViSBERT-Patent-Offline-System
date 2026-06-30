@@ -1,0 +1,20 @@
+{
+  "title": "Signal processing apparatus and method, training apparatus and method",
+  "abstract": "Provided is a signal processing apparatus that includes a voice quality conversion unit that converts acoustic data of any sound of an input sound source to acoustic data of voice quality of a target sound source different from the input sound source on the basis of a voice quality converter parameter obtained by training using acoustic data for each of one or more sound sources as training data, the acoustic data being different from parallel data or clean data.",
+  "claims": "1. A signal processing apparatus, comprising: a central processing unit (CPU) configured to: receive first acoustic data of a sound of an input sound source; receive a voice quality converter parameter, wherein the voice quality converter parameter is trained based on a discriminator parameter, the discriminator parameter is trained based on first training data of the sound of the input sound source, second training data of a sound of a target sound source, and third training data of a sound of a sound source different from the input sound source and the target sound source, the target sound source is different from the input sound source, the first training data is based on second acoustic data of a mixed sound, and the second acoustic data is different from parallel data and clean data; and convert the first acoustic data of the input sound source to third acoustic data of voice quality of the target sound source, wherein the conversion of the first acoustic data to the third acoustic data is based on the voice quality converter parameter.",
+  "patent_id": "US12380905-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 21/007",
+      "G10L 21/013",
+      "G10L 21/028"
+    ],
+    "all": [
+      "G10L 21/007",
+      "G10L 21/013",
+      "G10L 21/028"
+    ],
+    "source": "converted"
+  }
+}

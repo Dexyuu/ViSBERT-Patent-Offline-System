@@ -1,0 +1,40 @@
+{
+  "application_id": "WO2018156889",
+  "application_id_fs": "WO2018156889",
+  "title": "Detecting an intruder's wireless device during a break in to a premises",
+  "abstract": "A control device and method for monitoring a premises are provided. The control device is in communication with a plurality of premises devices. The control device includes processing circuitry configured to: receive premises data from at least one of the plurality of premises device and determine whether the premises data meet an alarm condition. The processing circuitry is further configured to, if the premises data meets an alarm condition: monitor for identification data from a wireless device not associated with the control device, receive identification data from the wireless device and perform at least one detection function based on the identification data.",
+  "claims": "Claims What is claimed is: 1. A control device for monitoring a premises, the control device being configured to communicate with a plurality of premises devices, the control device comprising: processing circuitry configured to: receive premises data from at least one of the plurality of premises devices; determine whether the premises data meets an alarm condition; if the premises data meets an alarm condition: monitor for identification data from a wireless device not associated with the control device; receive identification data from the wireless device; and perform at least one detection function based on the identification data. 2. The control device of Claim 1, wherein the processing circuitry is further configured to transmit a query message to the wireless device, the query message causing the wireless device to transmit the identification data to the control device. 3. The control device of Claim 1, wherein the at least one detection function includes determining at least one attribute of the wireless device based on the identification data. 4. The control device of Claim 3, wherein the at least one attribute of the wireless device includes at least one of a phone number, media access control (MAC) address, international mobile equipment identity (IMEI), wireless protocol identifier and device identifier. 5. The control device of Claim 1, wherein the at least one detection function includes transmitting a notification message to a cellular service provider, the notification message configured to instruct the cellular service provider to track the location of the wireless device. 6. The control device of Claim 5, wherein the tracked location of the wireless device is a global positing system (GPS) location. 7. The control device of Claim 1, wherein the at least one detection function includes electronically pushing detection information to the wireless device, the detection information including a time and date the wireless device was at the premises after the premises data met the alarm condition. 8. The control device of Claim 7, wherein the pushed detection information configured to be stored at the wireless device for a predetermined period of time. 9. The control device of Claim 1, wherein the received identification data from the wireless device includes at least part of communications between the wireless device and a base station associated with the wireless device. 10. The control device of Claim 1, wherein the premises data indicates the at least one premises device has been triggered, the at least one premises device including at least one of a door sensor, window sensor, fire sensor and smoke sensor. 11. A method for monitoring a premises, the method comprising: receiving premises data from at least one of a plurality of premises device; determining whether the premises data meets an alarm condition; if the premises data meets an alarm condition: monitoring for identification data from a wireless device not associated with the control device; receiving identification data from the wireless device, the wireless device being different from the plurality of premises devices; and performing at least one detection function based on the identification data. 12. The method of Claim 11, further comprising transmitting a query message to the wireless device, the query message causing the wireless device to transmit the identification data to the control device for reception. 13. The method of Claim 11, wherein the at least one detection function includes determining at least one attribute of the wireless device based on the identification data. 14. The method of Claim 13, wherein the at least one attribute of the wireless device includes a phone number, media access control (MAC) address, international mobile equipment identity (IMEI), wireless protocol identifier and device identifier. 15. The method of Claim 11, wherein the at least one detection function includes transmitting a notification message to a cellular service provider, the notification message configured to instruct the service provider to track the location of the wireless device. 16. The method of Claim 15, wherein the tracked location of the wireless device is a global positing system (GPS) location. 17. The method of Claim 11, wherein the at least one detection function includes pushing detection information to the wireless device, the detection information including a time and date the wireless device was at the premises after the premises data met the alarm condition. 18. The method of Claim 17, wherein the pushed detection information is configured to be stored at the wireless device for a predetermined period of time. 19. The method of Claim 11, wherein the received identification data from the wireless device includes at least part of communications between the wireless device and a base station associated with the wireless device. 20. The method of Claim 11, wherein the premises data indicates the at least one premises device has been triggered, the at least one premises device including at least one of a door sensor, window sensor, fire sensor and smoke sensor.",
+  "classifications": {
+    "ipc": [
+      "G08B 13/00",
+      "G08B 13/22",
+      "G08B 13/24",
+      "G08B 13/18",
+      "G08B 13/189",
+      "G08B 25/00",
+      "G08B 25/01",
+      "G08B 25/08",
+      "G08B 25/10",
+      "G08B 25/14",
+      "H04W 12/00",
+      "H04W 12/08"
+    ],
+    "cpc": [],
+    "all": [
+      "G08B 13/00",
+      "G08B 13/22",
+      "G08B 13/24",
+      "G08B 13/18",
+      "G08B 13/189",
+      "G08B 25/00",
+      "G08B 25/01",
+      "G08B 25/08",
+      "G08B 25/10",
+      "G08B 25/14",
+      "H04W 12/00",
+      "H04W 12/08"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018156889"
+}

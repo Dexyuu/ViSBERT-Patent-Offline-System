@@ -1,0 +1,26 @@
+{
+  "title": "Systems and methods for personalized shopping",
+  "abstract": "In some embodiments, apparatuses and methods are provided herein useful to presenting information to customers. In some embodiments, an augmented reality system for presenting information to customers comprises a personalization server configured to store personalized data for the customers, receive an indication of a customer, receive a product identifier for a product, retrieve personalized data for the customer, and transmit the personalized data for the customer, an application configured to be executed by the mobile device, the application when executed by the mobile device causing the mobile device to capture images of products in a retail facility, receive user input to select the product from the images of products, receive the personalized data for the customer, generate an augmented reality presentation, and present the augmented reality presentation, and a control circuit configured to identify the product, and determine the product identifier for the product.",
+  "claims": "1. An augmented reality system for presenting information to customers while shopping, the system comprising: a personalization server, wherein the personalization server is configured to: store personalized data for the customers; receive an indication of a customer; receive a product identifier for a product, wherein the customer has selected the product via a mobile device; retrieve personalized data for the customer associated with the product; and transmit the personalized data for the customer associated with the product; and an application configured to be executed by the mobile device, the application when executed by the mobile device causing the mobile device to: capture, via a sensor of an image capture device, an image of products in a retail facility; detect, using a control circuit, each of the products in the image; retrieve, using the control circuit from an item data server, dimension data for each product detected in the image; determine, for each product detected in the image using the control circuit, a section of the image corresponding to the product using the retrieved dimension data for the product; receive, via a user input device, user input to select the product from the image of products, the user input comprising a selection of an augmented reality presentation button associated with the section of the image corresponding to the product; receive, via a transceiver, the personalized data for the customer associated with the product; generate, via a processing unit, an augmented reality presentation, wherein the augmented reality presentation includes: the image of the products in the retail facility and a plurality of the augmented reality presentation button each associated with one of the products, and the personalized data for the customer associated with the product selected via the user input; and present, via a display device, the augmented reality presentation; circuit, wherein the control circuit is configured to: identify, based on the user input to select product from the image of products, the product; and determine, based on the identification of the product, the product identifier for the product.",
+  "patent_id": "US12380490-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0643",
+      "G06Q 30/0224",
+      "G06Q 30/0633",
+      "G06V 10/235",
+      "G06V 10/267",
+      "G06V 20/20"
+    ],
+    "all": [
+      "G06Q 30/0643",
+      "G06Q 30/0224",
+      "G06Q 30/0633",
+      "G06V 10/235",
+      "G06V 10/267",
+      "G06V 20/20"
+    ],
+    "source": "converted"
+  }
+}

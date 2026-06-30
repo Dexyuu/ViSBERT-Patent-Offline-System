@@ -1,0 +1,18 @@
+{
+  "title": "Method, device, and system of detecting mule accounts and accounts used for money laundering",
+  "abstract": "Method, device, and system of detecting a mule bank account, or a bank account used for terror funding or money laundering. A method includes: monitoring interactions of a user with a computing device during online access with a bank account; and based on the monitoring, determining that the bank account is utilized as a mule bank account to illegally receive and transfer money, or is used for money laundering or terror funding. The method takes into account one or more indicators, such as, utilization of a remote access channel, utilization of a virtual machine or a proxy server, unique behavior across multiple different accounts, temporal correlation among operations, detection of a set of operations that follow a pre-defined mule account playbook, detection of multiple incoming fund transfers from multiple countries that are followed by a single outgoing fund transfer to a different country, and other indicators.",
+  "claims": "1. A method comprising: (a) monitoring multiple interactions of a particular user that utilizes an electronic device to access a particular bank account; (b) performing an analysis that is based on at least one of: (b1) data of transactions submitted for execution in said particular bank account, (b2) user-specific behavioral data indicating a behavioral manner in which said particular user utilizes said electronic device, extracted from monitored interactions and monitored gestures of said particular user, (b3) data about one or more operational properties of said electronic device, (b4) one or more signals captured from a communication channel between said electronic device and a server associated with said particular bank account; (c) based on said analysis, generating a notification alert that said online bank account is used as a mule bank account or as a money laundering bank account or as a terror-funding bank account; and wherein the analysis of step (b) comprises: (A) detecting that a first amount of money was transferred from a first account to a second account; (B) detecting that a second amount of money, which is at least 50 percent of the first amount of money, was transferred from the second account to a third account; (C) detecting that the second account was accessed via a Remote Access channel; (D) based cumulatively on the detecting of step (A) and the detecting of step (B) and the detecting of step (C), determining that said second account is used as a mule bank account or as a money laundering bank account or as a terror-funding bank account.",
+  "patent_id": "US12380455-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/4016",
+      "G06Q 20/10"
+    ],
+    "all": [
+      "G06Q 20/4016",
+      "G06Q 20/10"
+    ],
+    "source": "converted"
+  }
+}

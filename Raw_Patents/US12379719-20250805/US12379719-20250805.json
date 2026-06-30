@@ -1,0 +1,30 @@
+{
+  "title": "Method and device for monitoring a milling process",
+  "abstract": "The invention relates to a method for monitoring a milling process of a printed circuit board, having the steps of: (a) detecting (S1) the rotational speed of a milling head (2) of a milling machine (1) and at least one other operating parameter of the milling machine (1) during the milling process, wherein the other operating parameter is an electric supply current for operating the milling machine, and (b) analyzing (S2) the detected rotational speed and the detected operating parameter using a trained adaptive algorithm for detecting anomalies during the milling process.",
+  "claims": "1. A method for monitoring a milling process of a printed circuit board, the method comprising the steps of: detecting a rotational speed of a milling head of a milling machine and at least one further operating parameter of the milling machine during the milling process, wherein the further operating parameter is an electrical supply current for operating the milling machine; detecting, in the case of a constant rotational speed, a current spike of the electrical supply current that is due to mill chippings, wherein the electrical supply current is sampled, such that current spikes as a result of mill chippings are detected; evaluating the detected rotational speed and the detected at least one further operating parameter by a trained adaptive algorithm for identifying anomalies during the milling process; and detecting a current spike of the electrical supply current that is due to comminuting of mill chippings, the current spike of the electrical supply current that is due to comminuting of mill chippings having a characterizing progression that is identified by the trained adaptive algorithm.",
+  "patent_id": "US12379719-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05B 23/0283",
+      "G05B 19/0428",
+      "G05B 19/4065",
+      "G06N 3/08",
+      "G05B 2219/34477",
+      "G05B 2219/45145",
+      "G05B 2219/50185",
+      "G06N 3/044"
+    ],
+    "all": [
+      "G05B 23/0283",
+      "G05B 19/0428",
+      "G05B 19/4065",
+      "G06N 3/08",
+      "G05B 2219/34477",
+      "G05B 2219/45145",
+      "G05B 2219/50185",
+      "G06N 3/044"
+    ],
+    "source": "converted"
+  }
+}

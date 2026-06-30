@@ -1,0 +1,38 @@
+{
+  "title": "Display driving circuit and operating method for performing encoding and decoding",
+  "abstract": "A display driver circuit receives externally-encoded image data and processes the data using a memory (graphic RAM), an internal encoder, and an external decoder configured to operate on the externally-encoded image data. The processed data is provided to a display device by a source driver of the display driver circuit. Data is processed through the graphic RAM and an internal decoder or the external decoder depending on whether a slice of the data is a currently received update slice, a recently received standby slice, or a still slice.",
+  "claims": "1. A method of operating a display driving circuit, the method comprising: receiving an update slice; writing the update slice to at least a portion of a graphic memory; decoding the update slice to obtain first decoded data and image-processing the first decoded data to obtain image-processed data; decoding at least one still slice among a plurality of slices stored in the graphic memory to obtain second decoded data; and integrating the second decoded data and the image-processed data.",
+  "patent_id": "US12380824-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/20",
+      "G06T 1/20",
+      "G06T 1/60",
+      "G06T 9/00",
+      "G09G 5/006",
+      "H04N 19/174",
+      "G09G 2310/0275",
+      "G09G 2310/0291",
+      "G09G 2310/04",
+      "G09G 2330/021",
+      "G09G 2340/02",
+      "G09G 2360/127"
+    ],
+    "all": [
+      "G09G 3/20",
+      "G06T 1/20",
+      "G06T 1/60",
+      "G06T 9/00",
+      "G09G 5/006",
+      "H04N 19/174",
+      "G09G 2310/0275",
+      "G09G 2310/0291",
+      "G09G 2310/04",
+      "G09G 2330/021",
+      "G09G 2340/02",
+      "G09G 2360/127"
+    ],
+    "source": "converted"
+  }
+}

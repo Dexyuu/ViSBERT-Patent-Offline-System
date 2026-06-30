@@ -1,0 +1,20 @@
+{
+  "title": "Multichannel deep learning reconstruction of multiple repetitions",
+  "abstract": "Systems and methods for reconstruction for a medical imaging system. An adapter is used to adapt scan data so that different quantities of repetitions or directions may be used to train and implement a single multichannel backbone network.",
+  "claims": "1. A system for using a multichannel network for image reconstruction, the system comprising: a medical scanner configured to scan a region of a patient, the scan providing scan data including multiple respective repetitions or directions; a multichannel network comprising a fixed number of input channels, the multichannel network configured to reconstruct a representation of the scan data; an adapter configured to duplicate the multichannel network such that each of the multiple respective repetitions or directions is used at least once as an input to the multichannel network or the duplicated multichannel network compressing or decompressing with parallel imaging, using an encoder decoder network, the multiple respective repetitions such that each input channel of a fixed number of input channels for the multichannel network includes an input from the scan data; and a display configured to display the representation of the scan data.",
+  "patent_id": "US12379440-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01R 33/5608",
+      "G01R 33/56341",
+      "G06F 18/214"
+    ],
+    "all": [
+      "G01R 33/5608",
+      "G01R 33/56341",
+      "G06F 18/214"
+    ],
+    "source": "converted"
+  }
+}

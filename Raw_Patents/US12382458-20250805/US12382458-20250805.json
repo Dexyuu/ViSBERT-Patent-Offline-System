@@ -1,0 +1,22 @@
+{
+  "title": "Simultaneous data transmission between an access point and a plurality of stations",
+  "abstract": "Provided is a wireless communication terminal. The wireless communication terminal includes a transceiver configured to transmit and receive a wireless signal and a processor configured to control an operation of the wireless communication terminal. The processor collects data to be transmitted to a plurality of terminals, generates an aggregate-MAC protocol data unit for transmitting data to the plurality of terminals at the same time, and transmits the aggregate-MAC protocol data unit to the plurality of terminals.",
+  "claims": "1. A wireless communication terminal comprising: a transceiver; and a processor, wherein the processor is configured to: receive, through the transceiver, a first control frame which reserves a channel for a transmission between an access point and a first plurality of wireless communication terminals, includes terminal identifier fields, and includes information on each of channels respectively allocated to each of the first plurality of wireless communication terminals, from the access point, wherein a receiver address of the first control frame is a group address which indicates a second plurality of wireless communication terminals including the first plurality of wireless communication terminals, wherein the terminal identifier fields include a plurality of association identifiers, wherein each of the plurality of association identifiers respectively identifies the each of the first plurality of wireless communication terminals, and transmit, by using the transceiver, a second control frame in response to the first control frame to the access point through a channel allocated to the wireless communication terminal which is indicated by the information when the wireless communication terminal determines that the channel allocated to the wireless communication terminal is idle for a predetermined time and at least one of the terminal identifier fields indicates the wireless communication terminal, wherein an inter-frame space between the first control frame and the second control frame is the predetermined time.",
+  "patent_id": "US12382458-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/20",
+      "H04W 74/04",
+      "H04W 84/12",
+      "H04W 72/121"
+    ],
+    "all": [
+      "H04W 72/20",
+      "H04W 74/04",
+      "H04W 84/12",
+      "H04W 72/121"
+    ],
+    "source": "converted"
+  }
+}

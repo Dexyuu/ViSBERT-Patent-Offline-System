@@ -1,0 +1,26 @@
+{
+  "title": "Generalizable neural radiation field reconstruction method based on multi-modal information fusion",
+  "abstract": "A generalizable neural radiation field reconstruction method based on multi-modal information fusion, including: Step 1, constructing photometric features and geometric features based on unstructured multi-views, and constructing a multi-modal neural encoder by performing incrementally complementary fusion on the photometric features and the geometric features; Step 2, converting the multi-modal neural encoder and raw RGB pixel bodies of the unstructured multi-views into a volume density and radiation brightness; Step 3, sampling light on the basis of the constructed multi-modal neural encoder, aggregating context features of the sampled light based on a transformer network to obtain light context features; and Step 4, decoding, using the light context features, the volume density and the radiation brightness; rendering, based on the decoded volume density and the radiation brightness, to generate a free-view RGB-D image; and guiding dense reconstruction of a low-texture scene by combining photometric supervision and sparse geometric supervision.",
+  "claims": "1. A generalizable neural radiation field reconstruction method based on multi-modal information fusion, comprising: Step 1, constructing photometric features and geometric features based on unstructured multi-views, and constructing a multi-modal neural encoder by performing incrementally complementary fusion on the photometric features and the geometric features; Step 2, converting the multi-modal neural encoder and raw Red-Green-Blue (RGB) pixel bodies of the unstructured multi-views into a volume density and radiation brightness; Step 3, sampling light on the basis of the constructed multi-modal neural encoder, aggregating context features of the sampled light based on a transformer network to obtain light context features; and Step 4, decoding, using the light context features, the volume density and the radiation brightness; rendering, based on the decoded volume density and the radiation brightness, to generate a free-view Red-Green-Blue-Depth (RGB-D) image; and guiding dense reconstruction of a low-texture scene by combining photometric supervision and sparse geometric supervision; wherein, in the Step 1, constructing the photometric features comprises: using a bi-directional fusion backbone network f T to extract image features; using Convolutional Next-generation (ConvNeXt) to extract multi-scale semantic information from 4, 8, 16, and 32 times downsampling, wherein the multi-scale semantic information provides overall surface features of a region and a target; extracting shallow localized appearance features at the 4 times downsampling; encoding the unstructured multi-views into semantically-enhanced photometric features F i T through bi-directional feature fusion, wherein the semantically-enhanced photometric features F i T is as follows: F i T =f T ( I i ); wherein the Ii denotes the unstructured multi-views.",
+  "patent_id": "US12380624-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 15/00",
+      "G06T 5/70",
+      "G06T 7/80",
+      "G06V 10/44",
+      "G06V 10/806",
+      "H04N 19/597"
+    ],
+    "all": [
+      "G06T 15/00",
+      "G06T 5/70",
+      "G06T 7/80",
+      "G06V 10/44",
+      "G06V 10/806",
+      "H04N 19/597"
+    ],
+    "source": "converted"
+  }
+}

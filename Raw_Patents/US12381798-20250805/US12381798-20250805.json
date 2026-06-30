@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for conducting more reliable assessments with connectivity statistics",
+  "abstract": "Systems and methods for social graph data analytics to determine the connectivity between nodes within a community are provided. A user may assign user connectivity values to other members of the community, or connectivity values may be automatically harvested, calculated, or assigned from third parties or based on the frequency of interactions between members of the community. Connectivity values may represent such factors as alignment, reputation, status, and/or influence within a social graph within the network community, or the degree of trust. The paths connecting a first node to a second node may be retrieved, and social graph data analytics may be used to determine a network connectivity value from all or a subset of all of the retrieved paths and/or one or more connectivity statistics value associated with the first node and/or the second node. A parallel computational framework may operate in connection with a key-value store to perform some or all of the computations related to the connectivity determinations. Network connectivity values and/or other social graph data may be outputted to third-party processes and services for use in initiating automatic transactions or making automated network-based or real-world decisions.",
+  "claims": "1. A system comprising: a user device configured to send via a communications network connection, to a server, a user request to perform a transaction; wherein the server is connected to a database storing node data and one or more of link data and path data regarding a network; wherein the server is configured to analyze a first path of network paths through a network comprising a first node and a second node, wherein the first path connects the second node and the first node; calculate a network connectivity score, wherein the network connectivity score is based, at least in part, on a first path connectivity score, and wherein the first path connectivity score corresponds to the first path, wherein calculating the network connectivity score is based, at least in part, on an average of the first path connectivity score and at least a second path connectivity score corresponding to a second path; determine whether to permit the transaction to occur based, at least in part, on the network connectivity score between the first node and the second node; and output the determination to the user device; and the user device further configured to receive the determination and to receive user input regarding initiation of the transaction.",
+  "patent_id": "US12381798-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 43/0811",
+      "H04L 41/12",
+      "H04L 45/00"
+    ],
+    "all": [
+      "H04L 43/0811",
+      "H04L 41/12",
+      "H04L 45/00"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Fast execution of barrier command",
+  "abstract": "The present disclosure generally relates to read and write operations utilizing barrier commands. Using barrier commands and a snapshot of doorbell states of submission queues (SQs), the necessary write commands to perform a read may be identified and executed to reduce any wait time of the host. As such, host delays during reads and writes are reduced. In absence of a barrier command, the host needs to wait for writes to complete before performing a read. When a barrier command is used, the host needs to wait for the barrier command to complete before performing a read. The controller will execute the post barrier reads only after completing the pre-barrier writes. As will be discussed herein, the controller completes the barrier command as soon as a doorbell snapshot is taken even though the pre-barrier writes may not yet be completed.",
+  "claims": "1. A data storage device, comprising: a memory device; and a controller coupled to the memory device, wherein the controller is configured to: fetch a barrier command; capture a snapshot of doorbell states of pre-barrier commands in at least one submission queue (SQ); inform a host device of completion of the barrier command; receive a new command, wherein the new command is to be completed after the pre-barrier commands; and use a weighted round robin (WRR) arbitration scheme to determine command execution order, wherein the capturing comprises modifying the WRR arbitration scheme to intentionally select and execute a identified pre-barrier commands by the snapshot in one or more SQs.",
+  "patent_id": "US12379873-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0659",
+      "G06F 3/0611",
+      "G06F 3/0673"
+    ],
+    "all": [
+      "G06F 3/0659",
+      "G06F 3/0611",
+      "G06F 3/0673"
+    ],
+    "source": "converted"
+  }
+}

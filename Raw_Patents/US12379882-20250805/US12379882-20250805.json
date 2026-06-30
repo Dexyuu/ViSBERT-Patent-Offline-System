@@ -1,0 +1,28 @@
+{
+  "title": "Image processing apparatus that detects error and provides uniform resource locator (URL) information to information processing apparatus to access webpage for changing settings related to the error, and non-transitory computer readable storage medium",
+  "abstract": "An information processing system including an image processing apparatus configured to perform processing on an image, and an information processing apparatus that is held by a user, wherein the information processing system comprises: an error detection unit configured to detect an error while processing is being executed for the image processing apparatus; a URL information generating unit configured to generate URL information for a webpage for performing changes to settings related to the error; a URL information providing unit configured to provide the URL information to the information processing apparatus; and a settings changing unit configured to access the webpage on the information processing apparatus from the URL information and change the settings related to the error.",
+  "claims": "1. An information processing system including an image processing apparatus configured to perform processing on an image, and an information processing apparatus that is held by a user, wherein the image processing apparatus comprises: at least one memory that stores a program; and at least one processor that executes the program to: detect an error that occurs on an image processing function performed by the image processing apparatus, the error including errors relating to a program that is related to the image processing function not yet having been installed on the image processing apparatus; and provide URL information for a webpage related to the detected error to the information processing apparatus, wherein the webpage includes a setting screen for performing changes to settings, which include installing the program that is related to the image processing function, that caused the error, and wherein the user holding the information processing apparatus accesses the webpage corresponding to the provided URL information on the information processing apparatus and changes the settings related to the error on the setting screen included in the webpage and displayed on the information processing apparatus to install the program.",
+  "patent_id": "US12379882-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/121",
+      "G06F 3/1204",
+      "G06F 3/1234",
+      "G06F 3/1287",
+      "H04L 67/146",
+      "G06F 3/1255",
+      "H04N 1/00962"
+    ],
+    "all": [
+      "G06F 3/121",
+      "G06F 3/1204",
+      "G06F 3/1234",
+      "G06F 3/1287",
+      "H04L 67/146",
+      "G06F 3/1255",
+      "H04N 1/00962"
+    ],
+    "source": "converted"
+  }
+}

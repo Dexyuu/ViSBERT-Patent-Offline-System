@@ -1,0 +1,18 @@
+{
+  "title": "Automatic smart jump start battery packs and reserve power supply systems including the same",
+  "abstract": "The present disclosure generally relates to automatic smart jump start battery packs (broadly, reserve power supply systems) for machinery. In exemplary embodiments, a battery pack is configured (e.g., includes a microcontroller, etc.) to automatically detect when machinery (e.g., a water pumping system, etc.) needs a jump start from the battery pack. For example, a microcontroller (e.g., broadly, a controller, etc.) within the battery pack may be configured to determine when the machinery's main battery does not have a sufficient charge to operate an electric starter motor of the machinery, e.g., when a main battery signal from a voltage sensor falls below a predetermined level, etc.",
+  "claims": "1. A method comprising: monitoring, via a controller within a jump start battery pack, a voltage of a main battery to detect a large negative change in voltage over a short time that is indicative of a beginning of a starting/cranking event; after detecting the large negative charge in voltage over the short period of time that is indicative of the starting/cranking event, monitoring, via the controller within the jump start battery pack, the voltage of the main battery to detect a large positive change in voltage over a short time that is indicative of the end of the starting/cranking event; after detecting the large positive change in voltage over the short time that is indicative of the end of the starting/cranking event, comparing, via the controller within the jump start battery pack, the ending voltage with the original voltage; if the ending voltage is within a first predetermined amount or lower than the original voltage, declaring a failed cranking attempt; if the ending voltage is within a second predetermined amount of the original voltage, declaring a successful cranking attempt; if a successful cranking attempt is detected, determining, via the controller within the jump start battery pack, if the jump start battery pack needs charging and thereafter charging the jump start battery back if needed; and if a failed cranking attempt is detected, electrically connecting, via the controller within the jump start battery pack, a high-current output of the jump start battery pack in parallel with the main battery and waiting for another cranking attempt.",
+  "patent_id": "US12381388-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02J 1/122",
+      "H02J 7/342"
+    ],
+    "all": [
+      "H02J 1/122",
+      "H02J 7/342"
+    ],
+    "source": "converted"
+  }
+}

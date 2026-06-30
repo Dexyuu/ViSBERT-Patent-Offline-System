@@ -1,0 +1,18 @@
+{
+  "title": "Coherent receiver with polarization diversity clock detection",
+  "abstract": "A receiver includes an optical front-end and digital circuitry. The optical front-end is configured to receive an optical signal including first and second optical signal components having first and second polarizations and modulated with symbols at a symbol rate. The digital circuitry is configured to derive first and second digital signals representing the first and second optical signal components having the first and second polarizations. The digital circuitry includes a clock detector configured to calculate correlation terms, the correlation terms being calculated in a frequency-domain with a frequency offset commensurate with the symbol rate. The clock detector is configured to recover a clock signal of the symbols by (i) summing selected pairs of the correlation terms, and (ii) calculating or estimating a sum-of-squares of the summed pairs.",
+  "claims": "1. A receiver, comprising: an optical front-end, configured to receive an optical signal comprising a first optical signal component having a first polarization and a second optical signal component having a second polarization, different from the first polarization, the first optical signal component and the second optical signal component being modulated with symbols at a symbol rate; and digital circuitry, configured to derive a first digital signal representing the first optical signal component having the first polarization, and derive a second digital signal representing the second optical signal component having the second polarization, the digital circuitry comprising a clock detector configured to: calculate correlation terms comprising (i) a first autocorrelation of the first digital signal, (ii) a second autocorrelation of the second digital signal, (iii) a first cross-correlation between the first digital signal and the second digital signal, and (iv) a second cross-correlation between the second digital signal and the first digital signal, the correlation terms being calculated in a frequency-domain with a frequency offset commensurate with the symbol rate; and recover a clock signal of the symbols by (i) summing selected pairs of the correlation terms, and (ii) calculating or estimating a sum-of-squares of the summed pairs.",
+  "patent_id": "US12381631-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 10/6162",
+      "H04L 7/0075"
+    ],
+    "all": [
+      "H04B 10/6162",
+      "H04L 7/0075"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Method and apparatus for conditional handover in wireless communication network",
+  "abstract": "A method of a base station in a wireless communication system is provided. The method includes: configuring a conditional handover (CHO) condition for a User Equipment (UE); and transmitting a message including the configured CHO condition to the UE, wherein the CHO condition comprises a measurement object and a report configuration field.",
+  "claims": "1. A method performed by a terminal in a wireless communication system, the method comprising: receiving, from a base station, a radio resource control (RRC) reconfiguration message including configuration information associated with a conditional handover (CHO); identifying a first condition and a second condition for triggering a CHO execution for a candidate cell, based on the RRC reconfiguration message, wherein the first condition and the second condition are associated with a first measurement identity (ID) and a second measurement ID, respectively, wherein the first measurement ID is configured to link a first reporting configuration to a measurement object, wherein the second measurement ID is configured to link a second reporting configuration to the measurement object, wherein the first reporting configuration includes the first condition, and the second reporting configuration includes the second condition, and wherein the first condition is associated with one or more offset related quantities, and the second condition is associated with one or more threshold related quantities; identifying whether the first condition is fulfilled, based on the one or more offset related quantities; identifying whether the second condition is fulfilled, based on the one or more threshold related quantities; in case that the first condition and the second condition are fulfilled for the candidate cell, identifying the candidate cell as a target cell; and initiating the CHO execution for the target cell, based on the configuration information.",
+  "patent_id": "US12382352-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 36/00837",
+      "H04W 36/0058",
+      "H04W 36/0061",
+      "H04W 36/249",
+      "H04W 36/362"
+    ],
+    "all": [
+      "H04W 36/00837",
+      "H04W 36/0058",
+      "H04W 36/0061",
+      "H04W 36/249",
+      "H04W 36/362"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Control device for vehicle",
+  "abstract": "A control device for a vehicle controls a subject vehicle configured to switch between manual driving by a driver and automated driving. The control device includes a processor and a memory device. The processor is configured to execute learning control that learns vehicle-to-vehicle information being vehicle-to-vehicle time or vehicle-to-vehicle distance of the subject vehicle with respect to a preceding vehicle during traveling with the manual driving, and to reflect a learning result of the vehicle-to-vehicle information by the learning control in a control of the vehicle-to-vehicle information during the automated driving. The memory device is configured to store the vehicle-to-vehicle information as learning data during the manual driving. In the learning control, the processor determines, based on a type of the preceding vehicle, whether or not the vehicle-to-vehicle information for the preceding vehicle is caused to be stored in the memory device as the learning data.",
+  "claims": "1. A control device for controlling a subject vehicle configured to switch between manual driving by a driver and automated driving, the control device comprising: a processor configured to execute learning control that learns vehicle-to-vehicle information being vehicle-to-vehicle time or vehicle-to-vehicle distance of the subject vehicle with respect to a preceding vehicle during traveling with the manual driving, and to reflect a learning result of the vehicle-to-vehicle information by the learning control in a control of the vehicle-to-vehicle information during the automated driving; and a memory device configured to store the vehicle-to-vehicle information as learning data during the manual driving, wherein in the learning control, the processor is configured to: determine, based on a type of the preceding vehicle, whether or not the vehicle-to-vehicle information for the preceding vehicle is caused to be stored in the memory device as the learning data; when a height of the preceding vehicle is less than a threshold value, store the vehicle-to-vehicle information in the memory device as the learning data; and when the height is equal to or greater than the threshold value, not to store the vehicle-to-vehicle information in the memory device as the learning data.",
+  "patent_id": "US12377865-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 50/0098",
+      "B60W 30/16",
+      "B60W 40/09",
+      "B60W 40/105",
+      "B60W 60/0051",
+      "B60W 2050/0005",
+      "B60W 2050/0083",
+      "B60W 2554/4026",
+      "B60W 2554/802"
+    ],
+    "all": [
+      "B60W 50/0098",
+      "B60W 30/16",
+      "B60W 40/09",
+      "B60W 40/105",
+      "B60W 60/0051",
+      "B60W 2050/0005",
+      "B60W 2050/0083",
+      "B60W 2554/4026",
+      "B60W 2554/802"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Methods and apparatus to decrease domain name system (DNS) lookup time for airborne clients",
+  "abstract": "Methods and apparatus to decrease DNS lookup times for mobile clients are disclosed. An example DNS cache peering system includes a mobile DNS cache; a mobile DNS server configured to, when an IP address for a URL is not found in the DNS cache, send a DNS lookup request for the URL; a ground-based DNS server to receive the DNS lookup request from the mobile DNS server, and send, in response, a DNS lookup response including the IP address for the URL to the mobile DNS server; and a ground-based DNS peer engine server configured to capture the DNS lookup response, and multicast DNS information from the DNS lookup response to a plurality of mobile DNS peer engine clients, wherein the plurality of mobile DNS peer engine clients are configured to store the DNS information in respective ones of a plurality of mobile DNS caches.",
+  "claims": "1. A domain name system (DNS) cache peering system, comprising: a first DNS cache of a plurality of DNS caches; a first DNS server of a plurality of DNS servers, wherein the first DNS server is associated with the first DNS cache and configured to: receive, from a user device, a first DNS lookup request for a first uniform resource locator (URL), and when a first Internet protocol (IP) address for the first URL is not found in the first DNS cache, send a second DNS lookup request for the first IP address for the first URL; a second DNS server configured to: receive the second DNS lookup request from the first DNS server, unicast, in response to the second DNS lookup request, a first DNS lookup response including the first IP address for the first URL to the first DNS server, and when the first IP address for the first URL is not found in a second DNS cache associated with the second DNS server, query an authoritative name server for the first IP address for the first URL; and a DNS peer engine server separate from the first DNS server and the second DNS server, the DNS peer engine server configured to: capture the first DNS lookup response unicast by the second DNS server to the first DNS server, wherein the first DNS lookup response was not sent to the DNS peer engine server by the second DNS server, and multicast first DNS information from the first DNS lookup response to a plurality of DNS peer engine clients, wherein each of the plurality of DNS peer engine clients is communicatively coupled to a respective one of the plurality of DNS servers wherein the plurality of DNS peer engine clients act as a proxy for the respective one of the plurality of DNS servers via which the plurality of DNS servers receive the multicast DNS information; wherein the first DNS server is configured to send, to the user device in response to receiving the first DNS lookup response from the second DNS server, a second DNS lookup response including the first IP address, and wherein the plurality of DNS peer engine clients are configured to store the first DNS information in respective DNS caches of the plurality of DNS caches.",
+  "patent_id": "US12381844-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 61/4511",
+      "H04L 61/4552",
+      "H04L 61/58",
+      "H04W 4/06",
+      "H04W 84/06"
+    ],
+    "all": [
+      "H04L 61/4511",
+      "H04L 61/4552",
+      "H04L 61/58",
+      "H04W 4/06",
+      "H04W 84/06"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2019194934",
+  "application_id_fs": "WO2019194934",
+  "title": "Generating analog output from a field programmable gate array by combining scaled digital outputs",
+  "abstract": "A system for generating analog output from a field programmable gate array. The field programmable gate array has a plurality of digital transceivers, each including a transmitter with an output drive circuit having a programmable output voltage swing. Two or more of the transmitters are programmed to have output voltage swings differing from each other by about a factor of two. A circuit that operates as a digital to analog converter is formed by combining the outputs of the transmitters, using a power combiner.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1. An analog signal generator, comprising: a field-programmable gate array comprising: a first output drive circuit connected to a first output of the field- programmable gate array; and a second output drive circuit connected to a second output of the field- programmable gate array; and a power combiner having: an output, a first input connected to the first output of the field-programmable gate array, and a second input connected to the second output of the field- programmable gate array, each of the first output drive circuit and the second output drive circuit having a programmable output voltage swing, the first output drive circuit being programmed to have an output voltage swing greater than the output voltage swing of the second output drive circuit. 2. The analog signal generator of claim 1 , wherein the first output drive circuit is programmed to have an output voltage swing greater than the output voltage swing of the second output drive circuit by a factor that is greater than 1.7 and less than 2.3. 3. The analog signal generator of claim 1 , wherein the power combiner is a resistive power combiner. 4. The analog signal generator of claim 1 , wherein the power combiner is a reactive power combiner. 5. The analog signal generator of claim 1 , wherein the power combiner comprises two coupled transmission lines. 6. The analog signal generator of claim 1 , wherein: the first output drive circuit is part of a first transceiver of the field- programmable gate array, the second output drive circuit is part of a second transceiver of the field- programmable gate array, and \n\n the first transceiver and the second transceiver are within one bank of transceivers of the field-programmable gate array. 7. The analog signal generator of claim 6, wherein the first transceiver is bonded to the second transceiver at the physical coding sublayer. 8. The analog signal generator of claim 6, wherein the first transceiver is bonded to the second transceiver at the physical medium attachment sublayer. 9. The analog signal generator of claim 1 , further comprising a filter, connected to the output of the power combiner. 10. The analog signal generator of claim 9, wherein the filter is a low pass filter. 1 1. The analog signal generator of claim 10, wherein the filter is a multilayer filter. 12. The analog signal generator of claim 1 , wherein: the first output of the field-programmable gate array is a differential output, the power combiner is connected to the first output of the field-programmable gate array through a first balun, the second output of the field-programmable gate array is a differential output, and the power combiner is connected to the second output of the field- programmable gate array through a second balun. 13. The analog signal generator of claim 1 , wherein: the first output of the field-programmable gate array is a differential output comprising a first conductor and a second conductor, the power combiner is connected to the first conductor of the first output of the field-programmable gate array, the second output of the field-programmable gate array is a differential output comprising a first conductor and a second conductor, and the power combiner is connected to the first conductor of the second output of the field-programmable gate array. 14. The analog signal generator of claim 1 , wherein: \n\n the field-programmable gate array further comprises a third output drive circuit connected to a third output of the field-programmable gate array, and the power combiner further has a third input connected to the third output of the field-programmable gate array. 15. The analog signal generator of claim 14, wherein each of: the first output drive circuit, the second output drive circuit, and the third output drive circuit has an output voltage swing programmable with a resolution of five bits. 16. The analog signal generator of claim 15, wherein: the first output drive circuit is programmed to have an output voltage swing equal to 28/31 of a maximum available output voltage swing, the second output drive circuit is programmed to have an output voltage swing equal to 14/31 of the maximum available output voltage swing, and the third output drive circuit is programmed to have an output voltage swing equal to 7/31 of the maximum available output voltage swing. 17. The analog signal generator of claim 15, wherein: the first output drive circuit is programmed to have an output voltage swing equal to a maximum available output voltage swing, the second output drive circuit is programmed to have an output voltage swing equal to 16/31 of the maximum available output voltage swing, and the third output drive circuit is programmed to have an output voltage swing equal to 8/31 of the maximum available output voltage swing. 18. The analog signal generator of claim 15, wherein: the field-programmable gate array further comprises: a fourth output drive circuit connected to a fourth output of the field- programmable gate array; a fifth output drive circuit connected to a fifth output of the field- programmable gate array; and a sixth output drive circuit connected to a sixth output of the field- programmable gate array, wherein: the power combiner further has: \n\n a fourth input connected to the fourth output of the field- programmable gate array; a fifth input connected to the fifth output of the field- programmable gate array; and a sixth input connected to the sixth output of the field- programmable gate array, the fourth output drive circuit is programmed to have an output voltage swing equal to 4/31 of the maximum available output voltage swing, the fifth output drive circuit is programmed to have an output voltage swing equal to 2/31 of the maximum available output voltage swing, and the sixth output drive circuit is programmed to have an output voltage swing equal to 1/31 of the maximum available output voltage swing. 19. The analog signal generator of claim 14, wherein each of: the first output drive circuit, the second output drive circuit, and the third output drive circuit is configured to transmit data at a rate greater than 20 Gb/s.",
+  "classifications": {
+    "ipc": [
+      "H03K 19/00",
+      "H03K 19/02",
+      "H03K 19/173",
+      "H03K 19/177",
+      "H03K 19/1778",
+      "H04L 27/00",
+      "H04L 27/32",
+      "H04L 27/02",
+      "H04L 27/10",
+      "H04L 27/18",
+      "H04L 27/26",
+      "H04L 27/34",
+      "H04L 27/36"
+    ],
+    "cpc": [],
+    "all": [
+      "H03K 19/00",
+      "H03K 19/02",
+      "H03K 19/173",
+      "H03K 19/177",
+      "H03K 19/1778",
+      "H04L 27/00",
+      "H04L 27/32",
+      "H04L 27/02",
+      "H04L 27/10",
+      "H04L 27/18",
+      "H04L 27/26",
+      "H04L 27/34",
+      "H04L 27/36"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019194934"
+}

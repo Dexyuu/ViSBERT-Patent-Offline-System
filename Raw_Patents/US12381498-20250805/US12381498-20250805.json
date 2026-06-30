@@ -1,0 +1,16 @@
+{
+  "title": "Electric motor",
+  "abstract": "An electric motor includes processing circuitry estimates a position of a rotor in a mode selected from an induced voltage mode and a harmonic superimposition mode. The processing circuitry estimates the position of the rotor using the induced voltage mode when the input voltage is less than or equal to a predetermined voltage threshold value or when the phase current is greater than or equal to a predetermined current threshold value and estimates the position of the rotor using the harmonic superimposition mode when the input voltage is greater than the voltage threshold value and the phase current is less than the current threshold value.",
+  "claims": "1. An electric motor, comprising: a motor unit including a rotor, a stator, and three-phase coils wound around the stator; an inverter unit including a driver and a switching element driven by the driver, the inverter unit being configured to drive the motor unit when the switching element is driven; a phase current detector configured to detect a phase current flowing through the motor unit; an input voltage detector configured to detect an input voltage to the inverter unit; and processing circuitry configured to calculate command values and control the switching element, the command values being used to control the switching element, wherein the processing circuitry is configured to estimate the position of the rotor in a mode selected from an induced voltage mode and a harmonic superimposition mode, the induced voltage mode is a mode of estimating the position of the rotor based on an induced voltage that is generated in the three-phase coils, the harmonic superimposition mode is a mode of estimating the position of the rotor by superimposing a harmonic on each of the command values, and the processing circuitry is configured to: estimate the position of the rotor using the induced voltage mode when the input voltage is less than or equal to a predetermined voltage threshold value or when the phase current is greater than or equal to a predetermined current threshold value; and estimate the position of the rotor using the harmonic superimposition mode when the input voltage is greater than the voltage threshold value and the phase current is less than the current threshold value.",
+  "patent_id": "US12381498-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02P 21/18"
+    ],
+    "all": [
+      "H02P 21/18"
+    ],
+    "source": "converted"
+  }
+}

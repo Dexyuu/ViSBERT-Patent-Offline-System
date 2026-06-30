@@ -1,0 +1,18 @@
+{
+  "title": "Expanded data link width for main band chip module connection in alternate modes",
+  "abstract": "Aspects relate to an expanded data link width for a chip connection. In one example a sideband transmitter of a module of a first die is configured to send an expanded data link width enable request to a module partner through a sideband of a die-to-die connection to set an expanded data link width of a main band of the die-to-die connection. The expanded data link width includes data lines of the main band and redundant data lines of the main band reconfigured as data lines. A sideband receiver of the module is configured to receive an expanded data link width enable response from the module partner through the sideband to set the expanded data link width of the main band. A main band transmitter is configured to communicate data with the module partner through the main band using the expanded data link width.",
+  "claims": "1. An apparatus comprising: link initialization circuitry of a module of a first die configured to initialize a sideband of a die-to-die connection between a module and a module partner, the sideband having a receive data line and a transmit data line, wherein the sideband has a high reliability low data rate as compared to a main band of the die-to-die connection, wherein the main band comprises a plurality of data lines and a plurality of redundant data lines, wherein each redundant data line of the plurality of redundant data lines is configured to replace a failed data line of the plurality of data lines in response to a failure of the failed data line; a sideband transmitter of the module configured to send a sideband initialization done message through the transmit line of the sideband, wherein the link initialization circuitry is configured to initialize the main band in response to the initialization done message; wherein the sideband transmitter is configured to send an expanded data link width enable request message including an enable parameter to the module partner through the transmit line of the sideband to set an expanded data link width of the main band, wherein the expanded data link width includes the data lines of the plurality of data lines and at least one redundant data line of the plurality of redundant data lines; a sideband receiver of the module configured to receive an expanded data link width enable response message including the enable parameter from the module partner through the receive line of the sideband to set the expanded data link width of the main band, wherein the link initialization circuitry is configured to initialize the at least one redundant data line as a main band line in response to receiving the expanded data link width enable response message and to train the main band using the expanded data link width; and a main band transmitter configured to communicate data with the module partner through the main band using the expanded data link width.",
+  "patent_id": "US12380047-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 13/4018",
+      "G06F 13/42"
+    ],
+    "all": [
+      "G06F 13/4018",
+      "G06F 13/42"
+    ],
+    "source": "converted"
+  }
+}

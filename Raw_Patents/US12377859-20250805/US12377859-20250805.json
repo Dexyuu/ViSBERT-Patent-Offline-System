@@ -1,0 +1,26 @@
+{
+  "title": "System and method for driver authentication and violation detection",
+  "abstract": "The present disclosure relates to surveillance system and method for detecting violation by driver in vehicle. The surveillance system comprises capturing unit for capturing license information of driver of the vehicle, upon start of the vehicle. Further, the surveillance system comprises processor configured to receive the license information of the driver from the capturing unit. Further, the processor is configured to receive continuous data related to the vehicle from one or more sensors in the vehicle. Furthermore, the processor is configured to detect occurrence of violation, of one or more pre-defined driving guidelines, based on monitoring the data related to the vehicle and the license information. Information related to the violation and the license information of the driver is transmitted to one or more external entities for taking actions against driver of the vehicle.",
+  "claims": "1. A method of detecting violation by a driver in a vehicle, the method comprising: comparing, by a capturing unit of a surveillance system, biometric identification information of the driver with a plurality of profiles associated with the vehicle, wherein each of the plurality of profiles includes biometric identification information associated with a corresponding driver; authenticating, by the capturing unit, the driver of the vehicle based on the comparison; obtaining, by the capturing unit, license information of the driver of the vehicle from a profile, of the plurality of profiles, associated with the driver, wherein the obtaining of the information is based on a successful authentication of the driver of the vehicle, and wherein the license information is obtained upon start of the vehicle; receiving, by a processor of the surveillance system, the license information of the driver from the capturing unit; receiving, by the processor, continuous data related to the vehicle from one or more sensors in the vehicle, when ignition switch of the vehicle is in an ON state, wherein the one or more sensors comprise a magnetically operated sensor to monitor a seat belt status and a fuel consumption sensor to monitor a fuel consumption of the vehicle; detecting, by the processor, an occurrence of a violation performed by the driver, of one or more pre-defined driving guidelines, based on monitoring of the continuous data related to the vehicle and the license information; transmitting a request to an Electronic Control Unit (ECU) of the vehicle, to control the speed of the vehicle based on the one or more pre-defined driving guidelines, based on the detection of the occurrence of the violation; and transmitting information related to the violation and the license information of the driver to one or more external entities for taking actions against the driver of the vehicle.",
+  "patent_id": "US12377859-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 40/09",
+      "B60R 25/10",
+      "B60R 2025/1016",
+      "B60W 2040/0809",
+      "B60W 2540/043",
+      "B60W 2756/10"
+    ],
+    "all": [
+      "B60W 40/09",
+      "B60R 25/10",
+      "B60R 2025/1016",
+      "B60W 2040/0809",
+      "B60W 2540/043",
+      "B60W 2756/10"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Technique selection for file system utilization prediction",
+  "abstract": "A trained classification model is executed, causing a classification of a first set of file system usage data into a set of categories comprising a trend category and a periodicity category. Responsive to the first set of file system usage data being classified into the trend category, a time series of the first set of file system usage data is generated. Responsive to the first set of file system usage data being classified into the periodicity category, using an anomaly detection model, an anomaly within the first set of file system usage data is detected. Responsive to predicting that the time series will exceed a threshold, a first reconfiguring of a file system resource is caused, altering a capacity of the file system. Responsive to detecting the anomaly, a second reconfiguring of the file system resource is caused, altering a capacity of the file system.",
+  "claims": "1. A computer-implemented method comprising: executing, using a processor and a memory, a trained classification model, the executing causing a classification of a first set of file system usage data into a set of categories, the set of categories comprising a trend category, a flat category, and a periodicity category, the first set of file system usage data comprising usage data of a file system on at least one data storage media device, wherein the flat category classification describes a condition in response to the first set of file system usage data remaining above a first threshold and below a second threshold of a set of predefined thresholds; causing, using the processor and the memory, at least one operation from a set of operations, the set of operations comprising (i) generating, responsive to the first set of file system usage data being classified into the trend category, a time series of the first set of file system usage data, (ii) detecting, responsive to the first set of file system usage data being classified into the periodicity category, using an anomaly detection model, an anomaly within the first set of file system usage data, and (iii) determining, responsive to the first set of file system data usage being classified into the flat category, that that no changes to the file system are necessary; and causing, using the processor and the memory, when the category is not the flat category, at least one alteration from a set of alterations, the set of alterations comprising (i) responsive to predicting that the time series will exceed the first threshold of the set of predefined thresholds, a first reconfiguring of a file system resource, the first reconfiguring altering a capacity of the file system by adding processing and network bandwidth to meet a processing and network bandwidth forecast associated with the time series, and (ii) responsive to detecting the anomaly, a second reconfiguring of the file system resource, the second reconfiguring altering a capacity of the file system by adding processing and network bandwidth to meet a processing and network bandwidth forecast associated with the anomaly.",
+  "patent_id": "US12380061-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/11",
+      "G06F 16/1734",
+      "G06N 3/08"
+    ],
+    "all": [
+      "G06F 16/11",
+      "G06F 16/1734",
+      "G06N 3/08"
+    ],
+    "source": "converted"
+  }
+}

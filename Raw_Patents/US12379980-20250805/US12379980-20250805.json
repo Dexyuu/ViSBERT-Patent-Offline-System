@@ -1,0 +1,18 @@
+{
+  "title": "System and method for managing data processing systems based on user input",
+  "abstract": "Methods and systems for managing operation of data processing systems are disclosed. To manage the operation of the data processing systems, user input may be obtained and used to select how to change the operation of the data processing systems. The user input may be obtained via an interface system. The interface system may be operably connected to a processing complex and a management controller of the data processing system via reconfigurable channels. The channels may be reconfigured to selectively provide the user input to the processing complex or the management controlled based on the state of the data processing system.",
+  "claims": "1. A method for managing operation of a data processing system, the method comprising: making an identification that the data processing system has entered a state in which output from an interface system to the data processing system is ignored by a processing complex of the data processing system, the interface system comprises a peripheral devices switch; based on the identification: reallocating a shared channel from the processing complex to a management controller for the data processing system, the shared channel at least in part carrying the output to the processing complex while the shared channel is allocated to the processing complex, and the reallocating of the shared channel comprises at least powering a port of the data processing system that operably connects the shared channel to the interface system; while the shared channel is reallocated to the management controller, obtaining user input from the interface system using the shared channel; and performing an action set based on the user input to modify operation of the data processing system.",
+  "patent_id": "US12379980-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/546",
+      "G06F 18/30"
+    ],
+    "all": [
+      "G06F 9/546",
+      "G06F 18/30"
+    ],
+    "source": "converted"
+  }
+}

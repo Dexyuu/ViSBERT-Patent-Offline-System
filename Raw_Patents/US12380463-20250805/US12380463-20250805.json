@@ -1,0 +1,16 @@
+{
+  "title": "Systems and methods for validating coupons",
+  "abstract": "In some embodiments, a system for electronically validating coupons comprises a primary positive coupon database containing positive coupon data. The positive coupon data relates to one or more coupons known to the valid. The system further includes a computing system comprising a control circuit configured to execute a processing module that, when executed, receives electronic coupon data from a coupon comprising a machine-readable code, parses the electronic coupon data, compares the parsed electronic coupon data to the positive coupon data in the primary positive coupon database, and determines whether the coupon is valid by determining whether there is a match between the parsed electronic coupon data and the positive coupon data, and determining whether the coupon has expired based on an expiration date of the coupon contained in the parsed electronic coupon data and an identified expiration date.",
+  "claims": "1. A system for electronically validating coupons, the system comprising: a primary positive coupon database containing positive coupon data, wherein the positive coupon data relates to one or more coupons known to the valid; a computing system comprising a control circuit configured to execute a processing module that when executed: receives electronic coupon data obtained from a coupon comprising a machine-readable code; electronically parses the electronic coupon data; queries the primary positive coupon database for a match between the parsed electronic coupon data and the positive coupon data; if there is no match between the parsed electronic coupon data and the positive coupon data: identifies one or more placeholder values indicating one or more dynamic fields in the parsed electronic coupon data; electronically removes the one or more placeholder values indicating the one or more dynamic fields from the parsed electronic coupon data; and re-queries the primary positive coupon database for a match between the remaining parsed electronic coupon data and the positive coupon data.",
+  "patent_id": "US12380463-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0207"
+    ],
+    "all": [
+      "G06Q 30/0207"
+    ],
+    "source": "converted"
+  }
+}

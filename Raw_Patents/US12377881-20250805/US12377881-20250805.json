@@ -1,0 +1,38 @@
+{
+  "title": "Delivery hand off procedure when electric vehicle (EV) is about to lose power",
+  "abstract": "Methods and systems for power transfer and routing in a compartmentalized electric vehicle (EV) having detachable compartments, and for handing off a load from one EV to another EV for delivering the load to a destination are described herein. Each detachable compartment in the compartmentalized EV may have a separate power supply, motor, set of wheels, and/or autonomous operation features. The detachable compartments may attach to each other, such that each of the detachable compartments combine to form a compartmentalized EV that travels to a particular location.",
+  "claims": "1. A computer-implemented method for handing off a load when an electric vehicle (EV) delivering the load is running out of power, the method comprising: receiving, by one or more processors in a first EV having one or more autonomous operation features, a message from a second EV that the second EV has less than a threshold amount of charge remaining, and a destination for delivering a load in the second EV in response to the second EV broadcasting a notification to EVs within a threshold radius of the second EV; determining, by the one or more processors, a meeting location for handing off the load in the second EV by identifying a waypoint along a route for the second EV which is closest to a current location of the first EV; receiving, by the one or more processors, a message from the second EV accepting the meeting location in response to the second EV determining that the second EV will reach the meeting location without running out of power based upon an amount of charge remaining in the second EV; causing, by the one or more processors, the first EV to travel to the meeting location; and in response to obtaining the load from the second EV, causing, by the one or more processors, the first EV to travel to the destination for delivering the load.",
+  "patent_id": "US12377881-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 60/00256",
+      "B60L 53/00",
+      "B60L 58/14",
+      "B62D 63/025",
+      "B62D 65/04",
+      "B62D 65/14",
+      "G01C 21/3438",
+      "G01C 21/3469",
+      "B60L 2200/28",
+      "B60L 2240/54",
+      "B60W 2510/244",
+      "B60W 2556/65"
+    ],
+    "all": [
+      "B60W 60/00256",
+      "B60L 53/00",
+      "B60L 58/14",
+      "B62D 63/025",
+      "B62D 65/04",
+      "B62D 65/14",
+      "G01C 21/3438",
+      "G01C 21/3469",
+      "B60L 2200/28",
+      "B60L 2240/54",
+      "B60W 2510/244",
+      "B60W 2556/65"
+    ],
+    "source": "converted"
+  }
+}

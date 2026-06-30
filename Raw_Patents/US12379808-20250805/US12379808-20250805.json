@@ -1,0 +1,32 @@
+{
+  "title": "Timing control circuit and timing control method thereof",
+  "abstract": "A timing control circuit includes a receiving circuit and a line memory coupled to the receiving circuit. The line memory is configured for outputting a first data signal during a first frame period, and outputting a second data signal during a second frame period. An end time point of the first frame period coincides with the start time point of the second frame period. One of the first data signal and the second data signal is corresponding to a long H mode; the other of the first data signal and the second data signal is corresponding to a long V mode.",
+  "claims": "1. A timing control circuit, comprising: a receiving circuit; and a line memory, coupled to the receiving circuit, wherein the line memory is configured for: receiving a horizontal synchronization signal, wherein the horizontal synchronization signal comprises first pulses and second pulses, which come after the first pulses; outputting a first data signal corresponding to the first pulses, wherein each first pulse has a first period; and outputting a second data signal corresponding to the second pulses, wherein each second pulse has a second period; wherein based on a fact that the second period is longer than the first period, a switch from a long V mode to a long H mode takes place, such that the first data signal corresponds to the long V mode and the second data signal corresponds to the long H mode; wherein based on a fact that the second period is shorter than the first period, a switch from the long H mode to the long V mode takes place, such that the first data signal corresponds to the long H mode and the second data signal corresponds to the long V mode; wherein one of the first data signal and the second data signal corresponds to the long H mode, and the other of the first data signal and the second data signal corresponds to the long V mode; wherein whether the first data signal corresponds to the long V mode or the long H mode is determined based on the first period; wherein whether the second data signal corresponds to the long V mode or the long H mode is determined based on the second period.",
+  "patent_id": "US12379808-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/04184",
+      "G09G 3/2092",
+      "G09G 3/2096",
+      "G09G 2310/08",
+      "G09G 2320/0247",
+      "G09G 2330/021",
+      "G09G 2340/0435",
+      "G09G 2354/00",
+      "G09G 2370/08"
+    ],
+    "all": [
+      "G06F 3/04184",
+      "G09G 3/2092",
+      "G09G 3/2096",
+      "G09G 2310/08",
+      "G09G 2320/0247",
+      "G09G 2330/021",
+      "G09G 2340/0435",
+      "G09G 2354/00",
+      "G09G 2370/08"
+    ],
+    "source": "converted"
+  }
+}

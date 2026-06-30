@@ -1,0 +1,26 @@
+{
+  "title": "System and method for providing global data validation tool",
+  "abstract": "A method for selective performing a validation in one or more technical operations by a cloud based validation framework is provided. The method includes identifying a job task to be performed, identifying technical operations associated with the job task; receiving user configurable input data for performing validation on at least one technical operation associated with the job task; and submitting the user configurable input data into the cloud network based validation framework. The method further includes determining, by the cloud network based validation framework, at least one technical operation specified for performing a validation function among the technical operations; generating a dictionary file for the at least one technical operation specified for performing the validation function; and performing the validation function specified by the dictionary file.",
+  "claims": "1. A method for selectively performing a validation of one or more technical operations by a cloud network based validation framework, the method comprising: identifying, by a processor, a job task to be performed; identifying, by the processor and from the job task, a plurality of technical operations included in the job task, wherein the plurality of technical operations are required for generating an output specified by the job task; receiving, at the cloud network based validation framework and from the processor, user configurable input data that specifies selective performance of validation on a first set of the plurality of technical operations, while also specifying selective non-performance of validation on a second set of the plurality of technical operations and specifying a default validation for any remaining operation among the plurality of technical operations; customizing, using the received user configurable input data and by a driver of the cloud network based validation framework, a data file including placeholder information; executing, by the processor, in sequence, each of the plurality of technical operations; generating, by the driver of the cloud network based validation framework and for each of the plurality of technical operations, a dictionary file based on the customized data file, wherein the placeholder information included in the customized data file is automatically replaced or filled by the driver for the generating of the dictionary file, wherein the dictionary file specifies at least one function to be applied among a plurality of functions stored at the cloud network based validation framework, wherein the at least one function to be applied specified by the dictionary file is based on the user configurable input data or the placeholder information, and wherein a first dictionary file is generated after execution of a first technical operation but before execution of a second technical operation; determining, by the cloud network based validation framework, a validation function as the at least one function to be applied to the at least one of the plurality of technical operations included in the job task; driving, by the cloud network based validation framework, the determined validation function on the at least one of the plurality of technical operations included in the job task; and performing, by the cloud network based validation framework, the determined validation function on the at least one of the plurality of technical operations included in the job task for determining a validity of the at least one of the plurality of technical operations included in the job task; and generating, by the cloud network based validation framework, a plurality of validation reports, each of the plurality of validation reports indicating a validation report type corresponding to a validation function performed and a technical operation for which the validation function was performed.",
+  "patent_id": "US12379937-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/445",
+      "G06F 9/4411",
+      "G06F 9/4881",
+      "G06F 11/3672",
+      "G06F 9/5072",
+      "G06F 11/3006"
+    ],
+    "all": [
+      "G06F 9/445",
+      "G06F 9/4411",
+      "G06F 9/4881",
+      "G06F 11/3672",
+      "G06F 9/5072",
+      "G06F 11/3006"
+    ],
+    "source": "converted"
+  }
+}

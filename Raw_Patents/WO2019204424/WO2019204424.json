@@ -1,0 +1,23 @@
+{
+  "application_id": "WO2019204424",
+  "application_id_fs": null,
+  "title": "Systems and methods using geographic coordinates for item delivery",
+  "abstract": "A system and method for the use of geo-fences to coordinate and track delivery of items. In some embodiments, the system comprising a mobile delivery device comprising a vector calculation module configured to determine a motion vector associated with the mobile delivery device, a geo-location module configured to determine a geo-location associated with a mobile delivery device, and a geo-fence database configured to determine a size of at least one geo-fence associated with at least one location and determine whether the mobile delivery device is within the geo-fence. In some embodiments, the size of the geo-fence is determined at least in part on the motion vector determined by the vector calculation module.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1. An item delivery system comprising: a mobile delivery device comprising a vector calculation module configured to determine a motion vector associated with the mobile delivery device; a geo-location module configured to determine a geo-location associated with the mobile delivery device; and a geo-fence database configured to determine a size of at least one geo-fence associated with at least one location and determine whether the mobile delivery device is within the geo-fence. 2. The system of claim 1, wherein the geo-fence database is further configured to determine the size of the at least one geo-fence based at least in part on the motion vector associated with the mobile delivery device. 3. The system of claim 1, wherein the mobile delivery device further comprises vector sensors configured to measure vector data and wherein the vector calculation module is further configured to determine the motion vector based at least in part on the vector data. 4. The system of claim 3, wherein the vector sensors comprise at least one of a accelerometer, gyroscope sensor, angular rate sensor, or angular velocity sensor. 5. The system of claim 1, wherein the mobile delivery device further comprises an alert database configured to store at least one alert associated with the at least one location. 6. The system of claim 1, wherein the mobile delivery device further comprises a display configured to display the at least one alert based at least in part on the determination of whether the mobile delivery device is within the geo-fence. 7. The system of claim 1 , further comprising a route database configured to store route information and determine the current route that the mobile delivery device is on. 8. The system of claim 7, wherein the route database is further configured to determine the current route that the mobile delivery device is on based at least in part on whether the mobile delivery device is within the geo-fence. 9. A method of delivering items comprising: determining, in a processor, a motion vector associated with the mobile delivery device; determining in a processor, a geo-location associated with the mobile delivery device; and a geo-fence database configured to determine a size of at least one geo-fence associated with at least one location and determine whether the mobile delivery device is within the geo-fence. 10. The method of claim 9, further comprising determining the size of the at least one geo-fence based at least in part on the motion vector associated with the mobile delivery device. 11. The method of claim 9, further comprising measuring, in a vector sensor, vector data and determining the motion vector based at least in part on the vector data. 12. The method of claim 11, wherein the vector sensors comprise at least one of a accelerometer, gyroscope sensor, angular rate sensor, or angular velocity sensor. 13. The method of claim 9, further comprising providing associating an alert with the at least one location. 14. The method of claim 9, further comprising displaying, on the mobile delivery device, the at least one alert based at least in part on the determination of whether the mobile delivery device is within the geo-fence. 15. The method of claim 9, further comprising storing route information and determining the current route that the mobile delivery device is on. 16. The method of claim 15, further comprising determining the current route that the mobile delivery device is on based at least in part on whether the mobile delivery device is within the geo-fence.",
+  "classifications": {
+    "ipc": [
+      "H04W 4/021",
+      "G06Q 10/08",
+      "H04W 4/02",
+      "H04W 4/029"
+    ],
+    "cpc": [],
+    "all": [
+      "H04W 4/021",
+      "G06Q 10/08",
+      "H04W 4/02",
+      "H04W 4/029"
+    ],
+    "source": "csv"
+  }
+}

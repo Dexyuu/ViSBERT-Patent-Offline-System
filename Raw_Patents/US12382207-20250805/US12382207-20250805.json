@@ -1,0 +1,22 @@
+{
+  "title": "Synchronization device and synchronization method",
+  "abstract": "Provided is a synchronization device that synchronizes time-series data between a master and a slave by wireless communication, the master including a packet transmission unit that transmits a plurality of packets at a predetermined interval, and the slave including a synchronization unit that synchronizes time-series data transmitted by the master and time-series data received by the slave on the basis of the interval between the plurality of packets.",
+  "claims": "1. A synchronization device, comprising: a master including a packet transmission unit, wherein the packet transmission unit is configured to transmit plurality of packets at a first interval, and each packet of the plurality of packets includes each of information associated with the first interval and time-series data; and at least one slave including; a packet reception unit configured to receive the plurality of packets; an interval information extraction unit configured to: extract, from each packet of the received plurality of packets, the information associated with the first interval; and calculate a first count value based on the extracted information associated with the first interval; a counter configured to count a second interval between each packet of the received plurality of packets based on a frequency of a reference clock signal of the counter; a difference detection unit configured to detect a difference between the first count value and a second count value of the counter; and a synchronization unit configured to synchronize, based on the difference between the first count value and the second count value of the counter, the time-series data transmitted by the master and time-series data received by the at least one slave.",
+  "patent_id": "US12382207-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04R 1/1041",
+      "H04R 5/033",
+      "H04S 1/007",
+      "H04R 2420/07"
+    ],
+    "all": [
+      "H04R 1/1041",
+      "H04R 5/033",
+      "H04S 1/007",
+      "H04R 2420/07"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Event-based entity scoring in distributed systems",
+  "abstract": "A method includes obtaining a directed graph of a self-executing protocol, the directed graph including a set of vertices associated with mutually exclusive category labels, where the self-executing protocol identifies a first entity. The method may include obtaining a first graph portion template that includes a vertex template and an edge template. The vertex template is associated with a category of the mutually exclusive category labels. The method may include determining whether the first graph portion template matches a graph portion in the directed graph and an edge of the directed graph matching the edge template. The method may include determining an outcome score based on the graph portion template matching the graph portion, determining whether the outcome score satisfies an outcome score threshold, and storing a value indicating that the outcome score satisfies the outcome score threshold.",
+  "claims": "1. A tangible, non-transitory, machine-readable medium storing instructions that, when executed by a computing system, effectuate operations comprising: obtaining, with a computing system, program state of a self-executing protocol, wherein the program state encodes: a set of conditional statements; a set of entities, wherein the set of entities comprises a first entity; a directed graph, the directed graph comprising: a set of vertices, wherein each respective vertex of the set of vertices is associated with a respective category label of a set of mutually exclusive categories; a set of directed edges connecting respective pairs of vertices among the set of vertices; obtaining, with the computing system, an entity profile of the first entity, wherein: the entity profile comprises a first graph portion template, the first graph portion template comprises a first vertex template and an edge template, the first vertex template is associated in memory with a first category label of the set of mutually exclusive category labels, and the edge template specifies an edge direction to or from a vertex matching the first vertex template; determining, with the computing system, whether the first graph portion template matches a graph portion in the directed graph based on a first vertex of the directed graph matching the first vertex template and a first directed edge of the directed graph matching the edge template; determining, with the computing system, an outcome score based on the first graph portion template matching the graph portion in the directed graph; determining, with the computing system, whether the outcome score satisfies an outcome score threshold; and in response to the outcome score satisfying the outcome score threshold, storing, with the computing system, a value indicating that the outcome score satisfies the outcome score threshold.",
+  "patent_id": "US12379902-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 8/33",
+      "G06F 8/65",
+      "G06F 9/547",
+      "G06F 16/1858",
+      "G06F 16/23",
+      "G06F 16/9024",
+      "G06F 16/904",
+      "G06F 16/951",
+      "G06F 17/18",
+      "G06N 3/048",
+      "G06N 3/08",
+      "G06N 3/086",
+      "H04L 9/3263",
+      "H04L 67/133",
+      "H04L 9/50"
+    ],
+    "all": [
+      "G06F 8/33",
+      "G06F 8/65",
+      "G06F 9/547",
+      "G06F 16/1858",
+      "G06F 16/23",
+      "G06F 16/9024",
+      "G06F 16/904",
+      "G06F 16/951",
+      "G06F 17/18",
+      "G06N 3/048",
+      "G06N 3/08",
+      "G06N 3/086",
+      "H04L 9/3263",
+      "H04L 67/133",
+      "H04L 9/50"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Methods and systems for verification of machine learning-based varnish analysis",
+  "abstract": "Methods and systems are provided for verifying a deep learning tool for evaluating a varnish condition of a stator. In one example, a method for verifying the deep learning tool includes receiving images of replicas of a stator section at a processor of a computing system, the replicas of the stator section having different predetermined varnish fill percentages. The images are process and analyzed by the deep learning tool to output estimated varnish fill percentages. The estimated varnish fill percentages may be compared to the predetermined varnish fill percentages and a notification recommending at least one of further training of the deep learning tool and adjustments to an imaging setup for acquiring the images.",
+  "claims": "1. A system for evaluating a deep learning tool for estimating varnish fill percentages of a stator, comprising: a housing enclosing a UV light source and digital imaging equipment; one or more replicas of a section of the stator having varnish configured to fluoresce when irradiated by the UV light source, the one or more replicas having amounts of varnish corresponding to predetermined varnish fill percentages; and a processor configured with the deep learning tool and instructions stored on non-transitory memory that, when executed, cause the processor to: receive images of the one or more replicas from the digital imaging equipment; process and analyze the images using the deep learning tool by cropping the images and analyzing a fluorescence signature of the images, the deep learning tool trained to identify and quantify the varnish using deep learning algorithms; output estimated varnish fill percentages from the deep learning tool; compare the estimated varnish fill percentages to the predetermined varnish fill percentages; and display a notification to a user at a display device in response to a difference between the estimated varnish fill percentages and the predetermined varnish fill percentages being greater than a threshold difference.",
+  "patent_id": "US12379716-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05B 19/41875",
+      "G05B 19/4187",
+      "G06T 7/0004"
+    ],
+    "all": [
+      "G05B 19/41875",
+      "G05B 19/4187",
+      "G06T 7/0004"
+    ],
+    "source": "converted"
+  }
+}

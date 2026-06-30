@@ -1,0 +1,18 @@
+{
+  "title": "Image processing apparatus and virus check method for the same",
+  "abstract": "An image processing apparatus includes: a primary communication circuit for communication with an external device via a primary line; a secondary communication circuit for communication with a specific device via a secondary line; a transmission/reception processor communicating with the external device via the primary line or the specific device via the secondary line to acquire virus definition information from the external device or the specific device; a virus checker performing a virus check using the acquired virus definition information; and a line selector selecting communication using the primary communication circuit or communication using the secondary communication circuit. In a state where the communication via the primary line can no longer be established, the line selector selects the secondary line. In the case where the updated virus definition information is acquired via the secondary line, the virus checker performs the virus check by using such virus definition information.",
+  "claims": "1. An image processing apparatus comprising: a first communication circuit for communication with an external device via a first line; a second communication circuit for communication with a specific device via a second line; a transmission/reception processor that communicates with the external device via the first line or with the specific device via the second line to acquire virus definition information from the external device or the specific device; a virus checker that performs a virus check by using the acquired virus definition information; and a line selector that selects either one of the communication using the first communication circuit and the communication using the second communication circuit, wherein if it is brought into a state where the communication via the first line cannot be established, the line selector selects the second line for acquisition of updated virus definition information from the specific device, and in the case where the updated virus definition information is acquired via the second line, the virus checker performs the virus check by using the updated virus definition information; wherein in the case where a computer virus is detected by the virus check, the transmission/reception processor cuts off the communication with the external device via the first line, and wherein in the case where a virus is not detected as a result of the virus check that is performed by the virus checker using the updated virus definition information, the transmission/reception processor restarts the communication via the first line that has been cut off.",
+  "patent_id": "US12380209-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/562",
+      "H04L 63/145"
+    ],
+    "all": [
+      "G06F 21/562",
+      "H04L 63/145"
+    ],
+    "source": "converted"
+  }
+}

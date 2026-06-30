@@ -1,0 +1,18 @@
+{
+  "title": "Distance measurement device using two algorithms",
+  "abstract": "There is provided an optical distance measurement device including a processor embedded with a first algorithm and a second algorithm. The first algorithm is used to calculate an object depth when an obstacle is distanced from the distance measurement device smaller than a predetermined distance. The second algorithm is used to calculate an object depth when the obstacle is distanced from the distance measurement device larger than the predetermined distance.",
+  "claims": "1. A distance measurement device, comprising: a light source, configured to project a linear light section toward a moving direction; an image sensor, configured to capture an image frame containing an image of the linear light section; and a processor, configured to calculate a gravity center of the image of the linear light section in the image frame, use a first algorithm to calculate a first object depth upon the gravity center being smaller than a position threshold, and use a second algorithm to calculate a second object depth upon the gravity center being larger than the position threshold, wherein in the first algorithm, the first object depth is calculated according to a relationship between gravity centers and a reciprocal of depths, as well as a linear interpolation method, and in the second algorithm, the second object depth is calculated according to a relationship between gravity centers and depths, as well as a linear extrapolation method.",
+  "patent_id": "US12379499-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 17/48",
+      "G01S 7/4808"
+    ],
+    "all": [
+      "G01S 17/48",
+      "G01S 7/4808"
+    ],
+    "source": "converted"
+  }
+}

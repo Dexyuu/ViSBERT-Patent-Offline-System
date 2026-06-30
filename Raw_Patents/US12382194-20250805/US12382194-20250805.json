@@ -1,0 +1,18 @@
+{
+  "title": "Image sensor correcting crosstalk, operating method of image sensor, and electronic device including image sensor",
+  "abstract": "An image sensor includes a pixel unit including a plurality of pixels, and configured to generate an analog signal using the plurality of pixels, a data converter configured to receive the analog signal and convert the analog signal into a digital signal, and at least one processor configured to generate image data by performing crosstalk correction and remosaic on the digital signal, output the image data to an external device, receive image data information from the external device, determine a saturation ratio based on the image data information, and adjust settings of the remosaic based on the saturation ratio.",
+  "claims": "1. An image sensor comprising: a pixel unit comprising a plurality of pixels, and configured to generate an analog signal using the plurality of pixels; a data converter configured to: receive the analog signal, and convert the analog signal into a digital signal; and at least one processor configured to: generate image data by performing crosstalk correction and remosaic on the digital signal; output the image data to an external device, receive image data information from the external device; determine a saturation ratio based on the image data information; and adjust settings of the remosaic based on the saturation ratio, wherein the at least one processor is further configured to: detect a plurality of mean pixel values of groups of pixel values on the image data, the plurality of mean pixel values corresponding to the plurality of pixels; and determine the saturation ratio based on the plurality of mean pixel values.",
+  "patent_id": "US12382194-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 25/62",
+      "H04N 25/78"
+    ],
+    "all": [
+      "H04N 25/62",
+      "H04N 25/78"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Enhanced dual video call with augmented reality stream",
+  "abstract": "Embodiments include methods performed by a processor of a receiving wireless device for rendering augmented reality content. The methods may include receiving real image data from a transmitting wireless device via a first data stream, and receiving augmented reality (AR) content from the transmitting wireless device via a second data stream that is an alt video stream, in which the AR content is for display with the real image data. Methods may further include displaying the AR content in conjunction with the real image data.",
+  "claims": "1. A method performed by a processor of a receiving wireless device for rendering augmented reality content, comprising: receiving real image data from a transmitting wireless device via a first data stream, the first data stream including a Session Description Protocol (SDP) Content Attribute set to “main”; transmitting a Session Initiation Protocol (SIP) message indicating a capability of the receiving wireless device to receive augmented reality (AR) content across a second data stream that includes an SDP Content Attribute set to “alt”; based on the SIP message indicating the capability of the receiving wireless device to receive AR content across the second data stream, receiving AR content from the transmitting wireless device via the second data stream, the second data stream including the SDP Content Attribute set to “alt”, wherein the AR content is for display with the real image data; and displaying the AR content received via the second data stream in conjunction with the real image data received via the first data stream.",
+  "patent_id": "US12380608-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 11/00",
+      "G06T 9/00",
+      "H04L 65/65",
+      "H04W 76/10",
+      "G06T 19/006"
+    ],
+    "all": [
+      "G06T 11/00",
+      "G06T 9/00",
+      "H04L 65/65",
+      "H04W 76/10",
+      "G06T 19/006"
+    ],
+    "source": "converted"
+  }
+}

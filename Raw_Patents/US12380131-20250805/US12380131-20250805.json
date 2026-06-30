@@ -1,0 +1,18 @@
+{
+  "title": "Synchronizing resource type and property structures",
+  "abstract": "Extracting and synchronizing an Enterprise Portal application resource types and properties of business objects located in repository is disclosed. The repository is queried without human intervention to determine business object type information and for each business object type its associated properties. A representation of the business object types and associated properties in a format that facilitates synchronization with the enterprise portal application is generated.",
+  "claims": "1. A computer program product comprising a non-transitory computer readable medium storing computer-readable code executable to: connect to a repository storing a plurality of objects of a plurality of object types, each of the plurality of objects having associated structural information stored according to an internal representation of information used by the repository, the associated structural information comprising: an object type corresponding to the object; and attributes of the object; the repository storing at least one database table that stores the associated structural information for the plurality of objects as metadata for the plurality of object types; retrieve the associated structural information associated with each of the plurality of objects to learn the plurality of object types and the attributes associated with each of the plurality of object types, the retrieving comprising: executing a session query; extracting the plurality of object types from the at least one database table that stores the metadata for the plurality of object types; based on learning the plurality of object types and the attributes of the plurality of object types, create a representation of the plurality of object types, the representation of the plurality of object types comprising attributes associated with that object type, wherein creating the representation comprises: iterating through the plurality of object types; and generating a collection comprising tree structures, wherein each tree structure of the collection includes a parent node for each object type of the plurality of object types, wherein each tree structure comprises child nodes specifying attributes for the object type defined by the parent node; import the created representation of the plurality of object types into a portal; and process the imported representation of the plurality of object types to dynamically create, in the portal, the plurality of object types with corresponding properties arranged in a tree structures corresponding to the imported representation, thereby allowing applications to access the plurality of objects stored in the repository via the portal.",
+  "patent_id": "US12380131-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/275",
+      "G06F 16/25"
+    ],
+    "all": [
+      "G06F 16/275",
+      "G06F 16/25"
+    ],
+    "source": "converted"
+  }
+}

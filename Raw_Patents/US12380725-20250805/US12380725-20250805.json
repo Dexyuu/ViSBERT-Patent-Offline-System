@@ -1,0 +1,22 @@
+{
+  "title": "Seating position management system and seating position management method",
+  "abstract": "Provided is a system that enables inexpensive and accurate identification of the seating position of each user in a free address office without incurring additional equipment costs. The system identifies a user who has entered an office by performing a face verification operation which involves comparing a face image of an entering person who is entering the office acquired from an image captured by a first entrance camera, with the face image of each registered user for matching, and identifies the seating position of the user in the office by performing a person verification operation which involves comparing a first person image acquired from an image captured by a second entrance camera, with a second person image acquired from an image captured by an in-area camera to thereby associate a person who has entered the office with a corresponding person who is seated in the office.",
+  "claims": "1. A seating position management system for identifying a seating position of a user in an office area, the system comprising: an entrance camera for capturing images of an area in and around an entrance to the office area; an in-area camera for capturing images of an area within the office area; and a controller processor configured to: identify a user who has entered the office area by performing a person identification operation on an entering person who is entering the office area; and identify the seating position of the user in the office area by performing a person verification operation based on a first person image acquired from an image captured by the entrance camera and a second person image acquired from an image captured by the in-area camera, wherein the person verification operation compares the first person image with the second person image for matching the first person image with the second person image, to thereby associate an entered person who has entered the office area with a seated person who is seated in the office area, and when the person identification operation shows that there is a user who has entered the office area, but whose seating position has not been identified by a seating-position identifying operation, the processing controller performs a seating position verification operation for determining the user's seating position, causing a seating position confirmation screen to be displayed on a user device.",
+  "patent_id": "US12380725-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 40/103",
+      "G06V 10/761",
+      "G06V 20/36",
+      "G06Q 10/0631"
+    ],
+    "all": [
+      "G06V 40/103",
+      "G06V 10/761",
+      "G06V 20/36",
+      "G06Q 10/0631"
+    ],
+    "source": "converted"
+  }
+}

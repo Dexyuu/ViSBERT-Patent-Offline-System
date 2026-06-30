@@ -1,0 +1,34 @@
+{
+  "title": "Connecting to multiple cloud instances in a telecommunications network",
+  "abstract": "Aspects of the disclosure involve systems and methods for utilizing Virtual Local Area Network separation in a connection, which may be a single connection, between a customer to a telecommunications network and a cloud environment to allow the customer to access multiple instances within the cloud through the connection. A customer may purchase multiple cloud resource instances from a public cloud environment and, utilizing the telecommunications network, connect to the multiple instances through a communication port or connection to the cloud environment. To utilize the single connection or port, communication packets intended for the cloud environment may be tagged with a VLAN tag that indicates to which cloud instance the packet is intended. The telecommunications network may route the packet to the intended cloud environment and configure one or more aspects of the cloud environment to analyze the attached VLAN tag to transmit the packet to the intended instance.",
+  "claims": "1. A method comprising: receiving, at a first edge device, a first plurality of communication packets from a first device associated with a single port, the first plurality of communication packets associated with a first Virtual Local Area Network identifier, and receiving, from the single port, a second plurality of communication packets from the first device, the second plurality of communication packets associated with a second Virtual Local Area Network identifier, the first Virtual Local Area Network identifier associated with a first cloud computing instance in a cloud computing environment and the second Virtual Local Area Network identifier associated with a second cloud computing instance in the cloud computing environment; establishing a communication path between multiple networks and the cloud computing environment by connecting one or more networks to the single port of the first device by a Link Aggregation Group connection to an egress port connected to the second edge device of the cloud computing environment in accordance with the communication path, and wherein the single port receives or transmits packets from multiple networks that include the first Virtual Local Area Network identifier and the second Virtual Local Area Network identifier of packet streams from the first device; and routing, to the second edge device of the cloud computing environment, the first plurality of communication packets associated with the first Virtual Local Area Network identifier for connection to the first cloud computing instance and the second plurality of communication packets associated with the second Virtual Local Area Network identifier for connection to the second cloud computing instance.",
+  "patent_id": "US12381834-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 49/354",
+      "H04L 12/4641",
+      "H04L 12/4666",
+      "H04L 12/4675",
+      "H04L 41/0803",
+      "H04L 41/5096",
+      "H04L 45/04",
+      "H04L 45/507",
+      "H04L 67/10",
+      "H04L 41/0895"
+    ],
+    "all": [
+      "H04L 49/354",
+      "H04L 12/4641",
+      "H04L 12/4666",
+      "H04L 12/4675",
+      "H04L 41/0803",
+      "H04L 41/5096",
+      "H04L 45/04",
+      "H04L 45/507",
+      "H04L 67/10",
+      "H04L 41/0895"
+    ],
+    "source": "converted"
+  }
+}

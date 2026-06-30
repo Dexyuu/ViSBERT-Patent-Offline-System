@@ -1,0 +1,18 @@
+{
+  "title": "Sanitizing personally identifiable information (PII) in audio and visual data",
+  "abstract": "Techniques for sanitizing personally identifiable information (PII) from audio and visual data are provided. For example, in a scenario where the data comprises an audio signal with speech uttered by a speaker S, these techniques can include removing, obfuscating, or transforming speech related and non-speech related audio cues in the audio signal that can be used to trace the identity of S, while allowing the content of S's speech to remain recognizable. As another example, in a scenario where the data comprises an image or video in which a person P appears, these techniques can include removing, obfuscating, or transforming P's visible biological features and visual indicators of P's location, belongings, or personal data in the image/video, while allowing the general nature of the footage to remain discernable. Through this PII sanitization process, the privacy of individuals portrayed in the audio or visual data can be preserved.",
+  "claims": "18. A hardware circuit comprising: a first set of logic blocks configured to receive an audio or visual (A/V) data sample from an A/V capture module via a secure communication channel; a second set of logic blocks configured to pre-process the A/V data sample to detect speech or appearance of one or more people in the A/V data sample, the pre-processing being performed while the hardware circuit operates in a lower power mode; and a third set of logic blocks configured to: in response to detecting the speech or appearance of one or more people in the A/V data sample: transition the hardware circuit from the lower power mode to a higher power mode; and sanitize the A/V data sample while operating in the higher power mode, wherein the sanitizing includes identifying personally identifiable information (PII) in the A/V data sample and removing, obfuscating, and/or transforming the identified PII, wherein the sanitizing results in a sanitized version of the A/V data sample, wherein the sanitizing is performed only in response to detecting the speech or appearance of one or more people in the A/V data sample, and wherein other portions of the computing device are blocked, via a hardware mechanism, from accessing audio or visual data captured by the A/V capture module until the speech or appearance of one or more people in the A/V data sample is detected.",
+  "patent_id": "US12380228-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/602",
+      "G06F 21/53"
+    ],
+    "all": [
+      "G06F 21/602",
+      "G06F 21/53"
+    ],
+    "source": "converted"
+  }
+}

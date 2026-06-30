@@ -1,0 +1,52 @@
+{
+  "application_id": "WO2019036161",
+  "application_id_fs": "WO2019036161",
+  "title": "Neural signal data capture",
+  "abstract": "Techniques described herein provide for the detection and capture of neural signals in a manner that compresses data sent from electrodes to controller by several orders of magnitude over current techniques. In particular, embodiments include detecting a threshold amplitude and/or slope of a detected neural signal, and capturing the detected neural signal once these thresholds are met. A threshold timing detector may be implemented as well. Additionally, these thresholds may be configurable to accommodate various factors, such as electrode placement, sensitivity, etc.",
+  "claims": "Claims CLAIMS What is claimed is: 1. An electrode of a neural recording system, the electrode comprising: a neural sensor configured to provide an output signal representative of a detected neural signal; detection circuitry coupled to the neural sensor and configured to determine, from the output signal of the neural sensor, the presence of an action potential in the detected neural signal, the detection circuitry comprising: voltage threshold circuitry configured to detect when a voltage of the output signal of the neural sensor reaches a threshold voltage, and slope-detection circuitry configured to detect when a rising slope of the output signal of the neural sensor reaches a threshold slope; capture circuitry coupled to the detection circuitry and configured to, based on the determined presence of an action potential, capture a value indicative of an amplitude of the action potential and a value indicative of timing of the action potential; and transmission circuitry coupled to the capture circuitry and configured to send the value indicative of the amplitude of the action potential and the value indicative of the timing of the action potential to a device communicatively coupled with the electrode. 2. The electrode of claim 1 further comprising circuitry configured to enable adjustment of the threshold voltage, the threshold slope, or both. 3. The electrode of claim 1 wherein the slope-detection circuitry further comprises time threshold circuitry configured to provide an output based on whether the output signal of the neural sensor has met or exceeded the threshold slope for at least a threshold amount of time. 4. The electrode of claim 3 further comprising circuitry configured to enable adjustment of the threshold amount of time. 5. The electrode of claim 1, wherein the capture circuitry comprises a peak detector coupled with an analog-to-digital converter. 6. The electrode of claim 1, further comprising a counter configured to provide the value indicative of the timing of the action potential. 7. The electrode of claim 6, wherein the counter is configured to be reset in response to the detection of the action potential. 8. The electrode of claim 1, further comprising local potential detection circuitry configured to detect, from the output signal of the neural sensor, a local potential of the detected neural signal, wherein the transmission circuitry is further coupled to the local potential detection circuitry and configured to send a value indicative of an amplitude of the detected local potential to the device communicatively coupled with the electrode. 9. A method of operating an electrode of a neural recording system, the method comprising: receiving, from a neural sensor, an output signal representative of a detected neural signal; determining, from the output signal of the neural sensor, the presence of an action potential in the detected neural signal, by: determining a voltage of the output signal of the neural sensor reached a threshold voltage, and determining a rising slope of the output signal of the neural sensor reached a threshold slope; in response to the determination of presence of the action potential, capturing a value indicative of an amplitude of the action potential and a value indicative of timing of the action potential; and sending the value indicative of the amplitude of the action potential and the value indicative of the timing of the action potential to a device communicatively coupled with the electrode. 10. The method of claim 9 further comprising adjusting the threshold voltage, the threshold slope, or both. 11. The method of claim 9 further comprising providing an output based on whether the output signal of the neural sensor has met or exceeded the threshold slope for at least a threshold amount of time. 12. The method of claim 11 further comprising adjusting the threshold amount of time. 13. The method of claim 9, further comprising operating a counter to provide the value indicative of the timing of the action potential. 14. The method of claim 13, further comprising resetting the counter in response to the detection of the action potential. 15. The method of claim 9, further comprising: detecting, from the output signal of the neural sensor, a local potential of the detected neural signal; and sending a value indicative of an amplitude of the detected local potential to the device communicatively coupled with the electrode. 16. An apparatus comprising: means for receiving, from a neural-sensing means, an output signal representative of a detected neural signal; means for determining, from the output signal of the neural-sensing means, the presence of an action potential in the detected neural signal, by: determining a voltage of the output signal of the neural-sensing means reached a threshold voltage, and determining a rising slope of the output signal of the neural- sensing means reached a threshold slope; means for capturing a value indicative of an amplitude of the action potential and a value indicative of timing of the action potential; and means for sending the value indicative of the amplitude of the action potential and the value indicative of the timing of the action potential to a device communicatively coupled with the apparatus. 17. The apparatus of claim 16, further comprising means for adjusting the threshold voltage, the threshold slope, or both. 18. The apparatus of claim 16, further comprising means for providing an output based on whether the output signal of the neural-sensing means has met or exceeded the threshold slope for at least a threshold amount of time. 19. The apparatus of claim 18, further comprising means for adjusting the threshold amount of time. 20. The apparatus of claim 16, further comprising means for operating a counter to provide the value indicative of the timing of the action potential. 21. The apparatus of claim 20, further comprising means for resetting the counter in response to the detection of the action potential. 22. The apparatus of claim 16, further comprising: means for detecting, from the output signal of the neural-sensing means, a local potential of the detected neural signal; and means for sending a value indicative of an amplitude of the detected local potential to the device communicatively coupled with the apparatus. 23. A non-transitory computer-readable medium having instructions embedded thereon for operating an electrode of a neural recording system, the instructions comprising computer code for: receiving, from a neural sensor, an output signal representative of a detected neural signal; determining, from the output signal of the neural sensor, the presence of an action potential in the detected neural signal, by: determining a voltage of the output signal of the neural sensor reached a threshold voltage, and determining a rising slope of the output signal of the neural sensor reached a threshold slope; capturing a value indicative of an amplitude of the action potential and a value indicative of timing of the action potential; and sending the value indicative of the amplitude of the action potential and the value indicative of the timing of the action potential to a device communicatively coupled with a computing device operating the electrode. 24. The non-transitory computer-readable medium of claim 23, wherein the instructions further comprise computer code for adjusting the threshold voltage, the threshold slope, or both. 25. The non-transitory computer-readable medium of claim 23, wherein the instructions further comprise computer code for providing an output based on whether the output signal of the neural sensor has met or exceeded the threshold slope for at least a threshold amount of time. 26. The non-transitory computer-readable medium of claim 25, wherein the instructions further comprise computer code for adjusting the threshold amount of time. 27. The non-transitory computer-readable medium of claim 23, wherein the instructions further comprise computer code for operating a counter to provide the value indicative of the timing of the action potential. 28. The non-transitory computer-readable medium of claim 27, wherein the instructions further comprise computer code for resetting the counter in response to the detection of the action potential. 29. The non-transitory computer-readable medium of claim 23, wherein the instructions further comprise computer code for: detecting, from the output signal of the neural sensor, a local potential of the detected neural signal; and sending a value indicative of an amplitude of the detected local potential to the device communicatively coupled with the electrode.",
+  "classifications": {
+    "ipc": [
+      "A61B 5/00",
+      "A61B 5/0002",
+      "A61B 5/0031",
+      "A61B 5/24",
+      "A61B 5/68",
+      "A61B 5/6846",
+      "A61B 5/6867",
+      "A61B 5/6868",
+      "A61B 5/72",
+      "A61N 1/00",
+      "A61N 1/02",
+      "A61N 1/04",
+      "A61N 1/05",
+      "A61N 1/0551",
+      "G06F 3/00",
+      "G06F 3/01",
+      "G06F 3/011",
+      "G06F 3/015"
+    ],
+    "cpc": [],
+    "all": [
+      "A61B 5/00",
+      "A61B 5/0002",
+      "A61B 5/0031",
+      "A61B 5/24",
+      "A61B 5/68",
+      "A61B 5/6846",
+      "A61B 5/6867",
+      "A61B 5/6868",
+      "A61B 5/72",
+      "A61N 1/00",
+      "A61N 1/02",
+      "A61N 1/04",
+      "A61N 1/05",
+      "A61N 1/0551",
+      "G06F 3/00",
+      "G06F 3/01",
+      "G06F 3/011",
+      "G06F 3/015"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019036161"
+}

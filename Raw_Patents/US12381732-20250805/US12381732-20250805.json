@@ -1,0 +1,22 @@
+{
+  "title": "Single-use authorization codes in self-contained format",
+  "abstract": "The present disclosure relates to computer-implemented methods, software, and systems for generating access tokens at an authentication server based on authorization codes. A first authorization server from a set of authorization servers receives a request for authorization of a request to access a resource by a resource owner. The first authorization server validates the request for authorization of the request to generate an authorization code. In response to successful validation of the request for authorization to generate the authorization code, the first authorization server generates a single-use authorization code by signing the generated authorization code with a unique private key. A unique public key is maintained for verifying the signed authorization code. The single-use authorization code is generated in a self-contained format. The single-use authorization code is provided to the client application for generation of an access token by one of the authorization servers from the set of authorization servers.",
+  "claims": "1. A computer implemented method for generating authorization codes at a set of authorization servers, wherein the set of authorization servers are organized to process requests for accessing resources and generate access tokens according to a non-consensual organization, where each authorization server is assigned the same right and role, the method comprising: receiving, from a client application and at a second authorization server, a request including an authorization code for requesting access to a resource by a client application, wherein the authorization code is signed with a signature that is generated based on a private key generated at a first authorization server of the set of authorization servers, wherein each authorization server of the set of authorization servers is configured to generate and maintain a respective pair of a public key and a private key; in response to receiving the request, generating, at the second authorization server, an access token based on verifying the signature of the authorization code, wherein verifying the access token comprises: querying other authorization servers of the set of authorization servers to determine that the first authorization server had signed the authorization code; and fetching a generated public key maintained at the first authorization server to verify the signature of the authorization code; and providing the access token to the client application to access the resource.",
+  "patent_id": "US12381732-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/3228",
+      "H04L 9/085",
+      "H04L 9/3073",
+      "H04L 9/3213"
+    ],
+    "all": [
+      "H04L 9/3228",
+      "H04L 9/085",
+      "H04L 9/3073",
+      "H04L 9/3213"
+    ],
+    "source": "converted"
+  }
+}

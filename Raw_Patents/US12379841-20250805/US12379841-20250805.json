@@ -1,0 +1,22 @@
+{
+  "title": "Systems and methods for performing data compression in memory",
+  "abstract": "An appliance is described. A write engine may process a write request from an application to write a first data into a memory. The write request may including the first data and an address. A compression engine may compress the first data to produce a first compressed data. A write module may store the first compressed data in the memory. The first data may be a first part of a page that may further include a second data as a second part. The first compressed data may be a first part of a compressed page that may further include a second compressed data as a second part.",
+  "claims": "1. An appliance, comprising: a write circuit to process a write request from an application executing on a first processor on a first host to write a first data into a memory, the write request including the first data and an address; a compression circuit to compress the first data to produce a first compressed data; and a controller to store the first compressed data in a memory page in the memory and to store a metadata identifying where the first compressed data is stored within the memory page in the memory, wherein the first data is a first part of a page, the page further including a second data as a second part of the page, wherein the first compressed data is a first part of a compressed page, the compressed page further including a second compressed data as a second part of the compressed page, the second compressed data being a compressed version of the second data, wherein the appliance is configured to receive a second write request from a second application executing on a second processor on a second host to write a third data into the memory, and wherein the appliance, the first host, and the second host are separate elements.",
+  "patent_id": "US12379841-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0608",
+      "G06F 3/0635",
+      "G06F 3/0656",
+      "G06F 3/0673"
+    ],
+    "all": [
+      "G06F 3/0608",
+      "G06F 3/0635",
+      "G06F 3/0656",
+      "G06F 3/0673"
+    ],
+    "source": "converted"
+  }
+}

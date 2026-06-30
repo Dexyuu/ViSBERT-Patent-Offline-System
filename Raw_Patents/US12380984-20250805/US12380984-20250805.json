@@ -1,0 +1,22 @@
+{
+  "title": "Systems and methods for using artificial intelligence and machine learning to generate treatment plans having dynamically tailored cardiac protocols for users to manage a state of an electromechanical machine",
+  "abstract": "In one embodiment, a computer-implemented system includes an electromechanical machine configured to be manipulated by a user while the user performs a treatment plan. The treatment plan includes a high-intensity interval training (HIIT) session. A processing device is configured to initiate, using the electromechanical machine, the HIIT session, receive, via one or more sensors, one or more measurements pertaining to the electromechanical machine, determine whether the one or more measurements exceed one or more of one or more corresponding thresholds, and in response to determining that the one or more measurements exceed one or more of the one or more corresponding thresholds, modify the treatment plan to cause operation of the electromechanical machine to be modified.",
+  "claims": "1. A computer-implemented system, comprising: an electromechanical machine configured to be manipulated by a user while the user performs a treatment plan, wherein the treatment plan comprises a first high-intensity interval training (HIIT) session, wherein the first HIIT session comprises at least a first session of high intensity movement that increases a heart rate of the user above a certain threshold for at least a certain amount of time and at least a second session of low intensity movement that decreases the heart rate of the user below the certain threshold; and a processing device configured to: initiate, using the electromechanical machine, the first HIIT session; receive, via one or more sensors, one or more measurements pertaining to the electromechanical machine; determine whether the one or more measurements exceed one or more of one or more corresponding thresholds; training one or more machine learning models to modify a treatment plan, wherein the training is performed using training data and the training data comprises a mapping of values of labeled inputs of measurements of electromechanical machines to labeled outputs of at least two different HIIT sessions, wherein the HIIT sessions are associated with operating parameters associated with the electromechanical machines, and further wherein the training data comprises, for a plurality of users in at least two different cohorts, the labeled inputs and the labeled outputs of the at least two different HIIT sessions; and in response to determining that the one or more measurements exceed one or more of the one or more corresponding thresholds, modify, using the trained one or more trained machine learning models, the treatment plan to a second treatment plan to cause operation of the electromechanical machine to be modified, wherein, based on the one or more measurements, the one or more trained machine learning models change a designation of the user from a first cohort to a second cohort and the second cohort includes the second treatment plan comprising, for a second HIIT session, different operating parameters of the electromechanical machine.",
+  "patent_id": "US12380984-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16H 20/30",
+      "A63B 24/0062",
+      "G16H 50/30",
+      "A63B 2024/0065"
+    ],
+    "all": [
+      "G16H 20/30",
+      "A63B 24/0062",
+      "G16H 50/30",
+      "A63B 2024/0065"
+    ],
+    "source": "converted"
+  }
+}

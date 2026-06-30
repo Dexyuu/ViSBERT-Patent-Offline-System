@@ -1,0 +1,33 @@
+{
+  "application_id": "WO2019241785",
+  "application_id_fs": null,
+  "title": "Systems and methods for dancification",
+  "abstract": "Dancification processes can create the impression of dance from non-dance video. Systems and methods for dancification in accordance with embodiments of the invention are illustrated. One embodiment includes A dancification system including a display device, at least one processor, and a memory containing a dancification application, where the dancification application directs the processor to, obtain video data comprising a video track, and a music data comprising an audio track, detect audio beats in the audio track, detect visual beats in the video track, warp the video track to synchronize the visual beats and the audio beats to produce the audiovisual impression of dance, and display the warped video track using the display device.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1. A dancification system comprising: a display device; at least one processor; and a memory containing a dancification application, where the dancification application directs the processor to: obtain video data comprising a video track, and a music data comprising an audio track; detect audio beats in the audio track; detect visual beats in the video track; warp the video track to synchronize the visual beats and the audio beats to produce the audiovisual impression of dance; and display the warped video track using the display device. 2. The dancification system of claim 1 , wherein to detect visual beats in the video track, the dancification application further directs the processor to: generate a directogram for the video track; measure impact envelopes in the video track using the directogram; detect visible impacts using the impact envelopes; generate a tempogram for the video track based on the detected visual impacts; and generate a set of warp curves for the video track a based on the tempogram. 3. The dancification system of claim 2, wherein the dancification application further directs the processor to account for shot boundaries in the video track by clipping the 99 th to 98 th percentile values of the impact envelopes. 4. The dancification system of claim 2, wherein each warp curve in the set of warp curves comprises a first segment leading into a unique control point, and a second segment leading away from the unique control point. 5. The dancification system of claim 4, wherein the first segment is based on a first linear interpolation; and the second segment is based on a second linear interpolation plus an acceleration parameter, where the acceleration parameter maintains continuity in a rate of warping throughout the video track. 6. The dancification system of claim 1 , wherein the warped video track demonstrates syncro-saliency. 7. The dancification system of claim 1 , where the display device is a smartphone. 8. The dancification system of claim 1 , where the audio track does not describe audio originally present in the video track. 9. The dancification system of claim 1 , wherein the dancification application further directs the processor to encode the warped video track and the audio track into the same file container. 10. The dancification system of claim 1 , further comprising: an interface device; and the dancification application further directs the processor to warp the video track based on inputs from a user via the interface device. 11. A method for dancifying videos comprising: obtaining video data comprising a video track, and a music data comprising an audio track; detecting audio beats in the audio track; detecting visual beats in the video track; warping the video track to synchronize the visual beats and the audio beats to \n\n produce the audiovisual impression of dance; and displaying the warped video track. 12. The method for dancifying videos of claim 11 , wherein detecting visual beats in the video track comprises: generating a directogram for the video track; measuring impact envelopes in the video track using the directogram; detecting visible impacts using the impact envelopes; generating a tempogram for the video track based on the detected visual impacts; and generating a set of warp curves for the video track a based on the tempogram. 13. The method for dancifying videos of claim 12, further comprises accounting for shot boundaries in the video track by clipping the 99 th to 98 th percentile values of the impact envelopes. 14. The method for dancifying videos of claim 12, wherein each warp curve in the set of warp curves comprises a first segment leading into a unique control point, and a second segment leading away from the unique control point. 15. The method for dancifying videos of claim 14, wherein the first segment is based on a first linear interpolation; and the second segment is based on a second linear interpolation plus an acceleration parameter, where the acceleration parameter maintains continuity in a rate of warping throughout the video track. 16. The method for dancifying videos of claim 11 , wherein the warped video track demonstrates syncro-saliency. 17. The method for dancifying videos of claim 11 , where the audio track does not describe audio originally present in the video track. 18. The method for dancifying videos of claim 11 , further comprising encoding the warped video track and the audio track into the same file container. 19. The method for dancifying videos of claim 11 , wherein the method is performed using a smartphone. 20. The method for dancifying videos of claim 11 , wherein the music data is obtained from an interface device.",
+  "classifications": {
+    "ipc": [
+      "G06T 7/20",
+      "G06T 7/215",
+      "G11B 27/02",
+      "G11B 27/031",
+      "H04N 5/06",
+      "H04N 5/14",
+      "H04N 19/53",
+      "H04N 19/55",
+      "H04N 21/2343"
+    ],
+    "cpc": [],
+    "all": [
+      "G06T 7/20",
+      "G06T 7/215",
+      "G11B 27/02",
+      "G11B 27/031",
+      "H04N 5/06",
+      "H04N 5/14",
+      "H04N 19/53",
+      "H04N 19/55",
+      "H04N 21/2343"
+    ],
+    "source": "csv"
+  }
+}

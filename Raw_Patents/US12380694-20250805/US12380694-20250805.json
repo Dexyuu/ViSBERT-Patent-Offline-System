@@ -1,0 +1,32 @@
+{
+  "title": "System and method of intelligent vegetation management",
+  "abstract": "A method comprising receiving a first set of aerial images of a geographic area, receiving locations of assets, determining a likely location of at least one asset within each image, creating one or more bounding boxes, encompassing the likely location of one or more assets within each of the images, providing any number of the images to a convolutional neural network to classify pixels, the classification of each of the pixels indicating if the pixels are part of one or more obstructions or are part of a different classification, determining at least one zone, the zone encompassing the at least one asset, determining a distance between at least one pixel part of an obstruction and the zone, generating a criticality score based on the distance, comparing the criticality score to a threshold, and providing an alert of a future hazardous condition based on the criticality score.",
+  "claims": "1. A system comprising: at least one processor; and memory, the memory containing instructions to control one or more of the at least one processor to: receive a first set of aerial images of a geographic area, the geographic area including assets of an infrastructure, the infrastructure including the assets distributed over a geographic region, the first set of aerial images being received from a first image source over a communication network; receive location information regarding a location of the assets, the first set of aerial images being taken during a first duration of time; determine a likely location of at least one asset within each image of the first set of aerial images based on the location information; determine a classification of the at least one asset; create one or more bounding boxes within each of the images of the first set of aerial images, the one or more bounding boxes within each of the images of the first set of aerial images encompassing the likely location of one or more assets within a particular image of the first set of aerial images; provide one or more of the images of the first set of aerial images to a convolutional neural network to classify pixels within the one or more bounding boxes, a classification of each of the pixels indicating if the pixels are part of one or more obstructions depicted in the one or more of the images of the first set of aerial images or are part of a different classification; determine at least one zone within at least one of the one or more of the images, the zone encompassing the at least one asset depicted in the at least one of the one or more of the images, the at least one zone being determined based on the classification of the at least one asset; determine a first distance between at least one pixel that is part of the one or more obstructions within at least one of the bounding boxes and the at least one zone; generate a criticality score based on the first distance; compare the criticality score to a threshold; and provide an alert of a future hazardous condition based on the comparison of the criticality score and the threshold.",
+  "patent_id": "US12380694-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 20/176",
+      "G06F 18/2431",
+      "G06N 3/04",
+      "G06V 10/454",
+      "G06V 10/764",
+      "G06V 10/82",
+      "G06V 20/188",
+      "G08B 21/182",
+      "H04L 67/53"
+    ],
+    "all": [
+      "G06V 20/176",
+      "G06F 18/2431",
+      "G06N 3/04",
+      "G06V 10/454",
+      "G06V 10/764",
+      "G06V 10/82",
+      "G06V 20/188",
+      "G08B 21/182",
+      "H04L 67/53"
+    ],
+    "source": "converted"
+  }
+}

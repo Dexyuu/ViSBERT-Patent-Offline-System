@@ -1,0 +1,18 @@
+{
+  "title": "Correlating health conditions with behaviors for treatment programs in neurohumoral behavioral therapy",
+  "abstract": "A method for generating treatment regimen for one or more health conditions includes retrieving a stored healthcare treatment model that has been trained to identify, for each of a plurality of health conditions, one or more respective treatment programs. Each of the treatment programs includes a respective treatment user interface to modify a respective behavior associated with one or more neurohumoral factors that are associated with the respective health condition. In response to receiving input that specifies a first health condition of the one or more health conditions, the method uses the healthcare treatment model to select one or more treatment programs corresponding to the first health condition and provides the treatment user interfaces for the one or more treatment programs.",
+  "claims": "1. A method of treating myopia, performed at a device having one or more processors and memory storing one or more programs configured for execution by the one or more processors: retrieving a stored healthcare treatment model that has been trained to identify, for each of a plurality of health conditions, one or more respective treatment programs based on respective behavior associated with one or more neurohumoral factors that are associated with a respective health condition, wherein each of the treatment programs includes a respective treatment user interface to provide one or more tasks for a user to follow, thereby treating the myopia, wherein the stored healthcare treatment model includes a healthcare model for treating the myopia; and in response to receiving input that specifies a first health condition of the one or more health conditions as the myopia: using the healthcare treatment model to select one or more treatment programs corresponding to the first health condition; providing the treatment user interfaces for the one or more treatment programs; obtaining treatment adherence information related to the one or more treatment programs from one or more sensors; encrypting the treatment adherence information and transmitting the encrypted treatment adherence information to a server; receiving encrypted data related to a new treatment program for the first health condition based on the treatment adherence information from the server, the new treatment program including at least one selected from the group consisting of performing day exercise/outdoor exercise, positive affection training, meditation/deep breathing, audible high tempo music, and physical exercise; decoding the encrypted data; using the healthcare treatment model to generate the new treatment program for the first health condition based on the decoded data; and providing a new treatment user interface for the new treatment programs for the first health condition.",
+  "patent_id": "US12380977-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16H 20/00",
+      "G16H 10/60"
+    ],
+    "all": [
+      "G16H 20/00",
+      "G16H 10/60"
+    ],
+    "source": "converted"
+  }
+}

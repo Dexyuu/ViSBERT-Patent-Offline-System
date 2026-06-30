@@ -1,0 +1,24 @@
+{
+  "title": "Method and system for authorization using a public ledger and encryption keys",
+  "abstract": "A method for conveying a data message using a public ledger includes: generating, by a generation module of a processing server, a data message, wherein the data message comprises one or more data values; electronically transmitting, by a transmitting device of the processing server, a data signal superimposed with the generated data message to a first computing system; receiving, by a receiving device of the processing server, a data signal superimposed with an encrypted message from the first computing system, wherein the encrypted message is generated via application of one or more encryption algorithms to the generated data message using at least one encryption key; appending, by the generation module of the processing server, an identification value to the encrypted message; and submitting, by the transmitting device of the processing server, the appended encrypted message to a public ledger associated with a second computing system.",
+  "claims": "1. A method for securely conveying a transaction message, comprising: applying, by a first computing system, one or more encryption algorithms to a data message using at least one encryption key to generate an encrypted message; transmitting, by the first computing system, the at least one encryption key to a third computing system different from a processing server, wherein the third computing system acts as a node in a blockchain network; receiving, by a receiving device of the processing server from the first computing system, a data signal superimposed with the encrypted message, wherein the processing server does not receive the at least one encryption key; appending, by the processing server, an identification value to the encrypted message; submitting, by the transmitting device of the processing server, the appended encrypted message to a second computing system, wherein the second computing system is a node in the blockchain network; adding, by the second computing system acting as a node in the blockchain network, the encrypted message as a new transaction in a new block of one or more transactions to be added to a blockchain associated with the blockchain network, wherein the appended identification value is a destination address associated with the third computing system acting as a node in the blockchain network for the new transaction; retrieving, by the third computing system from the blockchain and based on the appended identification value, the encrypted message; and decrypting, by the third computing system, the encrypted message with the at least one encryption key transmitted by the first computing system.",
+  "patent_id": "US12380446-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/401",
+      "H04L 9/321",
+      "H04L 63/0428",
+      "G06Q 2220/00",
+      "H04L 2209/56"
+    ],
+    "all": [
+      "G06Q 20/401",
+      "H04L 9/321",
+      "H04L 63/0428",
+      "G06Q 2220/00",
+      "H04L 2209/56"
+    ],
+    "source": "converted"
+  }
+}

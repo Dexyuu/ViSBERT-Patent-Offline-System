@@ -1,0 +1,22 @@
+{
+  "title": "Cross-resource subscription for M2M service layer",
+  "abstract": "A subscriber issues a message to a resource host to request subscription to multiple resources. This message may indicate identifiers of these resources, event notification criteria for each individual resource and define cross-resource notification criteria such as time window type and time window size. The resource host issues cross-resource notifications to the subscriber or its designated notification targets when expected changes on the target resources occur within a time window.",
+  "claims": "1. An apparatus comprising circuitry configured to: receive a message for a cross-resource subscription, wherein the message is indicative of a request, by a subscriber entity, for a subscription, wherein the subscription is for a remote device to be notified of a change of a plurality of target resources; based on the message, determine that the subscriber entity has privilege to create the cross-resource subscription; based on having the privilege to create the cross-resource subscription, generate a local subscription resource for the cross-resource subscription; and send, to the subscriber entity, a response message comprising an identifier of the local subscription resource, wherein the subscriber entity is configured to manage the cross-resource subscription for the plurality of target resources based on the identifier of the local subscription resource.",
+  "patent_id": "US12382264-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 4/70",
+      "H04W 4/50",
+      "H04W 8/183",
+      "H04W 88/16"
+    ],
+    "all": [
+      "H04W 4/70",
+      "H04W 4/50",
+      "H04W 8/183",
+      "H04W 88/16"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "application_id": "WO2020123514",
+  "application_id_fs": null,
+  "title": "System and method for monitoring engagement",
+  "abstract": "Aspects include a computer-implemented method comprising tracking of one or more actions (e.g., patient actions) carried out on a web-based computing platform that enables text, audio, video and/or any other communication between providers and their clients, and aggregating indicators of at least one of these actions into a score calculated at one or more measurement intervals. Calculated scores may be compared to one or more reference scores. An action may be triggered based on a calculated score and/or based on the relative values of a calculated score and a reference score.",
+  "claims": "Claims CLAIMS Applicants claim: 1. A method for providing information to a database measuring consumer engagement with providers, the database having a first table storing times of occurrence for one or more events and a second table storing values of an engagement metric, the information provided via a processor operable to execute computer instructions comprising: determining a first value of an engagement metric; determining a first time associated with the first value of the engagement metric; determining a first time interval representing a time difference between a second time with which a second value of the engagement metric is associated and the first time; writing the first time and the first value to the second table; determining the second time as the first time plus the first time interval; determining a decay function that is a function of an elapsed time interval; determining an event count by performing an aggregating function on the first table, where the aggregating function encompasses events with times of occurrence between the first time and the second time; determining a per-event credit; determining a second value of the engagement metric by: i. computing a first product by multiplying the first value of the engagement metric and a value of the decay function computed with the elapsed time interval set equal to the first time interval; ii. computing a second product by multiplying the event count and the per- event credit; iii. summing the first product and the second product; and writing the second time and the second value to the second table. 2. The method of claim 1, wherein the one or more events include the transmission of a text message from a consumer to a provider. 3. The method of claim 1, wherein the first value of the engagement metric is 1. 4. The method of claim 1, wherein the decay function is an exponential function of time. 5. The method of claim 1, wherein the aggregating function is a database aggregating function. 6. The method of claim 1, wherein the aggregating function is aâCOUNTâ function used in conjunction with aâGROUP BYâ aggregation. 7. The method of claim 1, preventing a provider from executing an action when a time to complete a task exceeds a predetermined threshold.",
+  "classifications": {
+    "ipc": [
+      "G06F 15/16",
+      "G06Q 30/02",
+      "H04N 21/25",
+      "H04N 21/258",
+      "H04N 21/422",
+      "H04N 21/466"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 15/16",
+      "G06Q 30/02",
+      "H04N 21/25",
+      "H04N 21/258",
+      "H04N 21/422",
+      "H04N 21/466"
+    ],
+    "source": "csv"
+  }
+}

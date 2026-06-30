@@ -1,0 +1,22 @@
+{
+  "title": "Security authentication method, system and device for IoV communication based on national cryptographic algorithm",
+  "abstract": "The present disclosure provides a security authentication method, system and device for IoV communication based on a national cryptographic algorithm. The method of the present disclosure includes: constructing, by an on-board unit, an identity authentication request message for transmitting to a road side unit; receiving, by the on-board unit, an identity authentication response message, and verifying a signature; and if the verification is successful, calculating, by the on-board unit, a session key and a hash value thereof, and constructing an acknowledgment message for transmitting to the road side unit, where the acknowledgment message is used in calculating a session key and a hash value thereof by the road side unit for contrast verification; if hash values are equal, security authentication is successful and a session key is generated; and if the hash values are not equal, the security authentication is failed.",
+  "claims": "1. A security authentication method for an on-board unit in Internet of Vehicles (IoV) communication based on a national cryptographic algorithm, the method comprising: constructing, by an on-board unit, an identity authentication request message for transmitting to a road side unit; receiving, by the on-board unit, an identity authentication response message constructed by the road side unit, and verifying a signature; if the verification is failed, interrupting a request of the on-board unit to connect to the road side unit; and if the verification is successful, calculating, by the on-board unit, a session key and a hash value thereof, and constructing an acknowledgment message for transmitting to the road side unit; wherein the identity authentication response message is constructed by the road side unit according to the received identity authentication request message and after signature verification is successful; the acknowledgment message is used in calculating a session key and a hash value thereof by the road side unit for contrast verification; if the hash value of the session key calculated by the road side unit is equal to the hash value of the session key calculated by the on-board unit, security authentication between the on-board unit and the road side unit is successful and a session key is generated; and if the two hash values are not equal, the security authentication between the on-board unit and the road side unit is failed; a method of constructing, by an on-board unit, an identity authentication request message comprises: generating, by the on-board unit, a temporary serial number SN and a random number r A , encrypting the random number r A with a public key of the road side unit by using an SM2 public key encryption algorithm to obtain E Pub B (r A ), signing a hash value H(r A ) of the random number r A with a private key of the on-board unit by using an SM2 digital signature algorithm to obtain S Pri A (H(r A )), and combining the temporary serial number SN, an identity identifier ID A , the encrypted random number E Pub B (r A ) and the signed hash value S Pri A (H(r A )) into the identity authentication request message M Req ; the identity authentication request message is calculated by the following formula:",
+  "patent_id": "US12380194-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/33",
+      "G06F 7/588",
+      "G06F 21/45",
+      "G06F 21/602"
+    ],
+    "all": [
+      "G06F 21/33",
+      "G06F 7/588",
+      "G06F 21/45",
+      "G06F 21/602"
+    ],
+    "source": "converted"
+  }
+}

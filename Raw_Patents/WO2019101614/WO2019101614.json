@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2019101614",
+  "application_id_fs": "WO2019101614",
+  "title": "Modelling and extracting information from a photoplethysmography, ppg, signal",
+  "abstract": "A method of modelling and extracting information from a photoplethysmography, PPG, signal comprises decomposing and modelling (102) the PPG signal as a long-term periodic component and a short-term periodic component. The method further comprises summarizing (104) the information contained in the PPG signal, based on a distribution of fitted parameters of the modelled long-term and short-term periodic components.",
+  "claims": "Claims CLAIMS: 1. A computer implemented method of modelling and extracting information from a photoplethysmography, PPG, signal, the method comprising: decomposing and modelling (102) the PPG signal as a long-term periodic component and a short-term periodic component; and summarizing (104) the information contained in the PPG signal, based on a distribution of fitted parameters of the modelled long-term and short-term periodic components. 2. A method as in claim 1 wherein the step of decomposing and modelling (102) comprises: modelling the short-term periodic component by performing curve registration, the curve registration comprising aligning curves corresponding to different pulses in the PPG signal. 3. A method as in claim 1 or 2 wherein modelling the short-term periodic component comprises: separately modelling each pulse in the PPG signal. 4. A method as in claim 3 wherein each pulse is modelled by fitting a non- parametric function to the pulse. 5. A method as in claim 3 or 4 wherein each pulse is modelled by fitting a spline function to the pulse. 6. A method as in claim 3, 4 or 5 wherein the pulses are modelled using a recursive procedure whereby information about a previous pulse is used when fitting the next pulse. 7. A method as in any one of claims 3 to 6 wherein the pulses are modelled using a Kalman filter. 8. A method as in any one of claims 1 to 7 wherein the long-term periodic component comprises an envelope of the PPG signal. 9. A method as in any one of claims 1 to 8 wherein the step of decomposing and modelling (102) comprises: modelling the long-term periodic component using spline functions. 10. A method as in claim 9 wherein the step of decomposing and modelling (102) comprises: fitting the spline functions to one or more maxima or one or more minima of individual pules in the PPG signal. 11. A method as in any one of claims 1 to 10 further comprising: outputting a distribution of shape parameters, based on the modelled long-term and/or short term periodic components of the PPG signal. 12. A method as in any one of claims 1 to 11 further comprising: analysing one or more correlations between shape parameters of the modelled long-term and/or short-term periodic components of the PPG signal. 13. A method as in any one of claims 1 to 12 further comprising: using the modelled long-term periodic component and/or the modelled short term periodic component to monitor a patient and/or diagnose a disorder. 14. A system configured for modelling and extracting information from a photoplethysmography, PPG, signal, the system being configured to: decompose and model the PPG signal as a long-term periodic component and a short-term periodic component; and summarize the information contained in the PPG signal, based on a distribution of fitted parameters of the modelled long-term and short-term periodic components. 15. A computer program product comprising a non-transitory computer readable medium, the computer readable medium having computer readable code embodied therein, the computer readable code being configured such that, on execution by a suitable computer or processor, the computer or processor is caused to perform the method of any one of claims 1 to 13.",
+  "classifications": {
+    "ipc": [
+      "A61B 5/00",
+      "A61B 5/02",
+      "A61B 5/024",
+      "A61B 5/72",
+      "A61B 5/7235",
+      "A61B 5/725",
+      "A61B 5/7253",
+      "A61B 5/726",
+      "G16H 50/00",
+      "G16H 50/20",
+      "G16H 50/50",
+      "A61B 5/145",
+      "A61B 5/1455"
+    ],
+    "cpc": [],
+    "all": [
+      "A61B 5/00",
+      "A61B 5/02",
+      "A61B 5/024",
+      "A61B 5/72",
+      "A61B 5/7235",
+      "A61B 5/725",
+      "A61B 5/7253",
+      "A61B 5/726",
+      "G16H 50/00",
+      "G16H 50/20",
+      "G16H 50/50",
+      "A61B 5/145",
+      "A61B 5/1455"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019101614"
+}

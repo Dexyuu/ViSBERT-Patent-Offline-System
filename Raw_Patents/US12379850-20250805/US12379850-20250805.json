@@ -1,0 +1,20 @@
+{
+  "title": "Memory controller with command reordering",
+  "abstract": "A system for handling requests that includes a set of memory banks coupled to a memory controller which comprises a set of read queues, including a read queue currently designated as the priority read queue. The memory controller loads read requests from an associated processor into the set of read queues. To process the read requests, the memory controller is configured to schedule the read requests of the priority read queue based on an availability of the associated memory bank, and if not in the priority read queue, also based on whether the read requests conflict with a recently scheduled read request from the priority read queue. Upon an execution of a read request from the priority read queue, the memory controller designates a different one of the set of read queues as the priority read queue, if the read request was at a front of the priority read queue.",
+  "claims": "1. A method comprising: storing a set of read requests into a set of read queues, wherein the set of read queues include a first read queue currently designated as a priority read queue; for a first read request of the set of read requests: determining whether to schedule the first read request based on an availability of an associated memory bank and, if the first read request is in a queue of the set of read queues that is not the priority read queue, also based on whether the first read request conflicts with a second read request from the priority read queue; and based on executing the second read request of the priority read queue, determining whether to designate a different read queue of the set of read queues as the priority read queue based on whether the second read request was at a front of the priority read queue.",
+  "patent_id": "US12379850-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0613",
+      "G06F 3/0659",
+      "G06F 3/0673"
+    ],
+    "all": [
+      "G06F 3/0613",
+      "G06F 3/0659",
+      "G06F 3/0673"
+    ],
+    "source": "converted"
+  }
+}

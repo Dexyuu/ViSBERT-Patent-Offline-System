@@ -1,0 +1,22 @@
+{
+  "title": "Method and apparatus for timed and event triggered updates in scene",
+  "abstract": "The disclosure relates to a method and an apparatus for dynamic scene updates (scenes including timed media) requiring extensions to scene description patch documents supporting timed media. A method for timed and event triggered updates in a scene description for extended reality (XR) multimedia is provided. The method includes parsing a scene description and at least one scene update track sample in a timed scene description update track or at least one scene update item to update the scene description and rendering the updated scene description on a display.",
+  "claims": "1. A method performed by a device for timed and event triggered updates in a scene description for extended reality (XR) multimedia, the method comprising: parsing a scene description and at least one scene update track sample in a timed scene description update metadata track; updating the scene description based on the parsing; and rendering the updated scene description on a display, wherein the at least one scene update track sample comprises metadata related to a scene graph update describing operations or conditions related to the scene graph update, and wherein the metadata comprises at least one of: a presentation time of data for scene graph update stored as the at least one scene update track sample in the timed scene description update metadata track; a target_version_id comprising an identifier for a version of a target scene description for which a dynamic scene update is applicable; a result_version_id comprising an identifier for a version of a resulting scene description after the dynamic scene update is applied; and an execution_time_offset identifying time offset for an execution time of a scene update transaction on the updated scene description calculated from a timestamp for the at least one scene update track sample.",
+  "patent_id": "US12382150-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/8547",
+      "G06T 15/005",
+      "G06T 19/006",
+      "H04N 21/8545"
+    ],
+    "all": [
+      "H04N 21/8547",
+      "G06T 15/005",
+      "G06T 19/006",
+      "H04N 21/8545"
+    ],
+    "source": "converted"
+  }
+}

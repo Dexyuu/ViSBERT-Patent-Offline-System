@@ -1,0 +1,20 @@
+{
+  "title": "Secure user authentication leveraging quantum key and steganography",
+  "abstract": "Secure user authentication is provided by leveraging the use of quantum keys, steganography and random user keys/passcodes. Random user passcodes limit both the entity's control over the user and potential exposure of the passcode to wrongdoers. From a security standpoint, use of quantum keys and quantum communication channels heightens security during transmission of keys, such that if a wrongdoer would attempt to hack the transmission, the quantum sequence would break, which would not only prevent the hack but also result in remedial actions, such as preventing the authentication-requiring event, providing alerts and the like. Further, use of steganography also heightens security by preventing exposure to the keys during transmission and/or while the authentication process is occurring on the display of the user's mobile device.",
+  "claims": "1. A system for secure user authentication, the system comprising: a user communication apparatus comprising a first computing platform including a first memory, one or more first processing devices in communication with the first memory, and a user authentication application executable by at least one of the one or more first processing devices and configured to: in response to a user initiating an event requiring user authentication, prompt the user to input a random user key, and in response to prompting the user, receive a first user input of the random user key and communicate the random user key to a quantum computing platform; the quantum computing platform comprising a quantum memory, one or more quantum processors in communication with the quantum memory, and a quantum sequence generator executable by at least one of the quantum processors and configured to: in response to receiving the random user key, generate a quantum sequence including a plurality of quantum keys and the random user key; and a classical computing platform comprising a second memory, one or more second processing devices in communication with the second memory, and a Multimedia Messaging Service (MMS) message generator executable by at least one of the second computing devices and configured to: generate a weblink including the quantum sequence, apply steganography to the weblink to create an image file or video file, generate an MMS message including the image file or video file, and communicate the MMS message to a user-registered mobile communication device, wherein in response to the mobile communication device receiving the MMS message, the authentication application is further configured to: in response to the user viewing and activating the MMS message, prompt the user to input the random user key, in response to prompting the user, receive a second user input of the random user key to authenticate the MMS message, convert the MMS message to the weblink, and extract the random user key from the weblink, and authenticate the user for performing the event based on a match between the random user key extracted from the weblink and the random user key in the second user input.",
+  "patent_id": "US12381870-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/0853",
+      "H04L 9/0852",
+      "H04L 2209/16"
+    ],
+    "all": [
+      "H04L 63/0853",
+      "H04L 9/0852",
+      "H04L 2209/16"
+    ],
+    "source": "converted"
+  }
+}

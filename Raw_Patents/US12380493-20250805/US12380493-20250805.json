@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for trackable transaction requests",
+  "abstract": "A provider institution computing system includes a customer database structured to retrievably store information relating to a customer of an originator institution associated with an originator computing system and a transaction processing circuit coupled to the customer database. The transaction processing circuit is structured to receive, from an originator computing system, information including at least information for a destination account at a destination institution, generate a first transaction request including a transaction identification code associated with the first transaction request including an originator identifier corresponding to the originator computing system, transmit to one of a plurality of institutions a tracking request including the originator identifier and an instruction to provide a tracking update for the first transaction request, provide a user interface that includes a list of transaction requests having transaction identification codes associated with the customer, and provide information regarding a travel history of the first transaction request.",
+  "claims": "1. A provider institution computing system, the system comprising: a customer database structured to retrievably store information relating to a customer of an originator institution associated with an originator computing system; a network interface circuit structured to enable the provider institution computing system to exchange information over a network; and a transaction processing circuit coupled to the customer database, the transaction processing circuit structured to: receive, from the originator computing system via the network interface circuit, information including destination account information for a destination account at a destination institution; generate a first transaction request including a first transaction identification code associated with the first transaction request based at least in part on the destination account information, the first transaction request further including an originator identifier corresponding to the originator computing system; transmit, via the network interface circuit, a tracking request including the originator identifier to one of a plurality of institutions, the tracking request comprising an instruction to provide a tracking update to the provider institution computing system for the first transaction request; provide, to a customer computing device via the network interface circuit, a graphical user interface that includes a list of user-selectable transaction identification codes corresponding to transaction requests associated with the customer; and update, in response to receiving a selection of the first transaction identification code in the graphical user interface via the customer computing device, the graphical user interface to provide information regarding a travel history of the first transaction request.",
+  "patent_id": "US12380493-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 40/02",
+      "G06Q 20/027",
+      "G06Q 20/108"
+    ],
+    "all": [
+      "G06Q 40/02",
+      "G06Q 20/027",
+      "G06Q 20/108"
+    ],
+    "source": "converted"
+  }
+}

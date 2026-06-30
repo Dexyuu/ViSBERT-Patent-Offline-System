@@ -1,0 +1,23 @@
+{
+  "application_id": "WO2016199051",
+  "application_id_fs": null,
+  "title": "A system and method for 3d modelling from scanned images",
+  "abstract": "The invention relates to a system and method of developing a three-dimensional (3D) model of a knee bone from a plurality of images is disclosed. The method includes selecting one or more images from the plurality of images and identifying Femur, Tibia and Cortical bone regions in the selected one or more images. The identified images are pre-processed for Femur, Tibia and Cortical bone segmentation using separate image processing actions respectively. The segmentation of the Femur, Tibia and Cortical bone regions is performed using a separate segmentation process respectively for the Femur, Tibia and Cortical bone regions. The Femur, Tibia and Cortical bone segmented regions are merged and then the merged segmented regions are post processed to develop the three-dimensional (3D) model of the knee bone.",
+  "claims": "Claims 1. A method of developing a three-dimensional (3D) model of a knee bone from a plurality of images, the method comprises: selecting one or more images from the plurality of images; identifying Femur, Tibia and Cortical bone regions in the selected one or more images; pre-processing the selected one or more images for Femur bone segmentation, Tibia bone segmentation and Cortical bone segmentation using separate image processing actions respectively for the Femur, Tibia and Cortical bone regions; segmenting the Femur, Tibia and Cortical bone regions using a separate segmentation process respectively for the Femur, Tibia and Cortical bone regions; merging the Femur, Tibia and Cortical bone segmented regions; and post processing the merged segmented regions to develop the three-dimensional (3D) model of the knee bone. 2. The method as claimed in claim 1, wherein the Femur, Tibia and Cortical bone regions are identified based on at least one seed selection in the selected one or more images. 3. The method as claimed in claim 1, wherein the pre-processing of Femur bone regions segmentation includes image smoothing, sharpening, edge enhancement and intensity transformations. 4. The method as claimed in claim 1, wherein the pre-processing of Tibia bone regions segmentation includes image smoothing, sharpening, contrast enhancement and intensity transformations. 5. The method as claimed in claim 1, wherein the pre-processing of Cortical bone regions segmentation includes image smoothing. 6. The method as claimed in claim 1, wherein the segmentation process for Femur bone regions includes edge based Active Contour segmentation. 7. The method as claimed in claim 1, wherein the segmentation process for Tibia bone regions includes region based Active Contour segmentation. 8. The method as claimed in claim 1, wherein the segmentation process for Cortical bone regions includes Auto Local Threshold based segmentation. 9. The method as claimed in claim 1, further comprising post processing after the segmentation process for the cortical bone regions, the post processing including filtering technique. 10. The method as claimed in claim 1, optionally comprises a module for manually modifying one or more images before generating the 3D model.",
+  "classifications": {
+    "ipc": [
+      "G06T 15/00",
+      "G06T 17/00",
+      "G06T 19/00",
+      "A61B 6/03"
+    ],
+    "cpc": [],
+    "all": [
+      "G06T 15/00",
+      "G06T 17/00",
+      "G06T 19/00",
+      "A61B 6/03"
+    ],
+    "source": "csv"
+  }
+}

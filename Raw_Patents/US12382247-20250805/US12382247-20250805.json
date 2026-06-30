@@ -1,0 +1,22 @@
+{
+  "title": "Vehicle road side location of a target via unwrapped differential phase RF signals",
+  "abstract": "A vehicle side target location method includes receiving a request, via a first wireless connection, for the vehicle to travel to a location, in response to the vehicle being less than a predetermined distance from the location, receiving RF packets, via a second wireless connection having a multiple antenna radio frequency (RF) transceiver having an identification (ID), from a target at the location, identifying packets based on the ID of the RF transceiver, extracting channel state information (CSI) from received signals associated with the identified packets, determining a phase difference of subcarrier phase data of the received signals between each of the multiple antennae, filtering noise of the phase difference of subcarriers based on subcarrier selection to obtain multiple robust phase difference signals, and feeding the multiple robust phase difference signals to a classifier to obtain a side of the vehicle associated with the location of the target.",
+  "claims": "1. A system for a vehicle comprising: a multiple antenna radio frequency (RF) transceiver having an identification (ID); and a processor coupled with the RF transceiver and configured to: receive a request, via a first wireless connection, for the vehicle to travel to a location, in response to the vehicle being less than a predetermined distance from the location, receive RF packets, via a second wireless connection, from a target at the location, identify packets based on the ID of the RF transceiver, extract channel state information (CSI) from received signals associated with the identified packets, unwrap phase from the CSI of the received signals to obtain subcarrier phase data, determine a phase difference of subcarriers of the received signals between each of the multiple antennae, filter noise of the phase difference based on subcarrier selection to obtain multiple robust phase difference signals, and feed the multiple robust phase difference signals to a Long Short-Term Memory (LSTM) classifier to obtain a side of the vehicle associated with the location of the target.",
+  "patent_id": "US12382247-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 4/025",
+      "G06N 20/00",
+      "H04B 7/0626",
+      "H04B 7/0682"
+    ],
+    "all": [
+      "H04W 4/025",
+      "G06N 20/00",
+      "H04B 7/0626",
+      "H04B 7/0682"
+    ],
+    "source": "converted"
+  }
+}

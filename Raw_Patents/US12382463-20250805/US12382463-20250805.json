@@ -1,0 +1,26 @@
+{
+  "title": "Method and user equipment for configured grant configuration",
+  "abstract": "A method, performed by a User Equipment (UE) for a Configured Grant (CG) configuration, includes receiving a Radio Resource Control (RRC) release message from a cell of a Network (NW) while the UE is in an RRC_CONNECTED state, the RRC release message including the CG configuration; entering an RRC_INACTIVE state from the RRC_CONNECTED state in response to receiving the RRC release message; receiving an RRC message from the cell while the UE is in the RRC_INACTIVE state; and determining whether to release the CG configuration based on the RRC message.",
+  "claims": "1. A method performed by a User Equipment (UE) for configuring a Configured Grant (CG), the method comprising: receiving a Radio Resource Control (RRC) release message that includes a suspend configuration from a cell of a Network (NW), the suspend configuration including a Small Data Transmission (SDT) configuration that includes a CG configuration, the CG configuration including a bandwidth part indication and a threshold value for a change of a Reference Signal Receiving Power (RSRP); entering an RRC_INACTIVE state in response to receiving the RRC release message; and suspending the CG configuration associated with a bandwidth part indicated by the bandwidth part indication in a case that a difference between a first RSRP measured at a first time and a second RSRP measured at a second time is higher than the threshold value, wherein both the first RSRP and the second RSRP are derived based on measurements of a Synchronization Signal Block (SSB).",
+  "patent_id": "US12382463-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/23",
+      "H04B 17/318",
+      "H04W 24/10",
+      "H04W 76/27",
+      "H04W 76/30",
+      "H04W 80/02"
+    ],
+    "all": [
+      "H04W 72/23",
+      "H04B 17/318",
+      "H04W 24/10",
+      "H04W 76/27",
+      "H04W 76/30",
+      "H04W 80/02"
+    ],
+    "source": "converted"
+  }
+}

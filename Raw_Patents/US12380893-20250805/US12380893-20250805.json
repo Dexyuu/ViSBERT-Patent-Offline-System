@@ -1,0 +1,20 @@
+{
+  "title": "Enhanced content matching using content fingerprints",
+  "abstract": "Devices, systems, and methods are provided for using fingerprints of signals to match content. A method may include receiving, by a device, a first signal; generating a first value indicative of a first peak of a spectrogram for the first signal; generating a second value indicative of a second peak of the spectrogram; generating a third value indicative of a difference between a first time of the first peak and a second time of the second peak; generating a first quantized value based on the first value; generating a second quantized based on the second value; generating a first fingerprint based on the first quantized value, the second quantized value, and the third value; determining, based on a comparison of the first fingerprint to a second fingerprint, a match between the first fingerprint and the second fingerprint; and sending an indication of the match.",
+  "claims": "1. A method, comprising: receiving, by at least one processor of a device, a first audio signal comprising a portion of a song; generating, by the at least one processor, a second audio signal based on shifting the first audio signal by a first amount of time in a first direction; generating, by the at least one processor, a third audio signal based on shifting the first audio signal by a second amount of time in a second direction; generating, by the at least one processor, a first spectrogram based on the first audio signal; generating, by the at least one processor, a second spectrogram based on the second audio signal; generating, by the at least one processor, a third spectrogram based on the third audio signal; generating, by the at least one processor, an averaged spectrogram based on an average of the first spectrogram, the second spectrogram, and the third spectrogram; identifying, by the at least one processor, a first peak of the averaged spectrogram, the first peak occurring at a first time; identifying, by the at least one processor, a second peak of the averaged spectrogram, the second peak occurring at a second time; generating, by the at least one processor, a first value indicative of the first peak, the first value consisting of a first number of bits; generating, by the at least one processor, a second value indicative of the second peak, the second value consisting of a second number of bits less than the first number of bits; generating, by the at least one processor, a third value indicative of a difference between the second time and the first time; generating, by the at least one processor, a first quantized value by setting a least significant bit from the first value to zero; generating, by the at least one processor, a second quantized value by setting a least significant bit from the second value to zero; generating, by the at least one processor, based on a hash using the first quantized value and the second quantized value, and the hash excluding the third value indicative of the difference between the second time and first time, a first fingerprint of the first quantized value, the second quantized value, and the third value; determining, by the at least one processor, based on a comparison of the first fingerprint to a second fingerprint generated based on a fourth audio signal, a match between the first fingerprint and the second fingerprint; determining, by the at least one processor, based on the match, that the first fingerprint and the second fingerprint are based on the song; and sending, by the at least one processor, an indication that the first fingerprint and the second fingerprint are based on the song.",
+  "patent_id": "US12380893-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 17/06",
+      "G10L 21/0324",
+      "G10L 21/10"
+    ],
+    "all": [
+      "G10L 17/06",
+      "G10L 21/0324",
+      "G10L 21/10"
+    ],
+    "source": "converted"
+  }
+}

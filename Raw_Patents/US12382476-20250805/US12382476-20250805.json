@@ -1,0 +1,32 @@
+{
+  "title": "Uplink broadcast service in a wireless local area network (WLAN)",
+  "abstract": "This disclosure provides systems, devices, apparatus and methods, including computer programs encoded on storage media, for providing uplink broadcast service connectivity via a wireless local area network (WLAN). In some implementations, a wireless device may transmit an uplink communication to an access point (AP) that supports uplink broadcast services, and the AP may forward the uplink communication to a remote destination indicated in the uplink communication. In some implementations, the wireless device may be in an unassociated state and may transmit the uplink communication without establishing a formal wireless session with the AP. The uplink communication may include a request for the AP to embed AP-provided data to the uplink communication before forwarding it the remote destination. This disclosure includes techniques to prevent flooding and unauthorized uplink communications being used for a denial of service attack on the remote destination.",
+  "claims": "1. A method for wireless communication performed by a wireless communication device, comprising: generating an enhanced broadcast services uplink frame comprising contents that are intended for transmission to a remote destination via a station associated with a proxy of a wireless local area network (WLAN), wherein authorization of the wireless communication device for the transmission of the contents of the enhanced broadcast services uplink frame is associated at least in part with a presence or an absence of a certificate associated with the wireless communication device in the enhanced broadcast services uplink frame; and transmitting the enhanced broadcast services uplink frame to the station, the contents of the enhanced broadcast services uplink frame intended for uplink forwarding to the remote destination via the station in accordance with an uplink broadcast service.",
+  "patent_id": "US12382476-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/30",
+      "H04B 17/318",
+      "H04W 8/245",
+      "H04W 12/06",
+      "H04W 40/244",
+      "H04W 72/21",
+      "H04W 76/11",
+      "H04W 80/02",
+      "H04W 84/12"
+    ],
+    "all": [
+      "H04W 72/30",
+      "H04B 17/318",
+      "H04W 8/245",
+      "H04W 12/06",
+      "H04W 40/244",
+      "H04W 72/21",
+      "H04W 76/11",
+      "H04W 80/02",
+      "H04W 84/12"
+    ],
+    "source": "converted"
+  }
+}

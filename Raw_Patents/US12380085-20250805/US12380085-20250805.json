@@ -1,0 +1,18 @@
+{
+  "title": "Method and system for providing a clarity grade for a gem",
+  "abstract": "A method and system for generating a clarity grading look-up table includes collecting actual inclusion parameter data for a plurality of gems, where the actual inclusion parameter data includes an actual clarity grade and an actual inclusion parameter data combination. A mathematical relationship between a clarity grade and a particular inclusion parameter combination is then extrapolated from the actual inclusion parameter data. A derived clarity grade is then assigned to a plurality of inclusion parameter combinations as a function of the mathematical relationship and a set of inputted inclusion parameters. Also, a method and system for providing a clarity grade includes receiving a plurality of inclusion characteristics associated with a gem and parameterizing each of the inclusion characteristics, so that a parameter value is assigned to each inclusion characteristic. The parameter values are then input to a mathematical formula so as to provide a parameterized clarity grade for the gem.",
+  "claims": "1. A method, comprising: at a computer with a processor and memory, receiving pixelated image data for a gem, wherein the image data includes a gem image and any inclusion within the gem image; identifying any inclusion in the received pixelated image data for the gem; determining a type of inclusion for each identified inclusion in the gem; determining a relief value for any crystal type of inclusion in the gem, the relief value indicating a contrast between the inclusion and a surrounding facet distribution and reflection pattern; determining a position in the gem for each identified inclusion; and determining a clarity grade for the gem based on a combination of, for each identified inclusion, a relative inclusion area, relief value, and the type of inclusion.",
+  "patent_id": "US12380085-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/2282",
+      "G01N 21/87"
+    ],
+    "all": [
+      "G06F 16/2282",
+      "G01N 21/87"
+    ],
+    "source": "converted"
+  }
+}

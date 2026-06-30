@@ -1,0 +1,20 @@
+{
+  "title": "MAC learning for cross-site layer-2 connectivity",
+  "abstract": "Mac learning for cross-site layer-2 connectivity. Some embodiments provide a method for enabling data traffic to be sent between across which a logical network spans. A logical network segment (i.e., a layer-2 network segment such as a logical switch) spans at least two sites via tunnels between network elements deployed in the sites that operate as bridges (or 2-port switches) to pass data traffic between the sites without leaving the logical network segment. Because these network elements operate similarly to bridges, they are not assigned network (layer 3) addresses (e.g., IP addresses). In order to send address resolution protocol (ARP) requests to a router in one site, the network element in another site uses a network address of one of the data compute nodes (DCNs) operating in its site that is connected to the logical network segment spanning the two sites.",
+  "claims": "1. A method for sending data traffic from a first site to a router in a second site, the method comprising: at a first network element, located at the first site, that provides a direct connection to the second site to enable a logical network to span both the first and second sites, wherein the first network element does not have an assigned network address; identifying a data compute node (DCN), located at the first site, that connects to a logical network segment spanning the first and second sites; using a network address of the identified DCN to send an address resolution protocol (ARP) request to the router located at the second site, the network address being borrowed, the ARP request being sent across a tunnel; detecting migration of the DCN to the second site and selecting, at random, using at least a randomization function, a new DCN at the first site for borrowing a network address to continue ARP transmissions; and upon receiving an ARP response with a data link address of the router located at the second site, using the data link address to forward data traffic directed to a subset of DCNs at the second site through the direct connection to the router located at the second site; wherein the data traffic is intercepted by virtualization software of a host on which a source DCN operates and is directed to the first network element instead of being sent to an implementation of a second router executing on the host.",
+  "patent_id": "US12381819-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 45/74",
+      "H04L 45/76",
+      "H04L 61/103"
+    ],
+    "all": [
+      "H04L 45/74",
+      "H04L 45/76",
+      "H04L 61/103"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Method for locating a vehicle",
+  "abstract": "A method includes: a) triggering, at an instant tuj, an exchange of radio signals between a mobile transceiver fixed to the vehicle and a fixed transceiver; then b) computing a rough distance only from the transmission or reception instants of the exchanged radio signals; (c) constructing an estimated position of the vehicle at an instant tm; (d) correcting the computed rough distance, then using this corrected rough distance to correct the estimated position. This correction comprises: computing an apparent velocity movement va0 of the vehicle towards the fixed transceiver; then adding a corrective term Î´d0 to the computed rough distance, which corrective term is computed from the following relation: Î´d0=va0Â·DT0, where DT0 is equal to the elapsed time between the instants tuj and tm.",
+  "claims": "1. A method for locating a vehicle, said method comprising: (a) triggering, at an instant tu j , an exchange of radio signals between a mobile transceiver fixed to the vehicle and a fixed transceiver located along a path of the vehicle; (b) once said exchange of radio signals is complete, computing, by an electronic computer, a rough distance only from the transmission or reception instants of the radio signals exchanged during said exchange; and (c) locating, by the electronic computer, the vehicle, said locating comprising: constructing an estimated position of the vehicle at an instant t m from a measurement performed using a measurement unit independent and separate from the fixed and mobile transceivers and without using the computed rough distance, with the instant t m being subsequent to the instant tu j ; and correcting the estimated position of the vehicle as a function of a difference between: a first distance between the fixed and mobile transceivers computed from the transmission or reception instants of the radio signals exchanged during the exchange triggered at the instant tu j ; and a second distance between the estimated position of the vehicle at the instant t m and a position of the fixed transceiver, wherein the method further comprises correcting the rough distance computed during step (b) in order to obtain a corrected distance, and during the step (c), as the first distance to correct the estimated position of the vehicle, and said step of correcting the rough distance comprises: computing an apparent movement velocity of the vehicle towards the fixed transceiver, with an amplitude of said apparent velocity being equal to a norm of an orthogonal projection of a velocity of the vehicle between the instants tu j and t m onto an axis that passes through a geometric center of antennae of the mobile and fixed transceivers; and adding a first corrective term δd 0 to the computed rough distance, wherein the first corrective term is computed using a relation: δd 0 =V a0 ·DT0, wherein DT0 is equal to an elapsed time between the instants tu j and t m ; v a0 is the computed apparent velocity; and the “·” symbol denotes arithmetic multiplication.",
+  "patent_id": "US12379452-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 5/02585"
+    ],
+    "all": [
+      "G01S 5/02585"
+    ],
+    "source": "converted"
+  }
+}

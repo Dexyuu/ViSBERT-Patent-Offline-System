@@ -1,0 +1,20 @@
+{
+  "title": "Identifying and strengthening physiological/neurophysiological states predictive of superior performance",
+  "abstract": "To identify physiological states that are predictive of a person's performance, a system provides physiological and behavioral interfaces and a data processing pipeline. Physiological sensors generate physiological data about the person while performing a task. The behavioral interface generates performance data about the person while performing the task. The pipeline collects the physiological and performance data along with reference data from a population of people performing the same or similar tasks. In various implementations, the physiological states are brain states. In one implementation, the pipeline computes bandpower ratios. In another implementation, the pipeline decomposes the physiological data into frequency-banded components, identifies brain states derived from the decomposed dataâfor example, clusters of correlations of decomposed data envelopesâgrades the performance data, compares the graded performance data to the brain states, and identifies statistical relationships between the brain states and levels of performance.",
+  "claims": "1. A computer-implemented method comprising: obtaining sensor data from a set of physiological sensors equipped on a person during time windows preceding and encompassing exposure of the person to a first stimulus; decomposing the sensor data into components; identifying a first set of correlations between characteristics of the decomposed sensor data; identifying a first set of physiological states based on the first set of correlations; measuring and quantifying a first response of the person to the first stimulus; identifying a second set of correlations between the first set of physiological states and the first response; identifying a third set of correlations between the sensor data or derivatives of the sensor data and the first response; obtaining a new set of sensor data from the set of physiological sensors during a time window preceding exposure of the person to a second stimulus; identifying a current physiological state based on the new set of sensor data; comparing the current physiological state with the first set of physiological states; and based on the comparison, generating an expected value of a second response of the person to the second stimulus.",
+  "patent_id": "US12376775-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 5/165",
+      "A61B 5/369",
+      "A61B 2503/12"
+    ],
+    "all": [
+      "A61B 5/165",
+      "A61B 5/369",
+      "A61B 2503/12"
+    ],
+    "source": "converted"
+  }
+}

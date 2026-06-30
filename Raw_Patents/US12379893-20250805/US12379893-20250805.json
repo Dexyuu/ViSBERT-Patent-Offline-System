@@ -1,0 +1,22 @@
+{
+  "title": "Streaming music using supported services",
+  "abstract": "An example technique includes a computing system storing media item identifiers of curated media items associated with one or more service providers. A media curating service aggregates the media item identifiers of curated media items. The example technique further involves receiving, from a media playback system, a first message comprising a service provider access identifier. The service provider access identifier is based on a user account of the media playback system registered to at least one service provider. Based on receiving the first message, the computing system determines media item identifiers of curated media items that are associated with the at least one service provider with which the user account of the media playback system is registered and causes the media playback system to play back the curated media items based on the determined media item identifiers of the curated media items.",
+  "claims": "1. A computing system of a media curation service comprising: at least one network interface; at least one processor; and at least one non-transitory computer-readable medium comprising program instructions that are executable by the at least one processor such that the computing system is configured to: cause, via the at least one network interface, display of a graphical user interface on a computing device, the graphical user interface comprising multiple selectable graphical representations corresponding to respective streaming audio services that are different from the media curation service, wherein, when selected, each selected graphical representation causes playback of a curated playlist of audio tracks from a respective streaming audio service, wherein the media curation service created the curated playlist, and wherein the multiple selectable graphical representations comprise (i) a first selectable graphical representation corresponding to a first streaming audio service and (ii) a second selectable graphical representation corresponding to a second streaming audio service; receive, via the at least one network interface, data representing selection of the first selectable graphical representation; and based on receipt of the data representing the selection of the first selectable graphical representation, cause, via the at least one network interface, playback of the curated playlist on at least one playback device using audio tracks from the first streaming audio service.",
+  "patent_id": "US12379893-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/165",
+      "G06F 16/60",
+      "G06F 16/61",
+      "G06F 16/639"
+    ],
+    "all": [
+      "G06F 3/165",
+      "G06F 16/60",
+      "G06F 16/61",
+      "G06F 16/639"
+    ],
+    "source": "converted"
+  }
+}

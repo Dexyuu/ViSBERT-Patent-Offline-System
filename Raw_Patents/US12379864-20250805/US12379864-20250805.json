@@ -1,0 +1,22 @@
+{
+  "title": "Empty page scan operations adjustment",
+  "abstract": "Aspects of the present disclosure configure a system component, such as memory sub-system controller, to perform empty page scan operations. The controller selects a portion of the set of memory components that is empty and ready to be programmed. The controller reads one or more signals from the selected portion of the set of memory components. The controller generates an error count value representing whether the portion of the set of memory components is valid for programming based on a result of reading the one or more signals from the selected portion. The controller updates a scan frequency for performing the empty page scan operations for the portion of the set of memory components based on the error count value.",
+  "claims": "1. A system comprising: a memory sub-system comprising a set of memory components; and a processing device, operatively coupled to the set of memory components and programmed to perform operations comprising: selecting a portion of the set of memory components that is empty and ready to be programmed; generating an error count value associated with the portion of the set of memory components; and updating a scan frequency for performing empty page scan operations for the portion of the set of memory components based on the error count value.",
+  "patent_id": "US12379864-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0644",
+      "G06F 3/0604",
+      "G06F 3/0655",
+      "G06F 3/0679"
+    ],
+    "all": [
+      "G06F 3/0644",
+      "G06F 3/0604",
+      "G06F 3/0655",
+      "G06F 3/0679"
+    ],
+    "source": "converted"
+  }
+}

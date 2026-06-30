@@ -1,0 +1,22 @@
+{
+  "title": "Encryption communication system, encryption communication apparatus, and encryption communication",
+  "abstract": "According to one embodiment, an encryption communication system configures a network with a plurality of nodes, and shares the encryption key between a first node that delivers the encryption key to a first user and a second node that delivers the encryption key to a second user. The first node forms n (n>1) systems of paths to the second node over the network, generates n pieces of first data, distributes the n pieces of first data to the n systems of paths and transmits the n pieces of first data to the second node, and generates the encryption key by superimposing the n pieces of first data. The second node receives the n pieces of first data from the first node via the n systems of paths, and generates the encryption key by superimposing the n pieces of first data.",
+  "claims": "1. An encryption communication system that delivers an encryption key to a first user and a second user who execute encryption communication, the encryption communication system comprising: a network; and a plurality of nodes, each of the plurality of nodes comprising a hardware component, wherein the encryption communication system is configured to share the encryption key between a first node that delivers the encryption key to the first user and a second node that delivers the encryption key to the second user among the plurality of nodes, the first node is configured to form n (n>1) systems of paths to the second node over the network, generate n pieces of first data, distribute the n pieces of first data to the n systems of paths and transmit the n pieces of first data to the second node, and generate the encryption key by superimposing the n pieces of first data, the second node is configured to receive the n pieces of first data from the first node via the n systems of paths, and generate the encryption key by superimposing the n pieces of first data, each of the plurality of nodes has a function of searching for a node suitable for forming a path from among all adjacent nodes over the network, the first node is configured to request, at a start of delivery of the encryption key, a coupling for forming the path to n adjacent third nodes over the network, and when the second node is coupled to an adjacent fourth node over the network requesting coupling for forming the path, the second node is configured to notify the first node of completion of formation of the path via the path formed including the fourth node.",
+  "patent_id": "US12381713-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/0816",
+      "H04L 9/0861",
+      "H04L 41/0803",
+      "H04L 45/02"
+    ],
+    "all": [
+      "H04L 9/0816",
+      "H04L 9/0861",
+      "H04L 41/0803",
+      "H04L 45/02"
+    ],
+    "source": "converted"
+  }
+}

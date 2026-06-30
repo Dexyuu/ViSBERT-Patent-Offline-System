@@ -1,0 +1,40 @@
+{
+  "application_id": "WO2025096135",
+  "application_id_fs": "WO2025096135",
+  "title": "Orthogonal time frequency space (otfs) radar resource signaling",
+  "abstract": "This disclosure provides systems, devices, apparatus, and methods, including computer programs encoded on storage media, for radar sensing assistance. A UE (102) receives (222), from a network entity (104), a first resource grant. The first resource grant is for propagation of an orthogonal time-frequency space, OTFS, signal between a transmitter (102E, 104) and a receiver (102E, 102F, 104). The UE (102) performs (230, 234), according to the first resource grant, a radar signaling procedure based on the propagation of the OTFS signal between the transmitter (102E, 104) and the receiver (102E, 102F, 104).",
+  "claims": "Claims CLAIMS WHAT IS CLAIMED IS: 1. A method of radar sensing assistance at a user equipment. UE, (102E/102F). comprising: receiving (222), from a network entity (104), a first resource grant, the first resource grant being for propagation of an orthogonal time-frequency space. OTFS, signal between a transmitter (102E, 104) and a receiver (102E, 102F, 104), the first resource grant indicating OTFS resources in a delay-doppler domain for a transmission of the OTFS signal; and performing (230, 234), according to the first resource grant, a radar signaling procedure based on the propagation of the OTFS signal between the transmitter (102E, 104) and the receiver (102E, 102F, 104). 2. The method of claim 1, further comprising: transmitting (214), to the network entity (104), an OTFS request message for the radar sensing assistance, the first resource grant being responsive to the OTFS request message. 3. The method of any of claims 1 -2. wherein the first resource grant is a receive (Rx) grant (222B, 222C) for the OTFS signal, and wherein the performing (234) the radar signaling procedure comprises: receiving (234A, 234B) the OTFS signal according to the Rx grant. 4. The method of any of claims 1-2, wherein the first resource grant is a transmit (Tx) grant (222A) for the OTFS signal, and wherein the performing (230) the radar signaling procedure comprises: transmitting (230) the OTFS signal according to the Tx grant. 5. The method of any of claims 1-4, further comprising: \n\n receiving (222B. 222C, 222D) a communication grant for a radar measurement report message associated with the OTFS signal; and transmitting (242, 442D). according to the communication grant, the radar measurement report message after the receiving (234A. 234B) the OTFS signal. 6. The method of any of claims 1-2 or 4, further comprising: transmitting (222D), to the receiver (102F), a sidelink communication grant for a radar measurement report message associated with the OTFS signal; and receiving (442D), according to the sidelink communication grant, the radar measurement report message after the transmitting (230) the OTFS signal. 7. The method of any of claim 1-6, further comprising: receiving (250) an object information associated with the OTFS signal based on the performing (230, 234) the radar signaling procedure according to the first resource grant. 8. The method of any of claims 1-7, further comprising: transmitting (202A, 202B), to the network entity (104), a UE capabilityâ message indicating a capability of the UE (102E, 102F) for the performing (230. 234) the radar signaling procedure using the OTFS signal. 9. The method of claim 8, wherein the OTFS signal includes communication information forming a combined radar and communication signal. 10. A method of radar sensing assistance at a network entityâ (104), comprising: transmitting (222), to a user equipment, UE. (102E, 102F), a first resource grant, the first resource grant being for propagation of an orthogonal time-frequency space, OTFS, signal between a transmitter (102E, 104) and a receiver (102E, 102F, 104), the first resource grant indicating OTFS resources in a delay-doppler domain for a transmission of the OTFS signal; and \n\n receiving (242), from the UE (102E. 102F), a radar measurement report message associated with the propagation of the OTFS signal between the transmitter (102E, 104) and the receiver (102E, 102F, 104). 11. The method of claim 10, further comprising: transmitting (250), to the UE (102E), object information obtained in response to the receiving (242) the radar measurement report message. 12. The method of claim 10, further comprising: receiving (214), from the UE (102E), an OTFS request message for the radar sensing assistance, the first resource grant being responsive to the OTFS request message. 13. The method of any of claims 10-12, wherein the first resource grant is a transmit (Tx) grant (222A) for the OTFS signal propagated between the transmitter (102E, 104) and the receiver (102E, 102F, 104). 14. The method of any of claims 10-13, further comprising: transmitting (222B, 222C), to the UE (102E, 102F), an uplink communication grant for the radar measurement report message associated with the OTFS signal; and receiving (242), from the UE (102E, 102F), the radar measurement report message based on the uplink communication grant. 15. An apparatus for wireless communication comprising a memory, a transceiver, and a processor coupled to the memory and the transceiver, the apparatus being configured to implement a method as in any of claims 1-14.",
+  "classifications": {
+    "ipc": [
+      "H04L 27/00",
+      "H04L 27/26",
+      "H04L 27/2601",
+      "H04L 27/2602",
+      "H04L 27/261",
+      "G01S 7/00",
+      "G01S 13/00",
+      "G01S 15/00",
+      "G01S 17/00",
+      "G01S 7/003",
+      "G01S 7/006",
+      "G01S 13/003"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 27/00",
+      "H04L 27/26",
+      "H04L 27/2601",
+      "H04L 27/2602",
+      "H04L 27/261",
+      "G01S 7/00",
+      "G01S 13/00",
+      "G01S 15/00",
+      "G01S 17/00",
+      "G01S 7/003",
+      "G01S 7/006",
+      "G01S 13/003"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025096135"
+}

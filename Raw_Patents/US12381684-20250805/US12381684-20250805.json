@@ -1,0 +1,18 @@
+{
+  "title": "SRS layer and port estimation for uplink and downlink transmission",
+  "abstract": "Techniques for selecting layers and ports for Multiple-Input-Multiple-Output (MIMO) beamforming are provided. In some implementations, the techniques may include receiving a plurality of Sounding Reference Signals (SRSs) transmitted by a plurality of SRS ports, each of the plurality of SRSs corresponding with a SRS port of a UE. In addition, the techniques may include measuring a Signal-to-Noise Ratio (SNR) for each of the plurality of SRS ports, and estimating a wideband channel port correlation matrix across the plurality of SRS ports. The techniques may include setting a correlation threshold and a SNR threshold. Further, the techniques may include selecting one or more SRS ports from the plurality of SRS ports that satisfy a condition of being equal to or less than the correlation threshold and equal to or greater than the SNR threshold, where the layers correspond with a total number of SRS ports that satisfy the above condition.",
+  "claims": "1. A method of selecting layers and ports for Multiple-Input-Multiple-Output (MIMO) beamforming, the method comprising: receiving a plurality of Sounding Reference Signals (SRSs) transmitted by a plurality of SRS ports, wherein each of the plurality of SRSs corresponds with a SRS port of a User Equipment (UE); measuring a Signal-to-Noise Ratio (SNR) for each of the plurality of SRS ports; estimating a wideband channel port correlation matrix across the plurality of SRS ports; setting a correlation threshold; setting a SNR threshold; and selecting one or more SRS ports from the plurality of SRS ports that satisfy a condition of being equal to or less than the correlation threshold and equal to or greater than the SNR threshold, wherein a number of layers is selected such that the layers correspond with a total number of SRS ports that satisfy the condition of being equal to or less than the correlation threshold and equal to or greater than the SNR threshold,",
+  "patent_id": "US12381684-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/0051",
+      "H04B 17/336"
+    ],
+    "all": [
+      "H04L 5/0051",
+      "H04B 17/336"
+    ],
+    "source": "converted"
+  }
+}

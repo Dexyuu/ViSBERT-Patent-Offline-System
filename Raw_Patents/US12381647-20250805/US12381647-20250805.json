@@ -1,0 +1,18 @@
+{
+  "title": "Signal processing method and apparatus",
+  "abstract": "This application discloses a signal processing method and an apparatus. The method includes: A transmit device generates a PPDU, and sends the PPDU; and a receive device receives the PPDU, and processes M sequences carried in the PPDU. The PPDU shown in this application includes a first field, the first field is used for carrying M sequences, the M sequences correspond to M space-time streams, one sequence corresponds to one space-time stream, and M is a positive integer. According to the method provided in this application, sequence sending efficiency can be effectively improved.",
+  "claims": "1. A signal processing method, wherein the method comprises: generating a physical layer protocol data unit (PPDU), wherein the PPDU comprises: a first field, the first field is usable for carrying M sequences, the M sequences correspond to M space-time streams, one sequence corresponds to one space-time stream, M is a positive integer greater than 4, the M sequences comprise a first sequence, wherein cross-correlation energy between the first sequence and at least three of the M sequences within a length range of the Golay complementary sequence is zero, and an autocorrelation side lobe energy of the first sequence within the length range of the Golay complementary sequence is zero, the first sequence is based on a channel estimation (CE) sequence, and the Golay complementary sequence is usable for constructing the CE sequence; and sending the PPDU.",
+  "patent_id": "US12381647-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04J 13/0014",
+      "H04L 25/0242"
+    ],
+    "all": [
+      "H04J 13/0014",
+      "H04L 25/0242"
+    ],
+    "source": "converted"
+  }
+}

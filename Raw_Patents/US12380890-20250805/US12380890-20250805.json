@@ -1,0 +1,22 @@
+{
+  "title": "Method, system, and non-transitory computer readable record medium to record conversations in connection with video communication service",
+  "abstract": "Provided is a method, system, and non-transitory computer-readable record medium to record a conversation, between multiple users, in connection with a video communication service. An audio record management method includes creating an audio record by converting an audio of a video communication channel to a text; and providing the audio record to a user that participates in the video communication channel.",
+  "claims": "1. An audio record management method performed by an audio record management service via a computer apparatus comprising at least one processor configured to execute computer-readable instructions included in a memory, the audio record management method, which is performed by the at least one processor, comprising: connecting with, by the at least one processor, a video communication channel via an account for recording audio of the video communication channel through the audio record management service; creating an audio record by converting the audio of the video communication channel to a text, wherein the creating comprises receiving a file in which the audio is recorded from a device of a user that invites a chatbot account to the video communication channel and converting audio data corresponding to a speaker utterance section to a text; and managing a memo written during recording of the audio in the device by matching the memo to the audio record, after a video communication through the video communication channel is terminated, providing the audio record to a webpage or a source associated with a mobile application such that a user who has been participating in the video communication is able to review the audio record through the webpage or the mobile application, wherein the providing comprises providing the audio record in association with the memo, and further wherein the providing in association with the memo comprises jointly displaying the audio record and the memo through a dual view scheme, wherein the webpage or the mobile application is separated from a video communication service to provide the video communication through the video communication channel, and wherein the connecting comprises: allowing the chatbot account as the account for audio record management to participate in the video communication channel to connect with the video communication channel, wherein the video communication channel is connected to the audio record management service through the chatbot account, wherein the webpage or the source includes an audio record management screen, and the audio record management screen displays: (i) status information indicating that the audio of the video communication channel is being recorded, and (ii) a memo interface for receiving the memo regarding the audio of the video communication channel being recorded, wherein the providing comprises providing, through a chatroom of a messenger where the chatbot account participates in, i) a message from the chatbot account including a link to a service page of the audio record management service to provide the audio record and ii) a preview user interface to provide a portion of the audio record through the chatroom.",
+  "patent_id": "US12380890-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 15/26",
+      "G10L 15/30",
+      "H04L 12/1831",
+      "H04L 51/02"
+    ],
+    "all": [
+      "G10L 15/26",
+      "G10L 15/30",
+      "H04L 12/1831",
+      "H04L 51/02"
+    ],
+    "source": "converted"
+  }
+}

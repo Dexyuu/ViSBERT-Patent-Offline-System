@@ -1,0 +1,18 @@
+{
+  "title": "Remote management of device user interface content",
+  "abstract": "Software of devices, such as medical devices or other constrained devices configured to implement specific functions, can use content files to determine text strings or other content values to present in association with user interface elements. Devices can receive relevant content files, such as new versions of previously-stored content files or new content files containing text in different languages, from a remote content file repository. The software of the devices can accordingly update content values presented in user interfaces based on newly received content files, without the software being re-coded, the software being restarted, or the devices rebooting.",
+  "claims": "1. A method comprising: determining, via software executing on a medical device, a user interface element to display in a user interface of the medical device, wherein: the software is coded with a content identifier that corresponds to the user interface element, and the user interface element is configured to present a content value defined by a content file; presenting, via the software, and in the user interface element, a first predefined content value that a first content file, stored in memory of the medical device, indicates is associated with the content identifier; loading a second content file into the memory of the medical device during execution of the software, wherein the second content file: is provided by a content file repository remote from the medical device, and indicates a second predefined content value that is associated with the content identifier; and updating, via the software, the content value, presented in the user interface element, from the first predefined content value to the second predefined content value based on the second content file, wherein the content value presented in the user interface element is updated, based on the second content file, without upgrading the software, restarting the software on the medical device, or rebooting the medical device.",
+  "patent_id": "US12380996-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16H 40/40",
+      "G06F 8/65"
+    ],
+    "all": [
+      "G16H 40/40",
+      "G06F 8/65"
+    ],
+    "source": "converted"
+  }
+}

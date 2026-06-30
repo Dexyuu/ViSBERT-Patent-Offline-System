@@ -1,0 +1,24 @@
+{
+  "title": "Indexing sub-tables for performant access requests",
+  "abstract": "Sub-tables are indexed to implement performant access requests. Sub-tables may be created in a database table. Items may be stored in the table according to an indexing scheme that co-locates items in a same sub-table in an index. Access requests for items in a sub-table may be performed by applying the indexing scheme to locate the items in the sub-table from the index.",
+  "claims": "1. A system, comprising: at least one processor; a memory, storing program instructions that when executed by the at least one processor cause the at least one processor to implement a database system that stores a database; wherein the database stores a table, wherein the table comprises a plurality of different sub-tables respectively created in the table responsive to one or more requests to create the plurality of different sub-tables, wherein the table is logically divided into the plurality of different sub-tables according to respective identifiers for the plurality of different sub-tables, wherein the plurality of different sub-tables includes sub-tables comprising respective pluralities of items, wherein the respective pluralities of items are distributed across more than one of a plurality of partitions that store the table according to different, respective distribution schemes corresponding to individual ones of the sub-tables that are used to select which ones of the plurality of partitions to store different ones of the respective pluralities of items when the different ones of the respective plurality of items are received in respective requests that identify respective ones of the plurality of different sub-tables to store the different ones of the respective plurality of items, wherein the different, respective distribution schemes are respectively determined for the plurality of different sub-tables as part of performing the one or more requests to create the plurality of different sub-tables, and wherein the different, respective distribution schemes balance the respective pluralities of items of individual ones of the sub-tables across the plurality of partitions such that a first item of two items included in two different ones of the sub-tables with a same value is stored in a first partition according to a first one of the different, respective distributions schemes corresponding to a first one of the two different ones of the sub-tables and such that a second item of the two items included in the two different ones of the sub-tables with the same value is stored in a second partition according to a second one of the different, respective distribution schemes corresponding to a second one of the two different ones of the sub-tables; wherein the database system is configured to: receive a request to store an item in a table of the database, wherein the request identifies one of a plurality of different sub-tables, and wherein the request specifies that the item is to be in the one sub-table; update an index as part of storing the item in the table of the database according to an indexing scheme that co-locates items of the one of the plurality of different sub-tables respectively within the index; receive a request to access the item that specifies the one of the plurality of different sub-tables; and search the updated index that co-locates items of the specified sub-table to locate and perform the request to access the item.",
+  "patent_id": "US12380083-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/2282",
+      "G06F 16/211",
+      "G06F 16/2272",
+      "G06F 16/27",
+      "G06F 16/278"
+    ],
+    "all": [
+      "G06F 16/2282",
+      "G06F 16/211",
+      "G06F 16/2272",
+      "G06F 16/27",
+      "G06F 16/278"
+    ],
+    "source": "converted"
+  }
+}

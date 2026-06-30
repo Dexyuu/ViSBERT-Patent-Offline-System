@@ -1,0 +1,26 @@
+{
+  "title": "Biometric authentication using proximity and secure information on a user device",
+  "abstract": "A system and method provides biometric authentication using proximity and secure information on a Personal Digital Key (PDK). The PDK is associated with and carried by a user. The PDK wirelessly communicates with a receiver/decoder circuit (RDC) that can be coupled to a variety of electronic devices. The PDK stores a biometric profile of a legitimate user in a secured memory. The PDK acquires biometric input from a user using a biometric reader of the PDK responsive to receiving a request for a biometric authentication of the legitimate user. The PDK compares the biometric input to the biometric profile to determine whether the biometric input matches the biometric profile. A secure wireless communication link is established between the PDK and a reader device responsive to a determination that the biometric input matches the biometric profile and the PDK device is within a predefined proximity of the reader device. The PDK device sends an identification code uniquely identifying the PDK device over the secure wireless communication link to the reader device. The reader device sends information including the identification code to a trusted third-party system for authentication.",
+  "claims": "1. A method comprising: detecting whether a user device is in proximity to a reader device, the reader device coupled to an electronic device; responsive to detecting that the user device is in proximity to the reader device, wirelessly receiving a first identification code identifying the user device; determining a second identification code identifying the reader device; determining one or more user preferences using the first identification code and the second identification code; determining configuration data specifying an operation of the electronic device and an operation of the user device based on the one or more user preferences; automatically executing a sequence of distinct functions of the electronic device based on the configuration data; and configuring a user interface of the user device to display the automatically executed sequence of distinct functions of the electronic device based on the configuration data.",
+  "patent_id": "US12380797-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G08C 17/02",
+      "G07C 9/00182",
+      "G07F 17/32",
+      "G07F 17/3218",
+      "G07F 17/3239",
+      "G07C 2009/00261"
+    ],
+    "all": [
+      "G08C 17/02",
+      "G07C 9/00182",
+      "G07F 17/32",
+      "G07F 17/3218",
+      "G07F 17/3239",
+      "G07C 2009/00261"
+    ],
+    "source": "converted"
+  }
+}

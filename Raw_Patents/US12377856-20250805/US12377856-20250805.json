@@ -1,0 +1,36 @@
+{
+  "title": "Optimum shifting of electrified powertrain systems having electric motors before and after a transmission",
+  "abstract": "A control method for an electrified powertrain of an electrified vehicle having a first electric motor before a transmission and a second electric motor after the transmission includes receiving, by a control system and from a set of sensors, a set of operating parameters of the electrified powertrain, each operating parameter of the set of operating parameters relating to a torque split between the first and second electric motors, determining, by the control system, first and second optimal torque splits between the first and second electric motors for a transmission shift event by solving a torque split optimization problem based on the set of operating parameters, and controlling, by the control system, the first and second electric motors based on the first optimal torque split followed by the second optimal torque split relative to the transmission shift event.",
+  "claims": "1. A control system for an electrified powertrain of an electrified vehicle, the electrified powertrain including a first electric motor before a transmission and a second electric motor after the transmission, the control system comprising: a set of sensors configured to monitor a set of operating parameters of the electrified powertrain, each operating parameter of the set of operating parameters relating to a torque split between the first and second electric motors; and a control system configured to: receive, from the set of sensors, the set of operating parameters; determine first and second optimal torque splits between the first and second electric motors for a transmission shift event by solving a torque split optimization problem based on the set of operating parameters; and control the first and second electric motors based on the first optimal torque split followed by the second optimal torque split relative to the transmission shift event, wherein the control system is configured is configured to control the first and second electric motors by (i) linearly ramping from an initial torque split prior to the transmission shift event to the first optimal torque split and then (ii) linearly ramping from the first optimal torque split to the second optimal torque split.",
+  "patent_id": "US12377856-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 30/188",
+      "B60L 15/20",
+      "B60W 10/08",
+      "B60W 10/10",
+      "B60W 30/19",
+      "B60L 2240/423",
+      "B60L 2240/48",
+      "B60W 2510/083",
+      "B60W 2510/10",
+      "B60W 2710/085",
+      "B60W 2710/10"
+    ],
+    "all": [
+      "B60W 30/188",
+      "B60L 15/20",
+      "B60W 10/08",
+      "B60W 10/10",
+      "B60W 30/19",
+      "B60L 2240/423",
+      "B60L 2240/48",
+      "B60W 2510/083",
+      "B60W 2510/10",
+      "B60W 2710/085",
+      "B60W 2710/10"
+    ],
+    "source": "converted"
+  }
+}

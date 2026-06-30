@@ -1,0 +1,30 @@
+{
+  "title": "Apparatus, a method and a computer program for video coding and decoding",
+  "abstract": "A method comprising: obtaining an image block unit comprising samples in color channels of one or two chrominance channels and one luminance channel (900); reconstructing samples of said luminance channel of the image block unit (902); predicting chrominance samples of at least one color channel of image block unit using at least two cross-component prediction models, each comprising their corresponding linear model parameters, and a luminance threshold value dividing the samples of said luminance channel between said at least two cross-component prediction models (904); defining a weighting function for said at least two cross-component prediction models based on location of said two or more chrominance samples and the luminance threshold value (906); and applying a smoothing function for samples residing within an offset value from said luminance threshold value, wherein said smoothing function adjusts chrominance values of said samples residing within said offset value by applying said weighting function on the corresponding at least two linear model parameters of the at least two cross-component prediction models (908).",
+  "claims": "1. An apparatus comprising at least one processor; and at least one memory including computer program code, the at least one memory and the computer program code configured to, with the at least one processor, cause the apparatus to: obtain an image block unit comprising samples in color channels of one or two chrominance channels and a luminance channel; reconstruct samples of said luminance channel of the image block unit; predict chrominance samples of at least one color channel of image block unit using at least two cross-component prediction models, each comprising their corresponding linear model parameters, and a luminance threshold value dividing the samples of said luminance channel between said at least two cross-component prediction models; define a weighting function for said at least two cross-component prediction models based on location of two or more chrominance samples and the luminance threshold value, or based on at least one luminance sample value and the luminance threshold value; and apply a smoothing function for samples residing within an offset value from said luminance threshold value, wherein said smoothing function adjusts chrominance values of said samples residing within said offset value by applying said weighting function on the corresponding at least two linear model parameters of the at least two cross-component prediction models.",
+  "patent_id": "US12382024-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/105",
+      "H04N 19/132",
+      "H04N 19/167",
+      "H04N 19/176",
+      "H04N 19/186",
+      "H04N 19/463",
+      "H04N 19/50",
+      "H04N 19/85"
+    ],
+    "all": [
+      "H04N 19/105",
+      "H04N 19/132",
+      "H04N 19/167",
+      "H04N 19/176",
+      "H04N 19/186",
+      "H04N 19/463",
+      "H04N 19/50",
+      "H04N 19/85"
+    ],
+    "source": "converted"
+  }
+}

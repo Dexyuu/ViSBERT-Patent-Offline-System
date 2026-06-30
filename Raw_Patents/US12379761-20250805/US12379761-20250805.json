@@ -1,0 +1,18 @@
+{
+  "title": "Management of energy efficiency parameters for resources in edge computing system",
+  "abstract": "Techniques are disclosed for management of edge resources. For example, a method comprises receiving energy consumption data corresponding to operation of a plurality of edge devices from a plurality of edge service providers. In the method, a plurality of energy efficiency scores are computed based, at least in part, on the energy consumption data. The energy efficiency scores correspond to operation of one or more of the edge devices associated with respective ones of the edge service providers. The method further comprises receiving one or more energy consumption parameters from at least one user device for the operation of the one or more edge devices, and identifying based, at least in part, on the energy efficiency scores, a subset of the edge devices corresponding to the energy consumption parameters. Data corresponding to the subset of the edge devices is transmitted to the at least one user device.",
+  "claims": "1. A method, comprising: receiving energy consumption data corresponding to operation of a plurality of edge devices from a plurality of edge service providers; computing, using one or more machine learning models, a plurality of energy efficiency scores based, at least in part, on the energy consumption data; computing a plurality of environmental impact ratings based, at least in part, on electricity usage of one or more edge devices of the plurality of edge devices measured in pounds per megawatt hour of carbon dioxide, sulfur dioxide and nitrogen oxide over a time instance, wherein the plurality of energy efficiency scores and the plurality of environmental impact ratings each correspond to operation of the one or more edge devices of the plurality of edge devices associated with respective ones of the plurality of edge service providers; receiving one or more energy consumption parameters and one or more environmental impact parameters from at least one user device for the operation of the one or more edge devices; identifying based, at least in part, on the plurality of energy efficiency scores and the plurality of environmental impact ratings, a subset of the plurality of edge devices corresponding to at least one of the one or more energy consumption parameters and the one or more environmental impact parameters; transmitting, to the at least one user device, data corresponding to the subset of the plurality of edge devices; and adjusting an assigned rate of the subset of the plurality of edge devices based on the transmitted data corresponding to the subset of the plurality of edge devices; wherein the method is performed by at least one processing device comprising a processor coupled to a memory.",
+  "patent_id": "US12379761-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 1/3203",
+      "H04L 43/08"
+    ],
+    "all": [
+      "G06F 1/3203",
+      "H04L 43/08"
+    ],
+    "source": "converted"
+  }
+}

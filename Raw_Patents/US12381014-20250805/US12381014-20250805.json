@@ -1,0 +1,26 @@
+{
+  "title": "Method for enhancing an accuracy of a benign tumor development trend assessment system",
+  "abstract": "A method for enhancing an accuracy of a benign tumor development trend assessment system includes: a first processing procedure, an image captured before the treatment is inputted to and be processed by a server computing device of the benign tumor development trend assessment system to obtain a first processing result; a second processing procedure, the images captured before and in at least one period after the treatment are inputted to and processed by the server computing device to obtain a second processing result; a trend analyzing procedure, the trend analyzing module of the server computing device analyzes the first processing result, the second processing result and the trend pathways to obtain a tumor development trend result; and a storing procedure, the first processing result, the second processing result and the tumor development trend result are transformed to an individual trend pathway which is stored in the trend analyzing module.",
+  "claims": "1. A method for enhancing an accuracy of a benign tumor development trend assessment system, the benign tumor development trend assessment system comprising an image outputting device and a server computing device, the server computing device comprising a trend analyzing module, the trend analyzing module storing a plurality of trend pathways, the trend pathways being obtained by the trend analyzing module through analyzing a plurality of reference images, and the image outputting device outputting an image captured from a benign tumor of a patient before a treatment and outputting an image captured from the benign tumor of the patient in at least one period after the treatment, the image comprising a T1-weighted (T1W) MRI image, T2-weighted (T2W) MRI image or T1-weighted gadolinium contrast enhanced T1W+C) MRI image, the method comprising: a first processing procedure, the image captured before the treatment is inputted to the server computing device and is processed by the server computing device to obtain a first processing result; a second processing procedure, the image captured before the treatment and the image captured in at least one period after the treatment are inputted to the server computing device, and the images are processed by the server computing device to obtain a second processing result, wherein in the first processing procedure and the second processing procedure, a tumor region is automatically detected and delineated from the captured image by using U-Net neural network or 3D dual-pathway U-Net neural network, a grayscale feature is obtained from the captured image by using a histogram filter, a texture feature is obtained the captured image by using a gray-level run-length matrix (GLRLM) filter; a trend analyzing procedure, the trend analyzing module analyzes the first processing result, the second processing result and the trend pathways through support vector machine (SVM), manual or gap analysis to obtain a tumor development trend result; and a storing procedure, the first processing result, the second processing result and the tumor development trend result are transformed to an individual trend pathway, and the trend analyzing module further stores the individual trend pathway.",
+  "patent_id": "US12381014-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16H 50/70",
+      "G06T 7/0014",
+      "G16H 30/20",
+      "G16H 50/20",
+      "G16H 80/00",
+      "G06T 2207/30096"
+    ],
+    "all": [
+      "G16H 50/70",
+      "G06T 7/0014",
+      "G16H 30/20",
+      "G16H 50/20",
+      "G16H 80/00",
+      "G06T 2207/30096"
+    ],
+    "source": "converted"
+  }
+}

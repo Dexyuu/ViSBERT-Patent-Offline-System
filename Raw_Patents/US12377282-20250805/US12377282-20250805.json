@@ -1,0 +1,18 @@
+{
+  "title": "Apparatus for microwave heat spread and an operation method thereof",
+  "abstract": "A microwave heat spread apparatus and an operating method thereof are provided. The microwave heat spread apparatus includes: a plurality of antennas respectively disposed at a plurality of positions of the human body and radiating microwaves into the human body; a plurality of channel transceivers respectively connected to the plurality of antennas and configured to transmit and receive the microwaves through a corresponding antenna; a transmission signal distributor configured to distribute a signal to each of the plurality of channel transceivers; a controller configured to control transmission and reception of signals through the channel transceivers; and a detector configured to detect a difference between a signal received through a channel transceiver after passing through the human body and a signal before passing through the human body.",
+  "claims": "1. An apparatus for spreading microwave heat into a human body, comprising: a plurality of antennas configured to be respectively disposed at a plurality of positions of the human body and radiating microwaves into the human body; a plurality of channel transceivers respectively connected to the plurality of antennas and configured to transmit and receive the microwaves through a corresponding antenna; a transmission signal distributor configured to distribute a signal to each of the plurality of channel transceivers; a controller configured to control transmission and reception of signals through the channel transceivers; and a detector configured to detect a difference between a signal received through a channel transceiver after passing through the human body and a signal before passing through the human body, wherein in a state in which one channel transceiver of the plurality of channel transceivers operates in a transmission state and at least one of remaining channel transceivers operates in a reception state, the controller estimates an amount of temperature change based on the difference output from the detector and controls the channel transceivers according to the estimated amount of temperature change; wherein the detector uses a signal provided from the transmission signal distributor as the signal before passing through the human body, and the detector includes: a first detector configured to detect an intensity difference between an intensity of a signal received through the channel transceiver and an intensity of a signal provided from the transmission signal distributor; and a second detector configured to detect a phase difference between a phase of a signal received through the channel transceiver and a phase of a signal provided from the transmission signal distributor, wherein the controller is configured to estimate the amount of temperature change in the human body based on the intensity difference and the phase difference.",
+  "patent_id": "US12377282-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61N 5/025",
+      "H05B 6/80"
+    ],
+    "all": [
+      "A61N 5/025",
+      "H05B 6/80"
+    ],
+    "source": "converted"
+  }
+}

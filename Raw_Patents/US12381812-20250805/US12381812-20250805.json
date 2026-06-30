@@ -1,0 +1,18 @@
+{
+  "title": "Shortest path computation method, routing obtaining device, and server",
+  "abstract": "A method for calculating a shortest path, a routing acquisition device, a server and a non-transitory computer-readable storage medium are disclosed. The method may include: acquiring resource information for a network according to a received routing request, where the routing request includes a start node, an end node, a service constraint, and an obligatory constraint; calculating service constraint weights for topological elements in the network according to the service constraint, and calculating obligatory constraint weights for the topological elements according to the obligatory constraint and the resource information for the network; and calculating, according to the service constraint weights and the obligatory constraint weights for the topological elements, a shortest path from the start node to the end node that satisfies the obligatory constraint.",
+  "claims": "1. A method for calculating a shortest path, comprising: acquiring resource information for a network according to a received routing request, wherein the routing request comprises a start node, an end node, a service constraint, and an obligatory constraint, wherein the obligatory constraint comprises nodes and/or links which must be passed through from the start node to the end node; calculating service constraint weights for topological elements in the network according to the service constraint, and calculating obligatory constraint weights for the topological elements according to the obligatory constraint and the resource information for the network; and calculating, according to the service constraint weights and the obligatory constraint weights for the topological elements, a shortest path from the start node to the end node that satisfies the obligatory constraint; wherein calculating service constraint weights for topological elements in the network according to the service constraint, and calculating obligatory constraint weights for the topological elements according to the obligatory constraint and the resource information for the network comprises: acquiring a routing policy, wherein the routing policy comprises at least a service constraint policy acquired according to the service constraint and an obligatory constraint policy acquired according to the resource information for the network; and calculating the service constraint weights and the obligatory constraint weights for the topological elements based on the routing policy, wherein the service constraint weights are obtained through calculation according to the service constraint and the service constraint policy, and the obligatory constraint weights are obtained through calculation according to the obligatory constraint and the obligatory constraint policy.",
+  "patent_id": "US12381812-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 45/12",
+      "H04L 45/02"
+    ],
+    "all": [
+      "H04L 45/12",
+      "H04L 45/02"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Detection and remediation of improper value modification using machine learning",
+  "abstract": "An online concierge system allows customers to place orders to be fulfilled by pickers. An order includes an amount of compensation a customer provides to a picker when the order is fulfilled. A customer may modify the amount of compensation provided to a picker, so some customers may initially specify a large amount of compensation to entice a picker to fulfill an order and then reduce the amount of compensation when the order is fulfilled. To prevent penalizing pickers who fulfilled an order without a problem, the online concierge system trains a model to determine a probability that a reduction in compensation to a picker was unrelated to a problem with order fulfillment. The online concierge system may perform one or more remedial actions for a picker based on the probability determined by the model.",
+  "claims": "1. A method, performed at a computer system comprising a processor and a computer-readable medium, the method comprising: receiving an order from a user for fulfillment by the computer system, the order including one or more items and an amount of compensation the user provides a picker for fulfilling the order; receiving a selection of the order for fulfillment by the picker; receiving a request from the user to reduce the amount of compensation the user provides the picker after the order has been fulfilled; determining a probability of the request to reduce the amount of compensation the user provides the picker being unrelated to a problem with order fulfillment by applying a compensation reduction model to the request, characteristics of the user, and indications of an order fulfillment problem, wherein the compensation reduction model is trained by: obtaining a training dataset including a plurality of training examples, each training example including an amount by which compensation to an additional picker for a prior order was reduced, characteristics of the user from whom the prior order was received, and indications of problems with fulfillment of the prior order, each training example having a label indicating whether the reduction of compensation from the user from whom the prior order was received was unrelated to an order fulfillment problem; applying the compensation reduction model to each training example of the training dataset to generate a predicted probability of the request for reducing the amount of compensation to the picker for the prior order being unrelated to a problem with order fulfillment; scoring the compensation reduction model using a loss function and the label of the training example; and updating one or more parameters of the compensation reduction model by backpropagation based on the scoring until one or more criteria are satisfied; determining that the probability of the request to reduce the amount of compensation the user provides the picker being unrelated to the problem with order fulfillment exceeds a threshold; and performing, by the computing system, one or more remedial actions in response to the determining.",
+  "patent_id": "US12380403-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/0875",
+      "G06N 3/084",
+      "G06Q 20/12"
+    ],
+    "all": [
+      "G06Q 10/0875",
+      "G06N 3/084",
+      "G06Q 20/12"
+    ],
+    "source": "converted"
+  }
+}

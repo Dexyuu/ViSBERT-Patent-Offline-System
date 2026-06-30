@@ -1,0 +1,32 @@
+{
+  "title": "Mushroom trimming and sorting system",
+  "abstract": "A mushroom trimming and sorting system comprises a stem trimming device, a positioning system, an imager set, and a controller operable to control the positioning system to move a single mushroom into view of the imager set, to generate an image set of the mushroom, and to process the image set (and optionally other sensor data) to determine mushroom properties of the mushroom. The positioning system may include a SCARA robot with suction-type end effector and single-mushroom elevator with gripping mandibles. The processing may employ a trained machine-learning model. The mushroom properties may include a length of an end portion of the stem bearing soil, and a sorting category of the mushroom based on parameters of the cap including degree of gill opening. The end portion is them trimmed to eliminate soil and other defects, and sorting the mushroom into one of a plurality of receptacles.",
+  "claims": "1. A mushroom processing system comprising: a stem trimming device; a positioning system; an imager set comprising at least one imager; and a controller communicatively coupled with the stem trimming device, the positioning system, and the imager set, the controller comprising a memory storing computer-readable instructions and a processor operable to perform the computer-readable instructions, whereby the controller is operable: to control the positioning system to move a single mushroom, having a stem and a cap, to bring the mushroom into view of the imager set; to control the imager set to generate an image set of the mushroom comprising at least one image; to process the image set to determine mushroom properties of the mushroom; and to control the positioning system and/or the stem trimming device to process the mushroom based on the mushroom properties.",
+  "patent_id": "US12377567-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B26D 5/007",
+      "B07C 5/3422",
+      "B25J 11/0045",
+      "B26D 7/32",
+      "B07C 2501/0063",
+      "B07C 2501/0081",
+      "B25J 15/0028",
+      "B25J 15/0616",
+      "B26D 2210/02"
+    ],
+    "all": [
+      "B26D 5/007",
+      "B07C 5/3422",
+      "B25J 11/0045",
+      "B26D 7/32",
+      "B07C 2501/0063",
+      "B07C 2501/0081",
+      "B25J 15/0028",
+      "B25J 15/0616",
+      "B26D 2210/02"
+    ],
+    "source": "converted"
+  }
+}

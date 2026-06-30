@@ -1,0 +1,26 @@
+{
+  "title": "Method for training feature extraction model, method for classifying image, and related apparatuses",
+  "abstract": "The present disclosure provides a method for training a feature extraction model, a method for classifying an image and related apparatuses, and relates to the field of artificial intelligence technology such as deep learning and image recognition. The scheme comprises: extracting an image feature of each sample image in a sample image set using a basic feature extraction module of an initial feature extraction model, to obtain an initial feature vector set; performing normalization processing on each initial feature vector in the initial feature vector set using a normalization processing module of the initial feature extraction model, to obtain each normalized feature vector; and guiding training for the initial feature extraction model through a preset high discriminative loss function, to obtain a target feature extraction model as a training result.",
+  "claims": "1. A method for training a feature extraction model, comprising: extracting an image feature of each sample image in a sample image set using a basic feature extraction module of an initial feature extraction model, to obtain an initial feature vector set, wherein the sample image set contains sample images of a plurality of image categories, and the each sample image is annotated with an image category to which the sample image belongs; performing normalization processing on each initial feature vector in the initial feature vector set using a normalization processing module of the initial feature extraction model, to obtain each normalized feature vector; and guiding training for the initial feature extraction model through a preset high discriminative loss function, to obtain a target feature extraction model as a training result, wherein the high discriminative loss function is abstractly obtained based on a preset upper limit and a preset lower limit of a vector similarity that are preset respectively for sample images of any two image categories according to whether two images have a similarity, a vector similarity between normalized feature vectors of two images not having a similarity is not greater than the preset lower limit, a vector similarity between normalized feature vectors of two images having a similarity is not less than the preset upper limit, and the preset upper limit is greater than the preset lower limit.",
+  "patent_id": "US12380681-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/774",
+      "G06V 10/40",
+      "G06V 10/761",
+      "G06V 10/764",
+      "G06V 10/776",
+      "G06V 10/7784"
+    ],
+    "all": [
+      "G06V 10/774",
+      "G06V 10/40",
+      "G06V 10/761",
+      "G06V 10/764",
+      "G06V 10/776",
+      "G06V 10/7784"
+    ],
+    "source": "converted"
+  }
+}

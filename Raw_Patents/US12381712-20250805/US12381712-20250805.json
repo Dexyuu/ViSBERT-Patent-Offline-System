@@ -1,0 +1,26 @@
+{
+  "title": "Symmetric encryption for private smart contracts among multiple parties in a private peer-to-peer network",
+  "abstract": "Features for providing a secure method of symmetric encryption for private smart contacts among multiple parties in a private peer-to-peer network. The features include a master key representing a unique blockchain ledger. The master key may be shared among multiple participants in a private peer-to-peer network. Sharing of the master key may include communicating the master key in an encrypted message (e.g., email) using public key infrastructure (PKI). In some implementations, more complex distribution features may be includes such as quantum entanglement. The features support instantiation of a smart contract using a specific master key. The request may be submitted as an entry to the ledger with appropriate metadata and/or payload information for identifying and processing the request.",
+  "claims": "1. A system for secure distributed electronic ledgering, the system comprising: a distributed electronic ledger storing a set of records, wherein at least one record in the set of records includes a request for a service; a computer-readable memory storing executable instructions; and one or more computer processors in communication with the computer-readable memory, wherein the one or more computer processors are configured to execute a smart contract, causing the processor to: receive the smart contract from the distributed electronic ledger over a private peer-to-peer network, the smart contract including metadata associated with a master encryption key, an encrypted internal encryption key, and an encrypted service request; retrieve the master encryption key using the metadata; decrypt the encrypted internal encryption key with the master encryption key to open the smart contract; decrypt the encrypted service request using the internal encryption key; fulfill the service request and store at least a portion of results of the service request in the smart contract; close the smart contract by encrypting the at least a portion of the results with the internal encryption key; and transmit the closed smart contract to the peer-to-peer network.",
+  "patent_id": "US12381712-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 9/0637",
+      "H04L 9/0822",
+      "H04L 9/0891",
+      "H04L 9/0894",
+      "H04L 9/16",
+      "H04L 67/1074"
+    ],
+    "all": [
+      "H04L 9/0637",
+      "H04L 9/0822",
+      "H04L 9/0891",
+      "H04L 9/0894",
+      "H04L 9/16",
+      "H04L 67/1074"
+    ],
+    "source": "converted"
+  }
+}

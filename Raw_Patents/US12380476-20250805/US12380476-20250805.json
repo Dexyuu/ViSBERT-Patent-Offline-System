@@ -1,0 +1,24 @@
+{
+  "title": "Systems and methods for providing digital content marketplace security",
+  "abstract": "A digital content marketplace filter engine may be configured to identify a communication between a digital content marketplace client and a digital content marketplace server. An analysis engine may be configured to review the communication against a digital content marketplace policy. A response engine configured to block, allow or modify the communication to conform to the digital content marketplace policy.",
+  "claims": "9. A method comprising: identifying, by a second-party operating system including a request execution process, the operating system being executed by at least one user device hardware processor on a user device, the operating system having been modified by first-party redirector program code, a digital content request for a first digital content item, the digital content request being received by a third-party digital content marketplace client being executed by the at least one user device hardware processor and in cooperation with the operating system as modified by the redirector program code, the digital content marketplace client configured to automatically forward the digital content request to the request execution process that is configured to forward the digital content request to a third-party digital content marketplace server that manages a plurality of digital content items including the first digital content item, the digital content marketplace server being remote from the computer system; intercepting, by the operating system having been modified by the redirector program code, the digital content request before the digital content request is forwarded to the digital content marketplace server; redirecting, by the operating system having been modified by the redirector program code, the digital content request to a marketplace security system for the marketplace security system to review the digital content request against a security policy before the digital content request is forwarded to the digital content marketplace server, the security policy indicating particular search requests, search results and/or digital content that are to be allowed, denied or modified; receiving, by the marketplace security system being executed by the at least one user device hardware processor, the digital content request before the digital content request is received by the request execution process; reviewing, by the marketplace security system being executed by the at least one user device hardware processor, the digital content request against the security policy, the reviewing including at least one of reviewing the digital content request against a whitelist of approved digital content requests or against a blacklist of disapproved digital content requests, reviewing the first digital content item against a whitelist of approved digital content items or against a blacklist of disapproved digital content items, or reviewing an attribute associated with the first digital content item against a whitelist of approved digital content item attributes or against a blacklist of disapproved digital content item attributes; and allowing by the marketplace security system being executed by the at least one user device hardware processor the digital content request to be transmitted to the request execution process to allow the digital content request to be forwarded to the digital content marketplace server for fulfillment when the review determines the digital content request is approved, or blocking or modifying by the marketplace security system being executed by the at least one user device hardware processor the digital content request when the review determines the digital content request is disapproved.",
+  "patent_id": "US12380476-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0609",
+      "G06Q 2220/10",
+      "H04W 12/00",
+      "H04W 12/08",
+      "H04W 12/37"
+    ],
+    "all": [
+      "G06Q 30/0609",
+      "G06Q 2220/10",
+      "H04W 12/00",
+      "H04W 12/08",
+      "H04W 12/37"
+    ],
+    "source": "converted"
+  }
+}

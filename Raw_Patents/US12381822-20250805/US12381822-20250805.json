@@ -1,0 +1,20 @@
+{
+  "title": "Data flow table, method and device for processing data flow table, and storage medium",
+  "abstract": "Disclosed are a data flow table for high-speed large-scale concurrent data flows, method and apparatus for processing the data flow table, and a storage medium. The method includes: acquiring, according to a data flow identifier of a data flow to be inserted, addresses of candidate buckets in a fingerprint table and a data flow fingerprint; detecting whether there is an idle unit in the candidate buckets in the fingerprint table, if there is an idle unit, selecting the candidate bucket having the idle unit as target bucket; and sequentially searching for the idle unit from bottom unit to top unit of the target bucket, and when the idle unit is found in the target bucket, writing data flow fingerprint of said data flow into the found idle unit, and writing data flow record of said data flow into a recording bucket corresponding to the candidate bucket.",
+  "claims": "1. A data flow table, comprising: a fingerprint table configured to store a data flow fingerprint of a data flow to be inserted, wherein the fingerprint table adopts a d-left hash table, and is divided into two blocks, each block comprises at least two buckets, and the buckets are configured to store basic units; a record table configured to store a data flow record of the data flow to be inserted, wherein the record table adopts the d-left hash table, and is divided into two blocks, each block comprises at least two buckets, the buckets are configured to store basic units, wherein the basic units in the record table and the basic units in the fingerprint table are in in one-to-one correspondence; and an overflow table configured to store the data flow to be inserted if the data flow record of the data flow to be inserted is not able to be inserted into the record table.",
+  "patent_id": "US12381822-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 45/7453",
+      "H04L 45/54",
+      "H04L 45/742"
+    ],
+    "all": [
+      "H04L 45/7453",
+      "H04L 45/54",
+      "H04L 45/742"
+    ],
+    "source": "converted"
+  }
+}

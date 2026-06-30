@@ -1,0 +1,40 @@
+{
+  "application_id": "WO2018057240",
+  "application_id_fs": "WO2018057240",
+  "title": "Using a virtual to virtual address table for memory compression",
+  "abstract": "A virtual-to-virtual page table maps a main surface containing the actual data and a metadata or auxiliary surface that gives information about compression of the main surface. In order to access the metadata that corresponds to main surface, an additional virtual-to-virtual table may be used ahead of the regular page table mapping to avoid the need to pass the metadata base address and x, y coordinates across a pipeline which may result in multiple memory writes.",
+  "claims": "Claims What is claimed is: 1 . A method comprising: using a first virtual-to-virtual page table to map a main surface containing data to an auxiliary surface containing information about compression of the main surface; and using a second page table, after using the first virtual-to-virtual page table, to access a physical storage of said main surface. 2. The method of claim 1 including translating upper bits of the main surface address to an auxiliary surface address using a cache and a translation walk. 3. The method of claim 1 including providing a translation table with information about a type of compression used on the main surface. 4. The method of claim 1 including providing a translation table with a single bit to indicate whether the main surface was compressed. 5. The method of claim 1 including using a programmed pointer to locate a base address of a single page table. 6. The method of claim 5 including using upper bits of an auxiliary surface address to index into said single page table. 7. The method of claim 6 including using intermediate bits of said auxiliary surface address to index into a multiple page table. 8. The method of claim 7 including using lower bits of the auxiliary surface address to index into two cachelines. 9. The method of claim 8 including using the lowest bits of the auxiliary surface address to locate a metadata surface chunk. 10. The method of claim 9 wherein said chunk is for two cachelines and using an index to locate the auxiliary data for each cacheline. 1 1 . One or more non-transitory computer readable media storing instructions to perform a sequence comprising: using a first virtual-to-virtual page table to map a main surface containing data to an auxiliary surface containing information about compression of the main surface; and using a second page table, after using the first virtual-to-virtual page table, to access a physical storage of said main surface. 12. The media of claim 1 1 , further storing instructions to perform a sequence including translating upper bits of the main surface address to an auxiliary surface address using a cache and a translation walk. 13. The media of claim 1 1 , further storing instructions to perform a sequence including providing a translation table with information about a type of compression used on the main surface. 14. The media of claim 1 1 , further storing instructions to perform a sequence including providing a translation table with a single bit to indicate whether the main surface was compressed. 15. The media of claim 1 1 , further storing instructions to perform a sequence including using a programmed pointer to locate a base address of a single page table. 16. The media of claim 15, further storing instructions to perform a sequence including using upper bits of an auxiliary surface address to index into said single page table. 17. The media of claim 16, further storing instructions to perform a sequence including using intermediate bits of said auxiliary surface address to index into a multiple page table. 18. The media of claim 17, further storing instructions to perform a sequence including using lower bits of the auxiliary surface address to index into two cachelines. 19. The media of claim 18, further storing instructions to perform a sequence including using the lowest bits of the auxiliary surface address to locate a metadata surface chunk. 20. The media of claim 19, further storing instructions to perform a sequence wherein said chunk is for two cachelines and using an index to locate the auxiliary data for each cacheline. 21 . An apparatus comprising: a processor to use a first virtual-to-virtual page table to map a main surface containing data to an auxiliary surface containing information about compression of the main surface, and use a second page table, after using the first virtual-to-virtual page table, to access a physical storage of said main surface; and a memory coupled to said processor. 22. The apparatus of claim 21 , said processor to translate upper bits of the main surface address to an auxiliary surface address using a cache and a translation walk. 23. The apparatus of claim 21 , said processor to provide a translation table with information about a type of compression used on the main surface. 24. The apparatus of claim 21 , said processor to provide a translation table with a single bit to indicate whether the main surface was compressed. 25. The apparatus of claim 21 , said processor to use a programmed pointer to locate a base address of a single page table.",
+  "classifications": {
+    "ipc": [
+      "G06F 12/00",
+      "G06F 12/02",
+      "G06F 12/08",
+      "G06F 12/10",
+      "G06F 12/1009",
+      "G06F 12/0802",
+      "G06F 12/1027",
+      "G06F 12/1036",
+      "G06F 12/1045",
+      "G06F 2212/00",
+      "G06F 2212/10",
+      "G06F 2212/1028"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 12/00",
+      "G06F 12/02",
+      "G06F 12/08",
+      "G06F 12/10",
+      "G06F 12/1009",
+      "G06F 12/0802",
+      "G06F 12/1027",
+      "G06F 12/1036",
+      "G06F 12/1045",
+      "G06F 2212/00",
+      "G06F 2212/10",
+      "G06F 2212/1028"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018057240"
+}

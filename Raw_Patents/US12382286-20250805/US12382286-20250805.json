@@ -1,0 +1,20 @@
+{
+  "title": "Security authentication method and apparatus applied to Wi-Fi",
+  "abstract": "This application provides a security authentication method and apparatus applied to Wi-Fi, to help prevent a password from being shared among a plurality of devices, and implement management of a second device by a first device. In the method, an access point AP receives a first password input by the first device, where the first password is a password preset before delivery; and when checking the first password by the AP succeeds, the AP obtains a second password shared between the AP and the first device, and performs a 4-way handshake with the first device based on the second password. The second password is a shared key between the first device and the AP. Then, the AP can receive a first request from the first device, and send a third password to the first device in response to the first request.",
+  "claims": "1. A security authentication method applied to wireless fidelity (Wi-Fi), the method comprising: receiving, by an access point (AP), a first password input by a first device; obtaining, by the AP, when the first password is determined by the AP to be a preset password, a second password shared between the AP and the first device, wherein the second password is a shared key between the first device and the AP; performing, by the AP, a 4-way handshake with the first device based on the second password; receiving, by the AP, from the first device, a first request used to request a second device to have access to the AP; and sending, by the AP, a third password to the first device in response to the first request, wherein the third password is a shared key between the second device and the AP.",
+  "patent_id": "US12382286-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 12/06",
+      "H04W 12/0433",
+      "H04W 84/12"
+    ],
+    "all": [
+      "H04W 12/06",
+      "H04W 12/0433",
+      "H04W 84/12"
+    ],
+    "source": "converted"
+  }
+}

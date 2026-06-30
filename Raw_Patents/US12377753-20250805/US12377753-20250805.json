@@ -1,0 +1,24 @@
+{
+  "title": "Methods and systems for displaying range and remaining energy to driver",
+  "abstract": "Method and systems for displaying vehicle range and remaining energy to a driver is disclosed that includes a nominal range, based on a battery state of charge, and a dynamic range, based on the battery state of charge and a vehicle characteristic. The range indicator may be a linear battery icon that presents the nominal range as a first display element and the dynamic range as a second display element. The first display element may comprise a first bar length of a faded color and the second display element may comprise a second bar length of a full color.",
+  "claims": "1. A method for displaying a range associated with a vehicle, comprising: determining, using processing circuitry, a first range of the vehicle based on a battery state of charge; generating for display, using the processing circuitry, a range indicator on a display of the vehicle, wherein the range indicator comprises a first display element that indicates the first range and a second display element that indicates a dynamic range, wherein the second display element is shown concurrently with the first display element on the display of the vehicle; detecting, based on one or more sensors of the vehicle, while the vehicle is traveling, a change in a vehicle characteristic that causes the dynamic range to be less than the first range of the vehicle; determining, by the processing circuitry and jointly using a machine learning model and a value from the one or more sensors of the vehicle, an impact of the change in the vehicle characteristic on the dynamic range; adjusting, using the processing circuitry, the dynamic range of the vehicle based on the determined impact of the change in the vehicle characteristic determined at least in part based on the machine learning model, battery state of charge and the vehicle characteristic; and controlling, using the processing circuitry, the display of the range indicator by adjusting the displayed-second display element based on the adjusted dynamic range while the vehicle is traveling, wherein the second display element is shown concurrently with the first display element on the display of the vehicle.",
+  "patent_id": "US12377753-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60L 58/13",
+      "B60W 40/09",
+      "B60W 50/14",
+      "G01C 21/3469",
+      "B60W 2050/146"
+    ],
+    "all": [
+      "B60L 58/13",
+      "B60W 40/09",
+      "B60W 50/14",
+      "G01C 21/3469",
+      "B60W 2050/146"
+    ],
+    "source": "converted"
+  }
+}

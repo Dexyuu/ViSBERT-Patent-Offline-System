@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2019202069",
+  "application_id_fs": "WO2019202069",
+  "title": "A radar apparatus for a vehicle and method of detecting misalignment",
+  "abstract": "A radar apparatus for use in a vehicle (1) comprises a radar housing (6) which houses a radar sensor (7), a first 3-axis accelerometer (8) fixed so it cannot move relative to the radar sensor (7); a movable support (9) that comprises a first part (10), a second part (12), and an actuator (13) in which in use the first part (10) is fixed relative to the body (11) of the vehicle, the second part (12) is fixed relative to the radar housing (6), and the actuator is operable to move the second part relative to the first part around an axis that is fixed relative to the vehicle body by an actuator, and a signal processing apparatus (15) configured in use to determine a misalignment of the radar sensor from one or more of the signals output from the first 3-axis accelerometer (8) and one or more signals output from a second 3- axis accelerometer (16) fitted to the vehicle (1), in which the signals used are captured at different moments in time when the second part of the movable support is in two different positions.",
+  "claims": "Claims 1. A radar apparatus for use in a vehicle, the apparatus comprising: a radar housing which houses a radar sensor, a first 3-axis accelerometer fixed in position relative to the radar sensor; a movable support that comprises a first part, a second part, and an actuator in which in use the first part is fixed relative to the body of the vehicle, the second part is fixed relative to the radar housing, and the actuator is operable to move the second part relative to the first part around an axis that is fixed relative to the vehicle body by an actuator, and a signal processing apparatus configured in use to determine a misalignment of the radar sensor from one or more of the signals output from the first 3 axis accelerometer and one or more signals output from a second 3 axis accelerometer that is fixed in position relative to the vehicle, in which the signals used are captured at different moments in time when the second part of the movable support is in two different positions. 2. A radar apparatus according to claim 1 in which the signal processing apparatus is arranged in use to cause the movable support to move from one of the two different positions to the other between the two moments of time at which the determining of the misalignment is made. 3. A radar apparatus according to claim 1 or claim 2 in which the signal processing apparatus is arranged to compare signals from the first 3 axis accelerometer with signals from the second 3 axis accelerometer with the movable support in the first position, and to compare signals from the first accelerometer with the second part of the movable support when in the first positon with signals obtained from the first or second accelerometer when the second part of the movable support is in the second position. 4. A radar apparatus according to any preceding claim in which the first 3 axis accelerometer is fixed relative to the radar sensor such that with the moavable support in the first positon and with the radar sensor in an ideal alignment the 3 axes of the first accelerometer X, Y and Z respectively lie on the longitudinal, lateral and vertical axes of the vehicle when vehicle is on a level region of road and in which the second 3 \n\n axis accelerometer also has axes X, Y and Z aligned with those same 3 axes on the vehicle. 5. A radar apparatus according to any preceding claim in which the movable support includes a motor as the actuator and the signal processing apparatus in use issues motor position signals to a controller for the motor which in turn causes the motor to move to demanded motor positions. 6. A radar apparatus according to any preceding claim in which the actuator is arranged to rotate the radar housing around the fixed longitudinal X axis of the vehicle to induce some roll when moving from the first positon to the second position. In an alternative it may be arranged to rotate the radar housing around the fixed lateral axis of the vehicle to induce some pitch. 7. A radar apparatus according to any preceding claim in which the actuator is arranged to rotate the radar housing around two orthogonal axes X and Y, or three mutually orthogonal axes X,Y and Z. 8. A radar apparatus according to any preceding claim in which the movable support is fixed rigidly to the vehicle body so that it cannot be displaced easily in a collision. 9. A method of detecting misalignment, or checking for the correct alignment, of a radar apparatus for a stationary vehicle according to any preceding claim, the method comprising: comparing the acceleration signals output for at least two axes of the first 3 axis accelerometer captured when the second part is in a first position with the acceleration output from the corresponding two axes of the second 3 axis accelerometer when the second part is in the first position to determine any misalignment of the radar sensor for pitch or roll, moving the second part of the movable platform to a second position by rotation about one or both of the longitudinal or lateral axes of the vehicle, and observing at least one of the acceleration signals output for the first 3 axis accelerometer when the second part is in the second position and in the event that the signal differs from the corresponding signal captured when the second part is in the \n\n first position by an amount which does not meet a predefined allowable value determining that the radar is incorrectly aligned for yaw. 10. A method according to claim 9 in which the values of the signals from two axes that are compared when the second part is in the first position comprise the X and Y axes of each sensor which are aligned with the longitudinal and lateral axes of the vehicle respectively when the radar sensor is correctly aligned. 1 1. A method according to claim 9 or claim 10 comprising causing the platform to roll about the longitudinal axis of the vehicle or pitch about the lateral axis of the vehicle when moving from the first positon to the second position. 12. A method according to any one of claims 9 to 1 1 in which the misalignment is identified by comparing the output of the axis of the first 3 axis position sensor before and after the movement, or comparing the output after the movement with the output of the second 3 axis accelerometer optionally after any compensation for pitch or roll misalignment has been applied. 13. A method according to any one of claims 9 to 12 in which the first moment in time and third moment in time are moments when the vehicle is known to not have moved. 14. A method according to any one of claims 9 to 13 further comprising generating one or more offset values to be applied to the output of one or more axes of the first 3 axis accelerometer to compensate for any misalignment that is detected during the method. 15. A method according to any one of claims 9 to 14 comprising driving the actuator of the movable support to place the radar housing in a modified first position to enable detected angular misalignments to be physically corrected.",
+  "classifications": {
+    "ipc": [
+      "G01S 7/00",
+      "G01S 13/00",
+      "G01S 15/00",
+      "G01S 17/00",
+      "G01S 7/02",
+      "G01S 7/40",
+      "G01S 7/4004",
+      "G01S 7/4026",
+      "G01S 13/86",
+      "G01S 13/88",
+      "G01S 13/93",
+      "G01S 13/931",
+      "G01S 7/4034",
+      "G01S 2013/9327",
+      "G01S 7/027",
+      "G01S 7/403"
+    ],
+    "cpc": [],
+    "all": [
+      "G01S 7/00",
+      "G01S 13/00",
+      "G01S 15/00",
+      "G01S 17/00",
+      "G01S 7/02",
+      "G01S 7/40",
+      "G01S 7/4004",
+      "G01S 7/4026",
+      "G01S 13/86",
+      "G01S 13/88",
+      "G01S 13/93",
+      "G01S 13/931",
+      "G01S 7/4034",
+      "G01S 2013/9327",
+      "G01S 7/027",
+      "G01S 7/403"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019202069"
+}

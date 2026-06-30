@@ -1,0 +1,22 @@
+{
+  "title": "Load disconnect boost converter",
+  "abstract": "Load disconnect techniques for boost converters. In an example, a power converter includes a driver circuit, a control circuit, and a comparator circuit. During normal boost operation (VIN<VOUT), the comparator circuit disables the control circuit and enables the driver circuit, which in turn fully turns on a high-side switching element during high-side on-phase. In contrast, during start-up operation or an output short-to-ground condition (VINâ¥VOUT), the comparator circuit disables the driver circuit and enables the control circuit, which in turn controls the gate voltage of the high-side switching element, so the current through the switching element is regulated, and the switching node voltage is regulated to about a threshold voltage higher than VIN. In this manner, the comparator circuit controls the driver circuit and the control circuit, which in turn allow the boost converter to operate in a normal fashion even when VIN is higher than VOUT.",
+  "claims": "1. A circuit, comprising: comparator circuitry having a comparator output and first and second comparator inputs, the first comparator input coupled to an input voltage terminal, the second comparator input coupled to an output voltage terminal, the comparator circuitry configured to provide a voltage at the comparator output, in which the provided voltage is a larger of a voltage at the first comparator input or a voltage at the second comparator input; a first transistor having a first current terminal, a second current terminal, and a control terminal, the first current terminal coupled to the input voltage terminal and the second current terminal coupled to the output voltage terminal; a second transistor having a first current terminal, a second current terminal, and a control terminal, the first current terminal coupled to the first current terminal of the first transistor, the second current terminal coupled to the control terminal of the first transistor, and the control terminal of the second transistor coupled to the comparator output; and driver circuitry having a boot terminal and an output terminal, the boot terminal coupled to the comparator output and the output terminal coupled to the control terminal of the first transistor.",
+  "patent_id": "US12381483-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02M 3/156",
+      "H02M 1/08",
+      "H03K 3/017",
+      "H03K 5/24"
+    ],
+    "all": [
+      "H02M 3/156",
+      "H02M 1/08",
+      "H03K 3/017",
+      "H03K 5/24"
+    ],
+    "source": "converted"
+  }
+}

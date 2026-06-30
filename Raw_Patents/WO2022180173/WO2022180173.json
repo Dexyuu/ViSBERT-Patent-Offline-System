@@ -1,0 +1,25 @@
+{
+  "application_id": "WO2022180173",
+  "application_id_fs": null,
+  "title": "Method of monitoring the integrity of a ground network",
+  "abstract": "The invention describes a method of monitoring a ground network (GN) of a number of electrical circuits (E) of a wind turbine (2), which method comprises the steps of locating a ground connector (GC) electrically connected to the ground network (GN); injecting a test signal (S) into the ground connector (GC); recording the reflection (SR) of the injected test signal (S); and evaluating the reflected test signal (SR) to deduce the health status of the ground network (GN). The invention further describes a ground network monitoring arrangement (1) and a method of calibrating such a ground network monitoring arrangement (1).",
+  "claims": "Claims 1. A method of monitoring a ground network (GN) of a number of electrical circuits (E) of a wind turbine (2), which ground network (GN) comprises earthing connections of a plurality of electrical circuits (E), which method comprises the steps of locating a ground connector (GC) electrically connected to the ground network (GN); injecting a test signal (S) into the ground connector (GC); recording the reflection (S R ) of the injected test signal (S); and evaluating the reflected test signal (S R ) to deduce the health status of the ground network (GN). 2. A method according to claim 2, comprising a step of obtaining reference data (140) from a database (14), which reference data (140) comprises a number of expected parameter values for a reflected test signal (S R ). 3. A method according to any of the preceding claims, wherein the step of evaluating the reflected test signal (S R ) comprises comparing a parameter value of the reflected test signal (S R ) to an expected parameter value. 4. A method according to any of the preceding claims, wherein a parameter is any of: a peak-to-peak amplitude, a delay, an attenuation, a phase, a phase-shift, a discrete Fourier coefficient. 5. A method according to any of the preceding claims, wherein the steps of the method are carried out at intervals during the lifetime of the wind turbine (2). 6. A method according to any of the preceding claims, comprising a step of recording the deduced health status of a ground network (GN) in a database. 7. A method according to any of the preceding claims, wherein the wind turbine (2) comprises a plurality of electrical systems (E), each with a ground network (GN) connected to electrical earth via a ground connector (GC), and the steps of the method are carried out successively for each of the plurality of ground connectors (GC). 8. A method according to any of the preceding claims, wherein the electrical circuits (E) of a wind turbine (2) comprise any of: an electrical generator (220), a pitch system (200), a cooling system (240), a yaw system (250), a ventilation system, an interior lighting system, an exterior lighting system, a winch system, a control system. 9. A ground network monitoring arrangement (1) comprising a signal generator (10) configured to generate a test signal (S); a means of injecting a test signal (S) into a ground connector (GC) electrically connected to the ground network (GN) of a number of electrical circuits (E) of a wind turbine (2); a receiver (11) configured to record a reflected test signal (S R) ; and an evaluation module (13) configured to deduce the health status of the ground network (GN) on the basis of the reflected test signal (S R) . 10. A ground network monitoring arrangement according to the preceding claim, wherein the evaluation module (13) is in communication with a database (14) of reference data (140) for a reflected test signal (S R) . 11. A ground network monitoring arrangement according to claim 9 or claim 10, wherein the evaluation module (13) is configured to establish the location of a fault in the ground network (GN). 12. A method of calibrating a ground network monitoring arrangement (1) according to any of claims 9 to 11, comprising the steps of locating a ground connector (GC) electrically connected to a ground network (GN) of a number of electrical circuits (E) of a wind turbine (2); injecting a test signal (S) into the ground connector (GC) and recording its reflection (S R) ; comparing the injected signal (S) to the reflected test signal (S R) ; and storing the results of the comparison as calibration data (D) for that ground network (GN). 13. A calibration method according to the preceding claim, wherein calibration is performed prior to commissioning the wind turbine (2). 14. A calibration method according to claim 12 or claim 13, wherein calibration is performed following a re-configuration of any electrical system (E) connected to a ground connector (GC).",
+  "classifications": {
+    "ipc": [
+      "G01R 27/20",
+      "F03D 17/00",
+      "G01R 31/11",
+      "G01R 31/52",
+      "F03D 80/80"
+    ],
+    "cpc": [],
+    "all": [
+      "G01R 27/20",
+      "F03D 17/00",
+      "G01R 31/11",
+      "G01R 31/52",
+      "F03D 80/80"
+    ],
+    "source": "csv"
+  }
+}

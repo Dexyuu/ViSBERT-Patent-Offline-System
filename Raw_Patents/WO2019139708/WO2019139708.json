@@ -1,0 +1,46 @@
+{
+  "application_id": "WO2019139708",
+  "application_id_fs": "WO2019139708",
+  "title": "Self-adjusting data processing system",
+  "abstract": "A method and apparatus for self-adjusting networks including internet-of-things (IoT) devices is provided. An exemplary system includes a source discovery system configured to identify if a source sending a message is in a database, and, if not, add the source to the database and rank the source by link metrics of messages received from the source. A sink discovery system is configured to identify if a sink receiving a message is in a database, and, if not, add the sink to the database. The sink discovery system is configured to rank the sink by link metrics of messages responded to by the sink. A dynamic mapping system is configured to create a dynamic map of communications between a source and a sink, and implement a self-healing subsystem to restore a loss of communications between a source and a sink.",
+  "claims": "Claims Claims What is claimed is: 1. An apparatus for self-adjusting processing for internet of things (loT) devices, comprising: a source discovery system configured to: identify if a source sending a message is in a database, and, if not, add the source to the database; and rank the source by link metrics of messages received from the source; a sink discovery system configured to: identify if a sink receiving a message is in a database, and, if not, add the sink to the database; and rank the sink by link metrics of messages responded to by the sink; a dynamic mapping system configured to: create a dynamic map of communications between a source and a sink; and implement a self-healing subsystem to restore a loss of communications between a source and a sink. 2. The apparatus of claim 1 , wherein the link metrics comprise packet delivery ratios, uptime, or latency, or any combinations thereof. 3. The apparatus of claim 1 , comprising an end node absence detector configure to detect a lack of communications from an end node within a window of time. 4. The apparatus of any of claims 1 to 3, wherein the end node absence detector comprises a complex event processing engine configured to determine a window of time during which a transmission from a source is expected. 5. The apparatus of any of claims 1 to 3, comprising an alerting system to signal when an expected communication from a source is not received within a window of time. 6. The apparatus of any of claims 1 to 3, comprising a dynamic trace scheduling system comprising a time-based scheduler configured to send a trace message in a reoccurring window of time. 7. The apparatus of any of claims 1 to 3, comprising a fog node communicatively coupled to a plurality of internet-of-things devices. 8. A method for adjusting data processing in a computing cloud, comprising: creating an alert message comprising a virtual payload; sending the alert message to a source at a regular interval; tracing the alert message through the computing cloud as it progresses to a sink; determining if the alert message is received in a time window; and performing a self-healing operation if the alert message is not received in the time window. 9. The method of claim 8, comprising mapping paths from the source to the sink as the alert message is sent between devices. 10. The method of either of claims 8 or 9, wherein the self-healing operation comprises selecting a new path for communications between source and sink. 1 1 . The method of either of claims 8 or 9, wherein the self-healing operation comprises restarting devices using an exponential back-off technique. 12. The method of either of claims 8 or 9, comprising creating a complex event processing (CEP) database. 13. The method of either of claims 8 or 9, comprising synching a complex event processing (CEP) database with a persistent database. 14. The method of either of claims 8 or 9, comprising learning a size for a time window for alert messages received using an exponential back-off technique. 15. The method of either of claims 8 or 9, comprising: sliding the time window for a device; opening events within the time window; closing the events within the time window; and determining if an expected event is within the time window. 16. A non-transitory, computer readable medium comprising code to direct a processor to: rank a path from a source to a sink; and create a dynamic source to sink mapping. 17. The non-transitory, computer readable medium of claim 16, comprising code to direct a processor to: detect an absence of a message from a device; and activate a self-healing technique. 18. The non-transitory, computer readable medium of claim 16, comprising code to direct a processor to: send a trace message to device; and track the path from the source to the sink. 19. The non-transitory, computer readable medium of any of claims 16 to 18, comprising code to direct a processor to: \n\n discover a source based, at least in part, on messages sent from the source; and add the source to a database. 20. The non-transitory, computer readable medium of any of claims 16 to 18, comprising code to direct a processor to: discover a sink based, at least in part, on messages sent from the sink; and add the sink to a database. 21 . An apparatus for self-adjusting processing for internet of things (loT) devices, comprising: a source discovery system configured to: identify if a source sending a message is in a database, and, if not, add the source to the database; and rank the source by link metrics of messages received from the source; a sink discovery system configured to: identify if a sink receiving a message is in a database, and, if not, add the sink to the database; and rank the sink by link metrics of messages responded to by the sink; and a means to self-heal a loss of communications between the source and the sink. 22. The apparatus of claim 21 , comprising a means to detect a loss of communications from an end node. 23. The apparatus of either of claims 21 or 22, comprising a means to determine a time window during which the message is expected. 24. The apparatus of either of claims 21 or 22, comprising a means to alert a user when the message does not arrive within an expected time window. 25. The apparatus of either of claims 21 or 22, comprising a means to map a plurality paths between a data source and a data sink.",
+  "classifications": {
+    "ipc": [
+      "H04L 41/00",
+      "H04L 41/06",
+      "H04L 41/0654",
+      "G06F 16/00",
+      "G06F 16/20",
+      "G06F 16/24",
+      "G06F 16/245",
+      "H04L 43/00",
+      "H04L 43/08",
+      "H04L 43/0876",
+      "H04W 8/00",
+      "H04W 8/005",
+      "H04L 12/00",
+      "H04L 12/28",
+      "H04L 12/2803"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 41/00",
+      "H04L 41/06",
+      "H04L 41/0654",
+      "G06F 16/00",
+      "G06F 16/20",
+      "G06F 16/24",
+      "G06F 16/245",
+      "H04L 43/00",
+      "H04L 43/08",
+      "H04L 43/0876",
+      "H04W 8/00",
+      "H04W 8/005",
+      "H04L 12/00",
+      "H04L 12/28",
+      "H04L 12/2803"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019139708"
+}

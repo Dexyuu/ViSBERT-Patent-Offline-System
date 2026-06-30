@@ -1,0 +1,21 @@
+{
+  "application_id": "WO2020070483",
+  "application_id_fs": null,
+  "title": "Data processing apparatus and method",
+  "abstract": "A data processing apparatus comprising circuitry configured to receive an electronic document comprising one or more predetermined types of information; extract information of the one or more predetermined types from the electronic document; generate one or more images each comprising a respective portion of the extracted information; and generate a video image comprising the one or more generated images.",
+  "claims": "Claims 1. A data processing apparatus comprising circuitry configured to: receive an electronic document comprising one or more predetermined types of information; extract information of the one or more predetermined types from the electronic document; generate one or more images each comprising a respective portion of the extracted information; and generate a video image comprising the one or more generated images. 2. A data processing apparatus according to claim 1 , wherein one of the one or more predetermined types of information is text. 3. A data processing apparatus according to claim 2, wherein: the circuitry is configured to generate an audio track of the generated video image by performing a text-to-speech operation on the text and temporally aligning the display of one or more images of the generated video image comprising the text with the generated audio track. 4. A data processing apparatus according to any preceding claim, wherein one of the one or more predetermined types of information is an image. 5. A data processing apparatus according to preceding claim, wherein: one of the one or more predetermined types of information is an embedded video image; and the generated video image comprises a portion of the embedded video image. 6. A data processing apparatus according to any preceding claim, wherein: each of the one or more predetermined types of information in the electronic document is identified by a respective identifier in the document; and the circuitry is configured to extract information from the electronic document identified by one or more of the identifiers. 7. A data processing apparatus according to claim 6, wherein: one or more of the identifiers indicates a level in a hierarchy of the predetermined type of information associated with that identifier; and \n\n the circuitry is configured to determine the temporal order of the one or more generated images in the generated video image based on levels in the hierarchy of the information extracted from the electronic document. 8. A data processing apparatus according to claim 6 or 7, wherein the electronic document is a webpage and each of the identifiers is a Hyptertext Markup Lanuage (HTML) tag indicative of a type of information included on the webpage. 9. A data processing apparatus according to any preceding claim, wherein the circuitry is configured to transmit the generated video image to another data processing apparatus capable of playing back the generated video image. 10. A data processing apparatus according to claim 3, wherein the circuitry is configured to separated the generated audio track from the generated video image and transmit the generated audio track to another data processing apparatus capable of playing back the audio track. 1 1. A data processing method comprising: receiving an electronic document comprising one or more predetermined types of information; extracting information of the one or more predetermined types from the electronic document; generating one or more images each comprising a respective portion of the extracted information; and generating a video image comprising the one or more generated images. 12. A program for controlling a computer to perform a method according to claim 1 1 . 13. A storage medium storing a computer program according to claim 12.",
+  "classifications": {
+    "ipc": [
+      "G06F 17/22",
+      "G06F 16/957",
+      "G10L 13/00"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 17/22",
+      "G06F 16/957",
+      "G10L 13/00"
+    ],
+    "source": "csv"
+  }
+}

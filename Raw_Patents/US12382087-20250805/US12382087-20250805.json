@@ -1,0 +1,32 @@
+{
+  "title": "HMVP table improvements",
+  "abstract": "The disclosure relates to improvement on HMVP table. A method for processing video includes: maintaining, during a conversion between a current block of visual media data and a corresponding coded representation of the visual media data, a table storing history based motion vector prediction (HMVP) candidates which include motion information based on previously coded blocks; performing the conversion of the current block at least based on the table, wherein the table is of a HMVP table size which depends on one or more motion candidate lists, and the HMVP table size is a maximum number of candidates stored in the table.",
+  "claims": "1. A method of processing video data, comprising: maintaining, during a conversion between a current block of visual media data and a bitstream of the visual media data, a table storing history based motion vector prediction (HMVP) candidates which include motion information based on previously coded blocks; and performing the conversion of the current block at least based on the table, wherein the table is of an HMVP table size which depends on sizes of one or more motion candidate lists, and wherein the HMVP table size is a maximum number of candidates stored in the table, wherein the HMVP table size depends on sizes of the one or more motion candidate lists, and wherein the HMVP table size is a function of a regular merge list size, a geometry partition mode merge list size, a intra block copy (IBC) merge list size, an inter advanced motion vector prediction (AMVP) list size, an inter IBC list size, wherein the function is a max ( ) function which returns a maximum value among several inputs, wherein the HMVP table size is max (regular merge list size minus K0, geometry partition mode merge list size minus K1, intra block copy (IBC) merge list size minus K2), wherein K0=K1=K2=1.",
+  "patent_id": "US12382087-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/52",
+      "H04N 19/105",
+      "H04N 19/119",
+      "H04N 19/139",
+      "H04N 19/157",
+      "H04N 19/176",
+      "H04N 19/196",
+      "H04N 19/40",
+      "H04N 19/593"
+    ],
+    "all": [
+      "H04N 19/52",
+      "H04N 19/105",
+      "H04N 19/119",
+      "H04N 19/139",
+      "H04N 19/157",
+      "H04N 19/176",
+      "H04N 19/196",
+      "H04N 19/40",
+      "H04N 19/593"
+    ],
+    "source": "converted"
+  }
+}

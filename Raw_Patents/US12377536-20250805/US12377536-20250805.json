@@ -1,0 +1,20 @@
+{
+  "title": "Imitation robot control stack models",
+  "abstract": "Implementations are provided for training an imitation robot control stack model to approximate the behavior of a robot control stack. In various implementations one or more training examples for training an imitation robot control stack model may be received. The training examples may comprise: input data to a robot control stack, wherein the input data comprises (i) a high-level command for controlling a robot, and (ii) current state data of the robot and an environment, and output data generated based on processing, by the robot control stack, the input data to the robot control stack, wherein the output data comprises a low-level command for controlling the robot according to the high-level command. The imitation robot control stack model may be trained based on the one or more training examples. Operation of the robot may be simulated based in part on controlling the operation of the robot using the trained imitation robot control stack model.",
+  "claims": "1. A method implemented using one or more processors, comprising: receiving one or more training examples for training an imitation robot control stack model, each of the one or more training examples comprising: input data to a real robot control stack, wherein the input data comprises (i) a high-level command for controlling a robot that implements the real robot control stack, and (ii) current state data of the robot and an environment, and output data generated based on processing, by the real robot control stack, the input data to the real robot control stack, wherein the output data comprises actuator signals for controlling the robot according to the high-level command; training the imitation robot control stack model based on the one or more training examples to imitate operation of the real robot control stack; simulating operation of the robot based in part on controlling the operation of the robot by using the trained imitation robot control stack model to generate actuator signals for the robot; and based on the simulated operation using the trained imitation robot control stack model, training a robot control policy to generate additional high-level commands.",
+  "patent_id": "US12377536-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B25J 9/163",
+      "B25J 9/161",
+      "B25J 9/1671"
+    ],
+    "all": [
+      "B25J 9/163",
+      "B25J 9/161",
+      "B25J 9/1671"
+    ],
+    "source": "converted"
+  }
+}

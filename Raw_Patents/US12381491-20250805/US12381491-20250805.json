@@ -1,0 +1,22 @@
+{
+  "title": "Method and apparatus for suppressing grid voltage imbalance",
+  "abstract": "The present application provides a method and apparatus for suppressing grid voltage imbalance. By obtaining a 90Â° lagged grid voltage through a differential tracker, calculating instantaneous power using the 90Â° lagged grid voltage, and then calculating a power converter voltage according to the instantaneous power, the suppression of grid voltage imbalance may be achieved.",
+  "claims": "1. A method applied to a pulse width modulation (PWM) rectifier, the method comprising: acquiring a grid voltage and a grid current; calculating, according to the grid voltage, a 90° lagged grid voltage by a differential tracker; calculating instantaneous power according to the 90° lagged grid voltage and the grid current; obtaining a first bias by obtaining a first difference between an instantaneous active power and an active power given and then inputting the first difference to a first proportional-integral controller and a first resonance controller; calculating a power converter voltage using the first bias and according to the instantaneous power; and obtaining, according to the power converter voltage, a corresponding pulse sequence to suppress grid voltage imbalance.",
+  "patent_id": "US12381491-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02M 7/219",
+      "H02M 1/12",
+      "H02J 3/26",
+      "H02M 1/4216"
+    ],
+    "all": [
+      "H02M 7/219",
+      "H02M 1/12",
+      "H02J 3/26",
+      "H02M 1/4216"
+    ],
+    "source": "converted"
+  }
+}

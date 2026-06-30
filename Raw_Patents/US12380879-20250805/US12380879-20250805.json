@@ -1,0 +1,26 @@
+{
+  "title": "Distilling to a target device based on observed query patterns",
+  "abstract": "A method includes receiving user queries directed toward a cloud-based assistant service. For each received user query directed toward the cloud-based assistant service, the method also includes extracting one or more attributes from the user query and logging the user query into one or more of a plurality of category buckets based on the one or more attributes extracted from the user query. The method also includes determining when at least one of the plurality of category buckets includes a threshold number of the user queries logged into the at least one category bucket, and when the at least one of the plurality of category buckets includes the threshold number of the user queries, generating a distilled model of the cloud-based assistant service. The distilled model of the cloud-based assistant service is configured to execute on one or more target client devices.",
+  "claims": "11. A system comprising: data processing hardware; and memory hardware in communication with the data processing hardware and storing instructions that when executed on the data processing hardware cause the data processing hardware to perform the operations comprising: receiving a distilled model identified for execution on a target client device, the distilled model related to a corresponding cloud-based model; receiving at least one of memory constraints or processing constraints of the target client device; selecting a model configuration for the distilled model based on the at least one of the memory constraints or the processing constraints of the target client device; processing, using the distilled model having the selected model configuration, an evaluation data set to generate evaluation results indicating an accuracy of the distilled model; and based on the evaluation results indicating the accuracy of the distilled model, deploying the distilled model having the selected model configuration to the target client device.",
+  "patent_id": "US12380879-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 15/065",
+      "G10L 15/01",
+      "G10L 15/063",
+      "G10L 15/18",
+      "G10L 15/26",
+      "G10L 15/30"
+    ],
+    "all": [
+      "G10L 15/065",
+      "G10L 15/01",
+      "G10L 15/063",
+      "G10L 15/18",
+      "G10L 15/26",
+      "G10L 15/30"
+    ],
+    "source": "converted"
+  }
+}

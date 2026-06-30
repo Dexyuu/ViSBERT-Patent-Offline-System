@@ -1,0 +1,28 @@
+{
+  "title": "Electroluminescent display apparatus",
+  "abstract": "An electroluminescent display apparatus may include a pixel including a driving element having a gate electrode connected to a data line and a source electrode connected to a reference voltage line and a pixel driving circuit applying a sensing data voltage to the gate electrode of the driving element through the data line, detecting a source electrode voltage of the driving element, shifted from a sensing reference voltage based on the sensing data voltage, through the reference voltage line to obtain a detection voltage, calculating an offset voltage based on the detection voltage, and lowering a level of the sensing data voltage based on the offset voltage, in a plurality of vertical blank periods.",
+  "claims": "1. An electroluminescent display apparatus comprising: a pixel including a driving element including a gate electrode connected to a data line and a source electrode connected to a reference voltage line; and a pixel driving circuit for applying an n th (where n is a natural number of 2 or more) sensing data voltage to the gate electrode of the driving element through the data line, storing a source electrode voltage of the driving element, shifted from a sensing reference voltage based on the n th sensing data voltage, as an n th offset voltage, and calculating an n th detection voltage, which is lowered by the n th offset voltage, from the n th sensing data voltage, wherein: the pixel driving circuit is configured to apply an n−1 th sensing data voltage to the gate electrode of the driving element in a vertical blank period of an n−1 th frame preceding an n th frame; and the n th sensing data voltage is lower than the n−1 th sensing data voltage.",
+  "patent_id": "US12380841-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/32",
+      "G09G 2300/0828",
+      "G09G 2300/0852",
+      "G09G 2310/0272",
+      "G09G 2310/0294",
+      "G09G 2310/061",
+      "G09G 2310/08"
+    ],
+    "all": [
+      "G09G 3/32",
+      "G09G 2300/0828",
+      "G09G 2300/0852",
+      "G09G 2310/0272",
+      "G09G 2310/0294",
+      "G09G 2310/061",
+      "G09G 2310/08"
+    ],
+    "source": "converted"
+  }
+}

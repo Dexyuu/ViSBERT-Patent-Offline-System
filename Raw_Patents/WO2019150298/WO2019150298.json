@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2019150298",
+  "application_id_fs": "WO2019150298",
+  "title": "Method and apparatus for session-based watermarking of streamed content",
+  "abstract": "Watermarking of a content stream is accomplished in a session based manner to provide watermarking based on a uniquely generated manifest that will result in a stream that allows for unique identification of information. The manifest specifies a sequence of watermarks for successive segments of a content stream designated for a specific receiver. The system and method leverages existing content distribution infrastructure and has many of the benefits of conventional head-end watermarking, allows unique identification of small segments of the data stream and reduces content distribution network storage requirements.",
+  "claims": "Claims CLAIMS  What is claimed: 1 . A method for watermarking segments of a content stream to allow multiple content streams respectively associated with receivers to be distinguished from one another, the method comprising: (a) receiving from a receiver a request for the content stream; (b) in response to the request for the content stream, obtaining a watermark sequence associated with the request, the watermark sequence indicating successive watermarks to be respectively applied to successive segments of the content stream provided in response to the request; (c) receiving a request for a specified content segment of the content stream; (d) returning, as a watermarked segment, the specified content segment with the watermark specified by the watermark sequence; (e) repeating steps (c) and (d) for successive content segments of the content stream; and (f) packaging the watermarked content segments to create the content stream. 2. The method of claim 1 , further comprising transmitting the content stream to the receiver. 3. The method of claim 1 , wherein the request includes receiver identification information and wherein the watermark sequence is associated with the request based on the receiver identification information. 4. The method of claim 1 , wherein the watermark sequence is one of plural watermark sequences stored in a manifest. 5. The method of claim 4, wherein the watermark sequence is associated with the request based on receiver identification information in the manifest. 6. The method of claim 1 , wherein the watermark sequence includes at least one null watermark. 7. The method of claim 1 , wherein said returning comprises embedding the watermark specified by the sequence in an instance of the content segment. 8.The method of claim 1 , wherein said returning comprises fetching a watermarked content segment from a cache. 9. The method of claim 1 , wherein the watermark sequence associated with the receiver is generated in response to the request for content. 10. The method of claim 1 , wherein obtaining a watermark sequence associated with the request comprises receiving the request for content from the client and returning the watermark sequence as manifest data to the client, whereby the client uses the manifest data to generate the request for a specified content segment. 1 1 . The method of claim 1 , further comprising: extracting at least one embedded watermark from a content stream; and determining the source of the content stream based on the extracting step. 12. A system for watermarking segments of a content stream to allow multiple content streams respectively associated with receivers to be distinguished from one another, the system comprising: at least one processor; and \n\n at least one memory operatively coupled to the at least one processor and storing computer readable instructions which, when executed by the at least one processor, cause the at least one processor to: (a) receive from a receiver a request for the content stream; (b) in response to the request for the content stream, obtain a watermark sequence associated with the request, the watermark sequence indicating successive watermarks to be respectively applied to successive segments of the content stream provided in response to the request; (c) receive a request for a specified content segment of the content stream; (d) return, as a watermarked segment, the specified content segment with the watermark specified by the watermark sequence; (e) repeat (c) and (d) for successive content segments of the content stream; and (f) package the watermarked content segments to create the content stream. 13. The system of claim 12, wherein the content stream is transmitted to the receiver. 14. The system of claim 12, wherein the request includes receiver identification information and wherein the watermark sequence is associated with the request based on the receiver identification information. 15. The system of claim 12, wherein the watermark sequence is one of plural watermark sequences stored in a manifest. 16. The system of claim 15, wherein the watermark sequence is associated with the request based on receiver identification information in the manifest. 17. The system of claim 12, wherein the watermark sequence includes at least one null watermark. 18. The system of claim 12, wherein returning comprises embedding the watermark specified by the sequence in an instance of the content segment. 19.The system of claim 12, wherein returning comprises fetching a watermarked content segment from a cache. 20. The system of claim 12, wherein the watermark sequence associated with the receiver is generated in response to the request for content. 21 . The system of claim 12, wherein obtaining a watermark sequence associated with the request comprises receiving the request for content from the client and returning the watermark sequence as manifest data to the client, whereby the client uses the manifest data to generate the request for a specified content segment. 22. The system of claim 12, wherein the at least one embedded watermark is extracted from a content stream and wherein the source of the content stream is determined based on the at least one embedded watermark. 23. Non-transient computer readable media having instructions stored thereon for watermarking segments of a content stream to allow multiple content streams respectively associated with receivers to be distinguished from one another, the instructions, when executed by at least one processor, causing the at least one processor to: (a) receive from a receiver a request for the content stream; (b) in response to the request for the content stream, obtain a watermark sequence associated with the request, the watermark sequence indicating successive watermarks to be respectively applied to successive segments of the content stream provided in response to the request; (c) receive a request for a specified content segment of the content stream; \n\n (d) return, as a watermarked segment, the specified content segment with the watermark specified by the watermark sequence; (e) repeat (c) and (d) for successive content segments of the content stream; and (f) package the watermarked content segments to create the content stream.",
+  "classifications": {
+    "ipc": [
+      "H04N 21/00",
+      "H04N 21/20",
+      "H04N 21/23",
+      "H04N 21/238",
+      "H04N 21/2389",
+      "H04N 21/236",
+      "H04N 21/60",
+      "H04N 21/63",
+      "H04N 21/637",
+      "H04N 21/6377",
+      "H04N 21/80",
+      "H04N 21/83",
+      "H04N 21/835",
+      "H04N 21/8352",
+      "H04N 21/8358",
+      "H04N 21/845",
+      "H04N 21/8456"
+    ],
+    "cpc": [],
+    "all": [
+      "H04N 21/00",
+      "H04N 21/20",
+      "H04N 21/23",
+      "H04N 21/238",
+      "H04N 21/2389",
+      "H04N 21/236",
+      "H04N 21/60",
+      "H04N 21/63",
+      "H04N 21/637",
+      "H04N 21/6377",
+      "H04N 21/80",
+      "H04N 21/83",
+      "H04N 21/835",
+      "H04N 21/8352",
+      "H04N 21/8358",
+      "H04N 21/845",
+      "H04N 21/8456"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019150298"
+}

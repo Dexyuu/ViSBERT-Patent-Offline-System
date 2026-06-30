@@ -1,0 +1,46 @@
+{
+  "application_id": "WO2025008906",
+  "application_id_fs": "WO2025008906",
+  "title": "System and method for providing a 4t4r 5g new radio (nr) pico small cell (psc)",
+  "abstract": "The present disclosure relates to a Four-Transmit, Four-Receive (4T4R) Fifth 5 Generation (5G) New Radio (NR) Pico Small Cell (PSC). The 4T4R 5G NR PSC includes an Integrated Baseband and Transceiver Board (IBTB) (122) with a clock section including system synchronizers configured based on a GPS, a PTP, a holdover, and an RF Front End Board (RFEB) (124) connected with the IBTB (122). The RFEB (124) includes four transmit chains with a matching Balun, pre-10 driver amplifier, and RF power amplifier; four receive chains with a low noise amplifier, a band pass SAW filter, and a matching network; and four observation chains for DPD feedback paths. The 4T4R 5G NR PSC is designed to offload heavy traffic from macro cells, providing enhanced signal in high traffic environments. The method involves integrating and configuring the IBTB (122) and RFEB (124), 15 implementing thermal management, and maintaining synchronization with external systems.",
+  "claims": "Claims CLAIMS: 1. A Four-Transmit, Four- Receive (4T4R) Fifth Generation (5G) New Radio (NR) Pico Small Cell (PSC) for managing network traffic, the 4T4R 5G NR PSC comprising: an Integrated Baseband and Transceiver Board (IBTB) (122) with a clock section including a plurality of system synchronizers configured based on at least one of a Global Positioning System (GPS), a Precision Time Protocol (PTP) and a holdover; a Radio-Frequency Front End Board (RFEB) (124) configured to connect with the IBTB (122) to provide a pre-defined output; a heat sink comprising a plurality of heat pipes having high thermal conductivity and vertical fins for enhancing heat dissipation; and a plurality of temperature sensors on the IBTB (122) to measure a temperature of each of a set of sections of the IBTB (122) for thermal management, wherein the 4T4R 5G NR PSC is configured to offload heavy traffic from a plurality of macro cells and provide an enhanced signal in traffic environment above pre-defined threshold. 2. The 4T4R 5G NR PSC as claimed in claim 1, wherein the IBTB (122) integrates an Application-Specific Integrated Circuit (ASIC) transceiver chipset for processing a first layer and a baseband processor chipset for processing a second layer and a third layer. 3. The 4T4R 5G NR PSC as claimed in claim 1, wherein the clock section includes a plurality of ultra-low noise clock generation Phase-Locked Loops (PLLs) (306), a plurality of programmable oscillators, and the plurality of system synchronizers (304) to maintain synchronization with one or more external systems. 4. The 4T4R 5G NR PSC as claimed in claim 1, wherein the RFEB (124) comprises: a pre-defined set of transmit chains for signal transmission, each with a matching Balun, a pre-driver amplifier, and a RF power amplifier; a pre-defined set of receive chains for signal reception, each with a low noise amplifier, a band pass Surface Acoustic Wave (SAW) filter, and a matching network; and a pre-defined set of observation chains, each acting as a Digital PreDistortion (DPD) feedback path from power amplifiers (PAs) to the ASIC transceiver chipset for linearization. 5. The 4T4R 5G NR PSC as claimed in claim 1, wherein the heat sink incorporating the plurality of heat pipes are configured to provide a uniform heat distribution and is designed to enhance an overall product size and weight efficiency. 6. The 4T4R 5G NR PSC as claimed in claim 1, wherein the RFEB (126) in connection with the IBTB (122) is configured to provide the pre-defined output. 7. A method (500) of designing a Four-Transmit, Four-Receive (4T4R) 5G New Radio (NR) Pico Small Cell (PSC) for managing network traffic, the method comprising: integrating (502) an Integrated Baseband and Transceiver Board (IBTB) (122) with a clock section including a plurality of system synchronizers configured based on a Global Positioning System (GPS), a Precision Time Protocol (PTP), and a holdover; connecting (504) a Radio Frequency Front End Board (RFEB) (126) with the IBTB (122) and to provide a pre-defined output; implementing (506) a heat sink with a plurality of heat pipes having high thermal conductivity and vertical fins for enhancing heat dissipation; and \n\n measuring (508) via a set of temperature sensors integrated on the IBTB (122), a temperature of each of a set of sections of the IBTB (122) for thermal management, wherein the 4T4R 5G NR PSC is configured to offload heavy traffic from a plurality of macro cells and provide an enhanced signal in a traffic r environment above a pre-defined threshold. 8. The method (500) as claimed in claim 7, further comprising integrating in the IBTB (122), an Application-Specific Integrated Circuit (ASIC) transceiver chipset for processing a first layer and a Baseband Processor chipset for processing a second layer and a third layer. 9. The method (500) as claimed in claim 7, wherein the clock section includes a plurality of ultra-low noise clock generation Phased-Locked Loops (PLLs) (306), a plurality of programmable oscillators, and the plurality of system synchronizers (304) to maintain synchronization with one or more external systems. 10. The method (500) as claimed in claim 7, wherein the RFEB (124) comprises: a pre-defined set of transmit chains for signal transmission, each with a matching Balun, a pre-driver amplifier, and a RF power amplifier; a pre-defined set of receive chains for signal reception, each with a low noise amplifier, a band pass Surface Acoustic Wave (SAW) filter, and a matching network; and a pre-defined set of observation chains, each acting as a Digital PreDistortion (DPD) feedback paths from power amplifiers (PAs) to the ASIC transceiver chipset for linearization. 11. The method (500) as claimed in claim 7, wherein the heat sink incorporates the plurality of heat pipes configured to provide a uniform heat distribution and is designed to enhance an overall product size and weight efficiency. 12. The method (500) as claimed in claim 7, wherein the RFEB (126) in connection with the IBTB (122) is configured to provide the pre-defined output. 13. A computer program product comprising a non-transitory computer-readable medium comprising instructions that, when executed by one or more processors, cause the one or more processors to: integrate (502) an Integrated Baseband and Transceiver Board (IBTB) (122) with a clock section including a plurality of system synchronizers configured based on a Global Positioning System (GPS), a Precision Time Protocol (PTP), and a holdover; connect (504) a Radio Frequency Front End Board (RFEB) (124) with the IBTB (122) and to provide a pre-defined output; implement (506) a heat sink with a plurality of heat pipes having high thermal conductivity and vertical fins for enhancing heat dissipation; and measure (508) via a set of temperature sensors integrated on the IBTB (122), a temperature of each of a set of sections of the IBTB (122) for thermal management, and offload heavy traffic from a plurality of macro cells and provide an enhanced signal in a traffic environment above a pre-defined threshold.",
+  "classifications": {
+    "ipc": [
+      "H04B 1/00",
+      "H04B 3/00",
+      "H04B 13/00",
+      "H04B 1/38",
+      "H04B 1/40",
+      "H04B 1/06",
+      "H04B 1/16",
+      "H04B 1/18",
+      "H04B 1/02",
+      "H04B 1/04",
+      "H04B 2001/0408",
+      "H04B 2001/0425",
+      "H04W 28/00",
+      "H04W 28/02",
+      "H04W 28/08"
+    ],
+    "cpc": [],
+    "all": [
+      "H04B 1/00",
+      "H04B 3/00",
+      "H04B 13/00",
+      "H04B 1/38",
+      "H04B 1/40",
+      "H04B 1/06",
+      "H04B 1/16",
+      "H04B 1/18",
+      "H04B 1/02",
+      "H04B 1/04",
+      "H04B 2001/0408",
+      "H04B 2001/0425",
+      "H04W 28/00",
+      "H04W 28/02",
+      "H04W 28/08"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025008906"
+}

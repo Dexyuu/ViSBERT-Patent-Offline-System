@@ -1,0 +1,29 @@
+{
+  "application_id": "WO2018232314",
+  "application_id_fs": null,
+  "title": "Integrated mobile point-of-sale and point-of-consumption platform",
+  "abstract": "A distributed system is provided. The system includes a point-of-sale system adapted to conduct a transaction with one or more consumable items and a database coupled to the point-of- sale system over a communication network. The database is adapted to map the transaction with the one or more consumable items to an indicator of authorized entity. A point-of-consumption system is coupled to the communication network and is adapted to permit access to the one or more consumable items responsive to the indicator of an authorized entity.",
+  "claims": "Claims 1. A system, comprising: at least one consumable product having a unique identifier; an entity authorized to offer the consumable product to a user, the entity having a virtual token associated therewith; at least one server hosting a database mapping at least one unique identifier to at least one virtual token; and a consumption device in communication with the server, wherein the consumption device selectively permits consumption of the consumable product in response to the unique identifier being associated with the virtual token in the database. 2. The system of claim 1, wherein the consumption device comprises a juice press. 3. The system of claim 1, wherein the consumable product comprises a juice pack. 4. The system of claim 1, wherein the entity comprises a retailer of the consumable product. 5. The system of claim 1, wherein the database associates the unique identifier with the virtual token in response to a purchase transaction including the consumable product. 6. The system of claim 1, wherein the database further comprises at least one parameter for determining whether consumption of the consumable product is permitted. 7. The system of claim 6, wherein the consumption device further selectively permits consumption of the consumable product in response to the consumable product satisfying the at least one parameter. 8. The system of claim 6, wherein the consumption device is configured to deny access to the consumable product in response to the consumable product failing to satisfy the at least one parameter. 9. The system of claim 6, wherein the at least one parameter is selected from the group consisting of a time-related restriction, a location-based restriction, and a juice press-based restriction. 10. The system of claim 1, further comprising a second database recording consumption of the consumable product. 11. The system of claim 1, wherein the consumption device further comprises a reader to scan the unique identifier of the consumable product. 12. A method, comprising: providing at least one consumable product having a unique identifier; associating a virtual token with an entity authorized to offer the consumable product to a user; determining, via a server, whether the unique identifier is associated with the virtual token in a database; and selectively permitting, via a consumption device, consumption of the consumable product in the event the unique identifier is associated with the virtual token in the database. 13. The method of claim 12, wherein the consumption device comprises a juice press. 14. The method of claim 12, wherein the consumable product comprises a juice pack. 15. The method of claim 12, wherein the entity comprises a retailer of the consumable product. 16. The method of claim 12, further comprising associating the virtual token with the unique identifier in response to a purchase transaction including the consumable product. 17. The method of claim 12, wherein the database further comprises at least one parameter for determining whether consumption of the consumable product is permitted. 18. The method of claim 17, wherein selectively permitting consumption of the consumable product further comprises determining that the consumable product satisfies the at least one parameter. 19. The method of claim 17, wherein the at least one parameter is selected from the group consisting of a time-related restriction, a location-based restriction, and a juice press-based restriction. 20. The method of claim 12, further comprising recording consumption of the consumable product in a second database.",
+  "classifications": {
+    "ipc": [
+      "A23L 2/04",
+      "A23N 1/00",
+      "A23N 1/02",
+      "A47J 19/02",
+      "A47J 19/06",
+      "B65D 85/804",
+      "G06F 19/00"
+    ],
+    "cpc": [],
+    "all": [
+      "A23L 2/04",
+      "A23N 1/00",
+      "A23N 1/02",
+      "A47J 19/02",
+      "A47J 19/06",
+      "B65D 85/804",
+      "G06F 19/00"
+    ],
+    "source": "csv"
+  }
+}

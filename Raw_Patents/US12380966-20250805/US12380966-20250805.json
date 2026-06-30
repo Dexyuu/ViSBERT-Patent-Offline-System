@@ -1,0 +1,18 @@
+{
+  "title": "AA2CDS:pre-trained amino acid-to-codon sequence mapping enabling efficient expression and yield optimization",
+  "abstract": "Systems, methods, and apparatus for generating a DNA/gene sequence output, given a protein sequence input. In one aspect, the protein-to-DNA mapping system includes a protein language model (embedder) that generates a high-dimensional protein embedding from a low-dimensional protein sequence input; and the system includes a protein-to-DNA translator that processes the protein embedding and generates a DNA sequence output, based on the protein embedding. The protein-to-DNA translator is a neural network (e.g., a Seq2Seq model) and is configured with translation coefficients that may be trained with a training dataset, comprising the training protein and DNA embeddings. Training the translation coefficients can include supervised learning that maps the protein embedding (input) to a DNA sequence (target). The systems, methods, and apparatus may increase protein yield/expression, improve protein functionality, enhance gene therapy efficacy, streamline synthetic biology design, and/or broaden functional genomics studies, all leading to reduced costs, better performance, and increased accessibility.",
+  "claims": "1. A system, comprising: memory storing an inference protein sequence that requires translation from a protein input space to a codon output space; a protein embedder configured to process the inference protein sequence through protein embedding coefficients to generate an inference protein embedding, wherein the protein embedding coefficients are trained to encode the inference protein sequence in a higher-dimensional protein latent space, wherein each instance of the inference protein embedding is M-dimensional, wherein each instance of the inference protein sequence is N-dimensional, and wherein M is greater than N; a protein-to-codon translator configured with translation coefficients trained using training protein and codon embedding pairs that are higher-dimensional representations of corresponding training protein and codon pairs, wherein the protein-to-codon translator is an encoder-decoder neural network configured with an encoder neural network and a decoder neural network, and wherein the protein-to-codon translator provides an embedding space that generates the higher-dimensional representations, wherein each of the training protein and codon embedding pairs are M-dimensional, wherein each of the training protein and codon pairs are N-dimensional, and wherein M is greater than N; an inference logic configured to process the inference protein embedding through the translation coefficients by sampling the embedding space using the protein-to-codon translator to generate an inference codon embedding; and a reverse mapping logic configured to process the inference codon embedding through the translation coefficients by sampling the embedding space using the protein-to-codon translator to generate an inference codon sequence, wherein the inference codon sequence is a translation of the inference protein sequence in the codon output space, wherein each instance of the inference codon embedding is M-dimensional, wherein each instance of the inference codon sequence is N-dimensional, and wherein M is greater than N.",
+  "patent_id": "US12380966-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16B 40/20",
+      "G06N 3/123"
+    ],
+    "all": [
+      "G16B 40/20",
+      "G06N 3/123"
+    ],
+    "source": "converted"
+  }
+}

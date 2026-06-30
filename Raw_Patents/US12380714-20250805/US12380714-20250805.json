@@ -1,0 +1,28 @@
+{
+  "title": "Methods and apparatus to perform dense prediction using transformer blocks",
+  "abstract": "Methods, apparatus, systems and articles of manufacture disclosed herein perform dense prediction of an input image using transformers at an encoder stage and at a reassembly stage of an image processing system. A disclosed apparatus includes an encoder with an embedder to convert an input image to a plurality of tokens representing features extracted from the input image. The tokens are embedded with a learnable position embedding. The encoder also includes one or more transformers configured in a sequence of stages to relate the tokens to each other. The apparatus further includes a decoder that includes one or more of reassemblers to assemble the tokens into feature representations, one or more of fusion blocks to combine the feature representations to generate a final feature representation, and an output head to generate a dense prediction based on the final feature representation and based on an output task.",
+  "claims": "1. An apparatus comprising: a non-transitory computer-readable memory storing instructions; and at least one processor circuit to be programmed by the instruction to: divide an input image into non-overlapping patches; flatten the non-overlapping patches into vectors, generate input tokens from the vectors by using a linear projection, the input tokens representing features in the input image, process the input tokens in a plurality of transformer stages, obtain output tokens from the plurality of transformer stages, each output token obtained from a different one of the plurality of transformer stages, reassemble the output tokens into image-like representations, each output token reassembled into a different one of the image-like representations, fuse the image-like representations, and generate an image representing a dense prediction based on the fusing the image-like representations.",
+  "patent_id": "US12380714-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 3/4046",
+      "G06N 3/04",
+      "G06T 5/00",
+      "G06T 2207/20016",
+      "G06T 2207/20021",
+      "G06T 2207/20084",
+      "G06T 2207/20221"
+    ],
+    "all": [
+      "G06T 3/4046",
+      "G06N 3/04",
+      "G06T 5/00",
+      "G06T 2207/20016",
+      "G06T 2207/20021",
+      "G06T 2207/20084",
+      "G06T 2207/20221"
+    ],
+    "source": "converted"
+  }
+}

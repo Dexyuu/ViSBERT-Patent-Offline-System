@@ -1,0 +1,24 @@
+{
+  "title": "Low-power analog vehicle monitoring system",
+  "abstract": "Provided is an analog-based machine learning apparatus and method that enables low-power sensing and smarter determinations on a vehicle. As an example, the method may include storing a machine learning model and configuration data for an analog processor in a storage device of a digital processor in a vehicle, receiving, via the analog processor, sensor data from one or more hardware sensors that are communicably coupled to the analog processor, extracting features from the sensor data, determining an event that occurred based on the configuration data and execution of a machine learning model on the extracted features of the sensor data, and storing an identifier of the event in the storage device.",
+  "claims": "1. A system, comprising: a digital processor communicably coupled to a storage device storing a machine learning model and configuration data for an analog processor; and the analog processor communicably coupled to the digital processor and one or more hardware sensors, the analog processor being configured to receive sensor data sensed by the one or more hardware sensors and operate on the sensor data via analog circuitry, without relying on digital circuitry, using installed signal chain logic to implement an analog algorithm and extract features from the sensor data, and determine that an event occurred based on the configuration data and execution of the machine learning model, executed via the analog circuitry, on the extracted features from the sensor data, wherein the system is embedded within an automobile.",
+  "patent_id": "US12377805-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60R 21/013",
+      "G06F 21/32",
+      "G06V 20/56",
+      "B60R 2021/01013",
+      "B60W 2050/0003"
+    ],
+    "all": [
+      "B60R 21/013",
+      "G06F 21/32",
+      "G06V 20/56",
+      "B60R 2021/01013",
+      "B60W 2050/0003"
+    ],
+    "source": "converted"
+  }
+}

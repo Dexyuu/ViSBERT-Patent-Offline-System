@@ -1,0 +1,16 @@
+{
+  "title": "Managing data risk using automated dependency discovery",
+  "abstract": "To assess risk for a target dataset including a plurality of records, a system receives, from a data source, information related to a plurality of datasets including the target dataset; automatically determines dependencies on the target dataset using logs indicative of read and write operations related to the target dataset; generates, using the determined dependencies, a dependency graph indicative of dependencies, within the plurality of datasets, on the target dataset; determines, using the generated dependency graph, a level of risk associated with the target dataset; and provides an indication of the determined level of risk.",
+  "claims": "1. A method of risk assessment for a target dataset including a plurality of records, the method implemented in a computing system and comprising: receiving, by one or more processors and from a data source, information related to a plurality of datasets including the target dataset; automatically determining, by the one or more processors, dependencies on the target dataset using logs indicative of read and write operations related to the target dataset; generating, by the one or more processors and using the determined dependencies, a dependency graph indicative of the read and write operations, within the plurality of datasets, on the target dataset, wherein each operation of the read and write operations represents an edge within the dependency graph; determining, by the one or more processors and using the generated dependency graph, a level of risk associated with the target dataset, wherein the level of risk is based on a risk of corruption (ROC) and an impact of corruption (IOC) for the target dataset; and providing, by the one or more processors, an indication of the determined level of risk.",
+  "patent_id": "US12380090-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/2365"
+    ],
+    "all": [
+      "G06F 16/2365"
+    ],
+    "source": "converted"
+  }
+}

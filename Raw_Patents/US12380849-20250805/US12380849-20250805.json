@@ -1,0 +1,20 @@
+{
+  "title": "Display panel, display module, and driving method",
+  "abstract": "Display panel, display module and driving method are provided. The display panel includes a power management chip, a power signal line loading an electrical signal based on the power management chip, a current detection module, a gate control module, and an optional load module. The gate control modules is connected between the optional load module and the power signal line, and the optional load module is controlled by the gate control module and connected to the power signal line. The current detection module is configured to detect a first current loaded on the power signal line and control the gate control module to be turned on to connect the optional load module to the power signal line when the first current is less than a set threshold.",
+  "claims": "1. A display panel comprising a power management chip, a power signal line loading an electrical signal based on the power management chip, a current detection module, a gate control module, and an optional load module, wherein: the gate control module is connected between the optional load module and the power signal line, and the optional load module is controlled by the gate control module and connected to the power signal line; the current detection module is configured to detect a first current loaded on the power signal line and control the gate control module to be turned on to connect the optional load module to the power signal line when the first current is less than a set threshold, wherein the current detection module comprises a jig ammeter that outputs a control signal related to the first current with reference to the set threshold, to control whether the gate control module is turned on or not; in response to connecting the optional load module to the power signal line, the power signal line increases a load and prevents the power management chip from entering a pulse frequency modulation (PFM) mode under a light image load, thereby avoiding a voltage fluctuation of the power signal, and eliminating display ripples of the display panel; the gate control module is connected to the current detection module through a wire, a connection between the wire and the current detection module comprising running an ITO wire on the display panel to extract a bonding pin; and the power signal line is interspersed between a capacitor metal layer and a cathode metal layer.",
+  "patent_id": "US12380849-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/3233",
+      "G09G 2320/0233",
+      "G09G 2330/021"
+    ],
+    "all": [
+      "G09G 3/3233",
+      "G09G 2320/0233",
+      "G09G 2330/021"
+    ],
+    "source": "converted"
+  }
+}

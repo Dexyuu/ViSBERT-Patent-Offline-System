@@ -1,0 +1,16 @@
+{
+  "title": "Semiconductor device, bus control circuit and bus control method",
+  "abstract": "A semiconductor device includes a bus control circuit that controls access to a slave shared by a plurality of masters. The bus control circuit includes a plurality of priority determination circuits corresponding to the plurality of masters. The priority determination circuit is configured to, when receiving an urgent access from a corresponding master, change a priority level signal included in an access request from the corresponding master to allocate a high priority level for emergency and allocate a low priority level to a master other than the corresponding master.",
+  "claims": "1. A semiconductor device comprising: a plurality of masters; a slave; and a bus control circuit that controls access to the slave shared by the plurality of masters, wherein the bus control circuit includes a plurality of priority determination circuits corresponding to the plurality of masters, wherein the priority determination circuit is configured to, when receiving an urgent access from a corresponding master, i) change a priority level signal included in an access request from the corresponding master and allocate a high priority level for emergency, and ii) allocate a low priority level to a master other than the corresponding master, wherein the bus control circuit further includes: a plurality of band adjustment circuits corresponding to the plurality of masters; and a bus arbitration circuit corresponding to the slave, wherein the band adjustment circuits are configured to control a bus band to be allocated to access from a corresponding master on a basis of priority level signals input from the plurality of priority determination circuits, and wherein the bus arbitration circuit is configured to arbitrate a priority order of each access on a basis of the priority level signals input from the plurality of priority determination circuits.",
+  "patent_id": "US12380044-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 13/372"
+    ],
+    "all": [
+      "G06F 13/372"
+    ],
+    "source": "converted"
+  }
+}

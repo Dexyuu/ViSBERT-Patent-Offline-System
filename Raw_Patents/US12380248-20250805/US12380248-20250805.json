@@ -1,0 +1,26 @@
+{
+  "title": "Dashboard camera and associated cloud storage service having integrated file validation",
+  "abstract": "A system and method for recording, backing up, and authenticating footage from a dash cam or other video device comprises continuously synchronizing checksums from segments of video as they are recorded into rolling storage with an authentication server located remotely. Only metadata is uploaded until the video device experiences an interrupt event, at which point the last few rolling segments, as well as subsequent rolling segments until the termination of the interrupt event, are written to persistent storage and uploaded to the authentication server at the earliest opportunity. The metadata and video are encrypted with an asymmetric public/private key system enabling third parties to confirm, with the public key, that the metadata on the recording device and the authentication server match, and with the private key, download the video footage from the interrupt event.",
+  "claims": "1. A method for independently authenticating video footage following and immediately preceding an interrupt event, the method comprising: recording sequential segments of video footage on a video capture device, the video capture device comprising a wireless internet connection, rolling storage, and permanent storage, and the video footage comprising location metadata, date/time metadata, and checksum metadata; for each sequential segment of video footage, synchronizing the location metadata, the date/time metadata, and the checksum metadata with a server; simultaneously writing the sequential segments of video footage to the rolling storage; engaging an interrupt mode when an interrupt event is detected, and transmitting the location metadata and date/time metadata associated with the interrupt event to the server; when the interrupt mode is engaged, copying the sequential segments of video footage written to rolling storage to the permanent storage; while the interrupt mode is engaged, writing subsequent sequential segments of video footage to the permanent storage; when the interrupt mode is terminated, uploading the sequential segments of video footage recorded while in interrupt mode to the server, while resuming the rolling storage of sequential segments of video footage; encrypting, with the server, the sequential segments of video footage with a private key; and encrypting, with the server, the metadata, corresponding to the sequential segments of video footage with a public key corresponding to the private key.",
+  "patent_id": "US12380248-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/64",
+      "G06F 21/602",
+      "H04N 5/76",
+      "G06V 20/40",
+      "G06V 20/625",
+      "G06V 2201/10"
+    ],
+    "all": [
+      "G06F 21/64",
+      "G06F 21/602",
+      "H04N 5/76",
+      "G06V 20/40",
+      "G06V 20/625",
+      "G06V 2201/10"
+    ],
+    "source": "converted"
+  }
+}

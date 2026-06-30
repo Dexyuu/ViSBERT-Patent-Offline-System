@@ -1,0 +1,23 @@
+{
+  "application_id": "WO2016128836",
+  "application_id_fs": null,
+  "title": "Method and system for inserting an openflow flow entry into a flow table using openflow protocol",
+  "abstract": "A method for inserting an OpenFlovv How entry into a flow table is disclosed. In the embodiment, the method involves receiving a flow mod message at an Open Flow-enabled switch, the flow mod message including a cookie Field, decoding an OpenFlow flow entry from the flow mod message, identifying a Flow table from the cookie field, and inserting the decoded flow entry into the Flow table.",
+  "claims": "Claims CLAIMS: 1. A method for rnsettmg an OpenFlow flow entry into a Ilov table using OpenFlow protocol, the method comprising: receivi g a ilovv mod message at an OpenFlow-enabled switch, the flow mod message including a cookie field; decoding an OpetiFto flow entry from the flow mod message; identifying a flow table from the cookie .field; and inserting the decoded flow entry into the identified How table. 2. The method of claim 1 , wherein the flow table is service flow table. 3. The method of claim I , wherein the Open Flow How entry is decoded from at least one of the cookie field and additional fields of the flow mod message. 4. The method of claim 1 , wherein at least some bi ts from the cookie field indicate a type of Open Flow flow entry encoded in the flow mod message. 5. The method of claim 4, wherein at least some bits from the cookie field indicate additional information of the Open Flew flow entry. 6. An OpcnFloW'-enabSed switch, the OpenFlow-enabled switch comprising: an Open Flow client configured to: receive a (low mod message, the flow mod message including a cookie field; decode an Open Flow flow entry from the flow mod message; identify a flow table from the cookie field; and insert the decoded OpenFlow flow entry into tile identified flow table. 7. The OpenFiow-enahie switch of claim 15, wherein the flow table is a service flow table. 8. The OpenFlow-enabled switch of claim ' 15, wherein the OpenFlow flow entry is decoded from at: least one of the cookie Held and additional fields of the flow mod message. \n\n 9, The 0|?enFIow~erisbled switch of claim 15, wherein the cookie Held is divided into a first range of bits indicating a type of Open Flow flow entry encoded in the flow mod message and a second range of bit indicating additional Information of the OpenFlow flow entry.",
+  "classifications": {
+    "ipc": [
+      "H04L 12/721",
+      "H04L 12/715",
+      "H04L 12/751",
+      "H04L 12/755"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 12/721",
+      "H04L 12/715",
+      "H04L 12/751",
+      "H04L 12/755"
+    ],
+    "source": "csv"
+  }
+}

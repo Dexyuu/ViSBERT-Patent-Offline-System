@@ -1,0 +1,22 @@
+{
+  "title": "System for artificial intelligence agent and method of operation of the system",
+  "abstract": "Disclosed are a system for an artificial intelligence agent and an operating method thereof. An operating method of a mobile-centric agent hub system (MCAHS) may include registering and authenticating AI agents included in an external device, determining a task by analyzing an instruction received from a user, selecting an AI agent for processing the determined task, among the registered AI agents, transmitting the determined task to the selected AI agent, receiving the results of processing of the transferred task from the selected AI agent, and providing a final response generated based on the received results of the processing to the user.",
+  "claims": "1. An operating method of a mobile-centric agent hub system (MCAHS) implemented with computer device comprising at least one processor, the operating method comprising: registering and authenticating, by the at least one processor, AI agents included in an external device; determining, by the at least one processor, a task by analyzing an instruction received from a user; selecting, by the at least one processor, an AI agent for processing the determined task, among the registered AI agents; transmitting, by the at least one processor, the determined task to the selected AI agent; receiving, by the at least one processor, results of processing of the transferred task from the selected AI agent; and providing, by the at least one processor, a final response generated based on the received results of the processing to the user; wherein the registering and authenticating of the AI agent comprises: issuing an authentication token by identifying an identity of the AI agent of the external device that requests a connection through an application programming interface (API) gateway included in the MCAHS; validating a service that is providable by the AI agent of the external device by receiving service specifications comprising detailed information of the service and the authentication token; registering the service with a service catalog when the validation of the service is completed and setting access rights and a security policy for the registered service; and transmitting a registration completion message comprising a unique identifier of the service and an access token to the AI agent of the external device, wherein the service specifications comprises information on at least one of a name of the service, the unique identifier of the service, a category of the service, a list of functions supported by the service, a description of the functions, a format of an input parameter of the service, a format of a return value of the service, a quality index of the service, rights and an access level required for the service, a version of the service, and an update history of the service.",
+  "patent_id": "US12379964-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/5027",
+      "G06F 21/53",
+      "G06F 40/30",
+      "H04L 9/32"
+    ],
+    "all": [
+      "G06F 9/5027",
+      "G06F 21/53",
+      "G06F 40/30",
+      "H04L 9/32"
+    ],
+    "source": "converted"
+  }
+}

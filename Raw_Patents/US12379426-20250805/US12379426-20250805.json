@@ -1,0 +1,26 @@
+{
+  "title": "Leakage current detection and interruption device and related electrical connectors and electrical appliances",
+  "abstract": "A leakage current detection and interruption device includes a switch module for connecting and disconnecting input and output ends of current carrying lines; a leakage current detection module for detecting a leakage current signal on the current carrying lines and generating a leakage fault signal in response thereto; an over-temperature protection module for detecting a temperature of a predefined location and/or component of the device and generating an over-temperature fault signal when the detected temperature exceeds a predetermined temperature threshold; a drive module for driving the switch module to disconnect the electrical connection in response to the leakage fault signal and/or over-temperature fault signal; and a self-test module for periodically generating a simulated leakage current signal to detect a malfunction in the leakage current detection module and/or drive module, and generating a self-test fault signal when detecting the malfunction. The device has a simple structure, is low cost and safe.",
+  "claims": "1. A leakage current detection and interruption device, comprising: a plurality of current carrying lines having an input end and an output end; a switch module, coupled on the plurality of current carrying lines between the input end and the output end, configured to connect or disconnect an electrical connection between the input end and the output end; a leakage current detection module, configured to detect a leakage current signal on the plurality of current carrying lines and to generate a leakage fault signal in response to detecting the leakage current signal; an over-temperature protection module, configured to detects a temperature of a predefined location and/or a predefined component of the leakage current detection and interruption device, and to generate an over-temperature fault signal when the detected temperature exceeds a predetermined temperature threshold; a drive module, coupled to the switch module, the leakage current detection module, and the over-temperature protection module, configured to receive the leakage fault signal and/or the over-temperature fault signal, and to drive the switch module to disconnect the electrical connection in response to the leakage fault signal and/or the over-temperature fault signal; and a self-test module, coupled to the leakage current detection module and the drive module, configured to periodically generate a simulated leakage current signal to detect a malfunction in the leakage current detection module and/or the drive module, and to generate a self-test fault signal in response to detecting the malfunction of the leakage current detection module and/or the drive module, wherein the over-temperature protection module includes at least one temperature sensor disposed at the predefined location and/or on a surface of the predefined component, and wherein the at least one temperature sensor includes a thermistor, the over-temperature protection module includes a first voltage-triggered sub-module and at least one voltage divider element, wherein the at least one voltage divider element is coupled in series with the thermistor and coupled to the first voltage-triggered sub-module, the first voltage-triggered sub-module is coupled to the drive module, wherein when the thermistor detects that the temperature of the predefined location or predefined component exceeds a temperature threshold, the at least one voltage divider element provides an over-temperature detection signal to the first voltage-triggered sub-module, and the first voltage-triggered sub-module generates the over-temperature fault signal in response thereto.",
+  "patent_id": "US12379426-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01R 31/52",
+      "H02H 1/0007",
+      "H02H 3/05",
+      "H02H 3/16",
+      "H02H 3/335",
+      "H02H 5/047"
+    ],
+    "all": [
+      "G01R 31/52",
+      "H02H 1/0007",
+      "H02H 3/05",
+      "H02H 3/16",
+      "H02H 3/335",
+      "H02H 5/047"
+    ],
+    "source": "converted"
+  }
+}

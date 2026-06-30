@@ -1,0 +1,24 @@
+{
+  "title": "Configuring an enriched data metrics pipeline",
+  "abstract": "Techniques for configuring an enriched data metrics pipeline (DMP) include: obtaining node configuration data associated with an unenriched DMP for nodes of a heterogeneous computing platform, including (a) a first kind of node including an application programming interface (API) for obtaining unenriched data associated with the first kind of node and (b) a second kind of node including an API for obtaining unenriched data associated with the second kind of node; the unenriched DMP being configured to provide node-level unenriched data to a service according to a first schedule; the service being configured to generate node-level data metrics based on the unenriched data; based on the node configuration data, configuring an enriched DMP to provide node-level enriched data to the service according to a second schedule that is less frequent than the first schedule; the service being configured to generate fleet-level data metrics based on the node-level enriched data.",
+  "claims": "1. One or more non-transitory machine-readable media storing instructions that, when executed by one or more processors, cause performance of operations comprising: obtaining, according to a first predetermined schedule for an unenriched data metrics pipeline, node-level unenriched data associated with a plurality of nodes of a heterogeneous computing platform, wherein obtaining the node-level unenriched data comprises: obtaining first node-level unenriched data from a first node of a first kind in the plurality nodes, at least by accessing a first application programming interface (API) of the first node for obtaining unenriched data associated with the first kind of node; and obtaining second node-level unenriched data from a second node of a second kind that is different from the first kind in the plurality nodes, at least by accessing a second API of the second node for obtaining unenriched data associated with the second kind of node; generating node-level data metrics based at least on the first node-level unenriched data and the second node-level unenriched data; obtaining node configuration data associated with the unenriched data metrics pipeline, comprising (a) a first configuration of the first API and (b) a second configuration of the second API; based at least on the node configuration data associated with the unenriched data metrics pipeline: configuring an enriched data metrics pipeline to provide node-level enriched data, associated respectively with the plurality of nodes, according to a second predetermined schedule that is less frequent than the first predetermined schedule; generating fleet-level data metrics based on the node-level enriched data.",
+  "patent_id": "US12379939-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/44505",
+      "G06F 9/541",
+      "G06F 11/3409",
+      "G06F 11/3466",
+      "G06F 15/177"
+    ],
+    "all": [
+      "G06F 9/44505",
+      "G06F 9/541",
+      "G06F 11/3409",
+      "G06F 11/3466",
+      "G06F 15/177"
+    ],
+    "source": "converted"
+  }
+}

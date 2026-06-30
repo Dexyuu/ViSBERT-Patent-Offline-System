@@ -1,0 +1,28 @@
+{
+  "title": "Systems and methods for splatting with adaptive density control",
+  "abstract": "A splat generation system and associated methods implement splatting with adaptive density control to generate a splat representation of a three-dimensional (3D) model in which the splat density and quality in regions of the 3D model that are prioritized based on creator intent or that are commonly or consistently in a user's field-of-view are increased relative to the splat density and quality in other regions of the 3D model. The system receives the different priorities associated with different parts of the 3D model based on the creator intent or tracked view paths. The system generates a first set of splats that represent the 3D model with a first fidelity, and generates a second set of splats at a greater second fidelity for a first subset of parts of the 3D model that have a higher priority than a second subset of parts of the 3D model.",
+  "claims": "1. A method comprising: presenting a three-dimensional (3D) model to a plurality of client devices; tracking a path with which each client device of the plurality of client devices views the 3D model; setting different priorities based on a first subset of different parts of the 3D model being viewed by more client devices and for longer durations than a second subset of the different parts of the 3D model in the path tracked for each client device of the plurality of client devices; determining a third subset of the different parts that are in a field-of-view tracked for the plurality of client devices for a first amount of time, and a fourth subset of the different parts that are in the field-of-view tracked for the plurality of client devices for a second amount of time that is greater than the first amount of time; generating a first set of splats that represent the 3D model with a first fidelity, wherein generating the first set of splats comprises: defining a loss function with a first amount of loss prior to generating the first set of splats; and determining that the first set of splats generated according to the loss function with the first amount of loss represents an original encoding of the 3D model with the first amount of loss; generating a second set of splats for the first subset of the different parts of the 3D model that have higher priorities than the second subset of the different parts of the 3D model, wherein the second set of splats represent the first subset of parts at a second fidelity that is greater than the first fidelity, and wherein generating the second set of splats comprises: changing the first amount of loss defined for the loss function to a second amount of loss that is less than the first amount of loss prior to generating the second set of splats; and determining that the second set of splats generated with the loss function defined with the second amount of loss represents the first subset of the different parts in the original encoding of the 3D model with the second amount of loss; performing a first iterative pass that generates a third set of splats to represent the third subset of the different parts and the fourth subset of the different parts at the second fidelity; performing a second iterative pass that generates a fourth set of splats to represent the fourth subset of the different parts at a third fidelity that is greater than the second fidelity; and presenting the first set of splats and the second set of splats in response to a request for the 3D model.",
+  "patent_id": "US12380647-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 17/20",
+      "G06T 13/20",
+      "G06T 15/08",
+      "G06T 15/20",
+      "G06T 2210/08",
+      "G06T 2210/36",
+      "G06T 2210/56"
+    ],
+    "all": [
+      "G06T 17/20",
+      "G06T 13/20",
+      "G06T 15/08",
+      "G06T 15/20",
+      "G06T 2210/08",
+      "G06T 2210/36",
+      "G06T 2210/56"
+    ],
+    "source": "converted"
+  }
+}

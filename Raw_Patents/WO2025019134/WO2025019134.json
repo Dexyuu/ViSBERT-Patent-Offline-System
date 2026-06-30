@@ -1,0 +1,26 @@
+{
+  "application_id": "WO2025019134",
+  "application_id_fs": "WO2025019134",
+  "title": "Design of service document generation using large language models",
+  "abstract": "A method for creating generated formatted data, that includes receiving, by a sequential data generator, raw data, where the raw data includes formation data at a drilling environment, processing the raw data to obtain generated recommendation data, where the generated recommendation data includes a proposed drilling location, and creating the generated formatted data, where the generated formatted data includes the generated recommendation data.",
+  "claims": "Claims CLAIMS What is claimed is: 1. A method for creating generated formatted data, comprising: receiving, by a sequential data generator, raw data, wherein the raw data comprises formation data at a drilling environment; processing the raw data to obtain generated recommendation data, wherein the generated recommendation data comprises a proposed drilling location; and creating the generated formatted data, wherein the generated formatted data comprises the generated recommendation data. 2. The method of claim 1. wherein after creating the generated formatted data, the method further comprises: providing the generated formatted data to a user of the sequential data generator. 3. The method of claim 1. wherein the sequential data generator comprises a processed data generator, and wherein processing the raw data to obtain the generated recommendation data uses the processed data generator. 4. The method of claim 3, wherein the processed data generator uses a processed data model. 5. The method of claim 4, wherein prior to receiving the raw data, the processed data model was trained using historical raw data. 6. The method of claim 5, wherein the processed data model comprises a neural network. 7. The method of claim 3. wherein the sequential data generator further comprises a recommendation data generator, and wherein processing the raw data to obtain the generated recommendation data further uses the recommendation data generator. 8. The method of claim 7, wherein the recommendation data generator uses a recommendation data model. 9. The method of claim 8, wherein prior to receiving the raw data, the recommendation data model was trained using historical recommendation data. 10. The method of claim 9. wherein the recommendation data model comprises a neural network. 11. An information handling system, comprising: memory'; and a processor, wherein the processor is configured execute a method for creating generated formatted data, comprising: receiving, by a sequential data generator, raw data, wherein the raw data comprises formation data at a drilling environment; processing the raw data to obtain generated recommendation data, wherein the generated recommendation data comprises a proposed drilling location; and creating the generated formatted data, wherein the generated formatted data comprises the generated recommendation data. 12. The information handling system of claim 11, wherein after creating the generated formatted data, the method further comprises: providing the generated formatted data to a user of the sequential data generator. 13. The information handling system of claim 11, wherein the sequential data generator comprises a processed data generator, and wherein processing the raw data to obtain the generated recommendation data uses the processed data generator. 14. The information handling system of claim 13, wherein the processed data generator uses a processed data model. 15. The information handling system of claim 14, wherein prior to receiving the raw data, the processed data model was trained using historical raw data. 16. The information handling system of claim 15. wherein the processed data model comprises a neural network. 17. The information handling system of claim 13, wherein the sequential data generator further comprises a recommendation data generator, and wherein processing the raw data to obtain the generated recommendation data further uses the recommendation data generator. 18. The information handling system of claim 17, wherein the recommendation data generator uses a recommendation data model. 19. The information handling system of claim 18, wherein prior to receiving the raw data, the recommendation data model was trained using histoneal recommendation data. 20. The information handling system of claim 19, wherein the recommendation data model comprises a neural network.",
+  "classifications": {
+    "ipc": [
+      "G06N 3/00",
+      "G06N 3/02",
+      "G06N 3/08",
+      "G06N 3/04",
+      "G06N 3/045"
+    ],
+    "cpc": [],
+    "all": [
+      "G06N 3/00",
+      "G06N 3/02",
+      "G06N 3/08",
+      "G06N 3/04",
+      "G06N 3/045"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025019134"
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Electronic device, and method for controlling same",
+  "abstract": "A method for controlling an electronic device is provided. The method includes obtaining a list including at least one relay device for performing initial connection with an external device, and displaying the list on a display, when one relay device is selected from the list, transmitting a request for access to the selected relay device to the selected relay device, when access approval information is received from the relay device, displaying, on the display, a list of at least one external device capable of performing connection by means of the relay device, when one external device is selected from the list of the at least one external device, receiving, from the selected external device, an authentication request for the selected external device, and when a user input is received in response to the authentication request, performing the initial connection with the selected external device.",
+  "claims": "1. A method for controlling an electronic device, the method comprising: obtaining a list of at least one relay device to perform initial connection with an external device and displaying the list on a display; based on a relay device being selected from the list, transmitting an access request for the selected relay device to the selected relay device; based on receiving access approval information from the relay device, displaying, on the display, a list of at least one external device capable of performing connection by the relay device; based on one external device from a list of the at least one external device being selected, receiving an authentication request for the selected at least one external device from the selected at least one external device; based on receiving a user input in response to the authentication request, performing the initial connection with the selected at least one external device; based on the initial connection with the selected at least one external device, displaying a user interface (UI) for controlling the external device on the display; based on a command to control the external device being input through the UI, controlling the external device to correspond to the command; requesting log information about the connected external device to the relay device; and receiving log information about the connected external device from the relay device, wherein, when communication protocols between the electronic device and the external device are different from each other, the controlling of the external device further comprises: receiving state packet information about the connected external device from the relay device; based on a command to control the external device being input through the UI, obtaining command packet information corresponding to the command based on the received state packet information; and transmitting the obtained state packet information to the relay device.",
+  "patent_id": "US12381753-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 12/2807",
+      "H04B 7/155",
+      "H04L 67/12",
+      "H04W 4/80",
+      "H04W 12/06",
+      "H04W 40/22",
+      "H04W 76/12",
+      "H04L 12/2803",
+      "H04W 84/18"
+    ],
+    "all": [
+      "H04L 12/2807",
+      "H04B 7/155",
+      "H04L 67/12",
+      "H04W 4/80",
+      "H04W 12/06",
+      "H04W 40/22",
+      "H04W 76/12",
+      "H04L 12/2803",
+      "H04W 84/18"
+    ],
+    "source": "converted"
+  }
+}

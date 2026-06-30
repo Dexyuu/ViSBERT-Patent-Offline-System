@@ -1,0 +1,52 @@
+{
+  "application_id": "WO2018197648",
+  "application_id_fs": "WO2018197648",
+  "title": "Interactive precision medicine explorer for genomic abberations and treatment options",
+  "abstract": "A data-driven integrative visualization system and method for summarizing and presenting genomic aberrations, their drug responses and multi-omic data of a patient, is disclosed. Specifically, a method for displaying genomic aberrations and multi-omic data of a patient in an interactive tool which allows the medical practitioner to access underlying supporting biologic and scientific evidence from relevant knowledge bases through a set of graphical interactions, is described. The method comprises the steps of obtaining and inputting multi-omic data of a patient or cohorts, identifying genomic aberrations and their drug responses, and displaying this information in a first level interactive classical/circular ideogram in one or multiple layers on a GUI, from which the user can access and view further information on the gene and molecular levels. The system provides an improved process of integrative analysis on a patient's multi- omic data for effective treatment planning.",
+  "claims": "Claims WHAT IS CLAIMED: 1. A computer-implemented method for summarizing and presenting patient-specific multi- omic data in a multilayered format, the method comprising: a computing device with a graphical user interface, determining a dataset of files containing patient information by obtaining genomic aberration and other omics data from a patient and storing said data on a non-transitory computer readable storage medium; determining selection criteria based on the patient dataset; inputting patient-specific data, by a user interface, onto a processor configured to receive said patient-specific data, selecting a cohort of samples based on user-defined demographic and phenotypic criteria from a repository of patient or healthy samples, and inputting said demographic and phenotype criteria into said computing device through said graphical user interface; extracting said cohort genomic aberration and omics data for comparison with the patient of interest based on said demographic and phenotype criteria and inputting said cohort genomic aberration and omics data, by a user interface, onto a processor configured to receive said cohort genomic aberration and omics data; annotating said patient-specific genomic aberration and omics data in a first layer of said multilayered format, using internal external knowledge bases, which include information such as mutation impact, population allele frequency, disease association with model of inheritance and drug response; filtering said patient-specific genomic aberrations and omics data based on user-defined criteria, such as chromosome regions, genes and variant type/function/impact/population allele frequency; and displaying said patient-specific genomic aberration and omics data in said interactive multi-level format, wherein said multilayer format comprises; said first layer, said first layer comprising an interactive chromosomal view that summarizes all the clinically relevant or actionable genomic aberrations of said patient by marking them on the genome coordinates, including known drug responses associated with a particular mutation/gene marked next to the mutation/gene accordingly, said first layer further comprising; \n\n a first sub-layer comprising an ideogram view where chromosomes are arranged in a circular format; a second sub-layer comprising an ideogram view where each chromosome in said first sub-layer is separately displayed in a schematic; a second layer comprising an interactive intergenic genomic scale where multiple genes are displayed with their expression levels indicated by color; a third level comprising an interactive genie scale, depicting the structure and functional blocks within a gene, omics data such as methylation levels and gene/exon expression, the 3D protein structure (ribbon plot), with mutations marked and including general information about said gene; and a fourth level, comprising a molecular scale displaying the molecular sequence and its detailed annotations, such as the nucleotide sequence of the reference genome, the corresponding amino acid sequence in the protein-coding regions, nucleotide/amino acid changes caused by the mutations, exon/gene expression and methylation levels of CpG sites, ChlP-Seq data for histone modification. 2. The method of claim 1 , wherein the mulilayered format is a circular or linear multilayered format. 3. The method of claim 1 , wherein said obtaining genomic aberration and other omics data from a patient comprises the collection of tissue and blood samples from said patient, performing next-generation sample preparation and DNA/RNA seqeuncing, read alignment and culling of variants and gene expressions. 4. The method of claim 1 , wherein said second layer further comprises additional data tracks to add more details, such as methylation, chromatin immunoprecipitation sequencing and assay data which may improve the functional view of genomic aberrations. 5. A non-transitory computer readable storage medium tangibly encoded with computer- executable instructions, that when executed by a processor associated with computing device having a graphical user interface, cause the device to carry out the steps of the method as defined in claim 1. 6. A computer program product, comprising a computer-readable code to be executed by one or more processors when retrieved from a non-transitory computer-readable medium, the computer-readable program code including instructions to: determine a dataset of files containing patient information by obtaining genomic aberration and other omics data from a patient and storing said data on a non-transitory computer readable storage medium; receive selection criteria by a user through a graphical user interface, said selection criteria determined by said user based on said patient dataset, and input said patient-specific data, onto a processor configured to receive said patient-specific data, select a cohort of samples based on user-defined demographic and phenotypic criteria from a repository of patient or healthy samples, and input said demographic and phenotype criteria into said computing device through said graphical user interface; extract said cohort genomic aberration and omics data for comparison with the patient of interest based on said demographic and phenotype criteria and inputting said cohort genomic aberration and omics data, by a user interface, onto a processor configured to receive said cohort genomic aberration and omics data; annotate said patient-specific genomic aberration and omics data, using internal/external knowledge bases, which include information such as mutation impact, population allele frequency, disease association with model of inheritance and drug response; \n\n filter said patient-specific genomic aberrations and omics data based on user-defined criteria, such as chromosome regions, genes and variant type/function/impact/population allele frequency; and display said patient-specific genomic aberration and omics data in said interactive multilevel format, wherein said multilayer format comprises; a first layer comprising an interactive chromosomal view that summarizes all the clinically relevant or actionable genomic aberrations of said patient by marking them on the genome coordinates, including known drug responses associated with a particular mutation/gene marked next to the mutation/gene accordingly, said first layer further comprising; a first sub-layer comprising an ideogram view where chromosomes are arranged in a circular format; a second sub-layer comprising an ideogram view where each chromosome in said first sub-layer is separately displayed in a schematic; a second layer comprising an interactive intergenic genomic scale where multiple genes are displayed with their expression levels indicated by color; a third level comprising an interactive genie scale, depicting the structure and functional blocks within a gene, omics data such as methylation levels and gene/exon expression, the 3D protein structure (ribbon plot), with mutations marked and including general information about said gene; and a fourth level, comprising a molecular scale displaying the molecular sequence and its detailed annotations, such as the nucleotide sequence of the reference genome, the corresponding amino acid sequence in the protein-coding regions, nucleotide/amino acid changes caused by the mutations, exon/gene expression and methylation levels of CpG sites, ChlP-Seq data for histone modification.",
+  "classifications": {
+    "ipc": [
+      "G16B 45/00",
+      "G06F 3/00",
+      "G06F 3/01",
+      "G06F 3/048",
+      "G06F 3/0481",
+      "G06F 40/00",
+      "G06F 40/10",
+      "G06F 40/166",
+      "G06F 40/169",
+      "G16B 20/00",
+      "G16B 20/20",
+      "G16B 30/00",
+      "G16B 30/10",
+      "G16H 10/00",
+      "G16H 10/60",
+      "G16H 50/00",
+      "G16H 50/20",
+      "G16H 50/50"
+    ],
+    "cpc": [],
+    "all": [
+      "G16B 45/00",
+      "G06F 3/00",
+      "G06F 3/01",
+      "G06F 3/048",
+      "G06F 3/0481",
+      "G06F 40/00",
+      "G06F 40/10",
+      "G06F 40/166",
+      "G06F 40/169",
+      "G16B 20/00",
+      "G16B 20/20",
+      "G16B 30/00",
+      "G16B 30/10",
+      "G16H 10/00",
+      "G16H 10/60",
+      "G16H 50/00",
+      "G16H 50/20",
+      "G16H 50/50"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018197648"
+}

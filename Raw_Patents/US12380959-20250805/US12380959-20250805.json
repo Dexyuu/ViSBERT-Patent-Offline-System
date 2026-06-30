@@ -1,0 +1,22 @@
+{
+  "title": "Memory device and methods",
+  "abstract": "A memory device includes a bit line, a source line, a program word line, a read word line, a memory cell including a program transistor and a read transistor, and a controller. The program transistor includes a gate terminal coupled to the program word line, a first terminal coupled to the source line, and a second terminal. The read transistor includes a gate terminal coupled to the read word line, a first terminal coupled to the bit line, and a second terminal coupled to the second terminal of the program transistor. The controller is configured to, in a programming operation, cause a program current to flow through the memory cell along a first current path. The controller is further configured to, in a read operation, cause a read current to flow through the memory cell along a second current path different from the first current path.",
+  "claims": "1. A memory device, comprising: a plurality of bit lines; a plurality of source lines; a plurality of program word lines; a plurality of read word lines; a plurality of memory cells each comprising a program transistor and a read transistor; and a controller coupled to each of the plurality of memory cells via a corresponding bit line among the plurality of bit lines, a corresponding source line among the plurality of source lines, the at least one a corresponding program word line among the plurality of program word lines, and a corresponding read word line among the plurality of read word lines, wherein in each of the plurality of memory cells, the program transistor comprises: a gate terminal coupled to the corresponding program word line, a first terminal coupled to the corresponding source line, and a second terminal, and the read transistor comprises: a gate terminal coupled to the corresponding read word line, a first terminal coupled to the corresponding bit line, and a second terminal coupled to the second terminal of the program transistor, and the controller is configured to, in a programming operation of a selected memory cell among the plurality of memory cells, apply a program voltage to the source line coupled to the selected memory cell, and apply a reference voltage to other source lines among the plurality of source lines, apply the reference voltage to the program word line coupled to the selected memory cell, and apply a first voltage to other program word lines among the plurality of program word lines, wherein the first voltage is higher than the reference voltage and lower than the program voltage, and turn OFF the read transistors of the plurality of memory cells.",
+  "patent_id": "US12380959-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G11C 17/18",
+      "G11C 17/16",
+      "H10B 20/20",
+      "H10B 20/25"
+    ],
+    "all": [
+      "G11C 17/18",
+      "G11C 17/16",
+      "H10B 20/20",
+      "H10B 20/25"
+    ],
+    "source": "converted"
+  }
+}

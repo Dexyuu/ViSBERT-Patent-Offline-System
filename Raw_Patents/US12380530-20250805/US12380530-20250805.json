@@ -1,0 +1,20 @@
+{
+  "title": "Method and apparatus with image processing",
+  "abstract": "An electronic device may include: a camera module comprising a wide angle camera configured to generate a wide image and a telephoto camera configured to generate teleimages corresponding to grid cells of the wide image; and one or more processors configured to: partition the teleimages into partial teleimages; determine partial wide images corresponding to the partial teleimages based on subcells of the grid cells and the wide image; perform feature matching between the partial teleimages and the partial wide images; determine a warping parameter of the teleimages based on a result of the feature matching; and generate a synthetic image corresponding to the wide image by warping the teleimages based on the warping parameter.",
+  "claims": "1. An electronic device comprising: a camera module comprising a wide angle camera configured to generate a wide image and a telephoto camera configured to generate teleimages corresponding to grid cells of the wide image; and one or more processors configured to: partition the teleimages into partial teleimages; determine partial wide images corresponding to the partial teleimages based on subcells of the grid cells and the wide image; perform feature matching between the partial wide images and primary warping results of the partial teleimages generated based on a preset initial warping parameter; determine an improved warping parameter of the teleimages based on a result of the feature matching; and generate a synthetic image corresponding to the wide image by warping the teleimages based on the improved warping parameter.",
+  "patent_id": "US12380530-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 3/18",
+      "G06T 7/10",
+      "G06T 7/97"
+    ],
+    "all": [
+      "G06T 3/18",
+      "G06T 7/10",
+      "G06T 7/97"
+    ],
+    "source": "converted"
+  }
+}

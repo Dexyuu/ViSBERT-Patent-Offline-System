@@ -1,0 +1,24 @@
+{
+  "title": "Interventional medical device tracking",
+  "abstract": "A system includes an interface (193) to an optical shape sensing device (102) with a shape conforming to a shape of an interventional medical device (01). The system also includes a controller (190) with a memory (191) that stores instructions and a processor (192) that executes the instructions. The instructions cause the system to identify a shape of the optical shape sensing device (102) using optical shape sensing signals received via the interface (193), identify the interventional medical device (01) in disparate coordinate spaces of imaging systems that image the interventional medical device (01) in disparate imaging modes, and register the coordinate spaces to each other and to the interventional medical device (01). The instructions also cause the system to obtain a segmented representation (401) of the interventional medical device (01), and re-register the interventional medical device (01) to one of the coordinate space based on registering the interventional medical device (01) to another of the coordinate spaces using the segmented representation (401).",
+  "claims": "1. A system for tracking location of an interventional medical device in an interventional medical procedure, comprising: an interface to an optical shape sensing device which has a shape that conforms to a shape of the interventional medical device during the interventional medical procedure; and a controller comprising a memory that stores instructions and a processor that executes the instructions, wherein, when executed by the processor, the instructions cause the system to: identify the shape of the optical shape sensing device using optical shape sensing signals received from the optical shape sensing device via the interface; identify the interventional medical device in a first coordinate space of a first imaging system that images the interventional medical device in a first imaging mode during the interventional medical procedure, based on identifying the shape of the optical shape sensing device; register the interventional medical device to the first coordinate space; identify the interventional medical device in a second coordinate space of a second imaging system that images the interventional medical device in a second imaging mode during the interventional medical procedure; register the first coordinate space of the first imaging system to the second coordinate space of the second imaging system; segment the interventional medical device in the second coordinate space to obtain a segmented representation of the interventional medical device in the second coordinate space; register the interventional medical device to the second coordinate space using the segmented representation of the interventional medical device; and re-register the interventional medical device to the first coordinate space based on registering the interventional medical device to the second coordinate space.",
+  "patent_id": "US12376911-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 34/20",
+      "A61B 2034/2061",
+      "A61B 2090/364",
+      "A61B 2090/376",
+      "A61B 2090/378"
+    ],
+    "all": [
+      "A61B 34/20",
+      "A61B 2034/2061",
+      "A61B 2090/364",
+      "A61B 2090/376",
+      "A61B 2090/378"
+    ],
+    "source": "converted"
+  }
+}

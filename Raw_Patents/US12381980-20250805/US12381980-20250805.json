@@ -1,0 +1,22 @@
+{
+  "title": "Generating action plans for agents utilizing perception gap data from interaction events",
+  "abstract": "The present disclosure relates to systems, non-transitory computer-readable media, and methods for determining an existence of a perception gap for an interaction event. In particular, in one or more embodiments, the disclosed systems generate a suggested action and provide the suggested action for display via a graphical user interface of an agent device. In some embodiments, the disclosed systems utilize a machine learning model to generate the suggested action for the agent. Furthermore, in one or more embodiments, the disclosed systems generate an agent performance score reflecting an overall performance of an agent. In some embodiments, the disclosed systems utilize a machine learning model to generate the agent performance score.",
+  "claims": "1. A computer-implemented method comprising: receiving user feedback data indicating a user perception of an interaction event; receiving agent feedback data associated with an agent, the agent feedback data indicating an agent perception of the interaction event; comparing the user feedback data and the agent feedback data to determine an existence of a perception gap between the user perception of the interaction event and the agent perception of the interaction event; generating, based on determining the existence of the perception gap, a suggested action for the agent by: obtaining historical data comprising historical suggested actions and changes to historical agent metrics resulting from the historical suggested actions; and utilizing a heuristic model to determine a proposed course of action for the agent based on the historical data; and providing the suggested action for display via a graphical user interface of an agent device associated with the agent.",
+  "patent_id": "US12381980-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04M 3/5175",
+      "G06N 20/00",
+      "H04M 2203/401",
+      "H04M 2203/402"
+    ],
+    "all": [
+      "H04M 3/5175",
+      "G06N 20/00",
+      "H04M 2203/401",
+      "H04M 2203/402"
+    ],
+    "source": "converted"
+  }
+}

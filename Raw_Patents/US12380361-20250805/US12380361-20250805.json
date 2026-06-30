@@ -1,0 +1,22 @@
+{
+  "title": "Federated machine learning management",
+  "abstract": "Techniques are disclosed in which a computer system receives, from a plurality of user computing devices, a plurality of device-trained models and obfuscated sets of user data stored at the plurality of user computing devices, where the device-trained models are trained at respective ones of the plurality of user computing devices using respective sets of user data prior to obfuscation. In some embodiments, the server computer system determines similarity scores for the plurality of device-trained models, wherein the similarity scores are determined based on a performance of the device-trained models. In some embodiments, the server computer system identifies, based on the similarity scores, at least one of the plurality of device-trained models as a low-performance model. In some embodiments, the server computer system transmits, to the user computing device corresponding to the low-performance model, an updated model.",
+  "claims": "1. A method, comprising: receiving, by a server computer system from a plurality of user computing devices, a plurality of device-trained models and obfuscated sets of user data stored at the plurality of user computing devices, wherein the device-trained models are trained at respective ones of the plurality of user computing devices using respective sets of user data prior to obfuscation; determining, by the server computer system using a machine learning algorithm and based on characteristics specified in the obfuscated sets of user data, similarity scores for the plurality of device-trained models, wherein the similarity scores indicate a similarity between two or more of the plurality of device-trained models; executing, by the server computer system based on the similarity scores indicating that two or more of the plurality of device-trained models are similar, the two or more device-trained models to generate risk scores for the obfuscated sets of user data; identifying, by the server computer system based on the risk scores output by the two or more device-trained models, one of the two or more device-trained models as a low-performance model relative to the two or more device-trained models; in response to identifying the low-performance model, transmitting, by the server computer system to a particular user computing device corresponding to the low-performance model, an updated model to replace the low-performance model at the particular user computing device; and receiving, from the particular user computing device, a risk score generated using the updated model for a user request received at the particular user computing device.",
+  "patent_id": "US12380361-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 20/00",
+      "G06F 16/2379",
+      "G06N 3/098",
+      "H04L 67/01"
+    ],
+    "all": [
+      "G06N 20/00",
+      "G06F 16/2379",
+      "G06N 3/098",
+      "H04L 67/01"
+    ],
+    "source": "converted"
+  }
+}

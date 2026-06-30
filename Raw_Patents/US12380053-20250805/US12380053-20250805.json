@@ -1,0 +1,22 @@
+{
+  "title": "Systems and methods for cloud based pin pad device gateway",
+  "abstract": "A method of processing payment transactions includes receiving a connection request from a client device, determining whether a gateway is available for the client device, creating a connection between the client device and a gateway, the gateway being a previously existing gateway or a newly generated gateway, creating a message filter for the client device on a message bus, listening for messages on the message bus and transmitting the message to the client device by way of the gateway upon finding a message on the message bus matching the message filter.",
+  "claims": "1. A method of processing payment transactions, comprising: determining whether a first gateway is available for a first stateless client device; determining whether the first gateway is available for a second stateless client device; upon determining that the first gateway is not available for both the first client device or the second client device, generating an additional gateway, wherein the additional gateway is generated when the second client device is connected to a downstream entity; creating a first connection between the first client device and the generated additional gateway; creating a second connection between the second client device and the generated additional gateway; transmitting a first message to the first client device by way of the generated additional gateway; transmitting a second message to the second client device by way of the generated additional gateway; and upon determining the first gateway and the generated additional gateway exceed a threshold of a total capacity of active gateways available for the first client device and the second client device, terminating one or more of the first gateway or the generated additional gateway.",
+  "patent_id": "US12380053-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 13/42",
+      "G06Q 20/202",
+      "G06Q 20/4012",
+      "H04L 67/141"
+    ],
+    "all": [
+      "G06F 13/42",
+      "G06Q 20/202",
+      "G06Q 20/4012",
+      "H04L 67/141"
+    ],
+    "source": "converted"
+  }
+}

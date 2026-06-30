@@ -1,0 +1,26 @@
+{
+  "title": "Imaging element, imaging apparatus, operation method of imaging element, and program",
+  "abstract": "An imaging element incorporates a memory and a processor. The memory stores image data obtained by performing imaging at a first frame rate. The processor is configured to output the image data at a second frame rate. In addition, the processor derives shake degree information indicating a degree of shake included in an image indicated by the image data, using the image data, and outputs the derived shake degree information at a rate greater than or equal to the second frame rate. The first frame rate is a frame rate greater than or equal to the second frame rate.",
+  "claims": "1. An imaging apparatus comprising: an imaging element that includes a processor, a memory, and a correction control circuit; a vibration sensor; and a correction device, wherein the memory stores image data obtained by performing imaging, the processor derives shake degree information indicating a degree of shake included in an image indicated by the image data based on the image data and output the derived shake degree information, the correction device corrects the shake based on vibration data output from the vibration sensor and the shake degree information output from the processor, the correction control circuit performs a control for causing the correction device to correct the shake, using the vibration data and a reference output level of the vibration sensor, and changes the reference output level in accordance with the shake degree information output from the processor.",
+  "patent_id": "US12382173-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 23/683",
+      "G02B 7/14",
+      "G02B 27/646",
+      "G03B 17/14",
+      "H04N 23/685",
+      "H04N 25/581"
+    ],
+    "all": [
+      "H04N 23/683",
+      "G02B 7/14",
+      "G02B 27/646",
+      "G03B 17/14",
+      "H04N 23/685",
+      "H04N 25/581"
+    ],
+    "source": "converted"
+  }
+}

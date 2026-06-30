@@ -1,0 +1,39 @@
+{
+  "application_id": "WO2018105523",
+  "application_id_fs": null,
+  "title": "Spark ignition combustion engine control",
+  "abstract": "A control device (24) for a combustion engine (1) of a working tool is provided, comprising: a first input for information of a combustion of one cycle of a combustion chamber (4) of the engine; and a first output for controlling a component (14) of the engine, wherein the control device (24) is configured to determine the first output based on the first input of one cycle of the combustion chamber (4) and the first input of a preceding cycle of the combustion chamber (4).",
+  "claims": "Claims ( 17 ) A control device (24) for a combustion engine (1) of a working tool, comprising: a first input for information of a combustion of one cycle of a combustion chamber (4) of the engine (1), and a first output for controlling a component (14) of the engine (1), wherein the control device (24) is configured to determine the first output based on the first input of one cycle of the combustion chamber (4) and the first input of a preceding cycle of the combustion chamber (4). The control device (24) of claim 1, wherein the information provided to the first input is information regarding the temperature and/or pressure of an exhaust gas of the respective cycle of the combustion chamber (4). The control device (24) of claim 1, wherein the information provided to the first input is information regarding the ionization of an air-fuel mixture in the combustion chamber (4) of the combustion engine (1) of the respective cycle of the combustion chamber (4). The control device (24) of claim 1, wherein the information provided to the first input is information regarding temperature and/or vibrations/accelerations in the proximity of the combustion chamber (4) of the combustion engine (1) of the respective cycle of the combustion chamber (4). The control device (24) of any one of the preceding claims, wherein the control device (24) is configured to store a first first quantitative value of the first input of one cycle of the combustion chamber (4) and to compare the first first quantitative value with a second first quantitative value of the first input of a following cycle of the combustion chamber (4). The control device of claim 5, wherein the control device (24) is configured to determine a change of the first quantitative value, if the difference of the first first quantitative value and the second first quantitative value exceeds a predetermined threshold value, and/or wherein the control device (24) is configured to determine no change of the first quantitative value, if the difference of the first first quantitative value and the second first quantitative value does not exceed a predetermined threshold value. The control device (24) of claim 6, wherein a component (14) of the combustion engine (1) controlled by the first output is configured to be adjusted for the following cycles of the combustion chamber (4), and wherein the adjustment is performed differently depending on whether the control device (24) has determined a change of the first first qualitative value or not. The control device (24) of claims 5 to 7, wherein the first first quantitative value and the second first quantitative value of the first input are configured to be respectively measured in a same predetermined crankshaft angle section of a cycle of the combustion chamber (4). The control device (24) of claim 8, wherein the first first quantitative value and the second first quantitative value of the first input are configured to be respectively derived from a plurality of measurements within the predetermined crankshaft angle section, particularly as a mean value of said plurality of measurements. The control device (24) of claim 8 or 9, wherein said predetermined crankshaft angle section corresponds to a crankshaft angle section in which no spark is generated in the combustion engine (1). The control device (24) of any one of the preceding claims, wherein the first output controls an air-fuel ratio of an air-fuel mixture of the engine (1). The control device (24) of any one of the preceding claims, further comprising a second output for controlling sparking actions of a spark plug (2). The control device (24) of claim 12, further configured such that a first second output signal is provided at the second output for one cycle of the combustion chamber (4); a second second output signal different from the first second output signal is provided at the second output for a first following cycle of the combustion chamber (4); and a third second output signal different from the second second output signal is provided at the second output for a second following cycle of the combustion chamber (4). The control device (24) of claim 13, wherein the first second output signal is configured to generate a spark at a first crankshaft angle during a cycle of the combustion chamber (4); the second second output signal is configured to generate a spark at a second crankshaft angle during a cycle of the combustion chamber (4) different to the first crankshaft angle; and the third second output signal is configured to suppress generation of a spark. The control device (24) of any one of the preceding claims, further comprising a second input for information regarding a rotation of a crankshaft of the engine (1). A method for controlling a combustion engine (1), comprising: determining a first output based on a first input for information of a combustion of one cycle of a combustion chamber (4) of the engine (1) and a first input for information of a combustion of a preceding cycle of a combustion chamber (4) of the engine (1); and controlling a component (14) of the engine by the first output. A computer program product comprising computer-readable instructions, which, when loaded and executed on a computer system, cause the computer system to perform operations according to claim 15.",
+  "classifications": {
+    "ipc": [
+      "F02D 41/00",
+      "F02D 41/32",
+      "G01M 15/11",
+      "G01M 15/10",
+      "G01M 15/12",
+      "F02D 41/30",
+      "F02P 9/00",
+      "F02P 5/15",
+      "F02D 35/02",
+      "F02D 41/14",
+      "F02D 41/28",
+      "F02D 19/06"
+    ],
+    "cpc": [],
+    "all": [
+      "F02D 41/00",
+      "F02D 41/32",
+      "G01M 15/11",
+      "G01M 15/10",
+      "G01M 15/12",
+      "F02D 41/30",
+      "F02P 9/00",
+      "F02P 5/15",
+      "F02D 35/02",
+      "F02D 41/14",
+      "F02D 41/28",
+      "F02D 19/06"
+    ],
+    "source": "csv"
+  }
+}

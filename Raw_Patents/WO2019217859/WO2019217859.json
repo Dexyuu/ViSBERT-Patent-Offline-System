@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2019217859",
+  "application_id_fs": "WO2019217859",
+  "title": "Vehicle control system and method",
+  "abstract": "A vehicle control system for controlling a vehicle, including a set of task nodes, wherein each of the set of task nodes compares a failure criterion to input to the task node to generate a failure flag and provides output to at least one other task node of the set of task nodes; an aggregator node directly communicatively coupled to each of the set of task nodes, and wherein the aggregator node: receives a set of failure flags from the set of task nodes, determines a failure tier based on the set of failure flags, and generates a failure tier message defining the failure tier; and, a behavior planning node communicatively coupled to the aggregator node, wherein the behavior planning node: receives the failure tier message, and in response to the failure tier defined by the failure tier message, generates vehicle control instructions.",
+  "claims": "Claims What is claimed is: l. A vehicle control system for controlling a vehicle, comprising: â¢ a set of task nodes, wherein each of the set of task nodes: o is communicatively coupled to and receives subscription input from at least one of a task node of the set of task nodes and a sensor of a perception subsystem of the vehicle; o compares a failure criterion to the subscription input to generate a failure flag and transforms the subscription input into published output, and o provides the published output to at least one of another task node of the set of task nodes and an actuator of an actuation subsystem of the vehicle; â¢ an aggregator node directly communicatively coupled to each of the set of task nodes, and wherein the aggregator node: o receives a set of failure flags from the set of task nodes, o determines a failure tier based on the set of failure flags, wherein the failure tier is one of a first tier, a second tier, and a third tier, wherein the first tier is associated with an irreversible response action, the second tier is associated with a reversible response action, and the third tier is associated with a logging action, and o generates a failure tier message defining the failure tier; â¢ a behavior planning node communicatively coupled to the aggregator node, wherein the behavior planning node: o receives the failure tier message, and o in response to the failure tier defined by the failure tier message, generates vehicle control instructions corresponding to one of the logging action, the reversible response action, and the irreversible response action. 2. The system of Claim l, wherein the aggregator node determines the failure tier based on a number of failure flags of the set of failure flags received within a predetermined time window. 3. The system of Claim 1, wherein the aggregator node generates a list of nonfunctional task nodes from the set of task nodes based on the set of failure flags, and determines the failure tier based on the list of nonfunctional task nodes. 4. The system of Claim 3, wherein the list of nonfunctional task nodes associated with the first tier comprises at least one task node wherein the published output of the at least one task node controls the actuator of the actuation subsystem. 5. The system of Claim 1, wherein the aggregator node determines the failure tier in response to a task node of the set of task nodes generating a failure flag for a time period exceeding a threshold duration. 6. The system of Claim 5, wherein the threshold duration is inversely proportional to a number of task nodes that receive the published output of the task node. 7. The system of Claim 1, wherein the actuation subsystem is controlled by the behavior planning node in combination with the set of task nodes, and wherein the actuation subsystem actuates control inputs of the vehicle to navigate the vehicle along a roadway in response to the vehicle control instructions. 8. The system of Claim 7, wherein the vehicle control instructions corresponding to the reversible response action actuate a steering actuator of the actuation subsystem and a brake actuator of the actuation subsystem to bring the vehicle to a stopped condition at a righthand side of the roadway. 9. The system of Claim 8, wherein the vehicle control instructions corresponding to the irreversible response action actuate the brake actuator to bring the vehicle to the stopped condition at a current instantaneous lateral position of the vehicle in the roadway, and wherein the irreversible response action is executed immediately upon receipt of the failure message defining the failure tier corresponding to the irreversible response action. \n\n io. A method for managing component failure in a vehicle control system of a vehicle, comprising: â¢ at each of a set of task nodes of the vehicle control system: o subscribing to input from at least one of a first task node of the set of task nodes and a sensor of a perception subsystem of the vehicle, o transforming the input into an output according to a set of predetermined rules associated with the task node, o publishing the output to at least one of a second task node of the set of task nodes and an actuator of an actuation subsystem of the vehicle, and o comparing at least one of the subscription input and the published output to a failure criterion to generate a failure flag; â¢ at an aggregator node directly communicatively coupled to each of the set of task nodes: o receiving a set of failure flags from the set of task nodes; o determining a failure tier based on the set of failure flags, wherein the failure tier is one of a first tier, a second tier, and a third tier; â¢ determining a response action based on the failure tier, wherein the first tier corresponds to an irreversible response action, the second tier corresponds to a reversible response action, and the third tier corresponds to a logging action; and â¢ executing the response action corresponding to the failure tier. n. The method of Claim io, wherein determining the failure tier based on the set of failure flags comprises determining that the failure tier is the first tier based on receiving at least one of the failure flags from a task node publishing output to the actuator. 12. The method of Claim io, wherein determining the failure tier based on the set of failure flags comprises determining that the failure tier is the second tier based on receiving a failure flag from a task node of the set of task nodes for a time period exceeding a threshold duration. 13. The method of Claim 12, wherein the threshold duration is proportional to a speed of the vehicle. 14. The method of Claim 10, further comprising generating a list of nonfunctional task nodes based on the set of failure flags, and determining the failure tier based on the list of nonfunctional task nodes. 15. The method of Claim 14, wherein determining the failure tier is the first tier comprises determining that the list of nonfunctional task nodes comprises at least one task node that publishes the output to the actuator of the actuation subsystem. 16. The method of Claim 14, further comprising determining the failure tier based on comparing the list of nonfunctional task nodes to a prioritized list of degradation behaviors, wherein each degradation behavior requires a subset of task nodes of the set of task nodes for execution. 17. The method of Claim 16, further comprising determining the failure tier is the first tier based on the subset of task nodes of each of the degradation behaviors of the prioritized list of degradation behaviors sharing at least one task node with the list of nonfunctional task nodes. 18. The method of Claim 10, wherein determining the failure tier based on the set of failure flags comprises determining that the failure tier is the second tier based on a number of failure flags of the set of failure flags received within a predetermined time window. 19. The method of Claim 10, wherein executing the response action associated with the first tier and the second tier comprises navigating the vehicle along a roadway, and wherein executing the response action associated with the third tier comprises recording the failure flag and the corresponding task node generating the failure flag. 20. The method of Claim 19, wherein executing the irreversible response action comprises controlling the vehicle to stop in the roadway in direct response to determining the failure tier is the first tier, and wherein executing the reversible response action comprises controlling the vehicle to traverse the roadway and stop proximal a side region adjacent to the roadway in direct response to determining the failure tier is the second tier.",
+  "classifications": {
+    "ipc": [
+      "B60W 50/00",
+      "B60W 50/02",
+      "B60W 50/0205",
+      "B60W 10/00",
+      "B60W 10/18",
+      "B60W 10/20",
+      "B60W 50/0225",
+      "B60W 50/029",
+      "B60W 60/00",
+      "B60W 60/001",
+      "B60W 60/0015",
+      "B60W 2050/021",
+      "B60W 2050/022",
+      "B60W 2050/0292",
+      "B60W 2520/00",
+      "B60W 2520/10"
+    ],
+    "cpc": [],
+    "all": [
+      "B60W 50/00",
+      "B60W 50/02",
+      "B60W 50/0205",
+      "B60W 10/00",
+      "B60W 10/18",
+      "B60W 10/20",
+      "B60W 50/0225",
+      "B60W 50/029",
+      "B60W 60/00",
+      "B60W 60/001",
+      "B60W 60/0015",
+      "B60W 2050/021",
+      "B60W 2050/022",
+      "B60W 2050/0292",
+      "B60W 2520/00",
+      "B60W 2520/10"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019217859"
+}

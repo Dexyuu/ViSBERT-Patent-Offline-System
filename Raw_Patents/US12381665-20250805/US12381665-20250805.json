@@ -1,0 +1,22 @@
+{
+  "title": "Method, apparatus, and system for transmitting HARQ-ACK codebook in wireless communication system",
+  "abstract": "The present invention relates to a wireless communication system and, more particularly, to a method comprising the steps of: receiving a PDCCH for multi-slot scheduling; determining a PDSCH candidate for each slot on the basis of information in the PDCCH; and transmitting a semi-static HARQ-ACK codebook on the basis of the determined PDSCH candidate of each slot, and to an apparatus therefor.",
+  "claims": "1. A user equipment configured to operate in a wireless communication system, the user equipment comprising: a communication module; and a processor that controls the communication module, wherein the processor is configured to: receive a physical downlink control channel (PDCCH) having the following information: index information indicating one entry in a time-domain resource allocation (TDRA) table for physical downlink shared channel (PDSCH) allocation, and timing information indicating one value in a K 1 -set {K 1,i }for PDSCH-to-hybrid automatic repeat and request (HARQ) slot timing, wherein i represents an index of element; when at least one entry in the TDRA table includes a plurality of starting and length values (SLIVs), update the K 1 -set based on the TDRA table so that an updated K 1 -set includes the K 1 -set {K 1,i }+{d k }, wherein d k corresponds to a slot offset between a last slot to which a last PDSCH can be allocated and a slot to which a k-th PDSCH can be allocated, according to the plurality of SLIVs, and k represents an index of element; determine a PDSCH candidate set associated with slot n-K 1,i for the updated K 1 -set, wherein slot n is indicated by using the timing information; and transmit a semi-static HARQ-ACK codebook in the slot n, based on the PDSCH candidate set.",
+  "patent_id": "US12381665-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 1/1893",
+      "H04L 1/1861",
+      "H04W 72/044",
+      "H04W 72/232"
+    ],
+    "all": [
+      "H04L 1/1893",
+      "H04L 1/1861",
+      "H04W 72/044",
+      "H04W 72/232"
+    ],
+    "source": "converted"
+  }
+}

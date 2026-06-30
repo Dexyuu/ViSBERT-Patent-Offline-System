@@ -1,0 +1,32 @@
+{
+  "title": "GTLD domain name registries RDAP architecture",
+  "abstract": "Provided is a method for providing Registration Data Access Protocol (âRDAPâ) responses. The method includes obtaining, at a RDAP client over a network, a RDAP query for RDAP data from a user; providing, by the RDAP client, the RDAP query and a cryptographic credential to a RDAP server, wherein the RDAP server communicates with one or more thick RDAP servers to provide respective thick RDAP answers to the RDAP query, wherein at least one the respective thick RDAP answers are encrypted using a symmetric or asymmetric cryptographic key associated with the cryptographic credential of the RDAP client; obtaining a consolidated thick RDAP answer to the RDAP query from the RDAP server; decrypting the consolidated thick RDAP answer using a symmetric or asymmetric cryptographic key associated with the cryptographic credential; and providing the thick RDAP answer that is decrypted to the user.",
+  "claims": "1. A method for providing a registration data response, the method comprising: obtaining, at a registration data client over a network, a registration data query for registration data from a user; providing, by the registration data client, the registration data query to a registration data service, wherein the registration data service queries a database of the registration data service and determines an other registration data service to respond to the registration data query; receiving, at the registration data client, a registration data response including a referral URL to the other registration data service determined to respond to the registration data query; providing a registration data response to the user, the registration data response comprising a hyperlink based on the referral URL; and receiving, at the registration data client over the network, a second registration data query for registration data from the user, wherein, based on receiving the second registration data query, an access token is provided to the other registration data service.",
+  "patent_id": "US12381875-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/0884",
+      "H04L 9/3213",
+      "H04L 9/3263",
+      "H04L 61/302",
+      "H04L 61/4511",
+      "H04L 61/4594",
+      "H04L 63/0428",
+      "H04L 63/06",
+      "H04L 63/0823"
+    ],
+    "all": [
+      "H04L 63/0884",
+      "H04L 9/3213",
+      "H04L 9/3263",
+      "H04L 61/302",
+      "H04L 61/4511",
+      "H04L 61/4594",
+      "H04L 63/0428",
+      "H04L 63/06",
+      "H04L 63/0823"
+    ],
+    "source": "converted"
+  }
+}

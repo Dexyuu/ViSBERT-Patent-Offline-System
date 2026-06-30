@@ -1,0 +1,18 @@
+{
+  "title": "Data center monitoring and management operation including data center asset telemetry interpolation operation",
+  "abstract": "A system, method, and computer-readable medium for performing a data center monitoring and management operation. The data center monitoring and management operation includes: receiving data center asset data, the data center asset data comprising historical data center asset telemetry data; training a prediction model to generate predictions using the historical data center asset telemetry data; and, interpolating additional data center asset telemetry data using the predications generated using the prediction model.",
+  "claims": "1. A computer-implementable method for performing a data center monitoring and management operation, comprising: receiving data center asset data from a data center asset, the data center asset data comprising historical data center asset telemetry data, the data center asset communicating with a data center monitoring and management console via a network, the data center monitoring and management console executing a telemetry interpolation system; training a prediction model to generate predictions using the historical data center asset telemetry data; and, performing a telemetry interpolation operation via the telemetry interpolation system, the telemetry interpolation operation using the prediction model, the telemetry interpolation operation interpolating additional data center asset telemetry data using the predications generated using the prediction model, the additional data center asset telemetry data including missing data center asset telemetry data.",
+  "patent_id": "US12381797-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 43/08",
+      "H04L 41/16"
+    ],
+    "all": [
+      "H04L 43/08",
+      "H04L 41/16"
+    ],
+    "source": "converted"
+  }
+}

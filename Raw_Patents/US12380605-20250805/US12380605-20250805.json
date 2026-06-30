@@ -1,0 +1,16 @@
+{
+  "title": "Point cloud data transmission device, transmission method, processing device, and processing method",
+  "abstract": "A point cloud data transmission method according embodiments comprises a step for encoding point cloud data including the geometry and attributes, the geometry being information indicating the positions of the points of the point cloud data, and the attributes including one or more among the color and reflectance of the points, wherein the encoding step comprises: a step for converting the coordinates representing the positions of the points; and a step for transmitting a bitstream including the encoded point cloud data. The point cloud data transmission method can encode and transmit the point cloud data.",
+  "claims": "1. A method of encoding point cloud data, the method comprising: encoding point cloud data including a geometry and an attribute; and transmitting a bitstream including the point cloud data, wherein the geometry is information about positions of points of the point cloud data, wherein the attribute includes at least one of color or reflectance of the points, and wherein the encoding includes converting coordinates representing the positions of the points, wherein the bitstream includes parameter information for the point cloud data, wherein the point cloud data is acquired based on a laser index and a laser angle, wherein the point cloud data is encoded based on searching a neighbor point, wherein the neighbor point is searched in a laser plane related to the laser index, wherein a distance between each laser index is set based on a neighbor distance.",
+  "patent_id": "US12380605-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 9/001"
+    ],
+    "all": [
+      "G06T 9/001"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Uplink and downlink streaming bit rate assistance in 4G and 5G networks",
+  "abstract": "Various embodiments may provide streaming service downlink network assistance and/or uplink network assistance mechanisms in a fifth generation (5G) system (5GS) network via an Application Function (AF) computing device in a 5GS. In some embodiments, a computing device and/or the AF computing device may inform the network about needs for capacity for downlink or uplink traffic. Various embodiments may include sending radio access network (RAN) capacity requests to a network computing device of the 5GS network including a 5G RAN. In some embodiments, the network computing device of the 5GS network may be a computing device that is not part of the 5G RAN. In some embodiments, capacity need messages may be sent directly from user equipment (UE) computing devices to computing devices of the 5G RAN. In some embodiments, capacity information of the RAN may be delivered to an AF computing device via an intermediate network function.",
+  "claims": "1. A method for providing streaming service assistance in a wireless network, comprising: sending, by a processor of an application function (AF) network computing device, a radio access network (RAN) capacity request to a second network computing device in response to receiving a network assistance request for a streaming application of a user equipment (UE) computing device, the network assistance request specifying an increased bitrate relative to a current bitrate utilized for a streaming session associated with the UE computing device, the UE computing device being separate from the second network computing device; and further in response to the network assistance request, sending, by the processor of the AF network computing device, a capacity need message to a third computing device of the wireless network, wherein the capacity need message identifies an amount of data to be transferred during the streaming session, or during one or more intervals of the streaming session, for the UE computing device, the third computing device being separate from the UE computing device, the amount of data corresponding to the increase in bitrate for the streaming session for the UE.",
+  "patent_id": "US12382479-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/51",
+      "H04W 8/22",
+      "H04W 68/005",
+      "H04W 72/543",
+      "H04W 76/11"
+    ],
+    "all": [
+      "H04W 72/51",
+      "H04W 8/22",
+      "H04W 68/005",
+      "H04W 72/543",
+      "H04W 76/11"
+    ],
+    "source": "converted"
+  }
+}

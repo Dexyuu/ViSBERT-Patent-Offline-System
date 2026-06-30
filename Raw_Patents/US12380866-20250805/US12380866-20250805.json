@@ -1,0 +1,32 @@
+{
+  "title": "Shift register unit, gate drive circuit, display apparatus and driving method",
+  "abstract": "A shift register unit, a gate drive circuit, a display apparatus and a driving method. The shift register unit includes: a first control circuit, configured to control a signal of a first node and a signal of a second node according to a signal of an input signal end and a signal of a first clock signal end; second control circuits, configured to control signals of at least two drive nodes according to the signal of the first node, the signal of the second node and signals of second clock signal ends; cascade output circuits, configured to provide the signal of one of the at least two drive nodes to a cascade output end according to cascade selection signal ends; and drive output circuits, configured to provide the signal of at least one of the at least two drive nodes to drive output ends corresponding to the drive nodes.",
+  "claims": "1. A shift register unit, comprising: a first control circuit, configured to control a signal of a first node and a signal of a second node according to a signal of an input signal end and a signal of a first clock signal end; second control circuits, configured to control signals of at least two drive nodes according to the signal of the first node, the signal of the second node and signals of second clock signal ends; cascade output circuits, configured to provide the signal of one of the at least two drive nodes to a cascade output end according to cascade selection signal ends; and drive output circuits, configured to provide the signal of at least one of the at least two drive nodes to drive output ends corresponding to the drive nodes according to drive selection signal ends; wherein the drive nodes comprise M drive nodes, the second clock signal ends comprise M second clock signal ends, the drive output ends comprise M drive output ends, and M is an integer greater than 1; the second control circuits comprise M second control circuits, wherein, an m th second control circuit among the M second control circuits corresponds to an m th drive node among the M drive nodes, and the m th second control circuit corresponds to an m th second clock signal end among the M second clock signal ends; the m th second control circuit is configured to provide a signal of the m th second clock signal end to the m th drive node in response to the signal of the first node, and provide a signal of a first reference signal end to the m th drive node in response to the signal of the second node; and 1≤m≤M, and m is an integer; the cascade output circuits comprise M cascade output circuits, and the cascade selection signal ends comprise M cascade selection signal ends; an m th cascade output circuit among the M cascade output circuits corresponds to the m th drive node, and the m th cascade output circuit corresponds to an m th cascade selection signal end among the M cascade selection signal ends; and the m th cascade output circuit is configured to provide a signal of the m th drive node to the cascade output end in response to a signal of the m th cascade selection signal end; and the drive output circuits comprise M drive output circuits, and the drive selection signal ends comprise M drive selection signal ends; an m th drive output circuit among the M drive output circuits corresponds to the m th drive node, and the m th drive output circuit corresponds to an m th drive selection signal end among the M drive selection signal ends; and the m th drive output circuit is configured to provide the signal of the m th drive node to an m th drive output end in response to a signal of the m th drive selection signal end.",
+  "patent_id": "US12380866-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/3677",
+      "G09G 3/20",
+      "G09G 3/3266",
+      "G09G 3/36",
+      "G11C 19/28",
+      "G09G 2300/0408",
+      "G09G 2310/0286",
+      "G09G 2310/08",
+      "G11C 19/287"
+    ],
+    "all": [
+      "G09G 3/3677",
+      "G09G 3/20",
+      "G09G 3/3266",
+      "G09G 3/36",
+      "G11C 19/28",
+      "G09G 2300/0408",
+      "G09G 2310/0286",
+      "G09G 2310/08",
+      "G11C 19/287"
+    ],
+    "source": "converted"
+  }
+}

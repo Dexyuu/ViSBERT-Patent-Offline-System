@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for subblock motion vector coding",
+  "abstract": "The various embodiments described herein include methods and systems for encoding and decoding video. In one aspect, a method includes receiving a video bitstream comprising a plurality of blocks, including a first block, where the first block includes a plurality of subblocks. The method also includes determining, based on a syntax element value in the video bitstream, that the first block is predicted in a subblock mode. The method further includes, in accordance with the first block being predicted in the subblock mode: deriving a set of motion vector predictors (MVPs) corresponding to a plurality of subblocks of the first block; deriving a set of motion vector differences (MVDs) for the plurality of subblocks; determining a set of motion vectors for the plurality of subblocks by applying the set of MVDs to the set of MVPs; and reconstructing the first block using the set of motion vectors.",
+  "claims": "1. A method of video decoding performed at a computing system having memory and one or more processors, the method comprising: receiving a video bitstream comprising a plurality of blocks, including a first block, wherein the first block comprises a plurality of subblocks; determining, based on a syntax element value in the video bitstream, that the first block is predicted in a subblock mode; and when the first block is predicted in the subblock mode: deriving a set of motion vector predictors (MVPs) corresponding to the plurality of subblocks of the first block; parsing, from the video bitstream, an MVD coefficient block for the first block, the MVD coefficient block having a size equal to a number of samples in the first block; deriving a set of motion vector differences (MVDs) for the plurality of subblocks by performing an inverse transform on the MVD coefficient block; determining a set of motion vectors for the plurality of subblocks by applying the set of MVDs to the set of MVPs; and reconstructing the first block using the set of motion vectors.",
+  "patent_id": "US12382082-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/513",
+      "H04N 19/176",
+      "H04N 19/70"
+    ],
+    "all": [
+      "H04N 19/513",
+      "H04N 19/176",
+      "H04N 19/70"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "title": "System and method for using a mobile device as an input device for surveys at a live event",
+  "abstract": "A method is provided for interacting with audience members in an event, each of the potential attendees having available thereto a unique identifier. The method comprises creating, for an attendee, a unique ID (UID) on a mobile wireless device (MWD) by the steps of inputting to the MWD one of the unique identifiers, combining the obtained unique identifier with a UID time stamp at the time of creation of the UID; receiving with a server on a first wireless channel communications from the MWD; registering the UID at the physical location of the event; generating a visual query; displaying on the MWD response indicators; receiving at the server from the registered attendee a response, to the query over the first wireless channel; and storing in a database on the server the received response in association with the displayed query.",
+  "claims": "1. A method for interacting with audience members of an event, which is defined as occurring at a particular predetermined time, wherein the event has a number of participating attendees and an associated number of unique potential attendee identifiers (UPAIs) allocated to any particular event, each of the participating attendees having available thereto one of the UPAIs for an associated event, the method comprising: creating, for a participating attendee, proximate in time to an occurrence of the particular predetermined time of the event, a unique ID (UID) for a mobile wireless device (MWD), including: combining a UPAI with a UID time stamp to provide the UID including a UPAI portion and a UID timestamp portion, so as to distinguish two different UIDs having a duplicate UPAI portion; verifying, by a server, the UID is unique by comparing the UID to one or more other UIDs in a database on the server to determine if a duplicate UID exists in the database, resulting in a verified UID; and accepting and storing the verified UID in the database; receiving with the server a communication associated with the MWD of the participating attendee, wherein the communication is associated with the verified UID; and registering the participating attendee to define a registered attendee.",
+  "patent_id": "US12381977-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04M 3/42357",
+      "G06F 16/9554",
+      "G06Q 10/02",
+      "G06Q 30/0201",
+      "G06Q 30/0241",
+      "G07C 9/21",
+      "H04L 67/306",
+      "H04W 4/021",
+      "H04W 4/33",
+      "H04W 60/00"
+    ],
+    "all": [
+      "H04M 3/42357",
+      "G06F 16/9554",
+      "G06Q 10/02",
+      "G06Q 30/0201",
+      "G06Q 30/0241",
+      "G07C 9/21",
+      "H04L 67/306",
+      "H04W 4/021",
+      "H04W 4/33",
+      "H04W 60/00"
+    ],
+    "source": "converted"
+  }
+}

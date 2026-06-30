@@ -1,0 +1,24 @@
+{
+  "title": "Voice-to-text data processing",
+  "abstract": "A computing system includes a processor configured to convert a word spoken by a user into a pattern of symbols in response to an unsuccessful attempt to retrieve the word in a list. The pattern of symbols provide a visual representation of speech sounds identifying the contact in the contact list. The pattern of symbols of the converted contact is compared to a database of patterns, with the patterns in the database being in a format of symbols corresponding to the words in the list. Each pattern used in the compare has a match value assigned thereto based on being compared to the pattern of symbols of the converted word. The processor provides the word in the list corresponding to the pattern having the match value that is indicative of a match to the converted word.",
+  "claims": "12. A computing device comprising: a memory and a processor configured to cooperate with said memory to perform the following: convert, based on rules, a word spoken by a user into a pattern of pronunciation symbols in response to an unsuccessful attempt to retrieve the word in a list, with the pattern of pronunciation symbols providing a visual representation of speech sounds identifying the word in the list; compare the pattern of pronunciation symbols of the converted word to a database of patterns, with the patterns in the database being in a format of pronunciation symbols corresponding to the words in the list, and with each pattern used in the compare having a match value assigned thereto based on being compared to the pattern of pronunciation symbols of the converted word, by: dividing the pattern of symbols into pronunciation sections for the converted word, each pronunciation section corresponding to a syllable in the converted word; dividing the pattern of symbols into pronunciation sections for each pattern in the database used in the compare; and comparing the pronunciation sections for the converted word to the corresponding pronunciation sections for each pattern used in the compare; and provide the word in the list corresponding to the pattern having the match value that is indicative of a match to the converted word.",
+  "patent_id": "US12380884-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 15/22",
+      "G10L 15/02",
+      "G10L 15/30",
+      "G10L 2015/025",
+      "G10L 2015/223"
+    ],
+    "all": [
+      "G10L 15/22",
+      "G10L 15/02",
+      "G10L 15/30",
+      "G10L 2015/025",
+      "G10L 2015/223"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Self-checkout method, system, device and kit integrated with sensors and artificial intelligence",
+  "abstract": "The present invention relates to a self-checkout method. The method includes: executing following steps through a control module: activating a first image sensor to capture a first image that includes a hand; activating a second image sensor to capture a second image that includes an item; running a gesture recognition independent model to generate a first recognition result based on the first image; running an object recognition independent model to generate a third recognition result based on the second image; and executing and inputting the first recognition result and the third recognition result into a checkout assistance decision independent model to determine whether a missed scan event has occurred.",
+  "claims": "1. A self-checkout method, comprising: executing following steps through a control module: activating a first image sensor to capture a first image that comprises a hand; activating a second image sensor to capture a second image that comprises an item; running a gesture recognition independent model to generate a first recognition result based on the first image; running an object recognition independent model to generate a third recognition result based on the second image; and executing and inputting the first recognition result and the third recognition result into a checkout assistance decision independent model to determine whether a missed scan event has occurred, wherein the self-checkout method further comprises one of the following: executing following steps through the control module: activating the first image sensor to capture the first image that comprises an information code; activating a high-position image sensor to capture a third image that comprises one of a consumer, the hand, the item, and the information code; activating a first proximity sensor to detect a first distance information with respect to the hand, the item, or the information code, and obtaining a first sensing output; activating a second proximity sensor to detect a second distance information with respect to the hand, the item, or the information code, and obtaining a second sensing output; activating a third proximity sensor to detect a third distance information with respect to the hand, the item, or the information code, and obtaining a third sensing output; activating a scanner to read the information code, and obtaining a fourth sensing output; running an information code recognition independent model to generate a second recognition result based on the first image; and inputting the first to third recognition results, the first to third images, and the first to fourth sensing outputs into the checkout assistance decision independent model and executing the checkout assistance decision independent model to recognize a consuming behavior for the consumer and determine whether the missed scan event has occurred.",
+  "patent_id": "US12380771-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G07G 1/0054",
+      "G06V 10/761",
+      "G06V 20/52",
+      "G06V 20/64",
+      "G06V 40/10",
+      "G06V 40/28"
+    ],
+    "all": [
+      "G07G 1/0054",
+      "G06V 10/761",
+      "G06V 20/52",
+      "G06V 20/64",
+      "G06V 40/10",
+      "G06V 40/28"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Size restriction for intra-block copy virtual buffer",
+  "abstract": "A method for video processing is described. The method may include making a decision, for a conversion between a current video block of a video picture of a video and a coded representation of the video, regarding a size of a reference region of the video picture from which reference samples are used for predicting the current video block, based on a size of a virtual pipeline data unit (VPDU), a size of a coding tree block (CTB), or a size of a coding tree unit (CTU); and performing the conversion based on the decision.",
+  "claims": "1. A method of processing video data, comprising: determining, for a conversion between a current video block of a video picture of a video and a bitstream of the video, a number of reference samples in a virtual buffer comprising reference samples derived from the video picture based on a rule, wherein the rule specifies that a maximum number of available reference samples in the virtual buffer is less than a size of the virtual buffer; and performing the conversion based on the determining, wherein the current video block is coded in a prediction mode in which prediction samples are derived from blocks of the available reference samples in the virtual buffer based on a block vector, wherein the rule specifies that a reference sample marked unavailable has a location of (m, n) in the virtual buffer, wherein m=(x+ (IbcBufWidthY>>1)) % IbcBufWidthY, and n=y % CtbSizeY, wherein (x, y) denotes a location of a sample in a first block in the video picture and is determined based on a size of a virtual unit, wherein IbcBufWidthY denotes a width of the virtual buffer, wherein CtbSizeY denotes a size of a luma coding tree block (CTB) comprising the current video block, wherein >> denotes right shift operator and % denotes modulo operator, and wherein a width of the first block is determined based on a width of the current video block, and a height of the first block is determined based on a height of the current video block.",
+  "patent_id": "US12382016-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/105",
+      "H04N 19/132",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/1883"
+    ],
+    "all": [
+      "H04N 19/105",
+      "H04N 19/132",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/1883"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Time domain resource configuration method and terminal",
+  "abstract": "The present disclosure provides a time domain resource configuration method and a terminal. The method includes: obtaining configuration information of a physical random access channel (PRACH); where the configuration information includes a first configuration value, and the first configuration value is used to indicate a configuration number of PRACH slots in each target time domain granularity; determining distribution of the PRACH slots in the target time domain granularity according to the configuration information; and determining validity of PRACH occasions in the PRACH slots.",
+  "claims": "1. A time domain resource configuration method, comprising: obtaining configuration information of a physical random access channel (PRACH); wherein the configuration information includes a first configuration value, and the first configuration value is used to indicate a configuration number of PRACH slots in each target time domain granularity; determining distribution of the PRACH slots in a target time domain granularity according to the configuration information; and determining validity of PRACH occasions in the PRACH slots; wherein the determining distribution of the PRACH slots in the target time domain granularity according to the configuration information, includes: segmenting the target time domain granularity according to the configuration information; determining distribution of PRACH slots in each segment of the target time domain granularity, according to the configuration number of PRACH slots; wherein N′ consecutive slots are selected, in time sequence from back to front, from each segment of the target time domain granularity, as PRACH slots, and N′ is the configuration number of the PRACH slots in each segment of each target time domain granularity.",
+  "patent_id": "US12382509-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 74/0841",
+      "H04L 5/1469",
+      "H04L 27/26025",
+      "H04W 74/0866"
+    ],
+    "all": [
+      "H04W 74/0841",
+      "H04L 5/1469",
+      "H04L 27/26025",
+      "H04W 74/0866"
+    ],
+    "source": "converted"
+  }
+}

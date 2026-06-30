@@ -1,0 +1,20 @@
+{
+  "title": "Tracking data lineage and applying data removal to enforce data removal policies",
+  "abstract": "A graph tracks the lineage of customer data, including when it was originally extracted from a customer computing system, and any transformation results indicating transformations that were performed on the customer data. The graph is traversed to identify nodes in the graph that have expired based upon data removal policies. The customer data represented by the expired nodes in the graph is deleted and the graph is modified to delete the expired nodes. The modified graph is then stored in persistent memory until data removal is next triggered.",
+  "claims": "1. A data removal computer system, comprising: at least one processor; and memory storing instructions executable by the at least one processor, wherein the instructions, when executed, cause the data removal computer system to: identify an extraction time at which a portion of user data is extracted from a computing system; identify a path to a storage location in a source data store where the portion of user data, extracted from the computing system, is stored; generate, in a graph, a node that represents the portion of user data stored in the storage location in the source data store, wherein the node stores a path identifier that identities the path to the storage location that stores the portion of user data, and an original extraction date (OED) value identifying an earliest source data timestamp corresponding to the node, the earliest source data timestamp comprising an earliest extraction time that indicates when user data that was used to derive the node was extracted from a corresponding substrate; intermittently traverse the graph; comparing the earliest extraction time corresponding to each node in the graph to an expiration time; identify the node as an expired node in the graph based on the comparing and a determination that the earliest extraction time, identified by the OED value, is older than the expiration time; and based on the identification of the node as an expired node, obtain the path identifier from the expired node, access the storage location in the source data store using the path identifier obtained from the expired node, delete the portion of user data stored at the storage location in the source data store, delete the expired node from the graph to obtain a modified graph, and store the modified graph in persistent memory.",
+  "patent_id": "US12380071-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/215",
+      "G06F 16/219",
+      "G06F 16/9024"
+    ],
+    "all": [
+      "G06F 16/215",
+      "G06F 16/219",
+      "G06F 16/9024"
+    ],
+    "source": "converted"
+  }
+}

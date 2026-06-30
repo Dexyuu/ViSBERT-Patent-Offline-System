@@ -1,0 +1,16 @@
+{
+  "title": "Detecting information breach in a computer system",
+  "abstract": "A method for detecting information breach in a computer system. The method comprises: detecting a radio frequency signal in an area of the computer system. A set of samples of the radio frequency signal may be input to a machine learning model. An output of the machine learning model may be received. The output indicates whether the detected radio frequency signal is anomalous. An alarm signal may be generated in case the detected radio frequency signal is predicted as an anomalous signal.",
+  "claims": "1. A method for detecting information breach in a computer system, the method comprising: detecting a radio frequency signal in an area of the computer system; inputting a set of samples of the radio frequency signal to a machine learning model comprising multiple sub-models, the machine learning model being configured to predict whether a radio frequency signal is anomalous wherein each sub-model being configured to: receive a respective subset of the set of samples, the subset of samples representing a respective frequency range of the detected radio frequency signal; and predict whether the radio frequency signal is anomalous in that frequency range; receiving an output of the machine learning model, the output indicating whether the detected radio frequency signal is anomalous, wherein the detected radio frequency signal is predicted as anomalous if the radio frequency signal is predicted as anomalous in each range of the frequency ranges associated with the multiple sub-models; and generating an alarm signal in case the detected radio frequency signal is predicted as an anomalous signal.",
+  "patent_id": "US12382290-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 12/121"
+    ],
+    "all": [
+      "H04W 12/121"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Encoding of multi-channel audio signals comprising downmixing of a primary and two or more scaled non-primary input channels",
+  "abstract": "Systems, methods, and computer program products are disclosed for adaptive downmixing of audio signals with improved continuity. An audio encoding system receives an input multi-channel audio signal including a primary input audio channel and L non-primary input audio channels. The system determines a set of L input gains. For each of the channels and gains, the system forms a respective scaled non-primary input audio channel. The system forms a primary output audio channel from the sum of the primary input audio channel and the scaled non-primary input audio channels. The system determines a set of L prediction gains. The system forms a prediction channel from the primary output audio channel. The system forms L non-primary output audio channels. The system forms an output multi-channel audio signal from the primary output audio channel and the L non-primary output audio channels.",
+  "claims": "1. An audio encoding method comprising: receiving, with at least one processor, an input multi-channel audio signal comprising a primary input audio channel and L non-primary input audio channels; determining, with the at least one processor, a set of L input gains, wherein L is a positive integer greater than one, and wherein the set of L input gains are determined by scaling a set of L mixing coefficients by an input mixture strength coefficient; for each of the L non-primary input audio channels and L input gains, forming a respective scaled non-primary input audio channel from the respective non-primary input audio channel scaled according to the input gain; forming a primary output audio channel from a sum of the primary input audio channel and the scaled non-primary input audio channels; determining, with the at least one processor, a set of L prediction gains, wherein the set of L prediction gains is determined by scaling the set of L mixing coefficients by a prediction mixture strength coefficient; for each of the L prediction gains, forming, with the at least one processor, a prediction channel from the primary output audio channel scaled according to the prediction gain; forming, with the at least one processor, L non-primary output audio channels from a difference of the respective non-primary input audio channel and the respective prediction channel; forming, with the at least one processor, an output multi-channel audio signal from the primary output audio channel and the L non-primary output audio channels; encoding, with an audio encoder, the output multi-channel audio signal; and transmitting or storing, with the at least one processor, the encoded output multi-channel audio signal.",
+  "patent_id": "US12380898-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 19/008",
+      "G10L 19/002",
+      "G10L 19/0204"
+    ],
+    "all": [
+      "G10L 19/008",
+      "G10L 19/002",
+      "G10L 19/0204"
+    ],
+    "source": "converted"
+  }
+}

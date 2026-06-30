@@ -1,0 +1,22 @@
+{
+  "title": "Fine-grained permission models for ontology data",
+  "abstract": "A system for enabling granular access control over ontology data and related methods are disclosed. The system is programmed to receive data source updates from data sources having respective sets of permissions for access control, transform the data source updates to changes to an ontology, and control access to the ontology based on the sets of permissions. The system is further programmed to receive a specification of one or more rules referencing attributes of user accounts or properties of ontology entities and corresponding one or more lists of permissions. The system is programmed to then enforce a security policy based on the specification to further control access to the ontology.",
+  "claims": "1. A computer-implemented method of managing access control for ontology data, comprising: receiving a set of data source updates for one or more datasets from one or more data sources; transforming the set of data source updates to a list of updates to an ontology based on a first mapping, the ontology including a definition for each ontology entity type of a plurality of ontology entity types, the definition including one or more properties, the ontology including a plurality of ontology entities instantiated from the plurality of ontology entity types, an ontology entity being an object or a link between two objects, the first mapping being between the one or more datasets and the plurality of ontology entity types; managing a set of user accounts of a user account type having one or more attributes; causing presenting a first option including three items, the first option allowing creating a rule by choosing two items from the three items, the three items being an attribute of the user account type, a property of an ontology entity type, and a value; receiving a selection of the first option to create one or more rules; creating a first security policy based on the one or more rules; providing access to the ontology to user accounts according to the first security policy, wherein the method is performed by one or more processors.",
+  "patent_id": "US12380152-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/367",
+      "G06F 16/2336",
+      "G06F 16/2365",
+      "G06F 21/6218"
+    ],
+    "all": [
+      "G06F 16/367",
+      "G06F 16/2336",
+      "G06F 16/2365",
+      "G06F 21/6218"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Chroma sample weight derivation for geometric partition mode",
+  "abstract": "A method of coding implemented by a decoding device, comprising obtaining a value of a parameter for a current block, the value of the parameter indicating a partition mode for the current block; obtaining a first prediction mode for the current block; obtaining a second prediction mode for the current block; generate a first prediction value for a chroma sample in the current block according to the first prediction mode; generate a second prediction value for a chroma sample in the current block according to the second prediction mode; obtaining a combined prediction value by combining the first prediction value and the second prediction value.",
+  "claims": "1. A method of coding implemented by a decoding device, comprising: obtaining a value of a parameter for a current block, the value of the parameter indicating a partition mode for the current block; obtaining a first prediction mode for the current block; obtaining a second prediction mode for the current block; generating a first prediction value for a chroma sample in the current block according to the first prediction mode; generating a second prediction value for a chroma sample in the current block according to the second prediction mode; obtaining a combined prediction value by combining the first prediction value and the second prediction value; obtaining a weight value for a luma sample by calculating the weight value for the luma sample; and obtaining a first weight value for a chroma sample by calculating the first weight value for the chroma sample; obtaining a combined prediction value for the chroma sample in the current block, according to the first prediction value for the chroma sample and the first weight value for the chroma sample; and wherein the combined prediction value is obtained by combining the first prediction value and the second prediction value according to a blending operation, the blending operation is implemented using a function of a sample distance sample_dist as input and sample Weight1 as output, wherein said sample_dist function is a division or multiplication with a constant number operation, a right shifting a constant amount operation, a taking the absolute value or a clipping operation or a combination of those, and wherein sample_dist=((x<<1)+1)*Dis[angleIdx1]+ ((y<<1)+1))*Dis[angleIdx2]−offset (distanceIdx), and wherein angleIdx1 and angleIdx2 represent quantized trigonometric parameters of a separation line and angleIdx2 is equal to a remainder of a variable (displacementX) plus 8 and divided by 32, x and y are the −x and −y coordinates of a sample with respect to top-left sample of a coding block, offset (distanceIdx) is an offset value, which is a function of an index value (distanceIdx), and Dis[ ] is a lookup table describing the change in the sample distance with respect to a unit increase in the x or y directions, and wherein sample Weight1=Clip3(0, 8, f (sample_dist)), wherein f( ) 1s a division/addition/multiplication with a constant number operation, a right shifting with a constant amount operation, taking the absolute value operation or a clipping operation or a combination of those, wherein sample Weight1=Clip3(0, 8, sample_dist*K+Clip3(0, 8, sample_dist+4)), sample_dist represents a distance of the luma sample to a separation line of the current block, and K is an integer with a value greater than 0.",
+  "patent_id": "US12382052-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/132",
+      "H04N 19/105",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/186"
+    ],
+    "all": [
+      "H04N 19/132",
+      "H04N 19/105",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/186"
+    ],
+    "source": "converted"
+  }
+}

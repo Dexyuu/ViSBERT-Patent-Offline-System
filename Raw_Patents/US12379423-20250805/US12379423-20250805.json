@@ -1,0 +1,22 @@
+{
+  "title": "Battery degradation estimation device, battery degradation estimation system, battery degradation estimation method, and storage medium",
+  "abstract": "Provided is a battery degradation estimation device including a storage medium that stores computer-readable instructions, and a processor coupled to the storage medium, the processor executing the computer-readable instructions to: acquire time-series data including at least a voltage, SOC (State Of Charge), temperature, and current of a battery; convert the time-series data into intermediate data to be used for training; predict a future value of the intermediate data and a future value of an indicator relating to a degradation state of the battery by using a prediction function to generate training data; train a prediction model for estimating the indicator relating to the degradation state of the battery on the basis of the training data; and estimate the indicator relating to the degradation state of the battery on the basis of the prediction model.",
+  "claims": "1. A battery degradation estimation device comprising a storage medium that stores computer-readable instructions, and a processor coupled to the storage medium, the processor executing the computer-readable instructions to: acquire time-series data including at least a voltage, SOC (State Of Charge), temperature, and current of a battery; convert the time-series data into intermediate data to be used for training; predict a future value of the intermediate data and a future value of an indicator relating to a degradation state of the battery by using a prediction function to generate training data; train a prediction model for estimating the indicator relating to the degradation state of the battery on the basis of the training data; estimate the indicator relating to the degradation state of the battery on the basis of the prediction model, wherein the processor calculates the future value of the intermediate data by using a linear function, which is a first prediction function of prediction functions, and calculates the future value of the indicator relating to the degradation state by using a function including exponentiation, which is a second prediction function of the prediction functions, to thereby generate the training data based on the future value in addition to the training data based on the time-series data; and based on the indicator, cause an electric motor of a mobile object to drive the mobile object in a traveling direction.",
+  "patent_id": "US12379423-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01R 31/392",
+      "G01R 31/367",
+      "G01R 31/3842",
+      "G01R 31/396"
+    ],
+    "all": [
+      "G01R 31/392",
+      "G01R 31/367",
+      "G01R 31/3842",
+      "G01R 31/396"
+    ],
+    "source": "converted"
+  }
+}

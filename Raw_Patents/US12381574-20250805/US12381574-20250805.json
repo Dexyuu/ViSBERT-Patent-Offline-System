@@ -1,0 +1,22 @@
+{
+  "title": "System and method for distributed node-based data compaction",
+  "abstract": "A system and method for distributed node-based data compaction. The system uses machine learning on data chunks to generate codebooks which compact the data to be stored, processed, or sent with a smaller data profile than uncompacted data. The system uses a data compaction in an existing blockchain fork or implemented in a new blockchain protocol from which nodes that wish to or need to use the blockchain can do so with a reduced storage requirement. The system uses network data compaction across all nodes to increase the speed of and decrease the size of a blockchain's data packets. The system uses data compaction firmware to increase the efficiency at which mining rigs can computationally validate new blocks on the blockchain. The system can be implemented using any combination of the three data compaction services to meet the needs of the desired blockchain technology.",
+  "claims": "1. A distributed node-based data compaction system, comprising: a network compaction service, comprising a first plurality of programming instructions stored in a memory and operating on a processor of a computing device, wherein the first plurality of programming instructions, when operating on the processor, cause the processor to: store a first reference codebook in the memory of each of a plurality of networked computing nodes, the first reference codebook pretrained by machine learning to determine sourceblocks and to associate codewords to each sourceblock; store a first deconstruction algorithm in the memory of each of the plurality of networked computing nodes, wherein the first deconstruction algorithm, when operating on a processor of its respective computing node, causes the computing node to: receive network data for a consensus pool maintained between the plurality of networked computing nodes; deconstruct the network data for the consensus pool into a plurality of sourceblocks; encode the first plurality of sourceblocks into a first codeword using the first reference codebook; and send the first codeword to the consensus pool; and store a first reconstruction algorithm in the memory of each of the plurality of networked computing nodes, wherein the first reconstruction algorithm, when operating on a processor of its respective computing node, causes the processor to: receive the first codeword; and reconstruct the network data by decoding the first plurality of sourceblocks using the first reference codebook; and a compaction module, comprising a second plurality of programming instructions stored in a memory and operating on a processor of a computing device, wherein the second plurality of programming instructions, when operating on the processor, cause the processor to: store a second reference codebook in the memory of each of the plurality of networked computing nodes, the second reference codebook pretrained by machine learning to determine sourceblocks and associated codewords of the consensus pool; and store a second deconstruction algorithm in the memory of each of the plurality of networked computing nodes, wherein the first deconstruction algorithm, when operating on a processor of its respective computing node, causes the processor to: deconstruct a data block into a second plurality of sourceblocks; encode the second plurality of sourceblocks into a second codeword using the second reference codebook; and append the second codeword to a compacted blockchain, the compacted blockchain comprising codewords for each data block of the consensus pool.",
+  "patent_id": "US12381574-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03M 7/3059",
+      "G06N 20/00",
+      "H03M 7/6005",
+      "H04L 9/50"
+    ],
+    "all": [
+      "H03M 7/3059",
+      "G06N 20/00",
+      "H03M 7/6005",
+      "H04L 9/50"
+    ],
+    "source": "converted"
+  }
+}

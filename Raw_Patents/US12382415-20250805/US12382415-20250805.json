@@ -1,0 +1,16 @@
+{
+  "title": "Network function registration with network repository functions",
+  "abstract": "A wireless communication network serves wireless data services to wireless user devices. In the wireless communication network, communication circuitry receives a registration from a source Network Repository Function (NRF) for a registering Network Function (NF). The communication circuitry transfers the registration to processing circuitry. The processing circuitry determines when the source NRF has an excessive amount of the NF type. When the source NRF does not have the excessive amount of the NF type, the processing circuitry a registration approval to the communication circuitry. The communication circuitry transfers the registration approval to the source NRF. When the source NRF has an excessive amount of the NF type, the processing circuitry selects a target NRF based on the geolocation of the registering NF. The processing circuitry transfers a registration redirection that indicates the target NRF to the communication circuitry. The communication circuitry transfers the registration redirection to the source NRF.",
+  "claims": "1. A method of operating a wireless communication network that serves wireless data services to wireless user devices, the method comprising: communication circuitry receiving a registration from a source Network Repository Function (NRF) for a registering Network Function (NF) that is instantiated at a geolocation and that has an NF type and transferring the registration to processing circuitry; the processing circuitry receiving the registration from the communication circuitry and determining when an amount of the NF type registered by the source NRF exceeds a NF type threshold for the source NRF; when the amount of the NF type registered by the source NRF does not exceed the NF type threshold, the processing circuitry transferring a registration approval to the communication circuitry; the communication circuitry receiving the registration approval from the processing circuitry and transferring the registration approval to the source NRF; when the amount of the NF type registered by the source NRF exceeds the NF type threshold for the source NRF, the processing circuitry selecting a target NRF based on the geolocation of the registering NF and transferring a registration redirection that indicates the target NRF to the communication circuitry; and the communication circuitry receiving the registration redirection and transferring the registration redirection that indicates the target NRF to the source NRF.",
+  "patent_id": "US12382415-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 60/00"
+    ],
+    "all": [
+      "H04W 60/00"
+    ],
+    "source": "converted"
+  }
+}

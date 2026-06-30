@@ -1,0 +1,22 @@
+{
+  "title": "Dynamic 1-tier scan for high performance 3D NAND",
+  "abstract": "A method and system for executing a dynamic 1-tier scan on a memory array are provided. The memory array includes a plurality of memory cells organized into a plurality of sub-groups. The dynamic 1-tier scan includes executing an program loop in which cells of a first sub-group are counted to determine whether a numeric threshold is met, and, if the numeric threshold is met with respect to the first sub group, at least one additional program loop is executed in which cells of a second sub-group are counted to determine whether the numeric threshold is met with respect to the second sub-group.",
+  "claims": "1. A non-volatile memory storage system comprising: a memory block including string groups of memory holes that are separated from one another by trenches; a NAND memory cell array comprising a plurality of memory cells that are being programmed to a first data state of a plurality of data states and are organized based on their locations within the memory block relative to the trenches into a plurality of distinct sub-groups including a first sub-group and a second sub-group with the memory cells of the first sub-group being located adjacent to the trenches and the memory cells of the second sub-group being spaced from the trenches such that the memory cells of the first sub-group are between the trenches and the memory cells of the second sub-group; a dynamic 1-tier circuit configured to execute a first program loop and a second program loop; wherein the first program loop comprises: the dynamic 1-tier circuit applying at least one programming pulse to program the memory cells of both of the first and second sub-groups simultaneously, verifying only the memory cells of the first sub-group, comparing a number of memory cells of the first sub-group that have achieved a verify level to a first sub-group numeric threshold, if the first sub-group numeric threshold is not met, the dynamic 1-tier circuit increasing a voltage of the programming pulses and repeating the first program loop, and if the first sub-group numeric threshold is met, the dynamic 1-tier circuit executing the second program loop, wherein the second program loop comprises: the dynamic 1-tier circuit verifying only the memory cells of the second sub-group and comparing a number of memory cells of the second sub-group that have achieved the verify level to a second sub-group numeric threshold, and if the second sub-group numeric threshold is not met, the dynamic 1-tier circuit increasing the voltage of the programming pulses and applying one or more programming pulses to the first and second sub-groups and repeating the second program loop.",
+  "patent_id": "US12380954-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G11C 16/3459",
+      "G11C 11/5628",
+      "G11C 16/08",
+      "G11C 16/10"
+    ],
+    "all": [
+      "G11C 16/3459",
+      "G11C 11/5628",
+      "G11C 16/08",
+      "G11C 16/10"
+    ],
+    "source": "converted"
+  }
+}

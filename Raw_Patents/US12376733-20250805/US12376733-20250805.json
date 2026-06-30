@@ -1,0 +1,38 @@
+{
+  "title": "Systems, apparatuses, and methods for endoscopy",
+  "abstract": "A portable endoscopic system comprising an imaging unit for an endoscopic procedure. The imaging unit has an imaging coupler for receiving imaging information from an imaging assembly of an endoscope; a display integrated into a housing of the imaging unit; an image processing unit for processing the received imaging information into images of a time series and to displaying the image in real-time; a motion sensor configured to detect a motion of the housing; and a detection processing unit. The detection processing unit is configured to classify at least one anatomical feature in each image of the time series based on an artificial intelligence classifier; determine a confidence metric of the classification; determine a motion vector based on the detected motion; and display, concurrently with the corresponding image, the classification of the at least one anatomical feature, the determined confidence metric, and the determined motion vector.",
+  "claims": "1. A method, comprising: receiving, by a processor, an imagery from an endoscope imaging a cavity having a feature, wherein the imagery depicts the feature; performing, by the processor, a classification for the feature while the endoscope images the cavity; determining, by the processor, a confidence metric for the classification while the endoscope images the cavity; determining, by the processor, a motion vector for the endoscope imaging the cavity while the endoscope images the cavity; and taking, by the processor, an action based on the classification, the confidence metric, and the motion vector, wherein at least one of: (a) wherein the action includes deploying an end effector within the cavity being imaged by the endoscope; (b) wherein the motion vector is determined based on a motion signal of a housing associated with the endoscope, wherein the housing hosts a display simultaneously presenting the imagery and at least two of the classification, the confidence metric, or the motion vector over the imagery while the endoscope images the cavity; (c) wherein the imagery depicts at least a portion of an end effector deployed within the cavity while the endoscope images the cavity; or (d) further comprising: receiving, by the processor, a user input selecting a procedure identifier; and retrieving, by the processor, a model corresponding to the procedure identifier, wherein the classification is based on the imagery being compared with the model.",
+  "patent_id": "US12376733-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 1/0005",
+      "A61B 1/00006",
+      "A61B 1/00009",
+      "A61B 1/000094",
+      "A61B 1/000096",
+      "A61B 1/00011",
+      "A61B 1/00045",
+      "A61B 1/00052",
+      "A61B 1/307",
+      "G06T 7/0012",
+      "G06T 2207/10068",
+      "G06T 2207/30081"
+    ],
+    "all": [
+      "A61B 1/0005",
+      "A61B 1/00006",
+      "A61B 1/00009",
+      "A61B 1/000094",
+      "A61B 1/000096",
+      "A61B 1/00011",
+      "A61B 1/00045",
+      "A61B 1/00052",
+      "A61B 1/307",
+      "G06T 7/0012",
+      "G06T 2207/10068",
+      "G06T 2207/30081"
+    ],
+    "source": "converted"
+  }
+}

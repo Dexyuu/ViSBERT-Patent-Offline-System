@@ -1,0 +1,18 @@
+{
+  "title": "Methods, systems, and computer readable media for testing ingress timestamping using lane skewing",
+  "abstract": "One example method occurs at a test system implemented using at least one processor. The method includes receiving test configuration information associated with a test session for causing one or more packets to be transmitted via lanes connecting a transmitter and a receiver in a test environment; transmitting, from the transmitter and to the receiver, a first packet of the test session, wherein transmitting the first packet as data blocks and sending the data blocks via the lanes, wherein transmitting the first packet includes emulating lane skewing associated with one or more of the lanes causing at least some of the data blocks to arrive at different times; receiving a first ingress timestamp associated with the first packet; and analyzing the first ingress timestamp and a first expected ingress timestamp based on lane skew information associated with the test session.",
+  "claims": "1. A method for testing ingress timestamping using lane skewing, the method comprising: at a test system implemented using at least one processor: receiving test configuration information associated with a test session for causing one or more packets to be transmitted via lanes connecting a transmitter and a receiver in a test environment; transmitting, from the transmitter and to the receiver, a first packet of the test session, wherein transmitting the first packet includes segmenting the first packet into a first plurality of data blocks and sending the first plurality of data blocks via the lanes, wherein transmitting the first packet includes emulating lane skewing associated with one or more of the lanes causing at least some of the first plurality of data blocks to arrive at the receiver at different times due to different amounts of emulated lane skew; receiving a first ingress timestamp associated with the first packet; determining, based on the emulated lane skew, a first expected ingress timestamp for the first packet; analyzing the first ingress timestamp and the first expected ingress timestamp to determine whether the first ingress timestamp matches the first expected ingress timestamp; generating a first test result associated with the first ingress timestamp; during the test session and prior to transmitting a second packet of the test session: modifying the test environment including modifying an emulated lane skewing configuration for one or more of the lanes such that a different lane of the lanes has the least buffer delay of the lanes than when the first packet was transmitted; transmitting, from the transmitter and to the receiver, the second packet of the test session, wherein transmitting the second packet includes segmenting the second packet into a second plurality of data blocks and sending the second plurality of data blocks via the lanes, wherein transmitting the second packet includes emulating lane skewing using the modified emulated lane skewing configuration and causing at least some of the second plurality of data blocks to arrive at the receiver at different times; receiving a second ingress timestamp associated with the second packet: analyzing the second ingress timestamp and a second expected ingress timestamp based on updated lane skew information associated with the test session; and generating a second test result associated with the second ingress timestamp.",
+  "patent_id": "US12381806-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 43/50",
+      "H04L 43/106"
+    ],
+    "all": [
+      "H04L 43/50",
+      "H04L 43/106"
+    ],
+    "source": "converted"
+  }
+}

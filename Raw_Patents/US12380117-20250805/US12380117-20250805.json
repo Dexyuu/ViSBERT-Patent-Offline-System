@@ -1,0 +1,30 @@
+{
+  "title": "Voice query refinement to embed context in a voice query",
+  "abstract": "Systems and methods are described for providing contextual search results. The system may receive a search query during presentation of a video. If the query is ambiguous, the system accesses some of the frames of the video. The frames are analyzed to identify a performed action depicted in the frames. The system retrieves a keyword related to the identified action. The ambiguous query is augmented with the keyword. The augmented search query is used to search for and output relevant search results.",
+  "claims": "1. A method comprising: identifying a character in a plurality of frames presented during playback of a video while an ambiguous search query is received; generating a model of at least one movement of the character that occurred during presentation of at least two frames of the plurality of frames; comparing the model to at least one movement template in a database; determining, based on the comparing, the model is comparable to the at least one movement template; in response to determining the model is comparable to the at least one movement template, extracting a keyword from the at least one movement template; and retrieving search results for display based on the keyword and the ambiguous search query.",
+  "patent_id": "US12380117-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/24575",
+      "G06F 16/24522",
+      "G06F 40/253",
+      "G06F 40/289",
+      "G06F 40/30",
+      "G06V 40/20",
+      "G10L 15/22",
+      "G10L 15/26"
+    ],
+    "all": [
+      "G06F 16/24575",
+      "G06F 16/24522",
+      "G06F 40/253",
+      "G06F 40/289",
+      "G06F 40/30",
+      "G06V 40/20",
+      "G10L 15/22",
+      "G10L 15/26"
+    ],
+    "source": "converted"
+  }
+}

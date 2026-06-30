@@ -1,0 +1,25 @@
+{
+  "application_id": "WO2020067870",
+  "application_id_fs": null,
+  "title": "Method and system for providing a content list based on a search query",
+  "abstract": "The invention provides a method and system for providing a content list based on a search query. The method and system generally require that one or more domains associated with the search query be identified by a data classifier (104), so as to enrich the search query using domain knowledge of the identified domains. Based on the enriched query, contents may be crawled by a data collector (102) from a plurality of websites if they are found to be associated with the enriched query. Later, the crawled contents are classified into various categories based on named entities extracted from the contents. The classified contents are subjected to deduplication, in order to eliminate or remove duplicative contents, before they can be displayed to the user.",
+  "claims": "Claims Claims 1. A method for providing a content list based on a search query received through a search engine, comprising the steps of: identifying one or more domains associated with the search query; enriching the search query using domain knowledge of the identified domains; crawling contents from a plurality of websites based on the enriched query; classifying the crawled contents according to named entities extracted from the crawled contents; and subjecting the classified contents of the same named entity to deduplication, so that the content list can be generated without duplicative contents, characterised in that the deduplication is performed by selecting a deduplication technique from a set of fuzzy logic rules based on the named entity of the classified contents and subsequently applying the selected technique to the classified contents to detect one or more duplicative contents and remove the duplicative contents when detected. 2. The method according to claim 1, wherein the enriching step is performed by expanding one or a string of input keywords contained in the search query based on domain knowledge. 3. The method according to claim 1 further comprising a step of filtering the crawled contents based on a keyword white list and a keyword blacklist, before the classifying step. 4. The method according to claim 1 further comprising a step of displaying the de-duplicated contents in a template or templates selected based on the named entity of the de-duplicated contents. 5. A system (100) for providing a content list based on a search query received through a search engine, comprising: a data collector (102) for enriching the search query using domain knowledge \n\n and crawling contents from a plurality of websites based on the enriched query; a data classifier (104) for classifying the crawled contents received from the data collector (102) according to named entities extracted from the crawled contents; and a deduplication module (106) for subjecting the classified contents of the same named entity to deduplication, in order to generate the content list without duplicative contents, characterised in that the deduplication module (106) is configured to select a deduplication technique from a set of fuzzy logic rules based on the named entity of the classified contents and then apply the selected technique to the classified contents, so that one or more duplicative contents can be detected and removed when detected. 6. The system (100) according to claim 5, wherein the data classifier (104) is further configured to identify one or more domains associated with the search query, so that the data collector (102) can enrich the search query. 7. The system (100) according to claim 5, wherein the data collector (102) is configured to enrich the search query by expanding one or a string of input keywords contained in the search query based on domain knowledge. 8. The system (100) according to claim 5, wherein the data collector (102) is further configured to filter the crawled contents based on a keyword white list and a keyword blacklist. 9. The system (100) according to claim 5 further comprising a layout module (108) for displaying de-duplicated contents in a template selected based on the named entity of the de-duplicated contents.",
+  "classifications": {
+    "ipc": [
+      "G06F 16/9535",
+      "G06F 16/9538",
+      "G06F 16/951",
+      "G06F 40/20",
+      "G06Q 50/10"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 16/9535",
+      "G06F 16/9538",
+      "G06F 16/951",
+      "G06F 40/20",
+      "G06Q 50/10"
+    ],
+    "source": "csv"
+  }
+}

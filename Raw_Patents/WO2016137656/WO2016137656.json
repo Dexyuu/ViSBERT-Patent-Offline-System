@@ -1,0 +1,24 @@
+{
+  "application_id": "WO2016137656",
+  "application_id_fs": "WO2016137656",
+  "title": "Method for parameterizing a 3d domain with discontinuities",
+  "abstract": "A method of generating a volumetric data structure of a subsurface region, including: obtaining, with a computer, a volume segment of the subsurface region, wherein the volume segment is bounded by a first horizon and a second horizon, and by a plurality of lateral surfaces formed by faults and boundaries of a geological model corresponding to the subsurface region; obtaining, with the computer, an isomorphic triangulation of the first horizon of the volume segment; deforming, with the computer, the isomorphic triangulation of the first horizon of the volume segment to fit a boundary of the second horizon of the volume segment; after the deforming, creating, with the computer, a template grid from the first horizon of the volume segment and the second horizon of the volume segment; generating, with the computer, layer sections from the template grid by cutting the template grid by lateral surfaces of the volume segment; and generating, with the computer, the volumetric data structure of the subsurface reservoir as a prismatic grid from isomorphic triangulations of the layer sections.",
+  "claims": "Claims CLAIMS  What is claimed is: 1. A method of generating a volumetric data structure of a subsurface region, comprising: obtaining, with a computer, a volume segment of the subsurface region, wherein the volume segment is bounded by a first horizon and a second horizon, and by a plurality of lateral surfaces formed by faults and boundaries of a geological model corresponding to the subsurface region; obtaining, with the computer, an isomorphic triangulation of the first horizon of the volume segment; deforming, with the computer, the isomorphic triangulation of the first horizon of the volume segment to fit a boundary of the second horizon of the volume segment; after the deforming, creating, with the computer, a template grid from the first horizon of the volume segment and the second horizon of the volume segment; generating, with the computer, layer sections from the template grid by cutting the template grid by lateral surfaces of the volume segment; and generating, with the computer, the volumetric data structure of the subsurface reservoir as a prismatic grid from isomorphic triangulations of the layer sections. 2. The method of claim 1, wherein the obtaining the isomorphic triangulation of the first horizon includes creating isomorphic subdivisions of a skeleton edges of the first horizon. 3. The method of claim 1, wherein the obtaining the isomorphic triangulation of the first horizon includes applying an advancing front triangulation to the first horizon. 4. The method of claim 1, wherein the obtaining the isomorphic triangulation of the first horizon includes obtaining a constraint isomorphic triangulation. 5. The method of claim 4, wherein the constraint represents a terminating fault. 6. The method of any one of claims 1 to 5, wherein the creating the template grid includes providing a bounding box around the volume segment, and generating a triangulation in an area between the first horizon boundary and a top boundary of bounding box and the second horizon boundary and a bottom boundary of the bounding box, and mapping top and bottom triangulations of the bounding box from two dimensions into three dimensional space. 7. The method of claim 6, wherein the mapping includes mapping internal triangles using connections between the first and second horizon faces and their projections, and using a prolongation of the first and second horizon surfaces to map triangles between the first and second horizon surfaces and the top and bottom boundaries of the bounding box, respectively. 8. The method of any one of claims 1 to 7, further comprising modeling a subsurface reservoir using the prismatic grid generated from isomorphic triangulations of the layer sections. 9. The method of any one of claims 1 to 8, further comprising using the prismatic grid generated from isomorphic triangulations of the layer sections in a simulation of a subsurface reservoir. 10. The method of any one of claims 1 to 9, further comprising using the prismatic grid generated from isomorphic triangulations of the layer sections in hydrocarbon management. 1 1. The method of any one of claims 1 to 10, wherein the generating layer sections comprises obtaining contours from an intersection of layers of the template grid and a fault surface.",
+  "classifications": {
+    "ipc": [
+      "G01V 20/00",
+      "G01V 2210/00",
+      "G01V 2210/60",
+      "G01V 2210/66"
+    ],
+    "cpc": [],
+    "all": [
+      "G01V 20/00",
+      "G01V 2210/00",
+      "G01V 2210/60",
+      "G01V 2210/66"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2016137656"
+}

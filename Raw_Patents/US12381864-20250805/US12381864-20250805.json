@@ -1,0 +1,20 @@
+{
+  "title": "Setting device, communication system, and vehicle communication management method",
+  "abstract": "A network having a new configuration is flexibly constructed through a simple process while ensuring security in the network. A setting device includes: an acquisition unit configured to acquire an authentication result regarding a new function unit serving as a function unit newly added to an in-vehicle network including one or a plurality of function units; and a setting unit configured to, when the authentication result acquired by the acquisition unit is affirmative, perform a setting process for allowing the new function unit and an existing function unit serving as a function unit included in the in-vehicle network before the new function unit is added thereto, to perform communication via a plurality of relay devices capable of relaying information between the function units, the setting process being regarding at least one of the relay devices, the existing function unit, and the new function unit.",
+  "claims": "1. A setting device comprising: an acquisition unit configured to acquire an authentication result regarding a new function unit serving as a function unit newly added to an in-vehicle network including one or a plurality of function units; and a setting unit configured to, when the authentication result acquired by the acquisition unit is affirmative, perform a setting process of a virtual network ID for allowing the new function unit and an existing function unit serving as a function unit included in the in-vehicle network before the new function unit is added thereto, to perform communication via a plurality of relay devices configured to relay information between the function units, the setting process of the virtual network ID being regarding at least one of the relay devices, the existing function unit, and the new function unit, wherein in the setting process of the virtual network ID, when setting change of a virtual network ID of another relay device is necessary in order for the new function unit and the existing function unit serving as a communication target of the new function unit to communicate with each other via the plurality of relay devices, the setting unit notifies the other relay device of a setting content of the virtual network ID.",
+  "patent_id": "US12381864-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/08",
+      "H04L 63/0428",
+      "H04L 67/12"
+    ],
+    "all": [
+      "H04L 63/08",
+      "H04L 63/0428",
+      "H04L 67/12"
+    ],
+    "source": "converted"
+  }
+}

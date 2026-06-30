@@ -1,0 +1,22 @@
+{
+  "title": "System and method to reliably detect objects using camera and radar",
+  "abstract": "An object detection system may include a first-type sensing device comprising a camera and defining a first field of view and configured to capture an image stream of an area adjacent to a work machine. The system may also include a second-type sensing device different from the first-type sensing device, defining a second field of view substantially overlapping with the first field of view, and configured to capture a data stream of the area adjacent to the work machine. The system may also include a controller configured to receive a first set of tracks relating to the image stream and including a first confidence level and receive a second set of tracks relating to the data stream and including a second confidence level. The controller may also be configured to combine establish an overall confidence level and determine whether to issue an alert, exercise a machine control, or both.",
+  "claims": "1. An object detection system, comprising: a first-type sensing device comprising a camera and defining a first field of view and configured to capture an image stream of an area adjacent to a work machine; a second-type sensing device different from the first-type sensing device, defining a second field of view substantially overlapping with the first field of view, and configured to capture a data stream of the area adjacent to the work machine; and a controller configured to: receive a first set of tracks relating to the image stream and including a first confidence level; receive a second set of tracks relating to the data stream and including a second confidence level and a signal-to-noise ratio for the second-type sensing device; categorize an object in the area adjacent to the work machine as a particular object type, establish an overall confidence level by: applying different weight factors to each of the first confidence level, the second confidence level, and the signal-to-noise ratio to determine a weighted confidence level, a weighted second confidence level, and a weighted signal-to-noise ratio; and summing the weighted first confidence level, the weighted second confidence level, and the weighted signal-to-noise ratio, wherein the different weight factors are selectively and dynamically shifted based on the object type; and determine whether to issue an alert, exercise a machine control, or both.",
+  "patent_id": "US12379487-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 13/931",
+      "G01S 13/867",
+      "G06V 20/58",
+      "G01S 2013/9327"
+    ],
+    "all": [
+      "G01S 13/931",
+      "G01S 13/867",
+      "G06V 20/58",
+      "G01S 2013/9327"
+    ],
+    "source": "converted"
+  }
+}

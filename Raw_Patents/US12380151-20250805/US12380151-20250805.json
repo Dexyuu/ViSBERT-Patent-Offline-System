@@ -1,0 +1,20 @@
+{
+  "title": "Semantic translation of data sets",
+  "abstract": "A method may include accessing a semantic map between a schema of a relational database (RDB) and a resource description framework (RDF) data model, the semantic map defined according to a first semantic ontology; applying the semantic map to data loaded from the RDB to generate a first set of semantic objects; storing the first set of semantic objects in a staging RDF triplestore; executing a script to transform the first set of semantic objects into a second set of semantic objects according to a second semantic ontology; and storing the second set of semantic objects into a production RDF triplestore.",
+  "claims": "1. A method comprising: accessing a semantic map between a schema of a relational database (RDB) and a resource description framework (RDF) data model, the semantic map defined according to a first semantic ontology; applying the semantic map to data loaded from the RDB to generate a first set of semantic objects; storing the first set of semantic objects in a staging RDF triplestore; and executing a script to transform the first set of semantic objects into a second set of semantic objects according to a second semantic ontology, wherein executing the script includes: accessing a transitive map that identifies mappings between objects defined in the first semantic ontology to subjects defined in the second semantic ontology; storing the second set of semantic objects into a production RDF triplestore; querying the staging RDF triplestore for a code associated with a semantic object of the first set of semantic objects, wherein the code is an object defined in the first semantic ontology; looking up the code in the transitive map to determine a type of object linked to the code, the type of object being defined as a subject of the second semantic ontology; and generating a semantic object according to the type of object.",
+  "patent_id": "US12380151-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/367",
+      "G06F 16/284",
+      "G06F 16/334"
+    ],
+    "all": [
+      "G06F 16/367",
+      "G06F 16/284",
+      "G06F 16/334"
+    ],
+    "source": "converted"
+  }
+}

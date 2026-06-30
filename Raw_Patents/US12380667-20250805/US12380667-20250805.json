@@ -1,0 +1,48 @@
+{
+  "title": "Reference state deciding device, state determination system, reference state deciding method, and non-transitory computer readable medium",
+  "abstract": "A reference state deciding device (10) according to the present disclosure includes a feature calculation unit (11) that calculates an object feature related to a target object of state determination included in a real space and an imaged space feature related to the real space on the basis of past image data of the real space imaged in the past and target image data of the real space imaged at the time of the state determination, and a reference state deciding unit (12) that decides a reference state to be used for the state determination on the basis of a relation between the object feature and the imaged space feature calculated from the past image data and the target image data.",
+  "claims": "1. A reference state deciding method comprising: calculating an object feature related to a target object of state determination included in a real space and an imaged space feature related to the real space on the basis of past image data of the real space imaged in the past and target image data of the real space imaged at a time of the state determination; and deciding a reference state to be used for the state determination on the basis of a relation between the object feature and the imaged space feature calculated from the past image data and the target image data, wherein the deciding the reference state includes: calculating a projection matrix in a latent feature space on the basis of a correlation between the object feature and the imaged space feature in the past image data; and deciding a feature of the reference state on the basis of a similarity between a latent feature in the past image data and a latent feature in the target image data obtained by the projection matrix.",
+  "patent_id": "US12380667-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/44",
+      "G06F 18/213",
+      "G06T 7/20",
+      "G06T 7/70",
+      "G06V 10/42",
+      "G06V 10/467",
+      "G06V 10/74",
+      "G06V 10/761",
+      "G06V 10/762",
+      "G06V 10/768",
+      "G06V 10/7715",
+      "G06V 20/52",
+      "G06V 20/56",
+      "G08B 21/0423",
+      "G06T 2207/30232",
+      "G06T 2207/30242",
+      "G06T 2207/30252"
+    ],
+    "all": [
+      "G06V 10/44",
+      "G06F 18/213",
+      "G06T 7/20",
+      "G06T 7/70",
+      "G06V 10/42",
+      "G06V 10/467",
+      "G06V 10/74",
+      "G06V 10/761",
+      "G06V 10/762",
+      "G06V 10/768",
+      "G06V 10/7715",
+      "G06V 20/52",
+      "G06V 20/56",
+      "G08B 21/0423",
+      "G06T 2207/30232",
+      "G06T 2207/30242",
+      "G06T 2207/30252"
+    ],
+    "source": "converted"
+  }
+}

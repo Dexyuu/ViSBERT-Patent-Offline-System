@@ -1,0 +1,20 @@
+{
+  "title": "Methods and systems for monitoring the behavior of a process",
+  "abstract": "Methods and systems for monitoring the behavior of a process. A profile of a software module is obtained. An association request is received from a process. The association request includes an identifier. In response to receiving the association request, successfully validating the identifier based on the profile and establishing an association of a token to data associated with the identifier. A disassociation request is received from the process. The disassociation request includes a token. In response to receiving the disassociation request, using the token to retrieve the data associated with the identifier, determining that the disassociation request is invalid based on the profile and the data associated with the identifier, and based on the determination that the disassociation request is invalid, taking an action.",
+  "claims": "1. A computer-implemented method, the method comprising: obtaining a profile of a software module; receiving, from a process, an association request including a first identifier; in response to receiving the association request: successfully validating the first identifier based on the profile; and establishing an association of a first token with data associated with the first identifier; receiving, from the process, a first disassociation request including the first token, the first token provided as a parameter included in the first disassociation request; in response to receiving the first disassociation request: retrieving, based on the first token, the data associated with the first identifier; determining, based on the profile and the data associated with the first identifier, that the first disassociation request is invalid; and based on the determination that the first disassociation request is invalid, taking an action; and in response to receiving a second disassociation request, the second disassociation request including a second token: retrieving, based on the second token, data associated with a second identifier; determining, based on the profile and the data associated with the second identifier, that the second disassociation request is valid; and triggering a transition from a first state to a second state.",
+  "patent_id": "US12380202-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/52",
+      "G06F 21/554",
+      "G06F 2221/034"
+    ],
+    "all": [
+      "G06F 21/52",
+      "G06F 21/554",
+      "G06F 2221/034"
+    ],
+    "source": "converted"
+  }
+}

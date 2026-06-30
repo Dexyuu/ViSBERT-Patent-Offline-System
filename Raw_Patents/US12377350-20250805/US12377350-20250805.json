@@ -1,0 +1,20 @@
+{
+  "title": "Action path creation assistant",
+  "abstract": "A system uses map data of a virtual environment and object data of an avatar object including a moveset to generate an action path for traversal of the virtual environment by the avatar object. The system applies machine learning model(s) to generate one or more pathways through the virtual environment, and decompose the one or more pathways into one or more pathway segments that can be evaluated for feasibility and other factors. The system can iteratively generate and evaluate a move sequence of the action path having one or more parameters for execution by the avatar object. The system can construct the action path by combination of a plurality of pathway segments to satisfy one or more constraints associated with traversal by the avatar object from a start location to a destination location within the virtual environment.",
+  "claims": "1. A method for generating action paths, the method comprising: storing information in memory regarding map data of a virtual environment and object data that includes moveset information of an avatar object; generating for each of a plurality of iterations, a pathway segment between a first location and a second location of an action path for traversal by the avatar object, the action path including a start location and a destination location; generating for each iteration, a move sequence for execution by the avatar object for traversal of the pathway segment, wherein the move sequence comprises one or more moves, each of the moves in the moveset information; and generating an assessment regarding feasibility of the avatar object traversing the pathway segment based on the move sequence, the map data, and the object data of the avatar object.",
+  "patent_id": "US12377350-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A63F 13/57",
+      "A63F 13/5378",
+      "A63F 2300/5553"
+    ],
+    "all": [
+      "A63F 13/57",
+      "A63F 13/5378",
+      "A63F 2300/5553"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Beam failure detection and recovery procedures with common beams",
+  "abstract": "A method may include incrementing, by a wireless device, a beam failure detection (BFD) instance counter based on detection of a first beam failure of a first reference signal (RS). The method may include resetting the BFD instance counter based on an indication of a transmission configuration indicator (TCI) state applicable for receptions of physical downlink channels, wherein the TCI state is associated with a second RS. The method may include transmitting a beam failure recovery request based on the BFD instance counter being greater than a threshold, wherein the BFD instance counter is incremented based on detection of a second beam failure of the second RS.",
+  "claims": "1. A method comprising: incrementing, by a wireless device, a beam failure detection (BFD) instance counter based on detection of a first beam failure of a first reference signal (RS); receiving an indication of a transmission configuration indicator (TCI) state applicable for receptions of physical downlink channels, wherein the TCI state is associated with a second RS; performing, during a measurement gap, BFD based on the first RS, wherein a time duration of the measurement gap is based on receiving the indication of the TCI state; resetting the BFD instance counter based on the indication of the TCI state and after the measurement gap; and transmitting a beam failure recovery request based on the BFD instance counter being greater than a threshold, wherein the BFD instance counter is incremented, after the measurement gap, based on detection of a second beam failure of the second RS.",
+  "patent_id": "US12382322-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 24/08",
+      "H04B 17/309"
+    ],
+    "all": [
+      "H04W 24/08",
+      "H04B 17/309"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Generating genre appropriate voices for audio books",
+  "abstract": "Systems and processes for generating audio books from text are provided. An example process includes, at an electronic device having one or more processors and memory: receiving a text including at least a first subset and a second subset, wherein at least a portion of the first subset overlaps with at least a portion of the second subset; determining, based on the text, a prosody for a speech output, wherein the prosody is representative of a genre; determining a semantic meaning of the text; and generating, based on the prosody and the semantic meaning, the speech output of the text.",
+  "claims": "1. A non-transitory computer-readable storage medium storing one or more programs configured to be executed by one or more processors of an electronic device, the one or more programs including instructions for: receiving a first text including at least a first subset and a second subset, wherein at least a portion of the first subset overlaps with at least a portion of the second subset; determining one or more themes associated with the first text; determining, based on the one or more themes, a genre associated with the first text, wherein the genre is different from the one or more themes; determining, based on the first text, a first prosody for a speech output, wherein the first prosody is representative of the genre; determining a first semantic meaning of the first text based on a context determined from a second text received prior to the first text, wherein a machine learning model is trained to determine the first semantic meaning of the first text; adjusting the first prosody for the speech output based on the context determined from the second text received prior to the first text; and generating, based on the prosody and the first semantic meaning, a first speech output of the first text; in accordance with a determination that a similarity between the first speech output and a candidate text representation determined from the first speech output is below a threshold: determining a second prosody and a second semantic meaning of the first text; and generating a second speech output of the first text based on the second prosody and the second semantic meaning.",
+  "patent_id": "US12380876-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 13/10",
+      "G06F 40/284",
+      "G06F 40/30",
+      "G10L 13/033"
+    ],
+    "all": [
+      "G10L 13/10",
+      "G06F 40/284",
+      "G06F 40/30",
+      "G10L 13/033"
+    ],
+    "source": "converted"
+  }
+}

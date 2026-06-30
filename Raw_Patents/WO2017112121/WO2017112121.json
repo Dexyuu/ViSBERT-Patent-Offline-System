@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2017112121",
+  "application_id_fs": "WO2017112121",
+  "title": "Image processor for wearable device",
+  "abstract": "Solutions for producing an image on an irregular surface are described. A graphical object is identified from an image to be displayed on the irregular surface. Objects according to at least one shape function are distorted to compensate for irregularities in the irregular surface. Previously-distorted instances of objects may be added to a distortion-compensated image.",
+  "claims": "Claims What is claimed is: 1. A system for producing an image on an irregular surface, the system comprising: a presenter module to identify a graphical object from an image to be displayed on the irregular surface; an object renderer module to distort objects according to at least one shape function, wherein distortion of the objects compensates for irregularities in the irregular surface; and an object overlay module to add previously-distorted instances of objects to a distortion-compensated image, wherein the presenter module is further to determine whether the graphical object is to be processed by the object renderer module prior to being processed by the object overlay module. 2. The system of claim 1, further comprising: computing hardware, including a processor, a data store, and input/output facilities, data store containing instructions that, when executed, cause the computing hardware to implement the presenter module, the object renderer module, and the object overlay module. 3. The system of claim 1, wherein at least one of the presenter module, the object renderer module, and the object overlay module, is implemented in hard-wired logic. 4. The system of claim 1, further comprising: a rectangular mesh renderer module to computationally represent objects on a rectangular mesh composed of individual deformable elements, wherein the presenter module is to pass the graphical object to the rectangular mesh renderer module. 5. The system of claim 4, wherein the individual deformable elements are Lagrange parent elements. 6. The system of claim 4, wherein the object renderer module is to transform at least some of the individual defomiable elements into irregular Lagrange elements based on application of at least one shape function , 7. The system of claim 1, further comprising: a rendered object pool that includes a database of the previously-distorted instances of objects, the rendered object pool being responsive to queries identifying original objects and type of distortion applied to those original objects. 8. The system of claim 7, wherein the rendered object pool is to store hashes of shape functions in association with objects to which those shape functions have been applied to distort those objects. 9. The system of claim 1, wherein the object renderer module is to apply a plurality of different shape functions to the graphical object, the plurality of different shape functions corresponding to a plurality of different positions for the graphical object to be displayed on the irregular surface. 10. The system of claim I, wherein the object renderer module is to divide the graphical object into a plurality of graphical objects in response to a degree of applied distortion exceeding a defined threshold. 1.1. The system of claim 1, wherein the object renderer module is to apply a shape function to the graphical object that is at least a second-order shape function. 12. The system of claim 1, wherein the system further comprises a display projector arranged to project the image onto the irregular surface. 13. The system of claim 1 , wherein the system is incorporated as part of a wearable computing device. 14. The system of claim 1, wherein the system is incorporated as part of a smartphone. \n\n15, The system of claim 1, wherein the system is operative to be communicatively coupled to a remote computing device that includes a display projector arranged to project the image onto the irregular surface, 6, A method for producing an image on an irregular surface, the method comprising: identifying, by a computing device, a graphical object from a first image to be displayed on the irregular surface; determining, by a computing device, a shape function for distorting the graphical object to compensate for irregularities in the irregular display surface: processing, by a computing device, a first distortion of the graphical object according to the shape function if a preprocessed instance of the first distortion is not available; accessing, by a computing device, a preprocessed instance of the first distortion if the preprocessed instance is available; and overlaying, by a computing device, the first distortion to an output image for display on the irregular surface, 17. The method of claim 16, wherein processing the first distortion includes computationally representing the graphical object on a rectangular mesh composed of individual deformable elements. 18, The method of claim 17, wherein the individual deformable elements are Lagrange parent elements. 19, The method of claim 17, wherein processing the first distortion includes transforming at least some of the individual deformable elements into irregular Lagrange elements based on application of the shape function. 20, The method of claim 16, wherein shape function is at least a second-order shape function. 21 The method of claim 16, further comprising: \n\n storing a database of preprocessed instances of objects, including the first distortion. 22. The method of claim 16, further comprising: determining a plurality of different additional shape functions for distorting the graphical object according to different additional positions for the graphical object to be displayed on the irregular surface. The method of claim 16, further comprising: dividing the graphical object into a plurality of graphical objects in response to a degree of applied distortion exceeding a defined threshold. 24. The method of claim 16, further comprising: projecting the output image onto the irregular surface. 25. A system for producing an image on an irregular surface, the system comprising means for performing the method according to any one of claims 16-24. 26. At least one computer-readable medium comprising instaictions that, when executed on a computing system, cause the computing system to execute the method according to any one of claims 16-24.",
+  "classifications": {
+    "ipc": [
+      "G06T 11/00",
+      "G06T 11/60",
+      "G02B 27/00",
+      "G02B 1/00",
+      "G02B 26/00",
+      "G02B 30/00",
+      "G02B 27/01",
+      "G02B 27/017",
+      "G06T 3/00",
+      "G06T 3/08",
+      "G06T 5/00",
+      "G06T 5/80",
+      "G02B 2027/0178"
+    ],
+    "cpc": [],
+    "all": [
+      "G06T 11/00",
+      "G06T 11/60",
+      "G02B 27/00",
+      "G02B 1/00",
+      "G02B 26/00",
+      "G02B 30/00",
+      "G02B 27/01",
+      "G02B 27/017",
+      "G06T 3/00",
+      "G06T 3/08",
+      "G06T 5/00",
+      "G06T 5/80",
+      "G02B 2027/0178"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017112121"
+}

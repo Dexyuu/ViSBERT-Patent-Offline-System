@@ -1,0 +1,20 @@
+{
+  "title": "Performance optimizations for row-level security filters",
+  "abstract": "A method for optimizing a database query includes receiving a database query from a user requesting a database to conditionally return one or more rows stored at the database and characterizing one or more user filters. Each user filter filters rows from the database. The method includes determining that a security filter restricts the user from accessing one or more rows of the database. For each respective user filter, the method includes classifying the respective user filter as a safe user filter incapable of reporting an error or an unsafe user filter capable of reporting an error. The method also includes determining a filter execution order of the one or more user filters and the security filter based on the classified one or more user filters and executing, using the determined filter execution order, the one or more user filters and the security filter.",
+  "claims": "1. A computer-implemented method when executed by data processing hardware causes the data processing hardware to perform operations comprising: receiving, via a network, a database query from a user device associated with a user, the database query requesting a database to conditionally return one or more rows stored at the database, the database query characterizing multiple user filters, each user filter of the multiple user filters filtering rows from the database; determining that a security filter restricts the user from accessing at least one row of the database; for each respective user filter of the multiple user filters, classifying the respective user filter as one of: a safe user filter representing a user filter that, when executed, is incapable of reporting an error that leaks information from the at least one row of the database; or an unsafe user filter representing a user filter that, when executed, is capable of reporting an error that leaks information from the at least one row of the database; determining a filter execution order of the multiple user filters and the security filter based on the classified multiple user filters, the filter execution order ensuring no errors leak information from the at least one row of the database; optimizing the filter execution order to minimize query latency while ensuring no errors leak information from the at least one row of the database, wherein optimizing the filter execution order comprises: placing at least one of the respective user filters classified as the safe user filter earlier in the filter execution order than the security filter; and placing each of the respective user filters classified as the unsafe user filter later in the filter execution order than the security filter; executing, using the optimized filter execution order, the multiple user filters and the security filter; and returning, via the network, the one or more rows to the user device.",
+  "patent_id": "US12380170-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/9035",
+      "G06F 16/9032",
+      "G06F 21/6227"
+    ],
+    "all": [
+      "G06F 16/9035",
+      "G06F 16/9032",
+      "G06F 21/6227"
+    ],
+    "source": "converted"
+  }
+}

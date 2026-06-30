@@ -1,0 +1,26 @@
+{
+  "title": "Convolutional neural network systems and methods for data classification",
+  "abstract": "Classification of cancer condition, in a plurality of different cancer conditions, for a species, is provided in which, for each training subject in a plurality of training subjects, there is obtained a cancer condition and a genotypic data construct including genotypic information for the respective training subject. Genotypic constructs are formatted into corresponding vector sets comprising one or more vectors. Vector sets are provided to a network architecture including a convolutional neural network path comprising at least a first convolutional layer associated with a first filter that comprise a first set of filter weights and a scorer. Scores, corresponding to the input of vector sets into the network architecture, are obtained from the scorer. Comparison of respective scores to the corresponding cancer condition of the corresponding training subjects is used to adjust the filter weights thereby training the network architecture to classify cancer condition.",
+  "claims": "1. A method of diagnosing a disease state in a test subject by using a trained artificial neural network, the method comprising: obtaining, from a biological sample associated with the test subject, sequencing data derived from a methylation sequencing assay of cell-free nucleic acids in the biological sample; applying, subsequent to the obtaining, the sequencing data to the trained artificial neural network; determining, subsequent to the applying and by processing the sequencing data using a plurality of filter sets resident within a plurality of convolutional layers of the trained artificial neural network, whether a methylation profile of the sequencing data is detected that is indicative of a disease state, wherein: a first filter of the plurality of filter sets is configured to identify a methylation pattern at a single methylation site in a genomic region; a second filter of the plurality of filter sets is configured to identify a relationship between each of the single methylation sites in the genomic region; and wherein the trained artificial neural network is configured to integrate outputs from the first filter and outputs from the second filter to generate the methylation profile; and providing, on a display screen of a computing device and based on the determining, a diagnosis for the test subject with respect to the disease state.",
+  "patent_id": "US12380964-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16B 30/10",
+      "G06N 3/04",
+      "G06N 3/084",
+      "G16B 40/20",
+      "G16B 40/30",
+      "G16H 50/20"
+    ],
+    "all": [
+      "G16B 30/10",
+      "G06N 3/04",
+      "G06N 3/084",
+      "G16B 40/20",
+      "G16B 40/30",
+      "G16H 50/20"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Fenestration template for endovascular repair of aortic aneurysms",
+  "abstract": "To provide simple yet accurate stent graft fenestration, a patient-specific fenestration template is used as a guide for graft fenestration. To generate the fenestration template, a patient's medical imaging data such as CT scan data may be used to generate a 3-D digital model of an aorta lumen of the patient. The aorta lumen may encompass one or more branch vessels, which may be indicated on the 3-D digital model. Based on the 3-D digital model or a segment thereof, the fenestration template may be generated, for example, using 3-D printing technology. The fenestration template may include one or more holes or openings that correspond to the one or more branch vessels. To fenestrate a stent graft, the fenestration template is coupled to the stent graft so that the holes or openings on the fenestration template indicate the fenestration locations.",
+  "claims": "1. A computer-implemented method for generating a patient-specific fenestration template, comprising: receiving imaging data of a patient; generating, based at least in part on the imaging data, a 3-D digital model of an aorta lumen of a patient, the aorta lumen encompassing one or more branch vessels; causing generation of the fenestration template based at least in part on the 3-D digital model, wherein the fenestration template represents a model of the aorta lumen without an aneurysm, wherein the fenestration template is cylindrical, wherein a diameter of the fenestration template matches a diameter of the aorta lumen, and wherein generating the fenestration template comprises: detecting boundaries for the one or more branch vessels using the imaging data, adding indications of the one or more branch vessels to the 3-D digital model, and subtracting a cylinder with a desired fenestration diameter from a solid part of the fenestration template to create one or more openings in the fenestration template; and scaling up the fenestration template such that a minimum diameter of the fenestration template matches a graft diameter.",
+  "patent_id": "US12377609-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B29C 64/386",
+      "A61F 2/07",
+      "A61F 2/95",
+      "G05B 15/02",
+      "G06F 30/20",
+      "G09B 23/30",
+      "A61F 2002/061",
+      "A61F 2/89",
+      "A61F 2230/0054",
+      "A61F 2240/002",
+      "A61F 2240/005",
+      "B29C 64/10",
+      "B33Y 50/02",
+      "B33Y 80/00"
+    ],
+    "all": [
+      "B29C 64/386",
+      "A61F 2/07",
+      "A61F 2/95",
+      "G05B 15/02",
+      "G06F 30/20",
+      "G09B 23/30",
+      "A61F 2002/061",
+      "A61F 2/89",
+      "A61F 2230/0054",
+      "A61F 2240/002",
+      "A61F 2240/005",
+      "B29C 64/10",
+      "B33Y 50/02",
+      "B33Y 80/00"
+    ],
+    "source": "converted"
+  }
+}

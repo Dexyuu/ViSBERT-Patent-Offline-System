@@ -1,0 +1,24 @@
+{
+  "title": "Building system with a recommendation interface",
+  "abstract": "A building system including one or more memory devices that store instructions thereon, that, when executed by one or more processors, generate a user interface including user interface elements, wherein a first user interface element of user interface elements is associated with a first category and includes one or more first recommendations that are associated with the first category and one or more first selection fields allowing a user to select recommendations for implementation from among the one or more first recommendations and a second user interface element of the user interface elements is associated with a second category and includes one or more second recommendations that are associated with the second category.",
+  "claims": "1. A building system including one or more memory devices that store instructions thereon, that, when executed by one or more processors, cause the one or more processors to: receive a plurality of recommendations from a recommendation engine, the plurality of recommendations generated based on building data of building equipment of a building and indicating one or more control updates to change performance of the building equipment; generate a user interface including a plurality of user interface elements, wherein: a first user interface element of the plurality of user interface elements is associated with a first category and includes one or more first recommendations of the plurality of recommendations that are associated with the first category and one or more first selection fields allowing a user to select recommendations for implementation from among the one or more first recommendations, wherein the one or more first recommendations include a predicted impact on a score associated with the first category; and a second user interface element of the plurality of user interface elements is associated with a second category and includes one or more second recommendations of the plurality of recommendations that are associated with the second category and one or more second selection fields allowing the user to select recommendations for implementation from among the one or more second recommendations, wherein the one or more second recommendations include a predicted impact on a score associated with the second category; receive an indication to accept one recommendation via at least one of the plurality of user interface elements; responsive to receiving the indication to accept the one recommendation, automatically take an action to implement the one recommendation; cause the user interface to include a trend element including a first trend of a first component of the score associated with the first category and a second trend of a second component of the score associated with the second category, an axis of the trend element identifying a plurality of times that indicate when one or more recommendations including the one recommendation were implemented, wherein the first trend and the second trend indicate impacts on the score of the first category and the score of the second category that resulted from implementation of one or more particular recommendations of the one or more recommendations, wherein the score of the first category and the score of the second category are determined based on one or more measured characteristics of the building; receive a second indication declining a second recommendation of the plurality of recommendations; train one or more machine learning models based on the indication to accept the one recommendation and the indication declining the second recommendation; and generate one or more additional recommendations based on the one or more machine learning models.",
+  "patent_id": "US12380517-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 50/06",
+      "G05B 13/028",
+      "G05B 15/02",
+      "G06F 3/04815",
+      "G06F 3/0482"
+    ],
+    "all": [
+      "G06Q 50/06",
+      "G05B 13/028",
+      "G05B 15/02",
+      "G06F 3/04815",
+      "G06F 3/0482"
+    ],
+    "source": "converted"
+  }
+}

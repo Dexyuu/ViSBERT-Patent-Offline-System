@@ -1,0 +1,20 @@
+{
+  "title": "Multi-voltage generation circuit",
+  "abstract": "A multi-voltage power generation circuit is disclosed. More specifically, the multi-voltage generation circuit includes multiple voltage modulation circuits that are configured to generate and maintain multiple modulated voltages. In a non-limiting example, the multiple modulated voltages can be used for amplifying multiple radio frequency (RF) signals concurrently. Contrary to using multiple direct-current (DC) to DC (DC-DC) converters for generating the multiple modulated voltages, the voltage modulation circuits are configured to share a single current modulation circuit based on time-division. By sharing a single current modulation circuit among the multiple voltage modulation circuits, it is possible to concurrently support multiple load circuits (e.g., power amplifier circuits) with significantly reduced footprint.",
+  "claims": "1. A multi-voltage generation circuit comprising: a plurality of voltage modulation circuits each comprising: a respective one of a plurality of voltage amplifiers configured to generate a respective one of a plurality of modulated initial voltages based on a respective one of a plurality of modulated target voltages; and a respective one of a plurality of offset capacitors configured to raise the respective one of the plurality of modulated initial voltages by a respective one of a plurality of offset voltages to thereby generate a respective one of a plurality of modulated voltages; and a control circuit configured to: determine a plurality of charge intervals and a plurality of discharge intervals in each of one or more operation periods; and cause each of the plurality of offset capacitors to be: charged to the respective one of the plurality of offset voltages during a respective one of the plurality of charge intervals; and discharged to maintain the respective one of the plurality of modulated voltages during a respective one of the plurality of discharge intervals.",
+  "patent_id": "US12381524-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03F 3/245",
+      "H03F 2200/129",
+      "H03F 2200/451"
+    ],
+    "all": [
+      "H03F 3/245",
+      "H03F 2200/129",
+      "H03F 2200/451"
+    ],
+    "source": "converted"
+  }
+}

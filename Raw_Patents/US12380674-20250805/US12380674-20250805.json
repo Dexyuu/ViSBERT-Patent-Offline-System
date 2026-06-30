@@ -1,0 +1,20 @@
+{
+  "title": "Vehicle reidentification",
+  "abstract": "A framework for decision fusion utilizing features extracted from vehicle images and their detected wheels. Siamese networks are exploited to extract key signatures from pairs of vehicle images. The present disclosure melds different types of similarity scores (whole vehicle and wheels/hubcaps) between target and test vehicles to robustly integrate different similarity scores and provide a more informed decision for vehicle matching. The present disclosure provides improved accuracy for side-view vehicle matching even under different illumination conditions and elevation angles.",
+  "claims": "1. A system for matching vehicles, the system comprising: a hardware processor configured to access an image that shows a side of a target vehicle, detect in the side image of the target vehicle a front wheel or a back wheel or both, and form corresponding images of the wheels of the target vehicle, receive one or more images, each image showing a side of a respective vehicle, and for each image compare the side image of the vehicle and the side image of the target vehicle using a whole vehicle matching network to produce a whole-vehicle similarity score, detect in the side image of the vehicle a front wheel or a back wheel or both, and form corresponding images of the wheels of the vehicle, compare the image of the vehicle front wheel and the image of the target vehicle front wheel using a front wheel matching network to produce a front wheel similarity score, and/or compare the image of the vehicle back wheel and the image of the target vehicle back wheel using a back wheel matching network to produce a back wheel similarity score, combine the whole-vehicle similarity score with either the front wheel similarity score or the back wheel similarity score or both to produce an overall similarity score, and determine whether the vehicle matches the target vehicle if the overall similarity score meets a predetermined similarity score threshold.",
+  "patent_id": "US12380674-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/761",
+      "G06V 10/80",
+      "G06V 10/82"
+    ],
+    "all": [
+      "G06V 10/761",
+      "G06V 10/80",
+      "G06V 10/82"
+    ],
+    "source": "converted"
+  }
+}

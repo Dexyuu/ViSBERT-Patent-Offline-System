@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2016189151",
+  "application_id_fs": "WO2016189151",
+  "title": "Method for determining a lifting angle and method for positioning a grinding mill",
+  "abstract": "The purpose of the invention to provide a method for determining a lifting angle of a charge inside a grinding mill at a specific point in time and a method for positioning a grinding mill which is more accurate. Method for determining a lifting angle (Î±) of a charge (2) inside a mill body (1) of a grinding mill being rotatable through a drive train, the method comprises the following steps of rotating the mill body (1); determining a reference lifting angle (Î±ar) and a corresponding reference driving torque (M r ) of the drive train at a reference point in time; calculating a fill factor (K) for the reference point in time based on the reference lifting angle (ar) and the reference driving torque (M r ); determining a driving torque (M) of the drive train; and calculating the lifting angle (Î±) based on the driving torque (M) and the fill factor (K).",
+  "claims": "Claims Patent Claims 1. Method for determining a lifting angle (a) of a charge (2) inside a mill body (1) of a grinding mill being rotatable through a drive train, wherein the method comprises the following steps: a) Rotating the mill body (1); b) Determining a reference lifting angle ( r ) and a corresponding reference driving torque (M r ) of the drive train at a reference point in time; characterized in that, the method further comprises the following steps: c) Calculating a fill factor (K) for the reference point in time based on the reference lifting angle ( r ) and the reference driving torque (M r ) ; d) Determining a driving torque (M) of the drive train; and e) Calculating the lifting angle (a) based on the driving torque (M) and the fill factor (K) . 2. Method according to claim 1, wherein after the calculation of the fill factor (K) in step (c) the calcula Â¬ tion of the lifting angle (a) through the steps (d) and (e) is performed online or in real-time after the reference point in time. 3. Method according to claim 1 or 2, wherein the mill body (1) rotates with a constant rotational speed. 4. Method according to one of the claims 1 to 3, wherein a change of volume of the charge (2) over time is de Â¬ termined and taken into account for the calculation of the fill factor (K) in step (c) and/or for the calculation of the lifting angle (a) in step (e) . 5. Method according to claim 4, wherein the change of volume of the charge (2) over time is determined using a measurement of a volume of a material input to the mill body (1) and a measurement of a volume of a mate Â¬ rial output from the mill body (1) . 6. Method according to claim 4 or 5, wherein the change of volume of the charge (2) over time is zero. 7. Method according to one of the claims 1 to 6, wherein the reference point in time is a point in time where a first cascading of the charge (2) occurs. 8. Method according to claim 7, wherein the determination of the reference lifting angle ( r ) uses an analysis of the driving torque (M) as a function of a rotational angle (Î²) of the mill body (1) and a recognition of an increase of the driving torque (M) that is smaller than a pre-defined increment. 9. Method according to claim 7, wherein the determination of the reference lifting angle ( r ) uses an analysis of the driving torque (M) over a rotational angle (Î²) of the mill body (1) and a identification of a beginning of oscillations of the driving torque (M) . 10. Method for positioning a mill body (1) of a grinding mill at a given rotational angle (Î² 9 ), characterized in that, the method comprises the following steps: c) Rotating the mill body (1) to a rotational angle (Î²Î d) Calculating the corresponding lifting angle (a * ) for the point in time when the mill body (1) reach Â¬ es the rotational angle (Î² * ) using a method accord Â¬ ing the one of the claims 1 to 9; e) Repeating steps (a) to (b) until the rotational an Â¬ gle (Î² * ) minus the corresponding lifting angle (a * ) is equal to the given rotational angle (Î² 9 ) . \n\n d) Setting the driving torque to zero after reaching the rotational angle (Î² * ) that fulfills the condi Â¬ tion of step (c) . 11. Method for positioning a mill body (1) of a grinding mill at a given rotational angle (Î² 9 ), characterized in that, the method comprises the following steps: a) Rotating the mill body (1) to a rotational angle (Î²Î b) Calculating the corresponding lifting angle (a * ) for the point in time when the mill body (1) reach Â¬ es the rotational angle (Î² * ) using a method accord Â¬ ing the one of the claims 1 to 9; c) Repeating steps (a) to (b) until the rotational an Â¬ gle (Î² * ) minus the corresponding lifting angle (a * ) is equal to the given rotational angle (Î² 9 ) . d) Rotating back the mill body (1) using the drive train by the amount of the lifting angle (a * ) after reaching the rotational angle (Î² * ) that fulfills the condition of step (c) . 12. Method according to claim 11, wherein the drive train is torque controlled while rotating back the mill body (1) and the drive train stops the rotation when the driving torque reaches zero.",
+  "classifications": {
+    "ipc": [
+      "B02C 17/00",
+      "B02C 17/18",
+      "B02C 17/1805",
+      "B02C 17/1825",
+      "B02C 25/00",
+      "G05D 17/00",
+      "G05D 17/02",
+      "G05D 27/00",
+      "G05D 1/00",
+      "G05D 25/00",
+      "G05D 27/02",
+      "G05D 3/00",
+      "G05D 3/12"
+    ],
+    "cpc": [],
+    "all": [
+      "B02C 17/00",
+      "B02C 17/18",
+      "B02C 17/1805",
+      "B02C 17/1825",
+      "B02C 25/00",
+      "G05D 17/00",
+      "G05D 17/02",
+      "G05D 27/00",
+      "G05D 1/00",
+      "G05D 25/00",
+      "G05D 27/02",
+      "G05D 3/00",
+      "G05D 3/12"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2016189151"
+}

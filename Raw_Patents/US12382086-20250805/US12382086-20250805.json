@@ -1,0 +1,22 @@
+{
+  "title": "Methods and apparatuses for video coding",
+  "abstract": "Aspects of the disclosure provide methods and apparatuses for video encoding/decoding. An apparatus for video decoding includes processing circuitry that decodes prediction information for a current block in a current coded picture. The prediction information indicates a motion vector predictor index (MVP_idx) for selecting a motion vector predictor in a motion vector predictor list. The processing circuitry determines whether the MVP_idx is smaller than a threshold. When the MVP_idx is determined to be smaller than the threshold, the processing circuitry decodes a motion vector difference (MVD) corresponding to the motion vector predictor and reconstructs the current block based on the motion vector predictor and the MVD. When the MVP_idx is determined to be equal to or larger than the threshold, the processing circuitry reconstructs the current block based on the motion vector predictor without the MVD which is not signaled in the coded video sequence.",
+  "claims": "1. A method for video encoding in an encoder, comprising: generating at least two motion vector predictor (MVP) candidate lists including motion vector predictors (MVPs) corresponding to spatial and temporal neighboring blocks of a current block according to advanced motion vector prediction (AMVP), wherein the generating the at least two MVP candidate lists according to the AMVP includes padding one of the at least two MVP candidate lists with non-zero motion vectors; concatenating a history-based motion vector predictor (HMVP) candidate to the MVPs corresponding to the spatial and temporal neighboring blocks in the generated MVP candidate lists, the HMVP candidate is derived using an HMVP method and is a last HMVP candidate in an HMVP table, wherein a reference picture of the HMVP candidate corresponds to a reference picture of an MVP candidate list to which the HMVP candidate is concatenated; generating prediction information for the current block in a current picture of a video sequence, the prediction information including an MVP index for each of the at least two MVP candidate lists including the HMVP candidate; and encoding the current block based on the MVP indexes and the MVP candidate lists including the HMVP candidate.",
+  "patent_id": "US12382086-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/52",
+      "H04N 19/56",
+      "H04N 19/577",
+      "H04N 19/70"
+    ],
+    "all": [
+      "H04N 19/52",
+      "H04N 19/56",
+      "H04N 19/577",
+      "H04N 19/70"
+    ],
+    "source": "converted"
+  }
+}

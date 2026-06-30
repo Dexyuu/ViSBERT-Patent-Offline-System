@@ -1,0 +1,26 @@
+{
+  "title": "Adaptation of scan order for entropy coding",
+  "abstract": "An encoded bitstream is stored on a non-transitory computer-readable storage medium. The encoded bitstream is configured for decoding by operations that include decoding a subset of quantized transform coefficients of a quantized transform block using a first scan order; determining, based on the subset of the quantized transform coefficients, a second scan order; decoding, based on the second scan order, remaining quantized transform coefficients of the quantized transform block; obtaining a current block based on the quantized transform coefficients.",
+  "claims": "1. A non-transitory computer-readable storage medium having stored thereon an encoded bitstream, wherein the encoded bitstream, processed by a processor, causes the processor to perform operations comprising: decoding a subset of quantized transform coefficients of a quantized transform block using a first scan order; determining, based on the subset of the quantized transform coefficients, a second scan order; decoding, based on the second scan order, remaining quantized transform coefficients of the quantized transform block; and obtaining a current block based on the quantized transform coefficients, wherein the subset of quantized transform coefficients is arranged in the encoded bitstream for decoding based on the first scan order, and wherein the remaining quantized transform coefficients are arranged in the encoded bitstream for decoding based on the second scan order.",
+  "patent_id": "US12382050-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/129",
+      "H04N 19/172",
+      "H04N 19/176",
+      "H04N 19/18",
+      "H04N 19/182",
+      "H04N 19/61"
+    ],
+    "all": [
+      "H04N 19/129",
+      "H04N 19/172",
+      "H04N 19/176",
+      "H04N 19/18",
+      "H04N 19/182",
+      "H04N 19/61"
+    ],
+    "source": "converted"
+  }
+}

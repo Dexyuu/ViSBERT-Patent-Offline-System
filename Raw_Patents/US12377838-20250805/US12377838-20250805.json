@@ -1,0 +1,24 @@
+{
+  "title": "Driving assistance device, driving assistance method, and storage medium",
+  "abstract": "A driving assistance device is configured to: refer to an output of a first detection device for detecting that an object is located in front of a vehicle; execute one or both of instructing a brake device of the vehicle to stop the vehicle and instructing a steering device of the vehicle to avoid a collision with the object by steering when an indicator value is less than a first threshold; execute a first preliminary operation when the indicator value is less than a second threshold; execute a second preliminary operation when the indicator value is less than a third threshold and it is determined that there is no travel path along which the vehicle is able to travel on both lateral sides of the object after the vehicle avoids the collision with the object by steering.",
+  "claims": "1. A driving assistance device comprising: a storage medium storing computer-readable instructions; and at least one processor connected to the storage medium, the at least one processor executing the computer-readable instructions to: refer to an output of a first detection device for detecting that an object is located in front of a vehicle; execute one or both of instructing a brake device of the vehicle to stop the vehicle and instructing a steering device of the vehicle to avoid a collision with the object by steering, when an indicator value that decreases as the vehicle approaches the object is less than a first threshold; execute a first preliminary operation when the indicator value is less than a second threshold; execute a second preliminary operation when the indicator value is less than a third threshold and it is determined, at a time point when the indicator value is less than the third threshold, that there is no travel path along which the vehicle is able to travel on both lateral sides of the object after the vehicle avoids the collision with the object by steering, wherein the first threshold is less than the second threshold and the second threshold is less than the third threshold; and refer to an output of a second detection device that detects a visual line direction of a driver of the vehicle and change setting of the first preliminary operation or the second preliminary operation depending on whether or not the visual line direction is in a direction of a specific device installed on the vehicle.",
+  "patent_id": "US12377838-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 30/09",
+      "B60W 30/0956",
+      "B60W 40/08",
+      "B60W 2554/80",
+      "B60W 2710/18"
+    ],
+    "all": [
+      "B60W 30/09",
+      "B60W 30/0956",
+      "B60W 40/08",
+      "B60W 2554/80",
+      "B60W 2710/18"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2018114617",
+  "application_id_fs": "WO2018114617",
+  "title": "Method for data transmission in a cellular network with reconfigurable radio frame structure settings",
+  "abstract": "The present invention relates to a method for data transmission in a cellular network for wireless communication, capable of reconfiguration of radio transmission time frame structure, comprising at least one base node, to at least one user equipment camping on said base node, the method comprising the steps for the base node of: - transmitting in at least one frequency band at least two frame structure settings and one master information block, the master information block comprising data fields indicating to an access information channel for at least one of the frame structure settings in the frequency band, wherein the access information channel of a frame structure setting provides access information indicating to the part of the frequency band reserved to respective frame structure setting, - transmitting user relevant data in said part of the frequency band configured according to said frame structure setting, this reconfiguration is carried out according to User equipment requests.",
+  "claims": "Claims 1 . Method for data transmission in a cellular network (CLN) for wireless communication, comprising at least one base node (BS), to at least one user equipment (UE) camping on said base node, the method comprising the steps for the base node of: - transmitting in at least one frequency band at least two frame structure settings (FSS) and one master information block (MIB), the master information block comprising data fields indicating to an access information channel (AIC) for at least one of the frame structure settings in the frequency band, wherein the access information channel of a frame structure setting provides access information indicating to the part of the frequency band reserved to respective frame structure setting, - transmitting user relevant data in said part of the frequency band configured according to said frame structure setting. 2. Method according to claim 1 , wherein at least one frame structure setting (FSS) comprises a transmission scheme different from the transmission scheme of at least one other frame structure setting used in parallel. 3. Method according to claim 2, wherein at least one frame structure setting (FSS) transmission scheme comprises at least one of: - at least one structure block composed of a plurality of basic resource blocks, - HARQ delay requirements for at least one of the uplink or the downlink transmissions. 4. Method according to at least one of the previous claims, further comprising the step for the base node (BS) of transmitting system information comprising an indication relating to the current availability of at least one of the frame structure settings (FSS). 5. Method according to claim 4, wherein said system information (SYS) further comprises an indication relating to the time when a non-available frame structure setting (FSS) will be available. 6. Method according to claim 4, wherein said system information (SYS) further comprises an indication relating to barring user equipments (UE) supporting only a non-available frame structure setting (FSS). 7. Method according to at least claims 1 to 3, further comprising the step for the base node (BS) of transmitting system information (SYS), the system information comprising at least an indication that frame structure settings (FSS) are available on request, and upon reception of a predetermined number of requests from user equipments (UE) relating to a specific frame structure setting configuring the respective frame structure setting. 8. Method according to claim 7, wherein the cellular network (CLN) further comprises a reconfiguration server (RCS), operatively connected to a plurality of base nodes (BS) and to the core network (CRN) of the cellular network, the method further comprising the steps for the reconfiguration server of: - receiving from at least one base node at least one message indicating reception of said requests from user equipments (UE) relating to a specific frame structure setting (FSS) at said base node, - instructing one of said plurality of base nodes to configure respective frame structure setting. 9. Base node (BS) of a cellular network (CLN), configured to wirelessly communicate with at least one user equipment (UE) camping on the base node, \n\n wherein the base node is configured to transmit in at least one frequency band at least two frame structure settings (FSS) and one master information block (MIB), the master information block comprising data fields indicating to an access information channel (AIC) for at least one of the frame structure settings in the frequency band, wherein the access information channel of a frame structure setting provides access information indicating to the part of the frequency band reserved to respective frame structure setting, and the base node is configured to transmit payload data in said part of the frequency band scheduled according to said frame structure setting. 10. Base node according to claim 9, wherein at least one frame structure setting (FSS) comprises a transmission scheme different from the transmission scheme of at least one other frame structure setting used in parallel, said frame structure setting transmission scheme comprises at least one of: - at least one structure block composed of a plurality of basic resource blocks, - HARQ delay requirements for at least one of the uplink or the downlink transmissions. 1 1 . Base node (BS) according to at least one of the claims 9 or 10, wherein the base node is further configured to transmit system information (SYS) comprising an indication relating to the current availability of at least one of the frame structure settings. 12. Base node (BS) according to at least one of the claims 9 to 1 1 , wherein the base node is further configured to transmit system information (SYS), the system information comprising at least an indication that frame structure settings (FSS) are available on request, and upon reception of a predetermined number of requests from user equipments (UE) relating to a specific frame structure setting to configure the respective frame structure setting. 13. User equipment (UE) configured to camp on a base node (BS) of a cellular network (CLN), wherein the user equipment is configured to decode: - signals transmitted by the base node in at least one frequency band in one of a plurality of frame structure settings (FSS), and - a master information block (MIB), the master information block comprising data fields indicating to an access information channel (AlC) for said frame structure setting in the frequency band, wherein the access information channel of said frame structure setting provides access information indicating to the part of frequency band reserved to said frame structure setting, and the user equipment is further configured to receive user relevant data in said part of the frequency band scheduled according to said frame structure setting. 14. User equipment (UE) according to claim 13, further configured to receive system information (SYS) transmitted by the base node (BS) indicating the availability of said frame structure setting (FSS), and to wait until the frame structure setting is available, in case the system information (SYS) comprise an indication relating to the time when a non- available frame structure setting will be available. 15. Cellular network (CLN), comprising a plurality of base nodes (BS), further comprising at least one reconfiguration server (RCS), operatively connected to a plurality of said base nodes and to the core network (CRN) of the cellular network, wherein the reconfiguration server is configured to: - receive from at least one base node (BS) at least one message indicating reception of said requests from user equipments (UE) relating to a specific frame structure setting (FSS) at said base node, - instruct one of said plurality of base nodes to configure respective frame structure setting.",
+  "classifications": {
+    "ipc": [
+      "H04W 72/00",
+      "H04W 72/04",
+      "H04W 72/044",
+      "H04W 72/0446",
+      "H04W 48/00",
+      "H04W 48/08",
+      "H04W 48/12",
+      "H04W 72/0453",
+      "H04W 72/20",
+      "H04W 72/23",
+      "H04W 74/00",
+      "H04W 74/002",
+      "H04W 74/006",
+      "H04W 84/00",
+      "H04W 84/02",
+      "H04W 84/04",
+      "H04W 84/042"
+    ],
+    "cpc": [],
+    "all": [
+      "H04W 72/00",
+      "H04W 72/04",
+      "H04W 72/044",
+      "H04W 72/0446",
+      "H04W 48/00",
+      "H04W 48/08",
+      "H04W 48/12",
+      "H04W 72/0453",
+      "H04W 72/20",
+      "H04W 72/23",
+      "H04W 74/00",
+      "H04W 74/002",
+      "H04W 74/006",
+      "H04W 84/00",
+      "H04W 84/02",
+      "H04W 84/04",
+      "H04W 84/042"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018114617"
+}

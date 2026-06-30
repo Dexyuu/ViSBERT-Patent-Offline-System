@@ -1,0 +1,27 @@
+{
+  "application_id": "WO2016200776",
+  "application_id_fs": null,
+  "title": "Systems and methods for an account issuer to manage a mobile wallet",
+  "abstract": "A system may be configured to perform operations and/or steps comprising querying, by an issuer server, a network server for an alias associated with a transaction account. The issuer server may receive the alias from the network server. The issuer server may also send the alias to an issuer application. The operations may also comprise validating, by the issuer server, an account validation input entered into the issuer application. The issuer server may send an issuer signature criteria that indicate whether the account validation input is valid. The issuer application may add an alias associated with the account to a digital wallet.",
+  "claims": "Claims CLAIMS  What is claimed is: 1. A method comprising: querying, by an issuer server, a network server for an alias associated with a transaction account; receiving, by the issuer server, the alias from the network server; sending, by the issuer server, the alias to an issuer application; validating, by the issuer server, an account validation input entered into the issuer application; sending, by the issuer server, an issuer signature criteria that indicates that the account validation input is valid; and invoking, by the issuer server, a function on the issuer application to add the alias to a digital wallet. 2. The method of claim 1, wherein the alias comprises a string of characters. 3. The method of claim 2, wherein the alias has a structure of a transaction account number. 4. The method of claim 3, further comprising storing, by the issuer application, the alias on a mobile device running the issuer application. 5. The method of claim 1, further comprising validating, by the issuer server, an account security code. 6. The method of claim 5, wherein the issuer signature criteria indicates whether the account security code is valid. 7. The method of claim 1, wherein the issuer server is configured to communicate with the network server using an application program interface (API). 8. A computer-based system, comprising: issuer server comprising a processor; \n\n a tangible, non-transitory memory configured to communicate with the processor, the tangible, non-transitory memory having instructions stored thereon that, in response to execution by the processor, cause the issuer server to perform operations comprising: querying, by the issuer server, a network server for an alias associated with a transaction account; receiving, by the issuer server, the alias from the network server; sending, by the issuer server, the alias to an issuer application; validating, by the issuer server, an account validation input entered into the issuer application; sending, by the issuer server, an issuer signature criteria that indicates that the account validation input is valid; and invoking, by the issuer server, a function on the issuer application to add the alias to a digital wallet. 9. The computer-based system of claim 8, wherein the alias comprises a string of characters. 10. The computer-based system of claim 9, wherein the alias has a structure of a transaction account number. 11. The computer-based system of claim 10, further comprising storing, by the issuer application, the alias on a mobile device running the issuer application. 12. The computer-based system of claim 8, further comprising validating, by the issuer server, an account security code. 13. The computer-based system of claim 12, wherein the issuer signature criteria indicates whether the account security code is valid. 14. The computer-based system of claim 8, wherein the issuer server is configured to communicate with the network server using an application program interface (API). 15. An article of manufacture including a non-transitory, tangible computer readable \n\n storage medium having instructions stored thereon that, in response to execution by a computer-based system, cause the computer-based system to perform operations comprising: querying, by an issuer server, a network server for an alias associated with a transaction account; receiving, by the issuer server, the alias from the network server; sending, by the issuer server, the alias to an issuer application; validating, by the issuer server, an account validation input entered into the issuer application; sending, by the issuer server, an issuer signature criteria that indicates that the account validation input is valid; and invoking, by the issuer server, a function on the issuer application to add the alias to a digital wallet. 16. The article of claim 15, wherein the alias comprises a string of characters. 17. The article of claim 16, wherein the alias has a structure of a transaction account number. 18. The article of claim 17, further comprising storing, by the issuer application, the alias on a mobile device running the issuer application. 19. The article of claim 15, further comprising validating, by the issuer server, an account security code. 20. The article of claim 19, wherein the issuer signature criteria indicates whether the account security code is valid.",
+  "classifications": {
+    "ipc": [
+      "G06K 17/00",
+      "G06K 19/00",
+      "G06Q 20/30",
+      "G06Q 20/32",
+      "G06Q 20/36",
+      "G06Q 20/40"
+    ],
+    "cpc": [],
+    "all": [
+      "G06K 17/00",
+      "G06K 19/00",
+      "G06Q 20/30",
+      "G06Q 20/32",
+      "G06Q 20/36",
+      "G06Q 20/40"
+    ],
+    "source": "csv"
+  }
+}

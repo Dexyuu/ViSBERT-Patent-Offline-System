@@ -1,0 +1,44 @@
+{
+  "title": "Multifactor contextual authentication and entropy from device or device input or gesture authentication",
+  "abstract": "Methods and systems for authenticating a user requesting to access one or more resources via a device are described herein. Authentication may be based on or otherwise rely on a plurality of devices. For example, aspects described herein are directed towards a system and method for receiving an authentication request from a first user device. A second user device may send a request for and receive a public key of the first user device and receive. The second user device may verify the authentication request using the public key of the first user device and perform authentication based on an authentication secret received from a user.",
+  "claims": "1. A method comprising: receiving, by a first user device from a second user device, an authentication request; receiving, via an application running on the first user device, a user input comprising an authentication secret; performing, by the first user device based on the received authentication secret, authentication with an authentication server; indicating, by the first user device, to the second user device that the authentication with the authentication server is successful by sending a message from the first user device to second user device; and before the receiving the authentication request, pairing the first user device with the second user device; wherein the first user device comprises at least one of a mouse or a smartwatch.",
+  "patent_id": "US12381869-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/0853",
+      "G06F 21/34",
+      "G06F 21/41",
+      "G06F 21/83",
+      "H04L 63/0272",
+      "H04L 63/0815",
+      "H04L 63/0884",
+      "H04W 12/06",
+      "H04W 12/35",
+      "G06F 2221/2139",
+      "H04L 9/0825",
+      "H04L 9/083",
+      "H04L 9/3247",
+      "H04L 63/0846",
+      "H04W 12/43"
+    ],
+    "all": [
+      "H04L 63/0853",
+      "G06F 21/34",
+      "G06F 21/41",
+      "G06F 21/83",
+      "H04L 63/0272",
+      "H04L 63/0815",
+      "H04L 63/0884",
+      "H04W 12/06",
+      "H04W 12/35",
+      "G06F 2221/2139",
+      "H04L 9/0825",
+      "H04L 9/083",
+      "H04L 9/3247",
+      "H04L 63/0846",
+      "H04W 12/43"
+    ],
+    "source": "converted"
+  }
+}

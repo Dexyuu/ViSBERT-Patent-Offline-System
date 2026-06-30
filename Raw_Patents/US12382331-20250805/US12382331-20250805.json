@@ -1,0 +1,22 @@
+{
+  "title": "Selective retransmission method for uplink overhead reduction",
+  "abstract": "Systems and methods are provided for an improved link budged resulting from reduced overhead. The method includes determining a signal to noise and interference ratio (SINR) at a wireless device, comparing the SINR to a predetermined threshold and determining the SINR at the wireless device meets the predetermined threshold. The method additionally includes disabling a hybrid automatic repeat request (HARQ) retransmission mechanism for the wireless device based on the determination that the SINR at the wireless devices meets the predetermined threshold.",
+  "claims": "1. A method comprising: determining, from a serving access node, a signal to noise and interference ratio (SINR) at a wireless device; comparing the SINR at the wireless device to a predetermined threshold; upon determining the SINR at the wireless device meets the predetermined threshold, signaling the wireless device from the serving access node to disable a hybrid automatic repeat request (HARQ) retransmission mechanism for the wireless device in response to determining that the SINR at the wireless device meets the predetermined threshold and instructing the wireless device, from the serving access node, to utilize a higher layer retransmission mechanism upon disabling HARQ; and upon determining the SINR at the wireless device does not meet the predetermined threshold, utilizing the HARQ retransmission mechanism for the wireless device.",
+  "patent_id": "US12382331-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 24/10",
+      "H04B 17/336",
+      "H04L 1/08",
+      "H04L 1/1812"
+    ],
+    "all": [
+      "H04W 24/10",
+      "H04B 17/336",
+      "H04L 1/08",
+      "H04L 1/1812"
+    ],
+    "source": "converted"
+  }
+}

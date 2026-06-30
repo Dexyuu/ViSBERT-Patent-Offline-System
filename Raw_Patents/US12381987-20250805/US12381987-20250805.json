@@ -1,0 +1,38 @@
+{
+  "title": "Information processing apparatus, control method thereof, storage medium, and image forming system",
+  "abstract": "An information processing apparatus obtains reference image data used for printing of a printed material, and obtains an image quality inspection result obtained by comparing read image data obtained by reading the printed material and the reference image data. The information processing apparatus also displays, on a display unit, an inspection result screen in accordance with the inspection result. A first region for displaying an entire image corresponding to read image data for a predetermined page among pages read from printed material is included in the inspection result screen. Furthermore, the inspection result screen includes a second region in which a normal enlarged image obtained by enlarging a normal image based on reference image data and an abnormal enlarged image obtained by enlarging an abnormal image based on the read image data are displayed in association for each abnormal portion included in the entire image.",
+  "claims": "1. An information processing apparatus comprising: at least one memory device that stores a set of instructions; and at least one processor that executes the set of instructions to: obtain reference image data used for printing of a printed material; obtain an image quality inspection result obtained by comparing, by an inspection unit, read image data obtained by reading, by a reading unit, the printed material and the reference image data; and displaying, on a display unit, an inspection result screen in accordance with the inspection result, wherein a first region and a second region are included in the inspection result screen, in the first region, for a predetermined page among pages read from the printed material, an entire image corresponding to the read image data and an abnormal portion in the entire image are displayed, and in a second region, a normal enlarged image and an abnormal enlarged image corresponding to the abnormal portion are displayed, the normal enlarged image is an image for which an image of a position corresponding to the abnormal portion in the reference image data is enlarged and displayed, and the abnormal enlarged image is an image for which an image of a position corresponding to the abnormal portion in the read image data is enlarged and displayed, and in the inspection result screen, in a case where abnormal portions detected by the inspection unit exceed an upper limit to be displayed at one time in the second region, together with displaying the normal enlarged image and abnormal enlarged image corresponding to a portion of the abnormal portions, a first operation object for switching to a display of a non-displayed normal enlarged image and abnormal enlarged image is displayed.",
+  "patent_id": "US12381987-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 1/00442",
+      "G06T 3/40",
+      "G06T 7/001",
+      "G06T 11/001",
+      "H04N 1/00005",
+      "H04N 1/00013",
+      "H04N 1/00037",
+      "H04N 1/00076",
+      "H04N 1/00458",
+      "H04N 1/00824",
+      "G06T 2207/30144",
+      "G06T 2207/30168"
+    ],
+    "all": [
+      "H04N 1/00442",
+      "G06T 3/40",
+      "G06T 7/001",
+      "G06T 11/001",
+      "H04N 1/00005",
+      "H04N 1/00013",
+      "H04N 1/00037",
+      "H04N 1/00076",
+      "H04N 1/00458",
+      "H04N 1/00824",
+      "G06T 2207/30144",
+      "G06T 2207/30168"
+    ],
+    "source": "converted"
+  }
+}

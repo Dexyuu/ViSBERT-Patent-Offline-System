@@ -1,0 +1,28 @@
+{
+  "title": "Systems and methods for efficient compression and decompression of splat representations of three-dimensional objects",
+  "abstract": "A splat compression system and associated methods are provided to efficiently compress and decompress data of a three-dimensional (3D) splat representation using textures so that the size of the splat representation is reduced with minimal loss in fidelity. The compression includes receiving the splats that make up the 3D splat representation, determining clusters that are associated with a different set of the splats that are positioned about a different common plane, and defining each cluster with a position based on the positional data from the different set of splats associated with that cluster. The compression includes converting the positional data from the different set of splats associated with each cluster to offsets from the position of the associated cluster, and generating the compressed 3D representation with a definition for each cluster and a texture that stores the offsets for the different set of splats associated with each cluster.",
+  "claims": "1. A method comprising: receiving a three-dimensional (3D) representation comprising a plurality of splats that collectively generate a 3D visualization of one or more objects; determining a plurality of clusters with each cluster of the plurality of clusters being associated with a different set of splats from the plurality of splats positioned about a common plane; defining a respective cluster from the plurality of clusters with a position based on positional data from the different set of splats associated with the respective cluster; converting the positional data from the different set of splats associated with a different cluster of the plurality of clusters to offsets from the position of the different cluster that is associated with the different set of splats; and generating a compressed 3D representation comprising a definition for each cluster of the plurality of clusters and a texture that stores the offsets for the different set of splats associated with each cluster of the plurality of clusters, wherein the compressed 3D representation is encoded with less bits than the 3D representation.",
+  "patent_id": "US12380632-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 15/20",
+      "G06T 1/20",
+      "G06T 7/55",
+      "G06T 9/00",
+      "G06T 15/04",
+      "G06T 17/20",
+      "G06T 2210/56"
+    ],
+    "all": [
+      "G06T 15/20",
+      "G06T 1/20",
+      "G06T 7/55",
+      "G06T 9/00",
+      "G06T 15/04",
+      "G06T 17/20",
+      "G06T 2210/56"
+    ],
+    "source": "converted"
+  }
+}

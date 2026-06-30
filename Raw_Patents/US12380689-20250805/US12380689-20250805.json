@@ -1,0 +1,24 @@
+{
+  "title": "Managing occlusion in Siamese tracking using structured dropouts",
+  "abstract": "A method for object tracking includes receiving a target image of an object of interest. Latent space features of the target image is modified at a forward pass for a neural network by dropping at least one channel of the latent space features, dropping a channel corresponding to a slice of the latent space features, or dropping one or more features of the latent space features. At the forward pass, a location of the object of interest in a search image is predicted based on the modified latent space features. The location of the object of interest is identified by aggregating predicted locations from the forward pass.",
+  "claims": "1. A method, comprising: receiving a target image of an object of interest; extracting latent space features of the target image; modifying the latent space features of the target image at a forward pass of a neural network using a structured dropout to model one or more appearance variations of the target image; predicting, at the forward pass, a location of the object of interest in a search image based on the modified latent space features; and identifying the location of the object of interest by aggregating predicted locations from the forward pass.",
+  "patent_id": "US12380689-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/82",
+      "G06T 5/20",
+      "G06T 7/73",
+      "G06T 2207/20076",
+      "G06T 2207/20084"
+    ],
+    "all": [
+      "G06V 10/82",
+      "G06T 5/20",
+      "G06T 7/73",
+      "G06T 2207/20076",
+      "G06T 2207/20084"
+    ],
+    "source": "converted"
+  }
+}

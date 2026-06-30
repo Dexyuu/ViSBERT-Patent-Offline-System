@@ -1,0 +1,26 @@
+{
+  "title": "Real-time packet loss concealment using deep generative networks",
+  "abstract": "The present disclosure relates to a method and system for performing packet loss concealment using a neural network system. The method comprises obtaining a representation of an incomplete audio signal, inputting the representation of the incomplete audio signal to an encoder neural network and outputting a latent representation of a predicted complete audio signal. The latent representation is input to a decoder neural network which outputs a representation of a predicted complete audio signal comprising a reconstruction of the original portion of the complete audio signal, wherein said encoder neural network and said decoder neural network have been trained with an adversarial neural network.",
+  "claims": "1. A method for packet loss concealment of an incomplete audio signal, the incomplete audio signal comprising a substitute signal portion replacing an original signal portion of a complete audio signal, the method comprising: obtaining a representation of the incomplete audio signal; inputting the representation of the incomplete audio signal to an encoder neural network trained to predict a latent representation of a complete audio signal given a representation of an incomplete audio signal; outputting, by the encoder neural network, a latent representation of a predicted complete audio signal; quantizing the latent representation of the complete audio signal to obtain a quantized latent representation, wherein the quantized latent representation is formed by selecting a set of tokens out of a predetermined vocabulary set of tokens; conditioning, with at least one token of the quantized latent representation, a generative neural network, wherein the generative neural network is trained to predict a token of the set of tokens provided at least one different token of the set of tokens; outputting by the generative neural network a predicted token of the latent representation and a confidence metric associated with the predicted token; based on the confidence metric of the predicted token, replacing a corresponding token of the quantized latent representation with the predicted token, inputting the quantized latent representation of the predicted complete audio signal to a decoder neural network trained to predict a representation of a complete audio signal given a latent representation of a complete audio signal; and outputting, by the decoder neural network, a representation of the predicted complete audio signal comprising a reconstruction of the original portion of the complete audio signal, wherein said encoder neural network and said decoder neural network have been trained with an adversarial neural network.",
+  "patent_id": "US12380897-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 19/005",
+      "G06N 3/0455",
+      "G06N 3/0475",
+      "G06N 3/094",
+      "G10L 19/038",
+      "G10L 25/30"
+    ],
+    "all": [
+      "G10L 19/005",
+      "G06N 3/0455",
+      "G06N 3/0475",
+      "G06N 3/094",
+      "G10L 19/038",
+      "G10L 25/30"
+    ],
+    "source": "converted"
+  }
+}

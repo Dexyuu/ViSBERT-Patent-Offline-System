@@ -1,0 +1,22 @@
+{
+  "title": "Systems and methods for performing inter prediction coding in video coding",
+  "abstract": "A method of decoding video data is disclosed. The method comprising: receiving a first array of prediction sample values; receiving a second array of prediction sample values; determining a scale value based on a color component index value and a video sampling format of the video data; and generating a third array of prediction sample values by applying a blending value to the first array of prediction sample values and the second array of prediction sample values, wherein the blending value is based on the scale value.",
+  "claims": "1. A method of decoding video data, the method comprising: receiving a first array of prediction sample values, wherein the first array of prediction sample values is derived according to a fractional sample interpolation process using a first motion vector; receiving a second array of prediction sample values, wherein the second array of prediction sample values is derived according to the fractional sample interpolation process using a second motion vector; scaling a horizontal location and a vertical location based on a color component index value and a video sampling format of the video data to derive a blending value; and generating a third array of prediction sample values by using a value obtained by adding (1) a product of the blending value and the first array of prediction sample values to (2) a product of (i) eight minus the blending value and (ii) the second array of prediction sample values.",
+  "patent_id": "US12382071-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/44",
+      "H04N 19/132",
+      "H04N 19/186",
+      "H04N 19/30"
+    ],
+    "all": [
+      "H04N 19/44",
+      "H04N 19/132",
+      "H04N 19/186",
+      "H04N 19/30"
+    ],
+    "source": "converted"
+  }
+}

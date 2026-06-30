@@ -1,0 +1,18 @@
+{
+  "title": "Seamless scalable decoding of channels, objects, and HOA audio content",
+  "abstract": "Disclosed are methods and systems for decoding immersive audio content encoded by an adaptive number of scene elements for channels, audio objects, higher-order ambisonics (HOA), and/or other sound field representations. The decoded audio is rendered to the speaker configuration of a playback device. For bit streams that represent audio scenes with a different mixture of channels, objects, and/or HOA in consecutive frames, fade-in of the new frame and fade-out of the old frame may be performed. Crossfading between consecutive frames happen in the speaker layout after rendering, in the spatially decoded content type before rendering, or between the transport channels as the output of the baseline decoder but before spatial decoding and rendering. Crossfading may use an immediate fade-in and fade-out frame (IFFF) for the transition frame or may use an overlap-add synthesis technique such as time-domain aliasing cancellation (TDAC) of MDCT.",
+  "claims": "20. A system configured to decode audio content, the system comprising: a memory configured to store instructions; a processor coupled to the memory and configured to execute the instructions stored in the memory to: receive frames of the audio content, the audio content being represented by a plurality of content types, the frames containing audio streams encoding the audio content using an adaptive number of scene elements in the plurality of content types; process two consecutive frames containing the audio streams encoding the audio content using a different mixture of the adaptive number of the scene elements in the plurality of content types to generate decoded audio streams; and generate crossfading of the decoded audio streams in the two consecutive frames based on a speaker configuration to drive a plurality of speakers.",
+  "patent_id": "US12380904-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 19/24",
+      "G10L 19/008"
+    ],
+    "all": [
+      "G10L 19/24",
+      "G10L 19/008"
+    ],
+    "source": "converted"
+  }
+}

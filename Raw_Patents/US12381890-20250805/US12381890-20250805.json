@@ -1,0 +1,22 @@
+{
+  "title": "System and method for secure network access of terminal",
+  "abstract": "A system and a method for providing a secure network access of a terminal, the system including: a terminal; a gateway located at a boundary of a network to which the terminal belongs; and a server which manages data transmission between the terminal and the gateway. The server generates a control flow between the terminal and the server upon receiving a controller access request from the terminal; transmits, to the terminal, identification information of the control flow, and a threat detection policy stored in a database of the server; receives, from the terminal, the controller access update request including threat detection information indicating a result of executing a threat detection function installed in the terminal on the basis of the threat detection policy; and, when detection of a threat is confirmed from the threat detection information, cancels the control flow on the basis of the threat detection policy.",
+  "claims": "1. A system, comprising: a terminal; a gateway located on a boundary of a network to which the terminal belongs, wherein the gateway is different from the terminal; and a server configured to manage data transmission between the terminal and the gateway, wherein the server generates control flow between the terminal and the server, wherein when the server receives a controller access request from the terminal, the server transmits identification information of the control flow and a threat detection policy stored in a database of the server to the terminal, receives a controller access update request including threat detection information indicating a result of executing a threat detection function loaded into the terminal based on the threat detection policy from the terminal, and releases the control flow based on the threat detection policy, when threat detection is identified from the threat detection information, wherein the server receives a network access request including the identification information of the control flow and the threat detection information from the terminal, determines whether network access of the terminal is possible based on the identification information of the control flow, and releases the control flow depending on the threat detection policy and transmits information indicating network access failure to the terminal, when the threat detection is identified from the threat detection information, wherein the threat detection function is configured to detect a direct threat applied to a minimized attack surface for access to a destination network.",
+  "patent_id": "US12381890-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1416",
+      "H04L 63/1425",
+      "H04L 63/145",
+      "H04L 63/20"
+    ],
+    "all": [
+      "H04L 63/1416",
+      "H04L 63/1425",
+      "H04L 63/145",
+      "H04L 63/20"
+    ],
+    "source": "converted"
+  }
+}

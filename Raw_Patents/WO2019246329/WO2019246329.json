@@ -1,0 +1,40 @@
+{
+  "application_id": "WO2019246329",
+  "application_id_fs": "WO2019246329",
+  "title": "Load switch having a controlled slew rate",
+  "abstract": "A load switch circuit (100) implemented on an IC chip (102) includes a first node (PN1) for coupling to an input voltage, a second node (PN2) for coupling to an external load, first and second capacitor nodes (PN4, PN5) for coupling to first and second terminals of an external capacitor, and a first PFET (MP1) coupled between the first node and the second node to control an output voltage (Vout) to the external load (Rload, Cload). The load switch circuit also includes a driver circuit (104) having a first NFET (MN1) that has a drain coupled to the first node and a source coupled to a gate of the first PFET. A slew-rate-control circuit (106) is coupled to a gate of the first NFET and includes the first capacitor node, which is coupled to the gate of the first NFET, and the second capacitor node, which is coupled to the second node.",
+  "claims": "Claims CLAIMS  What is claimed is: 1. A load switch circuit implemented on an integrated circuit chip, the load switch circuit comprising: a first node for coupling to an input voltage; a second node for coupling to an external load; a first capacitor node for coupling to a first terminal of an external capacitor; a second capacitor node for coupling to a second terminal of the external capacitor; a first P-type field effect transistor (PFET) coupled between the first node and the second node to control an output voltage to the external load; a driver circuit comprising a first N-type field effect transistor (NFET) having a drain coupled to the first node and a source coupled to a gate of the first PFET; and a slew-rate-control circuit coupled to a gate of the first NFET, the slew-rate-control circuit comprising the first capacitor node, which is coupled to the gate of the first NFET, and the second capacitor node, which is coupled to the second node. 2. The load switch circuit as recited in claim 1 further comprising a third node for coupling to a ground plane, wherein: the slew-rate-control circuit further comprises a second PFET coupled in series with a first current sink between the first node and the third node, a point between a drain of the second PFET and the first current sink being coupled to the gate of the first NFET, a gate of the second PFET being coupled to receive a power down bar signal that is coupled to be high when the first PFET is to be turned on; and the driver circuit further comprises a third PFET coupled between the first node and the gate of the first PFET and a second current sink coupled between the gate of the first PFET and the third node, a gate of the third PFET being coupled to receive the power down bar signal. 3. The load switch circuit as recited in claim 2 wherein a first current passed by the first current sink is less than a second current passed by the second current sink. 4. The load switch circuit as recited in claim 3 wherein a ratio of the first current to the second current is between 1 : 10 and 1 : 1,000. 5. The load switch circuit as recited in claim 3 wherein a ratio of the first current to the second current is between 1 :20 and 1 : 100. 6 A load switch circuit implemented on an integrated circuit (IC) chip, the load switch circuit comprising: a first node for coupling to an input voltage; a second node for coupling to an external load; a third node for coupling to a ground plane; a first capacitor node for coupling to a first terminal of an external capacitor; a second capacitor node for coupling to a second terminal of the external capacitor; a first P-type field effect transistor (PFET) coupled between the first node and the second node to control an output voltage to the external load; a driver circuit comprising a unity gain buffer coupled between the first node and the third node, an output of the unity gain buffer being coupled to a gate of the first PFET; and a slew-rate-control circuit coupled to a non-inverting input of the unity gain buffer, the slew-rate-control circuit comprising the first capacitor node, which is coupled to the non inverting input to the unity gain buffer, and the second capacitor node, which is coupled to the second node. 7. The load switch circuit as recited in claim 6 wherein the slew-rate-control circuit further comprises a slew-rate-control element coupled between the non-inverting input to the unity gain buffer and the third node. 8. The load switch circuit as recited in claim 6 wherein the slew-rate-control circuit further comprises a disable switch coupled between the first node and the non-inverting input to the unity gain buffer to enable turning the first PFET on and off. 9. The load switch circuit as recited in claim 8 wherein the disable switch comprises a second PFET. 10. The load switch circuit as recited in claim 8 wherein the slew-rate-control element comprises a current sink. 11. The load switch circuit as recited in claim 8 wherein the slew-rate-control element comprises a resistor. 12. A method of operating a load switch circuit, the method comprising: providing a load switch circuit implemented on an integrated circuit (IC) chip, the load switch circuit comprising a P-type pass element; coupling a first terminal of an external capacitor to a first capacitor pin of the IC chip, the \n\n first capacitor pin coupling the external capacitor to a non-inverting input of a unity gain buffer that controls a gate of the P-type pass element; and coupling a second terminal of the external capacitor to a second capacitor pin of the IC chip, the second capacitor pin coupling the external capacitor to an output node of the load switch circuit. 13. The method as recited in claim 12 wherein coupling the first terminal to the first capacitor pin couples the first terminal to a gate of an N-type source follower transistor.",
+  "classifications": {
+    "ipc": [
+      "H03K 5/00",
+      "H03K 5/01",
+      "H03K 5/04",
+      "H02H 9/00",
+      "H02H 9/001",
+      "H03K 17/00",
+      "H03K 17/16",
+      "H03K 17/161",
+      "H03K 17/165",
+      "H03K 17/166",
+      "H03K 2217/00",
+      "H03K 2217/0063"
+    ],
+    "cpc": [],
+    "all": [
+      "H03K 5/00",
+      "H03K 5/01",
+      "H03K 5/04",
+      "H02H 9/00",
+      "H02H 9/001",
+      "H03K 17/00",
+      "H03K 17/16",
+      "H03K 17/161",
+      "H03K 17/165",
+      "H03K 17/166",
+      "H03K 2217/00",
+      "H03K 2217/0063"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019246329"
+}

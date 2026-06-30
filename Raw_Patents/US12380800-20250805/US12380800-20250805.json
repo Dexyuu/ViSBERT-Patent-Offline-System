@@ -1,0 +1,20 @@
+{
+  "title": "Method for adjusting backoff mechanism and vehicle communication system",
+  "abstract": "Embodiments of the disclosure provide a method for adjusting a backoff mechanism and a vehicle communication system. The method includes the following. Vehicle information of each vehicle in multiple road segments is obtained. Current traffic flow information of each of the road segments is determined based on the vehicle information of each of the vehicles. Multiple probabilities corresponding to each of the road segments are determined at least according to the current traffic flow information of each of the road segments, in which the multiple probabilities corresponding to each of the road segments correspond to multiple candidate contention window sizes respectively. A contention window size corresponding to each of the road segments is determined based on the multiple probabilities corresponding to each of the road segments. A message retransmission mechanism of multiple first vehicles is controlled according to the contention window size corresponding to a first road segment.",
+  "claims": "1. A method for adjusting a backoff mechanism suitable for a vehicle communication system, wherein the vehicle communication system comprises a server, comprising: obtaining vehicle information of each of a plurality of vehicles in a plurality of road segments by the server, wherein the vehicle information of each of the plurality of vehicles comprises corresponding communication information and movement information, the plurality of road segments comprise a first road segment, and the plurality of vehicles comprise a plurality of first vehicles positioned in the first road segment; determining current traffic flow information of each of the plurality of road segments based on the vehicle information of each of the plurality of vehicles by the server; determining a plurality of probabilities corresponding to each of the plurality of road segments at least according to the current traffic flow information of each of the plurality of road segments by the server, wherein the plurality of probabilities corresponding to each of the plurality of road segments correspond to a plurality of candidate contention window sizes respectively; determining a contention window size corresponding to each of the plurality of road segments based on the plurality of probabilities corresponding to each of the plurality of road segments by the server; and controlling a message retransmission mechanism of the plurality of first vehicles according to the contention window size corresponding to the first road segment by the server.",
+  "patent_id": "US12380800-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G08G 1/0116",
+      "G08G 1/0129",
+      "G08G 1/096775"
+    ],
+    "all": [
+      "G08G 1/0116",
+      "G08G 1/0129",
+      "G08G 1/096775"
+    ],
+    "source": "converted"
+  }
+}

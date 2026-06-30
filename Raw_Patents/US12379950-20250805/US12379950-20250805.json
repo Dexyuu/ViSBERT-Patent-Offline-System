@@ -1,0 +1,18 @@
+{
+  "title": "Updating virtual images of computing environments",
+  "abstract": "Methods and systems for allowing for incremental updates to remote localized copies of disk images (e.g., virtual machine images) are described. In some implementations, the disk images are block-based. The incremental updates may be done in a bi-directional manner across different platforms such that an update to any platform may be prepared for any of the other platforms. Preparation of updates between platforms may be accomplished through one or more of combining disk images, differencing disk images, snapshotting disk images, and/or versioning disk images.",
+  "claims": "1. A method, comprising: identifying, in response to receipt of a request to prepare updates between disk images of different computing environments running on computing devices, a common disk image, the common disk image being a disk image common between previous versions of the disk images of the different computing environments running on computing devices; determining a binary file of differences between a disk image of a first of the computing devices and the identified common disk image; attaching, using a second of the computing devices, the common disk image and the binary file of differences to an appliance executable on the second of the computing devices; and creating, using the second of the computing devices, an updated disk image by applying, using the appliance and the binary file of differences, differences to the identified common disk image.",
+  "patent_id": "US12379950-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/45558",
+      "G06F 2009/4557"
+    ],
+    "all": [
+      "G06F 9/45558",
+      "G06F 2009/4557"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Method and apparatus for data processing for software product",
+  "abstract": "The present application discloses a method for data processing for a software product. The method includes: obtaining event data to be stored, wherein the event data to be stored includes a software product identifier, an event identifier, and at least one event attribute; determining column information of each event attribute of the at least one event attribute in a target table; and storing, into the target table, the event data to be stored, based on the column information of each event attribute in the target table. In the embodiments of the present application, the target table includes a plurality of columns, the plurality of columns include at least a target column, and event attributes carried in at least two of cells included in the target column are different.",
+  "claims": "1. A method for data processing for a software product, comprising: obtaining event data to be stored, wherein the event data to be stored comprises a software product identifier, an event identifier, and at least one event attribute, the software product identifier is used to identify a software product from which the event data to be stored is generated, the event identifier is used to identify an event corresponding to the event data to be stored, and the event attribute is an attribute of the event; determining column information of each event attribute of the at least one event attribute in a target table, wherein the target table comprises a plurality of columns, the plurality of columns comprise at least a target column, and event attributes carried in at least two of cells comprised in the target column are different; and storing, into the target table, the event data to be stored, based on the column information of each event attribute in the target table, wherein determining the column information of each event attribute of the at least one event attribute in the target table comprises: obtaining metadata corresponding to the software product, wherein the metadata comprises corresponding column information of a respective event attribute of a plurality of event attributes corresponding to the software product, in the target table, and the metadata has been stored as a table different from the target table before obtaining the event data to be stored; and determining corresponding column information of each event attribute of the at least one event attribute in the target table based on the metadata.",
+  "patent_id": "US12380009-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/302",
+      "G06F 11/3476",
+      "G06F 2201/86"
+    ],
+    "all": [
+      "G06F 11/302",
+      "G06F 11/3476",
+      "G06F 2201/86"
+    ],
+    "source": "converted"
+  }
+}

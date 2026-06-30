@@ -1,0 +1,22 @@
+{
+  "title": "Device for linear reception processing of low-complexity light of multi-antenna wireless communication system, and operating method therefor",
+  "abstract": "The disclosure relates to a communication technique and a system for converging a fifth generation (5G) and subsequent communication system with Internet of things (IoT) technology to support a higher data transmission rate than a fourth generation (4G) system. The disclosure is applied to the intelligent service based on the 5G and subsequent communication technology and IoT-related technology. The reception device according to the disclosure receives orthogonal frequency division multiplexing (OFDM) signals through a plurality of antennas, aligns the received OFDM signals, converts at least one of the aligned reception signals into a designated symbol, estimates the data symbols of the reception signals based on the designated condition, and determines the data symbol of the reception signals by synthesizing at least one of the converted reception signals among the estimated reception signals.",
+  "claims": "1. A method performed by a reception device of a wireless communication system, the method comprising: receiving orthogonal frequency division multiplexing (OFDM) signals through a plurality of antennas; arranging reception signal symbols included in the received OFDM signals; converting at least one quadrature phase shift keying (QPSK) symbol or quadrature amplitude modulation (QAM) symbol among the arranged reception signal symbols into π/2 phase shifted pulse amplitude modulation (PAM) symbols; estimating data symbols of the arranged reception signal symbols including at least one converted reception signal symbol; converting at least a part of the π/2 phase shifted PAM symbols among the estimated data symbols into the QPSK symbol or the QAM symbol by synthesizing; and determining the estimated data symbols including the converted QPSK symbol or the converted QAM symbol as a data symbol of the received OFDM signals.",
+  "patent_id": "US12381771-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 27/3854",
+      "H04L 25/4917",
+      "H04L 27/22",
+      "H04L 27/2655"
+    ],
+    "all": [
+      "H04L 27/3854",
+      "H04L 25/4917",
+      "H04L 27/22",
+      "H04L 27/2655"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Method and apparatus for transmitting or receiving reference signal in wireless communication system",
+  "abstract": "The present disclosure relates to a method by a base station and a terminal in a wireless communication system. A method by a terminal according to an embodiment may comprise the steps of: receiving, from a base station, bandwidth part configuration information and higher-layer signaling including uplink rate matching configuration information or uplink puncturing configuration information; receiving, from the base station, downlink control information for scheduling transmission of uplink data; identifying a resource for transmission of the uplink data on the basis of the uplink rate matching configuration information or uplink puncturing configuration information, and transmitting the uplink data to the base station through the identified resource.",
+  "claims": "1. A method by a base station in a communication system, the method comprising: transmitting, to a user equipment (UE) via higher layer signaling, uplink rate matching configuration information, wherein the uplink rate matching configuration information includes at least one of time resource allocation information indicating time domain rate matching duration or frequency resource allocation information indicating frequency domain rate matching duration; transmitting, to the UE, downlink control information for scheduling uplink data; and receiving, from the UE, the uplink data, wherein the time domain rate matching duration includes at least one guard symbol, wherein the frequency domain rate matching duration includes at least one guard physical resource block (PRB), wherein rate matching based on a rate matching resource corresponding to the uplink rate matching configuration information is applied to a resource on which the uplink data is received, and wherein the rate matching resource corresponds to at least one of a time resource within the time domain rate matching duration except for the at least one guard symbol or a frequency resource within the frequency domain rate matching duration except for the at least one guard PRB.",
+  "patent_id": "US12381681-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/0051",
+      "H04L 5/0094",
+      "H04W 72/23"
+    ],
+    "all": [
+      "H04L 5/0051",
+      "H04L 5/0094",
+      "H04W 72/23"
+    ],
+    "source": "converted"
+  }
+}

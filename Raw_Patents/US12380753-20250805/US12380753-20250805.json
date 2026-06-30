@@ -1,0 +1,18 @@
+{
+  "title": "Validator device for a passenger transport system",
+  "abstract": "A validator device for a passenger transportation system includes a reader module configured to detect an electronic medium identifier of an open payment ticket medium. Data memory of the validator device stores a denial data set containing at least one denied electronic medium identifier and at least one denial attribute assigned to the denied electronic medium identifier. A comparator module identifies a denied electronic medium identifier from the at least one denied electronic medium identifier contained in the denial data set by comparing the detected electronic medium identifier with the at least one denied electronic medium identifier. A verification module checks, upon identification of a denied electronic medium identifier, whether the at least one denial attribute assigned to the identified denied electronic medium identifier satisfies predetermined denial criterion. An output module is configured to permit a use of the passenger transportation system responsive to a determination by the verification module.",
+  "claims": "1. A validation method, comprising: detecting, by a validator device of a passenger transportation system, an electronic medium identifier of an open payment ticket medium, wherein a denial data set is stored in a data memory of the validator device, wherein the denial data set contains at least one denied electronic medium identifier and at least one denial attribute assigned to the denied electronic medium identifier, identifying, by the validator device, a denied electronic medium identifier from the at least one denied electronic medium identifier contained in the denial data set by comparing the detected electronic medium identifier to the at least one denied electronic medium identifier, upon identifying a denied electronic medium identifier, checking, by the validator device, whether the at least one denial attribute assigned to the identified denied electronic medium identifier satisfies at least one predetermined denial criterion, and permitting, by an output of the validator device, a use of the passenger transport system if the validator device determines that the at least one denial attribute satisfies the at least one predetermined denial criterion.",
+  "patent_id": "US12380753-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G07C 9/20",
+      "G01C 21/3423"
+    ],
+    "all": [
+      "G07C 9/20",
+      "G01C 21/3423"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "application_id": "WO2025002794",
+  "application_id_fs": "WO2025002794",
+  "title": "Removable secure element having impersonation protection",
+  "abstract": "The present invention relates to a removable secure element having a memory to store at least a universal user identifier, a security context, a list of mobile equipment identifiers in which the removable secure element was previously inserted, said removable secure element being dedicated to be inserted in a mobile equipment compliant with plastic roaming connecting and authenticating automatically the mobile equipment to a serving network using the security context stored in the removable secure element as soon as the universal user identifier stored in the removable secure element is the same as the one associated to the security context on the serving network side, said removable secure element further having an application to monitor an identifier of a mobile equipment in which the removable secure element is inserted, said application implementing a retrieval of the identifier of the mobile equipment in which the removable secure element is inserted, a check of the presence of the retrieved identifier in the stored list of mobile equipment identifiers as stored, and, if the retrieved identifier is present in the list, a deletion of the security context as stored.",
+  "claims": "Claims 1 . Removable secure element having a memory to store at least a universal user identifier, a security context, a list of mobile equipment identifiers in which the removable secure element was previously inserted, said removable secure element being dedicated to be inserted in a mobile equipment compliant with plastic roaming connecting and authenticating automatically the mobile equipment to a serving network using the security context stored in the removable secure element as soon as the universal user identifier stored in the removable secure element is the same as the one associated to the security context on the serving network side, said removable secure element further having an application to monitor an identifier of a mobile equipment in which the removable secure element is inserted, said application implementing: - a retrieval of the identifier of the mobile equipment in which the removable secure element is inserted, - a check of the presence of the retrieved identifier in the stored list of mobile equipment identifiers as stored, - if the retrieved identifier is present in the list, a deletion of the security context as stored. 2. Removable secure element according to claim 1 , wherein said application further implements a monitoring of a mobile equipment change timing, the deletion being triggered when the retrieved identifier is present in the list and when the change timing is below a preconfigured threshold. 3. Method to protect a removable secure element against impersonation of a universal identifier of a user of the removable secure element, the removable secure element having a memory to store at least a universal user identifier, a security context, a list of mobile equipment identifiers in which the removable secure element was previously inserted, \n\nsaid method comprising the steps of, while the removable secure element is inserted in a mobile equipment: retrieving an identifier of the mobile equipment in which the removable secure element is inserted; checking the presence of the identifier in the list of mobile equipment identifiers as stored; if the identifier is present in the list, deleting the security context as stored. 4. Method according to claim 3, further comprising the step of monitoring a mobile equipment change timing, the deletion being triggered when the retrieved identifier is present in the list and when the change timing is below a preconfigured threshold. 5. Method according to at least one of claims 3 and 4, further comprising the step of sending a request to authenticate with the serving network to the mobile equipment. 6. Application dedicated to be installed and run in a removable secure element to monitor an identifier of a mobile equipment in which the removable secure element is inserted, the removable secure element having further a memory to store at least a universal user identifier, a security context, a list of mobile equipment identifiers in which the removable secure element was previously inserted, said application having instructions for the secure element to: - retrieve an identifier of the mobile equipment in which the removable secure element is inserted; check the presence of the identifier in the list of mobile equipment identifiers as stored; if the identifier is present in the list, delete the security context as stored. 7. Application according to claim 6, further having instructions to monitor a mobile equipment change timing, the deletion being triggered when the retrieved identifier is present in the list and when the change timing is below a preconfigured threshold. 8. Application according to at least one of claims 6 and 7, further having instructions to send a request to authenticate with the serving network to the mobile equipment.",
+  "classifications": {
+    "ipc": [
+      "H04L 63/00",
+      "H04L 63/08",
+      "H04L 63/0853",
+      "H04W 12/00",
+      "H04W 12/12",
+      "H04W 12/126",
+      "H04W 12/40",
+      "H04W 12/48",
+      "H04W 12/60",
+      "H04W 12/06",
+      "H04W 12/069"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 63/00",
+      "H04L 63/08",
+      "H04L 63/0853",
+      "H04W 12/00",
+      "H04W 12/12",
+      "H04W 12/126",
+      "H04W 12/40",
+      "H04W 12/48",
+      "H04W 12/60",
+      "H04W 12/06",
+      "H04W 12/069"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025002794"
+}

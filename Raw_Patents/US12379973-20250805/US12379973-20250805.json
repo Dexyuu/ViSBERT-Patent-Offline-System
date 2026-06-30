@@ -1,0 +1,16 @@
+{
+  "title": "Cross service lock handling",
+  "abstract": "A method and system for performing lock handling across multiple servers. In one embodiment, the method comprises receiving, by a second server, a first request of a service from a first server, the first request including first metadata which includes lock information of a lock held by the first server. The method comprises extracting the lock information from the first metadata and storing the lock information in a locking table without the lock being transferred to the second server. The method further comprises executing application code to perform the service, including, while executing the application code, determining whether the lock exists based on the lock information in the locking table, and passing a lock check in response to determining that the lock exists.",
+  "claims": "1. A method by a second server, comprising: receiving a first request of a service from a first server, the first request including first metadata which includes lock information of a lock held by the first server; extracting the lock information from the first metadata and storing the lock information in a locking table without the lock being transferred to the second server; and executing application code to perform the service, including, while executing the application code, determining whether the lock exists based on the lock information in the locking table, and passing a lock check in response to determining that the lock exists.",
+  "patent_id": "US12379973-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/526"
+    ],
+    "all": [
+      "G06F 9/526"
+    ],
+    "source": "converted"
+  }
+}

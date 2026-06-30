@@ -1,0 +1,20 @@
+{
+  "title": "News alerts based on user analytics",
+  "abstract": "A system gathers information on important and influential people and builds a social graph. The system regularly sends news alert messages to users. This can help users nurture their relationship with persons they are connected to, by providing them with updates on news and other events that happen to persons they are connected to. The watch can be customized with a variety of options, such as including related entities, organizing news alerts with user data, and other options.",
+  "claims": "1. A method comprising: providing a system accessible over the Internet comprising a social graph residing on a social graph database, wherein the social graph comprises: computer data for a plurality of nodes of a first type, referred to as system-provided nodes, wherein system-provided nodes represent entities tracked by the system and include information gathered by the system; computer data for a plurality of nodes of a second type, different from the first type of node and referred to as ghost nodes, wherein ghost nodes represent entities created for users of the system and include information specified by users of the system, and each ghost node of the plurality of ghost nodes of the social graph has one-degree of separation from at least one system-provided node of the social graph; computer data for a plurality of edges of a first type, referred to as system-provided edges, wherein system-provided edges represent relationships categorized by at least one concept category of the system between two different system-provided nodes of the social graph; and computer data for a plurality of edges of a second type, different from the first type of edge and referred to as ghost edges, wherein each ghost edge represents a relationship between a system-provided node and a ghost node of the social graph, information on relationships represented by the ghost edges are specified by users of the system, and the system-provided edges are disallowed from directly coupling two ghost nodes, and a first ghost node represents a first user, and the first ghost node and any ghost edges coupled to the first ghost node are visible to the first user and not to other users; for the plurality of users, setting a plurality of indications stored in an indications database, wherein each indication is associated with the plurality of users and indicates the requests by the plurality of users of the system have been satisfied; receiving at the system information on a plurality of news events, wherein the news events comprise more than one entity tracked by the system and are not user-provided information; and accessing the social graph database to identify from the social graph first, second, and third system-provided nodes associated with the plurality of news events.",
+  "patent_id": "US12380513-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 50/01",
+      "G06F 16/951",
+      "G06F 16/9535"
+    ],
+    "all": [
+      "G06Q 50/01",
+      "G06F 16/951",
+      "G06F 16/9535"
+    ],
+    "source": "converted"
+  }
+}

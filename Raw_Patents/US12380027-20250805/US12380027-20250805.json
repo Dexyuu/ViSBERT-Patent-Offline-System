@@ -1,0 +1,26 @@
+{
+  "title": "Method and apparatus for using a storage system as main memory",
+  "abstract": "A data access system including a processor, multiple cache modules for the main memory, and a storage drive. The cache modules include a FLC controller and a main memory cache. The multiple cache modules function as main memory. The processor sends read/write requests (with physical address) to the cache module. The cache module includes two or more stages with each stage including a FLC controller and DRAM (with associated controller). If the first stage FLC module does not include the physical address, the request is forwarded to a second stage FLC module. If the second stage FLC module does not include the physical address, the request is forwarded to the storage drive, a partition reserved for main memory. The first stage FLC module has high speed, lower power operation while the second stage FLC is a low-cost implementation. Multiple FLC modules may connect to the processor in parallel.",
+  "claims": "1. A data storage and access system for use with a processor comprising: a processor, having processor cache, the processor configured to generate a data request for data; a final level cache (FLC) cache system, configured to function as main memory and receive the data request, the FLC system comprising: a first FLC module having a first FLC controller and first memory, the first FLC module receiving the data request from the processor; a second FLC module having a second FLC controller and second memory, the second FLC module receiving, responsive to the first FLC module not having the data requested by the processor, the data request from the first FLC module; and a storage drive configured with a main memory portion such that the storage drive receives the data request responsive to the second FLC module not having the data requested.",
+  "patent_id": "US12380027-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 12/0811",
+      "G06F 9/3816",
+      "G06F 9/5077",
+      "G06F 12/0851",
+      "G06F 12/1009",
+      "G06F 12/0897"
+    ],
+    "all": [
+      "G06F 12/0811",
+      "G06F 9/3816",
+      "G06F 9/5077",
+      "G06F 12/0851",
+      "G06F 12/1009",
+      "G06F 12/0897"
+    ],
+    "source": "converted"
+  }
+}

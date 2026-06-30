@@ -1,0 +1,18 @@
+{
+  "title": "Queue identification",
+  "abstract": "Example techniques relate to a playback device that facilitates queue identification. In an example implementation, a playback device receives, from a first controller, instructions representing a command to populate a playback queue with one or more first media items; the instructions are associated with a first application identifier corresponding to the first controller. Based on the received instructions, the playback device populates the playback queue with the one or more first media items and forms an association between the playback queue and the first application identifier. The playback device receives, from a second controller, instructions representing one or more first commands to access the playback queue; the instructions are associated with a second application identifier corresponding to the second controller. The playback device determines that the second application identifier is different from the first application identifier and denies the one or more first commands to access the playback queue.",
+  "claims": "1. A system comprising a playback device and a first mobile device comprising a first instance of an application, the system comprising: at least one network interface; at least one processor; and at least one non-transitory computer-readable medium comprising program instructions that are executable by the at least one processor such that the system is configured to: receive, via the first instance of the application, first data representing a command to add first audio tracks to a playback queue of the playback device; assign ownership of the playback queue to the first instance of the application; add the first audio tracks to the playback queue according to the first data; cause the playback device to play back at least a portion of the first audio tracks via at least one audio transducer; receive, via a second instance of the application on a second mobile device, second data representing a command to add second audio tracks to the playback queue of the playback device; assign ownership of the playback queue to the second instance of the application according to the received second data representing the command to add the second audio tracks to the playback queue of the playback device; and add the second audio tracks to the playback queue according to the second data.",
+  "patent_id": "US12380161-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/639",
+      "G11B 27/105"
+    ],
+    "all": [
+      "G06F 16/639",
+      "G11B 27/105"
+    ],
+    "source": "converted"
+  }
+}

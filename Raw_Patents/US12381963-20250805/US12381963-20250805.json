@@ -1,0 +1,22 @@
+{
+  "title": "Method of using bit vectors to allow expansion and collapse of header layers within packets for enabling flexible modifications and an apparatus thereof",
+  "abstract": "Embodiments of the apparatus for modifying packet headers relate to a use of bit vectors to allow expansion and collapse of protocol headers within packets for enabling flexible modification. A rewrite engine expands each protocol header into a generic format and applies various commands to modify the generalized protocol header. The rewrite engine maintains a bit vector for the generalized protocol header with each bit in the bit vector representing a byte of the generalized protocol header. A bit marked as 0 in the bit vector corresponds to an invalid byte, while a bit marked as 1 in the bit vector corresponds to a valid byte. The rewrite engine uses the bit vector to remove all the invalid bytes after all commands have been operated on the generalized protocol header to thereby form a new protocol header.",
+  "claims": "1. A method of a network device, the method comprising: receiving a packet having a header including one or more protocol layers, wherein each protocol layer of the one or more protocol layers corresponds to one of a plurality of protocols; and for at least one protocol layer of the one or more protocol layers: converting the at least one protocol layer to a generic protocol layer format associated with the protocol of the at least one protocol layer by adding one or more fields to the at least one protocol layer, wherein the one or more fields added to the at least one protocol layer were not previously a part of the at least one protocol layer and are dependent on the protocol of the at least one protocol layer.",
+  "patent_id": "US12381963-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 69/22",
+      "H04L 49/3009",
+      "H04L 69/04",
+      "H04L 69/08"
+    ],
+    "all": [
+      "H04L 69/22",
+      "H04L 49/3009",
+      "H04L 69/04",
+      "H04L 69/08"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "System and method for channel estimation in SC-FDMA/OFDM based radio access technologies",
+  "abstract": "A method for reducing a memory requirement in an uplink receiver using a Sounding Reference Signal (SRS) channel along with a Demodulation Reference Signal (DMRS) for channel estimation in SC-FDMA/OFDM based radio access technologies is provided. The method includes (i) requesting the Sounding Reference Signal (SRS) and receiving the Sounding Reference Signal (SRS), by a base station, from at least one user device and performing corresponding channel estimation, (ii) scheduling, by the base station, at least one of a data or control channel transmission, and (iii) demodulating, using a SC-FDMA/OFDM demodulator, received SC-FDMA/OFDM symbols that corresponds to at least one of the data or control channel transmission scheduled by the base station and saving the demodulated SC-FDMA/OFDM symbols for one DMRS interval in a buffer until channel estimation is ready, thereby reducing the memory requirement of the uplink receiver.",
+  "claims": "1. A method for reducing a memory requirement of an uplink receiver using a Sounding Reference Signal (SRS) along with a Demodulation Reference Signal (DMRS) for channel estimation in Single-carrier-Frequency division multiple access (SC-FDMA)/Orthogonal frequency-division multiplexing (OFDM) based radio access technologies, comprising: requesting the Sounding Reference Signal (SRS) and receiving the Sounding Reference Signal (SRS), by a base station, from at least one user device and performing corresponding channel estimation; scheduling, by the base station, at least one of data or control channel transmission; demodulating, using a SC-FDMA/OFDM demodulator, received SC-FDMA/OFDM symbols that corresponds to at least one of the data or control channel transmission scheduled by the base station and saving the demodulated SC-FDMA/OFDM symbols for one DMRS interval in a buffer until channel estimation is ready, thereby reducing the memory requirement of the uplink receiver; receiving the demodulation Reference Signal (DMRS), by the base station, and performing an SRS-based channel estimation and at least one DMRS based channel estimation for each transmission time interval (TTI); averaging the SRS-based channel estimation and the at least one DMRS based channel estimation using a moving average filter; and equalizing, by the uplink receiver, OFDM symbols corresponding to at least one of data or control channel transmission using averaged SRS-based channel estimation and at least one DMRS based channel estimation in an equalizer.",
+  "patent_id": "US12381761-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 25/025",
+      "H04L 25/0224"
+    ],
+    "all": [
+      "H04L 25/025",
+      "H04L 25/0224"
+    ],
+    "source": "converted"
+  }
+}

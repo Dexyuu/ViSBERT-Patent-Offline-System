@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2017214438",
+  "application_id_fs": "WO2017214438",
+  "title": "Autoscaling rows of travel for an off-road vehicle",
+  "abstract": "A control system (24) for an off-road vehicle (10) configured to traverse the off-road vehicle (10) through a field (14, 120, 150) by determining whether a partial row (158) exists or contour differences exist between opposite edges if a route of traversal is used. If a partial row (158) or a contour difference exists adjust the route to increase overlap (164) of rows of the off-road vehicle (10) to distribute the width of the field (14, 120, 150) evenly among the rows or incrementally adjust each row from a first contour of a first edge (124) to a second contour of a second edge (122).",
+  "claims": "Claims CLAIMS: 1. A control system (24) for an off-road vehicle (10), comprising: memory (50, 72) storing instructions; a processor (48, 70) configured to execute the instructions to cause the processor (48, 70) to: determine whether a first contour of a first edge (124) of a field (14, 120, 150) differs from a second contour of a second edge (122) of the field (14, 120, 150) that is on an opposite side of the field from the first edge; and if the first contour differs from the second contour, determine a preplanned route of travel through the field for the off-road vehicle (10), wherein the pre-planned route includes: a first pass of the off-road vehicle (10) that follows the first contour at the first edge (124); subsequent passes of the off-road vehicle (10) to incrementally shift from the first contour to the second contour using partial overlaps of passes of an implement towed by or integrated into the off-road vehicle (10); and a final pass of the off-road vehicle (10) that follows the second contour at the second edge; and control the off-road vehicle (10) to traverse the field (12) based at least in part on the pre-planned route. 2. The control system (24) of claim 1, wherein the first contour is different from the second contour when an acute angle is formed in a corner (126) of the field (14, 120, 150) between the first edge (124) of the field (14, 120, 150) and an adjacent edge of the field (14, 120, 150). 3. The control system (24) of claim 1 , comprising a user interface (74) that provides information and receives selections. 4. The control system (24) of claim 3, wherein the user interface (74) is configured to receive a selection of a crop type. 5. The control system (24) of claim 4, wherein the determination of contour differences is used only when a non-row crop type is selected. 6. The control system (24) of claim 1, wherein the incremental shift from the first contour to the second contour for each pass is a function of a distance of the pass from the first edge (124). 7. The control system (24) of any of one of the above claims, comprising: the off-road vehicle (10); and a base station (32), wherein the processor (48, 70) is located in the off- road vehicle (10), in the base station (32), or distributed between both the base station and the off-road vehicle (10). 8. The control system (24) of claim 1, wherein the instructions are configured to cause the processor (48, 70) to: determine whether a partial row (158) would exist using the pre-planned route; and if a partial row (158) would exist, adjust the determined pre-planned route to eliminate the partial row. 9. The control system (24) of claim 8, wherein a width of the partial row (158) is divided between overlap areas (164) of each pass (162) of the implement. 10. The control system (24) of claims 8 or 9, wherein the adjustment to eliminate the partial row (158) using the overlap areas (164) is used when a selection indicates a non-row crop. 11. The control system (24) of claim 10, wherein a width of the overlap areas (164) for each row is calculated using the following equation: WOL - N where WOL is an overlap width for each row (162), WPR is a width of a partial row (158) that would exist if the field were traversed using rows having widths equal to the swath width (154), and n is the number of full rows (156) that would exist if the field (150) were traversed using rows (156) having widths equal to the swath width \n\n (154), and wherein the width of the partial row (158) is calculated using the following equation: where WT is a total width of the field to be processed, and Wsw is the swath width (154) of the implement (12). 12. The control system (24) of claim 1 , comprising a spatial locating device (34) that indicates a location of the off-road vehicle (10) that is configured to enable mapping the field (14, 120, 150) for generation and adjustment of the preplanned route. 13. A method for controlling an off-road vehicle (10) through a field (14, 120, 150), comprising: mapping (208), via a processor (48, 70), a field (14, 120, 150) using a spatial locating device (34) of the off-road vehicle (10); determining (214), via the processor (48, 70), from the map whether a field width (152) is not an integer multiple of a swath width (154) of an implement; if the field width (152) is not an integer multiple of the swath width (154), determining (216), via the processor (48, 70), a route to establish an overlap (164) of passes of the rows (162) so that the field width (152) is an integer multiple of non-overlap portions of each pass; and \n\n controlling (218), via the processor (48, 70), the off-road vehicle (10) to traverse the field based at least in part on the route The method of claim 13, comprising: determining, via the processor (48, 70), whether a first contour of a first edge (124) of the field (14, 120, 150) differs from a second contour of a second edge (122) of the field (14,120, 150) that is on an opposite side of the field (14, 120, 150) from the first edge (124); and if the first contour differs from the second contour, determine, via the processor (48, 70), a contoured route of travel through the field (14, 120, 150) for the off-road vehicle (10), wherein the contoured route includes: a first pass of the off-road vehicle (10) that follows the first contour at the first edge (124); subsequent passes of the off-road vehicle (10) to incrementally shift from the first contour to the second contour using partial overlaps of passes of an implement (12) towed by or integrated into the off-road vehicle (10); and a final pass of the off-road vehicle (10) that follows the second contour at the second edge; and control, via the processor (48, 70), the off-road vehicle (10) to traverse the field based at least in part on the contoured route. 15. The method of claim 13, wherein mapping the field (14, 120, 150) using the spatial locating device (34) of the off-road vehicle (10) includes circumnavigating a perimeter of the field (12, 120, 150).",
+  "classifications": {
+    "ipc": [
+      "G05D 1/00",
+      "G05D 1/02",
+      "G05D 1/021",
+      "G05D 1/0212",
+      "A01B 69/00",
+      "A01B 69/007",
+      "A01B 69/008",
+      "G05D 1/0276",
+      "G05D 1/0278",
+      "B60Y 2200/00",
+      "B60Y 2200/20",
+      "B60Y 2200/22",
+      "B60Y 2300/00",
+      "B60Y 2300/10"
+    ],
+    "cpc": [],
+    "all": [
+      "G05D 1/00",
+      "G05D 1/02",
+      "G05D 1/021",
+      "G05D 1/0212",
+      "A01B 69/00",
+      "A01B 69/007",
+      "A01B 69/008",
+      "G05D 1/0276",
+      "G05D 1/0278",
+      "B60Y 2200/00",
+      "B60Y 2200/20",
+      "B60Y 2200/22",
+      "B60Y 2300/00",
+      "B60Y 2300/10"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017214438"
+}

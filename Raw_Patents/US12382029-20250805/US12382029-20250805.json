@@ -1,0 +1,24 @@
+{
+  "title": "Image encoding/decoding method and device using intra prediction",
+  "abstract": "The image encoding/decoding method and device according to the present invention may determine an intra prediction mode of a current block and perform intra prediction on the current block on the basis of the intra prediction mode, wherein the intra prediction mode of the current block is determined for each of a luminance block and a color difference block.",
+  "claims": "1. A method of decoding an image, comprising: determining an intra prediction mode of a current block, wherein the intra prediction mode of the current block is determined for each of a luma block and a chroma block respectively, performing intra prediction on the current block based on the intra prediction mode, wherein performing the intra prediction comprises: specifying a luma region for inter-components reference of the chroma block; performing down-sampling for the luma region; deriving a parameter for the inter-components reference of the chroma block; and predicting the chroma block based on the down-sampled luma region and the parameter, wherein the luma region comprises a luma block and a neighboring region adjacent to the luma block, and performing down-sampling for the luma region comprises: when the neighboring region belongs to a same CTU as the luma block, performing down-sampling for the neighboring region adjacent to the luma block based on:",
+  "patent_id": "US12382029-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/11",
+      "H04N 19/119",
+      "H04N 19/176",
+      "H04N 19/186",
+      "H04N 19/593"
+    ],
+    "all": [
+      "H04N 19/11",
+      "H04N 19/119",
+      "H04N 19/176",
+      "H04N 19/186",
+      "H04N 19/593"
+    ],
+    "source": "converted"
+  }
+}

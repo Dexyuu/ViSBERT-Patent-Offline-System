@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2019212126",
+  "application_id_fs": "WO2019212126",
+  "title": "Method of controlling water purifier",
+  "abstract": "A method of controlling a water purifier includes sensing a temperature of coolant, and operating a compressor and an agitator according to the sensed temperature of the coolant to cool the coolant. A first control process is performed. The first control process includes starting operation of the compressor when the temperature of the coolant increases to a temperature equal to or greater than a first set temperature and less than a second set temperature, starting intermittent operation of the agitator when the temperature of the coolant decreases to a third set temperature, and stopping the operation of the compressor and the agitator when the temperature of the coolant decreases to a fourth set temperature. A temperature value is decreased in order of the fourth set temperature, the third set temperature, the first set temperature and the second set temperature.",
+  "claims": "Claims ( 10 ) A method of controlling a water purifier, the method comprising: sensing a temperature of coolant; and operating a compressor and an agitator according to the sensed temperature of the coolant to cool the coolant, wherein a first control process is performed, the first control process including: starting operation of the compressor when the temperature of the coolant increases to a temperature equal to or greater than a first set temperature and less than a second set temperature; starting intermittent operation of the agitator when the temperature of the coolant decreases to a third set temperature; and stopping the operation of the compressor and the agitator when the temperature of the coolant decreases to a fourth set temperature, and wherein a temperature value is decreased in order of the fourth set temperature, the third set temperature, the first set temperature and the second set temperature. The method of claim 1, wherein, when the temperature of the coolant sensed in a state where the operation of the compressor and the agitator is stopped is less than the first set temperature, the operation of the compressor and the agitator is maintained in a stopped state until the temperature increases to the first set temperature. The method of claim 2, wherein the intermittent operation of the agitator is operation of rotating the agitator during a first set time and stopping the agitator during a second set time, and wherein the first set time is shorter than the second set time. The method of claim 3, wherein the first set time is 15 seconds and the second set time is 45 seconds. The method of claim 3, wherein, when the temperature of the coolant increases to a temperature equal to or greater than the second set temperature and less than the fifth set temperature, the compressor and the agitator simultaneously operate, and the agitator continuously operates, and wherein, when the temperature of the coolant decreases to the fourth set temperature, a second control process of stopping the operation of the compressor and the agitator is performed. The method of claim 5, wherein, when the temperature of the coolant increases to a temperature equal to or greater than the fifth set temperature, the operation of the compressor starts, wherein, when the temperature of the coolant decreases to a sixth set temperature, the operation of the agitator starts, and the agitator continuously operates, and wherein, when the temperature of the coolant decreases to the fourth set temperature, a third control process of stopping the operation of the compressor and the agitator is performed. The method of claim 6, wherein the sixth set temperature is greater than the first set temperature and is less than the second set temperature. The method of claim 6, wherein, when the temperature of the coolant increases during the operation of the agitator, a control process corresponding to the increased temperature value is performed again, and wherein the increased temperature value is a maximally increased temperature value. The method of claim 8, wherein, when the temperature of the coolant increases to a temperature less than the first set temperature during the operation of the compressor and the agitator, the operation of the compressor and the agitator is stopped. The method of claim 6, wherein the first set temperature is 1â, wherein the second set temperature is 10â , wherein the third set temperature is -1.5â, wherein the fourth set temperature is -2.5â, wherein the fifth set temperature is 27â, and wherein the sixth set temperature is 5â.",
+  "classifications": {
+    "ipc": [
+      "F25D 31/00",
+      "F25D 31/002",
+      "F25D 31/003",
+      "B67D 1/00",
+      "B67D 1/08",
+      "B67D 1/0878",
+      "B67D 1/0882",
+      "B67D 1/0884",
+      "B67D 1/0003",
+      "B67D 1/0009",
+      "B67D 1/0857",
+      "B67D 1/0858",
+      "B67D 1/0859",
+      "B67D 2210/00",
+      "B67D 2210/0001",
+      "B67D 2210/0016"
+    ],
+    "cpc": [],
+    "all": [
+      "F25D 31/00",
+      "F25D 31/002",
+      "F25D 31/003",
+      "B67D 1/00",
+      "B67D 1/08",
+      "B67D 1/0878",
+      "B67D 1/0882",
+      "B67D 1/0884",
+      "B67D 1/0003",
+      "B67D 1/0009",
+      "B67D 1/0857",
+      "B67D 1/0858",
+      "B67D 1/0859",
+      "B67D 2210/00",
+      "B67D 2210/0001",
+      "B67D 2210/0016"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019212126"
+}

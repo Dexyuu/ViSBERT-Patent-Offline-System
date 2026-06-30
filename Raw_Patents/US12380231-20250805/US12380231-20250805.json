@@ -1,0 +1,22 @@
+{
+  "title": "Method of processing secure data and electronic device supporting the same",
+  "abstract": "According to certain embodiments, an electronic device comprises: a memory storing an interface and an application; a processor; and a secure module physically separated from the processor and including a secure processor and a secure memory, wherein the processor is configured to: obtain user authentication information, through the interface; attempt user authentication, based on the user authentication information; obtain data stored in the secure memory when the user authentication succeeds; store a first token including a first valid duration for an access to the secure memory, the obtained data, and a first key value for decoding the obtained data in a buffer; and delete the first token and the first key value from the buffer when the first valid duration expires.",
+  "claims": "1. An electronic device comprising: a memory storing instructions; a processor; and a secure module physically separated from the processor and including a secure processor and a secure memory, wherein the execution of the instructions by the processor causes the electronic device to: obtain user authentication information, through an interface of a user authentication framework operating in a first execution environment, wherein the first execution environment is provided by the processor; based on the user authentication information, attempt user authentication, through a trusted application operating in a second execution environment, wherein the second execution environment is provided by the processor; when the user authentication succeeds, obtain data from the secure memory through a secure application operating in a third execution environment based on a request sent from the trusted application to the secure application, wherein the third execution environment is provided by the secure processor; encrypt the obtained data from the secure memory according to a first key value; store a first token including a first valid duration for an access to the secure memory, the encrypted obtained data, and the first key value for decrypting the encrypted data in a buffer included in the second execution environment; and delete the first token and the first key value from the buffer when the first valid duration expires, wherein a first secure level of the second execution environment is higher than a normal secure level of the first execution environment and lower than a second level of the third execution environment.",
+  "patent_id": "US12380231-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/604",
+      "G06F 21/31",
+      "G06F 21/62",
+      "H04L 9/3213"
+    ],
+    "all": [
+      "G06F 21/604",
+      "G06F 21/31",
+      "G06F 21/62",
+      "H04L 9/3213"
+    ],
+    "source": "converted"
+  }
+}

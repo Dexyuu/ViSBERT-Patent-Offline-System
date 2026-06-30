@@ -1,0 +1,28 @@
+{
+  "title": "Detecting an error in an updated software package by automatically rebuilding related downstream products",
+  "abstract": "An error can be detected in an updated software package by automatically rebuilding related downstream products. For example, a system can determine that a downstream product depends on an updated software package. Based on making this determination, the system can initiate a first rebuild process on the downstream product using the updated software package. If the first rebuild process fails, the system can initiate a second rebuild process on the downstream product using a prior version of the updated software package. The prior version can exclude at least one update made in the updated software package. If the second rebuild process succeeds, based on detecting that the first rebuild process failed and the second rebuild process succeeded, the system can generate an output for a user. The output can indicate that the updated software package is flawed.",
+  "claims": "1. A non-transitory computer-readable medium comprising program code that is executable by one or more processors for causing the one or more processors to: determine that a downstream product depends on an updated software package; based on determining that the downstream product depends on the updated software package, initiate a first rebuild process on the downstream product using the updated software package; detect that the first rebuild process failed; in response to detecting that the first rebuild process failed, initiate a second rebuild process on the downstream product using a prior version of the updated software package that excludes at least one update made in the updated software package; detect that the second rebuild process succeeded; and based on detecting that the first rebuild process failed and the second rebuild process succeeded, generate an output for a user indicating that the updated software package is flawed.",
+  "patent_id": "US12379997-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/1433",
+      "G06F 8/433",
+      "G06F 8/65",
+      "G06F 8/71",
+      "G06F 11/1479",
+      "G06F 11/3688",
+      "G06F 11/3692"
+    ],
+    "all": [
+      "G06F 11/1433",
+      "G06F 8/433",
+      "G06F 8/65",
+      "G06F 8/71",
+      "G06F 11/1479",
+      "G06F 11/3688",
+      "G06F 11/3692"
+    ],
+    "source": "converted"
+  }
+}

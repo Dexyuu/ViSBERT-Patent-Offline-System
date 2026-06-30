@@ -1,0 +1,20 @@
+{
+  "title": "Spatial dithering technology that supports display scan-out",
+  "abstract": "Methods, systems and apparatuses may provide for technology that generates a seed value, wherein the seed value is dedicated to a position of an input pixel, generates a dithered pixel value based on the seed value and a value of the input pixel, and conducts a scan-out of the dithered pixel value to a display panel. In one example, the technology generates an intermediate value based on the seed value and one or more fixed constants and generates a pseudo random number based on the intermediate value and a programmable constant, wherein the dithered pixel value is generated based on the pseudo random number and the value of the input pixel.",
+  "claims": "1. A computing system comprising: a display panel; and a display controller including logic coupled to one or more substrates, wherein the logic is to: generate a seed value based solely on coordinates for a position of an input pixel such that the seed value is dedicated to the position of the input pixel, generate a dithered pixel value based on the seed value and a value of the input pixel, and conduct a scan-out of the dithered pixel value to the display panel.",
+  "patent_id": "US12380826-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/2003",
+      "G09G 5/026",
+      "G09G 2310/0267"
+    ],
+    "all": [
+      "G09G 3/2003",
+      "G09G 5/026",
+      "G09G 2310/0267"
+    ],
+    "source": "converted"
+  }
+}

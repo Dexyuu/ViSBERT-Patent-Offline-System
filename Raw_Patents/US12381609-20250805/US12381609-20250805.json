@@ -1,0 +1,18 @@
+{
+  "title": "Wireless federated learning framework and resource optimization method",
+  "abstract": "A wireless federated learning (FL) framework and a resource optimization method are provided to resolve a problem that FL is not suitable for many hardware-constrained Internet of Things (IoT) devices with a small amount of computing resources. In the framework, users with sufficient computing resources upload locally trained model parameters to a base station, and users with limited computing resources only need to send training data to the base station. The base station performs data training and model aggregation to obtain a global model. In this way, the users with limited computing resources and the users with sufficient computing resources cooperatively train the global model. To improve a data transmission rate and reduce an aggregation error of FL, a non-convex optimization problem is constructed to jointly design user transmit power and a reception strategy of the base station, and solves the problem through a successive convex approximation (SCA) method.",
+  "claims": "1. A wireless federated learning (FL) framework, comprising: N centralized learning (CL) users with limited computing resources, wherein the CL users send training data to a base station for CL to participate in FL; K FL users with sufficient computing resources, wherein the FL users obtain local models through local training data, and upload local model parameters as an aggregation model to the base station; and the base station serving as an FL server and configured to compute a global model, wherein the base station performs CL on the training data accumulated by the CL users to obtain a CL model, and performs weighted summation on the CL model and the aggregation model based on a data amount to obtain the global model, wherein it is assumed that there are T FL cycles in total, which are represented as a set T={1, 2, . . . , T}; and in a t th FL cycle, a local model update formula of a k th FL user is as follows: w k (t+1) =w (t) −ηg k (t) ,g k (t) =∇F k ( w (t) ;D k (t) ),∀ k a centralized update formula of the base station is as follows: w (t+1) =w (t) −η g (t) , g (t) =∇F w (t) ;D (t) ) a global model aggregation formula is as follows:",
+  "patent_id": "US12381609-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 7/0626",
+      "H04B 7/0639"
+    ],
+    "all": [
+      "H04B 7/0626",
+      "H04B 7/0639"
+    ],
+    "source": "converted"
+  }
+}

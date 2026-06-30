@@ -1,0 +1,18 @@
+{
+  "title": "Power saving method, terminal, access network device, and readable storage medium",
+  "abstract": "A power saving method, a terminal, an access network device, and a readable storage medium, pertains to the field of communications, wherein the method includes: performing, by a terminal, physical downlink control channel (PDCCH) monitoring on a duration timer within a first number N1of DRX cycles in response to detecting a power saving signal; skipping, by the terminal, the PDCCH monitoring on a duration timer within a second number N2of DRX cycles in response to detecting no wake up signaling. The first number N1and the second number N2are identical or different.",
+  "claims": "1. A power saving method, comprising: performing, by a terminal, physical downlink control channel (PDCCH) monitoring on a duration timer within a first number N 1 of DRX cycles in response to detecting a power saving signal; and, skipping, by the terminal, the PDCCH monitoring on a duration timer within a second number N 2 of DRX cycles in response to detecting no wake up signaling; wherein the first number N 1 and the second number N 2 are identical or different; receiving, by the terminal, a dedicated signaling sent by an access network device, wherein the dedicated signaling is configured to configure the first number N 1 and/or the second number N 2 ; wherein, the dedicated signaling comprises any of: a radio resource control (RRC) signaling, a media access control (MAC) control unit (CE), and downlink control information (DCI); wherein, different entry modes of a short DRX cycle are configured with different first numbers N 1 ; or, different entry modes of the short DRX cycle are configured with different second numbers N 2 ; or, different entry modes of the short DRX cycle are configured with different first numbers N 1 and different second numbers N 2 .",
+  "patent_id": "US12382517-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/10",
+      "H04W 52/0229"
+    ],
+    "all": [
+      "H04W 76/10",
+      "H04W 52/0229"
+    ],
+    "source": "converted"
+  }
+}

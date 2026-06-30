@@ -1,0 +1,26 @@
+{
+  "title": "Referral service for content authentication and delivery",
+  "abstract": "In general, this disclosure involves systems, software, and computer implemented methods including receiving customer information and a set of agent credentials from an agent system at an integration platform. The integration platform verifies the agent credentials and generates a referral token identifying a landing site defined by an external system. A is generated digital application based on a workflow that is defined by the external system and pre-populates at least a portion of the digital application with the customer information. The integration platform sends the pre-populated digital application to the external system for hosting at the landing site, and further sends a URL to the agent system. The URL includes the referral token, and information that directs the customer to the pre-populated digital application on the landing site. The integration platform stores the token in a repository of used token, and associates the referral token with the agent user.",
+  "claims": "1. A method comprising: receiving, at an integration platform and from an agent system operated by an agent user, customer information and a set of agent credentials; verifying, by the integration platform, the agent credentials; generating, by the integration platform, a referral token that uniquely identifies a landing site defined by an external system and the agent user; generating, by the integration platform, a digital application based on a workflow defined by the external system; pre-populating, by the integration platform, at least a portion of the digital application with the customer information; sending, by the integration platform, the pre-populated digital application to the external system for hosting at the landing site; sending, by the integration platform, a uniform resource locator (URL) to the agent system, the URL comprising the referral token, wherein the URL comprises information that directs the customer to the pre-populated digital application on the landing site; and in response to receiving a message indicating the referral token has been successfully used by a customer: storing, by the integration platform, the referral token in a repository of used tokens.",
+  "patent_id": "US12380508-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 40/08",
+      "G06F 11/3476",
+      "G06F 11/362",
+      "G06F 16/258",
+      "G06Q 10/10",
+      "G06Q 20/401"
+    ],
+    "all": [
+      "G06Q 40/08",
+      "G06F 11/3476",
+      "G06F 11/362",
+      "G06F 16/258",
+      "G06Q 10/10",
+      "G06Q 20/401"
+    ],
+    "source": "converted"
+  }
+}

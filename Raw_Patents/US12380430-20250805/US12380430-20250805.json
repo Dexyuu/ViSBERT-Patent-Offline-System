@@ -1,0 +1,20 @@
+{
+  "title": "Intermediary roles in public trust ledger actions via a database system",
+  "abstract": "A first instruction to deploy to a blockchain a smart contract that includes a minting function may be transmitted from a database system. The minting function may include an authorization portion that permits token minting only when a request is received from a requestor associated with a role for which token minting is authorized. A second instruction to record on the blockchain an association between a public key for an intermediary wallet, a unique identifier for the smart contract, and an intermediary minting role may also be transmitted from the database system. A transaction in which a designated token was minted to a designated wallet based on a request received in association with the intermediary wallet may be identified at the database system. The transaction may be authorized based on an application of the public key to information included in the request.",
+  "claims": "1. A method comprising: receiving via a communication interface of a computing services environment a deployment request to deploy a smart contract owned by a relational database account for a relational database within the computing services environment, the deployment request being received from a client machine authenticated to the relational database account; deploying a smart contract from the computing services environment to the blockchain, the smart contract including a minting function including an authorization portion, the authorization portion permitting token minting only when a request is received from a requestor associated with a respective blockchain account assigned to a role for which token minting is authorized, the smart contract being owned by a designated blockchain account linked to the relational database system account, the designated blockchain account being different from the respective blockchain account; transmitting from the communication interface at the relational database system a second instruction to record on the blockchain an association between a public key for an intermediary wallet, a unique identifier for the smart contract, and an intermediary minting role; creating a designated wallet on the blockchain from the computing services environment in response to a token minting request; identifying via a processor at the relational database system a transaction in which a designated token was minted to the designated wallet in response to the token minting request received in association with the intermediary wallet, the transaction being authorized based on an application of the public key to information included in the token minting request; and updating the relational database system to include a wallet record identifying the designated wallet, a crypto product relational database record representing the designated token, and a transaction record reflecting the identified transaction.",
+  "patent_id": "US12380430-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/3672",
+      "G06Q 20/389",
+      "G06Q 20/401"
+    ],
+    "all": [
+      "G06Q 20/3672",
+      "G06Q 20/389",
+      "G06Q 20/401"
+    ],
+    "source": "converted"
+  }
+}

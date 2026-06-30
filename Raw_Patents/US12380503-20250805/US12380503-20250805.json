@@ -1,0 +1,46 @@
+{
+  "title": "Data retrieval and validation for asset onboarding and deriving asset characteristics",
+  "abstract": "The present invention extends to methods, systems, and computer program products for data retrieval and validation for asset onboarding and deriving asset characteristics. A first set of data associated with an asset is collected. Identifiers associated with the first set of data are created. A second set of data associated with the asset is collected based on the identifiers. The first set of data set and the second set of data are compared based on the identifiers. The first set of data is validated based on the comparison. An artificial intelligence module is trained as part of a continuous training cycle in view of validation findings. Concurrently with artificial intelligence module training, one or more characteristics of the asset are derived from the first set of data.",
+  "claims": "1. A computer-implemented method comprising: electronically collecting a first data set, purportedly corresponding to an asset, into a database; accessing unique identifiers corresponding to each of one or more items within the first data set; formulating a JSON object containing the one or more items; assigning an additional unique identifier to the asset; creating a job on a queue containing the additional unique identifier and the JSON object; pinging an artificial intelligence module there is an object in the queue; automatically and subsequent to accessing the unique identifiers, utilizing the artificial intelligence module validating relevancy of the one or more items to the asset, including: sending out an asynchronous search for matches on the one or more items contained in the JSON object electronically collecting a second data set into the database using the unique identifiers, the second data set considered as corresponding to the asset based on the unique identifiers; cross-referencing the first data set with the second data set; and confirming relevancy of the one or more items to the asset based on results of the cross-referencing; automatically, as part of a constant training cycle, training the artificial intelligence module based on confirming the relevancy of the one or more items improving data validating performance of the artificial intelligence module; and deriving a characteristic of the asset based on the one or more items.",
+  "patent_id": "US12380503-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 40/04",
+      "G06F 16/215",
+      "G06F 16/2358",
+      "G06F 16/2379",
+      "G06F 16/275",
+      "G06Q 20/363",
+      "G06Q 20/3674",
+      "G06Q 20/3829",
+      "G06Q 20/389",
+      "G06Q 20/401",
+      "G06Q 20/42",
+      "G06Q 30/0613",
+      "G06Q 40/06",
+      "H04L 9/50",
+      "H04L 67/1097",
+      "G06Q 2220/00"
+    ],
+    "all": [
+      "G06Q 40/04",
+      "G06F 16/215",
+      "G06F 16/2358",
+      "G06F 16/2379",
+      "G06F 16/275",
+      "G06Q 20/363",
+      "G06Q 20/3674",
+      "G06Q 20/3829",
+      "G06Q 20/389",
+      "G06Q 20/401",
+      "G06Q 20/42",
+      "G06Q 30/0613",
+      "G06Q 40/06",
+      "H04L 9/50",
+      "H04L 67/1097",
+      "G06Q 2220/00"
+    ],
+    "source": "converted"
+  }
+}

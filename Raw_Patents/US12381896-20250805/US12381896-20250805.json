@@ -1,0 +1,20 @@
+{
+  "title": "Techniques for resolving contradictory device profiling data",
+  "abstract": "A system and method for resolving contradictory device profiling data. The method includes: determining a set of non-contradicting values and a set of contradicting values in device profiling data related to a device based on a plurality of conflict rules; merging values of the set of non-contradicting values in device profiling data into at least one first value; selecting at least one second value from the set of contradicting values, wherein selecting one of the at least one second value from each set of contradicting values further includes generating a certainty score corresponding to each value of the set of contradicting values, wherein each certainty score indicates a likelihood that the corresponding value is accurate, wherein the at least one second value is selected based on the certainty scores; and creating a device profile based on the at least one first value and the at least one second value.",
+  "claims": "1. A method for resolving contradictory device profiling data, comprising: determining at least one set of non-contradicting values and at least one set of contradicting values in device profiling data related to a device based on a plurality of conflict rules; merging values of each of the at least one set of non-contradicting values in device profiling data into at least one first value; selecting at least one second value from the at least one set of contradicting values, wherein selecting the at least one second value from each set of contradicting values comprises generating a plurality of scores, wherein each score corresponds to a value of the at least one set of contradicting values, wherein each score indicates a likelihood that the corresponding value is accurate, wherein selecting the at least one second value further comprises comparing at least one combination of values of the device profiling data to each of at least one known device profile, the at least one combination of values comprising the at least one first value and at least one contradicting value of the at least one set of contradicting values; and creating a device profile for the device based on the at least one first value and the at least one second value.",
+  "patent_id": "US12381896-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1416",
+      "H04L 63/102",
+      "H04L 67/303"
+    ],
+    "all": [
+      "H04L 63/1416",
+      "H04L 63/102",
+      "H04L 67/303"
+    ],
+    "source": "converted"
+  }
+}

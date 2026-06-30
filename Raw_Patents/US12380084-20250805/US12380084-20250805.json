@@ -1,0 +1,20 @@
+{
+  "title": "Delta transition table for database triggers",
+  "abstract": "Techniques are disclosed relating to constructing a delta transition table for a database trigger. A computer system may store trigger information identifying a database trigger having a set of routines to be executed after an update operation has been performed on the database table. The computer system may perform a particular update operation that includes updating one or more rows of the database table. As part of performing the particular update operation, the computer system may construct a delta transition table that includes an original version of the one or more rows prior to the particular update operation and an updated version of the one or more rows resulting from the particular update operation. Subsequent to performing the particular update operation, the computer system may make the delta transition table available to the database trigger to facilitate an execution of the set of routines.",
+  "claims": "1. A method, comprising: storing, by a computer system, trigger information that identifies a database trigger that is executable to perform a set of post-processing routines with respect to a particular database table after an update database statement has been executed to update the particular database table; executing, by the computer system, a particular update database statement to update at least one value in one or more rows of the particular database table; constructing, by the computer system, a delta table that includes at least an original version of the one or more rows prior to the executing of the particular update database statement and an updated version of the one or more rows resulting from the executing of the particular update database statement, wherein the constructing of the delta table includes: as a part of updating a first one of the one or more rows, producing a concatenated row by concatenating the first row and an updated version of the first row; and inserting the concatenated row into the delta table, wherein the concatenated row is inserted into the delta table before updating a second one of the one or more rows as a part of the executing of the particular update database statement; and subsequent to the executing of the particular update database statement, the computer system executing the database trigger with the delta table as an input to the database trigger to enable the set of post-processing routines to access the original and updated versions of the one or more rows using the delta table.",
+  "patent_id": "US12380084-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/2282",
+      "G06F 16/2365",
+      "G06F 16/24565"
+    ],
+    "all": [
+      "G06F 16/2282",
+      "G06F 16/2365",
+      "G06F 16/24565"
+    ],
+    "source": "converted"
+  }
+}

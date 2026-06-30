@@ -1,0 +1,20 @@
+{
+  "title": "Open loop wake-up radio based on transmitter fingerprinting",
+  "abstract": "A device (e.g., an IoT device) includes a first radio, and a memory device accessible to the first radio. The memory device is configured to store a fingerprinting feature for a specific transmitter device. A second radio and a processor are also included. The process is coupled to the first and second radios. The first radio is configured to extract a fingerprinting feature of a first received wireless signal, determine that the extracted feature matches the fingerprinting feature stored in the storage device, and responsive to the determination that the extracted feature matches the feature stored in the storage device, cause the second radio to transition from a lower power state to a higher power state of operation and continue to receive the incoming signal.",
+  "claims": "1. A wireless device comprising: a radio circuit; and a processor configured to: while the radio circuit operates in a low power state, receive a first portion of a first wireless signal via the radio circuit, determine a first fingerprint based on the first portion of the first wireless signal, compare the first fingerprint with a reference fingerprint associated with a first device to determine whether the first wireless signal is associated with the first device, and in response to determining that the first wireless signal is associated with the first device, cause the radio circuit to transition to a high power state to receive a second portion of the first wireless signal.",
+  "patent_id": "US12382395-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 52/0229",
+      "H04W 4/70",
+      "H04W 52/0274"
+    ],
+    "all": [
+      "H04W 52/0229",
+      "H04W 4/70",
+      "H04W 52/0274"
+    ],
+    "source": "converted"
+  }
+}

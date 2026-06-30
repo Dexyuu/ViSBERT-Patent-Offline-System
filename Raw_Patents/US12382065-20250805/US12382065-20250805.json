@@ -1,0 +1,20 @@
+{
+  "title": "Image decoding method for residual coding, and device therefor",
+  "abstract": "An image decoding method carried out by a decoding device, according to the present document, comprises the steps of: acquiring a sign data hiding enable flag; acquiring a transform skip residual coding (TSRC) enable flag on the basis of the sign data hiding enable flag; acquiring residual information for a current block, on the basis of the TSRC enable flag; deriving a residual sample of the current block, on the basis of the residual information; and generating a reconstructed picture on the basis of the residual sample, wherein the sign data hiding enable flag is a flag indicating whether sign data hiding is enabled, the TSRC enable flag is a flag indicating whether TSRC is enabled, and the TSRC enable flag is acquired on the basis of the sign data hiding enable flag having a value of zero.",
+  "claims": "1. An image decoding method performed by a decoding apparatus, comprising: obtaining a dependent quantization enabled flag from a bitstream, wherein the dependent quantization enabled flag equal to 1 represents that dependent quantization is enabled, and the dependent quantization enabled flag equal to 0 represents that the dependent quantization is disabled; obtaining a Transform Skip Residual Coding (TSRC) disabled flag based on the dependent quantization enabled flag, wherein the TSRC disabled flag equal to 1 represents that a residual coding syntax is used, and the TSRC disabled flag equal to 0 represents that a TSRC syntax is used; obtaining residual information for a current block based on the TSRC disabled flag; deriving residual samples of the current block based on the residual information; and generating a reconstructed picture based on the residual samples, wherein the TSRC disabled flag is obtained from the bitstream based on a value of the dependent quantization enabled flag being equal to 0, and wherein the TSRC disabled flag is obtained from a slice header of the bitstream.",
+  "patent_id": "US12382065-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/18",
+      "H04N 19/184",
+      "H04N 19/70"
+    ],
+    "all": [
+      "H04N 19/18",
+      "H04N 19/184",
+      "H04N 19/70"
+    ],
+    "source": "converted"
+  }
+}

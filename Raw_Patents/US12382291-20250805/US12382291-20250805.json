@@ -1,0 +1,16 @@
+{
+  "title": "System for detecting malicious nodes in a wireless sensor network and a method thereof",
+  "abstract": "The present disclosure generally relates to a two-stage system for detecting malicious nodes in Wireless Sensor Networks (WSNs), enhancing network security and resilience. The system employs a distributed approach, leveraging Cluster Heads (CHs) and a central server for efficient and accurate detection. Initially, sensor nodes are monitored for comprehensive node and network metrics, statistically ranked by significance in identifying malicious behavior. CHs perform a resource-aware first-stage detection based on their resource weight, filtering potential threats locally. Results are then aggregated at a server for a second-stage analysis using a hybrid Machine Learning (ML) and Deep Learning (DL) approach. This advanced analysis, combined with statistically relevant metrics, significantly improves detection accuracy. By integrating resource-conscious CH operation with powerful server-side ML/DL, this system offers a scalable, energy-efficient, and highly effective solution for securing WSNs against malicious node attacks, surpassing traditional detection methods in both speed and precision.",
+  "claims": "1. A system for detecting malicious nodes in a wireless sensor network (WSN), comprising: a plurality of sensor nodes configured to be deployed in the WSN; a data acquisition unit connected to the plurality of sensor nodes operably configured to: monitor the plurality of sensor nodes in the WSN to obtain node metrics comprising at least one of; packet rate, packet drop rate, packet duplication rate, signal strength, signal-to-noise ratio, error rate, central processing unit (CPU) usage, memory usage, and bandwidth usage for each of the plurality of nodes; and monitor the wireless sensor network to obtain network metrics comprising at least one of: data throughput, energy consumption rate, number of neighbors, route request frequency, route reply frequency, data transmission frequency, and data reception frequency; a ranking unit operably configured to rank the node metrics and the network metrics based on their statistical significance in identifying malicious nodes, using a chi-squared statistic or other statistical measure of independence from a target variable indicative of maliciousness; at least one cluster head (CH) coupled with the data acquisition unit and ranking unit, wherein the at least one CH is configured to: determine a resource weight based on at least one resource metric selected from node metrics and network metrics of the at least one CH; and perform a first-stage malicious node detection based on the calculated resource weight; a server in connection with the at least one CH, wherein the server is configured to: access results determined in the first-stage malicious node detection performed by the at least one CH; and perform a second-stage malicious node detection based on the received results, utilizing a combination of machine learning (ML) and deep learning (DL) techniques for enhanced detection accuracy.",
+  "patent_id": "US12382291-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 12/121"
+    ],
+    "all": [
+      "H04W 12/121"
+    ],
+    "source": "converted"
+  }
+}

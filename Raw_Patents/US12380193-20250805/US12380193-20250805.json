@@ -1,0 +1,20 @@
+{
+  "title": "User calibration of a machine learning model to recognize neural activities, and applications thereof",
+  "abstract": "In an embodiment, a computer-implemented method for decoding neural activity is provided. In the method, at least one machine learning model is trained using a training data set of EEG data and concurrently collected environmental data collected from data collection participants. Once the at least one machine learning model is trained, EEG data measured from sensors attached to or near a user's head is received. Environmental data describing stimulus the user is exposed to concurrently with the measurement of the EEG data is also received. The EEG data and the environmental data is input into the at least one machine learning model to determine an inference related to the neural activity. Based on the inference, an operation of a computer program is altered.",
+  "claims": "1. A computer-implemented method for decoding neural activity, comprising: during a calibration process: (a) presenting a calibration stimulus or instruction to a user; (b) when the calibration stimulus or instruction is presented to the user, receiving a first electroencephalogram (EEG) data collected from sensors attached or near to the user's head; during operation of a computer program: (c) receiving a second electroencephalogram (EEG) data measured from the sensors attached to or near the user's head; (d) inputting the first EEG data, the second EEG data, and labels for the calibration stimulus into at least one machine learning model to determine an inference related to the neural activity, the at least one machine learning model trained using a training data set of additional EEG data and additional calibration stimulus collected from data collection participants; and (e) based on the inference, altering the operation of the computer program.",
+  "patent_id": "US12380193-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/32",
+      "G06F 18/214",
+      "G06F 2221/2117"
+    ],
+    "all": [
+      "G06F 21/32",
+      "G06F 18/214",
+      "G06F 2221/2117"
+    ],
+    "source": "converted"
+  }
+}

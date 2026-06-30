@@ -1,0 +1,20 @@
+{
+  "title": "Automatic application of doctor's preferences workflow using statistical preference analysis",
+  "abstract": "Methods and apparatuses for automatic treatment planning, including recommendation systems, quality assurance, error prevention, text mining, text matching, and treatment planning optimization.",
+  "claims": "1. A computer-implemented method comprising: creating a database of user preferences by: identifying a reference key preference text statement corresponding to a clinical behavior for treating a patient's teeth, accessing a collection of user-specific text instructions comprising a plurality of dental treatment instructions that are each associated with a specific user, identifying a user-specific textual key preference statement from the collection of user-specific text instructions by matching, within a specified probability range, the reference key preference text statement with a user-specific text instruction from the collection of user-specific text instructions, and adding, into the database of user preferences, an entry linking the user-specific textual key preference statement, the specific user associated with the user-specific textual key preference statement, and the clinical behavior for treating the patient's teeth; receiving a description of a patient's dentition; receiving patient treatment instructions from a dental professional for performing an orthodontic procedure on the patient; and automatically generating a dental treatment plan using the database of user preferences.",
+  "patent_id": "US12376944-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61C 7/002",
+      "A61C 9/0046",
+      "G06F 40/10"
+    ],
+    "all": [
+      "A61C 7/002",
+      "A61C 9/0046",
+      "G06F 40/10"
+    ],
+    "source": "converted"
+  }
+}

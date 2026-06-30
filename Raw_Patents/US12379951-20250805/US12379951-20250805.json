@@ -1,0 +1,24 @@
+{
+  "title": "Memory coherence in virtualized environments",
+  "abstract": "A Virtual Switching (VS) kernel module manages different flows of packets between at least one Virtual Machine (VM) running at a node and one or more other VMs running at the node or at one or more other nodes in a network. A packet is received from a first VM using the VS kernel module and is parsed to identify a memory message and an address for at least one memory block stored in a shared memory. At least one entry for the at least one memory block is updated in a directory in a kernel space using the VS kernel module based on the memory message. According to another aspect, a state for the at least one memory block is determined from the directory and the VS kernel module is used to respond to the memory request based on the determined state.",
+  "claims": "1. A node, comprising: at least one memory configured to be used, at least in part, as a shared memory in a distributed memory system in a network; a network interface configured to communicate with one or more other nodes in the network; and at least one processor configured, individually or in combination, to: execute a Virtual Switching (VS) kernel module in a kernel space of the at least one memory, the VS kernel module configured to manage different flows of packets between at least one Virtual Machine (VM) running at the node and one or more other VMs running at the node or at the one or more other nodes; receive a packet from a first VM using the VS kernel module; parse the packet to identify a memory message in the packet and an address for at least one memory block stored in the shared memory; and update an entry for the at least one memory block in a directory stored in the kernel space using the VS kernel module based on the memory message.",
+  "patent_id": "US12379951-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/45558",
+      "G06F 9/545",
+      "G06F 12/0815",
+      "G06F 2009/45579",
+      "G06F 2009/45583"
+    ],
+    "all": [
+      "G06F 9/45558",
+      "G06F 9/545",
+      "G06F 12/0815",
+      "G06F 2009/45579",
+      "G06F 2009/45583"
+    ],
+    "source": "converted"
+  }
+}

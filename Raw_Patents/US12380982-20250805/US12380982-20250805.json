@@ -1,0 +1,42 @@
+{
+  "title": "Matching delayed infusion auto-programs with manually entered infusion programs",
+  "abstract": "A system and method that identifies delayed infusion programs at an infusion pump or with a first computer and an infusion pump. The first computer receives an infusion auto-program from a remote source, transmits the infusion auto-program to the infusion pump, and sends a stale auto-program to the infusion pump. The infusion pump receives a manual infusion program, saves and executes the manual infusion program, and compares the stale auto-program to the manual infusion program to identify potential matches between the stale auto-program and the manual infusion program. The infusion pump evaluates the potential matches and determines if the potential matches are within a predefined tolerance, continues to execute the at least one manual infusion program on the infusion pump if the potential matches are within the predefined tolerance, and remotely saves differences in the manual infusion program and the at stale auto-program in a remote server for later analysis.",
+  "claims": "1. A system configured to identify and reject an unacceptable infusion program, the system comprising: a first computer comprising a computer network interface; and an infusion pump configured to communicate with said first computer using said computer network interface, the infusion pump configured to: determine infusion program settings of an auto-program are inconsistent with drug library settings; display an error message or a suggested action on a display screen of the infusion pump; determine no response is received within a predetermined amount of time; and automatically reject the auto-program after the predetermined amount of time.",
+  "patent_id": "US12380982-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16H 20/17",
+      "A61M 5/142",
+      "A61M 5/172",
+      "G16H 40/67",
+      "A61M 2005/14208",
+      "A61M 2205/18",
+      "A61M 2205/3561",
+      "A61M 2205/3584",
+      "A61M 2205/3592",
+      "A61M 2205/50",
+      "A61M 2205/502",
+      "A61M 2205/52",
+      "A61M 2205/6054",
+      "A61M 2205/6072"
+    ],
+    "all": [
+      "G16H 20/17",
+      "A61M 5/142",
+      "A61M 5/172",
+      "G16H 40/67",
+      "A61M 2005/14208",
+      "A61M 2205/18",
+      "A61M 2205/3561",
+      "A61M 2205/3584",
+      "A61M 2205/3592",
+      "A61M 2205/50",
+      "A61M 2205/502",
+      "A61M 2205/52",
+      "A61M 2205/6054",
+      "A61M 2205/6072"
+    ],
+    "source": "converted"
+  }
+}

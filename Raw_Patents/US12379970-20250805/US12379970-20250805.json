@@ -1,0 +1,22 @@
+{
+  "title": "Managing best known configurations for workspaces",
+  "abstract": "Best known configurations for workspaces can be managed. Device groups can be defined based on functional roles or organizational departments. Each device group can be associated with a workspace along with a best known configuration for the workspace that is based on the device group. Workspaces can then be deployed to the end-user computing devices based on the device group to which each end-user computing device belongs and in accordance with the associated best known configuration.",
+  "claims": "1. A method for managing best known configurations for workspaces, the method comprising: receiving, via a management console and from an administrator, user input that identifies a first device group consisting of end-user computing devices; receiving, via the management console and from the administrator, user input that defines a best known configuration for a first workspace to be deployed on the end-user computing devices in the first device group; in response to receiving the user input that defines the best known configuration for the first workspace, causing a workspace management service to store, in a repository, the best known configuration for the first workspace in association with the first device group; receiving, by a device management service and via the management console and from the administrator, a request to deploy the best known configuration for the first workspace on the end-user computing devices in the first device group; sending, by the device management service, a notification to an agent executing on each end-user computing device in the first device group, the notification instructing the agent to deploy the first workspace on the respective end-user computing device; retrieving, by the agent executing on each end-user computing device in the first device group, the best known configuration for the first workspace from the repository; and deploying, by the agent executing on each end-user computing device in the first device group, the first workspace on the respective end-user computing device including applying the best known configuration to the first workspace, wherein the best known configuration for the first workspace includes peripherals to be made available in the first workspace such that applying the best known configuration to the first workspace comprises configuring the first workspace to make the peripherals available in the first workspace.",
+  "patent_id": "US12379970-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/5077",
+      "G06F 9/45558",
+      "G06F 2009/4557",
+      "G06F 2009/45591"
+    ],
+    "all": [
+      "G06F 9/5077",
+      "G06F 9/45558",
+      "G06F 2009/4557",
+      "G06F 2009/45591"
+    ],
+    "source": "converted"
+  }
+}

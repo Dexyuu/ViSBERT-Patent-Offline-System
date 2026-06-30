@@ -1,0 +1,48 @@
+{
+  "title": "Direct memory access (DMA) engine with network interface capabilities",
+  "abstract": "Examples described herein include one or more processors; a network interface; and a direct memory access (DMA) engine communicatively coupled to the one or more processors. In some examples, the DMA engine is to receive a DMA data access request and based on an address in the DMA data access request corresponding to a remote memory device, the DMA engine is to cause the network interface to generate at least one packet for transmission to the remote memory device. In some examples, if the source address corresponds to a local memory device and the destination address corresponds to a remote memory device, the DMA engine is to cause the network interface to generate at least one packet for transmission to the remote memory device.",
+  "claims": "1. A method comprising: receiving a direct memory access (DMA) data access request at a DMA engine, wherein the DMA data access request comprises a source address, a destination address, and a length; the DMA engine determining if an address associated with the DMA data access request corresponds to a remote memory device; and based on the address associated with the DMA data access request corresponding to the remote memory device: the DMA engine tunneling the DMA data access request to the remote memory device by causing a network interface device to transmit at least one Ethernet packet, with a data access request based on the DMA data access request, to the remote memory device, wherein the at least one Ethernet packet comprises a request to read or write data associated with the DMA data access request; based on the DMA data access request comprising a request to read data from the address corresponding to the remote memory device, the DMA engine copying data, received in at least one Ethernet packet by the network interface device, from the remote memory device, to a target memory address; and based on the DMA data access request comprising a request to write data to the address corresponding to the remote memory device, the DMA engine copying data to the remote memory device by causing the network interface device to transmit the data, in at least one Ethernet packet, to the remote memory device, wherein: if the source address corresponds to a local memory device and the destination address corresponds to the remote memory device, generating, using the network interface device, at least one packet for transmission to the remote memory device and comprises generating the at least one packet that includes data stored at the source address, and if the source address corresponds to the remote memory device and the destination address corresponds to the local memory device, generating, using the network interface device, at least one packet for transmission to the remote memory device and comprises generating the at least one packet with a data read request from the source address and receiving data from the remote memory device in response to the at least one packet, and based on the source and destination addresses in the DMA data access request corresponding to the local memory device, the DMA engine performing a DMA copy operation for data from the source address to the destination address in the local memory device.",
+  "patent_id": "US12381751-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 12/1868",
+      "G06F 12/0238",
+      "G06F 12/0813",
+      "G06F 12/0837",
+      "G06F 12/0862",
+      "G06F 12/0877",
+      "G06F 12/0891",
+      "G06F 12/1081",
+      "G06F 13/1689",
+      "G06F 13/28",
+      "G06F 13/4059",
+      "H04L 12/5601",
+      "H04L 45/74",
+      "H04L 49/201",
+      "H04L 67/1095",
+      "G06F 2213/28",
+      "H04L 2012/562"
+    ],
+    "all": [
+      "H04L 12/1868",
+      "G06F 12/0238",
+      "G06F 12/0813",
+      "G06F 12/0837",
+      "G06F 12/0862",
+      "G06F 12/0877",
+      "G06F 12/0891",
+      "G06F 12/1081",
+      "G06F 13/1689",
+      "G06F 13/28",
+      "G06F 13/4059",
+      "H04L 12/5601",
+      "H04L 45/74",
+      "H04L 49/201",
+      "H04L 67/1095",
+      "G06F 2213/28",
+      "H04L 2012/562"
+    ],
+    "source": "converted"
+  }
+}

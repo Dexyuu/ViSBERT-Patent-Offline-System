@@ -1,0 +1,18 @@
+{
+  "title": "Electronic device for supporting device-to-device communication and method therefor",
+  "abstract": "An electronic device is provided. The electronic device includes a wireless communication circuit, a memory for storing an EARFCN list, and a processor configured to identify whether the electronic device is in a designated mode, when the electronic device is in the designated mode, perform a scan sequentially on at least some channels from among a plurality of channels included in the EARFCN list, when a first channel satisfying a first condition is identified as a result of the scan, identify whether the first channel corresponds to a second condition by decoding a system information block (SIB) or a master information block (MIB) received through the first channel, when the first channel satisfies the second condition, select a cellular network regarding the first channel, and when the first channel does not satisfy the second condition, stop the scan and perform D2D communication during a designated time.",
+  "claims": "1. An electronic device comprising: a wireless communication circuit; a memory, in which an evolved-universal terrestrial radio access (E-UTRA) absolute radio frequency channel number (EARFCN) list is stored; and at least one processor operatively connected to the wireless communication circuit and the memory, wherein the at least one processor is configured to: identify whether the electronic device is in a specified mode, sequentially perform scanning at least a portion of a plurality of channels included in the EARFCN list when the electronic device is in the specified mode, identify a first channel satisfying a first condition from a result of the scanning, identify whether the first channel corresponds to a second condition for accessing a cellular network for the first channel by decoding a system information block (SIB) or master information block (MIB) received through the first channel, select the cellular network for the first channel when the first channel corresponds to the second condition, and stop, for a specified time, scanning the plurality of channels and perform device-to-device (D2D) communication for the specified time when the first channel does not correspond to the second condition.",
+  "patent_id": "US12382274-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 8/005",
+      "H04W 48/18"
+    ],
+    "all": [
+      "H04W 8/005",
+      "H04W 48/18"
+    ],
+    "source": "converted"
+  }
+}

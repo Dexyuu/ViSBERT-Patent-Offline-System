@@ -1,0 +1,18 @@
+{
+  "title": "Distributed calculation of beamforming parameters for phased arrays",
+  "abstract": "Systems and methods for operating a phased array are described. In an example, a system may convert a desired beam direction of a desired beam into at least one phase slope parameter. The phased array may include a plurality of antennas connected to a plurality of front-end circuits of a beam forming circuit, and each antenna may be connected to a respective front-end circuit. For each antenna among the plurality of antennas, the system may determine a phase shift parameter of the antenna based on the at least one phase slope parameter and a physical location of the antenna. For each antenna among the plurality of antennas, the system may map the determined phase shift parameter of the antenna to control settings for a front-end circuit connected to the antenna.",
+  "claims": "1. A method for operating a phased array, the method comprising: converting, by a processor of a wireless communication device, a desired beam direction of a desired beam into a first phase slope parameter and a second phase slope parameter corresponding to the desired beam, the phased array comprising a plurality of antennas connected to a plurality of front-end circuits of a beam forming circuit of the wireless communication device, each antenna being connected to a respective front-end circuit, wherein the first phase slope parameter and the second phase slope parameter corresponding to the desired beam depend on a beam angle of the desired beam, a wavelength of the desired beam and minimum unit spacing between the plurality of antennas; determining, by the beam forming circuit, a plurality of phase shift parameters for the plurality of antennas based on the first and second phase slope parameters corresponding to the desired beam and physical locations of the plurality of antennas, wherein the plurality of phase shift parameters are different from the first and second phase slope parameters corresponding to the desired beam, a number of phase shift parameters is equivalent to a number of antennas, and a phase shift parameter for an antenna represents a phase shift required for the antenna to contribute to forming the desired beam; searching, by the beam forming circuit, in a mapping table to identify a plurality of control settings that are mapped to the plurality of phase shift parameters, wherein an identified control setting mapped to a phase shift parameter for an antenna comprises a phase shifter setting and a gain control circuit setting for the antenna, the phase shifter setting for the antenna is different from the phase shift parameter of the antenna, and the phase shifter setting for the antenna causes the antenna to perform an actual phase shift according to the phase shifter setting in the identified control setting, and a number of control settings being identified is equivalent to the number of phase shift parameters; distributing, by the beam forming circuit, the plurality of control settings mapped to the plurality of phase shift parameters from the mapping table to the plurality of front-end circuits; and configuring, by the plurality of front-end circuits, the phased array using the plurality of control settings mapped to the plurality of phase shift parameters to cause the phased array to form the desired beam having the desired beam direction.",
+  "patent_id": "US12381321-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H01Q 3/38",
+      "H04B 7/0617"
+    ],
+    "all": [
+      "H01Q 3/38",
+      "H04B 7/0617"
+    ],
+    "source": "converted"
+  }
+}

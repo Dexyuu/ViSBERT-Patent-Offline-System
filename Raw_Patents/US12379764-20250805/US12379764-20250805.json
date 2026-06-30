@@ -1,0 +1,18 @@
+{
+  "title": "Power control apparatus and method",
+  "abstract": "When receiving power requirement for power control and performing power control of a target device in accordance with the received power requirement, based on power consumption for a performance of each component of the target device and a device configuration of the target device, power saving level management information is created, which respectively defines the performance of each component at each power saving level associated with each of a plurality of divided power consumption ranges of the target device, and based on a power consumption upper limit value or the power saving level of the target device designated as the received power requirement, the power saving level management information is referred to and the performance of each component is set to a performance of the power saving level according to the power requirement, respectively.",
+  "claims": "1. A power control apparatus that performs power control of a target device equipped with one or a plurality of components capable of controlling power consumption by lowering a performance, the power control apparatus comprising: a management interface unit configured to receive power requirement for performing the power control; and a power control unit configured to perform the power control of the target device in accordance with the power requirement received by the management interface unit, wherein the power control unit is configured to: based on power consumption for performance of each component of the target device and a device configuration of the target device, create power saving level management information that respectively defines the performance of each component at each power saving level associated with each of a plurality of divided power consumption ranges of the target device; based on a power consumption upper limit value or the power saving level of the target device designated as the power requirement received by the management interface unit, refer to the power saving level management information and set the performance of each component to a performance of the power saving level according to the power requirement, respectively, wherein, as the power requirement, valid or invalid state of a low-load automatic power reduction function for reducing power consumption of the target device at a low load is configured to be designated when a load of the target device is equal to or less than a predetermined threshold value; set the performance of each component to a lowest performance when the low-load automatic power reduction function is designated as valid; and reset the performance of each component to the performance of the power saving level according to the power requirement, respectively when the load of the target device is monitored and the load exceeds the threshold value.",
+  "patent_id": "US12379764-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 1/3234",
+      "G06F 1/3203"
+    ],
+    "all": [
+      "G06F 1/3234",
+      "G06F 1/3203"
+    ],
+    "source": "converted"
+  }
+}

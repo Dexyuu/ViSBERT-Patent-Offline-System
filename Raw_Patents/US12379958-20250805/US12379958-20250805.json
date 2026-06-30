@@ -1,0 +1,18 @@
+{
+  "title": "Protocol exception handling external to deterministic code",
+  "abstract": "The handling of protocol exceptions for deterministic code that communicates with external component(s). A protocol exception host updates an execution state object associated with the deterministic code as the execution of the deterministic code proceeds. The component also detects whether a protocol exception has occurred that was caused by the deterministic code communicating using the protocol with an external component. If the component detects that such a protocol exception has occurred, the component handles the protocol exception. The component also determines whether the handled protocol exception has been successfully handled. If the exception is not successfully handled, the component stops the execution of the deterministic code such that the execution state object includes execution state of the deterministic code up to the stop. Accordingly, the execution state of the deterministic code up to the stop may be later used to resume execution of the deterministic code.",
+  "claims": "1. A computing system comprising: one or more processors; and one or more computer-readable media having thereon computer-executable instructions that are executable by the one or more processors to cause the computing system to: prior to execution of deterministic code, identify presence or absence of a prior execution state object associated with the deterministic code; in response to identifying the presence of the prior execution state object associated with the deterministic code, resume execution of the deterministic code from a resume state that the prior execution state object represents and update the prior execution state object to be a current execution state object; in response to identifying the absence of the prior execution state object associated with the deterministic code, create the current execution state object, wherein creation of the current execution state object triggers execution of the deterministic code; update the current execution state object associated with the deterministic code as the execution of the deterministic code proceeds; detect a protocol exception, wherein the protocol exception is determined to have been caused by the deterministic code communicating using a protocol with an external component, and wherein the protocol exception is one that is included in a group of protocol exceptions comprising: a recoverable protocol exception occurring due to a transient network issue and a non-recoverable protocol exception occurring due to failure to authenticate stemming from attempted use of an invalid credential; attempt to handle the protocol exception; and in response to determining that the protocol exception has not been successfully handled, stop the execution of the deterministic code such that the current execution state object includes execution state of the deterministic code up to the stop, and such that the execution state of the deterministic code up to the stop is reusable to later retry execution of the deterministic code, wherein: the current execution state object comprises data retrieved from the external component, and an outcome from the execution of the deterministic code does not depend on an identified number of times or when the deterministic code is executed.",
+  "patent_id": "US12379958-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/4843",
+      "G06F 2209/481"
+    ],
+    "all": [
+      "G06F 9/4843",
+      "G06F 2209/481"
+    ],
+    "source": "converted"
+  }
+}

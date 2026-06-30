@@ -1,0 +1,34 @@
+{
+  "title": "Oblivious carry runway registers for performing piecewise additions",
+  "abstract": "Methods and apparatus for piecewise addition into an accumulation register using one or more carry runway registers, where the accumulation register includes a first plurality of qubits with each qubit representing a respective bit of a first binary number and where each carry runway register includes multiple qubits representing a respective binary number. In one aspect, a method includes inserting the one or more carry runway registers into the accumulation register at respective predetermined qubit positions, respectively, of the accumulation register; initializing each qubit of each carry runway register in a plus state; applying one or more subtraction operations to the accumulation register, where each subtraction operation subtracts a state of a respective carry runway register from a corresponding portion of the accumulation register; and adding one or more input binary numbers into the accumulation register using piecewise addition.",
+  "claims": "1. A method for piecewise addition, the method comprising: applying one or more subtraction operations to an accumulation register, wherein each subtraction operation subtracts a state of a respective initialized carry runway register starting at a qubit position corresponding to where the respective initialized carry runway register begins in the accumulation register and ending at a qubit position prior to a next inserted carry runway or corresponding to a most significant bit of a first binary number; and adding one or more input binary numbers into the accumulation register using piecewise addition operations.",
+  "patent_id": "US12380353-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 10/20",
+      "G06F 7/4824",
+      "G06F 7/505",
+      "G06F 7/5057",
+      "G06F 7/72",
+      "G06F 17/10",
+      "G06N 10/00",
+      "G06N 10/70",
+      "G11C 11/4063",
+      "H04B 10/70"
+    ],
+    "all": [
+      "G06N 10/20",
+      "G06F 7/4824",
+      "G06F 7/505",
+      "G06F 7/5057",
+      "G06F 7/72",
+      "G06F 17/10",
+      "G06N 10/00",
+      "G06N 10/70",
+      "G11C 11/4063",
+      "H04B 10/70"
+    ],
+    "source": "converted"
+  }
+}

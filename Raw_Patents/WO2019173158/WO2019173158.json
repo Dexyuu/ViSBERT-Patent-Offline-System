@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2019173158",
+  "application_id_fs": "WO2019173158",
+  "title": "Display system with low-latency pupil tracker",
+  "abstract": "A display system aligns the location of its exit pupil with the location of a viewer's pupil by changing the location of the portion of a light source that outputs light. The light source may include an array of pixels that output light, thereby allowing an image to be displayed on the light source. The display system includes a camera that captures images of the eye and negatives of the images are displayed by the light source. In the negative image, the dark pupil of the eye is a bright spot which, when displayed by the light source, defines the exit pupil of the display system. The location of the pupil of the eye may be tracked by capturing the images of the eye, and the location of the exit pupil of the display system may be adjusted by displaying negatives of the captured images using the light source.",
+  "claims": "Claims What is claimed is: 1. A method for displaying images to a viewer, the method comprising: providing a display device comprising a light source configured to display an image; aligning a location of a pupil of an eye of the viewer with an exit pupil of the display device, wherein aligning the location comprises: capturing an image of an eye of the viewer, and displaying a negative image of the image of the eye on the light source; and modulating light forming the negative image to provide image content to the eye of the viewer. 2. The method of Claim 1, wherein modulating light forming the negative image comprises propagating the light through a spatial light modulator. 3. The method of Claim 1, wherein the light source is a spatial light modulator, wherein the negative image is displayed on the spatial light modulator. 4. The method of Claim 1, wherein the negative image of the eye defines a location of an exit pupil of the display, wherein aligning the location of the pupil of the eye is performed continuously while providing image content to the eye, wherein capturing the image of the eye and displaying the negative of the image are performed 60 or more times per second. 5. A method for displaying images to a viewer, the method comprising: providing a display device comprising a light source configured to output light, from a plurality of different light output locations, to an eye of the viewer, aligning a location of an exit pupil of the display device with a position of a pupil of the eye of the viewer, where aligning comprises: capturing an image of the eye; and selectively emitting light from one or more locations of the light source corresponding to a location of the pupil of the eye in the image of the eye. 6. The method of Claim 5, further comprising: modulating the light emitted from the one or more locations; and \n\n propagating the modulated light to the eye to provide image content to the viewer. 7. The method of Claim 5, wherein the light source comprises a spatial light modulator. 8. The method of Claim 5, further comprising converting the image of the eye into a negative image, wherein selectively emitting light comprises displaying the negative image on the light source. 9. A head-mounted display system comprising: an eye imaging device configured to capture images of an eye of a user, a light source comprising a plurality of selectively-activated light-emitting locations configured to emit light to form a negative image of the eye; and a spatial light modulator configured to display image content to the user by encoding image information in the light forming the negative image of the eye. 10. The display system of Claim 9, wherein the eye imaging device comprises a camera. 11. The display system of Claim 9, wherein the light source is an other spatial light modulator. 12. The display system of Claim 11, wherein the other spatial light modulator is an emissive spatial light modulator. 13. The display system of Claim 12, wherein the emissive spatial light modulator is an LED array. 14. The display system of Claim 9, further comprising: light source optics configured to collimate light propagating from the light source to the spatial light modulator, light source relay optics configured to receive light from the spatial light modulator and to form an image of the light source; and pupil relay optics configured to receive light from the light source relay optics and to provide simultaneous images of the light source and spatial light modulator to the eye. 15. The display system of Claim 9, further comprising a light guide configured to direct light from the spatial light modulator towards an eye of the user. 16. The display system of Claim 15, wherein the light guide has optical power and is configured to output light with a divergent wavefront. 17. The display system of Claim 16, further comprising a plurality of the light guides, wherein at least some of the plurality of light guides have different optical power from others of the plurality of light guides. 18. The display system of Claim 9, further comprising a frame configured to mount on a head of the user, wherein at least a light capturing portion of the eye imaging device is attached to the frame, and wherein the spatial light modulator is attached to the Same. 19. The display system of Claim 9, wherein the display system is configured to threshold the captured images of the eye to convert a captured image to a corresponding negative image. 20. The display system of Claim 9, wherein the light source is a binary spatial light modulator, wherein the selectively-activated light-emitting locations have an on state and an off state.",
+  "classifications": {
+    "ipc": [
+      "G02B 27/00",
+      "G02B 1/00",
+      "G02B 26/00",
+      "G02B 30/00",
+      "G02B 27/0093",
+      "G02B 27/01",
+      "G02B 27/017",
+      "G02B 27/0172",
+      "G02B 27/0101",
+      "G02B 2027/0118",
+      "G02B 2027/012",
+      "G02B 2027/0138",
+      "G02B 2027/014"
+    ],
+    "cpc": [],
+    "all": [
+      "G02B 27/00",
+      "G02B 1/00",
+      "G02B 26/00",
+      "G02B 30/00",
+      "G02B 27/0093",
+      "G02B 27/01",
+      "G02B 27/017",
+      "G02B 27/0172",
+      "G02B 27/0101",
+      "G02B 2027/0118",
+      "G02B 2027/012",
+      "G02B 2027/0138",
+      "G02B 2027/014"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019173158"
+}

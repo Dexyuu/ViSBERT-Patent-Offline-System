@@ -1,0 +1,30 @@
+{
+  "title": "Surveying device and surveying method using the surveying device",
+  "abstract": "A surveying device includes a wearable device including a posture sensor for detecting three-axis directions of a line-of-sight direction x, a left-right direction y, and an up-down direction z-axis of the worker, a distance-measuring unit for measuring a linear distance L from a distance measuring start point to a measurement point in the x-axis, and a position sensor having a fixed disposition relationship with the distance-measuring unit based on the three-axis directions, an operation unit, a disposition storage unit, and an arithmetic unit for acquiring the linear distance, position information, posture information, and the disposition relationship, calculating coordinates of the distance measuring start point by moving coordinates acquired by the position sensor in the three-axis directions based on the disposition relationship, and recognizing coordinates moved by the linear distance in the x-axis direction from the coordinates of the distance measuring start point as coordinates of the measurement point.",
+  "claims": "1. A surveying device comprising: a wearable device to be worn on the head of a worker, including a posture sensor configured to detect a posture of the device in three-axis directions of an x-axis set in a line-of-sight direction of the worker, a y-axis set in a left-right direction of the worker, and a z-axis set in an up-down direction of the worker, a distance-measuring unit configured to measure a linear distance from a distance measuring start point to a measurement point by emitting distance-measuring light in the x-axis direction or imaging in the x-axis direction from two different points, and a position sensor having a fixed disposition relationship with the distance-measuring unit based on the three-axis directions and configured to detect a position of the device; an operation unit configured to issue a measurement instruction to the wearable device; a disposition storage unit configured to store the disposition relationship; and an arithmetic unit configured to, upon receiving the measurement instruction, measure the linear distance by the distance-measuring unit, acquire position information of the position sensor, posture information of the posture sensor, and the disposition relationship, calculate coordinates of the distance measuring start point of the distance-measuring unit by moving coordinates acquired by the position sensor in the three-axis directions based on the disposition relationship, and recognize and perform a survey of coordinates moved by the linear distance in the x-axis direction from the coordinates of the distance measuring start point as coordinates of the measurement point.",
+  "patent_id": "US12379496-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 17/10",
+      "G01C 19/00",
+      "G01P 15/18",
+      "G01S 19/01",
+      "G06F 3/012",
+      "G06F 30/13",
+      "G06T 7/55",
+      "G06T 19/006"
+    ],
+    "all": [
+      "G01S 17/10",
+      "G01C 19/00",
+      "G01P 15/18",
+      "G01S 19/01",
+      "G06F 3/012",
+      "G06F 30/13",
+      "G06T 7/55",
+      "G06T 19/006"
+    ],
+    "source": "converted"
+  }
+}

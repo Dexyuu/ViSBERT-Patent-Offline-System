@@ -1,0 +1,16 @@
+{
+  "title": "Method and radar system for detecting targeted radar interference",
+  "abstract": "A method is provided for detecting interference in a radar system. The method includes transmitting, by a transmitter of the radar system, a sequence of radar pulses at a regular interval with a rest period following each radar pulse of the sequence of radar pulses. The transmitter is disabled during each rest period. A receiver is enabled to receive reflected radar pulses from a target during the rest period following each radar pulse of the sequence of radar pulses. Some of the radar pulses are selected to be omitted and not transmitted. The receiver is still enabled during the rest periods following the omitted transmission pulses. Any reflected pulses received during the rest periods following the omitted transmission pulses may be an indication of a targeted interference of the radar system. In another embodiment, a radar system is provided.",
+  "claims": "1. A method for detecting interference in a radar system, the method comprising: selecting, by the radar system, a selected transmission interval from a sequence of consecutive transmission intervals that includes multiple first transmission intervals immediately before the selected transmission interval, the selected transmission interval, and multiple second transmission intervals immediately after the selected transmission interval; transmitting, by a transmitter of the radar system, a radar pulse having a predetermined magnitude during each of the multiple first transmission intervals; refraining, by the transmitter, from transmitting the radar pulse having the predetermined magnitude during the selected transmission interval; transmitting, by the transmitter, the radar pulse having the predetermined magnitude during each of the multiple second transmission intervals; enabling a receiver to receive reflected radar pulses during a reception interval immediately following the selected transmission interval; and determining, using a threshold-based approach, whether a reflected radar pulse with a sufficient strength has been received during the reception interval.",
+  "patent_id": "US12379458-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 7/023"
+    ],
+    "all": [
+      "G01S 7/023"
+    ],
+    "source": "converted"
+  }
+}

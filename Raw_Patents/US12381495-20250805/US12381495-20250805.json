@@ -1,0 +1,22 @@
+{
+  "title": "Pulse generator",
+  "abstract": "There is provided a pulse generator generating a timing pulse based on a detection signal obtained from a detection signal outputting part configured to output the detection signal every time a motor rotates by a predetermined amount which has been previously set. The pulse generator includes: a time information calculating part, and a timing determining part. A time difference between a first calculating timing at which first time information is calculated and a second calculating timing at which second time information is calculated is longer than a time required for the motor to rotate by not less than an angle corresponding to a cogging distance.",
+  "claims": "1. A pulse generator configured to generate a timing pulse based on a detection signal obtained from a detection signal outputting part configured to output the detection signal every time a motor rotates by a predetermined amount which has been previously set, the pulse generator comprising: a time information calculating part configured to calculate time information, indicating a time interval between the detection signal output most recently and the detection signal output a previous time which is prior to the detection signal output most recently, every time the detection signal is output from the detection signal outputting part; and a timing determining part configured to determine an output timing, at which the timing pulse is output, based on at least two pieces of the time information, wherein a time difference between a first calculating timing at which first time information is calculated and a second calculating timing at which second time information is calculated is longer than a time required for the motor to rotate by not less than an angle corresponding to a cogging distance, with the first time information being the time information, of the at least two pieces of the time information, output based on a first detection signal and the second time information being the time information, of the at least two pieces of the time information, output based on a second detection signal, wherein the first detection signal is an output before the second detection signal.",
+  "patent_id": "US12381495-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02P 6/10",
+      "B41J 2/04573",
+      "B41J 2/04586",
+      "H04N 1/047"
+    ],
+    "all": [
+      "H02P 6/10",
+      "B41J 2/04573",
+      "B41J 2/04586",
+      "H04N 1/047"
+    ],
+    "source": "converted"
+  }
+}

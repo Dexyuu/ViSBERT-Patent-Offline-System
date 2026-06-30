@@ -1,0 +1,24 @@
+{
+  "title": "Hybrid system fabric for enabling host operating system and real-time operating system within chiplet system-on-chip",
+  "abstract": "A hybrid system fabric is disclosed for use within a chiplet SOC. The hybrid system fabric facilitates fast communication between a real-time system, a host system, chiplets, memory systems, and other shared resources within the chiplet SOC. The hybrid system fabric supports both concurrent high throughput data processing and high computing power.",
+  "claims": "1. A chiplet system-on-chip comprising: a host system executing a host operating system, the host system comprising a multi-core central processing unit (CPU), the multi-core CPU comprising a local cache memory system; a real-time system executing a real-time operating system, the real-time system comprising a first chiplet link; one or more chiplets, each chiplet comprising a chiplet link coupled to the first chiplet link; one or more memory devices forming an addressable memory space, the addressable memory space comprising a cacheable memory space and a non-cacheable memory space; and a hybrid system fabric configured to provide the host system with access to some or all of the cacheable memory space over one or more cacheable memory channels and to provide the real-time system and the one or more chiplets with access to some or all of the non-cacheable memory space over one or more non-cacheable memory channels, each cacheable memory channel comprising a snooping port to maintain cache coherency as to the local cache memory system.",
+  "patent_id": "US12380048-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 13/4022",
+      "G06F 12/0831",
+      "G06F 13/1663",
+      "G06N 3/063",
+      "G06F 2213/0038"
+    ],
+    "all": [
+      "G06F 13/4022",
+      "G06F 12/0831",
+      "G06F 13/1663",
+      "G06N 3/063",
+      "G06F 2213/0038"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Object classification at point of sale",
+  "abstract": "Systems and methods of object classification at point of sale are provided. In one exemplary embodiment, a method is performed by a POS system having processing circuitry operationally coupled to a transducer operable to radiate a pressure wave and a sensor operable to sense a pressure wave. Further, the transducer and the sensor are positioned on or about the POS system so that a field of radiation of the transducer and a field of detection of the sensor are directed towards a certain region of the POS system. The method includes receiving, from the sensor, a reflected signal that represents a pressure wave radiated by the transducer that is reflected from a surface of an object when in or about the certain region of the POS system so that the object can be classified as at least one of a set of object types based on the reflected signal.",
+  "claims": "1. A method, comprising: by a point of sale (POS) system having processing circuitry operationally coupled to a transducer operable to radiate a pressure wave and a sensor operable to sense a pressure wave, with the transducer and the sensor being positioned on or about the POS system so that a field of radiation of the transducer and a field of detection of the sensor are directed towards a certain region of the POS system, receiving, by the processing circuitry, from the sensor, a reflected signal that represents the pressure wave radiated by the transducer that is reflected from a surface of an object when in or about the certain region of the POS system so that the object can be classified as at least one of a set of object types based on the reflected signal; determining a magnitude and a phase of primary and secondary reflection components of the reflected signal based on a pressure wave signal that represents the pressure wave radiated by the transducer and the reflected signal, wherein the primary reflection component corresponds to a direct reflection of the radiated pressure wave from the object and the secondary reflection corresponds to an indirect reflection of the radiated pressure wave from the object or a reflection of the radiated pressure wave from another object, with a time delay of the secondary reflection component being greater than a time delay of the primary component, with the time delay being associated with a time period from radiation of the pressure wave by the transducer to sensing a reflection of that radiated pressure wave by the sensor; obtaining the primary reflection component of the reflected signal based on the magnitude and the phase of the primary and secondary reflection components; classifying the object as at least one of the set of object types based on the primary reflection component to obtain a classified object type of the object; and identifying the object as at least one of a set of objects based on the classified object type of the object.",
+  "patent_id": "US12380770-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G07G 1/0036",
+      "G01H 5/00",
+      "G01H 7/00",
+      "G06N 3/02"
+    ],
+    "all": [
+      "G07G 1/0036",
+      "G01H 5/00",
+      "G01H 7/00",
+      "G06N 3/02"
+    ],
+    "source": "converted"
+  }
+}

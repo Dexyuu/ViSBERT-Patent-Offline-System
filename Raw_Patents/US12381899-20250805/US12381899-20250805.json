@@ -1,0 +1,18 @@
+{
+  "title": "Network traffic anomaly detection method and apparatus, and electronic apparatus and storage medium",
+  "abstract": "A network traffic anomaly detection method and apparatus, and an electronic apparatus and a storage medium are provided. The network traffic anomaly detection method includes: acquiring multiple segments of traffic data in different monitoring states; acquiring an anomaly feature vector from the multiple segments of traffic data; training an initial classification model according to the anomaly feature vector and on the basis of a KNN algorithm, so as to obtain multiple initial classifiers; training an initial Adaboost classification model according to the anomaly feature vector and the multiple initial classifiers and on the basis of an Adaboost algorithm, so as to obtain an Adaboost classifier; and classifying collected traffic data via the Adaboost classifier.",
+  "claims": "1. A network traffic anomaly detection method, comprising: acquiring a plurality of segments of traffic data in different monitoring states; acquiring an anomaly feature vector from the plurality of segments of traffic data; training an initial classification model according to the anomaly feature vector and on a basis of a KNN algorithm, so as to obtain a plurality of initial classifiers; training an initial Adaboost classification model according to the anomaly feature vector and the plurality of initial classifiers and on a basis of an Adaboost algorithm, so as to obtain an Adaboost classifier; and classifying collected traffic data via the Adaboost classifier; the training the initial classification model according to the anomaly feature vector and on the basis of the KNN algorithm, so as to obtain the plurality of initial classifiers further comprises: taking first anomaly feature vectors as a training set, wherein the number of the first anomaly feature vectors is a first preset threshold; performing a data normalization process on the anomaly feature vectors in the training set; determining distances among the anomaly feature vectors in the training set after performing the data normalization process; and training the initial classification model according to the distances and the KNN algorithm, so as to obtain the plurality of initial classifiers; and after the training the initial classification model according to the distances and the KNN algorithm, so as to obtain the plurality of initial classifiers, the method further comprises: taking second anomaly feature vectors as a testing set, wherein the number of the second anomaly feature vectors is a second preset threshold; inputting the testing set into the plurality of initial classifiers, respectively, to obtain a classification result corresponding to each initial classifier; determining an accuracy rate of the classification result corresponding to each initial classifier; determining whether the accuracy rate of the classification result corresponding to each initial classifier is greater than a third preset threshold, if no, acquiring first initial classifiers corresponding to which the accuracy rate is not greater than the third preset threshold; and training the first initial classifiers according to the distances and the KNN algorithm.",
+  "patent_id": "US12381899-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1425",
+      "H04L 41/16"
+    ],
+    "all": [
+      "H04L 63/1425",
+      "H04L 41/16"
+    ],
+    "source": "converted"
+  }
+}

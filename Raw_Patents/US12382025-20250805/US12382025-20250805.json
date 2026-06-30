@@ -1,0 +1,50 @@
+{
+  "title": "Intra prediction mode encoding/decoding method and apparatus for same",
+  "abstract": "Disclosed herein is an intra prediction method including: deriving neighbor prediction mode information from a left neighbor prediction mode and an upper neighbor prediction mode; deriving an intra prediction mode for a decoding target unit by using the derived neighbor prediction mode information; and performing intra prediction on the decoding target unit based on the intra prediction mode. According to exemplary embodiments of the present invention, image encoding/decoding efficiency can be improved.",
+  "claims": "1. A video decoding method performed by a video decoding apparatus, the video decoding method comprising: deriving neighbor prediction mode information from a left neighbor prediction mode and an upper neighbor prediction mode; determining an intra prediction mode of a decoding target unit based on the derived neighbor prediction mode information; and performing intra prediction for the decoding target unit based on the intra prediction mode of the decoding target unit, wherein the left neighbor prediction mode is an intra prediction mode of a left neighbor unit adjacent to a left side of the decoding target unit and the upper neighbor prediction mode is an intra prediction mode of an upper neighbor unit adjacent to an upper side of the decoding target unit, wherein the neighbor prediction mode information includes a mode number of the left neighbor prediction mode and a mode number of the upper neighbor prediction mode, wherein the determining of the intra prediction mode comprises determining a plurality of prediction modes for the decoding target unit based on the neighbor prediction mode information; decoding first information specifying whether the same intra prediction mode as the intra prediction mode of the decoding target unit exists among the plurality of intra prediction modes, from a bitstream; decoding second information specifying the same intra prediction mode as the intra prediction mode of the decoding target unit among the plurality of intra prediction modes in case the same intra prediction mode as the intra prediction mode of the decoding target unit exists among the plurality of intra prediction modes, from the bitstream; and determining the intra prediction mode of the decoding target unit from among the plurality of intra prediction modes based on the decoded second information, wherein, in case the left neighbor prediction mode is the same as the upper neighbor prediction mode, the plurality of intra prediction modes include a predetermined intra prediction mode, and wherein, in case the left neighbor unit and the upper neighbor unit are not available, the plurality of intra prediction modes include the predetermined intra prediction mode.",
+  "patent_id": "US12382025-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/107",
+      "H04N 19/105",
+      "H04N 19/109",
+      "H04N 19/11",
+      "H04N 19/13",
+      "H04N 19/137",
+      "H04N 19/157",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/1887",
+      "H04N 19/196",
+      "H04N 19/50",
+      "H04N 19/52",
+      "H04N 19/521",
+      "H04N 19/593",
+      "H04N 19/61",
+      "H04N 19/70",
+      "H04N 19/91"
+    ],
+    "all": [
+      "H04N 19/107",
+      "H04N 19/105",
+      "H04N 19/109",
+      "H04N 19/11",
+      "H04N 19/13",
+      "H04N 19/137",
+      "H04N 19/157",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/1887",
+      "H04N 19/196",
+      "H04N 19/50",
+      "H04N 19/52",
+      "H04N 19/521",
+      "H04N 19/593",
+      "H04N 19/61",
+      "H04N 19/70",
+      "H04N 19/91"
+    ],
+    "source": "converted"
+  }
+}

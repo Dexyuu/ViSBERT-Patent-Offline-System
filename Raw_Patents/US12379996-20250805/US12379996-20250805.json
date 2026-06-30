@@ -1,0 +1,16 @@
+{
+  "title": "Self-distributed multimodal drift detection at the edge",
+  "abstract": "One example method includes performing operations, in a computing environment that includes multiple layers, one of which is a functional edge layer, that include obtaining input parameters, and one of the input parameters identifies one of the layers of the computing environment where a machine learning model is located, based on the input parameters, placing a control module in one of the layers of the computing environment, determining, by the control module, candidate layers of the computing environment for respective instances of a drift module, and placing a respective one of the instances of the drift module in each of the candidate layers, running the control module to identify an instance of the drift module to be activated, and activating the identified instance of the drift module, and detecting, by the activated instance of the drift module, drift in the machine learning model.",
+  "claims": "1. A method, comprising: in a computing environment that includes multiple layers, one of which is a functional edge layer, performing operations comprising: obtaining input parameters, and one of the input parameters identifies one of the layers of the computing environment where a machine learning model is located; based on the input parameters, placing a control module in one of the layers of the computing environment; determining, by the control module, candidate layers of the computing environment for respective instances of a drift module, and placing a respective one of the instances of the drift module in each of the candidate layers; running the control module to identify an instance of the drift module to be activated, and activating the identified instance of the drift module; and detecting, by the activated instance of the drift module, drift in the machine learning model.",
+  "patent_id": "US12379996-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/14"
+    ],
+    "all": [
+      "G06F 11/14"
+    ],
+    "source": "converted"
+  }
+}

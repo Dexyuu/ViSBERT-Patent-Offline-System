@@ -1,0 +1,21 @@
+{
+  "application_id": "WO2017038065",
+  "application_id_fs": null,
+  "title": "Mapping event signaling to html",
+  "abstract": "A system for mapping an event to HTML.",
+  "claims": "Claims ( 18 ) A method for determining information associated with a duration value of a media element, the method comprising: receiving a first one or more attributes of elements; receiving a first one or more properties; determining a first duration value from the first one or more attributes of elements; determining a second duration value from the first one or more properties; determining a third duration value as a function of the first duration value and second duration value; and associating the third duration value with the duration value of a media element. The method of claim 1, wherein the first one or more attributes of elements comprises an MPEG-CI document. The method of claim 1, wherein the first one or more properties comprises an event message. The method of claim 1, wherein the function is a minimum operation. The method of claim 1, wherein determining the second duration value includes a scaling operation. The method of claim 1, wherein determining the first duration value comprises conversion to a 64-bit time format. A method for determining information associated with a media presentation end time, the method comprising: receiving a first one or more attributes of elements; receiving a first one or more properties; determining a first begin time value from the first one or more attributes of elements; determining a second begin time value from the first one or more properties; determining a third begin time value from the first begin time value and second begin time value; determining a first duration value from the first one or more attributes of elements; determining a second duration value from the first one or more properties; determining a third duration value from the first duration value and the second duration value; determining a first end time value from the first one or more attributes of elements and the first one or more properties; determining a second end time value from the first one or more properties; determining a third end time value from the third begin time value and third duration value; determining a fourth end time value as a function of the first end time value, the second end time value, and the third end time value; and associating the fourth end time value with the media presentation end time. The method of claim 7, wherein the first one or more attributes of elements comprises an MPEG-CI document. The method of claim 7, wherein the first one or more properties comprises an event message. The method of claim 7, wherein determining the second duration value includes a scaling operation. The method of claim 7, wherein determining the first duration value comprises conversion to a 64-bit time format. The method of claim 7, wherein determining the second duration value comprises conversion to a 64-bit time format. The method of claim 7, wherein determining the second begin time value includes a scaling operation. The method of claim 7, wherein determining the first begin value comprises conversion to a 64-bit time format. The method of claim 7, wherein determining the first end value includes a scaling operation. The method of claim 7, wherein determining the first end time value comprises conversion to a 64-bit time format. The method of claim 7, wherein determining the second end value includes a scaling operation. The method of claim 7, wherein the function is a minimum operation.",
+  "classifications": {
+    "ipc": [
+      "H04N 21/2665",
+      "H04N 21/2362",
+      "H04N 21/242"
+    ],
+    "cpc": [],
+    "all": [
+      "H04N 21/2665",
+      "H04N 21/2362",
+      "H04N 21/242"
+    ],
+    "source": "csv"
+  }
+}

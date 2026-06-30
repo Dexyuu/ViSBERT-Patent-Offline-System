@@ -1,0 +1,18 @@
+{
+  "title": "Control system, control method, and storage medium",
+  "abstract": "A control system includes a master device, a slave device, and a control device that controls the master device and the slave device. In the control device, a response value acquisition unit acquires data of physical quantities representing action of the movable portion of the master device, and data of physical quantities representing action of the movable portion of the slave device. A command value calculation unit hypothesizes a virtual object that includes the master device and the slave device, and calculates a command value for causing the master device and the slave device to follow behavior expressed in the virtual object by input to the master device and the slave device, on the basis of the data of physical quantities acquired by the response value acquisition unit.",
+  "claims": "1. A control system, comprising: a master device that accepts input for operation; a slave device that performs an action with respect to an object; and a control device that controls the slave device in accordance with the operation input to the master device, and also executes control to transfer a reactive force that the slave device receives from the object to the master device, wherein the control device includes a hardware processor which, under control of a stored program, executes processes comprising: a data acquisition process including acquiring data of a position or velocity that represents an action of a movable portion of the master device and data of a position or velocity that represents an action of a movable portion of the slave device, and a command value calculation process including hypothesizing a virtual object that includes the master device and the slave device, and calculating a command value for causing the master device and the slave device to follow behavior expressed in the virtual object by input to the master device and the slave device, based on the basis of the data of the position or velocity acquired in the data acquisition process, and wherein the command value calculation process comprises estimating a force acting on the master device and the slave device based on the data of the position or velocity, including a change in position due to external force and a change in position not due to external force, and calculating the command value for causing the master device and the slave device to follow a behavior occurring in the virtual object due to the force estimated to act on the master device and the slave device, based on (i) the data of the position or velocity including the change in position due to external force and the change in position not due to external force, (ii) the force estimated to act on the master device and the slave device, and (iii) an admittance that is set to determine an inertia, a viscosity, and an elasticity of the virtual object.",
+  "patent_id": "US12377533-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B25J 3/04",
+      "B25J 13/02"
+    ],
+    "all": [
+      "B25J 3/04",
+      "B25J 13/02"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Assigning sequence numbers in editable tables",
+  "abstract": "Assigning sequence numbers in editable tables including receiving, by a table manager via a client computing system, an instruction to create a new row on an editable table in a cloud-based data warehouse, wherein the instruction comprises a column value and a row identifier of an adjacent row; calculating, by the table manager, a sequence value for a sequence column of the new row based on the row identifier of the adjacent row; and generating, by the table manager, a database statement instructing the cloud-based data warehouse to add the new row, including the column value and sequence value, to the editable table on the cloud-based data warehouse.",
+  "claims": "1. A method for assigning sequence numbers in editable tables, the method comprising: receiving, by a table manager via a manipulation of a graphical user interface GUI) by a user of a client computing system, an instruction to create a new row on an editable table in a cloud-based data warehouse, wherein the cloud-based data warehouse does not natively support row ordering and wherein the instruction comprises a row identifier of an adjacent row; calculating, by the table manager, a sequence value for a sequence column of the new row based on the row identifier of the adjacent row; and updating, by the table manager, the editable table on the cloud-based data warehouse, including generating and transmitting, to the cloud-based data warehouse, a database query instructing the cloud-based data warehouse to add the new row to the editable table on the cloud-based data warehouse, wherein the database query comprises the column value and the sequence value, addition of the new row maintains ordering of other rows of the editable table, and the column value is stored in a column of the new row.",
+  "patent_id": "US12380091-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/2379",
+      "G06F 16/219",
+      "G06F 16/2282",
+      "G06F 16/2474",
+      "G06F 16/254",
+      "G06F 16/283",
+      "G06F 21/6227",
+      "G06F 21/6245"
+    ],
+    "all": [
+      "G06F 16/2379",
+      "G06F 16/219",
+      "G06F 16/2282",
+      "G06F 16/2474",
+      "G06F 16/254",
+      "G06F 16/283",
+      "G06F 21/6227",
+      "G06F 21/6245"
+    ],
+    "source": "converted"
+  }
+}

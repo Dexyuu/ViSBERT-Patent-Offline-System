@@ -1,0 +1,26 @@
+{
+  "title": "Secure communication link establishment for a UE-to-UE relay",
+  "abstract": "Aspects relate to user equipment (UE) to user equipment (UE-to-UE) relaying in a communication system. At least two remote UEs and a UE-to-UE relay receive provisioned security information from the wireless communication network, where the security information includes discovery parameters and relay security information. The security information provisioned by the wireless communication network is used to establish a connection between the two UEs and the UE-to-UE relay device including discovery of the UE-to-UE relay by the remote UEs. Furthermore, the provisioned security information is used to establish a secure connection between the two remote UEs via the UE-to-UE relay device.",
+  "claims": "1. A method for wireless communication at a first user equipment (UE) in a wireless communication network, comprising: receiving discovery parameters for discovery of a user equipment (UE-to-UE) relay device and a proximity-based services (ProSe) key management function (PKMF) address from a direct discovery name management function (DDNMF) implemented by the wireless communication network; receiving, from the PKMF, relay security information for establishment of a first secure connection between the first UE and the UE-to-UE relay device, the relay security information including a relay service code (RSC); receiving, from the PKMF, second security information for establishment of a second secure connection between the first UE and a second UE via the UE-to-UE relay device, the second security information including a ProSe Service Code (PSC); discovering the UE-to-UE relay device using the received discovery parameters; establishing the first secure connection with the UE-to-UE relay device using the received relay security information including the RSC, the first secure connection comprising a first PC5 link between the first UE and the UE-to-UE-relay device; and establishing the second secure connection between the first UE and the second UE via the UE-to-UE relay device using an internet key exchange (IKE) version two (IKEv2) authentication process based on the received second security information including the PSC, the second secure connection being established via the first PC5 link between the first UE and the UE-to-UE-relay device and a second PC5 link between the second UE and the UE-to-UE-relay device.",
+  "patent_id": "US12382294-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 12/50",
+      "H04W 8/005",
+      "H04W 12/0431",
+      "H04W 12/0433",
+      "H04W 76/14",
+      "H04W 92/18"
+    ],
+    "all": [
+      "H04W 12/50",
+      "H04W 8/005",
+      "H04W 12/0431",
+      "H04W 12/0433",
+      "H04W 76/14",
+      "H04W 92/18"
+    ],
+    "source": "converted"
+  }
+}

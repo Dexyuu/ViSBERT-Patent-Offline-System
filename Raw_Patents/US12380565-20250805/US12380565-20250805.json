@@ -1,0 +1,40 @@
+{
+  "title": "Systems and methods for precise anomaly localization within content captured by a machine vision camera",
+  "abstract": "Systems and methods for anomaly localization within content captured by a machine vision camera are disclosed herein. An example method includes receiving, at an application executed on a user computing device communicatively coupled to a machine vision camera, an image captured by the machine vision camera, the image including a target object with one or more localized anomalies. The example method further includes generating, by applying an unsupervised anomaly detection (UAD) module to the image, an anomaly heatmap corresponding to the image; and concatenating, by a concatenation module, the image and the anomaly heatmap into a multi-channel image. The example method also includes generating, by applying a supervised segmentation (SS) module to the multi-channel image, a hybrid output mask identifying the one or more localized anomalies within the image.",
+  "claims": "1. A method for anomaly localization within content captured by a machine vision camera, the method comprising: receiving, at an application executed on a user computing device communicatively coupled to the machine vision camera, an image captured by the machine vision camera, the image including a target object with one or more localized anomalies; generating, by applying an unsupervised anomaly detection (UAD) module to the image, an anomaly heatmap corresponding to the image; concatenating, by a concatenation module, the image and the anomaly heatmap into a multi-channel image; and generating, by applying a supervised segmentation (SS) module to the multi-channel image, a hybrid output mask identifying the one or more localized anomalies within the image.",
+  "patent_id": "US12380565-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/11",
+      "G06N 3/0455",
+      "G06N 3/0464",
+      "G06N 3/088",
+      "G06N 3/09",
+      "G06T 7/0004",
+      "G06N 3/047",
+      "G06N 5/01",
+      "G06N 7/01",
+      "G06N 20/10",
+      "G06N 20/20",
+      "G06T 2207/20081",
+      "G06T 2207/20084"
+    ],
+    "all": [
+      "G06T 7/11",
+      "G06N 3/0455",
+      "G06N 3/0464",
+      "G06N 3/088",
+      "G06N 3/09",
+      "G06T 7/0004",
+      "G06N 3/047",
+      "G06N 5/01",
+      "G06N 7/01",
+      "G06N 20/10",
+      "G06N 20/20",
+      "G06T 2207/20081",
+      "G06T 2207/20084"
+    ],
+    "source": "converted"
+  }
+}

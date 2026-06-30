@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2019140218",
+  "application_id_fs": "WO2019140218",
+  "title": "An autonomous, self-authenticating and self-contained secure boot-up system and methods",
+  "abstract": "The invention is directed to an autonomous, self-authenticating and self-contained secure boot-up system and methods for field programmable gate arrays (FPGAs) that leverages physical unclonable functions (PUFs).",
+  "claims": "Claims 1. A system and methods for an autonomous, self-authenticating and self- contained secure boot-up process for FPGAs that leverages PDFs. 2. The system and methods according to claim 1 , wherein the secure boot-up process boots from an unencrypted bitstream 3. The system and methods according to claim 2, wherein configuration data of the FPGA with the unencrypted bitstream is read out and used as challenges to the PUF. 4. The system and methods according to claim 3, wherein any tamper that occurs with an externally stored unencrypted bitstream results in failure to generate a correct key 5. The system and methods according to claim 4, wherein the failure to generate the correct key results in a failure to unencrypt an encrypted 2nd stage boot-up image, which contains an application that runs in the fielded device. 6. The system and methods according to claim 5, wherein tamper results in the fielded device failing to boot-up 7. The system and methods according to claim 1 further comprising a SHA-3 hash algorithm operable in a functional mode and a PUF mode. 8. The system and methods according to claim 7, wherein the functional mode is configured to produce digests of configuration data that are later used as challenges for the PUF. 9. The system and methods according to claim 7, wherein the PUF mode is configured to use path delays within the SHA-3 hash algorithm to represent a source of entropy for generation of a unique and undonabie encryption/decryption key. 10. The system and methods according to claim 1 further comprising time-to- digital-converter including a calibration method to obtain precise timing measurements of path delays in an entropy source. 11. The system and methods according to claim 10, wherein the entropy source is a SHA-3 hash algorithm. 12. The system and methods according to claim 1 , wherein a clock is generated using a ring oscillator to eliminate use of a Xilinx multi-mode clock manager. 13. The system and methods according to claim 1 , wherein embedded hardwired security features on the FPGA are not utilized. 14. The system and method according to claim 7 wherein the PUF mode is configured to use path delays within components that implement the HELP algorithm itself. 15. The system and method according to claim 7 wherein the PUF mode is configured to use path delays between components of the Xilinx internal access configuration register and the entire secure boot-up implementation. 16. The system and method according to claim 7 wherein the PUF mode is configured to use path delays surrounding the entire secure boot-up implementation to provide a guard band preventing adversaries from adding information leakage channels to the secure boot-up implementation. 17. The system and methods according to claim 1 further comprising a time- to-digita! converter for obtaining high resolution measurements of path delays, which leverages the on-chip embedded carry chain components of the FPGA, to eliminate use of a Xilinx multi-mode clock manager. 18. A boot-up process method for a field programmable gate array (FPGA) comprising the steps of: \n\n loading by a first stage boot loader (FSBL) an unencrypted bitstream into the FPGA, wherein the unencrypted bitstream is obtained from an external non-volatile memory (NVM); computing a hash of the unencrypted bitstream; generating an encryption key for a first time during enrollment; using the encryption key to encrypt the computed hash of the unencrypted bitstream; appending to the unencrypted bitstream the encrypted computed hash; reading data programmed into the FPGA; using by a physical undonable function (PUF) the data as challenges to generate a decryption key; decrypting the encrypted computed hash using the decryption key to obtain a decrypted hash; comparing the computed hash with the decrypted hash, and continuing the boot-up process if the decrypted hash matches the computed encrypted hash, or deactivating the field programmable gate array (FPGA) if the decrypted hash does not match the computed encrypted hash. 19. The boot-up process method according to claim 18, wherein the computed encrypted hash is encrypted during enrollment and stored in the external non-volatile memory (NVM). 20. The boot-up process method according to claim 18, wherein the decryption key is stored in the external non-voiatiie memory (NVM) component.",
+  "classifications": {
+    "ipc": [
+      "G06F 21/00",
+      "G06F 21/50",
+      "G06F 21/57",
+      "G06F 21/575",
+      "G06F 21/60",
+      "G06F 21/602",
+      "G06F 21/64",
+      "G06F 21/70",
+      "G06F 21/78",
+      "H03K 3/00",
+      "H03K 3/02",
+      "H03K 3/027",
+      "H03K 3/03",
+      "H03K 3/0315"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 21/00",
+      "G06F 21/50",
+      "G06F 21/57",
+      "G06F 21/575",
+      "G06F 21/60",
+      "G06F 21/602",
+      "G06F 21/64",
+      "G06F 21/70",
+      "G06F 21/78",
+      "H03K 3/00",
+      "H03K 3/02",
+      "H03K 3/027",
+      "H03K 3/03",
+      "H03K 3/0315"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019140218"
+}

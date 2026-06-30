@@ -1,0 +1,28 @@
+{
+  "title": "Methods and systems for virtual assistant routing",
+  "abstract": "Disclosed herein are embodiments of systems, methods, and products comprises a server, which receive a request from a user's electronic client device. The server understands the intention of the user by determining an attribute associated with the request. The server further determines a sentiment value and routes the request to a call center computing system if the sentiment value satisfies a threshold; otherwise, the server determines to route the request to one of virtual assistant servers. The server selects a virtual assistant server whose subject matter best matches the attribute of the request. The server may also select a virtual assistant server based on other information, such as user's previous selection of virtual assistant servers, a time value, or a confidence value. The selected virtual assistant provides a response corresponding to the request.",
+  "claims": "1. A computer-implemented method comprising: receiving, by a server, a request from an electronic client device associated with a user; executing, by the server, a natural language processing protocol to determine an attribute and a sentiment value associated with the request, wherein the attribute corresponds to at least one service associated with the request, and the sentiment value corresponds to one or more phrases within the request; determining a sentiment threshold, based on a user-set threshold for the at least one service, that specifies a sentiment level for differentiating between a call center destination or virtual assistant destination for one or more requests; in response to the sentiment value satisfying the sentiment threshold, routing, by the server, the request to a call center computing system of the call center destination; and in response to the sentiment value not satisfying the sentiment threshold, selecting a virtual assistant module from a plurality of virtual assistant modules associated with the virtual assistant destination based on i) historical sentiment values of the user associated with the selected virtual assistant module and ii) the attribute, and routing, by the server, the request to a virtual assistant server having the selected virtual assistant module.",
+  "patent_id": "US12381961-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 67/63",
+      "G06F 9/4881",
+      "G06F 16/90332",
+      "G06F 40/30",
+      "G10L 15/22",
+      "H04M 3/527",
+      "G10L 2015/223"
+    ],
+    "all": [
+      "H04L 67/63",
+      "G06F 9/4881",
+      "G06F 16/90332",
+      "G06F 40/30",
+      "G10L 15/22",
+      "H04M 3/527",
+      "G10L 2015/223"
+    ],
+    "source": "converted"
+  }
+}

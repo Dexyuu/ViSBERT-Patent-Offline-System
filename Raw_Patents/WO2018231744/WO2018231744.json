@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2018231744",
+  "application_id_fs": "WO2018231744",
+  "title": "Memory controller",
+  "abstract": "The present disclosure includes apparatuses and methods related to a memory controller, such as a host memory controller. An example apparatus can include a host memory controller coupled to a first memory device and a second memory device via a channel, wherein the host memory controller is configured to send a first number of commands to the first memory device using a first device select signal, and send a second number of commands to the second memory device using a second device select signal.",
+  "claims": "Claims What is claimed is: 1. An apparatus, comprising: a host memory controller coupled to a first memory device and a second memory device via a channel, wherein the host memory controller is configured to: send a first number of commands to the first memory device using a first device select signal; and send a second number of commands to the second memory device using a second device select signal. 2. The apparatus of claim 1, wherein the channel includes data lines and command lines that couple the host memory controller to the first memory device and the second memory device. 3. The apparatus of claim 1, wherein the channel includes a first device select line that couples the host memory controller to the first memory device and wherein the channel includes a second device select line that couples the host memory controller to the second memory device. 4. The apparatus of any one of claims 1-3, wherein the first number of commands are sent to the first memory device on commands lines shared by the first memory device and the second memory device in response the host memory controller sending the first device select signal. 5. The apparatus of any one of claims 1-3, wherein the second number of commands are sent to the second memory device on commands lines shared by the first memory device and the second memory device in response the host memory controller sending the second device select signal based on timing parameters associated with the second memory device. 6. An apparatus, comprising: a first memory device; a second memory device; and \n\n a host memory controller coupled to the first memory device and the second memory device via a channel, wherein the host memory controller is configured to: send a first command to the first memory device; and send a second command to the second memory device prior to sending another command to the first memory device due to timing parameters associated with the second memory device. 7. The apparatus of claim 6, wherein the second memory device is activated and ready to receive the second command prior to the first memory device being activated. 8. The apparatus of any one of claims 6-7, wherein the host memory controller is configured to send a third command to the first memory device after sending the second command to the second memory device and in response to the first memory device being activated and ready to receive the third command. 9. The apparatus of any one of claims 6-7, wherein the first command is selected for execution on the first memory device by a state machine on the host memory controller based on an address associated with the first command. 10. The apparatus of any one of claims 6-7, wherein the first command and the second command are sent using a number of timing registers on the host memory controller. 11. An apparatus, comprising: a first memory device; a second memory device; and a host memory controller coupled to the first memory device and the second memory device via a channel, wherein the controller is configured to: select an operation for execution on the first memory device based on the operation including a particular type of command; and send a first command associated with the operation to the first memory device. 12. The apparatus of claim 11, wherein the first command is send to the first memory device using a first select signal in response to a state machine selecting the first memory device for executing of the operation. 13. The apparatus of any one of claims 11-12, wherein the first command is sent to the first memory device along with other commands associated with the operation based on timing parameters associated with the first memory device and timing parameters associated with the second memory device. 14. The apparatus of claim 11, wherein the first memory device is mapped to a first range of addresses by the host memory controller and the second memory device is mapped to a second ranged of addresses by the host memory controller. 15. The apparatus of claim 11, wherein the first memory device is mapped to a range of addresses by the host memory controller and the second memory device acts as cache for the first memory device. 16. A method, comprising: selecting a first memory device to execute a first operation by sending a first device select signal to the first memory device; sending a first number of commands associated with the first operation to the first memory device in response to sending the first device select signal. 17. The method of claim 16, further including selecting a second memory device to execute a second operation by sending a second device select signal to the second memory device. 18. The method of claim 17, further including sending a second number of commands associated with the second operation to the second memory device based on timing parameters of the first memory device. 19. The method of claim 17, further including sending a second number of commands associated with the second operation to the second first memory \n\n device prior to the first number of commands being executed by the first memory device. 20. The method of claim 16, wherein sending the first number of commands associated with the first operation to the first memory device includes sending a portion of the first number of commands that are not executable by the second memory device. 21. A method, comprising: sending a first activate command from a host memory controller to a first memory device using on a first timer on the host memory controller associated with the first memory device; and sending a second activate command and a first access command from the host memory controller to a second memory device prior to sending another command to the first memory device using on a second timer on the host memory controller associated with the second memory device. 22. The method of claim 21, including sending the first activate command to the first memory device based on priority given to commands to be executed on the first memory device. 23. The method of claim 21, including sending the first activate command to the first memory device based on the second memory device receiving a particular number of prior commands consecutively.",
+  "classifications": {
+    "ipc": [
+      "G06F 13/00",
+      "G06F 13/14",
+      "G06F 13/16",
+      "G06F 13/1668",
+      "G06F 13/1689",
+      "G06F 3/00",
+      "G06F 3/06",
+      "G06F 3/0601",
+      "G06F 3/0602",
+      "G06F 3/061",
+      "G06F 3/0611",
+      "G06F 3/0628",
+      "G06F 3/0655",
+      "G06F 3/0659",
+      "G06F 3/0668",
+      "G06F 3/0671",
+      "G06F 3/0683"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 13/00",
+      "G06F 13/14",
+      "G06F 13/16",
+      "G06F 13/1668",
+      "G06F 13/1689",
+      "G06F 3/00",
+      "G06F 3/06",
+      "G06F 3/0601",
+      "G06F 3/0602",
+      "G06F 3/061",
+      "G06F 3/0611",
+      "G06F 3/0628",
+      "G06F 3/0655",
+      "G06F 3/0659",
+      "G06F 3/0668",
+      "G06F 3/0671",
+      "G06F 3/0683"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018231744"
+}

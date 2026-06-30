@@ -1,0 +1,18 @@
+{
+  "title": "Bios update system",
+  "abstract": "A BIOS update system includes a BIOS update subsystem that is coupled to a memory system and a BIOS. The BIOS update subsystem receives a BIOS update instruction and, in response, provides a BIOS update identifier in a non-volatile storage device that is accessible to the BIOS, provides a UEFI variable for the BIOS that identifies a location of BIOS update information in a storage device that is coupled to the BIOS update subsystem, and then causes a first reboot. Subsequent to the first reboot, the BIOS update subsystem identifies the BIOS update identifier in the non-volatile storage device and, in response, uses the location of the BIOS update information in the storage device identified by the UEFI variable to retrieve the BIOS update information. The BIOS update subsystem then updates the BIOS using the BIOS update information, and then causes a second reboot.",
+  "claims": "1. A Basic Input/Output System (BIOS) update system, comprising: a memory system; a Basic Input/Output System (BIOS); and a BIOS update subsystem that is coupled to the memory system and the BIOS, wherein the BIOS update subsystem is configured to: receive a BIOS update instruction; execute, in response to receiving the BIOS update instruction, BIOS flash utility code stored in a BIOS update storage device coupled to the BIOS update subsystem to provide a BIOS flash utility subsystem; provide, using the BIOS flash utility subsystem, a BIOS update identifier in a non-volatile BIOS storage system that is accessible to the BIOS; provide, in the non-volatile BIOS storage system using the BIOS flash utility subsystem, a Unified Extensible Firmware Interface (UEFI) variable that includes a location of BIOS update information in the BIOS flash utility code stored in the BIOS update storage device; cause, using the BIOS flash utility subsystem and subsequent to providing the BIOS update identifier and the UEFI variable in the non-volatile BIOS storage system, a first reboot; execute, subsequent to the first reboot, firmware management protocol code stored in the non-volatile BIOS storage system to provide a firmware management subsystem; identify, using the firmware management subsystem, the BIOS update identifier in the non-volatile BIOS storage system; access, using the firmware management subsystem and in response to identifying the BIOS update identifier, the UEFI variable that includes the location of the BIOS update information in the BIOS flash utility code stored in the BIOS update storage device; retrieve, using the firmware management subsystem and the location of the BIOS update information in the BIOS flash utility code stored in the BIOS update storage device identified by the UEFI variable, the BIOS update information; update, using the firmware management subsystem, the BIOS using the BIOS update information; and cause, using the firmware management subsystem and subsequent to updating the BIOS, a second reboot.",
+  "patent_id": "US12379920-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 8/654",
+      "G06F 9/4403"
+    ],
+    "all": [
+      "G06F 8/654",
+      "G06F 9/4403"
+    ],
+    "source": "converted"
+  }
+}

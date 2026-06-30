@@ -1,0 +1,18 @@
+{
+  "title": "Assistance signaling for radio link control retransmissions",
+  "abstract": "Methods, systems, and devices for wireless communication are described. Generally, the described techniques provide for sending, from an upper layer at a transmitting device to a lower layer at the transmitting device, an indication by which the lower layer determines that a packet is to be transmitted as either an initial transmission or as a retransmission. The lower layer at the transmitting device may then determine a transmission process for transmitting the packet based on the indication, and the transmitting device may transmit the packet in accordance with the transmission process. Because the lower layer may identify whether the packet is to be transmitted as either the initial transmission or the retransmission, the lower layer may adapt the transmission process to improve the chances that the packet is received by a receiving device or to limit overhead.",
+  "claims": "1. A method for wireless communication at a transmitting device, comprising: identifying a packet to be transmitted to a receiving device; sending, to a medium access control layer of the transmitting device from a higher layer control layer that is upstream of the medium access control layer of the transmitting device, an indication as a range of sequence numbers allocated for initial transmissions by which the medium access control layer determines that the packet is to be transmitted as either an initial transmission or as a retransmission; determining, at the medium access control layer, that a sequence number of a radio link control protocol data unit comprising the packet is within the range of sequence numbers allocated for initial transmissions; determining that the packet is to be transmitted in the initial transmission based at least in part on the sequence number being within the range of sequence numbers allocated for the initial transmissions; determining, at the medium access control layer of the transmitting device and based at least in part on the indication, a transmission process for transmission of the packet, wherein the transmission process for transmission of the packet is via either a broadcast channel or a unicast channel; and transmitting the packet to the receiving device in accordance with the transmission process.",
+  "patent_id": "US12381654-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 1/08",
+      "H04L 1/1887"
+    ],
+    "all": [
+      "H04L 1/08",
+      "H04L 1/1887"
+    ],
+    "source": "converted"
+  }
+}

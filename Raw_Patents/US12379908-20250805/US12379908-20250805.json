@@ -1,0 +1,30 @@
+{
+  "title": "Systems and methods for code clustering analysis and transformation",
+  "abstract": "The present application is directed towards systems and methods for cluster-based code analysis and transformation. Cluster-based analysis may group code objects based on their similarity across functional areas, such as where a code object is cloned in multiple areas (e.g. sort functions that are duplicated across areas, or reports or tables that are identical). In some implementations, objects may be grouped into clusters by type, or based on reading from or writing to a common table. In some implementations, clustering at different layers may be possible.",
+  "claims": "1. A non-transitory software installation device storing processor-executable instructions configured to cause a computing device to perform automated for cluster-based code analysis and transformation by executing a method comprising: selecting, by an analysis agent executed by a computing device, a first plurality of code objects of a source installation of an application to be transformed to a target installation of the application, responsive to each code object in the first plurality of code objects having an output to a common second code object; generating, by the analysis agent, a first identifier for the selected first plurality of code objects based on the common second code object; adding, by a transformer executed by the computing device, the first identifier to each code object in the selected first plurality of code objects, wherein the first identifier identifies each code object in the selected first plurality of code objects as being in the first plurality of code objects; determining, by the transformer, that the common second code object is replaced with a third code object during transformation of the source installation to the target installation; responsive to the determination, identifying each code object in the first plurality of code objects, by the transformer, via the added first identifier based on the common second code object; and updating, by the transformer, each code object in the identified first plurality of code objects, to output to the third code object, responsive to the determination.",
+  "patent_id": "US12379908-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 8/427",
+      "G06F 8/35",
+      "G06F 8/425",
+      "G06F 8/436",
+      "G06F 8/4436",
+      "G06F 8/65",
+      "G06F 8/751",
+      "G06F 9/44505"
+    ],
+    "all": [
+      "G06F 8/427",
+      "G06F 8/35",
+      "G06F 8/425",
+      "G06F 8/436",
+      "G06F 8/4436",
+      "G06F 8/65",
+      "G06F 8/751",
+      "G06F 9/44505"
+    ],
+    "source": "converted"
+  }
+}

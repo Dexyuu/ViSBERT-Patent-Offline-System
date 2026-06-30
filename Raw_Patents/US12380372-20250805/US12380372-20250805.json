@@ -1,0 +1,20 @@
+{
+  "title": "Charger reservations",
+  "abstract": "A method for generating a reservation for a vehicle charger is disclosed. The method includes receiving one or more vehicle parameters associated with a vehicle, determining, based on a location of a vehicle charger and the one or more vehicle parameters, that a reservation should be generated for the vehicle charger, generating, for the vehicle, the reservation for the vehicle charger, and causing the vehicle charger to charge the vehicle based on the reservation.",
+  "claims": "1. A method of vehicle charging, comprising, by a control system in communication with a device associated with a vehicle: receiving, from the device, a first set of one or more vehicle parameters associated with the vehicle, the first set of one or more vehicle parameters comprising first global positioning system (GPS) coordinates from a GPS sensor associated with the vehicle; determining, based on the first GPS coordinates, that the vehicle has entered a first geo-fence corresponding to a first vehicle charger; responsive to the determining, generating, for the vehicle, a first reservation for the first vehicle charger; receiving, from the device, a second set of one more vehicle parameters associated with the vehicle, the second set of one or more vehicle parameters comprising second GPS coordinates from the GPS sensor associated with the vehicle; identifying, based on the second GPS coordinates, that the vehicle has exited the first geo-fence corresponding to the first vehicle charger; responsive to the identifying, automatically cancelling the first reservation for the first vehicle charger, thereby making the first vehicle charger available for use by one or more other vehicles; responsive to the automatically cancelling, determining, based on a location of a second vehicle charger, a current power capacity of the second vehicle charger, and the one or more vehicle parameters, that a second reservation should be generated for the second vehicle charger; generating, for the vehicle, the second reservation for the second vehicle charger; and causing the second vehicle charger to charge the vehicle based on the second reservation.",
+  "patent_id": "US12380372-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 10/02",
+      "B60L 58/12",
+      "G06Q 50/06"
+    ],
+    "all": [
+      "G06Q 10/02",
+      "B60L 58/12",
+      "G06Q 50/06"
+    ],
+    "source": "converted"
+  }
+}

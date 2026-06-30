@@ -1,0 +1,18 @@
+{
+  "title": "Enhanced credential security based on a usage status of a wearable device",
+  "abstract": "In some implementations, a device may receive a request to generate a virtual credential associated with an account of a user. The device may transmit an indication of the virtual credential, wherein the virtual credential is to be transmitted by a wearable device. The device may communicate, with the wearable device, to identify a usage status of the wearable device, wherein the usage status indicates whether the wearable device is being worn by the user. The device may perform an action, to secure the virtual credential based on communicating with the wearable device and based on the usage status, including: maintaining, by the device, a validity of the virtual credential based on the usage status indicating that the wearable device is being worn by the user; or invalidating, by the device, the virtual credential based on the usage status indicating that the wearable device has been removed from the user.",
+  "claims": "1. A wearable device for enhanced credential security based on a usage status of the wearable device, the wearable device comprising: one or more sensors; one or more memories; and one or more processors, coupled to the one or more memories, configured to: receive an indication of a temporary credential associated with an account of a user that is associated with the wearable device, wherein receiving the indication of the temporary credential enables the wearable device to provide the temporary credential to a terminal to initiate an exchange associated with the account, and wherein the wearable device is configured to provide the temporary credential to the terminal based on detecting that the wearable device is within a communicative proximity of the terminal; monitor, via the one or more sensors, the usage status of the wearable device, wherein the usage status indicates whether the wearable device is being worn by the user; detect, via the one or more sensors and based on monitoring the usage status, that the wearable device has been removed from the user; receive, from an account management device associated with the account and within a threshold amount of time of detecting that the wearable device has been removed from the user, a request for an update of the usage status of the wearable device; transmit, to the account management device associated with the account in response to the request for the update and based on a determination that the wearable device has been removed from the user for less than the threshold amount of time, an indication that the wearable device is being worn by the user; store, via a payment application executing on the wearable device, the temporary credential in accordance with the indication that the wearable device is being worn by the user; and remove the temporary credential from a storage associated with the payment application according to one or more restrictions associated with the temporary credential, the one or more restrictions including a temporal restriction indicating an expiration time at which the temporary credential expires irrespective of whether the wearable device is being worn by the user.",
+  "patent_id": "US12380421-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/321",
+      "G06Q 20/40145"
+    ],
+    "all": [
+      "G06Q 20/321",
+      "G06Q 20/40145"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "NR sidelink control message design",
+  "abstract": "A user device, UE, for a wireless communication system, is connected to one or more further UEs in the wireless communication system for a sidelink communication with the one or more further UEs. The sidelink communication include one or more sidelink control messages, e.g., a Sidelink Control Information, SCI, to be transmitted on sidelink resources. The UE identifies a sidelink control message for the UE by blind decoding, and decodes the sidelink control message for the UE to derive control information embedded the sidelink control message. The UE is pre-configured or configured by a network or a base-station with a sidelink, SL, search space, e.g., a SL-CORESET or SL control channel occasions, in the sidelink resources. The sidelink search space includes one or more search occasions where the UE is to perform the blind decoding on the sidelink resources.",
+  "claims": "1. A user device, UE, for a wireless communication system, wherein the UE comprises: one or more processors, wherein the one or more processors configure the UE to establish a sidelink communication with one or more further UEs in the wireless communication system, the sidelink communication comprising a first-stage sidelink control message and a second-stage sidelink control message to be transmitted on sidelink resources, wherein the one or more processors further configure the UE to identify the first-stage sidelink control message and the second-stage sidelink control message for the UE; and to decode the first-stage sidelink control message for the UE to derive control information embedded in the first-stage sidelink control message, wherein the information embedded in the first-stage sidelink control message indicates time and frequency resources for the second-stage sidelink control message and a configuration of the second-stage sidelink control message, wherein the information embedded in the first-stage sidelink control message includes a periodicity with which the first-stage sidelink control message and/or the second-stage sidelink control message are repeated, and wherein the periodicity is signaled or selected by a variable number of bits, wherein the variable number of bits represent an entry into a list of periodicities selected from a set of predefined periodicities, and wherein at least one of the predefined periodicities is a predefined value for the periodicity which signals a single-shot transmission of the first-stage sidelink control message and/or the second-stage sidelink control message without any periodicity.",
+  "patent_id": "US12382430-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/02",
+      "H04L 1/0038",
+      "H04L 1/08",
+      "H04W 72/0446",
+      "H04W 72/0453",
+      "H04W 72/20"
+    ],
+    "all": [
+      "H04W 72/02",
+      "H04L 1/0038",
+      "H04L 1/08",
+      "H04W 72/0446",
+      "H04W 72/0453",
+      "H04W 72/20"
+    ],
+    "source": "converted"
+  }
+}

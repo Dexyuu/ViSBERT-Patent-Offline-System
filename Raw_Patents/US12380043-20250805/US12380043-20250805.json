@@ -1,0 +1,18 @@
+{
+  "title": "Data transfer device and data transfer method",
+  "abstract": "A data transfer device that divides and transfers the transfer target data in a burst manner from a transmission-side device to a reception-side device includes a storage device and a control device that controls the storage device to store one piece of the input transfer target data, controls the storage device so that data transfer is performed at a set burst length as a data length of divided data when the one piece of the data is divided by a division number until a last part of the data is sensed, and when the last part of the data is sensed, controls the storage device to adjust the burst length so that a data length of the data coincides with a total of data lengths of data to be transferred, and to transfer the data at the adjusted burst length.",
+  "claims": "1. A data transfer device that divides transfer target data and transfers divided pieces of the data in a burst manner from a transmission-side device to a reception-side device, comprising: a storage device; and a control device, wherein the control device executes: storage processing for controlling the storage device to store one piece of input transfer target data; first transfer processing for controlling the storage device so that data transfer is performed at a set burst length as a data length of divided data when the one piece of the transfer target data is divided by a first division number until a last part of the one piece of the transfer target data is sensed; and second transfer processing for controlling the storage device, when the last part of the one piece of the transfer target data is sensed, to adjust a burst length so that a data length of the one piece of the transfer target data coincides with a total of data lengths of data to be transferred, and to transfer the data at the adjusted burst length, wherein, for each piece of unit data which constitute the one piece of the transfer target data, the unit data and an end signal that indicates whether or not the unit data is last unit data are input from the transmission-side device to the storage device, wherein the storage processing is processing for controlling the storage device to store, for each of a plurality of the unit data which constitute the one piece of transfer target data, the unit data and a flag in association with each other, the flag indicating whether or not the unit data is the last unit data, wherein the first transfer processing is processing for controlling the storage device so that untransmitted unit data stored in the storage device and identified by referring to the flags stored in the storage device are transmitted to the reception-side device at the set burst length when a number of the untransmitted unit data is equal to or more than the set burst length, and wherein the second transfer processing is processing for controlling the storage device, when the number of the untransmitted unit data is less than the set burst length, so that the burst length is adjusted to transmit the untransmitted unit data with the number to the reception-side device, and so that the untransmitted unit data are transmitted to the reception-side device at the adjusted burst length.",
+  "patent_id": "US12380043-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 13/32",
+      "G06F 13/3625"
+    ],
+    "all": [
+      "G06F 13/32",
+      "G06F 13/3625"
+    ],
+    "source": "converted"
+  }
+}

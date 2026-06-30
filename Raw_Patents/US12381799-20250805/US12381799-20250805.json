@@ -1,0 +1,20 @@
+{
+  "title": "Methods and arrangements for supporting estimation of latency over a communication path in a communication network",
+  "abstract": "Method and device(s) for supporting estimation of latency over a communication path in a communication network between a data flow shaping node, providing a data flow in bursts towards a data flow target node, and a probe node. The devices(s) initiate to transmit, by the data flow shaping node, a sample burst being a burst of said bursts that differs in a predefined manner from preceding and subsequent bursts so that the data flow target node in response to the sample burst transmits a certain pattern of acknowledgement packets that differs compared to patterns of acknowledgement packets transmitted by the data flow target node in response to said preceding and subsequent bursts. The device(s) initiates to identify, by the probe node, receipt of potential acknowledgement packets according to said certain pattern.",
+  "claims": "1. A method, performed by one or more devices, for supporting estimation of latency over a communication path in a communication network between a data flow shaping node and a probe node, which communication path comprises a data flow target node configured to receive a data flow from a data flow source node via the communication path, the data flow shaping node being configured to provide the data flow in bursts towards the data flow target node, wherein the method comprises: initiating to transmit, by the data flow shaping node, a sample burst being a burst of said bursts that differs in a predefined manner from preceding and subsequent bursts so that the data flow target node in response to the sample burst transmits a certain pattern of acknowledgement packets that differs compared to patterns of acknowledgement packets transmitted by the data flow target node in response to said preceding and subsequent bursts, and initiating to identify, by the probe node, receipt of potential acknowledgement packets according to said certain pattern.",
+  "patent_id": "US12381799-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 43/0864",
+      "H04L 43/12",
+      "H04L 47/22"
+    ],
+    "all": [
+      "H04L 43/0864",
+      "H04L 43/12",
+      "H04L 47/22"
+    ],
+    "source": "converted"
+  }
+}

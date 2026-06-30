@@ -1,0 +1,24 @@
+{
+  "title": "Document term recognition and analytics",
+  "abstract": "A device receives image data of a contractual document that includes an offer including terms of a proposed transaction, converts the image data to text data that identifies text within the contractual document, and receives preferences information for a recipient of the offer. The device identifies key terms within the contractual document by using term identification to analyze the text. The key terms may include a first key term that identifies subject matter of the proposed transaction and other key terms that are part of the offer. The device determines term scores that correspond to likelihoods of the other key terms being favorable to the recipient by using a data model to analyze the key terms and the preferences information. The device, based on the term scores, generates and provides another device with a recommendation to be used in determining whether the accept the offer.",
+  "claims": "1. A method, comprising: training, by a device, a data model using a convolutional neural network (CNN) to receive a plurality of terms to generate a plurality of term scores, wherein the plurality of terms are in a document, and wherein training the data model comprises: analyzing a set of vectors using a convolutional layer of the CNN by applying a filter to one or more portions of the set of vectors to create a feature map, and analyzing the feature map, using the convolutional neural network, to output a plurality of M-dimensional vectors that indicate the plurality of term scores; determining, by the device and using the data model, one or more unfavorable terms, from a set of terms, having unfavorable term scores from a set of term scores, wherein the set of terms are from the plurality of terms, wherein the set of term scores are from the plurality of term scores, wherein the set of term scores correspond to one or more likelihoods of whether one or more terms, of the set of terms, are favorable or unfavorable based on user profile data, and wherein the unfavorable term scores are less than a threshold, wherein the threshold is based on the user profile data; running, by the device, one or more simulations with one or more proposed modifications of one or more unfavorable term scores, from the set of term scores, that are less than the threshold, by modifying a value of the one or more unfavorable terms; and providing, by the device, a recommendation regarding the document based on modifying the one or more unfavorable terms.",
+  "patent_id": "US12380522-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 50/188",
+      "G06F 16/313",
+      "G06N 20/00",
+      "G06V 30/413",
+      "G06Q 30/0282"
+    ],
+    "all": [
+      "G06Q 50/188",
+      "G06F 16/313",
+      "G06N 20/00",
+      "G06V 30/413",
+      "G06Q 30/0282"
+    ],
+    "source": "converted"
+  }
+}

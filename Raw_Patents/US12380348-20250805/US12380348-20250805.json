@@ -1,0 +1,26 @@
+{
+  "title": "Industrial automation control code change management and multiple edit integration",
+  "abstract": "A (GUI) for designing an industrial automation system includes a design window and a first accessory window. The GUI presents a library visualization representative of a plurality of objects within the first accessory window, each object is represented by an icon and corresponds to a respective industrial automation device. The GUI receives inputs indicative of a selection of one or more objects of the plurality of objects from the library, presents the one or more objects in the design window, determines that the one or more inputs do not comply with a set of industrial automation system rules comprising one or more relationships between a plurality of industrial automation devices, and displays a warning message that the one or more inputs do not comply with the set of industrial automation system rules.",
+  "claims": "1. A method comprising: accessing a shared copy of an industrial automation project file; creating a local copy of an industrial automation project file representative of the shared copy of the industrial automation project file on a storage component accessible by one or more processors; receiving, via a graphical user interface (GUI), an input indicative of one or more modifications to the local copy of the industrial automation project file; implementing the one or more modifications to the local copy of the industrial automation project file based on the input; identifying one or more differences between the local copy of the industrial automation project file and the shared copy of the industrial automation project file, wherein the one or more differences are associated with the one or more modifications; simultaneously presenting, via the GUI, a visual representation of the local copy of the industrial automation project file comprising a first plurality of graphical elements representative of characteristics of the local copy of the industrial automation project file, a visual representation of the shared copy of the industrial automation project file comprising a second plurality of graphical elements representative of characteristics of the shared copy of the industrial automation project file, and a visual representation of a merged industrial automation project file based on the one or more differences between the local copy of the industrial automation project file and the shared copy of the industrial automation project file, wherein the visual representation of the merged industrial automation project file comprises at least one graphical element from the first plurality of graphical elements and at least one graphical element from the second plurality of graphical elements; and updating the shared copy of the industrial automation project file based on the one or more modifications, wherein the updated shared copy of the industrial automation project file, when executed by an industrial automation controller, causes one or more industrial automation components to perform an industrial automation process.",
+  "patent_id": "US12380348-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 5/045",
+      "G06F 3/04817",
+      "G06F 3/04842",
+      "G06F 3/04847",
+      "G06F 30/17",
+      "G06N 20/00"
+    ],
+    "all": [
+      "G06N 5/045",
+      "G06F 3/04817",
+      "G06F 3/04842",
+      "G06F 3/04847",
+      "G06F 30/17",
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

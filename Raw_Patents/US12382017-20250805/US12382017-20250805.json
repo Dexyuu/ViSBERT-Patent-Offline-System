@@ -1,0 +1,24 @@
+{
+  "title": "Block level reference pictures adaptation for video coding",
+  "abstract": "A video decoder may be configured to generate a first ordering of reference pictures in a reference picture list for a first block of a slice, wherein generating the first ordering of the reference pictures for the first block comprises assigning indexes to the reference pictures; and generate a second ordering of the reference pictures in the reference picture list for a second block of the slice based on an adaptive reference picture reordering process, wherein the first ordering is different than the second ordering and generating the second ordering of reference pictures for the second block comprises assigning at least some of the indexes to different reference pictures than in the first ordering; decode the first block using the first ordering of the reference pictures; and decode the second block using the second ordering of the reference pictures.",
+  "claims": "1. A method of decoding video data, the method comprising: generating a first ordering of reference pictures in a reference picture list for a first block of a slice, wherein generating the first ordering of the reference pictures for the first block comprises assigning indexes to the reference pictures; decoding the first block using the first ordering of the reference pictures; generating a second ordering of the reference pictures in the reference picture list for a second block of the slice based on an adaptive reference picture reordering process, wherein the first ordering is different than the second ordering and generating the second ordering of reference pictures for the second block comprises assigning at least some of the indexes to different reference pictures than in the first ordering, wherein the adaptive reference picture reordering process comprises a template matching process, the method further comprising: determining a template matching cost for at least a first reference picture and a second reference picture in the reference picture list; and generating the second ordering of the reference pictures in the reference picture list for the second block of the slice based on a comparison of a template matching cost for the first reference picture to a template matching cost for the second reference picture; decoding the second block using the second ordering of the reference pictures; and outputting decoded video data comprising decoded versions of the first block and the second block.",
+  "patent_id": "US12382017-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/105",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/513",
+      "H04N 19/70"
+    ],
+    "all": [
+      "H04N 19/105",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/513",
+      "H04N 19/70"
+    ],
+    "source": "converted"
+  }
+}

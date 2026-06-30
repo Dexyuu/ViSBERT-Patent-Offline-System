@@ -1,0 +1,24 @@
+{
+  "title": "Satellite navigation receiver with aggregate channel digital baseband processing",
+  "abstract": "A demodulator comprises a first-stage carrier demodulator and a second-stage carrier demodulator. The first-stage carrier demodulator is configured to remove or compensate for the tracking error in the baseband signal, where the tracking error comprises aggregate, channel tracking error of carrier phase for the same received band, sub-band, (baseband) GNSS satellite channel, or set GNSS channels. The second stage carrier demodulator is configured to remove or strip a carrier signal component without any unwanted image or carrier-related frequency artifacts and to prepare for correlation-based decoding or demodulation of the encoded baseband signal by the correlators. First correlators are configured to determine correlations for code phase tracking loop, where the code phase tracking loop is configured to estimate a corresponding code error component of the tracking error for the code local oscillator for a respective channel. Secondary correlators are configured to determine correlations for a carrier phase tracking loop, where the carrier phase tracking loop configured to estimate a corresponding aggregate feedback error for multiple channels or a set of channels.",
+  "claims": "1. A receiver system having a digital baseband data processing system, the receiver system comprising: a receiver front-end module comprising an analog-to-digital converter for providing a baseband signal derived from a received satellite GNSS signal; a baseband tracking loop module for tracking carrier phase and code phase of a band, a sub-band, a channel or a set of channels, the baseband tracking loop module being configured to derive correction or control signals to control one or more local oscillators and to provide an aggregate code and carrier component, of the channel tracking error of the respective band, sub-band, channel or set of channels; a clock tracking loop for tracking clock error, the clock error having a clock error component comprising a clock bias between a GNSS receiver clock and a respective satellite clock associated with the baseband signal of the band, the sub-band, the channel, or the set of channels; a frequency scaler for adjusting the frequency of the clock error component with respect to the frequency of channel tracking error of the carrier phase, code phase or both of the baseband signal based on the band, the sub-band, the channel or the set of channels; a summer for determining a tracking error based on the aggregate, channel code and carrier component and the clock error component; a demodulator comprising a first-stage carrier demodulator and a second-stage carrier demodulator; the first-stage carrier demodulator configured to (i) receive the baseband signal from the baseband tracking loop module, (ii) remove or compensate for the tracking error in the baseband signal, where the tracking error comprises aggregate, channel tracking error of carrier phase and code phase for the same received band, sub-band, GNSS satellite channel, or set of GNSS channels, and (iii) output a partially demodulated baseband signal; the second stage carrier demodulator configured to (i) receive the partially demodulated baseband signal from the first stage carrier demodulator and (ii) remove or strip a carrier signal component without any unwanted image or carrier-related frequency artifacts and to prepare for correlation-based decoding or demodulation of the encoded baseband signal by the correlators; a first plurality of first correlators configured to determine correlations for code phase tracking loop and the carrier phase tracking loop, the code phase tracking loop configured to estimate a corresponding code error component of the tracking error for the code local oscillator for a respective band, sub-band, channel or set of channels, the carrier tracking loop configured to estimate a carrier phase error component of the tracking error for a carrier local oscillator for the same respective band, sub-band, channel or set of channels; and a second plurality of correlators configured to determine correlations for clock tracking loop and the clock error component of the tracking error.",
+  "patent_id": "US12379508-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 19/37",
+      "G01S 19/21",
+      "G01S 19/29",
+      "G01S 19/30",
+      "G01S 19/32"
+    ],
+    "all": [
+      "G01S 19/37",
+      "G01S 19/21",
+      "G01S 19/29",
+      "G01S 19/30",
+      "G01S 19/32"
+    ],
+    "source": "converted"
+  }
+}

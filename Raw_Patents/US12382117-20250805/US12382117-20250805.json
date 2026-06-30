@@ -1,0 +1,18 @@
+{
+  "title": "System and method for dynamic bitrate switching of media streams in a media broadcast production",
+  "abstract": "A system and method is provided for reducing the bandwidth for media broadcast production. The system includes a plurality of content providing devices and a remote production system. Each of the content providing devices has a corresponding variable encoder. The remote production system transmits control signals to the variable encoders, controlling them to use a high-fidelity encoding method or a compressed encoding method. The remote production system controls the variable encoders such that a media feed being included in a media production is encoded using the high-fidelity encoding method, and some or all of the other media streams are encoded using the compressed encoding method.",
+  "claims": "1. A system for dynamic bitrate switching of media streams in a media video production, the system comprising: a plurality of content providing devices that each have a variable encoder configured to encode a media stream at a media production quality and at a non-media production quality that is lower than the media production quality; and a production system located remotely from the plurality of content providing devices in a cloud-computing environment and configured to transmit respective control signals to at least one content providing device of the plurality of content providing devices to control an encoding process by the variable encoder of the at least one content providing device, wherein the respective control signals sent to the at least one content providing device configure the at least one content providing device to encode the respective media stream at a visually lossless compression, wherein the production system includes a control system for transmitting the respective control signals to each variable encoder of the plurality of content providing devices to dynamically adjust respective bitrates of each media stream transmitted by the plurality of content providing devices to maintain a total bandwidth consumption of a data transmission link between the plurality of content providing devices and the production system below a predefined bandwidth consumption threshold, wherein the control system is further configured to reset each variable encoder of the plurality of content providing devices at a top of each frame of each media stream to dynamically adjust the respective bitrates of each media stream instantaneously, wherein the at least one content providing device is a media production camera and the respective control signal sent to the at least one content providing device is a tally signal indicating the media stream of the at least one content providing device is currently being distributed in a live media production by the production system, such that the variable encoder of the at least one content providing device encodes the media stream in the media production quality, wherein the production system is configured to generate the live media production based on the media stream received from the at least one content providing device.",
+  "patent_id": "US12382117-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 21/2385",
+      "H04N 21/2187"
+    ],
+    "all": [
+      "H04N 21/2385",
+      "H04N 21/2187"
+    ],
+    "source": "converted"
+  }
+}

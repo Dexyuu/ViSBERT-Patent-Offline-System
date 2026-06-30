@@ -1,0 +1,22 @@
+{
+  "title": "Non-transitory storage medium storing thereon optical aberration correction program and non-transitory storage medium storing thereon optical wavefront estimation",
+  "abstract": "The present disclosure provides an optical aberration correction program causing a computer to execute, and a method of use thereof.",
+  "claims": "1. A non-transitory storage medium storing thereon an optical aberration correction program, the optical aberration correction program causes, when executed by a computer with a processor, the computer to perform: obtaining, by the processor, phases of a plurality of provisional optical transfer functions of an optical system corresponding to a plurality of provisional optical aberration amounts of the optical system, the optical system including a lens; generating, by the processor, a plurality of three-dimensional phase-modulated images by deconvolving a three-dimensional original image of a sample with each of the phases of the plurality of provisional optical transfer functions, the three-dimensional original image of the sample obtained by an optical apparatus including the optical system and an imaging device and including an optical aberration of the optical system; obtaining, by the processor, an optimal theoretical three-dimensional point spread function of the optical system corresponding to a three-dimensional phase-modulated image whose index of luminance value is maximum among the plurality of three-dimensional phase-modulated images; determining, by the processor, an optical transfer function of the optical system corresponding to the optimal theoretical three-dimensional point spread function; generating, by the processor, a three-dimensional correction image by deconvolving the three-dimensional original image or another three-dimensional original image that includes the optical aberration of the optical system and is different from the three-dimensional original image with the optical transfer function; and sending the three-dimensional correction image for display or for storing the three-dimensional correction image.",
+  "patent_id": "US12380638-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 17/00",
+      "G02B 21/06",
+      "G02B 21/36",
+      "G02B 2207/113"
+    ],
+    "all": [
+      "G06T 17/00",
+      "G02B 21/06",
+      "G02B 21/36",
+      "G02B 2207/113"
+    ],
+    "source": "converted"
+  }
+}

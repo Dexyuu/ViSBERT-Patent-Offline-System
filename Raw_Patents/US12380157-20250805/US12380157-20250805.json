@@ -1,0 +1,26 @@
+{
+  "title": "Visual search interface in an operating system",
+  "abstract": "Visual search in an operating system of a computing device can process and provide additional information on the content being provided for display. The computing device can include an operating system that includes a visual search interface that obtains and processes display data associated with content currently being provided for display. The visual search interface can generate display data based on the current content provided for display, process the display data with one or more on-device machine-learned models, and provide additional information to the user. The visual search interface may transmit data associated with the display data to perform additional data processing tasks. Application suggestions may be determined and provided based on the visual search data.",
+  "claims": "1. A computing device, the device comprising: a visual display, wherein the visual display displays a plurality of pixels, wherein the plurality of pixels are configured to display content associated with one or more applications; an operating system, wherein the operating system comprises: a visual search interface, wherein the visual search interface is at an operating system level, wherein the visual search interface obtains display data associated with content currently provided for display by the visual display and processes the display data with one or more on-device machine-learned models of a plurality of on-device machine-learned models, wherein the visual search interface comprises an overlay interface that is configured to obtain content provided for display from a plurality of different applications on the computing device, wherein the plurality of on-device machine-learned models comprises: a suggestion model, wherein the suggestion model processes the display data to determine a plurality of query suggestions, wherein the plurality of query suggestions comprise plurality of text segments to generate a multimodal query comprising a portion of the display data and a selected text segment, wherein the plurality of text segments are provided for display with the visual search interface and are selectable to perform a search; wherein the visual search interface comprises a server interface, wherein the server interface transmits the image segment to a server computing system to perform a search based at least in part on the multimodal query, and wherein the visual search interface communicates with a server computing system to generate one or more model-generated responses to the multimodal query with one or more generative models; and wherein the visual search interface provides a plurality of search results for display with the one or more model-generated responses in a search results interface; a wireless network component, wherein the wireless network component comprises a communication interface for communicating with one or more other computing devices; one or more processors; and one or more non-transitory computer-readable media that collectively store instructions that, when executed by the one or more processors, cause the computing device to perform operations.",
+  "patent_id": "US12380157-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/54",
+      "G06F 16/532",
+      "G06F 16/538",
+      "G06N 3/08",
+      "G06V 10/25",
+      "G06V 10/774"
+    ],
+    "all": [
+      "G06F 16/54",
+      "G06F 16/532",
+      "G06F 16/538",
+      "G06N 3/08",
+      "G06V 10/25",
+      "G06V 10/774"
+    ],
+    "source": "converted"
+  }
+}

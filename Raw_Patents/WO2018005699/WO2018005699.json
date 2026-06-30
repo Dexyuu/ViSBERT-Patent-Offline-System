@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2018005699",
+  "application_id_fs": "WO2018005699",
+  "title": "Systems for implementing word line pulse techniques in magnetoelectric junctions",
+  "abstract": "Systems and methods for performing word line pulse techniques in magnetoelectric junctions in accordance with embodiments of the invention are disclosed. In one embodiment, a magnetoelectric random access memory (MeRAM) circuit, including, a plurality of voltage controlled magnetic tunnel junction bits (MEJs) each magnetoelectric junction connected to the drain of an MOS transistor, the combination including three terminals, each connected to a bit, source, and at least one word line, in an array, and a driver circuit, including a bit line driver, and a word line driver the bit line driver, the driver circuit generates voltage pulses for application to the magnetoelectric junction bit, the output of the driver circuit is connected to the word line, which in turn is connected to the gate of the MOS access transistor in each MeRAM cell, thereby generating a square voltage pulse across the magnetoelectric junction bit.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1 . A magnetoelectric random access memory circuit, comprising, a plurality of voltage controlled magnetic tunnel junction bits wherein each magnetoelectric junction comprises: at least one free magnetic layer; one fixed magnetic layer; and one dielectric interposed between the two magnetic layers; wherein application of a voltage with a given polarity to the magnetoelectric junction reduces the perpendicular magnetic anisotropy and the magnetic coercivity of the free layer through the voltage controlled magnetic anisotropy (VCMA) effect; wherein application of a voltage with opposite polarity increases the perpendicular magnetic anisotropy and magnetic coercivity of the free layer through the VCMA effect; wherein each magnetoelectric junction is connected to the drain of an MOS transistor, the combination comprising a MeRAM cell; wherein each MeRAM cell comprises three terminals, each connected respectively to a bit line, a source line, and at least one word line, in an array; and a driver circuit, comprising: a bit line driver; and a word line driver wherein a pulse generator can trigger the word line driver; wherein each bit line driver and word line driver is controlled by complimentary signals; wherein the bit line driver comprises a plurality of pull-up circuits; and the word line driver consists of a n-channel MOS transistor and a p-channel MOS transistor, wherein each of the plurality of pull-down circuits of the bit line driver and the word line driver also consist of two n-channel MOS transistors, and \n\n wherein the driver circuit generates voltage pulses for application to the magnetoelectric junction bit, wherein the output of the driver circuit is connected to the word line, which in turn is connected to the gate of the MOS access transistor in each MeRAM cell, thereby generating a square voltage pulse across the magnetoelectric junction bit. 2. The magnetoelectric random access memory circuit of claim 1 , where the magnetoelectric junction bit free layer comprises a combination of Co, Fe and B. 3. The magnetoelectric random access memory circuit of claim 1 , where the magnetoelectric junction bit dielectric barrier comprises MgO. 4. The magnetoelectric random access memory circuit of claim 2, where the magnetoelectric junction bit free layer is placed adjacent to a metal layer, comprising one or a combination of the elements Ta, Ru, Mn, Pt, Mo, Ir, Hf, W, and Bi. 5. The magnetoelectric random access memory circuit of claim 1 , wherein the free layer magnetization changes direction in response to a voltage pulse across the magnetoelectric junction bit, which is timed to approximately half the ferromagnetic resonance period of the free layer. 6. The magnetoelectric random access memory circuit of claim 5, wherein the free layer magnetization has two stable states which are perpendicular to plane in the absence of voltage. 7. The magnetoelectric random access memory circuit of claim 5, wherein the free layer magnetization has two stable states which are in plane in the absence of voltage. 8. The magnetoelectric random access memory circuit of claim 5, wherein the magnetoelectric junction bit has a circular shape. 9. The magnetoelectric random access memory circuit of claim 5, wherein the magnetoelectric junction bit has an elliptical shape. 10. The magnetoelectric random access memory circuit of claim 1 , where the driver circuit comprises the bit line driver, word line driver, and pulse generator. 1 1 . The magnetoelectric random access memory circuit of claim 10, where the bit line driver has the pull-up circuit, comprising an n-channel MOS transistor and a p- channel MOS transistor, and the pull-down circuit, comprising two n-channel transistors. 12. The magnetoelectric random access memory circuit of claim 10, where the word line driver has the pull-up circuit, comprising an n-channel MOS transistor and a p- channel MOS transistor, and the pull-down circuit, comprising two n-channel transistors. 13. The magnetoelectric random access memory circuit of claim 1 1 , where the bit line driver is controlled by complementary signals. 14. The magnetoelectric random access memory circuit of claim 12, where the word line driver is controlled by complementary signals, which are created by the pulse generator. 15. The magnetoelectric random access memory circuit of claim 14, the pulse generator creates complementary signals whose width are adjustable via a digital code. 16. The magnetoelectric random access memory circuit of claim 10, the output of the bit line driver is connected to the bit line. 17. The magnetoelectric random access memory circuit of claim 1 1 , the output of the word line driver is connected to the word line.",
+  "classifications": {
+    "ipc": [
+      "G11C 11/00",
+      "G11C 11/02",
+      "G11C 11/16",
+      "G11C 11/161",
+      "G11C 11/165",
+      "G11C 11/1653",
+      "G11C 11/1655",
+      "G11C 11/1657",
+      "G11C 11/1675",
+      "H10B 61/00",
+      "H10B 61/20",
+      "H10B 61/22",
+      "H10N 50/00",
+      "H10N 50/10",
+      "H10N 50/80",
+      "H10N 50/85"
+    ],
+    "cpc": [],
+    "all": [
+      "G11C 11/00",
+      "G11C 11/02",
+      "G11C 11/16",
+      "G11C 11/161",
+      "G11C 11/165",
+      "G11C 11/1653",
+      "G11C 11/1655",
+      "G11C 11/1657",
+      "G11C 11/1675",
+      "H10B 61/00",
+      "H10B 61/20",
+      "H10B 61/22",
+      "H10N 50/00",
+      "H10N 50/10",
+      "H10N 50/80",
+      "H10N 50/85"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018005699"
+}

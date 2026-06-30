@@ -1,0 +1,26 @@
+{
+  "title": "Apparatus and a method for on-demand registration of whole slide images",
+  "abstract": "A method for on-demand registration of whole slide images (WSIs), comprising receiving at least two digital images, a first digital image of a reference slide and a second digital image on a candidate slide, each at a first magnification level, identifying a first region of interest (ROI) on the first digital image at a target magnification level, registering a portion of the second digital image to a portion of the first digital slide image at the first magnification level to derive a transformation matrix, applying the transformation matrix to the first ROI to identify a second ROI on the second digital image at the first magnification level, mapping the second ROI to a corresponding second ROI on the second digital image at the target magnification level, and registering the corresponding second ROI to the first ROI at the target magnification level.",
+  "claims": "1. An apparatus for on-demand registration of whole slide images (WSIs), the apparatus comprises: at least a processor; and a memory communicatively connected to the at least a processor, wherein the memory contains instructions configuring the at least a processor to: receive, at least two digital images taken at a first magnification level, wherein each digital image of the at least two images comprises a WSI in a pyramid structure wherein the base layer of the pyramid structure comprises a highest resolution image and each subsequent layer of the pyramid structure includes lower resolution images and wherein the at least two digital images comprises: a first digital image of a reference slide; and a second digital image of a candidate slide; identify a first region of interest (ROI) on the first digital image at a target magnification level; training a computer vision model using training data, wherein the training data comprises digitized histological slide images at a plurality of magnification levels as input correlated to a plurality of ROIs as output; and identifying the first ROI as a function of the first digital image using the trained computer vision model; register at least a portion of the second digital image to at least a portion of the first digital slide image at the first magnification level to derive a transformation matrix; apply the transformation matrix comprising transformation shearing parameters to the first ROI on the first digital image to identify a second ROI on the second digital image at the first magnification level; map the second ROI on the second digital image to a corresponding second ROI on the second digital image at the target magnification level; and register the corresponding second ROI on the second digital image to the first ROI on the first digital image at the target magnification level.",
+  "patent_id": "US12380578-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/337",
+      "G06T 7/37",
+      "G06T 2207/10056",
+      "G06T 2207/20016",
+      "G06T 2207/20081",
+      "G06T 2207/30004"
+    ],
+    "all": [
+      "G06T 7/337",
+      "G06T 7/37",
+      "G06T 2207/10056",
+      "G06T 2207/20016",
+      "G06T 2207/20081",
+      "G06T 2207/30004"
+    ],
+    "source": "converted"
+  }
+}

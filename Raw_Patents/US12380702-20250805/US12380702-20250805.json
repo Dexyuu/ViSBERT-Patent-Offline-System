@@ -1,0 +1,18 @@
+{
+  "title": "Method and system for video stream time correction and latency detection",
+  "abstract": "A method for video streaming includes receiving video streaming data from a wireless camera. The camera is in wireless communication with a vehicle. The method further includes identifying a stable video region in the video streaming data received from the wireless camera, detecting stale video content in the video streaming data based on the stable video region, and in response to detecting the stale video content in the video streaming data, providing a notification to a vehicle occupant, via a display of the vehicle. The notification is indicative that a video streamed in the display of the vehicle is stale. The method described in this paragraph improves video and vehicle technology by identifying stale video content and notifying the vehicle occupant that the video is stale, thereby preventing the vehicle occupant from relying on stale video content.",
+  "claims": "1. A method for video streaming, comprising: receiving video streaming data from a wireless camera, wherein the wireless camera is in wireless communication with a vehicle; identifying a stable video region in the video streaming data received from the wireless camera; detecting stale video content in the video streaming data based on the stable video region; conducting a video frame timestamp reconstruction, wherein conducting the video frame timestamp reconstruction includes determining a video frame presentation time of the video streaming data using a following equation: VPT=1/R, wherein R is the video framerate and VPT is the video frame presentation time of the video streaming data; and in response to detecting the stale video content in the video streaming data, providing a notification to a vehicle occupant, via a display of the vehicle, wherein the notification is indicative that a video streamed in the display of the vehicle is stale.",
+  "patent_id": "US12380702-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 20/56",
+      "G06V 10/25"
+    ],
+    "all": [
+      "G06V 20/56",
+      "G06V 10/25"
+    ],
+    "source": "converted"
+  }
+}

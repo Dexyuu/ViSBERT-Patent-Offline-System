@@ -1,0 +1,38 @@
+{
+  "application_id": "WO2016142381",
+  "application_id_fs": "WO2016142381",
+  "title": "A method for generating an embedded system derivable into a plurality of personalized embedded systems",
+  "abstract": "This invention concerns a method for producing an embedded system designated as a principal customer item (308), the method comprising the following steps: generating at least one object file (302) by compiling (301) a source code (300) comprising a set of at least two features organized hierarchically such that a given feature associated with a given hierarchical level has only dependencies toward other features of lower hierarchical levels; determining a list (305) of a plurality of contiguous ranges of virtual addresses; mapping (306) the ranges of virtual addresses of the list (305) to a set of ranges of physical addresses in a permanent storage area of the embedded system; generating (307) from the results provided by the linking (303) and the mapping (306) steps a file executable by the embedded system; loading (320) said executable file in the permanent storage area of the embedded system.",
+  "claims": "Claims A method for producing an embedded system designated as a principal customer item (308), the method comprising the following steps: - generating at least one object file (302) by compiling (301 ) a source code (300) comprising a set of at least two features organized hierarchically such that a given feature associated with a given hierarchical level has only dependencies toward other features of lower hierarchical levels; - determining by linking (303) the at least one object file (302) a list (305) of a plurality of contiguous ranges of virtual addresses, each range of virtual addresses in the list referencing the machine code of a feature belonging to the at least one set of features, the contiguous ranges being ordered following the hierarchical organization of the features; - mapping (306) the ranges of virtual addresses of the list (305) to a set of ranges of physical addresses in a permanent storage area of the embedded system; - generating (307) from the results provided by the linking (303) and the mapping (306) steps a file executable by the embedded system called principal executable file; - loading (320) said principal executable file in the permanent storage area of the embedded system. An embedded system (308) produced by applying the method according to claim 1 . An embedded system (308) according to claim 2 comprising a flash memory used as a permanent storage area memorising the executable computer program. 4. An embedded system (308) according to any of claims 2 or 3 and implementing at least two set of features, the system further comprising a memory management unit for each set of feature. A method to generate an embedded system (312) called derived customer item by removing from a set of features implemented in a principal customer item (308) according to any of claims 2 to 4 at least one feature, the embedded system comprising a physical memory associated to a memory mapping that assigns a set of logical addresses to a set of physical addresses of the physical memory, the method comprising the steps of: - selecting (322) to be removed at least one feature of the at least one set of features, the selected feature having no feature of higher hierarchical level to be kept in the derived customer item; - providing (309) a modified execution file by deleting a portion of the principal executable file corresponding to the at least one selected feature; - updating (310) the memory mapping accordingly; - loading (321 ) said executable file in the permanent storage area of the embedded system (312). A method according to claim 5, wherein the memory mapping is updated in order to map the ranges of virtual addresses of the remaining features to the physical memory of the derived customer item, when an MMU is implemented in the embedded system. A method according to any of claims 5-6, wherein the at least one set of features comprises a feature called core feature associated with its lowest hierarchical level and which is not removable An embedded system (312) produced by applying the method according to any of claims 5 to 7. 9. An embedded system (312) according to claim 8 comprising a flash memory used as a permanent storage area memorising the executable computer program. 10. An embedded system (312) according to any of claims 8 or 9, wherein all or part of the permanent storage area freed by the feature removal is reserved as user data. 1 1 . An embedded system (312) according to any of claims 8 to 10 and implementing at least two set of features, the system further comprising a memory management unit for each set of features.",
+  "classifications": {
+    "ipc": [
+      "G06F 8/00",
+      "G06F 8/40",
+      "G06F 8/41",
+      "G06F 8/54",
+      "G06F 8/60",
+      "G06F 8/65",
+      "G06F 8/654",
+      "G06F 8/44",
+      "G06F 8/443",
+      "G06F 8/4434",
+      "G06F 8/4435"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 8/00",
+      "G06F 8/40",
+      "G06F 8/41",
+      "G06F 8/54",
+      "G06F 8/60",
+      "G06F 8/65",
+      "G06F 8/654",
+      "G06F 8/44",
+      "G06F 8/443",
+      "G06F 8/4434",
+      "G06F 8/4435"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2016142381"
+}

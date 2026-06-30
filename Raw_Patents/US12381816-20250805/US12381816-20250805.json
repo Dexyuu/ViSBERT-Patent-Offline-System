@@ -1,0 +1,26 @@
+{
+  "title": "Policy plane integration across multiple domains",
+  "abstract": "Systems, methods, and computer-readable media for interconnecting SDWANs through segment routing. A first SDWAN and a second SDWAN of a SDWAN fabric can be identified. A segment routing domain that interconnects the first SDWAN and the second SDWAN can be formed across a WAN underlay of the SDWAN fabric. Data transmission between the first SDWAN and the second SDWAN can be controlled by performing segment routing through the segment routing domain formed between the first SDWAN and the second SDWAN.",
+  "claims": "1. A method comprising: configuring a plurality of overlay networks for a first cloud network; configuring a plurality of overlay networks for a second network, wherein the second network is coupled to the first cloud network through a cloud fabric; coupling a first overlay network of the plurality of overlay networks for the first cloud network and a first overlay network of the plurality of overlay networks for the second network to a segment-routed path over the cloud fabric; subsequent the first cloud network receiving an indication that routing is active between the first overlay networks, establishing communication over the segment-routed path; receiving, at the first cloud network, first data transmitted from the second network to the first cloud network through the segment-routed path over the cloud fabric; and transmitting, from the first cloud network, second data to the second network through the segment-routed path over the cloud fabric.",
+  "patent_id": "US12381816-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 45/64",
+      "H04L 12/4641",
+      "H04L 45/04",
+      "H04L 45/50",
+      "H04L 47/2441",
+      "H04L 63/162"
+    ],
+    "all": [
+      "H04L 45/64",
+      "H04L 12/4641",
+      "H04L 45/04",
+      "H04L 45/50",
+      "H04L 47/2441",
+      "H04L 63/162"
+    ],
+    "source": "converted"
+  }
+}

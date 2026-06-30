@@ -1,0 +1,20 @@
+{
+  "title": "Techniques for determining group identification and a downlink assignment index for enhanced dynamic codebooks",
+  "abstract": "Methods, systems, and devices for wireless communications are described. A user equipment (UE) may receive one or more downlink control information (DCI) messages scheduling downlink transmissions associated with different groups, where feedback for the downlink transmissions may be transmitted during a same time period. The UE may index the received DCI messages based on a set of serving cell indices and monitoring occasion indices, and the UE may select a DCI message from the indexed DCI messages. The UE may identify, based on an index associated with the DCI messages, a first DCI message that has a format that includes a group index field. The UE may identify, from the group index field of the identified DCI message, a group index value that indicates a first group, and the UE may transmit a feedback message that includes at least a codebook that is based on the group index value.",
+  "claims": "1. A method for wireless communication, comprising: receiving a set of downlink control information messages scheduling one or more groups of downlink transmissions, the set of downlink control information messages including at least a first downlink control information message and a second downlink control information message, wherein the first downlink control information message comprises a first format that includes a group index field, and wherein the second downlink control information message comprises a second format that excludes the group index field; and transmitting a feedback message for at least a first group of the one or more groups, the feedback message comprising a codebook including feedback information for at least the first group in accordance with a value indicated by the group index field of the first downlink control information message, wherein the value indicated by the group index field of the first downlink control information message is used for the codebook based at least in part on the first downlink control information message comprising a last downlink control information message having the first format that includes the group index field.",
+  "patent_id": "US12382472-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/23",
+      "H04B 7/0417",
+      "H04B 7/0482"
+    ],
+    "all": [
+      "H04W 72/23",
+      "H04B 7/0417",
+      "H04B 7/0482"
+    ],
+    "source": "converted"
+  }
+}

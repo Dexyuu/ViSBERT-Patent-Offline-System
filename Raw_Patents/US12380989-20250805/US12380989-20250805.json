@@ -1,0 +1,26 @@
+{
+  "title": "Systems and methods to process electronic images to provide automated routing of data",
+  "abstract": "Systems and methods are disclosed for providing automated routing of medical data, comprising determining at least one rule corresponding to at least one condition and at least one receiver, receiving medical data and associated medical metadata, determining whether the medical data, the associated medical metadata, and/or associated artificial intelligence processing satisfies the at least one condition of the at least one rule, and upon determining that the at least one condition of the at least one rule is satisfied, providing, from an originating institution, the medical data to the at least one receiver.",
+  "claims": "1. A computer-implemented method, the method comprising: determining, via an artificial intelligence (AI) system, at least one rule corresponding to at least one condition and at least one receiver; receiving, via the AI system, medical data and associated medical metadata at a digital storage device, wherein the medical data comprises a whole slide image (WSI); outputting, via the AI system, a quality score for the medical data and the associated medical metadata, the quality score identifying quality control issues in the medical data and the associated medical metadata that affect usability of the medical data and the associated medical metadata for making an assessment; outputting, via the AI system, a predicted assessment based on the medical data and associated medical metadata; determining, via the AI system, whether the medical data, the associated medical metadata, and/or the predicted assessment satisfies the at least one condition of the at least one rule based at least in part on a level of confidence in an inability of the AI system to make an assessment, wherein the level of confidence is based at least in part on the quality score; upon determining that the medical data, the associated medical metadata, and/or the predicted assessment satisfies the at least one condition of the at least one rule, executing the at least one rule corresponding to the at least one condition and the at least one receiver; and transmitting, to a server associated with the at least one receiver, the medical data and associated medical metadata from an originating institution for review by the at least one receiver, wherein the at least one receiver possesses an expertise related to the predicted assessment of the AI system.",
+  "patent_id": "US12380989-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16H 30/00",
+      "G06F 16/245",
+      "G06N 20/00",
+      "G16H 10/60",
+      "G16H 15/00",
+      "G16H 50/20"
+    ],
+    "all": [
+      "G16H 30/00",
+      "G06F 16/245",
+      "G06N 20/00",
+      "G16H 10/60",
+      "G16H 15/00",
+      "G16H 50/20"
+    ],
+    "source": "converted"
+  }
+}

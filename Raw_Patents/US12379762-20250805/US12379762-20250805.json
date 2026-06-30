@@ -1,0 +1,28 @@
+{
+  "title": "Dynamic power management for SoC-based electronic devices",
+  "abstract": "This application is directed to power management at a processor system having a plurality of domains. Power samples are collected from the domains and combined to generate a system temperature profile including a temporal sequence of system temperature values. When the system temperature profile satisfies a first criterion, it is determined in real time whether a respective system temperature value of the system temperature profile satisfies a second criterion or a third criterion. In accordance with a determination that the respective system temperature value satisfies the second criterion, a power management engine determines power budgets of the domains on a firmware level and enables operations of the domains according to the power budgets. In accordance with a determination that the respective system temperature value satisfies the third criterion, a subset of domains are selected to apply a respective power throttling action directly on a hardware level.",
+  "claims": "1. A power management method, comprising, at a processor system having a plurality of domains: collecting a plurality of power samples from the plurality of domains over a time duration, each power sample including temperature, power consumption, and current values associated with a respective domain; combining a subset of the plurality of power samples of the plurality of domains to generate a system power profile including a plurality of system temperature, power consumption, and current values; determining whether the system power profile satisfies a first criterion; and in accordance with a determination that the system power profile satisfies the first criterion at a first time t 1 and at a predefined controlling frequency: in real time, determining whether a respective system temperature, power consumption, and/or current value of the system power profile satisfies a second criterion or a third criterion; in accordance with a determination that the respective system temperature, power consumption, and/or current value satisfies the second criterion, determining, on a firmware level, power budgets of the plurality of domains and enabling, on the firmware level, operations of the plurality of domains according to the power budgets; and in accordance with a determination that the respective system temperature, power consumption, and/or current value satisfies the third criterion, selecting a subset of domains and applying a respective power throttling action to each of the subset of domains directly on a hardware level.",
+  "patent_id": "US12379762-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 1/3206",
+      "G06F 1/324",
+      "G06F 1/3275",
+      "G06F 1/3296",
+      "G06F 11/3058",
+      "G06F 11/3075",
+      "G06F 15/7807"
+    ],
+    "all": [
+      "G06F 1/3206",
+      "G06F 1/324",
+      "G06F 1/3275",
+      "G06F 1/3296",
+      "G06F 11/3058",
+      "G06F 11/3075",
+      "G06F 15/7807"
+    ],
+    "source": "converted"
+  }
+}

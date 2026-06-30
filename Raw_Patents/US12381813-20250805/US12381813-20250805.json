@@ -1,0 +1,38 @@
+{
+  "title": "Location-awareness-based network intermediate device",
+  "abstract": "The present invention relates to a location-awareness-based network intermediate device, at least comprising a scheduling module, which is configured to fuse short-term historical data about short-term and/or real-time network performance and location-awareness-based multi-day network performance data, so as to generate context data for predicting network performance, and acquire a deterministic connectivity mode in a mobile network environment based on the context data so as to enhance performance of end-to-end transmission. With this configuration, the concept of location-awareness-based packet scheduling can be translated into an actual system for end-to-end multi-path transmission. From the location-awareness-based long-term multi-day network performance data, the deterministic connectivity pattern of trains in the high-speed mobile network environment can be acquired, and after being fused with the short-term historical data observed in a short time period, a good basis for calibration of prediction of network performance can be provided, thereby enhancing robustness of network connectivity in a high-speed movement scene.",
+  "claims": "1. A location-awareness-based network intermediate device, at least comprising: a scheduling module ( 203 ), which is configured to fuse short-term historical data ( 602 ) about short-term and/or real-time network performance and location-awareness-based multi-day network performance data ( 601 ), so as to generate context data ( 600 ) for predicting network performance, and acquire a deterministic connectivity mode in a mobile network environment based on the context data ( 600 ) so as to enhance performance of end-to-end transmission, wherein the network intermediate device is to be deployed in a communication path between a plurality of clients ( 100 ) and a plurality of servers ( 400 ) so as to relay communication data between the clients ( 100 ) and the servers ( 400 ), wherein the network intermediate device further comprises transceiver modules ( 201 ) and the scheduling module ( 203 ) is configured to, based on the context data ( 600 ), map data of the clients ( 100 ) or the servers ( 400 ) received by the transceiver modules ( 201 ) to at least two communication paths ( 500 ) accessed by the transceiver modules ( 201 ), so as to realize multi-path transmission between the clients ( 100 ) and the servers ( 400 ), wherein a first data relay processing module ( 200 ) establishes a multi-path connection with the plurality of clients ( 100 ) or servers ( 400 ) capable of the multi-path transmission or with a second data relay processing module ( 300 ) having communication sessions with the servers ( 400 ), wherein the scheduling module ( 203 ) is configured to distribute the data received by the transceiver modules ( 201 ) to a first path ( 210 ) that processes the data while bypassing a kernel protocol stack ( 230 ) and to a second path ( 220 ) that processes the data through the kernel protocol stack ( 230 ), and map the data processed in the first path ( 210 ) to at least two mutually independent communication paths ( 500 ), thereby constructing a multi-user multi-path transmission framework at a level of a user space ( 240 ), and wherein the scheduling module ( 203 ) is configured to: sense disconnections/connections of different standard networks based on an estimate of a network performance indicator; predict probabilities of switching results among the different standard networks based on the sensed disconnections/connections of the different standard networks; and generate risk switching results based on the predicted probabilities of the different switching results, wherein the switching results include Success, Failure, and Blackout.",
+  "patent_id": "US12381813-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 45/24",
+      "H04L 12/46",
+      "H04L 41/147",
+      "H04L 43/0811",
+      "H04L 67/562",
+      "H04W 40/18",
+      "H04W 40/20",
+      "H04L 41/145",
+      "H04L 43/0829",
+      "H04L 43/0864",
+      "H04L 43/0888",
+      "H04L 43/20"
+    ],
+    "all": [
+      "H04L 45/24",
+      "H04L 12/46",
+      "H04L 41/147",
+      "H04L 43/0811",
+      "H04L 67/562",
+      "H04W 40/18",
+      "H04W 40/20",
+      "H04L 41/145",
+      "H04L 43/0829",
+      "H04L 43/0864",
+      "H04L 43/0888",
+      "H04L 43/20"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Data processing method, apparatus, and system of access frequency prediction based on first block and block adjacent to the first block",
+  "abstract": "This application discloses a data processing method. A first apparatus obtains a first feature of a first data block in storage space. The first feature includes a read/write feature related to the first data block and a read feature of a second data block adjacent to the first data block. The first apparatus inputs the first feature into an access frequency prediction model, to obtain access frequency of the first data block. The access frequency of the first data block is used to determine a type of the first data block. To be specific, in embodiments of this application, future access frequency of the first data block is predicted by using a multidimensional feature of the first data block (the read/write feature of the first data block and a read feature of an adjacent data block).",
+  "claims": "1. A data processing method, comprising: obtaining, by a first apparatus, a first feature of a first data block, that is any data block in storage space, wherein the first feature comprises (1) a read/write feature related to the first data block and (2) a read feature of a second data block adjacent to the first data block; and inputting, by the first apparatus, the first feature into an access frequency prediction model, to obtain an access frequency, output by the access frequency prediction model, of the first data block, wherein the access frequency of the first data block is used to determine a type of the first data block.",
+  "patent_id": "US12379861-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/064",
+      "G06F 3/061",
+      "G06F 3/0685"
+    ],
+    "all": [
+      "G06F 3/064",
+      "G06F 3/061",
+      "G06F 3/0685"
+    ],
+    "source": "converted"
+  }
+}

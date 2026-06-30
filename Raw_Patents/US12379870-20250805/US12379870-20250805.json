@@ -1,0 +1,20 @@
+{
+  "title": "Storage device for a plurality of meta data and method of operating the same",
+  "abstract": "A storage device includes a plurality of memory devices, a plurality of cores controlling the plurality of memory devices, and a host interface configured to select a first core of the plurality of cores to store a plurality of meta data in a memory device controlled by the first core, and configured to switch to a second core from the plurality of cores to store the plurality of meta data in a memory device controlled by the second core, when the number of operations for storing a first meta data, from among the plurality of meta data, by the first core exceeds a threshold value.",
+  "claims": "1. A storage device comprising: a plurality of memory devices; a plurality of cores controlling the plurality of memory devices; and a host interface configured to select a first core of the plurality of cores to store a plurality of meta data in a memory device controlled by the first core, and configured to switch to a second core from the plurality of cores to store the plurality of meta data in a memory device controlled by the second core, when the number of operations for storing a first meta data, from among the plurality of meta data, by the first core exceeds a threshold value, wherein the first meta data includes a number of storages of each of the plurality of meta data, and wherein the host interface increases the number of storages of each of the plurality of meta data included in the first meta data, when the plurality of meta data is stored in the memory device controlled by the first core.",
+  "patent_id": "US12379870-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0658",
+      "G06F 3/0607",
+      "G06F 3/0683"
+    ],
+    "all": [
+      "G06F 3/0658",
+      "G06F 3/0607",
+      "G06F 3/0683"
+    ],
+    "source": "converted"
+  }
+}

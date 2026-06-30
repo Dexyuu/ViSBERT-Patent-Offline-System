@@ -1,0 +1,18 @@
+{
+  "title": "Event based recording",
+  "abstract": "An electronic device comprises an image sensor, one or more processors, and memory storing instructions for receiving an event recording profile based on configuration data of the electronic device, the configuration data including a location type or a power type; receiving a plurality of images of a scene captured by the image sensor; detecting a trigger event based on one or more of the plurality of images of the scene; in response to detecting the trigger event, identifying an object of interest in one or more of the plurality of images of the scene; creating an event clip from the stored images that include the object of interest, wherein creating the event clip includes configuring a clip length based on the event recording profile; and providing the event clip for display.",
+  "claims": "1. A method, comprising: receiving profile recording parameters for an electronic device, the profile recording parameters associated with configuration data of the electronic device, the configuration data including a location type or a power type of the electronic device; receiving a plurality of images of a scene captured by one or more image sensors associated with the electronic device; detecting a trigger event based on at least one captured image of the plurality of captured images of the scene; in response to detecting the trigger event, identifying an object of interest in one or more captured images of the plurality of captured images of the scene; creating an event clip from the one or more captured images, the event clip including the object of interest, the creating the event clip including: configuring a clip length based on the profile recording parameters, the configuring the clip length including: selecting an inactivity threshold that corresponds to a number of captured images of the plurality of captured images of the scene in which the object of interest is no longer detected, the number of captured images corresponding to an amount of time to wait before the trigger event ends; selecting a maximum event length for the clip length that corresponds to a maximum number of images or a maximum amount of time for the event clip; and combining the number of captured images with the one or more captured images of the plurality of captured images in which the object of interest is identified; and providing the event clip for display, the event clip having no more than the maximum event length.",
+  "patent_id": "US12381998-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 5/77",
+      "G11B 27/031"
+    ],
+    "all": [
+      "H04N 5/77",
+      "G11B 27/031"
+    ],
+    "source": "converted"
+  }
+}

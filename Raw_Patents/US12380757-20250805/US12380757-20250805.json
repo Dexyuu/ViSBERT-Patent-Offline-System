@@ -1,0 +1,22 @@
+{
+  "title": "Cloud-based cash inventory management for on-premises cash handling devices",
+  "abstract": "Various embodiments are directed to systems and methods for remotely monitoring cash reserves within a plurality of cash handling devices, and for automatically initiating change orders to maintain optimal levels of cash reserves within those cash handling devices. Certain embodiments remotely monitor closing transaction data received from those cash handling devices. Based at least in part on portions of data reflected within the closing transaction data, retrieve historical usage data relating to a forecast period; generate a usage forecast for the forecast period, and based on the generated usage forecast and the closing transaction data, generate message data for transmission to external systems to facilitate the maintenance of optimal cash reserves within those cash handling devices.",
+  "claims": "1. A system for cash handling device operation management, the system comprising one or more non-transitory memory storage areas and one or more processors collectively configured to: monitor closing transaction data from a cash handling device identifying physical cash movement within the cash handling device for each of a plurality of cash denominations and identifying physical cash locations in a recycler cassette of the cash handling device and in a deposit cassette of the cash handling device, wherein the deposit cassette does not provide automated cash dispensing; trigger a forecasting process for the cash handling device upon receiving data identifying physical cash movement from the recycler cassette to the deposit cassette, the forecasting process comprising: retrieving historical usage data for each of the plurality of cash denominations from each register till of the plurality of register tills; and determining an operating fund for each register till of the plurality of register tills based at least in part on one or more of the historical usage data or manual adjustments, wherein the operating fund for each register till of the plurality of register tills identifies an operating fund amount for each of a plurality of cash denominations for a forecast period; determining a forecast starting content for each of the plurality of cash denominations within the recycler cassette at the cash handling device for the forecast period; comparing the forecast starting content for each of the plurality of cash denominations against the operating funds determined for each of the plurality of register tills; and generate a user interface displaying the operating funds determined for each of the plurality of register tills.",
+  "patent_id": "US12380757-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G07D 11/23",
+      "G06Q 20/202",
+      "G07D 11/34",
+      "G07D 11/40"
+    ],
+    "all": [
+      "G07D 11/23",
+      "G06Q 20/202",
+      "G07D 11/34",
+      "G07D 11/40"
+    ],
+    "source": "converted"
+  }
+}

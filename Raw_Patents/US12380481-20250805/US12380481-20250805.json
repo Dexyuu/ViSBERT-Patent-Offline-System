@@ -1,0 +1,16 @@
+{
+  "title": "Item dimensions outlier detection sytems and methods",
+  "abstract": "Disclosed are systems and methods for determining item dimension accuracy. The method can include receiving, by a computing system, dimensions data for an item and retrieving, from a data store, one or more machine learning models that were trained to determine accuracy of the dimensions data for the item relative to similar items in a same category of items. The models were trained using a training dataset of dimensions data for other items and positive dimensions accuracy determinations for the other items. The method can also include applying, by the computing system, the one or more models to the dimensions data, determining, based on application of the one or more models to the dimensions data, an accuracy metric of the dimensions data for the item, and generating output indicating the accuracy metric of the dimensions data for the item.",
+  "claims": "1. A method for determining an accuracy metric of dimensions data for an item, the method comprising: receiving, by a computing system, dimensions data for an item; retrieving, by the computing system and from a data store, one or more machine learning models that were trained, using a training dataset of dimensions data for other items and positive dimensions accuracy determinations for the other items, to determine accuracy of the dimensions data for the item relative to similar items in a same category of items; applying, by the computing system, the one or more models to the dimensions data; determining, by the computing system and based on application of the one or more models to the dimensions data, an accuracy metric of the dimensions data for the item, the determining comprising: determining an accuracy metric based on application of each of the one or more models to the dimensions data; identifying a quantity of the accuracy metrics that are below a predetermined threshold value; determining whether the quantity is greater than a predetermined threshold quantity; and determining, based on the quantity being greater than the predetermined threshold quantity, that the item is an outlier; and generating, by the computing system, output indicating the accuracy metric of the dimensions data for the item.",
+  "patent_id": "US12380481-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 30/0627"
+    ],
+    "all": [
+      "G06Q 30/0627"
+    ],
+    "source": "converted"
+  }
+}

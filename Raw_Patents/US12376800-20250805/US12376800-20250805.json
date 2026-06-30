@@ -1,0 +1,20 @@
+{
+  "title": "Method and device for determining a valid intrinsic frequency",
+  "abstract": "Described are methods and a device for determining a valid intrinsic alpha frequency. Described herein are methods and a device for determining the appropriate intrinsic alpha frequency (IAF) to be applied for neuro-EEG synchronization therapy using alternating magnetic fields to gently âtuneâ the brain and affect the mood, focus and cognition of subjects. Methods and a device described herein use an algorithm to quantitatively analyze EEG recordings to determine if recorded EEG frequencies are valid, and if necessary, requiring additional recordings and analysis until a valid EEG is found. Methods and devices described herein can be utilized to calculate the intrinsic frequency of other EEG bands, including the Theta, Beta Gamma and Delta bands.",
+  "claims": "1. A computer-implemented system for determining an intrinsic alpha frequency of a subject comprising: an input device operable to receive a first time domain EEG recording of a subject; a digital processing device comprising an operating system operable to perform executable instructions and a memory; and a computer program including instructions executable by the digital processing device configured to discriminate a valid intrinsic alpha frequency of at least one time domain EEG recording of a subject, wherein the instructions, when executed by the digital processing device, are configured to: determine an intrinsic alpha frequency for a plurality of epochs, automatically determine when the intrinsic alpha frequency is a valid intrinsic alpha frequency, wherein the valid intrinsic alpha frequency comprises: a standard deviation between the plurality of epochs of less than a standard deviation threshold, and a mean intrinsic alpha frequency for the plurality of epochs between 8.0 Hz to 13.0 Hz, set a final intrinsic alpha frequency (fIAF) to the mean intrinsic alpha frequency when the time domain EEG recording has the valid intrinsic alpha frequency, and determine that the first time domain EEG recording is suspect when the time domain EEG recording does not have the valid intrinsic alpha frequency; and a therapy device configured to deliver low amplitude stimulation at the valid intrinsic alpha frequency when the time domain EEG recording has the valid intrinsic alpha frequency.",
+  "patent_id": "US12376800-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 5/7225",
+      "A61B 5/374",
+      "A61B 5/7257"
+    ],
+    "all": [
+      "A61B 5/7225",
+      "A61B 5/374",
+      "A61B 5/7257"
+    ],
+    "source": "converted"
+  }
+}

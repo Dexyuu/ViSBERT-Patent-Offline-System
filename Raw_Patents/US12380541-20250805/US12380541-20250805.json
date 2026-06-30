@@ -1,0 +1,24 @@
+{
+  "title": "Method and apparatus for training image restoration model, electronic device, and computer-readable storage medium",
+  "abstract": "Disclosed are a method and apparatus for training an image restoration model, an electronic device, and a computer-readable storage medium. The method for training an image restoration model includes: pre-processing training images to obtain a low-illumination image sample set (110); determining, based on low-illumination image samples in the low-illumination image sample set and the image restoration model, a weight coefficient of the image restoration model (120), wherein the image restoration model is a neural network model determined on a U-Net network and a deep residual network; and adjusting the image restoration model according to the weight coefficient, and further training the adjusted image restoration model using the low-illumination image samples until the image restoration model restores parameters of all the low-illumination image samples in the low-illumination image sample set into a preset range (130).",
+  "claims": "1. A method for training an image restoration model, comprising: pre-processing training images to obtain a low-illumination image sample set; determining, based on low-illumination image samples in the low-illumination image sample set and the image restoration model, a weight coefficient of the image restoration model, wherein the image restoration model is a neural network model determined from a U-Net network and a deep residual network; and adjusting the image restoration model according to the weight coefficient, and further training the adjusted image restoration model using the low-illumination image samples until the image restoration model restores parameters of all the low-illumination image samples in the low-illumination image sample set into a preset range, wherein the determining, based on low-illumination image samples in the low-illumination image sample set and the image restoration model, the weight coefficient of the image restoration model, comprises: performing, according to the U-Net network, lossless data reorganization and data characteristic fusion on the low-illumination image samples in the low-illumination image sample set to obtain a primary restored image sample set; inputting primary restored image samples in the primary restored image sample set into a detail enhanced submodel in the image restoration model for training to obtain an enhanced restored image sample set, wherein the detail enhanced submodel is a neural network model determined from the deep residual network; and determining, according to the enhanced restored image sample set and a preset reference image sample set, the weight coefficient of the image restoration model; wherein the inputting primary restored image samples in the primary restored image sample set into the detail enhanced submodel in the image restoration model for training to obtain the enhanced restored image sample set, comprises: performing lossless down-sampling and data reorganization on the primary restored image samples to obtain a primary detail enhanced training sample set; processing, according to the deep residual network, primary detail enhanced training samples in the primary detail enhanced training sample set to obtain a residual sample set; and performing up-sampling and data reorganization on residual samples in the residual sample set to obtain the enhanced restored image sample set, and wherein the performing up-sampling and data reorganization on residual samples in the residual sample set to obtain the enhanced restored image sample set, comprises: performing convolution and activation for N times on the residual samples in the primary detail enhanced training sample set to obtain a primary residual sample set, where N is an integer greater than or equal to 2; and summing primary residual samples in the primary residual sample set and the primary detail enhanced training samples in a corresponding primary detail enhanced training sample set, to obtain the residual sample set.",
+  "patent_id": "US12380541-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 5/73",
+      "G06T 3/40",
+      "G06T 5/60",
+      "G06T 2207/20081",
+      "G06T 2207/20084"
+    ],
+    "all": [
+      "G06T 5/73",
+      "G06T 3/40",
+      "G06T 5/60",
+      "G06T 2207/20081",
+      "G06T 2207/20084"
+    ],
+    "source": "converted"
+  }
+}

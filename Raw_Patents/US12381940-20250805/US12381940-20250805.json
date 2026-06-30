@@ -1,0 +1,18 @@
+{
+  "title": "System for providing remote interoperation between devices",
+  "abstract": "The invention provides an alternative applications programming interface (API) for a software application to interface with and to control and coordinate the operation of a variety of specialty devices, including a barcode scanning device and a label printing device. In some embodiments, this alternative API is provided via a software application interface module (SAIM) that is remotely accessible to a software application module (SAM) via a computer network. The SAIM provides for interface and control of specialty devices that would otherwise be un-accessible to a software application module (SAM), via employment of a device specific interface module (DSIM), which functions like a device driver to specialty devices that can be geographically distributed away from the software application module (SAM) and sway from the software application interface module (SAIM), and also function in circumstances where the software application module (SAM) is mobile.",
+  "claims": "1. A system for scanning and processing information, the system including: a first computing platform that is located at a first location, said first computing platform including one or more central processing unit (CPU) processors, and including a memory for storing instructions for execution upon said one or more central processing unit (CPU) processors; a bar code scanning device being configured for communication with a device specific interface module (DSIM); said DSIM being configured for communication with said bar code scanning device and a software application interface module (SAIM); and wherein said SAIM being configured for communication with said DSIM and configured for receiving information via said DSIM, said information including bar code information that is acquired from a scanning of a bar code performed by said bar code scanning device; and wherein said SAIM causing performance of further processing of said information; and wherein said memory of said first computing platform storing instructions of said software application interface module (SAIM), said instructions of said software application interface module (SAIM) causing said one or more central processing unit (CPU) processors to cause said performance of said further processing of said information; and wherein at least one of said DSIM and said SAIM being located remotely from said bar code scanning device, said located remotely being located outside a line of sight between said bar code scanning device and at least one of said DSIM and said SAIM.",
+  "patent_id": "US12381940-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 67/10",
+      "G06F 9/541"
+    ],
+    "all": [
+      "H04L 67/10",
+      "G06F 9/541"
+    ],
+    "source": "converted"
+  }
+}

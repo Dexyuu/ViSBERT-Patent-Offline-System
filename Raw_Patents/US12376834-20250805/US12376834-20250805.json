@@ -1,0 +1,20 @@
+{
+  "title": "Ultrasonic diagnostic apparatus",
+  "abstract": "An ultrasonic diagnostic apparatus includes: a wireless communication unit connected to a communication line via a wireless relay device and configured to communicate with an information terminal via the communication line; and a control unit configured to control the wireless communication unit. The control unit reads a patient ID for specifying a patient, and transmits, together with the wireless communication unit, the patient ID to the wireless relay device. The wireless relay device receives a collation signal from the information terminal, and establishes wireless communication with the information terminal when the collation signal includes the patient ID. The control unit executes, together with the wireless communication unit, image transmission processing of transmitting ultrasonic image information, via the communication line, to the information terminal when the patient ID is in the collation signal transmitted from the information terminal to the wireless relay device.",
+  "claims": "1. An ultrasonic diagnostic apparatus comprising: a wireless communication device connected to a communication line via a wireless relay device and configured to communicate with an information terminal via the communication line; and a processor configured to generate ultrasonic image data indicating an image, read a patient ID for specifying a patient in response to an operation by a user, and transmit a setting signal including the patient ID as security information to the wireless relay device through the wireless communication device, the ultrasonic image data being generated based on a received signal output from an ultrasonic probe which has transmitted an ultrasonic wave and has received the ultrasonic wave reflected from a subject, wherein the wireless relay device is configured to process a collation signal including collation security information from the information terminal, and establish wireless communication with the information terminal when the collation security information in the collation signal from the information terminal includes the patient ID, to allow wireless communication through the wireless communication device with the information terminal, and the processor is further configured to execute image transmission processing of transmitting the ultrasonic image data indicating the image, via the wireless relay device and the communication line, to the information terminal for which the wireless communication has been established, when the collation security information in the collation signal includes the patient ID.",
+  "patent_id": "US12376834-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 8/565",
+      "A61B 8/4472",
+      "H04W 12/06"
+    ],
+    "all": [
+      "A61B 8/565",
+      "A61B 8/4472",
+      "H04W 12/06"
+    ],
+    "source": "converted"
+  }
+}

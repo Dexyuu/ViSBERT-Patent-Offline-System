@@ -1,0 +1,22 @@
+{
+  "title": "Fluid control device and output adjustment method",
+  "abstract": "The present disclosure provides a fluid control device and an output adjustment method with which the output of a pump can be easily adjusted even if an atmospheric pressure changes. A pump unit includes a first flow path, a u piezoelectric pump, a d piezoelectric pump, a second flow path, a third flow path, a control circuit capable of controlling driving of the u piezoelectric pump and the d piezoelectric pump, and a current sensor for detecting respective currents of the u piezoelectric pump and the d piezoelectric pump. The control circuit is capable of adjusting at least one of the output of the u piezoelectric pump and the output of the d piezoelectric pump on the basis of a difference (IuâId) between a current Iu of the u piezoelectric pump and a current Id of the d piezoelectric pump detected by the current sensor.",
+  "claims": "1. A fluid control device comprising: a first flow path; a first pump having a first flow inlet connected to a first end of the first flow path and to a first flow outlet; a second pump having a second flow inlet and a second flow outlet; a second flow path having a first end connected to the first flow outlet of the first pump, and a second end connected to the second flow inlet of the second pump; a third flow path connected to the second flow outlet of the second pump; a controller configured to drive the first pump and the second pump; a sensor configured to detect an electric quantity of the first pump and an electric quantity of the second pump; and storage configured to store a table indicating a relationship between the difference between the detected electric quantities of the first pump and the second pump, and output adjustment amounts for the first pump and the second pump, wherein the controller is configured to adjust at least one of an output of the first pump or an output of the second pump based on a difference between the detected electric quantities of the first pump and the second pump, wherein the controller is configured to read from the table the output adjustment amounts for the first pump and the second pump corresponding to the difference between the detected electric quantities of the first pump and the second pump, and to adjust at least one of the output of the first pump or the output of the second pump based on the output adjustment amounts, wherein when the difference between the detected electric quantities of the first pump and the second pump exceeds a first threshold value, the controller is configured to perform adjustment such that both the output of the first pump and the output of the second pump increase, and wherein when the difference between the detected electric quantities of the first pump and the second pump exceeds a second threshold value greater than the first threshold value, the controller is configured to perform adjustment such that only the output of the first pump decreases.",
+  "patent_id": "US12378955-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "F04B 49/06",
+      "A61M 11/00",
+      "F04B 23/04",
+      "F04B 43/046"
+    ],
+    "all": [
+      "F04B 49/06",
+      "A61M 11/00",
+      "F04B 23/04",
+      "F04B 43/046"
+    ],
+    "source": "converted"
+  }
+}

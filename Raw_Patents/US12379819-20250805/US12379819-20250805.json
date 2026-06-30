@@ -1,0 +1,22 @@
+{
+  "title": "Method and apparatus for adjusting perspective of direction indicator, electronic device, and storage medium",
+  "abstract": "The prevent disclosure provides a method and apparatus for adjusting a perspective of a direction indicator, an electronic device, and a storage medium, which includes that: a first area and a second area corresponding to a first direction indicator are acquired, where the first direction indicator is configured to indicate a forward direction in a panorama display scene, the first area is a visible area of the first direction indicator in a graphical user interface, and the second area is an invisible area of the first direction indicator outside the graphical user interface; an initial perspective range corresponding to the second area is acquired; a target perspective range to which a first perspective belongs is determined from the initial perspective range, and a second direction indicator corresponding to the target perspective range is displayed; and the first perspective is adjusted to a second perspective based on the second direction indicator.",
+  "claims": "1. A method for adjusting a perspective of a direction indicator, a graphical user interface being provided by an electronic device, contents displayed in the graphical user interface at least partially comprising a panorama scene screen obtained by photographing a panorama display scene and a first direction indicator, the method comprising: acquiring a first area and a second area corresponding to the first direction indicator, wherein the first direction indicator is a topology arrow applied in the panorama display scene, and the first direction indicator is configured to indicate a forward direction in the panorama display scene, the first area is a visible area of the first direction indicator in the graphical user interface, and the second area is an invisible area of the first direction indicator outside the graphical user interface; acquiring an initial perspective range corresponding to the second area, wherein the initial perspective range is used for representing a range outside a boundary of the visible area of the topology arrow; determining a target perspective range to which a first perspective belongs from the initial perspective range, and displaying a second direction indicator corresponding to the target perspective range, wherein the first perspective is a current horizontal perspective monitored during rotation of a panorama, wherein the current horizontal perspective comprises a horizontal perspective corresponding to the boundary; and adjusting the first perspective to a second perspective based on the second direction indicator, wherein the second perspective is an initial horizontal perspective of the first direction indicator displayed in the graphical user interface; wherein determining the target perspective range from the initial perspective range comprises: calculating a sixth perspective according to a fourth perspective and a fifth perspective, wherein the fourth perspective is a horizontal perspective corresponding to a boundary point of the first direction indicator, the first direction indicator is not displayed in the graphical user interface during panoramic rotation in a first direction, the fifth perspective is the horizontal perspective corresponding to the boundary point of the first direction indicator that is not displayed in the graphical user interface during panoramic rotation in a second direction, the first direction is opposite to the second direction, and the sixth perspective is an intermediate perspective corresponding to the initial perspective range; dividing the initial perspective range into a first perspective range and a second perspective range, based on the sixth perspective; and determining the target perspective range to which the first perspective belongs from the first perspective range and the second perspective range.",
+  "patent_id": "US12379819-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0481",
+      "G06F 3/04845",
+      "H04N 23/631",
+      "H04N 23/698"
+    ],
+    "all": [
+      "G06F 3/0481",
+      "G06F 3/04845",
+      "H04N 23/631",
+      "H04N 23/698"
+    ],
+    "source": "converted"
+  }
+}

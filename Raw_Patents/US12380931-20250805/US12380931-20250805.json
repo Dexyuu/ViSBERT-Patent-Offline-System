@@ -1,0 +1,20 @@
+{
+  "title": "Cross-temperature compensation in a memory sub-system",
+  "abstract": "Control logic in a memory device receives, from a requestor, a request to read data from the memory array, the request comprising an indication of a segment of the memory array where the data is stored and performs, using previously configured read operation parameters, a first read operation to read the data and a write temperature associated with the data from the memory array. The control logic determines whether the previously configured read operation parameters satisfy a temperature criterion and responsive to determining that the previously configured read operation parameters do not satisfy the temperature criterion, configures the memory device with updated read operation parameters, and performs, using the updated read operation parameters, a second read operation to read the data from the memory array.",
+  "claims": "1. A memory device comprising: a memory array; and control logic, operatively coupled with the memory array, to perform operations comprising: receiving, from a requestor, a request to read data from the memory array, the request comprising an indication of a segment of the memory array where the data is stored; performing, using previously configured read operation parameters, a first read operation to read the data and a write temperature associated with the data from the memory array; determining whether the previously configured read operation parameters satisfy a temperature criterion; responsive to determining that the previously configured read operation parameters do not satisfy the temperature criterion, configuring the memory device with updated read operation parameters; and performing, using the updated read operation parameters, a second read operation to read the data from the memory array.",
+  "patent_id": "US12380931-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G11C 7/04",
+      "G11C 7/1069",
+      "G11C 7/1096"
+    ],
+    "all": [
+      "G11C 7/04",
+      "G11C 7/1069",
+      "G11C 7/1096"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Dynamic device enablement",
+  "abstract": "Dynamic device enablement is provided. A device management application can be configured as a shell application and can be customized dynamically with plugins for devices that are connected to a computing device. The plugins can be defined within driver metadata of drivers for the devices. When the drivers are loaded, the device management application can access the driver metadata to dynamically determine which plugins to install and can then automatically install them.",
+  "claims": "1. A method for dynamically enabling a device, the method comprising: in response to a first device being connected to a computing device, detecting, by a device management application, that an operating system on the computing device has installed a first driver for the first device, wherein the device management application is provided in an application store on the computing device and is installed or invoked by the operating system in response to the first device being connected to the computing device as a result of the device management application being identified in driver metadata of the first driver for the first device; accessing, by the device management application, the driver metadata of the first driver; identifying, by the device management application, one or more plugins defined in the driver metadata of the first driver, the one or more plugins being available in a plugin store on the computing device, the one or more plugins including a first plugin; obtaining, by the device management application, the one or more plugins from the plugin store; installing, by the device management application, the one or more plugins in the device management application to thereby dynamically enable the first device to be managed via the device management application; accessing, by the device management application, driver metadata of a second driver for a second device that is connected to the computing device; identifying, by the device management application, one or more additional plugins defined in the driver metadata of the second driver; installing, by the device management application, the one or more additional plugins in the device management application to thereby dynamically enable the second device to be managed via the device management application; and uninstalling the first plugin in conjunction with installing the one or more additional plugins.",
+  "patent_id": "US12379943-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/44552",
+      "G06F 9/44505",
+      "G06F 9/44526"
+    ],
+    "all": [
+      "G06F 9/44552",
+      "G06F 9/44505",
+      "G06F 9/44526"
+    ],
+    "source": "converted"
+  }
+}

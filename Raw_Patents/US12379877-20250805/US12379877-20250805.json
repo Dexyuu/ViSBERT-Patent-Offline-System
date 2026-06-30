@@ -1,0 +1,22 @@
+{
+  "title": "Read-protected storage device with sequential logging",
+  "abstract": "Instead of incorporating a single interface towards the host for transferring data, utilizing a designated write-only storage logging device. The write-only storage logging device can accept sequential streams and automatically overwrite. The controller will read the log material in a secure manner using a different and separate physical connection than the one used for write. The storage device may have LBA ranges that work as write-only as well as other LBA ranges, which are normal (both reads and writes are enabled). Both options will allow for a traditional file system as well as sharing the storage, but will still protect the log areas that would be used for events that should not be read out.",
+  "claims": "1. A data storage device, comprising: a memory device, wherein the memory device comprises: a first namespace accessible via a first interface; and a second namespace accessible via a second interface, wherein the first namespace and the second namespace are distinct; and a controller coupled to the memory device, wherein the controller is configured to: receive a first request to write data to the memory device, wherein the first request is transmitted through the first interface; write data to the memory device; and receive a second request to read data from the memory device, wherein the second request is received through the second interface, and wherein the second interface is physically distinct from the first interface, and wherein the second namespace is a secure namespace that can only be read through requests transmitted through the second interface.",
+  "patent_id": "US12379877-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0659",
+      "G06F 3/0622",
+      "G06F 3/064",
+      "G06F 3/0679"
+    ],
+    "all": [
+      "G06F 3/0659",
+      "G06F 3/0622",
+      "G06F 3/064",
+      "G06F 3/0679"
+    ],
+    "source": "converted"
+  }
+}

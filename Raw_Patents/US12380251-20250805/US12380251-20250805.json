@@ -1,0 +1,38 @@
+{
+  "title": "Authentication of medical device computing systems by using metadata signature",
+  "abstract": "Computer code embedded in an electronic component a medical device, such as a dialysis machine, can be authenticated by comparing a metadata signature derived from the computer code of the electronic component to a key derived from a pre-authenticated code associated with the electronic component. The metadata signature can be derived by running an error-check/error-correct algorithm (e.g., SHA256) on the computer code of the electronic component. A use of the metadata signature enables detection of any unauthorized changes to the computer code as compared to the pre-authenticated code.",
+  "claims": "1. A method implemented by a security authentication engine (SAE) of a computing system, the method comprising: receiving a metadata signature from an electronic component of the computing system; generating first encrypted metadata based on the metadata signature received from the electronic component; and in response to determining that the first encrypted metadata is substantially different from a first key that is associated with the electronic component and is stored in the SAE, blocking operation of the electronic component from which the metadata signature was received; and storing, in a permanent memory, authentication failure information and error source information associated with the electronic component.",
+  "patent_id": "US12380251-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/73",
+      "G06F 21/70",
+      "G06F 21/71",
+      "G06F 21/76",
+      "H04L 9/0819",
+      "H04L 9/0861",
+      "H04L 9/0894",
+      "H04L 9/14",
+      "G06F 21/30",
+      "G06F 21/57",
+      "H04L 9/0866",
+      "H04L 63/0876"
+    ],
+    "all": [
+      "G06F 21/73",
+      "G06F 21/70",
+      "G06F 21/71",
+      "G06F 21/76",
+      "H04L 9/0819",
+      "H04L 9/0861",
+      "H04L 9/0894",
+      "H04L 9/14",
+      "G06F 21/30",
+      "G06F 21/57",
+      "H04L 9/0866",
+      "H04L 63/0876"
+    ],
+    "source": "converted"
+  }
+}

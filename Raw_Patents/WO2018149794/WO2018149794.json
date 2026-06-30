@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2018149794",
+  "application_id_fs": "WO2018149794",
+  "title": "Method and device to produce a secure hash value",
+  "abstract": "The generation of hash values become popular with the storage of pin code by an authentication server, since the authentication server knows only the result of the hash function and not the pin code itself. Each time an authentication is requested, a hash function is executed on the received pin code and then compared with the stored reference hash value of the initial pin code. In order to improve the security of the hash value, it is proposed a method to produce a secure hash value (R) from a plaintext (P), said method comprising : - producing a first result (H) using an hash function of the plaintext (P), - obtaining an initial floating value (U0) by converting the first result (H) into a floating number representation of the first value (H), - updating a floating value (Un) by executing at least once a Transcendental function (TF) on the initial floating value (Un-1), - obtaining the secure hash value (R) by mixing the first result (H) with the updated floating value (Un).",
+  "claims": "Claims Claims 1. A method to produce a secure hash value (R) from a plaintext (P), characterised in that said method comprising : - producing a first result (H) using an hash function of the plaintext (P), - obtaining an initial floating value (U0) by converting the first result (H) into a floating number representation of the first value (H), - updating a floating value (Un) by executing at least once a Transcendental function (TF) on the initial floating value (Un-1), - obtaining the secure hash value (R) by mixing the first result (H) with the updated floating value (Un). 2. The method of claim 1, characterised in that the updating further comprises the execution of at least one Transcendental function of a first type (TFl) and at least one Transcendental function of a second type (TF2). 3. The method of claim 2, characterised in that the at least one Transcendental function of a first type (TFl) and the at least one Transcendental function of a second type (TF2) are executed in series, the result of the Transcendental function of the first type (TFl) being applied to the Transcendental function of the second type (TF2). 4. The method of claim 2, characterised in that the at least one Transcendental function of a first type (TFl) and the at least one Transcendental function of a second type (TF2) are executed in parallel, the result of the Transcendental function of a first type (TFl) being mixed with the result of the Transcendental function of a second type (TF2) to obtain the updated floating value (Un). 5. The method of any of the claims 1 to 4, characterised in that the secure hash value (R) is produced on a multi-cores processor, each core producing a single core floating value by executing at least once a Transcendental function (F) on the initial floating value (U0), further comprising the step of mixing the first result (H) and the results obtained on each core to obtain the secured hash value (R). 6. The method of any of the claims 1 to 5, characterised in that the Transcendental function is an exponential function, a logarithm function or a trigonometric function. 7. A Computing Device (400) comprising a processor (402) and a memory (404), said memory comprising an executable program, that, while executed by the processor (402), carries out the method of one of the claims 1 to 6. 8. The Computing Device (400) of the claim 7, wherein the processor (402) comprises a plurality of cores (Core 1... Core 4), each core being configured to produce a single core floating value by executing at least once a Transcendental function (F) on the initial floating value (U0), and further configured to mix the first result (H) and the results obtained on each core to obtain the secured hash value (R).",
+  "classifications": {
+    "ipc": [
+      "H04L 9/00",
+      "H04L 9/06",
+      "H04L 9/0643",
+      "G06F 21/00",
+      "G06F 21/30",
+      "G06F 21/44",
+      "G06F 21/60",
+      "G06F 21/64",
+      "G06F 7/00",
+      "G06F 7/38",
+      "G06F 7/48",
+      "G06F 7/544",
+      "G06F 7/548",
+      "G06F 7/556",
+      "H04L 9/32",
+      "H04L 9/3236"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 9/00",
+      "H04L 9/06",
+      "H04L 9/0643",
+      "G06F 21/00",
+      "G06F 21/30",
+      "G06F 21/44",
+      "G06F 21/60",
+      "G06F 21/64",
+      "G06F 7/00",
+      "G06F 7/38",
+      "G06F 7/48",
+      "G06F 7/544",
+      "G06F 7/548",
+      "G06F 7/556",
+      "H04L 9/32",
+      "H04L 9/3236"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018149794"
+}

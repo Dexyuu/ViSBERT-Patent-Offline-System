@@ -1,0 +1,24 @@
+{
+  "title": "Warping depth features for depth estimation",
+  "abstract": "System, methods, and other embodiments described herein relate to an improved approach to training a depth model for monocular depth estimation by warping depth features prior to decoding. In one embodiment, a method includes encoding, using an encoder of a depth model, a source image into depth features of a scene depicted by the source image. The method includes warping the depth features into warped features of a target frame of a target image associated with the source image. The method includes decoding, using a decoder of the depth model, the warped features into a depth map. The method includes training the depth model according to a loss derived from the depth map.",
+  "claims": "1. A depth system, comprising: one or more processors; a memory communicably coupled to the one or more processors and storing instructions that, when executed by the one or more processors, cause the one or more processors to: encode, using an encoder of a depth model, a source image into depth features of a scene depicted by the source image, the depth features being intermediate processing results of the depth model; warp the depth features into warped features of a target frame of a target image associated with the source image, wherein the instructions include instructions to warp the depth features between the encoder and a decoder of the depth model, wherein the depth features are encoded state information of the source image embedded into different channels; decode, using the decoder of the depth model, the warped features into a depth map; and train the depth model according to a loss derived from the depth map.",
+  "patent_id": "US12380582-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/579",
+      "G06N 20/00",
+      "G06T 3/18",
+      "G06T 2207/20081",
+      "G06T 2207/30252"
+    ],
+    "all": [
+      "G06T 7/579",
+      "G06N 20/00",
+      "G06T 3/18",
+      "G06T 2207/20081",
+      "G06T 2207/30252"
+    ],
+    "source": "converted"
+  }
+}

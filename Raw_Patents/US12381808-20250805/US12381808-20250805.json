@@ -1,0 +1,18 @@
+{
+  "title": "Techniques for providing role status conflict resolution with EVPN multi-homing",
+  "abstract": "Techniques are described herein for resolving conflicts in role statuses assigned to a customer edge device by multiple provider edge devices in communication with that customer edge device. In embodiments, such techniques may involve receiving information about a customer edge device in communication with the first provider edge device and storing, based on the information about the customer edge device, an indication of a first role status of the customer edge device. The techniques may further involve receiving, from at least one second provider edge device in communication with the customer edge device, an advertisement message that includes a second role status of the customer edge device, comparing the first role status to the second role status, and upon determining that the first role status does not match the second role status, updating the first role status of the customer edge device.",
+  "claims": "1. A method comprising: receiving, at a first provider edge device, information about a customer edge device in communication with the first provider edge device; storing, by the first provider edge device based on the information about the customer edge device, an indication of a first role status of the customer edge device; receiving, by the first provider edge device from a second provider edge device in communication with the customer edge device, an advertisement message that includes a second role status associated with the second provider edge device in relation to the customer edge device; comparing, by the first provider edge device, the first role status to the second role status; and upon determining that the first role status does not match the second role status: if the second role status is a leaf role and the first role status is a root role, updating, by the first provider edge device, the first role status of the customer edge device to be a leaf role; and if the second role status is a root role status and the first role status is a leaf role, generating a second advertisement message indicating the first role status; and transmitting the second advertisement message to the second provider edge device to cause the second provider edge to update the second role status to a leaf role.",
+  "patent_id": "US12381808-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 45/02",
+      "H04L 45/74"
+    ],
+    "all": [
+      "H04L 45/02",
+      "H04L 45/74"
+    ],
+    "source": "converted"
+  }
+}

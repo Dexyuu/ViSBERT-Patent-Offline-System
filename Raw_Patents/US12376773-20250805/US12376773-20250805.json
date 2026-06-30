@@ -1,0 +1,36 @@
+{
+  "title": "Systems and methods for optical evaluation of pupillary psychosensory responses",
+  "abstract": "The present disclosure is directed to systems and methods for measuring and analyzing pupillary psychosensory responses. An electronic device is configured to receive video data with at least two frames. The electronic device then locates one or more eye objects in the video data and determine pupil and iris sizes of the one or more eye objects. The electronic device determines the pupillary psychosensory responses of the one or more eye objects by tracking a ratio of pupil diameter to iris diameter throughout the video. Several metrics for the pupillary psychosensory responses can be determined (e.g., velocity of change of the ratio, peak to peak amplitude of the change in ratio over time, etc.). These metrics can be used as measures of an individual's cognitive ability and mental health in a single session or tracked throughout multiple sessions.",
+  "claims": "1. An electronic device for evaluating pupillary psychosensory response, the electronic device comprising a processor and a non-transitory computer readable medium with computer-executable instructions stored thereon, such that when the instructions are executed the electronic device is configured to: receive video data for multiple sessions, the video data for each of the multiple sessions comprising at least two frames; locate, for each of the multiple sessions, one or more eye objects in a first frame of the at least two frames; extract, for each of the multiple sessions, within the first frame, a corresponding iris object for each of the one or more eye objects; extract, for each of the multiple sessions, within the first frame, a corresponding pupil object for each of the one or more eye objects; compute, for each of the multiple sessions, a first set of indexes for the one or more eye objects located in the first frame, the first set of indexes being a first set of pupil-to-iris ratios; compute, for each of the multiple sessions, subsequent sets of pupil-to-iris ratios for subsequent frames of the at least two frames, each of the subsequent sets of pupil-to-iris ratios pertaining to the one or more eye objects located in the first frame and also in each of the subsequent frames; and determine, for each of the multiple sessions, the pupillary psychosensory response based at least in part on the first set of pupil-to-iris ratios and the subsequent sets of pupil-to-iris ratios; determine a trend based at least in part on the pupillary psychosensory responses for the multiple sessions; and determine that the trend indicates cognitive decline over the multiple sessions based at least in part on a reduction of amplitude of peak-to-peak difference over the multiple sessions.",
+  "patent_id": "US12376773-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 5/163",
+      "A61B 3/112",
+      "A61B 3/1216",
+      "A61B 3/145",
+      "A61B 5/4088",
+      "A61B 5/7275",
+      "G06T 7/0016",
+      "G06V 40/193",
+      "G06T 2207/10016",
+      "G06T 2207/20081",
+      "G06T 2207/30041"
+    ],
+    "all": [
+      "A61B 5/163",
+      "A61B 3/112",
+      "A61B 3/1216",
+      "A61B 3/145",
+      "A61B 5/4088",
+      "A61B 5/7275",
+      "G06T 7/0016",
+      "G06V 40/193",
+      "G06T 2207/10016",
+      "G06T 2207/20081",
+      "G06T 2207/30041"
+    ],
+    "source": "converted"
+  }
+}

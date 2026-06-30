@@ -1,0 +1,26 @@
+{
+  "title": "Systems and methods of computer vision-based tamper detection of camera systems",
+  "abstract": "Systems and methods in accordance with the present disclosure relate to an image capture device to perform computer vision-based tamper detection of the image capture device. A system can use a light source, such as an infrared LED, to illuminate an image captured by the image capture device, which can be used to validate error conditions, such as tamper events. For example, the LED-illuminated image can be compared with an image captured while the LED is off to distinguish tamper events or other error condition events from false positives. The tamper detection can be performed to filter initial error detections, such as error detections performed using edge detection or other computer vision operations, that may be susceptible to false positives.",
+  "claims": "1. A camera system, comprising: at least one image capture device; at least one light source coupled with the at least one image capture device; and one or more processors configured to: detect an error condition based on one or more first images captured by the at least one image capture device; and responsive to detecting the error condition: retrieve a second image captured by the at least one image capture device and a third image captured by the at least one image capture device, the second image associated with the at least one light source being in an off state, the third image associated with the at least one light source being in an on state; determine that the error condition is valid based on a comparison of image data of the second image with image data of the third image; and output an indication of the error condition responsive to determining that the error condition is valid.",
+  "patent_id": "US12380546-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/0002",
+      "G06T 7/13",
+      "H04N 23/56",
+      "G06T 2200/24",
+      "G06T 2207/10152",
+      "G06T 2207/20092"
+    ],
+    "all": [
+      "G06T 7/0002",
+      "G06T 7/13",
+      "H04N 23/56",
+      "G06T 2200/24",
+      "G06T 2207/10152",
+      "G06T 2207/20092"
+    ],
+    "source": "converted"
+  }
+}

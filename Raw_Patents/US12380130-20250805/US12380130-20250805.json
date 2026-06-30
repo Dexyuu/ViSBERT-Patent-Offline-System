@@ -1,0 +1,26 @@
+{
+  "title": "Recovery from loss of leader during asynchronous database transaction replication",
+  "abstract": "A lead-sync log record is used to synchronize the replication logs of follower shards to the leader shard. In response to a failure to determine that there is a consensus for a database transaction commit operation after a shard server becomes a new leader, the new leader shard performs a sync operation using the lead-sync log record to synchronize replication logs of the follower shards to the replication log of the new leader. A shard server identifies a first transaction having a first log record but not a post-commit log record in the replication log, defines a recovery window in the replication log starting at the first log record of the identified first transaction and ending at the lead-sync log record, identifies a set of transactions to be recovered, and performs a recovery action on the set of transactions to be recovered.",
+  "claims": "1. A method comprising: for a transaction in a replication log in a database shard server for which a commit operation has been initiated, determining, by the database shard server, whether there is consensus for the commit operation based on the replication log in the database shard server, wherein: the replication log is for a replication unit of chunks of a database, an old leader of the replication unit initiated the commit operation, the old leader of the replication unit has failed, the database shard server is a new leader of the replication unit; and the database shard server fails to determine that there is consensus for the commit operation; in response to the database shard server failing to determine that there is consensus for the commit operation, generating, by the database shard server, a lead-sync log record and sending the lead-sync log record to one or more follower shards of the replication unit to perform a sync operation to synchronize replication logs of the one or more follower shards to the replication log of the database shard server; and determining, by the database shard server, whether there is consensus for the lead-sync log record among the one or more follower shards; in response to determining that there is consensus for the lead-sync log record, completing the commit operation on the transaction, and in response to determining that there is not consensus for the lead-sync log record, rolling back the transaction, wherein the method is performed by one or more computing devices.",
+  "patent_id": "US12380130-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/273",
+      "G06F 11/1469",
+      "G06F 16/2282",
+      "G06F 16/2343",
+      "G06F 16/2379",
+      "G06F 2201/80"
+    ],
+    "all": [
+      "G06F 16/273",
+      "G06F 11/1469",
+      "G06F 16/2282",
+      "G06F 16/2343",
+      "G06F 16/2379",
+      "G06F 2201/80"
+    ],
+    "source": "converted"
+  }
+}

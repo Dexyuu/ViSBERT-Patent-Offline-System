@@ -1,0 +1,24 @@
+{
+  "title": "Image encoding/decoding method and device",
+  "abstract": "The present invention relates to an image encoding/decoding method and device. In an image decoding method and device according to an embodiment of the present invention, a reconstructed pixel region within an image to which a current block to be decoded belongs is selected; a motion vector of the reconstructed pixel region is derived on the basis of the reconstructed pixel region and a reference image of the current block; and the derived motion vector is selected as a motion vector of the current block.",
+  "claims": "1. A method of decoding an image, performed by an image decoding device, comprising: deriving a motion vector of a current block in a current picture by motion search based on a first reconstructed pixel region ( 52 ) for inter prediction of the current block, the first reconstructed pixel region being reconstructed before the current block and being adjacent to the current block; and generating, based on the motion vector of the current block, a prediction block of the current block by performing the inter prediction of the current block, wherein deriving the motion vector of the current block in the image by the motion search comprises: obtaining a second reconstructed pixel region ( 54 ) through the motion search within a search range based on the first reconstructed pixel region; and deriving, based on a displacement between the second reconstructed pixel region and a temporary region ( 56 ) in a reference picture of the current block, the motion vector, the temporary region is obtained based on the first reconstructed pixel region of the current picture, wherein the search range is a pre-defined range in the image decoding device and is a partial region within the reference picture, wherein decoder-side motion vector derivation (DMVD) indication information indicates whether to perform the inter prediction to derive the motion vector of the current block by the motion search based on the reconstructed pixel region, is defined in units of blocks, wherein the DMVD indication information is dependent on first information indicating whether or not the inter prediction using the reconstructed pixel region is enabled, wherein, in response to the first information being TRUE, whether to perform the inter prediction to derive the motion vector of the current block by the motion search is determined based on the DMVD indication information, wherein, in response to the first information being FALSE, the inter prediction to derive the motion vector of the current block by the motion search is not performed, and wherein the first information is defined in units of pictures and is signaled from a picture header of a bitstream.",
+  "patent_id": "US12382063-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/159",
+      "H04N 19/124",
+      "H04N 19/176",
+      "H04N 19/45",
+      "H04N 19/52"
+    ],
+    "all": [
+      "H04N 19/159",
+      "H04N 19/124",
+      "H04N 19/176",
+      "H04N 19/45",
+      "H04N 19/52"
+    ],
+    "source": "converted"
+  }
+}

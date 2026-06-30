@@ -1,0 +1,22 @@
+{
+  "title": "Degradation planning and mitigation in hybrid cloud environments",
+  "abstract": "A computer program product comprises a computer readable storage medium having program instructions embodied therewith. The program instructions are executable by one or more processors to cause the one or more processors to construct an interaction graph based in part on a distributed application of a cloud platform comprised of a plurality of services; extract one or more sub-graphs from the interaction graph by mining the interaction graph using one or more feasibility validation tests; estimate a resource pressure metric for the one or more sub-graphs, wherein the resource pressure metric is at least one of a prospective resource pressure metric and a retrospective resource pressure metric, the resource pressure metric being associated with each service on one or more respective dependent services; construct a degradation plan for a least-cost sub-graph in accordance with the estimated resource pressure metric; and apply the degradation plan to the distributed application and the cloud platform.",
+  "claims": "1. A computer program product comprising a non-transitory computer readable storage medium having program instructions embodied therewith, the program instructions executable by one or more processors to cause the one or more processors to: construct an interaction graph based in part on a distributed application of a cloud platform comprised of a plurality of services by probing, monitoring and mining interactions from the distributed application; extract one or more sub-graphs from the interaction graph by mining the interaction graph using one or more feasibility validation tests, the one or more feasibility validation tests comprising: generating a test case for a target service of the plurality of services of the distributed application; generating a plurality of calls corresponding to the plurality of services of the distributed application to activate the plurality of services for the test case; and removing one or more of the plurality of services from the interaction graph based on the test case passing without the one or more of the plurality of services being activated; estimate a resource pressure metric for the one or more sub-graphs, wherein the resource pressure metric is based on a prospective resource pressure metric and a retrospective resource pressure metric, the resource pressure metric being associated with each service on one or more respective dependent services, the estimating comprising: generating a control flow graph for each service of a given sub-graph of the one or more sub-graphs, the control flow graph comprising a resource consumption metric for the service; and activating a control path for each interacting service pair of the sub-graph, the control path comprising an interacting service pair resource consumption metric for each interacting service pair of the sub-graph; construct a degradation plan for a least-cost sub-graph in accordance with the estimated resource pressure metric, the degradation plan comprising one or more strategies encoded in tuples to enact deployment and application of the degradation plan; and deploy and monitor the degradation plan and, wherein a triggering event occurs, apply the degradation plan to the distributed application and the cloud platform.",
+  "patent_id": "US12379967-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/505",
+      "G06F 9/5077",
+      "G06F 11/301",
+      "G06F 11/3495"
+    ],
+    "all": [
+      "G06F 9/505",
+      "G06F 9/5077",
+      "G06F 11/301",
+      "G06F 11/3495"
+    ],
+    "source": "converted"
+  }
+}

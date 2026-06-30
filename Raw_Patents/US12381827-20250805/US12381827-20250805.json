@@ -1,0 +1,20 @@
+{
+  "title": "Data sending method and communication apparatus",
+  "abstract": "A method includes determining a first data sending rate based on multiple round-trip times (RTTs), where the multiple RTTs include RTTs of a plurality of first probe packets sent at different sending rates, and the first sending rate is a sending rate corresponding to an RTT that is in the multiple RTTs and that is less than a first preset threshold; determining a second sending rate based on a plurality of packet loss rates, where the packet loss rates include packet loss rates of a plurality of second probe packets sent at different sending rates, and the second sending rate is a sending rate corresponding to a packet loss rate that is less than a second preset threshold; and sending a third probe packet at a third sending rate.",
+  "claims": "1. A method comprising: determining a first sending rate based on multiple round-trip times (RTTs) of first probe packets sent at different sending rates, wherein the first sending rate corresponds to a first RTT that is in the multiple RTTs and that is less than a first preset threshold; determining a second sending rate based on packet loss rates of second probe packets sent at different sending rates, wherein the second sending rate corresponds to a first packet loss rate that is in the packet loss rates and that is less than a second preset threshold; and",
+  "patent_id": "US12381827-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 47/283",
+      "H04L 47/25",
+      "H04L 47/263"
+    ],
+    "all": [
+      "H04L 47/283",
+      "H04L 47/25",
+      "H04L 47/263"
+    ],
+    "source": "converted"
+  }
+}

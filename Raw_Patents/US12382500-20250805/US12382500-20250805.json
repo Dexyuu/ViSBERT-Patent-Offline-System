@@ -1,0 +1,16 @@
+{
+  "title": "User equipment and control method",
+  "abstract": "A user equipment includes a transmitting unit configured to transmit a message in a random access procedure by using a preamble resource and a PUSCH resource, and a control unit configured to start a time window for monitoring a random access response after a resource that is one of the preamble resource and the PUSCH resource whichever ends later in time domain.",
+  "claims": "1. A terminal comprising: a transmission unit configured to transmit a preamble and a PUSCH as a message in a 2 step random access procedure; a control unit configured to start a time window for detecting a response message for the message, from a first symbol of a first control resource set after a last symbol of a resource of the preamble or the PUSCH; and a reception unit configured to receive the response message during the time window, wherein the control unit is configured to calculate a first value of an identifier in the response message of the 4 step random access procedure, and configured to calculate a second value of an identifier in the response message of the 2 step random access procedure, the first value being different from the second value.",
+  "patent_id": "US12382500-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 74/0833"
+    ],
+    "all": [
+      "H04W 74/0833"
+    ],
+    "source": "converted"
+  }
+}

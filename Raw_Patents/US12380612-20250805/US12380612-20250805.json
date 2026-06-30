@@ -1,0 +1,22 @@
+{
+  "title": "Method, apparatus, and device for processing images, and storage medium",
+  "abstract": "Provided is a method for processing images. In the method, upon acquiring projection data of an object to be detected, a parsed image is acquired by performing parsing reconstruction on the projection data by calling a first image processing unit. Then a first registered image is acquired by registering the parsed image and a reference image by calling a second image processing unit, and an iterated image is acquired by performing iterative reconstruction on the projection data by calling the first image processing unit.",
+  "claims": "1. A method for processing images, applicable to a device for processing images comprising a first image processing unit and a second image processing unit, the method comprising: acquiring projection data of an object to be detected; acquiring, by the first image processing unit, a parsed image by performing parsing reconstruction on the projection data; and acquiring, by the second image processing unit, a first registered image by registering the parsed image and a reference image, and acquiring, by the first image processing unit, an iterated image by performing iterative reconstruction on the projection data; wherein a process of iterative reconstruction and a process of registration are performed in parallel, wherein the device for processing the images further comprises an image displaying unit, and upon acquiring, by the second image processing unit, the first registered image by registering the parsed image and the reference image, the method further comprises: displaying the first registered image on the image displaying unit.",
+  "patent_id": "US12380612-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 11/008",
+      "G06T 7/30",
+      "G06T 2210/52",
+      "G06T 2211/424"
+    ],
+    "all": [
+      "G06T 11/008",
+      "G06T 7/30",
+      "G06T 2210/52",
+      "G06T 2211/424"
+    ],
+    "source": "converted"
+  }
+}

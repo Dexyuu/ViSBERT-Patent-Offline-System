@@ -1,0 +1,22 @@
+{
+  "title": "Method for PUCCH resource determination and communication device",
+  "abstract": "A method for PUCCH resource determination and a communication device are provided. The method includes: determining a PUCCH resource and determining a sub-slot where a PUCCH is to be transmitted; and determining a resource used for transmitting the PUCCH in the sub-slot according to the PUCCH resource.",
+  "claims": "1. A method for physical uplink control channel (PUCCH) resource determination, comprising: determining a PUCCH resource, and determining a sub-slot where a PUCCH is to be transmitted; and determining, according to the PUCCH resource, a resource used for transmitting the PUCCH in the sub-slot; wherein the determining, according to the PUCCH resource, the resource used for transmitting the PUCCH in the sub-slot comprises: determining the resource used for transmitting the PUCCH in the sub-slot according to at least one of a start symbol index of a PUCCH or the quantity of PUCCH occupation symbols of the PUCCH resource; wherein the determining the resource used for transmitting the PUCCH in the sub-slot according to at least one of the start symbol index of the PUCCH or the quantity of the PUCCH occupation symbols of the PUCCH resource comprises: according to the start symbol index of the PUCCH and the quantity of the PUCCH occupation symbols of the PUCCH resource and a start symbol of the sub-slot, determining that the resource used for transmitting the PUCCH in the sub-slot comprises: L symbols starting from a symbol with an index of (s+j) in a slot containing the sub-slot, wherein s is the start symbol index of the PUCCH, s is numbered from 0, the start symbol of the sub-slot has an index of i in the slot, i is numbered from 0, and L is the quantity of the PUCCH occupation symbols.",
+  "patent_id": "US12382429-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/02",
+      "H04W 72/0446",
+      "H04W 72/21",
+      "H04W 72/542"
+    ],
+    "all": [
+      "H04W 72/02",
+      "H04W 72/0446",
+      "H04W 72/21",
+      "H04W 72/542"
+    ],
+    "source": "converted"
+  }
+}

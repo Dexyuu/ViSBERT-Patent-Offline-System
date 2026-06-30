@@ -1,0 +1,22 @@
+{
+  "title": "Analyzing files using a kernel mode of a virtual machine",
+  "abstract": "A method includes receiving, by a computerized system, a file in network traffic to an enterprise system. The computerized system identifies data associated with the file. The computerized system receives a policy based on the data associated with the file for an event of the file. The computerized system executes the file in a user mode of a virtual machine. A driver in a kernel mode of the virtual machine analyzes the event of the file based on the policy during the executing of the file. When the event violates the policy, the computerized system denies an entry of the file to the enterprise system.",
+  "claims": "1. A method comprising: receiving, by a computerized system, a file in network traffic to an enterprise system; identifying, by the computerized system, data associated with the file; receiving, by the computerized system, a policy based on the data associated with the file for an event of the file; executing, by the computerized system, the file in a user mode of a virtual machine; analyzing, by a driver in a kernel mode of the virtual machine, the event of the file based on the policy during the executing of the file, wherein the driver monitors and modifies system calls in real-time based on the policy to prevent unauthorized actions before they complete; determining, by the driver in the kernel mode, in real-time, when the event violates the policy; and when the event violates the policy, denying, by the computerized system, an entry of the file to the enterprise system.",
+  "patent_id": "US12380210-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/565",
+      "G06F 9/45558",
+      "G06F 21/53",
+      "G06F 2221/034"
+    ],
+    "all": [
+      "G06F 21/565",
+      "G06F 9/45558",
+      "G06F 21/53",
+      "G06F 2221/034"
+    ],
+    "source": "converted"
+  }
+}

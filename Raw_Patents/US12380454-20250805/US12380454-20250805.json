@@ -1,0 +1,22 @@
+{
+  "title": "System, method, and computer program product for generating synthetic data",
+  "abstract": "Provided are a method, system, and computer program product for generating synthetic data. The method includes generating a correlation graph of a plurality of data types based on a plurality of correlations. The method also includes generating a directed acyclic graph of the plurality of data types based on the correlation graph. The method further includes traversing the directed acyclic graph to produce a hierarchical graph of the plurality of data types, wherein the hierarchical graph includes a plurality of nodes, and wherein each node of the plurality of nodes is associated with a data type of the plurality of data types. The method further includes generating synthetic training data including a plurality of records of data by repeatedly traversing the hierarchical graph and based on a plurality of sets of values and a plurality of sets of interdependencies.",
+  "claims": "1. A computer-implemented method for generating synthetic training data comprising: receiving, with at least one processor, a plurality of data types associated with an environment to be evaluated; receiving, with at least one processor, a plurality of correlations, each correlation of the plurality of correlations comprising a dependency of one data type of the plurality of data types on another data type of the plurality of data types; generating, with at least one processor, a correlation graph of the plurality of data types based on the plurality of correlations; generating, with at least one processor, a directed acyclic graph of the plurality of data types based on the correlation graph; repeatedly traversing, with at least one processor, the directed acyclic graph to generate a hierarchical graph of the plurality of data types, the hierarchical graph comprising a plurality of nodes arranged in a plurality of tiers defined by a path length of nodes resulting from the traversals, wherein each node of the plurality of nodes is associated with a data type of the plurality of data types, wherein each node of the hierarchical graph is connected to a subsequent node according to an ordered dependency; generating, with at least one processor, synthetic training data comprising a plurality of records of data by repeatedly traversing the hierarchical graph in accordance with the ordered dependency, wherein each record is based on a set of values determined at each node of the hierarchical graph, a set of probabilities associated with the set of values, and a set of interdependencies, wherein each set of values is associated with a data type of the plurality of data types, wherein each set of interdependencies is associated with a connected pair of nodes in the hierarchical graph, wherein each set of probabilities is associated with a set of interdependencies between the individual probabilities of one value of one data type and the probabilities of a subsequent connected data type; training, with at least one processor, at least one machine learning model of a fraud detection system using the synthetic training data; receiving, with at least one processor, an authorization request associated with a transaction between a merchant system and a payment device; and during payment processing of the transaction: generating, with at least one processor, a fraud evaluation of the transaction based on inputting at least a portion of the authorization request to the at least one machine learning model; and declining, with at least one processor, the authorization request based on the fraud evaluation.",
+  "patent_id": "US12380454-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/4016",
+      "G06F 16/9024",
+      "G06N 20/00",
+      "G06Q 20/4014"
+    ],
+    "all": [
+      "G06Q 20/4016",
+      "G06F 16/9024",
+      "G06N 20/00",
+      "G06Q 20/4014"
+    ],
+    "source": "converted"
+  }
+}

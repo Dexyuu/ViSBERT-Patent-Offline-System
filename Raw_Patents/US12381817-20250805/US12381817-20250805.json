@@ -1,0 +1,22 @@
+{
+  "title": "Service demand-driven routing scheduling and dynamic selection method and system for active distribution network",
+  "abstract": "Disclosed are a service demand-driven routing scheduling and dynamic selection method and system for active distribution network. The method includes: evaluating a physical importance index and an information importance index of each service traffic according to a physical influence and an information demand of each issued service traffic, comprehensively taking into account the physical importance index and the information importance index to obtain a comprehensive importance index, and ranking the comprehensive importance index to obtain a ranked service traffic set; quantizing the real-time performance and the reliability of a route link and generating a route distance matrix; inputting the ranked service traffic set and the route distance matrix into a route scheduling optimization model, and generating a route scheduling scheme of the overall service traffic based on a principle of service traffic importance and route path performance matching.",
+  "claims": "1. A service demand-driven routing scheduling and dynamic selection method for an active distribution network, wherein the method comprises: evaluating a physical importance index and an information importance index of each service traffic according to a physical influence and an information demand of each issued service traffic; comprehensively taking into account the physical importance index and the information importance index to obtain a comprehensive service traffic importance index; ranking the comprehensive service traffic importance index to obtain a ranked service traffic set; quantizing the real-time performance and the reliability of each route link and generating a route distance matrix; inputting the ranked service traffic set and the route distance matrix into a pre-constructed route scheduling optimization model, and generating an optimal route scheduling scheme of the overall service traffic based on a principle of service traffic importance and route path performance matching; and scheduling, by a lower router, the traffic according to the optimal route scheduling scheme; wherein evaluating a physical importance index and an information importance index of each service traffic according to a physical influence and an information demand of each issued service traffic comprises: using an improved gravity centrality method to evaluate a physical importance, wherein an original gravity centrality formula is:",
+  "patent_id": "US12381817-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 45/70",
+      "H04L 47/24",
+      "H04L 49/101",
+      "H04W 40/02"
+    ],
+    "all": [
+      "H04L 45/70",
+      "H04L 47/24",
+      "H04L 49/101",
+      "H04W 40/02"
+    ],
+    "source": "converted"
+  }
+}

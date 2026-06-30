@@ -1,0 +1,34 @@
+{
+  "title": "Storage battery apparatus",
+  "abstract": "According to one embodiment, a storage battery apparatus comprising: a plurality of storage battery modules, each of which includes a battery module and a first wireless communication module transmitting and receiving a radio wave based on a BLE standard; and a battery management unit which includes a plurality of second wireless communication modules transmitting and receiving a radio wave based on the BLE standard, and an arithmetic processing apparatus controlling operation of the second wireless communication modules, wherein the arithmetic processing apparatus establishes communication between the battery management unit and the storage battery modules in unit of groups each including at least one of the storage battery modules.",
+  "claims": "1. A storage battery apparatus comprising: a plurality of storage battery modules, each of which includes a battery module including a plurality of battery cells, a first wireless communication module configured to transmit and receive a radio wave based on a BLE standard, and a cell monitoring unit configured to measure a voltage of the battery cell and a temperature of at least one portion of the battery module and control operation of the first wireless communication module; and a battery management unit which includes a plurality of second wireless communication modules configured to transmit and receive a radio wave based on the BLE standard, and an arithmetic processing apparatus configured to control operation of the second wireless communication modules, wherein the arithmetic processing apparatus is configured to divide the plurality of storage battery modules into a plurality of groups each including at least one of the storage battery modules, and to establish communication between the battery management unit and the storage battery modules in unit of the group according to an external command, wherein the plurality of groups includes a first group and a second group, and the arithmetic processing apparatus is further configured to establish connections with the storage battery modules by receiving an advertisement packet as an observer after transmitting an advertisement packet which requests a connection as a broadcaster, and to start operation of connections with the storage battery modules included in the second group after communication with all the storage battery modules included in the first group is established.",
+  "patent_id": "US12381265-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H01M 10/482",
+      "G01K 13/00",
+      "G01R 31/3842",
+      "G01R 31/396",
+      "H01M 10/425",
+      "H01M 10/486",
+      "H02J 13/00026",
+      "H04W 4/80",
+      "H01M 2010/4271",
+      "H01M 2010/4278"
+    ],
+    "all": [
+      "H01M 10/482",
+      "G01K 13/00",
+      "G01R 31/3842",
+      "G01R 31/396",
+      "H01M 10/425",
+      "H01M 10/486",
+      "H02J 13/00026",
+      "H04W 4/80",
+      "H01M 2010/4271",
+      "H01M 2010/4278"
+    ],
+    "source": "converted"
+  }
+}

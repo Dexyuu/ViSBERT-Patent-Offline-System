@@ -1,0 +1,18 @@
+{
+  "title": "Image signal encoding/decoding method and non-transitory computer-readable medium",
+  "abstract": "An image decoding method according to the present disclosure comprises the steps of: generating a merge candidate list in a current block; specifying one of a plurality of merge candidates included in the merge candidate list; deriving a first affine seed vector and a second affine seed vector of the current block on the basis of a first affine seed vector and a second affine seed vector of the specified merge candidate; deriving an affine vector for a subblock in the current block, using the first affine seed vector and the second affine seed vector of the current block; and performing motion compensation prediction for the subblock on the basis of the affine vector.",
+  "claims": "1. A video decoding method, comprising: in response to that a top boundary of a current block is in contact with a top boundary of a coding tree unit of the current block, obtaining a first affine seed vector of a bottom-left corner control point of a top affine neighboring block of a current block and a second affine seed vector of a bottom-right corner control point of the top affine neighboring block; deriving a third affine seed vector of the current block and a fourth affine seed vector of the current block based on the first affine seed vector and the second affine seed vector of the top affine neighboring block; deriving an affine vector for a subblock in the current block by using the third affine seed vector of the current block and the fourth affine seed vector of the current block, wherein the subblock is a region of a size smaller than that of the current block; and performing a motion compensation prediction for the subblock based on the affine vector.",
+  "patent_id": "US12382083-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/513",
+      "H04N 19/176"
+    ],
+    "all": [
+      "H04N 19/513",
+      "H04N 19/176"
+    ],
+    "source": "converted"
+  }
+}

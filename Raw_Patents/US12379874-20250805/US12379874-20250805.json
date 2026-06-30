@@ -1,0 +1,24 @@
+{
+  "title": "Memory system and method of controlling nonvolatile memory by controlling the writing of data to and reading of data from a plurality of blocks in the nonvolatile memory",
+  "abstract": "A memory system includes a nonvolatile memory including a plurality of blocks and a controller configured to write data to a plurality of write destination blocks allocated from the plurality of blocks. The controller is configured to in response to receiving a read command from a host, increment a first counter value corresponding to a first block having a block address allocated to a logical address of read target data specified by the received read command. The controller is configured to read the read target data from the first block or a buffer depending on whether the read target data is readable from the first block, and decrement the first counter value corresponding to the first block. The controller is configured to prohibit processing for transitioning a state of a block associated with an uncompleted read command to a state reusable as a new write destination block.",
+  "claims": "1. A memory system connectable to a host, comprising: a nonvolatile memory including a plurality of blocks each including a plurality of pages; and a controller configured to write data to a plurality of write destination blocks allocated from the plurality of blocks, wherein the controller is configured to: in response to receiving a read command from the host, increment a first counter value corresponding to a first block having a block address allocated to a logical address of read target data specified by the received read command, wherein the first counter value is among a plurality of first counter values corresponding to the plurality of blocks; read the read target data from a buffer when the read target data is waiting for being written or is being written to the first block, and decrement the first counter value corresponding to the first block after the reading from the buffer has been finished, the buffer being a first buffer in the memory system or a write buffer of the host; and when there is no valid data left in one block among the plurality of blocks, transition a state of the one block to a state reusable as a new write destination block after a first counter value corresponding to the one block among the plurality of first counter values becomes zero.",
+  "patent_id": "US12379874-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0659",
+      "G06F 3/0604",
+      "G06F 3/064",
+      "G06F 3/0656",
+      "G06F 3/0679"
+    ],
+    "all": [
+      "G06F 3/0659",
+      "G06F 3/0604",
+      "G06F 3/064",
+      "G06F 3/0656",
+      "G06F 3/0679"
+    ],
+    "source": "converted"
+  }
+}

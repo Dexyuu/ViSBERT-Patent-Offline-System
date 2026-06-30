@@ -1,0 +1,20 @@
+{
+  "title": "Cloaked user-space file system implemented using an entity data store",
+  "abstract": "A highly secure file system stores and accesses files utilizing familiar hierarchical concepts for file storage (i.e. root directory, directory, file entry data, etc.), while at the same time hiding the actual path to access the desired file. A file may be stored and accessed at a data store node using a Uniform Resource Identifier (URI) path comprising a unique, unidirectional relationship identifier that controls a requesting entity's access to the file system. The URI path may also comprise a âleafâ unique uniform identifier (UUID) derived from linkages between the hierarchical nodes superordinate to the data store node.",
+  "claims": "1. A method of storing files in a file system residing on an information sharing platform, said information sharing platform configured to send and receive data over a network, comprising: connecting an entity to the file system via the network; receiving, at a server connected to the network, a request to establish a relationship between the entity and the file system; assigning a unique, encoded and unidirectional Relationship Distributed Identifier (RDID) for the relationship between the entity and the file system, wherein the RDID being deconstructed by the file system to identify the entity and the relationship parameters between the entity and file system; and requiring the entity to include the RDID in a Uniform Resource Indicator (URI) path in order to store a file on the file system at a data store node location.",
+  "patent_id": "US12380069-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/183",
+      "G06F 16/13",
+      "G06F 16/185"
+    ],
+    "all": [
+      "G06F 16/183",
+      "G06F 16/13",
+      "G06F 16/185"
+    ],
+    "source": "converted"
+  }
+}

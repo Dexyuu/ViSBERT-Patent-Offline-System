@@ -1,0 +1,16 @@
+{
+  "title": "Storage device for outputting interrupt and method of operating the same",
+  "abstract": "A method of operating a storage device includes receiving a clock signal corresponding to a plurality of data bits and an acknowledgement (ACK) signal from a host device through a clock line during a read operation, outputting a data signal including the plurality of data bits from the storage device through a data line during the read operation, generating an interrupt signal when the clock signal is at a low level before outputting the last data bit from among the plurality of data bits, transmitting the interrupt signal to the host device through the data line, and receiving a not-acknowledgment (NACK) signal from the host device through the data line in response to the interrupt signal when there is clock loss of the clock signal.",
+  "claims": "1. A method of operating a storage device, the method comprising: receiving a clock signal corresponding to a plurality of data bits and an acknowledgement (ACK) signal from a host device through a clock line during a read operation; outputting a data signal including the plurality of data bits from the storage device through a data line during the read operation; generating an interrupt signal when the clock signal is at a low level before outputting the last data bit from among the plurality of data bits; transmitting the interrupt signal to the host device through the data line; and receiving a not-acknowledgment (NACK) signal from the host device through the data line in response to the interrupt signal when there is clock loss of the clock signal.",
+  "patent_id": "US12380042-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 13/24"
+    ],
+    "all": [
+      "G06F 13/24"
+    ],
+    "source": "converted"
+  }
+}

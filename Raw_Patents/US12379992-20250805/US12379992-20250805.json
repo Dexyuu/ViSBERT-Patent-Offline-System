@@ -1,0 +1,30 @@
+{
+  "title": "System and method for protecting data",
+  "abstract": "A method, computer program product, and computing system for defining one or more encoded symbols for data included within each of a plurality of memory dies of a memory module to define one or more groups of encoded symbols; generating Reed-Solomon parities for each group of encoded symbols; and recovering one or more portions of the data included within each of the plurality of memory dies of the memory module in the event of data corruption or die failure using one or more of the encoded symbols and the Reed-Solomon parities.",
+  "claims": "1. A computer-implemented method, executed on a computing device, comprising: defining one or more encoded symbols for data included within each of a plurality of memory dies of a memory module to define one or more groups of encoded symbols, wherein the one or more encoded symbols for data included within each of the plurality of memory dies of the memory module includes two 4-bit encoded symbols for data included within each of the plurality of memory dies of the memory module; generating Reed-Solomon parities for each group of encoded symbols, wherein generating the Reed Solomon parities for each group includes generating two distinct Reed-Solomon parities with one Reed-Solomon parity for each of the two groups of 4-bit encoded symbols with one 4-bit symbol available for storing 4-bits of metadata; and recovering one or more portions of the data included within each of the plurality of memory dies of the memory module in the event of data corruption or die failure using one or more of the encoded symbols and the Reed-Solomon parities.",
+  "patent_id": "US12379992-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/1068",
+      "G06F 11/0793",
+      "G06F 11/1072",
+      "G06F 11/1076",
+      "G06F 11/108",
+      "G06F 11/1088",
+      "G06F 11/1092",
+      "G06F 11/1096"
+    ],
+    "all": [
+      "G06F 11/1068",
+      "G06F 11/0793",
+      "G06F 11/1072",
+      "G06F 11/1076",
+      "G06F 11/108",
+      "G06F 11/1088",
+      "G06F 11/1092",
+      "G06F 11/1096"
+    ],
+    "source": "converted"
+  }
+}

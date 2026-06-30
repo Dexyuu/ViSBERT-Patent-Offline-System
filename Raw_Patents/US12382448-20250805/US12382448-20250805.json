@@ -1,0 +1,24 @@
+{
+  "title": "Resource element mapping for high and low priority HARQ-ACK/NACK and channel state information on a physical uplink shared channel",
+  "abstract": "A user equipment maps a high priority hybrid automatic repeat request-acknowledgment/negative acknowledgment (HARQ-ACK/NACK) information to one or more resource elements (REs), and maps one or more of a low priority HARQ-ACK/NACK information, channel state information (CSI), or uplink-shared channel (UL-SCH) data to REs while rate matching around the mapped high priority HARQ-ACK/NACK REs. A network entity receives an uplink transmission, including high and low priority HARQ-ACK/NACK information, CSI, and UL-SCH data mapped to high and low priority HARQ-ACK/NACK REs, CSI REs, and UL-SCH REs, respectively. The low priority HARQ-ACK/NACK REs, the CSI REs, and the UL-SCH REs are rate matched around the high priority HARQ-ACK/N ACK REs. The network entity demaps and decodes the REs of the high and low priority HARQ-ACK/NACK, the CSI, and UL-SCH to obtain the high and low priority HARQ-ACK/NACK information, CSI, and UL-SCH data.",
+  "claims": "1. A method of wireless communication at a user equipment (UE), comprising: obtaining high priority (HP) hybrid automatic repeat request-acknowledgment/negative acknowledgment (HARQ-ACK/NACK) information, low priority (LP) HARQ-ACK/NACK information, channel state information (CSI) comprising LP CSI part 1 and LP CSI part 2 , and uplink-shared channel (UL-SCH) data, wherein the UE has a maximum of four uplink control information (UCI) encoders; dropping the LP CSI part 2 in response to the CSI comprising the LP CSI part 1 and the LP CSI part 2 ; mapping the HP HARQ-ACK/NACK information, the LP HARQ-ACK/NACK information, the LP CSI part 1 , and the UL-SCH data to one or more of each of: HP HARQ-ACK/NACK resource elements (REs), LP HARQ-ACK/NACK REs, LP CSI part 1 REs, and UL-SCH REs, respectively; and rate matching the LP HARQ-ACK/NACK REs, the LP CSI part 1 REs, and the UL-SCH REs around the HP HARQ-ACK/NACK REs the HP HARK-ACK/NACK REs, the LP HARQ-ACK/NACK REs, the LP CSI part 1 REs, and the UL-SCH REs comprising resources in an uplink transmission on a physical uplink shared channel (PUSCH).",
+  "patent_id": "US12382448-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/1268",
+      "H04L 1/0008",
+      "H04L 1/1812",
+      "H04L 5/0055",
+      "H04W 72/569"
+    ],
+    "all": [
+      "H04W 72/1268",
+      "H04L 1/0008",
+      "H04L 1/1812",
+      "H04L 5/0055",
+      "H04W 72/569"
+    ],
+    "source": "converted"
+  }
+}

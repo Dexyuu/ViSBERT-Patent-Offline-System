@@ -1,0 +1,24 @@
+{
+  "title": "Multi-tenant feed and insights platform",
+  "abstract": "A remote monitoring and management (RMM) system is configured to receive a stream of events generated in response to interactions of users from multiple tenants with one or more applications and store the events in a database. A plurality of different insight types is defined for one or more event types for the events. Insights of the different insight types are generated based on the events in the database, the event types of the events, and numbers of events of the event types. The insights are ranked using an artificial intelligence (AI) model trained to generate a predicted success score for each of the insights. A predetermined number of top insights are selected based on the ranking of the insights and aggregated into a feed. The feed is to at least one computing device associated with the RMM system.",
+  "claims": "1. A remote monitoring and management (RMM) system comprising: a processor; and a memory in communication with the processor, the memory comprising executable instructions that, when executed by the processor alone or in combination with other processors, cause the RMM system to perform functions of: receiving a stream of events generated in response to interactions of tenant users with one or more applications running on computing systems supported by the RMM system, the tenant users associated with multiple tenants supported by the RMM system, the RMM system configured to receive input related to information technology (IT)-related services for the multiple tenants; storing the events in a database communicatively coupled to the RMM system; accessing a plurality of different insight types, each of the insight types being associated with one or more event types of the events; generating and ranking multi-tenant insights of the plurality of different insight types using an artificial intelligence (AI) model, the multi-tenant insights being generated based on the events in the database pertaining to the multiple tenants, the event types of the events, and numbers of events of the event types, the AI model being trained to rank the multi-tenant insights based on previously collected technician-specific work data for a plurality of technicians associated with the RMM system and technician-specific feedback data for the plurality of technicians; aggregating a predetermined number of the multi-tenant insights into a multi-tenant insight feed based on the ranking of the multi-tenant insights; communicating the multi-tenant insight feed to a bot programmed to post the multi-tenant insights of the multi-tenant feed to a communication channel of a unified communication system according to a predefined schedule, the communication channel enabling communication and collaboration between users of the RMM system; and using the bot to post the multi-tenant insights to the communication channel according to the predefined schedule.",
+  "patent_id": "US12380148-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/345",
+      "G06F 16/24578",
+      "H04L 41/5022",
+      "H04L 41/5032",
+      "H04L 51/02"
+    ],
+    "all": [
+      "G06F 16/345",
+      "G06F 16/24578",
+      "H04L 41/5022",
+      "H04L 41/5032",
+      "H04L 51/02"
+    ],
+    "source": "converted"
+  }
+}

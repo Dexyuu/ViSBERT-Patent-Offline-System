@@ -1,0 +1,24 @@
+{
+  "title": "Biometric authentication on push notification",
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on a computer storage medium, for transmitting push notification data to a computing device, the push notification data being processable by the computing device to display a push notification, receiving biometric data, the biometric data being provided from user input responsive to the push notification, determining that a user providing the user input is authenticated at least partially based on the biometric data, and inducing execution of a transaction in response to determining that the user is authenticated.",
+  "claims": "1. A computer-implemented method executed by processing circuitry, the method comprising: transmitting, by the processing circuitry in response to initiation of a transaction, push notification data to a computing device while a mobile application of a financial service on the computing device is not open, wherein: the mobile application is configured to receive user authorization to authorize the transaction while the mobile application is open; the push notification data is configured to cause the computing device to display a push notification on an electronic display of the computing device; and the push notification, when displayed on the electronic display, comprises a user interface (UI) element configured to receive an input associated with an approval of the transaction, wherein the input is received via a user interaction with the push notification on the computing device and without opening the mobile application; receiving, by processing circuitry, biometric data collected during the user interaction with the push notification; receiving, by the processing circuitry, heartbeat data from a wearable device different from the computing device in response to receiving the input; determining, by the processing circuitry, that a user providing the input is authenticated at least partially based on the biometric data and the heartbeat data; inducing, by processing circuitry, execution of the transaction in response to determining that the user is authenticated; and transmitting, by the processing circuitry, a notification of the transaction being executed to the computing device.",
+  "patent_id": "US12380451-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/40145",
+      "G06F 21/32",
+      "G06V 40/70",
+      "H04L 63/0861",
+      "H04W 12/06"
+    ],
+    "all": [
+      "G06Q 20/40145",
+      "G06F 21/32",
+      "G06V 40/70",
+      "H04L 63/0861",
+      "H04W 12/06"
+    ],
+    "source": "converted"
+  }
+}

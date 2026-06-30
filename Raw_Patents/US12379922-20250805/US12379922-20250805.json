@@ -1,0 +1,22 @@
+{
+  "title": "Software and/or computing hardware development security through permission profile assessment of a retrieval request for a design dependency tree based on a unique identifier such as an IP address",
+  "abstract": "Disclosed are a method, a device, a system, and/or a manufacture of software and/or computing hardware development security through permission profile assessment of a retrieval request for a design dependency tree based on a unique identifier such as an IP address. In one embodiment, a method includes receiving a request for retrieval of a dependency tree, the request including an IP address associated with the client device and a unique identifier of a root version of the dependency tree. An asserted identity of the client device is validated and a permission profile extracted. A version of a first sub-component of the dependency tree is determined to have a positive authorization status through a database association with the IP address. A restricted tree data is returned, and one or more workfiles associated with the restricted tree data retrieved from a file repository for assembly of a restricted design workspace.",
+  "claims": "1. A method for software and computing hardware development security, the method comprising: receiving a request from a client device for retrieval of a dependency tree of a version of a component, the request comprising an IP address associated with a profile associated with the client device generating the request and the request further comprising a unique identifier of the version of the component as a root version of the dependency tree, wherein the profile is at least one of a user profile and a group profile; validating an asserted identity of the client device by querying the profile; extracting a permission profile associated with the profile; following a first dependency reference stored in a computer memory from the root version to a version of a first sub-component of the component; following a second dependency reference to a version of a second sub-component of the component; determining the version of the first sub-component of the component has a positive authorization status for read access through a database association between a unique identifier of the version of the first sub-component and the IP address; determining the version of the second sub-component of the component has a negative authorization status for read access through a database association between the unique identifier of the second sub-component and the IP address; assembling a restricted tree data stored in a non-transitory computer readable memory comprising the unique identifier of the version of the component and the unique identifier of the version of the first sub-component having the positive authorization status; returning the restricted tree data comprising the unique identifier of the root version and the unique identifier of the version of the first sub-component; retrieving one or more workfiles associated with the restricted tree data from a file repository; and returning the one or more workfiles to the client device for assembly of a restricted instance of a design workspace.",
+  "patent_id": "US12379922-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 8/71",
+      "G06F 8/433",
+      "G06F 16/9027",
+      "G06F 16/903"
+    ],
+    "all": [
+      "G06F 8/71",
+      "G06F 8/433",
+      "G06F 16/9027",
+      "G06F 16/903"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Method and apparatus for surgical procedure simulation based on virtual reality",
+  "abstract": "A method and apparatus for a surgical procedure simulation based on virtual reality (VR) are provided. The method includes generating a virtual three-dimensional (3D) body model corresponding to a body part of a subject of a surgical procedure based on a computed tomography (CT) image and providing a surgical procedure simulation for spinal cord stimulation based on the virtual 3D body model. The providing of the surgical procedure simulation for spinal cord stimulation includes outputting a virtual screen including the virtual 3D body model and a virtual C-arm apparatus, providing a surgical procedure simulation of loss of resistance (LOR) according to a selection of a user wearing the surgical procedure simulation apparatus within the virtual screen, and providing, when the surgical procedure simulation of LOR is completed, a surgical procedure simulation for lead insertion into a virtual spinal cord part included in the virtual 3D body model.",
+  "claims": "1. A method for a surgical procedure simulation based on virtual reality (VR), the method being performed by a surgical procedure simulation apparatus and comprising: receiving a computed tomography (CT) image of a body part of a subject of a surgical procedure; placing the CT image of the body part in a 2D form into a virtual surgical space: generating a stereoscopic image from the CT image of the body part; generating a virtual three-dimensional (3D) body model corresponding to the body part from the stereoscopic image based on portions of the CT image having a Hounsfield unit (HU) value within a predetermined range; and providing a surgical procedure simulation for spinal cord stimulation based on the virtual 3D body model, wherein the providing of the surgical procedure simulation for spinal cord stimulation comprises: outputting a virtual screen comprising the virtual 3D body model and a virtual C-arm apparatus; virtually radiating virtual x-rays generated with a virtual x-ray generator at the virtual 3D body model configured as a set of data slices of the CT image virtually disposed between the virtual x-ray generator and a virtual x-ray sensor; detecting at least one point in the 3D body model at which the virtual x-rays from the virtual x-ray generator meets a portion of the 3D body model based on sensing of the virtual x-rays by the virtual x-ray sensor; generating a virtual X-ray image of the body part based on the detecting the at least one point: outputting the virtual X-ray image to a virtual monitor included in the virtual C-arm apparatus; providing a surgical procedure simulation of loss of resistance (LOR) using a syringe according to a selection of a user wearing the surgical procedure simulation apparatus within the virtual screen; and providing, when the surgical procedure simulation of LOR is completed, a surgical procedure simulation for lead insertion into a virtual spinal cord part included in the virtual 3D body model.",
+  "patent_id": "US12376906-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 34/10",
+      "G09B 9/00",
+      "A61B 2034/104",
+      "A61B 2034/105"
+    ],
+    "all": [
+      "A61B 34/10",
+      "G09B 9/00",
+      "A61B 2034/104",
+      "A61B 2034/105"
+    ],
+    "source": "converted"
+  }
+}

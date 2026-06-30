@@ -1,0 +1,26 @@
+{
+  "title": "Computer service for help desk ticket creation and resolution in a communication platform",
+  "abstract": "Embodiments include a computer implemented method for automatically identifying an issue from a help message received via a chat interface and generating a response for responding to the help message. The method can include receiving response templates that each include a reference to a resource associated with a help topic. The method can also include receiving, from a second user, a help request via the chat interface of a help channel. In response to receiving the help request the method can include parsing the help request to identify a help topic, generating a help desk ticket associated with the help request and generating a response message that includes an information resource associated with the help topic, and sending the response message to the user. In response to the user viewing the information resource and selecting a user interface element, the method can include automatically closing the help desk ticket.",
+  "claims": "1. A computer-implemented method comprising: in response to receiving a first message from a first user in a chat interface of a chat service, prompting a second user for a response on an instance of the chat service operating on a client device, the prompting initiated by the chat service and comprising: extracting a content topic from the first message by analyzing message text contained in the first message; using the extracted content topic, identifying: a response template from a set of stored response templates, the response template configured to generate a response message in the chat interface; and a set of information resources each associated with a help topic relating to the content topic; causing display in the chat service on the client device comprising: the response template; a list of information resources corresponding to the set of information resources, each information resource in the list of information resources selectable to include access to corresponding resource content in the response template; and a selectable option to create a new response template; in response to a user selection of the selectable option to create the new response template, causing display of a window in the chat service on the client device, the window comprising a template creation interface comprising: a first region for response content; and a second region with a link to an information resource selected from the list of information resources; receiving user input to the first region, the user input comprising reply content; and in response to a user selection of a selectable element, causing the new response template to be stored; and generating the response to be displayed in the chat interface using the new response template.",
+  "patent_id": "US12381837-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 51/02",
+      "G06F 40/186",
+      "G06F 40/205",
+      "G06F 40/35",
+      "H04L 51/046",
+      "H04L 51/42"
+    ],
+    "all": [
+      "H04L 51/02",
+      "G06F 40/186",
+      "G06F 40/205",
+      "G06F 40/35",
+      "H04L 51/046",
+      "H04L 51/42"
+    ],
+    "source": "converted"
+  }
+}

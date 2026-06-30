@@ -1,0 +1,26 @@
+{
+  "title": "Systems and methods for inspecting browser security vulnerabilities",
+  "abstract": "Systems and methods are provided for inspecting, identifying, blocking, and combatting browser security vulnerabilities. In various embodiments, an inspection module may execute on a browser accessing a web domain on a first computing device. Inspection modules may dynamically analyze a set of scripts associated with the web domain to identify privacy vulnerabilities. Such vulnerabilities may be blocked and/or combatted to prevent communications of private information to one or more third-, fourth-, . . . , nth-party sites and applications. Embodiments may generate a customized privacy plan directed to one or more privacy vulnerabilities and execute on a graphical user interface on a computing device.",
+  "claims": "1. A method for analyzing browser security vulnerabilities, comprising: receiving information indicative of a request to access a web domain via a browser executing on a first computing device; analyzing scripts associated with the web domain to identify a privacy vulnerability; and generating a customized privacy determination based on the privacy vulnerability, wherein analyzing the scripts associated with the web domain comprises; determining a set of information associated with a risk type; identifying a browser operation utilizing the set of information; and assessing a risk level associated with the privacy vulnerability based on the browser operation, wherein the risk level indicates a priority level for addressing the privacy vulnerability; and wherein the risk type comprises at least one of malware, personal identifiable information, session replay, fingerprinting, trackers, young domains, a cookie request, a phishing attempt, a URL redirection, a bad secure sockets layer (SSL).",
+  "patent_id": "US12380218-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/577",
+      "G06F 21/6245",
+      "G06F 21/645",
+      "H04L 63/1433",
+      "H04L 63/1483",
+      "G06F 2221/034"
+    ],
+    "all": [
+      "G06F 21/577",
+      "G06F 21/6245",
+      "G06F 21/645",
+      "H04L 63/1433",
+      "H04L 63/1483",
+      "G06F 2221/034"
+    ],
+    "source": "converted"
+  }
+}

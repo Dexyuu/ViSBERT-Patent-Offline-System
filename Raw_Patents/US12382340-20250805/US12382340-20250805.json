@@ -1,0 +1,28 @@
+{
+  "title": "Wireless communication method using frame aggregation and wireless communication terminal using same",
+  "abstract": "A method for constructing an aggregated frame for efficient wireless communication in a high-density environment and a wireless communication method using the same may perform operations comprising generating an aggregated MPDU (A-MPDU) including a plurality of MAC protocol data unit (MPDU) groups to which independent modulation and coding schemes (MCSs) are applied, respectively; and transmitting the generated A-MPDU through the transceiver.",
+  "claims": "1. A wireless communication terminal comprising: a transceiver; and a processor, wherein the processor is configured to: transmit a frame including one or more MPDU (MAC (Medium Access Control) protocol data unit) subframes through the transceiver, wherein each of the one or more MPDU subframes includes a MAC service data units (MSDU) or an aggregated MSDU (A-MSDU), and receive an acknowledgement frame related to Ack or Nack for the one or more MPDU subframes in response to the frame through the transceiver, wherein the acknowledgement frame includes one block ack control field related to configuration of the acknowledgement frame and one or more bitmap sets based on the block ack control field, wherein each of the one or more bitmap sets includes a starting sequence control subfield and a block ack bitmap subfield, and wherein the starting sequence control subfield is used to identify a number of MSDUs and/or A-MSDUs capable of transmitting an acknowledgment through the block ack bitmap subfield.",
+  "patent_id": "US12382340-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 28/06",
+      "H04L 1/0084",
+      "H04L 1/1614",
+      "H04L 1/1887",
+      "H04W 84/12",
+      "H04L 1/1607",
+      "H04L 1/1621"
+    ],
+    "all": [
+      "H04W 28/06",
+      "H04L 1/0084",
+      "H04L 1/1614",
+      "H04L 1/1887",
+      "H04W 84/12",
+      "H04L 1/1607",
+      "H04L 1/1621"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2019048492",
+  "application_id_fs": "WO2019048492",
+  "title": "An imaging device, method and program for producing images of a scene",
+  "abstract": "An imaging device for producing images of a scene, the imaging device comprising: a first and a second hyperchromatic lens being arranged in a stereoscopic configuration to receive light from the scene; image sensor circuitry configured to capture a first and second image of the light encountered by the first and the second lens respectively; processor circuitry configured to: produce depth information using the captured first and second images of the scene and produce a resultant first and second image of the scene using both the captured first and second image and the depth information.",
+  "claims": "Claims 1. An imaging device for producing images of a scene, the imaging device comprising: a first and a second hyperchromatic lens being arranged in a stereoscopic configuration to receive light from the scene; image sensor circuitry configured to capture a first and second image of the light encountered by the first and the second lens respectively; processor circuitry configured to: produce depth information using the captured first and second images of the scene and produce a resultant first and second image of the scene using both the captured first and second image and the depth information. 2. The imaging device according to claim 1 , wherein the image sensor circuitry is configured to detect a first plurality of colour channels for the first captured image and a second plurality of colour channels for the second captured image. 3. The imaging device according to claim 2, wherein the first and second plurality of colour channels can be selected from infrared, red, green, blue and ultraviolet. 4. The imaging device according to claim 2, wherein the processor circuitry is configured to: partition the captured first and second images into regions corresponding to the resolution of the depth information; obtain for each region of the captured first and second images an image sharpness level for each colour channel using the depth information; determine for each region of the captured first and second image the colour channel having the highest sharpness level; and produce the resultant first and second image of the scene by transporting for each region of each of the captured first and second images the image sharpness level from the colour channel having the highest sharpness level to the corresponding region in the complementary colour channels for that image. 5. The imaging device according to claim 4, wherein the processor circuitry is further configured to produce the depth information by comparing corresponding pixels between the captured first and second image where the contrast level of the pixels exceeds a given threshold value. 6. The imaging device according to claim 4, wherein the processor circuitry is further configured to perform a depth information propagation calculation to produce depth information having a resolution corresponding to the resolution of the captured first and second images and wherein each region corresponds to a single pixel. 7. The imaging device according to claim 1 , wherein the resultant first and second image of the scene are images having an extended depth of field. 8. The imaging device according to claim 1 , further comprising a light source. 9. The imaging device according to claim 8, wherein the light source is formed from at least one Light Emitting Diode or at least one Laser. 10. The imaging device according to claim 1 , wherein the image sensor circuitry comprises a 4K sensor. 1 1. The imaging device according to claim 1 , wherein the imaging device is an endoscope. 12. The imaging device according to claim 1 , wherein the imaging device is a medical imaging device. 13. The imaging device according claim 1 , wherein the imaging device is an industrial imaging device. 14. A method for producing images of a scene, the method comprising: receiving light from a scene using a first and a second hyperchromatic lens arranged in a stereoscopic configuration; capturing a first and second image of the light encountered by the first and second lens respectively; producing depth information using the captured first and second images of the scene; and producing a resultant first and second image of the scene using both the first and second image and the depth information. 15. A recording medium storing a computer program for controlling a computer to perform a method for producing images of a scene, the method comprising: receiving light from a scene using a first and a second hyperchromatic lens arranged in a stereoscopic configuration; capturing a first and second image of the light encountered by the first and second lens respectively; producing depth information using the captured first and second images of the scene; and producing a resultant first and second image of the scene using both the first and second image and the depth information.",
+  "classifications": {
+    "ipc": [
+      "G06T 5/00",
+      "G06T 5/73",
+      "A61B 1/00",
+      "G06T 5/50",
+      "G06T 7/00",
+      "G06T 7/50",
+      "G06T 7/55",
+      "G06T 7/593",
+      "H04N 23/00",
+      "H04N 23/56",
+      "G06T 2207/00",
+      "G06T 2207/10",
+      "H04N 23/50",
+      "H04N 23/555"
+    ],
+    "cpc": [],
+    "all": [
+      "G06T 5/00",
+      "G06T 5/73",
+      "A61B 1/00",
+      "G06T 5/50",
+      "G06T 7/00",
+      "G06T 7/50",
+      "G06T 7/55",
+      "G06T 7/593",
+      "H04N 23/00",
+      "H04N 23/56",
+      "G06T 2207/00",
+      "G06T 2207/10",
+      "H04N 23/50",
+      "H04N 23/555"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019048492"
+}

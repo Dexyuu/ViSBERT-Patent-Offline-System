@@ -1,0 +1,18 @@
+{
+  "title": "Cross-coupled timing synchronization platform",
+  "abstract": "Apparatuses, devices, and systems for time synchronization are described. A timing circuit can include an analog phase lock loop (APLL), a plurality of digital phase lock loops (DPLLs) and a plurality of fractional output dividers (FODs). The timing circuit can receive the plurality of reference clock signals. The timing circuit can use the plurality of reference clock signals to generate at least one fractional frequency offset signal. The timing circuit can apply at least one operand on the at least one fractional frequency offset signal. The timing circuit can sum results of the application of the at least one operand on the at least one fractional frequency offset signal to generate a plurality of signals that control frequencies of a plurality of output clock signals that can be synchronized with the plurality of reference clock signals.",
+  "claims": "1. A semiconductor device comprising: a first timing channel formed by an analog phase lock loop (APLL), a first digital phase lock loop (DPLL) and a first summation module; and a second timing channel formed by a fractional output divider (FOD), a second digital phase lock loop (DPLL) and a second summation module, wherein: the first summation module is configured to: apply at least one operand on one or more of: a first fractional frequency offset signal being outputted by the first DPLL, wherein the first fractional frequency offset signal is based on a feedback fractional frequency offset signal and a feedback of a first clock signal being outputted by the APLL, and the feedback fractional frequency offset signal is variable; and a second fractional frequency offset signal being outputted by the second DPLL; and sum results of the application of the at least one operand by the first summation module to generate a first signal that controls a frequency of the first clock signal being outputted by the APLL; and the second summation module is configured to: apply the at least one operand on one or more of: the first fractional frequency offset signal being outputted by the first DPLL; and the second fractional frequency offset signal being outputted by the second DPLL; and sum results of the application of the at least one operand by the second summation module to generate a second signal that controls a frequency of a second clock signal being outputted by the FOD.",
+  "patent_id": "US12381566-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H03L 7/1976",
+      "H03L 7/195"
+    ],
+    "all": [
+      "H03L 7/1976",
+      "H03L 7/195"
+    ],
+    "source": "converted"
+  }
+}

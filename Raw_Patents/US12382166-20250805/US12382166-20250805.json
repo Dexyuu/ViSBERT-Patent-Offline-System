@@ -1,0 +1,40 @@
+{
+  "title": "Flexible and intuitive system for configuring automated visual inspection system",
+  "abstract": "A flexible and intuitive system is disclosed, and is disposed to be coupled to at least one camera, at least one robotic arm and a host electronic device of an AVI system. During a normal operation of the system, a configuration parameter setting of the AVI system can be completed after at least one time of robotic arm setting operation and at least one time of camera setting operation are conducted. After that, a plurality of article images acquired from a specific article by the camera are upload to a remote electronic device by the system, such that the remote electronic device utilizes the article images to update (re-train) a defect recognition model. Consequently, after the system integrates the defect recognition model into a defect recognition program that is installed in the host electronic device, the AVI system is hence configured for conducting an appearance inspection of the article.",
+  "claims": "1. A flexible and intuitive system, being applied to conduct a configuration parameter setting of an automated visual inspection (AVI) system that comprises a host electronic device embedded with a first defect recognition model therein, an article transferring equipment, N numbers of robotic arms, and N numbers of cameras respectively held by the N numbers of robotic arms; wherein N is a positive integer, and the flexible and intuitive system comprising: an electronic device, being coupled to the host electronic device, thereby being in communication with each said camera and each said robotic arm through the host electronic device; wherein the electronic device comprises a first processor and a first memory coupled to the first processor, the first memory storing a first application program, and the first processor executing the first application program so as to be configured to: record, after said robotic arm is controlled to move said camera one time, an external camera parameter comprising at least one selected from a group consisting of photographing height, photographing angle and photographing distance; wherein there are K sets of said external camera parameter recorded after said camera is moved K times, and K being a positive integer; record, after everytime said camera is moved by said robotic arm and subsequently receives a camera setting treatment, an internal camera parameter comprising at least one selected from a group consisting of aperture, depth of field, shutter speed, ISO, and focus; wherein there are K sets of said internal camera parameter recorded after said camera is applied with the camera setting treatment K times; acquire, by controlling the N numbers of cameras, N frames of article images from an article after everytime said camera receives the camera setting treatment; transmit, M×N frames of article images to a remote electronic device; and update, after the remote electronic device utilizes the M×N frames of article images to re-train said first defect recognition model or produce a second defect recognition model, the first defect recognition model embedded in the host electronic device based on the re-trained first defect recognition model or the second defect recognition model; wherein M is a positive integer.",
+  "patent_id": "US12382166-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 23/66",
+      "B25J 19/023",
+      "G01C 21/1652",
+      "G06T 7/0004",
+      "G06V 10/141",
+      "G06V 10/764",
+      "G06V 10/774",
+      "G06V 10/945",
+      "H04N 23/56",
+      "H04N 23/62",
+      "H04N 23/695",
+      "G06T 2207/20081",
+      "G06V 2201/06"
+    ],
+    "all": [
+      "H04N 23/66",
+      "B25J 19/023",
+      "G01C 21/1652",
+      "G06T 7/0004",
+      "G06V 10/141",
+      "G06V 10/764",
+      "G06V 10/774",
+      "G06V 10/945",
+      "H04N 23/56",
+      "H04N 23/62",
+      "H04N 23/695",
+      "G06T 2207/20081",
+      "G06V 2201/06"
+    ],
+    "source": "converted"
+  }
+}

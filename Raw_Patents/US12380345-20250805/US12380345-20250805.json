@@ -1,0 +1,24 @@
+{
+  "title": "Systems and methods for automatic event outcome prediction, confirmation, and validation using machine learning",
+  "abstract": "Systems and methods for event outcome validation are provided. The system receives a user input indicative of an event and at least one anticipated outcome of the event to be wagered on by the user. The system receives confirmation data associated with an outcome of the event from at least one confirmation data source confirming the outcome of the event and classifies the confirmation data utilizing at least one machine learning algorithm. The system determines a threshold of confirmation data sources to validate the outcome of the event and utilizes the at least one machine learning algorithm to determine a reduced threshold of confirmation data sources to validate the outcome of the event based on at least one of the classified confirmation data and a confirmation rating of the at least one confirmation data source. The system validates the outcome of the event based on the reduced threshold.",
+  "claims": "1. A system for event outcome validation comprising: a memory; and a processor in communication with the memory, the processor: receiving a user input indicative of an event and at least one anticipated outcome of the event to be wagered on by the user, receiving confirmation data associated with an outcome of the event from at least one confirmation data source confirming the outcome of the event, classifying the confirmation data utilizing at least one machine learning algorithm to determine an accuracy of the confirmation data, determining a threshold of confirmation data sources to validate the outcome of the event, utilizing the at least one machine learning algorithm to determine a reduced threshold of confirmation data sources to validate the outcome of the event based on at least one of the classified confirmation data and a confirmation rating of the at least one confirmation data source, the confirmation rating being indicative of a historical accuracy of confirmation data received from the at least one confirmation data source, and automatically validating the outcome of the event based on the reduced threshold, wherein the processor: receives prediction data associated with the anticipated outcome of the event from at least one prediction data source, classifies the prediction data utilizing the at least one machine learning algorithm in association with the anticipated outcome of the event to determine an accuracy of the prediction data, and determines a prediction rating of the at least one prediction data source, the prediction rating being indicative of a historical accuracy of the prediction data received from the at least one prediction data source, and wherein the processor adjusts the prediction rating of the at least one prediction data source based on the classified prediction data by: determining whether the received prediction data is correct based on the validated outcome of the event, increasing the prediction rating of the at least one prediction data source when the prediction data is validated, and decreasing the prediction rating of the at least one prediction data source when the user prediction data is not validated.",
+  "patent_id": "US12380345-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 5/04",
+      "G06N 5/022",
+      "G06Q 50/01",
+      "G06Q 50/34",
+      "G07F 17/3241"
+    ],
+    "all": [
+      "G06N 5/04",
+      "G06N 5/022",
+      "G06Q 50/01",
+      "G06Q 50/34",
+      "G07F 17/3241"
+    ],
+    "source": "converted"
+  }
+}

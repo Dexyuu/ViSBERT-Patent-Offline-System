@@ -1,0 +1,22 @@
+{
+  "title": "Blind decoding-based method and device for transmitting and receiving downlink channel in wireless communication system",
+  "abstract": "Disclosed are a method and device for transmitting and receiving a downlink channel on the basis of blind decoding in a wireless communication system. A method for a terminal to decode a downlink channel in a wireless communication system according to an embodiment of the present disclosure comprises: a step for transmitting capability information associated with one or more first monitoring schemes among a plurality of monitoring scheme candidates to a base station; a configuration information reception step for receiving configuration information about a second monitoring scheme among the plurality of monitoring scheme candidates from the base station, the complexity of the second monitoring scheme being no greater than that of the one or more first monitoring schemes; and a step for monitoring and decoding the downlink channel on the basis of the configuration information, wherein the plurality of monitoring scheme candidates may include a combined blind decoding (BD) scheme for the repeated transmission or split transmission of the downlink channel on a plurality of monitoring occasions (MO).",
+  "claims": "1. A method comprising: transmitting, by a terminal to a base station, capability information for a number of blind detections related to counting PDCCH physical downlink control channel (PDCCH) candidates; receiving, by the terminal from the base station, first configuration information for a monitoring scheme, and second configuration information for a first search space (SS) set and a second SS set related to PDCCH repetition; and performing, by the terminal, monitoring and decoding for the PDCCH candidates, based on the first configuration information, the second configuration information, and the capability information, wherein each PDCCH candidate in a first monitoring occasion of the first SS set is counted as one, and each PDCCH candidate in a second monitoring occasion of the second SS set is counted as two.",
+  "patent_id": "US12381649-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 1/0038",
+      "H04L 1/08",
+      "H04W 24/08",
+      "H04W 72/23"
+    ],
+    "all": [
+      "H04L 1/0038",
+      "H04L 1/08",
+      "H04W 24/08",
+      "H04W 72/23"
+    ],
+    "source": "converted"
+  }
+}

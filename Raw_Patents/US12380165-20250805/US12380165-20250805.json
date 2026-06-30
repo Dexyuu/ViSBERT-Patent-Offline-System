@@ -1,0 +1,30 @@
+{
+  "title": "Bulletin board data mapping and presentation",
+  "abstract": "The system provides a method and apparatus for sorting and displaying information from a BBS. The system provides a method of sorting and presenting messages from a BBS in a way so that the relationship in message threads can be easily observed and related messages can be identified. The system provides a way to view messages and map message threads in two and three dimensions so that the content of messages can be easily reviewed and the relationship between messages can be seen and followed. The system allows a user to enter into a message thread at any point and to then produce a visualization of the related threads and messages associated with each individual message. The system provides interfaces for either a linear or threaded BBS or even a hybrid BBS that is some combination of linear and threaded.",
+  "claims": "1. A method comprising: storing a first search request and one or more prior search requests in a first session corresponding to a first area of research; performing a second search of data in a system according to a second search request, to determine a second set of search results comprising one or more records that are relevant to the second search request; weighting the second set of search results according to a weighting metric; sorting the second set of search results by weight; storing the second search request in a second session; generating a user interface configured to display a tag cloud representing a plurality of terms within a dataset, wherein the tag cloud visually adjusts the size and/or prominence of each term according to user-defined boosting criteria; and configuring a search modification module to enable a user to modify an active search query by selecting a term in the tag cloud and cycling through search operators comprising one or more of OR, AND, and EXCLUDE, via successive user interactions with the term.",
+  "patent_id": "US12380165-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/9024",
+      "G06F 16/2228",
+      "G06F 16/2365",
+      "G06F 16/24578",
+      "G06F 16/248",
+      "G06F 16/9535",
+      "G06Q 10/107",
+      "H04L 51/216"
+    ],
+    "all": [
+      "G06F 16/9024",
+      "G06F 16/2228",
+      "G06F 16/2365",
+      "G06F 16/24578",
+      "G06F 16/248",
+      "G06F 16/9535",
+      "G06Q 10/107",
+      "H04L 51/216"
+    ],
+    "source": "converted"
+  }
+}

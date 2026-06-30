@@ -1,0 +1,22 @@
+{
+  "title": "Similarity-embedding binarization",
+  "abstract": "Computerized systems, and method and computer readable media. The method may include receiving, by a neural network, input face visual information; wherein the neural network comprises multiple convolutional layers, an embedding layer and one or more conversion layers; generating, by the embedding layer, a face recognition (FR) feature vector that comprises multiple FR feature elements; and generating a binary representation of the face recognition features based on the FR feature vector.",
+  "claims": "1. A method for compact representation of face recognition features, the method comprises: receiving, by a neural network, input face visual information; wherein the neural network comprises multiple convolutional layers, an embedding layer and one or more conversion layers; generating, by the embedding layer, a face recognition (FR) feature vector that comprises multiple FR feature elements that are non-binary FR feature elements that are associated with a first probability density function; and generating a binary representation of the face recognition features based on the FR feature vector, wherein the generating of the binary representation comprises: converting the FR feature vector to a converted non-binary FR feature vector having converted non-binary FR feature vector elements that are associated with a second probability density function that has a higher distribution function density around discrete values in relation to the first probability density function; and converting the converted non-binary FR feature vector to a binary FR feature vector.",
+  "patent_id": "US12380729-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 40/168",
+      "G06N 3/04",
+      "G06V 10/82",
+      "G06V 40/172"
+    ],
+    "all": [
+      "G06V 40/168",
+      "G06N 3/04",
+      "G06V 10/82",
+      "G06V 40/172"
+    ],
+    "source": "converted"
+  }
+}

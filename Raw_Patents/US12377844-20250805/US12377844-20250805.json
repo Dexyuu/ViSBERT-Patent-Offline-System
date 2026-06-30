@@ -1,0 +1,22 @@
+{
+  "title": "Method and system for keeping a vehicle on a predetermined path, and computer program",
+  "abstract": "The disclosure relates to a method for keeping a vehicle on a predetermined path. The method comprises receiving a driver pose information and classifying the driver pose information as normal or abnormal (S1). Alternatively or additionally, a driver attention information is received and classified as normal or abnormal (S1). Moreover, according to the method, a hand location information is received and evaluated (S2). Also a turn indicator status information is received and evaluated (S3). Subsequently, a path keeping measure is triggered (S5), if the driver pose information is classified as abnormal or if the driver attention information is classified as abnormal. Additional conditions are that the hand location information relates to less than two hands on the steering wheel, and that the turn indicator status information relates to a non-activated state of the turn indicators. Furthermore, a system for keeping a vehicle on a predetermined path is presented. Moreover, a corresponding computer program is explained.",
+  "claims": "1. A method for keeping a vehicle on a predetermined path, comprising receiving, a system comprising a processor, at least one of a driver pose information (PI) or a driver attention information; classifying, by the system, the at least one of the driver pose information (PI) or the driver attention information as normal (N) or abnormal (AN); receiving, by the system, a hand location information (HI); evaluating, by the system, whether the hand location information (HI) relates to two hands ( 2 H) on a steering wheel or to one hand ( 1 H) on the steering wheel or to no hands (OH) on the steering wheel; receiving, by the system, a turn indicator status information (TI); evaluating, by the system, whether the turn indicator status information (TI) relates to an activated state (A) or a non-activated state (NA) of the turn indicators (S 3 ) of the vehicle; receiving, by the system, a path following information (FI) of the vehicle; classifying, by the system, the path following information of the vehicle as on-path (ON) or off-path (OFF); and triggering, by the system, a path keeping measure (S 5 ) if the at least one of driver pose information (PI) or the received driver attention information is classified as abnormal, and if the hand location information (HI) relates to less than two hands on the steering wheel, and if the received turn indicator status information (TI) relates to a non-activated state (NA), wherein triggering the path keeping measure comprises triggering a heading angle adjustment measure (HA), if the hand location information (HI) relates to no hand (OH) and if the path following information (FI) of the vehicle is classified as off-path (OFF).",
+  "patent_id": "US12377844-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 30/12",
+      "B60W 40/08",
+      "B62D 15/025",
+      "B60W 2540/223"
+    ],
+    "all": [
+      "B60W 30/12",
+      "B60W 40/08",
+      "B62D 15/025",
+      "B60W 2540/223"
+    ],
+    "source": "converted"
+  }
+}

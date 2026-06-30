@@ -1,0 +1,20 @@
+{
+  "title": "Query cached filter",
+  "abstract": "A method for responding to a query, the method may include (a) receiving, by a storage system compute element, a query that comprises one or more conditions related to a content of at least one data unit (DU); (b) searching, based on the one or more conditions and on a condition fulfillment information (CFI), for one or more irrelevant groups of DUs to be skipped during the responding to the query; wherein the one or more irrelevant groups of DUs belong to multiple stored groups of DUs that are stored in the storage system; wherein an irrelevant group of DU does not comprise, according to the CFI, any DU that fulfills the one or more conditions; and (c) generating a response to the query based on an outcome of the searching.",
+  "claims": "1. A method for responding to a query, the method comprises: receiving, by a storage system compute element, a query that comprises one or more conditions related to a content of at least one data unit (DU) that is stored in the storage system; looking up query filters, stored in a memory of the storage system, for a stored query filter that includes at least one condition that matches the one or more conditions, wherein the stored query filter further includes a condition fulfillment information (CFI) about relevant groups of DUs and irrelevant groups of DUs with respect to the at least one condition; wherein an irrelevant group of DUs is a group that definitely does not comprise, according to the CFI, any DU that fulfills the one or more conditions, and wherein a relevant group of DUs is a group that potentially includes at least one DU that fulfills the one or more conditions: when finding the stored query filter: (a) skipping one or more irrelevant groups of DUs during the responding to the query, without searching for DUs within the one or more irrelevant groups, for fulfillment of the one or more conditions; (b) searching, within one or more relevant groups of DUs for DUs that fulfill the one or more conditions; wherein the one or more irrelevant groups of DUs and the one or more relevant groups of DUs belong to multiple stored groups of DUs that are stored in the storage system; and (c) generating a response to the query based on an outcome of the searching.",
+  "patent_id": "US12380105-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/24545",
+      "G06F 16/22",
+      "G06F 16/24539"
+    ],
+    "all": [
+      "G06F 16/24545",
+      "G06F 16/22",
+      "G06F 16/24539"
+    ],
+    "source": "converted"
+  }
+}

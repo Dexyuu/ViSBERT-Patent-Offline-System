@@ -1,0 +1,22 @@
+{
+  "title": "Collaborative optimization method, system, equipment and storage medium for electric and heating networks and building user",
+  "abstract": "A collaborative optimization method for an Electric and Heating Networks (EHN) and a building user includes: establishing a coordinated optimization scheduling framework of the EHN and a building in a park; based on the coordinated optimization scheduling framework, constructing an optimal thermal power flow scheduling model of the EHN, and constructing a building model to simulate thermal characteristics and energy consumption of the building; based on the optimal thermal power flow scheduling model and the building model, taking the lowest operation cost of EHN and the lowest heat consumption of building user as a goal, constructing a collaborative optimization model of the EHN and the building user; outputting a collaborative optimization scheme of the optimal thermal power flow scheduling of the EHN and the heat consumption of the building user through the collaborative optimization model of the EHN and the building user.",
+  "claims": "1. A collaborative optimization method for an Electric and Heating Networks (EHN) and a building user, comprising: establishing a coordinated optimization scheduling framework of the EHN and a building in a park; based on the coordinated optimization scheduling framework, constructing an optimal thermal power flow scheduling model of the EHN, and constructing a building model to simulate thermal characteristics and energy consumption of the building; based on the optimal thermal power flow scheduling model and the building model, taking a lowest operation cost of the EHN and a lowest heat consumption of the building user as a goal, constructing a collaborative optimization model of the EHN and the building user; and outputting a collaborative optimization scheme of an optimal thermal power flow scheduling of the EHN and a heat consumption of the building user through the collaborative optimization model of the EHN and the building user to a controller for controlling a heating radiator, a combined heat and power (CHP) unit and a heat pump based on the collaborative optimization scheme; wherein the optimal thermal power flow scheduling model comprises a hydraulic model, a thermal model, a heat exchanger model, a radiator model and a capacity and energy conversion equipment model; constraints of the hydraulic model comprise a node net flow constraint and a head loss constraint, wherein: a node net flow is according to an energy conservation law, each heating network node satisfies following rules: m q =Σm in −Σm out (1); wherein m in and m out represent pipeline flow entering and flowing out of a Heating Network respectively, and m q is a node net flow in the Heating Network; a node net flow equation of the hydraulic model is obtained from Equation (1): Am=m q (2); wherein m is a pipeline flow in the Heating Network, m represents a matrix of m, m q represents a matrix of m q , and A is a correlation matrix of a node and a pipeline, and an element is defined as:",
+  "patent_id": "US12381391-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02J 3/003",
+      "F24D 12/02",
+      "F24D 2200/32",
+      "H02J 2203/20"
+    ],
+    "all": [
+      "H02J 3/003",
+      "F24D 12/02",
+      "F24D 2200/32",
+      "H02J 2203/20"
+    ],
+    "source": "converted"
+  }
+}

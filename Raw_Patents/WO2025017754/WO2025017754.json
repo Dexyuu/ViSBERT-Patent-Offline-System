@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2025017754",
+  "application_id_fs": "WO2025017754",
+  "title": "Method and system for identifying root cause of call failures in a network",
+  "abstract": "The present disclosure relates to a system (120) and a method (400) for identifying the root cause of call failures in a network (105) is disclosed. The system (120) includes a data accessing module (220) configured to access Call Detail Record (CDR) data stored in a File System (FS) (215). The system (120) includes a data retrieval module (225) configured to retrieve data related to failed calls from the accessed CDR data. The system (120) includes an analyzing module (230) configured to analyze the retrieved failed call data to identify reasons for the call failures. The system (120) includes a clustering module (235) configured to generate clusters of the failed calls based on predefined policies or rules using an analysis engine (330). The system (120) includes a reason identification module (240) configured to identify root cause for the call failures within each cluster.",
+  "claims": "Claims CLAIMS We Claim: 1. A method (400) for identifying root cause of call failures in a network, the method comprising the steps of: accessing, by a one or more processor(s) (205), Call Detail Record (CDR) data stored in a File System (FS) (215); retrieving, by the one or more processor(s) (205), data related to failed calls from the accessed CDR data; analyzing, by the one or more processor(s) (205), utilizing an analysis engine (330), the retrieved failed call data to identify reasons for the call failures; generating, by the one or more processor(s) (205), clusters of the failed calls based on predefined policies or rules using the analysis engine (330), wherein each cluster represents a categorization of failed calls based on their identified reasons for failure; and identifying, by the one or more processor (s), the root cause for the call failures within each cluster. 2. The method (400) as claimed in claim 1, wherein the step of retrieving includes filtering the CDR data to isolate specific call failure indicators, including call completion status, call duration, number of calls, call frequency, and call ratio. 3. The method (400) as claimed in claim 1, wherein the step of analyzing further comprises determining the call completion status for each failed call within the retrieved data. 4. The method (400) as claimed in claim 1, wherein the step of generating includes classifying the failed calls into clusters based on the frequency of failed calls per user or entity within a specified time frame. 5. The method (400) as claimed in claim 4, wherein the clusters are formed based on predetermined ranges of failed call occurrences. 6. The method (400) as claimed in claim 1 , wherein the step of identifying involves using the analysis engine (330) to identify specific network issues, service provider limitations, or external factors contributing to the high incidence of failed calls in each cluster. 7. The method (400) as claimed in claim 1, further comprising the step of updating the analysis engine (330) based on the identified root cause for call failures. 8. The method (400) as claimed in claim 1, wherein the step of identifying, the root cause for the call failures within each cluster, includes the step of, determining major and actual reason for the call failures within each cluster. 9. The method (400) as claimed in claim 1, further comprising the step of implementing corrective actions in the network based on the identified root causes of call failures. 10. A system (120) for identifying the root cause of call failures in a network (105), the system (120) comprising: a data accessing module (220) configured to access Call Detail Record (CDR) data stored in a File System (FS) (215); a data retrieval module (225) configured to retrieve data related to failed calls from the accessed CDR data; an analyzing module (230) configured to analyze the retrieved failed call data to identify reasons for the call failures; a clustering module (235) configured to generate clusters of the failed calls based on predefined policies or rules using an analysis engine (330), wherein \n\n each cluster represents a categorization of failed calls based on their identified reasons for failure; and a reason identification module (240) configured to identify root cause for the call failures within each cluster. 11. The system (120) as claimed in claim 10, wherein the data retrieval module (225) is further configured to filter the CDR data to isolate specific call failure indicators, wherein the specific call failure indicators include call completion status, call duration, number of calls, call frequency, and call ratio. 12. The system (120) as claimed in claim 10, wherein the analysis engine (330) is further configured to determine the call completion status for each failed call within the retrieved data. 13. The system (120) as claimed in claim 10, wherein the clustering module (235) is further configured to classify the failed calls into clusters based on the frequency of failed calls per user or entity within a specified time frame. 14. The system (120) as claimed in claim 13, wherein the clusters are formed based on predetermined ranges of failed call occurrences. 15. The system (120) as claimed in claim 10, wherein the reason identification module (240) is configured to identify specific network issues, service provider limitations, or external factors contributing to high incidence of failed calls in each cluster. 16. The system (120) as claimed in claim 10, further comprising an AI/ML model updating module (245) is further configured to update the AI/ML model (330) based on the identified reasons for call failures. 17. The system (120) as claimed in claim 10, further comprising a corrective action implementation module (250) configured to implement corrective actions in the network (105) based on the identified root causes of call failures. 18. The system (120) as claimed in claim 10, wherein the reason identification module (240) identifies the root cause for the call failures within the cluster, by determining major and actual reason for the call failures within each cluster. 19. A non-transitory computer-readable medium storing instructions that, when executed by a processor (205), cause the processor (205) to: access Call Detail Record (CDR) data stored in a File System (FS) (215); retrieve data related to failed calls from the accessed CDR data; analyze the retrieved failed call data to identify reasons for the call failures; generate clusters of the failed calls based on predefined policies or rules using the analysis engine (330), wherein each cluster represents a categorization of failed calls based on their identified reasons for failure; and identify the root cause for the call failures within each cluster.",
+  "classifications": {
+    "ipc": [
+      "H04L 41/00",
+      "H04L 41/06",
+      "H04L 41/0631",
+      "G06F 11/00",
+      "G06F 11/07",
+      "H04L 41/08",
+      "H04L 41/0894",
+      "H04L 41/14",
+      "H04L 41/0803",
+      "H04L 41/0813",
+      "H04L 41/082",
+      "H04L 41/145",
+      "H04L 41/16",
+      "H04L 43/00",
+      "H04L 43/02",
+      "H04L 43/028"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 41/00",
+      "H04L 41/06",
+      "H04L 41/0631",
+      "G06F 11/00",
+      "G06F 11/07",
+      "H04L 41/08",
+      "H04L 41/0894",
+      "H04L 41/14",
+      "H04L 41/0803",
+      "H04L 41/0813",
+      "H04L 41/082",
+      "H04L 41/145",
+      "H04L 41/16",
+      "H04L 43/00",
+      "H04L 43/02",
+      "H04L 43/028"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025017754"
+}

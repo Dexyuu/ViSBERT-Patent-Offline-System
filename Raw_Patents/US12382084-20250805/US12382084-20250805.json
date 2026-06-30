@@ -1,0 +1,24 @@
+{
+  "title": "Encoder, a decoder and corresponding methods for inter prediction using gradient parameters",
+  "abstract": "A bidirectional optical flowing prediction method includes obtaining an initial motion vector pair for a current block, obtaining a forward and a backward prediction block according to the forward motion vector and a backward prediction block according to the initial motion vector pair, and calculating gradient parameters for a current sample in the current block. The method further includes obtaining at least two sample optical flow parameters, including a first parameter and a second parameter, for the current sample based on the gradient parameters, obtaining block optical flow parameters based on sample optical flow parameters of samples in the current block, and obtaining a prediction value of the current block. One of the block optical flow parameters is obtained by multiplying the first parameter and a sign function of the second parameter, and the sign function is a piecewise function with at least three subintervals.",
+  "claims": "1. A method of encoding implemented by an encoding apparatus, comprising: obtaining an initial motion vector pair for a current block, wherein the initial motion vector pair comprises a forward motion vector and a backward motion vector; obtaining a forward prediction block according to the forward motion vector and a backward prediction block according to the backward motion vector; calculating gradient parameters comprising a forward horizontal gradient, a backward horizontal gradient, a forward vertical gradient and a backward vertical gradient for a current sample in the current block based on a forward prediction sample and a backward prediction sample corresponding to the current sample, wherein the forward prediction sample is in the forward prediction block and the backward prediction sample is in the backward prediction block, and the forward prediction sample is represented by predSamplesL0[x][y] and the backward prediction sample is represented by predSamplesL1[x][y], the forward horizontal gradient is represented by gradientHL0[x][y], the backward horizontal gradient is represented by gradientHL1[x][y], the forward vertical gradient is represented by gradientVL0[x][y], and the backward vertical gradient is represented by gradientVL1[x][y]; obtaining at least two sample optical flow parameters for the current sample based on the gradient parameters, wherein the at least two sample optical flow parameters comprises a first parameter and a second parameter; obtaining block optical flow parameters based on sample optical flow parameters of samples in the current block, wherein one of the block optical flow parameters is obtained by an operation including multiplying a value of the first parameter and a value of a sign function of the second parameter, and wherein the sign function is a piecewise function with at least three subintervals; obtaining a prediction value of the current block based on the forward prediction block, the backward prediction block, the block optical flow parameters and the at least two sample optical flow parameters, wherein the at least two sample optical flow parameters comprise a sample difference, a horizontal average gradient and a vertical average gradient, wherein",
+  "patent_id": "US12382084-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/513",
+      "H04N 19/107",
+      "H04N 19/132",
+      "H04N 19/139",
+      "H04N 19/176"
+    ],
+    "all": [
+      "H04N 19/513",
+      "H04N 19/107",
+      "H04N 19/132",
+      "H04N 19/139",
+      "H04N 19/176"
+    ],
+    "source": "converted"
+  }
+}

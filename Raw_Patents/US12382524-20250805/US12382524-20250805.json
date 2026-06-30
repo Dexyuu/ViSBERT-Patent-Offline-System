@@ -1,0 +1,26 @@
+{
+  "title": "Radio (NR) early measurement with multiple secondary nodes (multi-SNs)",
+  "abstract": "This disclosure provides systems, methods and apparatuses for early measurement associated with configuring with multiple secondary nodes (SNs). In one aspect, the configuration of multiple SNs may be improved by allowing a master node (MN) to determine a multi-SN configuration based at least in part on measurements of actual channel conditions as seen by the UE. Enabling the MN to receive the measurement information early during a process associated with establishing a connection between the UE and the MN may thereby improve efficiency and reduce latency associated with the configuration of multiple SNs.",
+  "claims": "1. A method of wireless communication performed by a user equipment (UE), comprising: receiving a measurement configuration including mapping information corresponding to a plurality of secondary nodes (SNs) that are candidates to provide dual connectivity with a master node (MN); performing a plurality of measurements associated with the plurality of SNs; selecting a subset of SNs from the plurality of SNs based at least in part on at least one measurement of the plurality of measurements satisfying a cell quality threshold; and providing, to the MN, measurement information associated with the subset of SNs, based at least in part on performing the plurality of measurements, the measurement information including a temporary mobile subscriber identity (TMSI) associated with the UE and corresponding to the mapping information.",
+  "patent_id": "US12382524-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/15",
+      "H04W 24/10",
+      "H04W 74/0833",
+      "H04W 76/19",
+      "H04W 76/20",
+      "H04W 76/30"
+    ],
+    "all": [
+      "H04W 76/15",
+      "H04W 24/10",
+      "H04W 74/0833",
+      "H04W 76/19",
+      "H04W 76/20",
+      "H04W 76/30"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Method for operating UE in association with detection of lost message in wireless communication system",
+  "abstract": "An embodiment relates to a method for operating a user equipment (UE) in a wireless communication system, the method comprising the steps of: receiving, by a first UE, a plurality of messages from a plurality of UEs; and determining, by the first UE, whether there is a lost message, on the basis of the order in which the plurality of UEs have transmitted the plurality of messages and the order of reception times of the plurality of messages.",
+  "claims": "8. A device for use in a wireless communication system comprising: at least one processor; and at least one memory operatively connected to the at least one processor, and configured to store instructions such that the at least one processor performs specific operations by executing the instructions, wherein the specific operations include: receiving, by a first UE, synchronization signal from a plurality of UEs; performing, by the first UE, synchronization to each of the plurality of UEs; establishing, by the first UE, a UE-to-UE direct link between the first UE and each of the plurality of UEs; receiving, by the first UE, a plurality of messages from the plurality of UEs; and determining, by the first UE, whether a lost message occurs based on a message transmission order of the plurality of UEs and a message reception order of the plurality of messages, wherein the first UE determines that one or more message are lost, based on a situation where the message transmission order of the plurality of UEs is different from the message reception order of the plurality of messages, wherein the first UE and the plurality of UEs are included in a platooning, and information about UEs participating in the platooning is shared by a leader of the platoon, prior to beginning of the platooning, wherein the information about UEs include a UE order information about a UE having current channel access authority, which is related to the message transmission order, wherein the first UE and the plurality of UEs are configured to perform message transmission only upon receiving channel access authority.",
+  "patent_id": "US12382336-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 28/04",
+      "H04W 4/40",
+      "H04W 28/14",
+      "H04W 74/08"
+    ],
+    "all": [
+      "H04W 28/04",
+      "H04W 4/40",
+      "H04W 28/14",
+      "H04W 74/08"
+    ],
+    "source": "converted"
+  }
+}

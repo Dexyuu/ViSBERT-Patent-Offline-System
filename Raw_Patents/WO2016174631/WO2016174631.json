@@ -1,0 +1,21 @@
+{
+  "application_id": "WO2016174631",
+  "application_id_fs": null,
+  "title": "Carrier time division multiplexing (ctdm)",
+  "abstract": "Multi-band OFDM transmission with overlapping bands. Each band has a different carrier frequency but the bandwidths overlap each other. In time domain, the modulated carriers of each band are set to zero during so-called free time periods within the carrier period except one carrier which is sampled and decoded during this free time period. Successive Interference Cancellation (subtraction of a remodulated replica) is performed, and then the next band can be decoded and so on. In order that the samples at the receiver all fall within the free time periods, the sampling frequency must be aligned with the carrier period, it is therefore proposed there for a sampling frequency not coinciding with a multiple of the carrier frequency to truncate said carrier. FFT is then performed on each separated band.",
+  "claims": "Claims Claims [Claim 1] The method of Carrier Time Division Multiplexing, including the process of time division between the carriers. [Claim 2] A method as claimed in Claim 1 , in which each symbol must contain free time periods with respect to the symbols of the signals that follow it, not the past ones and with the subtraction process the values of the past values can be eliminated and only the real value of the processed symbol will be attained. [Claim 3] A method as claimed in Claim 2, in which one or more fast Fourier transform (FFT) are processed on samples of the free time periods region so the whole symbol can be attained.",
+  "classifications": {
+    "ipc": [
+      "H04J 11/00",
+      "H04L 27/26",
+      "H04B 1/00"
+    ],
+    "cpc": [],
+    "all": [
+      "H04J 11/00",
+      "H04L 27/26",
+      "H04B 1/00"
+    ],
+    "source": "csv"
+  }
+}

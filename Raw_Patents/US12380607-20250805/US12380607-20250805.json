@@ -1,0 +1,16 @@
+{
+  "title": "Three-dimensional data encoding method, three-dimensional data decoding method, three-dimensional data encoding device, and three-dimensional data decoding device",
+  "abstract": "A three-dimensional data encoding method includes: determining whether a first valid node count is greater than or equal to a first threshold value predetermined, the first valid node count being a total number of valid nodes that are nodes each including a three-dimensional point, the valid nodes being included in first nodes belonging to a layer higher than a layer of a current node in an N-ary tree structure of three-dimensional points included in point cloud data, N being an integer greater than or equal to 2; and, when the first valid node count is greater than or equal to the first threshold value, performing first encoding on attribute information of the current node, the first encoding including a prediction process in which second nodes are used, the second nodes including a parent node of the current node and belonging to a same layer as the parent node.",
+  "claims": "1. An encoding method comprising: determining whether a count value that indicates a number of neighboring nodes each including a coefficient is greater than or equal to a threshold value or the count value is less than the threshold value; when the count value is greater than or equal to the threshold value, performing a first transform process on coefficients of child nodes to generate first transformed coefficients, the first transform process including a prediction process using one or more neighboring nodes; and when the count value is less than the threshold value, performing a second transform process on coefficients of child nodes to generate second transformed coefficients, the second transform process not including the prediction process using the one or more neighboring nodes.",
+  "patent_id": "US12380607-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 9/40"
+    ],
+    "all": [
+      "G06T 9/40"
+    ],
+    "source": "converted"
+  }
+}

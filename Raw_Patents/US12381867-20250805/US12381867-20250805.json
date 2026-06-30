@@ -1,0 +1,40 @@
+{
+  "title": "Resource validation in a multi-cloud infrastructure",
+  "abstract": "Techniques are described for providing a multi-cloud control plane (MCCP) in a first cloud infrastructure (included in a first cloud environment provided by a first cloud services provider) that enables services and/or resources provided in the first cloud infrastructure to be utilized by users of a second cloud environment, where the second cloud environment is different than the first cloud environment. The multi-cloud infrastructure enables a user associated with an account with a second cloud services provider to use, from the second cloud infrastructure, a first service from the set of one or more cloud services. The multi-cloud infrastructure creates a link between the account with the second cloud service provider and a tenancy created in the first cloud infrastructure for enabling using the first service by the user.",
+  "claims": "1. A method comprising: receiving, by a multi-cloud control plane of a multi-cloud infrastructure included in a first cloud environment, a notification from an identity system of a second cloud environment, the notification indicating that a set of pre-requisite resources have not been configured for a customer in the second cloud environment; responsive to receiving the notification, triggering by the multi-cloud control plane, a provisioning module included in the second cloud environment, wherein the provisioning module creates the set of pre-requisite resources in the second cloud environment that permits a component of the first cloud environment deployed in the second cloud environment to gain access to a customer's account in the second cloud environment; and in response to successfully validating the set of pre-requisite resources, creating by the multi-cloud control plane, a link resource object including information linking a tenancy associated with a user in the first cloud environment to an account associated with the user of the customer in the second cloud environment.",
+  "patent_id": "US12381867-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/0815",
+      "G06F 9/45558",
+      "G06F 21/31",
+      "H04L 12/4633",
+      "H04L 12/66",
+      "H04L 41/0806",
+      "H04L 47/125",
+      "H04L 47/82",
+      "H04L 61/256",
+      "H04L 67/141",
+      "G06F 2009/4557",
+      "G06F 2009/45587",
+      "G06F 2009/45595"
+    ],
+    "all": [
+      "H04L 63/0815",
+      "G06F 9/45558",
+      "G06F 21/31",
+      "H04L 12/4633",
+      "H04L 12/66",
+      "H04L 41/0806",
+      "H04L 47/125",
+      "H04L 47/82",
+      "H04L 61/256",
+      "H04L 67/141",
+      "G06F 2009/4557",
+      "G06F 2009/45587",
+      "G06F 2009/45595"
+    ],
+    "source": "converted"
+  }
+}

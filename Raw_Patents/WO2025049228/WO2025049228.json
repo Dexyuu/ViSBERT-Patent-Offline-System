@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2025049228",
+  "application_id_fs": "WO2025049228",
+  "title": "Autonomous vehicle infrastructure hub",
+  "abstract": "A system including a supervisory computing device and a sensor apparatus positioned at a drivable intersection, the sensor apparatus remote from an autonomous vehicle and in communication with the autonomous vehicle. The sensor apparatus includes one or more sensors and one or more processors configured to receive from the sensors an indication of a presence of the autonomous vehicle at the drivable intersection and alert the supervisory computing device of the presence of the autonomous vehicle. The processors then receive a signal associated with a drivable area on which the autonomous vehicle may travel and predict a drivable path for the autonomous vehicle. The processors transmit an indication of the drivable path to the supervisory computing device to request approval to travel the drivable path. Upon receiving approval, the one or more processors transmit a signal to adjust an operating parameter to initiate travelling on the drivable path.",
+  "claims": "Claims CLAIMS What is claimed is: 1. A system comprising: a supervisory computing device; and a sensor apparatus positioned at a drivable intersection, the sensor apparatus remote from an autonomous vehicle and in communication with the autonomous vehicle and comprising: one or more sensors configured to receive a sensor signal associated with the drivable intersection; and one or more processors configured to: receive, from the one or more sensors, an indication of a presence of the autonomous vehicle at the drivable intersection associated with the sensor apparatus; alert the supervisory computing device of the presence of the autonomous vehicle at the drivable intersection; receive, from the one or more sensors, a signal associated with a drivable area on which the autonomous vehicle may travel; predict a drivable path for the autonomous vehicle entering the drivable intersection; transmit, to a supervisory module, an indication of the drivable path; request, from the supervisory computing device, an approval for the autonomous vehicle to adjust an operating parameter to travel on the drivable path in view of other vehicles at the drivable intersection; receive, from the supervisory computing device, the approval to adjust the operating parameter to travel on the drivable path; and upon receiving the approval, transmit to an electronic control unit of the autonomous vehicle, a control signal to adjust the operating parameter to initiate travelling on the drivable path. 2. The system of claim 1, wherein the one or more sensors may be used on the autonomous vehicle. 3. The system of claim 1, wherein the sensor apparatus is permanently installed proximate the drivable intersection. 4. The system of claim 1, wherein the one or more sensors include at least one of a camera, a LiDAR sensor, a radar sensor, and a sonar sensor. 5. The system of claim 1, wherein the one or more processors predict the drivable path by inputting at least the signal associated with the drivable area into a simulation model. 6. The system of claim 1, wherein the supervisory computing device is located at a mission control headquarters remote to the sensor apparatus and the autonomous vehicle and operated by a user. 7. The system of claim 1, wherein the sensor apparatus is used for testing new sensors for the autonomous vehicle. 8. A sensor apparatus positioned at a drivable intersection, the sensor apparatus remote from an autonomous vehicle and in communication with the autonomous vehicle and comprising: one or more sensors configured to receive a sensor signal associated with the drivable intersection; and one or more processors configured to: receive, from the one or more sensors, an indication of a presence of the autonomous vehicle at the drivable intersection associated with the sensor apparatus; alert a supervisory computing device of the presence of the autonomous vehicle at the drivable intersection; receive, from the one or more sensors, a signal associated with a drivable area on which the autonomous vehicle may travel; predict a drivable path for the autonomous vehicle entering the drivable intersection; transmit, to a supervisory module, an indication of the drivable path; request, from the supervisory computing device, an approval for the autonomous vehicle to adjust an operating parameter to travel on the drivable path in view of other vehicles at the drivable intersection; receive, from the supervisory computing device, the approval to adjust the operating parameter to travel on the drivable path; and upon receiving the approval, transmit to an electronic control unit of the autonomous vehicle, a control signal to adjust the operating parameter to initiate travelling on the drivable path. 9. The sensor apparatus of claim 8, wherein the one or more sensors may be used on the autonomous vehicle. 10. The sensor apparatus of claim 8, wherein the sensor apparatus is permanently installed proximate the drivable intersection. 11. The sensor apparatus of claim 8, wherein the one or more sensors include at least one of a camera, a LiDAR sensor, a radar sensor, and a sonar sensor. 12. The sensor apparatus of claim 8, wherein the one or more processors predict the drivable path by inputting at least the signal associated with the drivable area into a simulation model. 13. The sensor apparatus of claim 8, wherein the supervisory computing device is located at a mission control headquarters remote to the sensor apparatus and the autonomous vehicle and operated by a user. 14. The sensor apparatus of claim 8, wherein the sensor apparatus is used for testing new sensors for the autonomous vehicle. 15. A computer-implemented method comprising: receiving, by one or more processors of a sensor apparatus, from one or more sensors, an indication of a presence of an autonomous vehicle at a drivable intersection associated with the sensor apparatus; alerting, by the one or more processors, a supervisory computing device of the presence of the autonomous vehicle at the drivable intersection; receiving, by the one or more processors, from the one or more sensors, a signal associated with a drivable area on which the autonomous vehicle may travel; predicting, by the one or more processors, a drivable path for the autonomous vehicle entering the drivable intersection; transmitting, by the one or more processors, to a supervisory module, an indication of the drivable path; requesting, by the one or more processors, from the supervisory computing device, an approval for the autonomous vehicle to adjust an operating parameter to travel on the drivable path in view of other vehicles at the drivable intersection; \n\n receiving, by the one or more processors, from the supervisory computing device, the approval to adjust the operating parameter to travel on the drivable path; and upon receiving the approval, transmitting, by the one or more processors, to an electronic control unit of the autonomous vehicle, a control signal to adjust the operating parameter to initiate travelling on the drivable path. 16. The method of claim 15, wherein the sensor apparatus is permanently installed proximate the drivable intersection. 17. The method of claim 15, wherein the one or more sensors include at least one of a camera, a LiDAR sensor, a radar sensor, and a sonar sensor. 18. The method of claim 15, wherein the one or more processors predict the drivable path by inputting at least the signal associated with the drivable area into a simulation model. 19. The method of claim 15, wherein the supervisory computing device is located at a mission control headquarters remote to the sensor apparatus and the autonomous vehicle and operated by a user. 20. The method of claim 15, wherein the sensor apparatus is used for testing new sensors for the autonomous vehicle.",
+  "classifications": {
+    "ipc": [
+      "G06V 20/00",
+      "G06V 20/50",
+      "G06V 20/52",
+      "G06V 20/54",
+      "B60W 60/00",
+      "B60W 60/001",
+      "G06V 20/56",
+      "B60W 2300/00",
+      "B60W 2300/12",
+      "B60W 2420/00",
+      "B60W 2420/40",
+      "B60W 2420/403",
+      "B60W 2420/408",
+      "B60W 60/0015",
+      "G06V 2201/00",
+      "G06V 2201/08"
+    ],
+    "cpc": [],
+    "all": [
+      "G06V 20/00",
+      "G06V 20/50",
+      "G06V 20/52",
+      "G06V 20/54",
+      "B60W 60/00",
+      "B60W 60/001",
+      "G06V 20/56",
+      "B60W 2300/00",
+      "B60W 2300/12",
+      "B60W 2420/00",
+      "B60W 2420/40",
+      "B60W 2420/403",
+      "B60W 2420/408",
+      "B60W 60/0015",
+      "G06V 2201/00",
+      "G06V 2201/08"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025049228"
+}

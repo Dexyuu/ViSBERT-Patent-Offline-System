@@ -1,0 +1,22 @@
+{
+  "title": "Control device, industrial machine, and control method",
+  "abstract": "A relative displacement specification unit specifies a relative displacement between a jig and a tool. A position determination unit determines whether the jig and the tool are respectively positioned at a jig calibration point and a tool calibration point. A displacement correction unit corrects the measurement values of the displacements of the jig and the tool. A contact determination unit determines whether the tool has come into contact with a workpiece based on a measurement value related to a deflection of the tool. A tool length correction unit corrects tool length data based on the relative displacement when the tool is determined to have come into contact with the workpiece. A control unit generates a control command for controlling the jig or tool based on the relative displacement, a shape of the workpiece, and tool length data indicating a length of the tool.",
+  "claims": "1. A control device of a machine having a jig which supports a workpiece and a tool which machines the workpiece, the control device comprising: a relative displacement specification unit configured to specify a relative displacement between the jig and the tool based on measurement values of displacements of the jig and the tool; a position determination unit configured to determine whether the jig and the tool are respectively positioned at a jig calibration point and a tool calibration point based on the measurement values of the displacements of the jig and the tool; a displacement correction unit configured to correct the measurement values of the displacements of the jig and the tool based on a captured image of the jig calibration point and a captured image of the tool calibration point when the jig and the tool are determined as being respectively positioned at the jig calibration point and the tool calibration point; a contact determination unit configured to determine whether the tool has come into contact with the workpiece based on a measurement value related to a deflection of the tool; a tool length correction unit configured to correct tool length data indicating a length of the tool based on the relative displacement when the tool is determined to have come into contact with the workpiece; and a control unit configured to generate a control command for controlling the jig or the tool based on the relative displacement, a shape of the workpiece, and the tool length data.",
+  "patent_id": "US12377507-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B23Q 15/12",
+      "B23Q 1/25",
+      "G05B 19/402",
+      "G05B 2219/37383"
+    ],
+    "all": [
+      "B23Q 15/12",
+      "B23Q 1/25",
+      "G05B 19/402",
+      "G05B 2219/37383"
+    ],
+    "source": "converted"
+  }
+}

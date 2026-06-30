@@ -1,0 +1,18 @@
+{
+  "title": "Activation/de-activation mechanism for one SCG and Scells, and conditional PSCell change/addition",
+  "abstract": "Methods, apparatus, and systems are described for assistance information from the UE to network side, e.g., enabling faster decision-making for secondary cell group deactivation in 3GPP MR DC/CA deployments. According to some aspects, instructions for UE behavior upon MR DC/CA secondary cell group activation are provided in a secondary cell group deactivation message to reduce delays for a UE triggered secondary group activation. RRC signaling ambiguities for conditional PSCell addition/change may be resolved by a synchronization message between a main node and a secondary node to avoid delays and signaling errors.",
+  "claims": "10. A method implemented by a wireless transmit/receive unit (WTRU), the method comprising: receiving a first radio resource control (RRC) reconfiguration message, the first RRC reconfiguration message comprising a value for a timer associated with sending assistance information related to secondary cell group (SCG) deactivation, the first RRC reconfiguration message indicating one or more conditions to activate a SCG; determining that the one or more conditions to activate the SCG are satisfied; activating the SCG based on the determination that the one or more conditions are satisfied; determining a first preference associated with SCG deactivation; on a condition that the determined first preference is a preference for SCG deactivation and that the timer is not running, transmitting a first assistance information message, the first assistance information message comprising the first preference associated with SCG deactivation; starting the timer based on the transmission of the first assistance information message comprising the first preference associated with SCG deactivation, wherein the timer is configured based on the value; receiving a second RRC reconfiguration message, the second RRC reconfiguration message indicating that the SCG is deactivated; determining a second preference associated with SCG deactivation; and transmitting a second assistance information message, the second assistance information message comprising the second preference associated with SCG deactivation and the second assistance information message being transmitted when the timer is not running.",
+  "patent_id": "US12382544-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/34",
+      "H04W 24/08"
+    ],
+    "all": [
+      "H04W 76/34",
+      "H04W 24/08"
+    ],
+    "source": "converted"
+  }
+}

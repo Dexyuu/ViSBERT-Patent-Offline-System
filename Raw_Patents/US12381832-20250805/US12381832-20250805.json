@@ -1,0 +1,28 @@
+{
+  "title": "Utilizing throughput rate to dynamically generate queue request notifications",
+  "abstract": "The present disclosure relates to systems, non-transitory computer-readable media, and methods for dynamically controlling requestor device queues by monitoring and utilizing the throughput rate of matched provider devices and requestor devices. In some embodiments, the disclosed systems determine throughput rate of matched provider devices and requestor devices in real-time and/or predicts throughput rate utilizing historical features of a particular location. The disclosed systems can generate and provide queue request notifications to requestor devices based on a throughput rate at the location. Specifically, the disclosed systems can monitor a current queue status over time, compare the queue status to a queue threshold, and dynamically generate queue request notifications that reflects throughput-based queue modifiers as the current queue status approaches the queue threshold.",
+  "claims": "1. A computer-implemented method comprising: monitoring a first set of requestor devices and provider devices at a location to determine a throughput rate corresponding to the location by determining a rate of fulfilled transportation requests between the first set of requestor devices and provider devices; providing, for display via a first requestor user interface of a first requestor device at the location, a first queue request notification based on the throughput rate that indicates the rate of fulfilled transportation requests between the first set of requestor devices and provider devices at the location; monitoring a second set of requestor devices and providers devices at the location to determine an updated throughput rate corresponding to the location by determining an updated rate of fulfilled transportation requests between the second set of requestor devices and provider devices; and providing, for display via a second requestor user interface of a second requestor device at the location, a second queue request notification based on the updated throughput rate that indicates the updated rate of fulfilled transportation requests between the second set of requestor devices and provider devices at the location, wherein the second queue request notification is different than the first queue request notification.",
+  "patent_id": "US12381832-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 47/6255",
+      "G06F 3/0481",
+      "G06Q 10/02",
+      "G06Q 50/40",
+      "H04L 43/0888",
+      "H04L 47/11",
+      "H04L 47/622"
+    ],
+    "all": [
+      "H04L 47/6255",
+      "G06F 3/0481",
+      "G06Q 10/02",
+      "G06Q 50/40",
+      "H04L 43/0888",
+      "H04L 47/11",
+      "H04L 47/622"
+    ],
+    "source": "converted"
+  }
+}

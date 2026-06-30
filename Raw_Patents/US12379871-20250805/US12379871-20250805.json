@@ -1,0 +1,20 @@
+{
+  "title": "System and storage device for executing read command using read recovery level and methods of operation",
+  "abstract": "A storage device may receive, from an external device, a target read recovery level indicating information on a read command execution completion time and an error recovery amount requested by the external device, may read, from a memory, data requested by a read command transmitted by the external device, and may transmit, to the external device, a response regarding a result of executing the read command transmitted by the external device within the read command execution completion time indicated by the target read recovery level.",
+  "claims": "1. A storage device comprising: a memory configured to store data; and a controller configured to transmit a plurality of candidate read recovery levels to an external device, and receive, from the external device, a target read recovery level indicating a read command execution completion time and an error recovery amount requested by the external device; configured to read, from the memory, data requested by a read command transmitted by the external device; configured to perform error recovery on data requested by the read command; and configured to transmit, to the external device, a result of executing the read command within the read command execution completion time indicated by the target read recovery level, wherein the target read recovery level is determined on the basis of the plurality of candidate read recovery levels, and each of the plurality of candidate read recovery levels indicates information on a read command execution completion time and an error recovery amount and the plurality of candidate read recovery levels includes a maximum read command execution completion time and a minimum read command execution completion time for the storage device.",
+  "patent_id": "US12379871-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0659",
+      "G06F 3/0604",
+      "G06F 3/0679"
+    ],
+    "all": [
+      "G06F 3/0659",
+      "G06F 3/0604",
+      "G06F 3/0679"
+    ],
+    "source": "converted"
+  }
+}

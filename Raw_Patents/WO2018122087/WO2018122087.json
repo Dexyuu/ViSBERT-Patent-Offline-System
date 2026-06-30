@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2018122087",
+  "application_id_fs": "WO2018122087",
+  "title": "Method and device for joint segmentation and 3d reconstruction of a scene",
+  "abstract": "A method for joint segmentation and 3D reconstruction of a scene, from a set of at least one image of the scene, comprises: - obtaining (11) an initial 3D reconstruction of the scene; - obtaining (12) initial 3D features associated with the initial 3D reconstruction; - obtaining (13) an initial segmentation of the initial 3D reconstruction; - determining (14) enhanced 3D features, from the initial 3D features and from initial 2D features determined in at least one image of the set, as corresponding to the initial 3D features associated with the initial 3D reconstruction of the scene, the enhanced 3D features corresponding at least partly to the initial segmentation; and - determining (15) an enhanced segmentation and a refined 3D reconstruction, from the initial segmentation and the enhanced 3D features. Application to Augmented Reality.",
+  "claims": "Claims 1. A method for joint segmentation and 3D reconstruction of a scene, from a set of at least one image of the scene, the segmentation of the scene corresponding to a partitioning of the 3D reconstruction of the scene into segments, the method comprising: - obtaining (1 1 ) an initial 3D reconstruction of the scene; - obtaining (12) initial 3D features associated with the initial 3D reconstruction; - obtaining (13) an initial segmentation of the initial 3D reconstruction; - determining (14) enhanced 3D features, from the initial 3D features and from initial 2D features determined in at least one image of the set, as corresponding to the initial 3D features associated with said initial 3D reconstruction of the scene, said enhanced 3D features corresponding at least partly to said initial segmentation; and - determining (15) both an enhanced segmentation and a refined 3D reconstruction, from both the initial segmentation and the enhanced 3D features. 2. The method according to claim 1 , wherein said 3D features are 3D feature lines and said 2D features are 2D feature lines. 3. The method according to claim 1 or 2, wherein obtaining (1 1 ) the initial 3D reconstruction of the scene comprises constructing the initial 3D reconstruction from depth data. 4. The method according to any of claims 1 to 3, wherein obtaining (12) the initial 3D features comprises identifying 3D features in the initial 3D reconstruction of the scene using geometry characteristics and/or local feature descriptors. 5. The method according to any of claims 1 to 4, wherein said set of said at least one image of the scene comprising at least two images, the method comprises determining the initial 2D features from: - selecting images of the set comprising the initial 3D features, known as visible images, and - identifying the initial 2D features, in the visible images, matching the initial 3D features, and wherein determining the enhanced 3D features comprises: - generating geometric cues by matching the initial 2D features across at least two visible images, and \n\n - enhancing the initial 3D features with the geometric cues to determine the enhanced 3D features. 6. The method according to any of claims 1 to 5, comprising at least one iteration of: - determining further enhanced 3D features, from the enhanced 3D features and from enhanced 2D features determined in said at least one image of the set, as corresponding to the enhanced 3D features associated with said refined 3D reconstruction of the scene; and - determining a further enhanced segmentation and a further refined 3D reconstruction from the enhanced segmentation and the further enhanced 3D features. 7. The method according to claim 6, wherein the iterations are stopped when a predetermined precision threshold on at least a matching between said further enhanced 3D features and said enhanced 2D features is reached. 8. The method according to claim 7, wherein said predetermined precision threshold is jointly applied to at least one of a segmentation level, given by an extent of partitioning the 3D reconstruction of the scene into said segments, a consistency of labels between neighboring similar 3D elements measured on said further refined 3D reconstruction, and an alignment between said at least one image of the set and said further refined 3D reconstruction. 9. The method according to any of claims 6 to 8, wherein the iterations are stopped when a predetermined number of iterations is reached. 10. The method according to any of claims 1 to 9, wherein determining the enhanced segmentation relies on segmentation constraints. 11. The method according to claim 10, wherein the segmentation constraints are related to at least one segment shape. 12. The method according to any of claims 1 to 1 1 , comprising receiving said initial 3D reconstruction and said set of at least one image as at least one input, determining the enhanced 3D features, enhanced segmentation and refined 3D reconstruction with at least one processor and outputting said enhanced segmentation and said refined 3D reconstruction from at least one output for displaying said refined 3D reconstruction to a \n\n user and for processing said refined 3D reconstruction by means of said enhanced segmentation. 13. A computer program product downloadable from a communication network and/or recorded on a medium readable by computer and/or executable by a processor comprising software code adapted to perform a method according to anyone of claims 1 to 12 when it is executed by a processor. 14. A device for joint segmentation and 3D reconstruction of a scene, from a set of at least one image of the scene, the segmentation of the scene corresponding to a partitioning of the 3D reconstruction of the scene into segments, the device comprising at least one processor adapted and configured to: - obtain an initial 3D reconstruction of the scene; - obtain initial 3D features associated with the initial 3D reconstruction; - obtain an initial segmentation of the initial 3D reconstruction; - determine enhanced 3D features, from the initial 3D features and from initial 2D features determined in at least one image of the set, as corresponding to the initial 3D features associated with said initial 3D reconstruction of the scene, said enhanced 3D features corresponding at least partly to said initial segmentation; and - determine both an enhanced segmentation and a refined 3D reconstruction, from both the initial segmentation and the enhanced 3D features. 15. An apparatus characterized in that it comprises a device according to claim 14, said apparatus being a mobile apparatus preferably chosen among a mobile phone, a tablet, or a head-mounted display, or an autonomous apparatus, preferably chosen a robot, an autonomous driving apparatus, or a smart home apparatus.",
+  "classifications": {
+    "ipc": [
+      "G06T 7/00",
+      "G06T 7/60",
+      "G06T 7/10",
+      "G06T 7/11",
+      "G06T 7/12",
+      "G06T 17/00",
+      "G06T 17/10",
+      "G06T 5/00",
+      "G06T 7/30",
+      "G06T 7/33",
+      "G06T 7/344",
+      "G06T 7/50",
+      "G06T 7/507",
+      "G06T 7/55",
+      "G06T 2207/00",
+      "G06T 2207/10"
+    ],
+    "cpc": [],
+    "all": [
+      "G06T 7/00",
+      "G06T 7/60",
+      "G06T 7/10",
+      "G06T 7/11",
+      "G06T 7/12",
+      "G06T 17/00",
+      "G06T 17/10",
+      "G06T 5/00",
+      "G06T 7/30",
+      "G06T 7/33",
+      "G06T 7/344",
+      "G06T 7/50",
+      "G06T 7/507",
+      "G06T 7/55",
+      "G06T 2207/00",
+      "G06T 2207/10"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018122087"
+}

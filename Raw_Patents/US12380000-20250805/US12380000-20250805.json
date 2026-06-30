@@ -1,0 +1,28 @@
+{
+  "title": "Database table restoration for data with skewed distribution",
+  "abstract": "A database management system obtains key ranges associated with partitions of a database table, and determines that restoration of data associated with at least one of these partitions would take time that is estimated to exceed a goal time. The database management system splits a partition into two or more additional partitions, so that the respective estimated restoration times for data associated with the additional partitions is estimated to be less than the goal time. The database management system then causes the database table to be restored according to partitions that comprises the additional partitions.",
+  "claims": "1. A system, comprising: at least one processor; and a memory comprising instructions that, in response to execution by the at least one processor, cause the system to at least: obtain, from a backup of a database table, information indicative of key ranges associated with a first plurality of partitions of the database table hosted on a plurality of corresponding computing nodes; determine a size of data associated with a partition of the first plurality of partitions of the database table; estimate a duration required to restore data associated with the partition; split, in response to a determination that the duration to restore the data associated with the partition is estimated to exceed a goal duration, the partition into two or more additional partitions until an estimated restore duration of the two or more additional partitions is less than the goal duration, wherein each of the two or more additional partitions are hosted on additional corresponding computing nodes, wherein the partition is split by at least mapping the key ranges associated with the first plurality of partitions to the two or more additional partitions; and cause the database table to be restored according to a second plurality of partitions of the database table, wherein the second plurality of partitions comprises the two or more additional partitions.",
+  "patent_id": "US12380000-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/1464",
+      "G06F 11/1451",
+      "G06F 11/1469",
+      "G06F 16/2282",
+      "G06F 16/278",
+      "G06F 2201/80",
+      "G06F 2201/84"
+    ],
+    "all": [
+      "G06F 11/1464",
+      "G06F 11/1451",
+      "G06F 11/1469",
+      "G06F 16/2282",
+      "G06F 16/278",
+      "G06F 2201/80",
+      "G06F 2201/84"
+    ],
+    "source": "converted"
+  }
+}

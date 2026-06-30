@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2025034605",
+  "application_id_fs": "WO2025034605",
+  "title": "Automatically executing application routines with user inputs",
+  "abstract": "Implementations relate to determining a rendering type for an application that is executing automatically. Based on user interactions with an application that is associated with specified input from the user while the user is interacting with the application, a confidence metric is generated for each specified input and a rendering type is determined based on the confidence metrics. Subsequently, when the user requests that a sequence of actions be performed, the application will be displayed according to the rendering type.",
+  "claims": "Claims 1. A method implemented by one or more processors, the method comprising: identifying a plurality of instances of a user performing an action, wherein the action is performed via an application, and wherein the action is at least a portion of a sequence of actions; determining, based on the instances, one or more user interactions initiated by the user while performing the action, wherein a given user interaction indicates a specified input of the user while performing one or more of the actions; generating, based on a quantity of each specified input for a given user interaction, a confidence metric; selecting, based on the confidence metrics, a corresponding rendering type for the application while performing the action, wherein the corresponding rendering type indicates a format to utilize while rendering the application via one or more output devices; storing the sequence of actions with an association to the corresponding rendering type; receiving a request to execute the sequence of actions; and rendering the application in accordance with the rendering type. 2. The method of claim 1, further comprising: determining a primary confidence metric of the confidence metrics that satisfies a threshold, wherein selecting the rendering type includes selecting a rendering type that does not visually render at least a portion of the application, and wherein rendering the application includes rendering in accordance with the specified input that corresponds to the primary confidence metric. 3. The method of claim 1, further comprising: determining that the confidence metrics do not satisfy a threshold, wherein selecting the rendering type includes selecting a rendering type that renders an interface of the application. 4. The method of claim 1, wherein the rendering type includes an option for the user to initiate execution of a next action. 5. The method of claim 1, wherein the rendering type includes a countdown before executing the application in accordance with a selected input of the specified inputs. 6. The method of claim 5, further comprising: receiving a confirmation to render the application in accordance with the selected input, wherein the application is rendered in response to receiving the confirmation. 7. The method of claim 6, wherein the confirmation is the countdown expiring without user input. 8. The method of claim 1, wherein a rendering type includes a summary of information from the application. 9. The method of any preceding claim, wherein selecting the corresponding rendering type is further based on an application type for the application. 10. A system, comprising: one or more computers each including at least one processor and a memory storing processor-executable code, the one or more computers configured to: identify a plurality of instances of a user performing an action, wherein the action is performed via an application, and wherein the action is at least a portion of a sequence of actions; determine, based on the instances, one or more user interactions initiated by the user while performing the action, wherein a given user interaction indicates a specified input of the user while performing one or more of the actions; \n\n generate, based on a quantity of each specified input for a given user interaction, a confidence metric; select, based on the confidence metrics, a corresponding rendering type for the application while performing the action, wherein the corresponding rendering type indicates a format to utilize while rendering the application via one or more output devices; store the sequence of actions with an association to the corresponding rendering type; receive a request to execute the sequence of actions; and render the application in accordance with the rendering type. 11. The system of claim 10, wherein one or more of the computers are further configured to: determine a primary confidence metric of the confidence metrics that satisfies a threshold, wherein selecting the rendering type includes selecting a rendering type that does not visually render at least a portion of the application, and wherein rendering the application includes rendering in accordance with the specified input that corresponds to the primary confidence metric. 12. The system of claim 10, wherein one or more of the computers are further configured to: determine that the confidence metrics do not satisfy a threshold, wherein selecting the rendering type includes selecting a rendering type that renders an interface of the application. 13. The system of claim 10, wherein the rendering type includes rendering an option for the user to initiate execution of a next action. 14. The system of claim 10, wherein the rendering type includes a countdown before executing the application in accordance with a selected input of the specified inputs. 15. The system of claim 14, wherein one or more of the computers are further configured to: receive a confirmation to render the application in accordance with the selected input, wherein the application is rendered in response to receiving the confirmation. 16. The system of claim 15, wherein the confirmation is the countdown expiring without user input. 17. A non-transitory processor-readable medium having instructions stored thereon, which when executed by one or more processors, cause the one or more processors to implement a method, comprising: identifying a plurality of instances of a user performing an action, wherein the action is performed via an application, and wherein the action is at least a portion of a sequence of actions; determining, based on the instances, one or more user interactions initiated by the user while performing the action, wherein a given user interaction indicates a specified input of the user while performing one or more of the actions; generating, based on a quantity of each specified input for a given user interaction, a confidence metric; selecting, based on the confidence metrics, a corresponding rendering type for the application while performing the action, wherein the corresponding rendering type indicates a format to utilize while rendering the application via one or more output devices; storing the sequence of actions with an association to the corresponding rendering type; receiving a request to execute the sequence of actions; and rendering the application in accordance with the rendering type. 18. The non-transitory processor-readable medium of claim 17, wherein the method further includes: \n\n determining a primary confidence metric of the confidence metrics that satisfies a threshold, wherein selecting the rendering type includes selecting a rendering type that does not visually render at least a portion of the application, and wherein rendering the application includes rendering in accordance with the specified input that corresponds to the primary confidence metric. 19. The non-transitory processor-readable medium of claim 17, wherein the method further includes: determining that the confidence metrics do not satisfy a threshold, wherein selecting the rendering type includes selecting a rendering type that renders an interface of the application. 20. The non-transitory processor-readable medium of claim 18, wherein the rendering type includes a countdown before executing the application in accordance with a selected input of the specified inputs.",
+  "classifications": {
+    "ipc": [
+      "G06F 9/00",
+      "G06F 9/06",
+      "G06F 9/44",
+      "G06F 9/451",
+      "G06F 3/00",
+      "G06F 3/01",
+      "G06F 3/048",
+      "G06F 3/0481",
+      "G06F 3/0482",
+      "G06F 3/0484",
+      "G06F 11/00",
+      "G06F 11/30",
+      "G06F 11/34",
+      "G06F 11/3438",
+      "G06F 8/00",
+      "G06F 8/30",
+      "G06F 8/36"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 9/00",
+      "G06F 9/06",
+      "G06F 9/44",
+      "G06F 9/451",
+      "G06F 3/00",
+      "G06F 3/01",
+      "G06F 3/048",
+      "G06F 3/0481",
+      "G06F 3/0482",
+      "G06F 3/0484",
+      "G06F 11/00",
+      "G06F 11/30",
+      "G06F 11/34",
+      "G06F 11/3438",
+      "G06F 8/00",
+      "G06F 8/30",
+      "G06F 8/36"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025034605"
+}

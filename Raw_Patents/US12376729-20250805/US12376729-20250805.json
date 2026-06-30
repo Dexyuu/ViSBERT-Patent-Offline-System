@@ -1,0 +1,28 @@
+{
+  "title": "Endoscopic surgery system with automatic hydraulic monitoring function",
+  "abstract": "Provided is an endoscopic surgery system with automatic hydraulic monitoring function, comprising a control system, a cart kit and an endoscope accessory. Then control system includes a processor, a touch display, a perfusion pump, a negative pressure pump, etc. The cart kit includes a cart, a perfusion tube and an extraction tube. The endoscope accessory includes a pressure measuring guide sheath, a hydraulic sensor and an electron microscope. When the endoscope is employed for observation, the invention can control the perfusion and monitoring of the liquid in endoscope instrument, as well as the cavity liquid pressure in organs, allowing for precise control of the intracavity pressure during operation. The real-time monitoring module measures the liquid pressure in the organ in real time and sends data to the control system, calculates a state of the intracavity pressure based on real-time data obtained from the hydraulic sensor using intelligent PID control.",
+  "claims": "1. An endoscopic surgery system with automatic hydraulic monitoring function, comprising a control system, a cart kit and an endoscope accessory; the control system comprises a processor, and a touch display, a perfusion pump and a negative pressure pump connected with the processor; the cart kit comprises a cart, a perfusion tube and a extraction tube; the endoscope accessory comprises a pressure measuring guide sheath, a hydraulic sensor and an electronic endoscope; the hydraulic sensor is a sensor with a recognition function; the perfusion tube is powered by the perfusion pump, and the perfusion tube is connected with a perfusion channel of the electronic endoscope; the electronic endoscope is arranged in the pressure measuring guide sheath, and the pressure measuring guide sheath is connected with an end of the extraction tube and a piezometric tube of the hydraulic sensor, another end of the extraction tube is provided with a extraction power by the negative pressure pump, and the hydraulic sensor is connected with the processor via the hydraulic sensor interface and the hardware processing module in turn; the processor is provided with a USB interface, a digital-analog video interface, a real-time monitoring module, a data memory module, a sound-light alarm module, a hardware processing module and an encoding & decoding module; wherein an input end of the encoding & decoding module is connected with an electronic endoscope interface, an input end of the electronic endoscope interface is connected with the electronic endoscope, and an output end of the encoding & decoding module is connected with the processor; wherein the real-time monitoring module is used for monitoring the pressure of liquid in an organ in real time and providing data to the control system, so as to realize accurate control of intracavity pressure during operation, and the real-time monitoring module comprises a plurality of high-precision hydraulic sensors, these sensors are arranged in the organ and close to an operation area so as to measure the pressure of liquid in the organ; the hydraulic sensor transmits real-time pressure data to the control system through a data line connected to the control system or a wireless communication mode, calculates a state of the intracavity pressure based on real-time data obtained from the hydraulic sensor using intelligent PID control, and adjusts a perfusion and extraction speed of the liquid according to a given target pressure, so as to maintain the intracavity pressure in a safe range, details are as follows: pressure change of a cavity liquid is expressed by the following difference equation:",
+  "patent_id": "US12376729-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 1/00006",
+      "A61B 1/015",
+      "A61B 18/26",
+      "A61B 50/13",
+      "G16H 40/63",
+      "A61B 2018/00982",
+      "A61B 2090/064"
+    ],
+    "all": [
+      "A61B 1/00006",
+      "A61B 1/015",
+      "A61B 18/26",
+      "A61B 50/13",
+      "G16H 40/63",
+      "A61B 2018/00982",
+      "A61B 2090/064"
+    ],
+    "source": "converted"
+  }
+}

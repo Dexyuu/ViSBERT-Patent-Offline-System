@@ -1,0 +1,28 @@
+{
+  "title": "Display device, driving controller, and method of driving display device",
+  "abstract": "A display device is disclosed that includes a pixel component configured to output an image based on a first driving frequency, a scan driver configured to sequentially provide a scan signal to each pixel row in each frame based on the first driving frequency, and a driving controller configured control the scan driver such that, in the case where image data includes data corresponding to a static image, a display area is divided into a first area for the static image, and a second area for a video, and the first area is driven at a second driving frequency, and the second area is driven at a third driving frequency. The driving controller may control the scan driver such that a driving frequency corresponding to the first area is reduced to the second driving frequency, and a driving frequency corresponding to the second area is increased to the third driving frequency.",
+  "claims": "1. A display device comprising: a pixel component configured to output an image refreshed in each frame based on a preset first driving frequency, and including a plurality of pixel rows each including a plurality of pixels; a scan driver configured to sequentially provide a scan signal to each of the plurality of pixel rows in each frame according to the first driving frequency; and a driving controller configured to control the scan driver such that, a display area included in the pixel component is divided into a first area, and a second area, and pixels included in the first area are driven at a second driving frequency different from the first driving frequency, and pixels included in the second area are driven at a third driving frequency different from the first driving frequency, wherein the driving controller controls the scan driver such that a driving frequency corresponding to the first area changes from the first driving frequency to the second driving frequency over a first time period, and a driving frequency corresponding to the second area changes from the first driving frequency to the third driving frequency over a second time period.",
+  "patent_id": "US12380853-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G09G 3/3233",
+      "G09G 2300/0819",
+      "G09G 2300/0842",
+      "G09G 2310/0294",
+      "G09G 2310/08",
+      "G09G 2330/021",
+      "G09G 2340/0435"
+    ],
+    "all": [
+      "G09G 3/3233",
+      "G09G 2300/0819",
+      "G09G 2300/0842",
+      "G09G 2310/0294",
+      "G09G 2310/08",
+      "G09G 2330/021",
+      "G09G 2340/0435"
+    ],
+    "source": "converted"
+  }
+}

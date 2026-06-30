@@ -1,0 +1,22 @@
+{
+  "title": "Cryptographic data processing using a DMA engine",
+  "abstract": "A computing device includes a direct memory access (DMA) engine coupled to a memory, a network interface, and processing circuitry. The processing circuitry is to perform a secure exchange with a second computing device to negotiate a shared encryption key, based on a request for data received via the network interface from the second computing device. The DMA engine is to retrieve the data from a storage location based on an encryption command. The encryption command indicates the storage location. The DMA engine is to encrypt the data based on the shared encryption key to generate encrypted data, and store the encrypted data in the memory.",
+  "claims": "1. A computing device comprising: processing circuitry, the processing circuitry to: perform a secure exchange with a second computing device to negotiate a shared encryption key, based on a request for data received via a network interface from the second computing device; and a direct memory access (DMA) engine coupled to a memory, the network interface, and the processing circuitry, the DMA engine is to: retrieve the data from a storage location based on an encryption command, the encryption command indicating the storage location; encrypt the data based on the shared encryption key to generate encrypted data; and store the encrypted data in the memory.",
+  "patent_id": "US12381858-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/0435",
+      "G06F 13/28",
+      "G06F 21/602",
+      "H04L 63/166"
+    ],
+    "all": [
+      "H04L 63/0435",
+      "G06F 13/28",
+      "G06F 21/602",
+      "H04L 63/166"
+    ],
+    "source": "converted"
+  }
+}

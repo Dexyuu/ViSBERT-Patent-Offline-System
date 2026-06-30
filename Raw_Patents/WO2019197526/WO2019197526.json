@@ -1,0 +1,52 @@
+{
+  "application_id": "WO2019197526",
+  "application_id_fs": "WO2019197526",
+  "title": "Sounding reference signal power control in new radio",
+  "abstract": "Embodiments provide methods, network nodes, and wireless devices for sounding reference signal (SRS) power control in New Radio (NR). According to one aspect, a wireless device (WD) is configured to receive signaling from the network node (16) that identifies a first sounding reference signal, SRS, configuration defining an SRS resource set comprising one or more SRS resources. The WD is further configured to determine a first transmission power intended for SRS transmission, the determining being based at least in part on the first SRS configuration. The WD is also configured to determine a second transmission power for at least one antenna port related to the SRS resource set based on the first transmission power and according to a rule dependent on the first SRS configuration. The WD is also configured to transmit SRS on the at least one antenna port with the second transmission power.",
+  "claims": "Claims What is claimed is: 1. A wireless device, WD, (22) configured to communicate with a network node (16), the WD (22) comprising processing circuitry configured to: receive signaling from the network node (16) that identifies a first sounding reference signal, SRS, configuration defining an SRS resource set comprising one or more SRS resources; determine a first transmission power intended for SRS transmission, the determining being based at least in part on the first SRS configuration; determine a second transmission power for at least one antenna port related to the SRS resource set based on the first transmission power and according to a rule dependent on the first SRS configuration; and transmit SRS on the at least one antenna port with the second transmission power. 2. The WD (22) of Claim 1 , wherein the rule comprises determining the antenna ports of the SRS resource set that are used for SRS transmission in one OFDM symbol and splitting the first transmission power over the determined antenna ports. 3. The WD (22) of Claim 1 , wherein the rule comprises determining the SRS resources of the SRS resource set that are used for SRS transmission in one OFDM symbol and splitting the first transmission power over antenna ports of the determined SRS resources. 4. The WD (22) of Claim 1 , wherein the rule comprises determining the antenna ports of the SRS resource set and splitting the first transmission power over the determined antenna ports. 5. The WD (22) of Claim 1, wherein the rule comprises determining the antenna ports of an SRS resource within an SRS resource set and splitting the first transmission power over the determined antenna ports. 6. The WD (22) of any of the preceding Claims, wherein the rule is further dependent on the use of the SRS resource set as defined by a parameter of the first SRS configuration. 7. The WD (22) of Claim 1, wherein the received signaling from the network node (16) identifies at least one further SRS configuration defining at least one further SRS resource set, and wherein the rule is dependent also on the at least one further SRS configuration. 8. The WD (22) of Claim 7, wherein the rule is dependent on the number of SRS resource sets that are used for SRS transmission. 9. The WD (22) of Claim 7, wherein the rule is dependent on the number of SRS resource sets that are used for SRS transmission in one OFDM symbol. 10. A method implemented in a wireless device, WD, (22) configured to communicate with a network node (16), the method comprising: receiving (S134) signaling from the network node (16) that identifies a first sounding reference signal, SRS, configuration defining an SRS resource set comprising one or more SRS resources; determining (S136) a first transmission power intended for SRS transmission, the determining being based at least in part on the first SRS configuration; determining (S138) a second transmission power for at least one antenna port related to the SRS resource set based on the first transmission power and according to a rule dependent on the first SRS configuration; and transmitting (S140) SRS on the at least one antenna port with the second transmission power. 11. The method of Claim 10, wherein the rule comprises determining the antenna ports of the SRS resource set that are used for SRS transmission in one OFDM symbol and splitting the first transmission power over the determined antenna ports. 12. The method of Claim 10, wherein the rule comprises determining the SRS resources of the SRS resource set that are used for SRS transmission in one OFDM symbol and splitting the first transmission power over antenna ports of the determined SRS resources. 13. The method of Claim 10, wherein the rule comprises determining the antenna ports of the SRS resource set and splitting the first transmission power over the determined antenna ports. 14. The method of Claim 10, wherein the rule comprises determining the antenna ports of an SRS resource within an SRS resource set and splitting the first transmission power over the determined antenna ports. 15. The method of any of Claims 10-14, wherein the rule is further dependent on the use of the SRS resource set as defined by a parameter of the first SRS configuration. 16. The method of Claim 10, wherein the received signaling from the network node (16) identifies at least one further SRS configuration defining at least one further SRS resource set, and wherein the rule is dependent also on the at least one further SRS configuration. 17. The method of Claim 16, wherein the rule is dependent on the number of SRS resource sets that are used for SRS transmission. 18. The method of Claim 16, wherein the rule is dependent on the number of SRS resource sets that are used for SRS transmission in one OFDM symbol. 19. A non-transitory, computer readable medium storing computer- executable instructions that, when executed by at least one processor of a wireless \n\n device, WD, (22), configure the WD to perform operations corresponding to any of the methods of claims 10-18. 20. A computer program product comprising computer-executable instructions that, when executed by at least one processor of a wireless device, WD, (22), configure the WD to perform operations corresponding to any of the methods of claims 10-18.",
+  "classifications": {
+    "ipc": [
+      "H04L 5/00",
+      "H04L 5/003",
+      "H04L 5/0048",
+      "H04L 5/0051",
+      "H04W 52/00",
+      "H04W 52/04",
+      "H04W 52/30",
+      "H04W 52/32",
+      "H04W 52/325",
+      "H04L 5/0001",
+      "H04L 5/0014",
+      "H04L 5/0023",
+      "H04W 52/06",
+      "H04W 52/14",
+      "H04W 52/146",
+      "H04W 52/18",
+      "H04W 52/22",
+      "H04W 52/226"
+    ],
+    "cpc": [],
+    "all": [
+      "H04L 5/00",
+      "H04L 5/003",
+      "H04L 5/0048",
+      "H04L 5/0051",
+      "H04W 52/00",
+      "H04W 52/04",
+      "H04W 52/30",
+      "H04W 52/32",
+      "H04W 52/325",
+      "H04L 5/0001",
+      "H04L 5/0014",
+      "H04L 5/0023",
+      "H04W 52/06",
+      "H04W 52/14",
+      "H04W 52/146",
+      "H04W 52/18",
+      "H04W 52/22",
+      "H04W 52/226"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019197526"
+}

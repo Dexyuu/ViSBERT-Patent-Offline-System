@@ -1,0 +1,46 @@
+{
+  "application_id": "WO2017020035",
+  "application_id_fs": "WO2017020035",
+  "title": "Enabling coordinated identity management between an operator-managed mobile-edge platform and an external network",
+  "abstract": "Approaches may be used for enabling coordinated identity management between an operator-managed mobile edge platform (MEP) and an external network. A token may be generated in the MEP that may associate a mobile network identity and an external network identity. The token may be negotiated on a per-session basis or on a per-wireless transmit/receive unit (WTRU) identity (WTRU-ID) basis. In an example method performed by a WTRU camped on a small cell network covered by the MEP, an enterprise bring your own device (BYOD) client (EBC) application may establish a secure link with an enterprise BYOD agent (EBA) application running on the MEP using an initial connection procedure. The EBC application may initiate an application-level authentication procedure with an enhanced evolved packet core (EPC) network. The EBC application may generate and provide a token to the EBA application via the established secure link.",
+  "claims": "Claims CLAIMS  What is claimed is: 1. A wireless transmit/receive unit (WTRU) camped on a small cell network, the WTRU comprising: a processor configured to run a client application, wherein: the client application is configured to establish a link with a client agent application using an initial connection procedure, wherein the client agent application is in the small cell network; the client application is configured to initiate an authentication procedure with an enhanced packet core (EPC) network; and the client application is configured to generate a token. 2. The WTRU of claim 1, wherein the client application is configured to generate the token based on an identity associated with the WTRU. 3. The WTRU of claim 2, wherein the identity associated with the WTRU is an International Mobile Subscriber Identity (IMSI) or a Temporary Mobile Subscriber Identity (TMSI) associated with the WTRU. 4. The WTRU of claim 1, wherein the client application is configured to generate the token using a bootstrapping approach. 5. The WTRU of claim 1, wherein the client application is configured to generate the token using an Open Identity Generic Bootstrap Architecture (OpenlD-GBA) bootstrapping approach. 6. The WTRU of claim 1, wherein the client application is configured to generate the token using a pairwise master key (PMK) approach. 7. The WTRU of claim 1, wherein the small cell network is an European Telecommunications Standards Institute (ETSI) Mobile Edge Computing (MEC) platform and incorporates a Mobile Edge Platform (MEP) and the client agent application. 8. The WTRU of claim 7, wherein the EPC passes the token to the client agent application and the MEP. 9. The WTRU of claim 1, wherein the processor is configured to run the client application in an application layer. 10. The WTRU of claim 1, further comprising: a transceiver configured to receive a list of evolved Node B (eNB) identifiers (IDs) associated with the small cell network and provide the list of eNB IDs associated with the small cell network to the EBC application; and the EBC application configured to check the list of eNB IDs associated with the small cell network against a pre-programmed list of eNB IDs to determine if the small cell network is associated with the MEP. 11. The WTRU of claim 1, wherein as part of the initial connection procedure: the EBC application is configured to receive known static Internet Protocol (IP) addresses from the EBA application; and the EBC application is configured to select one of the known static IP addresses and use the selected static IP address to initiate an authentication session with the EBA application, wherein the authentication session results in a set of security credentials for secure communication between the EBC application and the EBA application. 12. A method performed by a wireless transmit/receive unit (WTRU) camped on a small cell network, the method comprising: \n\n running a client application on a processor; establishing, by the client application, a link with a client agent application using an initial connection procedure, wherein the chent agent application is in the small cell network; initiating, by the client application, an authentication procedure with an enhanced evolved packet core (EPC) network; and generating, by the chent application, a token. 13. The method of claim 12, wherein the generating, by the client application, the token is based on an identity associated with the WTRU. 14. The method of claim 13, wherein the identity associated with the WTRU is an International Mobile Subscriber Identity (IMSI) or a Temporary Mobile Subscriber Identity (TMSI) associated with the WTRU. 15. The method of claim 12, wherein the generating, by the client application, the token uses a bootstrapping approach. 16. The method of claim 12, wherein the generating, by the client application, the token uses an OpenlD-GBA bootstrapping approach. 17. The method of claim 12, wherein the generating, by the client application, the token uses a pairwise master key (PMK) approach. 18. The method of claim 12, wherein the small cell network is an European Telecommunications Standards Institute (ETSI) Mobile Edge Computing (MEC) platform and incorporates a Mobile Edge Platform (MEP) and the client agent application. 19. The method of claim 18, wherein the EPC passes the token to the client agent application and the MEP. 20. The method of claim 12, wherein the client apphcation runs in an application layer. 21. The method of claim 12, further comprising: receiving, by the EBC application, a list of evolved Node B (eNB) identifiers (IDs) associated with the small cell network; and checking, by the EBC apphcation, the list of eNB IDs associated with the small cell network against a pre-programmed list of eNB IDs to determine if the small cell network is associated with the MEP. 22. The method of claim 12, wherein the initial connection procedure includes: receiving, by the EBC application, known static Internet Protocol (IP) addresses from the EBA application; and selecting, by the EBC apphcation, one of the known static IP addresses and using the selected static IP address to initiate an authentication session with the EBA apphcation, wherein the authentication session results in a set of security credentials for secure communication between the EBC application and the EBA application.",
+  "classifications": {
+    "ipc": [
+      "H04W 12/00",
+      "H04W 12/06",
+      "H04L 63/00",
+      "H04L 63/08",
+      "H04L 63/0876",
+      "H04L 9/00",
+      "H04L 9/32",
+      "H04L 9/321",
+      "H04L 9/3213",
+      "H04W 12/04",
+      "H04W 12/041",
+      "H04W 12/043",
+      "H04W 12/08",
+      "H04W 8/00",
+      "H04W 8/18"
+    ],
+    "cpc": [],
+    "all": [
+      "H04W 12/00",
+      "H04W 12/06",
+      "H04L 63/00",
+      "H04L 63/08",
+      "H04L 63/0876",
+      "H04L 9/00",
+      "H04L 9/32",
+      "H04L 9/321",
+      "H04L 9/3213",
+      "H04W 12/04",
+      "H04W 12/041",
+      "H04W 12/043",
+      "H04W 12/08",
+      "H04W 8/00",
+      "H04W 8/18"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017020035"
+}

@@ -1,0 +1,26 @@
+{
+  "application_id": "WO2017162507",
+  "application_id_fs": "WO2017162507",
+  "title": "Improved image quality by two pass temporal noise reduction",
+  "abstract": "An image processor (IP) and a related method. The processor (IP) comprises an input interface (IN) for receiving an input sequence ( F ) of frames acquired by an imaging apparatus (IA). A temporal noise filter (NP) of the processor (IP) is configured to bidirectionally process the input sequence into at least two noise processed sequences ( F LR , F RL ). A merger (SUM) of the processor (IP) is configured to merge said at least two noise processed sequences into an output sequence (Formula (A)).",
+  "claims": "Claims CLAIMS: 1. Image processor (IP), comprising: an input interface (IN) for receiving an input sequence (F) of frames acquired by an imaging apparatus (IA); at least one temporal noise filter (NP) configured to bi-directionally process the input sequence into at least two noise processed sequences (F LR , ^); and a merger (SUM) configured to merge said at least two noise processed sequences into an output sequence (F). 2. Processor of claim 1 , wherein the bidirectional temporal noise processing is recursive. 3. Processor of claim 1 or 2, wherein the merger (SUM) is configured to replace at least one frame from an initial section of one of the at least two noise processed sequences by a corresponding frame from one other of the at least two noise processed sequences. 4. Processor of any one of the previous claims, wherein the merger (SUM) is configured to average frames from the two noise processed sequences. 5. Processor of any one of the previous claims, wherein a noise level is essentially constant throughout at least an initial or terminal section of the output sequence. 6. Image processing method, comprising: receiving (S510) an input sequence (F) of frames acquired by an imaging apparatus; applying (S520) bidirectional temporal noise processing to the input sequence to produce at least two noise processed sequences (F LR , F RL ); and merging (S530) said at least two noise processed sequences into an output sequence (F). 7. Image processing method of claim 6, wherein the bidirectional temporal noise processing (S520) is recursive. 8. Image processing method of claim 6 or 7, wherein said merging (S530) includes replacing at least one frame from an initial section of one of the at least two noise processed sequences by a corresponding frame from one other of the at least two noise processed sequences. 9. Image processing method of any one of claims 6-8, wherein said merging (S530) includes averaging frames from the two noise processed sequences. 10. Image processing method of any one of claims 6-9, wherein a noise power level is essentially constant throughout at least an initial or terminal section of the output sequence. 11. Image processing method of any one of claims 6-10 or image processor of claims 1-5, wherein the input frames are any one of i) X-ray frames, ii) ultrasound frames and iii) magnetic resonance frames. 12. Image processing method of any one of claims 6-11 or image processor of any one of claims 1-5, wherein the acquired frames of the input sequence encode a moving object. 13. An image processing system (IPS), comprising: an image processor (IP) of any one of previous claims 1-5, 11 or 12; the imaging apparatus (IA) supplying the input sequence of frames. 14. A computer program element, which, when being executed by a processing unit (PU), is adapted to perform the method of any one of claims 6-12. A computer readable medium having stored thereon the program element of",
+  "classifications": {
+    "ipc": [
+      "G06T 5/00",
+      "G06T 5/70",
+      "G06T 2207/00",
+      "G06T 2207/10",
+      "G06T 2207/20"
+    ],
+    "cpc": [],
+    "all": [
+      "G06T 5/00",
+      "G06T 5/70",
+      "G06T 2207/00",
+      "G06T 2207/10",
+      "G06T 2207/20"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017162507"
+}

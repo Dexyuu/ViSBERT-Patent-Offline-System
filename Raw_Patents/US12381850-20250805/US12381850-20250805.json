@@ -1,0 +1,26 @@
+{
+  "title": "Virtual private gateway for encrypted communication over dedicated physical link",
+  "abstract": "A request to establish an encrypted VPN connection between a network and the provider network via a dedicated direct physical link and a set of resources of the provider network is received. An isolated virtual network (IVN) is established to implement an encryption virtual private gateway to be used for the connection. Protocol processing engines (PPEs) are instantiated within the IVN, address information of the PPEs is exchanged with the external network and an encrypted VPN tunnel is configured between the PPEs and the external network. Routing information pertaining to the set of resources is provided to the external network via at least one of the encrypted VPN tunnels, enabling routing of customer data to the set of resources within the provider network from the external network via an encrypted VPN tunnel implemented over a dedicated direct physical link between the external network and the provider network.",
+  "claims": "1. A system comprising: a plurality of instance hosts comprising computing devices configured to host one or more instances; and one or more computing devices of a provider network configured to implement a connectivity manager configured to provide a high availability virtual private network (VPN), wherein to provide the high availability VPN, the connectivity manager is configured to cause a virtual private gateway to be established for a virtual network including the one or more hosted instances, wherein to establish the virtual private gateway, the connectivity manager is configured to: assign the one or more instances to the virtual private gateway; provide one or more virtual network interfaces to the one or more instances; and implement one or more protocol processing engines for exchanging routing information with a network external to the provider network, wherein the one or more protocol processing engines are configured to: establish a border gateway protocol (BGP) session to exchange routing information for the one or more instances assigned to the virtual private gateway with the network external to the provider network, wherein the BGP session is established via the one or more virtual network interfaces and a network link established between the provider network and the network external to the provider network; establish, using the exchanged routing information, a plurality of VPN tunnels between the network external to the provider network and the one or more instances assigned to the virtual private gateway via the network link; establish additional respective BGP sessions within respective ones of the plurality of VPN tunnels to exchange routing information of one or more instances included in the virtual network with the network external to the provider network, wherein establishment of the additional respective BGP sessions within the respective ones of the plurality of VPN tunnels provides encrypted communication channels for the exchange of the routing information to the network external to the provider network; and enable encrypted communications to flow between the one or more instances included in the virtual network and the network external to the provider network via the plurality of VPN tunnels implemented via the network link.",
+  "patent_id": "US12381850-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/0272",
+      "H04L 12/4633",
+      "H04L 12/66",
+      "H04L 63/0428",
+      "H04L 63/18",
+      "H04L 67/10"
+    ],
+    "all": [
+      "H04L 63/0272",
+      "H04L 12/4633",
+      "H04L 12/66",
+      "H04L 63/0428",
+      "H04L 63/18",
+      "H04L 67/10"
+    ],
+    "source": "converted"
+  }
+}

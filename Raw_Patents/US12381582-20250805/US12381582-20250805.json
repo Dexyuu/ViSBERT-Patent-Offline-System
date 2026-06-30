@@ -1,0 +1,18 @@
+{
+  "title": "Chip-scale control of reconfigurable radio frequency filters",
+  "abstract": "A chip-scale controller for a reconfigurable radio frequency (RF) filter may include memory configured to store a calibration profile associating each of a plurality of digital command inputs with a plurality of digital to analog converter (DAC) codes, a plurality of digital to analog converters (DACs) each configured to generate an analog biasing output in response to one of a DAC code, a communication interface configured to receive a digital command input, and control registers configured to retrieve, from the memory, at least one plurality of DAC codes based on the received digital command input, to select a plurality of DAC codes based on the retrieved at least one plurality of DAC codes, and to provide the selected plurality of DAC codes to the plurality of DACs. At least the plurality of DACs, the communication interface, and the control registers form part of an application specific integrated circuit.",
+  "claims": "1. A controller for a reconfigurable radio frequency (RF) filter comprising: memory configured to store a calibration profile associating each of a plurality of digital command inputs with a plurality of digital to analog converter (DAC) codes; a plurality of digital to analog converters (DACs) each configured to generate an analog biasing output in response to a DAC code; a communication interface configured to receive a digital command input; and control registers configured to retrieve, from the memory, at least one plurality of DAC codes based on the received digital command input, to select a plurality of DAC codes based on the retrieved at least one plurality of DAC codes, and to provide the selected plurality of DAC codes to the plurality of DACs; wherein at least the plurality of DACs, the communication interface, and the control registers form part of an application specific integrated circuit (ASIC).",
+  "patent_id": "US12381582-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 1/0042",
+      "H04B 17/22"
+    ],
+    "all": [
+      "H04B 1/0042",
+      "H04B 17/22"
+    ],
+    "source": "converted"
+  }
+}

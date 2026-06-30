@@ -1,0 +1,26 @@
+{
+  "title": "System and method for determining heart beat features",
+  "abstract": "Method for determining one or more heart beat features, the method comprising: capturing a series of visible light images of a face of a user by a visible light camera; capturing, during capturing the series of the visible light images, at least one infrared image of the face by an infrared camera; detecting, on the at least one infrared image, one or more first face landmarks indicative of a location of the face; locating one or more skin patches on the visible light image series; and determining one or more heart beat features based on the skin patches; characterized in that locating one or more skin patches comprises determining a position of the skin patches relative to the one or more first face landmarks.",
+  "claims": "1. A system for determining one or more heart beat features, the system comprising: a visible light camera; an infrared camera; and a computing device; wherein: the visible light camera is operable to capture a series of visible light images of a face of a user; the infrared camera is operable to capture, during capturing the series of the visible light images, at least one infrared image of the face; and the computing device implemented in hardware is operable to: detect, on the at least one infrared image, one or more first face landmarks; detect, on at least one of the visible light images, one or more second face landmarks; determine a first confidence value of the one or more first face landmarks; determine a second confidence value of the one or more second face landmarks, wherein the second confidence value is expressed on the same scale as the first confidence value; compare the first confidence value to the second confidence value; in response to the first confidence value being greater than the second confidence value, determine a location of one or more skin patches on the series of visible light images based on the one or more first face landmarks; in response to the second confidence value being equal to or greater than the first confidence value, determine the location of the one or more skin patches on the series of visible light images based on the one or more second face landmarks; and determine the one or more heart beat features based on the determined location of the one or more skin patches.",
+  "patent_id": "US12376766-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 5/1176",
+      "A61B 5/0077",
+      "A61B 5/02108",
+      "A61B 5/02405",
+      "A61B 5/026",
+      "A61B 5/18"
+    ],
+    "all": [
+      "A61B 5/1176",
+      "A61B 5/0077",
+      "A61B 5/02108",
+      "A61B 5/02405",
+      "A61B 5/026",
+      "A61B 5/18"
+    ],
+    "source": "converted"
+  }
+}

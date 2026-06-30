@@ -1,0 +1,20 @@
+{
+  "title": "Receiver and zero-intermediate frequency transceiver",
+  "abstract": "Disclosed are a receiver and a zero-IF transceiver. The receiver includes a frequency mixer circuit including two mixers in parallel and weighted feedback circuits respectively corresponding to the mixers, each mixer having an output end connected to an input end of the corresponding weighted feedback circuit, and each weighted feedback circuit having an output end connected to an input end of the other weighted feedback circuit. Each mixer is configured to receive a baseband signal, mix the baseband signal, and input the resulting mixed signal to the corresponding weighted feedback circuit; and each weighted feedback circuit is configured to receive the mixed signal from the corresponding mixer, and adjust the received mixed signal using complex impedance-based feedback to compensate for an asymmetric frequency response in a wideband zero-IF receiver. Weighted feedback circuits are utilized for adjustments using complex impedance-based feedbacks, thereby alleviating quadrature imbalance and reducing power consumption and cost.",
+  "claims": "1. A receiver, comprising a frequency mixer circuit that comprises two mixers in parallel and weighted feedback circuits respectively corresponding to the mixers, each of the mixers having an output end connected to an input end of a corresponding one of the weighted feedback circuits, and any one of the weighted feedback circuits having an output end connected to an input end of the other one of the weighted feedback circuits so that said any one of the weighted feedback circuits is connected to one of the mixers that corresponds to the other one of the weighted feedback circuits via a weighted feedback; wherein each of the mixers is configured to receive a baseband signal, perform frequency mixing on the baseband signal to obtain a mixed signal, and input the mixed signal to one of the weighted feedback circuits electrically connected to said each mixer; and each of the weighted feedback circuits is configured to receive the mixed signal output by a corresponding one of the mixers, and perform adjustment on the received mixed signal using a complex impedance-based feedback to compensate for an asymmetric frequency response in a wideband zero-intermediate frequency (IF) receiver, wherein the mixers comprise a first mixer and a second mixer, and the weighted feedback circuits comprise a first weighted feedback circuit comprising a first trans-impedance amplifier and first at least one weighted feedback resistor, and a second weighted feedback circuit comprising a second trans-impedance amplifier and second at least one weighted feedback resistor, wherein the first mixer has an output end connected to an input end of the first trans-impedance amplifier and further connected to an output end of the second trans-impedance amplifier via the first at least one weighted feedback resistor, and the second mixer has an output end connected to an input end of the second trans-impedance amplifier and further connected to an output end of the first trans-impedance amplifier via the second at least one weighted feedback resistor.",
+  "patent_id": "US12381590-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 1/16",
+      "H03D 7/1441",
+      "H03D 7/1458"
+    ],
+    "all": [
+      "H04B 1/16",
+      "H03D 7/1441",
+      "H03D 7/1458"
+    ],
+    "source": "converted"
+  }
+}

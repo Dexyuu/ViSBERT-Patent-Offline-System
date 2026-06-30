@@ -1,0 +1,16 @@
+{
+  "title": "Data processing method and apparatus, and computing system",
+  "abstract": "In accordance with an embodiment, a data processing method includes: obtaining a first operation command, where the first operation command is used to perform data processing in a relational database; determining an acceleration policy of the first operation command, wherein the acceleration policy is used to accelerate a processing process of the first operation command; and performing an operation of the first operation command based on the acceleration policy.",
+  "claims": "1. A data processing method, comprising: obtaining a first operation command, wherein the first operation command is used to perform data processing in a relational database; determining an acceleration policy of the first operation command, wherein the acceleration policy is used to accelerate a processing process of the first operation command, and determining the acceleration policy of the first operation command comprises: determining a processing mode based on an identifier of the first operation command, wherein the identifier indicates a processing mode usable by the first operation command, and the processing mode comprises using a bypass framework to perform processing of the first operation command; and performing an operation of the first operation command based on the acceleration policy.",
+  "patent_id": "US12380075-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/217"
+    ],
+    "all": [
+      "G06F 16/217"
+    ],
+    "source": "converted"
+  }
+}

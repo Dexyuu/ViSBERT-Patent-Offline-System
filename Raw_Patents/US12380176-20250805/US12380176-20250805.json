@@ -1,0 +1,18 @@
+{
+  "title": "Dynamic maximal clique enumeration device and method based on FPGA with HBM",
+  "abstract": "Disclosed in the present invention are a dynamic maximal clique enumeration device and method based on an FPGA with an HBM, the method including: the HBM stores a dynamic edge flow, a complete graph adjacency matrix, and candidate cliques; a matrix computing unit updates the complete graph adjacency matrix based on the dynamic edge flow, transmits the updated complete graph adjacency matrix to the HBM for storage, and determines header nodes, of which the corresponding candidate clique needs to be updated; a sequence computing unit constructs, according to the updated complete graph adjacency matrix and each header node to be updated, the sorted data set for reconstructing candidate cliques by data block sequencing; and an update computing unit executes, in parallel, an update task of the candidate clique corresponding to each header node to be updated based on the sorted data set, transmits the updated candidate cliques to the HBM for storage, and transmits the updated candidate cliques to the PC host to extract maximal cliques by means of a filtering operation. The present invention supports the computation of pipelined-type incremental maximal clique, thereby improving the overall computing efficiency of the task.",
+  "claims": "1. A dynamic maximal clique enumeration device based on an Field Programmable Gate Array (FPGA) with an High Bandwidth Memory (HBM), wherein the device comprises the FPGA with the HBM; and a matrix computing unit, a sequence computing unit and an update computing unit which are constructed by means of function isolation and division and algorithm function division of First-In-First-Outs (FIFOs) of the FPGA; the HBM is used to store a dynamic edge flow, a complete graph adjacency matrix, and a candidate clique which are transmitted from an external PC host and used for updating a graph structure, wherein the dynamic edge flow is a data flow formed by dynamic edges, each dynamic edge is e +/− (v i , v j ), where, v i and v j are all nodes to be updated, e + (v i , v j ) indicates that an edge is added between v i and v j , and e − (v i , v j ) indicates that an edge between v i and v j is deleted; the matrix computing unit is used to update the complete graph adjacency matrix based on the dynamic edge flow, transmit the updated complete graph adjacency matrix to the HBM for storage, and determine a header node to be updated that needs to update the candidate clique; the sequence computing unit is used to construct, according to the updated complete graph adjacency matrix and each header node to be updated, a sorted data set for reconstructing candidate cliques by data block sequencing; and the update computing unit is used to execute, in parallel, an update task of the candidate clique corresponding to each header node to be updated based on the sorted data set for reconstructing candidate cliques, transmit the updated candidate cliques to the HBM for storage, and transmit the updated candidate cliques to the PC host to extract maximal cliques by means of a filtering operation.",
+  "patent_id": "US12380176-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 17/11",
+      "G06F 16/9024"
+    ],
+    "all": [
+      "G06F 17/11",
+      "G06F 16/9024"
+    ],
+    "source": "converted"
+  }
+}

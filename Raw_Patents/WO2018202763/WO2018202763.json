@@ -1,0 +1,19 @@
+{
+  "application_id": "WO2018202763",
+  "application_id_fs": null,
+  "title": "Device location determination",
+  "abstract": "In overview, a system and method for determining the location of a device are disclosed. Typically, the device is generally static such that its location does not vary significantly over time, for example, a television appliance, games console or desktop computer. The location is determined by comparing data from an air pressure sensor with a pressure signature associated with an expected location.",
+  "claims": "Claims 1 . A method for determining a location of a device, the method comprising: obtaining atmospheric pressure data generated at the device, wherein the atmospheric pressure data is derived from air pressure at the device; comparing the atmospheric pressure data and an expected pressure signature associated with an expected location; and determining that the location of the device is the expected location if the atmospheric pressure data substantially matches the expected pressure signature. 2. The method of claim 1 , wherein the atmospheric pressure data is indicative of a change in air pressure over time. 3. The method according to any preceding claim, comprising causing a function of the device to be altered if the atmospheric pressure data does not substantially match the expected pressure signature. 4. The method according to any preceding claim, comprising: comparing the atmospheric pressure data and each of a plurality of expected pressure signatures, wherein each expected pressure signature is associated with an expected location; and identifying which of the expected locations the device is at by determining which one of the plurality of expected pressure signatures substantially matches the atmospheric pressure data. 5. The method according to any preceding claim, comprising: receiving the expected pressure signature in a broadcast signal; and extracting the expected pressure signature from the broadcast signal. 6. The method according to any one of claims 1 to 4, wherein obtaining the atmospheric pressure data comprises receiving data over a communication network. 7. The method according to any preceding claim, wherein the device is a media consumption device. 8. The method of claim 7, wherein the device is a television appliance comprising a television broadcast receiver arranged to receive broadcast media content. 9. A system comprising a processor configured to carry out the method according to any preceding claim. 10. A system comprising a processor configured to carry out the method according to claim 7 or 8, wherein the processor is located at the device. 1 1. A television appliance comprising: a broadcast receiver arranged to receive broadcast media content; an air pressure sensor configured to generate atmospheric pressure data derived from air pressure at the television appliance; and a processor configured to perform the steps of: compare the atmospheric pressure data and an expected pressure signature associated with an expected location; and determine that the location of the television appliance is the expected location if the atmospheric pressure data substantially matches with the expected pressure signature. 12. The television appliance of claim 1 1 , wherein the processor is configured to carry out the method according to any of claims 2 to 6. 13. A computer program product comprising instructions which, when the program is executed by a computer, cause the computer to carry out the method of any of claims 1 to 8. 14. A non-transitory computer readable medium having computer-executable instructions that, when executed on a computer system, implement the method of any of claims 1 to 8.",
+  "classifications": {
+    "ipc": [
+      "G01C 21/00",
+      "G01C 21/20"
+    ],
+    "cpc": [],
+    "all": [
+      "G01C 21/00",
+      "G01C 21/20"
+    ],
+    "source": "csv"
+  }
+}

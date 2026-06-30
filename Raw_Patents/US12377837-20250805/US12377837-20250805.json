@@ -1,0 +1,22 @@
+{
+  "title": "Path planning in autonomous driving environments",
+  "abstract": "A path planning method and system for a vehicle. The method includes obtaining risk map of a surrounding environment of vehicle. Risk map is formed based on an actuation capability of the vehicle and location of free-space areas in the surrounding environment, actuation capability including uncertainty estimation for actuation capability and the location of free-space areas comprising an uncertainty estimation for the estimated location of free-space areas. Risk map includes risk parameter for each of a plurality of area segments included in the surrounding environment of the vehicle. Obtaining at least one candidate path for vehicle, determining total risk value for each candidate path based on risk parameters of a set of area segments intersected by the at least one path, selecting a candidate path, of at least one candidate path, fulfilling a risk value criterion, and generating, at an output, a first signal indicative of selected candidate path.",
+  "claims": "1. A computer implemented path planning method for an automated driving system (ADS) of a vehicle, the method comprising: obtaining a risk map of a surrounding environment of the vehicle, wherein the risk map is formed based on an actuation capability of the vehicle and a location of free-space areas in the surrounding environment, wherein the actuation capability including an uncertainty estimation for the actuation capability, and wherein the location of free-space areas comprising an uncertainty estimation for the location of free-space areas, wherein the risk map comprises a risk parameter for each of a plurality of area segments comprised in the surrounding environment of the vehicle; obtaining, based on the risk map, at least one candidate path for the ADS; determining a total risk value for each candidate path for the ADS based on risk parameters of a set of area segments intersected by the at least one path; selecting a candidate path, of the at least one candidate path, fulfilling a risk value criterion; generating, at an output, a first signal indicative of the selected candidate path to be executed by the ADS; and executing the selected candidate path by the ADS, wherein the step of obtaining the at least one candidate path comprises: generating at least one path from a starting position of the vehicle to a goal position of the vehicle, each generated path having a set of quality parameters; and comparing the quality parameters of each path with a set of quality criteria in order to generate at least one candidate path having a set of quality parameters fulfilling the set of quality criteria, wherein the risk value criterion is a maximum risk value threshold and the set of quality parameters of each candidate path are indicative of a quality score of each candidate path, and wherein the step of selecting the candidate path fulfilling the risk value criterion comprises selecting the candidate path having the highest quality score and having a total risk value below the maximum risk value threshold.",
+  "patent_id": "US12377837-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 30/09",
+      "B60W 60/0011",
+      "G08G 1/166",
+      "G01C 21/3461"
+    ],
+    "all": [
+      "B60W 30/09",
+      "B60W 60/0011",
+      "G08G 1/166",
+      "G01C 21/3461"
+    ],
+    "source": "converted"
+  }
+}

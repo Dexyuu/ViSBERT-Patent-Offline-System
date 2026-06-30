@@ -1,0 +1,36 @@
+{
+  "title": "Method and apparatus for vision-based tool localization",
+  "abstract": "A method for vision-based tool localization (VTL) in a robotic assembly system including one or more calibrated cameras, the method comprising capturing a plurality of images of the tool contact area from a plurality of different vantage points, determining an estimated position of the tool contact area based on an image, and refining the estimated position based on another image from another vantage point. The method further comprises providing the refined position to the robotic assembly system to enable accurate control of the tool by the robotic assembly system.",
+  "claims": "1. A method for vision-based tool localization (VTL) in a robotic assembly system including one or more calibrated sensors and a robot arm holding a tool, the method comprising: capturing a plurality of images of a tool contact area of the tool from a plurality of different vantage points; evaluating a first vantage point of the plurality of different vantage points by: rendering an outline of the tool contact area based on an estimated position of the tool; overlaying the outline over an image from the first vantage point of the tool contact area; and minimizing a distance between the rendered outline and the image; determining an estimated position of the tool contact area with respect to the robot arm based on the evaluating; refining the estimated position of the tool contact area based on a second evaluation from a second vantage point of the plurality of different vantage points; and providing the refined position of the tool contact area with respect to the robot arm to the robotic assembly system to enable accurate control of the tool by the robotic assembly system.",
+  "patent_id": "US12380587-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/70",
+      "B25J 9/1697",
+      "G06T 1/0014",
+      "G06T 7/0004",
+      "G06T 7/60",
+      "G06T 11/203",
+      "G06T 15/00",
+      "G05B 2219/37559",
+      "G05B 2219/40589",
+      "G06T 2207/20092",
+      "G06T 2207/30164"
+    ],
+    "all": [
+      "G06T 7/70",
+      "B25J 9/1697",
+      "G06T 1/0014",
+      "G06T 7/0004",
+      "G06T 7/60",
+      "G06T 11/203",
+      "G06T 15/00",
+      "G05B 2219/37559",
+      "G05B 2219/40589",
+      "G06T 2207/20092",
+      "G06T 2207/30164"
+    ],
+    "source": "converted"
+  }
+}

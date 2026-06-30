@@ -1,0 +1,40 @@
+{
+  "application_id": "WO2018190581",
+  "application_id_fs": "WO2018190581",
+  "title": "Wireless power transmitter, wireless power receiving electronic device, and method for operating the same",
+  "abstract": "An electronic device and method are provided for wirelessly receiving power. The electronic device includes a first core including a first portion extending in a first direction and a second portion extending in a second direction different from the first direction, a first coil wound around the first portion and extending in the first direction, a second coil wound around the second portion and extending in the second direction, and a power processing circuit configured to process power wirelessly received, from a wireless power transmitter, through at least one of the first coil or the second coil.",
+  "claims": "Claims ( 15 ) An electronic device, comprising: a first core including a first portion extending in a first direction and a second portion extending in a second direction different from the first direction; a first coil wound around the first portion and extending in the first direction; a second coil wound around the second portion and extending in the second direction; and a power processing circuit configured to process power wirelessly received, from a wireless power transmitter, through at least one of the first coil or the second coil. The electronic device of claim 1, further comprising: a second core physically separated from the first core; and a third core wound around the second core and extending in any one of the first direction or the second direction. The electronic device of claim 2, wherein the first core is different in cross section from the second core. The electronic device of claim 2, further comprising a switch configured to selectively connect at least one of the first coil and the second coil to the third coil. The electronic device of claim 4, further comprising a control circuit, wherein the control circuit is configured to: determine at least one of a position of the wireless power transmitter and a position of an obstacle, and control a state of the switch based on a result of the determination. The electronic device of claim 4, further comprising: a control circuit; and a sensor configured to measure a magnitude of power output to the power processing circuit, wherein the control circuit is configured to: control the switch to turn on and, obtain, through the sensor, a first magnitude of a first power output to the power processing circuit when the switch is on, control the switch to turn off, and obtain, through the sensor, a second magnitude of a second power output to the power processing circuit when the switch is off, and control the state of the switch based on a comparison between the first magnitude and the second magnitude. The electronic device of claim 6, wherein the control circuit is further configured to: control the switch to turn on based on the first magnitude of power being greater than the second magnitude of power, and control the switch to turn off based on the first magnitude of power being less than or equal to the second magnitude of power. The electronic device of claim 6, wherein the control circuit is further configured to: obtain a first wireless power transmission/reception efficiency corresponding to the switch being on, using the first magnitude, obtain a second wireless power transmission/reception efficiency corresponding to the switch being off, using the second magnitude, and control the state of the switch based on at least one of the first wireless power transmission/reception efficiency and the second wireless power transmission/reception efficiency. The electronic device of claim 5, further comprising: a third core physically separated from the first core and the second core; a fourth coil wound around the third core; and a communication circuit, wherein the control circuit is further configured to: control to abstain from connecting the first coil and the second coil to the power processing circuit, corresponding to the obstacle positioned in a predesignated area, control to connect the fourth coil to the power processing circuit, and send, through the communication circuit, a request for power transmission to a second wireless power transmitter positioned corresponding to a position of the fourth coil. The electronic device of claim 1, wherein the first coil includes a first portion at which the first coil is wound in a first interval and a second portion at which the first coil is wound in a second interval, different from the first interval. A wireless power transmitter, comprising: a first core; a first coil wound around the first core; a second core physically separated from the first core; a second coil wound around the second core; a first inverter configured to provide, to the first coil, a first frequency of alternating current (AC) power for charging an electronic device; and a second inverter configured to provide, to the second coil, a second frequency of AC power for charging the electronic device while providing the first frequency of AC power to the first coil, wherein the second frequency has a preset difference from the first frequency. A method for operating an electronic device including a plurality of coils and a power processing circuit, the method comprising: determining a first combination of the plurality of coils to wirelessly receive power from a wireless power transmitter; and connecting the first combination of the plurality of coils to the power processing circuit. The method of claim 12, further comprising determining at least one of a position of the wireless power transmitter and a position of an obstacle, wherein the first combination of the plurality of coils is determined based on a result of determining the at least one of the position of the wireless power transmitter and the position of the obstacle. The method of claim 12, further comprising: sequentially connecting a plurality of combinations of the plurality of coils to the power processing circuit; and sequentially obtaining a plurality of magnitudes of power output to the power processing circuit, the plurality of magnitudes of power output respectively corresponding to the plurality of combinations, wherein the first combination of the plurality of coils is determined based on the plurality of magnitudes of power. The method of claim 14, wherein a combination corresponding to a largest of the plurality of magnitudes of power is determined as the first combination.",
+  "classifications": {
+    "ipc": [
+      "H02J 50/00",
+      "H02J 50/10",
+      "H02J 50/12",
+      "G01R 21/00",
+      "G01R 21/06",
+      "G05F 1/00",
+      "G05F 1/66",
+      "H02J 50/20",
+      "H02J 50/40",
+      "H02J 50/402",
+      "H02J 50/60",
+      "H02J 50/80"
+    ],
+    "cpc": [],
+    "all": [
+      "H02J 50/00",
+      "H02J 50/10",
+      "H02J 50/12",
+      "G01R 21/00",
+      "G01R 21/06",
+      "G05F 1/00",
+      "G05F 1/66",
+      "H02J 50/20",
+      "H02J 50/40",
+      "H02J 50/402",
+      "H02J 50/60",
+      "H02J 50/80"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018190581"
+}

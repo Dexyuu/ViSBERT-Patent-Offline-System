@@ -1,0 +1,38 @@
+{
+  "title": "Robotic process automation architectures and processes for hosting, monitoring, and retraining machine learning models",
+  "abstract": "Robotic process automation (RPA) architectures and processes for hosting, monitoring, and retraining ML machine learning (ML) models are disclosed. Retraining is an important part of the ML model lifecycle. The retraining may depend on the type of the ML model and the data on which the ML model will be trained. A secure storage layer may be used to store data from RPA robots for retraining. This retraining may be performed automatically, remotely, and without user involvement.",
+  "claims": "1. A system, comprising: one or more robotic process automation (RPA) robots configured to: call one or more machine learning (ML) models by respective activities of respective RPA workflows of the one or more RPA robots, the RPA workflows defining a controllable execution order over time and a relationship between a set of activities comprising the respective activities that call the one or more ML models by an expression of the respective activities, at least one activity of the set of activities configured to utilize at least one driver that facilitates interaction between the one or more RPA robots and software of respective computing systems, receive results from the call to the one or more ML models, and complete execution of the respective activities that call the one or more ML models; and an artificial intelligence (AI) center comprising a plurality of physical servers configured to store the one or more ML models and to execute the one or more ML models upon a call from a respective RPA robot of the one or more RPA robots, wherein the plurality of physical servers are configured to: store a plurality of datasets for the ML models, each dataset comprising similar types of data in a logical or physical grouping, and retrain an ML model of the one or more ML models responsive to a training condition being met or responsive to retraining being manually requested using a subset of the plurality of datasets specified in a training configuration for the ML model and deploy the retrained ML model to be called by the one or more RPA robots, wherein the ML model is retrained based on a confidence threshold.",
+  "patent_id": "US12379945-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/451",
+      "G05B 19/04",
+      "G06F 8/61",
+      "G06F 21/602",
+      "G06F 21/6218",
+      "G06F 30/27",
+      "G06N 3/008",
+      "G06N 3/10",
+      "G06N 3/105",
+      "G06N 20/00",
+      "G06F 2212/402",
+      "G06F 2221/2107"
+    ],
+    "all": [
+      "G06F 9/451",
+      "G05B 19/04",
+      "G06F 8/61",
+      "G06F 21/602",
+      "G06F 21/6218",
+      "G06F 30/27",
+      "G06N 3/008",
+      "G06N 3/10",
+      "G06N 3/105",
+      "G06N 20/00",
+      "G06F 2212/402",
+      "G06F 2221/2107"
+    ],
+    "source": "converted"
+  }
+}

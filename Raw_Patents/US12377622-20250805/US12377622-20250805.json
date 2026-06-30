@@ -1,0 +1,24 @@
+{
+  "title": "Systems and methods for vergence matching with an optical profile and using refractive index writing",
+  "abstract": "Systems and methods for improving vision of a subject implanted with an intraocular lens (IOL). In some embodiments, a method includes vergence matching for an intraocular lens (IOL) having an optical profile induced by refractive index writing.",
+  "claims": "1. A system for improving vision of a subject, the system comprising: a pulsed laser system configured to modify a refractive index of at least one selected area of an intraocular lens (IOL) through refractive index writing, wherein the IOL is implanted in an eye of a subject, the pulsed laser system comprising a light source for generating and emitting a plurality of laser pulses, wherein the refractive index writing comprises applying the plurality of laser pulses emitted by the light source to the at least one selected area of the IOL, wherein the at least one selected area of the IOL defines an optical profile induced by the refractive index writing, the optical profile being an internal portion of the IOL that affects a transmission of light through the IOL; a control system coupled to the pulsed laser system, the control system comprising a processor and memory, the memory having instructions stored thereon that, when executed by the processor, cause the control system to: determine a direction of a plurality of rays associated with a vergence of a wavefront between a cornea of the eye of the subject and the IOL, wherein the plurality of rays are associated with incident light entering the eye of the subject; determine a ray direction and a ray height of the plurality of rays at a first location of the optical profile corresponding to where the plurality of rays enter the optical profile of the IOL; determine the refractive index of the optical profile at the first location; and calculate a pattern in which to apply the plurality of laser pulses to the IOL by, in part, using vergence matching to specify a volume and a shape of each of a plurality of voxels in a corresponding voxel-based vergence-matched three-dimensional phase map such that the volume and shape of each of the plurality of voxels is configured to match the wavefront as the wavefront moves along a direction of propagation of the plurality of rays at the first location of the optical profile of the IOL, in that the shape and volume of each of the plurality of voxels decreases for converging wavefronts and increases for diverging wavefronts, wherein the specifying of the volume and the shape of each of the plurality of voxels is determined from the ray direction, the ray height, and the refractive index at the first location; and operate the pulsed laser system to apply the plurality of laser pulses according to the calculated pattern.",
+  "patent_id": "US12377622-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B29D 11/00461",
+      "A61F 2/1627",
+      "A61F 9/00834",
+      "A61F 2/16",
+      "A61F 2/482"
+    ],
+    "all": [
+      "B29D 11/00461",
+      "A61F 2/1627",
+      "A61F 9/00834",
+      "A61F 2/16",
+      "A61F 2/482"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Battery monitoring device",
+  "abstract": "A battery monitoring device for monitoring an assembled battery having multiple battery cells includes: a range specifying unit that specifies a detection range; a voltage detection unit that detects a voltage of each battery cell in the detection range, includes an A/D converter for inputting a voltage corresponding to the voltage of each battery cell and a digital filter for inputting a digital signal output from the A/D converter and functioning as a low pass filter, and outputs an output signal of the digital filter as a detection signal representing a detection result of the voltage of each battery cell; and a characteristic setting unit that sets a characteristic of the digital filter.",
+  "claims": "1. A battery monitoring device for monitoring an assembled battery having a configuration in which a plurality of battery cells are connected in series, the battery monitoring device comprising: a range specifying unit that specifies a detection range for detecting a voltage of each battery cell; a voltage detection unit that detects the voltage of each battery cell in the detection range, includes an A/D converter for inputting a voltage corresponding to the voltage of each battery cell and a digital filter for inputting a digital signal output from the A/D converter and functioning as a low pass filter, and outputs an output signal of the digital filter as a detection signal representing a detection result of the voltage of each battery cell; and a characteristic setting unit that sets a characteristic of the digital filter, wherein: the range specifying unit specifies the detection range based on a cell voltage range predetermined for each type of the battery cells; and the range specifying unit selectively sets the detection range from a wide range that is a wide area covering a whole of the cell voltage range to a narrow range that is a limited narrow range of the whole of the cell voltage range.",
+  "patent_id": "US12379425-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01R 31/396",
+      "G01R 31/3835",
+      "H02J 7/0047"
+    ],
+    "all": [
+      "G01R 31/396",
+      "G01R 31/3835",
+      "H02J 7/0047"
+    ],
+    "source": "converted"
+  }
+}

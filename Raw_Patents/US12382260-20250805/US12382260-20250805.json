@@ -1,0 +1,18 @@
+{
+  "title": "Method for performing reinforcement learning by V2X communication device in autonomous driving system",
+  "abstract": "A method for performing reinforcement learning by a V2X communication device in an autonomous driving system, specifically, a method for performing reinforcement learning in consideration of a reward application ratio over time, is proposed. Action information is transmitted to a second V2X communication device, reward information is received from the second V2X communication device, and reinforcement learning is performed on the basis of a reward, wherein a reward corresponding to a ratio determined by a first V2X communication device is applied to the reinforcement learning, the ratio is determined on the basis of a time interval from a time point of transmission of the action information to a time point of reception of the reward information, and the ratio is between 0 and 1, both inclusive.",
+  "claims": "1. A method of performing reinforcement learning performed by a first Vehicle-to-everything (V2X) communication device in an autonomous driving system, the method comprising: receiving a sidelink synchronization signal; performing a synchronization based on the sidelink synchronization signal; transmitting action information to a second V2X communication device, wherein the action information informs an action performed by the first V2X communication device; receiving reward information from the second V2X communication device, wherein the reward information informs a reward for the action; and performing reinforcement learning based on the reward, wherein the reinforcement learning is applied with the reward corresponding to a ratio determined by the first V2X communication device, wherein the ratio is determined based on a time from a time of transmission of the action information to a time of reception of the reward information, wherein the ratio is at least 0 and no more than 1.",
+  "patent_id": "US12382260-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 4/40",
+      "H04W 56/001"
+    ],
+    "all": [
+      "H04W 4/40",
+      "H04W 56/001"
+    ],
+    "source": "converted"
+  }
+}

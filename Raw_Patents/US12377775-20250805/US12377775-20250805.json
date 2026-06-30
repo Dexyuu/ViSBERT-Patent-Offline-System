@@ -1,0 +1,18 @@
+{
+  "title": "Vehicle control method and vehicle control device",
+  "abstract": "An autonomous travel controller detects whether a host vehicle is carrying out a first course change for changing a course in a direction indicated by a turn indicator. Upon detecting that the host vehicle is carrying out the first course change, detecting whether there is a road that enables a second course change for changing the course of the host vehicle that branches from the road after the first course change. When a road that enables the second course change is detected, the autonomous travel controller turns the turn indicator off.",
+  "claims": "1. A vehicle control method for turning off a blinking of a turn indicator that indicates a direction of a change of course of a host vehicle, the vehicle control method comprising: using a controller, the controller being operatively connected to the turn indicator, a vehicle sensor of the host vehicle, and a front camera of the host vehicle, to execute detecting, based on a detection result of the vehicle sensor, whether the host vehicle is carrying out a first course change for changing a course in a direction indicated by the turn indicator; upon detecting that the host vehicle is carrying out the first course change, detecting whether there is a boundary line that separates roads before and after the first course change, upon detecting the boundary line, determining whether the host vehicle has passed the boundary line, and turning the turn indicator off upon determining that the host vehicle has passed the boundary line, and upon detecting that the host vehicle is carrying out the first course change and determining that the boundary line is not detected, detecting, based on an image captured by the front camera, whether there is a road that enables a second course change for changing the course of the host vehicle that branches from the road after the first course change, and turning the turn indicator off upon detecting the road that enables the second course change based on the image captured by the front camera.",
+  "patent_id": "US12377775-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60Q 1/42",
+      "G06V 20/588"
+    ],
+    "all": [
+      "B60Q 1/42",
+      "G06V 20/588"
+    ],
+    "source": "converted"
+  }
+}

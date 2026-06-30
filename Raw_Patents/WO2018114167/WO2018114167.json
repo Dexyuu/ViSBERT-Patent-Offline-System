@@ -1,0 +1,46 @@
+{
+  "application_id": "WO2018114167",
+  "application_id_fs": "WO2018114167",
+  "title": "Method for the detection of crosstalk phenomena",
+  "abstract": "It is provided a method for the detection of a crosstalk phenomenon in the communication between a wayside transmission unit, WTU (100), especially a balise, and an On-board Unit, OBU (250), of a railway vehicle (300), wherein the OBU (250) comprises an antenna unit (200). The method comprises the Steps of: Receiving (S 1 ) an excitation signal of the WTU (100) via the antenna unit (200) in a moving State of the railway vehicle (300). Measuring (S 2 ) an electric and/or a magnetic field in a near field of the WTU (100) via the antenna unit (200) upon reception of the excitation signal. According to the invention, the method comprises the Step of performing (S 3 ) a near field to far field transformation, NF2FFT, on the field measured in the Step of measuring (S 2 ) to detect a presence of a crosstalk phenomenon. Furthermore, a corresponding OBU (250) is provided.",
+  "claims": "Claims Patent Claims 1. A method for the detection of a crosstalk phenomenon in the communication between a wayside transmission unit, WTU (100), especially a balise, and an On-board Unit, OBU, (250) of a railway vehicle (300), wherein the OBU (250) comprises an antenna unit (200), the method comprising the steps of: - receiving (Si) an excitation signal of the WTU (100) via the antenna unit (200) in a moving state of the railway vehicle (300); - measuring (S 2 ) an electric and/or a magnetic field in a near field of the WTU (100) via the antenna unit (200) upon reception of the excitation signal; the method being characterized by the step of - performing (S3) a near field to far field transformation, NF2FFT, on the field measured in the step of measur Â¬ ing (S2) to detect a presence of a crosstalk phenomenon. 2. The method of claim 1, wherein the On-board unit (250) comprises at least one probe (201) connected to the antenna unit (200), and wherein in the step of measuring (S 2 ) , the near field of the WTU (100) is measured in real time, using the at least one probe (201) for at least one predefined in- terval T. 3. The method of claim 2, wherein the at least one predefined interval T is calculated according to the formula T = (3* Lw T u) / (v rViiaax ) , wherein L WTU is the geometrical length of the WTU (100) and wherein v r ,max is the maximum speed limit al Â¬ lowed for the railway vehicle (300) . 4. The method of claim 2 or 3, wherein in the step of measuring (S 2 ) , the electric and/or a magnetic field in the near field of the WTU (100) is measured throughout the predefined interval T. 5. The method of any one of the preceding claims, wherein the method further comprises the step of evaluating (S 4 ) a pat Â¬ tern of a near field to far field transformation, NF2FFT curve received as a result in the step of performing (S 3 ) . 6. The method of claim 5, wherein in the step of evaluating (S 4 ) , at least one parameter of the NF2FFT curve is deter Â¬ mined (S 4 - 1 ) , the at least one parameter being chosen out of a group of parameters comprising: the beam width of the NF2FFT curve, the polarization of the NF2FFT curve, the directivity of the NF2FFT curve and the gain of the NF2FFT curve. 7. The method of claim 6, wherein the step of evaluating (S 4 ) further comprises the sub-step of comparing (S 4 - 2 ) the at least one determined parameter of the NF2FFT curve to a cor Â¬ responding reference parameter of a reference NF2FFT curve of a reference WTU. 8. The method of claim 7, wherein the method further compris- es the step of outputting an indication signal indicating the presence of a crosstalk phenomenon within the communication between the WTU (100) and the OBU (200) as soon as the abso Â¬ lute value of a difference between the at least one deter Â¬ mined parameter of the NF2FFT curve and the corresponding reference parameter of the reference NF2FFT curve of the ref Â¬ erence WTU exceeds a predefined value. 9. The method of any one of the preceding claims and one of the claims 2 to 4, wherein the On-board unit (250) further comprises a nxm field-programmable gate array, FPGA, (220) that is connected to the at least one probe (201) and which allows for the measurement of nxm near field samples within the step of measuring (S 2 ) . 10. The method of any one of the preceding claims, wherein within the step of performing (S 3 ) , the far field is calcu Â¬ lated according to the following equation: r wherein A is the vector amplitude of the electric field E, k x is the propagation constant of the electric field E along a x-direction and wherein k y is the propagation constant of the electric field E along a y-direction. 11. An On-board Unit, OBU, (250) of a railway vehicle (300) comprising an antenna unit (200), the OBU (250) being charac- terized in that it is adapted to perform the method of any one of the claims 1 to 10. 12. The On-board Unit, OBU, (250) of claim 11, further com Â¬ prising a nxm-field-programmable gate array, FPGA (220). 13. The On-board Unit, OBU, (250) of claim 12, further com Â¬ prising one probe (201) that is electrically connected to the nxm-field-programmable gate array, FPGA (220), wherein the OBU (250) is adapted to measure an electric and/or a magnetic field in a near field of the WTU (100) in a linear dimension via the FPGA (220) and the probe (201) . 14. The On-board Unit, OBU, (250) of claim 12 or 13, further comprising at least two probes (201) that are electrically connected to the nxm-field-programmable gate array, FPGA (220), wherein the OBU (250) is adapted to measure an elec Â¬ tric and/or a magnetic field in a near field of the WTU (100) in a two dimensional array via the FPGA (220) and the at least two probes (201) . 15. The On-board Unit, OBU, (250) of claim 14, wherein at least two probes (210) are arranged along a direction that is perpendicular to a driving direction of the railway vehicle (300) .",
+  "classifications": {
+    "ipc": [
+      "B61L 27/00",
+      "B61L 27/60",
+      "B61L 25/00",
+      "B61L 25/02",
+      "B61L 25/025",
+      "B61L 3/00",
+      "B61L 3/02",
+      "B61L 3/08",
+      "B61L 3/12",
+      "B61L 3/121",
+      "H04B 3/00",
+      "H04B 3/02",
+      "H04B 3/46",
+      "H04B 3/487",
+      "B61L 27/70"
+    ],
+    "cpc": [],
+    "all": [
+      "B61L 27/00",
+      "B61L 27/60",
+      "B61L 25/00",
+      "B61L 25/02",
+      "B61L 25/025",
+      "B61L 3/00",
+      "B61L 3/02",
+      "B61L 3/08",
+      "B61L 3/12",
+      "B61L 3/121",
+      "H04B 3/00",
+      "H04B 3/02",
+      "H04B 3/46",
+      "H04B 3/487",
+      "B61L 27/70"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018114167"
+}

@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2025063558",
+  "application_id_fs": "WO2025063558",
+  "title": "Method and apparatus for uplink frequency selection based on altitude in a wireless communication system",
+  "abstract": "A method and apparatus for uplink frequency selection based on altitude in a wireless communication system is provided. The method comprises: receiving information related to multiple uplink frequencies and an altitude threshold; identifying a current altitude of the wireless device; selecting an uplink frequency among the multiple uplink frequencies based on the current altitude of the wireless device and the altitude threshold; and performing uplink transmission based on the selected uplink frequency.",
+  "claims": "Claims ( 34 ) A method performed by a wireless device in a wireless communication system, the method comprising: receiving information related to multiple uplink frequencies and an altitude threshold; identifying a current altitude of the wireless device; selecting an uplink frequency among the multiple uplink frequencies based on the current altitude of the wireless device and the altitude threshold; and performing uplink transmission based on the selected uplink frequency. The method of claim 1, wherein the method further comprises: determining whether the wireless device is an aerial wireless device or not. The method of claim 2, wherein the method further comprises: performing uplink frequency selection based on determining that the wireless device is the aerial wireless device. The method of claim 1, wherein the multiple uplink frequencies are configured for a serving cell. The method of claim 1, wherein the multiple uplink frequencies includes a normal uplink frequency and an aerial uplink frequency. The method of claim 5, wherein the normal uplink frequency is selected based on that the wireless device is a non-aerial wireless device. The method of claim 5, wherein the normal uplink frequency is selected based on that the current altitude of the wireless device is less than the altitude threshold. The method of claim 5, wherein the aerial uplink frequency is selected based on that the wireless device is an aerial wireless device. The method of claim 5, wherein the aerial uplink frequency is selected based on that the current altitude of the wireless device is equal to or greater than the altitude threshold. The method of claim 1, wherein the information related to multiple uplink frequencies and an altitude threshold includes information related to a first aerial uplink frequency, a second aerial uplink frequency, a first altitude threshold, and a second altitude threshold. The method of claim 10, wherein the first aerial uplink frequency is selected based on the current altitude of the wireless device and the first altitude threshold; and wherein the second aerial uplink frequency is selected based on the current altitude of the wireless device and the second altitude threshold. The method of claim 1, wherein the method further comprising: triggering uplink frequency selection based on that a random access channel procedure is initiated. The method of claim 1, wherein the method further comprising: triggering uplink frequency selection based on that a small data transmission procedure is initiated. The method of claim 1, wherein the method further comprising: triggering uplink frequency selection upon entering a No-Transmit Zone (NTZ). The method of claim 1, wherein the wireless device is in communication with at least one of a user equipment, a network, or an autonomous vehicle other than the wireless device. A wireless device in a wireless communication system comprising: at least one transceiver; at least one processor; and at least one memory operably connectable to the at least one processor and storing instructions that, based on being executed by the at least one processor, perform operations comprising: receiving information related to multiple uplink frequencies and an altitude threshold; identifying a current altitude of the wireless device; selecting an uplink frequency among the multiple uplink frequencies based on the current altitude of the wireless device and the altitude threshold; and performing uplink transmission based on the selected uplink frequency. The wireless device of claim 16, wherein the operations further comprising: determining whether the wireless device is an aerial wireless device or not. The wireless device of claim 17, wherein the operations further comprising: performing uplink frequency selection based on determining that the wireless device is the aerial wireless device. The wireless device of claim 16, wherein the multiple uplink frequencies are configured for a serving cell. The wireless device of claim 16, wherein the multiple uplink frequencies includes a normal uplink frequency and an aerial uplink frequency. The wireless device of claim 20, wherein the normal uplink frequency is selected based on that the wireless device is a non-aerial wireless device. The wireless device of claim 20, wherein the normal uplink frequency is selected based on that the current altitude of the wireless device is less than the altitude threshold. The wireless device of claim 20, wherein the aerial uplink frequency is selected based on that the wireless device is an aerial wireless device. The wireless device of claim 20, wherein the aerial uplink frequency is selected based on that the current altitude of the wireless device is equal to or greater than the altitude threshold. The wireless device of claim 16, wherein the information related to multiple uplink frequencies and an altitude threshold includes information related to a first aerial uplink frequency, a second aerial uplink frequency, a first altitude threshold, and a second altitude threshold. The wireless device of claim 25, wherein the first aerial uplink frequency is selected based on the current altitude of the wireless device and the first altitude threshold; and wherein the second aerial uplink frequency is selected based on the current altitude of the wireless device and the second altitude threshold. The wireless device of claim 16, wherein the operations further comprising: triggering uplink frequency selection based on that a random access channel procedure is initiated. The wireless device of claim 16, wherein the operations further comprising: triggering uplink frequency selection based on that a small data transmission procedure is initiated. The wireless device of claim 16, wherein the operations further comprising: triggering uplink frequency selection upon entering a No-Transmit Zone (NTZ). The wireless device of claim 16, wherein the at least one processor is further adapted to be in communication with at least one of a user equipment, a network, or an autonomous vehicle other than the wireless device. A processor for a wireless device in a wireless communication system, wherein the processor is adapted to control the wireless device to perform operations comprising: receiving information related to multiple uplink frequencies and an altitude threshold; identifying a current altitude of the wireless device; selecting an uplink frequency among the multiple uplink frequencies based on the current altitude of the wireless device and the altitude threshold; and performing uplink transmission based on the selected uplink frequency. A non-transitory computer-readable medium having stored thereon a plurality of instructions, which, when executed by a processor of a wireless device, cause the wireless device to perform operations, the operations comprising, receiving information related to multiple uplink frequencies and an altitude threshold; identifying a current altitude of the wireless device; selecting an uplink frequency among the multiple uplink frequencies based on the current altitude of the wireless device and the altitude threshold; and performing uplink transmission based on the selected uplink frequency. A method performed by a base station in a wireless communication system, the method comprising, transmitting, to a wireless device, information related to multiple uplink frequencies and an altitude threshold, wherein the wireless device identifies a current altitude of the wireless device, wherein the wireless device selects an uplink frequency among the multiple uplink frequencies based on the current altitude of the wireless device and the altitude threshold, and wherein the wireless device performs uplink transmission based on the selected uplink frequency. A base station in a wireless communication system comprising: a transceiver; a memory; and at least one processor operatively coupled to the transceiver and the memory, and adapted to: transmit, to a wireless device, information related to multiple uplink frequencies and an altitude threshold, wherein the wireless device identifies a current altitude of the wireless device, wherein the wireless device selects an uplink frequency among the multiple uplink frequencies based on the current altitude of the wireless device and the altitude threshold, and wherein the wireless device performs uplink transmission based on the selected uplink frequency.",
+  "classifications": {
+    "ipc": [
+      "H04W 72/00",
+      "H04W 72/02",
+      "H04W 72/04",
+      "H04W 72/044",
+      "H04W 72/0453",
+      "H04W 72/12",
+      "H04W 72/1263",
+      "H04W 72/1268",
+      "H04W 72/50",
+      "H04W 72/51",
+      "H04W 74/00",
+      "H04W 74/08",
+      "H04W 74/0833",
+      "H04W 84/00",
+      "H04W 84/02",
+      "H04W 84/04",
+      "H04W 84/06"
+    ],
+    "cpc": [],
+    "all": [
+      "H04W 72/00",
+      "H04W 72/02",
+      "H04W 72/04",
+      "H04W 72/044",
+      "H04W 72/0453",
+      "H04W 72/12",
+      "H04W 72/1263",
+      "H04W 72/1268",
+      "H04W 72/50",
+      "H04W 72/51",
+      "H04W 74/00",
+      "H04W 74/08",
+      "H04W 74/0833",
+      "H04W 84/00",
+      "H04W 84/02",
+      "H04W 84/04",
+      "H04W 84/06"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025063558"
+}

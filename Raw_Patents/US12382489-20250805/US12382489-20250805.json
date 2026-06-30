@@ -1,0 +1,20 @@
+{
+  "title": "Transmission of parameter",
+  "abstract": "According to an example aspect of the present invention, there is provided an apparatus, such as a user equipment, including at least one processing core, at least one memory including computer program code, the at least one memory and the computer program code being configured to, with the at least one processing core, cause the apparatus at least to initiate a random access process with a network by transmitting an initial random access message to the network, receive a random access response from the network, the random access response including a timing advance command bit sequence, determine from the timing advance command bit sequence a timing advance value and a configuration parameter, and transmit a request message to the network at least once in compliance with the configuration parameter.",
+  "claims": "1. An apparatus comprising: at least one processing core, and at least one memory including computer program code, the at least one memory storing instructions that when executed by the at least one processing core, cause the apparatus at least to: initiate a random access process with a network by transmitting an initial random access message to the network; receive a random access response from the network, the random access response comprising a timing advance command bit sequence; determine from the timing advance command bit sequence a timing advance value and a configuration parameter, and transmit a request message to the network at least once in compliance with the configuration parameter; characterized in that the determination from the timing advance command bit sequence a timing advance value, wherein a configuration parameter is done by determining that the configuration parameter indicates request message repetition responsive to a numerical value indicated by the timing advance command bit sequence exceeding a predetermined threshold value; and determining the timing advance value based on comparison of the numerical value and the predetermined threshold value, wherein responsive to the numerical value being less than the predetermined threshold value, determining the timing advance value based on the numerical value and determining that the request message repetition indicates no repetitions, or wherein responsive to the numerical value being at least the predetermined threshold value, determining both the timing advance value and the request message repetition based on by how much the numerical value exceeds the predetermined threshold value.",
+  "patent_id": "US12382489-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 74/0833",
+      "H04W 74/002",
+      "H04W 74/0836"
+    ],
+    "all": [
+      "H04W 74/0833",
+      "H04W 74/002",
+      "H04W 74/0836"
+    ],
+    "source": "converted"
+  }
+}

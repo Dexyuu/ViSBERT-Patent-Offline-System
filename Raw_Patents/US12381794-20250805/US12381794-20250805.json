@@ -1,0 +1,24 @@
+{
+  "title": "Method and system for performing ad hoc diagnostics, maintenance, programming, and tests of internet of things devices",
+  "abstract": "Disclosed herein is a method and system for performing audits of one or more IOT devices in an IOT system, prior to deployment of the IOT device or during deployment in the field. The audits are used to determine if an IOT device is functional and capable of performing a task assigned to the IOT device. If an audit is failed, the IOT system may determine that the IOT device is defective and needs to be replaced for the respective task. The IOT system remotely initiates the audits, and tracks the status and results of the audits of the IOT devices.",
+  "claims": "1. A system comprising: a plurality of tape nodes, each tape node of the plurality of tape nodes assigned to perform a respective task and associated with an identifier; a client device configured to receive at least one identifier of a tape node of the plurality of tape nodes and to access a database of an internet of things (IOT) system to retrieve information corresponding to the at least one received identifier; and the database of the IOT system, the database comprising results of audits of the plurality of tape nodes, wherein the results of audits comprise information describing whether a respective tape node of the plurality of tape nodes has passed one or more diagnostic tests; wherein: the audits are based on-data collected using tape nodes of the plurality of tape nodes and according to the respective task, the audits are performed prior to deployment of the tape nodes of the plurality of tape nodes to implement the respective task.",
+  "patent_id": "US12381794-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 43/04",
+      "G16Y 40/10",
+      "H04L 43/0817",
+      "H04W 24/02",
+      "H04W 24/10"
+    ],
+    "all": [
+      "H04L 43/04",
+      "G16Y 40/10",
+      "H04L 43/0817",
+      "H04W 24/02",
+      "H04W 24/10"
+    ],
+    "source": "converted"
+  }
+}

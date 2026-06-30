@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2018086671",
+  "application_id_fs": "WO2018086671",
+  "title": "Wind turbine noise analysis and control",
+  "abstract": "A method of identifying an operating parameter of a wind turbine that contributes to the generation of tonal noise. The method comprises acquiring operating parameter data associated with a plurality of operating parameters of the wind turbine. The operating parameter data comprises a set of values for each operating parameter of the wind turbine. Noise data is also acquired that includes tonal noise produced by the wind turbine and is synchronised with the operating parameter data. The noise data is then binned with respect to a set of operating parameter values of a first operating parameter, and, for each of one or more of the bins, the noise data in the bin is analysed with respect to a set of values of a second operating parameter. The method then determines if there is a relationship between the second operating parameter and tonal noise produced by the wind turbine based on the analysis.",
+  "claims": "Claims 1. A method of identifying an operating parameter of a wind turbine that contributes to the generation of tonal noise, the method comprising: acquiring operating parameter data associated with a plurality of operating parameters of the wind turbine, wherein the operating parameter data comprises a set of values for each operating parameter of the wind turbine obtained during operation of the wind turbine; acquiring noise data that includes data indicative of tonal noise produced by the wind turbine and is synchronised with the operating parameter data; binning the noise data with respect to a first operating parameter; for one or more of the bins, analysing the noise data in the bin with respect to a set of values of a second operating parameter and determining if there is a relationship between the second operating parameter and tonal noise produced by the wind turbine based on the analysis. 2. The method of claim 1 wherein the binning further comprises: identifying a range in the set of parameter values of the first operating parameter, the range being determined by the set of values of at least one of the plurality of operating parameters; and setting each bin equal to the range. 3. The method according to any preceding claim, wherein analysing the noise data in the bin with respect to the set of values of the second operating parameter further comprises: identifying a sub-set of parameter values of the second parameter, the sub-set of parameter values being the values that are associated with the bin; analysing the variation of the sub-set of parameter values; comparing the variation of the sub-set of parameter values with a variation in the noise data of the bin; and \n\n determining a correlation between the variation of the sub-set of parameter values and the variation in the noise data. 4. The method according to claim 3, wherein analysing the noise data in the bin with respect to the set of values of the second operating parameter further comprises: calculating a correlation coefficient based on the comparison, wherein the correlation coefficient indicates the correlation between the variation of the sub-set of parameter values of the second parameter and the variation in the noise data in the bin. 5. The method according to claim 4, further comprising determining that the subset of parameter values of the second parameter are a source or driver of tonal noise based upon the correlation coefficient. 6. The method according to claim 4 or 5, wherein analysing the noise data in the bin with respect to the set of values of the second operating parameter further comprises: setting a threshold for the correlation coefficient; determining that the second parameter contributed to the generation of the noise values indicative of tonal noise if the correlation coefficient exceeds the threshold. 7. The method according to any preceding claim, wherein the method further comprises: adjusting one or more operating parameters of the wind turbine to reduce perceived tonal noise based upon an established relationship between the second operating parameter and tonal noise. 8. The method according to claim 6 or 7, wherein the method further comprises: controlling the wind turbine by adjusting the second operating parameter of the wir turbine based on the analysis such that the operating parameter values of the adjusted second operating parameter are no longer a source or driver of tonal noise. 9. The method according to claim 7 or 8, wherein the wind turbine is controlled by adjusting an operating parameter of the wind turbine based on the analysis such that the masking noise of the wind turbine is increased. 10. The method according to any preceding claim, wherein the first operating parameter is RPM. 11. The method of any preceding claim wherein the method further comprises: determining whether a region of the noise data contains noise data indicative of tonal noise; if a region contains noise data indicative of tonal noise, identifying the region as a candidate region; and only analysing the noise data in the one or more bins with respect to the set of values of the second operating parameter if the bin is at least partially within the candidate region. 12. The method according to claim 1 1 , wherein determining whether the region of noise data contains noise data indicative of tonal noise further comprises: determining a mean maximum tone level and/or tonal energy level for each bin; comparing each mean maximum tone level and/or tonal energy level against a corresponding threshold; and setting the regions of data for which a threshold is exceeded equal to candidate regions. 13. The method according to claim 12, wherein the threshold is a maximum permissible tone level and/or tonal energy level for the bin. 14. The method according to any of claims 11 or 12 , wherein a candidate region comprises one or more bins. 15. The method according to any of claims 1 to 14 further comprising identifying one or more source components based upon a determined relationship between the second operating parameter and tonal noise, a source component being a wind turbine component responsible for tonal noise. 16. The method according to claim 15 further comprising determining an adjustment to the design of the one or more source components based upon the relationship between the second operating parameter and tonal noise. 17. A method for controlling a wind turbine, the method comprising adjusting one or more operating parameters based upon a relationship between an operating parameter and tonal noise produced by the wind turbine determined according to the analysis of any of claims 1 to 16. 18. A controller for controlling a wind turbine or a wind power plant, the controller being configured to carry out the method of any of claims 1 to 16. 19. A wind turbine or wind power plant comprising a controller according to claim 18. 20. A computer program which when executed on a computing device causes it to carry out the method of anpy of claims 1 to 17.",
+  "classifications": {
+    "ipc": [
+      "F03D 7/00",
+      "F03D 7/02",
+      "F03D 7/0296",
+      "F03D 17/00",
+      "F03D 7/0276",
+      "F05B 2260/00",
+      "F05B 2260/96",
+      "F05B 2260/962",
+      "F05B 2270/00",
+      "F05B 2270/10",
+      "F05B 2270/101",
+      "F05B 2270/30",
+      "F05B 2270/333"
+    ],
+    "cpc": [],
+    "all": [
+      "F03D 7/00",
+      "F03D 7/02",
+      "F03D 7/0296",
+      "F03D 17/00",
+      "F03D 7/0276",
+      "F05B 2260/00",
+      "F05B 2260/96",
+      "F05B 2260/962",
+      "F05B 2270/00",
+      "F05B 2270/10",
+      "F05B 2270/101",
+      "F05B 2270/30",
+      "F05B 2270/333"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018086671"
+}

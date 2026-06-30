@@ -1,0 +1,20 @@
+{
+  "title": "Method and system for reverse powering a multi-unit optical network terminal",
+  "abstract": "Techniques for powering a multi-unit optical network terminal (MU-ONT) located outside of a multi-unit building include obtaining reverse power from Power-over-Ethernet (PoE) lines connecting the MU-ONT to terminal units (TUs) or customer premises equipments (CPEs) disposed inside the building. Reverse power may be injected into the PoE lines at the TUs, for example. Via an MU-ONT reverse powering device, the reverse power may be separated from services data provided via the PoE lines, and the services data may be delivered between the TUs and a Passive Optical Network (PON) via the MU-ONT. The reverse power obtained from the PoE lines may be aggregated to provide the MU-ONT with power commensurate with its power load. In some embodiments, the MU-ONT power load may be shared or distributed across PoE lines in a passive or actively controlled manner based on variations in the MU-ONT load and/or respective characteristics of the PoE lines.",
+  "claims": "1. A method, comprising: obtaining, by one or more processors, an indication of a power load of a Multi-Unit Optical Network Terminal (MU-ONT) disposed on an exterior of a building, the MU-ONT optically connected to a passive optical network (PON) and communicatively connected, via a set of Power over Ethernet (PoE) lines, to one or more terminating units (TUs) disposed within an interior of the building, the set of PoE lines including multiple PoE lines, and the MU-ONT configured to receive, via the PON, optical signals and transmit, via the multiple PoE lines to respective TUs, respective payloads of the received optical signals; determining, by the one or more processors, a distribution of the power load across the multiple PoE lines based on respective measures of a consistency of a characteristic of two or more PoE lines of the multiple PoE lines; and causing the MU-ONT to be supplied with reverse power received via the multiple PoE lines in accordance with the distribution.",
+  "patent_id": "US12381635-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 10/808",
+      "H04Q 11/0067",
+      "H04Q 2011/0079"
+    ],
+    "all": [
+      "H04B 10/808",
+      "H04Q 11/0067",
+      "H04Q 2011/0079"
+    ],
+    "source": "converted"
+  }
+}

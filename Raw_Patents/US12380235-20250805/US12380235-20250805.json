@@ -1,0 +1,38 @@
+{
+  "title": "Identifying and redacting captured data",
+  "abstract": "An evidence ecosystem that includes a capture system that detects physical properties in the environment around the capture system and captures data related to the physical properties. The capture system analyzes the captured data in accordance with patterns to detect characteristics and patterns in the captured data. Upon detecting a characteristic or a pattern, the capture system records the identified data and alignment data that identifies the location of the identified data in the captured data. The capture system sends the captured data, identified data, and alignment data to an evidence management system for use in generating reports and producing redacted copies of the captured data for distribution or presentation.",
+  "claims": "1. A system comprising: a processing circuit; and a memory system configured to communicate with the processing circuit, wherein the memory system includes executable instructions, and wherein in response to the processing circuit executing the executable instructions the processing circuit is configured to perform operations comprising: analyzing, by the processing circuit, captured video data to determine whether the captured video data matches or is consistent with a pattern, wherein the pattern is configured to identify a visual property and a semantic property in the captured video data; generating, by the processing circuit and in response to the captured video data matching or being consistent with the pattern, alignment data for the visual property, wherein the alignment data relates the visual property to the captured video data; generating, by the processing circuit and in response to identifying the semantic property in the captured video data, second alignment data for the semantic property, wherein the second alignment data relates the semantic property to the captured video data; comparing, by the processing circuit, the visual property to one or more rules, wherein the one or more rules are applied based on an intended use of the captured video data; second comparing, by the processing circuit, the semantic property to the one or more rules; determining, by the processing circuit, whether the visual property or the semantic property should be altered in the captured video data based on the comparing or the second comparing; altering, by the processing circuit and in response to determining that the semantic property should be altered in the captured video data, the captured video data to at least partially alter the semantic property in the captured video data based on the second alignment data.",
+  "patent_id": "US12380235-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/6245",
+      "B43L 1/002",
+      "B43L 1/12",
+      "G03B 21/62",
+      "G06V 20/41",
+      "G06V 20/46",
+      "G06V 20/52",
+      "G06V 40/162",
+      "G03B 21/56",
+      "G03B 21/58",
+      "G03B 21/60",
+      "G03B 21/625"
+    ],
+    "all": [
+      "G06F 21/6245",
+      "B43L 1/002",
+      "B43L 1/12",
+      "G03B 21/62",
+      "G06V 20/41",
+      "G06V 20/46",
+      "G06V 20/52",
+      "G06V 40/162",
+      "G03B 21/56",
+      "G03B 21/58",
+      "G03B 21/60",
+      "G03B 21/625"
+    ],
+    "source": "converted"
+  }
+}

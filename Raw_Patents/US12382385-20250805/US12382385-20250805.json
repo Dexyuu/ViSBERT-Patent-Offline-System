@@ -1,0 +1,18 @@
+{
+  "title": "Network controller for coordinating base station operation with routing",
+  "abstract": "A network controller comprising one or more processors and memories in order to make it possible to achieve both continuous operation of a route search system and energy consumption reduction or leveling used resources. The one or more memories store one or more programs. The one or more processors realize, by reading the one or more programs, an operating state information acquirer, a route information acquirer, and an activation request generator. The operating state information acquirer acquires operating state information regarding base stations. The route information acquirer acquires route information indicating a navigation route determined from one or more route candidates from a starting point to a goal point. The activation request generator generates, based on the operating state information regarding each base station corresponding to each area through which the determined navigation route passes, a request for activating each base station in an off state corresponding to each area through which the determined navigation route passes.",
+  "claims": "1. A navigation system, comprising one or more processors and memories, wherein the one or more memories store one or more programs, and the one or more processors execute a process including: acquiring operating state information regarding a plurality of base stations, the operating state information including information indicating whether each of the base stations is in an on state or an off state; acquiring, from a route providing device, route information indicating one or more route candidates from a starting point to a goal point; determining a navigation route of a user terminal from the one or more route candidates; generating, based on the operating state information regarding a base station corresponding to an area through which the determined navigation route passes, a request for activating the base station from the off state to the on state; and sending an activation-completed notification to the route providing device to trigger sending information on the determined navigation route to the user terminal, wherein when multiple route candidates are acquired in the acquiring route information, the determining includes determining, based on the operating state information regarding each base station corresponding to each area through which each of the multiple route candidates passes, the navigation route from the multiple route candidates, wherein the determining includes determining, as the navigation route, a route candidate in which a number of base stations that are activated from the off state to the on state is minimized from among the multiple route candidates.",
+  "patent_id": "US12382385-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 52/0206",
+      "G01C 21/3453"
+    ],
+    "all": [
+      "H04W 52/0206",
+      "G01C 21/3453"
+    ],
+    "source": "converted"
+  }
+}

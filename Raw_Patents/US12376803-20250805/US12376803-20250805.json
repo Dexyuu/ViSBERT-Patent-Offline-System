@@ -1,0 +1,24 @@
+{
+  "title": "Method and apparatus for heart-level blood pressure estimation based on ensemble learning",
+  "abstract": "The present invention relates to method and apparatus for heart-level blood pressure estimation based on ensemble learning. The invention relates to the technical field of biomedical technology. The method comprises: acquiring radial arterial blood pressure related information and a hydrostatic pressure of the radial artery of a subject; performing blood pressure conversion based on the radial arterial blood pressure related information and the hydrostatic pressure of the radial artery to obtain at least two brachial arterial blood pressure values; inputting the at least two brachial arterial blood pressure values into a trained correction model to obtain a target brachial arterial blood pressure value. The present invention realizes the conversion from a peripheral blood pressure, such as a radial arterial blood pressure measured by a wearable device, to a heart-level blood pressure, i.e. a brachial arterial blood pressure for clinical use, and performs feature fusion and a feature conversion on the feature information of each brachial arterial blood pressure value, so that the determined target brachial arterial blood pressure value becomes more accurate, and improves the accuracy and stability of the blood pressure estimation.",
+  "claims": "1. A method for heart-level blood pressure estimation based on ensemble learning, comprising: acquiring radial arterial blood pressure related information and a hydrostatic pressure of the radial artery of a subject; performing blood pressure conversion based on the radial arterial blood pressure related information and the hydrostatic pressure of the radial artery to obtain at least two brachial arterial blood pressure values; inputting the at least two brachial arterial blood pressure values into a trained correction model, performing the following operations according to the correction model to obtain a target brachial arterial blood pressure value; extracting feature information of each brachial arterial blood pressure value, and performing feature fusion on the feature information corresponding to the respective at least two brachial arterial blood pressure values to obtain fusion information; performing feature transformation of the fusion information according to different levels of the correction model to obtain feature vectors of different dimensions; determining a target feature vector according to the correlation among the feature vectors of difference dimensions; determining the target brachial arterial blood pressure value corresponding to the target feature vector.",
+  "patent_id": "US12376803-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 5/7278",
+      "A61B 5/021",
+      "A61B 5/7225",
+      "A61B 5/7246",
+      "A61B 5/7267"
+    ],
+    "all": [
+      "A61B 5/7278",
+      "A61B 5/021",
+      "A61B 5/7225",
+      "A61B 5/7246",
+      "A61B 5/7267"
+    ],
+    "source": "converted"
+  }
+}

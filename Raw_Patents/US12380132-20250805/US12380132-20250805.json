@@ -1,0 +1,18 @@
+{
+  "title": "System and method for data pruning via dynamic partition management",
+  "abstract": "A system and method for managing data lifecycles that can provide an adaptable data management system configured to optimize the lifecycles of data and the reliability of databases. The system can provide data management systems with the ability to attach, detach, and drop segments of data based on key partitions of the data objects to optimize database utilization. By including the key partitions to the data objects, the database including the data objects can now perform data management operations based on the key partitions. The system, based on the key partitions, can identify a location of the data object to attach row entries, detach row entries from the existing tables, and delete the detached row entries from the database altogether. The system can operate on any relational database management system.",
+  "claims": "1. A system for detaching partitioned data control logic related to a railroad system, comprising: a memory including a database with a plurality of partitions, tables, or jobs; a configuration file including or more parameters, instructions, operations, or conditions related to database management; and a processor operably coupled to the memory and capable of executing machine-readable instructions to perform program steps, the program steps comprising: initializing the configuration file and determining whether required file systems are accessible; initializing variables used in executing detach data instructions; generating a detach data library identifying data to detach; collecting metrics about the data to detach; identifying data structures based on at least one of three key pattern groups defined for each partition to determine a type of key that is supported, wherein the three key pattern groups include a date indicating a date range to include data, a group value indicating a particular group for detaching the data, and a member value indicating whether data belongs to a particular group, wherein identifying the data structures based on the at least one of three key pattern groups includes executing a key pattern when each of the three key pattern groups is determined to be valid and foreclosing execution of the key pattern when at least one key pattern group of the three key pattern groups is determined to be invalid; determining whether a table is partitioned; determining whether a number of partitions is supported; generate detach data instructions to detach a partition and restore the table objects to a normal state; and deleting the data based on the detach data instructions.",
+  "patent_id": "US12380132-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/278",
+      "G06F 16/2282"
+    ],
+    "all": [
+      "G06F 16/278",
+      "G06F 16/2282"
+    ],
+    "source": "converted"
+  }
+}

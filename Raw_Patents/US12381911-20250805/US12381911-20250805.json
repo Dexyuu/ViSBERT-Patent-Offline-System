@@ -1,0 +1,22 @@
+{
+  "title": "Counterattack method against hacked node in CAN bus physical layer, physical layer security method with can bus node ID auto-setting, and recording medium and system for performing the method",
+  "abstract": "A counterattack method against a hacked node in a controller area network (CAN) bus physical layer includes: setting node IDs (NIDs), which are different unique IDs, for each of a plurality of nodes connected to a CAN bus line; determining that an error frame is generated when at least one of a node using a forged NID, a node using a different NID, and a node using a non-existent NID is found; increasing counts of a transmit error counter (TEC) and a receive error counter (REC) of a transmitting node and a receiving node whenever the error frame is generated; and allowing a node of which the count of the TEC or REC is greater than a set threshold value to enter a bus-off state to block the node.",
+  "claims": "1. A counterattack method against a hacked node in a controller area network (CAN) bus physical layer, comprising: setting node IDs (NIDs), which are different unique IDs, for each of a plurality of nodes connected to a CAN bus line; determining that an error frame is generated when at least one of a node using a forged NID, a node using a different NID, and a node using a non-existent NID is found; increasing counts of a transmit error counter (TEC) and a receive error counter (REC) of a transmitting node and a receiving node whenever the error frame is generated; and allowing a node of which the count of the TEC or REC is greater than a set threshold value to enter a bus-off state to block the node.",
+  "patent_id": "US12381911-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1466",
+      "H04L 12/40104",
+      "H04L 63/1425",
+      "H04L 2012/40215"
+    ],
+    "all": [
+      "H04L 63/1466",
+      "H04L 12/40104",
+      "H04L 63/1425",
+      "H04L 2012/40215"
+    ],
+    "source": "converted"
+  }
+}

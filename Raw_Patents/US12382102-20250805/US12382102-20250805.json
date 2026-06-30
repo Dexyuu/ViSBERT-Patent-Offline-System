@@ -1,0 +1,20 @@
+{
+  "title": "Coefficient encoding method, coefficient decoding method, encoding device, decoding device, and storage medium",
+  "abstract": "A coefficient encoding method, a coefficient decoding method, corresponding devices, and a storage medium are provided. In the coefficient decoding method, the value of said coefficient is determined according to the syntax elements obtained by decoding, wherein the syntax elements include: a non-zero flag, an M absolute values greater than Xi flag, a modulo result flag, a residual value flag, and a sign flag; the absolute value of said coefficient is the sum of the sum of corresponding numerical values preset for the coded value of the non-zero flag, the coded value of the M absolute values greater than Xi flag, and the coded value of the modulo result flag, and the product of the encoded value of the residual value flag and N; the value of said coefficient is a value determined according to the absolute value of said coefficient and a sign flag indicating positive or negative.",
+  "claims": "1. A coefficient decoding method, comprising: parsing an obtained bitstream, and decoding syntax elements of a to-be-decoded coefficient; and determining a value of the to-be-decoded coefficient according to the syntax elements obtained by decoding, wherein the syntax elements comprise: a non-zero flag, M flags in which an absolute value is greater than X i , a modulo result flag, a remainder value, and a sign flag; an absolute value of the to-be-decoded coefficient is a sum obtained by adding a sum of an encoded value of the non-zero flag, encoded values of the M flags in which the absolute value is greater than X i , and a preset numerical value corresponding to an encoded value of the modulo result flag, to a product of an encoded value of the remainder value and N; the value of the to-be-decoded coefficient is a value determined according to the absolute value of the to-be-decoded coefficient and the sign flag indicating a positive or negative characteristic; the encoded value of the modulo result flag is determined according to a modulo operation of the coefficient on N, i≥M, i and M are positive integers, N is a positive integer greater than 1, X i is a positive integer, and when values of i are different, values of X i are different and incremental with the values of i.",
+  "patent_id": "US12382102-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/70",
+      "H04N 19/176",
+      "H04N 19/46"
+    ],
+    "all": [
+      "H04N 19/70",
+      "H04N 19/176",
+      "H04N 19/46"
+    ],
+    "source": "converted"
+  }
+}

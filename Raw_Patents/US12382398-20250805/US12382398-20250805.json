@@ -1,0 +1,18 @@
+{
+  "title": "Reducing power consumption of a user equipment configured for discontinuous reception",
+  "abstract": "An access node (110) configures a User Equipment, UE (105), with a power saving monitoring pattern, and subsequently transmits a power saving signal configured to switch the UE (105) from monitoring a downlink in accordance with a connected mode discontinuous reception, C-DRX, monitoring pattern to monitoring the downlink in accordance with the power saving monitoring pattern. For each of the monitoring patterns, monitoring the downlink in accordance with the monitoring pattern comprises monitoring the downlink only when a monitoring opportunity of the monitoring pattern is concurrent with a scheduled active interval of a C-DRX configuration of the UE (105). For any C-DRX cycle of the C-DRX configuration, the monitoring of the downlink in accordance with the power saving monitoring pattern has a shorter monitoring duration than the monitoring of the downlink in accordance with the C-DRX monitoring pattern. The UE (105) correspondingly receives the power saving signal and switches how it monitors the downlink accordingly.",
+  "claims": "1. A method of monitoring a downlink using a plurality of monitoring patterns comprising a power saving monitoring pattern and a connected mode discontinuous reception (C-DRX) monitoring pattern, performed by a User Equipment (UE) of a wireless communication network, the method comprising: after receiving, from an access node, information that configures the UE with the power saving monitoring pattern, receiving a power saving signal from the access node; and responsive to receiving the power saving signal, switching from monitoring the downlink in accordance with the C-DRX monitoring pattern to monitoring the downlink in accordance with the power saving monitoring pattern; wherein, for each monitoring pattern of the plurality of monitoring patterns, monitoring the downlink in accordance with the monitoring pattern comprises monitoring the downlink only when a monitoring opportunity of the monitoring pattern is concurrent with a scheduled active interval of a C-DRX configuration of the UE; and wherein, for any C-DRX cycle of the C-DRX configuration, the monitoring of the downlink in accordance with the power saving monitoring pattern has a shorter monitoring duration than the monitoring of the downlink in accordance with the C-DRX monitoring pattern.",
+  "patent_id": "US12382398-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 52/0235",
+      "H04W 52/0232"
+    ],
+    "all": [
+      "H04W 52/0235",
+      "H04W 52/0232"
+    ],
+    "source": "converted"
+  }
+}

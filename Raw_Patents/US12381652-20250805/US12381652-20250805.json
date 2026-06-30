@@ -1,0 +1,24 @@
+{
+  "title": "Wireless communication device and apparatus, device, method and computer program for a wireless communication device",
+  "abstract": "Various examples of the present disclosure relate to a wireless communication device and to an apparatus, a device, a method and a computer program for a wireless communication device. The apparatus comprises interface circuitry for obtaining information on a signal received by the wireless communication device. The apparatus comprises processing circuitry configured to determine a presence of a wireless identifier of the wireless communication device within the signal using at least one probabilistic detector.",
+  "claims": "1. An apparatus for a wireless communication device, the apparatus comprising: a transceiver configured to receive a signal carrying a packet; and processing circuitry configured to: determine a presence of a wireless identifier of the wireless communication device within the signal using at least one probabilistic detector and reject the packet if the wireless identifier of the wireless communication device is not present within the signal, wherein the processing circuitry is configured to determine a likelihood of a presence of a wireless identifier having a Hamming distance of 1 from the wireless identifier of the wireless communication device using the at least one probabilistic detector, and to determine the presence of the wireless identifier of the wireless communication device within the signal based on the likelihood of the presence of a wireless identifier having a Hamming distance of 1 from the wireless identifier of the wireless communication device.",
+  "patent_id": "US12381652-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 1/0061",
+      "H04L 1/0057",
+      "H04L 1/203",
+      "H04W 24/10",
+      "H04W 4/80"
+    ],
+    "all": [
+      "H04L 1/0061",
+      "H04L 1/0057",
+      "H04L 1/203",
+      "H04W 24/10",
+      "H04W 4/80"
+    ],
+    "source": "converted"
+  }
+}

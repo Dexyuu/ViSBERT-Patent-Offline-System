@@ -1,0 +1,18 @@
+{
+  "title": "Forecasting uncertainty in machine learning models",
+  "abstract": "Provided are systems and methods for generating a score for any model which can be updated online, regardless of model type architecture and parameters, leveraging relations between regret and uncertainty.",
+  "claims": "1. A computer-implemented method, the method comprising: for each of a plurality of examples, each example comprising an input and a label: processing, by a computing system comprising one or more computing devices, the input with the machine-learned model to generate a model score and a prediction with respect to the label; updating, by the computing system, one or more parameter values of the machine-learned model based on a gradient associated with the prediction of the machine-learned model with respect to the label, thereby generating an updated machine-learned model; processing, by the computing system, the input with the updated machine-learned model to generate an updated score; determining, by the computing system, a difference between the model score and the updated score; and determining, by the computing system, a measure of an effective number of similar examples that the machine-learned model observed in a training dataset based on the difference between the model score and the updated score; determining, by the computing system, an uncertainty score for the input relative to each of a number of possible labels; and generating, by the computing system, a weighted average of the uncertainty score over all of the number of possible labels and initiating, by the computing system, an action based on the measure determined for each of the plurality of examples.",
+  "patent_id": "US12380683-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/7747",
+      "G06V 10/772"
+    ],
+    "all": [
+      "G06V 10/7747",
+      "G06V 10/772"
+    ],
+    "source": "converted"
+  }
+}

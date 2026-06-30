@@ -1,0 +1,20 @@
+{
+  "title": "Device management system for upgrading telephony device firmware",
+  "abstract": "A telephony device includes a memory that stores firmware to operate the telephony device. The telephony device includes a network interface that transmits a first command to establish a connection with a telephony server. The telephony device includes a receiver that receives a second command from a device manager. The second command includes an instruction to upgrade the firmware of the telephony device. The telephony device includes a processor that upgrades the firmware of the telephony device based on the second command. The processor establishes a connection to a virtual meeting room platform based on the upgraded firmware.",
+  "claims": "1. A device management system comprising: a device manager of a unified communications as a service (UCaaS) platform, the device manager comprising a processor and a memory configured to: obtain a device configuration for a telephony device from an external telephony server of a manufacturer of the telephony device via session initiation protocol (SIP) messaging to configure the telephony device to operate on a virtual meeting platform; prior to operation of the telephony device on the virtual meeting platform, generate an application package for the telephony device based on the device configuration; and transmit the application package to the telephony device.",
+  "patent_id": "US12381779-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 41/0813",
+      "G06F 8/65",
+      "H04L 65/1069"
+    ],
+    "all": [
+      "H04L 41/0813",
+      "G06F 8/65",
+      "H04L 65/1069"
+    ],
+    "source": "converted"
+  }
+}

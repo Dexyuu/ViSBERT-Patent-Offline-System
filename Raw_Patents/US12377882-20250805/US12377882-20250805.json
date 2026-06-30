@@ -1,0 +1,22 @@
+{
+  "title": "Recursive, real-time capable, interaction-aware methods of planning motions for autonomous vehicles",
+  "abstract": "The invention is notably directed to computer-implemented method of planning motion of a vehicle. The method comprises receiving (S20) real-time signals as to positions of N traffic participants. At each time step of multiple time steps, the method plans (S50) motion for the vehicle by computing (S30) states of each of the N traffic participants according to the signals received (S20). Said states include current states, which are estimated for each of the N traffic participants, as well as future states of each of the participants, wherein the future states are predicted over a prediction horizon T. This is achieved using an interaction-aware model of the N traffic participants. This model is designed to cause the method to recursively compute (S32-S38), at said each time step, the states of each of the N traffic participants according to a hierarchical list. The N traffic participants are ordered in the list from a most determinative one to a least determinative one of the N traffic participants. As a result, the states of the Î·-th participant in the list are computed based on the states of each of the Î·â1 participants in the list, âÎ·â[2, . . . , N]. This model is further designed to cause the method to update and sort (S40) the hierarchical list based on rules of the road, wherein the rules are evaluated based on the states of each of the N traffic participants as computed at said each time step. The invention is further directed to related computerized systems, vehicles, and computer program products.",
+  "claims": "1. A computer-implemented method of planning motion of a vehicle, the method comprising: receiving real-time signals as to positions of N traffic participants; at each time step of multiple time steps, computing states of each of the N traffic participants according to the signals received, using an interaction-aware model of the N traffic participants, wherein said states include current states, which are estimated for each of the N traffic participants, and future states of each of the participants, which are predicted over a prediction horizon T, and wherein the model is designed to cause the method to: recursively compute, at said each time step, the states of each of the N traffic participants according to a hierarchical list, wherein the N traffic participants are ordered from a most determinative one to a least determinative one of the N traffic participants, so as for the states of the η-th participant in the list to be computed based on the states of each of the η−1 participants in the list, ∀η∈[2, . . . , N]; and update and sort the hierarchical list based on rules of the road, wherein the rules are evaluated based on the states of each of the N traffic participants as computed at said each time step; and at each time step of the multiple time steps, based on the states computed for each of the N traffic participants according to the signals received and using the interaction-aware model of the N traffic participants, planning motion of the vehicle for a simulation when the N traffic participants are simulated traffic participants, or based on the states computed for each of the N traffic participants according to the signals received and using the interaction-aware model of the N traffic participants, planning motion of the vehicle and instructing actuation of the vehicle in real-world based on the planned motion when the N traffic participants are real-world traffic participants.",
+  "patent_id": "US12377882-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60W 60/00272",
+      "B60W 50/0097",
+      "B60W 60/00276",
+      "B60W 2554/4041"
+    ],
+    "all": [
+      "B60W 60/00272",
+      "B60W 50/0097",
+      "B60W 60/00276",
+      "B60W 2554/4041"
+    ],
+    "source": "converted"
+  }
+}

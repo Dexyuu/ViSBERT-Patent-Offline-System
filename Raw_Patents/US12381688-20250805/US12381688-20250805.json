@@ -1,0 +1,26 @@
+{
+  "title": "Method and apparatus for determining PDSCH reception beam, storage medium, and terminal",
+  "abstract": "A method and an apparatus for determining a PDSCH reception beam, a storage medium, and a terminal are provided. The method includes: receiving one or more PDCCHs and determining a to-be-received PDSCH, wherein the to-be-received PDSCH is repeatedly scheduled by the one or more PDCCHs; determining a duration between a last symbol of the one or more PDCCHs which schedule the to-be-received PDSCH and a first symbol of the to-be-received PDSCH; using a first reception beam to receive the to-be-received PDSCH based on the duration being shorter than a preset duration; and using a second reception beam to receive the to-be-received PDSCH based on the duration being longer than or equal to the preset duration, wherein the first reception beam and the second reception beam are the same or different.",
+  "claims": "1. A method for determining a Physical Downlink Share Channel (PDSCH) reception beam, comprising: receiving one or more Physical Downlink Control Channels (PDCCHs) and determining a to-be-received PDSCH, wherein the to-be-received PDSCH is repeatedly scheduled by the one or more PDCCHs; determining a duration between a last symbol of the one or more PDCCHs which schedule the to-be-received PDSCH and a first symbol of the to-be-received PDSCH; using a first reception beam to receive the to-be-received PDSCH based on the duration being shorter than a preset duration; and using a second reception beam to receive the to-be-received PDSCH based on the duration being longer than or equal to the preset duration; wherein each of the one or more PDCCHs schedules one or more PDSCHs to send same downlink data, and different PDCCHs schedule same PDSCHs; and said determining a duration between a last symbol of the one or more PDCCHs which schedule the to-be-received PDSCH and a first symbol of the to-be-received PDSCH comprises: determining a time domain position of a last PDCCH in the one or more PDCCHs for scheduling the to-be-received PDSCH based on the received one or more PDCCHs and high-layer configuration information; determining a last symbol of the last PDCCH based on the time domain position of the last PDCCH; and determining a duration between the last symbol of the last PDCCH and the first symbol of the to-be-received PDSCH based on the last symbol of the last PDCCH and the time domain position of the to-be-received PDSCH.",
+  "patent_id": "US12381688-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/0053",
+      "H04L 5/0044",
+      "H04W 72/0446",
+      "H04W 72/046",
+      "H04W 72/23",
+      "H04W 76/15"
+    ],
+    "all": [
+      "H04L 5/0053",
+      "H04L 5/0044",
+      "H04W 72/0446",
+      "H04W 72/046",
+      "H04W 72/23",
+      "H04W 76/15"
+    ],
+    "source": "converted"
+  }
+}

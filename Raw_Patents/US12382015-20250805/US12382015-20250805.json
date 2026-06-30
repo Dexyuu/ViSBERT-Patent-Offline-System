@@ -1,0 +1,24 @@
+{
+  "title": "Method and apparatus of encoding or decoding with mode dependent intra smoothing filter in intra prediction",
+  "abstract": "A video processing method for a video encoder or decoder comprises receiving input data of a current block, determining an intra prediction mode and reference samples according to the intra prediction mode, determining an intra reference sample filter from a Gaussian interpolation filter and an alternative interpolation filter for the current block, applying the intra reference sample filter to the reference samples to generate an intra predictor for the current block, and encoding or decoding the current block based on the intra predictor. A determination between the Gaussian and alternative interpolation filters is depending on a comparison of a mode difference value calculated by the intra prediction mode with a size-dependent threshold. The size-dependent threshold is set to be equal to 24 for blocks with block size smaller than or equal to 32 samples according to an embodiment. The alternative interpolation filter may be a DCT-IF interpolation filter.",
+  "claims": "1. A method of encoding or decoding video data in a video coding system, comprising: receiving input data associated with a current block coded or to be coded by intra prediction in a video picture; determining an intra prediction mode for the current block; determining reference samples of the current block according to the intra prediction mode of the current block; determining an intra reference sample filter from a Gaussian interpolation filter and an alternative interpolation filter according to the intra prediction mode and a block size of the current block, wherein the determining between the Gaussian interpolation filter and the alternative interpolation filter is depending on a comparison of a mode difference value calculated by the intra prediction mode with a size-dependent threshold, wherein the size-dependent threshold is determined according to a variable nTbS, and the variable nTbS is defined as Log 2 of a width of the current block plus Log 2 of a height of the current block shifted by one (nTbS=Log 2(width)+Log 2(height)>>1), wherein the size-dependent threshold is set to be equal to 24 for blocks with block sizes smaller than or equal to 32 samples, wherein the mode difference value calculated by the intra prediction mode is a minimum of an absolute mode number difference between the intra prediction mode and a horizontal mode and an absolute mode number difference between the intra prediction mode and a vertical mode; applying the intra reference sample filter to the reference samples of the current block to generate an intra predictor for the current block; and encoding or decoding the current block in the video picture based on the intra predictor.",
+  "patent_id": "US12382015-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/105",
+      "H04N 19/132",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/82"
+    ],
+    "all": [
+      "H04N 19/105",
+      "H04N 19/132",
+      "H04N 19/159",
+      "H04N 19/176",
+      "H04N 19/82"
+    ],
+    "source": "converted"
+  }
+}

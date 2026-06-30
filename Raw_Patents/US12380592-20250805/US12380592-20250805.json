@@ -1,0 +1,26 @@
+{
+  "title": "Image processing system and method",
+  "abstract": "A computer-implemented method of determining a pose of each of a plurality of objects includes, for each given object: using image data and associated depth information to estimate a pose of the given object. The method includes iteratively updating the estimated poses by: sampling, for each given object, a plurality of points from a predetermined model of the given object transformed in accordance with the estimated pose of the given object; determining first occupancy data for each given object dependent on positions of the points sampled from the predetermined model, relative to a voxel grid containing the given object; determining second occupancy data for each given object dependent on positions of the points sampled from the predetermined models of the other objects, relative to the voxel grid containing the given object; and updating the estimated poses of the plurality of objects to reduce an occupancy penalty.",
+  "claims": "1. A method of determining a pose of each of a plurality of objects in a three-dimensional environment, the method comprising, using one or more processors: for each given object of the plurality of objects: obtaining image data and associated depth information representing a view of the three-dimensional environment in which at least a part of the given object is visible; and processing the image data and the associated depth information to estimate a pose of the given object; and iteratively updating the estimated poses of the plurality of objects, wherein the updating comprises: sampling, for each given object of the plurality of objects, a plurality of points from a predetermined model of the given object transformed in accordance with the estimated pose of the given object; determining respective first occupancy data for each given object of the plurality of objects dependent on positions of the points sampled from the predetermined model of the given object, relative to a voxel grid containing the given object, the first occupancy data for the given object being dependent on minimum distances between voxels of the voxel grid containing the given object and the points sampled from the predetermined model of the given object; determining respective second occupancy data for each given object of the plurality of objects dependent on positions of the points sampled from the predetermined models of the other objects of the plurality of objects, relative to the voxel grid containing the given object, the second occupancy data for the given object being dependent on minimum distances between voxels of the voxel grid containing the given object and the points sampled from the predetermined models of the other objects of the plurality of objects; and updating the estimated poses of the plurality of objects to reduce an occupancy penalty depending on the respective first occupancy data and the respective second occupancy data for each of the plurality of objects, wherein the occupancy penalty comprises a collision component for each given object of the plurality of object which increases when a point sampled from the predetermined model of the given object and a point sampled from the predetermined model of a different object are simultaneously brought closer to a voxel of the voxel grid containing the given object.",
+  "patent_id": "US12380592-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/70",
+      "G06T 7/11",
+      "G06T 17/10",
+      "G06V 10/44",
+      "G06V 10/761",
+      "G06T 2207/10028"
+    ],
+    "all": [
+      "G06T 7/70",
+      "G06T 7/11",
+      "G06T 17/10",
+      "G06V 10/44",
+      "G06V 10/761",
+      "G06T 2207/10028"
+    ],
+    "source": "converted"
+  }
+}

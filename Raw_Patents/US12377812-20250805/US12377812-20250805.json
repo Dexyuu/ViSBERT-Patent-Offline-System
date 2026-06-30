@@ -1,0 +1,28 @@
+{
+  "title": "Wheel theft detection and notification using a tire pressure monitoring system",
+  "abstract": "Methods, apparatuses, systems, and computer program products for wheel theft detection and notification using a tire pressure monitoring system (TPMS) are disclosed. In a particular embodiment, wheel theft detection and notification using a TPMS includes monitoring, by an electronic control unit (ECU) of a vehicle, one or more parameters associated with a tire monitoring sensor (TMS) coupled to a wheel assembly of the vehicle. In this embodiment, the ECU determines, based on the monitored one or more parameters, that the wheel assembly is in a compromised state associated with the wheel assembly being dislocated from the vehicle or in danger of being dislocated from the vehicle. In response to determining that the wheel assembly is in the compromised state, the ECU triggers an alarm of a vehicle security system.",
+  "claims": "1. A method of wheel theft detection and notification using a tire pressure monitoring system (TPMS), the method comprising: receiving from an electronic control unit (ECU) of a vehicle, by a tire monitoring sensor (TMS) of the vehicle, an indication that a vehicle security system is activated; after receiving the indication that the vehicle security system is activated, performing a wheel theft detection operation that includes: measuring, by the TMS, one or more parameter values associated with a wheel assembly; and determining, by the TMS, whether the one or more measured parameter values deviate from one or more reference parameter values by one or more predetermined amounts; in response to determining that the one or more measured parameter values deviate from the one or more reference parameter values by the one or more predetermined amounts, switching, by the TMS, to a rapid transmission state in which the TMS increases a frequency of transmission to the ECU; and after determining that the one or more measured parameter values deviate from the one or more reference parameter values by the one or more predetermined amounts, transmitting, by the TMS, an indication that the one or more parameter values have changed; detecting, by the TMS, an end event for the rapid transmission state; and responsive to detecting the end event for the rapid transmission state, switching, by the TMS, from the rapid transmission state to a normal monitoring state in which the TMS decreases the frequency of transmission to the ECU.",
+  "patent_id": "US12377812-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B60R 25/1001",
+      "B60C 23/0401",
+      "B60R 25/102",
+      "B60R 25/24",
+      "B60R 25/30",
+      "G01L 17/00",
+      "G01S 5/0269"
+    ],
+    "all": [
+      "B60R 25/1001",
+      "B60C 23/0401",
+      "B60R 25/102",
+      "B60R 25/24",
+      "B60R 25/30",
+      "G01L 17/00",
+      "G01S 5/0269"
+    ],
+    "source": "converted"
+  }
+}

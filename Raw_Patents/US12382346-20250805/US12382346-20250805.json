@@ -1,0 +1,26 @@
+{
+  "title": "Dynamic steering across non-standalone and standalone network architectures based on uplink throughput requirements",
+  "abstract": "Aspects of the present disclosure a method for dynamic steering across non-standalone and standalone network architectures based on uplink throughput requirements is provided. The method begins with determining if at least one UE is active on an SA layer. A determination is then made whether the UE has only non-guaranteed bit rate data bearers with no voice and delay sensitive bearers. The uplink buffer threshold for the at least one UE is then compared with an operator defined uplink buffer threshold. Next, a comparison is made with an uplink throughput estimate on the SA and an uplink throughput estimate for the at least one UE on an NSA layer is made. If the NSA layer has a higher uplink throughput estimate than the SA layer, a dynamic handover is performed from the SA layer to the NSA layer.",
+  "claims": "1. A method of dynamic steering across non-standalone (NSA) network segments and standalone (SA) layers in a network, the method comprising: determining if at least one user equipment (UE) is active on a SA layer; based on the determining that at least one UE is active on the SA layer, determining if the at least one UE has only non-guaranteed bit rate data bearers with no voice and delay sensitive bearers; based on the determining that the at least one UE has only non-guaranteed bit rate data bearers with no voice and delay sensitive bearers, determining if an uplink buffer threshold requirement for the at least one UE is higher than an operator defined buffer threshold; based on the determining that the uplink buffer threshold requirement for the at least one UE is higher than the operator defined buffer threshold, comparing an uplink throughput estimate for the at least one UE on the SA layer with an uplink throughput estimate for the at least one UE on a NSA layer; based on the comparing, determining if the NSA layer uplink throughput is higher than the SA layer uplink throughput; and based on the determining that the NSA layer uplink throughput is higher than the SA layer uplink throughput, dynamically triggering a handover of the at least one UE from the SA layer to the NSA layer.",
+  "patent_id": "US12382346-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 28/24",
+      "H04W 28/0858",
+      "H04W 36/0005",
+      "H04W 36/00222",
+      "H04W 36/00224",
+      "H04W 36/30"
+    ],
+    "all": [
+      "H04W 28/24",
+      "H04W 28/0858",
+      "H04W 36/0005",
+      "H04W 36/00222",
+      "H04W 36/00224",
+      "H04W 36/30"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "System and method for auto-configurable data compression framework",
+  "abstract": "A method (100) for compressing and decompressing a data file, comprising: (i) receiving (120) a data file for compression comprising a plurality of different attributes; (ii) identifying (130) a first attribute of the plurality of different attributes; (iii) selecting (140) a plurality of compression types and/or configurations; (iv) compressing (150) at least some of the data from the received data file for the identified first attribute using each of the selected plurality of compression types and/or configurations; (v) determining (160) which one of the selected plurality of compression types and/or configurations is most suitable for compression; (vi) generating (170) a compression parameter data structure comprising an identification of the selected plurality of compression types and/or configurations; (vii) compressing (180) the data from the received data file for the first attribute to generate a compressed data file; and (viii) storing (190) the compression parameter data structure and the compressed data file.",
+  "claims": "1. A method for compressing a data file using a file compression and decompression system, comprising: receiving a genomic data file for compression, the genomic data file comprising a plurality of different attributes; identifying a first attribute of the plurality of different attributes, and storing a specification of the identified first attribute in an attribute parameter data structure; selecting, based on the identified first attribute, a plurality of compression types and/or compression configurations from a predetermined plurality of compression types and compression configurations; compressing at least some of the data from the received data file for the identified first attribute using each of the selected plurality of compression types and/or compression configurations, individually, wherein one or more metrics are measured for each individual compression; determining, based on the one or more metrics of each of the individual compressions, which one of the selected plurality of compression types and/or compression configurations is most suitable for compression; generating a compression parameter data structure comprising an identification of the one of the selected plurality of compression types and/or compression configurations most suitable for compression of the identified first attribute; compressing, using the identified compression type, the data from the received genomic data file for the first attribute to generate a compressed genomic data file; storing the attribute parameter data structure, the compression parameter data structure, and the compressed data file, wherein the stored compression parameter data structure is configured to be retrieved and used for decompression of the compressed genomic data file and providing via a user interface, one or more of: (i) information about the generated compression parameter data structure and/or the compressed genomic data file, and (ii) information about one or more of the identified compression types and/or compression configurations such that the user can select a compressor type and/or configuration to be applied to compress an attribute.",
+  "patent_id": "US12380967-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G16B 50/50",
+      "G06F 16/1744",
+      "H03M 7/607",
+      "H03M 7/6088"
+    ],
+    "all": [
+      "G16B 50/50",
+      "G06F 16/1744",
+      "H03M 7/607",
+      "H03M 7/6088"
+    ],
+    "source": "converted"
+  }
+}

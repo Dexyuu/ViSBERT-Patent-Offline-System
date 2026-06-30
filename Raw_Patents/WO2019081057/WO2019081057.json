@@ -1,0 +1,23 @@
+{
+  "application_id": "WO2019081057",
+  "application_id_fs": null,
+  "title": "Memory with rules",
+  "abstract": "A system comprising a non-volatile memory and a memory controller is disclosed, wherein a defined portion of the memory may only be accessed according to predefined rules, which rules are enforced by the memory controller, and wherein the defined portion of the memory contains version information for application programs. The rules for accessing the memory include a data dependency on the data which is in the defined portion of the memory, and the rule for writing to a location in the memory comprises that only a version information for an application program which is the same or newer that currently stored at that location may be written.",
+  "claims": "Claims PATENT CLAIMS A system (101) comprising a non-volatile memory (120) and a memory controller (1 10), wherein a defined portion of the memory (122) may only be accessed according to predefined rules, which rules are enforced by the memory controller (110), wherein the defined portion of the memory (122) contains version information for application programs, characterized in that the rules include a data dependency on the data which is in the defined portion of the memory (122), and wherein the rule for writing to a location in the defined portion of the memory (122) comprises that only a version information for an application program which is the same or newer that that currently stored at that location may be written. The system of claim 1, wherein the memory (120) is used to store application programs. The system of any previous claim, wherein an entire application program is stored in the defined portion of the memory (122). The system of claims 1 or 2, wherein only version information for an application program is stored in the defined portion of the memory (122). The system of any previous claim, wherein the rules comprise storing only an increased value or the rules comprise storing only the same or an increased value in comparison to the value currently stored in a location of the defined portion of the memory (122). The system of any previous claim, wherein the rules comprise allowing only values in a defined range to be stored in a location in the defined portion of the memory (122). The system of any previous claim, wherein the rules comprise allowing only version information with a more recent version or only version information with the same or a more recent version to be stored in a location in the defined portion of the memory (122). 8. The system of any previous claim, wherein the rules comprise allowing only version information with a newer date or only version information with the same or a newer date to be stored in a location in the defined portion of the memory (122). 9. The system of claim 1, wherein the memory controller (110) and memory (120) share the same substrate or wherein the memory controller (1 10) and memory (120) share the same package or wherein the memory controller (1 10) and memory (120) are in different packages. 10. The system of any previous claim, wherein the memory controller (1 10) and memory (120) are thermally coupled. 1 1. The system of any previous claim, wherein the rules for the memory controller (1 10) and memory (120) are defined during manufacturing. 12. The system of any previous claim, wherein the rules for the memory controller (1 10) and memory (120) are defined during a secure boot. 13. The system of any previous claim, wherein the defined portion of the memory (122) includes all the memory (120). 14. A method of operating a computing system (101) comprising a non-volatile memory ( 120) and a memory controller (1 10), wherein a defined portion of the memory (122) is only accessed according to predefined rules, and wherein the rules are enforced by the memory controller (110), wherein the defined portion of the memory (122) contains version information for application programs, characterized in that the rules include a data dependency on the data which is in the defined portion of the memory (122), and wherein the rule for writing to a location in the defined portion of the memory (122) comprises that only a version information for an application program which is the same or newer that that currently stored at that location may be written. 15. A method according to claim 15 wherein the rules are defined by an authorized process.",
+  "classifications": {
+    "ipc": [
+      "G06F 12/02",
+      "G06F 21/57",
+      "G06F 8/65",
+      "G06F 21/51"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 12/02",
+      "G06F 21/57",
+      "G06F 8/65",
+      "G06F 21/51"
+    ],
+    "source": "csv"
+  }
+}

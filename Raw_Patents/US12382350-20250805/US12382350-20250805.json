@@ -1,0 +1,18 @@
+{
+  "title": "Information configuration method and apparatus, and communication device",
+  "abstract": "Embodiments of the present disclosure provide an information configuration method and apparatus, and a communication device. The method includes: transmitting, by a Master Node (MN), a first request message to a Secondary Node (SN), wherein the first request message is used to request for configuring a conditional Primary Secondary Cell (PSCell) change; receiving, by the MN, a first response message transmitted by the SN, wherein the first response message is used for indicating that the SN accepts the first request message; and transmitting, by the MN to a terminal device, at least one of a PSCell change condition configuration, a target PSCell configuration, and a radio resource configuration on an MN side.",
+  "claims": "1. An information configuration method, comprising: transmitting, by a Master Node (MN), a first request message to a Secondary Node (SN), wherein the first request message is used to request for configuring a conditional Primary Secondary Cell (PSCell) change; receiving, by the MN, a first response message transmitted by the SN, wherein the first response message is used for indicating that the SN accepts the first request message; and transmitting, by the MN to a terminal device, at least one of a PSCell change condition configuration, a target PSCell configuration, and a radio resource configuration on an MN side, wherein the first request message carries a first PSCell change condition configuration, the first PSCell change condition configuration is a PSCell change condition configuration proposed by the MN, the first request message further carries first indication information that indicates a PSCell change type, and the PSCell change type is one of: an intra-SN PSCell change, an inter-SN PSCell change, an intra-SN PSCell change without affecting MN, and an intra-SN PSCell change affecting MN.",
+  "patent_id": "US12382350-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 36/0058",
+      "H04W 36/0069"
+    ],
+    "all": [
+      "H04W 36/0058",
+      "H04W 36/0069"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Error detection event mechanism",
+  "abstract": "Methods, systems, and devices for error detection event mechanism are described. The memory system may identify a fault condition and transmit, to a host system, a message indicating a first indication that the fault condition exists at the memory system. In some cases, the memory system may set, in a register of the memory system, a second indication indicating a type of the fault condition based on identifying the fault condition. The memory system may perform a recovery procedure based on the first indication and the second indication.",
+  "claims": "1. An apparatus, comprising: a memory device; a register; and a control circuit coupled with the memory device and configured to cause the apparatus to: identify a fault condition of the apparatus; transmit, to a host system, a message indicating a first indication that the fault condition exists at the apparatus based at least in part on identifying the fault condition; set, in the register, a second indication indicating a type of the fault condition based at least in part on identifying the fault condition; initiate the apparatus to enter a safe mode of operation based at least in part on transmitting the message; refrain from performing an operation based at least in part on initiating the apparatus to enter the safe mode of operation; receive, from the host system, a command to exit the safe mode of operation; exit the safe mode of operation based at least in part on receiving the command; and perform a recovery procedure based at least in part on the first indication and the second indication, wherein performing the recovery procedure is based at least in part on exiting the safe mode of operation.",
+  "patent_id": "US12379991-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/1068",
+      "G06F 11/0757",
+      "G06F 11/0772",
+      "G06F 11/0793",
+      "G06F 11/3656"
+    ],
+    "all": [
+      "G06F 11/1068",
+      "G06F 11/0757",
+      "G06F 11/0772",
+      "G06F 11/0793",
+      "G06F 11/3656"
+    ],
+    "source": "converted"
+  }
+}

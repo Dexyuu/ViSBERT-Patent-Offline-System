@@ -1,0 +1,22 @@
+{
+  "title": "Registration probe for image guided surgery system",
+  "abstract": "Tools used within a surgical area may be equipped with sensors that allow them to be tracked within the magnetic field of an image guided surgery (IGS) system. The IGS system may be configured to detect various movement patterns of the tools, which may be mapped to and associated with corresponding actions or inputs to the IGS system. In one example, a registration probe may be moved along the x-axis and y-axis, with detected movements identified and received by the IGS system as movements of a mouse cursor on a display of the IGS system. In another example, the registration probe may be moved in a circular pattern, or quickly moved along any of the x-axis, y-axis, or z-axis, with each being configured to cause the IGS system to zoom a display, change a view, record video, or other actions.",
+  "claims": "1. An image guided surgery (IGS) navigation system comprising: (a) an instrument including a position sensor; (b) a tracking field generator operable to provide a tracked area, the tracked area being a three dimensional space; (c) a display operable to provide an IGS navigation interface to a user; (d) a memory storing a set of control patterns, each of the set of control patterns comprising a spatial input, each of the set of control patterns corresponding to a gesture-based interface action; and (e) a processor configured to: (i) receive signals from the position sensor as a result of an interaction of the instrument with the tracked area, (ii) determine a motion of the instrument based upon a change in position of the instrument in a first dimension and a second dimension, (iii) when determining the motion of the instrument, disregard a change in position in a third dimension unless the change in position in the third dimension exceeds a configured distance threshold, and (iv) where at least one control pattern of the set of control patterns matches the motion based upon a comparison of the spatial input for the at least one control pattern with the motion, determine the gesture-based interface action corresponding to the at least one control pattern and execute the gesture-based interface action on the IGS navigation interface.",
+  "patent_id": "US12376914-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 34/20",
+      "A61B 5/062",
+      "A61B 34/25",
+      "A61B 2034/2055"
+    ],
+    "all": [
+      "A61B 34/20",
+      "A61B 5/062",
+      "A61B 34/25",
+      "A61B 2034/2055"
+    ],
+    "source": "converted"
+  }
+}

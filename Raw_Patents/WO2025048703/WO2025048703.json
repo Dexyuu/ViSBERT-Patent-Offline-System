@@ -1,0 +1,48 @@
+{
+  "application_id": "WO2025048703",
+  "application_id_fs": "WO2025048703",
+  "title": "Apparatuses and methods for microwave tomography",
+  "abstract": "An apparatus (400) for non-invasive microwave tomography of an object (111), and a method (900) for obtaining a representation of an object (111) by means of an apparatus for microwave tomography. The apparatus (400) comprises: a container (120) provided with a first medium (121), an antenna array (130) that is arranged inside the container (120) and that is at least partly encompassed by the first medium (121); a first boundary (122) of the container (120) configured to face at least a part of the external surface of the object (111); and a dampening layer (440) arranged at a second boundary (123) of the container (120) and configured to attenuate reflection of electromagnetic energy, scattered by the object (111), at the second boundary (123) back into the first medium (121). The method (900) comprises: radiating (910) electromagnetic energy from a primary antenna element of an antenna array (130) into the container (120) of the apparatus to irradiate the object (111); and in response to the radiation of the electromagnetic energy, obtaining (920) a representation of a first electric field distribution in the apparatus by means of measurements via the antenna array (130); and obtaining (930) the representation of the object (111) by iteratively adapting a model of a dielectric distribution representing the object.",
+  "claims": "Claims CLAIMS 1. An apparatus (400) for non-invasive microwave tomography of an object (111), the apparatus (400) comprising: a container (120) provided with a first medium (121), the container (120) being provided with a first boundary (122) configured to face at least a part of an external surface of the object (111); an antenna array (130) arranged inside the container (120), the antenna array (130) being at least partly encompassed by the first medium (121), and configured to transmit electromagnetic energy for irradiating the object (111) and to receive electromagnetic energy scattered by the object (111); and a dampening layer (440) arranged at a second boundary (123) of the container (120), wherein the dampening layer (440) is configured to attenuate reflection of electromagnetic energy, scattered by the object (111), at the second boundary (123) back into the first medium (121). 2. The apparatus (400) according to claim 1, wherein the container (120) is encapsulated by the first boundary (122) and the second boundary (123). 3. The apparatus (400) according to any previous claim, wherein the dampening layer (440) comprises a second medium, and wherein the first medium (121) has a first dielectric loss value at a frequency and the second medium has a second dielectric loss value at the frequency, wherein the second dielectric loss value is at least two times the first dielectric loss value. 4. The apparatus (400) according to claim 3, wherein the first medium (121) has a first characteristic impedance value at the frequency and the second medium has a second characteristic impedance value at the frequency, wherein the second characteristic impedance value is within 50% of the first characteristic impedance value. 5. The apparatus (400) according to any previous claim, wherein the first medium (121) comprises air or purified water. 6. A method (900) of obtaining a representation of an object (111) by means of an apparatus for microwave tomography, wherein the apparatus comprises a container (120) provided with an antenna array (130) comprising a primary antenna element and one or more secondary antenna elements positioned relative to the object (111), the method comprising: radiating (910) electromagnetic energy from the primary antenna element into the container (120) to irradiate the object (111); and in response to the radiation of electromagnetic energy, \n\nobtaining (920) a representation of a first electric field distribution in the apparatus by means of measurements via the one or more secondary antenna elements ; and obtaining (930) the representation of the object (111) by iteratively adapting a model of a dielectric distribution representing the object (111), wherein the adapting comprises, iteratively, obtaining (931) a representation of a second electric field distribution in the apparatus using a model of the apparatus and the model of the dielectric distribution, wherein the representation of the second electric field distribution is obtained based on constructed electromagnetic energy as scattered by the model of the dielectric distribution and constructed electromagnetic energy as scattered by one or more antenna elements of the antenna array (130) of the model of the apparatus, comparing (932) the representation of the second electric field distribution with the representation of the first electric field distribution to obtain a comparison, and adapting (933) the model of the dielectric distribution based on the comparison and thereby obtaining the representation of the object (111). 7. The method (900) according to claim 6, wherein the method comprises obtaining the representation of the second electric field distribution by obtaining (934): a constructed incident electric field distribution from the primary antenna element of the model of the apparatus in the absence of the model of the dielectric distribution or a measured incident electric field distribution from the primary antenna element of the apparatus in the absence of the object (111), a constructed primary scattered electric field distribution scattered by the model of the dielectric distribution in response to the constructed or the measured incident electric field distribution, and a constructed secondary scattered electric field distribution scattered by one or more antenna elements of the antenna array (130) of the model of the apparatus in response to the constructed primary scattered electric field distribution. 8. The method (900) according to any of claim 7, wherein the method comprises: obtaining (935) one or more constructed incident electric field distributions from respective antenna elements of the antenna array (130) of the model of the apparatus in the absence of the model of the dielectric distribution, or one or more measured incident electric field distributions from respective antenna elements of the antenna array (130) of the apparatus in the absence of the object (111); and \n\nobtaining (936) the constructed secondary scattered electric field distribution based on the one or more constructed incident electric field distributions or the one or more measured incident electric field distributions. 9. The method (900) according to any of claims 6-8, wherein the apparatus is the apparatus (400) according to any of claims 1-5. 10. A control system (810) comprising a processing circuitry (1010) configured to perform the method (900) according to any of claims 6-9.",
+  "classifications": {
+    "ipc": [
+      "G01N 22/00",
+      "A61B 5/00",
+      "A61B 5/05",
+      "A61B 5/0507",
+      "G01N 23/00",
+      "G01N 3/00",
+      "G01N 17/00",
+      "G01N 21/00",
+      "G01N 23/02",
+      "G01N 23/04",
+      "G01N 23/046",
+      "G01N 2223/00",
+      "G01N 2223/40",
+      "G01N 2223/419",
+      "G01N 2223/50",
+      "G01N 2223/501"
+    ],
+    "cpc": [],
+    "all": [
+      "G01N 22/00",
+      "A61B 5/00",
+      "A61B 5/05",
+      "A61B 5/0507",
+      "G01N 23/00",
+      "G01N 3/00",
+      "G01N 17/00",
+      "G01N 21/00",
+      "G01N 23/02",
+      "G01N 23/04",
+      "G01N 23/046",
+      "G01N 2223/00",
+      "G01N 2223/40",
+      "G01N 2223/419",
+      "G01N 2223/50",
+      "G01N 2223/501"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2025048703"
+}

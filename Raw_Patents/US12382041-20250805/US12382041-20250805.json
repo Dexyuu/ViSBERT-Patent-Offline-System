@@ -1,0 +1,32 @@
+{
+  "title": "Coded video processing using enhanced secondary transform",
+  "abstract": "A video processing method includes performing a conversion between a video block of a video and a bitstream of the video according to a rule. The rule specifies whether or how usage of a secondary transform within a video unit is indicated in the bitstream. The secondary transform is applied before quantization or after de-quantization.",
+  "claims": "1. A method of processing video data, comprising: performing a conversion between a video block of a video and a bitstream of the video according to a rule, wherein the rule specifies whether an implicit indication manner or an explicit indication manner is applied for indicating a usage of a secondary transform for the video block within a video unit is indicated in the bitstream, wherein the secondary transform is applied before quantization or after de-quantization, and wherein the secondary transform is applied between forward primary transform and quantization or between de-quantization and invert primary transform; wherein whether the implicit indication manner or the explicit indication manner is applied for indicating the usage of the secondary transform is based on a coding mode of the video block; wherein whether the implicit indication manner or the explicit indication manner is applied for indicating the usage of the secondary transform is determined based on whether a pulse-coded modulation (PCM) coding tool is applied to the video block; and wherein in response to the PCM coding tool being applied to the video block, the implicit indication manner of not using the secondary transform is applied to the video block.",
+  "patent_id": "US12382041-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/12",
+      "H04N 19/124",
+      "H04N 19/126",
+      "H04N 19/172",
+      "H04N 19/176",
+      "H04N 19/189",
+      "H04N 19/60",
+      "H04N 19/61",
+      "H04N 19/70"
+    ],
+    "all": [
+      "H04N 19/12",
+      "H04N 19/124",
+      "H04N 19/126",
+      "H04N 19/172",
+      "H04N 19/176",
+      "H04N 19/189",
+      "H04N 19/60",
+      "H04N 19/61",
+      "H04N 19/70"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Systems, methods, and devices having databases and automated reports for electronic spectrum management",
+  "abstract": "Systems, methods and apparatus for spectrum data management for a radio frequency (RF) environment are disclosed. An apparatus comprises at least one receiver, an automatic signal detection (ASD) module, and a learning and conflict detection engine. The apparatus is at the edge of a communication network. The at least one receiver processes RF energy received from the RF environment, thereby generating processed data. The ASD module is configured to extract meta data and detect anomaly based on the processed data. The learning and conflict detection engine is configured for conflict recognition and anomaly identification based on the processed data. The apparatus is operable to generate at least one report for the RF environment.",
+  "claims": "1. An apparatus for spectrum data management for a radio frequency (RF) environment, comprising: at least one receiver; wherein the apparatus is operable to create learning data including power level measurements of the RF environment based on a machine learning (ML) algorithm; wherein the apparatus is operable to detect at least one signal in the RF environment based on matched positive and negative gradients; wherein the apparatus is operable to determine a baseline based on the matched positive and negative gradients; wherein the apparatus is operable to smooth a real-time spectral sweep with a correction vector and a first smoothing filter; wherein the apparatus is operable to perform a second smoothing filter only on frequencies outside a frequency range of the at least one signal; wherein the apparatus is operable to apply a gradient detection algorithm to smoothed signal data based on the ML algorithm; wherein the apparatus is operable to use gradients from the gradient detection algorithm and the first smoothing filter to create a calibration vector; wherein the apparatus is operable to use the calibration vector to de-bias raw signal data based on the ML algorithm; wherein the apparatus is operable to subtract the baseline from the real-time spectral sweep to reveal the at least one signal; wherein the apparatus is operable to add the at least one signal to a signal observation database based on a pre-recognition delay; wherein the apparatus is operable to process signal data using compressed data for deltas, thereby generating processed data; wherein the deltas are differentials from the baseline and minimize data sets or sample data required for comparisons and/or analytics.",
+  "patent_id": "US12382326-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 24/08",
+      "H04B 17/23",
+      "H04B 17/27",
+      "H04B 17/309",
+      "H04B 17/318",
+      "H04W 4/029",
+      "H04W 16/14",
+      "H04W 24/10",
+      "H04W 52/0203",
+      "H04W 64/006",
+      "H04W 72/0453",
+      "H04W 72/0473",
+      "H04B 17/3911"
+    ],
+    "all": [
+      "H04W 24/08",
+      "H04B 17/23",
+      "H04B 17/27",
+      "H04B 17/309",
+      "H04B 17/318",
+      "H04W 4/029",
+      "H04W 16/14",
+      "H04W 24/10",
+      "H04W 52/0203",
+      "H04W 64/006",
+      "H04W 72/0453",
+      "H04W 72/0473",
+      "H04B 17/3911"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Hybrid control of a robotic system",
+  "abstract": "An object can be moved via a robotic system with a combination of force and position control. The control system can include the object to be moved, the robotic system that moves the object, at least one force sensor, at least one position sensor, and a controller. A position control output, a force control output, and a hybrid weighting value can each be determined by the controller based on sensor data and then combined to determine an amount of position control and/or force control to be applied to move the object and/or modify an object in motion's trajectory.",
+  "claims": "1. A system comprising: at least one object configured to be moved by a robotic system; at least one force sensor configured to be positioned on the at least one object to measure actual forces associated with the at least one object; at least one position sensor configured to be positioned on the at least one object to measure an actual position associated with the at least one object; at least one input source configured to measure, calculate, or receive a measurement of at least one other parameter of the system; and a controller comprising: a non-transitory memory storing executable instructions; and a processor for executing the instructions to: receive, from the at least one force sensor, the actual forces associated with the at least one object; receive, from the at least one position sensor, the actual position associated with the at least one object; receive, from the at least one input source, the measurement of the at least one other parameter of the system; retrieve desired forces to be associated with the at least one object, wherein the desired forces and the actual forces are each within a first coordinate system; retrieve a desired position to be associated with the at least one object, wherein the desired position and the actual position are each within a second coordinate system; retrieve a trajectory of the at least one object based on the desired forces and the desired position; establish a common reference frame for the actual forces, the actual position, the desired forces, and the desired position; transform the actual forces, the actual position, the desired forces, and the desired position from the respective first coordinate system and second coordinate system to the common reference frame; determine at least one adaptive compensation adjustment parameter based on the measurement of the at least one other parameter of the system; determine a force control output based on the difference between the actual force and the desired force and the at least one adaptive compensation adjustment parameter; determine a position control output based on the difference between the actual position and the desired position and the at least one adaptive compensation adjustment parameter; determine a hybrid weighting value based on an amount of position control required for the at least one object to reach the desired position at the desired forces at a future time and an amount of force control required for the at least one object to reach the desired position at the desired forces at the future time, wherein the hybrid weighting value is variable in time based on at least one control variable; determine a change in position associated with the at least one object and a change in forces associated with the at least one object based on the hybrid weighting value, the force control output, and the position control output; modify the trajectory of the at least one object based on the change in position and the change in forces associated with the at least one object; and move the at least one object based on the modified trajectory.",
+  "patent_id": "US12377538-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B25J 9/1633",
+      "B25J 9/1638",
+      "B25J 9/1653",
+      "B25J 9/1664",
+      "B25J 13/085",
+      "B25J 13/088",
+      "B25J 13/089"
+    ],
+    "all": [
+      "B25J 9/1633",
+      "B25J 9/1638",
+      "B25J 9/1653",
+      "B25J 9/1664",
+      "B25J 13/085",
+      "B25J 13/088",
+      "B25J 13/089"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "application_id": "WO2017139631",
+  "application_id_fs": "WO2017139631",
+  "title": "Flow off downhole communication method and related systems",
+  "abstract": "A method enables communication with downhole tools during a \"flow off\" condition by energizing at least one sensor and a controller using a local power source only after flow of drilling fluid has been reduced below the threshold flow rate value. Thereafter, the method involves generating the at least one predetermined pattern into the wellbore, detecting the at least one predetermined partem using the at least one sensor and the controller, and transmitting a signal using the controller in response to the detected at least one predetermined pattern.",
+  "claims": "Claims THE CLAIMS What Is Claimed Is: 1. A communication method, comprising: connecting at least one sensor (80) and a local power source (86) to a controller (84), the at least one sensor (80) being configured to estimate a selected parameter; programming at least one predetermined pattern based on the selected parameter into the controller (84); positioning the at least one sensor (80), the controller (84), and the local power source (86) along a bottomhole assembly (20); conveying the bottomhole assembly (20) into a wellbore; generating power at the bottomhole assembly (20) using a generator (60) energized by a drilling fluid flowing at at least a threshold flow rate value; reducing the flow rate of the drilling fluid below the threshold value to terminate the generation of power at the bottomhole assembly (20), the method characterized by: energizing the at least one sensor (80) and the controller (84) using power stored in the local power source (86) only after the flow of the drilling fluid has been reduced below the threshold flow rate value; generating the at least one predetermined pattern in the wellbore; detecting the at least one predetermined pattern using the at least one sensor (80) and the controller (84); and transmitting a signal using the controller (84) in response to the detected at least one predetermined pattern. 2. The communication method of claim 1 , further characterized in that the selected parameter is pressure and the at least one sensor (80) is a pressure sensor. 3. The communication method of claim 2, further characterized by displacing the bottomhole assembly (20) a predetermined distance in order to generate the at least one predetermined partem. 4. The communication method of claim 3, further characterized in that the predetermined pattern includes at least one change in pressure while there is no fluid flow through the bottomhole assembly (20). 5. The communication method of claim 4, further characterized by determining the at least one change in pressure by using a density of the drilling fluid. 6. The communication method of claim 2, further characterized by varying a flow rate of the drilling fluid in order to generate the at least one predetermined pattern, further characterized in that the flow rate is always below the threshold flow rate value. 7. The communication method of claim 2, further characterized by varying the hydrostatic pressure of the fluid column in order to generate the at least one predetermined pattern. 8. The communication method of claim 1 , further characterized in that the at least one predetermined pattern is only generated while the drilling fluid is flowing at below the threshold flow rate value. 9. The communication method of claim 1 , further characterized in that the generator (60) generates electrical power, and is further characterized by: drilling the wellbore using the bottomhole assembly (20); terminating the drilling activity upon reducing the fluid circulation below the threshold flow rate; selecting an action using the programmed at least one predetermined pressure pattern and the controller (84), wherein the signal is associated with the action. 10. The communication method of claim 9, further characterized in that there is no fluid flow through the bottomhole assembly (20) while generating the at least one predetermined pressure pattern in the wellbore. 1 1. The communication method of claim 10, further characterized by displacing the bottomhole assembly (20) a predetermined distance along the wellbore in order to generate the at least one predetermined pressure pattern. 12. The communication method of claim 10, further characterized by varying the hydrostatic pressure of the fluid column in order to generate the at least one predetermined pattern. 13. The communication method of claim 9, further characterized in that the at least one predetermined pressure pattern is only generated while the drilling fluid is flowing at below the threshold flow rate value. 14. A system for communicating between a surface location and a bottomhole assembly (20) in a wellbore, characterized by: a fluid energized electric power generator (60) in the bottomhole assembly (20) and configured to generate electrical power after fluid circulation reaches a threshold flow rate; a sensor sub in the bottomhole assembly (20), the sensor sub including at least one sensor (80) and a controller (84), the at least one sensor (80) and the controller (84) being energized by a local power source (86) after the fluid circulation falls below the threshold flow rate, wherein the controller (84) is programmed with at least one predetermined pattern, the controller (84) being further programmed to: (i) detect the at least one predetermined pattern using the at least one sensor (80) after the fluid circulation falls below the threshold flow rate, (ii) select an action based on the programmed at least one predetermined pattern, and (iii) and transmit a signal associated with the action. 15. The system of claim 14, further characterized in that the at least one sensor (80) is a pressure sensor and the at least one predetermined pattern includes a pressure pattern.",
+  "classifications": {
+    "ipc": [
+      "E21B 47/00",
+      "E21B 47/12",
+      "E21B 47/14",
+      "E21B 47/18",
+      "E21B 41/00",
+      "E21B 40/00",
+      "E21B 41/0085",
+      "E21B 47/06"
+    ],
+    "cpc": [],
+    "all": [
+      "E21B 47/00",
+      "E21B 47/12",
+      "E21B 47/14",
+      "E21B 47/18",
+      "E21B 41/00",
+      "E21B 40/00",
+      "E21B 41/0085",
+      "E21B 47/06"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017139631"
+}

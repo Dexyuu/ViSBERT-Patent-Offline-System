@@ -1,0 +1,20 @@
+{
+  "title": "System and method for secured data transmission using LiFi and holochain network",
+  "abstract": "A system for implementing a secured data transmission includes a sending device and a light fidelity (LiFi) device. The sending device determines that a subset of data is confidential based on historical indications. The device encrypts the subset of data. The device receives a message that indicates that a user of a second device initiated a request to receive the subset of data. The device communicates the encrypted data to the LiFi device. The LiFi device includes at least one light source that is configured to emit light. The LiFi device communicates the encrypted data via the light emitted from the at least one light source to the receiving device.",
+  "claims": "1. A system for secured data communication comprising: a sending device comprising: a memory configured to store data; a processor operably coupled to the memory, and configured to: determine that a first subset of data is confidential based at least in part upon historical indications that indicates that the first subset of data is confidential; encrypt the first subset of data; receive a first message that indicates that a user of a receiving device initiated a request to receive the first subset of data, wherein the first message comprises an indication that the user is authorized to receive the first subset of data; and in response to receiving the first message, communicate the encrypted data to a light fidelity (LiFi) device; the LiFi device communicatively coupled to the sending device and comprising: at least one light source configured to emit light; and a second processor operably coupled to the at least one light source, and configured to communicate the encrypted data via the light emitted from the at least one light source to the receiving device; wherein determining that the first subset of data is confidential is further based at least in part upon implementing a natural language processing technique that is configured to determine that the first subset of data comprises confidential information; wherein determining that the first subset of data comprises the confidential information comprises: searching, in the first subset of data, for one or more keywords that are known to be associated with the confidential information; determining a percentage of words that correspond to the one or more keywords; and determining that the percentage of words exceeds a threshold percentage.",
+  "patent_id": "US12381626-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 10/116",
+      "H04B 10/40",
+      "H04W 84/12"
+    ],
+    "all": [
+      "H04B 10/116",
+      "H04B 10/40",
+      "H04W 84/12"
+    ],
+    "source": "converted"
+  }
+}

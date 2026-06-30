@@ -1,0 +1,22 @@
+{
+  "title": "Method for transmitting/receiving physical downlink shared channel in wireless communication system, and device therefor",
+  "abstract": "Presented in the present specification are a method for transmitting/receiving a physical downlink shared channel in a wireless communication system, and a device therefor. Particularly, a method performed by a terminal comprises the steps of: receiving configuration information about a control resource set (CORESET) of a first group and a CORESET of a second group; receiving a first physical downlink control channel (PDCCH) from the CORESET of the first group; receiving a first PDSCH on the basis of the first PDCCH; receiving a second PDCCH from the CORESET of the second group; and receiving a second PDSCH on the basis of the second PDCCH, wherein the first PDSCH and/or the second PDSCH can be received, on the basis of being scheduled within a scheduling offset, by using a default CORESET.",
+  "claims": "1. A method comprising: receiving, by a user equipment (UE), configuration information for first control resources of a first group and second control resources of a second group; receiving, by the UE, a first downlink control channel for scheduling a first downlink shared channel in the first control resources of the first group; receiving, by the UE, the first downlink shared channel based on the first downlink control channel; receiving, by the UE, a second downlink control channel for scheduling a second downlink shared channel in the second control resources of the second group; receiving, by the UE, the second downlink shared channel based on the second downlink control channel, wherein the first downlink control channel or the second downlink control channel is configured to schedule the first downlink shared channel or the second downlink shared channel within or after a scheduling offset based on whether the first control resources of the first group or the second control resources of the second group include default control resources or not, wherein, responsive to determining that the first control resources of the first group or the second control resources of the second group include the default control resources and the first downlink shared channel or the second downlink shared channel is scheduled within the scheduling offset, the first downlink shared channel or the second downlink shared channel is received using the default control resources, wherein, responsive to determining that the first control resources of the first group or the second control resources of the second group do not include the default control resources and the first downlink shared channel or the second downlink shared channel is scheduled within the scheduling offset, the first downlink control channel or the second downlink control channel is ignored and processed as an error; receiving, by the UE, configuration related to channel state information; receiving, by the UE, channel state information related reference signal based on the configuration related to the channel state information; generating, by the UE, the channel state information to report based on the channel state information related reference signal; transmitting, by the UE to a base station, the channel state information; and reporting, by the UE to the base station, information for a group using the default control resources between the first group and the second group.",
+  "patent_id": "US12382451-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/1273",
+      "H04B 7/0408",
+      "H04W 16/28",
+      "H04W 72/23"
+    ],
+    "all": [
+      "H04W 72/1273",
+      "H04B 7/0408",
+      "H04W 16/28",
+      "H04W 72/23"
+    ],
+    "source": "converted"
+  }
+}

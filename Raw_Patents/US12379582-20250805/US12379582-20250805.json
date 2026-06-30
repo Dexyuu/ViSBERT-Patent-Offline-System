@@ -1,0 +1,22 @@
+{
+  "title": "Microscopy system and associated methods",
+  "abstract": "In a computer-implemented method for controlling a microscope, a textual input describing a desired microscope image and an employed sample is received. The textual input and an overview image of the employed sample are input into a large language model, which is trained to process the textual input and the overview image together to calculate microscope settings for capturing a microscope image that corresponds to the desired microscope image. A microscope image is then captured with these calculated microscope settings.",
+  "claims": "1. A computer-implemented method for controlling a microscope, comprising: receiving a textual input describing at least a desired microscope image; receiving a first image of a sample; inputting the textual input and the first image into a large language model, which is a machine-learned neural network trained to process the textual input and the first image together in order to calculate microscope settings for capturing a microscope image that corresponds to the desired microscope image; capturing a microscope image with the microscope settings calculated by the large language model; the large language model being trained to ascertain whether a follow-up query to a microscope user shall be made to ascertain at least one of the microscope settings to be set; and in the case of a follow-up query: inputting a user response into the large language model as further textual input, wherein the large language model comprises an encoder which is used in calculating the microscope settings from at least the textual input and from user responses received in response to follow-up queries; wherein the textual input is converted into a sequence of tokens; wherein a special token is added to the sequence; wherein the encoder is used for calculating an output from the special token with the sequence, the output including a hidden state representation of at least the special token or the sequence of tokens; wherein at least the hidden state representation is input into a mapping program configured to calculate a mapping to values of the microscope settings.",
+  "patent_id": "US12379582-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G02B 21/365",
+      "G02B 21/008",
+      "G06V 10/80",
+      "G06V 10/82"
+    ],
+    "all": [
+      "G02B 21/365",
+      "G02B 21/008",
+      "G06V 10/80",
+      "G06V 10/82"
+    ],
+    "source": "converted"
+  }
+}

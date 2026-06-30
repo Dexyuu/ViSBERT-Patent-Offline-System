@@ -1,0 +1,24 @@
+{
+  "title": "High-performance and low-complexity neural compression from a single image, video or audio data",
+  "abstract": "Methods, systems, and apparatus, including computer programs encoded on a computer storage medium for encoding input data comprising input data values corresponding to respective input data grid points of an input data grid, such as image, video or audio data.",
+  "claims": "1. A method of encoding input data performed by one or more data processing apparatus, the input data comprising input data values corresponding to respective input data grid points of an input data grid, the method comprising: optimizing an objective function by jointly optimizing parameters of a synthesis neural network, parameters of a decoder neural network, and a set of respective latent values, each respective latent value corresponding to a respective latent grid point of a respective one of a plurality of latent grids having different respective resolutions, and wherein the optimizing comprises, at each of a plurality of optimization iterations: generating a respective updated value for each of the respective latent values, comprising: generating a respective noise distribution for the optimization iteration, wherein the respective noise distribution for the optimization iteration has a shape that is more uniform than the respective noise distribution for a preceding optimization iteration; sampling a respective noise value for each respective latent value from the respective noise distribution for the optimization iteration; updating each of the respective latent values by adding the respective noise value for the respective latent value to the respective latent value; processing the respective updated values using the synthesis neural network to generate respective reconstructed data values, each corresponding to a respective input data value of the input data values; determining a respective probability distribution for each respective updated value using the decoder neural network; evaluating the objective function by determining (i) an error between the input data values and the respective reconstructed data values and (ii) a compressibility term based on the respective probability distributions; determining gradients of the objective function with respect to the parameters of the synthesis neural network, the parameters of the decoder neural network, and the set of respective latent values; and using the gradients to update one or more of: the parameters of the synthesis neural network, the parameters of the decoder neural network, and the respective latent values; quantizing the optimized respective latent values; and encoding the quantized respective latent values using a probability distribution for the respective latent values, the probability distribution being defined by the decoder neural network.",
+  "patent_id": "US12382068-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/189",
+      "H04N 19/119",
+      "H04N 19/124",
+      "H04N 19/167",
+      "H04N 19/30"
+    ],
+    "all": [
+      "H04N 19/189",
+      "H04N 19/119",
+      "H04N 19/124",
+      "H04N 19/167",
+      "H04N 19/30"
+    ],
+    "source": "converted"
+  }
+}

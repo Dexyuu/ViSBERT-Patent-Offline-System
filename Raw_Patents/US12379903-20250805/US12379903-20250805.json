@@ -1,0 +1,18 @@
+{
+  "title": "Campaign message flow builder",
+  "abstract": "A message management platform may receive, from an application operator, a configuration of a message flow. The message flow includes one or more messages associated with trigger conditions. The platform may receive, from a code snippet incorporated in an application of a user computing device, a notification that the user computing device has used the application. The platform may associate a user identifier with the user computing device. The platform may subscribe to, on behalf of the application operator, one or more API notification channels of the application builder platform. The platform may receive an API notification from the application builder platform. The platform may determine that the application builder platform's user is associated with the user identifier used by the message management platform. The platform may determine that the event described in the payload matches the trigger condition and transmit the first message to the user computing device.",
+  "claims": "1. A system for providing message campaign services in cooperation with an application builder platform comprising one or more computers on which are stored instructions operable to cause the application builder platform to operate as a backend component of an application controlled by an application operator, and wherein the application builder platform: is operable to communicate events to the system, and is operable to send to the system notifications describing events that are each associated with a respective one of a plurality of end users;",
+  "patent_id": "US12379903-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 8/34",
+      "G06F 9/543"
+    ],
+    "all": [
+      "G06F 8/34",
+      "G06F 9/543"
+    ],
+    "source": "converted"
+  }
+}

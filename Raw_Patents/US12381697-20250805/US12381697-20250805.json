@@ -1,0 +1,26 @@
+{
+  "title": "Bandwidth part switching based on priority level",
+  "abstract": "A wireless device receives one or more radio resource control (RRC) messages comprising configuration parameters of a cell that indicate: a bandwidth part (BWP) inactivity timer; a plurality of downlink BWPs comprising a first downlink BWP and a second downlink BWP; and a sidelink BWP. The wireless device performs sidelink communication on the sidelink BWP. The wireless device determines whether to switch from the first downlink BWP to the second downlink BWP, based on: expiry of the BWP inactivity timer; and a priority of the sidelink communication.",
+  "claims": "1. A method comprising: receiving, by a wireless device, one or more radio resource control (RRC) messages comprising configuration parameters of a cell indicating: a bandwidth part (BWP) inactivity timer; a plurality of downlink BWPs comprising a first downlink BWP and a second downlink BWP; a sidelink BWP; and priority levels of logical channels; receiving, on a control channel, a message indicating a priority level of a sidelink communication and scheduling the sidelink communication, wherein the message is downlink control information (DCI) or sidelink control information (SCI); performing the sidelink communication on the sidelink BWP; and determining whether to switch from the first downlink BWP to the second downlink BWP, based on: expiry of the BWP inactivity timer; and the priority level of the sidelink communication indicated by the message.",
+  "patent_id": "US12381697-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 5/0092",
+      "H04L 1/1642",
+      "H04L 5/0098",
+      "H04W 72/23",
+      "H04W 76/27",
+      "H04W 80/02"
+    ],
+    "all": [
+      "H04L 5/0092",
+      "H04L 1/1642",
+      "H04L 5/0098",
+      "H04W 72/23",
+      "H04W 76/27",
+      "H04W 80/02"
+    ],
+    "source": "converted"
+  }
+}

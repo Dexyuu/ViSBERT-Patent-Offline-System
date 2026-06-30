@@ -1,0 +1,16 @@
+{
+  "title": "System and method for efficiently identifying a subject",
+  "abstract": "A system and a method for efficiently identifying a subject is provided. The invention provides for segmenting micro-voltage digital signals into intervals of a pre-defined time period. Further, the invention provides for transforming the segmented micro-voltage digital signals into a frequency domain for computing on a Mel's scale. The Mel's scale provides a unique signature of the subject in the form of a Melspectrogram image. Lastly, the invention provides for passing the Melspectrogram image through a trained deep learning model. The features associated with the Melspectrogram image are extracted into a feature map for obtaining predicted labels associated with the subject based on labels used during training of the deep learning model for identifying the subject.",
+  "claims": "1. A system for efficiently identifying a subject, the system comprising: a memory storing program instructions; a processor configured to execute instructions stored in the memory; and an identification engine executed by the processor and configured to: segment micro-voltage digital signals into intervals of a pre-defined time period; transform the segmented micro-voltage digital signals into a frequency domain for computing on a Mel's scale, wherein the Mel's scale provides a unique signature of the subject in the form of a Melspectrogram image; and pass the Melspectrogram image through a trained deep learning model, wherein features associated with the Melspectrogram image are extracted into a feature map for obtaining predicted labels associated with the subject based on labels used during training of the deep learning model for identifying the subject.",
+  "patent_id": "US12380313-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 3/04"
+    ],
+    "all": [
+      "G06N 3/04"
+    ],
+    "source": "converted"
+  }
+}

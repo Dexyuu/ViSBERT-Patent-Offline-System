@@ -1,0 +1,20 @@
+{
+  "title": "Prediction using unified predictor circuitry",
+  "abstract": "Prediction circuitry for a data processing system comprises input circuitry to receive status inputs associated with instructions or memory access requests processed by the data processing system. Unified predictor circuitry comprises shared hardware circuitry configurable to act as a plurality of different types of predictor. The unified predictor circuitry generates, according to a unified prediction algorithm based on the status inputs and a set of predictor parameters, an array of predictions comprising different types of prediction of instruction/memory-access behaviour for the data processing system. A configuration subset of the predictor parameters is configurable to adjust a relative influence of each status input in the unified prediction algorithm used to generate the array of predictions. Output circuitry outputs, based on the plurality of types of prediction, speculative action control signals for controlling the data processing system to perform speculative actions.",
+  "claims": "1. Prediction circuitry for a data processing system, the prediction circuitry comprising: input circuitry to receive a plurality of status inputs associated with instructions or memory access requests processed by the data processing system; unified predictor circuitry comprising shared hardware circuitry reconfigurable to act as a plurality of different types of predictor, wherein the unified predictor circuitry is configured to generate, according to a unified prediction algorithm based on the plurality of status inputs and a set of predictor parameters, an array of predictions comprising a plurality of different types of prediction of instruction behaviour and/or memory access behaviour for the data processing system, the set of predictor parameters including a configuration subset of predictor parameters which are configurable to adjust a relative influence of each status input in the unified prediction algorithm used to generate the array of predictions; and output circuitry to output, based on the plurality of types of prediction, speculative action control signals for controlling the data processing system to perform speculative actions.",
+  "patent_id": "US12379930-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/3806",
+      "G06F 9/5044",
+      "G06N 20/00"
+    ],
+    "all": [
+      "G06F 9/3806",
+      "G06F 9/5044",
+      "G06N 20/00"
+    ],
+    "source": "converted"
+  }
+}

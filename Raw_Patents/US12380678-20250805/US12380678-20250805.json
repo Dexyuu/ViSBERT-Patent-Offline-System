@@ -1,0 +1,32 @@
+{
+  "title": "Global and local feature reconstruction network-based medical image segmentation method",
+  "abstract": "The invention provides a global and local feature reconstruction network-based medical image segmentation method, device, apparatus and a computer storage medium. In the invention, a global feature reconstruction GFR module introduces semantic information from high-level into low-level features through a global descriptor, to eliminate a semantic gap between features in different levels, and a feature map is reconstructed by using a cross-level global descriptor, to implement long-distance feature dependency modeling. A local feature reconstruction LFR module implements dynamic upsampling of features based on the guidance of a low-stage feature map. Local features are dynamically reconstructed, so that spatial detail information in the low-stage feature map is transferred to a high-stage feature map, thereby implementing spatial information recovery of features, overcoming the problems such as insufficient global feature extraction and long-distance feature dependency modeling capabilities and insufficient recovery of spatial information of a feature map in a U-shaped encoder-decoder network.",
+  "claims": "1. A global and local feature reconstruction network-based medical image segmentation method, comprising: inputting a to-be-detected image into a pre-trained global and local feature reconstruction network, wherein the global and local feature reconstruction network comprises a feature encoding module, a global feature reconstruction GFR module, and a feature decoding module based on a local feature reconstruction LFR module, and the global feature reconstruction GFR module is embedded in a skip connection between the feature encoding module and the feature decoding module; performing feature extraction on the to-be-detected image by using the feature encoding module, to obtain feature maps in a plurality of levels; generating a global descriptor for each level of feature map by using the global feature reconstruction GFR module; generating a cross-level global descriptor of the each level of feature map by using the global feature reconstruction GFR module in combination with the global descriptor of the each level of feature map and a global descriptor of a high-level feature map; predicting a reconstruction weight of all pixels in the each level of feature map by using the global feature reconstruction GFR module, multiplying the reconstruction weight by the cross-level global descriptor to implement feature reconstruction, and performing addition with the each level of feature map to obtain a global reconstruction feature map of each level; performing fusion upsampling on an adjacent higher-stage local reconstruction feature map and an adjacent lower-level global reconstruction feature map by using a local feature reconstruction module in the feature decoding module, to obtain a current-stage high-resolution semantic feature map; and upsampling a first-stage high-resolution semantic feature map to obtain a target segmentation prediction image.",
+  "patent_id": "US12380678-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/7715",
+      "G06T 7/10",
+      "G06V 10/774",
+      "G06V 10/82",
+      "G06V 20/70",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30004",
+      "G06V 2201/03"
+    ],
+    "all": [
+      "G06V 10/7715",
+      "G06T 7/10",
+      "G06V 10/774",
+      "G06V 10/82",
+      "G06V 20/70",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30004",
+      "G06V 2201/03"
+    ],
+    "source": "converted"
+  }
+}

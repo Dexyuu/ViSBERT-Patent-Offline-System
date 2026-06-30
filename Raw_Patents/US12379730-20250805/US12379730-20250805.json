@@ -1,0 +1,22 @@
+{
+  "title": "Methods and systems for flight control configured for use in an electric aircraft",
+  "abstract": "A system for flight control configured for use in an electric aircraft includes an inertial measurement unit (IMU) and configured to detect an aircraft angle and an aircraft angle rate. The system includes a flight controller including an outer loop controller configured to receive the input datum from the sensor, receive the aircraft angle from the IMU, and generate a rate setpoint as a function of the input datum. The system includes an inner loop controller configured to receive the aircraft angle rate, receive the rate setpoint from the outer loop controller, and generate a moment datum as a function of the rate setpoint. The system includes a mixer configured to receive the moment datum, perform a torque allocation as a function of the moment datum, and generate a motor command datum as a function of the torque allocation.",
+  "claims": "1. A system for flight control configured for use in an electric aircraft, the system comprising: at least one sensor attached to at least one flight component and configured to detect signal datum from the at least one flight component; an inertial measurement unit, the inertial measurement unit configured to: detect at least an aircraft angle; and detect at least an aircraft angle rate; and a flight controller configured to generate an autonomous function, the flight controller comprising: an outer loop controller, the outer loop controller configured to: receive at least an input datum; receive at least the aircraft angle from the inertial measurement unit; and generate a rate setpoint as a function of at least the input datum; an inner loop controller, the inner loop controller configured to: receive at least the aircraft angle rate; receive the rate setpoint from the outer loop controller; and generate a moment datum as a function of the rate setpoint; and a mixer, the mixer configured to: receive the moment datum from the inner loop controller; receive the signal datum from the at least one sensor; perform a torque allocation as a function of the moment datum and the signal datum; and generate at least a motor command datum as a function of the torque allocation.",
+  "patent_id": "US12379730-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05D 1/0011",
+      "B64D 27/24",
+      "B64D 31/06",
+      "G05D 1/0808"
+    ],
+    "all": [
+      "G05D 1/0011",
+      "B64D 27/24",
+      "B64D 31/06",
+      "G05D 1/0808"
+    ],
+    "source": "converted"
+  }
+}

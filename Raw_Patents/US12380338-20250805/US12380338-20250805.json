@@ -1,0 +1,28 @@
+{
+  "title": "Codes to detect insertion and deletion errors in a dense storage medium",
+  "abstract": "This disclosure describes systems and methods for detecting multiple insertion and deletion errors in the presence of substitution errors in a signal (such as a sequenced DNA string). A convolutional code that includes two or more component convolutional codes is used for encoding. Each of the two or more component convolutional codes generates only a subset of all possible outputs of the convolutional code. The subsets of the two or more component convolutional codes are disjoint from each other. Only one of the two or more convolutional codes is active at any given time. The two or more convolutional codes together define a super code. The two or more convolutional codes are time interlaced within the super code, and the super code defines the convolutional code. A trellis that includes two or more component trellises designed based on the two or more component convolutional codes is used for decoding.",
+  "claims": "1. A non-transitory computer-readable medium comprising instructions that are executable by one or more processors to cause a computing system to: receive a first input at a first time; determine, using a first set of convolutional code connections, a first output based on the first input and a first state, wherein the first state is contained in convolutional code memories; modify the convolutional code memories to generate a second state based on the first state, the first input, and the first set of convolutional code connections; receive a second input at a second time after the first time; determine, using a second set of convolutional code connections, a second output based on the second input and the second state, wherein the first set of convolutional code connections is configured to produce outputs in a first subset of a set of possible outputs, the second set of convolutional code connections is configured to produce outputs in a second subset of the set of possible outputs, and the first subset is disjoint from the second subset; and modify the convolutional code memories to generate a third state based on the second state, the second input, and the second set of convolutional code connections.",
+  "patent_id": "US12380338-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06N 3/126",
+      "C12Q 1/6869",
+      "G06N 3/123",
+      "G16B 40/10",
+      "H03M 13/23",
+      "H03M 13/256",
+      "H03M 13/2939"
+    ],
+    "all": [
+      "G06N 3/126",
+      "C12Q 1/6869",
+      "G06N 3/123",
+      "G16B 40/10",
+      "H03M 13/23",
+      "H03M 13/256",
+      "H03M 13/2939"
+    ],
+    "source": "converted"
+  }
+}

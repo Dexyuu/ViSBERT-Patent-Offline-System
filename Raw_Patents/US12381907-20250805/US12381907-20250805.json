@@ -1,0 +1,22 @@
+{
+  "title": "Systems and methods for preventing unauthorized resource access",
+  "abstract": "Methods and systems for preventing unauthorized resource access. In some aspects, the system obtains, in real time, a first data stream between a user requesting access to resources in a user account and an agent. The system processes, using a first machine learning model, the first data stream to generate a confidence score. If the confidence score exceeds a threshold, the system generates a sandbox context configured to simulate output indicative of successful resource access. The system obtains a second data stream for the sandbox context and processes it using a second machine learning model to determine whether the communication between the agent and the user was malicious. If the communication was not malicious, the system removes the user account from the sandbox context and effects grant of resource access. Otherwise, the system reports the agent and the user account for further processing for attempts to obtain unauthorized user access.",
+  "claims": "1. A system for preventing unauthorized resource access by simulating communications from a service to client devices associated with user accounts assigned a sandbox context, the system comprising: one or more processors; and one or more non-transitory, computer-readable media comprising instructions that, when executed by the one or more processors, cause operations comprising: obtaining, in real time, a first data stream for a first communication between a user associated with a user account and an agent of a service; processing, using a first machine learning model, the first data stream to generate a confidence score regarding whether to assign a sandbox context to the user account, the first machine learning model trained to detect in real time from the first data stream a malicious intent of the user to obtain unauthorized resource access from the service; in response to the confidence score exceeding a confidence threshold, generating a sandbox context for the user account, the sandbox context configured to receive input from the agent or the user related to resource access and simulate output indicative of resource access being successful, wherein the simulated output includes user-facing communication but does not affect grant of resource access by the service; in response to obtaining a second data stream for a second communication for the sandbox context, processing, using a second machine learning model, the second data stream to determine whether the second communication between the agent and the user was malicious due to the user obtaining unauthorized resource access from the service, wherein the user account is disconnected from the first communication during the sandbox context and replaced by a first voice model trained on the user's voice, wherein the first voice model continues the second communication during the sandbox context to determine whether the agent has malicious intent; in response to determining that the second communication was not malicious, removing the user account from the sandbox context and affecting grant of resource access by the service; and in response to determining that the second communication was malicious, reporting the agent and the user account for further processing with respect to attempts for unauthorized user access.",
+  "patent_id": "US12381907-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/1441",
+      "G06F 21/53",
+      "H04L 63/10",
+      "H04L 63/1425"
+    ],
+    "all": [
+      "H04L 63/1441",
+      "G06F 21/53",
+      "H04L 63/10",
+      "H04L 63/1425"
+    ],
+    "source": "converted"
+  }
+}

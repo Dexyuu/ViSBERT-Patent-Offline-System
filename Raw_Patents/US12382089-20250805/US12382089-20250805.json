@@ -1,0 +1,22 @@
+{
+  "title": "Adaptive reordering of adjusted block vector predictor candidates",
+  "abstract": "An apparatus determines a value of a coordinate of a sample is outside a range of values of the coordinate for samples in an intra block copy (IBC) reference region. The sample is displaced from a current block by an amount indicated by a candidate block vector predictor (BVP). Based on determining the value of the coordinate of the sample is outside the range of value of the coordinate for the samples in the IBC reference region, the apparatus adjusts a component of the candidate BVP to generate an adjusted candidate BVP. The apparatus constructs a list of candidate BVPs comprising the adjusted candidate BVP. The apparatus derives costs for the candidate BVPs in the list. The apparatus reorders the candidate BVPs in the list based on the costs.",
+  "claims": "1. A method comprising: determining a value of a coordinate of a sample is outside a range of values of the coordinate for samples in an intra block copy (IBC) reference region, wherein the sample is displaced from a current block by an amount indicated by a candidate block vector predictor (BVP), wherein the candidate BVP in combination with a block vector difference (BVD) determines a block vector (BV) for the current block, wherein the IBC reference region is neither rectangular nor square and is replaced with a second IBC reference region larger than the IBC reference region and encompassing the IBC reference region, and wherein the determining is based on the second IBC reference region; based on the determining, adjusting a component of the candidate BVP to generate an adjusted candidate BVP based on the second IBC reference region; constructing an advanced motion vector prediction (AMVP) list of candidate BVPs comprising the adjusted candidate BVP, the AMVP list comprising one or more spatial candidates derived from neighboring blocks of the current block; deriving costs for the candidate BVPs in the AMVP list; and reordering the candidate BVPs in the AMVP list based on the costs.",
+  "patent_id": "US12382089-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/52",
+      "H04N 19/105",
+      "H04N 19/159",
+      "H04N 19/176"
+    ],
+    "all": [
+      "H04N 19/52",
+      "H04N 19/105",
+      "H04N 19/159",
+      "H04N 19/176"
+    ],
+    "source": "converted"
+  }
+}

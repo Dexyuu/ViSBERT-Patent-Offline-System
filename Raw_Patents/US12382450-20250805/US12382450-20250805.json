@@ -1,0 +1,22 @@
+{
+  "title": "Method, device, and system for transmitting physical uplink control channel in wireless communication system",
+  "abstract": "The present specification relates to a method, a device, and a system for transmitting a physical uplink control channel in a wireless communication system. The present specification discloses a terminal comprising: a communication module for receiving, from a base station, information on a PUCCH serving cell corresponding to a serving cell on which a PUCCH is to be transmitted, generating the PUCCH, and transmitting the generated PUCCH on the PUCCH serving cell; and a processor for configuring the PUCCH serving cell on the basis of the information on the PUCCH serving cell. The terminal can effectively transmit uplink control information.",
+  "claims": "1. A user equipment (UE) configured to operate in a wireless communication system, the UE comprising: a processor; and a communication module, wherein the processor is configured to: receive semi-persistent scheduling physical downlink shared channels (SPS PDSCHs) based on SPS configurations, each of the SPS configurations including a respective a maximum deferral duration, determine a first physical uplink control channel (PUCCH) resource for transmitting a first PUCCH for first hybrid automatic repeat request acknowledgement (HARQ-ACK) information related to the SPS PDSCHs, and when the first PUCCH resource overlaps with at least one of a semi-static downlink symbol, a symbol for synchronization signal/physical broadcast channel (SSB) or a symbol for control resource set #0 (CORESET #0), defer a transmission of second HARQ-ACK information from the first HARQ-ACK information to a second PUCCH, wherein the second HARQ-ACK information corresponds to one or more SPS configurations, each of the one or more SPS configurations having a maximum deferral duration that is larger than or equal to a time difference between a slot of the second PUCCH and a slot of a corresponding SPS PDSCH reception.",
+  "patent_id": "US12382450-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/1268",
+      "H04L 1/1854",
+      "H04W 72/21",
+      "H04W 72/11"
+    ],
+    "all": [
+      "H04W 72/1268",
+      "H04L 1/1854",
+      "H04W 72/21",
+      "H04W 72/11"
+    ],
+    "source": "converted"
+  }
+}

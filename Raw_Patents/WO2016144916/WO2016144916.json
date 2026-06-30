@@ -1,0 +1,19 @@
+{
+  "application_id": "WO2016144916",
+  "application_id_fs": null,
+  "title": "Device programming system with multiple-device interface and method of operation thereof",
+  "abstract": "A device programming system, and a method of operation thereof, includes: a field programmable gate array unit configured using a programming driver retrieved based on a device type of a first programmable device; and a second programmable device and the first programmable device configured simultaneously using a master image and the field programmable gate array unit.",
+  "claims": "Claims What is claimed is: 1. A method of operation of a device programming system comprising: receiving a master image; detecting a device type of a first programmable device; retrieving a programming driver based on the device type; configuring a field programmable gate array unit using the programming driver; and configuring the first programmable device and a second programmable device simultaneously using the master image and the field programmable gate array unit. 2. The method as claimed in claim 1 further comprising: creating a plurality of algorithm programming modules executing in independent parallel processing threads; and wherein: detecting the device type includes detecting the device type of the first programmable device in one of the independent parallel processing threads. 3. The method as claimed in claim 1 further comprising: creating a plurality of algorithm programming modules executing in independent parallel processing threads; and wherein: configuring the first programmable device includes configuring the first programmable device and the second programmable device in independent parallel processing threads. 4. The method as claimed in claim 1 wherein configuring the first programmable device includes configuring the first programmable device and the second programmable device from portions of the master image stored in a programmer memory unit. 5. The method as claimed in claim 1 wherein configuring the first programmable device includes configuring the second programmable device using a second programming driver. 6. A device programming system comprising: a field programmable gate array unit configured using a programming driver retrieved based on a device type of a first programmable device; and a second programmable device and the first programmable device configured simultaneously using a master image and the field programmable gate array unit. 7. The system as claimed in claim 6 further comprising: a plurality of algorithm programming modules executing in independent parallel processing threads; and wherein: the first programmable device having the device type determined in one of the independent parallel processing threads. 8. The system as claimed in claim 6 further comprising: a plurality of algorithm programming modules executing in independent parallel processing threads; and wherein: the first programmable device and the second programmable device are programmed in independent parallel processing threads. 9. The system as claimed in claim 6 wherein the first programmable device and the second programmable device are configured based on the master image stored in a programmer memory unit. 10. The system as claimed in claim 6 wherein the second programmable device is configured using a second programming driver.",
+  "classifications": {
+    "ipc": [
+      "G06F 9/46",
+      "G06F 12/02"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 9/46",
+      "G06F 12/02"
+    ],
+    "source": "csv"
+  }
+}

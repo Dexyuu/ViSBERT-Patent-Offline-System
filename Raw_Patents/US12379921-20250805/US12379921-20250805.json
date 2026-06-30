@@ -1,0 +1,20 @@
+{
+  "title": "Measurement application management device, measurement application device, and data source",
+  "abstract": "The present disclosure provides a measurement application management device comprising a communication interface configured to communicatively couple the measurement application management device to a data source that provides program packages for a measurement application device that is managed by the measurement application management device, a measurement application device identification controller configured to identify the measurement application device, a program package retrieval controller configured to retrieve a list of program packages for the identified measurement application device, and a download controller configured to download at least one of the program packages to the identified measurement application device. Further, the present disclosure provides a respective measurement application device, and a respective data source.",
+  "claims": "1. A measurement application management device comprising: a communication interface configured to communicatively couple the measurement application management device to a data source that provides program packages for a measurement application device that is managed by the measurement application management device, wherein a permission controller configured to identify a permission state for the measurement application management device is coupled to the communication interface, wherein the permission state comprises a set of one or more access rights corresponding to a program package based on an attribute of the measurement application device or based on a specified time; a measurement application device identification controller configured to identify the measurement application device; a program package retrieval controller configured to retrieve a list of the program packages for the identified measurement application device and further configured to retrieve information for the program packages, the information comprising one or more of: permission of use information, comprising one or more permission states associated with the measurement application device; a functional description of a respective program package of the program packages in text-based language provided prior to downloading the respective program package: or resource allocation information, comprising a threshold amount of computing resources required to download a particular program package of the program packages; and a download controller configured to download at least one of the program packages to the identified measurement application device.",
+  "patent_id": "US12379921-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 8/70",
+      "G06F 8/60",
+      "G06F 8/61"
+    ],
+    "all": [
+      "G06F 8/70",
+      "G06F 8/60",
+      "G06F 8/61"
+    ],
+    "source": "converted"
+  }
+}

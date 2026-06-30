@@ -1,0 +1,30 @@
+{
+  "title": "Methods for locating and tracking a tool axis",
+  "abstract": "A system for determining an orientation of a tool axis with respect to a coordinate frame of a robot is described herein. The robot includes a tool holder and a plurality of fiducial markers for defining a first coordinate frame of the robot. A calibration device is provided having a second fiducial marker for a tracking system to track positions and configured to couple to the tool holder; and rotate relative to the tool holder when coupled to the tool holder. A computer having a processor is configured to fit a circle or arc to recorded positions of the calibration device. The recorded positions of the calibration device are recorded when coupled to the tool holder, is rotated relative to the tool holder. A vector normal to the fitted circle or arc is calculated to determine an orientation of the tool axis. A method of use is also provided.",
+  "claims": "1. A system for determining an orientation of a tool axis with respect to a coordinate frame of a robot, comprising: a robot comprising a tool holder and a plurality of first fiducial markers for defining a first coordinate frame of the robot; a calibration device comprising a second fiducial marker for a tracking system to track positions of the calibration device, wherein the calibration device is configured to: (i) couple to the tool holder; and (ii) rotate relative to the tool holder when coupled to the tool holder; and a computer comprising a processor configured to: fit a circle or arc to recorded positions of the calibration device, wherein the recorded positions are recorded as the calibration device, when coupled to the tool holder, is rotated relative to the tool holder; and calculate a vector normal to the fitted circle or arc to determine an orientation of the tool holder axis with respect to the coordinate frame.",
+  "patent_id": "US12376912-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 34/20",
+      "A61B 2017/00725",
+      "A61B 17/15",
+      "A61B 17/17",
+      "A61B 2034/2055",
+      "A61B 2034/207",
+      "A61B 34/30",
+      "A61B 2090/3983"
+    ],
+    "all": [
+      "A61B 34/20",
+      "A61B 2017/00725",
+      "A61B 17/15",
+      "A61B 17/17",
+      "A61B 2034/2055",
+      "A61B 2034/207",
+      "A61B 34/30",
+      "A61B 2090/3983"
+    ],
+    "source": "converted"
+  }
+}

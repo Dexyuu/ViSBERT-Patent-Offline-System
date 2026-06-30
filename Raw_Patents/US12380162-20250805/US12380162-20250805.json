@@ -1,0 +1,38 @@
+{
+  "title": "Video search device, data storage method and data storage device",
+  "abstract": "Disclosed herein is a video search device comprising: at least one processor configured to implement an updating unit generating event object information based on feature information on an object detected in a video; and a storage configured to store comparison object information containing feature information on a reference object, wherein the processor is further configured to implement: an object information generating/deleting unit configured to create information on an object having a predetermined degree of similarity between the event object information and the comparison object information as final object information, and storing the final object information in the storage; and a data searching unit searching the final object information for data that satisfies a search criterion entered by a user.",
+  "claims": "1. A video search device comprising: a processor; and a memory for storing program instructions to be executed by the processor, the processor, when executing the instructions, is configured to: generate event object information by extracting feature information of at least one object; generate final object information from the event object information based on the feature information of the at least one object having a predetermined degree of similarity with comparison object information; store the final object information in a storage; and search the final object information stored on the storage for data that satisfies a search criterion entered by a user, wherein the at least one object comprises a first object from a first channel camera and a second object from a second channel camera, and a same identifier is assigned to the first object and the second object in the final object information based on a number of attribute items common to the first object and the second object, the attribute items representing features that are distinguishable between objects through visual observation, and the feature information indicating at least one of a plurality of different values associated with an attribute item of an object, and wherein the processor is configured to search for the data based on objects that have the same identifier.",
+  "patent_id": "US12380162-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/73",
+      "G06F 16/00",
+      "G06F 16/739",
+      "G06F 18/22",
+      "G06T 7/00",
+      "G06V 10/761",
+      "G06V 20/40",
+      "G06V 20/46",
+      "G06V 40/103",
+      "H04N 5/77",
+      "H04N 21/232",
+      "H04N 7/18"
+    ],
+    "all": [
+      "G06F 16/73",
+      "G06F 16/00",
+      "G06F 16/739",
+      "G06F 18/22",
+      "G06T 7/00",
+      "G06V 10/761",
+      "G06V 20/40",
+      "G06V 20/46",
+      "G06V 40/103",
+      "H04N 5/77",
+      "H04N 21/232",
+      "H04N 7/18"
+    ],
+    "source": "converted"
+  }
+}

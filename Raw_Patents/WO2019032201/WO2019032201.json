@@ -1,0 +1,44 @@
+{
+  "application_id": "WO2019032201",
+  "application_id_fs": "WO2019032201",
+  "title": "Search-initiated content updates",
+  "abstract": "Systems and methods are disclosed for search-initiated content updates. In one implementation, a search query is received from a user. The search query is processed to determine a content update parameter that reflects a projection of content updates associated with the search query. A content presentation specification that defines an aspect of a presentation of search results associated the search query is generated. The content presentation specification is provided to a content presentation interface that executes on a device associated with the user. A first content update instance is generated based on the content update parameter. Based on the first content update instance, a content update is identified. The identified content update is provided to the content presentation interface that executes on the device for presentation in accordance with the content presentation specification.",
+  "claims": "Claims 1. A system comprising: a processing device; and a memory coupled to the processing device and storing instructions that, when executed by the processing device, cause the system to perform operations comprising: receiving a search query from a user; processing the search query to determine a content update parameter that reflects a projection of content updates associated with the search query; generating a content presentation specification that defines an aspect of a presentation of search results associated the search query; providing the content presentation specification to a content presentation interface that executes on a device associated with the user; generating a first content update instance based on the content update parameter; identifying, based on the first content update instance, a content update; and providing the identified content update to the content presentation interface that executes on the device for presentation in accordance with the content presentation specification. 2. The system of claim 1, wherein processing the search query comprises comparing the search query with one or more other search queries to project that content updates associated with the search query are likely to be received within a defined chronological interval. 3. The system of claim 1, wherein the content update parameter reflects a frequency with which the search query is received from the user. 4. The system of claim 1, wherein processing the search query comprises identifying an entity with respect to the search query. 5. The system of claim 1, wherein generating the first content update instance comprises projecting a future content update associated with the search query. 6. The system of claim 1, wherein the memory further stores instructions to cause the system to perform operations comprising providing a content update control to the user. 7. The system of claim 6, wherein generating the first content update instance comprises generating the first content update instance based on a selection of the content update control by the user. 8. The system of claim 1, wherein identifying the content update comprises searching a content repository to identify the content update based on the first content update instance. 9. The system of claim 1, wherein identifying the content update comprises: providing a content update request to a content service; and receiving the content update from the content in response to the content update request. 10. The system of claim 1, wherein providing the identified content update comprises providing the identified content update to a content presentation application associated with the user. 11. The system of claim 1, wherein the memory further stores instructions to cause the system to perform operations comprising: determining an expiration of the first content update instance; and disabling the first content update instance based on the expiration. 12. The system of claim 1, wherein the memory further stores instructions to cause the system to perform operations comprising generating, based on the content update parameter, a second content update instance with respect to the user. 13. A method comprising: receiving a first search query from a user; providing the first search query to a search service; receiving, in response to the first search query, a content presentation specification associated with the search query; receiving a content update with respect to the first search query; and presenting the content update, as formatted via the content presentation specification, within a content presentation interface that executes at a device associated with the user. 14. The method of claim 13, wherein receiving the content update comprises receiving the content update based on a second search query received from the user. 15. The method of claim 13, wherein receiving the content update comprises \n\nreceiving the content update based on a characteristic associated with the user.",
+  "classifications": {
+    "ipc": [
+      "G06F 16/00",
+      "G06F 16/90",
+      "G06F 16/95",
+      "G06F 16/951",
+      "G06F 16/20",
+      "G06F 16/24",
+      "G06F 16/245",
+      "G06F 16/2457",
+      "G06F 16/953",
+      "G06F 16/9535",
+      "H04N 21/00",
+      "H04N 21/80",
+      "H04N 21/83",
+      "H04N 21/84"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 16/00",
+      "G06F 16/90",
+      "G06F 16/95",
+      "G06F 16/951",
+      "G06F 16/20",
+      "G06F 16/24",
+      "G06F 16/245",
+      "G06F 16/2457",
+      "G06F 16/953",
+      "G06F 16/9535",
+      "H04N 21/00",
+      "H04N 21/80",
+      "H04N 21/83",
+      "H04N 21/84"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019032201"
+}

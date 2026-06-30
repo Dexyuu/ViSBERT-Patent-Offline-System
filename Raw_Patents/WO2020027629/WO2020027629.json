@@ -1,0 +1,23 @@
+{
+  "application_id": "WO2020027629",
+  "application_id_fs": null,
+  "title": "System and method for dynamic volume management",
+  "abstract": "This disclosure relates to an electronic device including a memory and at least one processor coupled to the memory. The at least one processor is configured to identify a device change event in a host operating system, wherein the host operating system includes a host namespace, switch from the host namespace to a container namespace of a container, and update the container with information based on the device change event.",
+  "claims": "Claims ( 15 ) An electronic device, comprising: a memory; and at least one processor coupled to the memory, wherein the at least one processor is configured to: identify a device change event in a host operating system, wherein the host operating system includes a host namespace; switch from the host namespace to a container namespace of a container; and update the container with information based on the device change event. The electronic device of Claim 1, wherein the device change event includes enabling a device in the host operating system. The electronic device of Claim 2, wherein the at least one processor is further configured to: create at least one access point corresponding to the device; and add the access point to the container. The electronic device of Claim 1, wherein, to update the container, the at least one processor is further configured to notify a container device manager in the container of the device change event. The electronic device of Claim 1, wherein, to update the container, the at least one processor is further configured to update one or more container processes in the container with information based on the device change event. The electronic device of Claim 1, wherein the device change event includes disabling a device in the host operating system. The electronic device of Claim 6, wherein the at least one processor is further configured to delete, from the container, at least one access point corresponding to the device. The electronic device of Claim 1, wherein the at least one processor is further configured to, upon updating the container, revert from the container namespace to the host namespace. An method for dynamic device management, comprising: identifying a device change event in a host operating system, wherein the host operating system includes a host namespace; switching from the host namespace to a container namespace of a container; and updating the container with information based on the device change event. The method of Claim 9, wherein the device change event includes enabling a device in the host operating system. The method of Claim 10, further comprising: creating at least one access point corresponding to the device; and adding the access point to the container. The method of Claim 9, wherein updating the container includes notifying a container device manager in the container of the device change event. The method of Claim 9, wherein updating the container includes updating one or more container processes in the container with information based on the device change event. The method of Claim 9, wherein the device change event includes disabling a device in the host operating system. A non-transitory computer readable medium embodying a computer program for operating an electronic device including a memory and at least one processor, the computer program comprising computer readable instructions that, when executed by the at least one processor, cause the electronic device to: identify a device change event in a host operating system, wherein the host operating system includes a host namespace; switch from the host namespace to a container namespace of a container; and update the container with information based on the device change event.",
+  "classifications": {
+    "ipc": [
+      "G06F 13/16",
+      "G06F 3/06",
+      "G06F 13/12",
+      "G06F 13/20"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 13/16",
+      "G06F 3/06",
+      "G06F 13/12",
+      "G06F 13/20"
+    ],
+    "source": "csv"
+  }
+}

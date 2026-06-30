@@ -1,0 +1,20 @@
+{
+  "title": "Systems and methods for virtual meeting speaker separation",
+  "abstract": "A computer-implemented machine learning method for improving speaker separation is provided. The method comprises processing audio data to generate prepared audio data and determining feature data and speaker data from the prepared audio data through a clustering iteration to generate an audio file. The method further comprises re-segmenting the audio file to generate a speaker segment and causing to display the speaker segment through a client device.",
+  "claims": "1. A computer-implemented machine learning method for improving speaker separation, the method comprising: processing audio data to generate prepared audio data, wherein processing the audio data comprises eliminating one or more non-speech audio segments; determining feature data and speaker data from the prepared audio data through a clustering iteration to generate an audio file; determining a plurality of environments associated with the audio data based on the feature data, wherein the feature data includes background sounds used to distinguish environments of the plurality of environments, and wherein the clustering iteration comprises sequentially performing: applying a divisive hierarchical clustering to divide out the audio file based on the determined plurality of environments to form a plurality of audio files, wherein each audio file of the plurality of audio files is associated with an environment of the plurality of environments; subsequent to forming the plurality of audio files, applying agglomerative hierarchical clustering to divide out speakers and obtain the speaker data within each respective audio file of the plurality of audio files; subsequent to performing the clustering iteration, re-segmenting the plurality of audio files to generate a speaker segment based on the agglomerative hierarchical clustering applied to each audio file of the plurality of audio files; and causing to display the speaker segment through a client device.",
+  "patent_id": "US12380910-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 21/0272",
+      "G10L 25/51",
+      "G10L 25/93"
+    ],
+    "all": [
+      "G10L 21/0272",
+      "G10L 25/51",
+      "G10L 25/93"
+    ],
+    "source": "converted"
+  }
+}

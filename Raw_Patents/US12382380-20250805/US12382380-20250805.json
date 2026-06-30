@@ -1,0 +1,18 @@
+{
+  "title": "Link transmission method and terminal device",
+  "abstract": "A link transmission method and a terminal device are provided. The method includes an operation as follows. Responsive to that a first transmission and a second transmission cannot be performed simultaneously, a terminal device determines to preferentially perform at least one first transmission. The first transmission includes first transmission of different access types and the access types include a Radio Access Technology (RAT).",
+  "claims": "1. A link transmission method, comprising: in a case that at least one first transmission and at least one second transmission are unable to be simultaneously performed, determining, by a terminal device, to preferentially perform the at least one first transmission, wherein the at least one first transmission comprises first transmission using an access type from different access types, and the access types comprise a Long Term Evolution (LTE) and a New Radio (NR), wherein the determining, by the terminal device, to preferentially perform the at least one first transmission comprises: in a case that at least one first type of first transmission exists, determining to preferentially perform the at least one first type of first transmission, wherein the determining, by the terminal device, to preferentially perform the at least one first type of first transmission comprises: determining, based on a logical channel attribute of Physical Uplink Control Channel (PUCCH), Physical Sidelink Control Channel (PSCCH) and Physical Sidelink Feedback Channel (PSFCH), to preferentially perform the at least one first type of first transmission, wherein the first type is configured by a configuration sent by a network device to the terminal device, the configuration comprises a configuration based on the logical channel attribute, and the logical channel attribute comprises a logical channel priority, wherein the at least one first type of first transmission is a first transmission with a logical channel having the logical channel priority higher than a specific value.",
+  "patent_id": "US12382380-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 48/18",
+      "H04W 48/04"
+    ],
+    "all": [
+      "H04W 48/18",
+      "H04W 48/04"
+    ],
+    "source": "converted"
+  }
+}

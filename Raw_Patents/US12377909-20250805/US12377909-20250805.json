@@ -1,0 +1,18 @@
+{
+  "title": "Control device, electric power steering device, and control method",
+  "abstract": "A control device includes a reaction force controller to generate an input torque input to a control target and control a reaction force transmitted to a steering person and an assist controller to generate a correction torque to correct the input torque based on an output of the control target and a nominal model. The assist controller includes a high-pass filter with a first cutoff frequency, a low-pass filter with a second cutoff frequency higher than the first cutoff frequency, and a disturbance compensation value calculator. When a transfer function of the low-pass filter is Q(s) and a transfer function of the high-pass filter is HPF(s), a transfer function of a control target is constrained by a transfer function of the nominal model in a frequency band in which a gain in a gain characteristic of Q(s)Â·HPF(s) is 1.",
+  "claims": "1. A control device that controls a control target including at least a motor in a steering mechanism, the steering mechanism including an input shaft to which a steering wheel steered by a steering person is connected and an output shaft connected to the input shaft via a torsion bar, the motor being connected to the output shaft, the control device comprising: a reaction force controller to generate an input torque input to the control target based on a torsion bar torque generated in the torsion bar and control a reaction force transmitted from the steering wheel to the steering person; and an assist controller to generate a correction torque to correct the input torque based on an output of the control target and a nominal model; wherein the assist controller includes: a high-pass filter with a first cutoff frequency and a low-pass filter with a second cutoff frequency higher than the first cutoff frequency; and a disturbance compensation value calculator; when a transfer function of the low-pass filter is Q(s) and a transfer function of the high-pass filter is HPF(s), a transfer function of the control target is constrained by a transfer function of the nominal model in a frequency band where a gain in a gain characteristic of Q(s)·HPF(s) is 1; the disturbance compensation value calculator is operable to calculate a disturbance compensation value to compensate at least a portion of a self-aligning torque generated in the control target; and the correction torque includes the disturbance compensation value.",
+  "patent_id": "US12377909-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B62D 6/008",
+      "B62D 5/0469"
+    ],
+    "all": [
+      "B62D 6/008",
+      "B62D 5/0469"
+    ],
+    "source": "converted"
+  }
+}

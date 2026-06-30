@@ -1,0 +1,32 @@
+{
+  "title": "Systems, methods, and devices for electronic spectrum management for identifying signal-emitting devices",
+  "abstract": "Apparatus and methods for identifying a wireless signal-emitting device are disclosed. The apparatus is configured to sense and measure wireless communication signals from signal-emitting devices in a spectrum. The apparatus is operable to automatically detect a signal of interest from the wireless signal-emitting device and create a signal profile of the signal of interest; compare the signal profile with stored device signal profiles for identification of the wireless signal-emitting device; and calculate signal degradation data for the signal of interest based on information associated with the signal of interest in a static database including noise figure parameters of a wireless signal-emitting device outputting the signal of interest. The signal profile of the signal of interest, profile comparison result, and signal degradation data are stored in the apparatus.",
+  "claims": "1. A system for spectrum management, comprising: a radiofrequency (RF) receiver, a signal processor, and a database connected to the signal processor; wherein the RF receiver is operable to measure RF energy and output RF energy measurements to the signal processor; wherein the signal processor is operable to: generate signal data based on the RF energy measurements received from the RF receiver; compare the generated signal data with at least one signal parameter stored in the database to identify at least one signal; determine if the at least one signal is moving using a frequency-locked loop by determining if there is a Doppler change in the at least one signal; determine a geographic location of the at least one signal by synthesizing an aperture between any two monitoring units of a monitoring array based on a difference of time of arrival; provide signal optimization parameters for signal optimization of the at least one signal, wherein the signal optimization parameters are provided based on degradation data; create a channel plan based on user input, external databases, or feature extraction from an RF environment using a Temporal Feature Extraction (TFE) function; produce a settled percent using the TFE function based on the RF environment; determine that the at least one signal violates the channel plan; and generate a conflict alarm and record the conflict alarm in a history database for review; wherein the signal optimization parameters are provided based on measured terrain data stored in the database; wherein the identification of the at least one signal includes automatic signal detection based on a calibration vector, a gradient detection algorithm, a first smoothing filter, and a second smoothing filter; wherein the second smoothing filter is performed only on frequencies outside a frequency range of the at least one signal; wherein the identification of the at least one signal includes calculating a threshold bar to identify signals instead of noise; wherein the threshold bar is operable to be calculated based on hardware parameters; wherein the hardware parameters include antenna position, antenna type, orientation, azimuth, gain, and/or equivalent isotropically radiated power (EIRP) for a transmitter associated with the at least one signal; wherein the at least one signal parameter stored in the database includes noise figure parameters; and wherein the threshold bar is operable to be calculated without manual configuration.",
+  "patent_id": "US12382424-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 64/00",
+      "H04B 17/23",
+      "H04B 17/26",
+      "H04B 17/318",
+      "H04B 17/373",
+      "H04L 27/0006",
+      "H04L 27/0012",
+      "H04L 27/265",
+      "H04W 16/14"
+    ],
+    "all": [
+      "H04W 64/00",
+      "H04B 17/23",
+      "H04B 17/26",
+      "H04B 17/318",
+      "H04B 17/373",
+      "H04L 27/0006",
+      "H04L 27/0012",
+      "H04L 27/265",
+      "H04W 16/14"
+    ],
+    "source": "converted"
+  }
+}

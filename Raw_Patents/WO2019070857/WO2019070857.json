@@ -1,0 +1,40 @@
+{
+  "application_id": "WO2019070857",
+  "application_id_fs": "WO2019070857",
+  "title": "Adjusting transmissions based on direct sensing of the ionosphere",
+  "abstract": "A communication system uses skywave propagation to transmit data between communication nodes over a data transmission path. An atmospheric sensor is configured to collect atmospheric data at the reflection point of the data transmission path where the transmission path is redirected from the atmosphere toward the surface of the Earth. Data collected by the atmospheric sensor may be used to predict future ionospheric conditions and determine optimum working frequencies for transmission of data between the communication nodes.",
+  "claims": "Claims 1. A system comprising: a first communication node for sending a data transmission as an electromagnetic wave over a data transmission path using skywave propagation, wherein the data transmission path includes a reflection point where the electromagnetic wave of the data transmission is reflected by the ionosphere; a second communication node for receiving the data transmission from the first communication node; an atmospheric sensor configured to collect ionospheric data at the reflection point of the data transmission from the first communication node; a transmission frequency model for determining an optimum working frequency at which to transmit the data transmission over the data transmission path; and, wherein the transmission frequency model uses the ionospheric data measured by the atmospheric sensor as an input to determine the optimum working frequency. 2. The system of claim 1, wherein the atmospheric sensor includes an ionosonde. 3. The system of any preceding claim, wherein the atmospheric sensor is configured to collect weather condition data at the reflection point of the data transmission the first communication node; and, 4. The system of claim 3, wherein the transmission frequency model uses the weather condition data measured by the atmospheric sensor as an input to determine the optimum working frequency. 5. The system of any preceding claim, wherein the reflection point is located above an ocean and the atmospheric sensor is located on an oceanic structure. 6. The system of any preceding claim, wherein the data transmission path includes at least two reflection points and wherein a respective atmospheric sensor is configured to collect ionospheric data at each of the reflection points. 7. The system of any preceding claim, \n\n wherein the first communication node is configured to operate in a broadcast mode to publicly broadcast content over the data transmission path; and wherein the sensor is configured to monitor the degradation of the broadcast signal over the data transmission path. 8. The system of any preceding claim, wherein the atmospheric sensor is positioned directly below the reflection point. 9. The system of any preceding claim, wherein the transmission frequency model uses ionospheric data measured by the atmospheric sensor to encode a transmitted data signal. 10. The system of any preceding claim, wherein the transmission frequency model uses the ionospheric data measured by the atmospheric sensor to decode a transmitted data signal. 11. The system of any preceding claim, wherein the optimum working frequency is the frequency that provides the most consistent communication path via sky-wave propagation. 12. A method comprising: determining the location of a reflection point of a radio wave during skywave propagation; measuring atmospheric condition data at the reflection point using a sensor; inputting the atmospheric condition data collected from the sensor into a transmission frequency model to determine an optimum working frequency for transmission of a data signal; transmitting a data stream by skywave propagation at the optimum working frequency as determined by the transmission frequency model. 13. The method of claim 12, wherein the sensor measures ionospheric conditions at the reflection point. 14. The method of any of claims 12-13, wherein the sensor measures ionospheric height. 15. The method of any of claims 12-14, wherein the sensor is an ionosonde. 16. The method of any of claims 12-15, wherein the sensor measures weather conditions at the reflection point. 17. The method of any of claims 12-16, wherein the sensor measures ionospheric conditions and weather conditions at the reflection point. 18. The method of any of claims 12-17, wherein the sensor is positioned on an oceanic structure. 19. The method of any of claims 12-18, further comprising: encoding the transmitted data stream based on atmospheric condition data collected from the sensor. 20. The method of any of claims 12-19, further comprising: decoding the transmitted data stream based on atmospheric condition data collected from the sensor. 21. The method of any of claims 12-20, further comprising: publicly broadcasting audio content as a digital broadcast signal; monitoring the digital broadcast signal using the sensor to collect digital broadcast data; inputting the digital broadcast data into the transmission frequency model.",
+  "classifications": {
+    "ipc": [
+      "H04N 7/00",
+      "H04N 7/22",
+      "H04B 7/00",
+      "H04B 7/22",
+      "G01S 13/00",
+      "G01S 13/88",
+      "G01S 13/95",
+      "G01S 13/956",
+      "G01W 1/00",
+      "H04B 17/00",
+      "H04B 17/30",
+      "H04B 17/391"
+    ],
+    "cpc": [],
+    "all": [
+      "H04N 7/00",
+      "H04N 7/22",
+      "H04B 7/00",
+      "H04B 7/22",
+      "G01S 13/00",
+      "G01S 13/88",
+      "G01S 13/95",
+      "G01S 13/956",
+      "G01W 1/00",
+      "H04B 17/00",
+      "H04B 17/30",
+      "H04B 17/391"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019070857"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Access control management for systems",
+  "abstract": "Methods and systems for managing the operation of data processing systems are disclosed. To manage the operation of the data processing systems, access control standards for software may be enforced during development and/or deployment of software. The access control standards may indicate the extent of access controls for data that are to be in place for various pieces of software. The access control standards may also indicate a level of consistency in the sources of truth for permissions enforced by the access controls.",
+  "claims": "1. A method for securing a deployment comprising data processing systems, the method comprising: identifying software for deployment to a data processing system of the data processing systems; based on the identifying of the software: identifying at least one certificate for the software, the at least one certificate being a cryptographically verifiable data structure; making a determination regarding whether the at least one certificate establishes that the software meets access control standards for the data processing system, the access control standards specify access checks to be performed for a user to request access to data; in a first instance of the determination where the at least one certificate establishes that the software meets the access control standards for the data processing system: deploying the software to the data processing system, and providing computer implemented services with the data processing system using the software; and in a second instance of the determination where the at least one certificate does not establish that the software meets the access control standards for the data processing system: rejecting the software for deployment, and providing computer implemented services using the data processing system without the software.",
+  "patent_id": "US12380249-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 21/64",
+      "G06F 21/602",
+      "G06F 21/604"
+    ],
+    "all": [
+      "G06F 21/64",
+      "G06F 21/602",
+      "G06F 21/604"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "application_id": "WO2016036134",
+  "application_id_fs": null,
+  "title": "Apparatus and method for controlling tcp connections in a wireless communication system",
+  "abstract": "The present disclosure relates to an apparatus and a method for controlling Transmission Control Protocol (TCP) connection close to improve a battery life time of a client such as a smart phone in a wireless communication system are provided. A method of operating a client in a wireless communication system includes determining a data transfer inactivity time of at least one of TCP connections, and closing the at least one of TCP connections at the data transfer inactivity time.",
+  "claims": "Claims ( 14 ) A method of operating a client in a wireless communication system, comprising: determining a data transfer inactivity time of at least one of Transmission Control Protocol (TCP) connections; and closing the at least one of TCP connections at the data transfer inactivity time. The method of claim 1, wherein the data transfer inactivity time is determined based on a Round Travel Time (RTT) from request transmission and response reception in relation to the at least one of TCP connections between the client and a server, and a processing time from a response received from the server to a next request transmission. The method of claim 1, wherein the data transfer inactivity time is ahead of a time for a server-initiated TCP connection close initiated at the server. The method of claim 3, wherein the server-initiated TCP connection close is performed in response to a message indicating a close of the at least one of TCP connections received from the server. A method of operating a client in a wireless communication system, comprising: identifying at least one first Transmission Control Protocol (TCP) connection of which close is initiated by a server, among a plurality of TCP connections; and batching and closing the at least one first TCP connection with processing on at least one second TCP connection excluding the at least one first TCP connection among the TCP connections. The method of claim 5, wherein the processing on the second TCP connection comprises one of connection, closure and a transmitting and/or receiving operation of data packet for the at least one second TCP connection. The method of claim 5, wherein the identifying of the at least one first TCP connection comprises: identifying the at least one first TCP connection among the TCP connections in response to a close message received from the server. The method of claim 5, wherein the identifying of the at least one first TCP connection and the batching and closing of the at least one first TCP connection are performed when a data transfer inactivity time of the first TCP connection is greater than a predetermined reference time. The method of claim 8, further comprising: when the data transfer inactivity time is not greater than the predetermined reference time, closing the at least one first TCP connection at the data transfer inactivity time. The method of claim 8, wherein the data transfer inactivity time is determined based on a Round Travel Time (RTT) from request transmission and response reception in relation to the at least one first TCP connection between the client and a server, and a processing time from a response received from the server to a next request transmission. The method of claim 9, wherein the data transfer inactivity time is ahead of a server-initiated first TCP connection close time. The method of claim 11, wherein the server-initiated first TCP connection close is performed in response to a message indicating a close of the at least one first TCP connection received from the server. An apparatus of a client in a wireless communication system, arranged to implement a method of one of claims 1 to 4. An apparatus of a client in a wireless communication system, arranged to implement a method of one of claims 5 to 12.",
+  "classifications": {
+    "ipc": [
+      "H04W 80/06",
+      "H04W 76/06",
+      "H04L 29/08"
+    ],
+    "cpc": [],
+    "all": [
+      "H04W 80/06",
+      "H04W 76/06",
+      "H04L 29/08"
+    ],
+    "source": "csv"
+  }
+}

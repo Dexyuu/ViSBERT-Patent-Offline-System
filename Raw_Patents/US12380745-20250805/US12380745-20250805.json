@@ -1,0 +1,22 @@
+{
+  "title": "Method for identifying a manipulation of an analogue signal by means of a control device of a vehicle, computer-readable medium, system, and vehicle",
+  "abstract": "A method identifies a manipulation of an analog signal by means of a control device of a vehicle. A series of messages are received from a bus system using the control device of the vehicle, wherein a message of the sequence of messages includes a value of the analog signal. The method includes storing the sequence of messages in a buffer of the control device, and determining a temporal profile of the analog signal based on the stored sequence of messages. The method further includes calculating a gradient for the determined temporal profile of the analog signal, and plausibility-checking the calculated gradient to identify the manipulation of the analog signal. The method also includes providing an alarm message if the gradient is not plausible.",
+  "claims": "1. A method for identifying a manipulation of an analog signal by means of a control device of a vehicle, said method comprising: receiving a series of messages from a bus system using the control device of the vehicle, wherein a message of the sequence of messages comprises a value of the analog signal; storing the sequence of messages in a buffer of the control device; determining a temporal profile of the analog signal based on the stored sequence of messages; calculating a gradient for the determined temporal profile of the analog signal; plausibility-checking the calculated gradient to identify the manipulation of the analog signal; and providing an alarm message from the control device to a server external to the vehicle if the gradient is not plausible.",
+  "patent_id": "US12380745-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G07C 5/04",
+      "H04L 12/40032",
+      "H04L 2012/40215",
+      "H04L 2012/40273"
+    ],
+    "all": [
+      "G07C 5/04",
+      "H04L 12/40032",
+      "H04L 2012/40215",
+      "H04L 2012/40273"
+    ],
+    "source": "converted"
+  }
+}

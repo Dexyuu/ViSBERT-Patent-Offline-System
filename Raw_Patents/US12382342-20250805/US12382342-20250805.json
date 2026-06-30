@@ -1,0 +1,20 @@
+{
+  "title": "Traffic scenario clustering and load balancing with distilled reinforcement learning policies",
+  "abstract": "The present disclosure provides for methods, apparatuses, and non-transitory computer-readable storage media for load balancing traffic scenarios by a network device. In an embodiment, a method includes training a plurality of learning agents to load balance a respective plurality of traffic scenarios to obtain a plurality of control policies. The method further includes performing at least one clustering iteration. Each clustering iteration includes selecting a pair of control policies and merging the pair of control policies into a clustered control policy that replaces the pair of control policies. The method further includes determining to stop the performing of the at least one clustering iteration when a quantity of control policies remaining in the plurality of control policies meets a predetermined value. The method further includes deploying to each base station of a plurality of base stations a corresponding control policy from the plurality of control policies.",
+  "claims": "1. A method for traffic scenario clustering and load balancing by a network device, comprising: training a plurality of learning agents to load balance a respective plurality of traffic scenarios to obtain a plurality of control policies; performing at least one clustering iteration, each clustering iteration comprising: selecting, from the plurality of control policies, a pair of control policies; and merging the pair of control policies into a clustered control policy that replaces the pair of control policies from the plurality of control policies; determining to stop the performing of the at least one clustering iteration when a quantity of control policies remaining in the plurality of control policies meets a predetermined value; and deploying to each base station of a plurality of base stations a corresponding control policy from the plurality of control policies.",
+  "patent_id": "US12382342-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 28/0861",
+      "G06N 20/00",
+      "H04W 28/0925"
+    ],
+    "all": [
+      "H04W 28/0861",
+      "G06N 20/00",
+      "H04W 28/0925"
+    ],
+    "source": "converted"
+  }
+}

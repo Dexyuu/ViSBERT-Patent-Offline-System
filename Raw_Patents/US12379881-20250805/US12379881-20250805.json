@@ -1,0 +1,22 @@
+{
+  "title": "Printing control apparatus, printing control method, and storage medium",
+  "abstract": "A display control method includes the steps of obtaining a first preview image resolution for checking a printing layout, obtaining a second preview image resolution for checking a spot color printing portion where the spot color printing is carried out, and displaying a spot color preview image for checking the spot color printing portion by using a resolution based on the first preview image resolution and the second preview image resolution. The first preview image resolution is calculated and obtained based on a print setting included in the print data and on a size of a region where display is carried out in the preview image displaying step, and the second preview image resolution is calculated and obtained based on a drawing command included in the print data and on the size of the region where display is carried out in the preview image displaying step.",
+  "claims": "1. A display method of displaying a preview image of a first image including an object to be printed in a process color and an object to be printed in a spot color, the method comprising: displaying, as the preview image of the first image, a first preview image including the object to be printed in the process color and the object to be printed in the spot color; and displaying, as the preview image of the first image, a second preview image not including the object to be printed in the process color but including the object to be printed in the spot color, wherein the first preview image is displayed at a first resolution, and wherein the second preview image is displayed at a second resolution different from the first resolution.",
+  "patent_id": "US12379881-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/1208",
+      "G06F 3/1256",
+      "H04N 1/0048",
+      "G06F 3/1204"
+    ],
+    "all": [
+      "G06F 3/1208",
+      "G06F 3/1256",
+      "H04N 1/0048",
+      "G06F 3/1204"
+    ],
+    "source": "converted"
+  }
+}

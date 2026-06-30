@@ -1,0 +1,20 @@
+{
+  "title": "Wear leveling and grouping of drives based on position in chassis",
+  "abstract": "A processor may determine, for each subdevice of a set of subdevices of a storage enclosure device, one or more reliability measures of the subdevice. A processor may determine, based at least on the one or more reliability measures for the subdevices and a spatial layout rule, a set of striping groups that maximizes a reliability of the set of subdevices of the storage enclosure device, each of the striping groups including a respective subset of the set of subdevices, wherein the spatial layout rule prescribes a geometric layout of the subdevices within striping groups across the storage enclosure device. A processor may store output data of a data striping operation to a particular subset of subdevices associated with a particular striping group of the set of striping groups.",
+  "claims": "1. A method for storing data, comprising: determining, for each subdevice of a set of subdevices of a storage enclosure device, one or more reliability measures of the subdevice; determining, based at least on the one or more reliability measures for the subdevices and a spatial layout rule, a set of striping groups that maximizes a reliability of the set of subdevices of the storage enclosure device, each of the striping groups including a respective subset of the set of subdevices, wherein the spatial layout rule prescribes a geometric layout of the subdevices within striping groups across the storage enclosure device; and storing output data of a data striping operation to a particular subset of subdevices associated with a particular striping group of the set of striping groups.",
+  "patent_id": "US12379851-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0614",
+      "G06F 3/0653",
+      "G06F 3/0689"
+    ],
+    "all": [
+      "G06F 3/0614",
+      "G06F 3/0653",
+      "G06F 3/0689"
+    ],
+    "source": "converted"
+  }
+}

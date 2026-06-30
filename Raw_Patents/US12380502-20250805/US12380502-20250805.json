@@ -1,0 +1,16 @@
+{
+  "title": "Auctioning mechanisms for dark order block trading",
+  "abstract": "Auctioning mechanisms adapted to improve the integrity of dark order block trading are provided.",
+  "claims": "1. A computer system comprising: a processor operatively coupled to a memory, the memory storing instructions that, when executed by the processor, cause the computer system to: monitor market data in an electronic market; initiate an online auction responsive to at least one predetermined market condition based on the monitored market data; receive, via at least one network, one or more firm limit orders from one or more market participants; prevent storage, in an order book, of a first portion of the one or more firm limit orders based on one or more of a duration of the online auction and an order size; store, in the order book, a second portion of the one or more firm limit orders to form stored orders; screen, from the order book, the stored orders by comparing order data in the stored orders against a reference price to identify eligible stored orders and ineligible stored orders; remove, from the order book, the ineligible stored orders; sort the eligible stored orders remaining in the order book according to at least one predetermined parameter; and execute, from the order book, the sorted eligible stored orders.",
+  "patent_id": "US12380502-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 40/04"
+    ],
+    "all": [
+      "G06Q 40/04"
+    ],
+    "source": "converted"
+  }
+}

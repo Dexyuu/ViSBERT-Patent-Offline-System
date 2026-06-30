@@ -1,0 +1,18 @@
+{
+  "title": "Apparatus and method for estimating angle of arrival based on ultra-wideband wireless communication",
+  "abstract": "An apparatus for estimating an angle of arrival, comprises: a window setting unit for setting a window time that is a time interval for comparing a template signal and each of a plurality of reception signals obtained by receiving a transmission signal transmitted a pre-designated number of times; a template generator that generates a template signal of a waveform corresponding to the transmission signal, by adjusting a generation time point in units of the window time; a plurality of signal correlators provided corresponding to each of the plurality of antennas, and detecting a level of a correlation signal obtained by correlating a corresponding reception signal; and an angle of arrival determination unit, determining a reception time at which each of the plurality of reception signals is received by a corresponding antenna, and estimating the angle of arrival of the transmission signal using a difference between the determined reception times.",
+  "claims": "1. An apparatus for estimating an angle of arrival provided in a receiver of a ultra-wideband wireless communication system, comprising: a window setting unit for setting a window time that is a time interval for comparing a template signal and each of a plurality of reception signals obtained by receiving a transmission signal continuously transmitted a pre-designated number of times with a unit signal time length from a transmitter by each of a plurality of antennas disposed at a pre-designated interval; a template generator that continuously generates a template signal of a waveform corresponding to the transmission signal, by adjusting a generation time point in units of the window time; a plurality of signal correlators provided corresponding to each of the plurality of antennas, and detecting a level of a correlation signal obtained by correlating a corresponding reception signal among the plurality of reception signals and the template signal; and an angle of arrival determination unit, determining a reception time at which each of the plurality of reception signals is received by a corresponding antenna according to the level of each of the correlation signals detected in successive different window times, and estimating the angle of arrival of the transmission signal using a difference between the determined reception times.",
+  "patent_id": "US12379443-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 3/143",
+      "G01S 3/48"
+    ],
+    "all": [
+      "G01S 3/143",
+      "G01S 3/48"
+    ],
+    "source": "converted"
+  }
+}

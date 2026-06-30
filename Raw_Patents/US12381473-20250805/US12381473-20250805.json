@@ -1,0 +1,20 @@
+{
+  "title": "Driver circuit for a power transistor",
+  "abstract": "A driver circuit for a power transistor. The driver circuit allows for robust turn-off of the power transistor, and for reduced power losses when the power transistor transitions back on. The driver circuit controls what voltage is applied to the gate terminal of the power transistor. The driver circuit prevents unintended turn-on of the power transistor by applying a negative voltage to the gate terminal of the power transistor when transitioning off. The driver circuit allows for reduced power losses when transitioning back on by allowing the gate terminal of the power transistor to increase from the negative voltage to a less negative voltage before applying a positive voltage to turn on the power transistor.",
+  "claims": "1. A driver circuit for a power transistor, the driver circuit comprising: a capacitor having a first capacitor terminal connected to an alternating voltage source that alternates between a first voltage and a second voltage that is lower than the first voltage, the capacitor having a second capacitor terminal connected to a control terminal output node, wherein a capacitance of the capacitor is between 5 and 20 times larger than a control terminal capacitance of the power transistor; a first resistor connected between the first capacitor terminal and the second capacitor terminal; a diode having a cathode connected to the control terminal output node, the diode further having an anode; and a second resistor connected between the anode of the diode and a negative terminal of the alternating voltage source.",
+  "patent_id": "US12381473-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H02M 1/0054",
+      "H02M 1/08",
+      "H03K 17/063"
+    ],
+    "all": [
+      "H02M 1/0054",
+      "H02M 1/08",
+      "H03K 17/063"
+    ],
+    "source": "converted"
+  }
+}

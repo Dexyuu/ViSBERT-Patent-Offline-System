@@ -1,0 +1,36 @@
+{
+  "title": "Sending data using a packet-based interface",
+  "abstract": "Methods and apparatus are provided for sending data using a packet-based interface to cause a radio unit to send transmissions to at least one UE. In an example aspect, a method includes determining that a packet for causing the radio unit to send transmissions to a first user equipment, UE, in at least a portion of a time interval allocated to the first UE for transmissions to the first UE will not reach the radio unit, and sending at least one further packet to the radio unit to cause the radio unit to send transmissions to a second UE in at least part of the time interval.",
+  "claims": "1. A method of sending data using a packet-based interface to cause a radio unit to send transmissions to at least one user equipment (UE), the method comprising: determining that a packet for causing the radio unit to send transmissions to a first UE in at least a portion of a time interval allocated to the first UE for transmissions to the first UE will not reach the radio unit, the determination comprising receiving a notification from a switch of the packet-based interface that the packet will not reach the radio unit, the notification identifying at least one of the packet and the at least a portion of the time interval; in response to the determining: sending, by a scheduler, fronthaul (FH) data to an FH manager, the FH data including data to cause the radio unit to send transmissions to the first UE in at least a portion of the time interval allocated to the first UE for transmissions to the first UE; dropping, by the FH manager, one or more packets of data; informing the scheduler, by the FH manager, that the one or more packets of data have been dropped; forwarding, by the FH manager, one or more packets of data that have not been dropped, the packets of data that have not been dropped corresponding to a partial PDSCH transmission; identifying, by the scheduler, transmissions that were affected by the dropping of the one or more packets of data that were dropped; deciding, by the scheduler, to send data to a second UE in at least part of the time interval; sending, by the scheduler, mini-slot data to the FH manager; forwarding, by the FH manager, the mini-slot data to the radio unit via a fronthaul network; transmitting, by the radio unit, the partial PDSCH to the first UE; transmitting, by the radio unit, the mini-slot data to the second UE; receiving, by the radio unit, a HARQ NACK from the first UE; receiving, by the radio unit from the second UE, one of a HARQ ACK and a HARQ NACK based on whether the second UE successfully received the mini-slot data; sending, by the radio unit, uplink FH data to the FH manager via the fronthaul network, the uplink FH data comprising the HARQ NACK from the first UE and the one of the HARQ ACK and the HARQ NACK from the second UE; sending, by the FH manager, the uplink FH data to the scheduler; and decoding, by the scheduler, the uplink FH data; and sending at least one further packet to the radio unit to cause the radio unit to send transmissions to a second UE in at least part of the time interval.",
+  "patent_id": "US12382438-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 72/0446",
+      "H04L 1/1812",
+      "H04L 1/1864",
+      "H04L 5/0037",
+      "H04W 72/02",
+      "H04W 72/04",
+      "H04W 72/12",
+      "H04W 72/20",
+      "H04W 72/23",
+      "H04W 72/29",
+      "H04L 5/0078"
+    ],
+    "all": [
+      "H04W 72/0446",
+      "H04L 1/1812",
+      "H04L 1/1864",
+      "H04L 5/0037",
+      "H04W 72/02",
+      "H04W 72/04",
+      "H04W 72/12",
+      "H04W 72/20",
+      "H04W 72/23",
+      "H04W 72/29",
+      "H04L 5/0078"
+    ],
+    "source": "converted"
+  }
+}

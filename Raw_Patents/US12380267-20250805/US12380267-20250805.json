@@ -1,0 +1,40 @@
+{
+  "title": "System, method and computer program product for editing web pages in-context of a production view",
+  "abstract": "Systems and methods for in-context editing of web pages in which the production format of a web page is visible while the web page is being edited, and the editable image is not distorted by the editing tools. In one embodiment, a system includes a server computer, a client computer and a transmission channel coupled between them. The server computer receives a request for a web page from the client computer and responsively transmits a web page containing in-context editing tools to the client computer. The client computer operates alternately in a first mode in which the in-context editing tools are superimposed on a web page image, or a second mode in which the web page image is displayed, but the in-context editing tools are hidden. The tools overlay in the first mode does not alter the production format of the web page image as displayed in the second mode.",
+  "claims": "1. A system for editing web pages comprising: a memory; and a processor, operatively coupled to the memory, to: receive a production view of a web page and an overlay for a set of in-context editing tools based on the set of in-context editing tools being associated with a component of the web page; cause a web page to be rendered in a first mode where the set of in-context editing tools are disabled and the production view of the web page is rendered and an overlay of in-context editing tools is hidden; determine a user interaction associated with editing the web page; based on the user interaction, cause the web page to be rendered in a second mode where the set of in-context editing tools are enabled and displaying the overlay of the set of in-context editing tools on the production view in association with the first component without distorting a size and placement of components of the production view; receive an edit to the first component using an in-context editing tool of the set of in-context editing tools; and refresh the first component without requesting the web page.",
+  "patent_id": "US12380267-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 40/166",
+      "B01L 3/502715",
+      "B01L 3/502784",
+      "G01N 21/33",
+      "G01N 21/6428",
+      "G01N 21/76",
+      "G01N 31/22",
+      "G06F 40/143",
+      "B01L 2200/0673",
+      "B01L 2200/16",
+      "B01L 2300/12",
+      "B01L 2300/16",
+      "G01N 2021/6439"
+    ],
+    "all": [
+      "G06F 40/166",
+      "B01L 3/502715",
+      "B01L 3/502784",
+      "G01N 21/33",
+      "G01N 21/6428",
+      "G01N 21/76",
+      "G01N 31/22",
+      "G06F 40/143",
+      "B01L 2200/0673",
+      "B01L 2200/16",
+      "B01L 2300/12",
+      "B01L 2300/16",
+      "G01N 2021/6439"
+    ],
+    "source": "converted"
+  }
+}

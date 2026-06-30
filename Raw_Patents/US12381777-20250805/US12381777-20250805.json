@@ -1,0 +1,20 @@
+{
+  "title": "Distributed node discovery and overlay path management on a data communication network",
+  "abstract": "An initial provisioning by a management plane of the SD-WAN is received from a centralized SD-WAN gateway with static path overlay between the network edge device on a local LAN and the centralized SD-WAN gateway. At runtime, intelligent decision are made about which overlay path to select and when for the new flow over a control plane of the SD-WAN, based on the topology of the remote network edge and the local SDWAN policy, and to build the selected overlay path.",
+  "claims": "1. A network edge device in an SD-WAN (software-defined-wide area network) of a data communication network for dynamic overlay path management at runtime on a control plane of the SD-WAN, the network edge device comprising: a processor; a network communication interface, communicatively coupled to the data communication network; and a memory, communicatively coupled to the processor and storing: a control module to receive initial provisioning by a management plane of the SD-WAN from a centralized SD-WAN manager with static path overlay between the network edge device on a local LAN and the centralized SD-WAN gateway, wherein the initial provisioning includes a local SD-WAN policy; an edge discovery module to, responsive to new data flow from a client on the local LAN in real-time, discover a remote network edge device associated with a destination of the new flow and a topology of the remote network edge device having two or more links connecting the remote network edge device to the data communication network, wherein a first link of the two or more links to the remote network edge device comprises an LTE connection and a second link comprises a broadband connection, wherein discovery includes collecting an IP address for IKE (Internet Key Exchange) negotiations and a domain ID to specify a type of underlay transport; a dynamic path manager to make an intelligent decision about which overlay path to select and when for the new flow over a control plane of the SD-WAN, based on the topology of the remote network edge and the local SD-WAN policy, and to build the selected overlay path.",
+  "patent_id": "US12381777-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 41/0806",
+      "H04L 41/12",
+      "H04L 45/64"
+    ],
+    "all": [
+      "H04L 41/0806",
+      "H04L 41/12",
+      "H04L 45/64"
+    ],
+    "source": "converted"
+  }
+}

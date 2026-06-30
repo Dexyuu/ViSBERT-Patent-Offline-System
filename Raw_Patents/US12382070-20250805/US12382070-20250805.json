@@ -1,0 +1,20 @@
+{
+  "title": "Image decoding device, image decoding method, and program",
+  "abstract": "An image decoding device includes an inverse transform unit configured to generate a prediction residual signal by inverse transform, the inverse transform unit is configured to control a method of decoding a secondary transform index of a target block according to information indicating a position where a non-zero coefficient is generated in the target block.",
+  "claims": "1. An image decoding device, wherein the image decoding device: generates a prediction residual signal by inverse transform; controls a method of decoding a secondary transform index of a target block according to information indicating a position where a non-zero coefficient is generated in the target block and to information indicating whether or not the target block is dual tree, and omits decoding the secondary transform index of the target block in a case where the information indicating the position where the non-zero coefficient is generated in the target block indicates a coefficient position of a direct current component of the target block.",
+  "patent_id": "US12382070-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/44",
+      "H04N 19/176",
+      "H04N 19/619"
+    ],
+    "all": [
+      "H04N 19/44",
+      "H04N 19/176",
+      "H04N 19/619"
+    ],
+    "source": "converted"
+  }
+}

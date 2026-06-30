@@ -1,0 +1,24 @@
+{
+  "title": "Method and apparatus for insitu adjustment of wafer slip detection during work piece polishing",
+  "abstract": "A method and apparatus for insitu adjustment of wafer slip detection during work piece polishing are disclosure. In one aspect, a chemical mechanical planarization (CMP) system, includes: a carrier configured to retain a substrate, a platen supporting a polishing pad, and a slip sensor configured to generate a signal indicative of a characteristic of a surface of the polishing pad. The system further includes a processor configured to: receive the signal from the slip sensor, calibrate a steady-state value of the signal when the CMP system is in a steady-state condition, compare the signal received from the slip sensor to the calibrated steady-state value during CMP polishing, and detect wafer slip in response to the signal received from the slip sensor during the CMP polishing differing from the calibrated steady-state value by more than a threshold value.",
+  "claims": "1. A method of detecting wafer slip during chemical mechanical planarization (CMP) polishing, comprising: starting polishing of a substrate using a CMP system; determining that the CMP system is in a steady-state condition that substantially represents a steady-state of a characteristic of a surface of a polishing pad experienced during polishing the substrate; receiving a first signal from a slip sensor over a defined length of time in response to determining that the CMP system is in the steady-state condition, the slip sensor included in the CMP system comprising a carrier configured to retain the substrate and a platen supporting the polishing pad, the slip sensor configured to generate a signal indicative of the characteristic of the surface of the polishing pad; obtaining a plurality of expected slip sensor values based on the first signal in response to determining that the CMP system is in the steady-state condition; receiving a second signal from the slip sensor during CMP polishing; comparing the second signal received from the slip sensor to the expected slip sensor values; detecting wafer slip in response to the second signal received from the slip sensor during the CMP polishing differing from the expected slip sensor values by more than a threshold value; and stopping all motion of components of the CMP system in response to detecting the wafer slip.",
+  "patent_id": "US12377520-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B24B 49/04",
+      "H01L 21/3212",
+      "H01L 21/67259",
+      "H01L 21/68721",
+      "H01L 22/12"
+    ],
+    "all": [
+      "B24B 49/04",
+      "H01L 21/3212",
+      "H01L 21/67259",
+      "H01L 21/68721",
+      "H01L 22/12"
+    ],
+    "source": "converted"
+  }
+}

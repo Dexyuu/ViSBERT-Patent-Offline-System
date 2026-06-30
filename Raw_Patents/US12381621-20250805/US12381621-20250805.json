@@ -1,0 +1,30 @@
+{
+  "title": "Multi-pathway satellite communication systems and methods",
+  "abstract": "Systems and methods for controlling satellites are provided. In one example embodiment, a computing system can obtain a request for image data. The request can be associated with a priority for acquiring the image data. The computing system can determine an availability of a plurality of satellites to acquire the image data based at least in part on the request. The computing system can select from among a plurality of communication pathways to transmit an image acquisition command to a satellite based at least in part on the request priority. The plurality of communication pathways can include a communication pathway via which the image acquisition command is indirectly communicated to the satellite via a geostationary satellite. The computing system can send the image acquisition command to the selected satellite via the selected communication pathway.",
+  "claims": "1. A computing system on-board a satellite, the computing system comprising: one or more processors; and one or more tangible, non-transitory, computer readable media that collectively store instructions that when executed by the one or more processors cause the computing system to: receive a query for availability to acquire image data; determine, based on the query, an availability to acquire the image data; transmit, to a remote command system or to a geostationary satellite, a signal indicating availability to acquire the image data; obtain a request for image data, the request comprising at least one of: (i) a location of a target, (ii) an order of imagery acquisition relative to other imaging tasks, (iii) a position of the satellite, (iv) an orientation of the satellite, or (v) a sensor setting; capture the image data according to the request; and transmit, to the geostationary satellite, a confirmation signal acknowledging successful completion of the image capture according to the request.",
+  "patent_id": "US12381621-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 7/18584",
+      "B64G 1/244",
+      "G06T 7/30",
+      "H04B 7/18528",
+      "H04B 7/18558",
+      "H04L 45/304",
+      "H04N 23/661",
+      "G06T 2207/10032"
+    ],
+    "all": [
+      "H04B 7/18584",
+      "B64G 1/244",
+      "G06T 7/30",
+      "H04B 7/18528",
+      "H04B 7/18558",
+      "H04L 45/304",
+      "H04N 23/661",
+      "G06T 2207/10032"
+    ],
+    "source": "converted"
+  }
+}

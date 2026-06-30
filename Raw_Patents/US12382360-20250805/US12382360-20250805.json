@@ -1,0 +1,22 @@
+{
+  "title": "Addressability in a service-based wireless system",
+  "abstract": "Methods, systems, and devices for wireless communications are described. An end-to-end routing layer may address packets between a user equipment (UE) and core network services offered by a service-based network on a per-core network service basis. A UE may communicate directly with a core network service (e.g., based on a network address associated with the core network service) or indirectly (e.g., through a proxy service). The UE may select access stratum (AS) resources over which to transmit an uplink packet data unit based on the target core network service. The UE may receive control signaling from a distributed unit, a system information block (SIB), or point-to-point signaling from the core network services indicating specific AS resources for each core network service. The UE may select logical channels for transmitting the uplink packet data units to specific core network services based on the AS resources associated with each service.",
+  "claims": "1. A method for wireless communication at a user equipment (UE), comprising: establishing communications, via a wireless connection between the UE and a distributed unit, with a set of core network services offered by a service-based network configured to interface with a radio access network (RAN) associated with the distributed unit, each core network service of the set of core network services associated with a respective addressing scheme; transmitting, via the wireless connection, a first packet data unit associated with a first core network service of the set of core network services in accordance with a first addressing scheme associated with routing of information from the UE to the first core network service; and transmitting, via the wireless connection, a second packet data unit associated with a second core network service of the set of core network services in accordance with a second addressing scheme associated with routing of information from the UE to the second core network service.",
+  "patent_id": "US12382360-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 40/02",
+      "H04W 40/24",
+      "H04W 76/10",
+      "H04W 88/182"
+    ],
+    "all": [
+      "H04W 40/02",
+      "H04W 40/24",
+      "H04W 76/10",
+      "H04W 88/182"
+    ],
+    "source": "converted"
+  }
+}

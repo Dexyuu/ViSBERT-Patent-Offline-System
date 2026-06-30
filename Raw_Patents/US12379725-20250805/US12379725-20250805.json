@@ -1,0 +1,26 @@
+{
+  "title": "System and method for navigating a turn by an autonomous vehicle",
+  "abstract": "Spin controller that can enable an autonomous vehicle (AV) to spin in place. A model predictive controller (MPC) can trigger the spin controller any time the MPC determines that a spin in place is required. In some configurations, the spin controller can move the AV to within 5Â° of the destination point. Spin controller can determine spin method based on the configuration of the AV, calculate an optimum turning path based at least on device mode and obstacles, and can enable the AV to spin in place.",
+  "claims": "1. System for spinning an autonomous device (AV) comprising: a processor configured for (a) determining an axis of rotation of the AV based on a mode selected from a plurality of modes, wherein the mode comprises a configuration of the AV; and a path processor configured for determining a path to reach the destination comprising: enabling the AV to travel along the path; if the AV is not at the destination, returning to (a); wherein the determining a path comprises: drawing a first polygon comprising sides having a side length around a two-dimensional (2D) depiction of the AV: (b) creating the path by laying lines having the side length end to end between the AV and the destination, each end defining a turn point; determining a second polygon based on the turn points; accessing an occupancy grid spatially coinciding with the second polygon; and if the obstacles are found in the second polygon, changing the rotation direction and returning to (b); determining a first length of a first line between the axis of rotation and a first corner of the 2D depiction; determining a second length of a third line between the axis of rotation and a second corner of the 2D depiction; and defining the side length as a sum of the first length and the second length.",
+  "patent_id": "US12379725-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05D 1/0214",
+      "G05D 1/024",
+      "G05D 1/0248",
+      "G05D 1/247",
+      "G05D 1/617",
+      "G05D 1/646"
+    ],
+    "all": [
+      "G05D 1/0214",
+      "G05D 1/024",
+      "G05D 1/0248",
+      "G05D 1/247",
+      "G05D 1/617",
+      "G05D 1/646"
+    ],
+    "source": "converted"
+  }
+}

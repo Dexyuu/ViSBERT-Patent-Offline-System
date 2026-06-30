@@ -1,0 +1,24 @@
+{
+  "title": "System and method for specular reflection detection and reduction",
+  "abstract": "A system and method of specular reflection detection and reduction includes a processing unit including one or more processors and an imaging unit coupled to the processing unit. The imaging unit includes one or more first illuminators for providing illumination of a region of interest, one or more first detectors for detecting reflections of the illumination, one or more second illuminators for triggering fluorescing of one or more fluorescent materials in the region of interest, and one or more second detectors for detecting the fluorescing of the fluorescent materials. The processing unit is configured to receive a first image from the first detectors, determine one or more regions of high specular reflection in the first image, mask out the regions of high specular reflection in the first image, and generate a composite image based on the masked first image and the detected fluorescence. The first image includes the detected reflections.",
+  "claims": "1. An imaging system comprising: a processing unit comprising one or more processors; and an imaging unit coupled to the processing unit and comprising: one or more first illuminators providing illumination of a region of interest; and one or more first detectors for detecting reflections of the illumination; wherein the processing unit is configured to: receive a first image from the one or more first detectors, the first image including the detected reflections and being based on a first imaging geometry; receive a second image from the one or more first detectors, the second image including the detected reflections and being based on a second imaging geometry different from the first imaging geometry; determine a first region of high specular reflection in the first image and the second image; estimate a first surface normal in the first region of high specular reflection based on differences between the first imaging geometry and the second imaging geometry; and provide a move away hint based on the estimated first surface normal, the move away hint indicating a direction of movement of the imaging unit to reduce specular reflection.",
+  "patent_id": "US12376749-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "A61B 5/0071",
+      "A61B 5/0033",
+      "A61B 5/7405",
+      "A61B 5/742",
+      "A61B 2576/00"
+    ],
+    "all": [
+      "A61B 5/0071",
+      "A61B 5/0033",
+      "A61B 5/7405",
+      "A61B 5/742",
+      "A61B 2576/00"
+    ],
+    "source": "converted"
+  }
+}

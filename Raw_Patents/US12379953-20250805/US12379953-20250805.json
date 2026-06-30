@@ -1,0 +1,42 @@
+{
+  "title": "Systems and methods for continuous data protection comprising storage of completed I/O requests intercepted from an I/O stream using touch points",
+  "abstract": "Example embodiments relate generally to systems and methods for continuous data protection (CDP) and more specifically to an input and output (I/O) filtering framework and log management system to seek a near-zero recovery point objective (RPO).",
+  "claims": "1. A method, comprising: accessing, in an input/output (I/O) path between a virtual machine (VM) and a virtualization server, an I/O stream comprising records of completed I/O requests and records of uncompleted I/O requests that are exchanged between the VM and the virtualization server; configuring an I/O touchpoint in the I/O stream, the I/O touchpoint associated with I/O request cancellation; filtering out one or more records of one or more canceled I/O requests detected using the I/O touchpoint associated with I/O request cancellation, wherein only the records of the completed I/O requests in the I/O stream are captured based at least in part on filtering out the one or more canceled I/O requests; and forming, based at least in part on the filtering, a snapshot-log chain by associating only the records of the captured completed I/O requests with a snapshot.",
+  "patent_id": "US12379953-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 9/45558",
+      "G06F 11/0712",
+      "G06F 11/1464",
+      "G06F 2009/45579",
+      "G06F 2009/45587",
+      "G06F 2009/45595",
+      "G06F 11/1448",
+      "G06F 11/1469",
+      "G06F 11/1471",
+      "G06F 11/2023",
+      "G06F 11/2038",
+      "G06F 11/2097",
+      "G06F 2201/815",
+      "G06F 2201/84"
+    ],
+    "all": [
+      "G06F 9/45558",
+      "G06F 11/0712",
+      "G06F 11/1464",
+      "G06F 2009/45579",
+      "G06F 2009/45587",
+      "G06F 2009/45595",
+      "G06F 11/1448",
+      "G06F 11/1469",
+      "G06F 11/1471",
+      "G06F 11/2023",
+      "G06F 11/2038",
+      "G06F 11/2097",
+      "G06F 2201/815",
+      "G06F 2201/84"
+    ],
+    "source": "converted"
+  }
+}

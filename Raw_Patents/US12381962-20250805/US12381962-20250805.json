@@ -1,0 +1,26 @@
+{
+  "title": "Expansion of packet data within processing pipeline",
+  "abstract": "Some embodiments provide a network forwarding IC with packet processing pipelines, at least one of which includes a parser, a set of match-action stages, and a deparser. The parser is configured to receive a packet and generate a PHV including a first number of data containers storing data for the packet. A first match-action stage is configured to receive the PHV from the parser and expand the PHV to a second, larger number of data containers storing data for the packet. Each of a set of intermediate match-action stage is configured to receive the expanded PHV from a previous stage and provide the expanded PHV to a subsequent stage. A final match-action stage is configured to receive the expanded PHV and reduce the PHV to the first number of data containers. The deparser is configured to receive the reduced PHV from the final match-action stage and reconstruct the packet.",
+  "claims": "11. A method implemented using an integrated circuit, the integrated circuit being for use in network packet forwarding, the method comprising: storing, by configurable packet processing circuitry of the integrated circuit, in data containers, header field data of packet header fields, the data containers belonging to a plurality of data container types, the plurality of data container types comprising a first data container type and a second data container type, the first data container type and the second data container type being configurable based upon parameters specified in compiled program instructions to be received by the integrated circuit; wherein: the configurable packet processing circuitry comprises match-action stages that are to modify at least certain data of the header field data; the plurality of data container types comprises a third data container type whose stored data is unavailable for modification by the match-action stages of the configurable packet processing circuitry; at least a portion of the header field data is to be stored in the third data container type; the match-action stages are to be configured based upon the parameters specified in the compiled program instructions; the parameters differ, at least in part, among the plurality of data container types; and the parameters correspond, at least in part, to different processings to be applied by the match-action stages to the plurality of different container types.",
+  "patent_id": "US12381962-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 69/22",
+      "H04L 45/745",
+      "H04L 45/7453",
+      "H04L 47/2441",
+      "H04L 49/109",
+      "H04L 49/3063"
+    ],
+    "all": [
+      "H04L 69/22",
+      "H04L 45/745",
+      "H04L 45/7453",
+      "H04L 47/2441",
+      "H04L 49/109",
+      "H04L 49/3063"
+    ],
+    "source": "converted"
+  }
+}

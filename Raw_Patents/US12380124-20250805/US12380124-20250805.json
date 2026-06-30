@@ -1,0 +1,18 @@
+{
+  "title": "Document content search index",
+  "abstract": "A system, method, and computer program product are configured to extract key value pair (KVP) data from one or more documents; obtain a content index for the one or more documents; and enhance the content index with the KVP data to provide a KVP content index.",
+  "claims": "1. A computer-implemented method, comprising extracting, by a processor set, key value pair (KVP) data from one or more documents by utilizing a machine learning model that is trained by identifying whether words within the one or more documents are a key or a value by performing key normalization by analyzing the words of the one or more documents to determine that the key is one of a mail to, an email, an email address, send email to, contact, and a company email and determine that the value is in a predetermined vicinity of the key; matching the key and the key value to form the KVP data; obtaining, by the processor set, a content index for the one or more documents; and enhancing, by the processor set, the content index with the KVP data to provide a KVP content index.",
+  "patent_id": "US12380124-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/254",
+      "G06F 16/93"
+    ],
+    "all": [
+      "G06F 16/254",
+      "G06F 16/93"
+    ],
+    "source": "converted"
+  }
+}

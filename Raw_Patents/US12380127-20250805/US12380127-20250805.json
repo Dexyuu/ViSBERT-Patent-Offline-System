@@ -1,0 +1,18 @@
+{
+  "title": "Maintaining object policy implementation across different storage systems",
+  "abstract": "Systems and methods of maintaining a policy implementation for an object across different storage systems are disclosed. The method includes determining, for an object to be copied from a first storage system, one or more object policies that are applicable to the object; generating metadata that triggers application of the one or more policies at an other storage system that is different from the first storage system; and including the metadata with the object during copying of the object.",
+  "claims": "1. A method comprising: determining, by a first storage system, for an object to be copied from the first storage system, one or more object policies that are applicable to the object; generating, by the first storage system, instructions for applying the one or more object policies at an other storage system that is different from the first storage system; and causing, by the first storage system, application of the one or more object policies at the other storage system by including the instructions with the object during copying of the object to the other storage system.",
+  "patent_id": "US12380127-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/27",
+      "G06F 16/211"
+    ],
+    "all": [
+      "G06F 16/27",
+      "G06F 16/211"
+    ],
+    "source": "converted"
+  }
+}

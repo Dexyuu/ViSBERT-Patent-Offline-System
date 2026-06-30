@@ -1,0 +1,34 @@
+{
+  "title": "Chroma quantization parameter in video coding",
+  "abstract": "An example method of video processing includes determining, for a conversion between a current block of a video and a bitstream representation of the video, whether to enable usage of a chroma quantization parameter (QP) offset for the current block according to a syntax element at a level of a video unit. The video unit includes the current block and a second block of the video. The method also includes performing the conversion based on the determining.",
+  "claims": "1. A method of processing video data, comprising: determining, for a conversion between a current block of a video and a bitstream of the video, whether to enable usage of a block level chroma quantization parameter offset for the current block according to a first enable flag cu_chroma_qp_offset_enabled_flag at a slice level, wherein the first enable flag indicates whether to enable usage of block level chroma quantization parameter offsets for blocks in a slice; and performing the conversion based on the determining, wherein whether the first enable flag is included in the bitstream at the slice level is based on a value of a second enable flag at a picture level that indicates whether block level chroma quantization parameter offsets are allowed, wherein the second enable flag is included in a picture parameter set, wherein in response to the value of the second enable flag indicating that block level chroma quantization parameter offsets are allowed, the first enable flag is included in the bitstream for indicating whether to enable usage of the block level chroma quantization parameter offset for the current block, and wherein in response to the value of the second enable flag indicating that block level chroma quantization parameter offsets are disallowed, the first enable flag is not included in the bitstream.",
+  "patent_id": "US12382060-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/14",
+      "H04N 19/117",
+      "H04N 19/124",
+      "H04N 19/132",
+      "H04N 19/174",
+      "H04N 19/176",
+      "H04N 19/186",
+      "H04N 19/196",
+      "H04N 19/70",
+      "H04N 19/86"
+    ],
+    "all": [
+      "H04N 19/14",
+      "H04N 19/117",
+      "H04N 19/124",
+      "H04N 19/132",
+      "H04N 19/174",
+      "H04N 19/176",
+      "H04N 19/186",
+      "H04N 19/196",
+      "H04N 19/70",
+      "H04N 19/86"
+    ],
+    "source": "converted"
+  }
+}

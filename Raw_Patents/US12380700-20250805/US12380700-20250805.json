@@ -1,0 +1,24 @@
+{
+  "title": "Surveillance system",
+  "abstract": "A video surveillance system is disclosed. The system includes: at least one camera to observe a surveillance field and provide resulting video data; at least one beacon comprising at least one light emitting element and a controller providing an actuation sequence to the light emitting element such that it emits a binary signal comprising sequential on/off flashes; and a video analytics system comprising a processor configured to receive video data captured by the, at least one camera and analyse the video for the presence of light emissions from a beacon. The binary signal may consist of a plurality of transmission packets, each repeating an encoded set of data. Each transmission packet may comprise a plurality of functional sub packets, for example, a first sub-packet comprising a fixed code and a second sub-packet which changes between transmission packets. The video analytics system processor is configured to identify the sequence corresponding to the first sub-packet to determine a beacon identification and verify the authenticity of the beacon using the second sub-packet. A method of video surveillance monitoring is also disclosed.",
+  "claims": "1. A video surveillance system comprising: paired cameras to capture parallel video data streams of a surveillance field; at least one beacon comprising at least one light emitting element and a controller providing an actuation sequence to the light emitting element such that it emits a binary signal comprising sequential on/off flashes; and a video analytics system comprising a processor configured to receive video data captured by at least one of the paired cameras and analyse the video data for a presence of light emissions from a beacon, wherein the binary signal consists of a plurality of transmission packets, each repeating an encoded set of data, and each transmission packet comprising at least a first sub-packet comprising a fixed code and a second sub-packet which changes between transmission packets, wherein the video analytics system processor is configured to identify the actuation sequence corresponding to the first sub-packet to determine a beacon identification and verify an authenticity of the beacon using the second changing sub-packet, wherein the at least one light emitting element comprises an infrared LED, wherein one of the paired cameras captures a video data stream with reduced background light detection and another of the paired cameras captures a conventional video stream.",
+  "patent_id": "US12380700-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 20/52",
+      "G06V 20/40",
+      "H04N 7/181",
+      "H04N 23/73",
+      "H04W 12/06"
+    ],
+    "all": [
+      "G06V 20/52",
+      "G06V 20/40",
+      "H04N 7/181",
+      "H04N 23/73",
+      "H04W 12/06"
+    ],
+    "source": "converted"
+  }
+}

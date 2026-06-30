@@ -1,0 +1,20 @@
+{
+  "title": "Hybrid neural network for preventing system failure",
+  "abstract": "Aspects of the disclosure relate to outage prevention. A computing platform may train, using historical parameter information and historical outage information, an outage prediction model. The computing platform may receive, from at least one system, current parameter information, and may normalize the current parameter information. The computing platform may convert, using a CNN of the outage prediction model, the normalized current parameter information to a frequency domain. The computing platform may input, into at least one RNN of the outage prediction model, the frequency domain information, to produce a likelihood of outage score. The computing platform may compare the likelihood of outage score to a predetermined outage threshold. Based on identifying that the likelihood of outage score meets or exceeds the predetermined outage threshold, the computing platform may direct the at least one system to execute a performance modification to prevent a predicted outage.",
+  "claims": "1. A computing platform comprising: at least one processor; a communication interface communicatively coupled to the at least one processor; and memory storing computer-readable instructions that, when executed by the at least one processor, cause the computing platform to: train, using historical parameter information and historical outage information, an outage prediction model configured to identify likelihood of outage scores, indicating likelihoods of at least one system experiencing an outage within a predetermined period of time, wherein the outage prediction model comprises a convolutional neural network (CNN) and at least one recurrent neural network (RNN); receive, from the at least one system, current parameter information; normalize the current parameter information to provide a uniform format for each type of parameter information of the current parameter information; convert, using the CNN of the outage prediction model, the normalized current parameter information from a geometric domain to a frequency domain; input, into the at least one RNN of the outage prediction model, the frequency domain normalized current parameter information, to produce a likelihood of outage score for the at least one system; compare the likelihood of outage score for the at least one system to a predetermined outage threshold; and based on identifying that the likelihood of outage score meets or exceeds the predetermined outage threshold, send one or more commands directing the at least one system to execute a performance modification to prevent a predicted outage, wherein sending the one or more commands directing the at least one system to execute the performance modification to prevent the predicted outage causes the at least one system to execute the performance modification.",
+  "patent_id": "US12380012-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 11/3442",
+      "G06F 9/5083",
+      "G06F 11/0769"
+    ],
+    "all": [
+      "G06F 11/3442",
+      "G06F 9/5083",
+      "G06F 11/0769"
+    ],
+    "source": "converted"
+  }
+}

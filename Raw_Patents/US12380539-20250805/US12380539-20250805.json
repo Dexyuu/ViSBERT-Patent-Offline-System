@@ -1,0 +1,32 @@
+{
+  "title": "Detecting keypoints in image data",
+  "abstract": "Methods and systems for detecting keypoints in image data may include an image sensor interface receiving pixel data from an image sensor. A front-end pixel data processing circuit may receive pixel data and convert the pixel data to a different color space format. A back-end pixel data processing circuit may perform one or more operations on the pixel data. An output circuit may receive pixel data and output the pixel data to a system memory. A keypoint detection circuit may receive pixel data from the image sensor interface in the image sensor pixel data format or receive pixel data after processing by the front-end or the back-end pixel data processing circuits. The keypoint detection circuit may perform a keypoint detection operation on the pixel data to detect one or more keypoints in the image frame and output to the system memory a description of the one or more keypoints.",
+  "claims": "1. An image signal processor, comprising: a keypoint detection circuit configured to: receive a first pixel data of a source image frame; detect a first keypoint based at least in part on a portion of the first pixel data of the source image frame having one or more magnitude values exceeding a keypoint sensitivity threshold value; and output to a memory a description based on the detected first keypoint; and an image processing circuit configured to: identify a second keypoint in a second image frame different from the source image frame according to the description accessed from the memory; and perform pixel processing operations according to the identified second keypoint to modify a second pixel data of the second image frame.",
+  "patent_id": "US12380539-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 5/70",
+      "G06T 5/00",
+      "G06T 7/10",
+      "G06V 10/462",
+      "G06V 10/56",
+      "G06V 10/94",
+      "H04N 9/646",
+      "G06T 2200/28",
+      "G06T 2207/20164"
+    ],
+    "all": [
+      "G06T 5/70",
+      "G06T 5/00",
+      "G06T 7/10",
+      "G06V 10/462",
+      "G06V 10/56",
+      "G06V 10/94",
+      "H04N 9/646",
+      "G06T 2200/28",
+      "G06T 2207/20164"
+    ],
+    "source": "converted"
+  }
+}

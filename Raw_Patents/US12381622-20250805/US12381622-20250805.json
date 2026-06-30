@@ -1,0 +1,24 @@
+{
+  "title": "Systems and methods to co-locate RFID reader networks with in-band sensor networks",
+  "abstract": "Systems and methods to co-locate RFID readers with in-band sensor networks, such as LoRa sensor networks, are disclosed herein. An example arrangement is a co-located device that includes a dual-mode transceiver configured to communicate with targets operating in a first protocol (e.g., RFID) and other targets operating in a second protocol (e.g., LoRa). The example arrangement includes a dual-mode controller that operates the dual-mode transceiver to communicate via the first protocol during a first time period while disabling communication via the second protocol and to communicate via the second protocol in a second time period while disabling communication via the first protocol.",
+  "claims": "1. A dual-mode arrangement for in-band communication according to a first protocol and to a second protocol, the arrangement comprising: a dual-mode transceiver configured to communicate with targets operating according to the first protocol and configured to receive signals from targets operating in the second protocol; and a dual-mode controller coupled to the dual-mode transceiver and configured to operate the dual-mode transceiver to communicate with the targets operating according to the first protocol during a first time period and configured to operate the dual-mode transceiver to receive signals from the targets operating according to the second protocol during a second time period, wherein the dual mode controller is further configured to operate the dual-mode transceiver as a radio frequency identification (RFID) reader according to the first protocol, operate the dual-mode transceiver as a Low Power Long Range (LoRa) gateway according to the second protocol, and prevent the dual-mode transceiver from communicating with the targets operating according to the first protocol during the second time period and further configured to prevent the dual-mode transceiver from receiving the signals from the targets operating according to the second protocol during the first time period, wherein the targets operating according to the first protocol operate over a first frequency range and the targets operating according to the second protocol operate over a second frequency range that at least partially overlaps the first frequency range.",
+  "patent_id": "US12381622-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04B 7/2618",
+      "G06K 7/10079",
+      "G06K 19/0723",
+      "H04B 7/2656",
+      "G06K 7/10366"
+    ],
+    "all": [
+      "H04B 7/2618",
+      "G06K 7/10079",
+      "G06K 19/0723",
+      "H04B 7/2656",
+      "G06K 7/10366"
+    ],
+    "source": "converted"
+  }
+}

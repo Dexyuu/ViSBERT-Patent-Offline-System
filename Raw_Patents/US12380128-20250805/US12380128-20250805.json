@@ -1,0 +1,22 @@
+{
+  "title": "Systems and methods for data synchronization and replication in distributed networks",
+  "abstract": "Systems, methods, and computer program products are provided herein for data synchronization and replication in distributed networks. An example method includes monitoring performance of operations on a source computing cluster that are associated with one or more applications and replicating data entries associated with the operations on a data recovery computing cluster communicably coupled with the source computing cluster. The method further includes determining an outage condition associated with the source computing cluster and determining a first operation whose execution is pending on the source computing cluster. The first operation also include first execution characteristics defining instructions for performance of the first operation as related to at least a first application. The method also include executing the first operation on the data recovery computing cluster based on the one or more first execution characteristics.",
+  "claims": "1. A system for data synchronization and replication in distributed networks, the system comprising: at least one non-transitory storage device; and at least one processor coupled to the at least one non-transitory storage device, wherein the at least one processor is configured to: monitor performance of one or more operations executed on a source computing cluster by one or more computing devices forming the source computing cluster, wherein the one or more operations are associated with one or more applications including at least a first application whose operations are executed on the source computing cluster and a second application linked to performance of the first application on the source computing cluster; replicate one or more data entries associated with the one or more operations on a data recovery computing cluster communicably coupled with the source computing cluster; determine an outage condition associated with the source computing cluster; determine at least a first operation of the first application the execution of which is pending on the source computing cluster, wherein the first operation comprises one or more first execution characteristics defining instructions for performance of the first operation of the first application; execute the first operation on the data recovery computing cluster based on the one or more first execution characteristics; and modify one or more connections associated with the second application based on the execution of the first operation on the data recover computing cluster.",
+  "patent_id": "US12380128-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/27",
+      "G06F 9/4881",
+      "G06F 11/1464",
+      "G06F 2201/805"
+    ],
+    "all": [
+      "G06F 16/27",
+      "G06F 9/4881",
+      "G06F 11/1464",
+      "G06F 2201/805"
+    ],
+    "source": "converted"
+  }
+}

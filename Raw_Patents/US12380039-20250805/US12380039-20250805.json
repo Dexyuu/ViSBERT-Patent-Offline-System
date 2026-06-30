@@ -1,0 +1,24 @@
+{
+  "title": "Plug-and-play hub for unmanned aerial vehicle",
+  "abstract": "A plug-and-play Hub that provides an intermediary between an Unmanned Aerial Vehicle (UAV) and peripheral electronic devices. The Hub has a power and data interface to the UAV and peripheral ports that allow the peripheral electronic devices to connect to the Hub. The peripheral ports provide power to the peripheral electronic devices and also allow data communication between the Hub and the peripheral electronic devices. The Hub may detect when a peripheral electronic device has been plugged into a peripheral port and access communication protocol information and voltage level information by way of the peripheral port. A Hub voltage converter receives power from the UAV and converts the UAV power source voltage to a voltage level that is suitable for the various peripheral electronic devices. The Hub has a data hub that mediates data communication between the UAV and the various peripheral electronic devices.",
+  "claims": "1. A hub for an Unmanned Aerial Vehicle (UAV), the hub comprising: a plurality of peripheral ports, each peripheral port configured to allow connection of a peripheral electronic device, each peripheral port having a power line configured to provide power to a peripheral electronic device and a physical pathway for data transfer to and from the peripheral electronic device; a UAV interface configured to connect to the UAV to receive power from the UAV and to provide a physical pathway for data transfer to and from the UAV; a voltage converter connected to the UAV interface to receive the power from the UAV, the voltage converter connected to the plurality of peripheral ports to provide a suitable voltage to the power line of the respective peripheral ports based on a peripheral electronic device connected to the respective peripheral port, the voltage converter configured to convert the voltage from the UAV to at least one other voltage level; and one or more control circuits coupled to the plurality of peripheral ports, to the UAV interface, and to the voltage converter, wherein the one or more control circuits are configured to: detect that a peripheral electronic device has been plugged into a first peripheral port of the peripheral ports; access communication protocol information and voltage level information by way of the first peripheral port, wherein the communication protocol information specifies a communication protocol used by the peripheral electronic device connected to the first peripheral port and the voltage level information specifies a level of a supply voltage for the peripheral electronic device; instruct the voltage converter to provide a voltage to the power line of the first peripheral port in accordance with the voltage level information; and mediate data communication between the peripheral electronic device and the UAV.",
+  "patent_id": "US12380039-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 13/102",
+      "G06F 1/266",
+      "B64U 10/14",
+      "B64U 2101/20",
+      "B64U 2201/20"
+    ],
+    "all": [
+      "G06F 13/102",
+      "G06F 1/266",
+      "B64U 10/14",
+      "B64U 2101/20",
+      "B64U 2201/20"
+    ],
+    "source": "converted"
+  }
+}

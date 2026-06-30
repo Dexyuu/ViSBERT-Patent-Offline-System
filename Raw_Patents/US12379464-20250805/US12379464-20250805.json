@@ -1,0 +1,18 @@
+{
+  "title": "Method for adjusting correction information in a radar system",
+  "abstract": "A method for automatically adjusting correction information in a radar system of a vehicle. The method includes: performing at least one acquisition of at least one item of acquisition information by a radar sensor, the acquisition information being specific to at least one item of angle information and one item of distance information relating to at least one detected object in an environment of the vehicle. An identification of a reference object is performed in the environment on the basis of the acquisition information. An ascertainment of the distance information relating to the reference object is performed on the basis of the acquisition information. The adjustment of the correction information is performed on the basis of the ascertained distance information relating to the reference object in order to provide a correction of the angle information.",
+  "claims": "1. A method for automatically adjusting correction information in a radar system of a vehicle, the method comprising: performing at least one acquisition of at least one item of acquisition information by a radar sensor of the radar system, wherein the acquisition information is specific to at least one item of angle information and one item of distance information relating to at least one detected object in an environment of the vehicle; performing an identification of a reference object in the environment based on the acquisition information; performing an ascertainment of the distance information relating to the reference object based on the acquisition information; and performing the adjustment of the correction information based on the ascertained distance information relating to the reference object in order to provide a correction of the angle information, wherein during performance of the ascertainment, the distance information is ascertained as a height curve of an object height of the reference object over a distance to the reference object, and wherein, for the adjustment of the correction information, the method further comprises: determining a parameter specific to an angular deviation or a slope of the height curve; determining a correction angle based on the parameter; and adjusting the correction information based on the correction angle.",
+  "patent_id": "US12379464-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G01S 7/4091",
+      "G01S 13/931"
+    ],
+    "all": [
+      "G01S 7/4091",
+      "G01S 13/931"
+    ],
+    "source": "converted"
+  }
+}

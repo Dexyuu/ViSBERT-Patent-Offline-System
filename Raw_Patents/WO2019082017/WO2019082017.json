@@ -1,0 +1,50 @@
+{
+  "application_id": "WO2019082017",
+  "application_id_fs": "WO2019082017",
+  "title": "Creating modular conversations using implicit routing",
+  "abstract": "A computer implemented method of routing a verbal input to one of a plurality of handlers, comprising using one or more processors adapted to execute a code, the code is adapted for receiving a verbal input from a user, applying a plurality of verbal content identifiers to the verbal input, each of the verbal content identifiers is adapted to evaluate an association of the verbal input with a respective one of a plurality of handlers by computing a match confidence value for one or more features,such as an intent expressed by the user and/or an entity indicated by the user, extracted from the verbal input and routing the verbal input to a selected one of the handlers based on the matching confidence value computed by the plurality of verbal content identifiers. The selected handler is adapted to initiate one or more actions in response to the verbal input.",
+  "claims": "Claims 1. A computer implemented method of routing a verbal input to one of a plurality of handlers, comprising: using at least one processor adapted to execute a code, said code is adapted for: receiving a verbal input from a user; applying a plurality of verbal content identifiers to said verbal input, each of said plurality of verbal content identifiers is adapted to evaluate an association of said verbal input with a respective one of a plurality of handlers by computing a match confidence value for at least one feature extracted from said verbal input, said at least one feature comprises at least one of: an intent expressed by said user and an entity indicated by said user; routing said verbal input to a selected one of said plurality of handlers based on said matching confidence value computed by said plurality of verbal content identifiers, said selected handler is adapted to initiate at least one action in response to said verbal input. 2. The computer implemented method of claim 1 , wherein said verbal input comprises at least one member of a group consisting of: textual verbal input and speech verbal input. 3. The computer implemented method of claim 1 , further comprising segmenting said verbal input to a plurality of segments and routing each of said plurality of segments to one of said plurality of handlers according to said match confidence value computed by said plurality of verbal content identifiers for said each segment. 4. The computer implemented method of claim 1 , wherein each of said plurality of verbal content identifiers is associated with a respective one of said plurality of handlers by adapting said each verbal content identifier to evaluate said association according to at least one predefined feature defined for said respective handler. 5. The computer implemented method of claim 1 , wherein said match confidence value indicates a probability of said at least one feature to match a respective predefined feature. 6. The computer implemented method of claim 1 , wherein said intent is extracted from said verbal input using at least one verbal analysis tool, said intent is a member of a group consisting of: an intention, a purpose, an objective and a goal. 7. The computer implemented method of claim 1 , wherein said entity is extracted from said verbal input using at least one verbal analysis tool. 8. The computer implemented method of claim 1, further comprising selecting said selected handler based on at least one context attribute provided by at least one of said plurality of verbal content identifiers. 9. The computer implemented method of claim 8, wherein said at least one context attribute comprises at least one of: an emotion of said user extracted using at least one voice analysis tool, a sentiment of said user extracted using at least one voice analysis tool, a geographical location of said user obtained from at least one location detection tool, and at least one previous feature extracted from at least one previous verbal input. 10. The computer implemented method of claim 8, further comprising selecting said selected handler based on detection of at least one mandatory entity extracted by at least one of said plurality of verbal content identifiers, said at least one mandatory entity is predefined to appear in said verbal input in conjunction with said intent. 1 1. The computer implemented method of claim 1 , further comprising selecting said selected handler based on at least one operational attribute provided by at least one of said plurality of verbal content identifiers. 12. The computer implemented method of claim 11 , wherein said at least one operational attribute comprises at least one of: a threshold value, a capability of said respective handler to manage said verbal input, a description of an analysis applied by at least one of said plurality of verbal content identifiers to extract said at least one feature, a routing information relating to at least one previous verbal input, and information obtained from at least another one of said plurality of handlers. 13. The computer implemented method of claim 1 , further comprising selecting said selected handler according to a priority assigned to at least some of said plurality of verbal content identifiers. 14. The computer implemented method of claim 1 , further comprising filtering out at least one of said plurality of handlers associated with one of said plurality of verbal content identifiers presenting said confidence value which fails to exceed a predefined threshold. 15. The computer implemented method of claim 1 , further comprising filtering out at least one of said plurality of handlers indicated by an associated one of said plurality of verbal content identifiers as incapable of managing said verbal input. 16. The computer implemented method of claim 1 , further comprising routing said verbal input to a recent handler of said plurality of handlers in case a similar said confidence value is computed by multiple verbal content identifiers of said plurality of verbal content identifiers, said recent handler is a most recent handler to which a previous verbal \n\n input was routed among a group of handlers associated with said multiple verbal content identifiers. 17. The computer implemented method of claim 1 , further comprising routing said verbal input to a default handler of said plurality of handlers in case said confidence value computed by said plurality of verbal content identifiers fails to exceed a predefined threshold. 18. A system for routing a verbal input to one of a plurality of handlers, comprising: at least one processor adapted to execute code, the code comprising: code instructions to receive a verbal input from a user; code instructions to apply a plurality of verbal content identifiers to said verbal input, each of said plurality of verbal content identifiers is adapted to evaluate an association of said verbal input with a respective one of a plurality of handlers by computing a match confidence value for at least one feature extracted from said verbal input, said at least one feature comprises at least one of: an intent expressed by said user and an entity indicated by said user; and code instructions to route said verbal input to a selected one of said plurality of handlers based on said matching confidence value computed by said plurality of verbal content identifiers, said selected handler is adapted to initiate at least one action in response to said verbal input. 19. A computer program product for routing a verbal input to one of a plurality of handlers, comprising: a non-transitory computer readable storage medium; first code instructions for receiving a verbal input from a user; second code instructions for applying a plurality of verbal content identifiers to said verbal input, each of said plurality of verbal content identifiers is adapted to evaluate an association of said verbal input with a respective one of a plurality of handlers by computing a match confidence value for at least one feature extracted from said verbal input, said at least one feature comprises at least one of: an intent expressed by said user and an entity indicated by said user; and third code instructions for routing said verbal input to a selected one of said plurality of handlers based on said matching confidence value computed by said plurality of verbal content identifiers, said selected handler is adapted to initiate at least one action in response to said verbal input; wherein said first, second and third program instructions are executed by at least one processor from said non-transitory computer readable storage medium.",
+  "classifications": {
+    "ipc": [
+      "G10L 15/00",
+      "G10L 15/22",
+      "G06F 16/00",
+      "G06F 16/60",
+      "G06F 16/68",
+      "G06F 16/683",
+      "G06F 16/685",
+      "G06F 16/686",
+      "G06F 3/00",
+      "G06F 3/16",
+      "G06F 3/167",
+      "G10L 15/02",
+      "G10L 15/04",
+      "G10L 15/08",
+      "G10L 15/18",
+      "G10L 15/1815",
+      "G10L 2015/223"
+    ],
+    "cpc": [],
+    "all": [
+      "G10L 15/00",
+      "G10L 15/22",
+      "G06F 16/00",
+      "G06F 16/60",
+      "G06F 16/68",
+      "G06F 16/683",
+      "G06F 16/685",
+      "G06F 16/686",
+      "G06F 3/00",
+      "G06F 3/16",
+      "G06F 3/167",
+      "G10L 15/02",
+      "G10L 15/04",
+      "G10L 15/08",
+      "G10L 15/18",
+      "G10L 15/1815",
+      "G10L 2015/223"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2019082017"
+}

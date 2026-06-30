@@ -1,0 +1,18 @@
+{
+  "title": "Dynamic resource allocation for network slices",
+  "abstract": "One or more computing devices, systems, and/or methods for dynamic resource slice allocation are provided. A bidding engine dynamically tracks available network slices and available edge computing resources to generate a current list of resource slices corresponding to combinations of available network slices and available edge computing resources. A bidding auction is conducted for the current list of resource slices. A user equipment device is determined to be a winner of the bidding auction for a resource slice based upon a bidding request from the user equipment device. In this way, the user equipment device is provide with access to the resource slice based upon a determination that the user equipment device won the bidding auction.",
+  "claims": "1. A method, comprising: dynamically tracking, by a bidding engine, available network slices and available edge computing resources; generating, by the bidding engine, a current list of resource slices corresponding to combinations of available network slices and available edge computing resources; conducting a bidding auction associated with the current list of resource slices to determine whether a user equipment device obtains access to a resource slice based upon dynamically identified demand for the resource slice; receiving a bidding request from the user equipment device identifying the resource slice; determining that the user equipment device wins the bidding auction for the resource slice based on the bidding request; and providing the user equipment device with access to the resource slice based upon determining that the user equipment device wins the bidding auction.",
+  "patent_id": "US12382343-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 28/16",
+      "H04W 48/16"
+    ],
+    "all": [
+      "H04W 28/16",
+      "H04W 48/16"
+    ],
+    "source": "converted"
+  }
+}

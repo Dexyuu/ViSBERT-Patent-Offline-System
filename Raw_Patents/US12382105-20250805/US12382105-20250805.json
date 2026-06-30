@@ -1,0 +1,22 @@
+{
+  "title": "Padding process at unavailable sample locations in adaptive loop filtering",
+  "abstract": "A method of video processing includes determining, for a conversion between a current block of a video and a bitstream representation of the video using a coding tool that accesses samples outside of the current block, that neighboring samples used for the conversion are unavailable. Samples that are located across a boundary of a video unit of the video are considered as unavailable samples. The method also includes performing, based on the determining, the conversion by padding samples in place of the neighboring samples that are unavailable. The padding samples are determined using samples that are restricted to be within a current processing unit associated with the current block.",
+  "claims": "1. A method of processing video data, comprising: determining, for a conversion between a current block of a video and a bitstream of the video, that one or more above-left neighboring samples outside the current block are unavailable for a filtering process of a coding tool applied to the current block; padding the one or more above-left neighboring samples with above neighboring samples outside the current block in a first padding process, when left neighboring samples outside the current block are available and the above neighboring samples are available; determining, for the conversion, a unified manner in which a second padding process is applied for the filtering process, wherein the second padding process is applied to generate one or more virtual samples for a sample of the current block that is located in proximity to boundaries of multiple kinds of video regions; padding the sample of the current block that is located in proximity to boundaries of multiple kinds of video regions in the determined unified manner in the second padding process, and performing the conversion based on the padded samples, wherein, for the second padding process, the filtering process comprises: determining whether a sample of the current block positioned within a distance from a boundary of the current block is a boundary sample according to a component identity of the block, wherein the sample is a bottom boundary sample of the current block when a distance between the sample and a bottom boundary is smaller than a threshold T1 and the current block is a luma block; and wherein the sample is a bottom boundary sample of the current block when a distance between the sample and the bottom boundary is smaller than a threshold T2 and the current block is a chroma block, wherein T1 and T2 are integers.",
+  "patent_id": "US12382105-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/82",
+      "H04N 19/117",
+      "H04N 19/174",
+      "H04N 19/176"
+    ],
+    "all": [
+      "H04N 19/82",
+      "H04N 19/117",
+      "H04N 19/174",
+      "H04N 19/176"
+    ],
+    "source": "converted"
+  }
+}

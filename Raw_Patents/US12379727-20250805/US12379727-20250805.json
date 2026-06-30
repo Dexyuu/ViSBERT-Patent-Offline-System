@@ -1,0 +1,20 @@
+{
+  "title": "Anomaly detection device, vehicle, and anomaly detection method",
+  "abstract": "An anomaly detection device includes processing circuitry and a memory. The memory stores map data and association data. The map data defines a map. The map receives, as input data, manipulation value data and the image data of the vehicle, thereby outputting, as output data, a state ID corresponding to an anomaly state related to the vehicle. The association data associates an anomaly state related to the vehicle with the state ID. The processing circuitry is configured to acquire the manipulation value data, acquire the image data from a camera mounted in the vehicle, input, as the input data, the manipulation value data and the image data, to the map, thereby acquiring, as the output data, the state ID from the map, and identify the anomaly state related to the vehicle based on the state ID acquired from the map and the association data.",
+  "claims": "1. An anomaly detection device configured to detect an anomaly related to a vehicle, the anomaly detection device comprising: processing circuitry; and a memory, wherein the memory stores map data that defines a machine learning model configured to receive, as input data, manipulation value data and the image data of the vehicle, thereby outputting, as output data, a state ID corresponding to an anomaly state related to the vehicle, and association data that associates an anomaly state related to the vehicle with the state ID, the processing circuitry is configured to acquire the manipulation value data, acquire the image data from a camera mounted in the vehicle, input, as the input data, the manipulation value data and the image data, to the machine learning model, thereby acquire, as the output data, the state ID from the machine learning model, and identify the anomaly state related to the vehicle based on the state ID; and control the vehicle to perform a specific response action based on the identified anomaly state, including at least one of: stopping the vehicle, displaying a notification that is visible to the operator, illuminating a lamp that is visible to the operator, or activating a buzzer to produce an audible alert signal.",
+  "patent_id": "US12379727-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G05D 1/0274",
+      "G05D 1/0214",
+      "B60W 2556/50"
+    ],
+    "all": [
+      "G05D 1/0274",
+      "G05D 1/0214",
+      "B60W 2556/50"
+    ],
+    "source": "converted"
+  }
+}

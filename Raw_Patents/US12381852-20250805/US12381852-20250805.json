@@ -1,0 +1,20 @@
+{
+  "title": "Providing dynamic network security based on importance of proprietary content",
+  "abstract": "A method, computer system, and a computer program product are provided for establishing security measures for a content. In one embodiment, the method comprises identifying at least a microservice chain in a network computer. Each microservice chain has more than one microservice linked to one another and each microservice includes a plurality of applications bundled together. Any use profiles associated with the microservice chain are identified and all data entry points into each microservice are determined. Each microservice is analyzed to predict when each microservice in the chain will provide a confidential output. Once any microservice chain is deemed to be providing a confidential output, any predicted exits in the microservice deemed to be generating an output content are upgraded so that all predicted exists provide a confidential output.",
+  "claims": "1. A method for establishing security measures for a content, comprising: identifying a plurality of microservice chains at in a network computer, wherein each microservice chain has at least two linked microservices and each of the at least two linked microservices includes a plurality of bundled applications; identifying said plurality of microservice chains in said network per user profile and per data entry input points, wherein at least a user and any profiles for said user associated with the at least one microservice chain and determining any data entry points into each of the at least one microservice chain; analyzing each of the at least two linked microservices to predict when each of the at least two linked microservices in the at least one microservice chain will provide a confidential output; once any microservice in the at least one microservice chain is deemed to be providing the confidential output, upgrade any predicted exits in the at least one microservice chain deemed to be generating an output content so that all said predicted exits provide the confidential output.",
+  "patent_id": "US12381852-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 63/0414",
+      "H04L 63/102",
+      "H04L 63/105"
+    ],
+    "all": [
+      "H04L 63/0414",
+      "H04L 63/102",
+      "H04L 63/105"
+    ],
+    "source": "converted"
+  }
+}

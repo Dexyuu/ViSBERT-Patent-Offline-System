@@ -1,0 +1,24 @@
+{
+  "title": "Devices, system and methods for optimization in deduplication",
+  "abstract": "A method and a global server for deduplicating multiple storage servers are disclosed. The global server maintains information regarding a set of hash values, each hash value being associated with a data chunk of data stored in the global server and/or the storage servers, receive, from one or more of the storage servers, a request to modify the information with respect to one or more hash values, accumulate and sort metadata related to the one or more requests, modifies the information with respect to the one or more hash values, based on the accumulated metadata when the accumulated metadata reaches a determined size.",
+  "claims": "1. A global server, comprising: a memory; a disk storage; and a processor coupled to the memory and the disk storage and configured to: receive, from one or more storage servers, at least one request to modify information corresponding to one or more hash values in a set of hash values, wherein the set of hash values is maintained by the global server, each hash value in the set of hash values is associated with a respective data chunk of data stored in the global server or in multiple storage servers, and each respective data chunk of data that is stored in the global server or in the multiple storage servers and that is associated with the one or more hash values is not comprised in the at least one request, and the global server is separate from and coupled to the one or more storage servers; accumulate and store metadata related to the at least one request in the memory, wherein the metadata comprises, for each request, a hash value indicated by the respective request and an indication of the storage server that sent the respective request, and the metadata is stored independently of any data chunks corresponding to the at least one request; in response to the accumulated metadata reaching a threshold size, fill the metadata into a first block of a plurality of blocks, wherein each block of the plurality of blocks comprises a same number of chunks, and each chunk in each block of the plurality of blocks is filled with only metadata related to one or more requests; dump the first block to the disk storage; and in response to a number of blocks dumped to the disk storage exceeding a block threshold, modify information corresponding to hash values associated with the plurality of blocks, based on the accumulated metadata in the plurality of blocks.",
+  "patent_id": "US12379862-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0641",
+      "G06F 3/0604",
+      "G06F 3/0643",
+      "G06F 3/0659",
+      "G06F 3/067"
+    ],
+    "all": [
+      "G06F 3/0641",
+      "G06F 3/0604",
+      "G06F 3/0643",
+      "G06F 3/0659",
+      "G06F 3/067"
+    ],
+    "source": "converted"
+  }
+}

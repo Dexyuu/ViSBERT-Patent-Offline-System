@@ -1,0 +1,24 @@
+{
+  "title": "Communications and operation control of apheresis systems",
+  "abstract": "A method includes detecting a startup of an apheresis machine; in response to detecting start up, transmitting data to a server; determining, based on the data, whether software of the apheresis machine is current; receiving, in response to the data, a response from the server; and preventing usage of apheresis machine if the response indicates the software is not current. The data transmitted to the server may include one or more of a data log, a firmware version identifier, and an error log. The response may include a lockout signal. The response may include a software update. The software update may include a firmware update. The method may include automatically initiating installation of the software update. The method may include ceasing prevention of usage of the apheresis machine following installation of the software update.",
+  "claims": "1. A method comprising: detecting, with a controller, a startup of an apheresis machine based on signals received by the controller; in response to detecting start up, automatically transmitting, by the controller, data to a server; automatically determining, by the server and based on the data, whether software of the apheresis machine is current; automatically receiving, by the controller and in response to the data, a response from the server; and automatically preventing, by the controller, usage of the apheresis machine if the response from the server indicates the software is not current.",
+  "patent_id": "US12379916-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 8/65",
+      "A61M 1/3496",
+      "A61M 1/3693",
+      "A61M 60/205",
+      "G16H 40/67"
+    ],
+    "all": [
+      "G06F 8/65",
+      "A61M 1/3496",
+      "A61M 1/3693",
+      "A61M 60/205",
+      "G16H 40/67"
+    ],
+    "source": "converted"
+  }
+}

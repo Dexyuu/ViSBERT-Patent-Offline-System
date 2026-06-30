@@ -1,0 +1,18 @@
+{
+  "title": "Physical device for real-time minting of non-fungible tokens",
+  "abstract": "Token minting environment includes a physical token minter that is accessible to a group of users. A user initiates a session to mint a non-fungible token associated with an image that the physical token minter generates. When the session is established, the physical token minter connects with a digital wallet associated with the user. The physical token minter identifies a physical interaction provided by the user, such as the user pulling a lever or pressing an input button that is proximate to the physical token minter. Upon identifying the user interaction, the physical token minter responds by triggering the creation of an image and the minting of a non-fungible token that links the image to the wallet of the user. The physical token minter then provides a digital representation of the image and an indication that a token for the image has been added to the digital wallet.",
+  "claims": "1. A computer-implemented method comprising: receiving, at a machine that is physically accessible to a plurality of users, a physical user interaction by a first user to generate a non-fungible token; transmitting, in response to the physical user interaction by the first user with the machine to a remote server, a request to generate the non-fungible token, wherein the request includes an identifier for a digital wallet managed by a wallet application executing on a user device of the first user; receiving, from the machine, sensor data acquired by a sensor included in the machine, the sensor data including at least the physical user interaction by the first user, wherein the sensor tracks a plurality of previous physical interactions by the plurality of users; and in response to the request: exhausting, by the remote server and based on the identifier for the digital wallet, an amount of a given digital currency from the digital wallet, transmitting, from the remote server to a first smart contract, authentication information including at least a location of the physical user interaction; validating the authentication information by executing the first smart contract; upon validation, randomly generating an artifact by executing the first smart contract; at the remote server, for each of a plurality of attribute types, generating and selecting an attribute value based on the artifact, wherein each selected attribute value is included in a plurality of attribute values; generating, at the remote server, a digital image based on the plurality of attribute values; generating, at the remote server, the non-fungible token based on the plurality of attribute values; and providing, via the machine, (i) a dashboard that displays the digital image corresponding to the non-fungible token, and (ii) a physical copy of the digital image.",
+  "patent_id": "US12380432-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/3678",
+      "G06Q 20/389"
+    ],
+    "all": [
+      "G06Q 20/3678",
+      "G06Q 20/389"
+    ],
+    "source": "converted"
+  }
+}

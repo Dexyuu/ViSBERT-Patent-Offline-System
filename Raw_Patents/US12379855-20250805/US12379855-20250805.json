@@ -1,0 +1,22 @@
+{
+  "title": "Semiconductor memory device including a cyclic redundancy check engine and memory system including the same",
+  "abstract": "A semiconductor memory device includes a memory cell array and a cyclic redundancy check (CRC) engine. The memory cell array includes a plurality of volatile memory cells coupled to respective ones of a plurality of word-lines and respective ones of a plurality of bit-lines. The CRC engine, during a memory operation on the memory cell array, detects an error in a main data and a system parity data provided from a memory controller external to the semiconductor memory device through a link, generates an error flag indicating whether the detected error corresponds to either a first type of error associated with the link or a second type of error associated with the volatile memory cells based on the system parity data and transmit the error flag to the memory controller.",
+  "claims": "1. A method of operating a semiconductor memory device that includes a memory cell array comprising a plurality of volatile memory cells coupled to respective ones of a plurality of word-lines and respective ones of a plurality of bit-lines and a cyclic redundancy check (CRC) engine, the method comprising: detecting, by the CRC engine, an error in a main data and a system parity data received from a memory controller through a link, the memory controller being external to the semiconductor memory device; generating, by the CRC engine, an error flag indicating whether the error that was detected corresponds to either a first type of error associated with the link or a second type of error associated with the volatile memory cells based on the system parity data; and transmitting, by the CRC engine, the error flag to the memory controller.",
+  "patent_id": "US12379855-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0619",
+      "G06F 3/0655",
+      "G06F 3/0656",
+      "G06F 3/0679"
+    ],
+    "all": [
+      "G06F 3/0619",
+      "G06F 3/0655",
+      "G06F 3/0656",
+      "G06F 3/0679"
+    ],
+    "source": "converted"
+  }
+}

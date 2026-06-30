@@ -1,0 +1,20 @@
+{
+  "title": "Persistent storage with dual interface",
+  "abstract": "Systems and methods for persistent storage with a dual interface. In some embodiments, a persistent storage device includes: a processing circuit; a cache; and persistent storage. The processing circuit may be configured to perform a method, the method including: receiving a first write request according to a first protocol; saving a data payload of the first write request in a first portion of the cache; receiving a second write request according to a second protocol; and saving a data payload of the second write request in a second portion of the cache.",
+  "claims": "1. A persistent storage device, comprising: a processing circuit; a cache; and persistent storage, the processing circuit being configured to perform a method, the method comprising: receiving a first write request according to a first protocol, wherein the first write request comprises a cache hint corresponding to the first protocol; based on the cache hint, saving a data payload of the first write request in a first portion of the cache corresponding to the first protocol; receiving a second write request according to a second protocol; and saving a data payload of the second write request in a second portion of the cache.",
+  "patent_id": "US12380030-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 12/0833",
+      "G06F 12/0888",
+      "G06F 12/0891"
+    ],
+    "all": [
+      "G06F 12/0833",
+      "G06F 12/0888",
+      "G06F 12/0891"
+    ],
+    "source": "converted"
+  }
+}

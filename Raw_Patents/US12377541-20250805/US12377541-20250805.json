@@ -1,0 +1,16 @@
+{
+  "title": "Systems, devices, and methods for grasping by multi-purpose robots",
+  "abstract": "Systems, devices, and methods for training and operating (semi-)autonomous robots to complete multiple different work objectives are described. A robot control system stores a library of reusable work primitives each corresponding to a respective basic sub-task or sub-action that the robot is operative to autonomously perform. A work objective is analyzed to determine a sequence (i.e., a combination and/or permutation) of reusable work primitives that, when executed by the robot, will complete the work objective. The robot executes the sequence of reusable work primitives to complete the work objective. The reusable work primitives may include one or more reusable grasp primitives that enable(s) a robot's end effector to grasp objects. Simulated instances of real physical robots may be trained in simulated environments to develop control instructions that, once uploaded to the real physical robots, enable such real physical robots to autonomously perform reusable work primitives.",
+  "claims": "1. A method of operation of a robot having a robotic hand with multiple fingers and an opposable thumb, the method comprising: collecting first data about an object by at least one sensor; analyzing, by at least one processor, the first data to determine a first attribute of the object, wherein the first attribute of the object is a geometry of the object; accessing, by the at least one processor, second data about the object; determining, by the at least one processor, a second attribute of the object based on the first data or the second data, wherein the second attribute of the object is different from the first attribute of the object; accessing, by the at least one processor, a library of reusable grasp primitives for the robotic hand, wherein each reusable grasp primitive in the library of reusable grasp primitives corresponds to a particular configuration of the multiple fingers and opposable thumb; determining at least two grasp primitive characteristics based on the first attribute and the second attribute of the object; determining a set of reusable grasp primitives from the library of reusable grasp primitives based on the at least two grasp primitive characteristics; generating, by the at least one processor, a set of grasping events for the set of reusable grasp primitives from the library of reusable grasp primitives, wherein each grasping event comprises simulating, by the at least one processor, the robotic hand grasping the object with a reusable grasp primitive from the set of reusable grasp primitives; assigning, by the at least one processor, a grasping score to the respective reusable grasp primitive in each grasping event based on a degree of fit between the respective reusable grasp primitive and at least the first attribute of the object; selecting, by the at least one processor, a first reusable grasp primitive from the set of reusable grasp primitives; and executing, by the robotic hand, the first reusable grasp primitive to grasp the object.",
+  "patent_id": "US12377541-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B25J 9/1661"
+    ],
+    "all": [
+      "B25J 9/1661"
+    ],
+    "source": "converted"
+  }
+}

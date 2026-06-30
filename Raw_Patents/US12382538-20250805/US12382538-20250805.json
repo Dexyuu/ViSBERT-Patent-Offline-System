@@ -1,0 +1,22 @@
+{
+  "title": "Method and apparatus for multi-sim operation based on reporting on terminal state in mobile wireless communication system",
+  "abstract": "A method and apparatus for Multi-SIM operation based on reporting on terminal state is provided. Method for Multi-SIM operation based on reporting on terminal state includes receiving from a base station a first RRCReconfiguration, transmitting to the base station a UEAssistanceInformation, starting the first timer after initiating transmission of UEAssistanceInformation, receiving from the base station a second RRCReconfiguration, transmitting to the base station a RRCReconfigurationComplete in response to the second RRCReconfiguration and starting the first timer if the reconfigurationWithSync was included in a masterCellGroup in the second RRCReconfiguration and if the terminal initiated transmission of the UEAssistanceInformation during a specific time period.",
+  "claims": "1. A method performed by a terminal, the method comprising: receiving by the terminal from a base station a first Radio Resource Control (RRC) message, wherein: the first RRC message comprises a configuration related to terminal state transition; the configuration related to terminal state transition comprises information for a first timer; and the first timer is a timer related to terminal state transition; initiating by the terminal transmission of a second RRC message to the base station, wherein the second RRC message comprises information related to terminal state; starting by the terminal the first timer after initiating transmission of the second RRC message; receiving by the terminal from the base station a third RRC message, wherein the third RRC message comprises a ReconfigurationWithSync; transmitting by the terminal to the base station a fourth RRC message in response to the third RRC message; and starting by the terminal the first timer in case that: the reconfiguration WithSync was comprised in a masterCellGroup in the third RRC message; and transmission of the second RRC message was initiated during a specific time period.",
+  "patent_id": "US12382538-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 76/27",
+      "H04L 69/28",
+      "H04W 76/15",
+      "H04W 88/06"
+    ],
+    "all": [
+      "H04W 76/27",
+      "H04L 69/28",
+      "H04W 76/15",
+      "H04W 88/06"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Deployment control system, deployment control method, and deployment control program",
+  "abstract": "An objective is to suppress degradation of the usability of radio terminals even in cases in which the modes of use of the radio terminals fluctuate.A placement change determiner (510) determines, based on information associated with conditions or future conditions estimated from the conditions in a service area to which one or more RUs (Radio Units) in a mobile communication system belong, a placement change regarding at least one NF (Network Function) among NFs in the mobile communication system. A placement destination determiner (520) determines, based on the information, an NF to be changed and a placement destination of the NF to be changed. A deployer (530) executes the placement change by instantiating the NF to be changed at the placement destination.",
+  "claims": "1. A deployment control system, comprising: at least one processor configured to: receive, from a camera, an image of a service area; analyze the image to determine information associated with conditions or future conditions estimated from the conditions in the service area; determine, based on the information associated with conditions or future conditions estimated from the conditions in the service area to which one or more RUs (Radio Units) in a mobile communication system belong, a placement change regarding at least one NF (Network Function) among NFs in the mobile communication system; determine, based on the information, an NF to be changed and a placement destination of the NF to be changed; and executing the placement change by instantiating the NF to be changed at the placement destination, wherein the service area includes a plurality of cells formed by a plurality of DUs, the plurality of DUs are connected to the same CU (Central Unit), and based on determining the plurality of cells are grouped in a plurality of cell groups, the at least one processor is further configured to determine that a UPF (User Plane Function) is the NF to be changed.",
+  "patent_id": "US12382315-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 24/04",
+      "H04W 28/0247",
+      "H04W 28/16"
+    ],
+    "all": [
+      "H04W 24/04",
+      "H04W 28/0247",
+      "H04W 28/16"
+    ],
+    "source": "converted"
+  }
+}

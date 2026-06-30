@@ -1,0 +1,52 @@
+{
+  "application_id": "WO2018226448",
+  "application_id_fs": "WO2018226448",
+  "title": "Apparatus and method for recording and replaying interactive content in augmented/virtual reality in industrial automation systems and other systems",
+  "abstract": "A method includes receiving (404) data defining user actions associated with an AR/VR space. The method also includes translating (410) the user actions into associated commands and identifying (412) associations of the commands with visual objects in the AR/VR space. The method further includes aggregating (414) the commands, the associations of the commands with the visual objects, and an AR/VR environment setup into at least one file (120) and transmitting or storing (416) the file(s). Another method includes receiving (504) at least one file (120) containing commands, associations of the commands with visual objects in an AR/VR space, and an AR/VR environment setup. The other method also includes translating (508) the commands into associated user actions and recreating or causing a user device (204, 206, 208) to recreate (512-514) (i) the AR/VR space containing the visual objects based on the AR/VR environment setup and (ii) the user actions in the AR/VR space based on the associations of the commands with the visual objects.",
+  "claims": "Claims WHAT IS CLAIMED IS: 1. A method comprising: receiving (404) data defining user actions associated with an augmented reality/virtual reality (AR/VR) space; translating (410) the user actions into associated commands; identifying (412) associations of the commands with visual objects in the AR/VR space; aggregating (414) the commands, the associations of the commands with the visual objects, and an AR VR environment setup into at least one file (120); and transmitting or storing (416) the at least one file. 2. The method of Claim 1, wherein the at least one file has a portable file format. 3. The method of Claim 1 , wherein the data defining the user actions comprises one or more of: data defining one or more gestures made by a user; data defining one or more voice commands or voice annotations spoken by the user; data defining one or more textual messages provided by the user; and data defining one or more pointing actions taken by the user using at least one pointing device. 4. The method of Claim 1, wherein translating the user actions into the associated commands comprises using a grammar reference (116) that associates different user input actions with different commands. 5. The method of Claim 1, further comprising: using (500) the at least one file to recreate the user actions in the AR/VR space. 6. The method of Claim 5, wherein recreation of the user actions is \n\n performed automatically or is driven by a user viewing the recreated user actions. 7. An apparatus comprising: at least one processing device (302) configured to perform the method of any of Claims 1-6. 8. A non-transitory computer readable medium (304, 310, 312) containing instructions that when executed cause at least one processing device (302) to perform the method of any of Claims 1-6. 9. A method comprising: receiving (504) at least one file (120) containing commands, associations of the commands with visual objects in an augmented reality/virtual reality (AR/VR) space, and an AR/VR environment setup; translating (508) the commands into associated user actions; and recreating or causing a user device (204, 206, 208) to recreate (512-514) (i) the AR/VR space containing the visual objects based on the AR/VR environment setup and (ii) the user actions in the AR/VR space based on the associations of the commands with the visual objects. 10. The method of Claim 9, wherein the at least one file has a portable file format. 11. The method of Claim 9, wherein the user actions comprise: one or more gestures made by a user; one or more voice commands or voice annotations spoken by the user; one or more textual messages provided by the user; and one or more pointing actions taken by the user using at least one pointing device. 12. The method of Claim 9, wherein translating the commands into the associated user actions comprises using a grammar reference (116) that associates \n\n different user input actions with different commands. 13. The method of Claim 9, wherein recreation of the user actions is performed automatically or is driven by a user viewing the recreated user actions. 14. An apparatus comprising: at least one processing device (302) configured to perform the method of any of Claims 9-13. 15. A non-transitory computer readable medium containing instructions that when executed cause at least one processing device to perform the method of any of Claims 9-13.",
+  "classifications": {
+    "ipc": [
+      "G06F 3/00",
+      "G06F 3/01",
+      "G06F 3/011",
+      "G02B 27/00",
+      "G02B 1/00",
+      "G02B 26/00",
+      "G02B 30/00",
+      "G02B 27/01",
+      "G02B 27/017",
+      "G06F 3/017",
+      "H04L 67/00",
+      "H04L 67/01",
+      "H04L 67/12",
+      "H04L 67/131",
+      "G02B 27/0101",
+      "G02B 2027/014",
+      "G02B 27/0179",
+      "G02B 2027/0187"
+    ],
+    "cpc": [],
+    "all": [
+      "G06F 3/00",
+      "G06F 3/01",
+      "G06F 3/011",
+      "G02B 27/00",
+      "G02B 1/00",
+      "G02B 26/00",
+      "G02B 30/00",
+      "G02B 27/01",
+      "G02B 27/017",
+      "G06F 3/017",
+      "H04L 67/00",
+      "H04L 67/01",
+      "H04L 67/12",
+      "H04L 67/131",
+      "G02B 27/0101",
+      "G02B 2027/014",
+      "G02B 27/0179",
+      "G02B 2027/0187"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2018226448"
+}

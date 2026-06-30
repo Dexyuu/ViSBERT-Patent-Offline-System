@@ -1,0 +1,20 @@
+{
+  "title": "Event driven sensor (EDS) tracking of light emitting diode (LED) array",
+  "abstract": "An event driven sensor (EDS) is used for simultaneous localization and mapping (SLAM) and in particular is used in conjunction with a constellation of light emitting diodes (LED) to simultaneously localize all LEDs and track EDS pose in space. The EDS may be stationary or moveable and can track moveable LED constellations as rigid bodies. Each individual LED is distinguished at a high rate using minimal computational resources (no image processing). Thus, instead of a camera and image processing, rapidly pulsing LEDs detected by the EDS are used for feature points such that EDS events are related to only one LED at a time.",
+  "claims": "1. A method comprising: energizing plural lamps one at a time; detecting events from energizing the lamps using an event detector sensor (EDS); and using output of the EDS to generate simultaneous localization and mapping (SLAM) information in an augmented reality (AR) environment at least in part by generating, from the SLAM information, plural motion hypotheses; and selecting one of the hypotheses for use of the one of the hypotheses to execute SLAM.",
+  "patent_id": "US12379775-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/012",
+      "G01S 5/16",
+      "G06F 3/0325"
+    ],
+    "all": [
+      "G06F 3/012",
+      "G01S 5/16",
+      "G06F 3/0325"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "application_id": "WO2017062531",
+  "application_id_fs": "WO2017062531",
+  "title": "Reservoir simulation using an adaptive deflated multiscale solver",
+  "abstract": "Systems, computer-readable media, and methods are described for performing a reservoir simulation by obtaining reservoir data, obtaining simulation parameters, determining partial differential equations based on the simulation parameters, and performing a timestep of the reservoir simulation based on the reservoir data and the partial differential equations by removing an effect of long coherent structures with high contrasts, such as fractures, faults, high and low permeability channels, or shale layers, from the partial differential equations to generate adapted partial differential equations, and performing an algebraic multiscale method on the adapted partial differential equations to generate an approximated solution. The approximated solution can be used in a subsequent timestep of the reservoir simulation.",
+  "claims": "Claims Claims  What is claimed is: 1. A method, comprising: obtaining reservoir data; obtaining simulation parameters; determining a partial differential equation based on the simulation parameters; and performing a timestep of a reservoir simulation based on the reservoir data and the partial differential equation, by: removing an effect of long coherent structures with high contrasts from the partial differential equation to generate adapted partial differential equation; and performing an algebraic multiscale method on the adapted partial differential equation to generate an approximated solution. 2. The method of claim 1, wherein performing the timestep of the reservoir simulation comprises performing a plurality of iterations of removing the effect of the long coherent structures and performing the algebraic multiscale method. 3. The method of claim 1 , wherein performing the timestep of the reservoir simulation further comprises manipulating the approximated solution based on the effect of the long coherent structures with high contrasts that was removed. 4. The method of claim 1 , wherein performing the timestep of the reservoir simulation further comprises inputting the approximated solution into the partial differential equation and determining whether a solution of the partial differential equation converges. 5. The method of claim 4, wherein a subsequent iteration of removing the effect of the long coherent structures and performing the algebraic multiscale method is performed based on determining that the solution of the partial differential equation does not converge. 6. The method of claim 4, further comprising, in response to determining that the solution of the partial differential equation converges, processing a subsequent timestep of the reservoir simulation based on the approximated solution. 7. The method of claim 1 , further comprising discretizing the partial differential equation into a plurality of control volumes to generate discretized partial differential equations, wherein performing the timestep based on the reservoir data and the partial differential equation comprises performing the timestep based on the discretized partial differential equations. 8. The method of claim 1, wherein: performing a timestep comprises performing a plurality of timesteps; and an approximated solution is generated for each of the plurality of timesteps, the method further comprising displaying a representation of a reservoir that includes visual indications of the approximated solutions. 9. The method of claim 8, wherein the reservoir simulation comprises simulations of volumetric flow rates of the reservoir. 10. The method of claim 1, wherein the long coherent structures with high contrasts comprise one or more of fractures, faults, high and low permeability channels, or shale layers. 11. A computing system comprising: one or more processors; and a memory system comprising one or more non-transitory, computer-readable media storing instructions that, when executed by at least one of the one or more processors, cause the computing system to perform operations, the operations comprising: obtaining reservoir data; obtaining simulation parameters; determining a partial differential equation based on the simulation parameters; and performing a timestep of a reservoir simulation based on the reservoir data and the partial differential equation, by: \n\n removing an effect of long coherent structures with high contrasts from the partial differential equation to generate adapted partial differential equation; and performing an algebraic multiscale method on the adapted partial differential equation to generate an approximated solution. 12. The system of claim 1 1, wherein performing the timestep of the reservoir simulation comprises performing a plurality of iterations of removing the effect of the long coherent structures and performing the algebraic multiscale method. 13. The system of claim 11 , wherein performing the timestep of the reservoir simulation further comprises manipulating the approximated solution based on the effect of the long coherent structures with high contrasts that was removed. 14. The system of claim 11, wherein performing the timestep of the reservoir simulation further comprises inputting the approximated solution into the partial differential equation and determining whether a solution of the partial differential equation converges. 15. The system of claim 14, wherein a subsequent iteration of removing the effect of the long coherent structures and performing the algebraic multiscale method is performed based on determining that the solution of the partial differential equation does not converge. 16. The system of claim 14, the operations further comprising, in response to determining that the solution of the partial differential equation converges, processing a subsequent timestep of the reservoir simulation based on the approximated solution. 17. The system of claim 1 1, the operations further comprising discretizing the partial differential equation into a plurality of control volumes to generate discretized partial differential equations, wherein performing the timestep based on the reservoir data and the partial differential equation comprises performing the timestep based on the discretized partial differential equations. 18. The system of claim 11, wherein: \n\n performing a timestep comprises performing a plurality of timesteps; and an approximated solution is generated for each of the plurality of timesteps, the operations further comprising displaying a representation of a reservoir that includes visual indications of the approximated solutions. 19. The system of claim 18, wherein the reservoir simulation comprises simulations of volumetric flow rates of the reservoir. 20. A non-transitory, computer-readable medium storing instructions that, when executed by one or more processors of a computing system, cause the computing system to perform operations, the operations comprising: obtaining reservoir data; obtaining simulation parameters; determining a partial differential equation based on the simulation parameters; and performing a timestep of a reservoir simulation based on the reservoir data and the partial differential equation, by: removing an effect of long coherent structures with high contrasts from the partial differential equation to generate adapted partial differential equation; and performing an algebraic multiscale method on the adapted partial differential equation to generate an approximated solution.",
+  "classifications": {
+    "ipc": [
+      "G01V 20/00",
+      "G06F 30/00",
+      "G06F 30/20",
+      "G06F 30/23",
+      "E21B 43/00",
+      "E21B 49/00",
+      "G06F 17/00",
+      "G06F 17/10",
+      "G06F 17/18",
+      "E21B 2200/00",
+      "E21B 2200/20",
+      "G06F 2111/00",
+      "G06F 2111/10"
+    ],
+    "cpc": [],
+    "all": [
+      "G01V 20/00",
+      "G06F 30/00",
+      "G06F 30/20",
+      "G06F 30/23",
+      "E21B 43/00",
+      "E21B 49/00",
+      "G06F 17/00",
+      "G06F 17/10",
+      "G06F 17/18",
+      "E21B 2200/00",
+      "E21B 2200/20",
+      "G06F 2111/00",
+      "G06F 2111/10"
+    ],
+    "source": "google_patents"
+  },
+  "google_patents_url": "https://patents.google.com/?q=WO2017062531"
+}

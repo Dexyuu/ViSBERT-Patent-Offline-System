@@ -1,0 +1,20 @@
+{
+  "title": "Contactless device and method for generating a unique temporary code",
+  "abstract": "Contactless device for electronic payment and digital recognition of a person and method for generating a unique temporary OTP dynamic code via the contactless device. The device having a first set of components and a second set of components, wherein the first set of components comprises at least one biometric sensor for detecting a biometric character of a user and generating a biometric datum; at least one battery for supplying the components of the device; a display for displaying information data; an OTP microchip for generating a temporary dynamic code; at least one activation button for the OTP token function; at least one electronic circuit for contactless communication; and a microcontroller to manage the operations of the device. The second set of components includes at least one passive NFC microchip, in which the passive NFC microchip is removable from the device and isolated from the first set of components.",
+  "claims": "1. A method performed by a contactless device comprising a microcontroller, a biometric sensor, a One Time Password (OTP) microchip, an activation button, a display, and a Near Field Communication (NFC) chip, the method comprising: storing, by the microcontroller, a text string; at a first time, authenticating a user, the authenticating the user comprising: detecting, by the biometric sensor, biometric data of the first user by a biometric scan; generating, by the biometric sensor, a first text string from the biometric data and generating, by the biometric sensor, a biometric template from the text string; determining, by the microcontroller, that the first text string and the text string are the same; based on the first text string and the text string being the same, generating, by the OTP microchip, and based on the first text string, a first OTP code; and sending, by the NFC chip, the generated first OTP code to a second device over an NFC protocol; and at a second time different from the first time, determining, by the microcontroller, actuation of the activation button by the user; displaying, by the microcontroller, a request for authentication in the display; detecting, by the biometric sensor, biometric data of the user by a biometric scan; generating, by the biometric sensor, a second text string from the biometric data and generating, by the biometric sensor, a biometric template from the second text string; determining, by the microcontroller, that the second text string and the text string are the same; based on the second text string and the text string being the same, generating, by the OTP microchip, and based on the second text string, a second OTP code; and displaying, by the microcontroller, the second OTP code in the display.",
+  "patent_id": "US12380424-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06Q 20/3278",
+      "G06Q 20/3227",
+      "G06Q 20/3821"
+    ],
+    "all": [
+      "G06Q 20/3278",
+      "G06Q 20/3227",
+      "G06Q 20/3821"
+    ],
+    "source": "converted"
+  }
+}

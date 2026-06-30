@@ -1,0 +1,28 @@
+{
+  "title": "Uplink power control",
+  "abstract": "Techniques for uplink power control (e.g., for New Radio (NR)) are disclosed. A wireless transmit/receive unit (WTRU) may determine that the WTRU is to perform a first and a second transmissions using a first and a second transmission beams. The WTRU may determine an uplink transmission power for one or more of the first or second transmissions. For example, if the angular separation of the first and the second transmission beams is greater than a first separation threshold, the WTRU may determine the uplink transmission power having a first maximum power level parameter and a second maximum power level parameter. If the angular separation of the first and the second transmission beams is less than a second separation threshold, the WTRU determine the uplink transmission power having a shared maximum power level parameter. The WTRU may transmit the first and second transmissions using the first and second transmission beams, respectively.",
+  "claims": "1. A method implemented in a wireless transmit/receive unit (WTRU), the method comprising: receiving configuration information related to a set of physical resource blocks, wherein each physical resource block of the set of physical resource blocks is associated with a same numerology; determining, based on the configuration information, a set of power control parameters and a respective subcarrier spacing associated with the set of physical resource blocks; determining a transmission power for the set of physical resource blocks using the set of power control parameters and a determined power allocation value, wherein the determined power allocation value corresponds to a ratio between a first value of the respective subcarrier spacing and a second value of a reference subcarrier spacing, and wherein the transmission power for the set of physical resource blocks is determined based on a logarithm of a value, the value being determined based on at least the determined power allocation value; and transmitting the set of physical resource blocks using the determined transmission power.",
+  "patent_id": "US12382400-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 52/146",
+      "H04B 7/0404",
+      "H04B 7/0408",
+      "H04W 52/265",
+      "H04W 52/281",
+      "H04W 52/365",
+      "H04W 52/367"
+    ],
+    "all": [
+      "H04W 52/146",
+      "H04B 7/0404",
+      "H04B 7/0408",
+      "H04W 52/265",
+      "H04W 52/281",
+      "H04W 52/365",
+      "H04W 52/367"
+    ],
+    "source": "converted"
+  }
+}

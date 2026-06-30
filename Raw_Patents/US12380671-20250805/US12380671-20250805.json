@@ -1,0 +1,32 @@
+{
+  "title": "Systems and methods for generating an object recognition template",
+  "abstract": "A computing system including a processing circuit in communication with a camera having a field of view. The processing circuit is configured to perform operations related to detecting, identifying, and retrieving objects disposed amongst a plurality of objects. The processing circuit may be configured to perform operations related to object recognition template generation, feature generation, hypothesis generation, hypothesis refinement, and hypothesis validation.",
+  "claims": "1. A computing system configured to generate an object recognition template for identifying an object in a scene comprising: at least one processing circuit configured for: obtaining object information including a digitally represented object; extracting two-dimensional measurement information from the object information, including extracting gradient information from the object information, the gradient information being indicative of a direction or orientation of a candidate edge of the digitally represented object; extracting three-dimensional measurement information from the object information, including extracting surface normal vector information from the object information, the surface normal vector information describing a plurality of vectors normal to a surface of the digitally represented object; and generating an object recognition template according to the two-dimensional measurement information and the three-dimensional measurement information, wherein the object recognition template is for an object picking operation for the object in the scene by a robot interaction.",
+  "patent_id": "US12380671-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06V 10/7515",
+      "B25J 9/1664",
+      "B25J 9/1697",
+      "G06T 1/0014",
+      "G06T 7/74",
+      "G06V 10/751",
+      "G06V 10/757",
+      "G06V 20/653",
+      "G06V 2201/06"
+    ],
+    "all": [
+      "G06V 10/7515",
+      "B25J 9/1664",
+      "B25J 9/1697",
+      "G06T 1/0014",
+      "G06T 7/74",
+      "G06V 10/751",
+      "G06V 10/757",
+      "G06V 20/653",
+      "G06V 2201/06"
+    ],
+    "source": "converted"
+  }
+}

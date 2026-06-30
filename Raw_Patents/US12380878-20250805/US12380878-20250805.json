@@ -1,0 +1,30 @@
+{
+  "title": "Call word learning data generation device and method",
+  "abstract": "The present disclosure relates to a device and method for generating call word learning data, and the call word learning data generation device includes a processor and storage. The storage stores utterance data and an utterance phrase corresponding to the utterance data. The processor is configured to decompose the utterance data into phoneme units based on the utterance data and the utterance phrase, to receive a call word through a user input, to decompose the received call word into phoneme units, to compare phoneme data of the call word with phoneme data of the utterance data, and to generate call word learning data by combining phoneme data matched as the comparison result.",
+  "claims": "1. A call word learning data generation device, the device comprising: a processor; and a storage configured to store utterance data and an utterance phrase corresponding to the utterance data, wherein the processor is configured to: decompose the utterance data into phoneme units based on the utterance data and the utterance phrase to generate utterance phoneme data from the decomposed utterance data, receive a call word through a user input, decompose the received call word into phoneme units to generate call word phoneme data from the decomposed call word, compare the utterance phoneme data with the call word phoneme data, and generate call word learning data by combining phoneme data that matched according to the comparison result.",
+  "patent_id": "US12380878-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G10L 15/063",
+      "G10L 15/02",
+      "G10L 15/08",
+      "G10L 15/22",
+      "G10L 25/78",
+      "G10L 25/90",
+      "G10L 2015/025",
+      "G10L 2015/088"
+    ],
+    "all": [
+      "G10L 15/063",
+      "G10L 15/02",
+      "G10L 15/08",
+      "G10L 15/22",
+      "G10L 25/78",
+      "G10L 25/90",
+      "G10L 2015/025",
+      "G10L 2015/088"
+    ],
+    "source": "converted"
+  }
+}

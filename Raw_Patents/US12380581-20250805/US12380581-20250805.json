@@ -1,0 +1,38 @@
+{
+  "title": "Localized depth disambiguation for time-of-flight data",
+  "abstract": "Sensors, including time-of-flight sensors, may be used to detect objects in an environment. In an example, a vehicle may include a time-of-flight sensor that images objects around the vehicle, e.g., so the vehicle can navigate relative to the objects. Composite sensor data can be generated based on information from multiple exposures captured at different exposure times. In examples, a first depth determination technique is applied to a first subset of pixels and a second depth determination technique is applied to a second subset of the pixels. The first subset of pixels may correspond to pixels that are associated with a highly-reflective surface.",
+  "claims": "1. A vehicle comprising: a time-of-flight sensor configured to generate data based on light received at a receiver of the time-of-flight sensor; one or more processors; and non-transitory memory storing processor-executable instructions that, when executed by the one or more processors, configure the vehicle to perform actions comprising: receiving, from the time-of-flight (ToF) sensor, first ToF data corresponding to a first exposure time associated with a first modulation frequency of the ToF sensor, the first ToF data including first depth data for a plurality of pixels; receiving, from the ToF sensor, second ToF data corresponding to a second exposure time associated with at a second modulation frequency of the ToF sensor, the second ToF data including second depth data for the plurality of pixels; determining, from intensity data associated with the plurality of pixels, high intensity pixels of the plurality of pixels; determining, using a first depth determination technique, at least a portion of the first depth data associated with the high intensity pixels, and at least a portion of the second depth data associated with the high intensity pixels, disambiguated depth data associated with the high intensity pixels; identifying a group of pixels including the high intensity pixels; determining, using a second depth determination technique different from the first depth determination technique, a measured depth associated with a subset of the plurality of pixels other than the group of pixels including the high intensity pixels; and generating composite sensor data that associates the disambiguated depth data with the group of pixels including the high intensity pixels and the measured depth with the subset of the plurality of pixels other than the group of pixels including the high intensity pixels.",
+  "patent_id": "US12380581-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/55",
+      "B60R 11/00",
+      "G01S 7/4865",
+      "G01S 7/4915",
+      "G01S 17/89",
+      "G06T 7/521",
+      "B60W 60/001",
+      "G06T 2207/10028",
+      "G06T 2207/10144",
+      "G06T 2207/20212",
+      "G06T 2207/30241",
+      "G06T 2207/30252"
+    ],
+    "all": [
+      "G06T 7/55",
+      "B60R 11/00",
+      "G01S 7/4865",
+      "G01S 7/4915",
+      "G01S 17/89",
+      "G06T 7/521",
+      "B60W 60/001",
+      "G06T 2207/10028",
+      "G06T 2207/10144",
+      "G06T 2207/20212",
+      "G06T 2207/30241",
+      "G06T 2207/30252"
+    ],
+    "source": "converted"
+  }
+}

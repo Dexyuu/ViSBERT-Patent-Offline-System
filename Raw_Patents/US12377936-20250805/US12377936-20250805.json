@@ -1,0 +1,32 @@
+{
+  "title": "Matching meshes for virtual avatars",
+  "abstract": "Examples of systems and methods for matching a base mesh to a target mesh for a virtual avatar or object are disclosed. The systems and methods may be configured to automatically match a base mesh of an animation rig to a target mesh, which may represent a particular pose of the virtual avatar or object. Base meshes may be obtained by manipulating an avatar or object into a particular pose, while target meshes may be obtain by scanning, photographing, or otherwise obtaining information about a person or object in the particular pose. The systems and methods may automatically match a base mesh to a target mesh using rigid transformations in regions of higher error and non-rigid deformations in regions of lower error.",
+  "claims": "1. A method for matching a base mesh to a target mesh, the method comprising: obtaining, using computing equipment, the base and target meshes, each of which comprises a plurality of vertices; matching, using the computing equipment, the base mesh to the target mesh by: (i) applying at least one iteration of a first type of transformation to at least some of the vertices of the base mesh until distance differences between the base and target meshes are below a first threshold; and (ii) applying at least one iteration of a second type of transformation to at least some of the vertices of the base mesh until the distance differences between the base and target meshes are below a second threshold, wherein the second threshold is smaller than the first threshold; and providing, using the computing equipment, an output based at least on the base mesh with transformed vertices, wherein the first type of transformation comprises a rigid transformation of at least some of the vertices of the base mesh towards corresponding vertices of the target mesh, and wherein applying at least one iteration of the first type of transformation comprises: identifying a grouping of vertices of the base mesh that have distance differences above the first threshold, wherein a given vertex in the grouping of vertices has a largest distance difference amongst the grouping; determining a size of a falloff region based at least in part on a magnitude of a largest distance difference; applying the rigid transformation for the vertices of the base mesh in the falloff region; and feathering the rigid transformation for the vertices of the base mesh outside of the falloff region.",
+  "patent_id": "US12377936-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "B63B 21/26",
+      "B63B 35/44",
+      "B63H 21/32",
+      "F01N 13/004",
+      "G06T 13/40",
+      "G06T 17/20",
+      "G06T 19/20",
+      "G06V 40/10",
+      "F01N 2590/02"
+    ],
+    "all": [
+      "B63B 21/26",
+      "B63B 35/44",
+      "B63H 21/32",
+      "F01N 13/004",
+      "G06T 13/40",
+      "G06T 17/20",
+      "G06T 19/20",
+      "G06V 40/10",
+      "F01N 2590/02"
+    ],
+    "source": "converted"
+  }
+}

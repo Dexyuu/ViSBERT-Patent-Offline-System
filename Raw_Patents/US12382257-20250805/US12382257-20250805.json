@@ -1,0 +1,26 @@
+{
+  "title": "Content recommendation and display based on geographic and user context",
+  "abstract": "A travel system generates and provides content recommendations to a user of the travel system. The travel system identifies content categories that are likely to be of interest to the user of the travel system based on context characteristics of the user such as whether the user is a traveler or a local at a particular geographic location. Additionally, the travel system further identifies content objects (e.g., attractions, activities, events, restaurants, businesses, and the like) for each identified content category that are likely to be of interest to the user based on characteristics of each content object. The identified content categories and content objects are provided as content recommendations for display to a user of the travel system, enabling a user to quickly navigate between content categories and content objects within each content category.",
+  "claims": "1. A computer-implemented method for selecting content for display to a user in a travel system comprising: identifying, by a server of the travel system, a plurality of context characteristics of the user based on a location of the user, the plurality of context characteristics including preferences of additional users; for each of a plurality of content objects of a plurality of content categories, scoring the content objects based on the identified plurality of context characteristics of the user; for each of a plurality of content objects selected based on a score of each content object: identifying, by the server, one or more content objects corresponding to a respective content category, each content object associated with a physical location within a threshold proximity of the location of the user; and updating, by the server, a display interface displayed by a mobile device of the user, the updated display interface including a plurality of interface portions wherein each interface portion identifies a content category and displays the identified one or more content objects corresponding to the identified content category.",
+  "patent_id": "US12382257-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04W 4/23",
+      "G06F 3/0485",
+      "G06F 3/04883",
+      "G06Q 50/12",
+      "G06Q 50/14",
+      "H04W 4/029"
+    ],
+    "all": [
+      "H04W 4/23",
+      "G06F 3/0485",
+      "G06F 3/04883",
+      "G06Q 50/12",
+      "G06Q 50/14",
+      "H04W 4/029"
+    ],
+    "source": "converted"
+  }
+}

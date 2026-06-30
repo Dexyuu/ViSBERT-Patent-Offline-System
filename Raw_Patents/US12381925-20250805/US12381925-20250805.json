@@ -1,0 +1,20 @@
+{
+  "title": "Method and apparatus for configuring audio-video conference, server, and storage medium",
+  "abstract": "The present disclosure relates to a method and apparatus for configuring an audio-video conference, a server, and a storage medium. According to the present disclosure, a third-party application server initiates a conference configuration request to submit a conference configuration to an audio-video conference server, so that the audio-video conference server can control a conference behavior of a corresponding user by finding a behavior configuration corresponding to a user identification of a participating user from the conference configuration. Thus, a third party can freely customize a conference behavior according to a role requirement thereof, efficiently meeting the requirement of customizing various conference behaviors based on roles.",
+  "claims": "1. A method for configuring an audio-video conference, comprising: in response to receiving a conference configuration request initiated by a third-party application server, generating a conference identification corresponding to the conference configuration request, wherein the conference configuration request comprises a conference configuration, the conference configuration comprises at least one behavior configuration, and the behavior configuration is configured to define a conference behavior of at least one user; storing the generated conference identification correspondingly to the conference configuration; returning the generated conference identification to the third-party application server, in response to receiving a conference joining request initiated by a target client, determining a target conference configuration corresponding to a target conference identification, wherein the conference joining request comprises a target user identification and the target conference identification; determining a target user behavior configuration corresponding to the target user identification based on the target user identification and the target conference configuration; and controlling a conference behavior of a target user indicated by the target user identification based on the target user behavior configuration, wherein the behavior configuration comprises a user identification set and a conference behavior identification set, wherein the conference behavior identification set comprises at least one conference behavior identification; and the determining the target user behavior configuration corresponding to the target user identification based on the target user identification and the target conference configuration, comprises: determining a behavior configuration matching the target user identification in the target conference configuration; and determining a conference behavior indicated by a conference behavior identification set in the determined behavior configuration as the target user behavior configuration.",
+  "patent_id": "US12381925-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 65/403",
+      "G06Q 10/103",
+      "H04L 65/1093"
+    ],
+    "all": [
+      "H04L 65/403",
+      "G06Q 10/103",
+      "H04L 65/1093"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Method for differentiating retinal layers in oct image",
+  "abstract": "A method for differentiating retinal layers includes obtaining an optical coherence tomography retinal layer image of an eye to be examined and inputting it into a deep neural network, calculating probability P that each pixel is included in each layer from the inputted layer image, calculating probability P1(x,y) that a pixel is in or above (kâ1)-th layer and probability P2(x,y) that the pixel is in or below k-th layer from probabilities P(x,y) that the pixel is included in each layer, calculating probability Fkâ1,k(x,y) that the pixel becomes a boundary line between the (kâ1)-th layer and the k-th layer from P1(x,y) and P2(x,y), obtaining a node cost Ckâ1,k(x,y) of the pixel by multiplying Fkâ1,k(x,y) with an image brightness change ÎI at the pixel, and determining the boundary line between the (kâ1)-th and k-th layers by connecting coordinates (x,y) of the pixels where Ckâ1,k(x,y) calculated for each position x is the maximum.",
+  "claims": "1. A method of determining boundary lines between retinal layers, comprising: step S 20 of obtaining an optical coherence tomography (OCT) retinal layer image of an eye to be examined and inputting it into a deep neural network; step S 22 of calculating a probability P that each pixel is included in each layer from the inputted layer image; step S 24 of calculating a probability P 1 ( x, y ) that a pixel at the coordinate (x, y) is in or above (k−1)-th layer and a probability P 2 ( x, y ) that the pixel is in or below k-th layer from probabilities P (x, y) that the pixel at the coordinate (x, y) is included in each layer, wherein the probability P 1 ( x, y ) and the probability P 2 ( x, y ) are calculated by steps of: calculating a likelihood L 1 that the pixel at position (x, y) is located above a boundary line between the (k−1)-th layer and the k-th layer, the likelihood L 1 being determined by summing probabilities, output by the deep neural network, that the pixel is classified as belonging to one of retinal layers C uppers above the boundary line, and a likelihood L 2 that the pixel is located below the boundary line, the likelihood L 2 being determined by summing probabilities, output by the deep neural network, that the pixel is classified as belonging to one of retinal layers C lowers below the boundary line, using Equation 1 below: L 1 ( x,y )Σ i∈cuppers Pl ( x,y ), L 2( x,y )=Σ i∈clowers pl ( x,y )  Equation 1: obtaining the probability P 1 and the probability P 2 from the likelihood L 1 and the likelihood L 2 using Equation 2 below:",
+  "patent_id": "US12380558-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06T 7/0012",
+      "G06T 7/13",
+      "G06T 2207/10101",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30041"
+    ],
+    "all": [
+      "G06T 7/0012",
+      "G06T 7/13",
+      "G06T 2207/10101",
+      "G06T 2207/20081",
+      "G06T 2207/20084",
+      "G06T 2207/30041"
+    ],
+    "source": "converted"
+  }
+}

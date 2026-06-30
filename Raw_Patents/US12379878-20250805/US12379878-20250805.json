@@ -1,0 +1,24 @@
+{
+  "title": "Data storage device and method for storing selected data in relatively-lower data retention pages of a quad-level cell memory",
+  "abstract": "Different pages of a quad-level cell (QLC) memory can have different data retention characteristics. A controller of a data storage device can store selected data in relatively-lower data retention pages of the QLC block. For example, data for an internal data storage device operation can be stored in the relatively-lower data retention pages of QLC memory, and host data can be stored in the relatively-higher data retention pages of QLC memory. Other examples are provided.",
+  "claims": "1. A data storage device comprising: a quad level cell (QLC) memory comprising a lower page (LP), a middle page (MP), an upper page (UP), and a top page (TP); and one or more processors, individually or in combination, configured to: determine data reliability of each of the pages; write data for an internal data storage device operation in a first set of pages whose data retention is below a threshold; and write host data in a second set of pages whose data retention is above the threshold.",
+  "patent_id": "US12379878-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 3/0659",
+      "G06F 3/0614",
+      "G06F 3/0631",
+      "G06F 3/065",
+      "G06F 3/0679"
+    ],
+    "all": [
+      "G06F 3/0659",
+      "G06F 3/0614",
+      "G06F 3/0631",
+      "G06F 3/065",
+      "G06F 3/0679"
+    ],
+    "source": "converted"
+  }
+}

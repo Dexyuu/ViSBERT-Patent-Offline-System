@@ -1,0 +1,18 @@
+{
+  "title": "Automatic connection of network probes",
+  "abstract": "A first network probe is associated with a first end-point of a first router. The first network probe detects, by filtering packets coming from or going to the first router, a communication tunnel between the first end-point and a second end-point of a second router. The first network probe deduces an address of a second network probe associated with the second end-point, by applying a bijective translation function relative to an address of the second end-point retrieved from the filtered packets. Inter-probe communications are set-up between the first and second network probes, using the deduced address of the second network probe, and data traffic in the communication tunnel is jointly monitored by the first and second network probes.",
+  "claims": "1. A method implemented by a network probe in a communication system comprising a plurality of routers, the network probe being associated with a first router of said plurality of routers and with a first end-point of the first router, the method being carried out by the network probe, called first network probe herein, and comprising the following steps: detecting, by filtering packets coming from or going to the first router, a communication tunnel between the first end-point and a second end-point of a second router of said plurality of routers; retrieving, from at least one filtered packet, an address of the second end-point; deducing an address of a second network probe associated with the second end-point and the second router, by applying a bijective translation function relative to the retrieved address of the second end-point; setting-up inter-probe communications between the first network probe and the second network probe, using the deduced address of the second network probe; and carrying out data traffic monitoring in the communication tunnel, jointly by the first network probe and the second network probe, by measuring data traffic transmitted and received at the first end-point and the second end-point, respectively.",
+  "patent_id": "US12381803-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04L 43/0882",
+      "H04L 43/12"
+    ],
+    "all": [
+      "H04L 43/0882",
+      "H04L 43/12"
+    ],
+    "source": "converted"
+  }
+}

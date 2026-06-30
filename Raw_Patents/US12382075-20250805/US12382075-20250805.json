@@ -1,0 +1,18 @@
+{
+  "title": "Derivation on sublayer-wise output layer set",
+  "abstract": "A method and system for decoding a coded video sequence may include obtaining the coded video sequence, and decoding the coded video sequence. A a value of a temporal sublayer identifier of a video coding layer (VCL) network abstraction layer (NAL) unit in the coded video sequence is constrained to be less than or equal to a value of vps_max_sublayers_minus1, that specifies a maximum number of temporal sublayers that may be present in a layer in each coded video sequence referring to the video parameter set (VPS), in the VPS referred to by the VCL NAL unit.",
+  "claims": "1. A method of processing visual media by at least one processor, the method comprising: performing a conversion between a visual media file and a bitstream of a visual media data; and processing at least one of the visual media file and the bitstream of the visual media data based on the conversion, wherein a value of a temporal sublayer identifier max_tid_il_ref_pics_plus1[i] of a video coding layer (VCL) network abstraction layer (NAL) unit in a video sequence of the bitstream is constrained to be less than or equal to a value of vps_max_sublayers_minus1 that specifies a maximum number of temporal sublayers capable of being present in a layer in each coded video sequence referring to a video parameter set (VPS), in the VPS referred to by the VCL NAL unit, and wherein the value of max_tid_il_ref_pics_plus1[i] being zero specifies that inter-layer prediction is not used by non-intra random access point (IRAP) pictures of an i-th layer.",
+  "patent_id": "US12382075-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/44",
+      "H04N 19/503"
+    ],
+    "all": [
+      "H04N 19/44",
+      "H04N 19/503"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Techniques for random access point indication and picture output in coded video stream",
+  "abstract": "Systems and methods for decoding a coded video stream are provided. A method includes receiving a coded video stream that includes an access unit, including a picture; signaling a first flag that indicates whether the access unit includes either or neither one from among an intra random access point (IRAP) picture and a gradual decoding refresh (GDR) picture; signaling a second flag that indicates whether the picture is the IRAP picture; and decoding the picture, as a current picture, based on the signaling of the first flag and the second flag, wherein a value of the first flag and a value of the second flag are aligned.",
+  "claims": "1. A method of video decoding performed by at least one processor, the method comprising: receiving a coded video stream that includes an access unit, including a picture; determining whether a first flag, in an access unit delimiter of the coded video stream, indicates that the access unit includes either or neither one from among an intra random access point (IRAP) picture and a gradual decoding refresh (GDR) picture; determining whether a second flag, in a picture header of the coded video stream, indicates that the picture is the IRAP picture; and decoding the picture, as a current picture, based on the first flag and the second flag, wherein a value of the first flag and a value of the second flag are aligned, and wherein the decoding comprises: constructing a reference picture list; generating an unavailable reference picture in the reference picture list; and checking bitstream conformance, for reference pictures in the reference picture list, that the following constraints apply: a number of entries that are indicated to be in the reference picture list is not less than a number of active entries that are indicated to be in the reference picture list, each picture referred to by an active entry in the reference picture list is present in a decoded picture buffer (DPB) and has a temporal identifier value less than or equal to a temporal identifier value of the current picture, and each picture referred to by an entry in the reference picture list is not the current picture and is indicated by a picture header flag to potentially be a reference picture.",
+  "patent_id": "US12382079-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "H04N 19/46",
+      "H04N 19/105",
+      "H04N 19/159",
+      "H04N 19/172",
+      "H04N 19/188"
+    ],
+    "all": [
+      "H04N 19/46",
+      "H04N 19/105",
+      "H04N 19/159",
+      "H04N 19/172",
+      "H04N 19/188"
+    ],
+    "source": "converted"
+  }
+}

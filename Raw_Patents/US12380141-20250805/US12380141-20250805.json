@@ -1,0 +1,24 @@
+{
+  "title": "Systems and methods for identifying dynamic types in voice queries",
+  "abstract": "The system receives a voice query at an audio interface and converts the voice query to text. The system identifies entities included in the query based on comparison to an information graph, as well as dynamic types based on the structure and format of the query. The system can determine dynamic types by analyzing parts of speech, articles, parts of speech combinations, parts of speech order, influential features, and comparisons of these aspects to references. The system combines tags associated with the identified entities and tags associated with the dynamic types to generate query interpretations. The system compares the interpretations to reference templates, and selects among the query interpretations using predetermined criteria. A search query is generated based on the selected interpretation. The system retrieves content or associated identifiers, updates metadata, updates reference information, or a combination thereof. Accordingly, the system responds to queries that include non-static types.",
+  "claims": "1. A method for identifying content based on a query, the method comprising: receiving data that indicates a query; identifying, from one or more databases, keywords based on the data and the query; determining that a portion of the query cannot be categorized based on the keywords; identifying a dynamic categorization associated with the portion of the query by comparing at least one of words, phrases, or parts of speech of the query to tags associated with dynamic categorizations; generating search tags based on the keywords and the dynamic categorization; determining content items based on the search tags; and causing to be outputted the content items.",
+  "patent_id": "US12380141-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G06F 16/3329",
+      "G06F 16/383",
+      "G06F 16/634",
+      "G06F 40/295",
+      "G10L 21/06"
+    ],
+    "all": [
+      "G06F 16/3329",
+      "G06F 16/383",
+      "G06F 16/634",
+      "G06F 40/295",
+      "G10L 21/06"
+    ],
+    "source": "converted"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Tracking support apparatus, terminal, tracking support system, tracking support method and program",
+  "abstract": "A tracking support system includes a position calculating section connected with a plurality of cameras arranged in a predetermined monitoring area to transmit video images imaged by the plurality of cameras and configured to calculate a position of the tracking target based on the video images received from the plurality of cameras; a tracker selecting section configured to select a tracker to be instructed to track the tracking target, based on position information of the terminal received from the terminal and the calculated position of the tracking target; and an information transmitting section configured to transmit information of a distance between the tracking target and the terminal during the tracking of the tracking target to the terminal carried by the selected tracker.",
+  "claims": "1. A tracking support apparatus comprising: a position calculating section configured to calculate a position of a tracking target using video images received from a plurality of cameras, the position calculating section being connected with the plurality of cameras arranged in a predetermined monitoring area to transmit video images taken by the plurality of cameras; a receiver configured to receive position information of a plurality of terminals, each one of the plurality of terminals being carried by a tracker; a tracker selecting section configured to select a tracker instructed to track the tracking target, using the position information of the plurality of terminals and the calculated position of the tracking target; and an information transmitting section configured to transmit information of a distance between the tracking target and the terminal during tracking of the tracking target to the terminal of the selected tracker, wherein the information transmitting section is configured to transmit an approach warning to the terminal of the selected tracker when the distance between the tracking target and the terminal is smaller than a predetermined threshold, wherein the receiver is configured to: receive, from the terminal, a notification of a monitoring failure; and receive, from the terminal, a notification that the tracker requests takeover of the tracking of the tracking target to a new tracker, independently from notification of the monitoring failure.",
+  "patent_id": "US12380782-20250805",
+  "classifications": {
+    "ipc": [],
+    "cpc": [
+      "G08B 13/19608",
+      "G06T 7/292",
+      "G06V 20/52",
+      "G08B 13/19613",
+      "G08B 13/19645",
+      "G08B 25/009",
+      "G06T 2207/30232"
+    ],
+    "all": [
+      "G08B 13/19608",
+      "G06T 7/292",
+      "G06V 20/52",
+      "G08B 13/19613",
+      "G08B 13/19645",
+      "G08B 25/009",
+      "G06T 2207/30232"
+    ],
+    "source": "converted"
+  }
+}
