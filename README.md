@@ -4,25 +4,6 @@ Welcome to ViSBERT-Patent. This is a standalone, multimodal (text + image) paten
 
 Please note that Internet connection is required when using the search script.
 
-## Required Folder Structure
-Before running the script, ensure your directory (USB drive or local hard drive) is structured exactly like this:
-
-Offline_System/
-├── model.py                        # The neural network architecture
-├── search_script.py                # The main interactive deployment script
-├── requirements.txt                # Python library dependencies
-├── Model_Weights.pt                # Exported trained model weights
-├── offline_patent_vectors.pt       # The pre-computed 256-D patent database from the dataset used (Both Training and Testing)
-├── offline_patent_ids.json         # The lookup dictionary for patent IDs
-├── ground_truth_labels.json        # IPC/CPC classification codes of patents
-├── README.md                       # Readme file
-└── Raw_Patents/                    # Folder containing all original JSON & PNG files (For preview purposes)
-    ├── US1234567/
-    │   ├── US1234567.json
-    │   └── US1234567.png
-    └── ...
-
-
 ## Installation & Setup (First Time Only)
 
 Follow these steps to set up the environment on a new machine.
@@ -49,6 +30,10 @@ source .venv/bin/activate
 ### 3. Install Required Libraries
 With your virtual environment activated (you should see "(.venv)" before the path in your terminal), install the dependencies using this command:
 python -m pip install -r requirements.txt
+
+Upon installing all required libraries, you would need to download the Model_Weights and place the downloaded "Model_Weights.pt" on the same directory as the search_script.py file
+
+Model Weights can be downloaded here: https://drive.google.com/file/d/1STiegPiam_aZPFSvKxY6W9ssQbSqQnsZ/view?usp=sharing
 
 
 ### 4. IMPORTANT: NLTK Stopwords Fix
